@@ -59,7 +59,7 @@ docs/
 
 The Website documentation is provided by [gitbook](https://www.gitbook.com/) and can be discovered at url:
 
-[**Java Patterns Docs**](https://alexander-rogalsky.gitbook.io/java-patterns-docs/)
+[**Java Patterns**](https://alexander-rogalsky.gitbook.io/java-patterns/)
 
 To enable documentation serving at _**localhost**_ ****the following steps should be considered:
 
@@ -143,8 +143,6 @@ LGPLv3 is additional permissions on top of GPLv3.
 ![image](https://user-images.githubusercontent.com/19885116/48661948-6cf97e80-ea7a-11e8-97e7-b45332a13e49.png)
 
 ([License](https://github.com/AlexRogalskiy/java-patterns/blob/master/LICENSE.txt))
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FAlexRogalskiy%2Fjava-patterns.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FAlexRogalskiy%2Fjava-patterns?ref=badge_large)
 
 ## 🌟 _Development Support_
 
