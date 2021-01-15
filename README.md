@@ -29,9 +29,9 @@ mkdocs.yml    # Configuration file.
 docs/
     summary.md  # Documentation summary
     units/
-		design-patterns.md # Design patterns and architectural concepts
-		scenarios.md # Scenarios in practice
-		use-cases.md # Typical use cases 
+        design-patterns.md # Design patterns and architectural concepts
+        scenarios.md # Scenarios in practice
+        use-cases.md # Typical use cases 
     user-guide/
         changelog.md # Changelog page 
         code_of_conduct.md # Code of conduct page 
