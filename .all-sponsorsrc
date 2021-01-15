@@ -1,0 +1,23 @@
+{
+   "individuals":[
+      {
+         "MemberId":3901898,
+         "createdAt":"2019-09-07 09:53",
+         "type":"USER",
+         "role":"ADMIN",
+         "isActive":true,
+         "totalAmountDonated":0,
+         "lastTransactionAt":"2020-12-07 16:17",
+         "lastTransactionAmount":0,
+         "profile":"https://opencollective.com/nullables",
+         "name":"Alexander Rogalskiy",
+         "company":"Nullables.io",
+         "description":null,
+         "image":"/avatars/3901898.jpg",
+         "email":null,
+         "twitter":null,
+         "github":"https://github.com/AlexRogalskiy",
+         "website":"https://github.com/AlexRogalskiy"
+      }
+   ]
+}

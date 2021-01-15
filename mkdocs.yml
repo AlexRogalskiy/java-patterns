@@ -1,0 +1,77 @@
+site_name: Java Patterns
+site_description: >
+  java design patterns and architectural concepts
+site_author: Alexander Rogalskiy
+site_url: https://alexander-rogalsky.gitbook.io/java-patterns-docs/
+
+repo_name: AlexRogalskiy/java-patterns
+repo_url: https://gitlab.com/AlexRogalskiy/java-patterns
+edit_uri: https://gitlab.com/AlexRogalskiy/java-patterns/master/docs/
+
+# Copyright
+copyright: Java Design Patterns - Documentation © Nullables.io
+
+theme:
+  name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
+  palette:
+    scheme: preference
+    primary: deep-orange
+    accent: deep-orange
+  features:
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
+    - header.autohide
+  highlightjs: true
+  language: 'en'
+
+plugins:
+  - search
+#  - minify:
+#      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: 'https://github.com/AlexRogalskiy/java-patterns'
+
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      linenums: true
+      use_pygments: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+
+pages:
+  - Table of contents: SUMMARY.md
+  - User Guide:
+      - Changelog: user-guide/changelog.md
+      - Dependency: user-guide/dependency.md
+      - FAQ: user-guide/faq.md
+      - Getting Started: user-guide/getting-started.md
+      - Code of Conduct: user-guide/code_of_conduct.md
+      - Code Owners: user-guide/code_owners.md
+      - Troubleshooting: user-guide/troubleshooting.md
+      - Upgrade: user-guide/upgrade.md
+  - Units:
+      - Design patterns: units/design-patterns.md
+      - Scenarios: units/scenarios.md
+      - Use cases: units/use-cases.md
+  - Contributing:
+      - Information: contributing/info.md
+  - Reporting:
+      - Information: reporting/info.md
+      - Bug Report: reporting/bug_report.md
+      - Custom Report: reporting/custom_report.md
+      - Issue Report: reporting/issue_template.md
+      - Feature Requst: reporting/feature_request_template.md
+      - Pull Requst: reporting/pull_request_template.md
+  - Links:
+      - Information: links/info.md
