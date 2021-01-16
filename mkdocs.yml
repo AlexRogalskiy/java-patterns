@@ -50,6 +50,7 @@ markdown_extensions:
       permalink: true
 
 pages:
+  - Introduction: README.md
   - Table of contents: SUMMARY.md
   - User Guide:
       - Changelog: user-guide/changelog.md

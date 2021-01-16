@@ -26,7 +26,7 @@ root: ./docs/
     info: ./links/info.md
 
 redirects:  
-  msin: README.md
-  info: SUMMARY.md​
+  msin: ./README.md
+  info: ./SUMMARY.md​
   help: ./user-guide/support.md
   start: ./user-guide/getting-started.md

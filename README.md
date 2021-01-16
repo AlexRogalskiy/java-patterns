@@ -27,7 +27,8 @@ Java Design Patterns is intended to provide various use case scenarios and archi
 ```text 
 mkdocs.yml    # Configuration file.
 docs/
-    summary.md  # Documentation summary
+    readme.md  # General information
+    summary.md  # Table of contents
     units/
         design-patterns.md # Design patterns and architectural concepts
         scenarios.md # Scenarios in practice
