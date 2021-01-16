@@ -1,9 +1,32 @@
 root: ./docs/
 
 ​structure:  
-  readme: README.md
-  summary: SUMMARY.md​
+  user-guide:
+    changelog: ./user-guide/changelog.md
+    dependency: ./user-guide/dependency.md
+    faq: ./user-guide/faq.md
+    getting-started: ./user-guide/getting-started.md
+    code-of-conduct: ./user-guide/code_of_conduct.md
+    code-owners: ./user-guide/code_owners.md
+    troubleshooting: ./user-guide/troubleshooting.md
+    upgrade: ./user-guide/upgrade.md
+  units:
+    design-patterns: ./units/design-patterns.md
+    scenarios: ./units/scenarios.md
+    use-cases: ./units/use-cases.md
+  contributing:
+    info: ./contributing/info.md
+  reporting:
+    info: ./reporting/info.md
+    bug-report: ./reporting/bug_report.md
+    custom-report: ./reporting/custom_report.md
+    feature-requst: ./reporting/feature_request_template.md
+    pull-requst-template: ./reporting/pull_request_template.md
+  links:
+    info: ./links/info.md
 
 redirects:  
-  help: README.md
-  description: SUMMARY.md​
+  msin: README.md
+  info: SUMMARY.md​
+  help: ./user-guide/support.md
+  start: ./user-guide/getting-started.md
