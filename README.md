@@ -1,3 +1,5 @@
+# Java Design patterns
+
 <p align="center" style="text-align:center;">
 	<img src="https://github.com/AlexRogalskiy/java-patterns/blob/master/images/banner.png" width="100%" height="60%" alt="Java Design patterns"/>
 </p>
@@ -25,13 +27,6 @@
 ## 🎹 _Table of contents_
 
 <!--ts-->
-- [☝ _Summary_](#-summary)
-- [📝 _Documentation_](#-documentation)
-- [🌹 _Authors_](#-authors)
-- [💕 _Contributing_](#-contributing)
-- [🚨 _Visitor stats_](#-visitor-stats)
-- [⚽ _Licensing_](#-licensing)
-- [🌟 _Development Support_](#-development-support)
 <!--te-->
 
 ## ☝ _Summary_
