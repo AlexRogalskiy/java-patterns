@@ -1,4 +1,6 @@
-# Java Design Patterns
+<p align="center" style="text-align:center;">
+	<img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/main/images/banner/banner.jpg" width="100%" height="60%" alt="Java Design patterns"/>
+</p>
 
 <p align="center">
   <a href="https://nullables.io/">
