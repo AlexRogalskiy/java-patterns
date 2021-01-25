@@ -8,8 +8,8 @@ repo_name: AlexRogalskiy/java-patterns
 repo_url: https://gitlab.com/AlexRogalskiy/java-patterns
 edit_uri: https://gitlab.com/AlexRogalskiy/java-patterns/master/docs/
 
-# Copyright
-copyright: Java Design Patterns - Documentation © Nullables.io
+#Copyright (shown at the footer)
+copyright: 'Copyright &copy; 2021 Nullables.io'
 
 theme:
   name: material

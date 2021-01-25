@@ -20,7 +20,23 @@
 ![GitHub Repository branches](https://badgen.net/github/branches/AlexRogalskiy/java-patterns)
 ![GitHub Repository dependents](https://badgen.net/github/dependents-repo/AlexRogalskiy/java-patterns)
 
+## 🎹 _Table of contents_
+
+<!-- toc -->
+- [☝ Summary](#-summary)
+- [📝 Documentation](#-documentation)
+- [🌹 Authors](#-authors)
+- [💕 Contributing](#-contributing)
+- [🚨 Visitor stats](#-visitor-stats)
+- [⚽ Licensing](#-licensing)
+- [🌟 Development Support](#-development-support)
+<!-- /toc -->
+
 ## ☝ _Summary_
+
+<a href="https://www.repostatus.org/#active">
+    <img src="https://img.shields.io/badge/Project%20Status-Active-brightgreen?style=for-the-badge" alt="Project Status: Active – The project has reached a stable, usable state and is being actively developed." />
+</a>
 
 Java Design Patterns is intended to provide various use case scenarios and architectural concepts on prototyping adaptive applications.
 
@@ -109,12 +125,6 @@ mkdocs --verbose gh-deploy --force --remote-branch gh-pages
 ```
 
 5\) Open up [localhost](http://127.0.0.1:8000/) in browser to get the default documentation homepage.
-
-## 🌴 _Miscellaneous_
-
-<a href="https://www.repostatus.org/#active">
-    <img src="https://img.shields.io/badge/Project%20Status-Active-brightgreen?style=for-the-badge" alt="Project Status: Active – The project has reached a stable, usable state and is being actively developed." />
-</a>
 
 ## 🌹 _Authors_
 
