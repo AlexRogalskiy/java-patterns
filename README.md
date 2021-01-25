@@ -22,15 +22,15 @@
 
 ## 🎹 _Table of contents_
 
-<!-- toc -->
-- [☝ Summary](#-summary)
-- [📝 Documentation](#-documentation)
-- [🌹 Authors](#-authors)
-- [💕 Contributing](#-contributing)
-- [🚨 Visitor stats](#-visitor-stats)
-- [⚽ Licensing](#-licensing)
-- [🌟 Development Support](#-development-support)
-<!-- /toc -->
+<!--ts-->
+- [☝ _Summary_](#-summary)
+- [📝 _Documentation_](#-documentation)
+- [🌹 _Authors_](#-authors)
+- [💕 _Contributing_](#-contributing)
+- [🚨 _Visitor stats_](#-visitor-stats)
+- [⚽ _Licensing_](#-licensing)
+- [🌟 _Development Support_](#-development-support)
+<!--te-->
 
 ## ☝ _Summary_
 
