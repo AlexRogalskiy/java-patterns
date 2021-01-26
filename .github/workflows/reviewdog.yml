@@ -1,0 +1,16 @@
+name: reviewdog
+
+on: [ pull_request ]
+
+jobs:
+  remark-lint:
+    name: runner / remark-lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: remark-lint
+        uses: prologic/action-remark-lint@v0.0.5
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          level: error
+          reporter: github-pr-check # Change reporter. (Only `github-pr-check` is supported at the moment).

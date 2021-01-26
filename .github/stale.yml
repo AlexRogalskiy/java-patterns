@@ -1,3 +1,5 @@
+# Configuration for probot-stale - https://github.com/probot/stale
+
 # Number of days of inactivity before an issue becomes stale
 daysUntilStale: 60
 # Number of days of inactivity before a stale issue is closed
@@ -15,3 +17,54 @@ markComment: >
   for your contributions.
 # Comment to post when closing a stale issue. Set to `false` to disable
 closeComment: false
+
+# Comment to be posted to on first time issues
+newIssueWelcomeComment: |
+  👋 Thanks for opening your first issue! If you're reporting a 🐞 bug, please make sure
+  you include steps to reproduce it. If you're requesting a feature 🎁, please provide real
+  use cases that would benefit. 👪
+
+  To help make this a smooth process, please be sure you have first read the
+  [contributing guidelines](https://github.com/AlexRogalskiy/gradle-java-sample/blob/master/.github/CONTRIBUTING.md).
+
+# Comment to be posted to on PRs from first time contributors in your repository
+newPRWelcomeComment: |
+  💖 Thanks for opening this pull request! 💖
+
+  To help make this a smooth process, please be sure you have first read the
+  [contributing guidelines](https://github.com/AlexRogalskiy/gradle-java-sample/blob/master/.github/CONTRIBUTING.md).
+
+# Comment to be posted to on pull requests merged by a first time user
+firstPRMergeComment: >
+  Congrats on merging your first pull request! 🎉🎉🎉 You're helping make Insomnia awesome! 🙌
+
+# Comment to post when marking as stale. Set to `false` to disable.
+issues:
+  daysUntilStale: 90
+  daysUntilClose: 7
+  exemptLabels:
+    - confirmed
+  markComment: >
+    Thank you for taking the time to raise this issue. However, it has
+    not had any activity on it in the past 180 days and will be closed in
+    90 days if no updates occur.
+    Please check if the master branch has already resolved the issue
+    since it was raised. If you believe the issue is still valid and you
+    would like input from the maintainers then please comment to ask for
+    it to be reviewed.
+  closeComment: >
+    This issue has been automatically closed due to inactivity. Please re-open
+    if this still requires investigation.
+pulls:
+  daysUntilStale: 90
+  daysUntilClose: 30
+  markComment: >
+    Thank you for your contribution! However, this pull request has not
+    had any activity in the past 180 days and will be closed in 90 days if
+    no updates occur.
+    If you believe the changes are still valid then please verify your
+    branch has no conflicts with master and rebase if needed. If you
+    are awaiting a (re-)review then please let us know.
+  closeComment: >
+    This pull request has been automatically closed due to inactivity. Please re-open
+    if these changes are still required.

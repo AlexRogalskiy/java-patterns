@@ -1,0 +1,78 @@
+# =============================================================================================== #
+# https://github.com/behaviorbot/request-info?installation_id=189571
+blank_issues_enabled: false
+
+# =============================================================================================== #
+# Configuration for request-info - https://github.com/behaviorbot/request-info
+
+requestInfoLabelToAdd: needs-more-info
+
+requestInfoReplyComment: >
+  We would appreciate it if you could provide us with more info about this issue/pr!
+
+# *OPTIONAL* Add a list of people whose Issues/PRs will not be commented on
+# keys must be GitHub usernames
+requestInfoUserstoExclude:
+  - 1v9
+  - Acris
+  - flashlab
+  - geekrainy
+  - iissnan
+  - ivan-nginx
+  - JiangTJ
+  - LEAFERx
+  - liolok
+  - maple3142
+  - Raincal
+  - sli1989
+  - stevenjoezhang
+  - tsanie
+  - wafer-li
+
+# =============================================================================================== #
+# Configuration for welcome - https://github.com/behaviorbot/welcome
+
+newIssueWelcomeComment: >
+  Thanks for opening your first issue here! 🎉<br>
+  👉 Be sure to:<br>
+  1. 📖 Have a look at the [Wiki](https://github.com/AlexRogalskiy/java-patterns/wiki) and [README](https://github.com/AlexRogalskiy/java-patterns/blob/master/README.md) for information<br>
+  2. 🔍 Search for similar [issues (open and closed)](https://github.com/AlexRogalskiy/java-patterns/issues?q=is%3Aissue+)<br>
+  3. ✍️ Provide enough information to understand, recreate and help out with your problem<br>
+  4. ℹ️ Let us know if you find a solution and please share it with us<br>
+  5. 📕 Close the issue when your problem has been solved
+
+newPRWelcomeComment: >
+  Thanks for opening this pull request! Please check out our contributing guidelines.
+
+firstPRWelcomeComment: >
+  **Thanks for opening this pull request!**<br/><br/>Please check check if *Travis* or *Codacy* found any issues with your PR. Also make sure your commits are signed, and that you applied [Code style](https://github.com/AlexRogalskiy/java-patterns/issues) and [formatting](.editorconfig).<br/><br/>A maintainer will add an `is:priority` label to your PR if it is up for compensation.
+
+firstPRMergeComment: >
+  ** Congrats on merging your first pull request!**<br/><br/>Be sure to follow the issue template. Your issue will be reviewed by a maintainer and labeled for further action.
+
+firstIssueWelcomeComment: >
+  **Thanks for opening your first issue here!**<br/><br/>Be sure to follow the issue template. Your issue will be reviewed by a maintainer and labeled for further action.
+
+# =============================================================================================== #
+# Configuration for sentiment-bot - https://github.com/behaviorbot/sentiment-bot
+
+# *Required* toxicity threshold between 0 and .99 with the higher numbers being the most toxic
+# Anything higher than this threshold will be marked as toxic and commented on
+sentimentBotToxicityThreshold: .7
+
+# *Required* Comment to reply with
+sentimentBotReplyComment: >
+  Please be sure to review the code of conduct and be respectful of other users.
+
+# =============================================================================================== #
+lockThreads:
+  toxicityThreshold: .7
+  numComments: 2
+  setTimeInHours: 72
+  replyComment: >
+    This thread is being locked due to exceeding the toxicity minimums.
+
+# =============================================================================================== #
+# Configuration for todo-bot - https://github.com/JasonEtco/todo
+todo:
+  label: '🗒 To-Do'

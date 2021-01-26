@@ -1,0 +1,25 @@
+name: Stale issues and pull requests
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v3
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          stale-pr-message: 'This pull request is stale because it has been open 6 months with no activity. Please comment or this will be closed in 14 days.'
+          stale-issue-message: 'This issue is stale because it has been open 30 days with no activity. Remove stale label or comment or this will be closed in 5 days'
+          close-issue-message: "This issue was automatically closed because of being stale. Feel free to open a new one if you still experience this problem."
+          close-pr-message: "This PR was automatically closed because of being stale."
+          days-before-stale: 30
+          days-before-close: 5
+          operations-per-run: 1500
+          stale-issue-label: 'no-issue-activity'
+          stale-pr-label: 'no-pr-activity'
+          exempt-issue-labels: 'awaiting-approval,work-in-progress'
+          exempt-pr-labels: 'awaiting-approval,work-in-progress'
+          only-labels: 'awaiting-feedback,awaiting-answers'
