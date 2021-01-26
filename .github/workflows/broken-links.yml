@@ -1,0 +1,28 @@
+name: Check for broken links
+
+on: [ push, pull_request ]
+
+jobs:
+  broken-link-check:
+    runs-on: ubuntu-latest
+    name: Check for broken links in readme.md
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          # Disabling shallow clone for improving relevancy of SonarQube reporting
+          fetch-depth: 0
+
+      - name: Prepare git
+        run: |
+          git config --global core.autocrlf false
+          git config --global core.ignorecase false
+          git config --global help.autocorrect 1
+          git config --global core.fileMode false
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - run: npm install -g markdown-link-check
+      - run: find . -name \*.md -exec markdown-link-check -c .broken-link-config.json {} \;
