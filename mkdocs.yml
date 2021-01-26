@@ -72,7 +72,7 @@ pages:
       - Bug Report: reporting/bug_report.md
       - Custom Report: reporting/custom_report.md
       - Issue Report: reporting/issue_template.md
-      - Feature Requst: reporting/feature_request_template.md
-      - Pull Requst: reporting/pull_request_template.md
+      - Feature Request: reporting/feature_request_template.md
+      - Pull Request: reporting/pull_request_template.md
   - Links:
       - Information: links/info.md

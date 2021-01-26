@@ -137,7 +137,7 @@ The style guide assumes that you are familiar with the [gitflow](http://nvie.com
 
 A Minimal, Complete, and Verifiable Example.
 
-When [reporting a bug](info.md#bug-reports), somtimes even when [suggestig a enhancement](info.md#enhancement-suggestions), the issue can be processed faster if you provide code for reproduction. That code should be…
+When [reporting a bug](info.md#bug-reports), sometimes even when [suggestig a enhancement](info.md#enhancement-suggestions), the issue can be processed faster if you provide code for reproduction. That code should be…
 
 * …Minimal – Use as little code as possible that still produces the same behavior
 * …Complete – Provide all parts needed to reproduce the behavior
@@ -145,7 +145,7 @@ When [reporting a bug](info.md#bug-reports), somtimes even when [suggestig a enh
 
 A MCVE is a common practice like on [Stack Overflow](https://stackoverflow.com/help/mcve) and sometimes it is also called [SSCCE](http://sscce.org), a _Short, Self Contained, Correct \(Compilable\), Example_.
 
-The recommened way for GitHub based projects is to create it as [Gist](https://gist.github.com) or new repository, but of course you can [attach it to issues and pull requests as files](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests), use any free code paste- or file hosting service or paste the code in [Markdown code blocks](https://help.github.com/articles/basic-writing-and-formatting-syntax) into the issue.
+The recommended way for GitHub based projects is to create it as [Gist](https://gist.github.com) or new repository, but of course you can [attach it to issues and pull requests as files](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests), use any free code paste- or file hosting service or paste the code in [Markdown code blocks](https://help.github.com/articles/basic-writing-and-formatting-syntax) into the issue.
 
 ### _Minimal_
 

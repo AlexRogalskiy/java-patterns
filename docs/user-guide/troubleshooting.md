@@ -27,14 +27,14 @@ See the [Upgrading guide](https://github.com/AlexRogalsky/object-mappers-playgro
 
 ### Step 4: See if there are errors in the build process of GitHub Actions.
 
-* [ ] In your GitHub repository, you will have a tab called **Actions**.  To find build errors, click on the `Event` dropdown list and select `push`.  Browse through tthe logs to see if you can find an error.  If you receive an error, read the error message and try to debug.
+* [ ] In your GitHub repository, you will have a tab called **Actions**.  To find build errors, click on the `Event` dropdown list and select `push`.  Browse through the logs to see if you can find an error.  If you receive an error, read the error message and try to debug.
 
 ### Step 5: Once you have performed all the above steps, post your issue in the fastai forums or a GitHub Issue.
 
 * [ ] If you cannot find a similar issue create a new thread instead of commenting on an unrelated one.
 * When reporting a bug, provide this information:
   1. Steps to reproduce the problem
-  2. **A link to the notebook or markdown file** where the error is occuring
+  2. **A link to the notebook or markdown file** where the error is occurring
   3. If the error is happening in GitHub Actions, a link to the specific error along with how you are able to reproduce this error.  You must provide this **in addition to the link to the notebook or markdown file**.
   4. A screenshot / dump of relevant logs or error messages you are receiving from your local development environment. the local development server as indicated in the [development guide](https://github.com/fastai/fastpages/blob/master/_fastpages_docs/DEVELOPMENT.md).
 
@@ -52,7 +52,7 @@ See the [Upgrading guide](https://github.com/AlexRogalsky/object-mappers-playgro
 
    See this [tutorial on YAML](https://rollout.io/blog/yaml-tutorial-everything-you-need-get-started/) for more information.
 
-   **Colons, tilda, asteriks and other characters may cause your front matter to break and for your posts to not render.** If you violoate these conventions you often get an error that looks something like this:
+   **Colons, tilda, asterisk and other characters may cause your front matter to break and for your posts to not render.** If you violoate these conventions you often get an error that looks something like this:
 
    ```bash
     Error: YAML Exception reading ... (<unknown>): mapping values are not allowed
