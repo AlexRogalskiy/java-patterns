@@ -171,3 +171,12 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 [![Become a Patron](https://img.shields.io/badge/Become_Patron-Support_me_on_Patreon-blue.svg?style=flat-square&logo=patreon&color=e64413)](https://www.patreon.com/alexrogalskiy)
 [![Buy Me A Coffee](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellow.svg?logo=buy%20me%20a%20coffee)](https://www.buymeacoffee.com/AlexRogalskiy)
 [![KoFi](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellow.svg?logo=ko-fi)](https://ko-fi.com/alexrogalskiy)
+
+## 👨‍👨‍👧‍👦 _Acknowledgement_
+
+[![Stargazers repo roster for @AlexRogalskiy/java-patterns](https://reporoster.com/stars/AlexRogalskiy/java-patterns)](https://github.com/AlexRogalskiy/java-patterns/stargazers)
+
+## 🔥 _Google Podcasts_
+
+<!-- GOOGLE_PODCAST:START -->
+<!-- GOOGLE_PODCAST:END -->
