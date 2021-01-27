@@ -176,7 +176,12 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 
 [![Stargazers repo roster for @AlexRogalskiy/java-patterns](https://reporoster.com/stars/AlexRogalskiy/java-patterns)](https://github.com/AlexRogalskiy/java-patterns/stargazers)
 
-## 🔥 _Google Podcasts_
+## 🔥 _Articles and Podcasts_
 
+ - Google podcasts
 <!-- GOOGLE_PODCAST:START -->
 <!-- GOOGLE_PODCAST:END -->
+
+ - Reddit posts
+<!-- REDDIT_POST:START -->
+<!-- REDDIT_POST:END -->

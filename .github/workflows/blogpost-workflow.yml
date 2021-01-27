@@ -1,0 +1,28 @@
+name: Latest articles and podcasts
+
+on:
+  push:
+    branches: [ main, master ]
+  schedule:
+    # Runs every hour
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme-with-podcasts:
+    name: Update this repo's README with latest articles and podcasts on Java
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          max_post_count: "10"
+          comment_tag_name: "REDDIT_POST"
+          commit_message: "Updated readme with the latest Reddit posts"
+          feed_list: "https://www.reddit.com/r/java/.rss"
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          max_post_count: "10"
+          comment_tag_name: "GOOGLE_PODCAST"
+          commit_message: "Updated readme with the latest Google podcasts"
+          feed_list: "https://podcasts.google.com/feed/aHR0cHM6Ly9pbnNpZGVqYXZhLmxpYnN5bi5jb20vcnNz"
