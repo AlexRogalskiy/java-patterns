@@ -1,7 +1,7 @@
 # Begin Community Code of Conduct
 
 #### Effective: January 1, 2017
-#### Last modified: [June 18, 2018](https://github.com/smallwins/policy/commits/master/begin-community-code-of-conduct.md)
+#### Last modified: [June 18, 2018](https://github.com/AlexRogalskiy/java-patterns/blob/master/.github/begin-community-code-of-conduct.md)
 
 
 # Introduction
