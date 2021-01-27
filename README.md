@@ -38,8 +38,10 @@
       * [<em>Development Support</em>](#-development-support)
       * [<em>Acknowledgement</em>](#-acknowledgement)
       * [<em>Feeds and Podcasts</em>](#-feeds-and-podcasts)
+         * [<em>Reddit posts</em>](#reddit-posts)
+         * [<em>Feeds</em>](#feeds)
 
-<!-- Added by: runner, at: Wed Jan 27 13:13:42 UTC 2021 -->
+<!-- Added by: runner, at: Wed Jan 27 13:16:02 UTC 2021 -->
 
 <!--te-->
 
