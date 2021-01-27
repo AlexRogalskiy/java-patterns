@@ -182,6 +182,16 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 
  - Reddit posts
 <!-- REDDIT_POST:START -->
+- [A Simple Machine Learning Project in JavaScript](https://www.reddit.com/r/java/comments/l63wdx/a_simple_machine_learning_project_in_javascript/)
+- [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://www.reddit.com/r/java/comments/l5y554/extending_the_automatic_vectorization/)
+- [Eclipse to host only TCK compliant Java SE implementations](https://www.reddit.com/r/java/comments/l5m3p6/eclipse_to_host_only_tck_compliant_java_se/)
+- [Caffeinated, a work-in-progress preprocessor for Java ~8.](https://www.reddit.com/r/java/comments/l5lxt5/caffeinated_a_workinprogress_preprocessor_for/)
+- [Error handling in Java is error prone](https://www.reddit.com/r/java/comments/l5f28e/error_handling_in_java_is_error_prone/)
+- [UI Modernization with Vaadin](https://www.reddit.com/r/java/comments/l5abwd/ui_modernization_with_vaadin/)
+- [JSON and Jakarta Persistence, how to solve infinite loop issue](https://www.reddit.com/r/java/comments/l5a9mf/json_and_jakarta_persistence_how_to_solve/)
+- [Foreign Memory Access - Pulling all the threads](https://www.reddit.com/r/java/comments/l57udt/foreign_memory_access_pulling_all_the_threads/)
+- [Jakarta EE 2020 Survey: Which EE versions do people use?](https://www.reddit.com/r/java/comments/l4yz3x/jakarta_ee_2020_survey_which_ee_versions_do/)
+- [[ANN] Maven Plugin for Java Tools, Improved JavaFX Desktop Template](https://www.reddit.com/r/java/comments/l4v8zf/ann_maven_plugin_for_java_tools_improved_javafx/)
 <!-- REDDIT_POST:END -->
 
  - Feeds
