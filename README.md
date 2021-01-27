@@ -36,8 +36,10 @@
       * [<em>Visitor stats</em>](#-visitor-stats)
       * [<em>Licensing</em>](#-licensing)
       * [<em>Development Support</em>](#-development-support)
+      * [<em>Acknowledgement</em>](#-acknowledgement)
+      * [<em>Google Podcasts</em>](#-google-podcasts)
 
-<!-- Added by: runner, at: Tue Jan 26 20:24:15 UTC 2021 -->
+<!-- Added by: runner, at: Wed Jan 27 12:35:02 UTC 2021 -->
 
 <!--te-->
 
