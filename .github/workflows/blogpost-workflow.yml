@@ -12,11 +12,11 @@ jobs:
         with:
           max_post_count: "10"
           comment_tag_name: "REDDIT_POST"
-          commit_message: "Updated readme with the latest Reddit posts"
+          commit_message: "Updated README with the latest Reddit posts"
           feed_list: "https://www.reddit.com/r/java/.rss"
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
           max_post_count: "20"
           comment_tag_name: "FEEDS_POST"
-          commit_message: "Updated readme with the latest Feeds posts"
+          commit_message: "Updated README with the latest Feeds posts"
           feed_list: "https://www.infoworld.com/category/java/index.rss", "https://blogs.oracle.com/java/rss", "https://plumbr.io/blog/feed", "https://blog.frankel.ch/feed.xml", "https://thorben-janssen.com/feed/", "https://developers.redhat.com/blog/tag/java/feed/", "https://www.javacodegeeks.com/feed"
