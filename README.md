@@ -37,9 +37,9 @@
       * [<em>Licensing</em>](#-licensing)
       * [<em>Development Support</em>](#-development-support)
       * [<em>Acknowledgement</em>](#-acknowledgement)
-      * [<em>Articles and Podcasts</em>](#-articles-and-podcasts)
+      * [<em>Feeds and Podcasts</em>](#-feeds-and-podcasts)
 
-<!-- Added by: runner, at: Wed Jan 27 12:48:34 UTC 2021 -->
+<!-- Added by: runner, at: Wed Jan 27 13:13:42 UTC 2021 -->
 
 <!--te-->
 
