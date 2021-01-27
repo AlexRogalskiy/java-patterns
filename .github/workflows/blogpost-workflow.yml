@@ -16,7 +16,7 @@ jobs:
           feed_list: "https://www.reddit.com/r/java/.rss"
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
-          max_post_count: "10"
-          comment_tag_name: "GOOGLE_PODCAST"
-          commit_message: "Updated readme with the latest Google podcasts"
-          feed_list: "https://podcasts.google.com/feed/aHR0cHM6Ly9pbnNpZGVqYXZhLmxpYnN5bi5jb20vcnNz"
+          max_post_count: "20"
+          comment_tag_name: "FEEDS_POST"
+          commit_message: "Updated readme with the latest Feeds posts"
+          feed_list: "https://www.infoworld.com/category/java/index.rss", "https://blogs.oracle.com/java/rss", "https://plumbr.io/blog/feed", "https://blog.frankel.ch/feed.xml", "https://thorben-janssen.com/feed/", "https://developers.redhat.com/blog/tag/java/feed/", "https://www.javacodegeeks.com/feed"
