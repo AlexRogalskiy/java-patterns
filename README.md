@@ -180,7 +180,8 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 
 ## 🔥 _Feeds and Podcasts_
 
- - Reddit posts
+### _Reddit posts_
+
 <!-- REDDIT_POST:START -->
 - [A Simple Machine Learning Project in JavaScript](https://www.reddit.com/r/java/comments/l63wdx/a_simple_machine_learning_project_in_javascript/)
 - [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://www.reddit.com/r/java/comments/l5y554/extending_the_automatic_vectorization/)
@@ -194,6 +195,7 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 - [[ANN] Maven Plugin for Java Tools, Improved JavaFX Desktop Template](https://www.reddit.com/r/java/comments/l4v8zf/ann_maven_plugin_for_java_tools_improved_javafx/)
 <!-- REDDIT_POST:END -->
 
- - Feeds
+### _Feeds_
+
 <!-- FEEDS_POST:START -->
 <!-- FEEDS_POST:END -->
