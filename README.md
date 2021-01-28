@@ -298,7 +298,7 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 - [Solve Error Could not reserve enough space for object heap](https://www.thejavaprogrammer.com/could-not-reserve-enough-space-for-object-heap/)
 <!-- JAVAPROG-POST-LIST:END -->
 
-### _InfoQ feeds_
+### _Dreamix feeds_
 
 <!-- DREAMIX-POST-LIST:START -->
 <!-- DREAMIX-POST-LIST:END -->
