@@ -39,7 +39,7 @@
       * [<em>Acknowledgement</em>](#-acknowledgement)
       * [<em>Feeds and Podcasts</em>](#-feeds-and-podcasts)
          * [<em>Reddit posts</em>](#reddit-posts)
-         * [<em>Infoworld feeds</em>](#infoworld-feeds)
+         * [<em>InfoWorld feeds</em>](#infoworld-feeds)
          * [<em>Let's talk feeds</em>](#lets-talk-feeds)
          * [<em>Random thoughts feeds</em>](#random-thoughts-feeds)
          * [<em>Better code feeds</em>](#better-code-feeds)
@@ -52,7 +52,7 @@
          * [<em>JavaCodeGeeks feeds</em>](#javacodegeeks-feeds)
          * [<em>DevCases feeds</em>](#devcases-feeds)
 
-<!-- Added by: runner, at: Thu Jan 28 09:18:10 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jan 28 11:20:06 UTC 2021 -->
 
 <!--te-->
 
