@@ -45,14 +45,14 @@
          * [<em>Better code feeds</em>](#better-code-feeds)
          * [<em>Inside feeds</em>](#inside-feeds)
          * [<em>Java programmer feeds</em>](#java-programmer-feeds)
-         * [<em>InfoQ feeds</em>](#infoq-feeds)
+         * [<em>Dreamix feeds</em>](#dreamix-feeds)
          * [<em>Plumbr feeds</em>](#plumbr-feeds)
          * [<em>Thorben Janssen feeds</em>](#thorben-janssen-feeds)
          * [<em>Redhat feeds</em>](#redhat-feeds)
          * [<em>JavaCodeGeeks feeds</em>](#javacodegeeks-feeds)
          * [<em>DevCases feeds</em>](#devcases-feeds)
 
-<!-- Added by: runner, at: Thu Jan 28 08:47:54 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jan 28 09:18:10 UTC 2021 -->
 
 <!--te-->
 
