@@ -31,6 +31,7 @@
       * [<em>Table of contents</em>](#-table-of-contents)
       * [<em>Summary</em>](#-summary)
       * [<em>Documentation</em>](#-documentation)
+      * [<em>Versioning</em>](#-versioning)
       * [<em>Authors</em>](#-authors)
       * [<em>Contributing</em>](#-contributing)
       * [<em>Visitor stats</em>](#-visitor-stats)
@@ -52,7 +53,7 @@
          * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
          * [<em>DevCases posts</em>](#devcases-posts)
 
-<!-- Added by: runner, at: Thu Jan 28 11:41:41 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jan 28 16:22:44 UTC 2021 -->
 
 <!--te-->
 
