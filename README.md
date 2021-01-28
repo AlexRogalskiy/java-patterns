@@ -39,15 +39,20 @@
       * [<em>Acknowledgement</em>](#-acknowledgement)
       * [<em>Feeds and Podcasts</em>](#-feeds-and-podcasts)
          * [<em>Reddit posts</em>](#reddit-posts)
-         * [<em>Infoworld posts</em>](#infoworld-posts)
-         * [<em>Oracle posts</em>](#oracle-posts)
-         * [<em>Plumbr posts</em>](#plumbr-posts)
-         * [<em>Thorben Janssen posts</em>](#thorben-janssen-posts)
-         * [<em>Redhat posts</em>](#redhat-posts)
-         * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
-         * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts-1)
+         * [<em>Infoworld feeds</em>](#infoworld-feeds)
+         * [<em>Let's talk feeds</em>](#lets-talk-feeds)
+         * [<em>Random thoughts feeds</em>](#random-thoughts-feeds)
+         * [<em>Better code feeds</em>](#better-code-feeds)
+         * [<em>Inside feeds</em>](#inside-feeds)
+         * [<em>Java programmer feeds</em>](#java-programmer-feeds)
+         * [<em>InfoQ feeds</em>](#infoq-feeds)
+         * [<em>Plumbr feeds</em>](#plumbr-feeds)
+         * [<em>Thorben Janssen feeds</em>](#thorben-janssen-feeds)
+         * [<em>Redhat feeds</em>](#redhat-feeds)
+         * [<em>JavaCodeGeeks feeds</em>](#javacodegeeks-feeds)
+         * [<em>DevCases feeds</em>](#devcases-feeds)
 
-<!-- Added by: runner, at: Thu Jan 28 01:30:11 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jan 28 01:45:37 UTC 2021 -->
 
 <!--te-->
 
@@ -221,26 +226,76 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 ### _Let's talk feeds_
 
 <!-- LETSTALK-POST-LIST:START -->
+- [4 Developers 2020](http://letstalkaboutjava.blogspot.com/2020/02/4-developers-2020_9.html)
+- [You won't do it later!](http://letstalkaboutjava.blogspot.com/2019/12/you-wont-do-it-later.html)
+- [JDD 2019!](http://letstalkaboutjava.blogspot.com/2019/09/once-again-im-media-partner-of-jdd-and.html)
+- [4 Developers 2019](http://letstalkaboutjava.blogspot.com/2019/02/4-developers-2019.html)
+- [Test-Driven Development - you are doing it wrong!](http://letstalkaboutjava.blogspot.com/2019/01/test-driven-development-you-are-doing.html)
+- [HackYeah!](http://letstalkaboutjava.blogspot.com/2018/11/its-time-for-another-great-chance-to.html)
+- [ByteMyCode - let's meet in Wrocław](http://letstalkaboutjava.blogspot.com/2018/10/bytemycode-lets-meet-in-wrocaw.html)
+- [JDD is coming!](http://letstalkaboutjava.blogspot.com/2018/08/jdd-is-coming.html)
+- [Just stop for a moment](http://letstalkaboutjava.blogspot.com/2018/06/just-stop-for-moment.html)
+- [Refactoring vs. Redesign](http://letstalkaboutjava.blogspot.com/2017/11/refactoring-vs-redesign.html)
 <!-- LETSTALK-POST-LIST:END -->
 
 ### _Random thoughts feeds_
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [Using Optional to prevent NullPointers In TrainWrecks](http://randomthoughtsonjavaprogramming.blogspot.com/2021/01/using-optional-to-prevent-nullpointers.html)
+- [Branch Prediction](http://randomthoughtsonjavaprogramming.blogspot.com/2021/01/branch-prediction.html)
+- [Notes on Unity](http://randomthoughtsonjavaprogramming.blogspot.com/2020/12/notes-on-unity.html)
+- [Payara and Jakarta EE 9](http://randomthoughtsonjavaprogramming.blogspot.com/2020/12/payara-and-jakarta-ee-9.html)
+- [The Three options with Optional](http://randomthoughtsonjavaprogramming.blogspot.com/2020/12/the-three-options-with-optional.html)
+- [Finding the index of an element in a List using Streams](http://randomthoughtsonjavaprogramming.blogspot.com/2020/12/finding-index-of-element-in-list-using.html)
+- [Why aren't Java Collections remove methods generic?](http://randomthoughtsonjavaprogramming.blogspot.com/2020/11/why-arent-java-collections-remove.html)
+- [Running Java in the Cloud - Jelastic](http://randomthoughtsonjavaprogramming.blogspot.com/2020/10/running-java-in-cloud-jelastic.html)
+- [My Angular App](http://randomthoughtsonjavaprogramming.blogspot.com/2017/07/my-angular-app.html)
+- [How to Tell Time in Java’s Garbage Collection](http://randomthoughtsonjavaprogramming.blogspot.com/2020/09/how-to-tell-time-in-javas-garbage.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### _Better code feeds_
 
 <!-- BETTERCODE-POST-LIST:START -->
+- [Spring Boot CRUD Application Example with MongoDB](https://betterjavacode.com/spring-boot/spring-boot-crud-application-example-with-mongodb)
+- [Top 21 Spring Boot Interview Questions](https://betterjavacode.com/spring-boot/top-21-spring-boot-interview-questions)
+- [Spring WebClient vs RestTemplate – Comparison and Features](https://betterjavacode.com/programming/spring-webclient-vs-resttemplate-comparison-and-features)
+- [The Complete Guide to Use Docker Compose](https://betterjavacode.com/docker/the-complete-guide-to-use-docker-compose)
+- [Fundamentals of a Distributed System Design](https://betterjavacode.com/programming/fundamentals-of-a-distributed-system-design)
+- [7 AWS Services Every Developer Should Know About](https://betterjavacode.com/programming/7-aws-services-every-developer-should-know-about)
+- [The Definitive Guide to Use Keycloak With a Spring Boot Application](https://betterjavacode.com/programming/spring-boot-application-keycloak)
+- [How to Use Basic Authentication for Rest Template](https://betterjavacode.com/programming/how-to-use-basic-authentication-for-rest-template)
+- [Json Web Token: How to Secure Spring Boot REST API](https://betterjavacode.com/java/securing-spring-boot-rest-api)
+- [Liquibase – Handling Database in Spring Boot](https://betterjavacode.com/programming/liquibase-handling-database-in-spring-boot)
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### _Inside feeds_
 
 <!-- INSIDE-POST-LIST:START -->
+- [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://inside.java/2021/01/27/extending-c2-autovectorization-capabilities/)
+- [Foreign Memory Access - Pulling all the threads](https://inside.java/2021/01/25/memory-access-pulling-all-the-threads/)
+- [Draft JEP for upcoming work on snippets](https://inside.java/2021/01/23/draft-jep-snippets/)
+- [Java Feature Spotlight: Pattern Matching](https://inside.java/2021/01/22/feature-spotlight-pattern-matching/)
+- [jtreg is now on GitHub](https://inside.java/2021/01/22/jtreg-on-github/)
+- [Interview with Brian Goetz](https://inside.java/2021/01/19/interview-with-brian-goetz/)
+- [Pattern features for next iteration](https://inside.java/2021/01/19/pattern-features-for-next-iteration/)
+- [New Loom Early Access Build](https://inside.java/2021/01/16/new-loom-ea-builds/)
+- [CodeTools proposal: apidiff](https://inside.java/2021/01/08/codetools-proposal-apidiff/)
+- [[pattern-switch] Guards](https://inside.java/2021/01/08/pattern-switch-guard/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer feeds_
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [3 Ways to Create Spring Boot Project in Eclipse](https://www.thejavaprogrammer.com/create-spring-boot-project-in-eclipse/)
+- [Real Time Example of Multithreading in Java](https://www.thejavaprogrammer.com/real-time-example-of-multithreading-in-java/)
+- [Why Java Doesn’t Support Operator Overloading?](https://www.thejavaprogrammer.com/why-java-doesnt-support-operator-overloading/)
+- [Solve Error “char cannot be dereferenced” in Java](https://www.thejavaprogrammer.com/char-cannot-be-dereferenced/)
+- [Best Way to Learn Java for a Beginner](https://www.thejavaprogrammer.com/best-way-to-learn-java-for-a-beginner/)
+- [Solve Error “int cannot be dereferenced” in Java](https://www.thejavaprogrammer.com/int-cannot-be-dereferenced/)
+- [Fix Error “editor does not contain a main type” in Eclipse](https://www.thejavaprogrammer.com/editor-does-not-contain-a-main-type/)
+- [Points for Perfect Software License Management Practices in Business Organization](https://www.thejavaprogrammer.com/software-license-management-practices/)
+- [6 Best Java Books for Beginners in 2020](https://www.thejavaprogrammer.com/best-java-books-beginners/)
+- [Solve Error Could not reserve enough space for object heap](https://www.thejavaprogrammer.com/could-not-reserve-enough-space-for-object-heap/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### _InfoQ feeds_
