@@ -271,6 +271,16 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 ### _Inside feeds_
 
 <!-- INSIDE-POST-LIST:START -->
+- [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://inside.java/2021/01/27/extending-c2-autovectorization-capabilities/)
+- [Foreign Memory Access - Pulling all the threads](https://inside.java/2021/01/25/memory-access-pulling-all-the-threads/)
+- [Draft JEP for upcoming work on snippets](https://inside.java/2021/01/23/draft-jep-snippets/)
+- [Java Feature Spotlight: Pattern Matching](https://inside.java/2021/01/22/feature-spotlight-pattern-matching/)
+- [jtreg is now on GitHub](https://inside.java/2021/01/22/jtreg-on-github/)
+- [Interview with Brian Goetz](https://inside.java/2021/01/19/interview-with-brian-goetz/)
+- [Pattern features for next iteration](https://inside.java/2021/01/19/pattern-features-for-next-iteration/)
+- [New Loom Early Access Build](https://inside.java/2021/01/16/new-loom-ea-builds/)
+- [CodeTools proposal: apidiff](https://inside.java/2021/01/08/codetools-proposal-apidiff/)
+- [[pattern-switch] Guards](https://inside.java/2021/01/08/pattern-switch-guard/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer feeds_
