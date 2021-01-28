@@ -1,0 +1,31 @@
+name: Version Update
+
+on:
+  push:
+    tags:
+      - '*.**'
+
+jobs:
+  update-version:
+    name: Update VERSION
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Edit version.txt
+        run: echo "VERSION = \"$(git describe --tags `git rev-list --tags --max-count=1`)\"" > version.txt
+
+      - name: Commit update
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: git-version-updates
+          skip_dirty_check: true
+          commit_message: 'Update VERSION'
+          commit_options: '--no-verify --signoff'
+          commit_user_name: GitHub Bot
+          commit_user_email: github-actions@nullables.io
+          commit_author: GitHub Bot <github-actions@nullables.io>
