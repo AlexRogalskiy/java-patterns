@@ -39,20 +39,20 @@
       * [<em>Acknowledgement</em>](#-acknowledgement)
       * [<em>Feeds and Podcasts</em>](#-feeds-and-podcasts)
          * [<em>Reddit posts</em>](#reddit-posts)
-         * [<em>InfoWorld feeds</em>](#infoworld-feeds)
-         * [<em>Let's talk feeds</em>](#lets-talk-feeds)
-         * [<em>Random thoughts feeds</em>](#random-thoughts-feeds)
-         * [<em>Better code feeds</em>](#better-code-feeds)
-         * [<em>Inside feeds</em>](#inside-feeds)
-         * [<em>Java programmer feeds</em>](#java-programmer-feeds)
-         * [<em>Dreamix feeds</em>](#dreamix-feeds)
-         * [<em>Plumbr feeds</em>](#plumbr-feeds)
-         * [<em>Thorben Janssen feeds</em>](#thorben-janssen-feeds)
-         * [<em>Redhat feeds</em>](#redhat-feeds)
-         * [<em>JavaCodeGeeks feeds</em>](#javacodegeeks-feeds)
-         * [<em>DevCases feeds</em>](#devcases-feeds)
+         * [<em>InfoWorld posts</em>](#infoworld-posts)
+         * [<em>Let's talk posts</em>](#lets-talk-posts)
+         * [<em>Random thoughts posts</em>](#random-thoughts-posts)
+         * [<em>Better code posts</em>](#better-code-posts)
+         * [<em>Inside Java posts</em>](#inside-java-posts)
+         * [<em>Java programmer posts</em>](#java-programmer-posts)
+         * [<em>Dreamix posts</em>](#dreamix-posts)
+         * [<em>Plumbr posts</em>](#plumbr-posts)
+         * [<em>Thorben Janssen posts</em>](#thorben-janssen-posts)
+         * [<em>Redhat posts</em>](#redhat-posts)
+         * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
+         * [<em>DevCases posts</em>](#devcases-posts)
 
-<!-- Added by: runner, at: Thu Jan 28 11:20:06 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jan 28 11:41:41 UTC 2021 -->
 
 <!--te-->
 
