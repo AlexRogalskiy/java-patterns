@@ -241,6 +241,16 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 ### _Random thoughts feeds_
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [Using Optional to prevent NullPointers In TrainWrecks](http://randomthoughtsonjavaprogramming.blogspot.com/2021/01/using-optional-to-prevent-nullpointers.html)
+- [Branch Prediction](http://randomthoughtsonjavaprogramming.blogspot.com/2021/01/branch-prediction.html)
+- [Notes on Unity](http://randomthoughtsonjavaprogramming.blogspot.com/2020/12/notes-on-unity.html)
+- [Payara and Jakarta EE 9](http://randomthoughtsonjavaprogramming.blogspot.com/2020/12/payara-and-jakarta-ee-9.html)
+- [The Three options with Optional](http://randomthoughtsonjavaprogramming.blogspot.com/2020/12/the-three-options-with-optional.html)
+- [Finding the index of an element in a List using Streams](http://randomthoughtsonjavaprogramming.blogspot.com/2020/12/finding-index-of-element-in-list-using.html)
+- [Why aren't Java Collections remove methods generic?](http://randomthoughtsonjavaprogramming.blogspot.com/2020/11/why-arent-java-collections-remove.html)
+- [Running Java in the Cloud - Jelastic](http://randomthoughtsonjavaprogramming.blogspot.com/2020/10/running-java-in-cloud-jelastic.html)
+- [My Angular App](http://randomthoughtsonjavaprogramming.blogspot.com/2017/07/my-angular-app.html)
+- [How to Tell Time in Java’s Garbage Collection](http://randomthoughtsonjavaprogramming.blogspot.com/2020/09/how-to-tell-time-in-javas-garbage.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### _Better code feeds_
