@@ -39,9 +39,15 @@
       * [<em>Acknowledgement</em>](#-acknowledgement)
       * [<em>Feeds and Podcasts</em>](#-feeds-and-podcasts)
          * [<em>Reddit posts</em>](#reddit-posts)
-         * [<em>Feeds</em>](#feeds)
+         * [<em>Infoworld posts</em>](#infoworld-posts)
+         * [<em>Oracle posts</em>](#oracle-posts)
+         * [<em>Plumbr posts</em>](#plumbr-posts)
+         * [<em>Thorben Janssen posts</em>](#thorben-janssen-posts)
+         * [<em>Redhat posts</em>](#redhat-posts)
+         * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
+         * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts-1)
 
-<!-- Added by: runner, at: Wed Jan 27 13:16:02 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jan 28 01:30:11 UTC 2021 -->
 
 <!--te-->
 
