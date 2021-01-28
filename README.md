@@ -286,6 +286,16 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 ### _Java programmer feeds_
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [3 Ways to Create Spring Boot Project in Eclipse](https://www.thejavaprogrammer.com/create-spring-boot-project-in-eclipse/)
+- [Real Time Example of Multithreading in Java](https://www.thejavaprogrammer.com/real-time-example-of-multithreading-in-java/)
+- [Why Java Doesn’t Support Operator Overloading?](https://www.thejavaprogrammer.com/why-java-doesnt-support-operator-overloading/)
+- [Solve Error “char cannot be dereferenced” in Java](https://www.thejavaprogrammer.com/char-cannot-be-dereferenced/)
+- [Best Way to Learn Java for a Beginner](https://www.thejavaprogrammer.com/best-way-to-learn-java-for-a-beginner/)
+- [Solve Error “int cannot be dereferenced” in Java](https://www.thejavaprogrammer.com/int-cannot-be-dereferenced/)
+- [Fix Error “editor does not contain a main type” in Eclipse](https://www.thejavaprogrammer.com/editor-does-not-contain-a-main-type/)
+- [Points for Perfect Software License Management Practices in Business Organization](https://www.thejavaprogrammer.com/software-license-management-practices/)
+- [6 Best Java Books for Beginners in 2020](https://www.thejavaprogrammer.com/best-java-books-beginners/)
+- [Solve Error Could not reserve enough space for object heap](https://www.thejavaprogrammer.com/could-not-reserve-enough-space-for-object-heap/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### _InfoQ feeds_
