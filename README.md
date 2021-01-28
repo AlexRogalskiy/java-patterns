@@ -376,4 +376,14 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 ### _DevCases feeds_
 
 <!-- DEVCASES-POST-LIST:START -->
+- [Spring JavaMelody Tutorial](https://devcases.com/java/spring-javamelody-tutorial/?utm_source=rss&utm_medium=rss&utm_campaign=spring-javamelody-tutorial)
+- [Spring Boot JavaMelody Tutorial](https://devcases.com/java/spring-boot-javamelody-tutorial/?utm_source=rss&utm_medium=rss&utm_campaign=spring-boot-javamelody-tutorial)
+- [How to find file in directory](https://devcases.com/java/how-to-find-file-in-directory/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-find-file-in-directory)
+- [How to list all files in the directory](https://devcases.com/java/how-to-list-all-files-in-the-directory/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-list-all-files-in-the-directory)
+- [How to convert Iterable to Collection](https://devcases.com/java/how-to-convert-iterable-to-collection/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-convert-iterable-to-collection)
+- [Spring Boot CRUD Tutorial with embedded H2 and Freemarker](https://devcases.com/java/spring-boot-crud-tutorial-with-embedded-h2-and-freemarker/?utm_source=rss&utm_medium=rss&utm_campaign=spring-boot-crud-tutorial-with-embedded-h2-and-freemarker)
+- [Spring Boot CRUD Tutorial with embedded H2 and JSP](https://devcases.com/java/spring-boot-embedded-h2-jsp-crud-tutorial/?utm_source=rss&utm_medium=rss&utm_campaign=spring-boot-embedded-h2-jsp-crud-tutorial)
+- [Spring Boot Hello World – Freemarker tutorial](https://devcases.com/java/spring-boot-hello-world-freemarker-tutorial/?utm_source=rss&utm_medium=rss&utm_campaign=spring-boot-hello-world-freemarker-tutorial)
+- [Spring Boot Hello World – JSP tutorial](https://devcases.com/java/spring-boot-hello-world-jsp/?utm_source=rss&utm_medium=rss&utm_campaign=spring-boot-hello-world-jsp)
+- [How to debug maven tests](https://devcases.com/java/how-to-debug-maven-tests/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-debug-maven-tests)
 <!-- DEVCASES-POST-LIST:END -->
