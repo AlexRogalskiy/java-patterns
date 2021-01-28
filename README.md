@@ -331,6 +331,16 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 ### _Thorben Janssen feeds_
 
 <!-- TJ-POST-LIST:START -->
+- [Coffee with Thorben 2020-01-22 – JSON Mappings & Polymorphic Associations](https://thorben-janssen.com/coffee-with-thorben-2020-01-22-json-mapp/)
+- [Hibernate Reactive – Getting Started Guide](https://thorben-janssen.com/hibernate-reactive-getting-started-guide/)
+- [Coffee with Thorben 2020-01-15 – Association Pitfalls & Enum Mappings](https://thorben-janssen.com/coffee-with-thorben-2020-01-08/)
+- [Implementing Batch Jobs with Hibernate](https://thorben-janssen.com/implementing-batch-jobs-with-hibernate/)
+- [Coffee with Thorben 2020-01-08 – DB Migration & Criteria SubQuery](https://thorben-janssen.com/coffee-with-thorben-2020-01-08-db-migration-criteria-subquery/)
+- [Welcome to 2021](https://thorben-janssen.com/welcome-to-2021/)
+- [How to use CockroachDB with Hibernate](https://thorben-janssen.com/hibernate-cockroachdb/)
+- [How to Initialize Entity Associations with Spring Data JPA](https://thorben-janssen.com/initialize-associations-spring-data-jpa/)
+- [Mapping Collections with Hibernate and JPA](https://thorben-janssen.com/collections-hibernate-jpa/)
+- [Hibernate & Testcontainers – A Perfect Match For Your Tests?](https://thorben-janssen.com/hibernate-testcontainers-a-perfect-match-for-your-tests/)
 <!-- TJ-POST-LIST:END -->
 
 ### _Redhat feeds_
