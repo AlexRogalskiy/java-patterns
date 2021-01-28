@@ -1,9 +1,13 @@
 name: Latest articles and podcasts
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+  schedule:
+    # Runs every hour
+    - cron: '0 * * * *'
 
 jobs:
-  update-readme-with-podcasts:
+  update-readme-with-posts:
     name: Update this repo's README with latest articles and podcasts on Java
     runs-on: ubuntu-latest
     steps:
@@ -11,12 +15,40 @@ jobs:
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
           max_post_count: "10"
-          comment_tag_name: "REDDIT_POST"
-          commit_message: "Updated README with the latest Reddit posts"
+          comment_tag_name: "REDDIT-POST-LIST"
           feed_list: "https://www.reddit.com/r/java/.rss"
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
-          max_post_count: "20"
-          comment_tag_name: "FEEDS_POST"
-          commit_message: "Updated README with the latest Feeds posts"
-          feed_list: "https://www.infoworld.com/category/java/index.rss", "https://blogs.oracle.com/java/rss", "https://plumbr.io/blog/feed", "https://blog.frankel.ch/feed.xml", "https://thorben-janssen.com/feed/", "https://developers.redhat.com/blog/tag/java/feed/", "https://www.javacodegeeks.com/feed"
+          max_post_count: "10"
+          comment_tag_name: "INFOWORLD-POST-LIST"
+          feed_list: "https://www.infoworld.com/category/java/index.rss"
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          max_post_count: "10"
+          comment_tag_name: "ORACLE-POST-LIST"
+          feed_list: "https://blogs.oracle.com/java/rss"
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          max_post_count: "10"
+          comment_tag_name: "PLUMBR-POST-LIST"
+          feed_list: "https://plumbr.io/blog/feed"
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          max_post_count: "10"
+          comment_tag_name: "TJ-POST-LIST"
+          feed_list: "https://thorben-janssen.com/feed/"
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          max_post_count: "10"
+          comment_tag_name: "REDHAT-POST-LIST"
+          feed_list: "https://developers.redhat.com/blog/tag/java/feed/"
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          max_post_count: "10"
+          comment_tag_name: "JAVACODEGEEKS-POST-LIST"
+          feed_list: "https://www.javacodegeeks.com/feed"
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          max_post_count: "10"
+          comment_tag_name: "DEVCASES-POST-LIST"
+          feed_list: "https://devcases.com/feed/"

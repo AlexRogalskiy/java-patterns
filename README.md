@@ -184,7 +184,7 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 
 ### _Reddit posts_
 
-<!-- REDDIT_POST:START -->
+<!-- REDDIT-POST-LIST:START -->
 - [A Simple Machine Learning Project in JavaScript](https://www.reddit.com/r/java/comments/l63wdx/a_simple_machine_learning_project_in_javascript/)
 - [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://www.reddit.com/r/java/comments/l5y554/extending_the_automatic_vectorization/)
 - [Eclipse to host only TCK compliant Java SE implementations](https://www.reddit.com/r/java/comments/l5m3p6/eclipse_to_host_only_tck_compliant_java_se/)
@@ -195,9 +195,39 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 - [Foreign Memory Access - Pulling all the threads](https://www.reddit.com/r/java/comments/l57udt/foreign_memory_access_pulling_all_the_threads/)
 - [Jakarta EE 2020 Survey: Which EE versions do people use?](https://www.reddit.com/r/java/comments/l4yz3x/jakarta_ee_2020_survey_which_ee_versions_do/)
 - [[ANN] Maven Plugin for Java Tools, Improved JavaFX Desktop Template](https://www.reddit.com/r/java/comments/l4v8zf/ann_maven_plugin_for_java_tools_improved_javafx/)
-<!-- REDDIT_POST:END -->
+<!-- REDDIT-POST-LIST:END -->
 
-### _Feeds_
+### _Infoworld posts_
 
-<!-- FEEDS_POST:START -->
-<!-- FEEDS_POST:END -->
+<!-- INFOWORLD-POST-LIST:START -->
+<!-- INFOWORLD-POST-LIST:END -->
+
+### _Oracle posts_
+
+<!-- ORACLE-POST-LIST:START -->
+<!-- ORACLE-POST-LIST:END -->
+
+### _Plumbr posts_
+
+<!-- PLUMBR-POST-LIST:START -->
+<!-- PLUMBR-POST-LIST:END -->
+
+### _Thorben Janssen posts_
+
+<!-- TJ-POST-LIST:START -->
+<!-- TJ-POST-LIST:END -->
+
+### _Redhat posts_
+
+<!-- REDHAT-POST-LIST:START -->
+<!-- REDHAT-POST-LIST:END -->
+
+### _JavaCodeGeeks posts_
+
+<!-- JAVACODEGEEKS-POST-LIST:START -->
+<!-- JAVACODEGEEKS-POST-LIST:END -->
+
+### _JavaCodeGeeks posts_
+
+<!-- DEVCASES-POST-LIST:START -->
+<!-- DEVCASES-POST-LIST:END -->
