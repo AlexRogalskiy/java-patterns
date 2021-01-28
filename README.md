@@ -256,6 +256,16 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 ### _Better code feeds_
 
 <!-- BETTERCODE-POST-LIST:START -->
+- [Spring Boot CRUD Application Example with MongoDB](https://betterjavacode.com/spring-boot/spring-boot-crud-application-example-with-mongodb)
+- [Top 21 Spring Boot Interview Questions](https://betterjavacode.com/spring-boot/top-21-spring-boot-interview-questions)
+- [Spring WebClient vs RestTemplate – Comparison and Features](https://betterjavacode.com/programming/spring-webclient-vs-resttemplate-comparison-and-features)
+- [The Complete Guide to Use Docker Compose](https://betterjavacode.com/docker/the-complete-guide-to-use-docker-compose)
+- [Fundamentals of a Distributed System Design](https://betterjavacode.com/programming/fundamentals-of-a-distributed-system-design)
+- [7 AWS Services Every Developer Should Know About](https://betterjavacode.com/programming/7-aws-services-every-developer-should-know-about)
+- [The Definitive Guide to Use Keycloak With a Spring Boot Application](https://betterjavacode.com/programming/spring-boot-application-keycloak)
+- [How to Use Basic Authentication for Rest Template](https://betterjavacode.com/programming/how-to-use-basic-authentication-for-rest-template)
+- [Json Web Token: How to Secure Spring Boot REST API](https://betterjavacode.com/java/securing-spring-boot-rest-api)
+- [Liquibase – Handling Database in Spring Boot](https://betterjavacode.com/programming/liquibase-handling-database-in-spring-boot)
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### _Inside feeds_
