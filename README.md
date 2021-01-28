@@ -197,37 +197,62 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 - [[ANN] Maven Plugin for Java Tools, Improved JavaFX Desktop Template](https://www.reddit.com/r/java/comments/l4v8zf/ann_maven_plugin_for_java_tools_improved_javafx/)
 <!-- REDDIT-POST-LIST:END -->
 
-### _Infoworld posts_
+### _Infoworld feeds_
 
 <!-- INFOWORLD-POST-LIST:START -->
 <!-- INFOWORLD-POST-LIST:END -->
 
-### _Oracle posts_
+### _Let's talk feeds_
 
-<!-- ORACLE-POST-LIST:START -->
-<!-- ORACLE-POST-LIST:END -->
+<!-- LETSTALK-POST-LIST:START -->
+<!-- LETSTALK-POST-LIST:END -->
 
-### _Plumbr posts_
+### _Random thoughts feeds_
+
+<!-- RANDOMTHOUGHTS-POST-LIST:START -->
+<!-- RANDOMTHOUGHTS-POST-LIST:END -->
+
+### _Better code feeds_
+
+<!-- BETTERCODE-POST-LIST:START -->
+<!-- BETTERCODE-POST-LIST:END -->
+
+### _Inside feeds_
+
+<!-- INSIDE-POST-LIST:START -->
+<!-- INSIDE-POST-LIST:END -->
+
+### _Java programmer feeds_
+
+<!-- JAVAPROG-POST-LIST:START -->
+<!-- JAVAPROG-POST-LIST:END -->
+
+### _InfoQ feeds_
+
+<!-- INFOQ-POST-LIST:START -->
+<!-- INFOQ-POST-LIST:END -->
+
+### _Plumbr feeds_
 
 <!-- PLUMBR-POST-LIST:START -->
 <!-- PLUMBR-POST-LIST:END -->
 
-### _Thorben Janssen posts_
+### _Thorben Janssen feeds_
 
 <!-- TJ-POST-LIST:START -->
 <!-- TJ-POST-LIST:END -->
 
-### _Redhat posts_
+### _Redhat feeds_
 
 <!-- REDHAT-POST-LIST:START -->
 <!-- REDHAT-POST-LIST:END -->
 
-### _JavaCodeGeeks posts_
+### _JavaCodeGeeks feeds_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
-### _JavaCodeGeeks posts_
+### _DevCases feeds_
 
 <!-- DEVCASES-POST-LIST:START -->
 <!-- DEVCASES-POST-LIST:END -->
