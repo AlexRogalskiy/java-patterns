@@ -39,9 +39,15 @@
       * [<em>Acknowledgement</em>](#-acknowledgement)
       * [<em>Feeds and Podcasts</em>](#-feeds-and-podcasts)
          * [<em>Reddit posts</em>](#reddit-posts)
-         * [<em>Feeds</em>](#feeds)
+         * [<em>Infoworld posts</em>](#infoworld-posts)
+         * [<em>Oracle posts</em>](#oracle-posts)
+         * [<em>Plumbr posts</em>](#plumbr-posts)
+         * [<em>Thorben Janssen posts</em>](#thorben-janssen-posts)
+         * [<em>Redhat posts</em>](#redhat-posts)
+         * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
+         * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts-1)
 
-<!-- Added by: runner, at: Wed Jan 27 13:16:02 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jan 28 01:30:11 UTC 2021 -->
 
 <!--te-->
 
@@ -185,21 +191,31 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [A Simple Machine Learning Project in JavaScript](https://www.reddit.com/r/java/comments/l63wdx/a_simple_machine_learning_project_in_javascript/)
+- [JavaFX vs Hard Coding GUI?](https://www.reddit.com/r/java/comments/l6hyzq/javafx_vs_hard_coding_gui/)
+- [Looking for "strings" command from *nix, but as a Java API](https://www.reddit.com/r/java/comments/l6arsy/looking_for_strings_command_from_nix_but_as_a/)
+- [Looking for some really bad Java code to test a checkstyle...](https://www.reddit.com/r/java/comments/l6an7n/looking_for_some_really_bad_java_code_to_test_a/)
+- [selling my javafx application.](https://www.reddit.com/r/java/comments/l69jsq/selling_my_javafx_application/)
+- [If you are a frequent user of Jshell: What are you using it for?](https://www.reddit.com/r/java/comments/l664fq/if_you_are_a_frequent_user_of_jshell_what_are_you/)
+- [ZGC in Java 11 production?](https://www.reddit.com/r/java/comments/l64mx2/zgc_in_java_11_production/)
+- [10 Java Hacks!](https://www.reddit.com/r/java/comments/l64fwp/10_java_hacks/)
+- [What happened with FFI support?](https://www.reddit.com/r/java/comments/l6403k/what_happened_with_ffi_support/)
 - [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://www.reddit.com/r/java/comments/l5y554/extending_the_automatic_vectorization/)
 - [Eclipse to host only TCK compliant Java SE implementations](https://www.reddit.com/r/java/comments/l5m3p6/eclipse_to_host_only_tck_compliant_java_se/)
-- [Caffeinated, a work-in-progress preprocessor for Java ~8.](https://www.reddit.com/r/java/comments/l5lxt5/caffeinated_a_workinprogress_preprocessor_for/)
-- [Error handling in Java is error prone](https://www.reddit.com/r/java/comments/l5f28e/error_handling_in_java_is_error_prone/)
-- [UI Modernization with Vaadin](https://www.reddit.com/r/java/comments/l5abwd/ui_modernization_with_vaadin/)
-- [JSON and Jakarta Persistence, how to solve infinite loop issue](https://www.reddit.com/r/java/comments/l5a9mf/json_and_jakarta_persistence_how_to_solve/)
-- [Foreign Memory Access - Pulling all the threads](https://www.reddit.com/r/java/comments/l57udt/foreign_memory_access_pulling_all_the_threads/)
-- [Jakarta EE 2020 Survey: Which EE versions do people use?](https://www.reddit.com/r/java/comments/l4yz3x/jakarta_ee_2020_survey_which_ee_versions_do/)
-- [[ANN] Maven Plugin for Java Tools, Improved JavaFX Desktop Template](https://www.reddit.com/r/java/comments/l4v8zf/ann_maven_plugin_for_java_tools_improved_javafx/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _Infoworld feeds_
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [GraalVM boosts Java performance with Truffle framework](https://www.infoworld.com/article/3604476/graalvm-boosts-java-performance-with-truffle-framework.html#tk.rss_java)
+- [JDK 16: The new features in Java 16](https://www.infoworld.com/article/3569150/jdk-16-the-new-features-in-java-16.html#tk.rss_java)
+- [Python edges C++ for Tiobe’s programming language of the year](https://www.infoworld.com/article/3602554/python-wins-language-popularity-honor.html#tk.rss_java)
+- [ActiveJ Java platform takes aim at Spring, Quarkus](https://www.infoworld.com/article/3601068/activej-java-platform-takes-aim-at-spring-quarkus.html#tk.rss_java)
+- [Eclipse weighs Java 11 support for Jakarta EE 9](https://www.infoworld.com/article/3600768/eclipse-weighs-java-11-support-for-jakarta-ee-9.html#tk.rss_java)
+- [Enterprise Java gets a new namespace](https://www.infoworld.com/article/3600158/enterprise-java-gets-a-new-namespace.html#tk.rss_java)
+- [The best programming language to learn now](https://www.infoworld.com/article/3403404/the-best-programming-language-to-learn-now.html#tk.rss_java)
+- [Kotlin adds dynamic method invocation for JVM](https://www.infoworld.com/article/3598414/kotlin-adds-dynamic-method-invocation-for-jvm.html#tk.rss_java)
+- [Red Hat Quarkus Java stack moves to OpenShift](https://www.infoworld.com/article/3597302/red-hat-quarkus-java-stack-moves-to-openshift.html#tk.rss_java)
+- [How to use typesafe enums in Java](https://www.infoworld.com/article/3543350/how-to-use-typesafe-enums-in-java.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### _Let's talk feeds_
