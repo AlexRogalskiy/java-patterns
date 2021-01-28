@@ -39,15 +39,20 @@
       * [<em>Acknowledgement</em>](#-acknowledgement)
       * [<em>Feeds and Podcasts</em>](#-feeds-and-podcasts)
          * [<em>Reddit posts</em>](#reddit-posts)
-         * [<em>Infoworld posts</em>](#infoworld-posts)
-         * [<em>Oracle posts</em>](#oracle-posts)
-         * [<em>Plumbr posts</em>](#plumbr-posts)
-         * [<em>Thorben Janssen posts</em>](#thorben-janssen-posts)
-         * [<em>Redhat posts</em>](#redhat-posts)
-         * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
-         * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts-1)
+         * [<em>Infoworld feeds</em>](#infoworld-feeds)
+         * [<em>Let's talk feeds</em>](#lets-talk-feeds)
+         * [<em>Random thoughts feeds</em>](#random-thoughts-feeds)
+         * [<em>Better code feeds</em>](#better-code-feeds)
+         * [<em>Inside feeds</em>](#inside-feeds)
+         * [<em>Java programmer feeds</em>](#java-programmer-feeds)
+         * [<em>InfoQ feeds</em>](#infoq-feeds)
+         * [<em>Plumbr feeds</em>](#plumbr-feeds)
+         * [<em>Thorben Janssen feeds</em>](#thorben-janssen-feeds)
+         * [<em>Redhat feeds</em>](#redhat-feeds)
+         * [<em>JavaCodeGeeks feeds</em>](#javacodegeeks-feeds)
+         * [<em>DevCases feeds</em>](#devcases-feeds)
 
-<!-- Added by: runner, at: Thu Jan 28 01:30:11 UTC 2021 -->
+<!-- Added by: runner, at: Thu Jan 28 01:45:37 UTC 2021 -->
 
 <!--te-->
 
