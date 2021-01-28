@@ -50,8 +50,8 @@ jobs:
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
           max_post_count: "10"
-          comment_tag_name: "INFOQ-POST-LIST"
-          feed_list: "https://feed.infoq.com/java"
+          comment_tag_name: "DREAMIX-POST-LIST"
+          feed_list: "https://dreamix.eu/blog/category/java/feed"
       - uses: gautamkrishnar/blog-post-workflow@master
         with:
           max_post_count: "10"

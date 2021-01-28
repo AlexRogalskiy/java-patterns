@@ -245,8 +245,8 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 
 ### _InfoQ feeds_
 
-<!-- INFOQ-POST-LIST:START -->
-<!-- INFOQ-POST-LIST:END -->
+<!-- DREAMIX-POST-LIST:START -->
+<!-- DREAMIX-POST-LIST:END -->
 
 ### _Plumbr feeds_
 
