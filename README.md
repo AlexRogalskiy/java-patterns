@@ -226,6 +226,16 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 ### _Let's talk feeds_
 
 <!-- LETSTALK-POST-LIST:START -->
+- [4 Developers 2020](http://letstalkaboutjava.blogspot.com/2020/02/4-developers-2020_9.html)
+- [You won't do it later!](http://letstalkaboutjava.blogspot.com/2019/12/you-wont-do-it-later.html)
+- [JDD 2019!](http://letstalkaboutjava.blogspot.com/2019/09/once-again-im-media-partner-of-jdd-and.html)
+- [4 Developers 2019](http://letstalkaboutjava.blogspot.com/2019/02/4-developers-2019.html)
+- [Test-Driven Development - you are doing it wrong!](http://letstalkaboutjava.blogspot.com/2019/01/test-driven-development-you-are-doing.html)
+- [HackYeah!](http://letstalkaboutjava.blogspot.com/2018/11/its-time-for-another-great-chance-to.html)
+- [ByteMyCode - let's meet in Wrocław](http://letstalkaboutjava.blogspot.com/2018/10/bytemycode-lets-meet-in-wrocaw.html)
+- [JDD is coming!](http://letstalkaboutjava.blogspot.com/2018/08/jdd-is-coming.html)
+- [Just stop for a moment](http://letstalkaboutjava.blogspot.com/2018/06/just-stop-for-moment.html)
+- [Refactoring vs. Redesign](http://letstalkaboutjava.blogspot.com/2017/11/refactoring-vs-redesign.html)
 <!-- LETSTALK-POST-LIST:END -->
 
 ### _Random thoughts feeds_
