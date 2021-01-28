@@ -316,6 +316,16 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 ### _Plumbr feeds_
 
 <!-- PLUMBR-POST-LIST:START -->
+- [Plumbr has been acquired by Splunk](https://plumbr.io/blog/plumbr-blog/acquired-by-splunk)
+- [Using Plumbr with OpenTelemetry NodeJS agent](https://plumbr.io/blog/plumbr-blog/using-plumbr-with-opentelemetry-nodejs-agent)
+- [Extending Plumbr RUM with Web Vitals metrics](https://plumbr.io/blog/performance-blog/extending-plumbr-rum-with-web-vitals-metrics)
+- [Send alerts from Plumbr to Microsoft Teams](https://plumbr.io/blog/product-updates/send-alerts-from-plumbr-to-microsoft-teams)
+- [Universal agent expands bottleneck coverage with slow http requests](https://plumbr.io/blog/product-updates/universal-agent-bottleneck-slow-http-requests)
+- [Achieve the three pillars of observability – link Plumbr distributed traces with logs](https://plumbr.io/blog/java/linking-plumbr-distributed-traces-with-logs)
+- [Transaction snapshots become request processing](https://plumbr.io/blog/product-updates/transaction-snapshots-become-request-processing)
+- [Plumbr now monitors Python applications and APIs](https://plumbr.io/blog/product-updates/plumbr-now-monitors-python-applications-and-apis)
+- [Distributed tracing in practice](https://plumbr.io/blog/tracing/distributed-tracing-in-practice)
+- [Plumbr now supports application versioning](https://plumbr.io/blog/product-updates/plumbr-now-supports-application-versioning)
 <!-- PLUMBR-POST-LIST:END -->
 
 ### _Thorben Janssen feeds_
