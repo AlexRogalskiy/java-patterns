@@ -346,6 +346,16 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 ### _Redhat feeds_
 
 <!-- REDHAT-POST-LIST:START -->
+- [Using Kubernetes ConfigMaps to define your Quarkus application’s properties](https://developers.redhat.com/blog/2020/01/23/using-kubernetes-configmaps-to-define-your-quarkus-applications-properties/)
+- [CodeReady Workspaces devfile, demystified](https://developers.redhat.com/blog/2019/12/09/codeready-workspaces-devfile-demystified/)
+- [Decoupling microservices with Apache Camel and Debezium](https://developers.redhat.com/blog/2019/11/19/decoupling-microservices-with-apache-camel-and-debezium/)
+- [How Quarkus brings imperative and reactive programming together](https://developers.redhat.com/blog/2019/11/18/how-quarkus-brings-imperative-and-reactive-programming-together/)
+- [Open Liberty Java runtime now available to Red Hat Runtimes subscribers](https://developers.redhat.com/blog/2019/11/14/open-liberty-java-runtime-now-available-to-red-hat-runtimes-subscribers/)
+- [New features in Red Hat CodeReady Studio 12.13.0.GA and JBoss Tools 4.13.0.Final for Eclipse 2019-09](https://developers.redhat.com/blog/2019/11/11/new-features-in-red-hat-codeready-studio-12-13-0-ga-and-jboss-tools-4-13-0-final-for-eclipse-2019-09/)
+- [Quarkus: Modernize “helloworld” JBoss EAP quickstart, Part 1](https://developers.redhat.com/blog/2019/11/07/quarkus-modernize-helloworld-jboss-eap-quickstart-part-1/)
+- [Managing JBoss EAP/Wildfly using Jcliff](https://developers.redhat.com/blog/2019/11/06/managing-jboss-eap-wildfly-using-jcliff/)
+- [Bring joy to development with Quarkus, the cloud-native Java framework](https://developers.redhat.com/blog/2019/10/24/bring-joy-to-development-with-quarkus-the-cloud-native-java-framework/)
+- [What’s new in Red Hat Dependency Analytics](https://developers.redhat.com/blog/2019/10/15/whats-new-in-red-hat-dependency-analytics/)
 <!-- REDHAT-POST-LIST:END -->
 
 ### _JavaCodeGeeks feeds_
