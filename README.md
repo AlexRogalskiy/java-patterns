@@ -206,6 +206,16 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 ### _Infoworld posts_
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [GraalVM boosts Java performance with Truffle framework](https://www.infoworld.com/article/3604476/graalvm-boosts-java-performance-with-truffle-framework.html#tk.rss_java)
+- [JDK 16: The new features in Java 16](https://www.infoworld.com/article/3569150/jdk-16-the-new-features-in-java-16.html#tk.rss_java)
+- [Python edges C++ for Tiobe’s programming language of the year](https://www.infoworld.com/article/3602554/python-wins-language-popularity-honor.html#tk.rss_java)
+- [ActiveJ Java platform takes aim at Spring, Quarkus](https://www.infoworld.com/article/3601068/activej-java-platform-takes-aim-at-spring-quarkus.html#tk.rss_java)
+- [Eclipse weighs Java 11 support for Jakarta EE 9](https://www.infoworld.com/article/3600768/eclipse-weighs-java-11-support-for-jakarta-ee-9.html#tk.rss_java)
+- [Enterprise Java gets a new namespace](https://www.infoworld.com/article/3600158/enterprise-java-gets-a-new-namespace.html#tk.rss_java)
+- [The best programming language to learn now](https://www.infoworld.com/article/3403404/the-best-programming-language-to-learn-now.html#tk.rss_java)
+- [Kotlin adds dynamic method invocation for JVM](https://www.infoworld.com/article/3598414/kotlin-adds-dynamic-method-invocation-for-jvm.html#tk.rss_java)
+- [Red Hat Quarkus Java stack moves to OpenShift](https://www.infoworld.com/article/3597302/red-hat-quarkus-java-stack-moves-to-openshift.html#tk.rss_java)
+- [How to use typesafe enums in Java](https://www.infoworld.com/article/3543350/how-to-use-typesafe-enums-in-java.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### _Oracle posts_
