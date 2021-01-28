@@ -21,5 +21,5 @@ jobs:
         uses: tretuna/sync-branches@1.2.0
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          FROM_BRANCH: "master"
+          FROM_BRANCH: "AlexRogalskiy:master"
           TO_BRANCH: "main"
