@@ -191,16 +191,16 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [A Simple Machine Learning Project in JavaScript](https://www.reddit.com/r/java/comments/l63wdx/a_simple_machine_learning_project_in_javascript/)
+- [JavaFX vs Hard Coding GUI?](https://www.reddit.com/r/java/comments/l6hyzq/javafx_vs_hard_coding_gui/)
+- [Looking for "strings" command from *nix, but as a Java API](https://www.reddit.com/r/java/comments/l6arsy/looking_for_strings_command_from_nix_but_as_a/)
+- [Looking for some really bad Java code to test a checkstyle...](https://www.reddit.com/r/java/comments/l6an7n/looking_for_some_really_bad_java_code_to_test_a/)
+- [selling my javafx application.](https://www.reddit.com/r/java/comments/l69jsq/selling_my_javafx_application/)
+- [If you are a frequent user of Jshell: What are you using it for?](https://www.reddit.com/r/java/comments/l664fq/if_you_are_a_frequent_user_of_jshell_what_are_you/)
+- [ZGC in Java 11 production?](https://www.reddit.com/r/java/comments/l64mx2/zgc_in_java_11_production/)
+- [10 Java Hacks!](https://www.reddit.com/r/java/comments/l64fwp/10_java_hacks/)
+- [What happened with FFI support?](https://www.reddit.com/r/java/comments/l6403k/what_happened_with_ffi_support/)
 - [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://www.reddit.com/r/java/comments/l5y554/extending_the_automatic_vectorization/)
 - [Eclipse to host only TCK compliant Java SE implementations](https://www.reddit.com/r/java/comments/l5m3p6/eclipse_to_host_only_tck_compliant_java_se/)
-- [Caffeinated, a work-in-progress preprocessor for Java ~8.](https://www.reddit.com/r/java/comments/l5lxt5/caffeinated_a_workinprogress_preprocessor_for/)
-- [Error handling in Java is error prone](https://www.reddit.com/r/java/comments/l5f28e/error_handling_in_java_is_error_prone/)
-- [UI Modernization with Vaadin](https://www.reddit.com/r/java/comments/l5abwd/ui_modernization_with_vaadin/)
-- [JSON and Jakarta Persistence, how to solve infinite loop issue](https://www.reddit.com/r/java/comments/l5a9mf/json_and_jakarta_persistence_how_to_solve/)
-- [Foreign Memory Access - Pulling all the threads](https://www.reddit.com/r/java/comments/l57udt/foreign_memory_access_pulling_all_the_threads/)
-- [Jakarta EE 2020 Survey: Which EE versions do people use?](https://www.reddit.com/r/java/comments/l4yz3x/jakarta_ee_2020_survey_which_ee_versions_do/)
-- [[ANN] Maven Plugin for Java Tools, Improved JavaFX Desktop Template](https://www.reddit.com/r/java/comments/l4v8zf/ann_maven_plugin_for_java_tools_improved_javafx/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _Infoworld posts_
