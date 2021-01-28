@@ -208,7 +208,7 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 - [Eclipse to host only TCK compliant Java SE implementations](https://www.reddit.com/r/java/comments/l5m3p6/eclipse_to_host_only_tck_compliant_java_se/)
 <!-- REDDIT-POST-LIST:END -->
 
-### _Infoworld feeds_
+### _InfoWorld feeds_
 
 <!-- INFOWORLD-POST-LIST:START -->
 - [GraalVM boosts Java performance with Truffle framework](https://www.infoworld.com/article/3604476/graalvm-boosts-java-performance-with-truffle-framework.html#tk.rss_java)
