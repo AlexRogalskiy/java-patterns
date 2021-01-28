@@ -208,7 +208,7 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 - [Eclipse to host only TCK compliant Java SE implementations](https://www.reddit.com/r/java/comments/l5m3p6/eclipse_to_host_only_tck_compliant_java_se/)
 <!-- REDDIT-POST-LIST:END -->
 
-### _InfoWorld feeds_
+### _InfoWorld posts_
 
 <!-- INFOWORLD-POST-LIST:START -->
 - [GraalVM boosts Java performance with Truffle framework](https://www.infoworld.com/article/3604476/graalvm-boosts-java-performance-with-truffle-framework.html#tk.rss_java)
@@ -223,7 +223,7 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 - [How to use typesafe enums in Java](https://www.infoworld.com/article/3543350/how-to-use-typesafe-enums-in-java.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
-### _Let's talk feeds_
+### _Let's talk posts_
 
 <!-- LETSTALK-POST-LIST:START -->
 - [4 Developers 2020](http://letstalkaboutjava.blogspot.com/2020/02/4-developers-2020_9.html)
@@ -238,7 +238,7 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 - [Refactoring vs. Redesign](http://letstalkaboutjava.blogspot.com/2017/11/refactoring-vs-redesign.html)
 <!-- LETSTALK-POST-LIST:END -->
 
-### _Random thoughts feeds_
+### _Random thoughts posts_
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
 - [Using Optional to prevent NullPointers In TrainWrecks](http://randomthoughtsonjavaprogramming.blogspot.com/2021/01/using-optional-to-prevent-nullpointers.html)
@@ -253,7 +253,7 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 - [How to Tell Time in Java’s Garbage Collection](http://randomthoughtsonjavaprogramming.blogspot.com/2020/09/how-to-tell-time-in-javas-garbage.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
-### _Better code feeds_
+### _Better code posts_
 
 <!-- BETTERCODE-POST-LIST:START -->
 - [Spring Boot CRUD Application Example with MongoDB](https://betterjavacode.com/spring-boot/spring-boot-crud-application-example-with-mongodb)
@@ -268,7 +268,7 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 - [Liquibase – Handling Database in Spring Boot](https://betterjavacode.com/programming/liquibase-handling-database-in-spring-boot)
 <!-- BETTERCODE-POST-LIST:END -->
 
-### _Inside feeds_
+### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
 - [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://inside.java/2021/01/27/extending-c2-autovectorization-capabilities/)
@@ -283,7 +283,7 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 - [[pattern-switch] Guards](https://inside.java/2021/01/08/pattern-switch-guard/)
 <!-- INSIDE-POST-LIST:END -->
 
-### _Java programmer feeds_
+### _Java programmer posts_
 
 <!-- JAVAPROG-POST-LIST:START -->
 - [3 Ways to Create Spring Boot Project in Eclipse](https://www.thejavaprogrammer.com/create-spring-boot-project-in-eclipse/)
@@ -298,7 +298,7 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 - [Solve Error Could not reserve enough space for object heap](https://www.thejavaprogrammer.com/could-not-reserve-enough-space-for-object-heap/)
 <!-- JAVAPROG-POST-LIST:END -->
 
-### _Dreamix feeds_
+### _Dreamix posts_
 
 <!-- DREAMIX-POST-LIST:START -->
 - [Learn form Java Champion: Simon Ritter x Java Daily](https://dreamix.eu/blog/java/learn-form-java-champion-simon-ritter-x-java-daily)
@@ -313,7 +313,7 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 - [5 Factors that Lead to Successful Custom Software Development](https://dreamix.eu/blog/java/5-factors-that-lead-to-successful-custom-software-development)
 <!-- DREAMIX-POST-LIST:END -->
 
-### _Plumbr feeds_
+### _Plumbr posts_
 
 <!-- PLUMBR-POST-LIST:START -->
 - [Plumbr has been acquired by Splunk](https://plumbr.io/blog/plumbr-blog/acquired-by-splunk)
@@ -328,7 +328,7 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 - [Plumbr now supports application versioning](https://plumbr.io/blog/product-updates/plumbr-now-supports-application-versioning)
 <!-- PLUMBR-POST-LIST:END -->
 
-### _Thorben Janssen feeds_
+### _Thorben Janssen posts_
 
 <!-- TJ-POST-LIST:START -->
 - [Coffee with Thorben 2020-01-22 – JSON Mappings & Polymorphic Associations](https://thorben-janssen.com/coffee-with-thorben-2020-01-22-json-mapp/)
@@ -343,7 +343,7 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 - [Hibernate & Testcontainers – A Perfect Match For Your Tests?](https://thorben-janssen.com/hibernate-testcontainers-a-perfect-match-for-your-tests/)
 <!-- TJ-POST-LIST:END -->
 
-### _Redhat feeds_
+### _Redhat posts_
 
 <!-- REDHAT-POST-LIST:START -->
 - [Using Kubernetes ConfigMaps to define your Quarkus application’s properties](https://developers.redhat.com/blog/2020/01/23/using-kubernetes-configmaps-to-define-your-quarkus-applications-properties/)
@@ -358,7 +358,7 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 - [What’s new in Red Hat Dependency Analytics](https://developers.redhat.com/blog/2019/10/15/whats-new-in-red-hat-dependency-analytics/)
 <!-- REDHAT-POST-LIST:END -->
 
-### _JavaCodeGeeks feeds_
+### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
 - [Generating a stream of Fibonacci numbers](https://www.javacodegeeks.com/2021/01/generating-a-stream-of-fibonacci-numbers.html)
@@ -373,7 +373,7 @@ Like _Java Patterns_ ? Consider buying me a coffee :\)
 - [So I Wrote a Library](https://www.javacodegeeks.com/2021/01/so-i-wrote-a-library.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
-### _DevCases feeds_
+### _DevCases posts_
 
 <!-- DEVCASES-POST-LIST:START -->
 - [Spring JavaMelody Tutorial](https://devcases.com/java/spring-javamelody-tutorial/?utm_source=rss&utm_medium=rss&utm_campaign=spring-javamelody-tutorial)
