@@ -13,8 +13,8 @@ mergeable:
           regex: ^\[WIP\]
 
       - do: label
-        must_include:
-          regex: 'change|feat|imp|fix|doc|i18n|.*'
+      #  must_include:
+      #    regex: 'change|feat|imp|fix|doc|i18n'
         must_exclude:
           regex: 'wip|work in progress'
 
