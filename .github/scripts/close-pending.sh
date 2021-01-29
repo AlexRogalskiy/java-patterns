@@ -3,7 +3,7 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd)"
-MESSAGE=$(cat $SCRIPT_DIR/closing-message.txt)
+MESSAGE=$(cat "$SCRIPT_DIR"/closing-message.txt)
 
 while IFS= read -r number &&
   IFS= read -r title; do
