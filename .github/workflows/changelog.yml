@@ -25,10 +25,13 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: actions/upload-artifact@v2
-        with:	
-          name: CHANGELOG.md
-          path: ${{ github.workspace }}
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          message: |
+            docs: updates on CHANGELOG
+            Added CHANGELOG to repository
+          add: ${{ github.workspace }}/CHANGELOG.md
 
       - name: Get Changelog Entry
         id: changelog_reader
