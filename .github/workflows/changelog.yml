@@ -23,6 +23,7 @@ jobs:
       - name: Create Changelog
         uses: heinrichreimer/github-changelog-generator-action@v2.1.1
         with:
+          output: ./CHANGELOG.md
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get Changelog Entry
@@ -30,7 +31,7 @@ jobs:
         uses: mindsers/changelog-reader-action@v2
         with:
           version: ${{ steps.tag_name.outputs.current_version }}
-          path: /github/workspace/CHANGELOG.md
+          path: ./CHANGELOG.md
 
       - name: Create Release
         id: create_release
