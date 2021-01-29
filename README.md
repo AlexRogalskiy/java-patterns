@@ -216,16 +216,16 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [I think I’m addicted to programming... what do I do?](https://www.reddit.com/r/java/comments/l7emcl/i_think_im_addicted_to_programming_what_do_i_do/)
+- [Good book for experienced programmer to quickly learn Java to the extent to be able to follow Apache Kafka course?](https://www.reddit.com/r/java/comments/l7d6kl/good_book_for_experienced_programmer_to_quickly/)
+- [Have created a short and practical intro into what project loom is all about.](https://www.reddit.com/r/java/comments/l6u0qn/have_created_a_short_and_practical_intro_into/)
 - [JavaFX vs Hard Coding GUI?](https://www.reddit.com/r/java/comments/l6hyzq/javafx_vs_hard_coding_gui/)
-- [Looking for "strings" command from *nix, but as a Java API](https://www.reddit.com/r/java/comments/l6arsy/looking_for_strings_command_from_nix_but_as_a/)
 - [Looking for some really bad Java code to test a checkstyle...](https://www.reddit.com/r/java/comments/l6an7n/looking_for_some_really_bad_java_code_to_test_a/)
 - [selling my javafx application.](https://www.reddit.com/r/java/comments/l69jsq/selling_my_javafx_application/)
 - [If you are a frequent user of Jshell: What are you using it for?](https://www.reddit.com/r/java/comments/l664fq/if_you_are_a_frequent_user_of_jshell_what_are_you/)
 - [ZGC in Java 11 production?](https://www.reddit.com/r/java/comments/l64mx2/zgc_in_java_11_production/)
-- [10 Java Hacks!](https://www.reddit.com/r/java/comments/l64fwp/10_java_hacks/)
 - [What happened with FFI support?](https://www.reddit.com/r/java/comments/l6403k/what_happened_with_ffi_support/)
 - [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://www.reddit.com/r/java/comments/l5y554/extending_the_automatic_vectorization/)
-- [Eclipse to host only TCK compliant Java SE implementations](https://www.reddit.com/r/java/comments/l5m3p6/eclipse_to_host_only_tck_compliant_java_se/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
