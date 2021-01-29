@@ -1,0 +1,21 @@
+name: close-prs
+
+on:
+  schedule:
+    ## https://crontab.guru/examples.html
+    # Every day
+    - cron: '0 1 * * *'
+
+jobs:
+  close-pending:
+    name: close-pending
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@master
+
+      - name: Execute close-pending script
+        if: github.repository == 'AlexRogalskiy/java-patterns'
+        run: ./.github/scripts/close-pending.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
