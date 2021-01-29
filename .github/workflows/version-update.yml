@@ -24,9 +24,7 @@ jobs:
         with:
           branch: master
           skip_dirty_check: true
-          commit_message: |
-            docs: updates on VERSION
-            Added information on VERSION to repository
+          commit_message: "docs: updates on VERSION\n\n Added information on VERSION to repository"
           commit_options: '--no-verify --signoff'
           commit_user_name: GitHub Bot
           commit_user_email: github-actions@nullables.io

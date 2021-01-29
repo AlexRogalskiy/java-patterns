@@ -28,9 +28,7 @@ jobs:
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
-          message: |
-            docs: updates on CHANGELOG
-            Added CHANGELOG to repository
+          message: "docs: updates on CHANGELOG\n\n Added CHANGELOG to repository"
           add: ${{ github.workspace }}/CHANGELOG.md
 
       - name: Get Changelog Entry
