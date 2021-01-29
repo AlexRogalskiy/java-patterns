@@ -23,8 +23,12 @@ jobs:
       - name: Create Changelog
         uses: heinrichreimer/github-changelog-generator-action@v2.1.1
         with:
-          output: ./CHANGELOG.md
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/upload-artifact@v2
+        with:	
+          name: CHANGELOG.md
+          path: ${{ github.workspace }}
 
       - name: Get Changelog Entry
         id: changelog_reader
