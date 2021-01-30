@@ -381,6 +381,8 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [JDK 17: Hexadecimal Formatting and Parsing](https://www.javacodegeeks.com/2021/01/jdk-17-hexadecimal-formatting-and-parsing.html)
+- [Apache Camel 3.8 and Java Flight Recorder](https://www.javacodegeeks.com/2021/01/apache-camel-3-8-and-java-flight-recorder.html)
 - [Generating a stream of Fibonacci numbers](https://www.javacodegeeks.com/2021/01/generating-a-stream-of-fibonacci-numbers.html)
 - [Headless Browser – A Stepping Stone Towards Developing Smarter Web Applications](https://www.javacodegeeks.com/2021/01/headless-browser-a-stepping-stone-towards-developing-smarter-web-applications.html)
 - [Top 8 Strategies for Successful Cross Browser Testing](https://www.javacodegeeks.com/2021/01/top-8-strategies-for-successful-cross-browser-testing.html)
@@ -389,8 +391,6 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 - [System Stubs: Another Minor Release](https://www.javacodegeeks.com/2021/01/system-stubs-another-minor-release.html)
 - [[MEGA DEAL] The Premium 2021 Project & Quality Management Certification Bundle (98% off)](https://www.javacodegeeks.com/2021/01/mega-deal-the-premium-2021-project-quality-management-certification-bundle-98-off.html)
 - [How To Upgrade From Selenium 3 To Selenium 4?](https://www.javacodegeeks.com/2021/01/how-to-upgrade-from-selenium-3-to-selenium-4.html)
-- [The Temporary Test Property](https://www.javacodegeeks.com/2021/01/the-temporary-test-property.html)
-- [So I Wrote a Library](https://www.javacodegeeks.com/2021/01/so-i-wrote-a-library.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
