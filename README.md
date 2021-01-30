@@ -291,6 +291,8 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [JEP proposed to target JDK 17: 356: Enhanced Pseudo-Random Number Generators](https://inside.java/2021/01/29/jep-356-proposed-to-target-jdk17/)
+- [JMC 8.0.0 Early-Access Release](https://inside.java/2021/01/28/jmc-8-early-access-release/)
 - [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://inside.java/2021/01/27/extending-c2-autovectorization-capabilities/)
 - [Foreign Memory Access - Pulling all the threads](https://inside.java/2021/01/25/memory-access-pulling-all-the-threads/)
 - [Draft JEP for upcoming work on snippets](https://inside.java/2021/01/23/draft-jep-snippets/)
@@ -299,8 +301,6 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 - [Interview with Brian Goetz](https://inside.java/2021/01/19/interview-with-brian-goetz/)
 - [Pattern features for next iteration](https://inside.java/2021/01/19/pattern-features-for-next-iteration/)
 - [New Loom Early Access Build](https://inside.java/2021/01/16/new-loom-ea-builds/)
-- [CodeTools proposal: apidiff](https://inside.java/2021/01/08/codetools-proposal-apidiff/)
-- [[pattern-switch] Guards](https://inside.java/2021/01/08/pattern-switch-guard/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
