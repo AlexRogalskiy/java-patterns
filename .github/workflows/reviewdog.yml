@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: remark-lint
-        uses: prologic/action-remark-lint@v0.0.5
+        uses: prologic/action-remark-lint@v2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           level: error
