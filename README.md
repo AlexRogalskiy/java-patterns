@@ -13,6 +13,8 @@
   </a>
 </p>
 
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/AlexRogalskiy/java-patterns)
+![GitHub Release Date](https://img.shields.io/github/release-date/AlexRogalskiy/java-patterns)
 ![Lines of code](https://tokei.rs/b1/github/AlexRogalskiy/java-patterns?category=lines)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/AlexRogalskiy/java-patterns)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/AlexRogalskiy/java-patterns)
@@ -23,6 +25,11 @@
 ![GitHub search hit counter](https://img.shields.io/github/search/AlexRogalskiy/java-patterns/goto)
 ![GitHub Repository branches](https://badgen.net/github/branches/AlexRogalskiy/java-patterns)
 ![GitHub Repository dependents](https://badgen.net/github/dependents-repo/AlexRogalskiy/java-patterns)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FAlexRogalskiy%2Fjava-patterns.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FAlexRogalskiy%2Fjava-patterns?ref=badge_shield)
+[![Dependabot](https://img.shields.io/badge/dependabot-enabled-1f8ceb.svg?style=flat-square)](https://dependabot.com/)
+[![NewReleases](https://newreleases.io/badge.svg)](https://newreleases.io/github/AlexRogalskiy/java-patterns)
+[![Hits-of-Code](https://hitsofcode.com/github/AlexRogalskiy/java-patterns)](https://hitsofcode.com/github/AlexRogalskiy/java-patterns/view)
+[![ComVer](https://img.shields.io/badge/ComVer-compliant-brightgreen.svg)](https://github.com/AlexRogalskiy/java-patterns)
 
 ## 🎹 _Table of contents_
 
@@ -53,7 +60,7 @@
          * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
          * [<em>DevCases posts</em>](#devcases-posts)
 
-<!-- Added by: runner, at: Fri Jan 29 21:41:24 UTC 2021 -->
+<!-- Added by: runner, at: Sat Jan 30 03:51:41 UTC 2021 -->
 
 <!--te-->
 
@@ -216,16 +223,16 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [I think I’m addicted to programming... what do I do?](https://www.reddit.com/r/java/comments/l7emcl/i_think_im_addicted_to_programming_what_do_i_do/)
+- [My coworker made this walk-through on using Redis with Spring Data](https://www.reddit.com/r/java/comments/l87oks/my_coworker_made_this_walkthrough_on_using_redis/)
+- [Native GUI application with SWT and Skija on Raspberry Pi](https://www.reddit.com/r/java/comments/l7thf2/native_gui_application_with_swt_and_skija_on/)
+- [What's new in Java 16 for us, developers ? (both in french and english, direct link is english)](https://www.reddit.com/r/java/comments/l7plsb/whats_new_in_java_16_for_us_developers_both_in/)
+- [JEP proposed to target JDK 17: 356: Enhanced Pseudo-Random Number Generators](https://www.reddit.com/r/java/comments/l7ke9a/jep_proposed_to_target_jdk_17_356_enhanced/)
 - [Good book for experienced programmer to quickly learn Java to the extent to be able to follow Apache Kafka course?](https://www.reddit.com/r/java/comments/l7d6kl/good_book_for_experienced_programmer_to_quickly/)
 - [Have created a short and practical intro into what project loom is all about.](https://www.reddit.com/r/java/comments/l6u0qn/have_created_a_short_and_practical_intro_into/)
 - [JavaFX vs Hard Coding GUI?](https://www.reddit.com/r/java/comments/l6hyzq/javafx_vs_hard_coding_gui/)
 - [Looking for some really bad Java code to test a checkstyle...](https://www.reddit.com/r/java/comments/l6an7n/looking_for_some_really_bad_java_code_to_test_a/)
 - [selling my javafx application.](https://www.reddit.com/r/java/comments/l69jsq/selling_my_javafx_application/)
 - [If you are a frequent user of Jshell: What are you using it for?](https://www.reddit.com/r/java/comments/l664fq/if_you_are_a_frequent_user_of_jshell_what_are_you/)
-- [ZGC in Java 11 production?](https://www.reddit.com/r/java/comments/l64mx2/zgc_in_java_11_production/)
-- [What happened with FFI support?](https://www.reddit.com/r/java/comments/l6403k/what_happened_with_ffi_support/)
-- [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://www.reddit.com/r/java/comments/l5y554/extending_the_automatic_vectorization/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
@@ -291,6 +298,8 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [JEP proposed to target JDK 17: 356: Enhanced Pseudo-Random Number Generators](https://inside.java/2021/01/29/jep-356-proposed-to-target-jdk17/)
+- [JMC 8.0.0 Early-Access Release](https://inside.java/2021/01/28/jmc-8-early-access-release/)
 - [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://inside.java/2021/01/27/extending-c2-autovectorization-capabilities/)
 - [Foreign Memory Access - Pulling all the threads](https://inside.java/2021/01/25/memory-access-pulling-all-the-threads/)
 - [Draft JEP for upcoming work on snippets](https://inside.java/2021/01/23/draft-jep-snippets/)
@@ -299,8 +308,6 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 - [Interview with Brian Goetz](https://inside.java/2021/01/19/interview-with-brian-goetz/)
 - [Pattern features for next iteration](https://inside.java/2021/01/19/pattern-features-for-next-iteration/)
 - [New Loom Early Access Build](https://inside.java/2021/01/16/new-loom-ea-builds/)
-- [CodeTools proposal: apidiff](https://inside.java/2021/01/08/codetools-proposal-apidiff/)
-- [[pattern-switch] Guards](https://inside.java/2021/01/08/pattern-switch-guard/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
@@ -351,6 +358,7 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 ### _Thorben Janssen posts_
 
 <!-- TJ-POST-LIST:START -->
+- [Coffee with Thorben 2020-01-29 – Soft Deletes & Bi-directional Association](https://thorben-janssen.com/coffee-with-thorben-soft-deletes/)
 - [Coffee with Thorben 2020-01-22 – JSON Mappings & Polymorphic Associations](https://thorben-janssen.com/coffee-with-thorben-2020-01-22-json-mapp/)
 - [Hibernate Reactive – Getting Started Guide](https://thorben-janssen.com/hibernate-reactive-getting-started-guide/)
 - [Coffee with Thorben 2020-01-15 – Association Pitfalls & Enum Mappings](https://thorben-janssen.com/coffee-with-thorben-2020-01-08/)
@@ -360,7 +368,6 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 - [How to use CockroachDB with Hibernate](https://thorben-janssen.com/hibernate-cockroachdb/)
 - [How to Initialize Entity Associations with Spring Data JPA](https://thorben-janssen.com/initialize-associations-spring-data-jpa/)
 - [Mapping Collections with Hibernate and JPA](https://thorben-janssen.com/collections-hibernate-jpa/)
-- [Hibernate & Testcontainers – A Perfect Match For Your Tests?](https://thorben-janssen.com/hibernate-testcontainers-a-perfect-match-for-your-tests/)
 <!-- TJ-POST-LIST:END -->
 
 ### _Redhat posts_
@@ -381,6 +388,8 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [JDK 17: Hexadecimal Formatting and Parsing](https://www.javacodegeeks.com/2021/01/jdk-17-hexadecimal-formatting-and-parsing.html)
+- [Apache Camel 3.8 and Java Flight Recorder](https://www.javacodegeeks.com/2021/01/apache-camel-3-8-and-java-flight-recorder.html)
 - [Generating a stream of Fibonacci numbers](https://www.javacodegeeks.com/2021/01/generating-a-stream-of-fibonacci-numbers.html)
 - [Headless Browser – A Stepping Stone Towards Developing Smarter Web Applications](https://www.javacodegeeks.com/2021/01/headless-browser-a-stepping-stone-towards-developing-smarter-web-applications.html)
 - [Top 8 Strategies for Successful Cross Browser Testing](https://www.javacodegeeks.com/2021/01/top-8-strategies-for-successful-cross-browser-testing.html)
@@ -389,8 +398,6 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 - [System Stubs: Another Minor Release](https://www.javacodegeeks.com/2021/01/system-stubs-another-minor-release.html)
 - [[MEGA DEAL] The Premium 2021 Project & Quality Management Certification Bundle (98% off)](https://www.javacodegeeks.com/2021/01/mega-deal-the-premium-2021-project-quality-management-certification-bundle-98-off.html)
 - [How To Upgrade From Selenium 3 To Selenium 4?](https://www.javacodegeeks.com/2021/01/how-to-upgrade-from-selenium-3-to-selenium-4.html)
-- [The Temporary Test Property](https://www.javacodegeeks.com/2021/01/the-temporary-test-property.html)
-- [So I Wrote a Library](https://www.javacodegeeks.com/2021/01/so-i-wrote-a-library.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_

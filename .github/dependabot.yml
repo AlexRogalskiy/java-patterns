@@ -1,0 +1,57 @@
+version: 2
+
+updates:
+  - package-ecosystem: "github-actions"
+    open-pull-requests-limit: 5
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "13:00"
+    allow:
+      - dependency-type: direct
+    commit-message:
+      prefix: "github-actions"
+    labels:
+      - "dependencies"
+      - ":robot: bot"
+    assignees:
+      - "AlexRogalskiy"
+    reviewers:
+      - "octocat"
+      - "AlexRogalskiy"
+
+  # Maintain dependencies for npm
+  - package-ecosystem: "npm"
+    open-pull-requests-limit: 10
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "09:00"
+    commit-message:
+      # Prefix all commit messages with "npm"
+      prefix: "npm"
+    # Specify labels for npm pull requests
+    labels:
+      - "npm"
+      - "dependencies"
+    pull-request-branch-name:
+      # Separate sections of the branch name with a hyphen
+      # for example, `dependabot-npm_and_yarn-next_js-acorn-6.4.1`
+      separator: "-"
+
+  - package-ecosystem: "pip"
+    open-pull-requests-limit: 10
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "16:00"
+    commit-message:
+      prefix: "pip prod"
+      prefix-development: "pip dev"
+      include: "scope"
+    allow:
+      # Allow both direct and indirect updates for all packages
+      - dependency-type: "all"
+    # Labels on pull requests for version updates only
+    labels:
+      - "pip dependencies"

@@ -1,0 +1,41 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+version: 1
+
+update_configs:
+  # Keep package.json (& lockfiles) up to date as soon as
+  # new versions are published to the npm registry
+  - package_manager: "javascript"
+    directory: "/"
+    update_schedule: "live"
+    allowed_updates:
+      - match:
+          dependency_type: "development"
+          # Supported dependency types:
+          # - "development"
+          #   Development dependency group (supported by some package managers)
+          # - "production"
+          #   Production dependency group (supported by some package managers)
+          # - "direct"
+          #   Direct/top-level dependencies
+          # - "indirect"
+          #   Indirect/transient/sub-dependencies
+          # - "all"
+          update_type: "all"
+          # Supported update types:
+          # - "security"
+          # - "all"
+      - match:
+          dependency_type: "production"
+          update_type: "security"
+
+  # Keep Dockerfile up to date, batching pull requests weekly
+  - package_manager: "docker"
+    directory: "/"
+    update_schedule: "daily"
+
+  - package_manager: "python"
+    directory: "/"
+    update_schedule: "weekly"
