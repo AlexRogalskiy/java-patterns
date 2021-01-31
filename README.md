@@ -223,6 +223,9 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Wanting to create a free open sourced financial market information aggregation platform - interested in thoughts/interest](https://www.reddit.com/r/java/comments/l8jm28/wanting_to_create_a_free_open_sourced_financial/)
+- [New Inside Java podcast - “How to contribute to OpenJDK” with Stuart Marks & Jesper Wilhelmsson](https://www.reddit.com/r/java/comments/l8jlmr/new_inside_java_podcast_how_to_contribute_to/)
+- [Playing with Playwright – Java API](https://www.reddit.com/r/java/comments/l8hitr/playing_with_playwright_java_api/)
 - [My coworker made this walk-through on using Redis with Spring Data](https://www.reddit.com/r/java/comments/l87oks/my_coworker_made_this_walkthrough_on_using_redis/)
 - [Native GUI application with SWT and Skija on Raspberry Pi](https://www.reddit.com/r/java/comments/l7thf2/native_gui_application_with_swt_and_skija_on/)
 - [What's new in Java 16 for us, developers ? (both in french and english, direct link is english)](https://www.reddit.com/r/java/comments/l7plsb/whats_new_in_java_16_for_us_developers_both_in/)
@@ -230,9 +233,6 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 - [Good book for experienced programmer to quickly learn Java to the extent to be able to follow Apache Kafka course?](https://www.reddit.com/r/java/comments/l7d6kl/good_book_for_experienced_programmer_to_quickly/)
 - [Have created a short and practical intro into what project loom is all about.](https://www.reddit.com/r/java/comments/l6u0qn/have_created_a_short_and_practical_intro_into/)
 - [JavaFX vs Hard Coding GUI?](https://www.reddit.com/r/java/comments/l6hyzq/javafx_vs_hard_coding_gui/)
-- [Looking for some really bad Java code to test a checkstyle...](https://www.reddit.com/r/java/comments/l6an7n/looking_for_some_really_bad_java_code_to_test_a/)
-- [selling my javafx application.](https://www.reddit.com/r/java/comments/l69jsq/selling_my_javafx_application/)
-- [If you are a frequent user of Jshell: What are you using it for?](https://www.reddit.com/r/java/comments/l664fq/if_you_are_a_frequent_user_of_jshell_what_are_you/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
