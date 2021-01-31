@@ -60,7 +60,7 @@
          * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
          * [<em>DevCases posts</em>](#devcases-posts)
 
-<!-- Added by: runner, at: Sat Jan 30 12:29:29 UTC 2021 -->
+<!-- Added by: runner, at: Sat Jan 30 14:50:16 UTC 2021 -->
 
 <!--te-->
 
@@ -223,6 +223,9 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Wanting to create a free open sourced financial market information aggregation platform - interested in thoughts/interest](https://www.reddit.com/r/java/comments/l8jm28/wanting_to_create_a_free_open_sourced_financial/)
+- [New Inside Java podcast - “How to contribute to OpenJDK” with Stuart Marks & Jesper Wilhelmsson](https://www.reddit.com/r/java/comments/l8jlmr/new_inside_java_podcast_how_to_contribute_to/)
+- [Playing with Playwright – Java API](https://www.reddit.com/r/java/comments/l8hitr/playing_with_playwright_java_api/)
 - [My coworker made this walk-through on using Redis with Spring Data](https://www.reddit.com/r/java/comments/l87oks/my_coworker_made_this_walkthrough_on_using_redis/)
 - [Native GUI application with SWT and Skija on Raspberry Pi](https://www.reddit.com/r/java/comments/l7thf2/native_gui_application_with_swt_and_skija_on/)
 - [What's new in Java 16 for us, developers ? (both in french and english, direct link is english)](https://www.reddit.com/r/java/comments/l7plsb/whats_new_in_java_16_for_us_developers_both_in/)
@@ -230,9 +233,6 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 - [Good book for experienced programmer to quickly learn Java to the extent to be able to follow Apache Kafka course?](https://www.reddit.com/r/java/comments/l7d6kl/good_book_for_experienced_programmer_to_quickly/)
 - [Have created a short and practical intro into what project loom is all about.](https://www.reddit.com/r/java/comments/l6u0qn/have_created_a_short_and_practical_intro_into/)
 - [JavaFX vs Hard Coding GUI?](https://www.reddit.com/r/java/comments/l6hyzq/javafx_vs_hard_coding_gui/)
-- [Looking for some really bad Java code to test a checkstyle...](https://www.reddit.com/r/java/comments/l6an7n/looking_for_some_really_bad_java_code_to_test_a/)
-- [selling my javafx application.](https://www.reddit.com/r/java/comments/l69jsq/selling_my_javafx_application/)
-- [If you are a frequent user of Jshell: What are you using it for?](https://www.reddit.com/r/java/comments/l664fq/if_you_are_a_frequent_user_of_jshell_what_are_you/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
@@ -299,6 +299,7 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 
 <!-- INSIDE-POST-LIST:START -->
 - [JEP proposed to target JDK 17: 356: Enhanced Pseudo-Random Number Generators](https://inside.java/2021/01/29/jep-356-proposed-to-target-jdk17/)
+- [Episode 11 “How to contribute to OpenJDK” with Stuart Marks and Jesper Wilhelmsson](https://inside.java/2021/01/29/podcast-011/)
 - [JMC 8.0.0 Early-Access Release](https://inside.java/2021/01/28/jmc-8-early-access-release/)
 - [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://inside.java/2021/01/27/extending-c2-autovectorization-capabilities/)
 - [Foreign Memory Access - Pulling all the threads](https://inside.java/2021/01/25/memory-access-pulling-all-the-threads/)
@@ -307,7 +308,6 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 - [jtreg is now on GitHub](https://inside.java/2021/01/22/jtreg-on-github/)
 - [Interview with Brian Goetz](https://inside.java/2021/01/19/interview-with-brian-goetz/)
 - [Pattern features for next iteration](https://inside.java/2021/01/19/pattern-features-for-next-iteration/)
-- [New Loom Early Access Build](https://inside.java/2021/01/16/new-loom-ea-builds/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
@@ -388,6 +388,7 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Orienting to Value](https://www.javacodegeeks.com/2021/01/orienting-to-value.html)
 - [JDK 17: Hexadecimal Formatting and Parsing](https://www.javacodegeeks.com/2021/01/jdk-17-hexadecimal-formatting-and-parsing.html)
 - [Apache Camel 3.8 and Java Flight Recorder](https://www.javacodegeeks.com/2021/01/apache-camel-3-8-and-java-flight-recorder.html)
 - [Generating a stream of Fibonacci numbers](https://www.javacodegeeks.com/2021/01/generating-a-stream-of-fibonacci-numbers.html)
@@ -397,7 +398,6 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 - [What Is New In Selenium 4 And What Is Deprecated In It?](https://www.javacodegeeks.com/2021/01/what-is-new-in-selenium-4-and-what-is-deprecated-in-it.html)
 - [System Stubs: Another Minor Release](https://www.javacodegeeks.com/2021/01/system-stubs-another-minor-release.html)
 - [[MEGA DEAL] The Premium 2021 Project & Quality Management Certification Bundle (98% off)](https://www.javacodegeeks.com/2021/01/mega-deal-the-premium-2021-project-quality-management-certification-bundle-98-off.html)
-- [How To Upgrade From Selenium 3 To Selenium 4?](https://www.javacodegeeks.com/2021/01/how-to-upgrade-from-selenium-3-to-selenium-4.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
