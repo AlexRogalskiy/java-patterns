@@ -299,6 +299,7 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 
 <!-- INSIDE-POST-LIST:START -->
 - [JEP proposed to target JDK 17: 356: Enhanced Pseudo-Random Number Generators](https://inside.java/2021/01/29/jep-356-proposed-to-target-jdk17/)
+- [Episode 11 “How to contribute to OpenJDK” with Stuart Marks and Jesper Wilhelmsson](https://inside.java/2021/01/29/podcast-011/)
 - [JMC 8.0.0 Early-Access Release](https://inside.java/2021/01/28/jmc-8-early-access-release/)
 - [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://inside.java/2021/01/27/extending-c2-autovectorization-capabilities/)
 - [Foreign Memory Access - Pulling all the threads](https://inside.java/2021/01/25/memory-access-pulling-all-the-threads/)
@@ -307,7 +308,6 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 - [jtreg is now on GitHub](https://inside.java/2021/01/22/jtreg-on-github/)
 - [Interview with Brian Goetz](https://inside.java/2021/01/19/interview-with-brian-goetz/)
 - [Pattern features for next iteration](https://inside.java/2021/01/19/pattern-features-for-next-iteration/)
-- [New Loom Early Access Build](https://inside.java/2021/01/16/new-loom-ea-builds/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
