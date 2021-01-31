@@ -185,13 +185,13 @@ with community support please contact with us if you have some question or propo
 Please read [CONTRIBUTING.md](https://github.com/AlexRogalskiy/java-patterns/blob/master/.github/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+![Github contributors](https://img.shields.io/github/all-contributors/AlexRogalskiy/java-patterns)
 
 See also the list of [contributors](https://github.com/AlexRogalskiy/java-patterns/graphs/contributors) who participated in this project.
 
 ## 🚨 _Visitor stats_
 
 [![GitHub page hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FAlexRogalskiy%2Fjava-patterns&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=true)](https://hits.seeyoufarm.com)
-![Github contributors](https://img.shields.io/github/all-contributors/AlexRogalskiy/java-patterns)
 
 ![GitHub stars](https://img.shields.io/github/stars/AlexRogalskiy/java-patterns?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/AlexRogalskiy/java-patterns?style=social)
