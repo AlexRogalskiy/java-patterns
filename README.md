@@ -1,7 +1,7 @@
 # Java Design patterns
 
 <p align="center" style="text-align:center;">
-	<img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/master/images/banner.png" width="100%" height="60%" alt="Java Design patterns"/>
+    <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/master/images/banner.png" width="100%" height="60%" alt="Java Design patterns"/>
 </p>
 
 <p align="center" style="text-align:center;">
@@ -28,7 +28,7 @@
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FAlexRogalskiy%2Fjava-patterns.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FAlexRogalskiy%2Fjava-patterns?ref=badge_shield)
 [![Dependabot](https://img.shields.io/badge/dependabot-enabled-1f8ceb.svg?style=flat-square)](https://dependabot.com/)
 [![NewReleases](https://newreleases.io/badge.svg)](https://newreleases.io/github/AlexRogalskiy/java-patterns)
-[![Hits-of-Code](https://hitsofcode.com/github/AlexRogalskiy/java-patterns)](https://hitsofcode.com/github/AlexRogalskiy/java-patterns/view)
+[![Hits-of-Code](https://hitsofcode.com/github/alexrogalskiy/java-patterns?branch=master)](https://hitsofcode.com/github/alexrogalskiy/java-patterns?branch=master/view?branch=master)
 [![ComVer](https://img.shields.io/badge/ComVer-compliant-brightgreen.svg)][tags]
 
 ## 🎹 _Table of contents_
@@ -64,20 +64,21 @@
 ## ☝ _Summary_
 
 <p align="center" style="text-align:center;">
-	<a href="https://www.repostatus.org/#active">
-		<img src="https://img.shields.io/badge/Project%20Status-Active-brightgreen" alt="Project Status: Active – The project has reached a stable, usable state and is being actively developed." />
-	</a>
-	<a href="https://badges.pufler.dev">
-		<img src="https://badges.pufler.dev/created/AlexRogalskiy/java-patterns" alt="Project created status" />
-	</a>
-	<a href="https://badges.pufler.dev">
-		<img src="https://badges.pufler.dev/updated/AlexRogalskiy/java-patterns" alt="Project updated status" />
-	</a>
+    <img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?logo=java&logoColor=white"/>
+    <a href="https://www.repostatus.org/#active">
+        <img src="https://img.shields.io/badge/Project%20Status-Active-brightgreen" alt="Project Status: Active – The project has reached a stable, usable state and is being actively developed." />
+    </a>
+    <a href="https://badges.pufler.dev">
+        <img src="https://badges.pufler.dev/created/AlexRogalskiy/java-patterns" alt="Project created status" />
+    </a>
+    <a href="https://badges.pufler.dev">
+        <img src="https://badges.pufler.dev/updated/AlexRogalskiy/java-patterns" alt="Project updated status" />
+    </a>
 </p>
 
 _**Java Design Patterns**_ is intended to provide various use case scenarios and architectural concepts on prototyping adaptive applications.
 
-```text 
+```text
 mkdocs.yml    # Configuration file.
 docs/
     readme.md  # General information

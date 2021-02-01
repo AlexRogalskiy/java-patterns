@@ -11,10 +11,12 @@ name: Lint Code Base
 on:
   push:
     branches: [ master ]
+    # Remove the line above to run when pushing to master
+  pull_request:
+    branches: [ master ]
 
 env:
   FILTER_REGEX_EXCLUDE: .gh-md-toc
-
 ###############
 # Set the Job #
 ###############
