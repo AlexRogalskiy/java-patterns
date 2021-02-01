@@ -1,7 +1,7 @@
 # Java Design patterns
 
 <p align="center" style="text-align:center;">
-	<img src="https://github.com/AlexRogalskiy/java-patterns/blob/master/images/banner.png" width="100%" height="60%" alt="Java Design patterns"/>
+	<img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/master/images/banner.png" width="100%" height="60%" alt="Java Design patterns"/>
 </p>
 
 <p align="center" style="text-align:center;">
@@ -60,7 +60,7 @@
          * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
          * [<em>DevCases posts</em>](#devcases-posts)
 
-<!-- Added by: runner, at: Sun Jan 31 17:47:45 UTC 2021 -->
+<!-- Added by: runner, at: Mon Feb  1 04:15:38 UTC 2021 -->
 
 <!--te-->
 
@@ -223,16 +223,16 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [QR in Java?](https://www.reddit.com/r/java/comments/l9py9l/qr_in_java/)
+- [The most popular software developer tools in one app](https://www.reddit.com/r/java/comments/l9kz2v/the_most_popular_software_developer_tools_in_one/)
+- [Data-Oriented programming by Yehonathan Sharvit](https://www.reddit.com/r/java/comments/l9kbi0/dataoriented_programming_by_yehonathan_sharvit/)
+- [How is the daily activities of java full stack developer like?](https://www.reddit.com/r/java/comments/l9jtk1/how_is_the_daily_activities_of_java_full_stack/)
+- [Announcing Persism 1.0.0 - A no nonsense ORM for Java](https://www.reddit.com/r/java/comments/l9gv6d/announcing_persism_100_a_no_nonsense_orm_for_java/)
+- [The state of JVM desktop frameworks: TornadoFX](https://www.reddit.com/r/java/comments/l9gerb/the_state_of_jvm_desktop_frameworks_tornadofx/)
+- [Introducing Weightless, an extremely easy to use database mapping library for Java](https://www.reddit.com/r/java/comments/l9evdp/introducing_weightless_an_extremely_easy_to_use/)
+- [Netty.news: Netty/Incubator/Transport/Native/io_uring 0.0.3.Final released](https://www.reddit.com/r/java/comments/l9b8xp/nettynews_nettyincubatortransportnativeio_uring/)
 - [Wanting to create a free open sourced financial market information aggregation platform - interested in thoughts/interest](https://www.reddit.com/r/java/comments/l8jm28/wanting_to_create_a_free_open_sourced_financial/)
 - [New Inside Java podcast - “How to contribute to OpenJDK” with Stuart Marks & Jesper Wilhelmsson](https://www.reddit.com/r/java/comments/l8jlmr/new_inside_java_podcast_how_to_contribute_to/)
-- [Playing with Playwright – Java API](https://www.reddit.com/r/java/comments/l8hitr/playing_with_playwright_java_api/)
-- [My coworker made this walk-through on using Redis with Spring Data](https://www.reddit.com/r/java/comments/l87oks/my_coworker_made_this_walkthrough_on_using_redis/)
-- [Native GUI application with SWT and Skija on Raspberry Pi](https://www.reddit.com/r/java/comments/l7thf2/native_gui_application_with_swt_and_skija_on/)
-- [What's new in Java 16 for us, developers ? (both in french and english, direct link is english)](https://www.reddit.com/r/java/comments/l7plsb/whats_new_in_java_16_for_us_developers_both_in/)
-- [JEP proposed to target JDK 17: 356: Enhanced Pseudo-Random Number Generators](https://www.reddit.com/r/java/comments/l7ke9a/jep_proposed_to_target_jdk_17_356_enhanced/)
-- [Good book for experienced programmer to quickly learn Java to the extent to be able to follow Apache Kafka course?](https://www.reddit.com/r/java/comments/l7d6kl/good_book_for_experienced_programmer_to_quickly/)
-- [Have created a short and practical intro into what project loom is all about.](https://www.reddit.com/r/java/comments/l6u0qn/have_created_a_short_and_practical_intro_into/)
-- [JavaFX vs Hard Coding GUI?](https://www.reddit.com/r/java/comments/l6hyzq/javafx_vs_hard_coding_gui/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
@@ -388,6 +388,7 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [A Java Test Class Doesn’t Test a Class](https://www.javacodegeeks.com/2021/01/a-java-test-class-doesnt-test-a-class.html)
 - [Orienting to Value](https://www.javacodegeeks.com/2021/01/orienting-to-value.html)
 - [JDK 17: Hexadecimal Formatting and Parsing](https://www.javacodegeeks.com/2021/01/jdk-17-hexadecimal-formatting-and-parsing.html)
 - [Apache Camel 3.8 and Java Flight Recorder](https://www.javacodegeeks.com/2021/01/apache-camel-3-8-and-java-flight-recorder.html)
@@ -397,7 +398,6 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 - [Using Spectron for Electron Apps](https://www.javacodegeeks.com/2021/01/using-spectron-for-electron-apps.html)
 - [What Is New In Selenium 4 And What Is Deprecated In It?](https://www.javacodegeeks.com/2021/01/what-is-new-in-selenium-4-and-what-is-deprecated-in-it.html)
 - [System Stubs: Another Minor Release](https://www.javacodegeeks.com/2021/01/system-stubs-another-minor-release.html)
-- [[MEGA DEAL] The Premium 2021 Project & Quality Management Certification Bundle (98% off)](https://www.javacodegeeks.com/2021/01/mega-deal-the-premium-2021-project-quality-management-certification-bundle-98-off.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
