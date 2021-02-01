@@ -223,16 +223,16 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [QR in Java?](https://www.reddit.com/r/java/comments/l9py9l/qr_in_java/)
+- [The most popular software developer tools in one app](https://www.reddit.com/r/java/comments/l9kz2v/the_most_popular_software_developer_tools_in_one/)
+- [Data-Oriented programming by Yehonathan Sharvit](https://www.reddit.com/r/java/comments/l9kbi0/dataoriented_programming_by_yehonathan_sharvit/)
+- [How is the daily activities of java full stack developer like?](https://www.reddit.com/r/java/comments/l9jtk1/how_is_the_daily_activities_of_java_full_stack/)
+- [Announcing Persism 1.0.0 - A no nonsense ORM for Java](https://www.reddit.com/r/java/comments/l9gv6d/announcing_persism_100_a_no_nonsense_orm_for_java/)
+- [The state of JVM desktop frameworks: TornadoFX](https://www.reddit.com/r/java/comments/l9gerb/the_state_of_jvm_desktop_frameworks_tornadofx/)
+- [Introducing Weightless, an extremely easy to use database mapping library for Java](https://www.reddit.com/r/java/comments/l9evdp/introducing_weightless_an_extremely_easy_to_use/)
+- [Netty.news: Netty/Incubator/Transport/Native/io_uring 0.0.3.Final released](https://www.reddit.com/r/java/comments/l9b8xp/nettynews_nettyincubatortransportnativeio_uring/)
 - [Wanting to create a free open sourced financial market information aggregation platform - interested in thoughts/interest](https://www.reddit.com/r/java/comments/l8jm28/wanting_to_create_a_free_open_sourced_financial/)
 - [New Inside Java podcast - “How to contribute to OpenJDK” with Stuart Marks & Jesper Wilhelmsson](https://www.reddit.com/r/java/comments/l8jlmr/new_inside_java_podcast_how_to_contribute_to/)
-- [Playing with Playwright – Java API](https://www.reddit.com/r/java/comments/l8hitr/playing_with_playwright_java_api/)
-- [My coworker made this walk-through on using Redis with Spring Data](https://www.reddit.com/r/java/comments/l87oks/my_coworker_made_this_walkthrough_on_using_redis/)
-- [Native GUI application with SWT and Skija on Raspberry Pi](https://www.reddit.com/r/java/comments/l7thf2/native_gui_application_with_swt_and_skija_on/)
-- [What's new in Java 16 for us, developers ? (both in french and english, direct link is english)](https://www.reddit.com/r/java/comments/l7plsb/whats_new_in_java_16_for_us_developers_both_in/)
-- [JEP proposed to target JDK 17: 356: Enhanced Pseudo-Random Number Generators](https://www.reddit.com/r/java/comments/l7ke9a/jep_proposed_to_target_jdk_17_356_enhanced/)
-- [Good book for experienced programmer to quickly learn Java to the extent to be able to follow Apache Kafka course?](https://www.reddit.com/r/java/comments/l7d6kl/good_book_for_experienced_programmer_to_quickly/)
-- [Have created a short and practical intro into what project loom is all about.](https://www.reddit.com/r/java/comments/l6u0qn/have_created_a_short_and_practical_intro_into/)
-- [JavaFX vs Hard Coding GUI?](https://www.reddit.com/r/java/comments/l6hyzq/javafx_vs_hard_coding_gui/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
