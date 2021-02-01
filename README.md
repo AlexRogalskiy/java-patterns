@@ -59,9 +59,6 @@
          * [<em>Redhat posts</em>](#redhat-posts)
          * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
          * [<em>DevCases posts</em>](#devcases-posts)
-
-<!-- Added by: runner, at: Mon Feb  1 13:33:36 UTC 2021 -->
-
 <!--te-->
 
 ## ☝ _Summary_
