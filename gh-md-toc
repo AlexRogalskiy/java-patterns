@@ -163,13 +163,13 @@ gh_toc(){
             local dt=`date +'%F_%H%M%S'`
             local ext=".orig.${dt}"
             local toc_path="${gh_src}.toc.${dt}"
-            local toc_footer="<!-- Added by: `whoami`, at: `date` -->"
+            #local toc_footer="<!-- Added by: `whoami`, at: `date` -->"
             # http://fahdshariff.blogspot.ru/2012/12/sed-mutli-line-replacement-between-two.html
             # clear old TOC
             sed -i${ext} "/${ts}/,/${te}/{//!d;}" "$gh_src"
             # create toc file
             echo "${toc}" > "${toc_path}"
-            echo -e "\n${toc_footer}\n" >> "$toc_path"
+            #echo -e "\n${toc_footer}\n" >> "$toc_path"
             # insert toc file
             if [[ "`uname`" == "Darwin" ]]; then
                 sed -i "" "/${ts}/r ${toc_path}" "$gh_src"
@@ -243,16 +243,16 @@ gh_toc_grab() {
     #        </h1>
     #   became: The command <code>foo1</code></h1>
     sed -e ':a' -e 'N' -e '$!ba' -e 's/\n<\/h/<\/h/g' |
-    
+
     # find strings that corresponds to template
     $grepcmd '<a.*id="user-content-[^"]*".*</h[1-6]' |
-    
+
     # remove code tags
     sed 's/<code>//g' | sed 's/<\/code>//g' |
 
     # remove g-emoji
     sed 's/<g-emoji[^>]*[^<]*<\/g-emoji> //g' |
-    
+
     # now all rows are like:
     #   <a id="user-content-..." href="..."><span ...></span></a> ... </h1
     # format result line

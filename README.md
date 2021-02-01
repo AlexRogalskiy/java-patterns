@@ -29,7 +29,7 @@
 [![Dependabot](https://img.shields.io/badge/dependabot-enabled-1f8ceb.svg?style=flat-square)](https://dependabot.com/)
 [![NewReleases](https://newreleases.io/badge.svg)](https://newreleases.io/github/AlexRogalskiy/java-patterns)
 [![Hits-of-Code](https://hitsofcode.com/github/AlexRogalskiy/java-patterns)](https://hitsofcode.com/github/AlexRogalskiy/java-patterns/view)
-[![ComVer](https://img.shields.io/badge/ComVer-compliant-brightgreen.svg)](https://github.com/AlexRogalskiy/java-patterns)
+[![ComVer](https://img.shields.io/badge/ComVer-compliant-brightgreen.svg)][tags]
 
 ## 🎹 _Table of contents_
 
@@ -60,7 +60,7 @@
          * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
          * [<em>DevCases posts</em>](#devcases-posts)
 
-<!-- Added by: runner, at: Mon Feb  1 04:15:38 UTC 2021 -->
+<!-- Added by: runner, at: Mon Feb  1 13:33:36 UTC 2021 -->
 
 <!--te-->
 
@@ -78,7 +78,7 @@
 	</a>
 </p>
 
-**Java Design Patterns** is intended to provide various use case scenarios and architectural concepts on prototyping adaptive applications.
+_**Java Design Patterns**_ is intended to provide various use case scenarios and architectural concepts on prototyping adaptive applications.
 
 ```text 
 mkdocs.yml    # Configuration file.
@@ -116,7 +116,7 @@ docs/
 
 The Website documentation is provided by [gitbook](https://www.gitbook.com/) and can be discovered at url:
 
-[**Java Patterns**](https://alexander-rogalsky.gitbook.io/java-patterns/)
+[_**Java Patterns**_][docs]
 
 To enable documentation serving at _**localhost**_ ****the following steps should be considered:
 
@@ -168,7 +168,7 @@ mkdocs --verbose gh-deploy --force --remote-branch gh-pages
 
 ## 📝 _Versioning_
 
-The project uses [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/AlexRogalskiy/java-patterns/tags).
+The project uses [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository][tags].
 
 ## 🌹 _Authors_
 
@@ -187,7 +187,7 @@ Please read [CONTRIBUTING.md](https://github.com/AlexRogalskiy/java-patterns/blo
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ![Github contributors](https://img.shields.io/github/all-contributors/AlexRogalskiy/java-patterns)
 
-See also the list of [contributors](https://github.com/AlexRogalskiy/java-patterns/graphs/contributors) who participated in this project.
+See also the list of [contributors][contributors] who participated in this project.
 
 ## 🚨 _Visitor stats_
 
@@ -199,16 +199,15 @@ See also the list of [contributors](https://github.com/AlexRogalskiy/java-patter
 
 ## ⚽ _Licensing_
 
-_**Java Patterns**_ is distributed under LGPL version 3 or later, see COPYING.LESSER\(LGPL\) and COPYING\(GPL\).
+_**Java Patterns**_ is distributed under LGPL version 3 or later, [[License](https://github.com/AlexRogalskiy/java-patterns/blob/master/LICENSE.txt)].
 LGPLv3 is additional permissions on top of GPLv3.
 
 ![image](https://user-images.githubusercontent.com/19885116/48661948-6cf97e80-ea7a-11e8-97e7-b45332a13e49.png)
 
-([License](https://github.com/AlexRogalskiy/java-patterns/blob/master/LICENSE.txt))
-
 ## 🌟 _Development Support_
 
-Like _**Java Patterns**_ ? Consider buying me a coffee :\)
+Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/master/images/icon.png" width="20" height="20" alt="Java Design patterns"/>
+ and _**Java Patterns**_ ? Consider buying me a coffee :\)
 
 [![Become a Patron](https://img.shields.io/badge/Become_Patron-Support_me_on_Patreon-blue.svg?style=flat-square&logo=patreon&color=e64413)](https://www.patreon.com/alexrogalskiy)
 [![Buy Me A Coffee](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellow.svg?logo=buy%20me%20a%20coffee)](https://www.buymeacoffee.com/AlexRogalskiy)
@@ -216,7 +215,7 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 
 ## 👨‍👨‍👧‍👦 _Acknowledgement_
 
-[![Stargazers repo roster for @AlexRogalskiy/java-patterns](https://reporoster.com/stars/AlexRogalskiy/java-patterns)](https://github.com/AlexRogalskiy/java-patterns/stargazers)
+[![Stargazers repo roster for @AlexRogalskiy/java-patterns](https://reporoster.com/stars/AlexRogalskiy/java-patterns)][stars]
 
 ## 🔥 _Feeds and Podcasts_
 
@@ -414,3 +413,12 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 - [Spring Boot Hello World – JSP tutorial](https://devcases.com/java/spring-boot-hello-world-jsp/?utm_source=rss&utm_medium=rss&utm_campaign=spring-boot-hello-world-jsp)
 - [How to debug maven tests](https://devcases.com/java/how-to-debug-maven-tests/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-debug-maven-tests)
 <!-- DEVCASES-POST-LIST:END -->
+
+  [repo]:           https://github.com/AlexRogalskiy/java-patterns
+  [tags]:           https://github.com/AlexRogalskiy/java-patterns/tags
+  [issues]:         https://github.com/AlexRogalskiy/java-patterns/issues
+  [pulls]:          https://github.com/AlexRogalskiy/java-patterns/pulls
+  [wiki]:           https://github.com/AlexRogalskiy/java-patterns/wiki
+  [stars]:          https://github.com/AlexRogalskiy/java-patterns/stargazers
+  [contributors]:   https://github.com/AlexRogalskiy/java-patterns/graphs/contributors
+  [docs]:           https://alexander-rogalsky.gitbook.io/java-patterns/
