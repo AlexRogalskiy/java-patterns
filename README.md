@@ -1,7 +1,7 @@
 # Java Design patterns
 
 <p align="center" style="text-align:center;">
-	<img src="https://github.com/AlexRogalskiy/java-patterns/blob/master/images/banner.png" width="100%" height="60%" alt="Java Design patterns"/>
+	<img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/master/images/banner.png" width="100%" height="60%" alt="Java Design patterns"/>
 </p>
 
 <p align="center" style="text-align:center;">
