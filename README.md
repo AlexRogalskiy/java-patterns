@@ -64,6 +64,7 @@
 ## ☝ _Summary_
 
 <p align="center" style="text-align:center;">
+    <img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?logo=java&logoColor=white"/>
 	<a href="https://www.repostatus.org/#active">
 		<img src="https://img.shields.io/badge/Project%20Status-Active-brightgreen" alt="Project Status: Active – The project has reached a stable, usable state and is being actively developed." />
 	</a>
