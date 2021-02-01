@@ -388,6 +388,7 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [A Java Test Class Doesn’t Test a Class](https://www.javacodegeeks.com/2021/01/a-java-test-class-doesnt-test-a-class.html)
 - [Orienting to Value](https://www.javacodegeeks.com/2021/01/orienting-to-value.html)
 - [JDK 17: Hexadecimal Formatting and Parsing](https://www.javacodegeeks.com/2021/01/jdk-17-hexadecimal-formatting-and-parsing.html)
 - [Apache Camel 3.8 and Java Flight Recorder](https://www.javacodegeeks.com/2021/01/apache-camel-3-8-and-java-flight-recorder.html)
@@ -397,7 +398,6 @@ Like _**Java Patterns**_ ? Consider buying me a coffee :\)
 - [Using Spectron for Electron Apps](https://www.javacodegeeks.com/2021/01/using-spectron-for-electron-apps.html)
 - [What Is New In Selenium 4 And What Is Deprecated In It?](https://www.javacodegeeks.com/2021/01/what-is-new-in-selenium-4-and-what-is-deprecated-in-it.html)
 - [System Stubs: Another Minor Release](https://www.javacodegeeks.com/2021/01/system-stubs-another-minor-release.html)
-- [[MEGA DEAL] The Premium 2021 Project & Quality Management Certification Bundle (98% off)](https://www.javacodegeeks.com/2021/01/mega-deal-the-premium-2021-project-quality-management-certification-bundle-98-off.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
