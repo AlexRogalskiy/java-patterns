@@ -12,6 +12,9 @@ on:
   push:
     branches: [ master ]
 
+env:
+  FILTER_REGEX_EXCLUDE: .gh-md-toc
+
 ###############
 # Set the Job #
 ###############
