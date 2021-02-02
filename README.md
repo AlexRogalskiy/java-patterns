@@ -38,6 +38,7 @@
       * [<em>Table of contents</em>](#-table-of-contents)
       * [<em>Summary</em>](#-summary)
       * [<em>Documentation</em>](#-documentation)
+      * [<em>Statistics</em>](#-statistics)
       * [<em>Versioning</em>](#-versioning)
       * [<em>Authors</em>](#-authors)
       * [<em>Contributing</em>](#-contributing)
