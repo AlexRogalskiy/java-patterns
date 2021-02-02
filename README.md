@@ -38,7 +38,6 @@
       * [<em>Table of contents</em>](#-table-of-contents)
       * [<em>Summary</em>](#-summary)
       * [<em>Documentation</em>](#-documentation)
-      * [<em>Statistics</em>](#-statistics)
       * [<em>Versioning</em>](#-versioning)
       * [<em>Authors</em>](#-authors)
       * [<em>Contributing</em>](#-contributing)
@@ -167,7 +166,9 @@ mkdocs --verbose gh-deploy --force --remote-branch gh-pages
 
 ## ⏰ _Statistics_
 
-![Documentation page speed](https://pagespeed-insights.herokuapp.com/?url=https://alexander-rogalsky.gitbook.io/java-patterns/&strategy=mobile)
+<p align="center" style="text-align:center;">
+    <img alt="Documentation page speed" src="https://pagespeed-insights.herokuapp.com/?url=https://alexander-rogalsky.gitbook.io/java-patterns/&strategy=mobile"/>
+</p>
 
 ## 📝 _Versioning_
 
