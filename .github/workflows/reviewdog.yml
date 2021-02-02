@@ -13,4 +13,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           level: error
+          fail_on_error: false
           reporter: github-pr-check # Change reporter. (Only `github-pr-check` is supported at the moment).

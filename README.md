@@ -38,6 +38,7 @@
       * [<em>Table of contents</em>](#-table-of-contents)
       * [<em>Summary</em>](#-summary)
       * [<em>Documentation</em>](#-documentation)
+      * [<em>Statistics</em>](#-statistics)
       * [<em>Versioning</em>](#-versioning)
       * [<em>Authors</em>](#-authors)
       * [<em>Contributing</em>](#-contributing)
@@ -116,7 +117,7 @@ The Website documentation is provided by [gitbook](https://www.gitbook.com/) and
 
 [_**Java Patterns**_][docs]
 
-To enable documentation serving at _**localhost**_ ****the following steps should be considered:
+To enable documentation serving at _**localhost**_ the following steps should be considered:
 
 1\) Install/upgrade _**pip**_ command-line utility:
 
@@ -163,6 +164,12 @@ mkdocs --verbose gh-deploy --force --remote-branch gh-pages
 ```
 
 5\) Open up [localhost](http://127.0.0.1:8000/) in browser to get the default documentation homepage.
+
+## ⏰ _Statistics_
+
+<p align="center" style="text-align:center;">
+    <img alt="Documentation page speed" src="https://pagespeed-insights.herokuapp.com/?url=https://alexander-rogalsky.gitbook.io/java-patterns/&strategy=mobile"/>
+</p>
 
 ## 📝 _Versioning_
 
@@ -220,16 +227,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [QR in Java?](https://www.reddit.com/r/java/comments/l9py9l/qr_in_java/)
+- [What are the limitations of Spring Boot?](https://www.reddit.com/r/java/comments/lahqlu/what_are_the_limitations_of_spring_boot/)
+- [Red Hat ported OpenJDK to 64-bit ARM: A community history](https://www.reddit.com/r/java/comments/lafal8/red_hat_ported_openjdk_to_64bit_arm_a_community/)
+- [New Developer Friendly Features After Java 8 - Piotr's TechBlog](https://www.reddit.com/r/java/comments/la7yqh/new_developer_friendly_features_after_java_8/)
+- [How are you organizing your Unit, Integration and System tests with Maven?](https://www.reddit.com/r/java/comments/la775b/how_are_you_organizing_your_unit_integration_and/)
+- [Layrry 1.0.0.Alpha1 has been released!](https://www.reddit.com/r/java/comments/la6cmd/layrry_100alpha1_has_been_released/)
+- [A Modern JavaFX Theme: JMetro | Pedro Duque Vieira @ JFX Days 2020](https://www.reddit.com/r/java/comments/la4g3j/a_modern_javafx_theme_jmetro_pedro_duque_vieira/)
+- [Gradle license agreement generator](https://www.reddit.com/r/java/comments/la3h0r/gradle_license_agreement_generator/)
+- [saw Marco's coding live-stream yesterday and thought it rocked](https://www.reddit.com/r/java/comments/la1xvi/saw_marcos_coding_livestream_yesterday_and/)
 - [The most popular software developer tools in one app](https://www.reddit.com/r/java/comments/l9kz2v/the_most_popular_software_developer_tools_in_one/)
 - [Data-Oriented programming by Yehonathan Sharvit](https://www.reddit.com/r/java/comments/l9kbi0/dataoriented_programming_by_yehonathan_sharvit/)
-- [How is the daily activities of java full stack developer like?](https://www.reddit.com/r/java/comments/l9jtk1/how_is_the_daily_activities_of_java_full_stack/)
-- [Announcing Persism 1.0.0 - A no nonsense ORM for Java](https://www.reddit.com/r/java/comments/l9gv6d/announcing_persism_100_a_no_nonsense_orm_for_java/)
-- [The state of JVM desktop frameworks: TornadoFX](https://www.reddit.com/r/java/comments/l9gerb/the_state_of_jvm_desktop_frameworks_tornadofx/)
-- [Introducing Weightless, an extremely easy to use database mapping library for Java](https://www.reddit.com/r/java/comments/l9evdp/introducing_weightless_an_extremely_easy_to_use/)
-- [Netty.news: Netty/Incubator/Transport/Native/io_uring 0.0.3.Final released](https://www.reddit.com/r/java/comments/l9b8xp/nettynews_nettyincubatortransportnativeio_uring/)
-- [Wanting to create a free open sourced financial market information aggregation platform - interested in thoughts/interest](https://www.reddit.com/r/java/comments/l8jm28/wanting_to_create_a_free_open_sourced_financial/)
-- [New Inside Java podcast - “How to contribute to OpenJDK” with Stuart Marks & Jesper Wilhelmsson](https://www.reddit.com/r/java/comments/l8jlmr/new_inside_java_podcast_how_to_contribute_to/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
