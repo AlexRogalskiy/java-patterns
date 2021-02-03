@@ -227,16 +227,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Java help](https://www.reddit.com/r/java/comments/lb79sw/java_help/)
+- [Password4j: a user-friendly library that supports modern cryptographic hash functions for your passwords!](https://www.reddit.com/r/java/comments/lazquv/password4j_a_userfriendly_library_that_supports/)
+- [Joy: a new implementation of Jakarta JSON](https://www.reddit.com/r/java/comments/lavxd7/joy_a_new_implementation_of_jakarta_json/)
+- [The Future of Java: Will You Have to Pay For It? Java is currently one of the most used languages in the world with over 16% of developers world-wide using it on a current basis.](https://www.reddit.com/r/java/comments/lav7om/the_future_of_java_will_you_have_to_pay_for_it/)
+- [is there a way to find out unused dependencies in a spring boot project](https://www.reddit.com/r/java/comments/laq27d/is_there_a_way_to_find_out_unused_dependencies_in/)
+- [ReactJ - Java UI lib - looking for feedback](https://www.reddit.com/r/java/comments/laopvj/reactj_java_ui_lib_looking_for_feedback/)
+- [Gradle JPackage and JLink integration](https://www.reddit.com/r/java/comments/laontp/gradle_jpackage_and_jlink_integration/)
 - [What are the limitations of Spring Boot?](https://www.reddit.com/r/java/comments/lahqlu/what_are_the_limitations_of_spring_boot/)
 - [Red Hat ported OpenJDK to 64-bit ARM: A community history](https://www.reddit.com/r/java/comments/lafal8/red_hat_ported_openjdk_to_64bit_arm_a_community/)
 - [New Developer Friendly Features After Java 8 - Piotr's TechBlog](https://www.reddit.com/r/java/comments/la7yqh/new_developer_friendly_features_after_java_8/)
-- [How are you organizing your Unit, Integration and System tests with Maven?](https://www.reddit.com/r/java/comments/la775b/how_are_you_organizing_your_unit_integration_and/)
-- [Layrry 1.0.0.Alpha1 has been released!](https://www.reddit.com/r/java/comments/la6cmd/layrry_100alpha1_has_been_released/)
-- [A Modern JavaFX Theme: JMetro | Pedro Duque Vieira @ JFX Days 2020](https://www.reddit.com/r/java/comments/la4g3j/a_modern_javafx_theme_jmetro_pedro_duque_vieira/)
-- [Gradle license agreement generator](https://www.reddit.com/r/java/comments/la3h0r/gradle_license_agreement_generator/)
-- [saw Marco's coding live-stream yesterday and thought it rocked](https://www.reddit.com/r/java/comments/la1xvi/saw_marcos_coding_livestream_yesterday_and/)
-- [The most popular software developer tools in one app](https://www.reddit.com/r/java/comments/l9kz2v/the_most_popular_software_developer_tools_in_one/)
-- [Data-Oriented programming by Yehonathan Sharvit](https://www.reddit.com/r/java/comments/l9kbi0/dataoriented_programming_by_yehonathan_sharvit/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
