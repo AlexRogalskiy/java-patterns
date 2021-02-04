@@ -227,21 +227,22 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [What are the limitations of Spring Boot?](https://www.reddit.com/r/java/comments/lahqlu/what_are_the_limitations_of_spring_boot/)
-- [Red Hat ported OpenJDK to 64-bit ARM: A community history](https://www.reddit.com/r/java/comments/lafal8/red_hat_ported_openjdk_to_64bit_arm_a_community/)
-- [New Developer Friendly Features After Java 8 - Piotr's TechBlog](https://www.reddit.com/r/java/comments/la7yqh/new_developer_friendly_features_after_java_8/)
-- [How are you organizing your Unit, Integration and System tests with Maven?](https://www.reddit.com/r/java/comments/la775b/how_are_you_organizing_your_unit_integration_and/)
-- [Layrry 1.0.0.Alpha1 has been released!](https://www.reddit.com/r/java/comments/la6cmd/layrry_100alpha1_has_been_released/)
-- [A Modern JavaFX Theme: JMetro | Pedro Duque Vieira @ JFX Days 2020](https://www.reddit.com/r/java/comments/la4g3j/a_modern_javafx_theme_jmetro_pedro_duque_vieira/)
-- [Gradle license agreement generator](https://www.reddit.com/r/java/comments/la3h0r/gradle_license_agreement_generator/)
-- [saw Marco's coding live-stream yesterday and thought it rocked](https://www.reddit.com/r/java/comments/la1xvi/saw_marcos_coding_livestream_yesterday_and/)
-- [The most popular software developer tools in one app](https://www.reddit.com/r/java/comments/l9kz2v/the_most_popular_software_developer_tools_in_one/)
-- [Data-Oriented programming by Yehonathan Sharvit](https://www.reddit.com/r/java/comments/l9kbi0/dataoriented_programming_by_yehonathan_sharvit/)
+- [CustomResource Improvements in Fabric8 KubernetesClient v5.0.0](https://www.reddit.com/r/java/comments/lbyxhb/customresource_improvements_in_fabric8/)
+- [Literature on Java Annotation Processors](https://www.reddit.com/r/java/comments/lbtymi/literature_on_java_annotation_processors/)
+- [Bintray (including JCenter) will be sunset on May 1st](https://www.reddit.com/r/java/comments/lbstco/bintray_including_jcenter_will_be_sunset_on_may/)
+- [JEP-380: Unix domain socket channels (Java 16)](https://www.reddit.com/r/java/comments/lbpws2/jep380_unix_domain_socket_channels_java_16/)
+- [Discussion about JavaFX controls future. Please share your opinion with the maintainers](https://www.reddit.com/r/java/comments/lbmptw/discussion_about_javafx_controls_future_please/)
+- [Best java IDE to use](https://www.reddit.com/r/java/comments/lbmfbm/best_java_ide_to_use/)
+- [Setting up a private Helm chart repository on GitHub (along with a Gradle plugin)](https://www.reddit.com/r/java/comments/lbmce7/setting_up_a_private_helm_chart_repository_on/)
+- [Talking to Postgres Through Java 16 Unix-Domain Socket Channels](https://www.reddit.com/r/java/comments/lbk5il/talking_to_postgres_through_java_16_unixdomain/)
+- [Popular technologies for a full-stack Java developer](https://www.reddit.com/r/java/comments/lbcykc/popular_technologies_for_a_fullstack_java/)
+- [Password4j: a user-friendly library that supports modern cryptographic hash functions for your passwords!](https://www.reddit.com/r/java/comments/lazquv/password4j_a_userfriendly_library_that_supports/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [Oracle adds GraalVM to Java subscription](https://www.infoworld.com/article/3606069/oracle-adds-graalvm-to-java-subscription.html#tk.rss_java)
 - [GraalVM boosts Java performance with Truffle framework](https://www.infoworld.com/article/3604476/graalvm-boosts-java-performance-with-truffle-framework.html#tk.rss_java)
 - [JDK 16: The new features in Java 16](https://www.infoworld.com/article/3569150/jdk-16-the-new-features-in-java-16.html#tk.rss_java)
 - [Python edges C++ for Tiobe’s programming language of the year](https://www.infoworld.com/article/3602554/python-wins-language-popularity-honor.html#tk.rss_java)
@@ -251,7 +252,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [The best programming language to learn now](https://www.infoworld.com/article/3403404/the-best-programming-language-to-learn-now.html#tk.rss_java)
 - [Kotlin adds dynamic method invocation for JVM](https://www.infoworld.com/article/3598414/kotlin-adds-dynamic-method-invocation-for-jvm.html#tk.rss_java)
 - [Red Hat Quarkus Java stack moves to OpenShift](https://www.infoworld.com/article/3597302/red-hat-quarkus-java-stack-moves-to-openshift.html#tk.rss_java)
-- [How to use typesafe enums in Java](https://www.infoworld.com/article/3543350/how-to-use-typesafe-enums-in-java.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### _Let's talk posts_
@@ -272,6 +272,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Random thoughts posts_
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [Using CDI to extend functionality](http://randomthoughtsonjavaprogramming.blogspot.com/2021/02/using-cdi-to-extend-functionality.html)
 - [Using Optional to prevent NullPointers In TrainWrecks](http://randomthoughtsonjavaprogramming.blogspot.com/2021/01/using-optional-to-prevent-nullpointers.html)
 - [Branch Prediction](http://randomthoughtsonjavaprogramming.blogspot.com/2021/01/branch-prediction.html)
 - [Notes on Unity](http://randomthoughtsonjavaprogramming.blogspot.com/2020/12/notes-on-unity.html)
@@ -281,7 +282,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Why aren't Java Collections remove methods generic?](http://randomthoughtsonjavaprogramming.blogspot.com/2020/11/why-arent-java-collections-remove.html)
 - [Running Java in the Cloud - Jelastic](http://randomthoughtsonjavaprogramming.blogspot.com/2020/10/running-java-in-cloud-jelastic.html)
 - [My Angular App](http://randomthoughtsonjavaprogramming.blogspot.com/2017/07/my-angular-app.html)
-- [How to Tell Time in Java’s Garbage Collection](http://randomthoughtsonjavaprogramming.blogspot.com/2020/09/how-to-tell-time-in-javas-garbage.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### _Better code posts_
@@ -302,6 +302,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [JEP-380: Unix domain socket channels](https://inside.java/2021/02/03/jep380-unix-domain-sockets-channels/)
 - [JEP proposed to target JDK 17: 356: Enhanced Pseudo-Random Number Generators](https://inside.java/2021/01/29/jep-356-proposed-to-target-jdk17/)
 - [Episode 11 “How to contribute to OpenJDK” with Stuart Marks and Jesper Wilhelmsson](https://inside.java/2021/01/29/podcast-011/)
 - [JMC 8.0.0 Early-Access Release](https://inside.java/2021/01/28/jmc-8-early-access-release/)
@@ -311,7 +312,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Java Feature Spotlight: Pattern Matching](https://inside.java/2021/01/22/feature-spotlight-pattern-matching/)
 - [jtreg is now on GitHub](https://inside.java/2021/01/22/jtreg-on-github/)
 - [Interview with Brian Goetz](https://inside.java/2021/01/19/interview-with-brian-goetz/)
-- [Pattern features for next iteration](https://inside.java/2021/01/19/pattern-features-for-next-iteration/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
@@ -362,6 +362,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Thorben Janssen posts_
 
 <!-- TJ-POST-LIST:START -->
+- [JDBC Connection and Dialect Configuration in Hibernate](https://thorben-janssen.com/jdbc-connection-and-dialect-in-hibernate/)
 - [Coffee with Thorben 2020-01-29 – Soft Deletes & Bi-directional Association](https://thorben-janssen.com/coffee-with-thorben-soft-deletes/)
 - [Coffee with Thorben 2020-01-22 – JSON Mappings & Polymorphic Associations](https://thorben-janssen.com/coffee-with-thorben-2020-01-22-json-mapp/)
 - [Hibernate Reactive – Getting Started Guide](https://thorben-janssen.com/hibernate-reactive-getting-started-guide/)
@@ -371,7 +372,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Welcome to 2021](https://thorben-janssen.com/welcome-to-2021/)
 - [How to use CockroachDB with Hibernate](https://thorben-janssen.com/hibernate-cockroachdb/)
 - [How to Initialize Entity Associations with Spring Data JPA](https://thorben-janssen.com/initialize-associations-spring-data-jpa/)
-- [Mapping Collections with Hibernate and JPA](https://thorben-janssen.com/collections-hibernate-jpa/)
 <!-- TJ-POST-LIST:END -->
 
 ### _Redhat posts_
@@ -392,16 +392,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [JEP-396 and You: strong encapsulation of the JDK internals is the default](https://www.javacodegeeks.com/2021/02/jep-396-and-you-strong-encapsulation-of-the-jdk-internals-is-the-default.html)
+- [How To Find Good Java Developers For an Enterprise Project](https://www.javacodegeeks.com/2021/02/how-to-find-good-java-developers-for-an-enterprise-project.html)
+- [How much faster is Java 15?](https://www.javacodegeeks.com/2021/02/how-much-faster-is-java-15.html)
+- [Feedback Loops Help When to Centralize or Decentralize Product-Based Decisions](https://www.javacodegeeks.com/2021/02/feedback-loops-help-when-to-centralize-or-decentralize-product-based-decisions.html)
+- [[MEGA DEAL] The 2021 Career & Self Development Master Class (98% off)](https://www.javacodegeeks.com/2021/02/mega-deal-the-2021-career-self-development-master-class-98-off.html)
+- [The Code Review Problem for Migration](https://www.javacodegeeks.com/2021/02/the-code-review-problem-for-migration.html)
 - [A Java Test Class Doesn’t Test a Class](https://www.javacodegeeks.com/2021/01/a-java-test-class-doesnt-test-a-class.html)
 - [Orienting to Value](https://www.javacodegeeks.com/2021/01/orienting-to-value.html)
 - [JDK 17: Hexadecimal Formatting and Parsing](https://www.javacodegeeks.com/2021/01/jdk-17-hexadecimal-formatting-and-parsing.html)
 - [Apache Camel 3.8 and Java Flight Recorder](https://www.javacodegeeks.com/2021/01/apache-camel-3-8-and-java-flight-recorder.html)
-- [Generating a stream of Fibonacci numbers](https://www.javacodegeeks.com/2021/01/generating-a-stream-of-fibonacci-numbers.html)
-- [Headless Browser – A Stepping Stone Towards Developing Smarter Web Applications](https://www.javacodegeeks.com/2021/01/headless-browser-a-stepping-stone-towards-developing-smarter-web-applications.html)
-- [Top 8 Strategies for Successful Cross Browser Testing](https://www.javacodegeeks.com/2021/01/top-8-strategies-for-successful-cross-browser-testing.html)
-- [Using Spectron for Electron Apps](https://www.javacodegeeks.com/2021/01/using-spectron-for-electron-apps.html)
-- [What Is New In Selenium 4 And What Is Deprecated In It?](https://www.javacodegeeks.com/2021/01/what-is-new-in-selenium-4-and-what-is-deprecated-in-it.html)
-- [System Stubs: Another Minor Release](https://www.javacodegeeks.com/2021/01/system-stubs-another-minor-release.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
