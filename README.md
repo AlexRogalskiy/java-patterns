@@ -362,6 +362,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Thorben Janssen posts_
 
 <!-- TJ-POST-LIST:START -->
+- [JDBC Connection and Dialect Configuration in Hibernate](https://thorben-janssen.com/jdbc-connection-and-dialect-in-hibernate/)
 - [Coffee with Thorben 2020-01-29 – Soft Deletes & Bi-directional Association](https://thorben-janssen.com/coffee-with-thorben-soft-deletes/)
 - [Coffee with Thorben 2020-01-22 – JSON Mappings & Polymorphic Associations](https://thorben-janssen.com/coffee-with-thorben-2020-01-22-json-mapp/)
 - [Hibernate Reactive – Getting Started Guide](https://thorben-janssen.com/hibernate-reactive-getting-started-guide/)
@@ -371,7 +372,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Welcome to 2021](https://thorben-janssen.com/welcome-to-2021/)
 - [How to use CockroachDB with Hibernate](https://thorben-janssen.com/hibernate-cockroachdb/)
 - [How to Initialize Entity Associations with Spring Data JPA](https://thorben-janssen.com/initialize-associations-spring-data-jpa/)
-- [Mapping Collections with Hibernate and JPA](https://thorben-janssen.com/collections-hibernate-jpa/)
 <!-- TJ-POST-LIST:END -->
 
 ### _Redhat posts_
