@@ -1,0 +1,20 @@
+name: TheActionDev Sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 23 * * *'
+
+jobs:
+  operations:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Syncing Article to dev.to
+        uses: ful1e5/TheActionDev@v2
+        with:
+          api-key: ${{ secrets.DEVTO_API_KEY }}
+          directory: ./docs/articles
+          ignore: default.md.tpl
