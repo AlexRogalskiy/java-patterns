@@ -227,16 +227,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [Java help](https://www.reddit.com/r/java/comments/lb79sw/java_help/)
+- [CustomResource Improvements in Fabric8 KubernetesClient v5.0.0](https://www.reddit.com/r/java/comments/lbyxhb/customresource_improvements_in_fabric8/)
+- [Literature on Java Annotation Processors](https://www.reddit.com/r/java/comments/lbtymi/literature_on_java_annotation_processors/)
+- [Bintray (including JCenter) will be sunset on May 1st](https://www.reddit.com/r/java/comments/lbstco/bintray_including_jcenter_will_be_sunset_on_may/)
+- [JEP-380: Unix domain socket channels (Java 16)](https://www.reddit.com/r/java/comments/lbpws2/jep380_unix_domain_socket_channels_java_16/)
+- [Discussion about JavaFX controls future. Please share your opinion with the maintainers](https://www.reddit.com/r/java/comments/lbmptw/discussion_about_javafx_controls_future_please/)
+- [Best java IDE to use](https://www.reddit.com/r/java/comments/lbmfbm/best_java_ide_to_use/)
+- [Setting up a private Helm chart repository on GitHub (along with a Gradle plugin)](https://www.reddit.com/r/java/comments/lbmce7/setting_up_a_private_helm_chart_repository_on/)
+- [Talking to Postgres Through Java 16 Unix-Domain Socket Channels](https://www.reddit.com/r/java/comments/lbk5il/talking_to_postgres_through_java_16_unixdomain/)
+- [Popular technologies for a full-stack Java developer](https://www.reddit.com/r/java/comments/lbcykc/popular_technologies_for_a_fullstack_java/)
 - [Password4j: a user-friendly library that supports modern cryptographic hash functions for your passwords!](https://www.reddit.com/r/java/comments/lazquv/password4j_a_userfriendly_library_that_supports/)
-- [Joy: a new implementation of Jakarta JSON](https://www.reddit.com/r/java/comments/lavxd7/joy_a_new_implementation_of_jakarta_json/)
-- [The Future of Java: Will You Have to Pay For It? Java is currently one of the most used languages in the world with over 16% of developers world-wide using it on a current basis.](https://www.reddit.com/r/java/comments/lav7om/the_future_of_java_will_you_have_to_pay_for_it/)
-- [is there a way to find out unused dependencies in a spring boot project](https://www.reddit.com/r/java/comments/laq27d/is_there_a_way_to_find_out_unused_dependencies_in/)
-- [ReactJ - Java UI lib - looking for feedback](https://www.reddit.com/r/java/comments/laopvj/reactj_java_ui_lib_looking_for_feedback/)
-- [Gradle JPackage and JLink integration](https://www.reddit.com/r/java/comments/laontp/gradle_jpackage_and_jlink_integration/)
-- [What are the limitations of Spring Boot?](https://www.reddit.com/r/java/comments/lahqlu/what_are_the_limitations_of_spring_boot/)
-- [Red Hat ported OpenJDK to 64-bit ARM: A community history](https://www.reddit.com/r/java/comments/lafal8/red_hat_ported_openjdk_to_64bit_arm_a_community/)
-- [New Developer Friendly Features After Java 8 - Piotr's TechBlog](https://www.reddit.com/r/java/comments/la7yqh/new_developer_friendly_features_after_java_8/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
