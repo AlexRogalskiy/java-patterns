@@ -19,7 +19,7 @@ jobs:
         with:
           fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
 
-      - uses: alexrogalskiy/github-actions/github-action-branch-mapper@master
+      - uses: alexrogalskiy/github-action-branch-mapper@master
         id: srcbranch
         with:
           github-ref: ${{ github.ref }}
