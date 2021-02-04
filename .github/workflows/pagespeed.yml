@@ -23,7 +23,7 @@ jobs:
         id: srcbranch
         with:
           github-ref: ${{ github.ref }}
-          map: ${{ toJSON({ dev: 'staging', production: 'production', '.*': 'sandbox' })  }}
+          map: { 'dev': 'staging', 'production': 'production', '.*': 'sandbox' }
 
       - name: Create local changes
         run: | # Have to be sure a folder is present if not, make it
