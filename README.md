@@ -302,6 +302,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [JEP-380: Unix domain socket channels](https://inside.java/2021/02/03/jep380-unix-domain-sockets-channels/)
 - [JEP proposed to target JDK 17: 356: Enhanced Pseudo-Random Number Generators](https://inside.java/2021/01/29/jep-356-proposed-to-target-jdk17/)
 - [Episode 11 “How to contribute to OpenJDK” with Stuart Marks and Jesper Wilhelmsson](https://inside.java/2021/01/29/podcast-011/)
 - [JMC 8.0.0 Early-Access Release](https://inside.java/2021/01/28/jmc-8-early-access-release/)
@@ -311,7 +312,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Java Feature Spotlight: Pattern Matching](https://inside.java/2021/01/22/feature-spotlight-pattern-matching/)
 - [jtreg is now on GitHub](https://inside.java/2021/01/22/jtreg-on-github/)
 - [Interview with Brian Goetz](https://inside.java/2021/01/19/interview-with-brian-goetz/)
-- [Pattern features for next iteration](https://inside.java/2021/01/19/pattern-features-for-next-iteration/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
