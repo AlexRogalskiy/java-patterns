@@ -11,9 +11,11 @@
   <a href="https://github.com/AlexRogalskiy/java-patterns/">
     <img src="https://img.shields.io/badge/project-JavaPatterns-blue.svg?style=flat-square" alt="java patterns"/>
   </a>
+  <a href="https://alexander-rogalsky.gitbook.io/java-patterns/">
+    <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/master/images/awesome.svg" alt="java patterns"/>
+  </a>
 </p>
 
-![](https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/master/images/awesome.svg)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/AlexRogalskiy/java-patterns)
 ![GitHub Release Date](https://img.shields.io/github/release-date/AlexRogalskiy/java-patterns)
 ![Lines of code](https://tokei.rs/b1/github/AlexRogalskiy/java-patterns?category=lines)
@@ -427,4 +429,4 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
   [wiki]:           https://github.com/AlexRogalskiy/java-patterns/wiki
   [stars]:          https://github.com/AlexRogalskiy/java-patterns/stargazers
   [contributors]:   https://github.com/AlexRogalskiy/java-patterns/graphs/contributors
-  [docs]:           https://alexander-rogalsky.gitbook.io/java-patterns/
+  [docs]:           https://alexander-rogalsky.gitbook.io/java-patterns
