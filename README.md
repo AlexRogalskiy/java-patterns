@@ -227,16 +227,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [CustomResource Improvements in Fabric8 KubernetesClient v5.0.0](https://www.reddit.com/r/java/comments/lbyxhb/customresource_improvements_in_fabric8/)
-- [Literature on Java Annotation Processors](https://www.reddit.com/r/java/comments/lbtymi/literature_on_java_annotation_processors/)
-- [Bintray (including JCenter) will be sunset on May 1st](https://www.reddit.com/r/java/comments/lbstco/bintray_including_jcenter_will_be_sunset_on_may/)
-- [JEP-380: Unix domain socket channels (Java 16)](https://www.reddit.com/r/java/comments/lbpws2/jep380_unix_domain_socket_channels_java_16/)
-- [Discussion about JavaFX controls future. Please share your opinion with the maintainers](https://www.reddit.com/r/java/comments/lbmptw/discussion_about_javafx_controls_future_please/)
-- [Best java IDE to use](https://www.reddit.com/r/java/comments/lbmfbm/best_java_ide_to_use/)
-- [Setting up a private Helm chart repository on GitHub (along with a Gradle plugin)](https://www.reddit.com/r/java/comments/lbmce7/setting_up_a_private_helm_chart_repository_on/)
-- [Talking to Postgres Through Java 16 Unix-Domain Socket Channels](https://www.reddit.com/r/java/comments/lbk5il/talking_to_postgres_through_java_16_unixdomain/)
-- [Popular technologies for a full-stack Java developer](https://www.reddit.com/r/java/comments/lbcykc/popular_technologies_for_a_fullstack_java/)
-- [Password4j: a user-friendly library that supports modern cryptographic hash functions for your passwords!](https://www.reddit.com/r/java/comments/lazquv/password4j_a_userfriendly_library_that_supports/)
+- [I am thinking of using a tablet for programming, not for everyday use, as I have a desktop at home, but as a portable device so that I can write codes in a cafe, jotting down notes in university, and stuff. Is it recommendable if I do that?](https://www.reddit.com/r/java/comments/lcrawg/i_am_thinking_of_using_a_tablet_for_programming/)
+- [How is hibernate performant if it used reflection?](https://www.reddit.com/r/java/comments/lcqoo8/how_is_hibernate_performant_if_it_used_reflection/)
+- [Why most of Senior interviews are easier than Junior/Middle?](https://www.reddit.com/r/java/comments/lcllql/why_most_of_senior_interviews_are_easier_than/)
+- [CyBench performance benchmark: SunJCE vs BouncyCastle vs Others](https://www.reddit.com/r/java/comments/lcks24/cybench_performance_benchmark_sunjce_vs/)
+- [GraalVM Native Image Quick Reference](https://www.reddit.com/r/java/comments/lcjlot/graalvm_native_image_quick_reference/)
+- [[Kafka] Template based Kafka cluster management](https://www.reddit.com/r/java/comments/lcircz/kafka_template_based_kafka_cluster_management/)
+- [JDK 16 Records](https://www.reddit.com/r/java/comments/lci6oh/jdk_16_records/)
+- [Best ways to install a Java distro = sdkman + chocolatey](https://www.reddit.com/r/java/comments/lchs7g/best_ways_to_install_a_java_distro_sdkman/)
+- [Java Object Equivalence](https://www.reddit.com/r/java/comments/lch3s9/java_object_equivalence/)
+- [Time Series Data and ComposableFuture example in Java](https://www.reddit.com/r/java/comments/lce87r/time_series_data_and_composablefuture_example_in/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
