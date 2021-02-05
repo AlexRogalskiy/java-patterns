@@ -392,6 +392,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Words I avoid using: should, empower, commitment](https://www.javacodegeeks.com/2021/02/words-i-avoid-using-should-empower-commitment.html)
+- [Code a Java Game with (almost) Zero Coding Skills](https://www.javacodegeeks.com/2021/02/code-a-java-game-with-almost-zero-coding-skills.html)
 - [JEP-396 and You: strong encapsulation of the JDK internals is the default](https://www.javacodegeeks.com/2021/02/jep-396-and-you-strong-encapsulation-of-the-jdk-internals-is-the-default.html)
 - [How To Find Good Java Developers For an Enterprise Project](https://www.javacodegeeks.com/2021/02/how-to-find-good-java-developers-for-an-enterprise-project.html)
 - [How much faster is Java 15?](https://www.javacodegeeks.com/2021/02/how-much-faster-is-java-15.html)
@@ -400,8 +402,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [The Code Review Problem for Migration](https://www.javacodegeeks.com/2021/02/the-code-review-problem-for-migration.html)
 - [A Java Test Class Doesn’t Test a Class](https://www.javacodegeeks.com/2021/01/a-java-test-class-doesnt-test-a-class.html)
 - [Orienting to Value](https://www.javacodegeeks.com/2021/01/orienting-to-value.html)
-- [JDK 17: Hexadecimal Formatting and Parsing](https://www.javacodegeeks.com/2021/01/jdk-17-hexadecimal-formatting-and-parsing.html)
-- [Apache Camel 3.8 and Java Flight Recorder](https://www.javacodegeeks.com/2021/01/apache-camel-3-8-and-java-flight-recorder.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
