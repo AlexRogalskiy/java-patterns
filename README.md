@@ -13,6 +13,7 @@
   </a>
 </p>
 
+![](https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/master/images/awesome.svg)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/AlexRogalskiy/java-patterns)
 ![GitHub Release Date](https://img.shields.io/github/release-date/AlexRogalskiy/java-patterns)
 ![Lines of code](https://tokei.rs/b1/github/AlexRogalskiy/java-patterns?category=lines)
