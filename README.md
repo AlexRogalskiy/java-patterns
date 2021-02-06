@@ -305,16 +305,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [JDK 16 enters the Release Candidate phase](https://inside.java/2021/02/04/jdk16-enters-rc/)
+- [Project Loom: Modern scalable concurrency for the Java platform](https://inside.java/2021/02/04/projectloom-jokerconf/)
 - [JEP-380: Unix domain socket channels](https://inside.java/2021/02/03/jep380-unix-domain-sockets-channels/)
+- [Project Lanai Early Access Build 9](https://inside.java/2021/02/01/new-lanai-ea-build/)
 - [JEP proposed to target JDK 17: 356: Enhanced Pseudo-Random Number Generators](https://inside.java/2021/01/29/jep-356-proposed-to-target-jdk17/)
 - [Episode 11 “How to contribute to OpenJDK” with Stuart Marks and Jesper Wilhelmsson](https://inside.java/2021/01/29/podcast-011/)
 - [JMC 8.0.0 Early-Access Release](https://inside.java/2021/01/28/jmc-8-early-access-release/)
 - [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://inside.java/2021/01/27/extending-c2-autovectorization-capabilities/)
 - [Foreign Memory Access - Pulling all the threads](https://inside.java/2021/01/25/memory-access-pulling-all-the-threads/)
 - [Draft JEP for upcoming work on snippets](https://inside.java/2021/01/23/draft-jep-snippets/)
-- [Java Feature Spotlight: Pattern Matching](https://inside.java/2021/01/22/feature-spotlight-pattern-matching/)
-- [jtreg is now on GitHub](https://inside.java/2021/01/22/jtreg-on-github/)
-- [Interview with Brian Goetz](https://inside.java/2021/01/19/interview-with-brian-goetz/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
