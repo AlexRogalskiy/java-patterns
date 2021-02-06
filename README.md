@@ -230,16 +230,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [I am thinking of using a tablet for programming, not for everyday use, as I have a desktop at home, but as a portable device so that I can write codes in a cafe, jotting down notes in university, and stuff. Is it recommendable if I do that?](https://www.reddit.com/r/java/comments/lcrawg/i_am_thinking_of_using_a_tablet_for_programming/)
+- [How to publish a Gradle project to OSSRH.](https://www.reddit.com/r/java/comments/ldeq95/how_to_publish_a_gradle_project_to_ossrh/)
+- [CyBench benchmark: Undertow, Jetty, NanoHttpd, Sparkjava, Takes, HttpServer](https://www.reddit.com/r/java/comments/ld8arw/cybench_benchmark_undertow_jetty_nanohttpd/)
+- [Java Web Framework - Severell](https://www.reddit.com/r/java/comments/ld7ytz/java_web_framework_severell/)
+- [OJDBC 21.1 JDBC Reactive Extensions](https://www.reddit.com/r/java/comments/ld7utd/ojdbc_211_jdbc_reactive_extensions/)
+- [I'm about to have my first interview for a senior java/spring position, is there anything in particular that I should watch out for? Any topics to brush up on?](https://www.reddit.com/r/java/comments/ld3l6y/im_about_to_have_my_first_interview_for_a_senior/)
+- [use case for Java Streams...](https://www.reddit.com/r/java/comments/ld3f83/use_case_for_java_streams/)
+- [Video: Loom - Modern scalable concurrency for the Java platform (Alan Bateman)](https://www.reddit.com/r/java/comments/ld2ame/video_loom_modern_scalable_concurrency_for_the/)
+- [JDK 16 is now in Release Candidate phase!](https://www.reddit.com/r/java/comments/lczefv/jdk_16_is_now_in_release_candidate_phase/)
 - [How is hibernate performant if it used reflection?](https://www.reddit.com/r/java/comments/lcqoo8/how_is_hibernate_performant_if_it_used_reflection/)
 - [Why most of Senior interviews are easier than Junior/Middle?](https://www.reddit.com/r/java/comments/lcllql/why_most_of_senior_interviews_are_easier_than/)
-- [CyBench performance benchmark: SunJCE vs BouncyCastle vs Others](https://www.reddit.com/r/java/comments/lcks24/cybench_performance_benchmark_sunjce_vs/)
-- [GraalVM Native Image Quick Reference](https://www.reddit.com/r/java/comments/lcjlot/graalvm_native_image_quick_reference/)
-- [[Kafka] Template based Kafka cluster management](https://www.reddit.com/r/java/comments/lcircz/kafka_template_based_kafka_cluster_management/)
-- [JDK 16 Records](https://www.reddit.com/r/java/comments/lci6oh/jdk_16_records/)
-- [Best ways to install a Java distro = sdkman + chocolatey](https://www.reddit.com/r/java/comments/lchs7g/best_ways_to_install_a_java_distro_sdkman/)
-- [Java Object Equivalence](https://www.reddit.com/r/java/comments/lch3s9/java_object_equivalence/)
-- [Time Series Data and ComposableFuture example in Java](https://www.reddit.com/r/java/comments/lce87r/time_series_data_and_composablefuture_example_in/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
@@ -305,16 +305,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [JDK 16 enters the Release Candidate phase](https://inside.java/2021/02/04/jdk16-enters-rc/)
+- [Project Loom: Modern scalable concurrency for the Java platform](https://inside.java/2021/02/04/projectloom-jokerconf/)
 - [JEP-380: Unix domain socket channels](https://inside.java/2021/02/03/jep380-unix-domain-sockets-channels/)
+- [Project Lanai Early Access Build 9](https://inside.java/2021/02/01/new-lanai-ea-build/)
 - [JEP proposed to target JDK 17: 356: Enhanced Pseudo-Random Number Generators](https://inside.java/2021/01/29/jep-356-proposed-to-target-jdk17/)
 - [Episode 11 “How to contribute to OpenJDK” with Stuart Marks and Jesper Wilhelmsson](https://inside.java/2021/01/29/podcast-011/)
 - [JMC 8.0.0 Early-Access Release](https://inside.java/2021/01/28/jmc-8-early-access-release/)
 - [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://inside.java/2021/01/27/extending-c2-autovectorization-capabilities/)
 - [Foreign Memory Access - Pulling all the threads](https://inside.java/2021/01/25/memory-access-pulling-all-the-threads/)
 - [Draft JEP for upcoming work on snippets](https://inside.java/2021/01/23/draft-jep-snippets/)
-- [Java Feature Spotlight: Pattern Matching](https://inside.java/2021/01/22/feature-spotlight-pattern-matching/)
-- [jtreg is now on GitHub](https://inside.java/2021/01/22/jtreg-on-github/)
-- [Interview with Brian Goetz](https://inside.java/2021/01/19/interview-with-brian-goetz/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
@@ -365,6 +365,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Thorben Janssen posts_
 
 <!-- TJ-POST-LIST:START -->
+- [Coffee with Thorben 2020-02-05 – Auditing with Hibernate Envers](https://thorben-janssen.com/coffee-with-thorben-hibernate-envers/)
 - [JDBC Connection and Dialect Configuration in Hibernate](https://thorben-janssen.com/jdbc-connection-and-dialect-in-hibernate/)
 - [Coffee with Thorben 2020-01-29 – Soft Deletes & Bi-directional Association](https://thorben-janssen.com/coffee-with-thorben-soft-deletes/)
 - [Coffee with Thorben 2020-01-22 – JSON Mappings & Polymorphic Associations](https://thorben-janssen.com/coffee-with-thorben-2020-01-22-json-mapp/)
@@ -374,7 +375,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Coffee with Thorben 2020-01-08 – DB Migration & Criteria SubQuery](https://thorben-janssen.com/coffee-with-thorben-2020-01-08-db-migration-criteria-subquery/)
 - [Welcome to 2021](https://thorben-janssen.com/welcome-to-2021/)
 - [How to use CockroachDB with Hibernate](https://thorben-janssen.com/hibernate-cockroachdb/)
-- [How to Initialize Entity Associations with Spring Data JPA](https://thorben-janssen.com/initialize-associations-spring-data-jpa/)
 <!-- TJ-POST-LIST:END -->
 
 ### _Redhat posts_
@@ -395,6 +395,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Kotlin – Convert List to Map Examples](https://www.javacodegeeks.com/2021/02/kotlin-convert-list-to-map-examples.html)
+- [Java TreeMap Vs HashMap With Examples](https://www.javacodegeeks.com/2021/02/java-treemap-vs-hashmap-with-examples.html)
 - [Words I avoid using: should, empower, commitment](https://www.javacodegeeks.com/2021/02/words-i-avoid-using-should-empower-commitment.html)
 - [Code a Java Game with (almost) Zero Coding Skills](https://www.javacodegeeks.com/2021/02/code-a-java-game-with-almost-zero-coding-skills.html)
 - [JEP-396 and You: strong encapsulation of the JDK internals is the default](https://www.javacodegeeks.com/2021/02/jep-396-and-you-strong-encapsulation-of-the-jdk-internals-is-the-default.html)
@@ -403,8 +405,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Feedback Loops Help When to Centralize or Decentralize Product-Based Decisions](https://www.javacodegeeks.com/2021/02/feedback-loops-help-when-to-centralize-or-decentralize-product-based-decisions.html)
 - [[MEGA DEAL] The 2021 Career & Self Development Master Class (98% off)](https://www.javacodegeeks.com/2021/02/mega-deal-the-2021-career-self-development-master-class-98-off.html)
 - [The Code Review Problem for Migration](https://www.javacodegeeks.com/2021/02/the-code-review-problem-for-migration.html)
-- [A Java Test Class Doesn’t Test a Class](https://www.javacodegeeks.com/2021/01/a-java-test-class-doesnt-test-a-class.html)
-- [Orienting to Value](https://www.javacodegeeks.com/2021/01/orienting-to-value.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
