@@ -230,16 +230,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [I am thinking of using a tablet for programming, not for everyday use, as I have a desktop at home, but as a portable device so that I can write codes in a cafe, jotting down notes in university, and stuff. Is it recommendable if I do that?](https://www.reddit.com/r/java/comments/lcrawg/i_am_thinking_of_using_a_tablet_for_programming/)
+- [How to publish a Gradle project to OSSRH.](https://www.reddit.com/r/java/comments/ldeq95/how_to_publish_a_gradle_project_to_ossrh/)
+- [CyBench benchmark: Undertow, Jetty, NanoHttpd, Sparkjava, Takes, HttpServer](https://www.reddit.com/r/java/comments/ld8arw/cybench_benchmark_undertow_jetty_nanohttpd/)
+- [Java Web Framework - Severell](https://www.reddit.com/r/java/comments/ld7ytz/java_web_framework_severell/)
+- [OJDBC 21.1 JDBC Reactive Extensions](https://www.reddit.com/r/java/comments/ld7utd/ojdbc_211_jdbc_reactive_extensions/)
+- [I'm about to have my first interview for a senior java/spring position, is there anything in particular that I should watch out for? Any topics to brush up on?](https://www.reddit.com/r/java/comments/ld3l6y/im_about_to_have_my_first_interview_for_a_senior/)
+- [use case for Java Streams...](https://www.reddit.com/r/java/comments/ld3f83/use_case_for_java_streams/)
+- [Video: Loom - Modern scalable concurrency for the Java platform (Alan Bateman)](https://www.reddit.com/r/java/comments/ld2ame/video_loom_modern_scalable_concurrency_for_the/)
+- [JDK 16 is now in Release Candidate phase!](https://www.reddit.com/r/java/comments/lczefv/jdk_16_is_now_in_release_candidate_phase/)
 - [How is hibernate performant if it used reflection?](https://www.reddit.com/r/java/comments/lcqoo8/how_is_hibernate_performant_if_it_used_reflection/)
 - [Why most of Senior interviews are easier than Junior/Middle?](https://www.reddit.com/r/java/comments/lcllql/why_most_of_senior_interviews_are_easier_than/)
-- [CyBench performance benchmark: SunJCE vs BouncyCastle vs Others](https://www.reddit.com/r/java/comments/lcks24/cybench_performance_benchmark_sunjce_vs/)
-- [GraalVM Native Image Quick Reference](https://www.reddit.com/r/java/comments/lcjlot/graalvm_native_image_quick_reference/)
-- [[Kafka] Template based Kafka cluster management](https://www.reddit.com/r/java/comments/lcircz/kafka_template_based_kafka_cluster_management/)
-- [JDK 16 Records](https://www.reddit.com/r/java/comments/lci6oh/jdk_16_records/)
-- [Best ways to install a Java distro = sdkman + chocolatey](https://www.reddit.com/r/java/comments/lchs7g/best_ways_to_install_a_java_distro_sdkman/)
-- [Java Object Equivalence](https://www.reddit.com/r/java/comments/lch3s9/java_object_equivalence/)
-- [Time Series Data and ComposableFuture example in Java](https://www.reddit.com/r/java/comments/lce87r/time_series_data_and_composablefuture_example_in/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
