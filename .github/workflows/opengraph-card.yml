@@ -18,14 +18,21 @@ jobs:
           plain-text: "by @AlexRogalskiy on GitHub"
           theme: "dark"
 
-      - name: Archive open graph image
-        uses: actions/upload-artifact@v2
-        with:
-          name: open-graph-image
-          path: images/generated/opengraph-card.png
+      #      - name: Archive open graph image
+      #        uses: actions/upload-artifact@v2
+      #        with:
+      #          name: open-graph-image
+      #          path: images/generated/opengraph-card.png
+      #
+      #      - name: Download all workflow run artifacts
+      #        uses: actions/download-artifact@v2
 
-      - name: Download all workflow run artifacts
-        uses: actions/download-artifact@v2
+      - name: Copy generated artefact to image folder
+        id: tag_name
+        run: |
+          cp -rf alexander-rogalsky.gitbook.io.png ${{ github.workspace }}/images/generated
+          rm -rf alexander-rogalsky.gitbook.io.png
+        shell: bash
 
       - name: Commit update
         uses: stefanzweifel/git-auto-commit-action@v4
