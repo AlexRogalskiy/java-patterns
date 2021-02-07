@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  docs-page-speed:
+  open-graph-card:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -18,14 +18,11 @@ jobs:
           plain-text: "https://alexander-rogalsky.gitbook.io/java-patterns"
           theme: "light"
 
-      - name: Archive open graph image
-        uses: actions/upload-artifact@v2
-        with:
-          name: open-graph-image
-          path: images/generated/og-image.now.sh.png
-
-      - name: Download all workflow run artifacts
-        uses: actions/download-artifact@v2
+      - name: Copy generated artefact to image folder
+        id: tag_name
+        run: |
+          cp -rf alexander-rogalsky.gitbook.io.png ${{ github.workspace }}/images/
+        shell: bash
 
       - name: Commit update
         uses: stefanzweifel/git-auto-commit-action@v4
