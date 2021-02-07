@@ -15,13 +15,14 @@ jobs:
         uses: Jasmin2895/open-graph-image@v1.1
         with:
           bold-text: "Java Design patterns"
-          plain-text: "https://alexander-rogalsky.gitbook.io/java-patterns"
+          plain-text: "for social media platforms"
           theme: "light"
 
       - name: Copy generated artefact to image folder
         id: tag_name
         run: |
-          cp -rf alexander-rogalsky.gitbook.io.png ${{ github.workspace }}/images/
+          cp -rf alexander-rogalsky.gitbook.io.png ${{ github.workspace }}/images/generated
+          rm -rf alexander-rogalsky.gitbook.io.png
         shell: bash
 
       - name: Commit update
