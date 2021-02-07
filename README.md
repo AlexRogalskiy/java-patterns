@@ -9,7 +9,10 @@
     <img src="https://img.shields.io/badge/made%20by-Nullables%20Labs-blue.svg?style=flat-square&longCache=true&logo=data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzIwIDMwMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNOTguODI0IDE0OS40OThjMCAxMi41Ny0yLjM1NiAyNC41ODItNi42MzcgMzUuNjM3LTQ5LjEtMjQuODEtODIuNzc1LTc1LjY5Mi04Mi43NzUtMTM0LjQ2IDAtMTcuNzgyIDMuMDkxLTM0LjgzOCA4Ljc0OS01MC42NzVhMTQ5LjUzNSAxNDkuNTM1IDAgMCAxIDQxLjEyNCAxMS4wNDYgMTA3Ljg3NyAxMDcuODc3IDAgMCAwLTcuNTIgMzkuNjI4YzAgMzYuODQyIDE4LjQyMyA2OS4zNiA0Ni41NDQgODguOTAzLjMyNiAzLjI2NS41MTUgNi41Ny41MTUgOS45MjF6TTY3LjgyIDE1LjAxOGM0OS4xIDI0LjgxMSA4Mi43NjggNzUuNzExIDgyLjc2OCAxMzQuNDggMCA4My4xNjgtNjcuNDIgMTUwLjU4OC0xNTAuNTg4IDE1MC41ODh2LTQyLjM1M2M1OS43NzggMCAxMDguMjM1LTQ4LjQ1OSAxMDguMjM1LTEwOC4yMzUgMC0zNi44NS0xOC40My02OS4zOC00Ni41NjItODguOTI3YTk5Ljk0OSA5OS45NDkgMCAwIDEtLjQ5Ny05Ljg5NyA5OC41MTIgOTguNTEyIDAgMCAxIDYuNjQ0LTM1LjY1NnptMTU1LjI5MiAxODIuNzE4YzE3LjczNyAzNS41NTggNTQuNDUgNTkuOTk3IDk2Ljg4OCA1OS45OTd2NDIuMzUzYy02MS45NTUgMC0xMTUuMTYyLTM3LjQyLTEzOC4yOC05MC44ODZhMTU4LjgxMSAxNTguODExIDAgMCAwIDQxLjM5Mi0xMS40NjR6bS0xMC4yNi02My41ODlhOTguMjMyIDk4LjIzMiAwIDAgMS00My40MjggMTQuODg5QzE2OS42NTQgNzIuMjI0IDIyNy4zOSA4Ljk1IDMwMS44NDUuMDAzYzQuNzAxIDEzLjE1MiA3LjU5MyAyNy4xNiA4LjQ1IDQxLjcxNC01MC4xMzMgNC40Ni05MC40MzMgNDMuMDgtOTcuNDQzIDkyLjQzem01NC4yNzgtNjguMTA1YzEyLjc5NC04LjEyNyAyNy41NjctMTMuNDA3IDQzLjQ1Mi0xNC45MTEtLjI0NyA4Mi45NTctNjcuNTY3IDE1MC4xMzItMTUwLjU4MiAxNTAuMTMyLTIuODQ2IDAtNS42NzMtLjA4OC04LjQ4LS4yNDNhMTU5LjM3OCAxNTkuMzc4IDAgMCAwIDguMTk4LTQyLjExOGMuMDk0IDAgLjE4Ny4wMDguMjgyLjAwOCA1NC41NTcgMCA5OS42NjUtNDAuMzczIDEwNy4xMy05Mi44Njh6IiBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+" alt="Nullable labs"/>
   </a>
   <a href="https://github.com/AlexRogalskiy/java-patterns/">
-    <img src="https://img.shields.io/badge/project-JavaPatterns-blue.svg?style=flat-square" alt="java patterns"/>
+    <img src="https://img.shields.io/badge/project-JavaPatterns-blue.svg?style=flat-square" alt="Java patterns"/>
+  </a>
+  <a href="https://alexander-rogalsky.gitbook.io/java-patterns/">
+    <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/master/images/awesome.svg" alt="Java patterns"/>
   </a>
 </p>
 
@@ -46,6 +49,7 @@
       * [<em>Licensing</em>](#-licensing)
       * [<em>Development Support</em>](#-development-support)
       * [<em>Acknowledgement</em>](#-acknowledgement)
+      * [<em>OpenGraph Card</em>](#-opengraph-card)
       * [<em>Feeds and Podcasts</em>](#-feeds-and-podcasts)
          * [<em>Reddit posts</em>](#reddit-posts)
          * [<em>InfoWorld posts</em>](#infoworld-posts)
@@ -222,21 +226,27 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 
 [![Stargazers repo roster for @AlexRogalskiy/java-patterns](https://reporoster.com/stars/AlexRogalskiy/java-patterns)][stars]
 
+## 📎 _OpenGraph Card_
+
+<p align="center" style="text-align:center;">
+    <img alt="OpenGraph card" src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/master/images/opengraph-card.png"/>
+</p>
+
 ## 🔥 _Feeds and Podcasts_
 
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [CustomResource Improvements in Fabric8 KubernetesClient v5.0.0](https://www.reddit.com/r/java/comments/lbyxhb/customresource_improvements_in_fabric8/)
-- [Literature on Java Annotation Processors](https://www.reddit.com/r/java/comments/lbtymi/literature_on_java_annotation_processors/)
-- [Bintray (including JCenter) will be sunset on May 1st](https://www.reddit.com/r/java/comments/lbstco/bintray_including_jcenter_will_be_sunset_on_may/)
-- [JEP-380: Unix domain socket channels (Java 16)](https://www.reddit.com/r/java/comments/lbpws2/jep380_unix_domain_socket_channels_java_16/)
-- [Discussion about JavaFX controls future. Please share your opinion with the maintainers](https://www.reddit.com/r/java/comments/lbmptw/discussion_about_javafx_controls_future_please/)
-- [Best java IDE to use](https://www.reddit.com/r/java/comments/lbmfbm/best_java_ide_to_use/)
-- [Setting up a private Helm chart repository on GitHub (along with a Gradle plugin)](https://www.reddit.com/r/java/comments/lbmce7/setting_up_a_private_helm_chart_repository_on/)
-- [Talking to Postgres Through Java 16 Unix-Domain Socket Channels](https://www.reddit.com/r/java/comments/lbk5il/talking_to_postgres_through_java_16_unixdomain/)
-- [Popular technologies for a full-stack Java developer](https://www.reddit.com/r/java/comments/lbcykc/popular_technologies_for_a_fullstack_java/)
-- [Password4j: a user-friendly library that supports modern cryptographic hash functions for your passwords!](https://www.reddit.com/r/java/comments/lazquv/password4j_a_userfriendly_library_that_supports/)
+- [How would you identify serialization/deserialization problems?](https://www.reddit.com/r/java/comments/leagc5/how_would_you_identify/)
+- [Are you interested in learning about low latency zero allocation programming?](https://www.reddit.com/r/java/comments/le6do1/are_you_interested_in_learning_about_low_latency/)
+- [What kind of technical documentation do you have on your current project?](https://www.reddit.com/r/java/comments/le3v7y/what_kind_of_technical_documentation_do_you_have/)
+- [Web search engine for Java projects](https://www.reddit.com/r/java/comments/ldnkf7/web_search_engine_for_java_projects/)
+- [How to publish a Gradle project to OSSRH.](https://www.reddit.com/r/java/comments/ldeq95/how_to_publish_a_gradle_project_to_ossrh/)
+- [CyBench benchmark: Undertow, Jetty, NanoHttpd, Sparkjava, Takes, HttpServer](https://www.reddit.com/r/java/comments/ld8arw/cybench_benchmark_undertow_jetty_nanohttpd/)
+- [Java Web Framework - Severell](https://www.reddit.com/r/java/comments/ld7ytz/java_web_framework_severell/)
+- [OJDBC 21.1 JDBC Reactive Extensions](https://www.reddit.com/r/java/comments/ld7utd/ojdbc_211_jdbc_reactive_extensions/)
+- [I'm about to have my first interview for a senior java/spring position, is there anything in particular that I should watch out for? Any topics to brush up on?](https://www.reddit.com/r/java/comments/ld3l6y/im_about_to_have_my_first_interview_for_a_senior/)
+- [use case for Java Streams...](https://www.reddit.com/r/java/comments/ld3f83/use_case_for_java_streams/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
@@ -287,6 +297,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Better code posts_
 
 <!-- BETTERCODE-POST-LIST:START -->
+- [Simplifying Spring Security](https://betterjavacode.com/programming/simplifying-spring-security)
 - [Spring Boot CRUD Application Example with MongoDB](https://betterjavacode.com/spring-boot/spring-boot-crud-application-example-with-mongodb)
 - [Top 21 Spring Boot Interview Questions](https://betterjavacode.com/spring-boot/top-21-spring-boot-interview-questions)
 - [Spring WebClient vs RestTemplate – Comparison and Features](https://betterjavacode.com/programming/spring-webclient-vs-resttemplate-comparison-and-features)
@@ -296,22 +307,21 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [The Definitive Guide to Use Keycloak With a Spring Boot Application](https://betterjavacode.com/programming/spring-boot-application-keycloak)
 - [How to Use Basic Authentication for Rest Template](https://betterjavacode.com/programming/how-to-use-basic-authentication-for-rest-template)
 - [Json Web Token: How to Secure Spring Boot REST API](https://betterjavacode.com/java/securing-spring-boot-rest-api)
-- [Liquibase – Handling Database in Spring Boot](https://betterjavacode.com/programming/liquibase-handling-database-in-spring-boot)
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [JDK 16 enters the Release Candidate phase](https://inside.java/2021/02/04/jdk16-enters-rc/)
+- [Project Loom: Modern scalable concurrency for the Java platform](https://inside.java/2021/02/04/projectloom-jokerconf/)
 - [JEP-380: Unix domain socket channels](https://inside.java/2021/02/03/jep380-unix-domain-sockets-channels/)
+- [Project Lanai Early Access Build 9](https://inside.java/2021/02/01/new-lanai-ea-build/)
 - [JEP proposed to target JDK 17: 356: Enhanced Pseudo-Random Number Generators](https://inside.java/2021/01/29/jep-356-proposed-to-target-jdk17/)
 - [Episode 11 “How to contribute to OpenJDK” with Stuart Marks and Jesper Wilhelmsson](https://inside.java/2021/01/29/podcast-011/)
 - [JMC 8.0.0 Early-Access Release](https://inside.java/2021/01/28/jmc-8-early-access-release/)
 - [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://inside.java/2021/01/27/extending-c2-autovectorization-capabilities/)
 - [Foreign Memory Access - Pulling all the threads](https://inside.java/2021/01/25/memory-access-pulling-all-the-threads/)
 - [Draft JEP for upcoming work on snippets](https://inside.java/2021/01/23/draft-jep-snippets/)
-- [Java Feature Spotlight: Pattern Matching](https://inside.java/2021/01/22/feature-spotlight-pattern-matching/)
-- [jtreg is now on GitHub](https://inside.java/2021/01/22/jtreg-on-github/)
-- [Interview with Brian Goetz](https://inside.java/2021/01/19/interview-with-brian-goetz/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
@@ -362,6 +372,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Thorben Janssen posts_
 
 <!-- TJ-POST-LIST:START -->
+- [Coffee with Thorben 2020-02-05 – Auditing with Hibernate Envers](https://thorben-janssen.com/coffee-with-thorben-hibernate-envers/)
 - [JDBC Connection and Dialect Configuration in Hibernate](https://thorben-janssen.com/jdbc-connection-and-dialect-in-hibernate/)
 - [Coffee with Thorben 2020-01-29 – Soft Deletes & Bi-directional Association](https://thorben-janssen.com/coffee-with-thorben-soft-deletes/)
 - [Coffee with Thorben 2020-01-22 – JSON Mappings & Polymorphic Associations](https://thorben-janssen.com/coffee-with-thorben-2020-01-22-json-mapp/)
@@ -371,7 +382,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Coffee with Thorben 2020-01-08 – DB Migration & Criteria SubQuery](https://thorben-janssen.com/coffee-with-thorben-2020-01-08-db-migration-criteria-subquery/)
 - [Welcome to 2021](https://thorben-janssen.com/welcome-to-2021/)
 - [How to use CockroachDB with Hibernate](https://thorben-janssen.com/hibernate-cockroachdb/)
-- [How to Initialize Entity Associations with Spring Data JPA](https://thorben-janssen.com/initialize-associations-spring-data-jpa/)
 <!-- TJ-POST-LIST:END -->
 
 ### _Redhat posts_
@@ -392,16 +402,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Java Fibonacci Series Recursive Optimized using Dynamic Programming](https://www.javacodegeeks.com/2021/02/java-fibonacci-series-recursive-optimized-using-dynamic-programming.html)
+- [Kotlin – Convert List to Map Examples](https://www.javacodegeeks.com/2021/02/kotlin-convert-list-to-map-examples.html)
+- [Java TreeMap Vs HashMap With Examples](https://www.javacodegeeks.com/2021/02/java-treemap-vs-hashmap-with-examples.html)
+- [Words I avoid using: should, empower, commitment](https://www.javacodegeeks.com/2021/02/words-i-avoid-using-should-empower-commitment.html)
+- [Code a Java Game with (almost) Zero Coding Skills](https://www.javacodegeeks.com/2021/02/code-a-java-game-with-almost-zero-coding-skills.html)
 - [JEP-396 and You: strong encapsulation of the JDK internals is the default](https://www.javacodegeeks.com/2021/02/jep-396-and-you-strong-encapsulation-of-the-jdk-internals-is-the-default.html)
 - [How To Find Good Java Developers For an Enterprise Project](https://www.javacodegeeks.com/2021/02/how-to-find-good-java-developers-for-an-enterprise-project.html)
 - [How much faster is Java 15?](https://www.javacodegeeks.com/2021/02/how-much-faster-is-java-15.html)
 - [Feedback Loops Help When to Centralize or Decentralize Product-Based Decisions](https://www.javacodegeeks.com/2021/02/feedback-loops-help-when-to-centralize-or-decentralize-product-based-decisions.html)
 - [[MEGA DEAL] The 2021 Career & Self Development Master Class (98% off)](https://www.javacodegeeks.com/2021/02/mega-deal-the-2021-career-self-development-master-class-98-off.html)
-- [The Code Review Problem for Migration](https://www.javacodegeeks.com/2021/02/the-code-review-problem-for-migration.html)
-- [A Java Test Class Doesn’t Test a Class](https://www.javacodegeeks.com/2021/01/a-java-test-class-doesnt-test-a-class.html)
-- [Orienting to Value](https://www.javacodegeeks.com/2021/01/orienting-to-value.html)
-- [JDK 17: Hexadecimal Formatting and Parsing](https://www.javacodegeeks.com/2021/01/jdk-17-hexadecimal-formatting-and-parsing.html)
-- [Apache Camel 3.8 and Java Flight Recorder](https://www.javacodegeeks.com/2021/01/apache-camel-3-8-and-java-flight-recorder.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
@@ -426,4 +436,4 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
   [wiki]:           https://github.com/AlexRogalskiy/java-patterns/wiki
   [stars]:          https://github.com/AlexRogalskiy/java-patterns/stargazers
   [contributors]:   https://github.com/AlexRogalskiy/java-patterns/graphs/contributors
-  [docs]:           https://alexander-rogalsky.gitbook.io/java-patterns/
+  [docs]:           https://alexander-rogalsky.gitbook.io/java-patterns
