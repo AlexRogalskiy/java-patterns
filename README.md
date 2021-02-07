@@ -230,16 +230,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [How would you identify serialization/deserialization problems?](https://www.reddit.com/r/java/comments/leagc5/how_would_you_identify/)
+- [Are you interested in learning about low latency zero allocation programming?](https://www.reddit.com/r/java/comments/le6do1/are_you_interested_in_learning_about_low_latency/)
+- [What kind of technical documentation do you have on your current project?](https://www.reddit.com/r/java/comments/le3v7y/what_kind_of_technical_documentation_do_you_have/)
+- [Web search engine for Java projects](https://www.reddit.com/r/java/comments/ldnkf7/web_search_engine_for_java_projects/)
 - [How to publish a Gradle project to OSSRH.](https://www.reddit.com/r/java/comments/ldeq95/how_to_publish_a_gradle_project_to_ossrh/)
 - [CyBench benchmark: Undertow, Jetty, NanoHttpd, Sparkjava, Takes, HttpServer](https://www.reddit.com/r/java/comments/ld8arw/cybench_benchmark_undertow_jetty_nanohttpd/)
 - [Java Web Framework - Severell](https://www.reddit.com/r/java/comments/ld7ytz/java_web_framework_severell/)
 - [OJDBC 21.1 JDBC Reactive Extensions](https://www.reddit.com/r/java/comments/ld7utd/ojdbc_211_jdbc_reactive_extensions/)
 - [I'm about to have my first interview for a senior java/spring position, is there anything in particular that I should watch out for? Any topics to brush up on?](https://www.reddit.com/r/java/comments/ld3l6y/im_about_to_have_my_first_interview_for_a_senior/)
 - [use case for Java Streams...](https://www.reddit.com/r/java/comments/ld3f83/use_case_for_java_streams/)
-- [Video: Loom - Modern scalable concurrency for the Java platform (Alan Bateman)](https://www.reddit.com/r/java/comments/ld2ame/video_loom_modern_scalable_concurrency_for_the/)
-- [JDK 16 is now in Release Candidate phase!](https://www.reddit.com/r/java/comments/lczefv/jdk_16_is_now_in_release_candidate_phase/)
-- [How is hibernate performant if it used reflection?](https://www.reddit.com/r/java/comments/lcqoo8/how_is_hibernate_performant_if_it_used_reflection/)
-- [Why most of Senior interviews are easier than Junior/Middle?](https://www.reddit.com/r/java/comments/lcllql/why_most_of_senior_interviews_are_easier_than/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
@@ -290,6 +290,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Better code posts_
 
 <!-- BETTERCODE-POST-LIST:START -->
+- [Simplifying Spring Security](https://betterjavacode.com/programming/simplifying-spring-security)
 - [Spring Boot CRUD Application Example with MongoDB](https://betterjavacode.com/spring-boot/spring-boot-crud-application-example-with-mongodb)
 - [Top 21 Spring Boot Interview Questions](https://betterjavacode.com/spring-boot/top-21-spring-boot-interview-questions)
 - [Spring WebClient vs RestTemplate – Comparison and Features](https://betterjavacode.com/programming/spring-webclient-vs-resttemplate-comparison-and-features)
@@ -299,7 +300,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [The Definitive Guide to Use Keycloak With a Spring Boot Application](https://betterjavacode.com/programming/spring-boot-application-keycloak)
 - [How to Use Basic Authentication for Rest Template](https://betterjavacode.com/programming/how-to-use-basic-authentication-for-rest-template)
 - [Json Web Token: How to Secure Spring Boot REST API](https://betterjavacode.com/java/securing-spring-boot-rest-api)
-- [Liquibase – Handling Database in Spring Boot](https://betterjavacode.com/programming/liquibase-handling-database-in-spring-boot)
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### _Inside Java posts_
@@ -395,6 +395,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Java Fibonacci Series Recursive Optimized using Dynamic Programming](https://www.javacodegeeks.com/2021/02/java-fibonacci-series-recursive-optimized-using-dynamic-programming.html)
 - [Kotlin – Convert List to Map Examples](https://www.javacodegeeks.com/2021/02/kotlin-convert-list-to-map-examples.html)
 - [Java TreeMap Vs HashMap With Examples](https://www.javacodegeeks.com/2021/02/java-treemap-vs-hashmap-with-examples.html)
 - [Words I avoid using: should, empower, commitment](https://www.javacodegeeks.com/2021/02/words-i-avoid-using-should-empower-commitment.html)
@@ -404,7 +405,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [How much faster is Java 15?](https://www.javacodegeeks.com/2021/02/how-much-faster-is-java-15.html)
 - [Feedback Loops Help When to Centralize or Decentralize Product-Based Decisions](https://www.javacodegeeks.com/2021/02/feedback-loops-help-when-to-centralize-or-decentralize-product-based-decisions.html)
 - [[MEGA DEAL] The 2021 Career & Self Development Master Class (98% off)](https://www.javacodegeeks.com/2021/02/mega-deal-the-2021-career-self-development-master-class-98-off.html)
-- [The Code Review Problem for Migration](https://www.javacodegeeks.com/2021/02/the-code-review-problem-for-migration.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
