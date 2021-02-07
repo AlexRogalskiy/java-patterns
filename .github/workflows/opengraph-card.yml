@@ -14,15 +14,15 @@ jobs:
       - name: Open Graph social cards
         uses: Jasmin2895/open-graph-image@v1.1
         with:
-          bold-text: "Java Design patterns\n"
-          plain-text: "for social media platforms"
+          bold-text: "Java Design patterns"
+          plain-text: "by @AlexRogalskiy on GitHub"
           theme: "dark"
 
       - name: Archive open graph image
         uses: actions/upload-artifact@v2
         with:
           name: open-graph-image
-          path: images/generated/v-card.png
+          path: images/generated/opengraph-card.png
 
       - name: Download all workflow run artifacts
         uses: actions/download-artifact@v2
