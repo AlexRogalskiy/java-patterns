@@ -1,4 +1,4 @@
-name: Get Docs PageSpeed results
+name: Open Graph cards
 
 on:
   workflow_dispatch:
