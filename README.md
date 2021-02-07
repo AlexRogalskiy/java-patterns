@@ -395,6 +395,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Java Fibonacci Series Recursive Optimized using Dynamic Programming](https://www.javacodegeeks.com/2021/02/java-fibonacci-series-recursive-optimized-using-dynamic-programming.html)
 - [Kotlin – Convert List to Map Examples](https://www.javacodegeeks.com/2021/02/kotlin-convert-list-to-map-examples.html)
 - [Java TreeMap Vs HashMap With Examples](https://www.javacodegeeks.com/2021/02/java-treemap-vs-hashmap-with-examples.html)
 - [Words I avoid using: should, empower, commitment](https://www.javacodegeeks.com/2021/02/words-i-avoid-using-should-empower-commitment.html)
@@ -404,7 +405,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [How much faster is Java 15?](https://www.javacodegeeks.com/2021/02/how-much-faster-is-java-15.html)
 - [Feedback Loops Help When to Centralize or Decentralize Product-Based Decisions](https://www.javacodegeeks.com/2021/02/feedback-loops-help-when-to-centralize-or-decentralize-product-based-decisions.html)
 - [[MEGA DEAL] The 2021 Career & Self Development Master Class (98% off)](https://www.javacodegeeks.com/2021/02/mega-deal-the-2021-career-self-development-master-class-98-off.html)
-- [The Code Review Problem for Migration](https://www.javacodegeeks.com/2021/02/the-code-review-problem-for-migration.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
