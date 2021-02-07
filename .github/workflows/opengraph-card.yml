@@ -14,8 +14,8 @@ jobs:
       - name: Open Graph social cards
         uses: Jasmin2895/open-graph-image@v1.1
         with:
-          bold-text: "Java Design patterns"
-          plain-text: "for social media platforms: alexander-rogalsky.gitbook.io/java-patterns"
+          bold-text: "Java Design patterns\n"
+          plain-text: "for social media platforms"
           theme: "dark"
 
       - name: Archive open graph image
