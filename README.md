@@ -225,7 +225,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 
 [![Stargazers repo roster for @AlexRogalskiy/java-patterns](https://reporoster.com/stars/AlexRogalskiy/java-patterns)][stars]
 
-## 📎 _OpenGraph card_
+## 📎 _OpenGraph Card_
 
 <p align="center" style="text-align:center;">
     <img alt="OpenGraph card" src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/master/images/opengraph-card.png"/>
