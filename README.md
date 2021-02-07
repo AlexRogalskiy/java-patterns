@@ -49,6 +49,7 @@
       * [<em>Licensing</em>](#-licensing)
       * [<em>Development Support</em>](#-development-support)
       * [<em>Acknowledgement</em>](#-acknowledgement)
+      * [<em>OpenGraph card</em>](#-opengraph-card)
       * [<em>Feeds and Podcasts</em>](#-feeds-and-podcasts)
          * [<em>Reddit posts</em>](#reddit-posts)
          * [<em>InfoWorld posts</em>](#infoworld-posts)
