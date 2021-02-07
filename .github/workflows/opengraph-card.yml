@@ -15,24 +15,17 @@ jobs:
         uses: Jasmin2895/open-graph-image@v1.1
         with:
           bold-text: "Java Design patterns"
-          plain-text: "for social media platforms"
-          theme: "light"
+          plain-text: "for social media platforms: alexander-rogalsky.gitbook.io/java-patterns"
+          theme: "dark"
 
       - name: Archive open graph image
         uses: actions/upload-artifact@v2
         with:
           name: open-graph-image
-          path: og-image.now.sh.png
+          path: images/generated/v-card.png
 
       - name: Download all workflow run artifacts
         uses: actions/download-artifact@v2
-
-#      - name: Copy generated artefact to image folder
-#        id: tag_name
-#        run: |
-#          cp -rf alexander-rogalsky.gitbook.io.png ${{ github.workspace }}/images/generated
-#          rm -rf alexander-rogalsky.gitbook.io.png
-#        shell: bash
 
       - name: Commit update
         uses: stefanzweifel/git-auto-commit-action@v4
