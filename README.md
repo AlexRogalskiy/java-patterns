@@ -237,16 +237,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Video editing in java](https://www.reddit.com/r/java/comments/lez7wj/video_editing_in_java/)
+- [Hearing jcenter() is close to an end do you know any good alternative ?](https://www.reddit.com/r/java/comments/leizur/hearing_jcenter_is_close_to_an_end_do_you_know/)
+- [How Can I Continuously Learn Chronologically?](https://www.reddit.com/r/java/comments/leh5i0/how_can_i_continuously_learn_chronologically/)
+- [Announcing the public preview of Microsoft Graph Java SDK v3 - Microsoft 365 Developer Blog](https://www.reddit.com/r/java/comments/leh3v9/announcing_the_public_preview_of_microsoft_graph/)
 - [How would you identify serialization/deserialization problems?](https://www.reddit.com/r/java/comments/leagc5/how_would_you_identify/)
 - [Are you interested in learning about low latency zero allocation programming?](https://www.reddit.com/r/java/comments/le6do1/are_you_interested_in_learning_about_low_latency/)
 - [What kind of technical documentation do you have on your current project?](https://www.reddit.com/r/java/comments/le3v7y/what_kind_of_technical_documentation_do_you_have/)
 - [Web search engine for Java projects](https://www.reddit.com/r/java/comments/ldnkf7/web_search_engine_for_java_projects/)
 - [How to publish a Gradle project to OSSRH.](https://www.reddit.com/r/java/comments/ldeq95/how_to_publish_a_gradle_project_to_ossrh/)
 - [CyBench benchmark: Undertow, Jetty, NanoHttpd, Sparkjava, Takes, HttpServer](https://www.reddit.com/r/java/comments/ld8arw/cybench_benchmark_undertow_jetty_nanohttpd/)
-- [Java Web Framework - Severell](https://www.reddit.com/r/java/comments/ld7ytz/java_web_framework_severell/)
-- [OJDBC 21.1 JDBC Reactive Extensions](https://www.reddit.com/r/java/comments/ld7utd/ojdbc_211_jdbc_reactive_extensions/)
-- [I'm about to have my first interview for a senior java/spring position, is there anything in particular that I should watch out for? Any topics to brush up on?](https://www.reddit.com/r/java/comments/ld3l6y/im_about_to_have_my_first_interview_for_a_senior/)
-- [use case for Java Streams...](https://www.reddit.com/r/java/comments/ld3f83/use_case_for_java_streams/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
