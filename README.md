@@ -237,16 +237,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [How would you identify serialization/deserialization problems?](https://www.reddit.com/r/java/comments/leagc5/how_would_you_identify/)
-- [Are you interested in learning about low latency zero allocation programming?](https://www.reddit.com/r/java/comments/le6do1/are_you_interested_in_learning_about_low_latency/)
-- [What kind of technical documentation do you have on your current project?](https://www.reddit.com/r/java/comments/le3v7y/what_kind_of_technical_documentation_do_you_have/)
-- [Web search engine for Java projects](https://www.reddit.com/r/java/comments/ldnkf7/web_search_engine_for_java_projects/)
-- [How to publish a Gradle project to OSSRH.](https://www.reddit.com/r/java/comments/ldeq95/how_to_publish_a_gradle_project_to_ossrh/)
-- [CyBench benchmark: Undertow, Jetty, NanoHttpd, Sparkjava, Takes, HttpServer](https://www.reddit.com/r/java/comments/ld8arw/cybench_benchmark_undertow_jetty_nanohttpd/)
-- [Java Web Framework - Severell](https://www.reddit.com/r/java/comments/ld7ytz/java_web_framework_severell/)
-- [OJDBC 21.1 JDBC Reactive Extensions](https://www.reddit.com/r/java/comments/ld7utd/ojdbc_211_jdbc_reactive_extensions/)
-- [I'm about to have my first interview for a senior java/spring position, is there anything in particular that I should watch out for? Any topics to brush up on?](https://www.reddit.com/r/java/comments/ld3l6y/im_about_to_have_my_first_interview_for_a_senior/)
-- [use case for Java Streams...](https://www.reddit.com/r/java/comments/ld3f83/use_case_for_java_streams/)
+- [Writing C code in Java/Clojure: GraalVM specific programming](https://www.reddit.com/r/java/comments/lfolhe/writing_c_code_in_javaclojure_graalvm_specific/)
+- [Jakarta EE Survey 2021](https://www.reddit.com/r/java/comments/lfjn8y/jakarta_ee_survey_2021/)
+- [Where is the best place online to learn Java?](https://www.reddit.com/r/java/comments/lfjjrt/where_is_the_best_place_online_to_learn_java/)
+- [How to use make a navbar visible on all the pages (thymeleaf)?](https://www.reddit.com/r/java/comments/lfi00v/how_to_use_make_a_navbar_visible_on_all_the_pages/)
+- [I am learning java now and I'd like to practice by making some little projects. is there any that don't involve GUI?](https://www.reddit.com/r/java/comments/lfezjq/i_am_learning_java_now_and_id_like_to_practice_by/)
+- [Why I love Jetbrains IntelliJ for Java Development (and you should, too!)](https://www.reddit.com/r/java/comments/lfdp2x/why_i_love_jetbrains_intellij_for_java/)
+- [How To Run Junit Tests From The Command Line](https://www.reddit.com/r/java/comments/lfbud7/how_to_run_junit_tests_from_the_command_line/)
+- [Why is it called StringBuffer and StringBuilder?](https://www.reddit.com/r/java/comments/lfaxkf/why_is_it_called_stringbuffer_and_stringbuilder/)
+- [Java GPU accelerated Viola Jones Face Detection with TornadoVM](https://www.reddit.com/r/java/comments/lfams9/java_gpu_accelerated_viola_jones_face_detection/)
+- [Best resources to learn Spring boot?](https://www.reddit.com/r/java/comments/lf7wap/best_resources_to_learn_spring_boot/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
@@ -402,6 +402,9 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [[MEGA DEAL] The All-In-One Developer & Project Manager Exam Certification Prep Bundle (97% off)](https://www.javacodegeeks.com/2021/02/mega-deal-the-all-in-one-developer-project-manager-exam-certification-prep-bundle-97-off.html)
+- [Ultimate Guide to Apply Field Testing for Mobile Application](https://www.javacodegeeks.com/2021/02/ultimate-guide-to-apply-field-testing-for-mobile-application.html)
+- [Simulators vs Emulators vs Real Devices | Mobile Testing Differences](https://www.javacodegeeks.com/2021/02/simulators-vs-emulators-vs-real-devices-mobile-testing-differences.html)
 - [Java Fibonacci Series Recursive Optimized using Dynamic Programming](https://www.javacodegeeks.com/2021/02/java-fibonacci-series-recursive-optimized-using-dynamic-programming.html)
 - [Kotlin – Convert List to Map Examples](https://www.javacodegeeks.com/2021/02/kotlin-convert-list-to-map-examples.html)
 - [Java TreeMap Vs HashMap With Examples](https://www.javacodegeeks.com/2021/02/java-treemap-vs-hashmap-with-examples.html)
@@ -409,9 +412,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Code a Java Game with (almost) Zero Coding Skills](https://www.javacodegeeks.com/2021/02/code-a-java-game-with-almost-zero-coding-skills.html)
 - [JEP-396 and You: strong encapsulation of the JDK internals is the default](https://www.javacodegeeks.com/2021/02/jep-396-and-you-strong-encapsulation-of-the-jdk-internals-is-the-default.html)
 - [How To Find Good Java Developers For an Enterprise Project](https://www.javacodegeeks.com/2021/02/how-to-find-good-java-developers-for-an-enterprise-project.html)
-- [How much faster is Java 15?](https://www.javacodegeeks.com/2021/02/how-much-faster-is-java-15.html)
-- [Feedback Loops Help When to Centralize or Decentralize Product-Based Decisions](https://www.javacodegeeks.com/2021/02/feedback-loops-help-when-to-centralize-or-decentralize-product-based-decisions.html)
-- [[MEGA DEAL] The 2021 Career & Self Development Master Class (98% off)](https://www.javacodegeeks.com/2021/02/mega-deal-the-2021-career-self-development-master-class-98-off.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
