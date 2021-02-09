@@ -1,0 +1,29 @@
+name: Labels
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - docs
+    branches:
+      - master
+
+jobs:
+  Manage:
+    name: Manage GitHub labels
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Display structure of files
+        run: ls -R
+        working-directory: docs/
+
+      - name: Deploy Github Pages
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: docs/
