@@ -402,6 +402,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [[MEGA DEAL] The All-In-One Developer & Project Manager Exam Certification Prep Bundle (97% off)](https://www.javacodegeeks.com/2021/02/mega-deal-the-all-in-one-developer-project-manager-exam-certification-prep-bundle-97-off.html)
+- [Ultimate Guide to Apply Field Testing for Mobile Application](https://www.javacodegeeks.com/2021/02/ultimate-guide-to-apply-field-testing-for-mobile-application.html)
 - [Simulators vs Emulators vs Real Devices | Mobile Testing Differences](https://www.javacodegeeks.com/2021/02/simulators-vs-emulators-vs-real-devices-mobile-testing-differences.html)
 - [Java Fibonacci Series Recursive Optimized using Dynamic Programming](https://www.javacodegeeks.com/2021/02/java-fibonacci-series-recursive-optimized-using-dynamic-programming.html)
 - [Kotlin – Convert List to Map Examples](https://www.javacodegeeks.com/2021/02/kotlin-convert-list-to-map-examples.html)
@@ -410,8 +412,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Code a Java Game with (almost) Zero Coding Skills](https://www.javacodegeeks.com/2021/02/code-a-java-game-with-almost-zero-coding-skills.html)
 - [JEP-396 and You: strong encapsulation of the JDK internals is the default](https://www.javacodegeeks.com/2021/02/jep-396-and-you-strong-encapsulation-of-the-jdk-internals-is-the-default.html)
 - [How To Find Good Java Developers For an Enterprise Project](https://www.javacodegeeks.com/2021/02/how-to-find-good-java-developers-for-an-enterprise-project.html)
-- [How much faster is Java 15?](https://www.javacodegeeks.com/2021/02/how-much-faster-is-java-15.html)
-- [Feedback Loops Help When to Centralize or Decentralize Product-Based Decisions](https://www.javacodegeeks.com/2021/02/feedback-loops-help-when-to-centralize-or-decentralize-product-based-decisions.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
