@@ -342,6 +342,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Dreamix posts_
 
 <!-- DREAMIX-POST-LIST:START -->
+- [Java Tools for Agile Software Development](https://dreamix.eu/blog/java/java-tools-for-agile-software-development)
 - [Learn form Java Champion: Simon Ritter x Java Daily](https://dreamix.eu/blog/java/learn-form-java-champion-simon-ritter-x-java-daily)
 - [5 Reasons Why Bespoke Software Development Projects Succeed](https://dreamix.eu/blog/java/5-reasons-why-bespoke-software-development-projects-succeed)
 - [Continuous Integration and Delivery to Improve the Software Development Workflow](https://dreamix.eu/blog/java/continuous-integration-and-delivery-to-improve-the-software-development-workflow)
@@ -351,7 +352,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [The Anatomy of a Good SCRUM team](https://dreamix.eu/blog/java/the-anatomy-of-a-good-scrum-team)
 - [7 Important Factors for Making Software Development Outsourcing Decisions](https://dreamix.eu/blog/java/7-important-factors-for-making-software-development-outsourcing-decisions)
 - [How to Successfully Use the Agile Process for Bespoke Software Development?](https://dreamix.eu/blog/java/how-to-successfully-use-the-agile-process-for-bespoke-software-development)
-- [5 Factors that Lead to Successful Custom Software Development](https://dreamix.eu/blog/java/5-factors-that-lead-to-successful-custom-software-development)
 <!-- DREAMIX-POST-LIST:END -->
 
 ### _Plumbr posts_
