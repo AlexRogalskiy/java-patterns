@@ -1,0 +1,35 @@
+name: PR Merge on Schedule
+
+on:
+  schedule:
+    - cron: '* 5 * * *'
+
+jobs:
+  prhelper_schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run PR Helper on Schedule
+        id: runprhelperonschedule
+        uses: Matticusau/pr-helper@v1.2.4
+        with:
+          repo-token: ${{ secrets.GHACTION_PAT }}
+          enable-prmerge-automation: true
+          enable-prcomment-automation: false
+          enable-prlabel-automation: true
+          enable-prreviewer-frontmatter: true
+          enable-welcomemessage: false
+          prmerge-requireallchecks: true
+          prmerge-requirereviewcount: 1
+          prmerge-method: 'merge'
+          prmerge-deletebranch: 'true'
+          prmerge-deletebranch-config: ''
+          prmerge-pathcheck: true
+          prmerge-allowpaths: '{"any":["articles/**"]}'
+          prreviewer-authorkey: 'author'
+          prreviewer-githubuserfromauthorfile: true
+          prreviewer-authorfilepath: '_data/authors.yaml'
+          prlabel-default: 'pr-onhold'
+          prlabel-ready: 'pr-ready'
+          prlabel-onhold: 'pr-onhold'
+          prlabel-reviewrequired: 'review-required'
+          prlabel-automerge: 'auto-merge'
