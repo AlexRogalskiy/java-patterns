@@ -237,16 +237,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [help going from eclipse to VScode](https://www.reddit.com/r/java/comments/lgezqz/help_going_from_eclipse_to_vscode/)
+- [JEP draft: Unify the Basic Primitives with Objects (Preview)](https://www.reddit.com/r/java/comments/lgewem/jep_draft_unify_the_basic_primitives_with_objects/)
+- [My experimental IDE plugin for displaying all project files in a single view, with zoom/pan and code editing. More info in comments.](https://www.reddit.com/r/java/comments/lgeltm/my_experimental_ide_plugin_for_displaying_all/)
+- [Use UTF-8 as default Charset (JEP draft)](https://www.reddit.com/r/java/comments/lg9j5g/use_utf8_as_default_charset_jep_draft/)
+- [Stream.toList() and other converter methods I’ve wanted since Java 2](https://www.reddit.com/r/java/comments/lg718c/streamtolist_and_other_converter_methods_ive/)
+- [Java code to byte code.](https://www.reddit.com/r/java/comments/lg4b0s/java_code_to_byte_code/)
+- ["Java Feature Spotlight: Pattern Matching" -- Brian Goetz](https://www.reddit.com/r/java/comments/lg29ds/java_feature_spotlight_pattern_matching_brian/)
 - [Writing C code in Java/Clojure: GraalVM specific programming](https://www.reddit.com/r/java/comments/lfolhe/writing_c_code_in_javaclojure_graalvm_specific/)
 - [Jakarta EE Survey 2021](https://www.reddit.com/r/java/comments/lfjn8y/jakarta_ee_survey_2021/)
-- [Where is the best place online to learn Java?](https://www.reddit.com/r/java/comments/lfjjrt/where_is_the_best_place_online_to_learn_java/)
-- [How to use make a navbar visible on all the pages (thymeleaf)?](https://www.reddit.com/r/java/comments/lfi00v/how_to_use_make_a_navbar_visible_on_all_the_pages/)
-- [I am learning java now and I'd like to practice by making some little projects. is there any that don't involve GUI?](https://www.reddit.com/r/java/comments/lfezjq/i_am_learning_java_now_and_id_like_to_practice_by/)
-- [Why I love Jetbrains IntelliJ for Java Development (and you should, too!)](https://www.reddit.com/r/java/comments/lfdp2x/why_i_love_jetbrains_intellij_for_java/)
 - [How To Run Junit Tests From The Command Line](https://www.reddit.com/r/java/comments/lfbud7/how_to_run_junit_tests_from_the_command_line/)
-- [Why is it called StringBuffer and StringBuilder?](https://www.reddit.com/r/java/comments/lfaxkf/why_is_it_called_stringbuffer_and_stringbuilder/)
-- [Java GPU accelerated Viola Jones Face Detection with TornadoVM](https://www.reddit.com/r/java/comments/lfams9/java_gpu_accelerated_viola_jones_face_detection/)
-- [Best resources to learn Spring boot?](https://www.reddit.com/r/java/comments/lf7wap/best_resources_to_learn_spring_boot/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
