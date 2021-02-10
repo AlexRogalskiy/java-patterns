@@ -402,6 +402,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Architecture Artifacts Cross-Checker](https://www.javacodegeeks.com/2021/02/architecture-artifacts-cross-checker.html)
+- [A Comprehensive Guide To Deal With XPath In Selenium](https://www.javacodegeeks.com/2021/02/a-comprehensive-guide-to-deal-with-xpath-in-selenium.html)
 - [[MEGA DEAL] The All-In-One Developer & Project Manager Exam Certification Prep Bundle (97% off)](https://www.javacodegeeks.com/2021/02/mega-deal-the-all-in-one-developer-project-manager-exam-certification-prep-bundle-97-off.html)
 - [Ultimate Guide to Apply Field Testing for Mobile Application](https://www.javacodegeeks.com/2021/02/ultimate-guide-to-apply-field-testing-for-mobile-application.html)
 - [Simulators vs Emulators vs Real Devices | Mobile Testing Differences](https://www.javacodegeeks.com/2021/02/simulators-vs-emulators-vs-real-devices-mobile-testing-differences.html)
@@ -410,8 +412,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Java TreeMap Vs HashMap With Examples](https://www.javacodegeeks.com/2021/02/java-treemap-vs-hashmap-with-examples.html)
 - [Words I avoid using: should, empower, commitment](https://www.javacodegeeks.com/2021/02/words-i-avoid-using-should-empower-commitment.html)
 - [Code a Java Game with (almost) Zero Coding Skills](https://www.javacodegeeks.com/2021/02/code-a-java-game-with-almost-zero-coding-skills.html)
-- [JEP-396 and You: strong encapsulation of the JDK internals is the default](https://www.javacodegeeks.com/2021/02/jep-396-and-you-strong-encapsulation-of-the-jdk-internals-is-the-default.html)
-- [How To Find Good Java Developers For an Enterprise Project](https://www.javacodegeeks.com/2021/02/how-to-find-good-java-developers-for-an-enterprise-project.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
