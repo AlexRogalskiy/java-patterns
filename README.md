@@ -372,6 +372,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Thorben Janssen posts_
 
 <!-- TJ-POST-LIST:START -->
+- [Hibernate Query Spaces – Optimizing Flush and Cache Operations](https://thorben-janssen.com/hibernate-query-spaces/)
 - [Coffee with Thorben 2020-02-05 – Auditing with Hibernate Envers](https://thorben-janssen.com/coffee-with-thorben-hibernate-envers/)
 - [JDBC Connection and Dialect Configuration in Hibernate](https://thorben-janssen.com/jdbc-connection-and-dialect-in-hibernate/)
 - [Coffee with Thorben 2020-01-29 – Soft Deletes & Bi-directional Association](https://thorben-janssen.com/coffee-with-thorben-soft-deletes/)
@@ -381,7 +382,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Implementing Batch Jobs with Hibernate](https://thorben-janssen.com/implementing-batch-jobs-with-hibernate/)
 - [Coffee with Thorben 2020-01-08 – DB Migration & Criteria SubQuery](https://thorben-janssen.com/coffee-with-thorben-2020-01-08-db-migration-criteria-subquery/)
 - [Welcome to 2021](https://thorben-janssen.com/welcome-to-2021/)
-- [How to use CockroachDB with Hibernate](https://thorben-janssen.com/hibernate-cockroachdb/)
 <!-- TJ-POST-LIST:END -->
 
 ### _Redhat posts_
