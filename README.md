@@ -327,6 +327,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Java programmer posts_
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [How Many Types of Memory Areas are Allocated by JVM?](https://www.thejavaprogrammer.com/how-many-types-of-memory-areas-are-allocated-by-jvm/)
 - [Solve Error “the import org.apache cannot be resolved” in Java](https://www.thejavaprogrammer.com/the-import-org-apache-cannot-be-resolved/)
 - [3 Ways to Create Spring Boot Project in Eclipse](https://www.thejavaprogrammer.com/create-spring-boot-project-in-eclipse/)
 - [Real Time Example of Multithreading in Java](https://www.thejavaprogrammer.com/real-time-example-of-multithreading-in-java/)
@@ -336,7 +337,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Solve Error “int cannot be dereferenced” in Java](https://www.thejavaprogrammer.com/int-cannot-be-dereferenced/)
 - [Fix Error “editor does not contain a main type” in Eclipse](https://www.thejavaprogrammer.com/editor-does-not-contain-a-main-type/)
 - [Points for Perfect Software License Management Practices in Business Organization](https://www.thejavaprogrammer.com/software-license-management-practices/)
-- [6 Best Java Books for Beginners in 2020](https://www.thejavaprogrammer.com/best-java-books-beginners/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### _Dreamix posts_
