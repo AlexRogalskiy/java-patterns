@@ -237,16 +237,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [help going from eclipse to VScode](https://www.reddit.com/r/java/comments/lgezqz/help_going_from_eclipse_to_vscode/)
-- [JEP draft: Unify the Basic Primitives with Objects (Preview)](https://www.reddit.com/r/java/comments/lgewem/jep_draft_unify_the_basic_primitives_with_objects/)
-- [My experimental IDE plugin for displaying all project files in a single view, with zoom/pan and code editing. More info in comments.](https://www.reddit.com/r/java/comments/lgeltm/my_experimental_ide_plugin_for_displaying_all/)
-- [Use UTF-8 as default Charset (JEP draft)](https://www.reddit.com/r/java/comments/lg9j5g/use_utf8_as_default_charset_jep_draft/)
-- [Stream.toList() and other converter methods I’ve wanted since Java 2](https://www.reddit.com/r/java/comments/lg718c/streamtolist_and_other_converter_methods_ive/)
-- [Java code to byte code.](https://www.reddit.com/r/java/comments/lg4b0s/java_code_to_byte_code/)
-- ["Java Feature Spotlight: Pattern Matching" -- Brian Goetz](https://www.reddit.com/r/java/comments/lg29ds/java_feature_spotlight_pattern_matching_brian/)
-- [Writing C code in Java/Clojure: GraalVM specific programming](https://www.reddit.com/r/java/comments/lfolhe/writing_c_code_in_javaclojure_graalvm_specific/)
-- [Jakarta EE Survey 2021](https://www.reddit.com/r/java/comments/lfjn8y/jakarta_ee_survey_2021/)
-- [How To Run Junit Tests From The Command Line](https://www.reddit.com/r/java/comments/lfbud7/how_to_run_junit_tests_from_the_command_line/)
+- [Writing Kubernetes Sample Controller in Java](https://www.reddit.com/r/java/comments/lh5oll/writing_kubernetes_sample_controller_in_java/)
+- [How to build applications with the WebSocket API for Java EE and Jakarta EE](https://www.reddit.com/r/java/comments/lh4gqx/how_to_build_applications_with_the_websocket_api/)
+- [jte 1.6.0 can run on Java 8](https://www.reddit.com/r/java/comments/lh49o1/jte_160_can_run_on_java_8/)
+- [Unit testing registry metrics](https://www.reddit.com/r/java/comments/lh3csw/unit_testing_registry_metrics/)
+- [Java on VS Code - January 2021 Update](https://www.reddit.com/r/java/comments/lgzdoh/java_on_vs_code_january_2021_update/)
+- [Why Namespacing Matters in Public Open Source Repositories](https://www.reddit.com/r/java/comments/lgxcz9/why_namespacing_matters_in_public_open_source/)
+- [Recent work plans of PowerJob. Let's make this distributed job-scheduling framework better.](https://www.reddit.com/r/java/comments/lgutyn/recent_work_plans_of_powerjob_lets_make_this/)
+- [Balancing Choreography and Orchestration with Bernd Ruecker](https://www.reddit.com/r/java/comments/lgtybr/balancing_choreography_and_orchestration_with/)
+- [Building a layered modular Java application? Watch out for these!](https://www.reddit.com/r/java/comments/lgrk7q/building_a_layered_modular_java_application_watch/)
+- [Jazzer - a coverage-guided, in-process fuzzer for the JVM platform](https://www.reddit.com/r/java/comments/lgqonz/jazzer_a_coverageguided_inprocess_fuzzer_for_the/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
