@@ -312,6 +312,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [Episode 12 “jpackage” with Kevin Rushforth](https://inside.java/2021/02/11/podcast-012/)
 - [JDK 16 enters the Release Candidate phase](https://inside.java/2021/02/04/jdk16-enters-rc/)
 - [Project Loom: Modern scalable concurrency for the Java platform](https://inside.java/2021/02/04/projectloom-jokerconf/)
 - [JEP-380: Unix domain socket channels](https://inside.java/2021/02/03/jep380-unix-domain-sockets-channels/)
@@ -321,7 +322,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [JMC 8.0.0 Early-Access Release](https://inside.java/2021/01/28/jmc-8-early-access-release/)
 - [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://inside.java/2021/01/27/extending-c2-autovectorization-capabilities/)
 - [Foreign Memory Access - Pulling all the threads](https://inside.java/2021/01/25/memory-access-pulling-all-the-threads/)
-- [Draft JEP for upcoming work on snippets](https://inside.java/2021/01/23/draft-jep-snippets/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
