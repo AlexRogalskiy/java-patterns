@@ -402,6 +402,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Validation in Spring Boot applications](https://www.javacodegeeks.com/2021/02/validation-in-spring-boot-applications.html)
+- [The After Open Source Era Has Started](https://www.javacodegeeks.com/2021/02/the-after-open-source-era-has-started.html)
 - [A Contrarian’s Perspective on Agile Mindset, Behaviors, Culture](https://www.javacodegeeks.com/2021/02/a-contrarians-perspective-on-agile-mindset-behaviors-culture.html)
 - [Testing with Hoverfly and Java Part 6: JSON and JsonPath matchers](https://www.javacodegeeks.com/2021/02/testing-with-hoverfly-and-java-part-6-json-and-jsonpath-matchers.html)
 - [Architecture Artifacts Cross-Checker](https://www.javacodegeeks.com/2021/02/architecture-artifacts-cross-checker.html)
@@ -410,8 +412,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Ultimate Guide to Apply Field Testing for Mobile Application](https://www.javacodegeeks.com/2021/02/ultimate-guide-to-apply-field-testing-for-mobile-application.html)
 - [Simulators vs Emulators vs Real Devices | Mobile Testing Differences](https://www.javacodegeeks.com/2021/02/simulators-vs-emulators-vs-real-devices-mobile-testing-differences.html)
 - [Java Fibonacci Series Recursive Optimized using Dynamic Programming](https://www.javacodegeeks.com/2021/02/java-fibonacci-series-recursive-optimized-using-dynamic-programming.html)
-- [Kotlin – Convert List to Map Examples](https://www.javacodegeeks.com/2021/02/kotlin-convert-list-to-map-examples.html)
-- [Java TreeMap Vs HashMap With Examples](https://www.javacodegeeks.com/2021/02/java-treemap-vs-hashmap-with-examples.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
