@@ -237,16 +237,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [Writing Kubernetes Sample Controller in Java](https://www.reddit.com/r/java/comments/lh5oll/writing_kubernetes_sample_controller_in_java/)
-- [How to build applications with the WebSocket API for Java EE and Jakarta EE](https://www.reddit.com/r/java/comments/lh4gqx/how_to_build_applications_with_the_websocket_api/)
-- [jte 1.6.0 can run on Java 8](https://www.reddit.com/r/java/comments/lh49o1/jte_160_can_run_on_java_8/)
-- [Unit testing registry metrics](https://www.reddit.com/r/java/comments/lh3csw/unit_testing_registry_metrics/)
-- [Java on VS Code - January 2021 Update](https://www.reddit.com/r/java/comments/lgzdoh/java_on_vs_code_january_2021_update/)
-- [Why Namespacing Matters in Public Open Source Repositories](https://www.reddit.com/r/java/comments/lgxcz9/why_namespacing_matters_in_public_open_source/)
-- [Recent work plans of PowerJob. Let's make this distributed job-scheduling framework better.](https://www.reddit.com/r/java/comments/lgutyn/recent_work_plans_of_powerjob_lets_make_this/)
-- [Balancing Choreography and Orchestration with Bernd Ruecker](https://www.reddit.com/r/java/comments/lgtybr/balancing_choreography_and_orchestration_with/)
-- [Building a layered modular Java application? Watch out for these!](https://www.reddit.com/r/java/comments/lgrk7q/building_a_layered_modular_java_application_watch/)
-- [Jazzer - a coverage-guided, in-process fuzzer for the JVM platform](https://www.reddit.com/r/java/comments/lgqonz/jazzer_a_coverageguided_inprocess_fuzzer_for_the/)
+- [Early Access Program for Qodana, a New Product That Brings the "Smarts" of JetBrains IDEs Into Your CI Pipeline](https://www.reddit.com/r/java/comments/lhwgoh/early_access_program_for_qodana_a_new_product/)
+- [Java's Quirks and Wrong (?) Defaults with Brian Goetz](https://www.reddit.com/r/java/comments/lhvo7d/javas_quirks_and_wrong_defaults_with_brian_goetz/)
+- [Question on OpenJDK vs JRE](https://www.reddit.com/r/java/comments/lhv673/question_on_openjdk_vs_jre/)
+- [New guy on the team finished his Spring Data Redis video series -- Part 1-4 now up!](https://www.reddit.com/r/java/comments/lhp2rt/new_guy_on_the_team_finished_his_spring_data/)
+- [Transparent Heterogeneous Computing for Java via TornadoVM](https://www.reddit.com/r/java/comments/lhnhso/transparent_heterogeneous_computing_for_java_via/)
+- [Put Java into Intel SGX enclaves with Conclave](https://www.reddit.com/r/java/comments/lhmtde/put_java_into_intel_sgx_enclaves_with_conclave/)
+- [New Inside Java podcast - “jpackage” with Kevin Rushforth](https://www.reddit.com/r/java/comments/lhjssy/new_inside_java_podcast_jpackage_with_kevin/)
+- [Discussion: Test containers or test doubles (comparison inside)](https://www.reddit.com/r/java/comments/lhi1r0/discussion_test_containers_or_test_doubles/)
+- [Useful JDK tools (part 1)](https://www.reddit.com/r/java/comments/lhhs1p/useful_jdk_tools_part_1/)
+- [Best practices: Java memory arguments for Containers](https://www.reddit.com/r/java/comments/lhcbz7/best_practices_java_memory_arguments_for/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
