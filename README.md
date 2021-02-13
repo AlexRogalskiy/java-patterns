@@ -252,10 +252,10 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _InfoWorld posts_
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [JDK 16: The new features in Java 16](https://www.infoworld.com/article/3569150/jdk-16-the-new-features-in-java-16.html#tk.rss_java)
 - [Java 17 proposal would enhance PRNGs](https://www.infoworld.com/article/3606833/java-17-proposal-would-enhance-prngs.html#tk.rss_java)
 - [Oracle adds GraalVM to Java subscription](https://www.infoworld.com/article/3606069/oracle-adds-graalvm-to-java-subscription.html#tk.rss_java)
 - [GraalVM boosts Java performance with Truffle framework](https://www.infoworld.com/article/3604476/graalvm-boosts-java-performance-with-truffle-framework.html#tk.rss_java)
-- [JDK 16: The new features in Java 16](https://www.infoworld.com/article/3569150/jdk-16-the-new-features-in-java-16.html#tk.rss_java)
 - [Python edges C++ for Tiobe’s programming language of the year](https://www.infoworld.com/article/3602554/python-wins-language-popularity-honor.html#tk.rss_java)
 - [ActiveJ Java platform takes aim at Spring, Quarkus](https://www.infoworld.com/article/3601068/activej-java-platform-takes-aim-at-spring-quarkus.html#tk.rss_java)
 - [Eclipse weighs Java 11 support for Jakarta EE 9](https://www.infoworld.com/article/3600768/eclipse-weighs-java-11-support-for-jakarta-ee-9.html#tk.rss_java)
