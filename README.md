@@ -402,6 +402,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [The Linear Git History](https://www.javacodegeeks.com/2021/02/the-linear-git-history.html)
+- [Key Aspects to Consider While Creating a Successful Continuous Testing Methodology](https://www.javacodegeeks.com/2021/02/key-aspects-to-consider-while-creating-a-successful-continuous-testing-methodology.html)
 - [Validation in Spring Boot applications](https://www.javacodegeeks.com/2021/02/validation-in-spring-boot-applications.html)
 - [The After Open Source Era Has Started](https://www.javacodegeeks.com/2021/02/the-after-open-source-era-has-started.html)
 - [A Contrarian’s Perspective on Agile Mindset, Behaviors, Culture](https://www.javacodegeeks.com/2021/02/a-contrarians-perspective-on-agile-mindset-behaviors-culture.html)
@@ -410,8 +412,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [A Comprehensive Guide To Deal With XPath In Selenium](https://www.javacodegeeks.com/2021/02/a-comprehensive-guide-to-deal-with-xpath-in-selenium.html)
 - [[MEGA DEAL] The All-In-One Developer & Project Manager Exam Certification Prep Bundle (97% off)](https://www.javacodegeeks.com/2021/02/mega-deal-the-all-in-one-developer-project-manager-exam-certification-prep-bundle-97-off.html)
 - [Ultimate Guide to Apply Field Testing for Mobile Application](https://www.javacodegeeks.com/2021/02/ultimate-guide-to-apply-field-testing-for-mobile-application.html)
-- [Simulators vs Emulators vs Real Devices | Mobile Testing Differences](https://www.javacodegeeks.com/2021/02/simulators-vs-emulators-vs-real-devices-mobile-testing-differences.html)
-- [Java Fibonacci Series Recursive Optimized using Dynamic Programming](https://www.javacodegeeks.com/2021/02/java-fibonacci-series-recursive-optimized-using-dynamic-programming.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
