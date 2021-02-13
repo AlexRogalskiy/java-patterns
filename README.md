@@ -237,16 +237,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Has anyone taken Marco Behler's Spring Developer Course? What was your opinion of the quality?](https://www.reddit.com/r/java/comments/limw4y/has_anyone_taken_marco_behlers_spring_developer/)
+- [JDK 16: Second Release Candidate](https://www.reddit.com/r/java/comments/lijcyw/jdk_16_second_release_candidate/)
+- [JDK 1.5 target option will be gone. Is it good?](https://www.reddit.com/r/java/comments/lid72i/jdk_15_target_option_will_be_gone_is_it_good/)
+- [Publishing to Maven Central using Apache Maven](https://www.reddit.com/r/java/comments/li70a5/publishing_to_maven_central_using_apache_maven/)
+- [Deciphering the stack trace](https://www.reddit.com/r/java/comments/li48fr/deciphering_the_stack_trace/)
 - [Early Access Program for Qodana, a New Product That Brings the "Smarts" of JetBrains IDEs Into Your CI Pipeline](https://www.reddit.com/r/java/comments/lhwgoh/early_access_program_for_qodana_a_new_product/)
 - [Java's Quirks and Wrong (?) Defaults with Brian Goetz](https://www.reddit.com/r/java/comments/lhvo7d/javas_quirks_and_wrong_defaults_with_brian_goetz/)
 - [Question on OpenJDK vs JRE](https://www.reddit.com/r/java/comments/lhv673/question_on_openjdk_vs_jre/)
 - [New guy on the team finished his Spring Data Redis video series -- Part 1-4 now up!](https://www.reddit.com/r/java/comments/lhp2rt/new_guy_on_the_team_finished_his_spring_data/)
 - [Transparent Heterogeneous Computing for Java via TornadoVM](https://www.reddit.com/r/java/comments/lhnhso/transparent_heterogeneous_computing_for_java_via/)
-- [Put Java into Intel SGX enclaves with Conclave](https://www.reddit.com/r/java/comments/lhmtde/put_java_into_intel_sgx_enclaves_with_conclave/)
-- [New Inside Java podcast - “jpackage” with Kevin Rushforth](https://www.reddit.com/r/java/comments/lhjssy/new_inside_java_podcast_jpackage_with_kevin/)
-- [Discussion: Test containers or test doubles (comparison inside)](https://www.reddit.com/r/java/comments/lhi1r0/discussion_test_containers_or_test_doubles/)
-- [Useful JDK tools (part 1)](https://www.reddit.com/r/java/comments/lhhs1p/useful_jdk_tools_part_1/)
-- [Best practices: Java memory arguments for Containers](https://www.reddit.com/r/java/comments/lhcbz7/best_practices_java_memory_arguments_for/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
