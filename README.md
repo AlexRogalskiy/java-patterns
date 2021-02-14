@@ -237,16 +237,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Continuous Delivery makes JVM JIT an antipattern](https://www.reddit.com/r/java/comments/ljbuol/continuous_delivery_makes_jvm_jit_an_antipattern/)
+- [my most recent Java AI book can be downloaded for free](https://www.reddit.com/r/java/comments/lj94wm/my_most_recent_java_ai_book_can_be_downloaded_for/)
+- [Using feature flags in Java and Spring Boot](https://www.reddit.com/r/java/comments/lj7h0i/using_feature_flags_in_java_and_spring_boot/)
+- [Is there anything like ASP.NET Razor templates for login, register, manage account and others in Spring framework?](https://www.reddit.com/r/java/comments/liw1rp/is_there_anything_like_aspnet_razor_templates_for/)
 - [Has anyone taken Marco Behler's Spring Developer Course? What was your opinion of the quality?](https://www.reddit.com/r/java/comments/limw4y/has_anyone_taken_marco_behlers_spring_developer/)
 - [JDK 16: Second Release Candidate](https://www.reddit.com/r/java/comments/lijcyw/jdk_16_second_release_candidate/)
 - [JDK 1.5 target option will be gone. Is it good?](https://www.reddit.com/r/java/comments/lid72i/jdk_15_target_option_will_be_gone_is_it_good/)
 - [Publishing to Maven Central using Apache Maven](https://www.reddit.com/r/java/comments/li70a5/publishing_to_maven_central_using_apache_maven/)
 - [Deciphering the stack trace](https://www.reddit.com/r/java/comments/li48fr/deciphering_the_stack_trace/)
 - [Early Access Program for Qodana, a New Product That Brings the "Smarts" of JetBrains IDEs Into Your CI Pipeline](https://www.reddit.com/r/java/comments/lhwgoh/early_access_program_for_qodana_a_new_product/)
-- [Java's Quirks and Wrong (?) Defaults with Brian Goetz](https://www.reddit.com/r/java/comments/lhvo7d/javas_quirks_and_wrong_defaults_with_brian_goetz/)
-- [Question on OpenJDK vs JRE](https://www.reddit.com/r/java/comments/lhv673/question_on_openjdk_vs_jre/)
-- [New guy on the team finished his Spring Data Redis video series -- Part 1-4 now up!](https://www.reddit.com/r/java/comments/lhp2rt/new_guy_on_the_team_finished_his_spring_data/)
-- [Transparent Heterogeneous Computing for Java via TornadoVM](https://www.reddit.com/r/java/comments/lhnhso/transparent_heterogeneous_computing_for_java_via/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
