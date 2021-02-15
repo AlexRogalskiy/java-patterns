@@ -402,6 +402,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Threadless Wonders](https://www.javacodegeeks.com/2021/02/threadless-wonders.html)
 - [Everyone Could Use a Buddy](https://www.javacodegeeks.com/2021/02/everyone-could-use-a-buddy.html)
 - [The Linear Git History](https://www.javacodegeeks.com/2021/02/the-linear-git-history.html)
 - [Key Aspects to Consider While Creating a Successful Continuous Testing Methodology](https://www.javacodegeeks.com/2021/02/key-aspects-to-consider-while-creating-a-successful-continuous-testing-methodology.html)
@@ -411,7 +412,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Testing with Hoverfly and Java Part 6: JSON and JsonPath matchers](https://www.javacodegeeks.com/2021/02/testing-with-hoverfly-and-java-part-6-json-and-jsonpath-matchers.html)
 - [Architecture Artifacts Cross-Checker](https://www.javacodegeeks.com/2021/02/architecture-artifacts-cross-checker.html)
 - [A Comprehensive Guide To Deal With XPath In Selenium](https://www.javacodegeeks.com/2021/02/a-comprehensive-guide-to-deal-with-xpath-in-selenium.html)
-- [[MEGA DEAL] The All-In-One Developer & Project Manager Exam Certification Prep Bundle (97% off)](https://www.javacodegeeks.com/2021/02/mega-deal-the-all-in-one-developer-project-manager-exam-certification-prep-bundle-97-off.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
