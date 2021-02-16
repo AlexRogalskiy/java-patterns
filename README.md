@@ -402,6 +402,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [[MEGA DEAL] The Mastering Mathematics Training Prep Bundle (98% off)](https://www.javacodegeeks.com/2021/02/mega-deal-the-mastering-mathematics-training-prep-bundle-98-off.html)
+- [Introduction into GraalVM (Community Edition): Cloud as a Changing Force](https://www.javacodegeeks.com/2021/02/introduction-into-graalvm-community-edition-cloud-as-a-changing-force.html)
 - [Threadless Wonders](https://www.javacodegeeks.com/2021/02/threadless-wonders.html)
 - [Everyone Could Use a Buddy](https://www.javacodegeeks.com/2021/02/everyone-could-use-a-buddy.html)
 - [The Linear Git History](https://www.javacodegeeks.com/2021/02/the-linear-git-history.html)
@@ -410,8 +412,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [The After Open Source Era Has Started](https://www.javacodegeeks.com/2021/02/the-after-open-source-era-has-started.html)
 - [A Contrarian’s Perspective on Agile Mindset, Behaviors, Culture](https://www.javacodegeeks.com/2021/02/a-contrarians-perspective-on-agile-mindset-behaviors-culture.html)
 - [Testing with Hoverfly and Java Part 6: JSON and JsonPath matchers](https://www.javacodegeeks.com/2021/02/testing-with-hoverfly-and-java-part-6-json-and-jsonpath-matchers.html)
-- [Architecture Artifacts Cross-Checker](https://www.javacodegeeks.com/2021/02/architecture-artifacts-cross-checker.html)
-- [A Comprehensive Guide To Deal With XPath In Selenium](https://www.javacodegeeks.com/2021/02/a-comprehensive-guide-to-deal-with-xpath-in-selenium.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
