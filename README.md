@@ -312,6 +312,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [Reducing MD5 (and SHA) overheads](https://inside.java/2021/02/14/reducing-md5-and-sha-overheads/)
 - [Deciphering the stack trace](https://inside.java/2021/02/12/deciphering-the-stacktrace/)
 - [Episode 12 “jpackage” with Kevin Rushforth](https://inside.java/2021/02/11/podcast-012/)
 - [JDK 16 enters the Release Candidate phase](https://inside.java/2021/02/04/jdk16-enters-rc/)
@@ -321,7 +322,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [JEP proposed to target JDK 17: 356: Enhanced Pseudo-Random Number Generators](https://inside.java/2021/01/29/jep-356-proposed-to-target-jdk17/)
 - [Episode 11 “How to contribute to OpenJDK” with Stuart Marks and Jesper Wilhelmsson](https://inside.java/2021/01/29/podcast-011/)
 - [JMC 8.0.0 Early-Access Release](https://inside.java/2021/01/28/jmc-8-early-access-release/)
-- [Extending the Automatic Vectorization Capabilities of the C2 Compiler](https://inside.java/2021/01/27/extending-c2-autovectorization-capabilities/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
