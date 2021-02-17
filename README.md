@@ -237,16 +237,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [is there a "right click run all junit test in this folder and below" feature in VS code like there is in eclipse?](https://www.reddit.com/r/java/comments/llgnlm/is_there_a_right_click_run_all_junit_test_in_this/)
+- [Web Scraping 101 with Java](https://www.reddit.com/r/java/comments/ll9owm/web_scraping_101_with_java/)
+- [Front end development for java.](https://www.reddit.com/r/java/comments/ll3oem/front_end_development_for_java/)
+- [Camunda - Pros and Cons](https://www.reddit.com/r/java/comments/lkzlz7/camunda_pros_and_cons/)
+- [Anybody using UML in 2021?](https://www.reddit.com/r/java/comments/lkuujb/anybody_using_uml_in_2021/)
 - [I Created a course creation platform focused on written content, looking for feedback](https://www.reddit.com/r/java/comments/lkndir/i_created_a_course_creation_platform_focused_on/)
 - [New Gradle Plugin for publishing to Nexus that automates creating, closing, and releasing staging repositories.](https://www.reddit.com/r/java/comments/lk81xt/new_gradle_plugin_for_publishing_to_nexus_that/)
 - [Potential use for sealed interfaces.](https://www.reddit.com/r/java/comments/lk3c4g/potential_use_for_sealed_interfaces/)
 - [Distribution of JVM desktop applications](https://www.reddit.com/r/java/comments/ljt4kv/distribution_of_jvm_desktop_applications/)
 - [Reducing MD5 (and SHA) overheads](https://www.reddit.com/r/java/comments/ljqmiv/reducing_md5_and_sha_overheads/)
-- [Hashtag Jakarta EE #59](https://www.reddit.com/r/java/comments/ljq2yq/hashtag_jakarta_ee_59/)
-- [my most recent Java AI book can be downloaded for free](https://www.reddit.com/r/java/comments/lj94wm/my_most_recent_java_ai_book_can_be_downloaded_for/)
-- [Using feature flags in Java and Spring Boot](https://www.reddit.com/r/java/comments/lj7h0i/using_feature_flags_in_java_and_spring_boot/)
-- [Is there anything like ASP.NET Razor templates for login, register, manage account and others in Spring framework?](https://www.reddit.com/r/java/comments/liw1rp/is_there_anything_like_aspnet_razor_templates_for/)
-- [Has anyone taken Marco Behler's Spring Developer Course? What was your opinion of the quality?](https://www.reddit.com/r/java/comments/limw4y/has_anyone_taken_marco_behlers_spring_developer/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
