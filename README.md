@@ -244,16 +244,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [is there a "right click run all junit test in this folder and below" feature in VS code like there is in eclipse?](https://www.reddit.com/r/java/comments/llgnlm/is_there_a_right_click_run_all_junit_test_in_this/)
+- [An application for android that retains notifications for a certain amount of time?](https://www.reddit.com/r/java/comments/lm9j5z/an_application_for_android_that_retains/)
+- [NEW panama/foreign EA builds](https://www.reddit.com/r/java/comments/lm8c3k/new_panamaforeign_ea_builds/)
+- [JDK 16 hidden gem: Add javadoc tag to avoid duplication of return information in simple situations.](https://www.reddit.com/r/java/comments/lm78pz/jdk_16_hidden_gem_add_javadoc_tag_to_avoid/)
+- [Netflix open sourced the framework to java.](https://www.reddit.com/r/java/comments/lm733f/netflix_open_sourced_the_framework_to_java/)
+- [Cannot Resolve Symbol Issues](https://www.reddit.com/r/java/comments/lm6hm6/cannot_resolve_symbol_issues/)
+- [Finding origin and context of JPA issued SQL statements](https://www.reddit.com/r/java/comments/lltbk2/finding_origin_and_context_of_jpa_issued_sql/)
+- [User management: Different roles for each stage?](https://www.reddit.com/r/java/comments/llqvxl/user_management_different_roles_for_each_stage/)
+- [Stream-Pi : A fully modular, open-source, macro-pad software for Raspberry-Pi](https://www.reddit.com/r/java/comments/llp2ma/streampi_a_fully_modular_opensource_macropad/)
 - [Web Scraping 101 with Java](https://www.reddit.com/r/java/comments/ll9owm/web_scraping_101_with_java/)
 - [Front end development for java.](https://www.reddit.com/r/java/comments/ll3oem/front_end_development_for_java/)
-- [Camunda - Pros and Cons](https://www.reddit.com/r/java/comments/lkzlz7/camunda_pros_and_cons/)
-- [Anybody using UML in 2021?](https://www.reddit.com/r/java/comments/lkuujb/anybody_using_uml_in_2021/)
-- [I Created a course creation platform focused on written content, looking for feedback](https://www.reddit.com/r/java/comments/lkndir/i_created_a_course_creation_platform_focused_on/)
-- [New Gradle Plugin for publishing to Nexus that automates creating, closing, and releasing staging repositories.](https://www.reddit.com/r/java/comments/lk81xt/new_gradle_plugin_for_publishing_to_nexus_that/)
-- [Potential use for sealed interfaces.](https://www.reddit.com/r/java/comments/lk3c4g/potential_use_for_sealed_interfaces/)
-- [Distribution of JVM desktop applications](https://www.reddit.com/r/java/comments/ljt4kv/distribution_of_jvm_desktop_applications/)
-- [Reducing MD5 (and SHA) overheads](https://www.reddit.com/r/java/comments/ljqmiv/reducing_md5_and_sha_overheads/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
@@ -334,6 +334,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Java programmer posts_
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [Best Way to Learn Java for a Beginner](https://www.thejavaprogrammer.com/best-way-to-learn-java-for-a-beginner/)
 - [What are the Advantages of Packages in Java?](https://www.thejavaprogrammer.com/what-are-the-advantages-of-packages-in-java/)
 - [What are the Various Access Specifiers for Java Classes?](https://www.thejavaprogrammer.com/what-are-the-various-access-specifiers-for-java-classes/)
 - [Can We Have Multiple Classes in Same Java File?](https://www.thejavaprogrammer.com/can-we-have-multiple-classes-in-same-java-file/)
@@ -343,7 +344,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Real Time Example of Multithreading in Java](https://www.thejavaprogrammer.com/real-time-example-of-multithreading-in-java/)
 - [Why Java Doesn’t Support Operator Overloading?](https://www.thejavaprogrammer.com/why-java-doesnt-support-operator-overloading/)
 - [Solve Error “char cannot be dereferenced” in Java](https://www.thejavaprogrammer.com/char-cannot-be-dereferenced/)
-- [Best Way to Learn Java for a Beginner](https://www.thejavaprogrammer.com/best-way-to-learn-java-for-a-beginner/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### _Dreamix posts_
@@ -409,6 +409,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [How to Achieve both Coding Standard and Security Coverage Together with Safety Compliance](https://www.javacodegeeks.com/2021/02/how-to-achieve-both-coding-standard-and-security-coverage-together-with-safety-compliance.html)
+- [Cloud Orchestration 101 | A Complete Guide for Beginners](https://www.javacodegeeks.com/2021/02/cloud-orchestration-101-a-complete-guide-for-beginners.html)
 - [Java Salary Overview – How Much Does Java Development Cost in Different Regions?](https://www.javacodegeeks.com/2021/02/java-salary-overview-how-much-does-java-development-cost-in-different-regions.html)
 - [Kicking The Tyres](https://www.javacodegeeks.com/2021/02/kicking-the-tyres.html)
 - [Container Orchestration | Definition, Benefits & How It Works](https://www.javacodegeeks.com/2021/02/container-orchestration-definition-benefits-how-it-works.html)
@@ -417,8 +419,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Threadless Wonders](https://www.javacodegeeks.com/2021/02/threadless-wonders.html)
 - [Everyone Could Use a Buddy](https://www.javacodegeeks.com/2021/02/everyone-could-use-a-buddy.html)
 - [The Linear Git History](https://www.javacodegeeks.com/2021/02/the-linear-git-history.html)
-- [Key Aspects to Consider While Creating a Successful Continuous Testing Methodology](https://www.javacodegeeks.com/2021/02/key-aspects-to-consider-while-creating-a-successful-continuous-testing-methodology.html)
-- [Validation in Spring Boot applications](https://www.javacodegeeks.com/2021/02/validation-in-spring-boot-applications.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
