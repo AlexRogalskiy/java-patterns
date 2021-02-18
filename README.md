@@ -408,6 +408,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [How to Achieve both Coding Standard and Security Coverage Together with Safety Compliance](https://www.javacodegeeks.com/2021/02/how-to-achieve-both-coding-standard-and-security-coverage-together-with-safety-compliance.html)
+- [Cloud Orchestration 101 | A Complete Guide for Beginners](https://www.javacodegeeks.com/2021/02/cloud-orchestration-101-a-complete-guide-for-beginners.html)
 - [Java Salary Overview – How Much Does Java Development Cost in Different Regions?](https://www.javacodegeeks.com/2021/02/java-salary-overview-how-much-does-java-development-cost-in-different-regions.html)
 - [Kicking The Tyres](https://www.javacodegeeks.com/2021/02/kicking-the-tyres.html)
 - [Container Orchestration | Definition, Benefits & How It Works](https://www.javacodegeeks.com/2021/02/container-orchestration-definition-benefits-how-it-works.html)
@@ -416,8 +418,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Threadless Wonders](https://www.javacodegeeks.com/2021/02/threadless-wonders.html)
 - [Everyone Could Use a Buddy](https://www.javacodegeeks.com/2021/02/everyone-could-use-a-buddy.html)
 - [The Linear Git History](https://www.javacodegeeks.com/2021/02/the-linear-git-history.html)
-- [Key Aspects to Consider While Creating a Successful Continuous Testing Methodology](https://www.javacodegeeks.com/2021/02/key-aspects-to-consider-while-creating-a-successful-continuous-testing-methodology.html)
-- [Validation in Spring Boot applications](https://www.javacodegeeks.com/2021/02/validation-in-spring-boot-applications.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
