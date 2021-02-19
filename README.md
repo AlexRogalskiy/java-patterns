@@ -320,6 +320,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [New Panama/Foreign Early-Access Builds, February update](https://inside.java/2021/02/18/new-panama-ea-builds/)
 - [Containerized Java Advanced Management Console](https://inside.java/2021/02/16/containerized-amc/)
 - [Reducing MD5 (and SHA) overheads](https://inside.java/2021/02/14/reducing-md5-and-sha-overheads/)
 - [Deciphering the stack trace](https://inside.java/2021/02/12/deciphering-the-stacktrace/)
@@ -329,7 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [JEP-380: Unix domain socket channels](https://inside.java/2021/02/03/jep380-unix-domain-sockets-channels/)
 - [Project Lanai Early Access Build 9](https://inside.java/2021/02/01/new-lanai-ea-build/)
 - [JEP proposed to target JDK 17: 356: Enhanced Pseudo-Random Number Generators](https://inside.java/2021/01/29/jep-356-proposed-to-target-jdk17/)
-- [Episode 11 “How to contribute to OpenJDK” with Stuart Marks and Jesper Wilhelmsson](https://inside.java/2021/01/29/podcast-011/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
