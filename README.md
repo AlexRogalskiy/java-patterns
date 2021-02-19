@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [An application for android that retains notifications for a certain amount of time?](https://www.reddit.com/r/java/comments/lm9j5z/an_application_for_android_that_retains/)
-- [NEW panama/foreign EA builds](https://www.reddit.com/r/java/comments/lm8c3k/new_panamaforeign_ea_builds/)
-- [JDK 16 hidden gem: Add javadoc tag to avoid duplication of return information in simple situations.](https://www.reddit.com/r/java/comments/lm78pz/jdk_16_hidden_gem_add_javadoc_tag_to_avoid/)
-- [Netflix open sourced the framework to java.](https://www.reddit.com/r/java/comments/lm733f/netflix_open_sourced_the_framework_to_java/)
-- [Cannot Resolve Symbol Issues](https://www.reddit.com/r/java/comments/lm6hm6/cannot_resolve_symbol_issues/)
-- [Finding origin and context of JPA issued SQL statements](https://www.reddit.com/r/java/comments/lltbk2/finding_origin_and_context_of_jpa_issued_sql/)
-- [User management: Different roles for each stage?](https://www.reddit.com/r/java/comments/llqvxl/user_management_different_roles_for_each_stage/)
-- [Stream-Pi : A fully modular, open-source, macro-pad software for Raspberry-Pi](https://www.reddit.com/r/java/comments/llp2ma/streampi_a_fully_modular_opensource_macropad/)
-- [Web Scraping 101 with Java](https://www.reddit.com/r/java/comments/ll9owm/web_scraping_101_with_java/)
-- [Front end development for java.](https://www.reddit.com/r/java/comments/ll3oem/front_end_development_for_java/)
+- [Gatekeeper - library to protect publicly accessible internal implementations](https://www.reddit.com/r/java/comments/lmzz6n/gatekeeper_library_to_protect_publicly_accessible/)
+- [To those that say Swing is out-of-fashion.. here's proof of an app that's made $500 million last year (for someone)](https://www.reddit.com/r/java/comments/lmze6y/to_those_that_say_swing_is_outoffashion_heres/)
+- [Fast, flexible data access in Java using the Helidon microservices platform](https://www.reddit.com/r/java/comments/lmxfac/fast_flexible_data_access_in_java_using_the/)
+- [Blocking violations in Reactive Java frameworks](https://www.reddit.com/r/java/comments/lmxcm7/blocking_violations_in_reactive_java_frameworks/)
+- [Should I go more into depth with C++ or Java, if I already know both languages](https://www.reddit.com/r/java/comments/lmnk50/should_i_go_more_into_depth_with_c_or_java_if_i/)
+- [TeamApps - a new Java web application framework](https://www.reddit.com/r/java/comments/lmmtq2/teamapps_a_new_java_web_application_framework/)
+- [Dear Developers](https://www.reddit.com/r/java/comments/lmmtme/dear_developers/)
+- [2 new *draft* Pattern Matching JEPs: 'Nested Record and Array Patterns' & 'Pattern Matching for switch'](https://www.reddit.com/r/java/comments/lmmf1z/2_new_draft_pattern_matching_jeps_nested_record/)
+- [Pattern Matching for switch (Draft JEP)](https://www.reddit.com/r/java/comments/lmmdx7/pattern_matching_for_switch_draft_jep/)
+- [Nested Record and Array Patterns (Draft JEP)](https://www.reddit.com/r/java/comments/lmmdo0/nested_record_and_array_patterns_draft_jep/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
