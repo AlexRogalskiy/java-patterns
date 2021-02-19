@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Unit testing private methods](https://www.javacodegeeks.com/2021/02/unit-testing-private-methods.html)
+- [4 Easy Steps for Migrating Projects to OpenShift Container Platform](https://www.javacodegeeks.com/2021/02/4-easy-steps-for-migrating-projects-to-openshift-container-platform.html)
 - [How to Achieve both Coding Standard and Security Coverage Together with Safety Compliance](https://www.javacodegeeks.com/2021/02/how-to-achieve-both-coding-standard-and-security-coverage-together-with-safety-compliance.html)
 - [Cloud Orchestration 101 | A Complete Guide for Beginners](https://www.javacodegeeks.com/2021/02/cloud-orchestration-101-a-complete-guide-for-beginners.html)
 - [Java Salary Overview – How Much Does Java Development Cost in Different Regions?](https://www.javacodegeeks.com/2021/02/java-salary-overview-how-much-does-java-development-cost-in-different-regions.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [[MEGA DEAL] The Mastering Mathematics Training Prep Bundle (98% off)](https://www.javacodegeeks.com/2021/02/mega-deal-the-mastering-mathematics-training-prep-bundle-98-off.html)
 - [Introduction into GraalVM (Community Edition): Cloud as a Changing Force](https://www.javacodegeeks.com/2021/02/introduction-into-graalvm-community-edition-cloud-as-a-changing-force.html)
 - [Threadless Wonders](https://www.javacodegeeks.com/2021/02/threadless-wonders.html)
-- [Everyone Could Use a Buddy](https://www.javacodegeeks.com/2021/02/everyone-could-use-a-buddy.html)
-- [The Linear Git History](https://www.javacodegeeks.com/2021/02/the-linear-git-history.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
