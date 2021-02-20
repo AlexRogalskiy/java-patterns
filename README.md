@@ -380,6 +380,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Thorben Janssen posts_
 
 <!-- TJ-POST-LIST:START -->
+- [Coffee with Thorben 2020-02-19 – Enums, Enums, Enums …](https://thorben-janssen.com/coffee-with-thorben-jpql-criteria-native-2/)
 - [From Monolith to Microservices – Migrating a Persistence Layer](https://thorben-janssen.com/monolith-to-microservices-persistence-layer/)
 - [Coffee with Thorben 2020-02-12 – JPQL vs Criteria vs Native Queries](https://thorben-janssen.com/coffee-with-thorben-jpql-criteria-native/)
 - [Hibernate Query Spaces – Optimizing Flush and Cache Operations](https://thorben-janssen.com/hibernate-query-spaces/)
@@ -389,7 +390,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Coffee with Thorben 2020-01-22 – JSON Mappings & Polymorphic Associations](https://thorben-janssen.com/coffee-with-thorben-2020-01-22-json-mapp/)
 - [Hibernate Reactive – Getting Started Guide](https://thorben-janssen.com/hibernate-reactive-getting-started-guide/)
 - [Coffee with Thorben 2020-01-15 – Association Pitfalls & Enum Mappings](https://thorben-janssen.com/coffee-with-thorben-2020-01-08/)
-- [Implementing Batch Jobs with Hibernate](https://thorben-janssen.com/implementing-batch-jobs-with-hibernate/)
 <!-- TJ-POST-LIST:END -->
 
 ### _Redhat posts_
