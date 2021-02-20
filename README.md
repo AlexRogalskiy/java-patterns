@@ -335,6 +335,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Java programmer posts_
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [What is Object Oriented Paradigm in Java?](https://www.thejavaprogrammer.com/what-is-object-oriented-paradigm-in-java/)
 - [Best Way to Learn Java for a Beginner](https://www.thejavaprogrammer.com/best-way-to-learn-java-for-a-beginner/)
 - [What are the Advantages of Packages in Java?](https://www.thejavaprogrammer.com/what-are-the-advantages-of-packages-in-java/)
 - [What are the Various Access Specifiers for Java Classes?](https://www.thejavaprogrammer.com/what-are-the-various-access-specifiers-for-java-classes/)
@@ -344,7 +345,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [3 Ways to Create Spring Boot Project in Eclipse](https://www.thejavaprogrammer.com/create-spring-boot-project-in-eclipse/)
 - [Real Time Example of Multithreading in Java](https://www.thejavaprogrammer.com/real-time-example-of-multithreading-in-java/)
 - [Why Java Doesn’t Support Operator Overloading?](https://www.thejavaprogrammer.com/why-java-doesnt-support-operator-overloading/)
-- [Solve Error “char cannot be dereferenced” in Java](https://www.thejavaprogrammer.com/char-cannot-be-dereferenced/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### _Dreamix posts_
