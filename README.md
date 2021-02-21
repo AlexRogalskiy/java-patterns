@@ -245,6 +245,9 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Great Resources for LearningPracticing Data Structures](https://www.reddit.com/r/java/comments/lofvvj/great_resources_for_learningpracticing_data/)
+- [SXE (Some Xalan Extensions) open source XSLT utilities](https://www.reddit.com/r/java/comments/lo3q3y/sxe_some_xalan_extensions_open_source_xslt/)
+- [Has anyone done the REST with Spring Master Class through Baeldung?](https://www.reddit.com/r/java/comments/lo1kme/has_anyone_done_the_rest_with_spring_master_class/)
 - [jte 1.7.0 brings speedy binary templates and gradle support](https://www.reddit.com/r/java/comments/lnl739/jte_170_brings_speedy_binary_templates_and_gradle/)
 - [Spring Boot Startup Performance is Low on Macbook with M1 CPU](https://www.reddit.com/r/java/comments/lnk6nn/spring_boot_startup_performance_is_low_on_macbook/)
 - [New version of RedExpert 2021.02 is available.](https://www.reddit.com/r/java/comments/lnhbx6/new_version_of_redexpert_202102_is_available/)
@@ -252,9 +255,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [What API to use when developing P2P for a board game (roboRally)?](https://www.reddit.com/r/java/comments/lnaqsy/what_api_to_use_when_developing_p2p_for_a_board/)
 - [Gatekeeper - library to protect publicly accessible internal implementations](https://www.reddit.com/r/java/comments/lmzz6n/gatekeeper_library_to_protect_publicly_accessible/)
 - [Fast, flexible data access in Java using the Helidon microservices platform](https://www.reddit.com/r/java/comments/lmxfac/fast_flexible_data_access_in_java_using_the/)
-- [Blocking violations in Reactive Java frameworks](https://www.reddit.com/r/java/comments/lmxcm7/blocking_violations_in_reactive_java_frameworks/)
-- [Should I go more into depth with C++ or Java, if I already know both languages](https://www.reddit.com/r/java/comments/lmnk50/should_i_go_more_into_depth_with_c_or_java_if_i/)
-- [TeamApps - a new Java web application framework](https://www.reddit.com/r/java/comments/lmmtq2/teamapps_a_new_java_web_application_framework/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
