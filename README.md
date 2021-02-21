@@ -410,6 +410,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [More Collaboration and Innovation: A Sneak Peek into Appium 2.0](https://www.javacodegeeks.com/2021/02/more-collaboration-and-innovation-a-sneak-peek-into-appium-2-0.html)
 - [Dataization](https://www.javacodegeeks.com/2021/02/dataization.html)
 - [Test Orchestration and Its Need for Successful Automation](https://www.javacodegeeks.com/2021/02/test-orchestration-and-its-need-for-successful-automation.html)
 - [Unit testing private methods](https://www.javacodegeeks.com/2021/02/unit-testing-private-methods.html)
@@ -419,7 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Java Salary Overview – How Much Does Java Development Cost in Different Regions?](https://www.javacodegeeks.com/2021/02/java-salary-overview-how-much-does-java-development-cost-in-different-regions.html)
 - [Kicking The Tyres](https://www.javacodegeeks.com/2021/02/kicking-the-tyres.html)
 - [Container Orchestration | Definition, Benefits & How It Works](https://www.javacodegeeks.com/2021/02/container-orchestration-definition-benefits-how-it-works.html)
-- [[MEGA DEAL] The Mastering Mathematics Training Prep Bundle (98% off)](https://www.javacodegeeks.com/2021/02/mega-deal-the-mastering-mathematics-training-prep-bundle-98-off.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
