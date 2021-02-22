@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Looking for a high production level, detailed, but concise explaination of the JVM and how Java itself Works](https://www.reddit.com/r/java/comments/lpamqo/looking_for_a_high_production_level_detailed_but/)
+- [Results of the Jakarta EE Survey 2020/2021](https://www.reddit.com/r/java/comments/lpa86o/results_of_the_jakarta_ee_survey_20202021/)
+- [Did java grow over the years on anyone else?](https://www.reddit.com/r/java/comments/lp7jci/did_java_grow_over_the_years_on_anyone_else/)
+- [Dear ImGui binding: imgui-java. Updated to v1.81.0](https://www.reddit.com/r/java/comments/lp5vo6/dear_imgui_binding_imguijava_updated_to_v1810/)
+- [Addressing Dependency Confusion](https://www.reddit.com/r/java/comments/lp2k2g/addressing_dependency_confusion/)
+- [Optional.stream()](https://www.reddit.com/r/java/comments/lp1mss/optionalstream/)
+- [Java Generics Explained](https://www.reddit.com/r/java/comments/lotgt0/java_generics_explained/)
+- [Java developer for the past year, know nothing except writing code - how bad is this?](https://www.reddit.com/r/java/comments/loris2/java_developer_for_the_past_year_know_nothing/)
 - [Great Resources for LearningPracticing Data Structures](https://www.reddit.com/r/java/comments/lofvvj/great_resources_for_learningpracticing_data/)
 - [SXE (Some Xalan Extensions) open source XSLT utilities](https://www.reddit.com/r/java/comments/lo3q3y/sxe_some_xalan_extensions_open_source_xslt/)
-- [Has anyone done the REST with Spring Master Class through Baeldung?](https://www.reddit.com/r/java/comments/lo1kme/has_anyone_done_the_rest_with_spring_master_class/)
-- [jte 1.7.0 brings speedy binary templates and gradle support](https://www.reddit.com/r/java/comments/lnl739/jte_170_brings_speedy_binary_templates_and_gradle/)
-- [Spring Boot Startup Performance is Low on Macbook with M1 CPU](https://www.reddit.com/r/java/comments/lnk6nn/spring_boot_startup_performance_is_low_on_macbook/)
-- [New version of RedExpert 2021.02 is available.](https://www.reddit.com/r/java/comments/lnhbx6/new_version_of_redexpert_202102_is_available/)
-- [JavaFX GPGPU: Parallel Computing](https://www.reddit.com/r/java/comments/lnc8nq/javafx_gpgpu_parallel_computing/)
-- [What API to use when developing P2P for a board game (roboRally)?](https://www.reddit.com/r/java/comments/lnaqsy/what_api_to_use_when_developing_p2p_for_a_board/)
-- [Gatekeeper - library to protect publicly accessible internal implementations](https://www.reddit.com/r/java/comments/lmzz6n/gatekeeper_library_to_protect_publicly_accessible/)
-- [Fast, flexible data access in Java using the Helidon microservices platform](https://www.reddit.com/r/java/comments/lmxfac/fast_flexible_data_access_in_java_using_the/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
