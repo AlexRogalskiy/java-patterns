@@ -410,6 +410,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Automation Testing Challenges and Their Solutions](https://www.javacodegeeks.com/2021/02/automation-testing-challenges-and-their-solutions-2.html)
 - [More Collaboration and Innovation: A Sneak Peek into Appium 2.0](https://www.javacodegeeks.com/2021/02/more-collaboration-and-innovation-a-sneak-peek-into-appium-2-0.html)
 - [Dataization](https://www.javacodegeeks.com/2021/02/dataization.html)
 - [Test Orchestration and Its Need for Successful Automation](https://www.javacodegeeks.com/2021/02/test-orchestration-and-its-need-for-successful-automation.html)
@@ -419,7 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Cloud Orchestration 101 | A Complete Guide for Beginners](https://www.javacodegeeks.com/2021/02/cloud-orchestration-101-a-complete-guide-for-beginners.html)
 - [Java Salary Overview – How Much Does Java Development Cost in Different Regions?](https://www.javacodegeeks.com/2021/02/java-salary-overview-how-much-does-java-development-cost-in-different-regions.html)
 - [Kicking The Tyres](https://www.javacodegeeks.com/2021/02/kicking-the-tyres.html)
-- [Container Orchestration | Definition, Benefits & How It Works](https://www.javacodegeeks.com/2021/02/container-orchestration-definition-benefits-how-it-works.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
