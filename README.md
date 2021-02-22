@@ -305,6 +305,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Better code posts_
 
 <!-- BETTERCODE-POST-LIST:START -->
+- [How to Use Circuit Breaker in Spring Boot Application](https://betterjavacode.com/spring-boot/how-to-use-circuit-breaker-in-spring-boot-application)
 - [Step by Step Spring Batch Tutorial](https://betterjavacode.com/spring-boot/step-by-step-spring-batch-tutorial)
 - [Simplifying Spring Security](https://betterjavacode.com/programming/simplifying-spring-security)
 - [Spring Boot CRUD Application Example with MongoDB](https://betterjavacode.com/spring-boot/spring-boot-crud-application-example-with-mongodb)
@@ -314,7 +315,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Fundamentals of a Distributed System Design](https://betterjavacode.com/programming/fundamentals-of-a-distributed-system-design)
 - [7 AWS Services Every Developer Should Know About](https://betterjavacode.com/programming/7-aws-services-every-developer-should-know-about)
 - [The Definitive Guide to Use Keycloak With a Spring Boot Application](https://betterjavacode.com/programming/spring-boot-application-keycloak)
-- [How to Use Basic Authentication for Rest Template](https://betterjavacode.com/programming/how-to-use-basic-authentication-for-rest-template)
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### _Inside Java posts_
