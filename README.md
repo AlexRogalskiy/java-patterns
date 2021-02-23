@@ -320,6 +320,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [OracleDevLive Preview | Jesper Wilhelmsson on Contributing to OpenJDK](https://inside.java/2021/02/22/odl-preview-jesper-wilhelmsson/)
+- [Episode 13 “JDK Flight Recorder” with Markus Gronlund](https://inside.java/2021/02/22/podcast-013/)
 - [New Panama/Foreign Early-Access Builds, February update](https://inside.java/2021/02/18/new-panama-ea-builds/)
 - [Containerized Java Advanced Management Console](https://inside.java/2021/02/16/containerized-amc/)
 - [Reducing MD5 (and SHA) overheads](https://inside.java/2021/02/14/reducing-md5-and-sha-overheads/)
@@ -328,8 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [JDK 16 enters the Release Candidate phase](https://inside.java/2021/02/04/jdk16-enters-rc/)
 - [Project Loom: Modern scalable concurrency for the Java platform](https://inside.java/2021/02/04/projectloom-jokerconf/)
 - [JEP-380: Unix domain socket channels](https://inside.java/2021/02/03/jep380-unix-domain-sockets-channels/)
-- [Project Lanai Early Access Build 9](https://inside.java/2021/02/01/new-lanai-ea-build/)
-- [JEP proposed to target JDK 17: 356: Enhanced Pseudo-Random Number Generators](https://inside.java/2021/01/29/jep-356-proposed-to-target-jdk17/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
