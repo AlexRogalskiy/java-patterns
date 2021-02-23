@@ -260,6 +260,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _InfoWorld posts_
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [Scala 3 moves to release candidate stage](https://www.infoworld.com/article/3608574/scala-3-moves-to-release-candidate-stage.html#tk.rss_java)
 - [Entry-level software developer? Learn React to get that first job](https://www.infoworld.com/article/3607234/entry-level-software-developer-learn-react-to-get-that-first-job.html#tk.rss_java)
 - [JDK 16: The new features in Java 16](https://www.infoworld.com/article/3569150/jdk-16-the-new-features-in-java-16.html#tk.rss_java)
 - [Java 17 proposal would enhance PRNGs](https://www.infoworld.com/article/3606833/java-17-proposal-would-enhance-prngs.html#tk.rss_java)
@@ -269,7 +270,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [ActiveJ Java platform takes aim at Spring, Quarkus](https://www.infoworld.com/article/3601068/activej-java-platform-takes-aim-at-spring-quarkus.html#tk.rss_java)
 - [Eclipse weighs Java 11 support for Jakarta EE 9](https://www.infoworld.com/article/3600768/eclipse-weighs-java-11-support-for-jakarta-ee-9.html#tk.rss_java)
 - [Enterprise Java gets a new namespace](https://www.infoworld.com/article/3600158/enterprise-java-gets-a-new-namespace.html#tk.rss_java)
-- [The best programming language to learn now](https://www.infoworld.com/article/3403404/the-best-programming-language-to-learn-now.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### _Let's talk posts_
