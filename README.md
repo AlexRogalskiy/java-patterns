@@ -335,6 +335,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Java programmer posts_
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [Solve Error insert “Dimensions” to complete ReferenceType in Java](https://www.thejavaprogrammer.com/insert-dimensions-to-complete-referencetype/)
 - [What is Object Oriented Paradigm in Java?](https://www.thejavaprogrammer.com/what-is-object-oriented-paradigm-in-java/)
 - [Best Way to Learn Java for a Beginner](https://www.thejavaprogrammer.com/best-way-to-learn-java-for-a-beginner/)
 - [What are the Advantages of Packages in Java?](https://www.thejavaprogrammer.com/what-are-the-advantages-of-packages-in-java/)
@@ -344,7 +345,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Solve Error “the import org.apache cannot be resolved” in Java](https://www.thejavaprogrammer.com/the-import-org-apache-cannot-be-resolved/)
 - [3 Ways to Create Spring Boot Project in Eclipse](https://www.thejavaprogrammer.com/create-spring-boot-project-in-eclipse/)
 - [Real Time Example of Multithreading in Java](https://www.thejavaprogrammer.com/real-time-example-of-multithreading-in-java/)
-- [Why Java Doesn’t Support Operator Overloading?](https://www.thejavaprogrammer.com/why-java-doesnt-support-operator-overloading/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### _Dreamix posts_
