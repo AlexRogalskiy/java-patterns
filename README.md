@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Java and C#](https://www.reddit.com/r/java/comments/lqxgv9/java_and_c/)
+- [Faster Charset Decoding](https://www.reddit.com/r/java/comments/lqtpea/faster_charset_decoding/)
+- [Business Process Modelling using Camunda advanced features](https://www.reddit.com/r/java/comments/lqrzm3/business_process_modelling_using_camunda_advanced/)
+- [Suggestions for interesting Java applications that I can measure GC performance on](https://www.reddit.com/r/java/comments/lqrn14/suggestions_for_interesting_java_applications/)
+- [Comparing JVM’s hashCode() to custom hash functions.](https://www.reddit.com/r/java/comments/lqpg7d/comparing_jvms_hashcode_to_custom_hash_functions/)
+- [Helidon messaging with JMS](https://www.reddit.com/r/java/comments/lqmums/helidon_messaging_with_jms/)
+- [Weedow Searchy 0.1.0 released](https://www.reddit.com/r/java/comments/lqf0th/weedow_searchy_010_released/)
+- [Video: When Records Met Serialization: A Happy Tale](https://www.reddit.com/r/java/comments/lqb1kl/video_when_records_met_serialization_a_happy_tale/)
 - [Architecturally evident code with jMolecules](https://www.reddit.com/r/java/comments/lq2ilc/architecturally_evident_code_with_jmolecules/)
-- [[ANN] Updated JavaFX / jpackage Template](https://www.reddit.com/r/java/comments/lq1iwo/ann_updated_javafx_jpackage_template/)
 - [Introducing JobRunr: A distributed job scheduler for Java](https://www.reddit.com/r/java/comments/lpveae/introducing_jobrunr_a_distributed_job_scheduler/)
-- [Read a paper: PicoJava - A Direct Execution Engine For Java Bytecode](https://www.reddit.com/r/java/comments/lpu4pd/read_a_paper_picojava_a_direct_execution_engine/)
-- [How to Deploy a JBoss Cluster in one command with Ansible](https://www.reddit.com/r/java/comments/lptwrk/how_to_deploy_a_jboss_cluster_in_one_command_with/)
-- [Inside Java Podcast Episode 13 - “JDK Flight Recorder” with Markus Gronlund](https://www.reddit.com/r/java/comments/lptm2z/inside_java_podcast_episode_13_jdk_flight/)
-- [Panama Foreign Support - A practical look at JEP-389 in JDK16 with libsodium](https://www.reddit.com/r/java/comments/lprpco/panama_foreign_support_a_practical_look_at_jep389/)
-- [Japplis Toolbox 5.0 - More than 50 Text and Java Free Utilities](https://www.reddit.com/r/java/comments/lprhcu/japplis_toolbox_50_more_than_50_text_and_java/)
-- [Record Util - Some utility classes around Java Records](https://www.reddit.com/r/java/comments/lppvmm/record_util_some_utility_classes_around_java/)
-- [Open Liberty 21 supports trustedHeaderOrigin config by wildcards](https://www.reddit.com/r/java/comments/lppssu/open_liberty_21_supports_trustedheaderorigin/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
