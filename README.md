@@ -320,6 +320,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [When Records Met Serialization: A Happy Tale](https://inside.java/2021/02/23/records-met-serialization/)
 - [OracleDevLive Preview | Jesper Wilhelmsson on Contributing to OpenJDK](https://inside.java/2021/02/22/odl-preview-jesper-wilhelmsson/)
 - [Episode 13 “JDK Flight Recorder” with Markus Gronlund](https://inside.java/2021/02/22/podcast-013/)
 - [New Panama/Foreign Early-Access Builds, February update](https://inside.java/2021/02/18/new-panama-ea-builds/)
@@ -329,7 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Episode 12 “jpackage” with Kevin Rushforth](https://inside.java/2021/02/11/podcast-012/)
 - [JDK 16 enters the Release Candidate phase](https://inside.java/2021/02/04/jdk16-enters-rc/)
 - [Project Loom: Modern scalable concurrency for the Java platform](https://inside.java/2021/02/04/projectloom-jokerconf/)
-- [JEP-380: Unix domain socket channels](https://inside.java/2021/02/03/jep380-unix-domain-sockets-channels/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
