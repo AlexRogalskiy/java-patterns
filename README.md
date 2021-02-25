@@ -410,6 +410,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [REST API Design: Dealing with concurrent updates](https://www.javacodegeeks.com/2021/02/rest-api-design-dealing-with-concurrent-updates.html)
 - [Upload files in Spring Boot application using Commons FileUpload](https://www.javacodegeeks.com/2021/02/upload-files-in-spring-boot-application-using-commons-fileupload.html)
 - [Uploading files in Spring Boot application](https://www.javacodegeeks.com/2021/02/uploading-files-in-spring-boot-application.html)
 - [[MEGA DEAL] The All-In-One 2021 Super-Sized Ethical Hacking Bundle (98% off)](https://www.javacodegeeks.com/2021/02/mega-deal-the-all-in-one-2021-super-sized-ethical-hacking-bundle-98-off.html)
@@ -419,7 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Dataization](https://www.javacodegeeks.com/2021/02/dataization.html)
 - [Test Orchestration and Its Need for Successful Automation](https://www.javacodegeeks.com/2021/02/test-orchestration-and-its-need-for-successful-automation.html)
 - [Unit testing private methods](https://www.javacodegeeks.com/2021/02/unit-testing-private-methods.html)
-- [4 Easy Steps for Migrating Projects to OpenShift Container Platform](https://www.javacodegeeks.com/2021/02/4-easy-steps-for-migrating-projects-to-openshift-container-platform.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
