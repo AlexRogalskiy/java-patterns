@@ -335,6 +335,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Java programmer posts_
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [Types of Constructors in Java](https://www.thejavaprogrammer.com/types-of-constructors-in-java/)
 - [Solve Error insert “Dimensions” to complete ReferenceType in Java](https://www.thejavaprogrammer.com/insert-dimensions-to-complete-referencetype/)
 - [What is Object Oriented Paradigm in Java?](https://www.thejavaprogrammer.com/what-is-object-oriented-paradigm-in-java/)
 - [Best Way to Learn Java for a Beginner](https://www.thejavaprogrammer.com/best-way-to-learn-java-for-a-beginner/)
@@ -344,7 +345,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [How Many Types of Memory Areas are Allocated by JVM?](https://www.thejavaprogrammer.com/how-many-types-of-memory-areas-are-allocated-by-jvm/)
 - [Solve Error “the import org.apache cannot be resolved” in Java](https://www.thejavaprogrammer.com/the-import-org-apache-cannot-be-resolved/)
 - [3 Ways to Create Spring Boot Project in Eclipse](https://www.thejavaprogrammer.com/create-spring-boot-project-in-eclipse/)
-- [Real Time Example of Multithreading in Java](https://www.thejavaprogrammer.com/real-time-example-of-multithreading-in-java/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### _Dreamix posts_
