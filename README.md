@@ -245,7 +245,9 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [Java and C#](https://www.reddit.com/r/java/comments/lqxgv9/java_and_c/)
+- [Those affected by the JFrog Bintray shutdown, what are you doing?](https://www.reddit.com/r/java/comments/lrmp0x/those_affected_by_the_jfrog_bintray_shutdown_what/)
+- [Testing a Java application on Windows without Windows](https://www.reddit.com/r/java/comments/lrisu6/testing_a_java_application_on_windows_without/)
+- [How good is Java The Complete Reference-Herbert Schild for begineer?](https://www.reddit.com/r/java/comments/lrdmik/how_good_is_java_the_complete_referenceherbert/)
 - [Faster Charset Decoding](https://www.reddit.com/r/java/comments/lqtpea/faster_charset_decoding/)
 - [Business Process Modelling using Camunda advanced features](https://www.reddit.com/r/java/comments/lqrzm3/business_process_modelling_using_camunda_advanced/)
 - [Suggestions for interesting Java applications that I can measure GC performance on](https://www.reddit.com/r/java/comments/lqrn14/suggestions_for_interesting_java_applications/)
@@ -253,8 +255,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Helidon messaging with JMS](https://www.reddit.com/r/java/comments/lqmums/helidon_messaging_with_jms/)
 - [Weedow Searchy 0.1.0 released](https://www.reddit.com/r/java/comments/lqf0th/weedow_searchy_010_released/)
 - [Video: When Records Met Serialization: A Happy Tale](https://www.reddit.com/r/java/comments/lqb1kl/video_when_records_met_serialization_a_happy_tale/)
-- [Architecturally evident code with jMolecules](https://www.reddit.com/r/java/comments/lq2ilc/architecturally_evident_code_with_jmolecules/)
-- [Introducing JobRunr: A distributed job scheduler for Java](https://www.reddit.com/r/java/comments/lpveae/introducing_jobrunr_a_distributed_job_scheduler/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
