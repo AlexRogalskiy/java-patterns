@@ -320,6 +320,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [Welcome 20% less memory usage for G1 remembered sets - Prune collection set candidates early](https://inside.java/2021/02/26/welcome-less-memory-usage-g1/)
+- [JEP proposed to target JDK 17: 382: New macOS Rendering Pipeline](https://inside.java/2021/02/25/jeo-382-proposed-to-target-jdk17/)
 - [Faster Charset Decoding](https://inside.java/2021/02/24/faster-charset-decoding/)
 - [OracleDevLive Preview | Gavin Bierman on Java Language Futures](https://inside.java/2021/02/24/odl-preview-gavin-bierman/)
 - [When Records Met Serialization: A Happy Tale](https://inside.java/2021/02/23/records-met-serialization/)
@@ -328,8 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [New Panama/Foreign Early-Access Builds, February update](https://inside.java/2021/02/18/new-panama-ea-builds/)
 - [Containerized Java Advanced Management Console](https://inside.java/2021/02/16/containerized-amc/)
 - [Reducing MD5 (and SHA) overheads](https://inside.java/2021/02/14/reducing-md5-and-sha-overheads/)
-- [Deciphering the stack trace](https://inside.java/2021/02/12/deciphering-the-stacktrace/)
-- [Episode 12 “jpackage” with Kevin Rushforth](https://inside.java/2021/02/11/podcast-012/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
