@@ -335,6 +335,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Java programmer posts_
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [What is the Purpose of Default Constructor in Java](https://www.thejavaprogrammer.com/what-is-the-purpose-of-default-constructor-in-java/)
 - [Types of Constructors in Java](https://www.thejavaprogrammer.com/types-of-constructors-in-java/)
 - [Solve Error insert “Dimensions” to complete ReferenceType in Java](https://www.thejavaprogrammer.com/insert-dimensions-to-complete-referencetype/)
 - [What is Object Oriented Paradigm in Java?](https://www.thejavaprogrammer.com/what-is-object-oriented-paradigm-in-java/)
@@ -344,7 +345,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Can We Have Multiple Classes in Same Java File?](https://www.thejavaprogrammer.com/can-we-have-multiple-classes-in-same-java-file/)
 - [How Many Types of Memory Areas are Allocated by JVM?](https://www.thejavaprogrammer.com/how-many-types-of-memory-areas-are-allocated-by-jvm/)
 - [Solve Error “the import org.apache cannot be resolved” in Java](https://www.thejavaprogrammer.com/the-import-org-apache-cannot-be-resolved/)
-- [3 Ways to Create Spring Boot Project in Eclipse](https://www.thejavaprogrammer.com/create-spring-boot-project-in-eclipse/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### _Dreamix posts_
