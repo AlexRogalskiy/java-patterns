@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Matrices multiplication benchmark: Apache math vs colt vs ejml vs la4j vs nd4j](https://www.reddit.com/r/java/comments/ltxbnd/matrices_multiplication_benchmark_apache_math_vs/)
+- [Is Channel(nio) faster than Stream(io) even in single-connection networking?](https://www.reddit.com/r/java/comments/ltonz8/is_channelnio_faster_than_streamio_even_in/)
+- [When things go wrong, please don’t make em worst - a Java Exceptions must read guide - Techblog - Hostmoz](https://www.reddit.com/r/java/comments/ltk1d7/when_things_go_wrong_please_dont_make_em_worst_a/)
+- [Java Threads: Are They Memory Efficient?](https://www.reddit.com/r/java/comments/ltip5j/java_threads_are_they_memory_efficient/)
+- [What on earth are the Java versions meant to represent?](https://www.reddit.com/r/java/comments/ltg0ri/what_on_earth_are_the_java_versions_meant_to/)
 - [How to get started with building P2P applications using Java?](https://www.reddit.com/r/java/comments/lt5a2q/how_to_get_started_with_building_p2p_applications/)
-- [Testing Spring Webflux Application with JUnit5 and Testcontainers](https://www.reddit.com/r/java/comments/lt2ip0/testing_spring_webflux_application_with_junit5/)
 - [Welcome 20% less memory usage for G1 remembered sets - Prune collection set candidates early](https://www.reddit.com/r/java/comments/lt1chn/welcome_20_less_memory_usage_for_g1_remembered/)
 - [JEP proposed to target JDK 17: 382: New macOS Rendering Pipeline](https://www.reddit.com/r/java/comments/lsr6qx/jep_proposed_to_target_jdk_17_382_new_macos/)
 - [FlatLaf 1.0 - Swing Look and Feel](https://www.reddit.com/r/java/comments/lsbcwe/flatlaf_10_swing_look_and_feel/)
 - [R2DBC 0.9 M1 released](https://www.reddit.com/r/java/comments/ls8zjq/r2dbc_09_m1_released/)
-- [Java Modules - are they common and should we use them?](https://www.reddit.com/r/java/comments/ls4zai/java_modules_are_they_common_and_should_we_use/)
-- [Much Ado About Nothing (Also Known As "Null") In Java | foojay](https://www.reddit.com/r/java/comments/ls1kjj/much_ado_about_nothing_also_known_as_null_in_java/)
-- [Oracle JMC 8 Early Access: New build available](https://www.reddit.com/r/java/comments/lrz58w/oracle_jmc_8_early_access_new_build_available/)
-- [Those affected by the JFrog Bintray shutdown, what are you doing?](https://www.reddit.com/r/java/comments/lrmp0x/those_affected_by_the_jfrog_bintray_shutdown_what/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
