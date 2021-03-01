@@ -410,6 +410,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Latency of DigitalOcean Spaces vs AWS S3](https://www.javacodegeeks.com/2021/02/latency-of-digitalocean-spaces-vs-aws-s3.html)
 - [Processing real-time data with Storm, Kafka and ElasticSearch – Part 4](https://www.javacodegeeks.com/processing-real-time-data-with-storm-kafka-and-elasticsearch-part-4.html)
 - [Using a disk-based Redis clone to reduce AWS S3 bill](https://www.javacodegeeks.com/2021/02/using-a-disk-based-redis-clone-to-reduce-aws-s3-bill.html)
 - [Retry In The Future](https://www.javacodegeeks.com/2021/02/retry-in-the-future.html)
@@ -419,7 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Upload files in Spring Boot application using Commons FileUpload](https://www.javacodegeeks.com/2021/02/upload-files-in-spring-boot-application-using-commons-fileupload.html)
 - [Uploading files in Spring Boot application](https://www.javacodegeeks.com/2021/02/uploading-files-in-spring-boot-application.html)
 - [[MEGA DEAL] The All-In-One 2021 Super-Sized Ethical Hacking Bundle (98% off)](https://www.javacodegeeks.com/2021/02/mega-deal-the-all-in-one-2021-super-sized-ethical-hacking-bundle-98-off.html)
-- [A Summary of the Mobile App Testing Trends Report 2021](https://www.javacodegeeks.com/2021/02/a-summary-of-the-mobile-app-testing-trends-report-2021.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
