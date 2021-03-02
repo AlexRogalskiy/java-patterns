@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [How to program machine learning in Java with the Tribuo library](https://www.reddit.com/r/java/comments/lvgax7/how_to_program_machine_learning_in_java_with_the/)
+- [Spring Security, is it possible to disable checking of Authorization header while enabling credentials?](https://www.reddit.com/r/java/comments/lvfgc6/spring_security_is_it_possible_to_disable/)
+- [marco's live coding session #2](https://www.reddit.com/r/java/comments/lvcoat/marcos_live_coding_session_2/)
+- [I’m learning java at my high school programming classes, and I’m not sure how to use it outside of school. How can I code apps/games?](https://www.reddit.com/r/java/comments/lv855s/im_learning_java_at_my_high_school_programming/)
+- [Performance gains of using raw values instead of enums?](https://www.reddit.com/r/java/comments/lv6sg6/performance_gains_of_using_raw_values_instead_of/)
+- [My personal definitive guide to (java) Exceptions](https://www.reddit.com/r/java/comments/lv4spn/my_personal_definitive_guide_to_java_exceptions/)
+- [PomChecker 1.1.0 has been released!](https://www.reddit.com/r/java/comments/lv4gss/pomchecker_110_has_been_released/)
 - [Streams for JavaFX](https://www.reddit.com/r/java/comments/lur18b/streams_for_javafx/)
 - [Does anyone use Dagger2 to build APIs?](https://www.reddit.com/r/java/comments/luotc5/does_anyone_use_dagger2_to_build_apis/)
 - [Revisiting Html in Java](https://www.reddit.com/r/java/comments/luosg9/revisiting_html_in_java/)
-- [Monitoring across frameworks](https://www.reddit.com/r/java/comments/lul8hz/monitoring_across_frameworks/)
-- [jte 1.8.0 supports Kotlin as template expression language](https://www.reddit.com/r/java/comments/lukv9f/jte_180_supports_kotlin_as_template_expression/)
-- [JavaFx still worth learning/using?](https://www.reddit.com/r/java/comments/lufcbu/javafx_still_worth_learningusing/)
-- [Matrices multiplication benchmark: Apache math vs colt vs ejml vs la4j vs nd4j](https://www.reddit.com/r/java/comments/ltxbnd/matrices_multiplication_benchmark_apache_math_vs/)
-- [Is Channel(nio) faster than Stream(io) even in single-connection networking?](https://www.reddit.com/r/java/comments/ltonz8/is_channelnio_faster_than_streamio_even_in/)
-- [When things go wrong, please don’t make em worst - a Java Exceptions must read guide - Techblog - Hostmoz](https://www.reddit.com/r/java/comments/ltk1d7/when_things_go_wrong_please_dont_make_em_worst_a/)
-- [Java Threads: Are They Memory Efficient?](https://www.reddit.com/r/java/comments/ltip5j/java_threads_are_they_memory_efficient/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
