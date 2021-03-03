@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Automate Technical Documentation using Jamal](https://www.javacodegeeks.com/2021/03/automate-technical-documentation-using-jamal.html)
+- [Top 7 Challenges Of Cross Browser Testing With Solutions](https://www.javacodegeeks.com/2021/03/top-7-challenges-of-cross-browser-testing-with-solutions.html)
 - [[MEGA DEAL] AI & Python Development eBook Bundle by Mercury Learning (96% off)](https://www.javacodegeeks.com/2021/03/mega-deal-ai-python-development-ebook-bundle-by-mercury-learning-96-off.html)
 - [How To Generate TestNG Reports In Jenkins?](https://www.javacodegeeks.com/2021/03/how-to-generate-testng-reports-in-jenkins.html)
 - [Latency of DigitalOcean Spaces vs AWS S3](https://www.javacodegeeks.com/2021/02/latency-of-digitalocean-spaces-vs-aws-s3.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Retry In The Future](https://www.javacodegeeks.com/2021/02/retry-in-the-future.html)
 - [It Looks Right To Me](https://www.javacodegeeks.com/2021/02/it-looks-right-to-me.html)
 - [Choosing the Right Testing Strategy to Scale up Mobile App Testing](https://www.javacodegeeks.com/2021/02/choosing-the-right-testing-strategy-to-scale-up-mobile-app-testing.html)
-- [REST API Design: Dealing with concurrent updates](https://www.javacodegeeks.com/2021/02/rest-api-design-dealing-with-concurrent-updates.html)
-- [Upload files in Spring Boot application using Commons FileUpload](https://www.javacodegeeks.com/2021/02/upload-files-in-spring-boot-application-using-commons-fileupload.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
