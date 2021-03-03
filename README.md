@@ -380,6 +380,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Thorben Janssen posts_
 
 <!-- TJ-POST-LIST:START -->
+- [Configuring Spring Data JPA with Spring Boot](https://thorben-janssen.com/configuring-spring-data-jpa-with-spring-boot/)
 - [Coffee with Thorben 2020-02-26 – Utility classes that make your life easier](https://thorben-janssen.com/coffee-with-thorben-2020-02-19-utility-classes/)
 - [Hibernate Performance Tuning Done Right](https://thorben-janssen.com/hibernate-performance-tuning-done-right/)
 - [Coffee with Thorben 2020-02-19 – Enums, Enums, Enums …](https://thorben-janssen.com/coffee-with-thorben-jpql-criteria-native-2/)
@@ -389,7 +390,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Coffee with Thorben 2020-02-05 – Auditing with Hibernate Envers](https://thorben-janssen.com/coffee-with-thorben-hibernate-envers/)
 - [JDBC Connection and Dialect Configuration in Hibernate](https://thorben-janssen.com/jdbc-connection-and-dialect-in-hibernate/)
 - [Coffee with Thorben 2020-01-29 – Soft Deletes & Bi-directional Association](https://thorben-janssen.com/coffee-with-thorben-soft-deletes/)
-- [Coffee with Thorben 2020-01-22 – JSON Mappings & Polymorphic Associations](https://thorben-janssen.com/coffee-with-thorben-2020-01-22-json-mapp/)
 <!-- TJ-POST-LIST:END -->
 
 ### _Redhat posts_
