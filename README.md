@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Anyone interested in getting paid to write tutorials or short courses?](https://www.reddit.com/r/java/comments/lweqai/anyone_interested_in_getting_paid_to_write/)
+- [Tell a story with your commits - making an app to quickly peek / restore / rearrange coding history](https://www.reddit.com/r/java/comments/lwe4fs/tell_a_story_with_your_commits_making_an_app_to/)
+- [Monitoring Deserialization Activity in the JDK](https://www.reddit.com/r/java/comments/lw59r9/monitoring_deserialization_activity_in_the_jdk/)
+- [Trying for almost 2 years. Feeling lost. No job. Nothing.](https://www.reddit.com/r/java/comments/lw3hmd/trying_for_almost_2_years_feeling_lost_no_job/)
+- [Primitive type patterns and conversions](https://www.reddit.com/r/java/comments/lvyfu8/primitive_type_patterns_and_conversions/)
+- [Persism 1.0.1 released - A zero ceremony ORM for Java](https://www.reddit.com/r/java/comments/lvya1x/persism_101_released_a_zero_ceremony_orm_for_java/)
+- [Testing beyond coverage](https://www.reddit.com/r/java/comments/lvy136/testing_beyond_coverage/)
+- [Can Micronaut + GraalVM compete with other runtimes on AWS Lamba?](https://www.reddit.com/r/java/comments/lvwc6g/can_micronaut_graalvm_compete_with_other_runtimes/)
 - [How to program machine learning in Java with the Tribuo library](https://www.reddit.com/r/java/comments/lvgax7/how_to_program_machine_learning_in_java_with_the/)
-- [Spring Security, is it possible to disable checking of Authorization header while enabling credentials?](https://www.reddit.com/r/java/comments/lvfgc6/spring_security_is_it_possible_to_disable/)
 - [marco's live coding session #2](https://www.reddit.com/r/java/comments/lvcoat/marcos_live_coding_session_2/)
-- [I’m learning java at my high school programming classes, and I’m not sure how to use it outside of school. How can I code apps/games?](https://www.reddit.com/r/java/comments/lv855s/im_learning_java_at_my_high_school_programming/)
-- [Performance gains of using raw values instead of enums?](https://www.reddit.com/r/java/comments/lv6sg6/performance_gains_of_using_raw_values_instead_of/)
-- [My personal definitive guide to (java) Exceptions](https://www.reddit.com/r/java/comments/lv4spn/my_personal_definitive_guide_to_java_exceptions/)
-- [PomChecker 1.1.0 has been released!](https://www.reddit.com/r/java/comments/lv4gss/pomchecker_110_has_been_released/)
-- [Streams for JavaFX](https://www.reddit.com/r/java/comments/lur18b/streams_for_javafx/)
-- [Does anyone use Dagger2 to build APIs?](https://www.reddit.com/r/java/comments/luotc5/does_anyone_use_dagger2_to_build_apis/)
-- [Revisiting Html in Java](https://www.reddit.com/r/java/comments/luosg9/revisiting_html_in_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
