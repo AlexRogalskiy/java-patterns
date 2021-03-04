@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [Anyone interested in getting paid to write tutorials or short courses?](https://www.reddit.com/r/java/comments/lweqai/anyone_interested_in_getting_paid_to_write/)
-- [Tell a story with your commits - making an app to quickly peek / restore / rearrange coding history](https://www.reddit.com/r/java/comments/lwe4fs/tell_a_story_with_your_commits_making_an_app_to/)
+- [Does anyone know anything about Smart Javac (sjavac)?](https://www.reddit.com/r/java/comments/lwuz7c/does_anyone_know_anything_about_smart_javac_sjavac/)
+- [s-Strings in Java?](https://www.reddit.com/r/java/comments/lwurfu/sstrings_in_java/)
+- [Why it's so complicated?](https://www.reddit.com/r/java/comments/lwucg0/why_its_so_complicated/)
+- [Async await in Java](https://www.reddit.com/r/java/comments/lwpn4i/async_await_in_java/)
+- [Recommended option for "Java with different syntax"?](https://www.reddit.com/r/java/comments/lwl3xf/recommended_option_for_java_with_different_syntax/)
+- [Information Entropy (explanation and code)](https://www.reddit.com/r/java/comments/lwidwl/information_entropy_explanation_and_code/)
 - [Monitoring Deserialization Activity in the JDK](https://www.reddit.com/r/java/comments/lw59r9/monitoring_deserialization_activity_in_the_jdk/)
 - [Trying for almost 2 years. Feeling lost. No job. Nothing.](https://www.reddit.com/r/java/comments/lw3hmd/trying_for_almost_2_years_feeling_lost_no_job/)
 - [Primitive type patterns and conversions](https://www.reddit.com/r/java/comments/lvyfu8/primitive_type_patterns_and_conversions/)
 - [Persism 1.0.1 released - A zero ceremony ORM for Java](https://www.reddit.com/r/java/comments/lvya1x/persism_101_released_a_zero_ceremony_orm_for_java/)
-- [Testing beyond coverage](https://www.reddit.com/r/java/comments/lvy136/testing_beyond_coverage/)
-- [Can Micronaut + GraalVM compete with other runtimes on AWS Lamba?](https://www.reddit.com/r/java/comments/lvwc6g/can_micronaut_graalvm_compete_with_other_runtimes/)
-- [How to program machine learning in Java with the Tribuo library](https://www.reddit.com/r/java/comments/lvgax7/how_to_program_machine_learning_in_java_with_the/)
-- [marco's live coding session #2](https://www.reddit.com/r/java/comments/lvcoat/marcos_live_coding_session_2/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
