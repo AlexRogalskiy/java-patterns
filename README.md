@@ -410,6 +410,9 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Creating effective UI system tests with Selenium](https://www.javacodegeeks.com/2021/03/creating-effective-ui-system-tests-with-selenium.html)
+- [Top “n” using a Priority Queue](https://www.javacodegeeks.com/2021/03/top-n-using-a-priority-queue.html)
+- [Handling Cross-Site Scripting (XSS) in Java](https://www.javacodegeeks.com/2021/03/handling-cross-site-scripting-xss-in-java.html)
 - [Automate Technical Documentation using Jamal](https://www.javacodegeeks.com/2021/03/automate-technical-documentation-using-jamal.html)
 - [Top 7 Challenges Of Cross Browser Testing With Solutions](https://www.javacodegeeks.com/2021/03/top-7-challenges-of-cross-browser-testing-with-solutions.html)
 - [[MEGA DEAL] AI & Python Development eBook Bundle by Mercury Learning (96% off)](https://www.javacodegeeks.com/2021/03/mega-deal-ai-python-development-ebook-bundle-by-mercury-learning-96-off.html)
@@ -417,9 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Latency of DigitalOcean Spaces vs AWS S3](https://www.javacodegeeks.com/2021/02/latency-of-digitalocean-spaces-vs-aws-s3.html)
 - [Processing real-time data with Storm, Kafka and ElasticSearch – Part 4](https://www.javacodegeeks.com/processing-real-time-data-with-storm-kafka-and-elasticsearch-part-4.html)
 - [Using a disk-based Redis clone to reduce AWS S3 bill](https://www.javacodegeeks.com/2021/02/using-a-disk-based-redis-clone-to-reduce-aws-s3-bill.html)
-- [Retry In The Future](https://www.javacodegeeks.com/2021/02/retry-in-the-future.html)
-- [It Looks Right To Me](https://www.javacodegeeks.com/2021/02/it-looks-right-to-me.html)
-- [Choosing the Right Testing Strategy to Scale up Mobile App Testing](https://www.javacodegeeks.com/2021/02/choosing-the-right-testing-strategy-to-scale-up-mobile-app-testing.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
