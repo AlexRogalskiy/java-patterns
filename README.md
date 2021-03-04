@@ -320,7 +320,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
-- [Monitoring Deserialization Activity in the JDK](https://inside.java/2021/03/02/monitoring-deserialization-activity-in-the-jdk/)
+- [Free Training and $25 Certification Exam](https://inside.java/2021/03/03/free-training-25usd-cert/)
+- [Monitoring Deserialization to Improve Application Security](https://inside.java/2021/03/02/monitoring-deserialization-activity-in-the-jdk/)
 - [Primitive type patterns and conversions](https://inside.java/2021/03/01/primitive-type-patterns-and-conversions/)
 - [Welcome 20% less memory usage for G1 remembered sets - Prune collection set candidates early](https://inside.java/2021/02/26/welcome-less-memory-usage-g1/)
 - [JEP proposed to target JDK 17: 382: New macOS Rendering Pipeline](https://inside.java/2021/02/25/jeo-382-proposed-to-target-jdk17/)
@@ -329,7 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [When Records Met Serialization: A Happy Tale](https://inside.java/2021/02/23/records-met-serialization/)
 - [OracleDevLive Preview | Jesper Wilhelmsson on Contributing to OpenJDK](https://inside.java/2021/02/22/odl-preview-jesper-wilhelmsson/)
 - [Episode 13 “JDK Flight Recorder” with Markus Grönlund](https://inside.java/2021/02/22/podcast-013/)
-- [New Panama/Foreign Early-Access Builds, February update](https://inside.java/2021/02/18/new-panama-ea-builds/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
