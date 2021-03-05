@@ -320,7 +320,9 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [Code-First Unix Domain Socket Tutorial](https://inside.java/2021/03/04/uds-quick-tutorial/)
 - [Free Training and $25 Certification Exam](https://inside.java/2021/03/03/free-training-25usd-cert/)
+- [Project Lanai Early Access Build 10](https://inside.java/2021/03/03/new-lanai-ea-build/)
 - [Monitoring Deserialization to Improve Application Security](https://inside.java/2021/03/02/monitoring-deserialization-activity-in-the-jdk/)
 - [Primitive type patterns and conversions](https://inside.java/2021/03/01/primitive-type-patterns-and-conversions/)
 - [Welcome 20% less memory usage for G1 remembered sets - Prune collection set candidates early](https://inside.java/2021/02/26/welcome-less-memory-usage-g1/)
@@ -328,8 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Faster Charset Decoding](https://inside.java/2021/02/24/faster-charset-decoding/)
 - [OracleDevLive Preview | Gavin Bierman on Java Language Futures](https://inside.java/2021/02/24/odl-preview-gavin-bierman/)
 - [When Records Met Serialization: A Happy Tale](https://inside.java/2021/02/23/records-met-serialization/)
-- [OracleDevLive Preview | Jesper Wilhelmsson on Contributing to OpenJDK](https://inside.java/2021/02/22/odl-preview-jesper-wilhelmsson/)
-- [Episode 13 “JDK Flight Recorder” with Markus Grönlund](https://inside.java/2021/02/22/podcast-013/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
