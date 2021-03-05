@@ -410,6 +410,9 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [The Importance of Parallel Testing in Selenium](https://www.javacodegeeks.com/2021/03/the-importance-of-parallel-testing-in-selenium.html)
+- [Java NullPointerException Avoidance and Enhancement Tactics](https://www.javacodegeeks.com/2021/03/java-nullpointerexception-avoidance-and-enhancement-tactics.html)
+- [Connecting to Kibana Within an AWS VPC](https://www.javacodegeeks.com/2021/03/connecting-to-kibana-within-an-aws-vpc.html)
 - [Creating effective UI system tests with Selenium](https://www.javacodegeeks.com/2021/03/creating-effective-ui-system-tests-with-selenium.html)
 - [Top “n” using a Priority Queue](https://www.javacodegeeks.com/2021/03/top-n-using-a-priority-queue.html)
 - [Handling Cross-Site Scripting (XSS) in Java](https://www.javacodegeeks.com/2021/03/handling-cross-site-scripting-xss-in-java.html)
@@ -417,9 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Top 7 Challenges Of Cross Browser Testing With Solutions](https://www.javacodegeeks.com/2021/03/top-7-challenges-of-cross-browser-testing-with-solutions.html)
 - [[MEGA DEAL] AI & Python Development eBook Bundle by Mercury Learning (96% off)](https://www.javacodegeeks.com/2021/03/mega-deal-ai-python-development-ebook-bundle-by-mercury-learning-96-off.html)
 - [How To Generate TestNG Reports In Jenkins?](https://www.javacodegeeks.com/2021/03/how-to-generate-testng-reports-in-jenkins.html)
-- [Latency of DigitalOcean Spaces vs AWS S3](https://www.javacodegeeks.com/2021/02/latency-of-digitalocean-spaces-vs-aws-s3.html)
-- [Processing real-time data with Storm, Kafka and ElasticSearch – Part 4](https://www.javacodegeeks.com/processing-real-time-data-with-storm-kafka-and-elasticsearch-part-4.html)
-- [Using a disk-based Redis clone to reduce AWS S3 bill](https://www.javacodegeeks.com/2021/02/using-a-disk-based-redis-clone-to-reduce-aws-s3-bill.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
