@@ -290,6 +290,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Random thoughts posts_
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [Installing Printer Driver in Fedora for Epson ET-3750](http://randomthoughtsonjavaprogramming.blogspot.com/2021/03/installing-printer-driver-in-fedora-for.html)
 - [Using SQL Developer to visualise Geometry data](http://randomthoughtsonjavaprogramming.blogspot.com/2021/02/using-sql-developer-to-visualise.html)
 - [Using CDI to extend functionality](http://randomthoughtsonjavaprogramming.blogspot.com/2021/02/using-cdi-to-extend-functionality.html)
 - [Using Optional to prevent NullPointers In TrainWrecks](http://randomthoughtsonjavaprogramming.blogspot.com/2021/01/using-optional-to-prevent-nullpointers.html)
@@ -299,7 +300,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [The Three options with Optional](http://randomthoughtsonjavaprogramming.blogspot.com/2020/12/the-three-options-with-optional.html)
 - [Finding the index of an element in a List using Streams](http://randomthoughtsonjavaprogramming.blogspot.com/2020/12/finding-index-of-element-in-list-using.html)
 - [Why aren't Java Collections remove methods generic?](http://randomthoughtsonjavaprogramming.blogspot.com/2020/11/why-arent-java-collections-remove.html)
-- [Running Java in the Cloud - Jelastic](http://randomthoughtsonjavaprogramming.blogspot.com/2020/10/running-java-in-cloud-jelastic.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### _Better code posts_
