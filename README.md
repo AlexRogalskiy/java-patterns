@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Looking to upgrade CPU to run computational study in parallel](https://www.reddit.com/r/java/comments/lxxdbc/looking_to_upgrade_cpu_to_run_computational_study/)
+- [Beginner Book recommendation](https://www.reddit.com/r/java/comments/lxnhq9/beginner_book_recommendation/)
+- [Control a Java application with offline voice commands - source code in comments!](https://www.reddit.com/r/java/comments/lxmedg/control_a_java_application_with_offline_voice/)
+- [JavaFX 16 Release Notes](https://www.reddit.com/r/java/comments/lxlxwn/javafx_16_release_notes/)
+- [Many new Java cleanups in Eclipse 2021-03/4.19](https://www.reddit.com/r/java/comments/lxlxiw/many_new_java_cleanups_in_eclipse_202103419/)
+- [Testing mostly read-only REST service [Spring Boot]](https://www.reddit.com/r/java/comments/lxjtzt/testing_mostly_readonly_rest_service_spring_boot/)
+- [Avoid private field dependency injection - here is why - Techblog - Hostmoz](https://www.reddit.com/r/java/comments/lxg8sz/avoid_private_field_dependency_injection_here_is/)
+- [best light framework or library for developing API without the magic (Spring)](https://www.reddit.com/r/java/comments/lxecnn/best_light_framework_or_library_for_developing/)
 - [Does anyone know anything about Smart Javac (sjavac)?](https://www.reddit.com/r/java/comments/lwuz7c/does_anyone_know_anything_about_smart_javac_sjavac/)
 - [s-Strings in Java?](https://www.reddit.com/r/java/comments/lwurfu/sstrings_in_java/)
-- [Why it's so complicated?](https://www.reddit.com/r/java/comments/lwucg0/why_its_so_complicated/)
-- [Async await in Java](https://www.reddit.com/r/java/comments/lwpn4i/async_await_in_java/)
-- [Recommended option for "Java with different syntax"?](https://www.reddit.com/r/java/comments/lwl3xf/recommended_option_for_java_with_different_syntax/)
-- [Information Entropy (explanation and code)](https://www.reddit.com/r/java/comments/lwidwl/information_entropy_explanation_and_code/)
-- [Monitoring Deserialization Activity in the JDK](https://www.reddit.com/r/java/comments/lw59r9/monitoring_deserialization_activity_in_the_jdk/)
-- [Trying for almost 2 years. Feeling lost. No job. Nothing.](https://www.reddit.com/r/java/comments/lw3hmd/trying_for_almost_2_years_feeling_lost_no_job/)
-- [Primitive type patterns and conversions](https://www.reddit.com/r/java/comments/lvyfu8/primitive_type_patterns_and_conversions/)
-- [Persism 1.0.1 released - A zero ceremony ORM for Java](https://www.reddit.com/r/java/comments/lvya1x/persism_101_released_a_zero_ceremony_orm_for_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
