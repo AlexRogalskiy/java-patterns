@@ -410,6 +410,9 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Sorting ArrayList in Reverse or Descending Order in Java 8](https://www.javacodegeeks.com/2021/03/sorting-arraylist-in-reverse-or-descending-order-in-java-8.html)
+- [Sorting HashMap by Value in Java 8 in Ascending and Descending Order](https://www.javacodegeeks.com/2021/03/sorting-hashmap-by-value-in-java-8-in-ascending-and-descending-order.html)
+- [Java String Programs – Programming Examples for Interviews (2021)](https://www.javacodegeeks.com/2021/03/java-string-programs-programming-examples-for-interviews-2021.html)
 - [The Importance of Parallel Testing in Selenium](https://www.javacodegeeks.com/2021/03/the-importance-of-parallel-testing-in-selenium.html)
 - [Java NullPointerException Avoidance and Enhancement Tactics](https://www.javacodegeeks.com/2021/03/java-nullpointerexception-avoidance-and-enhancement-tactics.html)
 - [Connecting to Kibana Within an AWS VPC](https://www.javacodegeeks.com/2021/03/connecting-to-kibana-within-an-aws-vpc.html)
@@ -417,9 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Top “n” using a Priority Queue](https://www.javacodegeeks.com/2021/03/top-n-using-a-priority-queue.html)
 - [Handling Cross-Site Scripting (XSS) in Java](https://www.javacodegeeks.com/2021/03/handling-cross-site-scripting-xss-in-java.html)
 - [Automate Technical Documentation using Jamal](https://www.javacodegeeks.com/2021/03/automate-technical-documentation-using-jamal.html)
-- [Top 7 Challenges Of Cross Browser Testing With Solutions](https://www.javacodegeeks.com/2021/03/top-7-challenges-of-cross-browser-testing-with-solutions.html)
-- [[MEGA DEAL] AI & Python Development eBook Bundle by Mercury Learning (96% off)](https://www.javacodegeeks.com/2021/03/mega-deal-ai-python-development-ebook-bundle-by-mercury-learning-96-off.html)
-- [How To Generate TestNG Reports In Jenkins?](https://www.javacodegeeks.com/2021/03/how-to-generate-testng-reports-in-jenkins.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
