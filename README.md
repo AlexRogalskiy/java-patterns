@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [Looking to upgrade CPU to run computational study in parallel](https://www.reddit.com/r/java/comments/lxxdbc/looking_to_upgrade_cpu_to_run_computational_study/)
-- [Beginner Book recommendation](https://www.reddit.com/r/java/comments/lxnhq9/beginner_book_recommendation/)
-- [Control a Java application with offline voice commands - source code in comments!](https://www.reddit.com/r/java/comments/lxmedg/control_a_java_application_with_offline_voice/)
-- [JavaFX 16 Release Notes](https://www.reddit.com/r/java/comments/lxlxwn/javafx_16_release_notes/)
-- [Many new Java cleanups in Eclipse 2021-03/4.19](https://www.reddit.com/r/java/comments/lxlxiw/many_new_java_cleanups_in_eclipse_202103419/)
-- [Testing mostly read-only REST service [Spring Boot]](https://www.reddit.com/r/java/comments/lxjtzt/testing_mostly_readonly_rest_service_spring_boot/)
-- [Avoid private field dependency injection - here is why - Techblog - Hostmoz](https://www.reddit.com/r/java/comments/lxg8sz/avoid_private_field_dependency_injection_here_is/)
-- [best light framework or library for developing API without the magic (Spring)](https://www.reddit.com/r/java/comments/lxecnn/best_light_framework_or_library_for_developing/)
-- [Does anyone know anything about Smart Javac (sjavac)?](https://www.reddit.com/r/java/comments/lwuz7c/does_anyone_know_anything_about_smart_javac_sjavac/)
-- [s-Strings in Java?](https://www.reddit.com/r/java/comments/lwurfu/sstrings_in_java/)
+- [IntelliJ All products pack available](https://www.reddit.com/r/java/comments/lyq1ks/intellij_all_products_pack_available/)
+- [JEP 382: New macOS Rendering Pipeline - Now officially targeted for Java 17](https://www.reddit.com/r/java/comments/lynfq2/jep_382_new_macos_rendering_pipeline_now/)
+- [Pattern Guards (ongoing discussion summary by Brian Goetz)](https://www.reddit.com/r/java/comments/lymglg/pattern_guards_ongoing_discussion_summary_by/)
+- [Jakarta EE 9.1 Release Plan](https://www.reddit.com/r/java/comments/lyl1ay/jakarta_ee_91_release_plan/)
+- [How to create a microservice with MicroProfile and TomEE](https://www.reddit.com/r/java/comments/lyktv5/how_to_create_a_microservice_with_microprofile/)
+- [What would be better, creating a new project or contributing to github to learn more and get a job?](https://www.reddit.com/r/java/comments/lyji08/what_would_be_better_creating_a_new_project_or/)
+- [Generate custom aggregate HTML report for JaCoCo code coverage?](https://www.reddit.com/r/java/comments/lyhfro/generate_custom_aggregate_html_report_for_jacoco/)
+- [Naming conventions for getters in records vs. other objects. Get or not get.](https://www.reddit.com/r/java/comments/lyge14/naming_conventions_for_getters_in_records_vs/)
+- [Since Java interfaces have default methods as of 1.8, does that make abstract classes obsolete?](https://www.reddit.com/r/java/comments/lyfk6p/since_java_interfaces_have_default_methods_as_of/)
+- [Microservices on Knative with Spring Boot and GraalVM - Piotr's TechBlog](https://www.reddit.com/r/java/comments/lyf31n/microservices_on_knative_with_spring_boot_and/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
