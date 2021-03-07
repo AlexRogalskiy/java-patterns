@@ -320,6 +320,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [Guards](https://inside.java/2021/03/05/guards/)
+- [New candidate JEP: 398: Deprecate the Applet API for Removal](https://inside.java/2021/03/05/new-candidate-jep-398/)
 - [Code-First Unix Domain Socket Tutorial](https://inside.java/2021/03/04/uds-quick-tutorial/)
 - [Free Training and $25 Certification Exam](https://inside.java/2021/03/03/free-training-25usd-cert/)
 - [Project Lanai Early Access Build 10](https://inside.java/2021/03/03/new-lanai-ea-build/)
@@ -328,8 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Welcome 20% less memory usage for G1 remembered sets - Prune collection set candidates early](https://inside.java/2021/02/26/welcome-less-memory-usage-g1/)
 - [JEP proposed to target JDK 17: 382: New macOS Rendering Pipeline](https://inside.java/2021/02/25/jeo-382-proposed-to-target-jdk17/)
 - [Faster Charset Decoding](https://inside.java/2021/02/24/faster-charset-decoding/)
-- [OracleDevLive Preview | Gavin Bierman on Java Language Futures](https://inside.java/2021/02/24/odl-preview-gavin-bierman/)
-- [When Records Met Serialization: A Happy Tale](https://inside.java/2021/02/23/records-met-serialization/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
