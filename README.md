@@ -410,6 +410,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Immutable Mutable Objects](https://www.javacodegeeks.com/2021/03/immutable-mutable-objects.html)
 - [Sorting ArrayList in Reverse or Descending Order in Java 8](https://www.javacodegeeks.com/2021/03/sorting-arraylist-in-reverse-or-descending-order-in-java-8.html)
 - [Sorting HashMap by Value in Java 8 in Ascending and Descending Order](https://www.javacodegeeks.com/2021/03/sorting-hashmap-by-value-in-java-8-in-ascending-and-descending-order.html)
 - [Java String Programs – Programming Examples for Interviews (2021)](https://www.javacodegeeks.com/2021/03/java-string-programs-programming-examples-for-interviews-2021.html)
@@ -419,7 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Creating effective UI system tests with Selenium](https://www.javacodegeeks.com/2021/03/creating-effective-ui-system-tests-with-selenium.html)
 - [Top “n” using a Priority Queue](https://www.javacodegeeks.com/2021/03/top-n-using-a-priority-queue.html)
 - [Handling Cross-Site Scripting (XSS) in Java](https://www.javacodegeeks.com/2021/03/handling-cross-site-scripting-xss-in-java.html)
-- [Automate Technical Documentation using Jamal](https://www.javacodegeeks.com/2021/03/automate-technical-documentation-using-jamal.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
