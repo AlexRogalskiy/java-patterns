@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Introducing Jetty Load Generator](https://www.reddit.com/r/java/comments/m00ty7/introducing_jetty_load_generator/)
+- [Ryū: fast float-to-string conversion (Java lib, 2018 paper)](https://www.reddit.com/r/java/comments/lzw8d1/ryū_fast_floattostring_conversion_java_lib_2018/)
+- [Java EE 8 by example](https://www.reddit.com/r/java/comments/lzsn1c/java_ee_8_by_example/)
+- [What happens if threadPool of 8 is created when my PC only has 4 threads?](https://www.reddit.com/r/java/comments/lzqnk7/what_happens_if_threadpool_of_8_is_created_when/)
+- [Get Java SE 11-Certified for only $25](https://www.reddit.com/r/java/comments/lznlz9/get_java_se_11certified_for_only_25/)
+- [If you had to pick only ONE language and resulting ecosystem for the rest of your life, would you pick Java?](https://www.reddit.com/r/java/comments/lzk0a0/if_you_had_to_pick_only_one_language_and/)
 - [In your opinion, what should an entry level Java developer know?](https://www.reddit.com/r/java/comments/lzbba9/in_your_opinion_what_should_an_entry_level_java/)
 - [What is the future for Java on mobile?](https://www.reddit.com/r/java/comments/lz0znu/what_is_the_future_for_java_on_mobile/)
 - [New candidate JEP: 398: Deprecate the Applet API for Removal](https://www.reddit.com/r/java/comments/lyuw4w/new_candidate_jep_398_deprecate_the_applet_api/)
 - [JEP 382: New macOS Rendering Pipeline - Now officially targeted for Java 17](https://www.reddit.com/r/java/comments/lynfq2/jep_382_new_macos_rendering_pipeline_now/)
-- [Pattern Guards (ongoing discussion summary by Brian Goetz)](https://www.reddit.com/r/java/comments/lymglg/pattern_guards_ongoing_discussion_summary_by/)
-- [Jakarta EE 9.1 Release Plan](https://www.reddit.com/r/java/comments/lyl1ay/jakarta_ee_91_release_plan/)
-- [How to create a microservice with MicroProfile and TomEE](https://www.reddit.com/r/java/comments/lyktv5/how_to_create_a_microservice_with_microprofile/)
-- [What would be better, creating a new project or contributing to github to learn more and get a job?](https://www.reddit.com/r/java/comments/lyji08/what_would_be_better_creating_a_new_project_or/)
-- [Generate custom aggregate HTML report for JaCoCo code coverage?](https://www.reddit.com/r/java/comments/lyhfro/generate_custom_aggregate_html_report_for_jacoco/)
-- [Naming conventions for getters in records vs. other objects. Get or not get.](https://www.reddit.com/r/java/comments/lyge14/naming_conventions_for_getters_in_records_vs/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
