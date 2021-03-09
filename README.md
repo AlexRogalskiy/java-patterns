@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [Introducing Jetty Load Generator](https://www.reddit.com/r/java/comments/m00ty7/introducing_jetty_load_generator/)
-- [Ryū: fast float-to-string conversion (Java lib, 2018 paper)](https://www.reddit.com/r/java/comments/lzw8d1/ryū_fast_floattostring_conversion_java_lib_2018/)
-- [Java EE 8 by example](https://www.reddit.com/r/java/comments/lzsn1c/java_ee_8_by_example/)
-- [What happens if threadPool of 8 is created when my PC only has 4 threads?](https://www.reddit.com/r/java/comments/lzqnk7/what_happens_if_threadpool_of_8_is_created_when/)
-- [Get Java SE 11-Certified for only $25](https://www.reddit.com/r/java/comments/lznlz9/get_java_se_11certified_for_only_25/)
-- [If you had to pick only ONE language and resulting ecosystem for the rest of your life, would you pick Java?](https://www.reddit.com/r/java/comments/lzk0a0/if_you_had_to_pick_only_one_language_and/)
-- [In your opinion, what should an entry level Java developer know?](https://www.reddit.com/r/java/comments/lzbba9/in_your_opinion_what_should_an_entry_level_java/)
-- [What is the future for Java on mobile?](https://www.reddit.com/r/java/comments/lz0znu/what_is_the_future_for_java_on_mobile/)
-- [New candidate JEP: 398: Deprecate the Applet API for Removal](https://www.reddit.com/r/java/comments/lyuw4w/new_candidate_jep_398_deprecate_the_applet_api/)
-- [JEP 382: New macOS Rendering Pipeline - Now officially targeted for Java 17](https://www.reddit.com/r/java/comments/lynfq2/jep_382_new_macos_rendering_pipeline_now/)
+- [Learn Hibernate and JPA to apply for a vacancy?](https://www.reddit.com/r/java/comments/m0ut1q/learn_hibernate_and_jpa_to_apply_for_a_vacancy/)
+- [Working and unit testing with temporary files in Java](https://www.reddit.com/r/java/comments/m0sfoy/working_and_unit_testing_with_temporary_files_in/)
+- [I've documented my first attempt at using ksqlDB ("the event streaming database") for a more complex example: "carsandpolice"](https://www.reddit.com/r/java/comments/m0nf3g/ive_documented_my_first_attempt_at_using_ksqldb/)
+- [Hibernate Reactive goes 1.0!](https://www.reddit.com/r/java/comments/m0l6l3/hibernate_reactive_goes_10/)
+- [Java Meetup: GraphQl at Picnic and Netflix](https://www.reddit.com/r/java/comments/m0jq7t/java_meetup_graphql_at_picnic_and_netflix/)
+- [MicroProfile Long Running Actions (loosely coupled transaction model for microservices)](https://www.reddit.com/r/java/comments/m0hh7a/microprofile_long_running_actions_loosely_coupled/)
+- [Day 1 of posting my IDE called JText until its done! (Most of the work i've done on it has been on the backend)](https://www.reddit.com/r/java/comments/m0fvot/day_1_of_posting_my_ide_called_jtext_until_its/)
+- [Is there any actively maintained Java library to format code?](https://www.reddit.com/r/java/comments/m0fs2c/is_there_any_actively_maintained_java_library_to/)
+- [Inside Java Podcast Episode 14 - “Records Serialization” with Julia Boes and Chris Hegarty](https://www.reddit.com/r/java/comments/m0cn98/inside_java_podcast_episode_14_records/)
+- [Revisiting Publication to Maven Central with Apache Maven](https://www.reddit.com/r/java/comments/m0bkpx/revisiting_publication_to_maven_central_with/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
