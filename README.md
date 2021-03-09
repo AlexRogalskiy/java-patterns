@@ -410,6 +410,9 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [The Best Ruby Gems](https://www.javacodegeeks.com/2021/03/the-best-ruby-gems.html)
+- [[MEGA DEAL] The Master Learn to Code 2021 Certification Bundle (98% off)](https://www.javacodegeeks.com/2021/03/mega-deal-the-master-learn-to-code-2021-certification-bundle-98-off.html)
+- [Want a Successful Agile Project? Start with Why Before How](https://www.javacodegeeks.com/2021/03/want-a-successful-agile-project-start-with-why-before-how.html)
 - [Testing Time](https://www.javacodegeeks.com/2021/03/testing-time.html)
 - [Immutable Mutable Objects](https://www.javacodegeeks.com/2021/03/immutable-mutable-objects.html)
 - [Sorting ArrayList in Reverse or Descending Order in Java 8](https://www.javacodegeeks.com/2021/03/sorting-arraylist-in-reverse-or-descending-order-in-java-8.html)
@@ -417,9 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Java String Programs – Programming Examples for Interviews (2021)](https://www.javacodegeeks.com/2021/03/java-string-programs-programming-examples-for-interviews-2021.html)
 - [The Importance of Parallel Testing in Selenium](https://www.javacodegeeks.com/2021/03/the-importance-of-parallel-testing-in-selenium.html)
 - [Java NullPointerException Avoidance and Enhancement Tactics](https://www.javacodegeeks.com/2021/03/java-nullpointerexception-avoidance-and-enhancement-tactics.html)
-- [Connecting to Kibana Within an AWS VPC](https://www.javacodegeeks.com/2021/03/connecting-to-kibana-within-an-aws-vpc.html)
-- [Creating effective UI system tests with Selenium](https://www.javacodegeeks.com/2021/03/creating-effective-ui-system-tests-with-selenium.html)
-- [Top “n” using a Priority Queue](https://www.javacodegeeks.com/2021/03/top-n-using-a-priority-queue.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
