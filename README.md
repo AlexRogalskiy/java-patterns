@@ -320,6 +320,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [Episode 14 “Records Serialization” with Julia Boes and Chris Hegarty](https://inside.java/2021/03/08/podcast-014/)
 - [Guards](https://inside.java/2021/03/05/guards/)
 - [New candidate JEP: 398: Deprecate the Applet API for Removal](https://inside.java/2021/03/05/new-candidate-jep-398/)
 - [Code-First Unix Domain Socket Tutorial](https://inside.java/2021/03/04/uds-quick-tutorial/)
@@ -329,7 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Primitive type patterns and conversions](https://inside.java/2021/03/01/primitive-type-patterns-and-conversions/)
 - [Welcome 20% less memory usage for G1 remembered sets - Prune collection set candidates early](https://inside.java/2021/02/26/welcome-less-memory-usage-g1/)
 - [JEP proposed to target JDK 17: 382: New macOS Rendering Pipeline](https://inside.java/2021/02/25/jeo-382-proposed-to-target-jdk17/)
-- [Faster Charset Decoding](https://inside.java/2021/02/24/faster-charset-decoding/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
