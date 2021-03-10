@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [A maven plugin to sign artifacts without any external software.](https://www.reddit.com/r/java/comments/m1kcgw/a_maven_plugin_to_sign_artifacts_without_any/)
+- [Working with Native Image efficiently](https://www.reddit.com/r/java/comments/m1jlnl/working_with_native_image_efficiently/)
+- [Hello I need help with a grade 11 project](https://www.reddit.com/r/java/comments/m1iv5y/hello_i_need_help_with_a_grade_11_project/)
+- [Project Lilliput](https://www.reddit.com/r/java/comments/m19d4d/project_lilliput/)
+- [FizzBuzz – SIMD Style!](https://www.reddit.com/r/java/comments/m14ttg/fizzbuzz_simd_style/)
+- [Java Development on OpenShift with odo](https://www.reddit.com/r/java/comments/m11vb8/java_development_on_openshift_with_odo/)
 - [Learn Hibernate and JPA to apply for a vacancy?](https://www.reddit.com/r/java/comments/m0ut1q/learn_hibernate_and_jpa_to_apply_for_a_vacancy/)
 - [Working and unit testing with temporary files in Java](https://www.reddit.com/r/java/comments/m0sfoy/working_and_unit_testing_with_temporary_files_in/)
 - [I've documented my first attempt at using ksqlDB ("the event streaming database") for a more complex example: "carsandpolice"](https://www.reddit.com/r/java/comments/m0nf3g/ive_documented_my_first_attempt_at_using_ksqldb/)
 - [Hibernate Reactive goes 1.0!](https://www.reddit.com/r/java/comments/m0l6l3/hibernate_reactive_goes_10/)
-- [Java Meetup: GraphQl at Picnic and Netflix](https://www.reddit.com/r/java/comments/m0jq7t/java_meetup_graphql_at_picnic_and_netflix/)
-- [MicroProfile Long Running Actions (loosely coupled transaction model for microservices)](https://www.reddit.com/r/java/comments/m0hh7a/microprofile_long_running_actions_loosely_coupled/)
-- [Day 1 of posting my IDE called JText until its done! (Most of the work i've done on it has been on the backend)](https://www.reddit.com/r/java/comments/m0fvot/day_1_of_posting_my_ide_called_jtext_until_its/)
-- [Is there any actively maintained Java library to format code?](https://www.reddit.com/r/java/comments/m0fs2c/is_there_any_actively_maintained_java_library_to/)
-- [Inside Java Podcast Episode 14 - “Records Serialization” with Julia Boes and Chris Hegarty](https://www.reddit.com/r/java/comments/m0cn98/inside_java_podcast_episode_14_records/)
-- [Revisiting Publication to Maven Central with Apache Maven](https://www.reddit.com/r/java/comments/m0bkpx/revisiting_publication_to_maven_central_with/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
