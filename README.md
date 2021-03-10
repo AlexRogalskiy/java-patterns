@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Parameterization with DataProvider in TestNG](https://www.javacodegeeks.com/2021/03/parameterization-with-dataprovider-in-testng.html)
+- [Creating Temporary Files with JUnit 5](https://www.javacodegeeks.com/2021/03/creating-temporary-files-with-junit-5.html)
 - [The Best Ruby Gems](https://www.javacodegeeks.com/2021/03/the-best-ruby-gems.html)
 - [[MEGA DEAL] The Master Learn to Code 2021 Certification Bundle (98% off)](https://www.javacodegeeks.com/2021/03/mega-deal-the-master-learn-to-code-2021-certification-bundle-98-off.html)
 - [Want a Successful Agile Project? Start with Why Before How](https://www.javacodegeeks.com/2021/03/want-a-successful-agile-project-start-with-why-before-how.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Sorting ArrayList in Reverse or Descending Order in Java 8](https://www.javacodegeeks.com/2021/03/sorting-arraylist-in-reverse-or-descending-order-in-java-8.html)
 - [Sorting HashMap by Value in Java 8 in Ascending and Descending Order](https://www.javacodegeeks.com/2021/03/sorting-hashmap-by-value-in-java-8-in-ascending-and-descending-order.html)
 - [Java String Programs – Programming Examples for Interviews (2021)](https://www.javacodegeeks.com/2021/03/java-string-programs-programming-examples-for-interviews-2021.html)
-- [The Importance of Parallel Testing in Selenium](https://www.javacodegeeks.com/2021/03/the-importance-of-parallel-testing-in-selenium.html)
-- [Java NullPointerException Avoidance and Enhancement Tactics](https://www.javacodegeeks.com/2021/03/java-nullpointerexception-avoidance-and-enhancement-tactics.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
