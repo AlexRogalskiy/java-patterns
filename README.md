@@ -380,6 +380,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Thorben Janssen posts_
 
 <!-- TJ-POST-LIST:START -->
+- [Hibernate Slow Query Log – The easiest way to find slow queries](https://thorben-janssen.com/hibernate-slow-query-log/)
 - [Coffee with Thorben 2020-03-05 – Natural vs Surrogate Keys](https://thorben-janssen.com/coffee-with-thorben-2020-02-19-utility-classes-2/)
 - [Configuring Spring Data JPA with Spring Boot](https://thorben-janssen.com/configuring-spring-data-jpa-with-spring-boot/)
 - [Coffee with Thorben 2020-02-26 – Utility classes that make your life easier](https://thorben-janssen.com/coffee-with-thorben-2020-02-19-utility-classes/)
@@ -389,7 +390,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Coffee with Thorben 2020-02-12 – JPQL vs Criteria vs Native Queries](https://thorben-janssen.com/coffee-with-thorben-jpql-criteria-native/)
 - [Hibernate Query Spaces – Optimizing Flush and Cache Operations](https://thorben-janssen.com/hibernate-query-spaces/)
 - [Coffee with Thorben 2020-02-05 – Auditing with Hibernate Envers](https://thorben-janssen.com/coffee-with-thorben-hibernate-envers/)
-- [JDBC Connection and Dialect Configuration in Hibernate](https://thorben-janssen.com/jdbc-connection-and-dialect-in-hibernate/)
 <!-- TJ-POST-LIST:END -->
 
 ### _Redhat posts_
