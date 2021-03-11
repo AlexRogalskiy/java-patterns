@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [The Final Straw](https://www.javacodegeeks.com/2021/03/the-final-straw.html)
+- [14 Best (and Free) Plugins for Eclipse IDE in 2021](https://www.javacodegeeks.com/2021/03/14-best-and-free-plugins-for-eclipse-ide-in-2021.html)
 - [Parameterization with DataProvider in TestNG](https://www.javacodegeeks.com/2021/03/parameterization-with-dataprovider-in-testng.html)
 - [Creating Temporary Files with JUnit 5](https://www.javacodegeeks.com/2021/03/creating-temporary-files-with-junit-5.html)
 - [The Best Ruby Gems](https://www.javacodegeeks.com/2021/03/the-best-ruby-gems.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Testing Time](https://www.javacodegeeks.com/2021/03/testing-time.html)
 - [Immutable Mutable Objects](https://www.javacodegeeks.com/2021/03/immutable-mutable-objects.html)
 - [Sorting ArrayList in Reverse or Descending Order in Java 8](https://www.javacodegeeks.com/2021/03/sorting-arraylist-in-reverse-or-descending-order-in-java-8.html)
-- [Sorting HashMap by Value in Java 8 in Ascending and Descending Order](https://www.javacodegeeks.com/2021/03/sorting-hashmap-by-value-in-java-8-in-ascending-and-descending-order.html)
-- [Java String Programs – Programming Examples for Interviews (2021)](https://www.javacodegeeks.com/2021/03/java-string-programs-programming-examples-for-interviews-2021.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
