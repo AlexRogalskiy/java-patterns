@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [JEP 400: UTF-8 by Default](https://www.reddit.com/r/java/comments/m2dng3/jep_400_utf8_by_default/)
+- [Parametric JVM (PDF): how generic specialization will be implemented (draft v0.3, highly technical, by John Rose)](https://www.reddit.com/r/java/comments/m2dfb5/parametric_jvm_pdf_how_generic_specialization/)
+- [Java Opensource projects](https://www.reddit.com/r/java/comments/m27ov2/java_opensource_projects/)
+- [GlassFish 6.1.0-M1 released!](https://www.reddit.com/r/java/comments/m25okc/glassfish_610m1_released/)
+- [Not only Spring Boot: a review of alternatives](https://www.reddit.com/r/java/comments/m22uvz/not_only_spring_boot_a_review_of_alternatives/)
+- [Introduction to Quickperf](https://www.reddit.com/r/java/comments/m22j9w/introduction_to_quickperf/)
+- [JavaFX 16 Released](https://www.reddit.com/r/java/comments/m1r1hx/javafx_16_released/)
+- [Using Java Topology Suite for 3D Vector Operations](https://www.reddit.com/r/java/comments/m1o13v/using_java_topology_suite_for_3d_vector_operations/)
 - [A maven plugin to sign artifacts without any external software.](https://www.reddit.com/r/java/comments/m1kcgw/a_maven_plugin_to_sign_artifacts_without_any/)
 - [Working with Native Image efficiently](https://www.reddit.com/r/java/comments/m1jlnl/working_with_native_image_efficiently/)
-- [Hello I need help with a grade 11 project](https://www.reddit.com/r/java/comments/m1iv5y/hello_i_need_help_with_a_grade_11_project/)
-- [Project Lilliput](https://www.reddit.com/r/java/comments/m19d4d/project_lilliput/)
-- [FizzBuzz – SIMD Style!](https://www.reddit.com/r/java/comments/m14ttg/fizzbuzz_simd_style/)
-- [Java Development on OpenShift with odo](https://www.reddit.com/r/java/comments/m11vb8/java_development_on_openshift_with_odo/)
-- [Learn Hibernate and JPA to apply for a vacancy?](https://www.reddit.com/r/java/comments/m0ut1q/learn_hibernate_and_jpa_to_apply_for_a_vacancy/)
-- [Working and unit testing with temporary files in Java](https://www.reddit.com/r/java/comments/m0sfoy/working_and_unit_testing_with_temporary_files_in/)
-- [I've documented my first attempt at using ksqlDB ("the event streaming database") for a more complex example: "carsandpolice"](https://www.reddit.com/r/java/comments/m0nf3g/ive_documented_my_first_attempt_at_using_ksqldb/)
-- [Hibernate Reactive goes 1.0!](https://www.reddit.com/r/java/comments/m0l6l3/hibernate_reactive_goes_10/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
