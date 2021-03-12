@@ -320,6 +320,9 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [New candidate JEP: 399: Intermediate-Representation Graph Serialization](https://inside.java/2021/03/11/new-candidate-jep-399/)
+- [New candidate JEP: 400: UTF-8 by Default](https://inside.java/2021/03/11/new-candidate-jep-400/)
+- [JDK 16 for the record(s)](https://inside.java/2021/03/11/video-for-the-records/)
 - [Episode 14 “Records Serialization” with Julia Boes and Chris Hegarty](https://inside.java/2021/03/08/podcast-014/)
 - [Guards](https://inside.java/2021/03/05/guards/)
 - [New candidate JEP: 398: Deprecate the Applet API for Removal](https://inside.java/2021/03/05/new-candidate-jep-398/)
@@ -327,9 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Free Training and $25 Certification Exam](https://inside.java/2021/03/03/free-training-25usd-cert/)
 - [Project Lanai Early Access Build 10](https://inside.java/2021/03/03/new-lanai-ea-build/)
 - [Monitoring Deserialization to Improve Application Security](https://inside.java/2021/03/02/monitoring-deserialization-activity-in-the-jdk/)
-- [Primitive type patterns and conversions](https://inside.java/2021/03/01/primitive-type-patterns-and-conversions/)
-- [Welcome 20% less memory usage for G1 remembered sets - Prune collection set candidates early](https://inside.java/2021/02/26/welcome-less-memory-usage-g1/)
-- [JEP proposed to target JDK 17: 382: New macOS Rendering Pipeline](https://inside.java/2021/02/25/jeo-382-proposed-to-target-jdk17/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
