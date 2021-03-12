@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [JEP 400: UTF-8 by Default](https://www.reddit.com/r/java/comments/m2dng3/jep_400_utf8_by_default/)
-- [Parametric JVM (PDF): how generic specialization will be implemented (draft v0.3, highly technical, by John Rose)](https://www.reddit.com/r/java/comments/m2dfb5/parametric_jvm_pdf_how_generic_specialization/)
-- [Java Opensource projects](https://www.reddit.com/r/java/comments/m27ov2/java_opensource_projects/)
-- [GlassFish 6.1.0-M1 released!](https://www.reddit.com/r/java/comments/m25okc/glassfish_610m1_released/)
-- [Not only Spring Boot: a review of alternatives](https://www.reddit.com/r/java/comments/m22uvz/not_only_spring_boot_a_review_of_alternatives/)
-- [Introduction to Quickperf](https://www.reddit.com/r/java/comments/m22j9w/introduction_to_quickperf/)
-- [JavaFX 16 Released](https://www.reddit.com/r/java/comments/m1r1hx/javafx_16_released/)
-- [Using Java Topology Suite for 3D Vector Operations](https://www.reddit.com/r/java/comments/m1o13v/using_java_topology_suite_for_3d_vector_operations/)
-- [A maven plugin to sign artifacts without any external software.](https://www.reddit.com/r/java/comments/m1kcgw/a_maven_plugin_to_sign_artifacts_without_any/)
-- [Working with Native Image efficiently](https://www.reddit.com/r/java/comments/m1jlnl/working_with_native_image_efficiently/)
+- [Career change](https://www.reddit.com/r/java/comments/m350v2/career_change/)
+- [I made UndoRedoList, a reverse engineering of the undo-redo feature in Microsoft Word, Google Docs and Photoshop.](https://www.reddit.com/r/java/comments/m30w14/i_made_undoredolist_a_reverse_engineering_of_the/)
+- [Announcing Spring Native Beta](https://www.reddit.com/r/java/comments/m2wyl0/announcing_spring_native_beta/)
+- [Spring Native Beta](https://www.reddit.com/r/java/comments/m2w9ei/spring_native_beta/)
+- [A batch of tasks to be executed periodically](https://www.reddit.com/r/java/comments/m2vb4m/a_batch_of_tasks_to_be_executed_periodically/)
+- [Introducing PrimeFaces 10 – The NextGen](https://www.reddit.com/r/java/comments/m2sn06/introducing_primefaces_10_the_nextgen/)
+- [Is it worth buying IntelliJ IDEA Ultimate package?](https://www.reddit.com/r/java/comments/m2p8er/is_it_worth_buying_intellij_idea_ultimate_package/)
+- [Calculating Pagination Metadata Without Extra Roundtrips in SQL or with jOOQ](https://www.reddit.com/r/java/comments/m2p54j/calculating_pagination_metadata_without_extra/)
+- [[project loom] New thread builder API.](https://www.reddit.com/r/java/comments/m2m9r6/project_loom_new_thread_builder_api/)
+- [Chaos Engineering – Simulating CPU spike](https://www.reddit.com/r/java/comments/m2h4kx/chaos_engineering_simulating_cpu_spike/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
