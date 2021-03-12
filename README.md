@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [How To Get Started With Automated Browser Testing?](https://www.javacodegeeks.com/2021/03/how-to-get-started-with-automated-browser-testing.html)
+- [Top Automation Testing Trends To Look Out In 2021](https://www.javacodegeeks.com/2021/03/top-automation-testing-trends-to-look-out-in-2021.html)
 - [The Final Straw](https://www.javacodegeeks.com/2021/03/the-final-straw.html)
 - [14 Best (and Free) Plugins for Eclipse IDE in 2021](https://www.javacodegeeks.com/2021/03/14-best-and-free-plugins-for-eclipse-ide-in-2021.html)
 - [Parameterization with DataProvider in TestNG](https://www.javacodegeeks.com/2021/03/parameterization-with-dataprovider-in-testng.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [[MEGA DEAL] The Master Learn to Code 2021 Certification Bundle (98% off)](https://www.javacodegeeks.com/2021/03/mega-deal-the-master-learn-to-code-2021-certification-bundle-98-off.html)
 - [Want a Successful Agile Project? Start with Why Before How](https://www.javacodegeeks.com/2021/03/want-a-successful-agile-project-start-with-why-before-how.html)
 - [Testing Time](https://www.javacodegeeks.com/2021/03/testing-time.html)
-- [Immutable Mutable Objects](https://www.javacodegeeks.com/2021/03/immutable-mutable-objects.html)
-- [Sorting ArrayList in Reverse or Descending Order in Java 8](https://www.javacodegeeks.com/2021/03/sorting-arraylist-in-reverse-or-descending-order-in-java-8.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
