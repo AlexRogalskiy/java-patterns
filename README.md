@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [How do you implement POJO objects diff in java?](https://www.reddit.com/r/java/comments/m3r05y/how_do_you_implement_pojo_objects_diff_in_java/)
+- [Can java devs take a 'wait it out', for kotlin feaures?](https://www.reddit.com/r/java/comments/m3pxcg/can_java_devs_take_a_wait_it_out_for_kotlin/)
+- [Anemic Domain Model vs Rich Domain Model in Java](https://www.reddit.com/r/java/comments/m3nxkh/anemic_domain_model_vs_rich_domain_model_in_java/)
+- [Will Loom make Vert.x, RxJava and Event Loop based patterns obsolete?](https://www.reddit.com/r/java/comments/m3n0jw/will_loom_make_vertx_rxjava_and_event_loop_based/)
+- [Not controlling inputs and outputs for a vulnerable web app](https://www.reddit.com/r/java/comments/m3kzc7/not_controlling_inputs_and_outputs_for_a/)
+- [WildFly 23 released!](https://www.reddit.com/r/java/comments/m3hz3v/wildfly_23_released/)
+- [Knative Eventing with Kafka and Spring Cloud - Piotr's TechBlog](https://www.reddit.com/r/java/comments/m3g83z/knative_eventing_with_kafka_and_spring_cloud/)
+- [Simpler Serialization with Records](https://www.reddit.com/r/java/comments/m3elzo/simpler_serialization_with_records/)
 - [Career change](https://www.reddit.com/r/java/comments/m350v2/career_change/)
 - [I made UndoRedoList, a reverse engineering of the undo-redo feature in Microsoft Word, Google Docs and Photoshop.](https://www.reddit.com/r/java/comments/m30w14/i_made_undoredolist_a_reverse_engineering_of_the/)
-- [Announcing Spring Native Beta](https://www.reddit.com/r/java/comments/m2wyl0/announcing_spring_native_beta/)
-- [Spring Native Beta](https://www.reddit.com/r/java/comments/m2w9ei/spring_native_beta/)
-- [A batch of tasks to be executed periodically](https://www.reddit.com/r/java/comments/m2vb4m/a_batch_of_tasks_to_be_executed_periodically/)
-- [Introducing PrimeFaces 10 – The NextGen](https://www.reddit.com/r/java/comments/m2sn06/introducing_primefaces_10_the_nextgen/)
-- [Is it worth buying IntelliJ IDEA Ultimate package?](https://www.reddit.com/r/java/comments/m2p8er/is_it_worth_buying_intellij_idea_ultimate_package/)
-- [Calculating Pagination Metadata Without Extra Roundtrips in SQL or with jOOQ](https://www.reddit.com/r/java/comments/m2p54j/calculating_pagination_metadata_without_extra/)
-- [[project loom] New thread builder API.](https://www.reddit.com/r/java/comments/m2m9r6/project_loom_new_thread_builder_api/)
-- [Chaos Engineering – Simulating CPU spike](https://www.reddit.com/r/java/comments/m2h4kx/chaos_engineering_simulating_cpu_spike/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
