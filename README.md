@@ -320,6 +320,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [Simpler Serialization with Records](https://inside.java/2021/03/12/simpler-serilization-with-records/)
 - [New candidate JEP: 399: Intermediate-Representation Graph Serialization](https://inside.java/2021/03/11/new-candidate-jep-399/)
 - [New candidate JEP: 400: UTF-8 by Default](https://inside.java/2021/03/11/new-candidate-jep-400/)
 - [JDK 16 for the record(s)](https://inside.java/2021/03/11/video-for-the-records/)
@@ -329,7 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Code-First Unix Domain Socket Tutorial](https://inside.java/2021/03/04/uds-quick-tutorial/)
 - [Free Training and $25 Certification Exam](https://inside.java/2021/03/03/free-training-25usd-cert/)
 - [Project Lanai Early Access Build 10](https://inside.java/2021/03/03/new-lanai-ea-build/)
-- [Monitoring Deserialization to Improve Application Security](https://inside.java/2021/03/02/monitoring-deserialization-activity-in-the-jdk/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
