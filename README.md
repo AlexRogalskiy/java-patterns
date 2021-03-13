@@ -260,6 +260,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _InfoWorld posts_
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [Google’s OSS-Fuzz extends fuzzing to Java apps](https://www.infoworld.com/article/3611510/googles-oss-fuzz-extends-fuzzing-to-java-apps.html#tk.rss_java)
 - [Project Lilliput would shrink Java object header](https://www.infoworld.com/article/3611448/project-lilliput-would-shrink-java-object-header.html#tk.rss_java)
 - [Google Jetpack Compose Android UI toolkit now in beta](https://www.infoworld.com/article/3609830/google-jetpack-compose-android-ui-toolkit-now-in-beta.html#tk.rss_java)
 - [JDK 17: What’s in store for Java 17](https://www.infoworld.com/article/3606833/jdk-17-whats-in-store-for-java-17.html#tk.rss_java)
@@ -269,7 +270,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Oracle adds GraalVM to Java subscription](https://www.infoworld.com/article/3606069/oracle-adds-graalvm-to-java-subscription.html#tk.rss_java)
 - [GraalVM boosts Java performance with Truffle framework](https://www.infoworld.com/article/3604476/graalvm-boosts-java-performance-with-truffle-framework.html#tk.rss_java)
 - [Python edges C++ for Tiobe’s programming language of the year](https://www.infoworld.com/article/3602554/python-wins-language-popularity-honor.html#tk.rss_java)
-- [ActiveJ Java platform takes aim at Spring, Quarkus](https://www.infoworld.com/article/3601068/activej-java-platform-takes-aim-at-spring-quarkus.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### _Let's talk posts_
