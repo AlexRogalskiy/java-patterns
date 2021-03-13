@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Java 9 Modules: part 1](https://www.javacodegeeks.com/2021/03/java-9-modules-part-1.html)
+- [Jackson Kotlin extension and reified types](https://www.javacodegeeks.com/2021/03/jackson-kotlin-extension-and-reified-types.html)
 - [How To Get Started With Automated Browser Testing?](https://www.javacodegeeks.com/2021/03/how-to-get-started-with-automated-browser-testing.html)
 - [Top Automation Testing Trends To Look Out In 2021](https://www.javacodegeeks.com/2021/03/top-automation-testing-trends-to-look-out-in-2021.html)
 - [The Final Straw](https://www.javacodegeeks.com/2021/03/the-final-straw.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Creating Temporary Files with JUnit 5](https://www.javacodegeeks.com/2021/03/creating-temporary-files-with-junit-5.html)
 - [The Best Ruby Gems](https://www.javacodegeeks.com/2021/03/the-best-ruby-gems.html)
 - [[MEGA DEAL] The Master Learn to Code 2021 Certification Bundle (98% off)](https://www.javacodegeeks.com/2021/03/mega-deal-the-master-learn-to-code-2021-certification-bundle-98-off.html)
-- [Want a Successful Agile Project? Start with Why Before How](https://www.javacodegeeks.com/2021/03/want-a-successful-agile-project-start-with-why-before-how.html)
-- [Testing Time](https://www.javacodegeeks.com/2021/03/testing-time.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
