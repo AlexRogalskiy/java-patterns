@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [How do you implement POJO objects diff in java?](https://www.reddit.com/r/java/comments/m3r05y/how_do_you_implement_pojo_objects_diff_in_java/)
-- [Can java devs take a 'wait it out', for kotlin feaures?](https://www.reddit.com/r/java/comments/m3pxcg/can_java_devs_take_a_wait_it_out_for_kotlin/)
-- [Anemic Domain Model vs Rich Domain Model in Java](https://www.reddit.com/r/java/comments/m3nxkh/anemic_domain_model_vs_rich_domain_model_in_java/)
-- [Will Loom make Vert.x, RxJava and Event Loop based patterns obsolete?](https://www.reddit.com/r/java/comments/m3n0jw/will_loom_make_vertx_rxjava_and_event_loop_based/)
-- [Not controlling inputs and outputs for a vulnerable web app](https://www.reddit.com/r/java/comments/m3kzc7/not_controlling_inputs_and_outputs_for_a/)
-- [WildFly 23 released!](https://www.reddit.com/r/java/comments/m3hz3v/wildfly_23_released/)
-- [Knative Eventing with Kafka and Spring Cloud - Piotr's TechBlog](https://www.reddit.com/r/java/comments/m3g83z/knative_eventing_with_kafka_and_spring_cloud/)
-- [Simpler Serialization with Records](https://www.reddit.com/r/java/comments/m3elzo/simpler_serialization_with_records/)
-- [Career change](https://www.reddit.com/r/java/comments/m350v2/career_change/)
-- [I made UndoRedoList, a reverse engineering of the undo-redo feature in Microsoft Word, Google Docs and Photoshop.](https://www.reddit.com/r/java/comments/m30w14/i_made_undoredolist_a_reverse_engineering_of_the/)
+- [A signal is a way to decouple between a subject(dispatcher) and the observers(listeners) in distributed event handling systems.](https://www.reddit.com/r/java/comments/m4eqm8/a_signal_is_a_way_to_decouple_between_a/)
+- [Downsides to using sun.misc.unsafe for serialization (assuming the code is thoroughly-tested)?](https://www.reddit.com/r/java/comments/m4b9f6/downsides_to_using_sunmiscunsafe_for/)
+- [WildFly Reactive Features 2.0 released!](https://www.reddit.com/r/java/comments/m48w0f/wildfly_reactive_features_20_released/)
+- [Help for MVC application](https://www.reddit.com/r/java/comments/m48oe5/help_for_mvc_application/)
+- [Don’t replace Spring Boot with Quarkus, replace it with Wildfly](https://www.reddit.com/r/java/comments/m48ed2/dont_replace_spring_boot_with_quarkus_replace_it/)
+- [What's new in the new Loom Early Access (EA) build (by Alan Bateman) (spoilers: changes in thread builder, scoped variables, executors, debugging; and what to look forward to)](https://www.reddit.com/r/java/comments/m47tyg/whats_new_in_the_new_loom_early_access_ea_build/)
+- [Easier DTO/Entity mapping](https://www.reddit.com/r/java/comments/m46221/easier_dtoentity_mapping/)
+- [What is the best eBook to learn Springboot? For Beginners](https://www.reddit.com/r/java/comments/m438q5/what_is_the_best_ebook_to_learn_springboot_for/)
+- [R2DBC Driver for Oracle Database](https://www.reddit.com/r/java/comments/m410wr/r2dbc_driver_for_oracle_database/)
+- [[Project Loom] New ea build based on jdk-17+13 is available for download.](https://www.reddit.com/r/java/comments/m40jio/project_loom_new_ea_build_based_on_jdk1713_is/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
