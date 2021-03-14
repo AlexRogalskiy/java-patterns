@@ -410,6 +410,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Kotlin dependency injection with Koin](https://www.javacodegeeks.com/2021/03/kotlin-dependency-injection-with-koin.html)
 - [Java 9 Modules: part 1](https://www.javacodegeeks.com/2021/03/java-9-modules-part-1.html)
 - [Jackson Kotlin extension and reified types](https://www.javacodegeeks.com/2021/03/jackson-kotlin-extension-and-reified-types.html)
 - [How To Get Started With Automated Browser Testing?](https://www.javacodegeeks.com/2021/03/how-to-get-started-with-automated-browser-testing.html)
@@ -419,7 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Parameterization with DataProvider in TestNG](https://www.javacodegeeks.com/2021/03/parameterization-with-dataprovider-in-testng.html)
 - [Creating Temporary Files with JUnit 5](https://www.javacodegeeks.com/2021/03/creating-temporary-files-with-junit-5.html)
 - [The Best Ruby Gems](https://www.javacodegeeks.com/2021/03/the-best-ruby-gems.html)
-- [[MEGA DEAL] The Master Learn to Code 2021 Certification Bundle (98% off)](https://www.javacodegeeks.com/2021/03/mega-deal-the-master-learn-to-code-2021-certification-bundle-98-off.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
