@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Java running better](https://www.reddit.com/r/java/comments/m56yzm/java_running_better/)
+- [Building GraphQL and REST endpoints in Spring Boot App](https://www.reddit.com/r/java/comments/m51f8m/building_graphql_and_rest_endpoints_in_spring/)
+- [Backpressure in Reactive Systems](https://www.reddit.com/r/java/comments/m4ysl1/backpressure_in_reactive_systems/)
+- [Java 16 Pattern Matching Fun](https://www.reddit.com/r/java/comments/m4wjnt/java_16_pattern_matching_fun/)
+- [All Modern Database Models in 5 min](https://www.reddit.com/r/java/comments/m4vp5j/all_modern_database_models_in_5_min/)
 - [A signal is a way to decouple between a subject(dispatcher) and the observers(listeners) in distributed event handling systems.](https://www.reddit.com/r/java/comments/m4eqm8/a_signal_is_a_way_to_decouple_between_a/)
 - [Downsides to using sun.misc.unsafe for serialization (assuming the code is thoroughly-tested)?](https://www.reddit.com/r/java/comments/m4b9f6/downsides_to_using_sunmiscunsafe_for/)
 - [WildFly Reactive Features 2.0 released!](https://www.reddit.com/r/java/comments/m48w0f/wildfly_reactive_features_20_released/)
-- [Help for MVC application](https://www.reddit.com/r/java/comments/m48oe5/help_for_mvc_application/)
 - [Don’t replace Spring Boot with Quarkus, replace it with Wildfly](https://www.reddit.com/r/java/comments/m48ed2/dont_replace_spring_boot_with_quarkus_replace_it/)
 - [What's new in the new Loom Early Access (EA) build (by Alan Bateman) (spoilers: changes in thread builder, scoped variables, executors, debugging; and what to look forward to)](https://www.reddit.com/r/java/comments/m47tyg/whats_new_in_the_new_loom_early_access_ea_build/)
-- [Easier DTO/Entity mapping](https://www.reddit.com/r/java/comments/m46221/easier_dtoentity_mapping/)
-- [What is the best eBook to learn Springboot? For Beginners](https://www.reddit.com/r/java/comments/m438q5/what_is_the_best_ebook_to_learn_springboot_for/)
-- [R2DBC Driver for Oracle Database](https://www.reddit.com/r/java/comments/m410wr/r2dbc_driver_for_oracle_database/)
-- [[Project Loom] New ea build based on jdk-17+13 is available for download.](https://www.reddit.com/r/java/comments/m40jio/project_loom_new_ea_build_based_on_jdk1713_is/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
