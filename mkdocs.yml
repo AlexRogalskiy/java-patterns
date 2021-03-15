@@ -1,6 +1,6 @@
 site_name: Java Patterns
 site_description: >
-  java design patterns and architectural concepts
+  java code patterns and general architectural design concepts
 site_author: Alexander Rogalskiy
 site_url: https://alexander-rogalsky.gitbook.io/java-patterns-docs/
 
@@ -43,6 +43,7 @@ markdown_extensions:
   - markdown.extensions.codehilite:
       linenums: true
       use_pygments: false
+      guess_lang: false
   - markdown.extensions.def_list
   - markdown.extensions.footnotes
   - markdown.extensions.meta
