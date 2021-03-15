@@ -410,6 +410,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Supply chain integration – An architectural introduction](https://www.javacodegeeks.com/2021/03/supply-chain-integration-an-architectural-introduction.html)
 - [Kotlin dependency injection with Koin](https://www.javacodegeeks.com/2021/03/kotlin-dependency-injection-with-koin.html)
 - [Java 9 Modules: part 1](https://www.javacodegeeks.com/2021/03/java-9-modules-part-1.html)
 - [Jackson Kotlin extension and reified types](https://www.javacodegeeks.com/2021/03/jackson-kotlin-extension-and-reified-types.html)
@@ -419,7 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [14 Best (and Free) Plugins for Eclipse IDE in 2021](https://www.javacodegeeks.com/2021/03/14-best-and-free-plugins-for-eclipse-ide-in-2021.html)
 - [Parameterization with DataProvider in TestNG](https://www.javacodegeeks.com/2021/03/parameterization-with-dataprovider-in-testng.html)
 - [Creating Temporary Files with JUnit 5](https://www.javacodegeeks.com/2021/03/creating-temporary-files-with-junit-5.html)
-- [The Best Ruby Gems](https://www.javacodegeeks.com/2021/03/the-best-ruby-gems.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
