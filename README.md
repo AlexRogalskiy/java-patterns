@@ -335,6 +335,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Java programmer posts_
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [What is Native Method in Java?](https://www.thejavaprogrammer.com/native-method-in-java/)
 - [Why main method is static in Java?](https://www.thejavaprogrammer.com/why-main-method-is-static-in-java/)
 - [Difference between Constructor and Method in Java](https://www.thejavaprogrammer.com/difference-between-constructor-and-method/)
 - [What is the Purpose of Default Constructor in Java](https://www.thejavaprogrammer.com/what-is-the-purpose-of-default-constructor-in-java/)
@@ -344,7 +345,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Best Way to Learn Java for a Beginner](https://www.thejavaprogrammer.com/best-way-to-learn-java-for-a-beginner/)
 - [What are the Advantages of Packages in Java?](https://www.thejavaprogrammer.com/what-are-the-advantages-of-packages-in-java/)
 - [What are the Various Access Specifiers for Java Classes?](https://www.thejavaprogrammer.com/what-are-the-various-access-specifiers-for-java-classes/)
-- [Can We Have Multiple Classes in Same Java File?](https://www.thejavaprogrammer.com/can-we-have-multiple-classes-in-same-java-file/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### _Dreamix posts_
