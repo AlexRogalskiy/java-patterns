@@ -320,6 +320,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [G1 &amp; Parallel GC Improvements in JDK 16](https://inside.java/2021/03/15/jdk16-g1-parallel-gc-changes/)
+- [New Loom Early Access Build](https://inside.java/2021/03/13/new-loom-ea-buils/)
 - [Simpler Serialization with Records](https://inside.java/2021/03/12/simpler-serilization-with-records/)
 - [New candidate JEP: 399: Intermediate-Representation Graph Serialization](https://inside.java/2021/03/11/new-candidate-jep-399/)
 - [New candidate JEP: 400: UTF-8 by Default](https://inside.java/2021/03/11/new-candidate-jep-400/)
@@ -328,8 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Guards](https://inside.java/2021/03/05/guards/)
 - [New candidate JEP: 398: Deprecate the Applet API for Removal](https://inside.java/2021/03/05/new-candidate-jep-398/)
 - [Code-First Unix Domain Socket Tutorial](https://inside.java/2021/03/04/uds-quick-tutorial/)
-- [Free Training and $25 Certification Exam](https://inside.java/2021/03/03/free-training-25usd-cert/)
-- [Project Lanai Early Access Build 10](https://inside.java/2021/03/03/new-lanai-ea-build/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
