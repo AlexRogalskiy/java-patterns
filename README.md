@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [Java running better](https://www.reddit.com/r/java/comments/m56yzm/java_running_better/)
+- [Getting started advice?](https://www.reddit.com/r/java/comments/m5qnme/getting_started_advice/)
+- [G1 & Parallel GC improvements in JDK 16](https://www.reddit.com/r/java/comments/m5kvvj/g1_parallel_gc_improvements_in_jdk_16/)
+- [Quarkus and Jakarta EE are gaining on Spring/Spring Boot](https://www.reddit.com/r/java/comments/m5k8hz/quarkus_and_jakarta_ee_are_gaining_on/)
+- [9 of the best java testing frameworks for 2021](https://www.reddit.com/r/java/comments/m5fbtr/9_of_the_best_java_testing_frameworks_for_2021/)
+- [We all know what C# users think of Java, but I have never heard what Java users think of C#. Care to share?](https://www.reddit.com/r/java/comments/m5f5m4/we_all_know_what_c_users_think_of_java_but_i_have/)
+- [Signing the OCA as a minor](https://www.reddit.com/r/java/comments/m59raf/signing_the_oca_as_a_minor/)
 - [Building GraphQL and REST endpoints in Spring Boot App](https://www.reddit.com/r/java/comments/m51f8m/building_graphql_and_rest_endpoints_in_spring/)
 - [Backpressure in Reactive Systems](https://www.reddit.com/r/java/comments/m4ysl1/backpressure_in_reactive_systems/)
 - [Java 16 Pattern Matching Fun](https://www.reddit.com/r/java/comments/m4wjnt/java_16_pattern_matching_fun/)
 - [All Modern Database Models in 5 min](https://www.reddit.com/r/java/comments/m4vp5j/all_modern_database_models_in_5_min/)
-- [A signal is a way to decouple between a subject(dispatcher) and the observers(listeners) in distributed event handling systems.](https://www.reddit.com/r/java/comments/m4eqm8/a_signal_is_a_way_to_decouple_between_a/)
-- [Downsides to using sun.misc.unsafe for serialization (assuming the code is thoroughly-tested)?](https://www.reddit.com/r/java/comments/m4b9f6/downsides_to_using_sunmiscunsafe_for/)
-- [WildFly Reactive Features 2.0 released!](https://www.reddit.com/r/java/comments/m48w0f/wildfly_reactive_features_20_released/)
-- [Don’t replace Spring Boot with Quarkus, replace it with Wildfly](https://www.reddit.com/r/java/comments/m48ed2/dont_replace_spring_boot_with_quarkus_replace_it/)
-- [What's new in the new Loom Early Access (EA) build (by Alan Bateman) (spoilers: changes in thread builder, scoped variables, executors, debugging; and what to look forward to)](https://www.reddit.com/r/java/comments/m47tyg/whats_new_in_the_new_loom_early_access_ea_build/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
