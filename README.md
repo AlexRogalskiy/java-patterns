@@ -410,6 +410,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [A Tuner Day](https://www.javacodegeeks.com/2021/03/a-tuner-day.html)
 - [[MEGA DEAL] The 2021 Premium Unity Game Developer Certification Bundle (98% off)](https://www.javacodegeeks.com/2021/03/mega-deal-the-2021-premium-unity-game-developer-certification-bundle-98-off.html)
 - [Supply chain integration – Common architectural elements](https://www.javacodegeeks.com/2021/03/supply-chain-integration-common-architectural-elements.html)
 - [Supply chain integration – An architectural introduction](https://www.javacodegeeks.com/2021/03/supply-chain-integration-an-architectural-introduction.html)
@@ -419,7 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [How To Get Started With Automated Browser Testing?](https://www.javacodegeeks.com/2021/03/how-to-get-started-with-automated-browser-testing.html)
 - [Top Automation Testing Trends To Look Out In 2021](https://www.javacodegeeks.com/2021/03/top-automation-testing-trends-to-look-out-in-2021.html)
 - [The Final Straw](https://www.javacodegeeks.com/2021/03/the-final-straw.html)
-- [14 Best (and Free) Plugins for Eclipse IDE in 2021](https://www.javacodegeeks.com/2021/03/14-best-and-free-plugins-for-eclipse-ide-in-2021.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
