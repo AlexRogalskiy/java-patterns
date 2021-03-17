@@ -320,6 +320,9 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [The Arrival of Java 16!](https://inside.java/2021/03/16/the-arrival-of-java16/)
+- [Episode 15 “Java 16 is Here!” with Mikael Vidstedt](https://inside.java/2021/03/16/podcast-015/)
+- [JDK Mission Control version 8.0.0 (JMC 8) is now available](https://inside.java/2021/03/16/jmc-8-released/)
 - [G1 &amp; Parallel GC Improvements in JDK 16](https://inside.java/2021/03/15/jdk16-g1-parallel-gc-changes/)
 - [New Loom Early Access Build](https://inside.java/2021/03/13/new-loom-ea-buils/)
 - [Simpler Serialization with Records](https://inside.java/2021/03/12/simpler-serilization-with-records/)
@@ -327,9 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [New candidate JEP: 400: UTF-8 by Default](https://inside.java/2021/03/11/new-candidate-jep-400/)
 - [JDK 16 for the record(s)](https://inside.java/2021/03/11/video-for-the-records/)
 - [Episode 14 “Records Serialization” with Julia Boes and Chris Hegarty](https://inside.java/2021/03/08/podcast-014/)
-- [Guards](https://inside.java/2021/03/05/guards/)
-- [New candidate JEP: 398: Deprecate the Applet API for Removal](https://inside.java/2021/03/05/new-candidate-jep-398/)
-- [Code-First Unix Domain Socket Tutorial](https://inside.java/2021/03/04/uds-quick-tutorial/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
