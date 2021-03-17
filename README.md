@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [Getting started advice?](https://www.reddit.com/r/java/comments/m5qnme/getting_started_advice/)
-- [G1 & Parallel GC improvements in JDK 16](https://www.reddit.com/r/java/comments/m5kvvj/g1_parallel_gc_improvements_in_jdk_16/)
-- [Quarkus and Jakarta EE are gaining on Spring/Spring Boot](https://www.reddit.com/r/java/comments/m5k8hz/quarkus_and_jakarta_ee_are_gaining_on/)
-- [9 of the best java testing frameworks for 2021](https://www.reddit.com/r/java/comments/m5fbtr/9_of_the_best_java_testing_frameworks_for_2021/)
-- [We all know what C# users think of Java, but I have never heard what Java users think of C#. Care to share?](https://www.reddit.com/r/java/comments/m5f5m4/we_all_know_what_c_users_think_of_java_but_i_have/)
-- [Signing the OCA as a minor](https://www.reddit.com/r/java/comments/m59raf/signing_the_oca_as_a_minor/)
-- [Building GraphQL and REST endpoints in Spring Boot App](https://www.reddit.com/r/java/comments/m51f8m/building_graphql_and_rest_endpoints_in_spring/)
-- [Backpressure in Reactive Systems](https://www.reddit.com/r/java/comments/m4ysl1/backpressure_in_reactive_systems/)
-- [Java 16 Pattern Matching Fun](https://www.reddit.com/r/java/comments/m4wjnt/java_16_pattern_matching_fun/)
-- [All Modern Database Models in 5 min](https://www.reddit.com/r/java/comments/m4vp5j/all_modern_database_models_in_5_min/)
+- [Best way to pick up kotlin as a java developer](https://www.reddit.com/r/java/comments/m6opy0/best_way_to_pick_up_kotlin_as_a_java_developer/)
+- [Free Oracle technologies for Developers (no strings attached)](https://www.reddit.com/r/java/comments/m6jxjr/free_oracle_technologies_for_developers_no/)
+- [Get ready for Java Z-Day 2021!](https://www.reddit.com/r/java/comments/m6hu1n/get_ready_for_java_zday_2021/)
+- [Books on Spring from recent years](https://www.reddit.com/r/java/comments/m6gzxn/books_on_spring_from_recent_years/)
+- [Oracle Announces Java 16](https://www.reddit.com/r/java/comments/m6fzov/oracle_announces_java_16/)
+- [Java 16 Release Party with nipafx](https://www.reddit.com/r/java/comments/m6ffr1/java_16_release_party_with_nipafx/)
+- [Question for java devs](https://www.reddit.com/r/java/comments/m6d9dt/question_for_java_devs/)
+- [What are some good resources of Java web development](https://www.reddit.com/r/java/comments/m6cmqx/what_are_some_good_resources_of_java_web/)
+- [The Modern Java Platform - 2021 Edition](https://www.reddit.com/r/java/comments/m6chk7/the_modern_java_platform_2021_edition/)
+- [The arrival of Java 16](https://www.reddit.com/r/java/comments/m6buoc/the_arrival_of_java_16/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
