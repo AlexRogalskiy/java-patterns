@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [Best way to pick up kotlin as a java developer](https://www.reddit.com/r/java/comments/m6opy0/best_way_to_pick_up_kotlin_as_a_java_developer/)
-- [Free Oracle technologies for Developers (no strings attached)](https://www.reddit.com/r/java/comments/m6jxjr/free_oracle_technologies_for_developers_no/)
-- [Get ready for Java Z-Day 2021!](https://www.reddit.com/r/java/comments/m6hu1n/get_ready_for_java_zday_2021/)
-- [Books on Spring from recent years](https://www.reddit.com/r/java/comments/m6gzxn/books_on_spring_from_recent_years/)
-- [Oracle Announces Java 16](https://www.reddit.com/r/java/comments/m6fzov/oracle_announces_java_16/)
-- [Java 16 Release Party with nipafx](https://www.reddit.com/r/java/comments/m6ffr1/java_16_release_party_with_nipafx/)
-- [Question for java devs](https://www.reddit.com/r/java/comments/m6d9dt/question_for_java_devs/)
-- [What are some good resources of Java web development](https://www.reddit.com/r/java/comments/m6cmqx/what_are_some_good_resources_of_java_web/)
-- [The Modern Java Platform - 2021 Edition](https://www.reddit.com/r/java/comments/m6chk7/the_modern_java_platform_2021_edition/)
-- [The arrival of Java 16](https://www.reddit.com/r/java/comments/m6buoc/the_arrival_of_java_16/)
+- [Candidate JEP 403: Strongly Encapsulate JDK Internals [spoiler: --add-opens still works; sun.misc.Unsafe still available]](https://www.reddit.com/r/java/comments/m7fjkm/candidate_jep_403_strongly_encapsulate_jdk/)
+- [JEP 402: Unify the Basic Primitives with Objects (Preview)](https://www.reddit.com/r/java/comments/m7dub2/jep_402_unify_the_basic_primitives_with_objects/)
+- [JEP 401: Primitive Objects (Preview)](https://www.reddit.com/r/java/comments/m7dtp8/jep_401_primitive_objects_preview/)
+- [Now Candidate JEPs: Primitive Objects (Preview) & Unify the Basic Primitives with Objects (Preview)](https://www.reddit.com/r/java/comments/m7dnt2/now_candidate_jeps_primitive_objects_preview/)
+- [Eclipse 2021-03 Java IDE Improvements](https://www.reddit.com/r/java/comments/m76pgd/eclipse_202103_java_ide_improvements/)
+- [How to intercept & debug all Java HTTPS, with zero code changes](https://www.reddit.com/r/java/comments/m76okn/how_to_intercept_debug_all_java_https_with_zero/)
+- [I've curated a free list of remote java jobs which all have a social / environmental impact](https://www.reddit.com/r/java/comments/m75fj5/ive_curated_a_free_list_of_remote_java_jobs_which/)
+- [FYI: gradle is not yet compatible with Java 16](https://www.reddit.com/r/java/comments/m748da/fyi_gradle_is_not_yet_compatible_with_java_16/)
+- [FYI: gradle is not yet compatible with Java 16](https://www.reddit.com/r/java/comments/m745of/fyi_gradle_is_not_yet_compatible_with_java_16/)
+- [Billion Events Per Second with Millisecond Latency: Streaming Analytics at Giga-Scale](https://www.reddit.com/r/java/comments/m72p06/billion_events_per_second_with_millisecond/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
