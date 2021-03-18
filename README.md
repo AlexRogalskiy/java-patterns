@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Test Automation Using Selenium ChromeDriver](https://www.javacodegeeks.com/2021/03/test-automation-using-selenium-chromedriver.html)
+- [Deriving a Kotlin “Try” type](https://www.javacodegeeks.com/2021/03/deriving-a-kotlin-try-type.html)
 - [A Tuner Day](https://www.javacodegeeks.com/2021/03/a-tuner-day.html)
 - [[MEGA DEAL] The 2021 Premium Unity Game Developer Certification Bundle (98% off)](https://www.javacodegeeks.com/2021/03/mega-deal-the-2021-premium-unity-game-developer-certification-bundle-98-off.html)
 - [Supply chain integration – Common architectural elements](https://www.javacodegeeks.com/2021/03/supply-chain-integration-common-architectural-elements.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Java 9 Modules: part 1](https://www.javacodegeeks.com/2021/03/java-9-modules-part-1.html)
 - [Jackson Kotlin extension and reified types](https://www.javacodegeeks.com/2021/03/jackson-kotlin-extension-and-reified-types.html)
 - [How To Get Started With Automated Browser Testing?](https://www.javacodegeeks.com/2021/03/how-to-get-started-with-automated-browser-testing.html)
-- [Top Automation Testing Trends To Look Out In 2021](https://www.javacodegeeks.com/2021/03/top-automation-testing-trends-to-look-out-in-2021.html)
-- [The Final Straw](https://www.javacodegeeks.com/2021/03/the-final-straw.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
