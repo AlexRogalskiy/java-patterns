@@ -320,6 +320,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [JEP proposed to target JDK 17: 391: macOS/AArch64 Port](https://inside.java/2021/03/17/jep-391-proposed-to-target-jdk17/)
+- [JEP proposed to target JDK 17: 398: Deprecate the Applet API for Removal](https://inside.java/2021/03/17/jep-398-proposed-to-target-jdk17/)
 - [The Arrival of Java 16!](https://inside.java/2021/03/16/the-arrival-of-java16/)
 - [Episode 15 “Java 16 is Here!” with Mikael Vidstedt](https://inside.java/2021/03/16/podcast-015/)
 - [JDK Mission Control version 8.0.0 (JMC 8) is now available](https://inside.java/2021/03/16/jmc-8-released/)
@@ -328,8 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Simpler Serialization with Records](https://inside.java/2021/03/12/simpler-serilization-with-records/)
 - [New candidate JEP: 399: Intermediate-Representation Graph Serialization](https://inside.java/2021/03/11/new-candidate-jep-399/)
 - [New candidate JEP: 400: UTF-8 by Default](https://inside.java/2021/03/11/new-candidate-jep-400/)
-- [JDK 16 for the record(s)](https://inside.java/2021/03/11/video-for-the-records/)
-- [Episode 14 “Records Serialization” with Julia Boes and Chris Hegarty](https://inside.java/2021/03/08/podcast-014/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
