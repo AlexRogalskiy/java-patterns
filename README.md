@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [EGit 5.11 (Eclipse 4.19's git) - New and Noteworthy](https://www.reddit.com/r/java/comments/m83sjn/egit_511_eclipse_419s_git_new_and_noteworthy/)
+- [Silly architecture question with Loom](https://www.reddit.com/r/java/comments/m83htg/silly_architecture_question_with_loom/)
+- [Is there any possibility to check if a WAV file contains sound? I'm looking for a simple solution to check sound persistence in a file.](https://www.reddit.com/r/java/comments/m7yvk4/is_there_any_possibility_to_check_if_a_wav_file/)
+- [Weld 3.1.7 released as multi-release jar!](https://www.reddit.com/r/java/comments/m7thh3/weld_317_released_as_multirelease_jar/)
+- [Are there byte code differences between different Java releases?](https://www.reddit.com/r/java/comments/m7r8nm/are_there_byte_code_differences_between_different/)
+- [JDK 16 Security Enhancements](https://www.reddit.com/r/java/comments/m7qzb6/jdk_16_security_enhancements/)
+- [Apache NetBeans 12.3 has been released](https://www.reddit.com/r/java/comments/m7m58x/apache_netbeans_123_has_been_released/)
+- [Candidate JEP 404: Generational Shenandoah](https://www.reddit.com/r/java/comments/m7kp9n/candidate_jep_404_generational_shenandoah/)
+- [Introduction to Maven Toolchains](https://www.reddit.com/r/java/comments/m7jc0a/introduction_to_maven_toolchains/)
 - [Candidate JEP 403: Strongly Encapsulate JDK Internals [spoiler: --add-opens still works; sun.misc.Unsafe still available]](https://www.reddit.com/r/java/comments/m7fjkm/candidate_jep_403_strongly_encapsulate_jdk/)
-- [JEP 402: Unify the Basic Primitives with Objects (Preview)](https://www.reddit.com/r/java/comments/m7dub2/jep_402_unify_the_basic_primitives_with_objects/)
-- [JEP 401: Primitive Objects (Preview)](https://www.reddit.com/r/java/comments/m7dtp8/jep_401_primitive_objects_preview/)
-- [Now Candidate JEPs: Primitive Objects (Preview) & Unify the Basic Primitives with Objects (Preview)](https://www.reddit.com/r/java/comments/m7dnt2/now_candidate_jeps_primitive_objects_preview/)
-- [Eclipse 2021-03 Java IDE Improvements](https://www.reddit.com/r/java/comments/m76pgd/eclipse_202103_java_ide_improvements/)
-- [How to intercept & debug all Java HTTPS, with zero code changes](https://www.reddit.com/r/java/comments/m76okn/how_to_intercept_debug_all_java_https_with_zero/)
-- [I've curated a free list of remote java jobs which all have a social / environmental impact](https://www.reddit.com/r/java/comments/m75fj5/ive_curated_a_free_list_of_remote_java_jobs_which/)
-- [FYI: gradle is not yet compatible with Java 16](https://www.reddit.com/r/java/comments/m748da/fyi_gradle_is_not_yet_compatible_with_java_16/)
-- [FYI: gradle is not yet compatible with Java 16](https://www.reddit.com/r/java/comments/m745of/fyi_gradle_is_not_yet_compatible_with_java_16/)
-- [Billion Events Per Second with Millisecond Latency: Streaming Analytics at Giga-Scale](https://www.reddit.com/r/java/comments/m72p06/billion_events_per_second_with_millisecond/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
