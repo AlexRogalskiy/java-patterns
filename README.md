@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Introduction into GraalVM (Community Edition): GraalVM as a Polyglot Platform](https://www.javacodegeeks.com/2021/03/introduction-into-graalvm-community-edition-graalvm-as-a-polyglot-platform.html)
+- [Distributed vs Replicated Cache](https://www.javacodegeeks.com/2021/03/distributed-vs-replicated-cache.html)
 - [Test Automation Using Selenium ChromeDriver](https://www.javacodegeeks.com/2021/03/test-automation-using-selenium-chromedriver.html)
 - [Deriving a Kotlin “Try” type](https://www.javacodegeeks.com/2021/03/deriving-a-kotlin-try-type.html)
 - [A Tuner Day](https://www.javacodegeeks.com/2021/03/a-tuner-day.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Supply chain integration – An architectural introduction](https://www.javacodegeeks.com/2021/03/supply-chain-integration-an-architectural-introduction.html)
 - [Kotlin dependency injection with Koin](https://www.javacodegeeks.com/2021/03/kotlin-dependency-injection-with-koin.html)
 - [Java 9 Modules: part 1](https://www.javacodegeeks.com/2021/03/java-9-modules-part-1.html)
-- [Jackson Kotlin extension and reified types](https://www.javacodegeeks.com/2021/03/jackson-kotlin-extension-and-reified-types.html)
-- [How To Get Started With Automated Browser Testing?](https://www.javacodegeeks.com/2021/03/how-to-get-started-with-automated-browser-testing.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
