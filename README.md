@@ -410,6 +410,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Handling Injection Attacks in Java](https://www.javacodegeeks.com/2021/03/handling-injection-attacks-in-java.html)
 - [Introduction into GraalVM (Community Edition): GraalVM as a Polyglot Platform](https://www.javacodegeeks.com/2021/03/introduction-into-graalvm-community-edition-graalvm-as-a-polyglot-platform.html)
 - [Distributed vs Replicated Cache](https://www.javacodegeeks.com/2021/03/distributed-vs-replicated-cache.html)
 - [Test Automation Using Selenium ChromeDriver](https://www.javacodegeeks.com/2021/03/test-automation-using-selenium-chromedriver.html)
@@ -419,7 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Supply chain integration – Common architectural elements](https://www.javacodegeeks.com/2021/03/supply-chain-integration-common-architectural-elements.html)
 - [Supply chain integration – An architectural introduction](https://www.javacodegeeks.com/2021/03/supply-chain-integration-an-architectural-introduction.html)
 - [Kotlin dependency injection with Koin](https://www.javacodegeeks.com/2021/03/kotlin-dependency-injection-with-koin.html)
-- [Java 9 Modules: part 1](https://www.javacodegeeks.com/2021/03/java-9-modules-part-1.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
