@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [OpenJDK 16 Binaries](https://www.reddit.com/r/java/comments/m8ms57/openjdk_16_binaries/)
+- [Enabling Jakarta EE 9 for development and test by using the Eclipse Transformer](https://www.reddit.com/r/java/comments/m8k5s8/enabling_jakarta_ee_9_for_development_and_test_by/)
+- [Bootloader Written for Java](https://www.reddit.com/r/java/comments/m8juvk/bootloader_written_for_java/)
+- [Hosting Angular + Spring](https://www.reddit.com/r/java/comments/m8iwl6/hosting_angular_spring/)
+- [Examples of GoF Design Patterns in Java's core libraries.](https://www.reddit.com/r/java/comments/m8gd04/examples_of_gof_design_patterns_in_javas_core/)
+- [Kind of a odd question but does anyone know a cheap old dumb phone like Nokia or something that runs java](https://www.reddit.com/r/java/comments/m8ftpo/kind_of_a_odd_question_but_does_anyone_know_a/)
+- [Illegal Argument: 171: Breaking (up) The Build](https://www.reddit.com/r/java/comments/m8fjky/illegal_argument_171_breaking_up_the_build/)
+- [Spring Data JPA MongoDB expressions](https://www.reddit.com/r/java/comments/m8eo5k/spring_data_jpa_mongodb_expressions/)
+- [Troubleshooting OutOfMemoryError - Heap dump, Eclipse MAT](https://www.reddit.com/r/java/comments/m8e9cm/troubleshooting_outofmemoryerror_heap_dump/)
 - [EGit 5.11 (Eclipse 4.19's git) - New and Noteworthy](https://www.reddit.com/r/java/comments/m83sjn/egit_511_eclipse_419s_git_new_and_noteworthy/)
-- [Silly architecture question with Loom](https://www.reddit.com/r/java/comments/m83htg/silly_architecture_question_with_loom/)
-- [Is there any possibility to check if a WAV file contains sound? I'm looking for a simple solution to check sound persistence in a file.](https://www.reddit.com/r/java/comments/m7yvk4/is_there_any_possibility_to_check_if_a_wav_file/)
-- [Weld 3.1.7 released as multi-release jar!](https://www.reddit.com/r/java/comments/m7thh3/weld_317_released_as_multirelease_jar/)
-- [Are there byte code differences between different Java releases?](https://www.reddit.com/r/java/comments/m7r8nm/are_there_byte_code_differences_between_different/)
-- [JDK 16 Security Enhancements](https://www.reddit.com/r/java/comments/m7qzb6/jdk_16_security_enhancements/)
-- [Apache NetBeans 12.3 has been released](https://www.reddit.com/r/java/comments/m7m58x/apache_netbeans_123_has_been_released/)
-- [Candidate JEP 404: Generational Shenandoah](https://www.reddit.com/r/java/comments/m7kp9n/candidate_jep_404_generational_shenandoah/)
-- [Introduction to Maven Toolchains](https://www.reddit.com/r/java/comments/m7jc0a/introduction_to_maven_toolchains/)
-- [Candidate JEP 403: Strongly Encapsulate JDK Internals [spoiler: --add-opens still works; sun.misc.Unsafe still available]](https://www.reddit.com/r/java/comments/m7fjkm/candidate_jep_403_strongly_encapsulate_jdk/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
