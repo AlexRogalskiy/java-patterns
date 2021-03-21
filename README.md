@@ -410,6 +410,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Apache Camel 3.9 – No more saw tooth JVM garbage collection](https://www.javacodegeeks.com/2021/03/apache-camel-3-9-no-more-saw-tooth-jvm-garbage-collection.html)
 - [Handling Injection Attacks in Java](https://www.javacodegeeks.com/2021/03/handling-injection-attacks-in-java.html)
 - [Introduction into GraalVM (Community Edition): GraalVM as a Polyglot Platform](https://www.javacodegeeks.com/2021/03/introduction-into-graalvm-community-edition-graalvm-as-a-polyglot-platform.html)
 - [Distributed vs Replicated Cache](https://www.javacodegeeks.com/2021/03/distributed-vs-replicated-cache.html)
@@ -419,7 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [[MEGA DEAL] The 2021 Premium Unity Game Developer Certification Bundle (98% off)](https://www.javacodegeeks.com/2021/03/mega-deal-the-2021-premium-unity-game-developer-certification-bundle-98-off.html)
 - [Supply chain integration – Common architectural elements](https://www.javacodegeeks.com/2021/03/supply-chain-integration-common-architectural-elements.html)
 - [Supply chain integration – An architectural introduction](https://www.javacodegeeks.com/2021/03/supply-chain-integration-an-architectural-introduction.html)
-- [Kotlin dependency injection with Koin](https://www.javacodegeeks.com/2021/03/kotlin-dependency-injection-with-koin.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
