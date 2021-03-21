@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [What is another language I should learn, that'll make me a better Java developer and developer in general](https://www.reddit.com/r/java/comments/m9fv6o/what_is_another_language_i_should_learn_thatll/)
+- [Now that records are official, hoping for expanded support from popular libraries and frameworks](https://www.reddit.com/r/java/comments/m9duv8/now_that_records_are_official_hoping_for_expanded/)
+- [Oracle JDK Mission Control version 8.0.0 (JMC 8) is now GA](https://www.reddit.com/r/java/comments/m93scq/oracle_jdk_mission_control_version_800_jmc_8_is/)
+- [The End of Applets](https://www.reddit.com/r/java/comments/m93krz/the_end_of_applets/)
+- [Microservices - maybe not - Techblog - Hostmoz](https://www.reddit.com/r/java/comments/m91w6b/microservices_maybe_not_techblog_hostmoz/)
 - [OpenJDK 16 Binaries](https://www.reddit.com/r/java/comments/m8ms57/openjdk_16_binaries/)
 - [Enabling Jakarta EE 9 for development and test by using the Eclipse Transformer](https://www.reddit.com/r/java/comments/m8k5s8/enabling_jakarta_ee_9_for_development_and_test_by/)
 - [Bootloader Written for Java](https://www.reddit.com/r/java/comments/m8juvk/bootloader_written_for_java/)
 - [Hosting Angular + Spring](https://www.reddit.com/r/java/comments/m8iwl6/hosting_angular_spring/)
 - [Examples of GoF Design Patterns in Java's core libraries.](https://www.reddit.com/r/java/comments/m8gd04/examples_of_gof_design_patterns_in_javas_core/)
-- [Kind of a odd question but does anyone know a cheap old dumb phone like Nokia or something that runs java](https://www.reddit.com/r/java/comments/m8ftpo/kind_of_a_odd_question_but_does_anyone_know_a/)
-- [Illegal Argument: 171: Breaking (up) The Build](https://www.reddit.com/r/java/comments/m8fjky/illegal_argument_171_breaking_up_the_build/)
-- [Spring Data JPA MongoDB expressions](https://www.reddit.com/r/java/comments/m8eo5k/spring_data_jpa_mongodb_expressions/)
-- [Troubleshooting OutOfMemoryError - Heap dump, Eclipse MAT](https://www.reddit.com/r/java/comments/m8e9cm/troubleshooting_outofmemoryerror_heap_dump/)
-- [EGit 5.11 (Eclipse 4.19's git) - New and Noteworthy](https://www.reddit.com/r/java/comments/m83sjn/egit_511_eclipse_419s_git_new_and_noteworthy/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
