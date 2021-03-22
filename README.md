@@ -245,7 +245,9 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [What is another language I should learn, that'll make me a better Java developer and developer in general](https://www.reddit.com/r/java/comments/m9fv6o/what_is_another_language_i_should_learn_thatll/)
+- [Java lambdas can deadlock parallel class initialization](https://www.reddit.com/r/java/comments/ma0y6b/java_lambdas_can_deadlock_parallel_class/)
+- [Kicking Spring Native's tires](https://www.reddit.com/r/java/comments/ma06bw/kicking_spring_natives_tires/)
+- [Anecdotal aarch64 / M1 performance numbers](https://www.reddit.com/r/java/comments/m9x5j9/anecdotal_aarch64_m1_performance_numbers/)
 - [Now that records are official, hoping for expanded support from popular libraries and frameworks](https://www.reddit.com/r/java/comments/m9duv8/now_that_records_are_official_hoping_for_expanded/)
 - [Oracle JDK Mission Control version 8.0.0 (JMC 8) is now GA](https://www.reddit.com/r/java/comments/m93scq/oracle_jdk_mission_control_version_800_jmc_8_is/)
 - [The End of Applets](https://www.reddit.com/r/java/comments/m93krz/the_end_of_applets/)
@@ -253,8 +255,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [OpenJDK 16 Binaries](https://www.reddit.com/r/java/comments/m8ms57/openjdk_16_binaries/)
 - [Enabling Jakarta EE 9 for development and test by using the Eclipse Transformer](https://www.reddit.com/r/java/comments/m8k5s8/enabling_jakarta_ee_9_for_development_and_test_by/)
 - [Bootloader Written for Java](https://www.reddit.com/r/java/comments/m8juvk/bootloader_written_for_java/)
-- [Hosting Angular + Spring](https://www.reddit.com/r/java/comments/m8iwl6/hosting_angular_spring/)
-- [Examples of GoF Design Patterns in Java's core libraries.](https://www.reddit.com/r/java/comments/m8gd04/examples_of_gof_design_patterns_in_javas_core/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
