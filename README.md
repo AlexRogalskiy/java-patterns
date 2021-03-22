@@ -305,6 +305,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Better code posts_
 
 <!-- BETTERCODE-POST-LIST:START -->
+- [How to Deploy Spring Boot Application on AWS ECS](https://betterjavacode.com/aws/how-to-deploy-spring-boot-application-on-aws-ecs)
 - [User Management with Okta SDK and Spring Boot](https://betterjavacode.com/spring-boot/user-management-with-okta-sdk-and-spring-boot)
 - [How to Use Circuit Breaker in Spring Boot Application](https://betterjavacode.com/spring-boot/how-to-use-circuit-breaker-in-spring-boot-application)
 - [Step by Step Spring Batch Tutorial](https://betterjavacode.com/spring-boot/step-by-step-spring-batch-tutorial)
@@ -314,7 +315,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Spring WebClient vs RestTemplate – Comparison and Features](https://betterjavacode.com/programming/spring-webclient-vs-resttemplate-comparison-and-features)
 - [The Complete Guide to Use Docker Compose](https://betterjavacode.com/docker/the-complete-guide-to-use-docker-compose)
 - [Fundamentals of a Distributed System Design](https://betterjavacode.com/programming/fundamentals-of-a-distributed-system-design)
-- [7 AWS Services Every Developer Should Know About](https://betterjavacode.com/programming/7-aws-services-every-developer-should-know-about)
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### _Inside Java posts_
