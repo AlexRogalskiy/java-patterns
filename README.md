@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Port of Lemire's Double parser is more than 4X faster than openjdk double parser](https://www.reddit.com/r/java/comments/mazdua/port_of_lemires_double_parser_is_more_than_4x/)
+- [Vector API (JEP 338) Benchmark Results for Matrix Multiplication, Image Convolution, and Image Thresholding.](https://www.reddit.com/r/java/comments/mat2hb/vector_api_jep_338_benchmark_results_for_matrix/)
+- [67 New Features in JDK 16 - Azul](https://www.reddit.com/r/java/comments/mas53z/67_new_features_in_jdk_16_azul/)
+- [Why do I need an oracle account for JDK 11?](https://www.reddit.com/r/java/comments/mar1rt/why_do_i_need_an_oracle_account_for_jdk_11/)
+- [Weld 4.0.1.Final released!](https://www.reddit.com/r/java/comments/maql32/weld_401final_released/)
+- [Do DI annotations create constructors?](https://www.reddit.com/r/java/comments/maq0t9/do_di_annotations_create_constructors/)
+- [A Deep Dive into MicroProfile 4.0 (with Open Liberty)](https://www.reddit.com/r/java/comments/map4r9/a_deep_dive_into_microprofile_40_with_open_liberty/)
+- [ZGC | What's new in JDK 16](https://www.reddit.com/r/java/comments/mal49j/zgc_whats_new_in_jdk_16/)
+- [The Strictness Principle - Restrict the scope by default. Increase the scope as the need arises.](https://www.reddit.com/r/java/comments/magipy/the_strictness_principle_restrict_the_scope_by/)
 - [Java lambdas can deadlock parallel class initialization](https://www.reddit.com/r/java/comments/ma0y6b/java_lambdas_can_deadlock_parallel_class/)
-- [Kicking Spring Native's tires](https://www.reddit.com/r/java/comments/ma06bw/kicking_spring_natives_tires/)
-- [Anecdotal aarch64 / M1 performance numbers](https://www.reddit.com/r/java/comments/m9x5j9/anecdotal_aarch64_m1_performance_numbers/)
-- [Now that records are official, hoping for expanded support from popular libraries and frameworks](https://www.reddit.com/r/java/comments/m9duv8/now_that_records_are_official_hoping_for_expanded/)
-- [Oracle JDK Mission Control version 8.0.0 (JMC 8) is now GA](https://www.reddit.com/r/java/comments/m93scq/oracle_jdk_mission_control_version_800_jmc_8_is/)
-- [The End of Applets](https://www.reddit.com/r/java/comments/m93krz/the_end_of_applets/)
-- [Microservices - maybe not - Techblog - Hostmoz](https://www.reddit.com/r/java/comments/m91w6b/microservices_maybe_not_techblog_hostmoz/)
-- [OpenJDK 16 Binaries](https://www.reddit.com/r/java/comments/m8ms57/openjdk_16_binaries/)
-- [Enabling Jakarta EE 9 for development and test by using the Eclipse Transformer](https://www.reddit.com/r/java/comments/m8k5s8/enabling_jakarta_ee_9_for_development_and_test_by/)
-- [Bootloader Written for Java](https://www.reddit.com/r/java/comments/m8juvk/bootloader_written_for_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
