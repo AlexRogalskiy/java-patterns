@@ -320,6 +320,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [ZGC - What’s new in JDK 16](https://inside.java/2021/03/22/zgc-in-jdk16/)
 - [JDK 16 Security Enhancements](https://inside.java/2021/03/18/jdk16-security-enhancements/)
 - [New candidate JEP: 401: Primitive Objects (Preview)](https://inside.java/2021/03/18/new-candidate-jep-401/)
 - [New candidate JEP: 402: Unify the Basic Primitives with Objects (Preview)](https://inside.java/2021/03/18/new-candidate-jep-402/)
@@ -329,7 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [JEP proposed to target JDK 17: 398: Deprecate the Applet API for Removal](https://inside.java/2021/03/17/jep-398-proposed-to-target-jdk17/)
 - [The Arrival of Java 16!](https://inside.java/2021/03/16/the-arrival-of-java16/)
 - [Episode 15 “Java 16 is Here!” with Mikael Vidstedt](https://inside.java/2021/03/16/podcast-015/)
-- [JDK Mission Control version 8.0.0 (JMC 8) is now available](https://inside.java/2021/03/16/jmc-8-released/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
