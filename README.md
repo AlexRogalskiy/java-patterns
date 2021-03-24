@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [What to know about Java for an internship?](https://www.reddit.com/r/java/comments/mbqcqf/what_to_know_about_java_for_an_internship/)
+- [Native Java IDE for projects browsing](https://www.reddit.com/r/java/comments/mbp12g/native_java_ide_for_projects_browsing/)
+- [Any updates on project vallah?](https://www.reddit.com/r/java/comments/mbkuk9/any_updates_on_project_vallah/)
+- [Visualize the architecture of your Java app, in VS Code, in 2 ¹/₂ minutes](https://www.reddit.com/r/java/comments/mbjomm/visualize_the_architecture_of_your_java_app_in_vs/)
+- [Jetty 11 released!](https://www.reddit.com/r/java/comments/mbdvp2/jetty_11_released/)
+- [How to create a ConfigSource for Quarkus that knows about existing properties](https://www.reddit.com/r/java/comments/mbcofk/how_to_create_a_configsource_for_quarkus_that/)
+- [libminecraft's whole-program optimization may be able to reduce GC pauses](https://www.reddit.com/r/java/comments/mbax2e/libminecrafts_wholeprogram_optimization_may_be/)
+- [Any good Java beginner-friendly projects?](https://www.reddit.com/r/java/comments/mb9yp0/any_good_java_beginnerfriendly_projects/)
 - [Port of Lemire's Double parser is more than 4X faster than openjdk double parser](https://www.reddit.com/r/java/comments/mazdua/port_of_lemires_double_parser_is_more_than_4x/)
 - [Vector API (JEP 338) Benchmark Results for Matrix Multiplication, Image Convolution, and Image Thresholding.](https://www.reddit.com/r/java/comments/mat2hb/vector_api_jep_338_benchmark_results_for_matrix/)
-- [67 New Features in JDK 16 - Azul](https://www.reddit.com/r/java/comments/mas53z/67_new_features_in_jdk_16_azul/)
-- [Why do I need an oracle account for JDK 11?](https://www.reddit.com/r/java/comments/mar1rt/why_do_i_need_an_oracle_account_for_jdk_11/)
-- [Weld 4.0.1.Final released!](https://www.reddit.com/r/java/comments/maql32/weld_401final_released/)
-- [Do DI annotations create constructors?](https://www.reddit.com/r/java/comments/maq0t9/do_di_annotations_create_constructors/)
-- [A Deep Dive into MicroProfile 4.0 (with Open Liberty)](https://www.reddit.com/r/java/comments/map4r9/a_deep_dive_into_microprofile_40_with_open_liberty/)
-- [ZGC | What's new in JDK 16](https://www.reddit.com/r/java/comments/mal49j/zgc_whats_new_in_jdk_16/)
-- [The Strictness Principle - Restrict the scope by default. Increase the scope as the need arises.](https://www.reddit.com/r/java/comments/magipy/the_strictness_principle_restrict_the_scope_by/)
-- [Java lambdas can deadlock parallel class initialization](https://www.reddit.com/r/java/comments/ma0y6b/java_lambdas_can_deadlock_parallel_class/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
