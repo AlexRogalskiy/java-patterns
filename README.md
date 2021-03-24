@@ -410,6 +410,9 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Introduction into GraalVM (Community Edition): GraalVM for the rest of us](https://www.javacodegeeks.com/2021/03/introduction-into-graalvm-community-edition-graalvm-for-the-rest-of-us.html)
+- [5 Reasons You Should Attend RedisConf 2021](https://www.javacodegeeks.com/2021/03/5-reasons-you-should-attend-redisconf-2021.html)
+- [Leveraging static code analysis in a Ruby CI pipeline](https://www.javacodegeeks.com/2021/03/leveraging-static-code-analysis-in-a-ruby-ci-pipeline.html)
 - [[MEGA DEAL] The 2021 Premium Python Certification Bootcamp Bundle (98% off)](https://www.javacodegeeks.com/2021/03/mega-deal-the-2021-premium-python-certification-bootcamp-bundle-98-off.html)
 - [9 Of The Best Java Testing Frameworks For 2021](https://www.javacodegeeks.com/2021/03/9-of-the-best-java-testing-frameworks-for-2021.html)
 - [Supply chain integration – Example store integration architecture](https://www.javacodegeeks.com/2021/03/supply-chain-integration-example-store-integration-architecture.html)
@@ -417,9 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Handling Injection Attacks in Java](https://www.javacodegeeks.com/2021/03/handling-injection-attacks-in-java.html)
 - [Introduction into GraalVM (Community Edition): GraalVM as a Polyglot Platform](https://www.javacodegeeks.com/2021/03/introduction-into-graalvm-community-edition-graalvm-as-a-polyglot-platform.html)
 - [Distributed vs Replicated Cache](https://www.javacodegeeks.com/2021/03/distributed-vs-replicated-cache.html)
-- [Test Automation Using Selenium ChromeDriver](https://www.javacodegeeks.com/2021/03/test-automation-using-selenium-chromedriver.html)
-- [Deriving a Kotlin “Try” type](https://www.javacodegeeks.com/2021/03/deriving-a-kotlin-try-type.html)
-- [A Tuner Day](https://www.javacodegeeks.com/2021/03/a-tuner-day.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
