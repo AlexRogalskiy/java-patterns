@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Open-source collaboration, or how we finally added merge-on-refresh to Apache Lucene](https://www.javacodegeeks.com/2021/03/open-source-collaboration-or-how-we-finally-added-merge-on-refresh-to-apache-lucene.html)
+- [Always Name Your Thread Pools](https://www.javacodegeeks.com/2021/03/always-name-your-thread-pools.html)
 - [Introduction into GraalVM (Community Edition): GraalVM for the rest of us](https://www.javacodegeeks.com/2021/03/introduction-into-graalvm-community-edition-graalvm-for-the-rest-of-us.html)
 - [5 Reasons You Should Attend RedisConf 2021](https://www.javacodegeeks.com/2021/03/5-reasons-you-should-attend-redisconf-2021.html)
 - [Leveraging static code analysis in a Ruby CI pipeline](https://www.javacodegeeks.com/2021/03/leveraging-static-code-analysis-in-a-ruby-ci-pipeline.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Supply chain integration – Example store integration architecture](https://www.javacodegeeks.com/2021/03/supply-chain-integration-example-store-integration-architecture.html)
 - [Apache Camel 3.9 – No more saw tooth JVM garbage collection](https://www.javacodegeeks.com/2021/03/apache-camel-3-9-no-more-saw-tooth-jvm-garbage-collection.html)
 - [Handling Injection Attacks in Java](https://www.javacodegeeks.com/2021/03/handling-injection-attacks-in-java.html)
-- [Introduction into GraalVM (Community Edition): GraalVM as a Polyglot Platform](https://www.javacodegeeks.com/2021/03/introduction-into-graalvm-community-edition-graalvm-as-a-polyglot-platform.html)
-- [Distributed vs Replicated Cache](https://www.javacodegeeks.com/2021/03/distributed-vs-replicated-cache.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
