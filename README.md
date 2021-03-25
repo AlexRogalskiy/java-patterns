@@ -245,14 +245,14 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [What to know about Java for an internship?](https://www.reddit.com/r/java/comments/mbqcqf/what_to_know_about_java_for_an_internship/)
+- [Why no major language additions since java 8?](https://www.reddit.com/r/java/comments/mciynk/why_no_major_language_additions_since_java_8/)
+- [Inside Java Newscast #1](https://www.reddit.com/r/java/comments/mc8hxh/inside_java_newscast_1/)
+- [Anyone have uploads of Oracle Dev Live?](https://www.reddit.com/r/java/comments/mbzpgb/anyone_have_uploads_of_oracle_dev_live/)
+- [17 years since Spring Framework 1.0 was released](https://www.reddit.com/r/java/comments/mbxtkh/17_years_since_spring_framework_10_was_released/)
 - [Native Java IDE for projects browsing](https://www.reddit.com/r/java/comments/mbp12g/native_java_ide_for_projects_browsing/)
 - [Any updates on project vallah?](https://www.reddit.com/r/java/comments/mbkuk9/any_updates_on_project_vallah/)
 - [Visualize the architecture of your Java app, in VS Code, in 2 ¹/₂ minutes](https://www.reddit.com/r/java/comments/mbjomm/visualize_the_architecture_of_your_java_app_in_vs/)
 - [Jetty 11 released!](https://www.reddit.com/r/java/comments/mbdvp2/jetty_11_released/)
-- [How to create a ConfigSource for Quarkus that knows about existing properties](https://www.reddit.com/r/java/comments/mbcofk/how_to_create_a_configsource_for_quarkus_that/)
-- [libminecraft's whole-program optimization may be able to reduce GC pauses](https://www.reddit.com/r/java/comments/mbax2e/libminecrafts_wholeprogram_optimization_may_be/)
-- [Any good Java beginner-friendly projects?](https://www.reddit.com/r/java/comments/mb9yp0/any_good_java_beginnerfriendly_projects/)
 - [Port of Lemire's Double parser is more than 4X faster than openjdk double parser](https://www.reddit.com/r/java/comments/mazdua/port_of_lemires_double_parser_is_more_than_4x/)
 - [Vector API (JEP 338) Benchmark Results for Matrix Multiplication, Image Convolution, and Image Thresholding.](https://www.reddit.com/r/java/comments/mat2hb/vector_api_jep_338_benchmark_results_for_matrix/)
 <!-- REDDIT-POST-LIST:END -->
