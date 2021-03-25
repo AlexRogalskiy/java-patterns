@@ -260,6 +260,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _InfoWorld posts_
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [OpenJDK proposals would improve Java pattern matching](https://www.infoworld.com/article/3612908/openjdk-proposals-would-improve-java-pattern-matching.html#tk.rss_java)
 - [Move over Java, JavaScript is the new WORA. Or is it?](https://www.infoworld.com/article/3611412/move-over-java-javascript-is-the-new-wora-or-is-it.html#tk.rss_java)
 - [Spring Native turns Spring apps into native executables](https://www.infoworld.com/article/3611975/spring-native-turns-spring-apps-into-native-executables.html#tk.rss_java)
 - [JDK 16: The new features in Java 16](https://www.infoworld.com/article/3569150/jdk-16-the-new-features-in-java-16.html#tk.rss_java)
@@ -269,7 +270,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [JDK 17: What’s in store for Java 17](https://www.infoworld.com/article/3606833/jdk-17-whats-in-store-for-java-17.html#tk.rss_java)
 - [Scala 3 moves to release candidate stage](https://www.infoworld.com/article/3608574/scala-3-moves-to-release-candidate-stage.html#tk.rss_java)
 - [Entry-level software developer? Learn React to get that first job](https://www.infoworld.com/article/3607234/entry-level-software-developer-learn-react-to-get-that-first-job.html#tk.rss_java)
-- [Oracle adds GraalVM to Java subscription](https://www.infoworld.com/article/3606069/oracle-adds-graalvm-to-java-subscription.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### _Let's talk posts_
