@@ -320,6 +320,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [Inside Java Newscast #1](https://inside.java/2021/03/24/insidejava-newscast-001/)
 - [Looking ahead: pattern assignment](https://inside.java/2021/03/23/looking-ahead-pattern-assignment/)
 - [ZGC - What’s new in JDK 16](https://inside.java/2021/03/22/zgc-in-jdk16/)
 - [JDK 16 Security Enhancements](https://inside.java/2021/03/18/jdk16-security-enhancements/)
@@ -329,7 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [New candidate JEP: 404: Generational Shenandoah](https://inside.java/2021/03/18/new-candidate-jep-404/)
 - [JEP proposed to target JDK 17: 391: macOS/AArch64 Port](https://inside.java/2021/03/17/jep-391-proposed-to-target-jdk17/)
 - [JEP proposed to target JDK 17: 398: Deprecate the Applet API for Removal](https://inside.java/2021/03/17/jep-398-proposed-to-target-jdk17/)
-- [The Arrival of Java 16!](https://inside.java/2021/03/16/the-arrival-of-java16/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
