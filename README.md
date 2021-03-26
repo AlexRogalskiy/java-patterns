@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Using Jenkins as your go-to CI/CD tool](https://www.javacodegeeks.com/2021/03/using-jenkins-as-your-go-to-ci-cd-tool.html)
+- [Point of sale – An architectural introduction](https://www.javacodegeeks.com/2021/03/point-of-sale-an-architectural-introduction.html)
 - [Open-source collaboration, or how we finally added merge-on-refresh to Apache Lucene](https://www.javacodegeeks.com/2021/03/open-source-collaboration-or-how-we-finally-added-merge-on-refresh-to-apache-lucene.html)
 - [Always Name Your Thread Pools](https://www.javacodegeeks.com/2021/03/always-name-your-thread-pools.html)
 - [Introduction into GraalVM (Community Edition): GraalVM for the rest of us](https://www.javacodegeeks.com/2021/03/introduction-into-graalvm-community-edition-graalvm-for-the-rest-of-us.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [[MEGA DEAL] The 2021 Premium Python Certification Bootcamp Bundle (98% off)](https://www.javacodegeeks.com/2021/03/mega-deal-the-2021-premium-python-certification-bootcamp-bundle-98-off.html)
 - [9 Of The Best Java Testing Frameworks For 2021](https://www.javacodegeeks.com/2021/03/9-of-the-best-java-testing-frameworks-for-2021.html)
 - [Supply chain integration – Example store integration architecture](https://www.javacodegeeks.com/2021/03/supply-chain-integration-example-store-integration-architecture.html)
-- [Apache Camel 3.9 – No more saw tooth JVM garbage collection](https://www.javacodegeeks.com/2021/03/apache-camel-3-9-no-more-saw-tooth-jvm-garbage-collection.html)
-- [Handling Injection Attacks in Java](https://www.javacodegeeks.com/2021/03/handling-injection-attacks-in-java.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
