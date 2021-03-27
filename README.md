@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Tutorial On Handling Keyboard Actions In Selenium WebDriver [With Example]](https://www.javacodegeeks.com/2021/03/tutorial-on-handling-keyboard-actions-in-selenium-webdriver-with-example.html)
+- [The Right Kind of Failure](https://www.javacodegeeks.com/2021/03/the-right-kind-of-failure.html)
 - [Using Jenkins as your go-to CI/CD tool](https://www.javacodegeeks.com/2021/03/using-jenkins-as-your-go-to-ci-cd-tool.html)
 - [Point of sale – An architectural introduction](https://www.javacodegeeks.com/2021/03/point-of-sale-an-architectural-introduction.html)
 - [Open-source collaboration, or how we finally added merge-on-refresh to Apache Lucene](https://www.javacodegeeks.com/2021/03/open-source-collaboration-or-how-we-finally-added-merge-on-refresh-to-apache-lucene.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [5 Reasons You Should Attend RedisConf 2021](https://www.javacodegeeks.com/2021/03/5-reasons-you-should-attend-redisconf-2021.html)
 - [Leveraging static code analysis in a Ruby CI pipeline](https://www.javacodegeeks.com/2021/03/leveraging-static-code-analysis-in-a-ruby-ci-pipeline.html)
 - [[MEGA DEAL] The 2021 Premium Python Certification Bootcamp Bundle (98% off)](https://www.javacodegeeks.com/2021/03/mega-deal-the-2021-premium-python-certification-bootcamp-bundle-98-off.html)
-- [9 Of The Best Java Testing Frameworks For 2021](https://www.javacodegeeks.com/2021/03/9-of-the-best-java-testing-frameworks-for-2021.html)
-- [Supply chain integration – Example store integration architecture](https://www.javacodegeeks.com/2021/03/supply-chain-integration-example-store-integration-architecture.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
