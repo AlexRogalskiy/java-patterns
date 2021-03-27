@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [AdoptOpenJDK moves to the Eclipse Foundation as the Adoptium WG](https://www.reddit.com/r/java/comments/md9nwf/adoptopenjdk_moves_to_the_eclipse_foundation_as/)
-- [ZeroXCafe podcast. Episode 0x0](https://www.reddit.com/r/java/comments/md6qd5/zeroxcafe_podcast_episode_0x0/)
-- [The CN4J profile as the common EE and MP profile](https://www.reddit.com/r/java/comments/md6khd/the_cn4j_profile_as_the_common_ee_and_mp_profile/)
-- [I have a technical interview in Java next Friday. Thing is, I only know JavaScript. What do I do?](https://www.reddit.com/r/java/comments/md4arn/i_have_a_technical_interview_in_java_next_friday/)
-- [JEP proposed to target JDK 17: 398: Deprecate the Applet API for Removal](https://www.reddit.com/r/java/comments/md3fv3/jep_proposed_to_target_jdk_17_398_deprecate_the/)
-- [What tools do you use to lay out a large project before getting to implementing it?](https://www.reddit.com/r/java/comments/mcrh56/what_tools_do_you_use_to_lay_out_a_large_project/)
-- [Final var vs val](https://www.reddit.com/r/java/comments/mcqsgn/final_var_vs_val/)
-- [Why no major language additions since java 8?](https://www.reddit.com/r/java/comments/mciynk/why_no_major_language_additions_since_java_8/)
-- [Inside Java Newscast #1](https://www.reddit.com/r/java/comments/mc8hxh/inside_java_newscast_1/)
-- [Anyone have uploads of Oracle Dev Live?](https://www.reddit.com/r/java/comments/mbzpgb/anyone_have_uploads_of_oracle_dev_live/)
+- [I have adopted a puppy and I named it Java. Now I’m worried about the possible side effects...any suggestions?](https://www.reddit.com/r/java/comments/me2k6n/i_have_adopted_a_puppy_and_i_named_it_java_now_im/)
+- [Web Scraping with Java](https://www.reddit.com/r/java/comments/mdv9rw/web_scraping_with_java/)
+- [New candidate JEP: 407: Remove RMI Activation](https://www.reddit.com/r/java/comments/mdujpy/new_candidate_jep_407_remove_rmi_activation/)
+- [JEP 406: Pattern Matching for switch (Preview)](https://www.reddit.com/r/java/comments/mdtvtg/jep_406_pattern_matching_for_switch_preview/)
+- [JEP 405: Record Patterns & Array Patterns (Preview Candidate)](https://www.reddit.com/r/java/comments/mdt335/jep_405_record_patterns_array_patterns_preview/)
+- [JEP draft: Dynamic Deserialization Filters](https://www.reddit.com/r/java/comments/mds3hx/jep_draft_dynamic_deserialization_filters/)
+- [what problem does Rx Java solve?](https://www.reddit.com/r/java/comments/mdrxar/what_problem_does_rx_java_solve/)
+- [ZoomJoiner robot](https://www.reddit.com/r/java/comments/mdrkpx/zoomjoiner_robot/)
+- [Creating and analyzing Java heap dumps](https://www.reddit.com/r/java/comments/mdmjzt/creating_and_analyzing_java_heap_dumps/)
+- [Targeted to JDK 17: JEP 391: macOS/AArch64 Port](https://www.reddit.com/r/java/comments/mdig4q/targeted_to_jdk_17_jep_391_macosaarch64_port/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
