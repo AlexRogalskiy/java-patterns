@@ -320,6 +320,9 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [New candidate JEP: 405: Record Patterns &amp; Array Patterns (Preview)](https://inside.java/2021/03/26/new-candidate-jep-405/)
+- [New candidate JEP: 406: Pattern Matching for switch (Preview)](https://inside.java/2021/03/26/new-candidate-jep-406/)
+- [New candidate JEP: 407: Remove RMI Activation](https://inside.java/2021/03/26/new-candidate-jep-407/)
 - [Inside Java Newscast #1](https://inside.java/2021/03/24/insidejava-newscast-001/)
 - [Looking ahead: pattern assignment](https://inside.java/2021/03/23/looking-ahead-pattern-assignment/)
 - [ZGC - What’s new in JDK 16](https://inside.java/2021/03/22/zgc-in-jdk16/)
@@ -327,9 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [New candidate JEP: 401: Primitive Objects (Preview)](https://inside.java/2021/03/18/new-candidate-jep-401/)
 - [New candidate JEP: 402: Unify the Basic Primitives with Objects (Preview)](https://inside.java/2021/03/18/new-candidate-jep-402/)
 - [New candidate JEP: 403: Strongly Encapsulate JDK Internals](https://inside.java/2021/03/18/new-candidate-jep-403/)
-- [New candidate JEP: 404: Generational Shenandoah](https://inside.java/2021/03/18/new-candidate-jep-404/)
-- [JEP proposed to target JDK 17: 391: macOS/AArch64 Port](https://inside.java/2021/03/17/jep-391-proposed-to-target-jdk17/)
-- [JEP proposed to target JDK 17: 398: Deprecate the Applet API for Removal](https://inside.java/2021/03/17/jep-398-proposed-to-target-jdk17/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
