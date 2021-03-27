@@ -335,6 +335,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Java programmer posts_
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [Basic Structure of Java Program with Example](https://www.thejavaprogrammer.com/structure-of-java-program/)
 - [What is Native Method in Java?](https://www.thejavaprogrammer.com/native-method-in-java/)
 - [Why main method is static in Java?](https://www.thejavaprogrammer.com/why-main-method-is-static-in-java/)
 - [Difference between Constructor and Method in Java](https://www.thejavaprogrammer.com/difference-between-constructor-and-method/)
@@ -344,7 +345,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [What is Object Oriented Paradigm in Java?](https://www.thejavaprogrammer.com/what-is-object-oriented-paradigm-in-java/)
 - [Best Way to Learn Java for a Beginner](https://www.thejavaprogrammer.com/best-way-to-learn-java-for-a-beginner/)
 - [What are the Advantages of Packages in Java?](https://www.thejavaprogrammer.com/what-are-the-advantages-of-packages-in-java/)
-- [What are the Various Access Specifiers for Java Classes?](https://www.thejavaprogrammer.com/what-are-the-various-access-specifiers-for-java-classes/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### _Dreamix posts_
