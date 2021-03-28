@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [I have adopted a puppy and I named it Java. Now I’m worried about the possible side effects...any suggestions?](https://www.reddit.com/r/java/comments/me2k6n/i_have_adopted_a_puppy_and_i_named_it_java_now_im/)
+- [Introduction to Reflectionless: Discover the New Trend in the Java World](https://www.reddit.com/r/java/comments/melgq8/introduction_to_reflectionless_discover_the_new/)
+- [Java-MySQL Enum Alignment](https://www.reddit.com/r/java/comments/mek9bw/javamysql_enum_alignment/)
+- [Approaches to concurrent bucketed stream processing?](https://www.reddit.com/r/java/comments/mebmm9/approaches_to_concurrent_bucketed_stream/)
+- [7 JVM arguments of highly effective applications - Part 4](https://www.reddit.com/r/java/comments/mebbps/7_jvm_arguments_of_highly_effective_applications/)
+- [Make arrays as powerful as Stream API](https://www.reddit.com/r/java/comments/meakgq/make_arrays_as_powerful_as_stream_api/)
+- [What "non-standard" tools/languages/frameworks/etc. helped you to improve yourself as a developer?](https://www.reddit.com/r/java/comments/me9qa8/what_nonstandard_toolslanguagesframeworksetc/)
+- [Deploying JavaFX with Spark Java](https://www.reddit.com/r/java/comments/me5hvp/deploying_javafx_with_spark_java/)
 - [Web Scraping with Java](https://www.reddit.com/r/java/comments/mdv9rw/web_scraping_with_java/)
 - [New candidate JEP: 407: Remove RMI Activation](https://www.reddit.com/r/java/comments/mdujpy/new_candidate_jep_407_remove_rmi_activation/)
 - [JEP 406: Pattern Matching for switch (Preview)](https://www.reddit.com/r/java/comments/mdtvtg/jep_406_pattern_matching_for_switch_preview/)
-- [JEP 405: Record Patterns & Array Patterns (Preview Candidate)](https://www.reddit.com/r/java/comments/mdt335/jep_405_record_patterns_array_patterns_preview/)
-- [JEP draft: Dynamic Deserialization Filters](https://www.reddit.com/r/java/comments/mds3hx/jep_draft_dynamic_deserialization_filters/)
-- [what problem does Rx Java solve?](https://www.reddit.com/r/java/comments/mdrxar/what_problem_does_rx_java_solve/)
-- [ZoomJoiner robot](https://www.reddit.com/r/java/comments/mdrkpx/zoomjoiner_robot/)
-- [Creating and analyzing Java heap dumps](https://www.reddit.com/r/java/comments/mdmjzt/creating_and_analyzing_java_heap_dumps/)
-- [Targeted to JDK 17: JEP 391: macOS/AArch64 Port](https://www.reddit.com/r/java/comments/mdig4q/targeted_to_jdk_17_jep_391_macosaarch64_port/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
