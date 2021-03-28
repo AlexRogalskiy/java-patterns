@@ -410,6 +410,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Testing the File Upload API in Spring Boot](https://www.javacodegeeks.com/2021/03/testing-the-file-upload-api-in-spring-boot.html)
 - [Tutorial On Handling Keyboard Actions In Selenium WebDriver [With Example]](https://www.javacodegeeks.com/2021/03/tutorial-on-handling-keyboard-actions-in-selenium-webdriver-with-example.html)
 - [The Right Kind of Failure](https://www.javacodegeeks.com/2021/03/the-right-kind-of-failure.html)
 - [Using Jenkins as your go-to CI/CD tool](https://www.javacodegeeks.com/2021/03/using-jenkins-as-your-go-to-ci-cd-tool.html)
@@ -419,7 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Introduction into GraalVM (Community Edition): GraalVM for the rest of us](https://www.javacodegeeks.com/2021/03/introduction-into-graalvm-community-edition-graalvm-for-the-rest-of-us.html)
 - [5 Reasons You Should Attend RedisConf 2021](https://www.javacodegeeks.com/2021/03/5-reasons-you-should-attend-redisconf-2021.html)
 - [Leveraging static code analysis in a Ruby CI pipeline](https://www.javacodegeeks.com/2021/03/leveraging-static-code-analysis-in-a-ruby-ci-pipeline.html)
-- [[MEGA DEAL] The 2021 Premium Python Certification Bootcamp Bundle (98% off)](https://www.javacodegeeks.com/2021/03/mega-deal-the-2021-premium-python-certification-bootcamp-bundle-98-off.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
