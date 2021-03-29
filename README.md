@@ -410,6 +410,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Different ways of declaration and initialization of arrays in Java](https://www.javacodegeeks.com/2021/03/different-ways-of-declaration-and-initialization-of-arrays-in-java.html)
 - [Testing the File Upload API in Spring Boot](https://www.javacodegeeks.com/2021/03/testing-the-file-upload-api-in-spring-boot.html)
 - [Tutorial On Handling Keyboard Actions In Selenium WebDriver [With Example]](https://www.javacodegeeks.com/2021/03/tutorial-on-handling-keyboard-actions-in-selenium-webdriver-with-example.html)
 - [The Right Kind of Failure](https://www.javacodegeeks.com/2021/03/the-right-kind-of-failure.html)
@@ -419,7 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Always Name Your Thread Pools](https://www.javacodegeeks.com/2021/03/always-name-your-thread-pools.html)
 - [Introduction into GraalVM (Community Edition): GraalVM for the rest of us](https://www.javacodegeeks.com/2021/03/introduction-into-graalvm-community-edition-graalvm-for-the-rest-of-us.html)
 - [5 Reasons You Should Attend RedisConf 2021](https://www.javacodegeeks.com/2021/03/5-reasons-you-should-attend-redisconf-2021.html)
-- [Leveraging static code analysis in a Ruby CI pipeline](https://www.javacodegeeks.com/2021/03/leveraging-static-code-analysis-in-a-ruby-ci-pipeline.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
