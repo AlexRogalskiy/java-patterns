@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [What would you use to start a new HTTP + SSR project with Java today?](https://www.reddit.com/r/java/comments/mfavdw/what_would_you_use_to_start_a_new_http_ssr/)
+- [How to access data dynamically in Java without losing type safety](https://www.reddit.com/r/java/comments/mfa3fr/how_to_access_data_dynamically_in_java_without/)
+- [jbang - Run java as scripts anywhere](https://www.reddit.com/r/java/comments/mf3r83/jbang_run_java_as_scripts_anywhere/)
+- [A (definitive?) guide on LazyInitializationException](https://www.reddit.com/r/java/comments/mf3au9/a_definitive_guide_on_lazyinitializationexception/)
 - [Introduction to Reflectionless: Discover the New Trend in the Java World](https://www.reddit.com/r/java/comments/melgq8/introduction_to_reflectionless_discover_the_new/)
 - [Java-MySQL Enum Alignment](https://www.reddit.com/r/java/comments/mek9bw/javamysql_enum_alignment/)
 - [Approaches to concurrent bucketed stream processing?](https://www.reddit.com/r/java/comments/mebmm9/approaches_to_concurrent_bucketed_stream/)
 - [7 JVM arguments of highly effective applications - Part 4](https://www.reddit.com/r/java/comments/mebbps/7_jvm_arguments_of_highly_effective_applications/)
 - [Make arrays as powerful as Stream API](https://www.reddit.com/r/java/comments/meakgq/make_arrays_as_powerful_as_stream_api/)
 - [What "non-standard" tools/languages/frameworks/etc. helped you to improve yourself as a developer?](https://www.reddit.com/r/java/comments/me9qa8/what_nonstandard_toolslanguagesframeworksetc/)
-- [Deploying JavaFX with Spark Java](https://www.reddit.com/r/java/comments/me5hvp/deploying_javafx_with_spark_java/)
-- [Web Scraping with Java](https://www.reddit.com/r/java/comments/mdv9rw/web_scraping_with_java/)
-- [New candidate JEP: 407: Remove RMI Activation](https://www.reddit.com/r/java/comments/mdujpy/new_candidate_jep_407_remove_rmi_activation/)
-- [JEP 406: Pattern Matching for switch (Preview)](https://www.reddit.com/r/java/comments/mdtvtg/jep_406_pattern_matching_for_switch_preview/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
