@@ -350,6 +350,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Dreamix posts_
 
 <!-- DREAMIX-POST-LIST:START -->
+- [Learn from Java Champion Matt Raible: JHipster to the rescue](https://dreamix.eu/blog/java/learn-from-java-champion-matt-raible-jhipster-to-the-rescue)
 - [Java Tools for Agile Software Development](https://dreamix.eu/blog/java/java-tools-for-agile-software-development)
 - [Learn form Java Champion: Simon Ritter x Java Daily](https://dreamix.eu/blog/java/learn-form-java-champion-simon-ritter-x-java-daily)
 - [5 Reasons Why Bespoke Software Development Projects Succeed](https://dreamix.eu/blog/java/5-reasons-why-bespoke-software-development-projects-succeed)
@@ -359,7 +360,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [What is Continuous Integration and How to Benefit from it](https://dreamix.eu/blog/java/what-is-continuous-integration-and-how-to-benefit-from-it)
 - [The Anatomy of a Good SCRUM team](https://dreamix.eu/blog/java/the-anatomy-of-a-good-scrum-team)
 - [7 Important Factors for Making Software Development Outsourcing Decisions](https://dreamix.eu/blog/java/7-important-factors-for-making-software-development-outsourcing-decisions)
-- [How to Successfully Use the Agile Process for Bespoke Software Development?](https://dreamix.eu/blog/java/how-to-successfully-use-the-agile-process-for-bespoke-software-development)
 <!-- DREAMIX-POST-LIST:END -->
 
 ### _Plumbr posts_
