@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [[MEGA DEAL] The 2021 Complete Digital Marketing Super Bundle (98% off)](https://www.javacodegeeks.com/2021/03/mega-deal-the-2021-complete-digital-marketing-super-bundle-98-off.html)
+- [Coroutine based Spring boot webflux application](https://www.javacodegeeks.com/2021/03/coroutine-based-spring-boot-webflux-application.html)
 - [Different ways of declaration and initialization of arrays in Java](https://www.javacodegeeks.com/2021/03/different-ways-of-declaration-and-initialization-of-arrays-in-java.html)
 - [Testing the File Upload API in Spring Boot](https://www.javacodegeeks.com/2021/03/testing-the-file-upload-api-in-spring-boot.html)
 - [Tutorial On Handling Keyboard Actions In Selenium WebDriver [With Example]](https://www.javacodegeeks.com/2021/03/tutorial-on-handling-keyboard-actions-in-selenium-webdriver-with-example.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Point of sale – An architectural introduction](https://www.javacodegeeks.com/2021/03/point-of-sale-an-architectural-introduction.html)
 - [Open-source collaboration, or how we finally added merge-on-refresh to Apache Lucene](https://www.javacodegeeks.com/2021/03/open-source-collaboration-or-how-we-finally-added-merge-on-refresh-to-apache-lucene.html)
 - [Always Name Your Thread Pools](https://www.javacodegeeks.com/2021/03/always-name-your-thread-pools.html)
-- [Introduction into GraalVM (Community Edition): GraalVM for the rest of us](https://www.javacodegeeks.com/2021/03/introduction-into-graalvm-community-edition-graalvm-for-the-rest-of-us.html)
-- [5 Reasons You Should Attend RedisConf 2021](https://www.javacodegeeks.com/2021/03/5-reasons-you-should-attend-redisconf-2021.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
