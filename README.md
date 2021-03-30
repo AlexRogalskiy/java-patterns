@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Help](https://www.reddit.com/r/java/comments/mg1wxd/help/)
+- [URL Detector - Java Library](https://www.reddit.com/r/java/comments/mfyucp/url_detector_java_library/)
+- [New candidate JEP: 408: Simple Web Server](https://www.reddit.com/r/java/comments/mfxg66/new_candidate_jep_408_simple_web_server/)
+- [WhatsappWeb4j - A standalone WhatsappWeb library](https://www.reddit.com/r/java/comments/mfptw4/whatsappweb4j_a_standalone_whatsappweb_library/)
+- [Will we ever get rid of getters/setters?](https://www.reddit.com/r/java/comments/mfmwin/will_we_ever_get_rid_of_getterssetters/)
+- [Chaos Engineering: Deadlock](https://www.reddit.com/r/java/comments/mflzgz/chaos_engineering_deadlock/)
+- [Performance of running Spring Boot as AWS Lambda functions](https://www.reddit.com/r/java/comments/mfkt8p/performance_of_running_spring_boot_as_aws_lambda/)
+- [IntelliJ IDEA + Spring - Tips & Tricks From The Trenches](https://www.reddit.com/r/java/comments/mfkjvs/intellij_idea_spring_tips_tricks_from_the_trenches/)
 - [What would you use to start a new HTTP + SSR project with Java today?](https://www.reddit.com/r/java/comments/mfavdw/what_would_you_use_to_start_a_new_http_ssr/)
 - [How to access data dynamically in Java without losing type safety](https://www.reddit.com/r/java/comments/mfa3fr/how_to_access_data_dynamically_in_java_without/)
-- [jbang - Run java as scripts anywhere](https://www.reddit.com/r/java/comments/mf3r83/jbang_run_java_as_scripts_anywhere/)
-- [A (definitive?) guide on LazyInitializationException](https://www.reddit.com/r/java/comments/mf3au9/a_definitive_guide_on_lazyinitializationexception/)
-- [Introduction to Reflectionless: Discover the New Trend in the Java World](https://www.reddit.com/r/java/comments/melgq8/introduction_to_reflectionless_discover_the_new/)
-- [Java-MySQL Enum Alignment](https://www.reddit.com/r/java/comments/mek9bw/javamysql_enum_alignment/)
-- [Approaches to concurrent bucketed stream processing?](https://www.reddit.com/r/java/comments/mebmm9/approaches_to_concurrent_bucketed_stream/)
-- [7 JVM arguments of highly effective applications - Part 4](https://www.reddit.com/r/java/comments/mebbps/7_jvm_arguments_of_highly_effective_applications/)
-- [Make arrays as powerful as Stream API](https://www.reddit.com/r/java/comments/meakgq/make_arrays_as_powerful_as_stream_api/)
-- [What "non-standard" tools/languages/frameworks/etc. helped you to improve yourself as a developer?](https://www.reddit.com/r/java/comments/me9qa8/what_nonstandard_toolslanguagesframeworksetc/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
