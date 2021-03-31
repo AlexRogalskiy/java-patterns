@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [Help](https://www.reddit.com/r/java/comments/mg1wxd/help/)
-- [URL Detector - Java Library](https://www.reddit.com/r/java/comments/mfyucp/url_detector_java_library/)
-- [New candidate JEP: 408: Simple Web Server](https://www.reddit.com/r/java/comments/mfxg66/new_candidate_jep_408_simple_web_server/)
-- [WhatsappWeb4j - A standalone WhatsappWeb library](https://www.reddit.com/r/java/comments/mfptw4/whatsappweb4j_a_standalone_whatsappweb_library/)
-- [Will we ever get rid of getters/setters?](https://www.reddit.com/r/java/comments/mfmwin/will_we_ever_get_rid_of_getterssetters/)
-- [Chaos Engineering: Deadlock](https://www.reddit.com/r/java/comments/mflzgz/chaos_engineering_deadlock/)
-- [Performance of running Spring Boot as AWS Lambda functions](https://www.reddit.com/r/java/comments/mfkt8p/performance_of_running_spring_boot_as_aws_lambda/)
-- [IntelliJ IDEA + Spring - Tips & Tricks From The Trenches](https://www.reddit.com/r/java/comments/mfkjvs/intellij_idea_spring_tips_tricks_from_the_trenches/)
-- [What would you use to start a new HTTP + SSR project with Java today?](https://www.reddit.com/r/java/comments/mfavdw/what_would_you_use_to_start_a_new_http_ssr/)
-- [How to access data dynamically in Java without losing type safety](https://www.reddit.com/r/java/comments/mfa3fr/how_to_access_data_dynamically_in_java_without/)
+- [In need of a reliable java library which implements the memorandum "rfc 8785" for JSON canonicalization.](https://www.reddit.com/r/java/comments/mgu7gp/in_need_of_a_reliable_java_library_which/)
+- [Is there any other updated implementation of the Java class library?](https://www.reddit.com/r/java/comments/mgu5i4/is_there_any_other_updated_implementation_of_the/)
+- [How much faster is Java 15?](https://www.reddit.com/r/java/comments/mgse7r/how_much_faster_is_java_15/)
+- [Concern about this code](https://www.reddit.com/r/java/comments/mgqrz1/concern_about_this_code/)
+- [Ant Group's Java based Resource Allocation System scaling to 6000+ cores](https://www.reddit.com/r/java/comments/mgqkbz/ant_groups_java_based_resource_allocation_system/)
+- [Bean Qualifiers in Micronaut](https://www.reddit.com/r/java/comments/mglh1v/bean_qualifiers_in_micronaut/)
+- [Never Again Forget to Call .execute() in jOOQ](https://www.reddit.com/r/java/comments/mgirrz/never_again_forget_to_call_execute_in_jooq/)
+- [Ask the Java Architects](https://www.reddit.com/r/java/comments/mgi8jc/ask_the_java_architects/)
+- [Loom Scope Locals (request for feedback by Andrew Haley)](https://www.reddit.com/r/java/comments/mgh62w/loom_scope_locals_request_for_feedback_by_andrew/)
+- [Domain Graph Service (DGS) - open-source GraphQL server framework for Spring Boot by Netflix](https://www.reddit.com/r/java/comments/mgfpda/domain_graph_service_dgs_opensource_graphql/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
