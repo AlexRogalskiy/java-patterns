@@ -410,6 +410,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [New Java/JavaFX Library FXSkins Released](https://www.javacodegeeks.com/2021/03/new-java-javafx-library-fxskins-released.html)
 - [[MEGA DEAL] The 2021 Complete Digital Marketing Super Bundle (98% off)](https://www.javacodegeeks.com/2021/03/mega-deal-the-2021-complete-digital-marketing-super-bundle-98-off.html)
 - [Coroutine based Spring boot webflux application](https://www.javacodegeeks.com/2021/03/coroutine-based-spring-boot-webflux-application.html)
 - [Different ways of declaration and initialization of arrays in Java](https://www.javacodegeeks.com/2021/03/different-ways-of-declaration-and-initialization-of-arrays-in-java.html)
@@ -419,7 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Using Jenkins as your go-to CI/CD tool](https://www.javacodegeeks.com/2021/03/using-jenkins-as-your-go-to-ci-cd-tool.html)
 - [Point of sale – An architectural introduction](https://www.javacodegeeks.com/2021/03/point-of-sale-an-architectural-introduction.html)
 - [Open-source collaboration, or how we finally added merge-on-refresh to Apache Lucene](https://www.javacodegeeks.com/2021/03/open-source-collaboration-or-how-we-finally-added-merge-on-refresh-to-apache-lucene.html)
-- [Always Name Your Thread Pools](https://www.javacodegeeks.com/2021/03/always-name-your-thread-pools.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
