@@ -320,6 +320,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [Proposed schedule for JDK 17](https://inside.java/2021/03/30/jdk17-proposed-schedule/)
+- [New candidate JEP: 408: Simple Web Server](https://inside.java/2021/03/29/new-candidate-jep-408/)
 - [New candidate JEP: 405: Record Patterns &amp; Array Patterns (Preview)](https://inside.java/2021/03/26/new-candidate-jep-405/)
 - [New candidate JEP: 406: Pattern Matching for switch (Preview)](https://inside.java/2021/03/26/new-candidate-jep-406/)
 - [New candidate JEP: 407: Remove RMI Activation](https://inside.java/2021/03/26/new-candidate-jep-407/)
@@ -328,8 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [ZGC - What’s new in JDK 16](https://inside.java/2021/03/22/zgc-in-jdk16/)
 - [JDK 16 Security Enhancements](https://inside.java/2021/03/18/jdk16-security-enhancements/)
 - [New candidate JEP: 401: Primitive Objects (Preview)](https://inside.java/2021/03/18/new-candidate-jep-401/)
-- [New candidate JEP: 402: Unify the Basic Primitives with Objects (Preview)](https://inside.java/2021/03/18/new-candidate-jep-402/)
-- [New candidate JEP: 403: Strongly Encapsulate JDK Internals](https://inside.java/2021/03/18/new-candidate-jep-403/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
