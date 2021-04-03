@@ -320,6 +320,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [Keynote: Java Innovations…Today and Tomorrow](https://inside.java/2021/04/02/video-odl16-keynote/)
+- [Important clarification on the com.sun namespace](https://inside.java/2021/03/30/com-sun-namespace/)
 - [Proposed schedule for JDK 17](https://inside.java/2021/03/30/jdk17-proposed-schedule/)
 - [New candidate JEP: 408: Simple Web Server](https://inside.java/2021/03/29/new-candidate-jep-408/)
 - [New candidate JEP: 405: Record Patterns &amp; Array Patterns (Preview)](https://inside.java/2021/03/26/new-candidate-jep-405/)
@@ -328,8 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Inside Java Newscast #1](https://inside.java/2021/03/24/insidejava-newscast-001/)
 - [Looking ahead: pattern assignment](https://inside.java/2021/03/23/looking-ahead-pattern-assignment/)
 - [ZGC - What’s new in JDK 16](https://inside.java/2021/03/22/zgc-in-jdk16/)
-- [JDK 16 Security Enhancements](https://inside.java/2021/03/18/jdk16-security-enhancements/)
-- [New candidate JEP: 401: Primitive Objects (Preview)](https://inside.java/2021/03/18/new-candidate-jep-401/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
