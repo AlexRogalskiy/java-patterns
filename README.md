@@ -410,16 +410,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Seeing Through Frosted Glass](https://www.javacodegeeks.com/2021/04/seeing-through-frosted-glass.html)
+- [Best Selenium Frameworks for Automating Unit Testing for Web Applications](https://www.javacodegeeks.com/2021/04/best-selenium-frameworks-for-automating-unit-testing-for-web-applications.html)
+- [Batch solving an ActiveMQ queue that contains planning problem data sets in a scalable way](https://www.javacodegeeks.com/2021/04/batch-solving-an-activemq-queue-that-contains-planning-problem-data-sets-in-a-scalable-way.html)
+- [Implementing equals(Object) with instanceof Pattern Matching](https://www.javacodegeeks.com/2021/04/implementing-equalsobject-with-instanceof-pattern-matching.html)
+- [Development workflows that put you in a flow state (Video)](https://www.javacodegeeks.com/2021/03/development-workflows-that-put-you-in-a-flow-state-video.html)
+- [Five Ways to Tell It’s Time to Break Up with Your Legacy System](https://www.javacodegeeks.com/2021/03/five-ways-to-tell-its-time-to-break-up-with-your-legacy-system.html)
 - [New Java/JavaFX Library FXSkins Released](https://www.javacodegeeks.com/2021/03/new-java-javafx-library-fxskins-released.html)
 - [[MEGA DEAL] The 2021 Complete Digital Marketing Super Bundle (98% off)](https://www.javacodegeeks.com/2021/03/mega-deal-the-2021-complete-digital-marketing-super-bundle-98-off.html)
 - [Coroutine based Spring boot webflux application](https://www.javacodegeeks.com/2021/03/coroutine-based-spring-boot-webflux-application.html)
 - [Different ways of declaration and initialization of arrays in Java](https://www.javacodegeeks.com/2021/03/different-ways-of-declaration-and-initialization-of-arrays-in-java.html)
-- [Testing the File Upload API in Spring Boot](https://www.javacodegeeks.com/2021/03/testing-the-file-upload-api-in-spring-boot.html)
-- [Tutorial On Handling Keyboard Actions In Selenium WebDriver [With Example]](https://www.javacodegeeks.com/2021/03/tutorial-on-handling-keyboard-actions-in-selenium-webdriver-with-example.html)
-- [The Right Kind of Failure](https://www.javacodegeeks.com/2021/03/the-right-kind-of-failure.html)
-- [Using Jenkins as your go-to CI/CD tool](https://www.javacodegeeks.com/2021/03/using-jenkins-as-your-go-to-ci-cd-tool.html)
-- [Point of sale – An architectural introduction](https://www.javacodegeeks.com/2021/03/point-of-sale-an-architectural-introduction.html)
-- [Open-source collaboration, or how we finally added merge-on-refresh to Apache Lucene](https://www.javacodegeeks.com/2021/03/open-source-collaboration-or-how-we-finally-added-merge-on-refresh-to-apache-lucene.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
