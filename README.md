@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [In need of a reliable java library which implements the memorandum "rfc 8785" for JSON canonicalization.](https://www.reddit.com/r/java/comments/mgu7gp/in_need_of_a_reliable_java_library_which/)
-- [Is there any other updated implementation of the Java class library?](https://www.reddit.com/r/java/comments/mgu5i4/is_there_any_other_updated_implementation_of_the/)
-- [How much faster is Java 15?](https://www.reddit.com/r/java/comments/mgse7r/how_much_faster_is_java_15/)
-- [Concern about this code](https://www.reddit.com/r/java/comments/mgqrz1/concern_about_this_code/)
-- [Ant Group's Java based Resource Allocation System scaling to 6000+ cores](https://www.reddit.com/r/java/comments/mgqkbz/ant_groups_java_based_resource_allocation_system/)
-- [Bean Qualifiers in Micronaut](https://www.reddit.com/r/java/comments/mglh1v/bean_qualifiers_in_micronaut/)
-- [Never Again Forget to Call .execute() in jOOQ](https://www.reddit.com/r/java/comments/mgirrz/never_again_forget_to_call_execute_in_jooq/)
-- [Ask the Java Architects](https://www.reddit.com/r/java/comments/mgi8jc/ask_the_java_architects/)
-- [Loom Scope Locals (request for feedback by Andrew Haley)](https://www.reddit.com/r/java/comments/mgh62w/loom_scope_locals_request_for_feedback_by_andrew/)
-- [Domain Graph Service (DGS) - open-source GraphQL server framework for Spring Boot by Netflix](https://www.reddit.com/r/java/comments/mgfpda/domain_graph_service_dgs_opensource_graphql/)
+- [Online ide needed](https://www.reddit.com/r/java/comments/miex0t/online_ide_needed/)
+- [IntelliJ IDEA 2021.1 Release Candidate Is Out](https://www.reddit.com/r/java/comments/mi0t4l/intellij_idea_20211_release_candidate_is_out/)
+- [Don't Use the @Profile Annotation in a Spring Boot App](https://www.reddit.com/r/java/comments/mhwqum/dont_use_the_profile_annotation_in_a_spring_boot/)
+- [A categorized list of all Java and JVM features since JDK 8 to 16](https://www.reddit.com/r/java/comments/mhury9/a_categorized_list_of_all_java_and_jvm_features/)
+- [Announcement: Skara update to support CVS and SourceForge](https://www.reddit.com/r/java/comments/mhrbxq/announcement_skara_update_to_support_cvs_and/)
+- [What's new in MicroProfile JSON Web Token 1.2](https://www.reddit.com/r/java/comments/mhgbh3/whats_new_in_microprofile_json_web_token_12/)
+- [Generate a Jakarta EE 9 project skeleton from Maven archetype](https://www.reddit.com/r/java/comments/mhfjxt/generate_a_jakarta_ee_9_project_skeleton_from/)
+- [Regular classes to have a constructor similar to Records](https://www.reddit.com/r/java/comments/mh9tfw/regular_classes_to_have_a_constructor_similar_to/)
+- [What to expect in Jakarta EE 10?](https://www.reddit.com/r/java/comments/mh76ra/what_to_expect_in_jakarta_ee_10/)
+- [Knative Eventing with Kafka and Quarkus - Piotr's TechBlog](https://www.reddit.com/r/java/comments/mh5o3t/knative_eventing_with_kafka_and_quarkus_piotrs/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
