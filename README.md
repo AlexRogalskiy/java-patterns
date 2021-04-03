@@ -290,6 +290,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Random thoughts posts_
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [StreamingOutput : streaming large json responses in REST API](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/streamingoutput-streaming-large-json.html)
 - [Changing Git Remote Urls](http://randomthoughtsonjavaprogramming.blogspot.com/2021/03/changing-git-remote-urls.html)
 - [Installing Printer Driver in Fedora for Epson ET-3750](http://randomthoughtsonjavaprogramming.blogspot.com/2021/03/installing-printer-driver-in-fedora-for.html)
 - [Using SQL Developer to visualise Geometry data](http://randomthoughtsonjavaprogramming.blogspot.com/2021/02/using-sql-developer-to-visualise.html)
@@ -299,7 +300,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Notes on Unity](http://randomthoughtsonjavaprogramming.blogspot.com/2020/12/notes-on-unity.html)
 - [Payara and Jakarta EE 9](http://randomthoughtsonjavaprogramming.blogspot.com/2020/12/payara-and-jakarta-ee-9.html)
 - [The Three options with Optional](http://randomthoughtsonjavaprogramming.blogspot.com/2020/12/the-three-options-with-optional.html)
-- [Finding the index of an element in a List using Streams](http://randomthoughtsonjavaprogramming.blogspot.com/2020/12/finding-index-of-element-in-list-using.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### _Better code posts_
