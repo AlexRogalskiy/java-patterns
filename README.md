@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [JDK Security Enhancements in each release since JDK12.](https://www.reddit.com/r/java/comments/mjjfdy/jdk_security_enhancements_in_each_release_since/)
+- [Do I need a "private" before the int position?](https://www.reddit.com/r/java/comments/mjiji1/do_i_need_a_private_before_the_int_position/)
+- [Eclipse LSP4Jakarta, the Language Server for Jakarta EE](https://www.reddit.com/r/java/comments/mjdjjf/eclipse_lsp4jakarta_the_language_server_for/)
+- [Releasing a renewal of old unmaintained library from someone else, should I change package names?](https://www.reddit.com/r/java/comments/mj3sgi/releasing_a_renewal_of_old_unmaintained_library/)
+- [Memory Leak in Java executor](https://www.reddit.com/r/java/comments/mj1rid/memory_leak_in_java_executor/)
+- [First use of the new X86 instruction Serialize in OpenJDK](https://www.reddit.com/r/java/comments/miz0o0/first_use_of_the_new_x86_instruction_serialize_in/)
 - [Online ide needed](https://www.reddit.com/r/java/comments/miex0t/online_ide_needed/)
 - [IntelliJ IDEA 2021.1 Release Candidate Is Out](https://www.reddit.com/r/java/comments/mi0t4l/intellij_idea_20211_release_candidate_is_out/)
 - [Don't Use the @Profile Annotation in a Spring Boot App](https://www.reddit.com/r/java/comments/mhwqum/dont_use_the_profile_annotation_in_a_spring_boot/)
 - [A categorized list of all Java and JVM features since JDK 8 to 16](https://www.reddit.com/r/java/comments/mhury9/a_categorized_list_of_all_java_and_jvm_features/)
-- [Announcement: Skara update to support CVS and SourceForge](https://www.reddit.com/r/java/comments/mhrbxq/announcement_skara_update_to_support_cvs_and/)
-- [What's new in MicroProfile JSON Web Token 1.2](https://www.reddit.com/r/java/comments/mhgbh3/whats_new_in_microprofile_json_web_token_12/)
-- [Generate a Jakarta EE 9 project skeleton from Maven archetype](https://www.reddit.com/r/java/comments/mhfjxt/generate_a_jakarta_ee_9_project_skeleton_from/)
-- [Regular classes to have a constructor similar to Records](https://www.reddit.com/r/java/comments/mh9tfw/regular_classes_to_have_a_constructor_similar_to/)
-- [What to expect in Jakarta EE 10?](https://www.reddit.com/r/java/comments/mh76ra/what_to_expect_in_jakarta_ee_10/)
-- [Knative Eventing with Kafka and Quarkus - Piotr's TechBlog](https://www.reddit.com/r/java/comments/mh5o3t/knative_eventing_with_kafka_and_quarkus_piotrs/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
