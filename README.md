@@ -410,6 +410,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Common anti-patterns in Go](https://www.javacodegeeks.com/2021/04/common-anti-patterns-in-go.html)
 - [Seeing Through Frosted Glass](https://www.javacodegeeks.com/2021/04/seeing-through-frosted-glass.html)
 - [Best Selenium Frameworks for Automating Unit Testing for Web Applications](https://www.javacodegeeks.com/2021/04/best-selenium-frameworks-for-automating-unit-testing-for-web-applications.html)
 - [Batch solving an ActiveMQ queue that contains planning problem data sets in a scalable way](https://www.javacodegeeks.com/2021/04/batch-solving-an-activemq-queue-that-contains-planning-problem-data-sets-in-a-scalable-way.html)
@@ -419,7 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [New Java/JavaFX Library FXSkins Released](https://www.javacodegeeks.com/2021/03/new-java-javafx-library-fxskins-released.html)
 - [[MEGA DEAL] The 2021 Complete Digital Marketing Super Bundle (98% off)](https://www.javacodegeeks.com/2021/03/mega-deal-the-2021-complete-digital-marketing-super-bundle-98-off.html)
 - [Coroutine based Spring boot webflux application](https://www.javacodegeeks.com/2021/03/coroutine-based-spring-boot-webflux-application.html)
-- [Different ways of declaration and initialization of arrays in Java](https://www.javacodegeeks.com/2021/03/different-ways-of-declaration-and-initialization-of-arrays-in-java.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
