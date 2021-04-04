@@ -305,6 +305,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Better code posts_
 
 <!-- BETTERCODE-POST-LIST:START -->
+- [Conversion of Entity to DTO Using ModelMapper](https://betterjavacode.com/spring-boot/conversion-of-entity-to-dto-using-modelmapper)
 - [Spring Retry vs Resilience4j Retry](https://betterjavacode.com/programming/spring-retry-vs-resilience4j-retry)
 - [How to Deploy Spring Boot Application on AWS ECS](https://betterjavacode.com/aws/how-to-deploy-spring-boot-application-on-aws-ecs)
 - [User Management with Okta SDK and Spring Boot](https://betterjavacode.com/spring-boot/user-management-with-okta-sdk-and-spring-boot)
@@ -314,7 +315,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Spring Boot CRUD Application Example with MongoDB](https://betterjavacode.com/spring-boot/spring-boot-crud-application-example-with-mongodb)
 - [Top 21 Spring Boot Interview Questions](https://betterjavacode.com/spring-boot/top-21-spring-boot-interview-questions)
 - [Spring WebClient vs RestTemplate – Comparison and Features](https://betterjavacode.com/programming/spring-webclient-vs-resttemplate-comparison-and-features)
-- [The Complete Guide to Use Docker Compose](https://betterjavacode.com/docker/the-complete-guide-to-use-docker-compose)
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### _Inside Java posts_
