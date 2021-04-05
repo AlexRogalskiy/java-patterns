@@ -410,6 +410,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [The Focus of Every Agile Coach: Support How the Business Creates Value](https://www.javacodegeeks.com/2021/04/the-focus-of-every-agile-coach-support-how-the-business-creates-value.html)
 - [Common anti-patterns in Go](https://www.javacodegeeks.com/2021/04/common-anti-patterns-in-go.html)
 - [Seeing Through Frosted Glass](https://www.javacodegeeks.com/2021/04/seeing-through-frosted-glass.html)
 - [Best Selenium Frameworks for Automating Unit Testing for Web Applications](https://www.javacodegeeks.com/2021/04/best-selenium-frameworks-for-automating-unit-testing-for-web-applications.html)
@@ -419,7 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Five Ways to Tell It’s Time to Break Up with Your Legacy System](https://www.javacodegeeks.com/2021/03/five-ways-to-tell-its-time-to-break-up-with-your-legacy-system.html)
 - [New Java/JavaFX Library FXSkins Released](https://www.javacodegeeks.com/2021/03/new-java-javafx-library-fxskins-released.html)
 - [[MEGA DEAL] The 2021 Complete Digital Marketing Super Bundle (98% off)](https://www.javacodegeeks.com/2021/03/mega-deal-the-2021-complete-digital-marketing-super-bundle-98-off.html)
-- [Coroutine based Spring boot webflux application](https://www.javacodegeeks.com/2021/03/coroutine-based-spring-boot-webflux-application.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
