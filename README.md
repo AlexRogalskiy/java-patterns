@@ -320,6 +320,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [Java 16 - Consistency and Innovation](https://inside.java/2021/04/05/video-odl16-consistency-and-innovation/)
 - [Monitoring and Troubleshooting Tools in the JDK](https://inside.java/2021/04/04/video-odl16-jdk-monitoring-troubleshooting-jdk/)
 - [Project Skara: Migrating OpenJDK to Git and GitHub](https://inside.java/2021/04/03/video-odl16-skara/)
 - [Keynote: Java Innovations…Today and Tomorrow](https://inside.java/2021/04/02/video-odl16-keynote/)
@@ -329,7 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [New candidate JEP: 405: Record Patterns &amp; Array Patterns (Preview)](https://inside.java/2021/03/26/new-candidate-jep-405/)
 - [New candidate JEP: 406: Pattern Matching for switch (Preview)](https://inside.java/2021/03/26/new-candidate-jep-406/)
 - [New candidate JEP: 407: Remove RMI Activation](https://inside.java/2021/03/26/new-candidate-jep-407/)
-- [Inside Java Newscast #1](https://inside.java/2021/03/24/insidejava-newscast-001/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
