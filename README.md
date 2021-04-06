@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Interested to hear your thoughts on the best ways to upskill as a Java Developer - Are these the Top 5 Areas in your experience as of 2021?](https://www.reddit.com/r/java/comments/mktgp8/interested_to_hear_your_thoughts_on_the_best_ways/)
+- [Cross-Platform User Interfaces, Developed with Java & OpenJFX Project](https://www.reddit.com/r/java/comments/mkspg2/crossplatform_user_interfaces_developed_with_java/)
+- [Java 16 - Consistency and Innovation](https://www.reddit.com/r/java/comments/mks7l0/java_16_consistency_and_innovation/)
+- [Welcome to JAR Hell, Part 1 (Compilation, Classpaths, and Libraries)](https://www.reddit.com/r/java/comments/mkoox4/welcome_to_jar_hell_part_1_compilation_classpaths/)
+- [Supreme Court Rules for Google in Multibillion-Dollar Copyright Battle With Oracle](https://www.reddit.com/r/java/comments/mkndwf/supreme_court_rules_for_google_in/)
+- [Supreme Court sides with Google in Oracle copyright case](https://www.reddit.com/r/java/comments/mklxcr/supreme_court_sides_with_google_in_oracle/)
+- [Google's use of the Java SE API found to be fair use](https://www.reddit.com/r/java/comments/mklogw/googles_use_of_the_java_se_api_found_to_be_fair/)
+- [Early stage draft: Functional transformation of immutable objects](https://www.reddit.com/r/java/comments/mkin1q/early_stage_draft_functional_transformation_of/)
+- [Capturing business decisions](https://www.reddit.com/r/java/comments/mkbna5/capturing_business_decisions/)
 - [At what point does a Java SE app transition into Java EE territory?](https://www.reddit.com/r/java/comments/mk5gc5/at_what_point_does_a_java_se_app_transition_into/)
-- [Apache Maven Version 3.8.1 Released](https://www.reddit.com/r/java/comments/mk462r/apache_maven_version_381_released/)
-- [What program do I open .jar files with?](https://www.reddit.com/r/java/comments/mjzec6/what_program_do_i_open_jar_files_with/)
-- [Changing a field's type in recent JDKs](https://www.reddit.com/r/java/comments/mjyktv/changing_a_fields_type_in_recent_jdks/)
-- [Hashtag Jakarta EE #66](https://www.reddit.com/r/java/comments/mjvfo0/hashtag_jakarta_ee_66/)
-- [JDK Security Enhancements in each release since JDK12.](https://www.reddit.com/r/java/comments/mjjfdy/jdk_security_enhancements_in_each_release_since/)
-- [Eclipse LSP4Jakarta, the Language Server for Jakarta EE](https://www.reddit.com/r/java/comments/mjdjjf/eclipse_lsp4jakarta_the_language_server_for/)
-- [Releasing a renewal of old unmaintained library from someone else, should I change package names?](https://www.reddit.com/r/java/comments/mj3sgi/releasing_a_renewal_of_old_unmaintained_library/)
-- [Memory Leak in Java executor](https://www.reddit.com/r/java/comments/mj1rid/memory_leak_in_java_executor/)
-- [First use of the new X86 instruction Serialize in OpenJDK](https://www.reddit.com/r/java/comments/miz0o0/first_use_of_the_new_x86_instruction_serialize_in/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
