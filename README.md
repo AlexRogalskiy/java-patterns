@@ -380,6 +380,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Thorben Janssen posts_
 
 <!-- TJ-POST-LIST:START -->
+- [How to retrieve DTOs from your Envers Audit Logs](https://thorben-janssen.com/envers-dto/)
 - [Polymorphic association mappings of independent classes](https://thorben-janssen.com/polymorphic-association-mappings-of-independent-classes/)
 - [Hibernate Slow Query Log – The easiest way to find slow queries](https://thorben-janssen.com/hibernate-slow-query-log/)
 - [Coffee with Thorben 2020-03-05 – Natural vs Surrogate Keys](https://thorben-janssen.com/coffee-with-thorben-2020-02-19-utility-classes-2/)
@@ -389,7 +390,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Coffee with Thorben 2020-02-19 – Enums, Enums, Enums …](https://thorben-janssen.com/coffee-with-thorben-jpql-criteria-native-2/)
 - [From Monolith to Microservices – Migrating a Persistence Layer](https://thorben-janssen.com/monolith-to-microservices-persistence-layer/)
 - [Coffee with Thorben 2020-02-12 – JPQL vs Criteria vs Native Queries](https://thorben-janssen.com/coffee-with-thorben-jpql-criteria-native/)
-- [Hibernate Query Spaces – Optimizing Flush and Cache Operations](https://thorben-janssen.com/hibernate-query-spaces/)
 <!-- TJ-POST-LIST:END -->
 
 ### _Redhat posts_
