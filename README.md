@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [Interested to hear your thoughts on the best ways to upskill as a Java Developer - Are these the Top 5 Areas in your experience as of 2021?](https://www.reddit.com/r/java/comments/mktgp8/interested_to_hear_your_thoughts_on_the_best_ways/)
+- [The Hitchhiker Guide to Pure Functions and Immutable Objects](https://www.reddit.com/r/java/comments/mlqb8y/the_hitchhiker_guide_to_pure_functions_and/)
+- [Bring an int from main class to different class](https://www.reddit.com/r/java/comments/mlov31/bring_an_int_from_main_class_to_different_class/)
+- [New candidate JEP: 409: Sealed Classes](https://www.reddit.com/r/java/comments/mlo4kb/new_candidate_jep_409_sealed_classes/)
+- [Announcing Preview of Microsoft Build of OpenJDK](https://www.reddit.com/r/java/comments/mlecob/announcing_preview_of_microsoft_build_of_openjdk/)
+- [Record Serialization in Practise](https://www.reddit.com/r/java/comments/mlcoe8/record_serialization_in_practise/)
+- [New language features since Java 8 to 16](https://www.reddit.com/r/java/comments/mlbb89/new_language_features_since_java_8_to_16/)
+- [Tackling Java cold startup times on AWS Lambda with GraalVM](https://www.reddit.com/r/java/comments/ml6byp/tackling_java_cold_startup_times_on_aws_lambda/)
+- [The Vector API: SIMD Programming in Java (video)](https://www.reddit.com/r/java/comments/ml63xg/the_vector_api_simd_programming_in_java_video/)
 - [Cross-Platform User Interfaces, Developed with Java & OpenJFX Project](https://www.reddit.com/r/java/comments/mkspg2/crossplatform_user_interfaces_developed_with_java/)
 - [Java 16 - Consistency and Innovation](https://www.reddit.com/r/java/comments/mks7l0/java_16_consistency_and_innovation/)
-- [Welcome to JAR Hell, Part 1 (Compilation, Classpaths, and Libraries)](https://www.reddit.com/r/java/comments/mkoox4/welcome_to_jar_hell_part_1_compilation_classpaths/)
-- [Supreme Court Rules for Google in Multibillion-Dollar Copyright Battle With Oracle](https://www.reddit.com/r/java/comments/mkndwf/supreme_court_rules_for_google_in/)
-- [Supreme Court sides with Google in Oracle copyright case](https://www.reddit.com/r/java/comments/mklxcr/supreme_court_sides_with_google_in_oracle/)
-- [Google's use of the Java SE API found to be fair use](https://www.reddit.com/r/java/comments/mklogw/googles_use_of_the_java_se_api_found_to_be_fair/)
-- [Early stage draft: Functional transformation of immutable objects](https://www.reddit.com/r/java/comments/mkin1q/early_stage_draft_functional_transformation_of/)
-- [Capturing business decisions](https://www.reddit.com/r/java/comments/mkbna5/capturing_business_decisions/)
-- [At what point does a Java SE app transition into Java EE territory?](https://www.reddit.com/r/java/comments/mk5gc5/at_what_point_does_a_java_se_app_transition_into/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
