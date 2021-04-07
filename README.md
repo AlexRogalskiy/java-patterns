@@ -320,6 +320,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [Record Serialization in Practice](https://inside.java/2021/04/06/record-serialization-in-practise/)
+- [The Vector API: SIMD Programming in Java](https://inside.java/2021/04/06/video-odl16-vectorapi/)
 - [Java 16 - Consistency and Innovation](https://inside.java/2021/04/05/video-odl16-consistency-and-innovation/)
 - [Monitoring and Troubleshooting Tools in the JDK](https://inside.java/2021/04/04/video-odl16-jdk-monitoring-troubleshooting-jdk/)
 - [Project Skara: Migrating OpenJDK to Git and GitHub](https://inside.java/2021/04/03/video-odl16-skara/)
@@ -328,8 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Proposed schedule for JDK 17](https://inside.java/2021/03/30/jdk17-proposed-schedule/)
 - [New candidate JEP: 408: Simple Web Server](https://inside.java/2021/03/29/new-candidate-jep-408/)
 - [New candidate JEP: 405: Record Patterns &amp; Array Patterns (Preview)](https://inside.java/2021/03/26/new-candidate-jep-405/)
-- [New candidate JEP: 406: Pattern Matching for switch (Preview)](https://inside.java/2021/03/26/new-candidate-jep-406/)
-- [New candidate JEP: 407: Remove RMI Activation](https://inside.java/2021/03/26/new-candidate-jep-407/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
