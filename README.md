@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [The Hitchhiker Guide to Pure Functions and Immutable Objects](https://www.reddit.com/r/java/comments/mlqb8y/the_hitchhiker_guide_to_pure_functions_and/)
-- [Bring an int from main class to different class](https://www.reddit.com/r/java/comments/mlov31/bring_an_int_from_main_class_to_different_class/)
-- [New candidate JEP: 409: Sealed Classes](https://www.reddit.com/r/java/comments/mlo4kb/new_candidate_jep_409_sealed_classes/)
-- [Announcing Preview of Microsoft Build of OpenJDK](https://www.reddit.com/r/java/comments/mlecob/announcing_preview_of_microsoft_build_of_openjdk/)
-- [Record Serialization in Practise](https://www.reddit.com/r/java/comments/mlcoe8/record_serialization_in_practise/)
-- [New language features since Java 8 to 16](https://www.reddit.com/r/java/comments/mlbb89/new_language_features_since_java_8_to_16/)
-- [Tackling Java cold startup times on AWS Lambda with GraalVM](https://www.reddit.com/r/java/comments/ml6byp/tackling_java_cold_startup_times_on_aws_lambda/)
-- [The Vector API: SIMD Programming in Java (video)](https://www.reddit.com/r/java/comments/ml63xg/the_vector_api_simd_programming_in_java_video/)
-- [Cross-Platform User Interfaces, Developed with Java & OpenJFX Project](https://www.reddit.com/r/java/comments/mkspg2/crossplatform_user_interfaces_developed_with_java/)
-- [Java 16 - Consistency and Innovation](https://www.reddit.com/r/java/comments/mks7l0/java_16_consistency_and_innovation/)
+- [New candidate JEP: 410: Remove the Experimental AOT and JIT Compiler](https://www.reddit.com/r/java/comments/mmczw2/new_candidate_jep_410_remove_the_experimental_aot/)
+- [FTLDoc - A documentation generator for Freemarker templates](https://www.reddit.com/r/java/comments/mmc9jz/ftldoc_a_documentation_generator_for_freemarker/)
+- [What are some good/reasonable examples when java's Unsafe should be used?](https://www.reddit.com/r/java/comments/mmak84/what_are_some_goodreasonable_examples_when_javas/)
+- [Anybody has used the Checker framework?](https://www.reddit.com/r/java/comments/mm9ph9/anybody_has_used_the_checker_framework/)
+- [How to trace JVM filesystem accesses using Java](https://www.reddit.com/r/java/comments/mm8g0c/how_to_trace_jvm_filesystem_accesses_using_java/)
+- [Principal engineer - next level](https://www.reddit.com/r/java/comments/mm7emb/principal_engineer_next_level/)
+- [Is 16GB enough for Java/AS(Android Studio)?](https://www.reddit.com/r/java/comments/mm620f/is_16gb_enough_for_javaasandroid_studio/)
+- [What is Java EE?](https://www.reddit.com/r/java/comments/mm1ks5/what_is_java_ee/)
+- [IntelliJ IDEA 2021.1 is out!](https://www.reddit.com/r/java/comments/mm0p2s/intellij_idea_20211_is_out/)
+- [What does Java thread context switching mean ?](https://www.reddit.com/r/java/comments/mlyctq/what_does_java_thread_context_switching_mean/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
