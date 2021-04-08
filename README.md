@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Java Program to Add Two Numbers Without Using + operator](https://www.javacodegeeks.com/2021/04/java-program-to-add-two-numbers-without-using-operator.html)
+- [How To Make A File Read Only Or Writable In Java?](https://www.javacodegeeks.com/2021/04/how-to-make-a-file-read-only-or-writable-in-java.html)
 - [Chasing Java’s release train, from 8 to 16. Part 1: JDK 9, the last big banger](https://www.javacodegeeks.com/2021/04/chasing-javas-release-train-from-8-to-16-part-1-jdk-9-the-last-big-banger.html)
 - [Java – How to Delete Files and Folders?](https://www.javacodegeeks.com/2021/04/java-how-to-delete-files-and-folders.html)
 - [Project reactor and Caching with Caffeine](https://www.javacodegeeks.com/2021/04/project-reactor-and-caching-with-caffeine.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [The Focus of Every Agile Coach: Support How the Business Creates Value](https://www.javacodegeeks.com/2021/04/the-focus-of-every-agile-coach-support-how-the-business-creates-value.html)
 - [Common anti-patterns in Go](https://www.javacodegeeks.com/2021/04/common-anti-patterns-in-go.html)
 - [Seeing Through Frosted Glass](https://www.javacodegeeks.com/2021/04/seeing-through-frosted-glass.html)
-- [Best Selenium Frameworks for Automating Unit Testing for Web Applications](https://www.javacodegeeks.com/2021/04/best-selenium-frameworks-for-automating-unit-testing-for-web-applications.html)
-- [Batch solving an ActiveMQ queue that contains planning problem data sets in a scalable way](https://www.javacodegeeks.com/2021/04/batch-solving-an-activemq-queue-that-contains-planning-problem-data-sets-in-a-scalable-way.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
