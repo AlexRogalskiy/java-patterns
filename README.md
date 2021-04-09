@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [New candidate JEP: 410: Remove the Experimental AOT and JIT Compiler](https://www.reddit.com/r/java/comments/mmczw2/new_candidate_jep_410_remove_the_experimental_aot/)
-- [FTLDoc - A documentation generator for Freemarker templates](https://www.reddit.com/r/java/comments/mmc9jz/ftldoc_a_documentation_generator_for_freemarker/)
-- [What are some good/reasonable examples when java's Unsafe should be used?](https://www.reddit.com/r/java/comments/mmak84/what_are_some_goodreasonable_examples_when_javas/)
-- [Anybody has used the Checker framework?](https://www.reddit.com/r/java/comments/mm9ph9/anybody_has_used_the_checker_framework/)
-- [How to trace JVM filesystem accesses using Java](https://www.reddit.com/r/java/comments/mm8g0c/how_to_trace_jvm_filesystem_accesses_using_java/)
-- [Principal engineer - next level](https://www.reddit.com/r/java/comments/mm7emb/principal_engineer_next_level/)
-- [Is 16GB enough for Java/AS(Android Studio)?](https://www.reddit.com/r/java/comments/mm620f/is_16gb_enough_for_javaasandroid_studio/)
-- [What is Java EE?](https://www.reddit.com/r/java/comments/mm1ks5/what_is_java_ee/)
-- [IntelliJ IDEA 2021.1 is out!](https://www.reddit.com/r/java/comments/mm0p2s/intellij_idea_20211_is_out/)
-- [What does Java thread context switching mean ?](https://www.reddit.com/r/java/comments/mlyctq/what_does_java_thread_context_switching_mean/)
+- [Inside Java Newscast #2 - Vector API, Record Serialization, And Java 17](https://www.reddit.com/r/java/comments/mmx64i/inside_java_newscast_2_vector_api_record/)
+- [What GUI Java framework to use?](https://www.reddit.com/r/java/comments/mmw4gp/what_gui_java_framework_to_use/)
+- [GlassFish now runs on JDK 16!](https://www.reddit.com/r/java/comments/mmvbcc/glassfish_now_runs_on_jdk_16/)
+- [Reliable WebSockets-based pub/sub with Spring Boot](https://www.reddit.com/r/java/comments/mmtzhx/reliable_websocketsbased_pubsub_with_spring_boot/)
+- [Who else is working on JDK distributions for ARM processors?](https://www.reddit.com/r/java/comments/mmsfxr/who_else_is_working_on_jdk_distributions_for_arm/)
+- [Finding the N+1 query anti-pattern in a Java app](https://www.reddit.com/r/java/comments/mmpb8i/finding_the_n1_query_antipattern_in_a_java_app/)
+- [An Advanced GraphQL with Spring Boot and Netflix DGS - Piotr's TechBlog](https://www.reddit.com/r/java/comments/mmmzuh/an_advanced_graphql_with_spring_boot_and_netflix/)
+- [Java Language Futures: Spring 2021](https://www.reddit.com/r/java/comments/mmmcij/java_language_futures_spring_2021/)
+- [Microsoft Java distribution](https://www.reddit.com/r/java/comments/mml98h/microsoft_java_distribution/)
+- [What is the subreddit logo?](https://www.reddit.com/r/java/comments/mmjjj0/what_is_the_subreddit_logo/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
