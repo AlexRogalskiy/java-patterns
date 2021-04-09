@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Guidelines for Java code review](https://www.javacodegeeks.com/2021/04/guidelines-for-java-code-review.html)
+- [Introduction into GraalVM (Community Edition): And How the Future Looks Like?](https://www.javacodegeeks.com/2021/04/introduction-into-graalvm-community-edition-and-how-the-future-looks-like.html)
 - [Java Program to Add Two Numbers Without Using + operator](https://www.javacodegeeks.com/2021/04/java-program-to-add-two-numbers-without-using-operator.html)
 - [How To Make A File Read Only Or Writable In Java?](https://www.javacodegeeks.com/2021/04/how-to-make-a-file-read-only-or-writable-in-java.html)
 - [Chasing Java’s release train, from 8 to 16. Part 1: JDK 9, the last big banger](https://www.javacodegeeks.com/2021/04/chasing-javas-release-train-from-8-to-16-part-1-jdk-9-the-last-big-banger.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [[MEGA DEAL] The 2021 Complete Computer Science Training Bundle (97% off)](https://www.javacodegeeks.com/2021/04/mega-deal-the-2021-complete-computer-science-training-bundle-97-off.html)
 - [Significance Of Scriptless Test Automation In The World Of Automation Testing](https://www.javacodegeeks.com/2021/04/significance-of-scriptless-test-automation-in-the-world-of-automation-testing.html)
 - [The Focus of Every Agile Coach: Support How the Business Creates Value](https://www.javacodegeeks.com/2021/04/the-focus-of-every-agile-coach-support-how-the-business-creates-value.html)
-- [Common anti-patterns in Go](https://www.javacodegeeks.com/2021/04/common-anti-patterns-in-go.html)
-- [Seeing Through Frosted Glass](https://www.javacodegeeks.com/2021/04/seeing-through-frosted-glass.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
