@@ -335,6 +335,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Java programmer posts_
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [Java 3D Array – Three Dimensional Array](https://www.thejavaprogrammer.com/java-3d-array/)
 - [Does Constructor Return Any Value?](https://www.thejavaprogrammer.com/does-constructor-return-any-value/)
 - [Basic Structure of Java Program with Example](https://www.thejavaprogrammer.com/structure-of-java-program/)
 - [What is Native Method in Java?](https://www.thejavaprogrammer.com/native-method-in-java/)
@@ -344,7 +345,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Types of Constructors in Java](https://www.thejavaprogrammer.com/types-of-constructors-in-java/)
 - [Solve Error insert “Dimensions” to complete ReferenceType in Java](https://www.thejavaprogrammer.com/insert-dimensions-to-complete-referencetype/)
 - [What is Object Oriented Paradigm in Java?](https://www.thejavaprogrammer.com/what-is-object-oriented-paradigm-in-java/)
-- [Best Way to Learn Java for a Beginner](https://www.thejavaprogrammer.com/best-way-to-learn-java-for-a-beginner/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### _Dreamix posts_
