@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [Inside Java Newscast #2 - Vector API, Record Serialization, And Java 17](https://www.reddit.com/r/java/comments/mmx64i/inside_java_newscast_2_vector_api_record/)
-- [What GUI Java framework to use?](https://www.reddit.com/r/java/comments/mmw4gp/what_gui_java_framework_to_use/)
-- [GlassFish now runs on JDK 16!](https://www.reddit.com/r/java/comments/mmvbcc/glassfish_now_runs_on_jdk_16/)
-- [Reliable WebSockets-based pub/sub with Spring Boot](https://www.reddit.com/r/java/comments/mmtzhx/reliable_websocketsbased_pubsub_with_spring_boot/)
-- [Who else is working on JDK distributions for ARM processors?](https://www.reddit.com/r/java/comments/mmsfxr/who_else_is_working_on_jdk_distributions_for_arm/)
-- [Finding the N+1 query anti-pattern in a Java app](https://www.reddit.com/r/java/comments/mmpb8i/finding_the_n1_query_antipattern_in_a_java_app/)
-- [An Advanced GraphQL with Spring Boot and Netflix DGS - Piotr's TechBlog](https://www.reddit.com/r/java/comments/mmmzuh/an_advanced_graphql_with_spring_boot_and_netflix/)
-- [Java Language Futures: Spring 2021](https://www.reddit.com/r/java/comments/mmmcij/java_language_futures_spring_2021/)
-- [Microsoft Java distribution](https://www.reddit.com/r/java/comments/mml98h/microsoft_java_distribution/)
-- [What is the subreddit logo?](https://www.reddit.com/r/java/comments/mmjjj0/what_is_the_subreddit_logo/)
+- [Gradle 7.0 Released](https://www.reddit.com/r/java/comments/mntn7c/gradle_70_released/)
+- [Java Fluent Validator](https://www.reddit.com/r/java/comments/mntgz4/java_fluent_validator/)
+- [Could somebody explain what I've done wrong? I've included the '}' but I'm still getting this error](https://www.reddit.com/r/java/comments/mnqwt2/could_somebody_explain_what_ive_done_wrong_ive/)
+- [Building your own Maven archetype](https://www.reddit.com/r/java/comments/mnp03s/building_your_own_maven_archetype/)
+- [Data Persistence with Helidon and Native Image](https://www.reddit.com/r/java/comments/mnho4b/data_persistence_with_helidon_and_native_image/)
+- [New to Java](https://www.reddit.com/r/java/comments/mnhax1/new_to_java/)
+- [7 JVM Arguments of Highly effective applications](https://www.reddit.com/r/java/comments/mnewze/7_jvm_arguments_of_highly_effective_applications/)
+- [Contract-First Development Using RestAssured and OpenAPI](https://www.reddit.com/r/java/comments/mndlur/contractfirst_development_using_restassured_and/)
+- [How to Hire Java Development Companies for your Project?](https://www.reddit.com/r/java/comments/mnalve/how_to_hire_java_development_companies_for_your/)
+- [Asking for advice](https://www.reddit.com/r/java/comments/mn8htk/asking_for_advice/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
