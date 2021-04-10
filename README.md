@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Managers: Are You Responsible “To” or “For” People?](https://www.javacodegeeks.com/2021/04/managers-are-you-responsible-to-or-for-people.html)
+- [kdb+/q – Display a Table as a Tree](https://www.javacodegeeks.com/2021/04/kdb-q-display-a-table-as-a-tree.html)
 - [Guidelines for Java code review](https://www.javacodegeeks.com/2021/04/guidelines-for-java-code-review.html)
 - [Introduction into GraalVM (Community Edition): And How the Future Looks Like?](https://www.javacodegeeks.com/2021/04/introduction-into-graalvm-community-edition-and-how-the-future-looks-like.html)
 - [Java Program to Add Two Numbers Without Using + operator](https://www.javacodegeeks.com/2021/04/java-program-to-add-two-numbers-without-using-operator.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Java – How to Delete Files and Folders?](https://www.javacodegeeks.com/2021/04/java-how-to-delete-files-and-folders.html)
 - [Project reactor and Caching with Caffeine](https://www.javacodegeeks.com/2021/04/project-reactor-and-caching-with-caffeine.html)
 - [[MEGA DEAL] The 2021 Complete Computer Science Training Bundle (97% off)](https://www.javacodegeeks.com/2021/04/mega-deal-the-2021-complete-computer-science-training-bundle-97-off.html)
-- [Significance Of Scriptless Test Automation In The World Of Automation Testing](https://www.javacodegeeks.com/2021/04/significance-of-scriptless-test-automation-in-the-world-of-automation-testing.html)
-- [The Focus of Every Agile Coach: Support How the Business Creates Value](https://www.javacodegeeks.com/2021/04/the-focus-of-every-agile-coach-support-how-the-business-creates-value.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
