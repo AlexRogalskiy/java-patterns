@@ -245,15 +245,15 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Enhanced Streams Processing with Kotlin’s Sequence Interface (it's about Java though)](https://www.reddit.com/r/java/comments/modybu/enhanced_streams_processing_with_kotlins_sequence/)
+- [Introducing neat-chess, a library that implements the UCI protocol, and allows developers to interact with the Stockfish Chess Engine from Java](https://www.reddit.com/r/java/comments/moaslk/introducing_neatchess_a_library_that_implements/)
+- [What do I do?](https://www.reddit.com/r/java/comments/mo16qy/what_do_i_do/)
+- [Spring Data JPA MongoDB Expressions](https://www.reddit.com/r/java/comments/mnv9n4/spring_data_jpa_mongodb_expressions/)
 - [Gradle 7.0 Released](https://www.reddit.com/r/java/comments/mntn7c/gradle_70_released/)
 - [Java Fluent Validator](https://www.reddit.com/r/java/comments/mntgz4/java_fluent_validator/)
-- [Could somebody explain what I've done wrong? I've included the '}' but I'm still getting this error](https://www.reddit.com/r/java/comments/mnqwt2/could_somebody_explain_what_ive_done_wrong_ive/)
 - [Building your own Maven archetype](https://www.reddit.com/r/java/comments/mnp03s/building_your_own_maven_archetype/)
 - [Data Persistence with Helidon and Native Image](https://www.reddit.com/r/java/comments/mnho4b/data_persistence_with_helidon_and_native_image/)
-- [New to Java](https://www.reddit.com/r/java/comments/mnhax1/new_to_java/)
-- [7 JVM Arguments of Highly effective applications](https://www.reddit.com/r/java/comments/mnewze/7_jvm_arguments_of_highly_effective_applications/)
 - [Contract-First Development Using RestAssured and OpenAPI](https://www.reddit.com/r/java/comments/mndlur/contractfirst_development_using_restassured_and/)
-- [How to Hire Java Development Companies for your Project?](https://www.reddit.com/r/java/comments/mnalve/how_to_hire_java_development_companies_for_your/)
 - [Asking for advice](https://www.reddit.com/r/java/comments/mn8htk/asking_for_advice/)
 <!-- REDDIT-POST-LIST:END -->
 
