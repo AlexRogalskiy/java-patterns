@@ -410,6 +410,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Compile and run java9 module program: part2](https://www.javacodegeeks.com/2021/04/compile-and-run-java9-module-program-part2.html)
 - [Managers: Are You Responsible “To” or “For” People?](https://www.javacodegeeks.com/2021/04/managers-are-you-responsible-to-or-for-people.html)
 - [kdb+/q – Display a Table as a Tree](https://www.javacodegeeks.com/2021/04/kdb-q-display-a-table-as-a-tree.html)
 - [Guidelines for Java code review](https://www.javacodegeeks.com/2021/04/guidelines-for-java-code-review.html)
@@ -419,7 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Chasing Java’s release train, from 8 to 16. Part 1: JDK 9, the last big banger](https://www.javacodegeeks.com/2021/04/chasing-javas-release-train-from-8-to-16-part-1-jdk-9-the-last-big-banger.html)
 - [Java – How to Delete Files and Folders?](https://www.javacodegeeks.com/2021/04/java-how-to-delete-files-and-folders.html)
 - [Project reactor and Caching with Caffeine](https://www.javacodegeeks.com/2021/04/project-reactor-and-caching-with-caffeine.html)
-- [[MEGA DEAL] The 2021 Complete Computer Science Training Bundle (97% off)](https://www.javacodegeeks.com/2021/04/mega-deal-the-2021-complete-computer-science-training-bundle-97-off.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
