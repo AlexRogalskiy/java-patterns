@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Mojarra 4.0.0-M1 released!](https://www.reddit.com/r/java/comments/mp0s8b/mojarra_400m1_released/)
+- [No JRE Included with JDK15.0.1](https://www.reddit.com/r/java/comments/moxpwr/no_jre_included_with_jdk1501/)
+- [Why is it so incredibly difficult to publish JVM libraries? What am I missing?](https://www.reddit.com/r/java/comments/mox3rm/why_is_it_so_incredibly_difficult_to_publish_jvm/)
+- [Is there a Java Discord? Thanks!](https://www.reddit.com/r/java/comments/movit7/is_there_a_java_discord_thanks/)
+- [Your own custom Spring Data repository](https://www.reddit.com/r/java/comments/mot5p1/your_own_custom_spring_data_repository/)
+- [What is the difference between a framework and a GUI development framework?](https://www.reddit.com/r/java/comments/mosazl/what_is_the_difference_between_a_framework_and_a/)
+- [Jakarta EE/MicroProfile Alignment Survey Results](https://www.reddit.com/r/java/comments/mom9en/jakarta_eemicroprofile_alignment_survey_results/)
+- [Interesring Java 16 standard feature "Records"](https://www.reddit.com/r/java/comments/molj6k/interesring_java_16_standard_feature_records/)
+- [Stream API skip() and limit() allocation optimization on openjdk 17](https://www.reddit.com/r/java/comments/mokns2/stream_api_skip_and_limit_allocation_optimization/)
 - [Enhanced Streams Processing with Kotlin’s Sequence Interface (it's about Java though)](https://www.reddit.com/r/java/comments/modybu/enhanced_streams_processing_with_kotlins_sequence/)
-- [Introducing neat-chess, a library that implements the UCI protocol, and allows developers to interact with the Stockfish Chess Engine from Java](https://www.reddit.com/r/java/comments/moaslk/introducing_neatchess_a_library_that_implements/)
-- [What do I do?](https://www.reddit.com/r/java/comments/mo16qy/what_do_i_do/)
-- [Spring Data JPA MongoDB Expressions](https://www.reddit.com/r/java/comments/mnv9n4/spring_data_jpa_mongodb_expressions/)
-- [Gradle 7.0 Released](https://www.reddit.com/r/java/comments/mntn7c/gradle_70_released/)
-- [Java Fluent Validator](https://www.reddit.com/r/java/comments/mntgz4/java_fluent_validator/)
-- [Building your own Maven archetype](https://www.reddit.com/r/java/comments/mnp03s/building_your_own_maven_archetype/)
-- [Data Persistence with Helidon and Native Image](https://www.reddit.com/r/java/comments/mnho4b/data_persistence_with_helidon_and_native_image/)
-- [Contract-First Development Using RestAssured and OpenAPI](https://www.reddit.com/r/java/comments/mndlur/contractfirst_development_using_restassured_and/)
-- [Asking for advice](https://www.reddit.com/r/java/comments/mn8htk/asking_for_advice/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
