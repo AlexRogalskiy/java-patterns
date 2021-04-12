@@ -410,6 +410,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [To Mock or Not To Mock](https://www.javacodegeeks.com/2021/04/to-mock-or-not-to-mock.html)
 - [Compile and run java9 module program: part2](https://www.javacodegeeks.com/2021/04/compile-and-run-java9-module-program-part2.html)
 - [Managers: Are You Responsible “To” or “For” People?](https://www.javacodegeeks.com/2021/04/managers-are-you-responsible-to-or-for-people.html)
 - [kdb+/q – Display a Table as a Tree](https://www.javacodegeeks.com/2021/04/kdb-q-display-a-table-as-a-tree.html)
@@ -419,7 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [How To Make A File Read Only Or Writable In Java?](https://www.javacodegeeks.com/2021/04/how-to-make-a-file-read-only-or-writable-in-java.html)
 - [Chasing Java’s release train, from 8 to 16. Part 1: JDK 9, the last big banger](https://www.javacodegeeks.com/2021/04/chasing-javas-release-train-from-8-to-16-part-1-jdk-9-the-last-big-banger.html)
 - [Java – How to Delete Files and Folders?](https://www.javacodegeeks.com/2021/04/java-how-to-delete-files-and-folders.html)
-- [Project reactor and Caching with Caffeine](https://www.javacodegeeks.com/2021/04/project-reactor-and-caching-with-caffeine.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
