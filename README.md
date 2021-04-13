@@ -320,6 +320,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [Your Guide to OpenJDK Development](https://inside.java/2021/04/12/odl16-openjdk-guide/)
+- [Episode 16 “Let’s Discuss JDK and Networking” with Michael McMahon and Daniel Fuchs](https://inside.java/2021/04/12/podcast-016/)
 - [Inside Java Newscast #2](https://inside.java/2021/04/08/insidejava-newscast-002/)
 - [Java Language Futures: Spring 2021](https://inside.java/2021/04/08/odl16-java-language-futures/)
 - [New candidate JEP: 409: Sealed Classes](https://inside.java/2021/04/07/new-candidate-jep-409/)
@@ -328,8 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [The Vector API: SIMD Programming in Java](https://inside.java/2021/04/06/video-odl16-vectorapi/)
 - [Java 16 - Consistency and Innovation](https://inside.java/2021/04/05/video-odl16-consistency-and-innovation/)
 - [Monitoring and Troubleshooting Tools in the JDK](https://inside.java/2021/04/04/video-odl16-jdk-monitoring-troubleshooting-jdk/)
-- [Project Skara: Migrating OpenJDK to Git and GitHub](https://inside.java/2021/04/03/video-odl16-skara/)
-- [Keynote: Java Innovations…Today and Tomorrow](https://inside.java/2021/04/02/video-odl16-keynote/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
