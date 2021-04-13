@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [Mojarra 4.0.0-M1 released!](https://www.reddit.com/r/java/comments/mp0s8b/mojarra_400m1_released/)
-- [No JRE Included with JDK15.0.1](https://www.reddit.com/r/java/comments/moxpwr/no_jre_included_with_jdk1501/)
-- [Why is it so incredibly difficult to publish JVM libraries? What am I missing?](https://www.reddit.com/r/java/comments/mox3rm/why_is_it_so_incredibly_difficult_to_publish_jvm/)
-- [Is there a Java Discord? Thanks!](https://www.reddit.com/r/java/comments/movit7/is_there_a_java_discord_thanks/)
-- [Your own custom Spring Data repository](https://www.reddit.com/r/java/comments/mot5p1/your_own_custom_spring_data_repository/)
-- [What is the difference between a framework and a GUI development framework?](https://www.reddit.com/r/java/comments/mosazl/what_is_the_difference_between_a_framework_and_a/)
-- [Jakarta EE/MicroProfile Alignment Survey Results](https://www.reddit.com/r/java/comments/mom9en/jakarta_eemicroprofile_alignment_survey_results/)
-- [Interesring Java 16 standard feature "Records"](https://www.reddit.com/r/java/comments/molj6k/interesring_java_16_standard_feature_records/)
-- [Stream API skip() and limit() allocation optimization on openjdk 17](https://www.reddit.com/r/java/comments/mokns2/stream_api_skip_and_limit_allocation_optimization/)
-- [Enhanced Streams Processing with Kotlin’s Sequence Interface (it's about Java though)](https://www.reddit.com/r/java/comments/modybu/enhanced_streams_processing_with_kotlins_sequence/)
+- [Suck at debugging](https://www.reddit.com/r/java/comments/mpqhdf/suck_at_debugging/)
+- [Question on low level arithmetic operations](https://www.reddit.com/r/java/comments/mpn9nv/question_on_low_level_arithmetic_operations/)
+- [~15% quicker full GC G1 pauses on openjdk master](https://www.reddit.com/r/java/comments/mpm53p/15_quicker_full_gc_g1_pauses_on_openjdk_master/)
+- [Scala Syntax for Java Developers](https://www.reddit.com/r/java/comments/mplf3x/scala_syntax_for_java_developers/)
+- [Implementing Plugins with Java's Service Provider Interface](https://www.reddit.com/r/java/comments/mpheuz/implementing_plugins_with_javas_service_provider/)
+- [Can you list java enterprise apps which are on-prem ?](https://www.reddit.com/r/java/comments/mpgnk9/can_you_list_java_enterprise_apps_which_are_onprem/)
+- [Inside Java Podcast #16 “Let's Discuss JDK and Networking”](https://www.reddit.com/r/java/comments/mpe6wh/inside_java_podcast_16_lets_discuss_jdk_and/)
+- [Is using Project Lombok actually an good idea?](https://www.reddit.com/r/java/comments/mpd0gw/is_using_project_lombok_actually_an_good_idea/)
+- [Your cool open source libraries](https://www.reddit.com/r/java/comments/mp96a7/your_cool_open_source_libraries/)
+- [JReleaser says hello!](https://www.reddit.com/r/java/comments/mp92p4/jreleaser_says_hello/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
