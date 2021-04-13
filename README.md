@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [[MEGA DEAL] The 2021 Complete Google SEO & SERP Certification Bundle (98% off)](https://www.javacodegeeks.com/2021/04/mega-deal-the-2021-complete-google-seo-serp-certification-bundle-98-off.html)
+- [Point of sale – Common architectural elements](https://www.javacodegeeks.com/2021/04/point-of-sale-common-architectural-elements.html)
 - [To Mock or Not To Mock](https://www.javacodegeeks.com/2021/04/to-mock-or-not-to-mock.html)
 - [Compile and run java9 module program: part2](https://www.javacodegeeks.com/2021/04/compile-and-run-java9-module-program-part2.html)
 - [Managers: Are You Responsible “To” or “For” People?](https://www.javacodegeeks.com/2021/04/managers-are-you-responsible-to-or-for-people.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Introduction into GraalVM (Community Edition): And How the Future Looks Like?](https://www.javacodegeeks.com/2021/04/introduction-into-graalvm-community-edition-and-how-the-future-looks-like.html)
 - [Java Program to Add Two Numbers Without Using + operator](https://www.javacodegeeks.com/2021/04/java-program-to-add-two-numbers-without-using-operator.html)
 - [How To Make A File Read Only Or Writable In Java?](https://www.javacodegeeks.com/2021/04/how-to-make-a-file-read-only-or-writable-in-java.html)
-- [Chasing Java’s release train, from 8 to 16. Part 1: JDK 9, the last big banger](https://www.javacodegeeks.com/2021/04/chasing-javas-release-train-from-8-to-16-part-1-jdk-9-the-last-big-banger.html)
-- [Java – How to Delete Files and Folders?](https://www.javacodegeeks.com/2021/04/java-how-to-delete-files-and-folders.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
