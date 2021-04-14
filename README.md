@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Headless eCommerce – An architectural introduction](https://www.javacodegeeks.com/2021/04/headless-ecommerce-an-architectural-introduction.html)
+- [Point of sale – Example image distribution architecture](https://www.javacodegeeks.com/2021/04/point-of-sale-example-image-distribution-architecture.html)
 - [[MEGA DEAL] The 2021 Complete Google SEO & SERP Certification Bundle (98% off)](https://www.javacodegeeks.com/2021/04/mega-deal-the-2021-complete-google-seo-serp-certification-bundle-98-off.html)
 - [Point of sale – Common architectural elements](https://www.javacodegeeks.com/2021/04/point-of-sale-common-architectural-elements.html)
 - [To Mock or Not To Mock](https://www.javacodegeeks.com/2021/04/to-mock-or-not-to-mock.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [kdb+/q – Display a Table as a Tree](https://www.javacodegeeks.com/2021/04/kdb-q-display-a-table-as-a-tree.html)
 - [Guidelines for Java code review](https://www.javacodegeeks.com/2021/04/guidelines-for-java-code-review.html)
 - [Introduction into GraalVM (Community Edition): And How the Future Looks Like?](https://www.javacodegeeks.com/2021/04/introduction-into-graalvm-community-edition-and-how-the-future-looks-like.html)
-- [Java Program to Add Two Numbers Without Using + operator](https://www.javacodegeeks.com/2021/04/java-program-to-add-two-numbers-without-using-operator.html)
-- [How To Make A File Read Only Or Writable In Java?](https://www.javacodegeeks.com/2021/04/how-to-make-a-file-read-only-or-writable-in-java.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
