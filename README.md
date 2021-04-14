@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [Suck at debugging](https://www.reddit.com/r/java/comments/mpqhdf/suck_at_debugging/)
-- [Question on low level arithmetic operations](https://www.reddit.com/r/java/comments/mpn9nv/question_on_low_level_arithmetic_operations/)
-- [~15% quicker full GC G1 pauses on openjdk master](https://www.reddit.com/r/java/comments/mpm53p/15_quicker_full_gc_g1_pauses_on_openjdk_master/)
-- [Scala Syntax for Java Developers](https://www.reddit.com/r/java/comments/mplf3x/scala_syntax_for_java_developers/)
-- [Implementing Plugins with Java's Service Provider Interface](https://www.reddit.com/r/java/comments/mpheuz/implementing_plugins_with_javas_service_provider/)
-- [Can you list java enterprise apps which are on-prem ?](https://www.reddit.com/r/java/comments/mpgnk9/can_you_list_java_enterprise_apps_which_are_onprem/)
-- [Inside Java Podcast #16 “Let's Discuss JDK and Networking”](https://www.reddit.com/r/java/comments/mpe6wh/inside_java_podcast_16_lets_discuss_jdk_and/)
-- [Is using Project Lombok actually an good idea?](https://www.reddit.com/r/java/comments/mpd0gw/is_using_project_lombok_actually_an_good_idea/)
-- [Your cool open source libraries](https://www.reddit.com/r/java/comments/mp96a7/your_cool_open_source_libraries/)
-- [JReleaser says hello!](https://www.reddit.com/r/java/comments/mp92p4/jreleaser_says_hello/)
+- [Visual Studio and Java](https://www.reddit.com/r/java/comments/mqfbf6/visual_studio_and_java/)
+- [Scene Builder 16 release](https://www.reddit.com/r/java/comments/mqdjgk/scene_builder_16_release/)
+- [What would I miss from Spring if I went with Javalin?](https://www.reddit.com/r/java/comments/mqcrht/what_would_i_miss_from_spring_if_i_went_with/)
+- [Enso 2.0 is out! Visual programming in Java, JavaScript, Python, and R. Written in Rust and GraalVM. Running in WebGL.](https://www.reddit.com/r/java/comments/mqbpyw/enso_20_is_out_visual_programming_in_java/)
+- [GraalVM Native Image and Docker](https://www.reddit.com/r/java/comments/mq9z9a/graalvm_native_image_and_docker/)
+- [Truffle vs Xtext: Which one is a better choice for creating a DSL in 2021?](https://www.reddit.com/r/java/comments/mq9kzv/truffle_vs_xtext_which_one_is_a_better_choice_for/)
+- [Microsoft JFR Streaming Library for Java Flight Recorder](https://www.reddit.com/r/java/comments/mq7get/microsoft_jfr_streaming_library_for_java_flight/)
+- [Is it right to use Spring & Spring boot?](https://www.reddit.com/r/java/comments/mq61a3/is_it_right_to_use_spring_spring_boot/)
+- [Why you should disable sendStringParametersAsUnicode when using the SQL Server JDBC Driver](https://www.reddit.com/r/java/comments/mq4kkt/why_you_should_disable/)
+- [Piranha 21.4.0 released!](https://www.reddit.com/r/java/comments/mq2rlc/piranha_2140_released/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
