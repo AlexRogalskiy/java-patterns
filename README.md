@@ -335,6 +335,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Java programmer posts_
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [Advantages and Disadvantages of Inheritance in Java](https://www.thejavaprogrammer.com/advantages-and-disadvantages-of-inheritance-in-java/)
 - [Java 3D Array – Three Dimensional Array](https://www.thejavaprogrammer.com/java-3d-array/)
 - [Does Constructor Return Any Value?](https://www.thejavaprogrammer.com/does-constructor-return-any-value/)
 - [Basic Structure of Java Program with Example](https://www.thejavaprogrammer.com/structure-of-java-program/)
@@ -344,7 +345,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [What is the Purpose of Default Constructor in Java](https://www.thejavaprogrammer.com/what-is-the-purpose-of-default-constructor-in-java/)
 - [Types of Constructors in Java](https://www.thejavaprogrammer.com/types-of-constructors-in-java/)
 - [Solve Error insert “Dimensions” to complete ReferenceType in Java](https://www.thejavaprogrammer.com/insert-dimensions-to-complete-referencetype/)
-- [What is Object Oriented Paradigm in Java?](https://www.thejavaprogrammer.com/what-is-object-oriented-paradigm-in-java/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### _Dreamix posts_
