@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [List of Open Source Security Tools](https://www.javacodegeeks.com/2021/04/list-of-open-source-security-tools.html)
+- [My tips for using IntelliJ IDEA effectively](https://www.javacodegeeks.com/2021/04/my-tips-for-using-intellij-idea-effectively.html)
 - [Headless eCommerce – An architectural introduction](https://www.javacodegeeks.com/2021/04/headless-ecommerce-an-architectural-introduction.html)
 - [Point of sale – Example image distribution architecture](https://www.javacodegeeks.com/2021/04/point-of-sale-example-image-distribution-architecture.html)
 - [[MEGA DEAL] The 2021 Complete Google SEO & SERP Certification Bundle (98% off)](https://www.javacodegeeks.com/2021/04/mega-deal-the-2021-complete-google-seo-serp-certification-bundle-98-off.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Compile and run java9 module program: part2](https://www.javacodegeeks.com/2021/04/compile-and-run-java9-module-program-part2.html)
 - [Managers: Are You Responsible “To” or “For” People?](https://www.javacodegeeks.com/2021/04/managers-are-you-responsible-to-or-for-people.html)
 - [kdb+/q – Display a Table as a Tree](https://www.javacodegeeks.com/2021/04/kdb-q-display-a-table-as-a-tree.html)
-- [Guidelines for Java code review](https://www.javacodegeeks.com/2021/04/guidelines-for-java-code-review.html)
-- [Introduction into GraalVM (Community Edition): And How the Future Looks Like?](https://www.javacodegeeks.com/2021/04/introduction-into-graalvm-community-edition-and-how-the-future-looks-like.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
