@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [Visual Studio and Java](https://www.reddit.com/r/java/comments/mqfbf6/visual_studio_and_java/)
-- [Scene Builder 16 release](https://www.reddit.com/r/java/comments/mqdjgk/scene_builder_16_release/)
-- [What would I miss from Spring if I went with Javalin?](https://www.reddit.com/r/java/comments/mqcrht/what_would_i_miss_from_spring_if_i_went_with/)
-- [Enso 2.0 is out! Visual programming in Java, JavaScript, Python, and R. Written in Rust and GraalVM. Running in WebGL.](https://www.reddit.com/r/java/comments/mqbpyw/enso_20_is_out_visual_programming_in_java/)
-- [GraalVM Native Image and Docker](https://www.reddit.com/r/java/comments/mq9z9a/graalvm_native_image_and_docker/)
-- [Truffle vs Xtext: Which one is a better choice for creating a DSL in 2021?](https://www.reddit.com/r/java/comments/mq9kzv/truffle_vs_xtext_which_one_is_a_better_choice_for/)
-- [Microsoft JFR Streaming Library for Java Flight Recorder](https://www.reddit.com/r/java/comments/mq7get/microsoft_jfr_streaming_library_for_java_flight/)
-- [Is it right to use Spring & Spring boot?](https://www.reddit.com/r/java/comments/mq61a3/is_it_right_to_use_spring_spring_boot/)
-- [Why you should disable sendStringParametersAsUnicode when using the SQL Server JDBC Driver](https://www.reddit.com/r/java/comments/mq4kkt/why_you_should_disable/)
-- [Piranha 21.4.0 released!](https://www.reddit.com/r/java/comments/mq2rlc/piranha_2140_released/)
+- [Welcome to JAR Hell, Part 2: Deployment Strategies](https://www.reddit.com/r/java/comments/mr35x9/welcome_to_jar_hell_part_2_deployment_strategies/)
+- [Jib Extension Framework enables anyone to easily extend Jib's behavior to their needs](https://www.reddit.com/r/java/comments/mr0twb/jib_extension_framework_enables_anyone_to_easily/)
+- [What are you using Guava for?](https://www.reddit.com/r/java/comments/mr03mi/what_are_you_using_guava_for/)
+- [Do we really never need to implement equals() and hashCode() in Java 16 records?](https://www.reddit.com/r/java/comments/mqyr4d/do_we_really_never_need_to_implement_equals_and/)
+- [IBM joins Eclipse Adoptium and offers free certified JDKs with Eclipse OpenJ9](https://www.reddit.com/r/java/comments/mqrt4b/ibm_joins_eclipse_adoptium_and_offers_free/)
+- [Thoughts on DropWizard?](https://www.reddit.com/r/java/comments/mqpdei/thoughts_on_dropwizard/)
+- [Spring-boot generate webservice with security from remote swagger](https://www.reddit.com/r/java/comments/mqoa7s/springboot_generate_webservice_with_security_from/)
+- [An Advanced GraphQL with Quarkus - Piotr's TechBlog](https://www.reddit.com/r/java/comments/mqna4d/an_advanced_graphql_with_quarkus_piotrs_techblog/)
+- [Getting a Java certificate](https://www.reddit.com/r/java/comments/mqmb03/getting_a_java_certificate/)
+- [What type of software do you develop with Java at your work?](https://www.reddit.com/r/java/comments/mql80h/what_type_of_software_do_you_develop_with_java_at/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
