@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Installing Anthos Service Mesh on GKE](https://www.javacodegeeks.com/2021/04/installing-anthos-service-mesh-on-gke.html)
+- [Java 16: Stream.toList()](https://www.javacodegeeks.com/2021/04/java-16-stream-tolist.html)
 - [List of Open Source Security Tools](https://www.javacodegeeks.com/2021/04/list-of-open-source-security-tools.html)
 - [My tips for using IntelliJ IDEA effectively](https://www.javacodegeeks.com/2021/04/my-tips-for-using-intellij-idea-effectively.html)
 - [Headless eCommerce – An architectural introduction](https://www.javacodegeeks.com/2021/04/headless-ecommerce-an-architectural-introduction.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Point of sale – Common architectural elements](https://www.javacodegeeks.com/2021/04/point-of-sale-common-architectural-elements.html)
 - [To Mock or Not To Mock](https://www.javacodegeeks.com/2021/04/to-mock-or-not-to-mock.html)
 - [Compile and run java9 module program: part2](https://www.javacodegeeks.com/2021/04/compile-and-run-java9-module-program-part2.html)
-- [Managers: Are You Responsible “To” or “For” People?](https://www.javacodegeeks.com/2021/04/managers-are-you-responsible-to-or-for-people.html)
-- [kdb+/q – Display a Table as a Tree](https://www.javacodegeeks.com/2021/04/kdb-q-display-a-table-as-a-tree.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
