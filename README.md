@@ -290,6 +290,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Random thoughts posts_
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [Learning Kotlin](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/learning-kotlin.html)
 - [Getting a Native Query Typed in JPA](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/getting-native-query-typed-in-jpa.html)
 - [StreamingOutput : streaming large json responses in REST API](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/streamingoutput-streaming-large-json.html)
 - [Changing Git Remote Urls](http://randomthoughtsonjavaprogramming.blogspot.com/2021/03/changing-git-remote-urls.html)
@@ -299,7 +300,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Using Optional to prevent NullPointers In TrainWrecks](http://randomthoughtsonjavaprogramming.blogspot.com/2021/01/using-optional-to-prevent-nullpointers.html)
 - [Branch Prediction](http://randomthoughtsonjavaprogramming.blogspot.com/2021/01/branch-prediction.html)
 - [Notes on Unity](http://randomthoughtsonjavaprogramming.blogspot.com/2020/12/notes-on-unity.html)
-- [Payara and Jakarta EE 9](http://randomthoughtsonjavaprogramming.blogspot.com/2020/12/payara-and-jakarta-ee-9.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### _Better code posts_
