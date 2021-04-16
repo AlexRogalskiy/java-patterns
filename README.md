@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Need jucmnav 7.0.0 for Eclipse](https://www.reddit.com/r/java/comments/mronan/need_jucmnav_700_for_eclipse/)
+- [JEP 411: Deprecate the Security Manager for Removal](https://www.reddit.com/r/java/comments/mrkf2i/jep_411_deprecate_the_security_manager_for_removal/)
+- [Why I use Quarkus rather than Spring-Boot for my CNA apps](https://www.reddit.com/r/java/comments/mrfo1b/why_i_use_quarkus_rather_than_springboot_for_my/)
+- [Conducting SAST for Java Applications](https://www.reddit.com/r/java/comments/mrfmqk/conducting_sast_for_java_applications/)
+- [Microsoft returns to Java with Azure-focused OpenJDK release](https://www.reddit.com/r/java/comments/mrd24f/microsoft_returns_to_java_with_azurefocused/)
+- [Enso 2.0 public Alpha](https://www.reddit.com/r/java/comments/mrbfbx/enso_20_public_alpha/)
+- [Exploring how to use idiomatic JavaScript in Java applications with GraalVM](https://www.reddit.com/r/java/comments/mra659/exploring_how_to_use_idiomatic_javascript_in_java/)
+- [Spring Data 2021.0 goes GA](https://www.reddit.com/r/java/comments/mr8ysy/spring_data_20210_goes_ga/)
+- [Spring Boot and Websphere 9 not working](https://www.reddit.com/r/java/comments/mr5cco/spring_boot_and_websphere_9_not_working/)
 - [Welcome to JAR Hell, Part 2: Deployment Strategies](https://www.reddit.com/r/java/comments/mr35x9/welcome_to_jar_hell_part_2_deployment_strategies/)
-- [Jib Extension Framework enables anyone to easily extend Jib's behavior to their needs](https://www.reddit.com/r/java/comments/mr0twb/jib_extension_framework_enables_anyone_to_easily/)
-- [What are you using Guava for?](https://www.reddit.com/r/java/comments/mr03mi/what_are_you_using_guava_for/)
-- [Do we really never need to implement equals() and hashCode() in Java 16 records?](https://www.reddit.com/r/java/comments/mqyr4d/do_we_really_never_need_to_implement_equals_and/)
-- [IBM joins Eclipse Adoptium and offers free certified JDKs with Eclipse OpenJ9](https://www.reddit.com/r/java/comments/mqrt4b/ibm_joins_eclipse_adoptium_and_offers_free/)
-- [Thoughts on DropWizard?](https://www.reddit.com/r/java/comments/mqpdei/thoughts_on_dropwizard/)
-- [Spring-boot generate webservice with security from remote swagger](https://www.reddit.com/r/java/comments/mqoa7s/springboot_generate_webservice_with_security_from/)
-- [An Advanced GraphQL with Quarkus - Piotr's TechBlog](https://www.reddit.com/r/java/comments/mqna4d/an_advanced_graphql_with_quarkus_piotrs_techblog/)
-- [Getting a Java certificate](https://www.reddit.com/r/java/comments/mqmb03/getting_a_java_certificate/)
-- [What type of software do you develop with Java at your work?](https://www.reddit.com/r/java/comments/mql80h/what_type_of_software_do_you_develop_with_java_at/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
