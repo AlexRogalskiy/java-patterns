@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [ReversibleCollection proposal](https://www.reddit.com/r/java/comments/ms9kqq/reversiblecollection_proposal/)
+- [Introducing Astra: A Tool for Refactoring Java Programs at Scale](https://www.reddit.com/r/java/comments/ms59ds/introducing_astra_a_tool_for_refactoring_java/)
+- [Spring 5.0 introduced the new Kotlin DSL for defining beans and routes. Beyond the declarative coding style, it claims to have some performance benefits. Here is some benchmarking!](https://www.reddit.com/r/java/comments/ms4yiy/spring_50_introduced_the_new_kotlin_dsl_for/)
+- [Java Cheatsheet to refresh the basic concepts of Java](https://www.reddit.com/r/java/comments/ms37q3/java_cheatsheet_to_refresh_the_basic_concepts_of/)
+- [Which feature are you waiting for the most and why?](https://www.reddit.com/r/java/comments/ms1qn8/which_feature_are_you_waiting_for_the_most_and_why/)
+- [Minimize GC pause time which impact our customer as application is based on transaction](https://www.reddit.com/r/java/comments/mrvgv5/minimize_gc_pause_time_which_impact_our_customer/)
 - [Need jucmnav 7.0.0 for Eclipse](https://www.reddit.com/r/java/comments/mronan/need_jucmnav_700_for_eclipse/)
 - [JEP 411: Deprecate the Security Manager for Removal](https://www.reddit.com/r/java/comments/mrkf2i/jep_411_deprecate_the_security_manager_for_removal/)
 - [Why I use Quarkus rather than Spring-Boot for my CNA apps](https://www.reddit.com/r/java/comments/mrfo1b/why_i_use_quarkus_rather_than_springboot_for_my/)
 - [Conducting SAST for Java Applications](https://www.reddit.com/r/java/comments/mrfmqk/conducting_sast_for_java_applications/)
-- [Microsoft returns to Java with Azure-focused OpenJDK release](https://www.reddit.com/r/java/comments/mrd24f/microsoft_returns_to_java_with_azurefocused/)
-- [Enso 2.0 public Alpha](https://www.reddit.com/r/java/comments/mrbfbx/enso_20_public_alpha/)
-- [Exploring how to use idiomatic JavaScript in Java applications with GraalVM](https://www.reddit.com/r/java/comments/mra659/exploring_how_to_use_idiomatic_javascript_in_java/)
-- [Spring Data 2021.0 goes GA](https://www.reddit.com/r/java/comments/mr8ysy/spring_data_20210_goes_ga/)
-- [Spring Boot and Websphere 9 not working](https://www.reddit.com/r/java/comments/mr5cco/spring_boot_and_websphere_9_not_working/)
-- [Welcome to JAR Hell, Part 2: Deployment Strategies](https://www.reddit.com/r/java/comments/mr35x9/welcome_to_jar_hell_part_2_deployment_strategies/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
