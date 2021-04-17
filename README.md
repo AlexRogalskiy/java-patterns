@@ -320,6 +320,7 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Inside Java posts_
 
 <!-- INSIDE-POST-LIST:START -->
+- [New candidate JEP: 411: Deprecate the Security Manager for Removal](https://inside.java/2021/04/15/new-candidate-jep-411/)
 - [How Java Records Can Improve Serialization](https://inside.java/2021/04/13/odl16-records-serialization/)
 - [Your Guide to OpenJDK Development](https://inside.java/2021/04/12/odl16-openjdk-guide/)
 - [Episode 16 “Let’s Discuss JDK and Networking” with Michael McMahon and Daniel Fuchs](https://inside.java/2021/04/12/podcast-016/)
@@ -329,7 +330,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [New candidate JEP: 410: Remove the Experimental AOT and JIT Compiler](https://inside.java/2021/04/07/new-candidate-jep-410/)
 - [Record Serialization in Practice](https://inside.java/2021/04/06/record-serialization-in-practise/)
 - [The Vector API: SIMD Programming in Java](https://inside.java/2021/04/06/video-odl16-vectorapi/)
-- [Java 16 - Consistency and Innovation](https://inside.java/2021/04/05/video-odl16-consistency-and-innovation/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### _Java programmer posts_
