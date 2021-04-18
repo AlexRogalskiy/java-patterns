@@ -245,16 +245,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Java OOP Project idea](https://www.reddit.com/r/java/comments/mt0ahk/java_oop_project_idea/)
+- [Faster String.join() on openjdk master](https://www.reddit.com/r/java/comments/msvswa/faster_stringjoin_on_openjdk_master/)
+- [JDK Mission Control 8 Released](https://www.reddit.com/r/java/comments/msumd6/jdk_mission_control_8_released/)
+- [Starting Fast: Investigating Java's Static Compilation Landscape](https://www.reddit.com/r/java/comments/mssj83/starting_fast_investigating_javas_static/)
 - [ReversibleCollection proposal](https://www.reddit.com/r/java/comments/ms9kqq/reversiblecollection_proposal/)
 - [Introducing Astra: A Tool for Refactoring Java Programs at Scale](https://www.reddit.com/r/java/comments/ms59ds/introducing_astra_a_tool_for_refactoring_java/)
 - [Spring 5.0 introduced the new Kotlin DSL for defining beans and routes. Beyond the declarative coding style, it claims to have some performance benefits. Here is some benchmarking!](https://www.reddit.com/r/java/comments/ms4yiy/spring_50_introduced_the_new_kotlin_dsl_for/)
 - [Java Cheatsheet to refresh the basic concepts of Java](https://www.reddit.com/r/java/comments/ms37q3/java_cheatsheet_to_refresh_the_basic_concepts_of/)
 - [Which feature are you waiting for the most and why?](https://www.reddit.com/r/java/comments/ms1qn8/which_feature_are_you_waiting_for_the_most_and_why/)
 - [Minimize GC pause time which impact our customer as application is based on transaction](https://www.reddit.com/r/java/comments/mrvgv5/minimize_gc_pause_time_which_impact_our_customer/)
-- [Need jucmnav 7.0.0 for Eclipse](https://www.reddit.com/r/java/comments/mronan/need_jucmnav_700_for_eclipse/)
-- [JEP 411: Deprecate the Security Manager for Removal](https://www.reddit.com/r/java/comments/mrkf2i/jep_411_deprecate_the_security_manager_for_removal/)
-- [Why I use Quarkus rather than Spring-Boot for my CNA apps](https://www.reddit.com/r/java/comments/mrfo1b/why_i_use_quarkus_rather_than_springboot_for_my/)
-- [Conducting SAST for Java Applications](https://www.reddit.com/r/java/comments/mrfmqk/conducting_sast_for_java_applications/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
