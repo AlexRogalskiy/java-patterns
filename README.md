@@ -410,6 +410,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [How To Create & Run A Job In Jenkins Using Jenkins Freestyle Project?](https://www.javacodegeeks.com/2021/04/how-to-create-run-a-job-in-jenkins-using-jenkins-freestyle-project.html)
+- [Best Selenium Python Frameworks for Test automation in 2021](https://www.javacodegeeks.com/2021/04/best-selenium-python-frameworks-for-test-automation-in-2021.html)
 - [Headless eCommerce – Common architectural elements](https://www.javacodegeeks.com/2021/04/headless-ecommerce-common-architectural-elements.html)
 - [Looking into the JDK 16 vector API](https://www.javacodegeeks.com/2021/04/looking-into-the-jdk-16-vector-api.html)
 - [Installing Anthos Service Mesh on GKE](https://www.javacodegeeks.com/2021/04/installing-anthos-service-mesh-on-gke.html)
@@ -418,8 +420,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [My tips for using IntelliJ IDEA effectively](https://www.javacodegeeks.com/2021/04/my-tips-for-using-intellij-idea-effectively.html)
 - [Headless eCommerce – An architectural introduction](https://www.javacodegeeks.com/2021/04/headless-ecommerce-an-architectural-introduction.html)
 - [Point of sale – Example image distribution architecture](https://www.javacodegeeks.com/2021/04/point-of-sale-example-image-distribution-architecture.html)
-- [[MEGA DEAL] The 2021 Complete Google SEO & SERP Certification Bundle (98% off)](https://www.javacodegeeks.com/2021/04/mega-deal-the-2021-complete-google-seo-serp-certification-bundle-98-off.html)
-- [Point of sale – Common architectural elements](https://www.javacodegeeks.com/2021/04/point-of-sale-common-architectural-elements.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
