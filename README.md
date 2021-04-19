@@ -245,6 +245,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Java Code Optimisation Techniques](https://www.reddit.com/r/java/comments/mtmtl7/java_code_optimisation_techniques/)
+- [Hashtag Jakarta EE #68](https://www.reddit.com/r/java/comments/mtg4tz/hashtag_jakarta_ee_68/)
 - [Java OOP Project idea](https://www.reddit.com/r/java/comments/mt0ahk/java_oop_project_idea/)
 - [Faster String.join() on openjdk master](https://www.reddit.com/r/java/comments/msvswa/faster_stringjoin_on_openjdk_master/)
 - [JDK Mission Control 8 Released](https://www.reddit.com/r/java/comments/msumd6/jdk_mission_control_8_released/)
@@ -253,8 +255,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Introducing Astra: A Tool for Refactoring Java Programs at Scale](https://www.reddit.com/r/java/comments/ms59ds/introducing_astra_a_tool_for_refactoring_java/)
 - [Spring 5.0 introduced the new Kotlin DSL for defining beans and routes. Beyond the declarative coding style, it claims to have some performance benefits. Here is some benchmarking!](https://www.reddit.com/r/java/comments/ms4yiy/spring_50_introduced_the_new_kotlin_dsl_for/)
 - [Java Cheatsheet to refresh the basic concepts of Java](https://www.reddit.com/r/java/comments/ms37q3/java_cheatsheet_to_refresh_the_basic_concepts_of/)
-- [Which feature are you waiting for the most and why?](https://www.reddit.com/r/java/comments/ms1qn8/which_feature_are_you_waiting_for_the_most_and_why/)
-- [Minimize GC pause time which impact our customer as application is based on transaction](https://www.reddit.com/r/java/comments/mrvgv5/minimize_gc_pause_time_which_impact_our_customer/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
