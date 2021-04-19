@@ -1,0 +1,26 @@
+# .readthedocs.yaml
+# Read the Docs configuration file
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+
+# Required
+version: 2
+
+formats:
+  - epub
+  - pdf
+
+mkdocs:
+  configuration: mkdocs.yml
+  fail_on_warning: false
+
+# Optionally set the version of Python and requirements required to build your docs
+python:
+  version: 3.7
+  install:
+    - method: pip
+      path: .
+      extra_requirements:
+        - docs
+    - method: setuptools
+      path: package
+  system_packages: true
