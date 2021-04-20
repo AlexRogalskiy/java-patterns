@@ -412,6 +412,8 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _JavaCodeGeeks posts_
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Headless eCommerce – Example headless architectures](https://www.javacodegeeks.com/2021/04/headless-ecommerce-example-headless-architectures.html)
+- [[MEGA DEAL] VPN Unlimited Lifetime + PlayStation Plus 1-Yr Subscription Bundle (80% off)](https://www.javacodegeeks.com/2021/04/mega-deal-vpn-unlimited-lifetime-playstation-plus-1-yr-subscription-bundle-80-off.html)
 - [How To Create & Run A Job In Jenkins Using Jenkins Freestyle Project?](https://www.javacodegeeks.com/2021/04/how-to-create-run-a-job-in-jenkins-using-jenkins-freestyle-project.html)
 - [Best Selenium Python Frameworks for Test automation in 2021](https://www.javacodegeeks.com/2021/04/best-selenium-python-frameworks-for-test-automation-in-2021.html)
 - [Headless eCommerce – Common architectural elements](https://www.javacodegeeks.com/2021/04/headless-ecommerce-common-architectural-elements.html)
@@ -420,8 +422,6 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 - [Java 16: Stream.toList()](https://www.javacodegeeks.com/2021/04/java-16-stream-tolist.html)
 - [List of Open Source Security Tools](https://www.javacodegeeks.com/2021/04/list-of-open-source-security-tools.html)
 - [My tips for using IntelliJ IDEA effectively](https://www.javacodegeeks.com/2021/04/my-tips-for-using-intellij-idea-effectively.html)
-- [Headless eCommerce – An architectural introduction](https://www.javacodegeeks.com/2021/04/headless-ecommerce-an-architectural-introduction.html)
-- [Point of sale – Example image distribution architecture](https://www.javacodegeeks.com/2021/04/point-of-sale-example-image-distribution-architecture.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### _DevCases posts_
