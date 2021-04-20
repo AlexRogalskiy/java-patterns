@@ -247,16 +247,16 @@ Like <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/mas
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [What is the point of all these new Java versions when Java 8 is all that seems to be supported by most apps?](https://www.reddit.com/r/java/comments/mu4sar/what_is_the_point_of_all_these_new_java_versions/)
+- [j2html is looking for a maintainer](https://www.reddit.com/r/java/comments/mu3ptp/j2html_is_looking_for_a_maintainer/)
+- [Large or small heap size](https://www.reddit.com/r/java/comments/mtxy5w/large_or_small_heap_size/)
+- [What is the technical reason in terms of heap/stack limitations that causes: a) Elasticsearch instances can only scale up to a certain size and then past a certain point you're forced to just run a new instance b) Minecraft physics limitations where Java edition cannot render massive explosions](https://www.reddit.com/r/java/comments/mtxdef/what_is_the_technical_reason_in_terms_of/)
+- [Trending Java Projects (based on growth of GitHub stars)](https://www.reddit.com/r/java/comments/mtvzll/trending_java_projects_based_on_growth_of_github/)
 - [Java Code Optimisation Techniques](https://www.reddit.com/r/java/comments/mtmtl7/java_code_optimisation_techniques/)
 - [Hashtag Jakarta EE #68](https://www.reddit.com/r/java/comments/mtg4tz/hashtag_jakarta_ee_68/)
 - [Java OOP Project idea](https://www.reddit.com/r/java/comments/mt0ahk/java_oop_project_idea/)
 - [Faster String.join() on openjdk master](https://www.reddit.com/r/java/comments/msvswa/faster_stringjoin_on_openjdk_master/)
 - [JDK Mission Control 8 Released](https://www.reddit.com/r/java/comments/msumd6/jdk_mission_control_8_released/)
-- [Starting Fast: Investigating Java's Static Compilation Landscape](https://www.reddit.com/r/java/comments/mssj83/starting_fast_investigating_javas_static/)
-- [ReversibleCollection proposal](https://www.reddit.com/r/java/comments/ms9kqq/reversiblecollection_proposal/)
-- [Introducing Astra: A Tool for Refactoring Java Programs at Scale](https://www.reddit.com/r/java/comments/ms59ds/introducing_astra_a_tool_for_refactoring_java/)
-- [Spring 5.0 introduced the new Kotlin DSL for defining beans and routes. Beyond the declarative coding style, it claims to have some performance benefits. Here is some benchmarking!](https://www.reddit.com/r/java/comments/ms4yiy/spring_50_introduced_the_new_kotlin_dsl_for/)
-- [Java Cheatsheet to refresh the basic concepts of Java](https://www.reddit.com/r/java/comments/ms37q3/java_cheatsheet_to_refresh_the_basic_concepts_of/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### _InfoWorld posts_
