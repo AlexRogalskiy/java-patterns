@@ -1,9 +1,9 @@
 # Getting Started
 
-## _Installation_
+## *Installation*
 
-For full documentation visit [https://docs.gitbook.com/](https://docs.gitbook.com/).
+For full documentation visit <https://docs.gitbook.com/>.
 
-## _Description_
+## *Description*
 
-With the help of _**GitBook**_ you can create and develop documentation on Java Design patterns.
+With the help of ***GitBook*** you can create and develop documentation on Java Design patterns.

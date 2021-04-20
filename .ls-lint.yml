@@ -1,0 +1,21 @@
+ls:
+  .js: kebab-case
+  .md: kebab-case
+  .ts: kebab-case
+  .d.ts: kebab-case
+  .spec.ts: kebab-case
+  .generated.ts: kebab-case
+
+ignore:
+  - .cache
+  - .eslintrc.js
+  - .git
+  - .github
+  - .dependabot
+  - idea
+  - coverage
+  - dist
+  - jest.config.ts
+  - node_modules
+  - SECURITY.md
+  - tests

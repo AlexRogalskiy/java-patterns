@@ -1,16 +1,20 @@
-# Compiled class file
-*.class
-
-# Log file
+# Log files
 *.log
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 
 # BlueJ files
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Cache files
+.npm
+.eslintcache
+lunr-index.json
 
-# Package Files #
+# Package files
 *.jar
 *.war
 *.nar
@@ -18,9 +22,27 @@
 *.zip
 *.tar.gz
 *.rar
+*.tgz
+**/.DS_Store
+
+# License files
+licenses.json
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Yarn Integrity file
+.yarn-integrity
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional REPL history
+.node_repl_history
 
 # Build and temp folders
 .settings/
@@ -29,7 +51,10 @@ hs_err_pid*
 bin/
 tmp/
 build/*
-packages/
+coverage/
 target/
 log/
 site/
+dist/
+.cache
+node_modules

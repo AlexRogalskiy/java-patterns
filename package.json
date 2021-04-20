@@ -1,0 +1,82 @@
+{
+  "name": "java-patterns",
+  "version": "0.0.0",
+  "description": "Java design patterns",
+  "license": "GPL-3.0",
+  "scripts": {
+    "husky:install": "husky install",
+    "gitbook:install": "gitbook install",
+    "serve": "gitbook serve",
+    "build": "gitbook build . public",
+    "precommit": "npm run lint:staged",
+    "postinstall": "npm run husky:install",
+    "remark": "remark -q -f .",
+    "format": "prettier --single-quote --write **/*.md",
+    "format:md": "remark-preset-davidtheclark --format",
+    "format:check": "prettier --check **/*.md",
+    "lint:md": "remark-preset-davidtheclark",
+    "lint:json": "jsonlint ./package.json --quiet",
+    "lint:staged": "lint-staged --no-stash --allow-empty",
+    "pretty": "pretty-quick --staged --pattern '!test/tests/lint/**'",
+    "license": "license-checker --json > licenses.json",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "markdown": "markdown-link-check ./README.md ./SECURITY.md",
+    "lint:all": "npm run lint:md && npm run lint:json",
+    "format:all": "npm run format && npm run format:md",
+    "check:all": "npm run format:check",
+    "all": "npm run format:all && npm run lint:all && npm run pretty"
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^2.0.0",
+    "gitbook-cli": "^2.3.2",
+    "husky": "^5.0.8",
+    "jsonlint": "^1.6.3",
+    "license-checker": "^25.0.1",
+    "lint-staged": "^10.1.6",
+    "markdown-link-check": "^3.8.6",
+    "prettier": "^2.1.2",
+    "pretty-quick": "^3.1.0",
+    "remark-cli": "^9.0.0",
+    "remark-lint-code-block-style": "^2.0.1",
+    "remark-lint-ordered-list-marker-value": "^2.0.1",
+    "remark-preset-davidtheclark": "^0.12.0",
+    "remark-validate-links": "^10.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexRogalskiy/java-patterns.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">= 12.x"
+  },
+  "keywords": [
+    "java patterns"
+  ],
+  "maintainers": [
+    {
+      "name": "Alexander Rogalskiy",
+      "email": "hi@nullables.io"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Alexander Rogalskiy",
+      "email": "hi@nullables.io"
+    }
+  ],
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "bugs": {
+    "url": "https://github.com/AlexRogalskiy/java-patterns/issues"
+  },
+  "homepage": "https://github.com/AlexRogalskiy/java-patterns/",
+  "author": {
+    "name": "Alexander Rogalskiy",
+    "url": "https://github.com/AlexRogalskiy"
+  },
+  "funding": "https://github.com/sponsors/AlexRogalskiy"
+}
