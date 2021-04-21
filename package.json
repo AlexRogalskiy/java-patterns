@@ -8,9 +8,9 @@
         "precommit": "npm run lint:staged",
         "postinstall": "npm run husky:install",
         "remark": "remark -q -f .",
-        "format": "prettier --single-quote --write **/*.md",
+        "format": "prettier --single-quote --write **/*.{json,yaml,yml}",
         "format:md": "remark-preset-davidtheclark --format",
-        "format:check": "prettier --check **/*.md",
+        "format:check": "prettier --check **/*.{json,yaml,yml}",
         "lint:md": "remark-preset-davidtheclark",
         "lint:json": "jsonlint ./package.json --quiet",
         "lint:staged": "lint-staged --no-stash --allow-empty",
@@ -61,9 +61,6 @@
             "email": "hi@nullables.io"
         }
     ],
-    "lint-staged": {
-        "**/*": "prettier --write --ignore-unknown"
-    },
     "bugs": {
         "url": "https://github.com/AlexRogalskiy/java-patterns/issues"
     },
