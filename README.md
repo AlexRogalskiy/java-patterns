@@ -247,18 +247,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
-- [What is the point of all these new Java versions when Java 8 is all that seems to be supported by most apps?](https://www.reddit.com/r/java/comments/mu4sar/what_is_the_point_of_all_these_new_java_versions/)
-- [j2html is looking for a maintainer](https://www.reddit.com/r/java/comments/mu3ptp/j2html_is_looking_for_a_maintainer/)
-- [Large or small heap size](https://www.reddit.com/r/java/comments/mtxy5w/large_or_small_heap_size/)
-- [What is the technical reason in terms of heap/stack limitations that causes: a) Elasticsearch instances can only scale up to a certain size and then past a certain point you're forced to just run a new instance b) Minecraft physics limitations where Java edition cannot render massive explosions](https://www.reddit.com/r/java/comments/mtxdef/what_is_the_technical_reason_in_terms_of/)
-- [Trending Java Projects (based on growth of GitHub stars)](https://www.reddit.com/r/java/comments/mtvzll/trending_java_projects_based_on_growth_of_github/)
-- [Java Code Optimisation Techniques](https://www.reddit.com/r/java/comments/mtmtl7/java_code_optimisation_techniques/)
-- [Hashtag Jakarta EE #68](https://www.reddit.com/r/java/comments/mtg4tz/hashtag_jakarta_ee\_68/)
-- [Java OOP Project idea](https://www.reddit.com/r/java/comments/mt0ahk/java_oop_project_idea/)
-- [Faster String.join() on openjdk master](https://www.reddit.com/r/java/comments/msvswa/faster_stringjoin_on_openjdk_master/)
-- [JDK Mission Control 8 Released](https://www.reddit.com/r/java/comments/msumd6/jdk_mission_control\_8\_released/)
-
+- [2021 Jakarta EE Developer Survey](https://www.reddit.com/r/java/comments/muw7rj/2021_jakarta_ee_developer_survey/)
+- [Java is criminally underhyped](https://www.reddit.com/r/java/comments/muughh/java_is_criminally_underhyped/)
+- [Multi-Tier Compilation in GraalVM](https://www.reddit.com/r/java/comments/mutn9g/multitier_compilation_in_graalvm/)
+- [New candidate JEP: 401: Primitive Objects (Preview)](https://www.reddit.com/r/java/comments/mutmab/new_candidate_jep_401_primitive_objects_preview/)
+- [Faster warmup, smaller downloads, JDK 16 -- GraalVM 21.1 is here!](https://www.reddit.com/r/java/comments/mut2vq/faster_warmup_smaller_downloads_jdk_16_graalvm/)
+- [Server-side input validation and how to do it in Java](https://www.reddit.com/r/java/comments/musy54/serverside_input_validation_and_how_to_do_it_in/)
+- [Apache Kafka 2.8 released - including early-access preview of Kafka with no Zookeeper!](https://www.reddit.com/r/java/comments/mum2yg/apache_kafka_28_released_including_earlyaccess/)
+- [Java 16 Records with JPA and jOOQ](https://www.reddit.com/r/java/comments/mum1hn/java_16_records_with_jpa_and_jooq/)
+- [Java Bean Validation Extension - Additional @Annotations for Bean Validation](https://www.reddit.com/r/java/comments/mulrcr/java_bean_validation_extension_additional/)
+- [Better Error Handling for Your Spring Boot REST APIs](https://www.reddit.com/r/java/comments/mul95u/better_error_handling_for_your_spring_boot_rest/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
