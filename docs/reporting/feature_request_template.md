@@ -2,7 +2,7 @@
 
 ## name: Feature request&#xD;&#xA;about: Suggest an idea for this project&#xD;&#xA;title: ''&#xD;&#xA;labels: ''&#xD;&#xA;assignees: ''
 
-# ![image info](../images/icons8-template-64.png) Feature Request Template
+# ![image info](/docs/assets/icons/icons8-template-64.png) Feature Request Template
 
 **Is your feature request related to a problem? Please describe.** A clear and concise description of what the problem is. Ex. I'm always frustrated when \[...]
 

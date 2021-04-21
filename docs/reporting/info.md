@@ -1,4 +1,4 @@
-# ![image info](../images/icons8-editor-64.png) General Information
+# ![image info](/docs/assets/icons/icons8-editor-64.png) General Information
 
 > **Please read the** [**contribution guidelines**](https://github.com/AlexRogalskiy/java-patterns/blob/master/docs/contributing/info.md) **before filling out this issue template**.
 

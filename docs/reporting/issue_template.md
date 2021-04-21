@@ -2,7 +2,7 @@
 
 ## name: Issue report&#xD;&#xA;about: Create an issue report&#xD;&#xA;title: ''&#xD;&#xA;labels: ''&#xD;&#xA;assignees: ''
 
-# ![image info](../images/icons8-template-64.png) Issue Report
+# ![image info](/docs/assets/icons/icons8-template-64.png) Issue Report
 
 ## *Characteristics*
 
