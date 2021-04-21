@@ -37,6 +37,7 @@
 [![ComVer](https://img.shields.io/badge/ComVer-compliant-brightgreen.svg)][tags]
 [![GitHub Super-Linter](https://github.com/alexrogalskiy/java-patterns/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 [![Documentation Status](https://readthedocs.org/projects/java-patterns/badge/?version=latest)](https://java-patterns.readthedocs.io/en/latest/?badge=latest)
+[![NetflixOSS Lifecycle](https://img.shields.io/osslifecycle/AlexRogalskiy/java-patterns.svg)]()
 
 ## 🎹 *Table of contents*
 
@@ -87,7 +88,8 @@
     </a>
 </p>
 
-***Java Design Patterns*** is intended to provide various use case scenarios and architectural concepts on prototyping adaptive applications.
+***Java Design Patterns*** is intended to provide various use case scenarios and architectural concepts on
+prototyping adaptive applications.
 
 ```text
 mkdocs.yml    # Configuration file.
@@ -97,12 +99,12 @@ docs/
     units/
         design-patterns.md # Design patterns and architectural concepts
         scenarios.md # Scenarios in practice
-        use-cases.md # Typical use cases 
+        use-cases.md # Typical use cases
     user-guide/
-        changelog.md # Changelog page 
-        code_of_conduct.md # Code of conduct page 
-        code_owners.md # Code owners page 
-        dependency.md # Dependency page 
+        changelog.md # Changelog page
+        code_of_conduct.md # Code of conduct page
+        code_owners.md # Code owners page
+        dependency.md # Dependency page
         description.md # Description page
         faq.md # FAQ page
         getting-started.md # Getting started page
@@ -183,7 +185,8 @@ mkdocs --verbose gh-deploy --force --remote-branch gh-pages
 
 ## 📝 *Versioning*
 
-The project uses [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository][tags].
+The project uses [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on
+this repository][tags].
 
 ## 🌹 *Authors*
 
@@ -198,8 +201,8 @@ with community support please contact with us if you have some question or propo
 [![Contributors Display](https://badges.pufler.dev/contributors/AlexRogalskiy/java-patterns?size=50\&padding=5\&bots=true)](https://badges.pufler.dev)
 
 Please read
-[CONTRIBUTING.md](https://github.com/AlexRogalskiy/java-patterns/blob/master/.github/CONTRIBUTING.md)
-for details on our code of conduct, and the process for submitting pull requests to us
+[CONTRIBUTING.md](https://github.com/AlexRogalskiy/java-patterns/blob/master/.github/CONTRIBUTING.md) for
+details on our code of conduct, and the process for submitting pull requests to us
 ([emoji key](https://allcontributors.org/docs/en/emoji-key)).
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors)
@@ -220,8 +223,9 @@ See also the list of [contributors][contributors] who participated in this proje
 
 ## ⚽ *Licensing*
 
-***Java Patterns*** is distributed under LGPL version 3 or later, \[[License](https://github.com/AlexRogalskiy/java-patterns/blob/master/LICENSE.txt)].
-LGPLv3 is additional permissions on top of GPLv3.
+***Java Patterns*** is distributed under LGPL version 3 or later,
+\[[License](https://github.com/AlexRogalskiy/java-patterns/blob/master/LICENSE.txt)]. LGPLv3 is additional
+permissions on top of GPLv3.
 
 ![image](https://user-images.githubusercontent.com/19885116/48661948-6cf97e80-ea7a-11e8-97e7-b45332a13e49.png)
 

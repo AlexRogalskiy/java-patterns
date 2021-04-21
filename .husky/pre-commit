@@ -1,10 +1,11 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-# npm run lint:staged
-# npm run all
+npm run lint:staged
+npm run all
 npm run changelog
 
 git add docs/
 
+git add README.md
 git add CHANGELOG.md

@@ -12,20 +12,25 @@ bracketSpacing: true
 jsxBracketSameLine: true
 arrowParens: 'avoid'
 proseWrap: 'always'
-parser: typescript
 overrides:
   - files:
       - '*.html'
       - 'legacy/**/*.js'
     options:
       semi: true
+  - files: '**/*.json*'
+    options:
+      parser: json
+      proseWrap: 'always'
   - files: '**/*.md*'
     options:
+      parser: markdown
       proseWrap: 'always'
-      printWidth: 80
   - files: '**/*.{yaml,yml}*'
     options:
+      parser: yaml
       tabWidth: 2
+      printWidth: 80
   - files: '**/.all-(contributorsrc|membersrc|sponsorsrc)'
     options:
       parser: 'json-stringify'

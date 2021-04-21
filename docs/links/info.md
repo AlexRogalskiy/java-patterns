@@ -11,8 +11,7 @@
 
 ## *Popular Libraries and Utilities*
 
-{% tabs %}
-{% tab title="Web" %}
+{% tabs %} {% tab title="Web" %}
 
 - [Diode](https://diode.suzaku.io/)
 - [Laminar](https://github.com/raquo/Laminar)
@@ -21,8 +20,7 @@
 - [Scala CSS](https://japgolly.github.io/scalacss/book/)
 - [Slinky](https://slinky.dev/)
 - [Udash](https://udash.io/)
-- [Squabs](https://github.com/paypal/squbs)
-  {% endtab %}
+- [Squabs](https://github.com/paypal/squbs) {% endtab %}
 
 {% tab title="Functional" %}
 
@@ -41,8 +39,7 @@
 - [Simulacrum](https://github.com/typelevel/simulacrum)
 - [Spire](https://github.com/typelevel/spire)
 - [Squants](http://www.squants.com/)
-- [ZIO](https://zio.dev/)
-  {% endtab %}
+- [ZIO](https://zio.dev/) {% endtab %}
 
 {% tab title="FRP" %}
 
@@ -51,8 +48,7 @@
 - [Owlet](https://oyanglul.us/owlet/)
 - [Reactify](https://github.com/outr/reactify)
 - [Scala.Rx](https://github.com/lihaoyi/scala.rx)
-- [bindable.scala](https://github.com/ThoughtWorksInc/bindable.scala)
-  {% endtab %}
+- [bindable.scala](https://github.com/ThoughtWorksInc/bindable.scala) {% endtab %}
 
 {% tab title="Serialization" %}
 
@@ -60,8 +56,7 @@
 - [Circe](https://circe.github.io/circe/)
 - [Play JSON](https://github.com/julienrf/play-json-derived-codecs)
 - [uPickle](https://github.com/lihaoyi/upickle)
-- [Json AST](https://json4s.org/)
-  {% endtab %}
+- [Json AST](https://json4s.org/) {% endtab %}
 
 {% tab title="Misc" %}
 
@@ -75,16 +70,12 @@
 - [Scalafmt](https://scalameta.org/scalafmt/)
 - [Scalameta](https://scalameta.org/)
 - [sttp](https://sttp.softwaremill.com/en/latest/)
-- [Graph](http://www.scala-graph.org/)
-  {% endtab %}
+- [Graph](http://www.scala-graph.org/) {% endtab %}
 
 {% tab title="Style" %}
 
-- [Scala style](http://www.scalastyle.org/maven.html)
-  {% endtab %}
+- [Scala style](http://www.scalastyle.org/maven.html) {% endtab %}
 
 {% tab title="Computing" %}
 
-- [Breeze](https://github.com/scalanlp/breeze)
-  {% endtab %}
-  {% endtabs %}
+- [Breeze](https://github.com/scalanlp/breeze) {% endtab %} {% endtabs %}

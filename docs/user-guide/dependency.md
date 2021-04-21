@@ -2,7 +2,8 @@
 
 ## *Maven*
 
-ObjectMappers playground dependency can be simply acquired by adding the following code snippet to your `pom.xml`:
+ObjectMappers playground dependency can be simply acquired by adding the following code snippet to your
+`pom.xml`:
 
 ```markup
     <groupId>io.nullables.api.playground</groupId>
