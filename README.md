@@ -412,9 +412,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *JavaCodeGeeks posts*
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
-
+- [Why Shared Services “Teams” Don’t Work with Agility](https://www.javacodegeeks.com/2021/04/why-shared-services-teams-dont-work-with-agility.html)
 - [Headless eCommerce – Example headless architectures](https://www.javacodegeeks.com/2021/04/headless-ecommerce-example-headless-architectures.html)
-- [\[MEGA DEAL\] VPN Unlimited Lifetime + PlayStation Plus 1-Yr Subscription Bundle (80% off)](https://www.javacodegeeks.com/2021/04/mega-deal-vpn-unlimited-lifetime-playstation-plus-1-yr-subscription-bundle-80-off.html)
+- [[MEGA DEAL] VPN Unlimited Lifetime + PlayStation Plus 1-Yr Subscription Bundle (80% off)](https://www.javacodegeeks.com/2021/04/mega-deal-vpn-unlimited-lifetime-playstation-plus-1-yr-subscription-bundle-80-off.html)
 - [How To Create & Run A Job In Jenkins Using Jenkins Freestyle Project?](https://www.javacodegeeks.com/2021/04/how-to-create-run-a-job-in-jenkins-using-jenkins-freestyle-project.html)
 - [Best Selenium Python Frameworks for Test automation in 2021](https://www.javacodegeeks.com/2021/04/best-selenium-python-frameworks-for-test-automation-in-2021.html)
 - [Headless eCommerce – Common architectural elements](https://www.javacodegeeks.com/2021/04/headless-ecommerce-common-architectural-elements.html)
@@ -422,8 +422,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Installing Anthos Service Mesh on GKE](https://www.javacodegeeks.com/2021/04/installing-anthos-service-mesh-on-gke.html)
 - [Java 16: Stream.toList()](https://www.javacodegeeks.com/2021/04/java-16-stream-tolist.html)
 - [List of Open Source Security Tools](https://www.javacodegeeks.com/2021/04/list-of-open-source-security-tools.html)
-- [My tips for using IntelliJ IDEA effectively](https://www.javacodegeeks.com/2021/04/my-tips-for-using-intellij-idea-effectively.html)
-
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### *DevCases posts*
