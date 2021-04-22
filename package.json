@@ -5,7 +5,6 @@
     "license": "GPL-3.0",
     "scripts": {
         "husky:install": "husky install",
-        "precommit": "npm run lint:staged",
         "postinstall": "npm run husky:install",
         "remark": "remark -q -f .",
         "format": "prettier --single-quote --write **/*.{json,yaml,yml}",
