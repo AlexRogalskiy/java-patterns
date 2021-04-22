@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - master
+  push:
+    branches:
+      - master
+      - 'releases/*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      max-parallel: 2
+      matrix:
+        node-version:
+          - 10.x
+          - 11.x
+          - 12.x
+          - 14.x
+
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Setup PNPM
+        uses: pnpm/action-setup@v1.2.1
+        with:
+          version: 4.11.1
+
+      - name: Install Dependencies
+        run: pnpm i
+
+      - name: Lint & Format
+        run: |
+          pnpm run all --if-present
+
+      - name: Check
+        run: |
+          pnpm run check:all --if-present
