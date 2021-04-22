@@ -251,18 +251,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
-- [2021 Jakarta EE Developer Survey](https://www.reddit.com/r/java/comments/muw7rj/2021\_jakarta_ee_developer_survey/)
-- [Java is criminally underhyped](https://www.reddit.com/r/java/comments/muughh/java_is_criminally_underhyped/)
-- [Multi-Tier Compilation in GraalVM](https://www.reddit.com/r/java/comments/mutn9g/multitier_compilation_in_graalvm/)
-- [New candidate JEP: 401: Primitive Objects (Preview)](https://www.reddit.com/r/java/comments/mutmab/new_candidate_jep\_401\_primitive_objects_preview/)
-- [Faster warmup, smaller downloads, JDK 16 -- GraalVM 21.1 is here!](https://www.reddit.com/r/java/comments/mut2vq/faster_warmup_smaller_downloads_jdk\_16\_graalvm/)
-- [Server-side input validation and how to do it in Java](https://www.reddit.com/r/java/comments/musy54/serverside_input_validation_and_how_to_do_it_in/)
-- [Apache Kafka 2.8 released - including early-access preview of Kafka with no Zookeeper!](https://www.reddit.com/r/java/comments/mum2yg/apache_kafka\_28\_released_including_earlyaccess/)
-- [Java 16 Records with JPA and jOOQ](https://www.reddit.com/r/java/comments/mum1hn/java\_16\_records_with_jpa_and_jooq/)
-- [Java Bean Validation Extension - Additional @Annotations for Bean Validation](https://www.reddit.com/r/java/comments/mulrcr/java_bean_validation_extension_additional/)
-- [Better Error Handling for Your Spring Boot REST APIs](https://www.reddit.com/r/java/comments/mul95u/better_error_handling_for_your_spring_boot_rest/)
-
+- [Examples of java projects using the service, model, repository, controller/handler structure?](https://www.reddit.com/r/java/comments/mvs1qt/examples_of_java_projects_using_the_service_model/)
+- [The Initial Preview of GUI app support is now available for the Windows Subsystem for Linux | Windows Command Line](https://www.reddit.com/r/java/comments/mvoz2n/the_initial_preview_of_gui_app_support_is_now/)
+- [Java Strings](https://www.reddit.com/r/java/comments/mvom5f/java_strings/)
+- [What happened to AOT? (Android, GraalVM, etc.)](https://www.reddit.com/r/java/comments/mvl8ci/what_happened_to_aot_android_graalvm_etc/)
+- [Foreign Memory Access and NIO channels - Going Further](https://www.reddit.com/r/java/comments/mvj6vr/foreign_memory_access_and_nio_channels_going/)
+- [State of Valhalla: JVM Model (by John Rose and Brian Goetz)](https://www.reddit.com/r/java/comments/mvfaz7/state_of_valhalla_jvm_model_by_john_rose_and/)
+- [Picnic Tech Radars | What Java technology powers and will power the online-only supermarket?](https://www.reddit.com/r/java/comments/mvbj89/picnic_tech_radars_what_java_technology_powers/)
+- [Statically Link JNI Libraries with GraalVM Native Image](https://www.reddit.com/r/java/comments/mvbj7g/statically_link_jni_libraries_with_graalvm_native/)
+- [What’s coming to Jakarta EE 10?](https://www.reddit.com/r/java/comments/mvasav/whats_coming_to_jakarta_ee_10/)
+- [What's new in Spring Data 2021.0?](https://www.reddit.com/r/java/comments/mv9ugk/whats_new_in_spring_data_20210/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
