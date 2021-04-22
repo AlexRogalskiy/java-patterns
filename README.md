@@ -326,7 +326,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
-
+- [Foreign Memory Access and NIO channels - Going Further](https://inside.java/2021/04/21/fma-and-nio-channels/)
 - [New candidate JEP: 411: Deprecate the Security Manager for Removal](https://inside.java/2021/04/15/new-candidate-jep-411/)
 - [How Java Records Can Improve Serialization](https://inside.java/2021/04/13/odl16-records-serialization/)
 - [Your Guide to OpenJDK Development](https://inside.java/2021/04/12/odl16-openjdk-guide/)
@@ -336,8 +336,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [New candidate JEP: 409: Sealed Classes](https://inside.java/2021/04/07/new-candidate-jep-409/)
 - [New candidate JEP: 410: Remove the Experimental AOT and JIT Compiler](https://inside.java/2021/04/07/new-candidate-jep-410/)
 - [Record Serialization in Practice](https://inside.java/2021/04/06/record-serialization-in-practise/)
-- [The Vector API: SIMD Programming in Java](https://inside.java/2021/04/06/video-odl16-vectorapi/)
-
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
