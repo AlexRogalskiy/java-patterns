@@ -297,7 +297,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
-
+- [Alternate Docroots](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/alternate-docroots.html)
 - [Learning Kotlin](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/learning-kotlin.html)
 - [Getting a Native Query Typed in JPA](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/getting-native-query-typed-in-jpa.html)
 - [StreamingOutput : streaming large json responses in REST API](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/streamingoutput-streaming-large-json.html)
@@ -307,8 +307,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Using CDI to extend functionality](http://randomthoughtsonjavaprogramming.blogspot.com/2021/02/using-cdi-to-extend-functionality.html)
 - [Using Optional to prevent NullPointers In TrainWrecks](http://randomthoughtsonjavaprogramming.blogspot.com/2021/01/using-optional-to-prevent-nullpointers.html)
 - [Branch Prediction](http://randomthoughtsonjavaprogramming.blogspot.com/2021/01/branch-prediction.html)
-- [Notes on Unity](http://randomthoughtsonjavaprogramming.blogspot.com/2020/12/notes-on-unity.html)
-
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
