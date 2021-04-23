@@ -130,50 +130,57 @@ The Website documentation is provided by [gitbook](https://www.gitbook.com/) and
 
 [***Java Patterns***][docs]
 
-To enable documentation serving at ***localhost*** the following steps should be considered:
+To enable documentation serving at ***localhost*** you can run the following script
+
+```shell script
+./build-docs.sh
+```
+
+otherwise, the next steps should be considered:
 
 1\) Install/upgrade ***pip*** command-line utility:
 
-```text
+```shell script
 pip install --upgrade pip
 ```
 
 or if you need to install ***pip*** for the first time:
 
-```text
+```shell script
+wget --no-check-certificate https://bootstrap.pypa.io/get-pip.py
 python get-pip.py
 ```
 
 2\) Install the ***mkdocs*** package using pip:
 
-```text
+```shell script
 pip install mkdocs
 ```
 
 or more conveniently for Windows subsystem:
 
-```text
+```shell script
 python -m pip install mkdocs
 python -m mkdocs
 ```
 
 3\) Install the material theme for the website:
 
-```text
-pip install mkdocs-material
-pip install markdown-include
+```shell script
+python -m pip install mkdocs-material
+python -m pip install markdown-include
 ```
 
 4\) Start the server at ***localhost*** by running the following command:
 
-```text
-mkdocs serve --verbose --dirtyreload
+```shell script
+python -m mkdocs serve --verbose --dirtyreload
 ```
 
 5\) Deploy to GitHub pages:
 
-```text
-mkdocs --verbose gh-deploy --force --remote-branch gh-pages
+```shell script
+python -m mkdocs --verbose gh-deploy --force --remote-branch gh-pages
 ```
 
 5\) Open up [localhost](http://127.0.0.1:8000/) in browser to get the default documentation homepage.
