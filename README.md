@@ -372,7 +372,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Plumbr posts*
 
 <!-- PLUMBR-POST-LIST:START -->
-
 - [Plumbr has been acquired by Splunk](https://plumbr.io/blog/plumbr-blog/acquired-by-splunk)
 - [Using Plumbr with OpenTelemetry NodeJS agent](https://plumbr.io/blog/plumbr-blog/using-plumbr-with-opentelemetry-nodejs-agent)
 - [Extending Plumbr RUM with Web Vitals metrics](https://plumbr.io/blog/performance-blog/extending-plumbr-rum-with-web-vitals-metrics)
@@ -383,7 +382,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Plumbr now monitors Python applications and APIs](https://plumbr.io/blog/product-updates/plumbr-now-monitors-python-applications-and-apis)
 - [Distributed tracing in practice](https://plumbr.io/blog/tracing/distributed-tracing-in-practice)
 - [Plumbr now supports application versioning](https://plumbr.io/blog/product-updates/plumbr-now-supports-application-versioning)
-
 <!-- PLUMBR-POST-LIST:END -->
 
 ### *Thorben Janssen posts*
