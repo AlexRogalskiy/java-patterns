@@ -252,18 +252,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
-- [Examples of java projects using the service, model, repository, controller/handler structure?](https://www.reddit.com/r/java/comments/mvs1qt/examples_of_java_projects_using_the_service_model/)
-- [The Initial Preview of GUI app support is now available for the Windows Subsystem for Linux | Windows Command Line](https://www.reddit.com/r/java/comments/mvoz2n/the_initial_preview_of_gui_app_support_is_now/)
-- [Java Strings](https://www.reddit.com/r/java/comments/mvom5f/java_strings/)
-- [What happened to AOT? (Android, GraalVM, etc.)](https://www.reddit.com/r/java/comments/mvl8ci/what_happened_to_aot_android_graalvm_etc/)
-- [Foreign Memory Access and NIO channels - Going Further](https://www.reddit.com/r/java/comments/mvj6vr/foreign_memory_access_and_nio_channels_going/)
-- [State of Valhalla: JVM Model (by John Rose and Brian Goetz)](https://www.reddit.com/r/java/comments/mvfaz7/state_of_valhalla_jvm_model_by_john_rose_and/)
-- [Picnic Tech Radars | What Java technology powers and will power the online-only supermarket?](https://www.reddit.com/r/java/comments/mvbj89/picnic_tech_radars_what_java_technology_powers/)
-- [Statically Link JNI Libraries with GraalVM Native Image](https://www.reddit.com/r/java/comments/mvbj7g/statically_link_jni_libraries_with_graalvm_native/)
-- [What’s coming to Jakarta EE 10?](https://www.reddit.com/r/java/comments/mvasav/whats_coming_to_jakarta_ee\_10/)
-- [What's new in Spring Data 2021.0?](https://www.reddit.com/r/java/comments/mv9ugk/whats_new_in_spring_data\_20210/)
-
+- [Is my app the future of commerce? Tell me what you think in the comments.](https://www.reddit.com/r/java/comments/mwiijw/is_my_app_the_future_of_commerce_tell_me_what_you/)
+- [Learn how to create your first spring application (without Spring Boot) 👇🏻](https://www.reddit.com/r/java/comments/mwd7oy/learn_how_to_create_your_first_spring_application/)
+- [New candidate JEP: 412: Foreign Function & Memory API (Incubator)](https://www.reddit.com/r/java/comments/mwbcg1/new_candidate_jep_412_foreign_function_memory_api/)
+- [I just released my first open source project called Josi! It's a simple library designed to make working with operating systems easier. Please check it out if you're interested!](https://www.reddit.com/r/java/comments/mwaag9/i_just_released_my_first_open_source_project/)
+- [Why Java frameworks want to support all possible many technologies instead of focusing on one thing?](https://www.reddit.com/r/java/comments/mw6c1u/why_java_frameworks_want_to_support_all_possible/)
+- [Inside Java Newscast #3 - Quicker Java and JDK 16 compatibility](https://www.reddit.com/r/java/comments/mw5fyn/inside_java_newscast_3_quicker_java_and_jdk_16/)
+- [Does Java/JVM provide access to wrappers for XADD instruction?](https://www.reddit.com/r/java/comments/mw3r1s/does_javajvm_provide_access_to_wrappers_for_xadd/)
+- [What is planed for Java after Java 17?](https://www.reddit.com/r/java/comments/mw00nk/what_is_planed_for_java_after_java_17/)
+- [JDK8 and JDK11 Update Releases - April 2021](https://www.reddit.com/r/java/comments/mvx8fu/jdk8_and_jdk11_update_releases_april_2021/)
+- [How can I change my JDK logo to the coffee cut instead of Duke?](https://www.reddit.com/r/java/comments/mvwbhw/how_can_i_change_my_jdk_logo_to_the_coffee_cut/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
