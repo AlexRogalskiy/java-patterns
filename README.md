@@ -259,18 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
-- [Is my app the future of commerce? Tell me what you think in the comments.](https://www.reddit.com/r/java/comments/mwiijw/is_my_app_the_future_of_commerce_tell_me_what_you/)
-- [Learn how to create your first spring application (without Spring Boot) 👇🏻](https://www.reddit.com/r/java/comments/mwd7oy/learn_how_to_create_your_first_spring_application/)
-- [New candidate JEP: 412: Foreign Function & Memory API (Incubator)](https://www.reddit.com/r/java/comments/mwbcg1/new_candidate_jep\_412\_foreign_function_memory_api/)
-- [I just released my first open source project called Josi! It's a simple library designed to make working with operating systems easier. Please check it out if you're interested!](https://www.reddit.com/r/java/comments/mwaag9/i_just_released_my_first_open_source_project/)
-- [Why Java frameworks want to support all possible many technologies instead of focusing on one thing?](https://www.reddit.com/r/java/comments/mw6c1u/why_java_frameworks_want_to_support_all_possible/)
-- [Inside Java Newscast #3 - Quicker Java and JDK 16 compatibility](https://www.reddit.com/r/java/comments/mw5fyn/inside_java_newscast\_3\_quicker_java_and_jdk\_16/)
-- [Does Java/JVM provide access to wrappers for XADD instruction?](https://www.reddit.com/r/java/comments/mw3r1s/does_javajvm_provide_access_to_wrappers_for_xadd/)
-- [What is planed for Java after Java 17?](https://www.reddit.com/r/java/comments/mw00nk/what_is_planed_for_java_after_java\_17/)
-- [JDK8 and JDK11 Update Releases - April 2021](https://www.reddit.com/r/java/comments/mvx8fu/jdk8\_and_jdk11\_update_releases_april\_2021/)
-- [How can I change my JDK logo to the coffee cut instead of Duke?](https://www.reddit.com/r/java/comments/mvwbhw/how_can_i_change_my_jdk_logo_to_the_coffee_cut/)
-
+- [Java News Roundup - Week of April 12th, 2021](https://www.reddit.com/r/java/comments/mx4gd2/java_news_roundup_week_of_april_12th_2021/)
+- [Clivern/Bucket - Consistent Hashing Package for Scalable Data Distribution](https://www.reddit.com/r/java/comments/mx37i8/clivernbucket_consistent_hashing_package_for/)
+- [Clarification on Project Panama's incubating status](https://www.reddit.com/r/java/comments/mwxrka/clarification_on_project_panamas_incubating_status/)
+- [Developed my own web app, but need to provide Enterprise-level security](https://www.reddit.com/r/java/comments/mwvfsy/developed_my_own_web_app_but_need_to_provide/)
+- [If the attacker can get to the DB and see the salt and hashed pass they use both and run in through different algorithms and use it to login to see if it passes. why we use salt?](https://www.reddit.com/r/java/comments/mwt15n/if_the_attacker_can_get_to_the_db_and_see_the/)
+- [Micronaut vs Quarkus — what’s the difference?](https://www.reddit.com/r/java/comments/mwpvbb/micronaut_vs_quarkus_whats_the_difference/)
+- [How to use apache netbeans IDE to code in java?](https://www.reddit.com/r/java/comments/mwo2g3/how_to_use_apache_netbeans_ide_to_code_in_java/)
+- [👋 Would anyone be interested in working together on a Java client library for Typesense (Open Source alternative to Algolia / ElasticSearch)?](https://www.reddit.com/r/java/comments/mwlzpw/would_anyone_be_interested_in_working_together_on/)
+- [Sigstore Project Update - Binary Transparency for JARs](https://www.reddit.com/r/java/comments/mwkvnm/sigstore_project_update_binary_transparency_for/)
+- [Hey, very new to java and am pretty happy with this little program](https://www.reddit.com/r/java/comments/mwklh5/hey_very_new_to_java_and_am_pretty_happy_with/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
