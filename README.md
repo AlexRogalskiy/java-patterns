@@ -364,7 +364,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Dreamix posts*
 
 <!-- DREAMIX-POST-LIST:START -->
-
 - [How to Send Multiple Data Types to REST API](https://dreamix.eu/blog/java/how-to-send-multiple-data-types-to-rest-api)
 - [Learn from Java Champion Matt Raible: JHipster to the rescue](https://dreamix.eu/blog/java/learn-from-java-champion-matt-raible-jhipster-to-the-rescue)
 - [Java Tools for Agile Software Development](https://dreamix.eu/blog/java/java-tools-for-agile-software-development)
@@ -375,7 +374,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Top 5 Emerging Technologies among Java Devs](https://dreamix.eu/blog/java/top-5-emerging-technologies-among-java-devs)
 - [What is Continuous Integration and How to Benefit from it](https://dreamix.eu/blog/java/what-is-continuous-integration-and-how-to-benefit-from-it)
 - [The Anatomy of a Good SCRUM team](https://dreamix.eu/blog/java/the-anatomy-of-a-good-scrum-team)
-
 <!-- DREAMIX-POST-LIST:END -->
 
 ### *Plumbr posts*
