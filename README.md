@@ -334,18 +334,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
-
+- [Security and Sandboxing Post SecurityManager](https://inside.java/2021/04/23/security-and-sandboxing-post-securitymanager/)
 - [Inside Java Newscast #3](https://inside.java/2021/04/22/insidejava-newscast-003/)
 - [Improving the Ideal Graph Visualizer for better comprehension of Java’s main JIT compiler](https://inside.java/2021/04/22/improving-graph-vizualizer/)
+- [New candidate JEP: 412: Foreign Function &amp; Memory API (Incubator)](https://inside.java/2021/04/22/new-candidate-jep-412/)
 - [Foreign Memory Access and NIO channels - Going Further](https://inside.java/2021/04/21/fma-and-nio-channels/)
 - [State of Valhalla, Section 3: JVM Model](https://inside.java/2021/04/21/state-of-valhalla/)
 - [Faster warmup, smaller downloads, JDK 16 — GraalVM 21.1 is here!](https://inside.java/2021/04/20/announcing-graalvm-21-1/)
 - [Multi-Tier Compilation in GraalVM](https://inside.java/2021/04/19/graalvm-multi-tier-compilation/)
+- [ReversibleCollection proposal](https://inside.java/2021/04/16/reversiblecollection-proposal/)
 - [New candidate JEP: 411: Deprecate the Security Manager for Removal](https://inside.java/2021/04/15/new-candidate-jep-411/)
-- [How Java Records Can Improve Serialization](https://inside.java/2021/04/13/odl16-records-serialization/)
-- [Your Guide to OpenJDK Development](https://inside.java/2021/04/12/odl16-openjdk-guide/)
-- [Episode 16 “Let’s Discuss JDK and Networking” with Michael McMahon and Daniel Fuchs](https://inside.java/2021/04/12/podcast-016/)
-
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
