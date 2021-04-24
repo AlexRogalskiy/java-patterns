@@ -319,7 +319,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Better code posts*
 
 <!-- BETTERCODE-POST-LIST:START -->
-
+- [Example of Spring Boot Application Authentication with AWS Cognito](https://betterjavacode.com/programming/example-of-spring-boot-application-authentication-with-aws-cognito)
 - [Everything you need to know about Spring Data JPA](https://betterjavacode.com/spring-boot/everything-you-need-to-know-about-spring-data-jpa)
 - [Conversion of Entity to DTO Using ModelMapper](https://betterjavacode.com/spring-boot/conversion-of-entity-to-dto-using-modelmapper)
 - [Spring Retry vs Resilience4j Retry](https://betterjavacode.com/programming/spring-retry-vs-resilience4j-retry)
@@ -329,8 +329,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Step by Step Spring Batch Tutorial](https://betterjavacode.com/spring-boot/step-by-step-spring-batch-tutorial)
 - [Simplifying Spring Security](https://betterjavacode.com/programming/simplifying-spring-security)
 - [Spring Boot CRUD Application Example with MongoDB](https://betterjavacode.com/spring-boot/spring-boot-crud-application-example-with-mongodb)
-- [Top 21 Spring Boot Interview Questions](https://betterjavacode.com/spring-boot/top-21-spring-boot-interview-questions)
-
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### *Inside Java posts*
