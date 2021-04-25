@@ -424,6 +424,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *JavaCodeGeeks posts*
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Java 16 Records with JPA and jOOQ](https://www.javacodegeeks.com/2021/04/java-16-records-with-jpa-and-jooq.html)
 - [A 6 Step Website Design Checklist To Follow In 2021](https://www.javacodegeeks.com/2021/04/a-6-step-website-design-checklist-to-follow-in-2021.html)
 - [How To Handle Synchronization In Selenium PHP Using Implicit and Explicit Wait?](https://www.javacodegeeks.com/2021/04/how-to-handle-synchronization-in-selenium-php-using-implicit-and-explicit-wait.html)
 - [How To Do Parameterization In Pytest With Selenium?](https://www.javacodegeeks.com/2021/04/how-to-do-parameterization-in-pytest-with-selenium.html)
@@ -433,7 +434,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [How To Create & Run A Job In Jenkins Using Jenkins Freestyle Project?](https://www.javacodegeeks.com/2021/04/how-to-create-run-a-job-in-jenkins-using-jenkins-freestyle-project.html)
 - [Best Selenium Python Frameworks for Test automation in 2021](https://www.javacodegeeks.com/2021/04/best-selenium-python-frameworks-for-test-automation-in-2021.html)
 - [Headless eCommerce – Common architectural elements](https://www.javacodegeeks.com/2021/04/headless-ecommerce-common-architectural-elements.html)
-- [Looking into the JDK 16 vector API](https://www.javacodegeeks.com/2021/04/looking-into-the-jdk-16-vector-api.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### *DevCases posts*
