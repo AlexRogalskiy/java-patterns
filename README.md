@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Java, but its in Portuguese.](https://www.reddit.com/r/java/comments/mxvg8u/java_but_its_in_portuguese/)
+- [Resumption of Leyden Discusssion](https://www.reddit.com/r/java/comments/mxr1av/resumption_of_leyden_discusssion/)
+- [Java SE Embedded Download?](https://www.reddit.com/r/java/comments/mxqx20/java_se_embedded_download/)
+- [Property-based testing, a hands-on example](https://www.reddit.com/r/java/comments/mxn9jt/propertybased_testing_a_handson_example/)
+- [Cconversation with BalusC / Bauke / OmniFaces : Adam Bien's Weblog](https://www.reddit.com/r/java/comments/mxmrvr/cconversation_with_balusc_bauke_omnifaces_adam/)
+- [New open-source In-memory database for jvm based languages. Based on a recent research article that published a technique to overcome limitations in hash and b-tree indexes. Super easy to blend in with Java, search by any possible key combination in high speed. (research article link in comments)](https://www.reddit.com/r/java/comments/mxkix1/new_opensource_inmemory_database_for_jvm_based/)
+- [OAuth2 AuthorizationServerConfigurerAdapter deprecated, Any solution?](https://www.reddit.com/r/java/comments/mxhq6x/oauth2_authorizationserverconfigureradapter/)
+- [Troubleshooting OutOfMemoryError: Heap Dump, Eclipse MAT](https://www.reddit.com/r/java/comments/mxch24/troubleshooting_outofmemoryerror_heap_dump/)
 - [Java News Roundup - Week of April 12th, 2021](https://www.reddit.com/r/java/comments/mx4gd2/java_news_roundup_week_of_april_12th_2021/)
 - [Clivern/Bucket - Consistent Hashing Package for Scalable Data Distribution](https://www.reddit.com/r/java/comments/mx37i8/clivernbucket_consistent_hashing_package_for/)
-- [Clarification on Project Panama's incubating status](https://www.reddit.com/r/java/comments/mwxrka/clarification_on_project_panamas_incubating_status/)
-- [Developed my own web app, but need to provide Enterprise-level security](https://www.reddit.com/r/java/comments/mwvfsy/developed_my_own_web_app_but_need_to_provide/)
-- [If the attacker can get to the DB and see the salt and hashed pass they use both and run in through different algorithms and use it to login to see if it passes. why we use salt?](https://www.reddit.com/r/java/comments/mwt15n/if_the_attacker_can_get_to_the_db_and_see_the/)
-- [Micronaut vs Quarkus — what’s the difference?](https://www.reddit.com/r/java/comments/mwpvbb/micronaut_vs_quarkus_whats_the_difference/)
-- [How to use apache netbeans IDE to code in java?](https://www.reddit.com/r/java/comments/mwo2g3/how_to_use_apache_netbeans_ide_to_code_in_java/)
-- [👋 Would anyone be interested in working together on a Java client library for Typesense (Open Source alternative to Algolia / ElasticSearch)?](https://www.reddit.com/r/java/comments/mwlzpw/would_anyone_be_interested_in_working_together_on/)
-- [Sigstore Project Update - Binary Transparency for JARs](https://www.reddit.com/r/java/comments/mwkvnm/sigstore_project_update_binary_transparency_for/)
-- [Hey, very new to java and am pretty happy with this little program](https://www.reddit.com/r/java/comments/mwklh5/hey_very_new_to_java_and_am_pretty_happy_with/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
