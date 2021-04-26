@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Good remote Java Development jobs](https://www.reddit.com/r/java/comments/mye67b/good_remote_java_development_jobs/)
+- [Hashtag Jakarta EE #69](https://www.reddit.com/r/java/comments/mybh9d/hashtag_jakarta_ee_69/)
+- [A Porting Horror Story -- "Once upon a time there was a small company that had a great deal of legacy code written in Perl. The new engineering manager and the new CTO wanted to move to a Java-based solution."](https://www.reddit.com/r/java/comments/my8cuu/a_porting_horror_story_once_upon_a_time_there_was/)
+- [JetBrains drops 32-bit support starting with IntelliJ 2021.2](https://www.reddit.com/r/java/comments/my2vbq/jetbrains_drops_32bit_support_starting_with/)
+- [Discussion: Is Java really faster than Go?](https://www.reddit.com/r/java/comments/mxzsuc/discussion_is_java_really_faster_than_go/)
 - [Java, but its in Portuguese.](https://www.reddit.com/r/java/comments/mxvg8u/java_but_its_in_portuguese/)
 - [Resumption of Leyden Discusssion](https://www.reddit.com/r/java/comments/mxr1av/resumption_of_leyden_discusssion/)
 - [Java SE Embedded Download?](https://www.reddit.com/r/java/comments/mxqx20/java_se_embedded_download/)
 - [Property-based testing, a hands-on example](https://www.reddit.com/r/java/comments/mxn9jt/propertybased_testing_a_handson_example/)
 - [Cconversation with BalusC / Bauke / OmniFaces : Adam Bien's Weblog](https://www.reddit.com/r/java/comments/mxmrvr/cconversation_with_balusc_bauke_omnifaces_adam/)
-- [New open-source In-memory database for jvm based languages. Based on a recent research article that published a technique to overcome limitations in hash and b-tree indexes. Super easy to blend in with Java, search by any possible key combination in high speed. (research article link in comments)](https://www.reddit.com/r/java/comments/mxkix1/new_opensource_inmemory_database_for_jvm_based/)
-- [OAuth2 AuthorizationServerConfigurerAdapter deprecated, Any solution?](https://www.reddit.com/r/java/comments/mxhq6x/oauth2_authorizationserverconfigureradapter/)
-- [Troubleshooting OutOfMemoryError: Heap Dump, Eclipse MAT](https://www.reddit.com/r/java/comments/mxch24/troubleshooting_outofmemoryerror_heap_dump/)
-- [Java News Roundup - Week of April 12th, 2021](https://www.reddit.com/r/java/comments/mx4gd2/java_news_roundup_week_of_april_12th_2021/)
-- [Clivern/Bucket - Consistent Hashing Package for Scalable Data Distribution](https://www.reddit.com/r/java/comments/mx37i8/clivernbucket_consistent_hashing_package_for/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
