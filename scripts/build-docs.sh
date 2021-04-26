@@ -5,7 +5,9 @@ set -o errexit
 set -o pipefail
 set -o nounset
 
-cd ..
+## Change working directory
+base_dir=$(dirname $0)/..
+cd $base_dir
 
 ## Install pip module
 wget --no-check-certificate https://bootstrap.pypa.io/get-pip.py -O $TMPDIR/get-pip.py
