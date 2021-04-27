@@ -409,7 +409,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Redhat posts*
 
 <!-- REDHAT-POST-LIST:START -->
-
 - [Using Kubernetes ConfigMaps to define your Quarkus application’s properties](https://developers.redhat.com/blog/2020/01/23/using-kubernetes-configmaps-to-define-your-quarkus-applications-properties/)
 - [CodeReady Workspaces devfile, demystified](https://developers.redhat.com/blog/2019/12/09/codeready-workspaces-devfile-demystified/)
 - [Decoupling microservices with Apache Camel and Debezium](https://developers.redhat.com/blog/2019/11/19/decoupling-microservices-with-apache-camel-and-debezium/)
@@ -420,7 +419,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Managing JBoss EAP/Wildfly using Jcliff](https://developers.redhat.com/blog/2019/11/06/managing-jboss-eap-wildfly-using-jcliff/)
 - [Bring joy to development with Quarkus, the cloud-native Java framework](https://developers.redhat.com/blog/2019/10/24/bring-joy-to-development-with-quarkus-the-cloud-native-java-framework/)
 - [What’s new in Red Hat Dependency Analytics](https://developers.redhat.com/blog/2019/10/15/whats-new-in-red-hat-dependency-analytics/)
-
 <!-- REDHAT-POST-LIST:END -->
 
 ### *JavaCodeGeeks posts*
