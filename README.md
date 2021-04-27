@@ -259,18 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
+- [Introducing skip ledger: a tamper proof ledger with history and provable tear-outs](https://www.reddit.com/r/java/comments/mz3z6u/introducing_skip_ledger_a_tamper_proof_ledger/)
+- [Fixing a Bug in Java](https://www.reddit.com/r/java/comments/mz12a4/fixing_a_bug_in_java/)
+- [Heap dumps VS keystores and guarded byte arrays](https://www.reddit.com/r/java/comments/myw0sm/heap_dumps_vs_keystores_and_guarded_byte_arrays/)
+- [signald - A daemon that facilitates communication via Signal Private Messenger. Unofficial, unapproved, and not nearly as secure as the real Signal clients.](https://www.reddit.com/r/java/comments/myou0m/signald_a_daemon_that_facilitates_communication/)
 - [Good remote Java Development jobs](https://www.reddit.com/r/java/comments/mye67b/good_remote_java_development_jobs/)
-- [Hashtag Jakarta EE #69](https://www.reddit.com/r/java/comments/mybh9d/hashtag_jakarta_ee\_69/)
+- [Hashtag Jakarta EE #69](https://www.reddit.com/r/java/comments/mybh9d/hashtag_jakarta_ee_69/)
 - [A Porting Horror Story -- "Once upon a time there was a small company that had a great deal of legacy code written in Perl. The new engineering manager and the new CTO wanted to move to a Java-based solution."](https://www.reddit.com/r/java/comments/my8cuu/a_porting_horror_story_once_upon_a_time_there_was/)
-- [JetBrains drops 32-bit support starting with IntelliJ 2021.2](https://www.reddit.com/r/java/comments/my2vbq/jetbrains_drops\_32bit_support_starting_with/)
+- [JetBrains drops 32-bit support starting with IntelliJ 2021.2](https://www.reddit.com/r/java/comments/my2vbq/jetbrains_drops_32bit_support_starting_with/)
 - [Discussion: Is Java really faster than Go?](https://www.reddit.com/r/java/comments/mxzsuc/discussion_is_java_really_faster_than_go/)
 - [Java, but its in Portuguese.](https://www.reddit.com/r/java/comments/mxvg8u/java_but_its_in_portuguese/)
-- [Resumption of Leyden Discusssion](https://www.reddit.com/r/java/comments/mxr1av/resumption_of_leyden_discusssion/)
-- [Java SE Embedded Download?](https://www.reddit.com/r/java/comments/mxqx20/java_se_embedded_download/)
-- [Property-based testing, a hands-on example](https://www.reddit.com/r/java/comments/mxn9jt/propertybased_testing_a_handson_example/)
-- [Cconversation with BalusC / Bauke / OmniFaces : Adam Bien's Weblog](https://www.reddit.com/r/java/comments/mxmrvr/cconversation_with_balusc_bauke_omnifaces_adam/)
-
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
