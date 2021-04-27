@@ -424,7 +424,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *JavaCodeGeeks posts*
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
-
+- [[MEGA DEAL] The Learn Python & Django Developer Bundle(98% off)](https://www.javacodegeeks.com/2021/04/mega-deal-the-learn-python-django-developer-bundle98-off.html)
+- [Containers and VMs Hosted Together on Same Infrastructure and Management Platform](https://www.javacodegeeks.com/2021/04/containers-and-vms-hosted-together-on-same-infrastructure-and-management-platform.html)
 - [Store health and safety – An architectural introduction](https://www.javacodegeeks.com/2021/04/store-health-and-safety-an-architectural-introduction.html)
 - [Java 16 Records with JPA and jOOQ](https://www.javacodegeeks.com/2021/04/java-16-records-with-jpa-and-jooq.html)
 - [A 6 Step Website Design Checklist To Follow In 2021](https://www.javacodegeeks.com/2021/04/a-6-step-website-design-checklist-to-follow-in-2021.html)
@@ -432,10 +433,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [How To Do Parameterization In Pytest With Selenium?](https://www.javacodegeeks.com/2021/04/how-to-do-parameterization-in-pytest-with-selenium.html)
 - [Why Shared Services “Teams” Don’t Work with Agility](https://www.javacodegeeks.com/2021/04/why-shared-services-teams-dont-work-with-agility.html)
 - [Headless eCommerce – Example headless architectures](https://www.javacodegeeks.com/2021/04/headless-ecommerce-example-headless-architectures.html)
-- [\[MEGA DEAL\] VPN Unlimited Lifetime + PlayStation Plus 1-Yr Subscription Bundle (80% off)](https://www.javacodegeeks.com/2021/04/mega-deal-vpn-unlimited-lifetime-playstation-plus-1-yr-subscription-bundle-80-off.html)
-- [How To Create & Run A Job In Jenkins Using Jenkins Freestyle Project?](https://www.javacodegeeks.com/2021/04/how-to-create-run-a-job-in-jenkins-using-jenkins-freestyle-project.html)
-- [Best Selenium Python Frameworks for Test automation in 2021](https://www.javacodegeeks.com/2021/04/best-selenium-python-frameworks-for-test-automation-in-2021.html)
-
+- [[MEGA DEAL] VPN Unlimited Lifetime + PlayStation Plus 1-Yr Subscription Bundle (80% off)](https://www.javacodegeeks.com/2021/04/mega-deal-vpn-unlimited-lifetime-playstation-plus-1-yr-subscription-bundle-80-off.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### *DevCases posts*
