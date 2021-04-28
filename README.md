@@ -335,6 +335,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- INSIDE-POST-LIST:START -->
 - [Security and Sandboxing Post SecurityManager](https://inside.java/2021/04/23/security-and-sandboxing-post-securitymanager/)
+- [Switch labels (null again), some tweaking](https://inside.java/2021/04/23/switch-labels-some-tweaking/)
 - [Inside Java Newscast #3](https://inside.java/2021/04/22/insidejava-newscast-003/)
 - [Improving the Ideal Graph Visualizer for better comprehension of Java’s main JIT compiler](https://inside.java/2021/04/22/improving-graph-vizualizer/)
 - [New candidate JEP: 412: Foreign Function &amp; Memory API (Incubator)](https://inside.java/2021/04/22/new-candidate-jep-412/)
@@ -343,7 +344,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Faster warmup, smaller downloads, JDK 16 — GraalVM 21.1 is here!](https://inside.java/2021/04/20/announcing-graalvm-21-1/)
 - [Multi-Tier Compilation in GraalVM](https://inside.java/2021/04/19/graalvm-multi-tier-compilation/)
 - [ReversibleCollection proposal](https://inside.java/2021/04/16/reversiblecollection-proposal/)
-- [New candidate JEP: 411: Deprecate the Security Manager for Removal](https://inside.java/2021/04/15/new-candidate-jep-411/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
