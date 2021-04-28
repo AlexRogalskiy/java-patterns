@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Text Classification Libraries](https://www.reddit.com/r/java/comments/n03dkv/text_classification_libraries/)
+- [Opinion on SpotBugs, and why is it byte code-based?](https://www.reddit.com/r/java/comments/n00ciw/opinion_on_spotbugs_and_why_is_it_byte_codebased/)
+- [Java with VIM](https://www.reddit.com/r/java/comments/mzywuu/java_with_vim/)
+- [Resolving Maven dependency conflicts with a bill of materials (BOM)](https://www.reddit.com/r/java/comments/mzulin/resolving_maven_dependency_conflicts_with_a_bill/)
+- [Make all switches exhaustive?](https://www.reddit.com/r/java/comments/mztl8r/make_all_switches_exhaustive/)
+- [Better performance? Building OpenJDK with Cygwin vs Oracle JDK. Has anyone ever noticed difference? (for an idiot purpose: Gaming)](https://www.reddit.com/r/java/comments/mzmw9p/better_performance_building_openjdk_with_cygwin/)
+- [Java ocp cert for an undergrad](https://www.reddit.com/r/java/comments/mzlgpf/java_ocp_cert_for_an_undergrad/)
+- [Compiler Explorer - Java support](https://www.reddit.com/r/java/comments/mzg25q/compiler_explorer_java_support/)
 - [Introducing skip ledger: a tamper proof ledger with history and provable tear-outs](https://www.reddit.com/r/java/comments/mz3z6u/introducing_skip_ledger_a_tamper_proof_ledger/)
 - [Fixing a Bug in Java](https://www.reddit.com/r/java/comments/mz12a4/fixing_a_bug_in_java/)
-- [Heap dumps VS keystores and guarded byte arrays](https://www.reddit.com/r/java/comments/myw0sm/heap_dumps_vs_keystores_and_guarded_byte_arrays/)
-- [signald - A daemon that facilitates communication via Signal Private Messenger. Unofficial, unapproved, and not nearly as secure as the real Signal clients.](https://www.reddit.com/r/java/comments/myou0m/signald_a_daemon_that_facilitates_communication/)
-- [Good remote Java Development jobs](https://www.reddit.com/r/java/comments/mye67b/good_remote_java_development_jobs/)
-- [Hashtag Jakarta EE #69](https://www.reddit.com/r/java/comments/mybh9d/hashtag_jakarta_ee_69/)
-- [A Porting Horror Story -- "Once upon a time there was a small company that had a great deal of legacy code written in Perl. The new engineering manager and the new CTO wanted to move to a Java-based solution."](https://www.reddit.com/r/java/comments/my8cuu/a_porting_horror_story_once_upon_a_time_there_was/)
-- [JetBrains drops 32-bit support starting with IntelliJ 2021.2](https://www.reddit.com/r/java/comments/my2vbq/jetbrains_drops_32bit_support_starting_with/)
-- [Discussion: Is Java really faster than Go?](https://www.reddit.com/r/java/comments/mxzsuc/discussion_is_java_really_faster_than_go/)
-- [Java, but its in Portuguese.](https://www.reddit.com/r/java/comments/mxvg8u/java_but_its_in_portuguese/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
