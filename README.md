@@ -259,6 +259,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Is Domain Driven Design still the recommended approach for enterprise applications or has any newer approach superseded it?](https://www.reddit.com/r/java/comments/n0kukj/is_domain_driven_design_still_the_recommended/)
+- [JReleaser 0.2.0 has been released!](https://www.reddit.com/r/java/comments/n0987y/jreleaser_020_has_been_released/)
 - [Text Classification Libraries](https://www.reddit.com/r/java/comments/n03dkv/text_classification_libraries/)
 - [Opinion on SpotBugs, and why is it byte code-based?](https://www.reddit.com/r/java/comments/n00ciw/opinion_on_spotbugs_and_why_is_it_byte_codebased/)
 - [Java with VIM](https://www.reddit.com/r/java/comments/mzywuu/java_with_vim/)
@@ -267,8 +269,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Better performance? Building OpenJDK with Cygwin vs Oracle JDK. Has anyone ever noticed difference? (for an idiot purpose: Gaming)](https://www.reddit.com/r/java/comments/mzmw9p/better_performance_building_openjdk_with_cygwin/)
 - [Java ocp cert for an undergrad](https://www.reddit.com/r/java/comments/mzlgpf/java_ocp_cert_for_an_undergrad/)
 - [Compiler Explorer - Java support](https://www.reddit.com/r/java/comments/mzg25q/compiler_explorer_java_support/)
-- [Introducing skip ledger: a tamper proof ledger with history and provable tear-outs](https://www.reddit.com/r/java/comments/mz3z6u/introducing_skip_ledger_a_tamper_proof_ledger/)
-- [Fixing a Bug in Java](https://www.reddit.com/r/java/comments/mz12a4/fixing_a_bug_in_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
