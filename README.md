@@ -349,6 +349,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Java programmer posts*
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [Nested While Loop in Java](https://www.thejavaprogrammer.com/nested-while-loop-in-java/)
 - [Java Race Condition with Example](https://www.thejavaprogrammer.com/java-race-condition/)
 - [4 Pillars of OOPs in Java](https://www.thejavaprogrammer.com/4-pillars-of-oops-in-java/)
 - [Advantages and Disadvantages of Inheritance in Java](https://www.thejavaprogrammer.com/advantages-and-disadvantages-of-inheritance-in-java/)
@@ -358,7 +359,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [What is Native Method in Java?](https://www.thejavaprogrammer.com/native-method-in-java/)
 - [Why main method is static in Java?](https://www.thejavaprogrammer.com/why-main-method-is-static-in-java/)
 - [Difference between Constructor and Method in Java](https://www.thejavaprogrammer.com/difference-between-constructor-and-method/)
-- [What is the Purpose of Default Constructor in Java](https://www.thejavaprogrammer.com/what-is-the-purpose-of-default-constructor-in-java/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### *Dreamix posts*
