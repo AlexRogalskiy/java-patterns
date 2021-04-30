@@ -424,6 +424,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *JavaCodeGeeks posts*
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Store health and safety – Common architectural elements](https://www.javacodegeeks.com/2021/04/store-health-and-safety-common-architectural-elements.html)
 - [Comprehensive Guide To Jenkins Declarative Pipeline [With Examples]](https://www.javacodegeeks.com/2021/04/comprehensive-guide-to-jenkins-declarative-pipeline-with-examples.html)
 - [Why Developer Advocates Should Try New Things](https://www.javacodegeeks.com/2021/04/why-developer-advocates-should-try-new-things.html)
 - [[MEGA DEAL] The Learn Python & Django Developer Bundle(98% off)](https://www.javacodegeeks.com/2021/04/mega-deal-the-learn-python-django-developer-bundle98-off.html)
@@ -433,7 +434,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [A 6 Step Website Design Checklist To Follow In 2021](https://www.javacodegeeks.com/2021/04/a-6-step-website-design-checklist-to-follow-in-2021.html)
 - [How To Handle Synchronization In Selenium PHP Using Implicit and Explicit Wait?](https://www.javacodegeeks.com/2021/04/how-to-handle-synchronization-in-selenium-php-using-implicit-and-explicit-wait.html)
 - [How To Do Parameterization In Pytest With Selenium?](https://www.javacodegeeks.com/2021/04/how-to-do-parameterization-in-pytest-with-selenium.html)
-- [Why Shared Services “Teams” Don’t Work with Agility](https://www.javacodegeeks.com/2021/04/why-shared-services-teams-dont-work-with-agility.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### *DevCases posts*
