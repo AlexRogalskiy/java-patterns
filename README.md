@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Very small JavaScript frameworks?](https://www.reddit.com/r/java/comments/n1gqad/very_small_javascript_frameworks/)
+- [How do you host java apps on a VPS simply?](https://www.reddit.com/r/java/comments/n1cbzw/how_do_you_host_java_apps_on_a_vps_simply/)
+- [Even more greatness packed into Java 16, including tools for improving future JVMs](https://www.reddit.com/r/java/comments/n18626/even_more_greatness_packed_into_java_16_including/)
+- [Is spring / springboot suitable for monoliths or is mainly designed for microservices?](https://www.reddit.com/r/java/comments/n16xs4/is_spring_springboot_suitable_for_monoliths_or_is/)
+- [[foreign] Library loading](https://www.reddit.com/r/java/comments/n13iri/foreign_library_loading/)
+- [When newly introduced to a complex computer program, and no one to ask for help, how do you navigate? How do you find out and get to know the program well enough to start building on top of it?](https://www.reddit.com/r/java/comments/n10qqn/when_newly_introduced_to_a_complex_computer/)
+- [A JavaFX UI (2D+3D) for Pac-Man and Ms. Pac-Man](https://www.reddit.com/r/java/comments/n0z9ku/a_javafx_ui_2d3d_for_pacman_and_ms_pacman/)
+- [BuggyApp Simulate performance problems](https://www.reddit.com/r/java/comments/n0wwis/buggyapp_simulate_performance_problems/)
 - [Is Domain Driven Design still the recommended approach for enterprise applications or has any newer approach superseded it?](https://www.reddit.com/r/java/comments/n0kukj/is_domain_driven_design_still_the_recommended/)
 - [JReleaser 0.2.0 has been released!](https://www.reddit.com/r/java/comments/n0987y/jreleaser_020_has_been_released/)
-- [Text Classification Libraries](https://www.reddit.com/r/java/comments/n03dkv/text_classification_libraries/)
-- [Opinion on SpotBugs, and why is it byte code-based?](https://www.reddit.com/r/java/comments/n00ciw/opinion_on_spotbugs_and_why_is_it_byte_codebased/)
-- [Java with VIM](https://www.reddit.com/r/java/comments/mzywuu/java_with_vim/)
-- [Resolving Maven dependency conflicts with a bill of materials (BOM)](https://www.reddit.com/r/java/comments/mzulin/resolving_maven_dependency_conflicts_with_a_bill/)
-- [Make all switches exhaustive?](https://www.reddit.com/r/java/comments/mztl8r/make_all_switches_exhaustive/)
-- [Better performance? Building OpenJDK with Cygwin vs Oracle JDK. Has anyone ever noticed difference? (for an idiot purpose: Gaming)](https://www.reddit.com/r/java/comments/mzmw9p/better_performance_building_openjdk_with_cygwin/)
-- [Java ocp cert for an undergrad](https://www.reddit.com/r/java/comments/mzlgpf/java_ocp_cert_for_an_undergrad/)
-- [Compiler Explorer - Java support](https://www.reddit.com/r/java/comments/mzg25q/compiler_explorer_java_support/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
