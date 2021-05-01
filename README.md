@@ -334,6 +334,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [“Failed to write core dump”](https://inside.java/2021/04/30/failed-writing-core-dump/)
+- [Library Loading](https://inside.java/2021/04/29/library-loading/)
+- [New candidate JEP: 413: Code Snippets in Java API Documentation](https://inside.java/2021/04/28/new-candidate-jep-413/)
 - [Security and Sandboxing Post SecurityManager](https://inside.java/2021/04/23/security-and-sandboxing-post-securitymanager/)
 - [Switch labels (null again), some tweaking](https://inside.java/2021/04/23/switch-labels-some-tweaking/)
 - [Inside Java Newscast #3](https://inside.java/2021/04/22/insidejava-newscast-003/)
@@ -341,9 +344,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [New candidate JEP: 412: Foreign Function &amp; Memory API (Incubator)](https://inside.java/2021/04/22/new-candidate-jep-412/)
 - [Foreign Memory Access and NIO channels - Going Further](https://inside.java/2021/04/21/fma-and-nio-channels/)
 - [State of Valhalla, Section 3: JVM Model](https://inside.java/2021/04/21/state-of-valhalla/)
-- [Faster warmup, smaller downloads, JDK 16 — GraalVM 21.1 is here!](https://inside.java/2021/04/20/announcing-graalvm-21-1/)
-- [Multi-Tier Compilation in GraalVM](https://inside.java/2021/04/19/graalvm-multi-tier-compilation/)
-- [ReversibleCollection proposal](https://inside.java/2021/04/16/reversiblecollection-proposal/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
