@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [JEP 414: Vector API (Second Incubator)](https://www.reddit.com/r/java/comments/n25rsy/jep_414_vector_api_second_incubator/)
+- [How do I make input within while loop?](https://www.reddit.com/r/java/comments/n21czk/how_do_i_make_input_within_while_loop/)
+- [Resources to learn AOP and AspectJ?](https://www.reddit.com/r/java/comments/n1w5z2/resources_to_learn_aop_and_aspectj/)
+- [Hibernate 5.5 started! First alpha released.](https://www.reddit.com/r/java/comments/n1vip7/hibernate_55_started_first_alpha_released/)
+- [Why not to catch NullPointerExceptions](https://www.reddit.com/r/java/comments/n1vfff/why_not_to_catch_nullpointerexceptions/)
+- [Just stumbled upon a new version of MigLayout on Maven central repository](https://www.reddit.com/r/java/comments/n1qzml/just_stumbled_upon_a_new_version_of_miglayout_on/)
+- [Utility script for generating flamegraphs from JFR logs without dependencies.](https://www.reddit.com/r/java/comments/n1opsc/utility_script_for_generating_flamegraphs_from/)
 - [Very small JavaScript frameworks?](https://www.reddit.com/r/java/comments/n1gqad/very_small_javascript_frameworks/)
-- [How do you host java apps on a VPS simply?](https://www.reddit.com/r/java/comments/n1cbzw/how_do_you_host_java_apps_on_a_vps_simply/)
 - [Even more greatness packed into Java 16, including tools for improving future JVMs](https://www.reddit.com/r/java/comments/n18626/even_more_greatness_packed_into_java_16_including/)
 - [Is spring / springboot suitable for monoliths or is mainly designed for microservices?](https://www.reddit.com/r/java/comments/n16xs4/is_spring_springboot_suitable_for_monoliths_or_is/)
-- [[foreign] Library loading](https://www.reddit.com/r/java/comments/n13iri/foreign_library_loading/)
-- [When newly introduced to a complex computer program, and no one to ask for help, how do you navigate? How do you find out and get to know the program well enough to start building on top of it?](https://www.reddit.com/r/java/comments/n10qqn/when_newly_introduced_to_a_complex_computer/)
-- [A JavaFX UI (2D+3D) for Pac-Man and Ms. Pac-Man](https://www.reddit.com/r/java/comments/n0z9ku/a_javafx_ui_2d3d_for_pacman_and_ms_pacman/)
-- [BuggyApp Simulate performance problems](https://www.reddit.com/r/java/comments/n0wwis/buggyapp_simulate_performance_problems/)
-- [Is Domain Driven Design still the recommended approach for enterprise applications or has any newer approach superseded it?](https://www.reddit.com/r/java/comments/n0kukj/is_domain_driven_design_still_the_recommended/)
-- [JReleaser 0.2.0 has been released!](https://www.reddit.com/r/java/comments/n0987y/jreleaser_020_has_been_released/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
