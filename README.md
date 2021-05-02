@@ -424,6 +424,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *JavaCodeGeeks posts*
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Java 8 – How To Read A File?](https://www.javacodegeeks.com/2021/05/java-8-how-to-read-a-file.html)
 - [Maximize your concurrent web server connections](https://www.javacodegeeks.com/2021/04/maximize-your-concurrent-web-server-connections.html)
 - [Store health and safety – Common architectural elements](https://www.javacodegeeks.com/2021/04/store-health-and-safety-common-architectural-elements.html)
 - [Comprehensive Guide To Jenkins Declarative Pipeline [With Examples]](https://www.javacodegeeks.com/2021/04/comprehensive-guide-to-jenkins-declarative-pipeline-with-examples.html)
@@ -433,7 +434,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Store health and safety – An architectural introduction](https://www.javacodegeeks.com/2021/04/store-health-and-safety-an-architectural-introduction.html)
 - [Java 16 Records with JPA and jOOQ](https://www.javacodegeeks.com/2021/04/java-16-records-with-jpa-and-jooq.html)
 - [A 6 Step Website Design Checklist To Follow In 2021](https://www.javacodegeeks.com/2021/04/a-6-step-website-design-checklist-to-follow-in-2021.html)
-- [How To Handle Synchronization In Selenium PHP Using Implicit and Explicit Wait?](https://www.javacodegeeks.com/2021/04/how-to-handle-synchronization-in-selenium-php-using-implicit-and-explicit-wait.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### *DevCases posts*
