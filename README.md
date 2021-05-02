@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [JPassport](https://www.reddit.com/r/java/comments/n2vk9w/jpassport/)
+- [Any good guides to help understand Spring Boot?](https://www.reddit.com/r/java/comments/n2uhkn/any_good_guides_to_help_understand_spring_boot/)
+- [How to audit in microservices](https://www.reddit.com/r/java/comments/n2tvr0/how_to_audit_in_microservices/)
+- [New student of java](https://www.reddit.com/r/java/comments/n2oq0m/new_student_of_java/)
+- [Java GRPC performance](https://www.reddit.com/r/java/comments/n2k2cm/java_grpc_performance/)
+- [A peek into Java 17: Continuing the drive to encapsulate the Java runtime internals](https://www.reddit.com/r/java/comments/n2j9pw/a_peek_into_java_17_continuing_the_drive_to/)
 - [JEP 414: Vector API (Second Incubator)](https://www.reddit.com/r/java/comments/n25rsy/jep_414_vector_api_second_incubator/)
-- [How do I make input within while loop?](https://www.reddit.com/r/java/comments/n21czk/how_do_i_make_input_within_while_loop/)
 - [Resources to learn AOP and AspectJ?](https://www.reddit.com/r/java/comments/n1w5z2/resources_to_learn_aop_and_aspectj/)
 - [Hibernate 5.5 started! First alpha released.](https://www.reddit.com/r/java/comments/n1vip7/hibernate_55_started_first_alpha_released/)
 - [Why not to catch NullPointerExceptions](https://www.reddit.com/r/java/comments/n1vfff/why_not_to_catch_nullpointerexceptions/)
-- [Just stumbled upon a new version of MigLayout on Maven central repository](https://www.reddit.com/r/java/comments/n1qzml/just_stumbled_upon_a_new_version_of_miglayout_on/)
-- [Utility script for generating flamegraphs from JFR logs without dependencies.](https://www.reddit.com/r/java/comments/n1opsc/utility_script_for_generating_flamegraphs_from/)
-- [Very small JavaScript frameworks?](https://www.reddit.com/r/java/comments/n1gqad/very_small_javascript_frameworks/)
-- [Even more greatness packed into Java 16, including tools for improving future JVMs](https://www.reddit.com/r/java/comments/n18626/even_more_greatness_packed_into_java_16_including/)
-- [Is spring / springboot suitable for monoliths or is mainly designed for microservices?](https://www.reddit.com/r/java/comments/n16xs4/is_spring_springboot_suitable_for_monoliths_or_is/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
