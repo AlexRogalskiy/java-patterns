@@ -335,6 +335,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- INSIDE-POST-LIST:START -->
 - [“Failed to write core dump”](https://inside.java/2021/04/30/failed-writing-core-dump/)
+- [New candidate JEP: 414: Vector API (Second Incubator)](https://inside.java/2021/04/30/new-candidate-jep-441/)
 - [Library Loading](https://inside.java/2021/04/29/library-loading/)
 - [New candidate JEP: 413: Code Snippets in Java API Documentation](https://inside.java/2021/04/28/new-candidate-jep-413/)
 - [Security and Sandboxing Post SecurityManager](https://inside.java/2021/04/23/security-and-sandboxing-post-securitymanager/)
@@ -343,7 +344,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Improving the Ideal Graph Visualizer for better comprehension of Java’s main JIT compiler](https://inside.java/2021/04/22/improving-graph-vizualizer/)
 - [New candidate JEP: 412: Foreign Function &amp; Memory API (Incubator)](https://inside.java/2021/04/22/new-candidate-jep-412/)
 - [Foreign Memory Access and NIO channels - Going Further](https://inside.java/2021/04/21/fma-and-nio-channels/)
-- [State of Valhalla, Section 3: JVM Model](https://inside.java/2021/04/21/state-of-valhalla/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
