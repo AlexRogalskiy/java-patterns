@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [The plug-and-play API built right into the Java core - Techblog - Hostmoz](https://www.reddit.com/r/java/comments/n3c3cd/the_plugandplay_api_built_right_into_the_java/)
+- [A real-world example of a Stream Collector](https://www.reddit.com/r/java/comments/n3acp8/a_realworld_example_of_a_stream_collector/)
+- [How input Value from Scanner, and output the value to an txt file in Java?](https://www.reddit.com/r/java/comments/n37yly/how_input_value_from_scanner_and_output_the_value/)
+- [Exploring Spring Security under the hood.](https://www.reddit.com/r/java/comments/n31xon/exploring_spring_security_under_the_hood/)
+- [What Is Test Automation?](https://www.reddit.com/r/java/comments/n31e3j/what_is_test_automation/)
+- [Recently just learnt Spring Core, what next?](https://www.reddit.com/r/java/comments/n313kg/recently_just_learnt_spring_core_what_next/)
+- [Trying to learn Java with ADD (Attention Deficit Disorder)](https://www.reddit.com/r/java/comments/n2zc92/trying_to_learn_java_with_add_attention_deficit/)
 - [JPassport](https://www.reddit.com/r/java/comments/n2vk9w/jpassport/)
 - [Any good guides to help understand Spring Boot?](https://www.reddit.com/r/java/comments/n2uhkn/any_good_guides_to_help_understand_spring_boot/)
 - [How to audit in microservices](https://www.reddit.com/r/java/comments/n2tvr0/how_to_audit_in_microservices/)
-- [New student of java](https://www.reddit.com/r/java/comments/n2oq0m/new_student_of_java/)
-- [Java GRPC performance](https://www.reddit.com/r/java/comments/n2k2cm/java_grpc_performance/)
-- [A peek into Java 17: Continuing the drive to encapsulate the Java runtime internals](https://www.reddit.com/r/java/comments/n2j9pw/a_peek_into_java_17_continuing_the_drive_to/)
-- [JEP 414: Vector API (Second Incubator)](https://www.reddit.com/r/java/comments/n25rsy/jep_414_vector_api_second_incubator/)
-- [Resources to learn AOP and AspectJ?](https://www.reddit.com/r/java/comments/n1w5z2/resources_to_learn_aop_and_aspectj/)
-- [Hibernate 5.5 started! First alpha released.](https://www.reddit.com/r/java/comments/n1vip7/hibernate_55_started_first_alpha_released/)
-- [Why not to catch NullPointerExceptions](https://www.reddit.com/r/java/comments/n1vfff/why_not_to_catch_nullpointerexceptions/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
