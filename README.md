@@ -424,6 +424,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *JavaCodeGeeks posts*
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Leadership Tip: Give Credit as Often as Possible](https://www.javacodegeeks.com/2021/05/leadership-tip-give-credit-as-often-as-possible.html)
 - [[MEGA DEAL] The Complete 2021 Microsoft, Windows, & Azure Bundle(98% off)](https://www.javacodegeeks.com/2021/05/mega-deal-the-complete-2021-microsoft-windows-azure-bundle98-off.html)
 - [Java 8 Parallel Streams – Custom Thread Pools Examples](https://www.javacodegeeks.com/2021/05/java-8-parallel-streams-custom-thread-pools-examples.html)
 - [Java 8 Streams – Group By Multiple Fields with Collectors.groupingBy()](https://www.javacodegeeks.com/2021/05/java-8-streams-group-by-multiple-fields-with-collectors-groupingby.html)
@@ -433,7 +434,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Comprehensive Guide To Jenkins Declarative Pipeline [With Examples]](https://www.javacodegeeks.com/2021/04/comprehensive-guide-to-jenkins-declarative-pipeline-with-examples.html)
 - [Why Developer Advocates Should Try New Things](https://www.javacodegeeks.com/2021/04/why-developer-advocates-should-try-new-things.html)
 - [[MEGA DEAL] The Learn Python & Django Developer Bundle(98% off)](https://www.javacodegeeks.com/2021/04/mega-deal-the-learn-python-django-developer-bundle98-off.html)
-- [Containers and VMs Hosted Together on Same Infrastructure and Management Platform](https://www.javacodegeeks.com/2021/04/containers-and-vms-hosted-together-on-same-infrastructure-and-management-platform.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### *DevCases posts*
