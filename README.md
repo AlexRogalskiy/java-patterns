@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Mojarra 2.3.15 released!](https://www.reddit.com/r/java/comments/n402o8/mojarra_2315_released/)
-- [JDK-8266431: Dual-pivot quicksort improvements (radix sort) by bourgesl · Pull Request #3830 · openjdk/jdk](https://www.reddit.com/r/java/comments/n3u4qe/jdk8266431_dualpivot_quicksort_improvements_radix/)
-- [Chaos Engineering: Thread Leak](https://www.reddit.com/r/java/comments/n3nbob/chaos_engineering_thread_leak/)
-- [How are library developers expected to test multi-release jars?](https://www.reddit.com/r/java/comments/n3migk/how_are_library_developers_expected_to_test/)
-- [The plug-and-play API built right into the Java core - Techblog - Hostmoz](https://www.reddit.com/r/java/comments/n3c3cd/the_plugandplay_api_built_right_into_the_java/)
-- [A real-world example of a Stream Collector](https://www.reddit.com/r/java/comments/n3acp8/a_realworld_example_of_a_stream_collector/)
-- [Exploring Spring Security under the hood.](https://www.reddit.com/r/java/comments/n31xon/exploring_spring_security_under_the_hood/)
-- [What Is Test Automation?](https://www.reddit.com/r/java/comments/n31e3j/what_is_test_automation/)
-- [Recently just learnt Spring Core, what next?](https://www.reddit.com/r/java/comments/n313kg/recently_just_learnt_spring_core_what_next/)
-- [Trying to learn Java with ADD (Attention Deficit Disorder)](https://www.reddit.com/r/java/comments/n2zc92/trying_to_learn_java_with_add_attention_deficit/)
+- [Finished Learning Core Java. What's next?](https://www.reddit.com/r/java/comments/n54a7p/finished_learning_core_java_whats_next/)
+- [Sonarqube code review effectiveness](https://www.reddit.com/r/java/comments/n51046/sonarqube_code_review_effectiveness/)
+- [Has anyone compared performance of Java on ZGC vs C++ in memory-intensive applications?](https://www.reddit.com/r/java/comments/n4yf1n/has_anyone_compared_performance_of_java_on_zgc_vs/)
+- [Embedding Rust code in Java Jar for distribution](https://www.reddit.com/r/java/comments/n4wf6h/embedding_rust_code_in_java_jar_for_distribution/)
+- [Security and Sandboxing Post SecurityManager](https://www.reddit.com/r/java/comments/n4tq8n/security_and_sandboxing_post_securitymanager/)
+- [UberEats clone - Open-source and cross-platform food delivery app template in Java](https://www.reddit.com/r/java/comments/n4rnvc/ubereats_clone_opensource_and_crossplatform_food/)
+- [Splitting an application into several applications and creating common jars](https://www.reddit.com/r/java/comments/n4qme3/splitting_an_application_into_several/)
+- [Does it violate the java spec for the int>>>int operator to be the same as int>>>(int&31), like in (256>>>36)==16 but ((256>>18)>>>18)==0?](https://www.reddit.com/r/java/comments/n4oy0q/does_it_violate_the_java_spec_for_the_intint/)
+- [If you could change one thing in the Java and one thing in the JVM, what would you change?](https://www.reddit.com/r/java/comments/n4nz1p/if_you_could_change_one_thing_in_the_java_and_one/)
+- [Configuring the Oracle JDBC drivers in a SpringBoot project - Take 2](https://www.reddit.com/r/java/comments/n4k56k/configuring_the_oracle_jdbc_drivers_in_a/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
