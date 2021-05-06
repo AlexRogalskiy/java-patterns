@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [How I Hacked Google App Engine: Anatomy of a Java Bytecode Exploit](https://www.reddit.com/r/java/comments/n5p664/how_i_hacked_google_app_engine_anatomy_of_a_java/)
+- [JEP 411: Deprecate the Security Manager for Removal : Apache NetBeans](https://www.reddit.com/r/java/comments/n5jwoa/jep_411_deprecate_the_security_manager_for/)
+- [What is your biggest challenge when it comes to Java EE / Jakarta EE?](https://www.reddit.com/r/java/comments/n5f4de/what_is_your_biggest_challenge_when_it_comes_to/)
+- [jbock 4.0 released](https://www.reddit.com/r/java/comments/n5butz/jbock_40_released/)
+- [STL Algorithms in Java](https://www.reddit.com/r/java/comments/n59nn6/stl_algorithms_in_java/)
+- [Why doesn't Java support immutability directly in the core collection interfaces.](https://www.reddit.com/r/java/comments/n58a4n/why_doesnt_java_support_immutability_directly_in/)
 - [Finished Learning Core Java. What's next?](https://www.reddit.com/r/java/comments/n54a7p/finished_learning_core_java_whats_next/)
-- [Sonarqube code review effectiveness](https://www.reddit.com/r/java/comments/n51046/sonarqube_code_review_effectiveness/)
 - [Has anyone compared performance of Java on ZGC vs C++ in memory-intensive applications?](https://www.reddit.com/r/java/comments/n4yf1n/has_anyone_compared_performance_of_java_on_zgc_vs/)
 - [Embedding Rust code in Java Jar for distribution](https://www.reddit.com/r/java/comments/n4wf6h/embedding_rust_code_in_java_jar_for_distribution/)
 - [Security and Sandboxing Post SecurityManager](https://www.reddit.com/r/java/comments/n4tq8n/security_and_sandboxing_post_securitymanager/)
-- [UberEats clone - Open-source and cross-platform food delivery app template in Java](https://www.reddit.com/r/java/comments/n4rnvc/ubereats_clone_opensource_and_crossplatform_food/)
-- [Splitting an application into several applications and creating common jars](https://www.reddit.com/r/java/comments/n4qme3/splitting_an_application_into_several/)
-- [Does it violate the java spec for the int>>>int operator to be the same as int>>>(int&31), like in (256>>>36)==16 but ((256>>18)>>>18)==0?](https://www.reddit.com/r/java/comments/n4oy0q/does_it_violate_the_java_spec_for_the_intint/)
-- [If you could change one thing in the Java and one thing in the JVM, what would you change?](https://www.reddit.com/r/java/comments/n4nz1p/if_you_could_change_one_thing_in_the_java_and_one/)
-- [Configuring the Oracle JDBC drivers in a SpringBoot project - Take 2](https://www.reddit.com/r/java/comments/n4k56k/configuring_the_oracle_jdbc_drivers_in_a/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
