@@ -334,6 +334,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Why Java’s Records Are Better* Than Lombok’s @Data and Kotlin’s Data Classes](https://inside.java/2021/05/06/why-java-records/)
 - [“Failed to write core dump”](https://inside.java/2021/04/30/failed-writing-core-dump/)
 - [New candidate JEP: 414: Vector API (Second Incubator)](https://inside.java/2021/04/30/new-candidate-jep-441/)
 - [Library Loading](https://inside.java/2021/04/29/library-loading/)
@@ -343,7 +344,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Inside Java Newscast #3](https://inside.java/2021/04/22/insidejava-newscast-003/)
 - [Improving the Ideal Graph Visualizer for better comprehension of Java’s main JIT compiler](https://inside.java/2021/04/22/improving-graph-vizualizer/)
 - [New candidate JEP: 412: Foreign Function &amp; Memory API (Incubator)](https://inside.java/2021/04/22/new-candidate-jep-412/)
-- [Foreign Memory Access and NIO channels - Going Further](https://inside.java/2021/04/21/fma-and-nio-channels/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
