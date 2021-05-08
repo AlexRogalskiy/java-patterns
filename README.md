@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [JHipster "AngularX" the meaning of 'X' ?](https://www.reddit.com/r/java/comments/n78fhe/jhipster_angularx_the_meaning_of_x/)
+- [Java beats out C++, Rust, C#, and golang in gRPC throughput performance](https://www.reddit.com/r/java/comments/n75pa0/java_beats_out_c_rust_c_and_golang_in_grpc/)
+- [Why Java's Records Are Better* Than Lombok's @Data and Kotlin's Data Classes](https://www.reddit.com/r/java/comments/n6ueqh/why_javas_records_are_better_than_lomboks_data/)
+- [Open source chaos engineering program](https://www.reddit.com/r/java/comments/n6s6ug/open_source_chaos_engineering_program/)
 - [JEP 415: Context-Specific Deserialization Filters](https://www.reddit.com/r/java/comments/n6kama/jep_415_contextspecific_deserialization_filters/)
 - [Java still rocks the finance industry. Here’s why Java 16 makes it even better.](https://www.reddit.com/r/java/comments/n63xm7/java_still_rocks_the_finance_industry_heres_why/)
 - [How I Hacked Google App Engine: Anatomy of a Java Bytecode Exploit](https://www.reddit.com/r/java/comments/n5p664/how_i_hacked_google_app_engine_anatomy_of_a_java/)
 - [JEP 411: Deprecate the Security Manager for Removal : Apache NetBeans](https://www.reddit.com/r/java/comments/n5jwoa/jep_411_deprecate_the_security_manager_for/)
 - [What is your biggest challenge when it comes to Java EE / Jakarta EE?](https://www.reddit.com/r/java/comments/n5f4de/what_is_your_biggest_challenge_when_it_comes_to/)
 - [jbock 4.0 released](https://www.reddit.com/r/java/comments/n5butz/jbock_40_released/)
-- [STL Algorithms in Java](https://www.reddit.com/r/java/comments/n59nn6/stl_algorithms_in_java/)
-- [Why doesn't Java support immutability directly in the core collection interfaces.](https://www.reddit.com/r/java/comments/n58a4n/why_doesnt_java_support_immutability_directly_in/)
-- [Finished Learning Core Java. What's next?](https://www.reddit.com/r/java/comments/n54a7p/finished_learning_core_java_whats_next/)
-- [Has anyone compared performance of Java on ZGC vs C++ in memory-intensive applications?](https://www.reddit.com/r/java/comments/n4yf1n/has_anyone_compared_performance_of_java_on_zgc_vs/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
