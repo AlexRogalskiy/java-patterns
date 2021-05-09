@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Making Object abstract (just a discussion, not an actual proposal!)](https://www.reddit.com/r/java/comments/n7r7mi/making_object_abstract_just_a_discussion_not_an/)
+- [Any example of an App written with, and without, Dependency Inversion?](https://www.reddit.com/r/java/comments/n7pxge/any_example_of_an_app_written_with_and_without/)
+- [jte 1.10 brings GraalVM native-image support](https://www.reddit.com/r/java/comments/n7kvkm/jte_110_brings_graalvm_nativeimage_support/)
+- [Simple benchmark of JDK 17 - Valhalla project](https://www.reddit.com/r/java/comments/n7brhv/simple_benchmark_of_jdk_17_valhalla_project/)
 - [JHipster "AngularX" the meaning of 'X' ?](https://www.reddit.com/r/java/comments/n78fhe/jhipster_angularx_the_meaning_of_x/)
 - [Java beats out C++, Rust, C#, and golang in gRPC throughput performance](https://www.reddit.com/r/java/comments/n75pa0/java_beats_out_c_rust_c_and_golang_in_grpc/)
 - [Why Java's Records Are Better* Than Lombok's @Data and Kotlin's Data Classes](https://www.reddit.com/r/java/comments/n6ueqh/why_javas_records_are_better_than_lomboks_data/)
 - [Open source chaos engineering program](https://www.reddit.com/r/java/comments/n6s6ug/open_source_chaos_engineering_program/)
 - [JEP 415: Context-Specific Deserialization Filters](https://www.reddit.com/r/java/comments/n6kama/jep_415_contextspecific_deserialization_filters/)
 - [Java still rocks the finance industry. Here’s why Java 16 makes it even better.](https://www.reddit.com/r/java/comments/n63xm7/java_still_rocks_the_finance_industry_heres_why/)
-- [How I Hacked Google App Engine: Anatomy of a Java Bytecode Exploit](https://www.reddit.com/r/java/comments/n5p664/how_i_hacked_google_app_engine_anatomy_of_a_java/)
-- [JEP 411: Deprecate the Security Manager for Removal : Apache NetBeans](https://www.reddit.com/r/java/comments/n5jwoa/jep_411_deprecate_the_security_manager_for/)
-- [What is your biggest challenge when it comes to Java EE / Jakarta EE?](https://www.reddit.com/r/java/comments/n5f4de/what_is_your_biggest_challenge_when_it_comes_to/)
-- [jbock 4.0 released](https://www.reddit.com/r/java/comments/n5butz/jbock_40_released/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
