@@ -424,6 +424,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *JavaCodeGeeks posts*
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Handling Actions Class in Selenium and its usage](https://www.javacodegeeks.com/2021/05/handling-actions-class-in-selenium-and-its-usage.html)
 - [Store health and safety – Example health and safety architecture](https://www.javacodegeeks.com/2021/05/store-health-and-safety-example-health-and-safety-architecture.html)
 - [Developers Are Obsessed With Their Text Editors](https://www.javacodegeeks.com/2021/05/developers-are-obsessed-with-their-text-editors.html)
 - [Understanding Istio Telemetry v2](https://www.javacodegeeks.com/2021/05/understanding-istio-telemetry-v2.html)
@@ -433,7 +434,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Java 8 Streams – Group By Multiple Fields with Collectors.groupingBy()](https://www.javacodegeeks.com/2021/05/java-8-streams-group-by-multiple-fields-with-collectors-groupingby.html)
 - [Java 8 – How To Read A File?](https://www.javacodegeeks.com/2021/05/java-8-how-to-read-a-file.html)
 - [Maximize your concurrent web server connections](https://www.javacodegeeks.com/2021/04/maximize-your-concurrent-web-server-connections.html)
-- [Store health and safety – Common architectural elements](https://www.javacodegeeks.com/2021/04/store-health-and-safety-common-architectural-elements.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### *DevCases posts*
