@@ -334,6 +334,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Networking I/O with Virtual Threads - Under the hood](https://inside.java/2021/05/10/networking-io-with-virtual-threads/)
 - [New candidate JEP: 415: Context-Specific Deserialization Filters](https://inside.java/2021/05/06/new-candidate-jep-415/)
 - [Why Java’s Records Are Better* Than Lombok’s @Data and Kotlin’s Data Classes](https://inside.java/2021/05/06/why-java-records/)
 - [“Failed to write core dump”](https://inside.java/2021/04/30/failed-writing-core-dump/)
@@ -343,7 +344,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Security and Sandboxing Post SecurityManager](https://inside.java/2021/04/23/security-and-sandboxing-post-securitymanager/)
 - [Switch labels (null again), some tweaking](https://inside.java/2021/04/23/switch-labels-some-tweaking/)
 - [Inside Java Newscast #3](https://inside.java/2021/04/22/insidejava-newscast-003/)
-- [Improving the Ideal Graph Visualizer for better comprehension of Java’s main JIT compiler](https://inside.java/2021/04/22/improving-graph-vizualizer/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
