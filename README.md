@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [13 Hrs Left | Java from Zero to First Job - Practical Guide, 500+ examples | Free Udemy Course](https://www.reddit.com/r/java/comments/n8s3xh/13_hrs_left_java_from_zero_to_first_job_practical/)
+- [library loading - continued](https://www.reddit.com/r/java/comments/n9f4jf/library_loading_continued/)
+- [macOS / AArch64 appears on OpenJDK 17 EA download page.](https://www.reddit.com/r/java/comments/n9ee7p/macos_aarch64_appears_on_openjdk_17_ea_download/)
+- [How does java know if an object is on the stack ?](https://www.reddit.com/r/java/comments/n9ayya/how_does_java_know_if_an_object_is_on_the_stack/)
+- [Same Java program, multiple X11 DISPLAYs?](https://www.reddit.com/r/java/comments/n98zfo/same_java_program_multiple_x11_displays/)
+- [Networking I/O with Virtual Threads - Under the hood](https://www.reddit.com/r/java/comments/n92xt7/networking_io_with_virtual_threads_under_the_hood/)
+- [Secures REST APIs with Spring Security 5 and Auth0](https://www.reddit.com/r/java/comments/n925ct/secures_rest_apis_with_spring_security_5_and_auth0/)
+- [AsciiBlog updated to Quarkus](https://www.reddit.com/r/java/comments/n91u39/asciiblog_updated_to_quarkus/)
+- [JReleaser 0.3.0 has been released!](https://www.reddit.com/r/java/comments/n8z8cf/jreleaser_030_has_been_released/)
 - [Is AdoptOpenJDK enough for running Java-programs?](https://www.reddit.com/r/java/comments/n8qlfu/is_adoptopenjdk_enough_for_running_javaprograms/)
 - [What made you pick Java as your language of choice?](https://www.reddit.com/r/java/comments/n8l76e/what_made_you_pick_java_as_your_language_of_choice/)
-- [Teeing, a hidden gem in the Java API](https://www.reddit.com/r/java/comments/n8i6kc/teeing_a_hidden_gem_in_the_java_api/)
-- [SSLContext Kickstart 6.6.0 Released](https://www.reddit.com/r/java/comments/n8exn7/sslcontext_kickstart_660_released/)
-- [Persism 1.1.0 Released - with support for Records!](https://www.reddit.com/r/java/comments/n8dmgu/persism_110_released_with_support_for_records/)
-- [Making Object abstract (just a discussion, not an actual proposal!)](https://www.reddit.com/r/java/comments/n7r7mi/making_object_abstract_just_a_discussion_not_an/)
-- [Any example of an App written with, and without, Dependency Inversion?](https://www.reddit.com/r/java/comments/n7pxge/any_example_of_an_app_written_with_and_without/)
-- [jte 1.10 brings GraalVM native-image support](https://www.reddit.com/r/java/comments/n7kvkm/jte_110_brings_graalvm_nativeimage_support/)
-- [Simple benchmark of JDK 17 - Valhalla project](https://www.reddit.com/r/java/comments/n7brhv/simple_benchmark_of_jdk_17_valhalla_project/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
