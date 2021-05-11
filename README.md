@@ -424,6 +424,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *JavaCodeGeeks posts*
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [[MEGA DEAL] The 2021 Java Bootcamp Bundle(96% off)](https://www.javacodegeeks.com/2021/05/mega-deal-the-2021-java-bootcamp-bundle96-off.html)
+- [Supporting bulk operations in REST APIs](https://www.javacodegeeks.com/2021/05/supporting-bulk-operations-in-rest-apis.html)
 - [Handling Actions Class in Selenium and its usage](https://www.javacodegeeks.com/2021/05/handling-actions-class-in-selenium-and-its-usage.html)
 - [Store health and safety – Example health and safety architecture](https://www.javacodegeeks.com/2021/05/store-health-and-safety-example-health-and-safety-architecture.html)
 - [Developers Are Obsessed With Their Text Editors](https://www.javacodegeeks.com/2021/05/developers-are-obsessed-with-their-text-editors.html)
@@ -432,8 +434,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [[MEGA DEAL] The Complete 2021 Microsoft, Windows, & Azure Bundle(98% off)](https://www.javacodegeeks.com/2021/05/mega-deal-the-complete-2021-microsoft-windows-azure-bundle98-off.html)
 - [Java 8 Parallel Streams – Custom Thread Pools Examples](https://www.javacodegeeks.com/2021/05/java-8-parallel-streams-custom-thread-pools-examples.html)
 - [Java 8 Streams – Group By Multiple Fields with Collectors.groupingBy()](https://www.javacodegeeks.com/2021/05/java-8-streams-group-by-multiple-fields-with-collectors-groupingby.html)
-- [Java 8 – How To Read A File?](https://www.javacodegeeks.com/2021/05/java-8-how-to-read-a-file.html)
-- [Maximize your concurrent web server connections](https://www.javacodegeeks.com/2021/04/maximize-your-concurrent-web-server-connections.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### *DevCases posts*
