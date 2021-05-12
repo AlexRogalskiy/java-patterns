@@ -424,6 +424,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *JavaCodeGeeks posts*
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Retention period and issue with Kafka data not getting deleted](https://www.javacodegeeks.com/2021/05/retention-period-and-issue-with-kafka-data-not-getting-deleted.html)
+- [Kafka Record Patterns for Data Replication](https://www.javacodegeeks.com/2021/05/kafka-record-patterns-for-data-replication.html)
 - [[MEGA DEAL] The 2021 Java Bootcamp Bundle(96% off)](https://www.javacodegeeks.com/2021/05/mega-deal-the-2021-java-bootcamp-bundle96-off.html)
 - [Supporting bulk operations in REST APIs](https://www.javacodegeeks.com/2021/05/supporting-bulk-operations-in-rest-apis.html)
 - [Handling Actions Class in Selenium and its usage](https://www.javacodegeeks.com/2021/05/handling-actions-class-in-selenium-and-its-usage.html)
@@ -432,8 +434,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Understanding Istio Telemetry v2](https://www.javacodegeeks.com/2021/05/understanding-istio-telemetry-v2.html)
 - [Leadership Tip: Give Credit as Often as Possible](https://www.javacodegeeks.com/2021/05/leadership-tip-give-credit-as-often-as-possible.html)
 - [[MEGA DEAL] The Complete 2021 Microsoft, Windows, & Azure Bundle(98% off)](https://www.javacodegeeks.com/2021/05/mega-deal-the-complete-2021-microsoft-windows-azure-bundle98-off.html)
-- [Java 8 Parallel Streams – Custom Thread Pools Examples](https://www.javacodegeeks.com/2021/05/java-8-parallel-streams-custom-thread-pools-examples.html)
-- [Java 8 Streams – Group By Multiple Fields with Collectors.groupingBy()](https://www.javacodegeeks.com/2021/05/java-8-streams-group-by-multiple-fields-with-collectors-groupingby.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### *DevCases posts*
