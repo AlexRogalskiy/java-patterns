@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [txtai 3.0 released - Machine-learning workflows, similarity search and Java support via API](https://www.reddit.com/r/java/comments/nad8ih/txtai_30_released_machinelearning_workflows/)
+- [Does Oracle make a meaningful amount of money from Java?](https://www.reddit.com/r/java/comments/nabkbc/does_oracle_make_a_meaningful_amount_of_money/)
+- [i need halp downloading java](https://www.reddit.com/r/java/comments/nabig7/i_need_halp_downloading_java/)
+- [Static Methods as a Class or Interface?](https://www.reddit.com/r/java/comments/na6yyf/static_methods_as_a_class_or_interface/)
+- [Java professionals, which IDE do you use in your daily work ?](https://www.reddit.com/r/java/comments/na5akd/java_professionals_which_ide_do_you_use_in_your/)
+- [Desktop MVC](https://www.reddit.com/r/java/comments/na4xqp/desktop_mvc/)
+- [On Jakarta EE and MicroProfile Alignment](https://www.reddit.com/r/java/comments/na2a3g/on_jakarta_ee_and_microprofile_alignment/)
+- [Inside Java Newscast #4 - 5 Secret Java API Tricks and Record Semantics](https://www.reddit.com/r/java/comments/n9y0s9/inside_java_newscast_4_5_secret_java_api_tricks/)
+- [Installation kit to deploy an application based on tomcat](https://www.reddit.com/r/java/comments/n9wjul/installation_kit_to_deploy_an_application_based/)
 - [library loading - continued](https://www.reddit.com/r/java/comments/n9f4jf/library_loading_continued/)
-- [macOS / AArch64 appears on OpenJDK 17 EA download page.](https://www.reddit.com/r/java/comments/n9ee7p/macos_aarch64_appears_on_openjdk_17_ea_download/)
-- [How does java know if an object is on the stack ?](https://www.reddit.com/r/java/comments/n9ayya/how_does_java_know_if_an_object_is_on_the_stack/)
-- [Same Java program, multiple X11 DISPLAYs?](https://www.reddit.com/r/java/comments/n98zfo/same_java_program_multiple_x11_displays/)
-- [Networking I/O with Virtual Threads - Under the hood](https://www.reddit.com/r/java/comments/n92xt7/networking_io_with_virtual_threads_under_the_hood/)
-- [Secures REST APIs with Spring Security 5 and Auth0](https://www.reddit.com/r/java/comments/n925ct/secures_rest_apis_with_spring_security_5_and_auth0/)
-- [AsciiBlog updated to Quarkus](https://www.reddit.com/r/java/comments/n91u39/asciiblog_updated_to_quarkus/)
-- [JReleaser 0.3.0 has been released!](https://www.reddit.com/r/java/comments/n8z8cf/jreleaser_030_has_been_released/)
-- [Is AdoptOpenJDK enough for running Java-programs?](https://www.reddit.com/r/java/comments/n8qlfu/is_adoptopenjdk_enough_for_running_javaprograms/)
-- [What made you pick Java as your language of choice?](https://www.reddit.com/r/java/comments/n8l76e/what_made_you_pick_java_as_your_language_of_choice/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
