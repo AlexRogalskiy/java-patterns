@@ -424,6 +424,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *JavaCodeGeeks posts*
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+- [Json Patch and Json Merge Patch in Java](https://www.javacodegeeks.com/2021/05/json-patch-and-json-merge-patch-in-java.html)
+- [Making the Case for Digital Renovation](https://www.javacodegeeks.com/2021/05/making-the-case-for-digital-renovation.html)
 - [Retention period and issue with Kafka data not getting deleted](https://www.javacodegeeks.com/2021/05/retention-period-and-issue-with-kafka-data-not-getting-deleted.html)
 - [Kafka Record Patterns for Data Replication](https://www.javacodegeeks.com/2021/05/kafka-record-patterns-for-data-replication.html)
 - [[MEGA DEAL] The 2021 Java Bootcamp Bundle(96% off)](https://www.javacodegeeks.com/2021/05/mega-deal-the-2021-java-bootcamp-bundle96-off.html)
@@ -432,8 +434,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Store health and safety – Example health and safety architecture](https://www.javacodegeeks.com/2021/05/store-health-and-safety-example-health-and-safety-architecture.html)
 - [Developers Are Obsessed With Their Text Editors](https://www.javacodegeeks.com/2021/05/developers-are-obsessed-with-their-text-editors.html)
 - [Understanding Istio Telemetry v2](https://www.javacodegeeks.com/2021/05/understanding-istio-telemetry-v2.html)
-- [Leadership Tip: Give Credit as Often as Possible](https://www.javacodegeeks.com/2021/05/leadership-tip-give-credit-as-often-as-possible.html)
-- [[MEGA DEAL] The Complete 2021 Microsoft, Windows, & Azure Bundle(98% off)](https://www.javacodegeeks.com/2021/05/mega-deal-the-complete-2021-microsoft-windows-azure-bundle98-off.html)
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### *DevCases posts*
