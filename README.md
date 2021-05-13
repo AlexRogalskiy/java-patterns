@@ -259,12 +259,12 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Scripting with Java – Improving Approachability](https://www.reddit.com/r/java/comments/nayvim/scripting_with_java_improving_approachability/)
+- [Minecraft Snapshot 21w19a - Now Uses Java 16](https://www.reddit.com/r/java/comments/navyww/minecraft_snapshot_21w19a_now_uses_java_16/)
+- [Scope Locals (JEP draft)](https://www.reddit.com/r/java/comments/naqh31/scope_locals_jep_draft/)
 - [txtai 3.0 released - Machine-learning workflows, similarity search and Java support via API](https://www.reddit.com/r/java/comments/nad8ih/txtai_30_released_machinelearning_workflows/)
 - [Does Oracle make a meaningful amount of money from Java?](https://www.reddit.com/r/java/comments/nabkbc/does_oracle_make_a_meaningful_amount_of_money/)
-- [i need halp downloading java](https://www.reddit.com/r/java/comments/nabig7/i_need_halp_downloading_java/)
-- [Static Methods as a Class or Interface?](https://www.reddit.com/r/java/comments/na6yyf/static_methods_as_a_class_or_interface/)
 - [Java professionals, which IDE do you use in your daily work ?](https://www.reddit.com/r/java/comments/na5akd/java_professionals_which_ide_do_you_use_in_your/)
-- [Desktop MVC](https://www.reddit.com/r/java/comments/na4xqp/desktop_mvc/)
 - [On Jakarta EE and MicroProfile Alignment](https://www.reddit.com/r/java/comments/na2a3g/on_jakarta_ee_and_microprofile_alignment/)
 - [Inside Java Newscast #4 - 5 Secret Java API Tricks and Record Semantics](https://www.reddit.com/r/java/comments/n9y0s9/inside_java_newscast_4_5_secret_java_api_tricks/)
 - [Installation kit to deploy an application based on tomcat](https://www.reddit.com/r/java/comments/n9wjul/installation_kit_to_deploy_an_application_based/)
