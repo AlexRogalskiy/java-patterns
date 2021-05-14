@@ -304,6 +304,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [Method determination ignored variable arity and implicit auto boxing/unboxing](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/method-determination-ignored-variable.html)
 - [USB-C Hubs for MacBooks - Review](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/usb-c-hubs-for-macbooks-review.html)
 - [Jelastic CLI](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/jelastic-cli.html)
 - [Alternate Docroots](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/alternate-docroots.html)
@@ -313,7 +314,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Changing Git Remote Urls](http://randomthoughtsonjavaprogramming.blogspot.com/2021/03/changing-git-remote-urls.html)
 - [Installing Printer Driver in Fedora for Epson ET-3750](http://randomthoughtsonjavaprogramming.blogspot.com/2021/03/installing-printer-driver-in-fedora-for.html)
 - [Using SQL Developer to visualise Geometry data](http://randomthoughtsonjavaprogramming.blogspot.com/2021/02/using-sql-developer-to-visualise.html)
-- [Using CDI to extend functionality](http://randomthoughtsonjavaprogramming.blogspot.com/2021/02/using-cdi-to-extend-functionality.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
