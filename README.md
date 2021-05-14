@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Scripting with Java – Improving Approachability](https://www.reddit.com/r/java/comments/nayvim/scripting_with_java_improving_approachability/)
-- [Minecraft Snapshot 21w19a - Now Uses Java 16](https://www.reddit.com/r/java/comments/navyww/minecraft_snapshot_21w19a_now_uses_java_16/)
-- [Scope Locals (JEP draft)](https://www.reddit.com/r/java/comments/naqh31/scope_locals_jep_draft/)
-- [txtai 3.0 released - Machine-learning workflows, similarity search and Java support via API](https://www.reddit.com/r/java/comments/nad8ih/txtai_30_released_machinelearning_workflows/)
-- [Does Oracle make a meaningful amount of money from Java?](https://www.reddit.com/r/java/comments/nabkbc/does_oracle_make_a_meaningful_amount_of_money/)
-- [Java professionals, which IDE do you use in your daily work ?](https://www.reddit.com/r/java/comments/na5akd/java_professionals_which_ide_do_you_use_in_your/)
-- [On Jakarta EE and MicroProfile Alignment](https://www.reddit.com/r/java/comments/na2a3g/on_jakarta_ee_and_microprofile_alignment/)
-- [Inside Java Newscast #4 - 5 Secret Java API Tricks and Record Semantics](https://www.reddit.com/r/java/comments/n9y0s9/inside_java_newscast_4_5_secret_java_api_tricks/)
-- [Installation kit to deploy an application based on tomcat](https://www.reddit.com/r/java/comments/n9wjul/installation_kit_to_deploy_an_application_based/)
-- [library loading - continued](https://www.reddit.com/r/java/comments/n9f4jf/library_loading_continued/)
+- [JEP proposed to target JDK 17: 412: Foreign Function &amp; Memory API (Incubator)](https://www.reddit.com/r/java/comments/nbugec/jep_proposed_to_target_jdk_17_412_foreign/)
+- [How are you building Java web apps today?](https://www.reddit.com/r/java/comments/nbrfi1/how_are_you_building_java_web_apps_today/)
+- [Google's Guava library](https://www.reddit.com/r/java/comments/nbqp6v/googles_guava_library/)
+- [What's the latest on the Lombok vs JDK drama?](https://www.reddit.com/r/java/comments/nbm9lw/whats_the_latest_on_the_lombok_vs_jdk_drama/)
+- [how can you self teach java to a complex level](https://www.reddit.com/r/java/comments/nblgoo/how_can_you_self_teach_java_to_a_complex_level/)
+- [Piranha Cloud 21.5.0 released!](https://www.reddit.com/r/java/comments/nbice7/piranha_cloud_2150_released/)
+- [JEP draft: Reimplement Core Reflection on Method Handles](https://www.reddit.com/r/java/comments/nbhnj5/jep_draft_reimplement_core_reflection_on_method/)
+- [Visualize the architecture of your Java app, in IntelliJ, in 2 ¹/₂ minutes](https://www.reddit.com/r/java/comments/nbgj7l/visualize_the_architecture_of_your_java_app_in/)
+- [Please check out Partydeck, a multiplayer game I have developed with Java 11 and Spring Boot](https://www.reddit.com/r/java/comments/nbc86b/please_check_out_partydeck_a_multiplayer_game_i/)
+- [A converter to migrate a JSP codebase to jte, step by step](https://www.reddit.com/r/java/comments/nb90tf/a_converter_to_migrate_a_jsp_codebase_to_jte_step/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
