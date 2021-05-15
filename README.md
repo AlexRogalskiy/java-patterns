@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [TreeGrid with lazy loading, filtering and sorting using Vaadin](https://www.reddit.com/r/java/comments/nci05v/treegrid_with_lazy_loading_filtering_and_sorting/)
+- [Eclipse Compiler supports -source 16 -target 8](https://www.reddit.com/r/java/comments/nce1z8/eclipse_compiler_supports_source_16_target_8/)
+- [Are you using RSocket?](https://www.reddit.com/r/java/comments/nc9w6h/are_you_using_rsocket/)
+- [Certificate Ripper released - tool to extract server certificates](https://www.reddit.com/r/java/comments/nc8l5y/certificate_ripper_released_tool_to_extract/)
+- [Retrofit Java](https://www.reddit.com/r/java/comments/nc89yc/retrofit_java/)
+- [The meaning, or not, of “LTS”](https://www.reddit.com/r/java/comments/nc1fz2/the_meaning_or_not_of_lts/)
+- [JHipster 21-points App upgrade from version 5.0 to version 7.0 (Has anyone done it? Any errors?)](https://www.reddit.com/r/java/comments/nbxvtn/jhipster_21points_app_upgrade_from_version_50_to/)
 - [JEP proposed to target JDK 17: 412: Foreign Function &amp; Memory API (Incubator)](https://www.reddit.com/r/java/comments/nbugec/jep_proposed_to_target_jdk_17_412_foreign/)
 - [How are you building Java web apps today?](https://www.reddit.com/r/java/comments/nbrfi1/how_are_you_building_java_web_apps_today/)
 - [Google's Guava library](https://www.reddit.com/r/java/comments/nbqp6v/googles_guava_library/)
-- [What's the latest on the Lombok vs JDK drama?](https://www.reddit.com/r/java/comments/nbm9lw/whats_the_latest_on_the_lombok_vs_jdk_drama/)
-- [how can you self teach java to a complex level](https://www.reddit.com/r/java/comments/nblgoo/how_can_you_self_teach_java_to_a_complex_level/)
-- [Piranha Cloud 21.5.0 released!](https://www.reddit.com/r/java/comments/nbice7/piranha_cloud_2150_released/)
-- [JEP draft: Reimplement Core Reflection on Method Handles](https://www.reddit.com/r/java/comments/nbhnj5/jep_draft_reimplement_core_reflection_on_method/)
-- [Visualize the architecture of your Java app, in IntelliJ, in 2 ¹/₂ minutes](https://www.reddit.com/r/java/comments/nbgj7l/visualize_the_architecture_of_your_java_app_in/)
-- [Please check out Partydeck, a multiplayer game I have developed with Java 11 and Spring Boot](https://www.reddit.com/r/java/comments/nbc86b/please_check_out_partydeck_a_multiplayer_game_i/)
-- [A converter to migrate a JSP codebase to jte, step by step](https://www.reddit.com/r/java/comments/nb90tf/a_converter_to_migrate_a_jsp_codebase_to_jte_step/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
