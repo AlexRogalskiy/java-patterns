@@ -334,6 +334,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [JEP proposed to target JDK 17: 412: Foreign Function &amp; Memory API (Incubator)](https://inside.java/2021/05/14/jep-412-proposed-to-target-jdk17/)
+- [The meaning, or not, of “LTS”](https://inside.java/2021/05/14/the-meaning-or-not-of-lts/)
 - [Inside Java Newscast #4](https://inside.java/2021/05/11/insidejava-newscast-004/)
 - [Networking I/O with Virtual Threads - Under the hood](https://inside.java/2021/05/10/networking-io-with-virtual-threads/)
 - [New candidate JEP: 415: Context-Specific Deserialization Filters](https://inside.java/2021/05/06/new-candidate-jep-415/)
@@ -342,8 +344,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [New candidate JEP: 414: Vector API (Second Incubator)](https://inside.java/2021/04/30/new-candidate-jep-414/)
 - [Library Loading](https://inside.java/2021/04/29/library-loading/)
 - [New candidate JEP: 413: Code Snippets in Java API Documentation](https://inside.java/2021/04/28/new-candidate-jep-413/)
-- [Security and Sandboxing Post SecurityManager](https://inside.java/2021/04/23/security-and-sandboxing-post-securitymanager/)
-- [Switch labels (null again), some tweaking](https://inside.java/2021/04/23/switch-labels-some-tweaking/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
