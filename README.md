@@ -259,6 +259,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Java version 1.1 + JDK 1.0 and very early Java applets, developed 1995 to 1996](https://www.reddit.com/r/java/comments/nd3xfp/java_version_11_jdk_10_and_very_early_java/)
+- [Response caching with Java's HTTP client (Methanol 1.5.0)](https://www.reddit.com/r/java/comments/nctvb6/response_caching_with_javas_http_client_methanol/)
+- [Do we need comments in our code?](https://www.reddit.com/r/java/comments/ncs7io/do_we_need_comments_in_our_code/)
 - [TreeGrid with lazy loading, filtering and sorting using Vaadin](https://www.reddit.com/r/java/comments/nci05v/treegrid_with_lazy_loading_filtering_and_sorting/)
 - [Eclipse Compiler supports -source 16 -target 8](https://www.reddit.com/r/java/comments/nce1z8/eclipse_compiler_supports_source_16_target_8/)
 - [Are you using RSocket?](https://www.reddit.com/r/java/comments/nc9w6h/are_you_using_rsocket/)
@@ -266,9 +269,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Retrofit Java](https://www.reddit.com/r/java/comments/nc89yc/retrofit_java/)
 - [The meaning, or not, of “LTS”](https://www.reddit.com/r/java/comments/nc1fz2/the_meaning_or_not_of_lts/)
 - [JHipster 21-points App upgrade from version 5.0 to version 7.0 (Has anyone done it? Any errors?)](https://www.reddit.com/r/java/comments/nbxvtn/jhipster_21points_app_upgrade_from_version_50_to/)
-- [JEP proposed to target JDK 17: 412: Foreign Function &amp; Memory API (Incubator)](https://www.reddit.com/r/java/comments/nbugec/jep_proposed_to_target_jdk_17_412_foreign/)
-- [How are you building Java web apps today?](https://www.reddit.com/r/java/comments/nbrfi1/how_are_you_building_java_web_apps_today/)
-- [Google's Guava library](https://www.reddit.com/r/java/comments/nbqp6v/googles_guava_library/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
