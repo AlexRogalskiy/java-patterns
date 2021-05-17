@@ -259,6 +259,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Can I get some reasons to use Java instead of Kotlin?](https://www.reddit.com/r/java/comments/ndwz92/can_i_get_some_reasons_to_use_java_instead_of/)
+- [GCP (Google Cloud Platform) for Java (Spring Developer)](https://www.reddit.com/r/java/comments/ndrhsz/gcp_google_cloud_platform_for_java_spring/)
 - [Java version 1.1 + JDK 1.0 and very early Java applets, developed 1995 to 1996](https://www.reddit.com/r/java/comments/nd3xfp/java_version_11_jdk_10_and_very_early_java/)
 - [Response caching with Java's HTTP client (Methanol 1.5.0)](https://www.reddit.com/r/java/comments/nctvb6/response_caching_with_javas_http_client_methanol/)
 - [Do we need comments in our code?](https://www.reddit.com/r/java/comments/ncs7io/do_we_need_comments_in_our_code/)
@@ -267,8 +269,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Are you using RSocket?](https://www.reddit.com/r/java/comments/nc9w6h/are_you_using_rsocket/)
 - [Certificate Ripper released - tool to extract server certificates](https://www.reddit.com/r/java/comments/nc8l5y/certificate_ripper_released_tool_to_extract/)
 - [Retrofit Java](https://www.reddit.com/r/java/comments/nc89yc/retrofit_java/)
-- [The meaning, or not, of “LTS”](https://www.reddit.com/r/java/comments/nc1fz2/the_meaning_or_not_of_lts/)
-- [JHipster 21-points App upgrade from version 5.0 to version 7.0 (Has anyone done it? Any errors?)](https://www.reddit.com/r/java/comments/nbxvtn/jhipster_21points_app_upgrade_from_version_50_to/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
