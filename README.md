@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [⚡️⚡️ Query your Relation database using MongoDB query syntax ⚡️⚡️](https://www.reddit.com/r/java/comments/nev2y6/query_your_relation_database_using_mongodb_query/)
+- [Rehabilitating switch -- a scorecard](https://www.reddit.com/r/java/comments/neu4af/rehabilitating_switch_a_scorecard/)
+- [Coming from .net to java](https://www.reddit.com/r/java/comments/netrsv/coming_from_net_to_java/)
+- [Does anyone use JavaFX for projects or industry?](https://www.reddit.com/r/java/comments/nesvrc/does_anyone_use_javafx_for_projects_or_industry/)
+- [Is Java Free to Use And do you have to pay for support?](https://www.reddit.com/r/java/comments/ner7mt/is_java_free_to_use_and_do_you_have_to_pay_for/)
+- [Exploring ZooKeeper-less Kafka](https://www.reddit.com/r/java/comments/nepiwx/exploring_zookeeperless_kafka/)
+- [Helidon 2.3.0 released!](https://www.reddit.com/r/java/comments/neiacs/helidon_230_released/)
+- [JFR: Remote Recording Stream](https://www.reddit.com/r/java/comments/nebdp7/jfr_remote_recording_stream/)
+- [How does the package naming convention apply to country second level domains? Example: something.com.mx](https://www.reddit.com/r/java/comments/ne6zx1/how_does_the_package_naming_convention_apply_to/)
 - [Can I get some reasons to use Java instead of Kotlin?](https://www.reddit.com/r/java/comments/ndwz92/can_i_get_some_reasons_to_use_java_instead_of/)
-- [GCP (Google Cloud Platform) for Java (Spring Developer)](https://www.reddit.com/r/java/comments/ndrhsz/gcp_google_cloud_platform_for_java_spring/)
-- [Java version 1.1 + JDK 1.0 and very early Java applets, developed 1995 to 1996](https://www.reddit.com/r/java/comments/nd3xfp/java_version_11_jdk_10_and_very_early_java/)
-- [Response caching with Java's HTTP client (Methanol 1.5.0)](https://www.reddit.com/r/java/comments/nctvb6/response_caching_with_javas_http_client_methanol/)
-- [Do we need comments in our code?](https://www.reddit.com/r/java/comments/ncs7io/do_we_need_comments_in_our_code/)
-- [TreeGrid with lazy loading, filtering and sorting using Vaadin](https://www.reddit.com/r/java/comments/nci05v/treegrid_with_lazy_loading_filtering_and_sorting/)
-- [Eclipse Compiler supports -source 16 -target 8](https://www.reddit.com/r/java/comments/nce1z8/eclipse_compiler_supports_source_16_target_8/)
-- [Are you using RSocket?](https://www.reddit.com/r/java/comments/nc9w6h/are_you_using_rsocket/)
-- [Certificate Ripper released - tool to extract server certificates](https://www.reddit.com/r/java/comments/nc8l5y/certificate_ripper_released_tool_to_extract/)
-- [Retrofit Java](https://www.reddit.com/r/java/comments/nc89yc/retrofit_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
