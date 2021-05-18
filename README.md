@@ -334,6 +334,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Remote Recording Stream](https://inside.java/2021/05/17/remote-recording-sreteam/)
 - [JEP proposed to target JDK 17: 412: Foreign Function &amp; Memory API (Incubator)](https://inside.java/2021/05/14/jep-412-proposed-to-target-jdk17/)
 - [The meaning, or not, of “LTS”](https://inside.java/2021/05/14/the-meaning-or-not-of-lts/)
 - [Inside Java Newscast #4](https://inside.java/2021/05/11/insidejava-newscast-004/)
@@ -343,7 +344,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [“Failed to write core dump”](https://inside.java/2021/04/30/failed-writing-core-dump/)
 - [New candidate JEP: 414: Vector API (Second Incubator)](https://inside.java/2021/04/30/new-candidate-jep-414/)
 - [Library Loading](https://inside.java/2021/04/29/library-loading/)
-- [New candidate JEP: 413: Code Snippets in Java API Documentation](https://inside.java/2021/04/28/new-candidate-jep-413/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
