@@ -364,6 +364,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Dreamix posts*
 
 <!-- DREAMIX-POST-LIST:START -->
+- [Java vs JavaScript: How to Choose the Right Backend Technology?](https://dreamix.eu/blog/java/java-vs-javascript-how-to-choose-the-right-backend-technology)
 - [Splitting String in Java –  Examples and Tips](https://dreamix.eu/blog/java/splitting-string-in-java-examples-and-tips)
 - [Learn from Java Champion Gerrit Grunwald: JavaFx – not dead yet](https://dreamix.eu/blog/java/learn-from-java-champion-gerrit-grunwald-javafx-not-dead-yet)
 - [How to Send Multiple Data Types to REST API](https://dreamix.eu/blog/java/how-to-send-multiple-data-types-to-rest-api)
@@ -373,7 +374,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [5 Reasons Why Bespoke Software Development Projects Succeed](https://dreamix.eu/blog/java/5-reasons-why-bespoke-software-development-projects-succeed)
 - [Continuous Integration and Delivery to Improve the Software Development Workflow](https://dreamix.eu/blog/java/continuous-integration-and-delivery-to-improve-the-software-development-workflow)
 - [Why good (clean) software architecture matters](https://dreamix.eu/blog/java/why-good-clean-software-architecture-matters)
-- [Top 5 Emerging Technologies among Java Devs](https://dreamix.eu/blog/java/top-5-emerging-technologies-among-java-devs)
 <!-- DREAMIX-POST-LIST:END -->
 
 ### *Plumbr posts*
