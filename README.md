@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [⚡️⚡️ Query your Relation database using MongoDB query syntax ⚡️⚡️](https://www.reddit.com/r/java/comments/nev2y6/query_your_relation_database_using_mongodb_query/)
+- [Optional.orRequire a better @NonNull Optional.orElse](https://www.reddit.com/r/java/comments/nfhxwl/optionalorrequire_a_better_nonnull_optionalorelse/)
+- [what sorting algorithm to use ??](https://www.reddit.com/r/java/comments/nfhm7g/what_sorting_algorithm_to_use/)
+- [Ask Java: what are some JFR-based tools that you enjoy?](https://www.reddit.com/r/java/comments/nfdqh3/ask_java_what_are_some_jfrbased_tools_that_you/)
+- [Cross platform macro pad software, made with Java & JavaFX](https://www.reddit.com/r/java/comments/nfc6gi/cross_platform_macro_pad_software_made_with_java/)
+- [Maven Central now automatically scans new Java projects for vulnerabilities for free](https://www.reddit.com/r/java/comments/nf6jgn/maven_central_now_automatically_scans_new_java/)
 - [Rehabilitating switch -- a scorecard](https://www.reddit.com/r/java/comments/neu4af/rehabilitating_switch_a_scorecard/)
 - [Coming from .net to java](https://www.reddit.com/r/java/comments/netrsv/coming_from_net_to_java/)
 - [Does anyone use JavaFX for projects or industry?](https://www.reddit.com/r/java/comments/nesvrc/does_anyone_use_javafx_for_projects_or_industry/)
-- [Is Java Free to Use And do you have to pay for support?](https://www.reddit.com/r/java/comments/ner7mt/is_java_free_to_use_and_do_you_have_to_pay_for/)
 - [Exploring ZooKeeper-less Kafka](https://www.reddit.com/r/java/comments/nepiwx/exploring_zookeeperless_kafka/)
 - [Helidon 2.3.0 released!](https://www.reddit.com/r/java/comments/neiacs/helidon_230_released/)
-- [JFR: Remote Recording Stream](https://www.reddit.com/r/java/comments/nebdp7/jfr_remote_recording_stream/)
-- [How does the package naming convention apply to country second level domains? Example: something.com.mx](https://www.reddit.com/r/java/comments/ne6zx1/how_does_the_package_naming_convention_apply_to/)
-- [Can I get some reasons to use Java instead of Kotlin?](https://www.reddit.com/r/java/comments/ndwz92/can_i_get_some_reasons_to_use_java_instead_of/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
