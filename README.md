@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Panama/foreign EA - May 2021](https://www.reddit.com/r/java/comments/nghzdz/panamaforeign_ea_may_2021/)
+- [Cloud Native Java – Josh Long](https://www.reddit.com/r/java/comments/nge94j/cloud_native_java_josh_long/)
+- [Large pages and Java](https://www.reddit.com/r/java/comments/ngdcg2/large_pages_and_java/)
+- [Updates to JEP 411: Deprecate the Security Manager for Removal](https://www.reddit.com/r/java/comments/ng9w90/updates_to_jep_411_deprecate_the_security_manager/)
+- [Eventual Consistency with Spring for Apache Kafka - Part 1 of 2](https://www.reddit.com/r/java/comments/ng8nb0/eventual_consistency_with_spring_for_apache_kafka/)
+- [Need help testing new Selector implementation on Windows - OpenJDK](https://www.reddit.com/r/java/comments/ng38lt/need_help_testing_new_selector_implementation_on/)
+- [How do you use JPMS modules?](https://www.reddit.com/r/java/comments/ng0ads/how_do_you_use_jpms_modules/)
+- [JEP proposed to target JDK 17: 407: Remove RMI Activation](https://www.reddit.com/r/java/comments/nfyyxr/jep_proposed_to_target_jdk_17_407_remove_rmi/)
 - [Optional.orRequire a better @NonNull Optional.orElse](https://www.reddit.com/r/java/comments/nfhxwl/optionalorrequire_a_better_nonnull_optionalorelse/)
-- [what sorting algorithm to use ??](https://www.reddit.com/r/java/comments/nfhm7g/what_sorting_algorithm_to_use/)
 - [Ask Java: what are some JFR-based tools that you enjoy?](https://www.reddit.com/r/java/comments/nfdqh3/ask_java_what_are_some_jfrbased_tools_that_you/)
-- [Cross platform macro pad software, made with Java & JavaFX](https://www.reddit.com/r/java/comments/nfc6gi/cross_platform_macro_pad_software_made_with_java/)
-- [Maven Central now automatically scans new Java projects for vulnerabilities for free](https://www.reddit.com/r/java/comments/nf6jgn/maven_central_now_automatically_scans_new_java/)
-- [Rehabilitating switch -- a scorecard](https://www.reddit.com/r/java/comments/neu4af/rehabilitating_switch_a_scorecard/)
-- [Coming from .net to java](https://www.reddit.com/r/java/comments/netrsv/coming_from_net_to_java/)
-- [Does anyone use JavaFX for projects or industry?](https://www.reddit.com/r/java/comments/nesvrc/does_anyone_use_javafx_for_projects_or_industry/)
-- [Exploring ZooKeeper-less Kafka](https://www.reddit.com/r/java/comments/nepiwx/exploring_zookeeperless_kafka/)
-- [Helidon 2.3.0 released!](https://www.reddit.com/r/java/comments/neiacs/helidon_230_released/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
