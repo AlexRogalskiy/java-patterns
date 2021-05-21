@@ -334,16 +334,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [New Panama/Foreign Early-Access Builds](https://inside.java/2021/05/20/new-panama-ea-builds/)
+- [JEP proposed to target JDK 17: 406: Pattern Matching for switch (Preview)](https://inside.java/2021/05/19/jep-406-proposed-to-target-jdk17/)
 - [Large pages and Java](https://inside.java/2021/05/19/large-pages-and-java/)
 - [Need help testing new Selector implementation on Windows](https://inside.java/2021/05/19/testing-new-selector-impl-on-windows/)
 - [Updates to JEP 411: Deprecate the Security Manager for Removal](https://inside.java/2021/05/19/updates-to-jep-411/)
 - [JEP proposed to target JDK 17: 403: Strongly Encapsulate JDK Internals](https://inside.java/2021/05/18/jep-403-proposed-to-target-jdk17/)
 - [JEP proposed to target JDK 17: 407: Remove RMI Activation](https://inside.java/2021/05/17/jep-407-proposed-to-target-jdk17/)
+- [Rehabilitating switch – a scorecard](https://inside.java/2021/05/17/rehabilitating-switch-scorecard/)
 - [Remote Recording Stream](https://inside.java/2021/05/17/remote-recording-sreteam/)
 - [JEP proposed to target JDK 17: 412: Foreign Function &amp; Memory API (Incubator)](https://inside.java/2021/05/14/jep-412-proposed-to-target-jdk17/)
-- [The meaning, or not, of “LTS”](https://inside.java/2021/05/14/the-meaning-or-not-of-lts/)
-- [Inside Java Newscast #4](https://inside.java/2021/05/11/insidejava-newscast-004/)
-- [JEP proposed to target JDK 17: 414: Vector API (Second Incubator)](https://inside.java/2021/05/11/jep-414-proposed-to-target-jdk17/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
