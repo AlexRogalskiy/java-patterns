@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Tips for someone with a C# background](https://www.reddit.com/r/java/comments/nhc6ho/tips_for_someone_with_a_c_background/)
+- [Qbicc - Static Compiler for Java programs](https://www.reddit.com/r/java/comments/nh38ja/qbicc_static_compiler_for_java_programs/)
+- [Why are records not extensible?](https://www.reddit.com/r/java/comments/nh34k3/why_are_records_not_extensible/)
+- [If it gets better w age, will java become compatible for machine learning and data science?](https://www.reddit.com/r/java/comments/nh1y7e/if_it_gets_better_w_age_will_java_become/)
+- [Pedal to the metal: High-performance Java with GraalVM Native Image](https://www.reddit.com/r/java/comments/ngzwuh/pedal_to_the_metal_highperformance_java_with/)
+- [Demystifying Java Virtual Machine Memory Management](https://www.reddit.com/r/java/comments/ngugsz/demystifying_java_virtual_machine_memory/)
+- [What does non-serious Java mean :-) ?](https://www.reddit.com/r/java/comments/ngt1ii/what_does_nonserious_java_mean/)
+- [JEP proposed to target JDK 17: 406: Pattern Matching for switch (Preview)](https://www.reddit.com/r/java/comments/ngqafa/jep_proposed_to_target_jdk_17_406_pattern/)
 - [Panama/foreign EA - May 2021](https://www.reddit.com/r/java/comments/nghzdz/panamaforeign_ea_may_2021/)
 - [Cloud Native Java – Josh Long](https://www.reddit.com/r/java/comments/nge94j/cloud_native_java_josh_long/)
-- [Large pages and Java](https://www.reddit.com/r/java/comments/ngdcg2/large_pages_and_java/)
-- [Updates to JEP 411: Deprecate the Security Manager for Removal](https://www.reddit.com/r/java/comments/ng9w90/updates_to_jep_411_deprecate_the_security_manager/)
-- [Eventual Consistency with Spring for Apache Kafka - Part 1 of 2](https://www.reddit.com/r/java/comments/ng8nb0/eventual_consistency_with_spring_for_apache_kafka/)
-- [Need help testing new Selector implementation on Windows - OpenJDK](https://www.reddit.com/r/java/comments/ng38lt/need_help_testing_new_selector_implementation_on/)
-- [How do you use JPMS modules?](https://www.reddit.com/r/java/comments/ng0ads/how_do_you_use_jpms_modules/)
-- [JEP proposed to target JDK 17: 407: Remove RMI Activation](https://www.reddit.com/r/java/comments/nfyyxr/jep_proposed_to_target_jdk_17_407_remove_rmi/)
-- [Optional.orRequire a better @NonNull Optional.orElse](https://www.reddit.com/r/java/comments/nfhxwl/optionalorrequire_a_better_nonnull_optionalorelse/)
-- [Ask Java: what are some JFR-based tools that you enjoy?](https://www.reddit.com/r/java/comments/nfdqh3/ask_java_what_are_some_jfrbased_tools_that_you/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
