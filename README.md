@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [List.of is terrible](https://www.reddit.com/r/java/comments/ni42ot/listof_is_terrible/)
+- [I wrote JMail, a lightweight Java library for working with email addresses](https://www.reddit.com/r/java/comments/nhukbq/i_wrote_jmail_a_lightweight_java_library_for/)
+- [Secure Rate Limiting with Spring Cloud Gateway - Piotr's TechBlog](https://www.reddit.com/r/java/comments/nhs6ia/secure_rate_limiting_with_spring_cloud_gateway/)
+- [Anyone using M1 MacBooks? Thoughts?](https://www.reddit.com/r/java/comments/nhr9ap/anyone_using_m1_macbooks_thoughts/)
+- [Spring Boot 2.5 is now GA](https://www.reddit.com/r/java/comments/nhpalj/spring_boot_25_is_now_ga/)
+- [Proposed to target JDK 17: JEP 306: Restore Always-Strict Floating-Point Semantics](https://www.reddit.com/r/java/comments/nhoslw/proposed_to_target_jdk_17_jep_306_restore/)
+- [Where can I find a detailed list of changes per OpenJDK release?](https://www.reddit.com/r/java/comments/nho3vz/where_can_i_find_a_detailed_list_of_changes_per/)
+- [How are you guys building your GraalVM native-images to be compatible with AWS Lambda?](https://www.reddit.com/r/java/comments/nhm3iu/how_are_you_guys_building_your_graalvm/)
 - [Tips for someone with a C# background](https://www.reddit.com/r/java/comments/nhc6ho/tips_for_someone_with_a_c_background/)
 - [Qbicc - Static Compiler for Java programs](https://www.reddit.com/r/java/comments/nh38ja/qbicc_static_compiler_for_java_programs/)
-- [Why are records not extensible?](https://www.reddit.com/r/java/comments/nh34k3/why_are_records_not_extensible/)
-- [If it gets better w age, will java become compatible for machine learning and data science?](https://www.reddit.com/r/java/comments/nh1y7e/if_it_gets_better_w_age_will_java_become/)
-- [Pedal to the metal: High-performance Java with GraalVM Native Image](https://www.reddit.com/r/java/comments/ngzwuh/pedal_to_the_metal_highperformance_java_with/)
-- [Demystifying Java Virtual Machine Memory Management](https://www.reddit.com/r/java/comments/ngugsz/demystifying_java_virtual_machine_memory/)
-- [What does non-serious Java mean :-) ?](https://www.reddit.com/r/java/comments/ngt1ii/what_does_nonserious_java_mean/)
-- [JEP proposed to target JDK 17: 406: Pattern Matching for switch (Preview)](https://www.reddit.com/r/java/comments/ngqafa/jep_proposed_to_target_jdk_17_406_pattern/)
-- [Panama/foreign EA - May 2021](https://www.reddit.com/r/java/comments/nghzdz/panamaforeign_ea_may_2021/)
-- [Cloud Native Java – Josh Long](https://www.reddit.com/r/java/comments/nge94j/cloud_native_java_josh_long/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
