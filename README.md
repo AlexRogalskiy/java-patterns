@@ -259,6 +259,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Starting Spring Boot.](https://www.reddit.com/r/java/comments/nipwwk/starting_spring_boot/)
+- [Is MOOC Java Programming course worth it?](https://www.reddit.com/r/java/comments/nip44d/is_mooc_java_programming_course_worth_it/)
+- [Is it worth it to become Java Certified?](https://www.reddit.com/r/java/comments/ni9uo5/is_it_worth_it_to_become_java_certified/)
 - [List.of is terrible](https://www.reddit.com/r/java/comments/ni42ot/listof_is_terrible/)
 - [I wrote JMail, a lightweight Java library for working with email addresses](https://www.reddit.com/r/java/comments/nhukbq/i_wrote_jmail_a_lightweight_java_library_for/)
 - [Secure Rate Limiting with Spring Cloud Gateway - Piotr's TechBlog](https://www.reddit.com/r/java/comments/nhs6ia/secure_rate_limiting_with_spring_cloud_gateway/)
@@ -266,9 +269,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Spring Boot 2.5 is now GA](https://www.reddit.com/r/java/comments/nhpalj/spring_boot_25_is_now_ga/)
 - [Proposed to target JDK 17: JEP 306: Restore Always-Strict Floating-Point Semantics](https://www.reddit.com/r/java/comments/nhoslw/proposed_to_target_jdk_17_jep_306_restore/)
 - [Where can I find a detailed list of changes per OpenJDK release?](https://www.reddit.com/r/java/comments/nho3vz/where_can_i_find_a_detailed_list_of_changes_per/)
-- [How are you guys building your GraalVM native-images to be compatible with AWS Lambda?](https://www.reddit.com/r/java/comments/nhm3iu/how_are_you_guys_building_your_graalvm/)
-- [Tips for someone with a C# background](https://www.reddit.com/r/java/comments/nhc6ho/tips_for_someone_with_a_c_background/)
-- [Qbicc - Static Compiler for Java programs](https://www.reddit.com/r/java/comments/nh38ja/qbicc_static_compiler_for_java_programs/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
