@@ -259,7 +259,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Starting Spring Boot.](https://www.reddit.com/r/java/comments/nipwwk/starting_spring_boot/)
+- [Hacking third-party APIs on the JVM](https://www.reddit.com/r/java/comments/nja8oe/hacking_thirdparty_apis_on_the_jvm/)
+- [Who here are using the Hamcrest API and why?](https://www.reddit.com/r/java/comments/nj7dvd/who_here_are_using_the_hamcrest_api_and_why/)
 - [Is MOOC Java Programming course worth it?](https://www.reddit.com/r/java/comments/nip44d/is_mooc_java_programming_course_worth_it/)
 - [Is it worth it to become Java Certified?](https://www.reddit.com/r/java/comments/ni9uo5/is_it_worth_it_to_become_java_certified/)
 - [List.of is terrible](https://www.reddit.com/r/java/comments/ni42ot/listof_is_terrible/)
@@ -268,7 +269,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Anyone using M1 MacBooks? Thoughts?](https://www.reddit.com/r/java/comments/nhr9ap/anyone_using_m1_macbooks_thoughts/)
 - [Spring Boot 2.5 is now GA](https://www.reddit.com/r/java/comments/nhpalj/spring_boot_25_is_now_ga/)
 - [Proposed to target JDK 17: JEP 306: Restore Always-Strict Floating-Point Semantics](https://www.reddit.com/r/java/comments/nhoslw/proposed_to_target_jdk_17_jep_306_restore/)
-- [Where can I find a detailed list of changes per OpenJDK release?](https://www.reddit.com/r/java/comments/nho3vz/where_can_i_find_a_detailed_list_of_changes_per/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
