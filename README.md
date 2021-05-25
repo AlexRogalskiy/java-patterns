@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Websphere to Tomcat migration toolkit or checklist](https://www.reddit.com/r/java/comments/nkbo6i/websphere_to_tomcat_migration_toolkit_or_checklist/)
+- [JEP 411: Deprecate the Security Manager for Removal (Part 2) : Apache NetBeans](https://www.reddit.com/r/java/comments/nk7wei/jep_411_deprecate_the_security_manager_for/)
+- [Learning Java During Summer](https://www.reddit.com/r/java/comments/nk50qa/learning_java_during_summer/)
+- [10+ ESSENTIAL LIBRARIES AND APIS FOR JAVA PROGRAMMERS](https://www.reddit.com/r/java/comments/njyt7y/10_essential_libraries_and_apis_for_java/)
+- [Why JEP 411 Will Have a Negative Impact on Java Security](https://www.reddit.com/r/java/comments/njs5j5/why_jep_411_will_have_a_negative_impact_on_java/)
+- [SSL with Spring WebFlux and Vault PKI - Piotr's TechBlog](https://www.reddit.com/r/java/comments/njrrkp/ssl_with_spring_webflux_and_vault_pki_piotrs/)
+- [20 years of Hibernate](https://www.reddit.com/r/java/comments/njr84k/20_years_of_hibernate/)
+- [Does Java has similar project like this one in C#? (ml, data)](https://www.reddit.com/r/java/comments/njpzng/does_java_has_similar_project_like_this_one_in_c/)
+- [Have you ever actually changed db vendor in a serious application?](https://www.reddit.com/r/java/comments/njndqy/have_you_ever_actually_changed_db_vendor_in_a/)
 - [Hacking third-party APIs on the JVM](https://www.reddit.com/r/java/comments/nja8oe/hacking_thirdparty_apis_on_the_jvm/)
-- [Who here are using the Hamcrest API and why?](https://www.reddit.com/r/java/comments/nj7dvd/who_here_are_using_the_hamcrest_api_and_why/)
-- [Is MOOC Java Programming course worth it?](https://www.reddit.com/r/java/comments/nip44d/is_mooc_java_programming_course_worth_it/)
-- [Is it worth it to become Java Certified?](https://www.reddit.com/r/java/comments/ni9uo5/is_it_worth_it_to_become_java_certified/)
-- [List.of is terrible](https://www.reddit.com/r/java/comments/ni42ot/listof_is_terrible/)
-- [I wrote JMail, a lightweight Java library for working with email addresses](https://www.reddit.com/r/java/comments/nhukbq/i_wrote_jmail_a_lightweight_java_library_for/)
-- [Secure Rate Limiting with Spring Cloud Gateway - Piotr's TechBlog](https://www.reddit.com/r/java/comments/nhs6ia/secure_rate_limiting_with_spring_cloud_gateway/)
-- [Anyone using M1 MacBooks? Thoughts?](https://www.reddit.com/r/java/comments/nhr9ap/anyone_using_m1_macbooks_thoughts/)
-- [Spring Boot 2.5 is now GA](https://www.reddit.com/r/java/comments/nhpalj/spring_boot_25_is_now_ga/)
-- [Proposed to target JDK 17: JEP 306: Restore Always-Strict Floating-Point Semantics](https://www.reddit.com/r/java/comments/nhoslw/proposed_to_target_jdk_17_jep_306_restore/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
