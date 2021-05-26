@@ -349,16 +349,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Java programmer posts*
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [Covariant Return Type in Java](https://www.thejavaprogrammer.com/covariant-return-type-in-java/)
+- [Static Import in Java with Example](https://www.thejavaprogrammer.com/static-import-in-java/)
+- [Advantages and Disadvantages of Generics in Java](https://www.thejavaprogrammer.com/advantages-and-disadvantages-of-generics-in-java/)
+- [Nested Switch in Java](https://www.thejavaprogrammer.com/nested-switch-in-java/)
+- [TreeSet Vs TreeMap in Java](https://www.thejavaprogrammer.com/treeset-vs-treemap/)
+- [How to Access Variable From Another Class in Java?](https://www.thejavaprogrammer.com/how-to-access-variable-from-another-class-in-java/)
+- [How to Get Filename Without Extension in Java](https://www.thejavaprogrammer.com/how-to-get-filename-without-extension-in-java/)
+- [Java Global Variables](https://www.thejavaprogrammer.com/java-global-variables/)
+- [Java Control Flow Statements](https://www.thejavaprogrammer.com/java-control-flow-statements/)
 - [Nested While Loop in Java](https://www.thejavaprogrammer.com/nested-while-loop-in-java/)
-- [Java Race Condition with Example](https://www.thejavaprogrammer.com/java-race-condition/)
-- [4 Pillars of OOPs in Java](https://www.thejavaprogrammer.com/4-pillars-of-oops-in-java/)
-- [Advantages and Disadvantages of Inheritance in Java](https://www.thejavaprogrammer.com/advantages-and-disadvantages-of-inheritance-in-java/)
-- [Java 3D Array – Three Dimensional Array](https://www.thejavaprogrammer.com/java-3d-array/)
-- [Does Constructor Return Any Value?](https://www.thejavaprogrammer.com/does-constructor-return-any-value/)
-- [Basic Structure of Java Program with Example](https://www.thejavaprogrammer.com/structure-of-java-program/)
-- [What is Native Method in Java?](https://www.thejavaprogrammer.com/native-method-in-java/)
-- [Why main method is static in Java?](https://www.thejavaprogrammer.com/why-main-method-is-static-in-java/)
-- [Difference between Constructor and Method in Java](https://www.thejavaprogrammer.com/difference-between-constructor-and-method/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### *Dreamix posts*
