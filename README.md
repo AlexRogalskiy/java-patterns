@@ -259,16 +259,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Websphere to Tomcat migration toolkit or checklist](https://www.reddit.com/r/java/comments/nkbo6i/websphere_to_tomcat_migration_toolkit_or_checklist/)
-- [JEP 411: Deprecate the Security Manager for Removal (Part 2) : Apache NetBeans](https://www.reddit.com/r/java/comments/nk7wei/jep_411_deprecate_the_security_manager_for/)
-- [Learning Java During Summer](https://www.reddit.com/r/java/comments/nk50qa/learning_java_during_summer/)
-- [10+ ESSENTIAL LIBRARIES AND APIS FOR JAVA PROGRAMMERS](https://www.reddit.com/r/java/comments/njyt7y/10_essential_libraries_and_apis_for_java/)
-- [Why JEP 411 Will Have a Negative Impact on Java Security](https://www.reddit.com/r/java/comments/njs5j5/why_jep_411_will_have_a_negative_impact_on_java/)
-- [SSL with Spring WebFlux and Vault PKI - Piotr's TechBlog](https://www.reddit.com/r/java/comments/njrrkp/ssl_with_spring_webflux_and_vault_pki_piotrs/)
-- [20 years of Hibernate](https://www.reddit.com/r/java/comments/njr84k/20_years_of_hibernate/)
-- [Does Java has similar project like this one in C#? (ml, data)](https://www.reddit.com/r/java/comments/njpzng/does_java_has_similar_project_like_this_one_in_c/)
-- [Have you ever actually changed db vendor in a serious application?](https://www.reddit.com/r/java/comments/njndqy/have_you_ever_actually_changed_db_vendor_in_a/)
-- [Hacking third-party APIs on the JVM](https://www.reddit.com/r/java/comments/nja8oe/hacking_thirdparty_apis_on_the_jvm/)
+- [Analyzing byte code on the job](https://www.reddit.com/r/java/comments/nl5kg0/analyzing_byte_code_on_the_job/)
+- [Wish there was a Java lib for…](https://www.reddit.com/r/java/comments/nl36iy/wish_there_was_a_java_lib_for/)
+- [New programming subreddit for highschoolers: r/cshighschoolers](https://www.reddit.com/r/java/comments/nl2kuu/new_programming_subreddit_for_highschoolers/)
+- [[Beginner] Rant post](https://www.reddit.com/r/java/comments/nl215e/beginner_rant_post/)
+- [Question on Jaxb/SOAP](https://www.reddit.com/r/java/comments/nkuuzc/question_on_jaxbsoap/)
+- [Observable Stream - An Engineering Podcast hosted by two Java engineers!](https://www.reddit.com/r/java/comments/nktpyd/observable_stream_an_engineering_podcast_hosted/)
+- [OneDev 4.4 - the pure Java open source git server now gets a restful api](https://www.reddit.com/r/java/comments/nkrpl6/onedev_44_the_pure_java_open_source_git_server/)
+- [Patch Kubernetes resources in Java using Fabric8 Kubernetes Client](https://www.reddit.com/r/java/comments/nkqh7h/patch_kubernetes_resources_in_java_using_fabric8/)
+- [Apache TomEE Jakarta EE certified after 10 years - Tomitribe](https://www.reddit.com/r/java/comments/nkptr6/apache_tomee_jakarta_ee_certified_after_10_years/)
+- [Jakarta EE 9.1 is released!](https://www.reddit.com/r/java/comments/nkpk42/jakarta_ee_91_is_released/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
