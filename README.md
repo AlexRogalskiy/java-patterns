@@ -260,16 +260,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- REDDIT-POST-LIST:START -->
 
-- [Websphere to Tomcat migration toolkit or checklist](https://www.reddit.com/r/java/comments/nkbo6i/websphere_to_tomcat_migration_toolkit_or_checklist/)
-- [JEP 411: Deprecate the Security Manager for Removal (Part 2) : Apache NetBeans](https://www.reddit.com/r/java/comments/nk7wei/jep\_411\_deprecate_the_security_manager_for/)
-- [Learning Java During Summer](https://www.reddit.com/r/java/comments/nk50qa/learning_java_during_summer/)
-- [10+ ESSENTIAL LIBRARIES AND APIS FOR JAVA PROGRAMMERS](https://www.reddit.com/r/java/comments/njyt7y/10\_essential_libraries_and_apis_for_java/)
-- [Why JEP 411 Will Have a Negative Impact on Java Security](https://www.reddit.com/r/java/comments/njs5j5/why_jep\_411\_will_have_a_negative_impact_on_java/)
-- [SSL with Spring WebFlux and Vault PKI - Piotr's TechBlog](https://www.reddit.com/r/java/comments/njrrkp/ssl_with_spring_webflux_and_vault_pki_piotrs/)
-- [20 years of Hibernate](https://www.reddit.com/r/java/comments/njr84k/20\_years_of_hibernate/)
-- [Does Java has similar project like this one in C#? (ml, data)](https://www.reddit.com/r/java/comments/njpzng/does_java_has_similar_project_like_this_one_in_c/)
-- [Have you ever actually changed db vendor in a serious application?](https://www.reddit.com/r/java/comments/njndqy/have_you_ever_actually_changed_db_vendor_in_a/)
-- [Hacking third-party APIs on the JVM](https://www.reddit.com/r/java/comments/nja8oe/hacking_thirdparty_apis_on_the_jvm/)
+- [Analyzing byte code on the job](https://www.reddit.com/r/java/comments/nl5kg0/analyzing_byte_code_on_the_job/)
+- [Wish there was a Java lib for…](https://www.reddit.com/r/java/comments/nl36iy/wish_there_was_a_java_lib_for/)
+- [New programming subreddit for highschoolers: r/cshighschoolers](https://www.reddit.com/r/java/comments/nl2kuu/new_programming_subreddit_for_highschoolers/)
+- [\[Beginner\] Rant post](https://www.reddit.com/r/java/comments/nl215e/beginner_rant_post/)
+- [Question on Jaxb/SOAP](https://www.reddit.com/r/java/comments/nkuuzc/question_on_jaxbsoap/)
+- [Observable Stream - An Engineering Podcast hosted by two Java engineers!](https://www.reddit.com/r/java/comments/nktpyd/observable_stream_an_engineering_podcast_hosted/)
+- [OneDev 4.4 - the pure Java open source git server now gets a restful api](https://www.reddit.com/r/java/comments/nkrpl6/onedev\_44\_the_pure_java_open_source_git_server/)
+- [Patch Kubernetes resources in Java using Fabric8 Kubernetes Client](https://www.reddit.com/r/java/comments/nkqh7h/patch_kubernetes_resources_in_java_using_fabric8/)
+- [Apache TomEE Jakarta EE certified after 10 years - Tomitribe](https://www.reddit.com/r/java/comments/nkptr6/apache_tomee_jakarta_ee_certified_after\_10\_years/)
+- [Jakarta EE 9.1 is released!](https://www.reddit.com/r/java/comments/nkpk42/jakarta_ee\_91\_is_released/)
 
 <!-- REDDIT-POST-LIST:END -->
 
@@ -277,6 +277,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- INFOWORLD-POST-LIST:START -->
 
+- [Eclipse Jakarta EE 9.1 aligns with Java 11](https://www.infoworld.com/article/3620088/eclipse-jakarta-ee-91-aligns-with-java-11.html#tk.rss_java)
 - [JDK 17: The new features in Java 17](https://www.infoworld.com/article/3606833/jdk-17-the-new-features-in-java-17.html#tk.rss_java)
 - [Build a Java application in Visual Studio Code](https://www.infoworld.com/article/3619031/build-a-java-application-in-visual-studio-code.html#tk.rss_java)
 - [Scala 3 ushers in ‘complete overhaul’ of the language](https://www.infoworld.com/article/3608574/scala-3-moves-to-release-candidate-stage.html#tk.rss_java)
@@ -286,7 +287,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Gradle 7.0 improves incremental builds, backs Java 16](https://www.infoworld.com/article/3614703/gradle-70-improves-incremental-builds-backs-java-16.html#tk.rss_java)
 - [What the heck does the Google vs. Oracle decision mean?](https://www.infoworld.com/article/3614693/what-the-heck-does-the-google-vs-oracle-decision-mean.html#tk.rss_java)
 - [Microsoft unveils its own Java distribution](https://www.infoworld.com/article/3614211/microsoft-unveils-its-own-java-distribution.html#tk.rss_java)
-- [Objective-C plummets in popularity](https://www.infoworld.com/article/3613938/objective-c-plummets-in-popularity.html#tk.rss_java)
 
 <!-- INFOWORLD-POST-LIST:END -->
 
@@ -362,16 +362,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- JAVAPROG-POST-LIST:START -->
 
+- [Covariant Return Type in Java](https://www.thejavaprogrammer.com/covariant-return-type-in-java/)
+- [Static Import in Java with Example](https://www.thejavaprogrammer.com/static-import-in-java/)
+- [Advantages and Disadvantages of Generics in Java](https://www.thejavaprogrammer.com/advantages-and-disadvantages-of-generics-in-java/)
+- [Nested Switch in Java](https://www.thejavaprogrammer.com/nested-switch-in-java/)
+- [TreeSet Vs TreeMap in Java](https://www.thejavaprogrammer.com/treeset-vs-treemap/)
+- [How to Access Variable From Another Class in Java?](https://www.thejavaprogrammer.com/how-to-access-variable-from-another-class-in-java/)
+- [How to Get Filename Without Extension in Java](https://www.thejavaprogrammer.com/how-to-get-filename-without-extension-in-java/)
+- [Java Global Variables](https://www.thejavaprogrammer.com/java-global-variables/)
+- [Java Control Flow Statements](https://www.thejavaprogrammer.com/java-control-flow-statements/)
 - [Nested While Loop in Java](https://www.thejavaprogrammer.com/nested-while-loop-in-java/)
-- [Java Race Condition with Example](https://www.thejavaprogrammer.com/java-race-condition/)
-- [4 Pillars of OOPs in Java](https://www.thejavaprogrammer.com/4-pillars-of-oops-in-java/)
-- [Advantages and Disadvantages of Inheritance in Java](https://www.thejavaprogrammer.com/advantages-and-disadvantages-of-inheritance-in-java/)
-- [Java 3D Array – Three Dimensional Array](https://www.thejavaprogrammer.com/java-3d-array/)
-- [Does Constructor Return Any Value?](https://www.thejavaprogrammer.com/does-constructor-return-any-value/)
-- [Basic Structure of Java Program with Example](https://www.thejavaprogrammer.com/structure-of-java-program/)
-- [What is Native Method in Java?](https://www.thejavaprogrammer.com/native-method-in-java/)
-- [Why main method is static in Java?](https://www.thejavaprogrammer.com/why-main-method-is-static-in-java/)
-- [Difference between Constructor and Method in Java](https://www.thejavaprogrammer.com/difference-between-constructor-and-method/)
 
 <!-- JAVAPROG-POST-LIST:END -->
 
