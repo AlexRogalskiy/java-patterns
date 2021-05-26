@@ -6,8 +6,8 @@ set -o pipefail
 set -o nounset
 
 ## Change working directory
-base_dir=$(dirname $0)/..
-cd $base_dir
+BASE_DIR=$(dirname $0)/..
+cd $BASE_DIR
 
 ## Install pip module
 wget --no-check-certificate https://bootstrap.pypa.io/get-pip.py -O $TMPDIR/get-pip.py

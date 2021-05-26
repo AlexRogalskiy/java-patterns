@@ -43,33 +43,35 @@
 ## 🎹 *Table of contents*
 
 <!--ts-->
-   * [Java Design Patterns](#java-design-patterns)
-      * [<em>Table of contents</em>](#-table-of-contents)
-      * [<em>Summary</em>](#-summary)
-      * [<em>Documentation</em>](#-documentation)
-      * [<em>Statistics</em>](#-statistics)
-      * [<em>Versioning</em>](#-versioning)
-      * [<em>Authors</em>](#-authors)
-      * [<em>Contributing</em>](#-contributing)
-      * [<em>Visitor stats</em>](#-visitor-stats)
-      * [<em>Licensing</em>](#-licensing)
-      * [<em>Development Support</em>](#-development-support)
-      * [<em>Acknowledgement</em>](#-acknowledgement)
-      * [<em>OpenGraph Card</em>](#-opengraph-card)
-      * [<em>Feeds and Podcasts</em>](#-feeds-and-podcasts)
-         * [<em>Reddit posts</em>](#reddit-posts)
-         * [<em>InfoWorld posts</em>](#infoworld-posts)
-         * [<em>Let's talk posts</em>](#lets-talk-posts)
-         * [<em>Random thoughts posts</em>](#random-thoughts-posts)
-         * [<em>Better code posts</em>](#better-code-posts)
-         * [<em>Inside Java posts</em>](#inside-java-posts)
-         * [<em>Java programmer posts</em>](#java-programmer-posts)
-         * [<em>Dreamix posts</em>](#dreamix-posts)
-         * [<em>Plumbr posts</em>](#plumbr-posts)
-         * [<em>Thorben Janssen posts</em>](#thorben-janssen-posts)
-         * [<em>Redhat posts</em>](#redhat-posts)
-         * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
-         * [<em>DevCases posts</em>](#devcases-posts)
+
+- [Java Design Patterns](#java-design-patterns)
+  - [<em>Table of contents</em>](#-table-of-contents)
+  - [<em>Summary</em>](#-summary)
+  - [<em>Documentation</em>](#-documentation)
+  - [<em>Statistics</em>](#-statistics)
+  - [<em>Versioning</em>](#-versioning)
+  - [<em>Authors</em>](#-authors)
+  - [<em>Contributing</em>](#-contributing)
+  - [<em>Visitor stats</em>](#-visitor-stats)
+  - [<em>Licensing</em>](#-licensing)
+  - [<em>Development Support</em>](#-development-support)
+  - [<em>Acknowledgement</em>](#-acknowledgement)
+  - [<em>OpenGraph Card</em>](#-opengraph-card)
+  - [<em>Feeds and Podcasts</em>](#-feeds-and-podcasts)
+    - [<em>Reddit posts</em>](#reddit-posts)
+    - [<em>InfoWorld posts</em>](#infoworld-posts)
+    - [<em>Let's talk posts</em>](#lets-talk-posts)
+    - [<em>Random thoughts posts</em>](#random-thoughts-posts)
+    - [<em>Better code posts</em>](#better-code-posts)
+    - [<em>Inside Java posts</em>](#inside-java-posts)
+    - [<em>Java programmer posts</em>](#java-programmer-posts)
+    - [<em>Dreamix posts</em>](#dreamix-posts)
+    - [<em>Plumbr posts</em>](#plumbr-posts)
+    - [<em>Thorben Janssen posts</em>](#thorben-janssen-posts)
+    - [<em>Redhat posts</em>](#redhat-posts)
+    - [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
+    - [<em>DevCases posts</em>](#devcases-posts)
+
 <!--te-->
 
 ## ☝ *Summary*
@@ -206,10 +208,8 @@ with community support please contact with us if you have some question or propo
 
 [![Contributors Display](https://badges.pufler.dev/contributors/AlexRogalskiy/java-patterns?size=50\&padding=5\&bots=true)](https://badges.pufler.dev)
 
-Please read
-[CONTRIBUTING.md](https://github.com/AlexRogalskiy/java-patterns/blob/master/.github/CONTRIBUTING.md) for
-details on our code of conduct, and the process for submitting pull requests to us
-([emoji key](https://allcontributors.org/docs/en/emoji-key)).
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests
+to us ([emoji key](https://allcontributors.org/docs/en/emoji-key)).
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors)
 specification. Contributions of any kind are welcome!
@@ -259,21 +259,24 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+
 - [Websphere to Tomcat migration toolkit or checklist](https://www.reddit.com/r/java/comments/nkbo6i/websphere_to_tomcat_migration_toolkit_or_checklist/)
-- [JEP 411: Deprecate the Security Manager for Removal (Part 2) : Apache NetBeans](https://www.reddit.com/r/java/comments/nk7wei/jep_411_deprecate_the_security_manager_for/)
+- [JEP 411: Deprecate the Security Manager for Removal (Part 2) : Apache NetBeans](https://www.reddit.com/r/java/comments/nk7wei/jep\_411\_deprecate_the_security_manager_for/)
 - [Learning Java During Summer](https://www.reddit.com/r/java/comments/nk50qa/learning_java_during_summer/)
-- [10+ ESSENTIAL LIBRARIES AND APIS FOR JAVA PROGRAMMERS](https://www.reddit.com/r/java/comments/njyt7y/10_essential_libraries_and_apis_for_java/)
-- [Why JEP 411 Will Have a Negative Impact on Java Security](https://www.reddit.com/r/java/comments/njs5j5/why_jep_411_will_have_a_negative_impact_on_java/)
+- [10+ ESSENTIAL LIBRARIES AND APIS FOR JAVA PROGRAMMERS](https://www.reddit.com/r/java/comments/njyt7y/10\_essential_libraries_and_apis_for_java/)
+- [Why JEP 411 Will Have a Negative Impact on Java Security](https://www.reddit.com/r/java/comments/njs5j5/why_jep\_411\_will_have_a_negative_impact_on_java/)
 - [SSL with Spring WebFlux and Vault PKI - Piotr's TechBlog](https://www.reddit.com/r/java/comments/njrrkp/ssl_with_spring_webflux_and_vault_pki_piotrs/)
-- [20 years of Hibernate](https://www.reddit.com/r/java/comments/njr84k/20_years_of_hibernate/)
+- [20 years of Hibernate](https://www.reddit.com/r/java/comments/njr84k/20\_years_of_hibernate/)
 - [Does Java has similar project like this one in C#? (ml, data)](https://www.reddit.com/r/java/comments/njpzng/does_java_has_similar_project_like_this_one_in_c/)
 - [Have you ever actually changed db vendor in a serious application?](https://www.reddit.com/r/java/comments/njndqy/have_you_ever_actually_changed_db_vendor_in_a/)
 - [Hacking third-party APIs on the JVM](https://www.reddit.com/r/java/comments/nja8oe/hacking_thirdparty_apis_on_the_jvm/)
+
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+
 - [JDK 17: The new features in Java 17](https://www.infoworld.com/article/3606833/jdk-17-the-new-features-in-java-17.html#tk.rss_java)
 - [Build a Java application in Visual Studio Code](https://www.infoworld.com/article/3619031/build-a-java-application-in-visual-studio-code.html#tk.rss_java)
 - [Scala 3 ushers in ‘complete overhaul’ of the language](https://www.infoworld.com/article/3608574/scala-3-moves-to-release-candidate-stage.html#tk.rss_java)
@@ -284,12 +287,14 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [What the heck does the Google vs. Oracle decision mean?](https://www.infoworld.com/article/3614693/what-the-heck-does-the-google-vs-oracle-decision-mean.html#tk.rss_java)
 - [Microsoft unveils its own Java distribution](https://www.infoworld.com/article/3614211/microsoft-unveils-its-own-java-distribution.html#tk.rss_java)
 - [Objective-C plummets in popularity](https://www.infoworld.com/article/3613938/objective-c-plummets-in-popularity.html#tk.rss_java)
+
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
 
 <!-- LETSTALK-POST-LIST:START -->
-- [4 Developers 2020](http://letstalkaboutjava.blogspot.com/2020/02/4-developers-2020_9.html)
+
+- [4 Developers 2020](http://letstalkaboutjava.blogspot.com/2020/02/4-developers-2020\_9.html)
 - [You won't do it later!](http://letstalkaboutjava.blogspot.com/2019/12/you-wont-do-it-later.html)
 - [JDD 2019!](http://letstalkaboutjava.blogspot.com/2019/09/once-again-im-media-partner-of-jdd-and.html)
 - [4 Developers 2019](http://letstalkaboutjava.blogspot.com/2019/02/4-developers-2019.html)
@@ -299,11 +304,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JDD is coming!](http://letstalkaboutjava.blogspot.com/2018/08/jdd-is-coming.html)
 - [Just stop for a moment](http://letstalkaboutjava.blogspot.com/2018/06/just-stop-for-moment.html)
 - [Refactoring vs. Redesign](http://letstalkaboutjava.blogspot.com/2017/11/refactoring-vs-redesign.html)
+
 <!-- LETSTALK-POST-LIST:END -->
 
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+
 - [Java Inheritance for Beginners](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/java-inheritance-for-beginners.html)
 - [Method determination ignored variable arity and implicit auto boxing/unboxing](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/method-determination-ignored-variable.html)
 - [USB-C Hubs for MacBooks - Review](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/usb-c-hubs-for-macbooks-review.html)
@@ -314,11 +321,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [StreamingOutput : streaming large json responses in REST API](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/streamingoutput-streaming-large-json.html)
 - [Changing Git Remote Urls](http://randomthoughtsonjavaprogramming.blogspot.com/2021/03/changing-git-remote-urls.html)
 - [Installing Printer Driver in Fedora for Epson ET-3750](http://randomthoughtsonjavaprogramming.blogspot.com/2021/03/installing-printer-driver-in-fedora-for.html)
+
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
 
 <!-- BETTERCODE-POST-LIST:START -->
+
 - [How To Use AWS Sagemaker](https://betterjavacode.com/programming/how-to-use-aws-sagemaker)
 - [How to Use API Gateway with Spring Cloud](https://betterjavacode.com/programming/how-to-use-api-gateway-with-spring-cloud)
 - [Example of Spring Boot Application Authentication with AWS Cognito](https://betterjavacode.com/programming/example-of-spring-boot-application-authentication-with-aws-cognito)
@@ -329,11 +338,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [User Management with Okta SDK and Spring Boot](https://betterjavacode.com/spring-boot/user-management-with-okta-sdk-and-spring-boot)
 - [How to Use Circuit Breaker in Spring Boot Application](https://betterjavacode.com/spring-boot/how-to-use-circuit-breaker-in-spring-boot-application)
 - [Step by Step Spring Batch Tutorial](https://betterjavacode.com/spring-boot/step-by-step-spring-batch-tutorial)
+
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+
 - [JEP proposed to target JDK 17: 306: Restore Always-Strict Floating-Point Semantics](https://inside.java/2021/05/21/jep-306-proposed-to-target-jdk17/)
 - [JEP proposed to target JDK 17: 411: Deprecate the Security Manager for Removal](https://inside.java/2021/05/21/jep-411-proposed-to-target-jdk17/)
 - [New Panama/Foreign Early-Access Builds](https://inside.java/2021/05/20/new-panama-ea-builds/)
@@ -344,11 +355,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JEP proposed to target JDK 17: 403: Strongly Encapsulate JDK Internals](https://inside.java/2021/05/18/jep-403-proposed-to-target-jdk17/)
 - [JEP proposed to target JDK 17: 407: Remove RMI Activation](https://inside.java/2021/05/17/jep-407-proposed-to-target-jdk17/)
 - [Rehabilitating switch – a scorecard](https://inside.java/2021/05/17/rehabilitating-switch-scorecard/)
+
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
 
 <!-- JAVAPROG-POST-LIST:START -->
+
 - [Nested While Loop in Java](https://www.thejavaprogrammer.com/nested-while-loop-in-java/)
 - [Java Race Condition with Example](https://www.thejavaprogrammer.com/java-race-condition/)
 - [4 Pillars of OOPs in Java](https://www.thejavaprogrammer.com/4-pillars-of-oops-in-java/)
@@ -359,11 +372,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [What is Native Method in Java?](https://www.thejavaprogrammer.com/native-method-in-java/)
 - [Why main method is static in Java?](https://www.thejavaprogrammer.com/why-main-method-is-static-in-java/)
 - [Difference between Constructor and Method in Java](https://www.thejavaprogrammer.com/difference-between-constructor-and-method/)
+
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### *Dreamix posts*
 
 <!-- DREAMIX-POST-LIST:START -->
+
 - [Java vs JavaScript: How to Choose the Right Backend Technology?](https://dreamix.eu/blog/java/java-vs-javascript-how-to-choose-the-right-backend-technology)
 - [Splitting String in Java –  Examples and Tips](https://dreamix.eu/blog/java/splitting-string-in-java-examples-and-tips)
 - [Learn from Java Champion Gerrit Grunwald: JavaFx – not dead yet](https://dreamix.eu/blog/java/learn-from-java-champion-gerrit-grunwald-javafx-not-dead-yet)
@@ -374,11 +389,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [5 Reasons Why Bespoke Software Development Projects Succeed](https://dreamix.eu/blog/java/5-reasons-why-bespoke-software-development-projects-succeed)
 - [Continuous Integration and Delivery to Improve the Software Development Workflow](https://dreamix.eu/blog/java/continuous-integration-and-delivery-to-improve-the-software-development-workflow)
 - [Why good (clean) software architecture matters](https://dreamix.eu/blog/java/why-good-clean-software-architecture-matters)
+
 <!-- DREAMIX-POST-LIST:END -->
 
 ### *Plumbr posts*
 
 <!-- PLUMBR-POST-LIST:START -->
+
 - [Plumbr has been acquired by Splunk](https://plumbr.io/blog/plumbr-blog/acquired-by-splunk)
 - [Using Plumbr with OpenTelemetry NodeJS agent](https://plumbr.io/blog/plumbr-blog/using-plumbr-with-opentelemetry-nodejs-agent)
 - [Extending Plumbr RUM with Web Vitals metrics](https://plumbr.io/blog/performance-blog/extending-plumbr-rum-with-web-vitals-metrics)
@@ -389,11 +406,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Plumbr now monitors Python applications and APIs](https://plumbr.io/blog/product-updates/plumbr-now-monitors-python-applications-and-apis)
 - [Distributed tracing in practice](https://plumbr.io/blog/tracing/distributed-tracing-in-practice)
 - [Plumbr now supports application versioning](https://plumbr.io/blog/product-updates/plumbr-now-supports-application-versioning)
+
 <!-- PLUMBR-POST-LIST:END -->
 
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
+
 - [How to retrieve DTOs from your Envers Audit Logs](https://thorben-janssen.com/envers-dto/)
 - [Polymorphic association mappings of independent classes](https://thorben-janssen.com/polymorphic-association-mappings-of-independent-classes/)
 - [Hibernate Slow Query Log – The easiest way to find slow queries](https://thorben-janssen.com/hibernate-slow-query-log/)
@@ -404,11 +423,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Coffee with Thorben 2020-02-19 – Enums, Enums, Enums …](https://thorben-janssen.com/coffee-with-thorben-jpql-criteria-native-2/)
 - [From Monolith to Microservices – Migrating a Persistence Layer](https://thorben-janssen.com/monolith-to-microservices-persistence-layer/)
 - [Coffee with Thorben 2020-02-12 – JPQL vs Criteria vs Native Queries](https://thorben-janssen.com/coffee-with-thorben-jpql-criteria-native/)
+
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*
 
 <!-- REDHAT-POST-LIST:START -->
+
 - [Using Kubernetes ConfigMaps to define your Quarkus application’s properties](https://developers.redhat.com/blog/2020/01/23/using-kubernetes-configmaps-to-define-your-quarkus-applications-properties/)
 - [CodeReady Workspaces devfile, demystified](https://developers.redhat.com/blog/2019/12/09/codeready-workspaces-devfile-demystified/)
 - [Decoupling microservices with Apache Camel and Debezium](https://developers.redhat.com/blog/2019/11/19/decoupling-microservices-with-apache-camel-and-debezium/)
@@ -419,36 +440,41 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Managing JBoss EAP/Wildfly using Jcliff](https://developers.redhat.com/blog/2019/11/06/managing-jboss-eap-wildfly-using-jcliff/)
 - [Bring joy to development with Quarkus, the cloud-native Java framework](https://developers.redhat.com/blog/2019/10/24/bring-joy-to-development-with-quarkus-the-cloud-native-java-framework/)
 - [What’s new in Red Hat Dependency Analytics](https://developers.redhat.com/blog/2019/10/15/whats-new-in-red-hat-dependency-analytics/)
+
 <!-- REDHAT-POST-LIST:END -->
 
 ### *JavaCodeGeeks posts*
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
+
 - [Json Patch and Json Merge Patch in Java](https://www.javacodegeeks.com/2021/05/json-patch-and-json-merge-patch-in-java.html)
 - [Making the Case for Digital Renovation](https://www.javacodegeeks.com/2021/05/making-the-case-for-digital-renovation.html)
 - [Retention period and issue with Kafka data not getting deleted](https://www.javacodegeeks.com/2021/05/retention-period-and-issue-with-kafka-data-not-getting-deleted.html)
 - [Kafka Record Patterns for Data Replication](https://www.javacodegeeks.com/2021/05/kafka-record-patterns-for-data-replication.html)
-- [[MEGA DEAL] The 2021 Java Bootcamp Bundle(96% off)](https://www.javacodegeeks.com/2021/05/mega-deal-the-2021-java-bootcamp-bundle96-off.html)
+- [\[MEGA DEAL\] The 2021 Java Bootcamp Bundle(96% off)](https://www.javacodegeeks.com/2021/05/mega-deal-the-2021-java-bootcamp-bundle96-off.html)
 - [Supporting bulk operations in REST APIs](https://www.javacodegeeks.com/2021/05/supporting-bulk-operations-in-rest-apis.html)
 - [Handling Actions Class in Selenium and its usage](https://www.javacodegeeks.com/2021/05/handling-actions-class-in-selenium-and-its-usage.html)
 - [Store health and safety – Example health and safety architecture](https://www.javacodegeeks.com/2021/05/store-health-and-safety-example-health-and-safety-architecture.html)
 - [Developers Are Obsessed With Their Text Editors](https://www.javacodegeeks.com/2021/05/developers-are-obsessed-with-their-text-editors.html)
 - [Understanding Istio Telemetry v2](https://www.javacodegeeks.com/2021/05/understanding-istio-telemetry-v2.html)
+
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
 ### *DevCases posts*
 
 <!-- DEVCASES-POST-LIST:START -->
-- [Spring JavaMelody Tutorial](https://devcases.com/java/spring-javamelody-tutorial/?utm_source=rss&utm_medium=rss&utm_campaign=spring-javamelody-tutorial)
-- [Spring Boot JavaMelody Tutorial](https://devcases.com/java/spring-boot-javamelody-tutorial/?utm_source=rss&utm_medium=rss&utm_campaign=spring-boot-javamelody-tutorial)
-- [How to find file in directory](https://devcases.com/java/how-to-find-file-in-directory/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-find-file-in-directory)
-- [How to list all files in the directory](https://devcases.com/java/how-to-list-all-files-in-the-directory/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-list-all-files-in-the-directory)
-- [How to convert Iterable to Collection](https://devcases.com/java/how-to-convert-iterable-to-collection/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-convert-iterable-to-collection)
-- [Spring Boot CRUD Tutorial with embedded H2 and Freemarker](https://devcases.com/java/spring-boot-crud-tutorial-with-embedded-h2-and-freemarker/?utm_source=rss&utm_medium=rss&utm_campaign=spring-boot-crud-tutorial-with-embedded-h2-and-freemarker)
-- [Spring Boot CRUD Tutorial with embedded H2 and JSP](https://devcases.com/java/spring-boot-embedded-h2-jsp-crud-tutorial/?utm_source=rss&utm_medium=rss&utm_campaign=spring-boot-embedded-h2-jsp-crud-tutorial)
-- [Spring Boot Hello World – Freemarker tutorial](https://devcases.com/java/spring-boot-hello-world-freemarker-tutorial/?utm_source=rss&utm_medium=rss&utm_campaign=spring-boot-hello-world-freemarker-tutorial)
-- [Spring Boot Hello World – JSP tutorial](https://devcases.com/java/spring-boot-hello-world-jsp/?utm_source=rss&utm_medium=rss&utm_campaign=spring-boot-hello-world-jsp)
-- [How to debug maven tests](https://devcases.com/java/how-to-debug-maven-tests/?utm_source=rss&utm_medium=rss&utm_campaign=how-to-debug-maven-tests)
+
+- [Spring JavaMelody Tutorial](https://devcases.com/java/spring-javamelody-tutorial/?utm_source=rss\&utm_medium=rss\&utm_campaign=spring-javamelody-tutorial)
+- [Spring Boot JavaMelody Tutorial](https://devcases.com/java/spring-boot-javamelody-tutorial/?utm_source=rss\&utm_medium=rss\&utm_campaign=spring-boot-javamelody-tutorial)
+- [How to find file in directory](https://devcases.com/java/how-to-find-file-in-directory/?utm_source=rss\&utm_medium=rss\&utm_campaign=how-to-find-file-in-directory)
+- [How to list all files in the directory](https://devcases.com/java/how-to-list-all-files-in-the-directory/?utm_source=rss\&utm_medium=rss\&utm_campaign=how-to-list-all-files-in-the-directory)
+- [How to convert Iterable to Collection](https://devcases.com/java/how-to-convert-iterable-to-collection/?utm_source=rss\&utm_medium=rss\&utm_campaign=how-to-convert-iterable-to-collection)
+- [Spring Boot CRUD Tutorial with embedded H2 and Freemarker](https://devcases.com/java/spring-boot-crud-tutorial-with-embedded-h2-and-freemarker/?utm_source=rss\&utm_medium=rss\&utm_campaign=spring-boot-crud-tutorial-with-embedded-h2-and-freemarker)
+- [Spring Boot CRUD Tutorial with embedded H2 and JSP](https://devcases.com/java/spring-boot-embedded-h2-jsp-crud-tutorial/?utm_source=rss\&utm_medium=rss\&utm_campaign=spring-boot-embedded-h2-jsp-crud-tutorial)
+- [Spring Boot Hello World – Freemarker tutorial](https://devcases.com/java/spring-boot-hello-world-freemarker-tutorial/?utm_source=rss\&utm_medium=rss\&utm_campaign=spring-boot-hello-world-freemarker-tutorial)
+- [Spring Boot Hello World – JSP tutorial](https://devcases.com/java/spring-boot-hello-world-jsp/?utm_source=rss\&utm_medium=rss\&utm_campaign=spring-boot-hello-world-jsp)
+- [How to debug maven tests](https://devcases.com/java/how-to-debug-maven-tests/?utm_source=rss\&utm_medium=rss\&utm_campaign=how-to-debug-maven-tests)
+
 <!-- DEVCASES-POST-LIST:END -->
 
 ***

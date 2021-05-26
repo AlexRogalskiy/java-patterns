@@ -17,6 +17,7 @@
         "license": "license-checker --json > licenses.json",
         "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
         "markdown": "markdown-link-check ./README.md ./SECURITY.md",
+        "build-image": "docker build -f Dockerfile --tag java-patterns .",
         "lint:all": "npm run lint:md && npm run lint:json",
         "format:all": "npm run format && npm run format:md",
         "check:all": "npm run format:check",

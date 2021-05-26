@@ -1,0 +1,6 @@
+/.dependabot
+/.github
+/.husky
+/.idea
+/node_modules
+npm-debug.log
