@@ -257,18 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
+- [java.net archive](https://www.reddit.com/r/java/comments/nlwy1t/javanet_archive/)
+- [My first project with Java](https://www.reddit.com/r/java/comments/nlsjka/my_first_project_with_java/)
+- [Re:factor - a FREE software development conference for charity](https://www.reddit.com/r/java/comments/nljn77/refactor_a_free_software_development_conference/)
+- ["The Amazing Adventures of Duke" comic book released 25 years ago](https://www.reddit.com/r/java/comments/nlhkef/the_amazing_adventures_of_duke_comic_book/)
+- [Spring Microservices Security Best Practices - Piotr's TechBlog](https://www.reddit.com/r/java/comments/nldbqe/spring_microservices_security_best_practices/)
+- [How do you evaluate new Java libraries before including them in your project?](https://www.reddit.com/r/java/comments/nld605/how_do_you_evaluate_new_java_libraries_before/)
+- [Quest to the OS: Java Native Memory](https://www.reddit.com/r/java/comments/nld06t/quest_to_the_os_java_native_memory/)
+- [How To Set Up and Run a (Really Powerful) Free Minecraft Server in the Cloud](https://www.reddit.com/r/java/comments/nlbv6k/how_to_set_up_and_run_a_really_powerful_free/)
+- [What Kind of Spring Boot Communities are out there?](https://www.reddit.com/r/java/comments/nlauoe/what_kind_of_spring_boot_communities_are_out_there/)
 - [Analyzing byte code on the job](https://www.reddit.com/r/java/comments/nl5kg0/analyzing_byte_code_on_the_job/)
-- [Wish there was a Java lib for…](https://www.reddit.com/r/java/comments/nl36iy/wish_there_was_a_java_lib_for/)
-- [New programming subreddit for highschoolers: r/cshighschoolers](https://www.reddit.com/r/java/comments/nl2kuu/new_programming_subreddit_for_highschoolers/)
-- [\[Beginner\] Rant post](https://www.reddit.com/r/java/comments/nl215e/beginner_rant_post/)
-- [Question on Jaxb/SOAP](https://www.reddit.com/r/java/comments/nkuuzc/question_on_jaxbsoap/)
-- [Observable Stream - An Engineering Podcast hosted by two Java engineers!](https://www.reddit.com/r/java/comments/nktpyd/observable_stream_an_engineering_podcast_hosted/)
-- [OneDev 4.4 - the pure Java open source git server now gets a restful api](https://www.reddit.com/r/java/comments/nkrpl6/onedev\_44\_the_pure_java_open_source_git_server/)
-- [Patch Kubernetes resources in Java using Fabric8 Kubernetes Client](https://www.reddit.com/r/java/comments/nkqh7h/patch_kubernetes_resources_in_java_using_fabric8/)
-- [Apache TomEE Jakarta EE certified after 10 years - Tomitribe](https://www.reddit.com/r/java/comments/nkptr6/apache_tomee_jakarta_ee_certified_after\_10\_years/)
-- [Jakarta EE 9.1 is released!](https://www.reddit.com/r/java/comments/nkpk42/jakarta_ee\_91\_is_released/)
-
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
