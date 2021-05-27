@@ -272,7 +272,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
-
 - [Eclipse Jakarta EE 9.1 aligns with Java 11](https://www.infoworld.com/article/3620088/eclipse-jakarta-ee-91-aligns-with-java-11.html#tk.rss_java)
 - [JDK 17: The new features in Java 17](https://www.infoworld.com/article/3606833/jdk-17-the-new-features-in-java-17.html#tk.rss_java)
 - [Build a Java application in Visual Studio Code](https://www.infoworld.com/article/3619031/build-a-java-application-in-visual-studio-code.html#tk.rss_java)
@@ -283,7 +282,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Gradle 7.0 improves incremental builds, backs Java 16](https://www.infoworld.com/article/3614703/gradle-70-improves-incremental-builds-backs-java-16.html#tk.rss_java)
 - [What the heck does the Google vs. Oracle decision mean?](https://www.infoworld.com/article/3614693/what-the-heck-does-the-google-vs-oracle-decision-mean.html#tk.rss_java)
 - [Microsoft unveils its own Java distribution](https://www.infoworld.com/article/3614211/microsoft-unveils-its-own-java-distribution.html#tk.rss_java)
-
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
