@@ -332,7 +332,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
-
 - [JEP proposed to target JDK 17: 306: Restore Always-Strict Floating-Point Semantics](https://inside.java/2021/05/21/jep-306-proposed-to-target-jdk17/)
 - [JEP proposed to target JDK 17: 411: Deprecate the Security Manager for Removal](https://inside.java/2021/05/21/jep-411-proposed-to-target-jdk17/)
 - [New Panama/Foreign Early-Access Builds](https://inside.java/2021/05/20/new-panama-ea-builds/)
@@ -343,7 +342,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JEP proposed to target JDK 17: 403: Strongly Encapsulate JDK Internals](https://inside.java/2021/05/18/jep-403-proposed-to-target-jdk17/)
 - [JEP proposed to target JDK 17: 407: Remove RMI Activation](https://inside.java/2021/05/17/jep-407-proposed-to-target-jdk17/)
 - [Rehabilitating switch – a scorecard](https://inside.java/2021/05/17/rehabilitating-switch-scorecard/)
-
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
