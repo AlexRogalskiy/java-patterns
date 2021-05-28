@@ -257,21 +257,22 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [AuthN and AuthZ for APIs](https://www.reddit.com/r/java/comments/nmo6bo/authn_and_authz_for_apis/)
+- [Top 3 principles for writing maintainable code](https://www.reddit.com/r/java/comments/nmno5n/top_3_principles_for_writing_maintainable_code/)
+- [Are you ready for Valhalla?](https://www.reddit.com/r/java/comments/nmgunx/are_you_ready_for_valhalla/)
+- [26-hour Java-Birthday Livestream // May 28th](https://www.reddit.com/r/java/comments/nmeqbr/26hour_javabirthday_livestream_may_28th/)
+- [JavaFX status update](https://www.reddit.com/r/java/comments/nm84d6/javafx_status_update/)
+- [Inside Java Newscast #5 - Pattern Matching in Switches and Security Manager Deprecation](https://www.reddit.com/r/java/comments/nm7sb5/inside_java_newscast_5_pattern_matching_in/)
+- [Microsoft OpenJDK Goes GA at Build - The New Stack](https://www.reddit.com/r/java/comments/nm7acu/microsoft_openjdk_goes_ga_at_build_the_new_stack/)
+- [Why Vertx ( Java's Library for Reactive/Async platform) isn't used much ?](https://www.reddit.com/r/java/comments/nlzpkq/why_vertx_javas_library_for_reactiveasync/)
 - [java.net archive](https://www.reddit.com/r/java/comments/nlwy1t/javanet_archive/)
-- [My first project with Java](https://www.reddit.com/r/java/comments/nlsjka/my_first_project_with_java/)
 - [Re:factor - a FREE software development conference for charity](https://www.reddit.com/r/java/comments/nljn77/refactor_a_free_software_development_conference/)
-- ["The Amazing Adventures of Duke" comic book released 25 years ago](https://www.reddit.com/r/java/comments/nlhkef/the_amazing_adventures_of_duke_comic_book/)
-- [Spring Microservices Security Best Practices - Piotr's TechBlog](https://www.reddit.com/r/java/comments/nldbqe/spring_microservices_security_best_practices/)
-- [How do you evaluate new Java libraries before including them in your project?](https://www.reddit.com/r/java/comments/nld605/how_do_you_evaluate_new_java_libraries_before/)
-- [Quest to the OS: Java Native Memory](https://www.reddit.com/r/java/comments/nld06t/quest_to_the_os_java_native_memory/)
-- [How To Set Up and Run a (Really Powerful) Free Minecraft Server in the Cloud](https://www.reddit.com/r/java/comments/nlbv6k/how_to_set_up_and_run_a_really_powerful_free/)
-- [What Kind of Spring Boot Communities are out there?](https://www.reddit.com/r/java/comments/nlauoe/what_kind_of_spring_boot_communities_are_out_there/)
-- [Analyzing byte code on the job](https://www.reddit.com/r/java/comments/nl5kg0/analyzing_byte_code_on_the_job/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [Microsoft’s Java build turns GA](https://www.infoworld.com/article/3620390/microsofts-java-build-turns-ga.html#tk.rss_java)
 - [Eclipse Jakarta EE 9.1 aligns with Java 11](https://www.infoworld.com/article/3620088/eclipse-jakarta-ee-91-aligns-with-java-11.html#tk.rss_java)
 - [JDK 17: The new features in Java 17](https://www.infoworld.com/article/3606833/jdk-17-the-new-features-in-java-17.html#tk.rss_java)
 - [Build a Java application in Visual Studio Code](https://www.infoworld.com/article/3619031/build-a-java-application-in-visual-studio-code.html#tk.rss_java)
@@ -281,7 +282,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Microsoft returns to Java with Azure-focused OpenJDK release](https://www.infoworld.com/article/3614938/microsoft-returns-to-java-with-azure-focused-openjdk-release.html#tk.rss_java)
 - [Gradle 7.0 improves incremental builds, backs Java 16](https://www.infoworld.com/article/3614703/gradle-70-improves-incremental-builds-backs-java-16.html#tk.rss_java)
 - [What the heck does the Google vs. Oracle decision mean?](https://www.infoworld.com/article/3614693/what-the-heck-does-the-google-vs-oracle-decision-mean.html#tk.rss_java)
-- [Microsoft unveils its own Java distribution](https://www.infoworld.com/article/3614211/microsoft-unveils-its-own-java-distribution.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
@@ -302,6 +302,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [Java Comparison for Beginners](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/java-comparison-for-beginners.html)
 - [Java Inheritance for Beginners](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/java-inheritance-for-beginners.html)
 - [Method determination ignored variable arity and implicit auto boxing/unboxing](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/method-determination-ignored-variable.html)
 - [USB-C Hubs for MacBooks - Review](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/usb-c-hubs-for-macbooks-review.html)
@@ -311,7 +312,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Getting a Native Query Typed in JPA](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/getting-native-query-typed-in-jpa.html)
 - [StreamingOutput : streaming large json responses in REST API](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/streamingoutput-streaming-large-json.html)
 - [Changing Git Remote Urls](http://randomthoughtsonjavaprogramming.blogspot.com/2021/03/changing-git-remote-urls.html)
-- [Installing Printer Driver in Fedora for Epson ET-3750](http://randomthoughtsonjavaprogramming.blogspot.com/2021/03/installing-printer-driver-in-fedora-for.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
@@ -332,6 +332,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Inside Java Newscast #5](https://inside.java/2021/05/27/newscast-005/)
 - [JEP proposed to target JDK 17: 306: Restore Always-Strict Floating-Point Semantics](https://inside.java/2021/05/21/jep-306-proposed-to-target-jdk17/)
 - [JEP proposed to target JDK 17: 411: Deprecate the Security Manager for Removal](https://inside.java/2021/05/21/jep-411-proposed-to-target-jdk17/)
 - [New Panama/Foreign Early-Access Builds](https://inside.java/2021/05/20/new-panama-ea-builds/)
@@ -341,7 +342,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Updates to JEP 411: Deprecate the Security Manager for Removal](https://inside.java/2021/05/19/updates-to-jep-411/)
 - [JEP proposed to target JDK 17: 403: Strongly Encapsulate JDK Internals](https://inside.java/2021/05/18/jep-403-proposed-to-target-jdk17/)
 - [JEP proposed to target JDK 17: 407: Remove RMI Activation](https://inside.java/2021/05/17/jep-407-proposed-to-target-jdk17/)
-- [Rehabilitating switch – a scorecard](https://inside.java/2021/05/17/rehabilitating-switch-scorecard/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
