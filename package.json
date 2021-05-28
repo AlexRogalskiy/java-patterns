@@ -17,6 +17,10 @@
         "license": "license-checker --json > licenses.json",
         "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
         "markdown": "markdown-link-check ./README.md ./SECURITY.md",
+        "link-check": "repo-link-check -c config/config.yml -s filesystem -u",
+        "link-check-diff": "repo-link-check -c config/config.yml",
+        "link-check-dev-server": "repo-link-check -c config/config.yml -r http://localhost:3000",
+        "link-check-exclude": "repo-link-check -c config/config.yml -s filesystem -u only",
         "build-image": "docker build -f Dockerfile --tag java-patterns .",
         "lint:all": "npm run lint:md && npm run lint:json",
         "format:all": "npm run format && npm run format:md",
@@ -36,7 +40,8 @@
         "remark-lint-code-block-style": "^2.0.1",
         "remark-lint-ordered-list-marker-value": "^2.0.1",
         "remark-preset-davidtheclark": "^0.12.0",
-        "remark-validate-links": "^10.0.2"
+        "remark-validate-links": "^10.0.2",
+        "repo-link-check": "^0.7.1"
     },
     "repository": {
         "type": "git",
@@ -48,7 +53,9 @@
     "engines": {
         "node": ">= 12.x"
     },
-    "keywords": ["java patterns"],
+    "keywords": [
+        "java patterns"
+    ],
     "maintainers": [
         {
             "name": "Alexander Rogalskiy",

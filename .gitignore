@@ -8,6 +8,7 @@ lerna-debug.log*
 
 # BlueJ files
 *.ctxt
+*.iml
 
 # Cache files
 .npm
