@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [AuthN and AuthZ for APIs](https://www.reddit.com/r/java/comments/nmo6bo/authn_and_authz_for_apis/)
+- [Top 3 principles for writing maintainable code](https://www.reddit.com/r/java/comments/nmno5n/top_3_principles_for_writing_maintainable_code/)
+- [Are you ready for Valhalla?](https://www.reddit.com/r/java/comments/nmgunx/are_you_ready_for_valhalla/)
+- [26-hour Java-Birthday Livestream // May 28th](https://www.reddit.com/r/java/comments/nmeqbr/26hour_javabirthday_livestream_may_28th/)
+- [JavaFX status update](https://www.reddit.com/r/java/comments/nm84d6/javafx_status_update/)
+- [Inside Java Newscast #5 - Pattern Matching in Switches and Security Manager Deprecation](https://www.reddit.com/r/java/comments/nm7sb5/inside_java_newscast_5_pattern_matching_in/)
+- [Microsoft OpenJDK Goes GA at Build - The New Stack](https://www.reddit.com/r/java/comments/nm7acu/microsoft_openjdk_goes_ga_at_build_the_new_stack/)
+- [Why Vertx ( Java's Library for Reactive/Async platform) isn't used much ?](https://www.reddit.com/r/java/comments/nlzpkq/why_vertx_javas_library_for_reactiveasync/)
 - [java.net archive](https://www.reddit.com/r/java/comments/nlwy1t/javanet_archive/)
-- [My first project with Java](https://www.reddit.com/r/java/comments/nlsjka/my_first_project_with_java/)
 - [Re:factor - a FREE software development conference for charity](https://www.reddit.com/r/java/comments/nljn77/refactor_a_free_software_development_conference/)
-- ["The Amazing Adventures of Duke" comic book released 25 years ago](https://www.reddit.com/r/java/comments/nlhkef/the_amazing_adventures_of_duke_comic_book/)
-- [Spring Microservices Security Best Practices - Piotr's TechBlog](https://www.reddit.com/r/java/comments/nldbqe/spring_microservices_security_best_practices/)
-- [How do you evaluate new Java libraries before including them in your project?](https://www.reddit.com/r/java/comments/nld605/how_do_you_evaluate_new_java_libraries_before/)
-- [Quest to the OS: Java Native Memory](https://www.reddit.com/r/java/comments/nld06t/quest_to_the_os_java_native_memory/)
-- [How To Set Up and Run a (Really Powerful) Free Minecraft Server in the Cloud](https://www.reddit.com/r/java/comments/nlbv6k/how_to_set_up_and_run_a_really_powerful_free/)
-- [What Kind of Spring Boot Communities are out there?](https://www.reddit.com/r/java/comments/nlauoe/what_kind_of_spring_boot_communities_are_out_there/)
-- [Analyzing byte code on the job](https://www.reddit.com/r/java/comments/nl5kg0/analyzing_byte_code_on_the_job/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
