@@ -332,6 +332,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Taming Resource Scopes](https://inside.java/2021/05/28/taming-resource-scopes/)
 - [Inside Java Newscast #5](https://inside.java/2021/05/27/newscast-005/)
 - [JEP proposed to target JDK 17: 306: Restore Always-Strict Floating-Point Semantics](https://inside.java/2021/05/21/jep-306-proposed-to-target-jdk17/)
 - [JEP proposed to target JDK 17: 411: Deprecate the Security Manager for Removal](https://inside.java/2021/05/21/jep-411-proposed-to-target-jdk17/)
@@ -341,7 +342,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Need help testing new Selector implementation on Windows](https://inside.java/2021/05/19/testing-new-selector-impl-on-windows/)
 - [Updates to JEP 411: Deprecate the Security Manager for Removal](https://inside.java/2021/05/19/updates-to-jep-411/)
 - [JEP proposed to target JDK 17: 403: Strongly Encapsulate JDK Internals](https://inside.java/2021/05/18/jep-403-proposed-to-target-jdk17/)
-- [JEP proposed to target JDK 17: 407: Remove RMI Activation](https://inside.java/2021/05/17/jep-407-proposed-to-target-jdk17/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
