@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Legally required to make documentation](https://www.reddit.com/r/java/comments/nnarfi/legally_required_to_make_documentation/)
+- [Panama - Taming Resource Scopes](https://www.reddit.com/r/java/comments/nn1nvq/panama_taming_resource_scopes/)
+- [Sending HTTP requests and beyond with Spring WebClient](https://www.reddit.com/r/java/comments/nmsx05/sending_http_requests_and_beyond_with_spring/)
 - [AuthN and AuthZ for APIs](https://www.reddit.com/r/java/comments/nmo6bo/authn_and_authz_for_apis/)
-- [Top 3 principles for writing maintainable code](https://www.reddit.com/r/java/comments/nmno5n/top_3_principles_for_writing_maintainable_code/)
 - [Are you ready for Valhalla?](https://www.reddit.com/r/java/comments/nmgunx/are_you_ready_for_valhalla/)
 - [26-hour Java-Birthday Livestream // May 28th](https://www.reddit.com/r/java/comments/nmeqbr/26hour_javabirthday_livestream_may_28th/)
 - [JavaFX status update](https://www.reddit.com/r/java/comments/nm84d6/javafx_status_update/)
 - [Inside Java Newscast #5 - Pattern Matching in Switches and Security Manager Deprecation](https://www.reddit.com/r/java/comments/nm7sb5/inside_java_newscast_5_pattern_matching_in/)
 - [Microsoft OpenJDK Goes GA at Build - The New Stack](https://www.reddit.com/r/java/comments/nm7acu/microsoft_openjdk_goes_ga_at_build_the_new_stack/)
 - [Why Vertx ( Java's Library for Reactive/Async platform) isn't used much ?](https://www.reddit.com/r/java/comments/nlzpkq/why_vertx_javas_library_for_reactiveasync/)
-- [java.net archive](https://www.reddit.com/r/java/comments/nlwy1t/javanet_archive/)
-- [Re:factor - a FREE software development conference for charity](https://www.reddit.com/r/java/comments/nljn77/refactor_a_free_software_development_conference/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
