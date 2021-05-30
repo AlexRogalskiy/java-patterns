@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Legally required to make documentation](https://www.reddit.com/r/java/comments/nnarfi/legally_required_to_make_documentation/)
+- [Fixed ProGuard not working on IKVM.NET, with the help of YourKit .NET Profiler](https://www.reddit.com/r/java/comments/no26h5/fixed_proguard_not_working_on_ikvmnet_with_the/)
+- [What is your go to IDE and why?](https://www.reddit.com/r/java/comments/no0ydz/what_is_your_go_to_ide_and_why/)
+- [New feature for RecordBuilder - generate records from Interface templates](https://www.reddit.com/r/java/comments/nnza26/new_feature_for_recordbuilder_generate_records/)
+- [[ANNOUNCE] Apache NetBeans 12.4 released](https://www.reddit.com/r/java/comments/nnjy82/announce_apache_netbeans_124_released/)
+- [JVM Pauses - It's More Than GC](https://www.reddit.com/r/java/comments/nnik4e/jvm_pauses_its_more_than_gc/)
+- [Java: Where the Wild Code Isn't (On Security and Modularity) | foojay](https://www.reddit.com/r/java/comments/nnht5t/java_where_the_wild_code_isnt_on_security_and/)
+- [[Updated] JEP proposed to target JDK 17: 411: Deprecate the Security Manager for Removal](https://www.reddit.com/r/java/comments/nnfj4n/updated_jep_proposed_to_target_jdk_17_411/)
 - [Panama - Taming Resource Scopes](https://www.reddit.com/r/java/comments/nn1nvq/panama_taming_resource_scopes/)
 - [Sending HTTP requests and beyond with Spring WebClient](https://www.reddit.com/r/java/comments/nmsx05/sending_http_requests_and_beyond_with_spring/)
-- [AuthN and AuthZ for APIs](https://www.reddit.com/r/java/comments/nmo6bo/authn_and_authz_for_apis/)
 - [Are you ready for Valhalla?](https://www.reddit.com/r/java/comments/nmgunx/are_you_ready_for_valhalla/)
-- [26-hour Java-Birthday Livestream // May 28th](https://www.reddit.com/r/java/comments/nmeqbr/26hour_javabirthday_livestream_may_28th/)
-- [JavaFX status update](https://www.reddit.com/r/java/comments/nm84d6/javafx_status_update/)
-- [Inside Java Newscast #5 - Pattern Matching in Switches and Security Manager Deprecation](https://www.reddit.com/r/java/comments/nm7sb5/inside_java_newscast_5_pattern_matching_in/)
-- [Microsoft OpenJDK Goes GA at Build - The New Stack](https://www.reddit.com/r/java/comments/nm7acu/microsoft_openjdk_goes_ga_at_build_the_new_stack/)
-- [Why Vertx ( Java's Library for Reactive/Async platform) isn't used much ?](https://www.reddit.com/r/java/comments/nlzpkq/why_vertx_javas_library_for_reactiveasync/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
