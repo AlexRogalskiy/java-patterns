@@ -332,6 +332,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Virtual Threads and Structured Concurrency with Ron Pressler](https://inside.java/2021/05/31/qcon-ron-interview/)
 - [Updates to JEP 411: Deprecate the Security Manager for Removal](https://inside.java/2021/05/29/updates-to-jep-411/)
 - [Taming Resource Scopes](https://inside.java/2021/05/28/taming-resource-scopes/)
 - [Inside Java Newscast #5](https://inside.java/2021/05/27/newscast-005/)
@@ -341,7 +342,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JEP proposed to target JDK 17: 406: Pattern Matching for switch (Preview)](https://inside.java/2021/05/19/jep-406-proposed-to-target-jdk17/)
 - [Large pages and Java](https://inside.java/2021/05/19/large-pages-and-java/)
 - [Need help testing new Selector implementation on Windows](https://inside.java/2021/05/19/testing-new-selector-impl-on-windows/)
-- [Updates to JEP 411: Deprecate the Security Manager for Removal](https://inside.java/2021/05/19/updates-to-jep-411/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
