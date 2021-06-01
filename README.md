@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Creating a Simple Spring Boot Application in IntelliJ IDEA | foojay](https://www.reddit.com/r/java/comments/np8e1n/creating_a_simple_spring_boot_application_in/)
+- [Java’s Project Loom, Virtual Threads and Structured Concurrency with Ron Pressler](https://www.reddit.com/r/java/comments/np5uzn/javas_project_loom_virtual_threads_and_structured/)
+- [TestNG vs JUnit : Which testing framework should you choose?](https://www.reddit.com/r/java/comments/np59b3/testng_vs_junit_which_testing_framework_should/)
+- [JReleaser 0.4.0 has been released!](https://www.reddit.com/r/java/comments/np3auz/jreleaser_040_has_been_released/)
+- [Bruce: java cryptography made easy](https://www.reddit.com/r/java/comments/np09t6/bruce_java_cryptography_made_easy/)
 - [Why do so many java developers fail to understand the importance of keeping dependencies up to date?](https://www.reddit.com/r/java/comments/norybk/why_do_so_many_java_developers_fail_to_understand/)
 - [Java 16 is out and you’re stuck with Java6 ? here is what you’re missing out](https://www.reddit.com/r/java/comments/nobzf0/java_16_is_out_and_youre_stuck_with_java6_here_is/)
 - [Java Virtual Machine Garbage Collection and Its Performance Impact](https://www.reddit.com/r/java/comments/no83sd/java_virtual_machine_garbage_collection_and_its/)
 - [How I Hacked Google App Engine: Anatomy of a Java Bytecode Exploit(fix link)](https://www.reddit.com/r/java/comments/no7chq/how_i_hacked_google_app_engine_anatomy_of_a_java/)
 - [Fixed ProGuard not working on IKVM.NET, with the help of YourKit .NET Profiler](https://www.reddit.com/r/java/comments/no26h5/fixed_proguard_not_working_on_ikvmnet_with_the/)
-- [New feature for RecordBuilder - generate records from Interface templates](https://www.reddit.com/r/java/comments/nnza26/new_feature_for_recordbuilder_generate_records/)
-- [[ANNOUNCE] Apache NetBeans 12.4 released](https://www.reddit.com/r/java/comments/nnjy82/announce_apache_netbeans_124_released/)
-- [JVM Pauses - It's More Than GC](https://www.reddit.com/r/java/comments/nnik4e/jvm_pauses_its_more_than_gc/)
-- [Java: Where the Wild Code Isn't (On Security and Modularity) | foojay](https://www.reddit.com/r/java/comments/nnht5t/java_where_the_wild_code_isnt_on_security_and/)
-- [[Updated] JEP proposed to target JDK 17: 411: Deprecate the Security Manager for Removal](https://www.reddit.com/r/java/comments/nnfj4n/updated_jep_proposed_to_target_jdk_17_411/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
