@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Creating a Simple Spring Boot Application in IntelliJ IDEA | foojay](https://www.reddit.com/r/java/comments/np8e1n/creating_a_simple_spring_boot_application_in/)
+- [JEP proposed to target JDK 17: 415: Context-Specific Deserialization Filters](https://www.reddit.com/r/java/comments/nq0ddx/jep_proposed_to_target_jdk_17_415_contextspecific/)
+- [Hashtag Jakarta EE #73](https://www.reddit.com/r/java/comments/npp009/hashtag_jakarta_ee_73/)
+- [Jakarta EE 10 and Enterprise Beans: Options for the Future](https://www.reddit.com/r/java/comments/npowsg/jakarta_ee_10_and_enterprise_beans_options_for/)
+- [The best reason to switch to a recent version of Java](https://www.reddit.com/r/java/comments/npnecb/the_best_reason_to_switch_to_a_recent_version_of/)
 - [Java’s Project Loom, Virtual Threads and Structured Concurrency with Ron Pressler](https://www.reddit.com/r/java/comments/np5uzn/javas_project_loom_virtual_threads_and_structured/)
 - [TestNG vs JUnit : Which testing framework should you choose?](https://www.reddit.com/r/java/comments/np59b3/testng_vs_junit_which_testing_framework_should/)
 - [JReleaser 0.4.0 has been released!](https://www.reddit.com/r/java/comments/np3auz/jreleaser_040_has_been_released/)
 - [Bruce: java cryptography made easy](https://www.reddit.com/r/java/comments/np09t6/bruce_java_cryptography_made_easy/)
-- [Why do so many java developers fail to understand the importance of keeping dependencies up to date?](https://www.reddit.com/r/java/comments/norybk/why_do_so_many_java_developers_fail_to_understand/)
 - [Java 16 is out and you’re stuck with Java6 ? here is what you’re missing out](https://www.reddit.com/r/java/comments/nobzf0/java_16_is_out_and_youre_stuck_with_java6_here_is/)
 - [Java Virtual Machine Garbage Collection and Its Performance Impact](https://www.reddit.com/r/java/comments/no83sd/java_virtual_machine_garbage_collection_and_its/)
-- [How I Hacked Google App Engine: Anatomy of a Java Bytecode Exploit(fix link)](https://www.reddit.com/r/java/comments/no7chq/how_i_hacked_google_app_engine_anatomy_of_a_java/)
-- [Fixed ProGuard not working on IKVM.NET, with the help of YourKit .NET Profiler](https://www.reddit.com/r/java/comments/no26h5/fixed_proguard_not_working_on_ikvmnet_with_the/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
