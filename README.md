@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Generational ZGC is commited in zgc_generational branch on github](https://www.reddit.com/r/java/comments/nqy8yw/generational_zgc_is_commited_in_zgc_generational/)
+- [Deal: Stack Overflow Sold To Prosus For $1.8B](https://www.reddit.com/r/java/comments/nqwpf0/deal_stack_overflow_sold_to_prosus_for_18b/)
+- [In search of modern Java Style guide](https://www.reddit.com/r/java/comments/nqvibz/in_search_of_modern_java_style_guide/)
+- [Building GraphQL APIs with Quarkus](https://www.reddit.com/r/java/comments/nqm8hc/building_graphql_apis_with_quarkus/)
+- [I'm looking for a good and updated resources for Java concurrency](https://www.reddit.com/r/java/comments/nqhbm6/im_looking_for_a_good_and_updated_resources_for/)
+- [are Azul OpenJDK 17 builds for M1 open source and if so could some redirect to the repo.](https://www.reddit.com/r/java/comments/nqf1kf/are_azul_openjdk_17_builds_for_m1_open_source_and/)
+- [Serverless Search for My Blog with Java, Quarkus & AWS Lambda](https://www.reddit.com/r/java/comments/nqe79o/serverless_search_for_my_blog_with_java_quarkus/)
 - [JEP proposed to target JDK 17: 415: Context-Specific Deserialization Filters](https://www.reddit.com/r/java/comments/nq0ddx/jep_proposed_to_target_jdk_17_415_contextspecific/)
 - [Hashtag Jakarta EE #73](https://www.reddit.com/r/java/comments/npp009/hashtag_jakarta_ee_73/)
 - [Jakarta EE 10 and Enterprise Beans: Options for the Future](https://www.reddit.com/r/java/comments/npowsg/jakarta_ee_10_and_enterprise_beans_options_for/)
-- [The best reason to switch to a recent version of Java](https://www.reddit.com/r/java/comments/npnecb/the_best_reason_to_switch_to_a_recent_version_of/)
-- [Java’s Project Loom, Virtual Threads and Structured Concurrency with Ron Pressler](https://www.reddit.com/r/java/comments/np5uzn/javas_project_loom_virtual_threads_and_structured/)
-- [TestNG vs JUnit : Which testing framework should you choose?](https://www.reddit.com/r/java/comments/np59b3/testng_vs_junit_which_testing_framework_should/)
-- [JReleaser 0.4.0 has been released!](https://www.reddit.com/r/java/comments/np3auz/jreleaser_040_has_been_released/)
-- [Bruce: java cryptography made easy](https://www.reddit.com/r/java/comments/np09t6/bruce_java_cryptography_made_easy/)
-- [Java 16 is out and you’re stuck with Java6 ? here is what you’re missing out](https://www.reddit.com/r/java/comments/nobzf0/java_16_is_out_and_youre_stuck_with_java6_here_is/)
-- [Java Virtual Machine Garbage Collection and Its Performance Impact](https://www.reddit.com/r/java/comments/no83sd/java_virtual_machine_garbage_collection_and_its/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
