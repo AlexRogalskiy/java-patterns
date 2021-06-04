@@ -272,9 +272,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [JDK 17: The new features in Java 17](https://www.infoworld.com/article/3606833/jdk-17-the-new-features-in-java-17.html#tk.rss_java)
 - [Microsoft’s Java build turns GA](https://www.infoworld.com/article/3620390/microsofts-java-build-turns-ga.html#tk.rss_java)
 - [Eclipse Jakarta EE 9.1 aligns with Java 11](https://www.infoworld.com/article/3620088/eclipse-jakarta-ee-91-aligns-with-java-11.html#tk.rss_java)
-- [JDK 17: The new features in Java 17](https://www.infoworld.com/article/3606833/jdk-17-the-new-features-in-java-17.html#tk.rss_java)
 - [Build a Java application in Visual Studio Code](https://www.infoworld.com/article/3619031/build-a-java-application-in-visual-studio-code.html#tk.rss_java)
 - [Scala 3 ushers in ‘complete overhaul’ of the language](https://www.infoworld.com/article/3608574/scala-3-moves-to-release-candidate-stage.html#tk.rss_java)
 - [Kotlin 1.5.0 arrives with JVM records, sealed interfaces](https://www.infoworld.com/article/3615548/kotlin-150-stabilizes-unsigned-integer-types.html#tk.rss_java)
