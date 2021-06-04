@@ -302,6 +302,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [Aristotle's Wheel Paradox - To Infinity and Beyond](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/aristotles-wheel-paradox-to-infinity.html)
 - [Java Comparison for Beginners](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/java-comparison-for-beginners.html)
 - [Java Inheritance for Beginners](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/java-inheritance-for-beginners.html)
 - [Method determination ignored variable arity and implicit auto boxing/unboxing](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/method-determination-ignored-variable.html)
@@ -311,7 +312,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Learning Kotlin](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/learning-kotlin.html)
 - [Getting a Native Query Typed in JPA](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/getting-native-query-typed-in-jpa.html)
 - [StreamingOutput : streaming large json responses in REST API](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/streamingoutput-streaming-large-json.html)
-- [Changing Git Remote Urls](http://randomthoughtsonjavaprogramming.blogspot.com/2021/03/changing-git-remote-urls.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
