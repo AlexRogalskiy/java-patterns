@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Any good Java libraries for interacting with the Reddit API?](https://www.reddit.com/r/java/comments/nsl053/any_good_java_libraries_for_interacting_with_the/)
+- [You don’t always need an application server to run Jakarta EE applications](https://www.reddit.com/r/java/comments/nsgin8/you_dont_always_need_an_application_server_to_run/)
+- [Will Loom Render Java NIO Useless?](https://www.reddit.com/r/java/comments/nsb2w1/will_loom_render_java_nio_useless/)
+- [How to intercept and modify SQL queries with the Hibernate StatementInspector](https://www.reddit.com/r/java/comments/nsauhf/how_to_intercept_and_modify_sql_queries_with_the/)
+- [OpenJDK Discusses Post-SecurityManager Practices](https://www.reddit.com/r/java/comments/ns5roz/openjdk_discusses_postsecuritymanager_practices/)
+- [Experimenting with JFR Mirror Events](https://www.reddit.com/r/java/comments/ns3b9h/experimenting_with_jfr_mirror_events/)
+- [How do people use Java Swing?](https://www.reddit.com/r/java/comments/ns15ez/how_do_people_use_java_swing/)
 - [Made a java application that displays motivational quotes](https://www.reddit.com/r/java/comments/nrn850/made_a_java_application_that_displays/)
 - [Supercharge Your Java Apps with Python](https://www.reddit.com/r/java/comments/nrdyqo/supercharge_your_java_apps_with_python/)
 - [JEP 411: Java's Security Model and the Principle of Least Privilege](https://www.reddit.com/r/java/comments/nr805l/jep_411_javas_security_model_and_the_principle_of/)
-- [Generational ZGC is commited in zgc_generational branch on github](https://www.reddit.com/r/java/comments/nqy8yw/generational_zgc_is_commited_in_zgc_generational/)
-- [In search of modern Java Style guide](https://www.reddit.com/r/java/comments/nqvibz/in_search_of_modern_java_style_guide/)
-- [Building GraphQL APIs with Quarkus](https://www.reddit.com/r/java/comments/nqm8hc/building_graphql_apis_with_quarkus/)
-- [I'm looking for a good and updated resources for Java concurrency](https://www.reddit.com/r/java/comments/nqhbm6/im_looking_for_a_good_and_updated_resources_for/)
-- [are Azul OpenJDK 17 builds for M1 open source and if so could some redirect to the repo.](https://www.reddit.com/r/java/comments/nqf1kf/are_azul_openjdk_17_builds_for_m1_open_source_and/)
-- [Serverless Search for My Blog with Java, Quarkus & AWS Lambda](https://www.reddit.com/r/java/comments/nqe79o/serverless_search_for_my_blog_with_java_quarkus/)
-- [JEP proposed to target JDK 17: 415: Context-Specific Deserialization Filters](https://www.reddit.com/r/java/comments/nq0ddx/jep_proposed_to_target_jdk_17_415_contextspecific/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
