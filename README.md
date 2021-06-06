@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Why use and IDE instead of a text editor for Java development?](https://www.reddit.com/r/java/comments/nt68tw/why_use_and_ide_instead_of_a_text_editor_for_java/)
+- [Java on RISC-V: OpenJDK Porting Work Update - Sanhong Li & Kevin Kuai, Alibaba Cloud](https://www.reddit.com/r/java/comments/nt2ce3/java_on_riscv_openjdk_porting_work_update_sanhong/)
+- [JEP 408: Simple Web Server with JBang](https://www.reddit.com/r/java/comments/nsu9lu/jep_408_simple_web_server_with_jbang/)
+- [Is Java NIO faster than Traditional IO nowaday?](https://www.reddit.com/r/java/comments/nsqj5q/is_java_nio_faster_than_traditional_io_nowaday/)
+- [Seeking feedback on proposal for making SecurityManager easier to use](https://www.reddit.com/r/java/comments/nsqbh7/seeking_feedback_on_proposal_for_making/)
+- [Is Java worth learning in 2021?](https://www.reddit.com/r/java/comments/nsmxt3/is_java_worth_learning_in_2021/)
 - [Any good Java libraries for interacting with the Reddit API?](https://www.reddit.com/r/java/comments/nsl053/any_good_java_libraries_for_interacting_with_the/)
 - [You don’t always need an application server to run Jakarta EE applications](https://www.reddit.com/r/java/comments/nsgin8/you_dont_always_need_an_application_server_to_run/)
 - [Will Loom Render Java NIO Useless?](https://www.reddit.com/r/java/comments/nsb2w1/will_loom_render_java_nio_useless/)
 - [How to intercept and modify SQL queries with the Hibernate StatementInspector](https://www.reddit.com/r/java/comments/nsauhf/how_to_intercept_and_modify_sql_queries_with_the/)
-- [OpenJDK Discusses Post-SecurityManager Practices](https://www.reddit.com/r/java/comments/ns5roz/openjdk_discusses_postsecuritymanager_practices/)
-- [Experimenting with JFR Mirror Events](https://www.reddit.com/r/java/comments/ns3b9h/experimenting_with_jfr_mirror_events/)
-- [How do people use Java Swing?](https://www.reddit.com/r/java/comments/ns15ez/how_do_people_use_java_swing/)
-- [Made a java application that displays motivational quotes](https://www.reddit.com/r/java/comments/nrn850/made_a_java_application_that_displays/)
-- [Supercharge Your Java Apps with Python](https://www.reddit.com/r/java/comments/nrdyqo/supercharge_your_java_apps_with_python/)
-- [JEP 411: Java's Security Model and the Principle of Least Privilege](https://www.reddit.com/r/java/comments/nr805l/jep_411_javas_security_model_and_the_principle_of/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
