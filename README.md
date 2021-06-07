@@ -257,6 +257,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [LogCaptor 2.6.1 Released](https://www.reddit.com/r/java/comments/ntve0u/logcaptor_261_released/)
+- [Hashtag Jakarta EE #75](https://www.reddit.com/r/java/comments/ntj5jk/hashtag_jakarta_ee_75/)
 - [Why use and IDE instead of a text editor for Java development?](https://www.reddit.com/r/java/comments/nt68tw/why_use_and_ide_instead_of_a_text_editor_for_java/)
 - [Java on RISC-V: OpenJDK Porting Work Update - Sanhong Li & Kevin Kuai, Alibaba Cloud](https://www.reddit.com/r/java/comments/nt2ce3/java_on_riscv_openjdk_porting_work_update_sanhong/)
 - [JEP 408: Simple Web Server with JBang](https://www.reddit.com/r/java/comments/nsu9lu/jep_408_simple_web_server_with_jbang/)
@@ -265,8 +267,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Is Java worth learning in 2021?](https://www.reddit.com/r/java/comments/nsmxt3/is_java_worth_learning_in_2021/)
 - [Any good Java libraries for interacting with the Reddit API?](https://www.reddit.com/r/java/comments/nsl053/any_good_java_libraries_for_interacting_with_the/)
 - [You don’t always need an application server to run Jakarta EE applications](https://www.reddit.com/r/java/comments/nsgin8/you_dont_always_need_an_application_server_to_run/)
-- [Will Loom Render Java NIO Useless?](https://www.reddit.com/r/java/comments/nsb2w1/will_loom_render_java_nio_useless/)
-- [How to intercept and modify SQL queries with the Hibernate StatementInspector](https://www.reddit.com/r/java/comments/nsauhf/how_to_intercept_and_modify_sql_queries_with_the/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
