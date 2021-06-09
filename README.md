@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Best Books to Understand Modern JVM](https://www.reddit.com/r/java/comments/nvbpp7/best_books_to_understand_modern_jvm/)
+- [Eclipse 4.20 - Again a massive amount of new cleanups](https://www.reddit.com/r/java/comments/nv5s7i/eclipse_420_again_a_massive_amount_of_new_cleanups/)
+- [Hibernate's @Filter Annotation - Apply Dynamic Filters at Runtime](https://www.reddit.com/r/java/comments/nv38ut/hibernates_filter_annotation_apply_dynamic/)
+- [John Snow Labs Spark-NLP 3.1.0: Over 2600+ new models and pipelines in 200+ languages, new DistilBERT, RoBERTa, and XLM-RoBERTa transformers, support for external Transformers, and lots more!](https://www.reddit.com/r/java/comments/nuysgn/john_snow_labs_sparknlp_310_over_2600_new_models/)
+- [Stream::toList() is weird](https://www.reddit.com/r/java/comments/nuuhdz/streamtolist_is_weird/)
 - [Internship](https://www.reddit.com/r/java/comments/nui06w/internship/)
 - [Cameron Purdy Interviewed About His New, Java-Influenced, Cloud Native Environment](https://www.reddit.com/r/java/comments/nucvmo/cameron_purdy_interviewed_about_his_new/)
 - [Scalable multi-tenancy implementation using Spring Boot](https://www.reddit.com/r/java/comments/nubazm/scalable_multitenancy_implementation_using_spring/)
 - [Can the foreign memory API replace ByteBuffer for IO?](https://www.reddit.com/r/java/comments/nu7h1n/can_the_foreign_memory_api_replace_bytebuffer_for/)
 - [LogCaptor 2.6.1 Released](https://www.reddit.com/r/java/comments/ntve0u/logcaptor_261_released/)
-- [Hashtag Jakarta EE #75](https://www.reddit.com/r/java/comments/ntj5jk/hashtag_jakarta_ee_75/)
-- [Why use and IDE instead of a text editor for Java development?](https://www.reddit.com/r/java/comments/nt68tw/why_use_and_ide_instead_of_a_text_editor_for_java/)
-- [Java on RISC-V: OpenJDK Porting Work Update - Sanhong Li & Kevin Kuai, Alibaba Cloud](https://www.reddit.com/r/java/comments/nt2ce3/java_on_riscv_openjdk_porting_work_update_sanhong/)
-- [JEP 408: Simple Web Server with JBang](https://www.reddit.com/r/java/comments/nsu9lu/jep_408_simple_web_server_with_jbang/)
-- [Is Java NIO faster than Traditional IO nowaday?](https://www.reddit.com/r/java/comments/nsqj5q/is_java_nio_faster_than_traditional_io_nowaday/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
