@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Is it possible to any jre under 16 to recognise class ver 60 ?](https://www.reddit.com/r/java/comments/nvw24a/is_it_possible_to_any_jre_under_16_to_recognise/)
+- [JEP draft: Universal Generics (Preview)](https://www.reddit.com/r/java/comments/nvsk4a/jep_draft_universal_generics_preview/)
+- [Configuring EAP subsystems with Galleon](https://www.reddit.com/r/java/comments/nvrxny/configuring_eap_subsystems_with_galleon/)
+- [Build a static website (or blog) with Java and Maven (or Gradle): JBake](https://www.reddit.com/r/java/comments/nvqu7o/build_a_static_website_or_blog_with_java_and/)
 - [Best Books to Understand Modern JVM](https://www.reddit.com/r/java/comments/nvbpp7/best_books_to_understand_modern_jvm/)
 - [Eclipse 4.20 - Again a massive amount of new cleanups](https://www.reddit.com/r/java/comments/nv5s7i/eclipse_420_again_a_massive_amount_of_new_cleanups/)
 - [Hibernate's @Filter Annotation - Apply Dynamic Filters at Runtime](https://www.reddit.com/r/java/comments/nv38ut/hibernates_filter_annotation_apply_dynamic/)
 - [John Snow Labs Spark-NLP 3.1.0: Over 2600+ new models and pipelines in 200+ languages, new DistilBERT, RoBERTa, and XLM-RoBERTa transformers, support for external Transformers, and lots more!](https://www.reddit.com/r/java/comments/nuysgn/john_snow_labs_sparknlp_310_over_2600_new_models/)
 - [Stream::toList() is weird](https://www.reddit.com/r/java/comments/nuuhdz/streamtolist_is_weird/)
 - [Internship](https://www.reddit.com/r/java/comments/nui06w/internship/)
-- [Cameron Purdy Interviewed About His New, Java-Influenced, Cloud Native Environment](https://www.reddit.com/r/java/comments/nucvmo/cameron_purdy_interviewed_about_his_new/)
-- [Scalable multi-tenancy implementation using Spring Boot](https://www.reddit.com/r/java/comments/nubazm/scalable_multitenancy_implementation_using_spring/)
-- [Can the foreign memory API replace ByteBuffer for IO?](https://www.reddit.com/r/java/comments/nu7h1n/can_the_foreign_memory_api_replace_bytebuffer_for/)
-- [LogCaptor 2.6.1 Released](https://www.reddit.com/r/java/comments/ntve0u/logcaptor_261_released/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
