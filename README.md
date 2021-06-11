@@ -257,7 +257,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Is it possible to any jre under 16 to recognise class ver 60 ?](https://www.reddit.com/r/java/comments/nvw24a/is_it_possible_to_any_jre_under_16_to_recognise/)
+- [Java Maven Checkstyle without Javadoc cheks](https://www.reddit.com/r/java/comments/nwy2rr/java_maven_checkstyle_without_javadoc_cheks/)
+- [Inside Java Newscast #6: Java 17: Features and Development](https://www.reddit.com/r/java/comments/nwrh6p/inside_java_newscast_6_java_17_features_and/)
 - [JEP draft: Universal Generics (Preview)](https://www.reddit.com/r/java/comments/nvsk4a/jep_draft_universal_generics_preview/)
 - [Configuring EAP subsystems with Galleon](https://www.reddit.com/r/java/comments/nvrxny/configuring_eap_subsystems_with_galleon/)
 - [Build a static website (or blog) with Java and Maven (or Gradle): JBake](https://www.reddit.com/r/java/comments/nvqu7o/build_a_static_website_or_blog_with_java_and/)
@@ -266,7 +267,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Hibernate's @Filter Annotation - Apply Dynamic Filters at Runtime](https://www.reddit.com/r/java/comments/nv38ut/hibernates_filter_annotation_apply_dynamic/)
 - [John Snow Labs Spark-NLP 3.1.0: Over 2600+ new models and pipelines in 200+ languages, new DistilBERT, RoBERTa, and XLM-RoBERTa transformers, support for external Transformers, and lots more!](https://www.reddit.com/r/java/comments/nuysgn/john_snow_labs_sparknlp_310_over_2600_new_models/)
 - [Stream::toList() is weird](https://www.reddit.com/r/java/comments/nuuhdz/streamtolist_is_weird/)
-- [Internship](https://www.reddit.com/r/java/comments/nui06w/internship/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
