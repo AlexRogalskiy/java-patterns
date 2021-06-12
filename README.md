@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Integrating a web application with Azure AD using Datawiza in 5 mins](https://www.reddit.com/r/java/comments/nxsq45/integrating_a_web_application_with_azure_ad_using/)
+- [How do I make arraylist created in main accessible to all the other classes?](https://www.reddit.com/r/java/comments/nxsgob/how_do_i_make_arraylist_created_in_main/)
+- [Mirandas, Bridges, Overpasses](https://www.reddit.com/r/java/comments/nxfsxv/mirandas_bridges_overpasses/)
+- [A question about asynchronous programming ecosystem: why each of the frameworks tends to create their own event loop and executor thread pool?](https://www.reddit.com/r/java/comments/nx8c16/a_question_about_asynchronous_programming/)
+- [What features would you add/remove from Java if you didn't have to worry about backwards compatibility?](https://www.reddit.com/r/java/comments/nx5088/what_features_would_you_addremove_from_java_if/)
 - [Java Maven Checkstyle without Javadoc cheks](https://www.reddit.com/r/java/comments/nwy2rr/java_maven_checkstyle_without_javadoc_cheks/)
 - [Inside Java Newscast #6: Java 17: Features and Development](https://www.reddit.com/r/java/comments/nwrh6p/inside_java_newscast_6_java_17_features_and/)
 - [JEP draft: Universal Generics (Preview)](https://www.reddit.com/r/java/comments/nvsk4a/jep_draft_universal_generics_preview/)
 - [Configuring EAP subsystems with Galleon](https://www.reddit.com/r/java/comments/nvrxny/configuring_eap_subsystems_with_galleon/)
 - [Build a static website (or blog) with Java and Maven (or Gradle): JBake](https://www.reddit.com/r/java/comments/nvqu7o/build_a_static_website_or_blog_with_java_and/)
-- [Best Books to Understand Modern JVM](https://www.reddit.com/r/java/comments/nvbpp7/best_books_to_understand_modern_jvm/)
-- [Eclipse 4.20 - Again a massive amount of new cleanups](https://www.reddit.com/r/java/comments/nv5s7i/eclipse_420_again_a_massive_amount_of_new_cleanups/)
-- [Hibernate's @Filter Annotation - Apply Dynamic Filters at Runtime](https://www.reddit.com/r/java/comments/nv38ut/hibernates_filter_annotation_apply_dynamic/)
-- [John Snow Labs Spark-NLP 3.1.0: Over 2600+ new models and pipelines in 200+ languages, new DistilBERT, RoBERTa, and XLM-RoBERTa transformers, support for external Transformers, and lots more!](https://www.reddit.com/r/java/comments/nuysgn/john_snow_labs_sparknlp_310_over_2600_new_models/)
-- [Stream::toList() is weird](https://www.reddit.com/r/java/comments/nuuhdz/streamtolist_is_weird/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
