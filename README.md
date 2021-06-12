@@ -332,16 +332,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Inside Java Newscast #6](https://inside.java/2021/06/10/insidejava-newscast-006/)
 - [Experimenting with JFR Mirror Events](https://inside.java/2021/06/04/experimenting-with-jfr-mirror-events/)
 - [JEP proposed to target JDK 17: 415: Context-Specific Deserialization Filters](https://inside.java/2021/06/01/jep415-proposed-to-target-jdk17/)
 - [Virtual Threads and Structured Concurrency with Ron Pressler](https://inside.java/2021/05/31/qcon-ron-interview/)
 - [Updates to JEP 411: Deprecate the Security Manager for Removal](https://inside.java/2021/05/29/updates-to-jep-411/)
 - [Taming Resource Scopes](https://inside.java/2021/05/28/taming-resource-scopes/)
-- [Inside Java Newscast #5](https://inside.java/2021/05/27/newscast-005/)
+- [Inside Java Newscast #5](https://inside.java/2021/05/27/insidejava-newscast-005/)
 - [JEP proposed to target JDK 17: 306: Restore Always-Strict Floating-Point Semantics](https://inside.java/2021/05/21/jep-306-proposed-to-target-jdk17/)
 - [JEP proposed to target JDK 17: 411: Deprecate the Security Manager for Removal](https://inside.java/2021/05/21/jep-411-proposed-to-target-jdk17/)
 - [New Panama/Foreign Early-Access Builds](https://inside.java/2021/05/20/new-panama-ea-builds/)
-- [JEP proposed to target JDK 17: 406: Pattern Matching for switch (Preview)](https://inside.java/2021/05/19/jep-406-proposed-to-target-jdk17/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
