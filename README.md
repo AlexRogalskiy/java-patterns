@@ -257,8 +257,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Acknowledging that null is a problem](https://www.reddit.com/r/java/comments/ny8ecf/acknowledging_that_null_is_a_problem/)
 - [Integrating a web application with Azure AD using Datawiza in 5 mins](https://www.reddit.com/r/java/comments/nxsq45/integrating_a_web_application_with_azure_ad_using/)
-- [How do I make arraylist created in main accessible to all the other classes?](https://www.reddit.com/r/java/comments/nxsgob/how_do_i_make_arraylist_created_in_main/)
 - [Mirandas, Bridges, Overpasses](https://www.reddit.com/r/java/comments/nxfsxv/mirandas_bridges_overpasses/)
 - [A question about asynchronous programming ecosystem: why each of the frameworks tends to create their own event loop and executor thread pool?](https://www.reddit.com/r/java/comments/nx8c16/a_question_about_asynchronous_programming/)
 - [What features would you add/remove from Java if you didn't have to worry about backwards compatibility?](https://www.reddit.com/r/java/comments/nx5088/what_features_would_you_addremove_from_java_if/)
