@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Web Scraping with Java - Extensive Guide](https://www.reddit.com/r/java/comments/nz31l4/web_scraping_with_java_extensive_guide/)
+- [Piranha 21.6.0 released!](https://www.reddit.com/r/java/comments/nyzdus/piranha_2160_released/)
+- [GlassFish 6.2 released!](https://www.reddit.com/r/java/comments/nyva31/glassfish_62_released/)
+- [Break backward compatibility](https://www.reddit.com/r/java/comments/nyre4k/break_backward_compatibility/)
 - [Acknowledging that null is a problem](https://www.reddit.com/r/java/comments/ny8ecf/acknowledging_that_null_is_a_problem/)
 - [Integrating a web application with Azure AD using Datawiza in 5 mins](https://www.reddit.com/r/java/comments/nxsq45/integrating_a_web_application_with_azure_ad_using/)
 - [Mirandas, Bridges, Overpasses](https://www.reddit.com/r/java/comments/nxfsxv/mirandas_bridges_overpasses/)
 - [A question about asynchronous programming ecosystem: why each of the frameworks tends to create their own event loop and executor thread pool?](https://www.reddit.com/r/java/comments/nx8c16/a_question_about_asynchronous_programming/)
 - [What features would you add/remove from Java if you didn't have to worry about backwards compatibility?](https://www.reddit.com/r/java/comments/nx5088/what_features_would_you_addremove_from_java_if/)
 - [Java Maven Checkstyle without Javadoc cheks](https://www.reddit.com/r/java/comments/nwy2rr/java_maven_checkstyle_without_javadoc_cheks/)
-- [Inside Java Newscast #6: Java 17: Features and Development](https://www.reddit.com/r/java/comments/nwrh6p/inside_java_newscast_6_java_17_features_and/)
-- [JEP draft: Universal Generics (Preview)](https://www.reddit.com/r/java/comments/nvsk4a/jep_draft_universal_generics_preview/)
-- [Configuring EAP subsystems with Galleon](https://www.reddit.com/r/java/comments/nvrxny/configuring_eap_subsystems_with_galleon/)
-- [Build a static website (or blog) with Java and Maven (or Gradle): JBake](https://www.reddit.com/r/java/comments/nvqu7o/build_a_static_website_or_blog_with_java_and/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
