@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [When somethings is null: Optional.ofNullable.orElse/ifPresent vs if-else](https://www.reddit.com/r/java/comments/nzxtm5/when_somethings_is_null/)
+- [Event-Driven with Spring Cloud Function and Spring Cloud Stream](https://www.reddit.com/r/java/comments/nzuoes/eventdriven_with_spring_cloud_function_and_spring/)
+- [Minecraft 1.17 in Google Chrome](https://www.reddit.com/r/java/comments/nzu3ii/minecraft_117_in_google_chrome/)
+- [Gradle and Maven plugins for Native Image with initial JUnit testing support](https://www.reddit.com/r/java/comments/nzmqgv/gradle_and_maven_plugins_for_native_image_with/)
+- [Debugging a GraalVM native image with GDB.](https://www.reddit.com/r/java/comments/nzk0rq/debugging_a_graalvm_native_image_with_gdb/)
+- [Demystifying Java SE Level for Jakarta EE](https://www.reddit.com/r/java/comments/nzjnyo/demystifying_java_se_level_for_jakarta_ee/)
+- [Knative Eventing with Quarkus, Kafka and Camel - Piotr's TechBlog](https://www.reddit.com/r/java/comments/nzhvpn/knative_eventing_with_quarkus_kafka_and_camel/)
+- [Inside Java Podcast - “Pattern Matching for switch” with Gavin Bierman](https://www.reddit.com/r/java/comments/nzfuqq/inside_java_podcast_pattern_matching_for_switch/)
 - [Web Scraping with Java - Extensive Guide](https://www.reddit.com/r/java/comments/nz31l4/web_scraping_with_java_extensive_guide/)
 - [Piranha 21.6.0 released!](https://www.reddit.com/r/java/comments/nyzdus/piranha_2160_released/)
-- [GlassFish 6.2 released!](https://www.reddit.com/r/java/comments/nyva31/glassfish_62_released/)
-- [Break backward compatibility](https://www.reddit.com/r/java/comments/nyre4k/break_backward_compatibility/)
-- [Acknowledging that null is a problem](https://www.reddit.com/r/java/comments/ny8ecf/acknowledging_that_null_is_a_problem/)
-- [Integrating a web application with Azure AD using Datawiza in 5 mins](https://www.reddit.com/r/java/comments/nxsq45/integrating_a_web_application_with_azure_ad_using/)
-- [Mirandas, Bridges, Overpasses](https://www.reddit.com/r/java/comments/nxfsxv/mirandas_bridges_overpasses/)
-- [A question about asynchronous programming ecosystem: why each of the frameworks tends to create their own event loop and executor thread pool?](https://www.reddit.com/r/java/comments/nx8c16/a_question_about_asynchronous_programming/)
-- [What features would you add/remove from Java if you didn't have to worry about backwards compatibility?](https://www.reddit.com/r/java/comments/nx5088/what_features_would_you_addremove_from_java_if/)
-- [Java Maven Checkstyle without Javadoc cheks](https://www.reddit.com/r/java/comments/nwy2rr/java_maven_checkstyle_without_javadoc_cheks/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
