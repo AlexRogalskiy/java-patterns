@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [JDK 17](https://www.reddit.com/r/java/comments/o0tgrp/jdk_17/)
+- [The State of Project Loom with Ron Pressler](https://www.reddit.com/r/java/comments/o0m6g8/the_state_of_project_loom_with_ron_pressler/)
+- [Turning Your Java Apps Inside Out With a Service Mesh](https://www.reddit.com/r/java/comments/o0hy27/turning_your_java_apps_inside_out_with_a_service/)
+- [Do quarkus performance benefits scale?](https://www.reddit.com/r/java/comments/o0ewar/do_quarkus_performance_benefits_scale/)
+- [The Impossible Java 11](https://www.reddit.com/r/java/comments/o09unw/the_impossible_java_11/)
+- [Concurrency in Java (Compared with Other Programming Languages)](https://www.reddit.com/r/java/comments/o09u1i/concurrency_in_java_compared_with_other/)
+- [Initial JFR support for GraalVM native image](https://www.reddit.com/r/java/comments/o09hpz/initial_jfr_support_for_graalvm_native_image/)
 - [When somethings is null: Optional.ofNullable.orElse/ifPresent vs if-else](https://www.reddit.com/r/java/comments/nzxtm5/when_somethings_is_null/)
 - [Event-Driven with Spring Cloud Function and Spring Cloud Stream](https://www.reddit.com/r/java/comments/nzuoes/eventdriven_with_spring_cloud_function_and_spring/)
-- [Minecraft 1.17 in Google Chrome](https://www.reddit.com/r/java/comments/nzu3ii/minecraft_117_in_google_chrome/)
 - [Gradle and Maven plugins for Native Image with initial JUnit testing support](https://www.reddit.com/r/java/comments/nzmqgv/gradle_and_maven_plugins_for_native_image_with/)
-- [Debugging a GraalVM native image with GDB.](https://www.reddit.com/r/java/comments/nzk0rq/debugging_a_graalvm_native_image_with_gdb/)
-- [Demystifying Java SE Level for Jakarta EE](https://www.reddit.com/r/java/comments/nzjnyo/demystifying_java_se_level_for_jakarta_ee/)
-- [Knative Eventing with Quarkus, Kafka and Camel - Piotr's TechBlog](https://www.reddit.com/r/java/comments/nzhvpn/knative_eventing_with_quarkus_kafka_and_camel/)
-- [Inside Java Podcast - “Pattern Matching for switch” with Gavin Bierman](https://www.reddit.com/r/java/comments/nzfuqq/inside_java_podcast_pattern_matching_for_switch/)
-- [Web Scraping with Java - Extensive Guide](https://www.reddit.com/r/java/comments/nz31l4/web_scraping_with_java_extensive_guide/)
-- [Piranha 21.6.0 released!](https://www.reddit.com/r/java/comments/nyzdus/piranha_2160_released/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
