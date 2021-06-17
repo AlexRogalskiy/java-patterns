@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [JDK 17](https://www.reddit.com/r/java/comments/o0tgrp/jdk_17/)
+- [Snowflake now supports writing and running Java UDFs within SQL (plus a Kotlin NLP example)](https://www.reddit.com/r/java/comments/o1gsqf/snowflake_now_supports_writing_and_running_java/)
+- [Handling Flaky Unit Tests in Java](https://www.reddit.com/r/java/comments/o1bfpt/handling_flaky_unit_tests_in_java/)
+- [[Conference] jLove agenda is out - 50+ speakers, join for free](https://www.reddit.com/r/java/comments/o1b5m6/conference_jlove_agenda_is_out_50_speakers_join/)
+- [Investigation: jdk-15 JIT seems to have bugs](https://www.reddit.com/r/java/comments/o0w953/investigation_jdk15_jit_seems_to_have_bugs/)
 - [The State of Project Loom with Ron Pressler](https://www.reddit.com/r/java/comments/o0m6g8/the_state_of_project_loom_with_ron_pressler/)
 - [Turning Your Java Apps Inside Out With a Service Mesh](https://www.reddit.com/r/java/comments/o0hy27/turning_your_java_apps_inside_out_with_a_service/)
 - [Do quarkus performance benefits scale?](https://www.reddit.com/r/java/comments/o0ewar/do_quarkus_performance_benefits_scale/)
 - [The Impossible Java 11](https://www.reddit.com/r/java/comments/o09unw/the_impossible_java_11/)
 - [Concurrency in Java (Compared with Other Programming Languages)](https://www.reddit.com/r/java/comments/o09u1i/concurrency_in_java_compared_with_other/)
 - [Initial JFR support for GraalVM native image](https://www.reddit.com/r/java/comments/o09hpz/initial_jfr_support_for_graalvm_native_image/)
-- [When somethings is null: Optional.ofNullable.orElse/ifPresent vs if-else](https://www.reddit.com/r/java/comments/nzxtm5/when_somethings_is_null/)
-- [Event-Driven with Spring Cloud Function and Spring Cloud Stream](https://www.reddit.com/r/java/comments/nzuoes/eventdriven_with_spring_cloud_function_and_spring/)
-- [Gradle and Maven plugins for Native Image with initial JUnit testing support](https://www.reddit.com/r/java/comments/nzmqgv/gradle_and_maven_plugins_for_native_image_with/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
