@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Spring Tips: Spring Native 0.10.0](https://www.reddit.com/r/java/comments/o29km2/spring_tips_spring_native_0100/)
+- [WildFly 24 released!](https://www.reddit.com/r/java/comments/o28ozb/wildfly_24_released/)
+- [A new children's book / illustrated guide to Apache Kafka](https://www.reddit.com/r/java/comments/o285g2/a_new_childrens_book_illustrated_guide_to_apache/)
+- [Eclipse IDE Working Group is formed - SD Times](https://www.reddit.com/r/java/comments/o23mi8/eclipse_ide_working_group_is_formed_sd_times/)
+- [JVM Ecosystem Report 2021](https://www.reddit.com/r/java/comments/o21dsp/jvm_ecosystem_report_2021/)
+- [Spring Native 0.10.0](https://www.reddit.com/r/java/comments/o1y1i5/spring_native_0100/)
+- [G1GC Tuning on a High Throughput Microservice](https://www.reddit.com/r/java/comments/o1qrgl/g1gc_tuning_on_a_high_throughput_microservice/)
+- [Eclipse IDE 2021-06/4.20 released!](https://www.reddit.com/r/java/comments/o1q6ah/eclipse_ide_202106420_released/)
 - [Snowflake now supports writing and running Java UDFs within SQL (plus a Kotlin NLP example)](https://www.reddit.com/r/java/comments/o1gsqf/snowflake_now_supports_writing_and_running_java/)
 - [Handling Flaky Unit Tests in Java](https://www.reddit.com/r/java/comments/o1bfpt/handling_flaky_unit_tests_in_java/)
-- [[Conference] jLove agenda is out - 50+ speakers, join for free](https://www.reddit.com/r/java/comments/o1b5m6/conference_jlove_agenda_is_out_50_speakers_join/)
-- [Investigation: jdk-15 JIT seems to have bugs](https://www.reddit.com/r/java/comments/o0w953/investigation_jdk15_jit_seems_to_have_bugs/)
-- [The State of Project Loom with Ron Pressler](https://www.reddit.com/r/java/comments/o0m6g8/the_state_of_project_loom_with_ron_pressler/)
-- [Turning Your Java Apps Inside Out With a Service Mesh](https://www.reddit.com/r/java/comments/o0hy27/turning_your_java_apps_inside_out_with_a_service/)
-- [Do quarkus performance benefits scale?](https://www.reddit.com/r/java/comments/o0ewar/do_quarkus_performance_benefits_scale/)
-- [The Impossible Java 11](https://www.reddit.com/r/java/comments/o09unw/the_impossible_java_11/)
-- [Concurrency in Java (Compared with Other Programming Languages)](https://www.reddit.com/r/java/comments/o09u1i/concurrency_in_java_compared_with_other/)
-- [Initial JFR support for GraalVM native image](https://www.reddit.com/r/java/comments/o09hpz/initial_jfr_support_for_graalvm_native_image/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
