@@ -257,6 +257,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Hibernate Community • Performance comparison with JDBC - Does anyone have a modern version of this comparison?](https://www.reddit.com/r/java/comments/o2z0yu/hibernate_community_performance_comparison_with/)
+- [Your problems with Java modules](https://www.reddit.com/r/java/comments/o2jeiv/your_problems_with_java_modules/)
+- [9 High-Performance Tips when using Java and PostgreSQL](https://www.reddit.com/r/java/comments/o2izld/9_highperformance_tips_when_using_java_and/)
 - [Spring Tips: Spring Native 0.10.0](https://www.reddit.com/r/java/comments/o29km2/spring_tips_spring_native_0100/)
 - [WildFly 24 released!](https://www.reddit.com/r/java/comments/o28ozb/wildfly_24_released/)
 - [A new children's book / illustrated guide to Apache Kafka](https://www.reddit.com/r/java/comments/o285g2/a_new_childrens_book_illustrated_guide_to_apache/)
@@ -264,9 +267,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JVM Ecosystem Report 2021](https://www.reddit.com/r/java/comments/o21dsp/jvm_ecosystem_report_2021/)
 - [Spring Native 0.10.0](https://www.reddit.com/r/java/comments/o1y1i5/spring_native_0100/)
 - [G1GC Tuning on a High Throughput Microservice](https://www.reddit.com/r/java/comments/o1qrgl/g1gc_tuning_on_a_high_throughput_microservice/)
-- [Eclipse IDE 2021-06/4.20 released!](https://www.reddit.com/r/java/comments/o1q6ah/eclipse_ide_202106420_released/)
-- [Snowflake now supports writing and running Java UDFs within SQL (plus a Kotlin NLP example)](https://www.reddit.com/r/java/comments/o1gsqf/snowflake_now_supports_writing_and_running_java/)
-- [Handling Flaky Unit Tests in Java](https://www.reddit.com/r/java/comments/o1bfpt/handling_flaky_unit_tests_in_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
