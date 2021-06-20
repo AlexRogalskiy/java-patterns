@@ -257,6 +257,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [What JAX-RS implementations does quarkus support?](https://www.reddit.com/r/java/comments/o3hoya/what_jaxrs_implementations_does_quarkus_support/)
+- [Do you use functional programming with Spring Boot?](https://www.reddit.com/r/java/comments/o3g9bg/do_you_use_functional_programming_with_spring_boot/)
+- [Does anybody know any good materials for java defensive coding please?.](https://www.reddit.com/r/java/comments/o39ved/does_anybody_know_any_good_materials_for_java/)
 - [Hibernate Community • Performance comparison with JDBC - Does anyone have a modern version of this comparison?](https://www.reddit.com/r/java/comments/o2z0yu/hibernate_community_performance_comparison_with/)
 - [Your problems with Java modules](https://www.reddit.com/r/java/comments/o2jeiv/your_problems_with_java_modules/)
 - [9 High-Performance Tips when using Java and PostgreSQL](https://www.reddit.com/r/java/comments/o2izld/9_highperformance_tips_when_using_java_and/)
@@ -264,9 +267,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [WildFly 24 released!](https://www.reddit.com/r/java/comments/o28ozb/wildfly_24_released/)
 - [A new children's book / illustrated guide to Apache Kafka](https://www.reddit.com/r/java/comments/o285g2/a_new_childrens_book_illustrated_guide_to_apache/)
 - [Eclipse IDE Working Group is formed - SD Times](https://www.reddit.com/r/java/comments/o23mi8/eclipse_ide_working_group_is_formed_sd_times/)
-- [JVM Ecosystem Report 2021](https://www.reddit.com/r/java/comments/o21dsp/jvm_ecosystem_report_2021/)
-- [Spring Native 0.10.0](https://www.reddit.com/r/java/comments/o1y1i5/spring_native_0100/)
-- [G1GC Tuning on a High Throughput Microservice](https://www.reddit.com/r/java/comments/o1qrgl/g1gc_tuning_on_a_high_throughput_microservice/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
