@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Java and malware](https://www.reddit.com/r/java/comments/o4d5wh/java_and_malware/)
+- [BlockHound: how it works](https://www.reddit.com/r/java/comments/o48m8b/blockhound_how_it_works/)
+- [Performance Engineering Series - Deep-dive into Out of Memory Error using Eclipse MAT](https://www.reddit.com/r/java/comments/o46oy1/performance_engineering_series_deepdive_into_out/)
+- [MaterialFX, an open source library for JavaFX](https://www.reddit.com/r/java/comments/o454ou/materialfx_an_open_source_library_for_javafx/)
 - [What JAX-RS implementations does quarkus support?](https://www.reddit.com/r/java/comments/o3hoya/what_jaxrs_implementations_does_quarkus_support/)
 - [Do you use functional programming with Spring Boot?](https://www.reddit.com/r/java/comments/o3g9bg/do_you_use_functional_programming_with_spring_boot/)
 - [Does anybody know any good materials for java defensive coding please?.](https://www.reddit.com/r/java/comments/o39ved/does_anybody_know_any_good_materials_for_java/)
 - [Hibernate Community • Performance comparison with JDBC - Does anyone have a modern version of this comparison?](https://www.reddit.com/r/java/comments/o2z0yu/hibernate_community_performance_comparison_with/)
 - [Your problems with Java modules](https://www.reddit.com/r/java/comments/o2jeiv/your_problems_with_java_modules/)
 - [9 High-Performance Tips when using Java and PostgreSQL](https://www.reddit.com/r/java/comments/o2izld/9_highperformance_tips_when_using_java_and/)
-- [Spring Tips: Spring Native 0.10.0](https://www.reddit.com/r/java/comments/o29km2/spring_tips_spring_native_0100/)
-- [WildFly 24 released!](https://www.reddit.com/r/java/comments/o28ozb/wildfly_24_released/)
-- [A new children's book / illustrated guide to Apache Kafka](https://www.reddit.com/r/java/comments/o285g2/a_new_childrens_book_illustrated_guide_to_apache/)
-- [Eclipse IDE Working Group is formed - SD Times](https://www.reddit.com/r/java/comments/o23mi8/eclipse_ide_working_group_is_formed_sd_times/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
