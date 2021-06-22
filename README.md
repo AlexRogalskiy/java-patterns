@@ -257,6 +257,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [javsus](https://www.reddit.com/r/java/comments/o55vck/javsus/)
+- [Why is Eclipse Installer bigger than the installation itself?](https://www.reddit.com/r/java/comments/o54or0/why_is_eclipse_installer_bigger_than_the/)
+- [Hashtag Jakarta EE #77](https://www.reddit.com/r/java/comments/o4yg72/hashtag_jakarta_ee_77/)
 - [Java and malware](https://www.reddit.com/r/java/comments/o4d5wh/java_and_malware/)
 - [BlockHound: how it works](https://www.reddit.com/r/java/comments/o48m8b/blockhound_how_it_works/)
 - [Performance Engineering Series - Deep-dive into Out of Memory Error using Eclipse MAT](https://www.reddit.com/r/java/comments/o46oy1/performance_engineering_series_deepdive_into_out/)
@@ -264,9 +267,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [What JAX-RS implementations does quarkus support?](https://www.reddit.com/r/java/comments/o3hoya/what_jaxrs_implementations_does_quarkus_support/)
 - [Do you use functional programming with Spring Boot?](https://www.reddit.com/r/java/comments/o3g9bg/do_you_use_functional_programming_with_spring_boot/)
 - [Does anybody know any good materials for java defensive coding please?.](https://www.reddit.com/r/java/comments/o39ved/does_anybody_know_any_good_materials_for_java/)
-- [Hibernate Community • Performance comparison with JDBC - Does anyone have a modern version of this comparison?](https://www.reddit.com/r/java/comments/o2z0yu/hibernate_community_performance_comparison_with/)
-- [Your problems with Java modules](https://www.reddit.com/r/java/comments/o2jeiv/your_problems_with_java_modules/)
-- [9 High-Performance Tips when using Java and PostgreSQL](https://www.reddit.com/r/java/comments/o2izld/9_highperformance_tips_when_using_java_and/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
