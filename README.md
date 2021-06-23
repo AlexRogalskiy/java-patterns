@@ -392,6 +392,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
+- [Hibernate’s Query Plan Cache – How It Works and How to Tune It](https://thorben-janssen.com/hibernate-query-plan-cache/)
 - [Hibernate Proxies – Why they’re used and how to unproxy them](https://thorben-janssen.com/hibernate-proxies/)
 - [Hibernate’s @Filter Annotation – Apply Dynamic Filters at Runtime](https://thorben-janssen.com/hibernate-filter/)
 - [How to retrieve DTOs from your Envers Audit Logs](https://thorben-janssen.com/envers-dto/)
@@ -401,7 +402,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Configuring Spring Data JPA with Spring Boot](https://thorben-janssen.com/configuring-spring-data-jpa-with-spring-boot/)
 - [Coffee with Thorben 2020-02-26 – Utility classes that make your life easier](https://thorben-janssen.com/coffee-with-thorben-2020-02-19-utility-classes/)
 - [Hibernate Performance Tuning Done Right](https://thorben-janssen.com/hibernate-performance-tuning-done-right/)
-- [Coffee with Thorben 2020-02-19 – Enums, Enums, Enums …](https://thorben-janssen.com/coffee-with-thorben-jpql-criteria-native-2/)
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*
