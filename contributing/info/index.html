@@ -1,0 +1,1463 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="java code patterns and general architectural design concepts
+">
+      
+      
+      
+        <meta name="author" content="Alexander Rogalskiy">
+      
+      
+        <link rel="canonical" href="https://alexander-rogalsky.gitbook.io/java-patterns-docs/contributing/info/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.1, mkdocs-material-7.1.8">
+    
+    
+      
+        <title>Information - Java Patterns</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ca7ac06f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.f1a3b89f.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#ff6e42">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="preference" data-md-color-primary="deep-orange" data-md-color-accent="deep-orange">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#contributing" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Java Patterns" class="md-header__button md-logo" aria-label="Java Patterns" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Java Patterns
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Information
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://gitlab.com/AlexRogalskiy/java-patterns/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    AlexRogalskiy/java-patterns
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Introduction
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../SUMMARY/" class="md-tabs__link">
+      Table of contents
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../user-guide/changelog/" class="md-tabs__link">
+        User Guide
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../units/design-patterns/" class="md-tabs__link">
+        Units
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
+        Contributing
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../reporting/info/" class="md-tabs__link">
+        Reporting
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../links/info/" class="md-tabs__link">
+        Links
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Java Patterns" class="md-nav__button md-logo" aria-label="Java Patterns" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Java Patterns
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://gitlab.com/AlexRogalskiy/java-patterns/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    AlexRogalskiy/java-patterns
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SUMMARY/" class="md-nav__link">
+        Table of contents
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        User Guide
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="User Guide" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          User Guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/changelog/" class="md-nav__link">
+        Changelog
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/dependency/" class="md-nav__link">
+        Dependency
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/faq/" class="md-nav__link">
+        FAQ
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/getting-started/" class="md-nav__link">
+        Getting Started
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/code_of_conduct/" class="md-nav__link">
+        Code of Conduct
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/code_owners/" class="md-nav__link">
+        Code Owners
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/troubleshooting/" class="md-nav__link">
+        Troubleshooting
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-guide/upgrade/" class="md-nav__link">
+        Upgrade
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      <label class="md-nav__link" for="__nav_4">
+        Units
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Units" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Units
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../units/design-patterns/" class="md-nav__link">
+        Design patterns
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../units/scenarios/" class="md-nav__link">
+        Scenarios
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../units/use-cases/" class="md-nav__link">
+        Use cases
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      <label class="md-nav__link" for="__nav_5">
+        Contributing
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Contributing" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Contributing
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Information
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Information
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    Getting Started
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Started">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bug-reports" class="md-nav__link">
+    Bug Reports
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enhancement-suggestions" class="md-nav__link">
+    Enhancement Suggestions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pull-requests" class="md-nav__link">
+    Pull Requests
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentations" class="md-nav__link">
+    Documentations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#branch-organization" class="md-nav__link">
+    Branch Organization
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-else-can-i-help" class="md-nav__link">
+    How else can I help?
+  </a>
+  
+    <nav class="md-nav" aria-label="How else can I help?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#improve-issues" class="md-nav__link">
+    Improve Issues
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#give-feedback-on-issues-and-pull-requests" class="md-nav__link">
+    Give Feedback On Issues and Pull Requests
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#styleguides" class="md-nav__link">
+    Styleguides
+  </a>
+  
+    <nav class="md-nav" aria-label="Styleguides">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#java-code-style" class="md-nav__link">
+    Java Code Style
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-commit-messages" class="md-nav__link">
+    Git Commit Messages
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mcve" class="md-nav__link">
+    MCVE
+  </a>
+  
+    <nav class="md-nav" aria-label="MCVE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#minimal" class="md-nav__link">
+    Minimal
+  </a>
+  
+    <nav class="md-nav" aria-label="Minimal">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#minimal-and-readable" class="md-nav__link">
+    Minimal and readable
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#complete" class="md-nav__link">
+    Complete
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verifiable" class="md-nav__link">
+    Verifiable
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versioning" class="md-nav__link">
+    Versioning
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credits" class="md-nav__link">
+    Credits
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      <label class="md-nav__link" for="__nav_6">
+        Reporting
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Reporting" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Reporting
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reporting/info/" class="md-nav__link">
+        Information
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reporting/bug_report/" class="md-nav__link">
+        Bug Report
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reporting/custom_report/" class="md-nav__link">
+        Custom Report
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reporting/issue_template/" class="md-nav__link">
+        Issue Report
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reporting/feature_request_template/" class="md-nav__link">
+        Feature Request
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reporting/pull_request_template/" class="md-nav__link">
+        Pull Request
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      <label class="md-nav__link" for="__nav_7">
+        Links
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Links" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Links
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../links/info/" class="md-nav__link">
+        Information
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    Getting Started
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Started">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bug-reports" class="md-nav__link">
+    Bug Reports
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enhancement-suggestions" class="md-nav__link">
+    Enhancement Suggestions
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pull-requests" class="md-nav__link">
+    Pull Requests
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentations" class="md-nav__link">
+    Documentations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#branch-organization" class="md-nav__link">
+    Branch Organization
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-else-can-i-help" class="md-nav__link">
+    How else can I help?
+  </a>
+  
+    <nav class="md-nav" aria-label="How else can I help?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#improve-issues" class="md-nav__link">
+    Improve Issues
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#give-feedback-on-issues-and-pull-requests" class="md-nav__link">
+    Give Feedback On Issues and Pull Requests
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#styleguides" class="md-nav__link">
+    Styleguides
+  </a>
+  
+    <nav class="md-nav" aria-label="Styleguides">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#java-code-style" class="md-nav__link">
+    Java Code Style
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#git-commit-messages" class="md-nav__link">
+    Git Commit Messages
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mcve" class="md-nav__link">
+    MCVE
+  </a>
+  
+    <nav class="md-nav" aria-label="MCVE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#minimal" class="md-nav__link">
+    Minimal
+  </a>
+  
+    <nav class="md-nav" aria-label="Minimal">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#minimal-and-readable" class="md-nav__link">
+    Minimal and readable
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#complete" class="md-nav__link">
+    Complete
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#verifiable" class="md-nav__link">
+    Verifiable
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versioning" class="md-nav__link">
+    Versioning
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#credits" class="md-nav__link">
+    Credits
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://gitlab.com/AlexRogalskiy/java-patterns/master/docs/contributing/info.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="contributing">Contributing<a class="headerlink" href="#contributing" title="Permanent link">&para;</a></h1>
+<p>Thanks for contributing to ObjectMappers!</p>
+<p>This is a set of guidelines for contributing to IceCore Hashids. Please take a moment to review this document
+in order to make the contribution process easy and effective for everyone involved.</p>
+<p>Following these guidelines helps to communicate that you respect the time of the developers managing and
+developing this open source project. In return, they should reciprocate that respect in addressing your issue,
+assessing changes, and helping you finalize your pull requests.</p>
+<p>As for everything else in the project, the contributions to IceCore Hashids are governed by our
+<a href="https://github.com/AlexRogalskiy/object-mappers-playground/blob/develop/CODE_OF_CONDUCT.md">Code of Conduct</a>.
+By participating, you are expected to uphold this code. Please report unacceptable behavior via
+<a href="mailto:development@nullables.io">email</a>.</p>
+<h2 id="getting-started"><em>Getting Started</em><a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h2>
+<p>ObjectMappers is an open source project and we love to receive contributions from the community! There are
+many ways to contribute, from <a href="./">writing- and improving documentation and tutorials</a>,
+<a href="./#bug-reports">reporting bugs</a>, <a href="./#enhancement-suggestions">submitting enhancement suggestions</a>
+which can be incorporated into IceCore Hashids itself by <a href="./#pull-requests">submitting a pull request</a>.</p>
+<p>The project development workflow and process uses
+<a href="https://github.com/AlexRogalskiy/object-mappers-playground/issues">GitHub Issues</a>- and
+<a href="https://github.com/AlexRogalskiy/object-mappers-playground/pulls">Pull Requests</a> management to track issues
+and pull requests.</p>
+<p>Before you continue with this contribution guideslines we highly recommend to read the awesome GitHub
+<a href="https://opensource.guide">Open Source Guide</a> on how to
+<a href="https://opensource.guide/how-to-contribute">making open source contributions</a>.</p>
+<h3 id="bug-reports"><em>Bug Reports</em><a class="headerlink" href="#bug-reports" title="Permanent link">&para;</a></h3>
+<p>A bug is a <em>demonstrable problem</em> that is caused by the code in the repository. This section guides you
+through submitting a bug report for IceCore Hashids. Following these guidelines helps maintainers and the
+community understand your report, reproduce the behavior and find related reports.</p>
+<p><strong>Do NOT report security vulnerabilities in public issues!</strong> Please contact the core team members and the
+project owner in a responsible manner by <a href="mailto:development@nullables.io">email</a> only. We will assess the
+issue as soon as possible on a best-effort basis and will give you an estimate for when we have a fix and
+release available for an eventual public disclosure.</p>
+<ul>
+<li><strong>Use the</strong> <a href="https://github.com/AlexRogalskiy/object-mappers-playground/issues"><strong>GitHub Issues search</strong></a>
+  — check if the issue has already been reported. If it has <strong>and the issue is still open</strong>, add a comment
+  to the existing issue instead of opening a new one. If you find a closed issue that seems like it is the
+  same thing that you are experiencing, open a new issue and include a link to the original issue in the
+  body of your new one.</li>
+<li><strong>Check if the issue has been fixed</strong> — try to reproduce it using the
+  <a href="https://github.com/AlexRogalskiy/object-mappers-playground/releases/latest">latest version</a> and
+  <a href="https://github.com/AlexRogalskiy/object-mappers-playground/tree/develop"><code>develop</code></a> branch in the
+  repository.</li>
+<li><strong>Isolate the problem</strong> — ideally create a <a href="./#mcve">MCVE</a>.</li>
+</ul>
+<p>When you are creating a bug report, please provide as much detail and context as possible. Fill out
+<a href="https://github.com/AlexRogalskiy/object-mappers-playground/blob/develop/.github/ISSUE_TEMPLATE.md">the required template</a>,
+the information it asks for helps maintainers to reproduce the problem and resolve issues faster.</p>
+<ul>
+<li><strong>Use a clear and descriptive title</strong> for the issue to identify the problem.</li>
+<li><strong>Describe the exact steps which reproduce the problem</strong> in as many details as possible.</li>
+<li><strong>Include screenshots and animated GIFs</strong> which show you following the described steps and clearly
+  demonstrate the problem.</li>
+<li><strong>Provide specific examples to demonstrate the steps</strong>. Include links to files or GitHub projects, or
+  copy/pasteable snippets. If you are providing snippets in the issue, use
+  <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax">Markdown code blocks</a> or
+  <a href="https://help.github.com/articles/file-attachments-on-issues-and-pull-requests">attach files to the issue</a>.</li>
+</ul>
+<p>If possible please provide more context by answering these questions:</p>
+<ul>
+<li><strong>Did the problem start happening recently</strong> (e.g. after updating to a new version of IceCore Hashids) or
+  was this always a problem? If the problem started happening recently, <strong>can you reproduce the problem in
+  an older version of IceCore Hashids</strong>? What is the most recent version in which the problem does not
+  happen?</li>
+<li><strong>Can you reliably reproduce the issue?</strong> If not, provide details about how often the problem happens and
+  under which conditions it normally happens.</li>
+</ul>
+<p>Please include details about your configuration and environment:</p>
+<ul>
+<li>What is the version of IceCore Hashids you are using?</li>
+<li>What is the name and the version of the OS you're using?</li>
+<li>Have you tried to reproduce it on different OS environments and if yes is the behavior the same for
+    all?</li>
+<li>Which Java JDK/JRE distribution and version are you using? (<em>Oracle</em>, <em>OpenJDK</em>, ...)</li>
+<li>Are you running the project with your IDE or Maven?</li>
+<li>Are you using any additional CLI arguments for Java or Maven?</li>
+<li>What is the name and the version of the IDE you're using?</li>
+</ul>
+<h3 id="enhancement-suggestions"><em>Enhancement Suggestions</em><a class="headerlink" href="#enhancement-suggestions" title="Permanent link">&para;</a></h3>
+<p>This section guides you through submitting an enhancement suggestion, including completely new features and
+minor improvements to existing functionality. Following these guidelines helps maintainers and the community
+understand your suggestion and find related suggestions.</p>
+<ul>
+<li><strong>Use the</strong> <a href="https://github.com/AlexRogalskiy/object-mappers-playground/issues"><strong>GitHub Issues search</strong></a>
+  — check if this enhancement has already been suggested. If it has <strong>and the issue is still open</strong>, add
+  your additions as comment to the existing issue instead of opening a new one.</li>
+<li><strong>Check if the enhancement has already been implemented</strong> — use the
+  <a href="https://github.com/AlexRogalskiy/object-mappers-playground/releases/latest">latest version</a> and
+  <a href="https://github.com/AlexRogalskiy/object-mappers-playground/tree/develop"><code>develop</code></a> branch to ensure that
+  the feature or improvement has not already been added.</li>
+<li><strong>Provide a reduced show case</strong> — ideally create a <a href="./#mcve">MCVE</a>.</li>
+</ul>
+<p>Before creating enhancement suggestions, please check if your idea fits with the scope and provide as much
+detail and context as possible using a structured layout like the
+<a href="https://github.com/AlexRogalskiy/object-mappers-playground/blob/develop/.github/ISSUE_TEMPLATE.md">the issue template</a>.</p>
+<ul>
+<li><strong>Use a clear and descriptive title</strong> for the issue to identify the suggestion.</li>
+<li><strong>Provide a step-by-step description of the suggested enhancement</strong> in as many details as possible and
+  provide use-cases.</li>
+<li><strong>Provide examples to demonstrate the need of an enhancement</strong>. Include copy/pasteable snippets which you
+  use in those examples, use
+  <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax">Markdown code blocks</a> or
+  <a href="https://help.github.com/articles/file-attachments-on-issues-and-pull-requests">attach files to the issue</a>.</li>
+<li><strong>Describe the current behavior</strong> and <strong>explain which behavior you expected to see instead</strong> and why.</li>
+<li><strong>Explain why this enhancement would be useful</strong> to most IceCore Hashids users.</li>
+<li><strong>List some other libraries where this enhancement exists.</strong></li>
+</ul>
+<h3 id="pull-requests"><em>Pull Requests</em><a class="headerlink" href="#pull-requests" title="Permanent link">&para;</a></h3>
+<p>This section guides you through submitting an pull request. Following these guidelines helps maintainers and
+the community to better understand your code.</p>
+<p><strong>Please</strong> <a href="./#enhancement-suggestions"><strong>suggest an enhancement</strong></a> <strong>or</strong>
+<a href="./#bug-reports"><strong>report a bug</strong></a> <strong>first before embarking on any significant pull request</strong> (e.g.
+implementing features, refactoring code, fixing a bug), otherwise you risk spending a lot of time working on
+something that the core team members and project owner might not want to merge into the project.</p>
+<p>When you are submitting an pull request, please provide as much detail and context as possible. Fill out
+<a href="https://github.com/AlexRogalskiy/object-mappers-playground/blob/develop/.github/PULL_REQUEST_TEMPLATE.md">the required template</a>
+to help maintainers to understand your submitted code.</p>
+<ul>
+<li><strong>Use a clear and descriptive title for the pull request</strong></li>
+<li><strong>Do not include issue numbers in the pull request title</strong> but fill in the metadata section at the top of
+  the
+  <a href="https://github.com/AlexRogalskiy/object-mappers-playground/blob/develop/.github/PULL_REQUEST_TEMPLATE.md">required pull request template</a>
+  making use of the <a href="https://help.github.com/articles/closing-issues-using-keywords">GitHub issue keywords</a>
+  to link to specific <a href="./#enhancement-suggestions">enhancement suggestions</a> or
+  <a href="./#bug-reports">bug reports</a>.</li>
+<li><strong>Include screenshots and animated GIFs</strong> which show you following the described steps and clearly
+  demonstrate the change.</li>
+<li><strong>Make sure to follow the</strong> <a href="./#java-code-style"><strong>Java</strong></a> <strong>and</strong>
+  <a href="./#git-commit-messages"><strong>Git commit message</strong></a> <strong>style guides</strong>.</li>
+<li><strong>Remain focused in scope and avoid to include unrelated commits</strong>.</li>
+<li><strong>Features and improvements should always be accompanied with tests and documentation</strong>. If the pull
+  request improves the performance consider to include a benchmark test, optimally including a chart.</li>
+<li><strong>Lint and test before submitting the pull request</strong>.</li>
+<li><strong>Make sure to create the pull request from a</strong>
+  <a href="https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows"><strong>topic branch</strong></a>.</li>
+</ul>
+<p><strong>All pull requests must be send against the <code>develop</code> branch</strong> - Please read the
+<a href="./#branch-organization">branch organization</a> section below for details about the branching model.</p>
+<h3 id="documentations"><em>Documentations</em><a class="headerlink" href="#documentations" title="Permanent link">&para;</a></h3>
+<p>IceCore Hashids has two main sets of documentation: the docs and guides, which helps users to learn about the
+project, and the API, which serves as a reference.</p>
+<p>You can help improve the docs and guides by making them more coherent, consistent or readable, adding missing
+information, correcting factual errors, fixing typos, bringing them up to date when there are differences to
+the latest version. This can be done by submitting a <a href="./#enhancement-suggestions">enhancement suggestion</a>
+and then opening a <a href="./#pull-requests">pull request</a> for it.</p>
+<h2 id="branch-organization"><em>Branch Organization</em><a class="headerlink" href="#branch-organization" title="Permanent link">&para;</a></h2>
+<p>The IceCore Hashids uses the <a href="http://nvie.com/posts/a-successful-git-branching-model">gitflow</a> branching
+model. The repository consists of two core branches with an infinite development lifecycle:</p>
+<ul>
+<li><code>master</code> - The source code of <code>HEAD</code> always reflects a tagged release version.</li>
+<li><code>develop</code> - The default branch where the source code of <code>HEAD</code> always reflects a state with the latest
+  development state.</li>
+</ul>
+<p><strong>All</strong> <a href="./#pull-requests"><strong>pull requests</strong></a> <strong>for the limited development lifecycle</strong>
+<strong><em>story</em></strong>**/**<strong><em>topic</em></strong> <strong>branches must be send against the <code>develop</code> branch</strong>.</p>
+<h2 id="how-else-can-i-help"><em>How else can I help?</em><a class="headerlink" href="#how-else-can-i-help" title="Permanent link">&para;</a></h2>
+<h3 id="improve-issues"><em>Improve Issues</em><a class="headerlink" href="#improve-issues" title="Permanent link">&para;</a></h3>
+<p>Some issues are created with missing information, not reproducible, or plain invalid. You can help to make it
+easier for maintainer to understand and resolve them faster. since handling issues takes a lot of time that
+could rather spend on writing code.</p>
+<h3 id="give-feedback-on-issues-and-pull-requests"><em>Give Feedback On Issues and Pull Requests</em><a class="headerlink" href="#give-feedback-on-issues-and-pull-requests" title="Permanent link">&para;</a></h3>
+<p>We're always looking for more opinions on discussions in issues and pull request reviews which is a good
+opportunity to influence the future direction of IceCore Hashids.</p>
+<p>The <a href="https://github.com/AlexRogalskiy/object-mappers-playground/labels/question">question</a> issue label is a
+good place to find ongoing discussions and questions.</p>
+<h2 id="styleguides"><em>Styleguides</em><a class="headerlink" href="#styleguides" title="Permanent link">&para;</a></h2>
+<p>Every major open source project has its own style guide, a set of standards and conventions for the writing
+and design of code, documentations and Git commit messages. It is much easier to understand a large codebase
+when all the code in it is in a consistent style.</p>
+<p>A style guide establishes and enforces style to improve the intelligibility and communication within the
+project community. It ensures consistency and enforces best practice in usage and language composition.</p>
+<h3 id="java-code-style"><em>Java Code Style</em><a class="headerlink" href="#java-code-style" title="Permanent link">&para;</a></h3>
+<p>IceCore Hasids adheres to the [Nullables Studio Java Style Guide][styleguide-java-github].</p>
+<p>[![][styleguide-java-badge]][styleguide-java-github]</p>
+<h3 id="git-commit-messages"><em>Git Commit Messages</em><a class="headerlink" href="#git-commit-messages" title="Permanent link">&para;</a></h3>
+<p>A well-crafted Git commit message is the best way to communicate <em>context</em> about a change to the maintainers.
+The code will tell what changed, but only the commit message can properly tell why. Re-establishing the
+context of a piece of code is wasteful. We can't avoid it completely, so our efforts should go to reducing it
+as much as possible.</p>
+<p>IceCore Hasids adheres to the [Nullables Studio Git Style Guide][styleguide-git-github].</p>
+<p>[![][styleguide-git-badge]][styleguide-git-github]</p>
+<p>The style guide assumes that you are familiar with the
+<a href="http://nvie.com/posts/a-successful-git-branching-model">gitflow</a> branching model.</p>
+<h2 id="mcve"><em>MCVE</em><a class="headerlink" href="#mcve" title="Permanent link">&para;</a></h2>
+<p>A Minimal, Complete, and Verifiable Example.</p>
+<p>When <a href="./#bug-reports">reporting a bug</a>, sometimes even when
+<a href="./#enhancement-suggestions">suggestig a enhancement</a>, the issue can be processed faster if you provide
+code for reproduction. That code should be…</p>
+<ul>
+<li>…Minimal – Use as little code as possible that still produces the same behavior</li>
+<li>…Complete – Provide all parts needed to reproduce the behavior</li>
+<li>…Verifiable – Test the code you're about to provide to make sure it reproduces the behavior</li>
+</ul>
+<p>A MCVE is a common practice like on <a href="https://stackoverflow.com/help/mcve">Stack Overflow</a> and sometimes it is
+also called <a href="http://sscce.org">SSCCE</a>, a <em>Short, Self Contained, Correct (Compilable), Example</em>.</p>
+<p>The recommended way for GitHub based projects is to create it as <a href="https://gist.github.com">Gist</a> or new
+repository, but of course you can
+<a href="https://help.github.com/articles/file-attachments-on-issues-and-pull-requests">attach it to issues and pull requests as files</a>,
+use any free code paste- or file hosting service or paste the code in
+<a href="https://help.github.com/articles/basic-writing-and-formatting-syntax">Markdown code blocks</a> into the issue.</p>
+<h3 id="minimal"><em>Minimal</em><a class="headerlink" href="#minimal" title="Permanent link">&para;</a></h3>
+<p>The more code there is to go through, the less likely developers can understand your enhancement or find the
+bug. Streamline your example in one of two ways:</p>
+<ul>
+<li><strong>Restart from scratch</strong>. Create new code, adding in only what is needed to demonstrate the behavior and
+  is also useful if you can't post the original code publicly for legal or ethical reasons.</li>
+<li><strong>Divide and conquer</strong>. When you have a small amount of code, but the source of the bug is entirely
+  unclear, start removing code a bit at a time until the problem disappears – then add the last part back
+  and document this behavior to help developers to trace- and debug faster.</li>
+</ul>
+<h4 id="minimal-and-readable"><em>Minimal and readable</em><a class="headerlink" href="#minimal-and-readable" title="Permanent link">&para;</a></h4>
+<p>Minimal does not mean terse – don't sacrifice communication to brevity. Use consistent naming and indentation
+following the <a href="./#styleguides">styleguide</a>, and include comments if needed to explain portions of the
+code.</p>
+<h3 id="complete"><em>Complete</em><a class="headerlink" href="#complete" title="Permanent link">&para;</a></h3>
+<p>Make sure all resources and code necessary to reproduce the behavior is included. The problem might not be in
+the part you suspect it is, but another part entirely.</p>
+<h3 id="verifiable"><em>Verifiable</em><a class="headerlink" href="#verifiable" title="Permanent link">&para;</a></h3>
+<p>To entirely understand your enhancement or bug report, developers will need to verify that it <em>exists</em>:</p>
+<ul>
+<li><strong>Follow the contribution guidelines regarding the description and details</strong>. Without information
+  developers won't be able to understand and reproduce the behavior.</li>
+<li><strong>Eliminate any issues that aren't relevant</strong>. Ensure that there are no compile-time errors.</li>
+<li><strong>Make sure that the example actually reproduces the problem</strong>. Sometimes the bug gets fixed inadvertently
+  or unconsciously while composing the example or does not occur when running on fresh machine environment.</li>
+</ul>
+<h2 id="versioning"><em>Versioning</em><a class="headerlink" href="#versioning" title="Permanent link">&para;</a></h2>
+<p>IceCore Hashids follows the [Arctic Versioning Specification][arcver] (ArcVer) which is a lightweight and
+fully compatible derivative of <a href="http://semver.org">Semantic Versioning</a> (SemVer). We release patch versions
+for bugfixes, minor versions for enhancements like new features and improvements, and major versions for any
+backwards incompatible changes. Deprecation warnings are introduced for breaking changes in a minor version so
+that users learn about the upcoming changes and migrate their code in advance.</p>
+<p>Every significant change is documented in the
+<a href="https://github.com/AlexRogalskiy/object-mappers-playground/blob/develop/CHANGELOG.md">changelog</a>.</p>
+<h2 id="credits"><em>Credits</em><a class="headerlink" href="#credits" title="Permanent link">&para;</a></h2>
+<p>Thanks for the inspirations and attributions to GitHub's <a href="https://opensource.guide">Open Source Guides</a> and
+various contribution guides of large open source projects like
+<a href="https://github.com/atom/atom/blob/master/CONTRIBUTING.md">Atom</a>,
+<a href="https://facebook.github.io/react/contributing/how-to-contribute.html">React</a> and
+<a href="http://guides.rubyonrails.org/contributing_to_ruby_on_rails.html">Ruby on Rails</a>.</p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../../units/use-cases/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Use cases" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Use cases
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../reporting/info/" class="md-footer__link md-footer__link--next" aria-label="Next: Information" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Information
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2021 Nullables.io
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://github.com/AlexRogalskiy/java-patterns" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1zM480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2zm-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3zm-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "search.suggest", "search.highlight", "header.autohide"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.b0710199.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.76f349be.min.js"></script>
+      
+    
+  </body>
+</html>
