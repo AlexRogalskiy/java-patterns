@@ -1,0 +1,9 @@
+.dependabot
+.github
+.husky
+.idea
+docs
+images
+node_modules
+reports
+scripts

@@ -5,8 +5,6 @@ ARG IMAGE_TAG=12-buster
 ## Setting base image
 FROM ${IMAGE_SOURCE}:${IMAGE_TAG}
 
-MAINTAINER Alexander Rogalskiy <github@AlexRogalskiy>
-
 ## Setting argument variables
 ARG PYTHON_VERSION=3.8.2
 ARG LC_ALL="en_US.UTF-8"
@@ -18,6 +16,9 @@ ARG APP_DIR="/usr/src/app"
 ARG DATA_DIR="/usr/src/data"
 
 ## Setting metadata labels
+LABEL "name"="java-patterns"
+LABEL "version"="$VERSION"
+
 LABEL "com.github.repository"="https://github.com/AlexRogalskiy/java-patterns"
 LABEL "com.github.homepage"="https://github.com/AlexRogalskiy/java-patterns"
 LABEL "com.github.maintainer"="Sensiblemetrics, Inc. <hello@sensiblemetrics.io> (https://sensiblemetrics.io)"

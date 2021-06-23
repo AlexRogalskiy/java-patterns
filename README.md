@@ -43,33 +43,35 @@
 ## 🎹 *Table of contents*
 
 <!--ts-->
-   * [Java Design Patterns](#java-design-patterns)
-      * [<em>Table of contents</em>](#-table-of-contents)
-      * [<em>Summary</em>](#-summary)
-      * [<em>Documentation</em>](#-documentation)
-      * [<em>Statistics</em>](#-statistics)
-      * [<em>Versioning</em>](#-versioning)
-      * [<em>Authors</em>](#-authors)
-      * [<em>Contributing</em>](#-contributing)
-      * [<em>Visitor stats</em>](#-visitor-stats)
-      * [<em>Licensing</em>](#-licensing)
-      * [<em>Development Support</em>](#-development-support)
-      * [<em>Acknowledgement</em>](#-acknowledgement)
-      * [<em>OpenGraph Card</em>](#-opengraph-card)
-      * [<em>Feeds and Podcasts</em>](#-feeds-and-podcasts)
-         * [<em>Reddit posts</em>](#reddit-posts)
-         * [<em>InfoWorld posts</em>](#infoworld-posts)
-         * [<em>Let's talk posts</em>](#lets-talk-posts)
-         * [<em>Random thoughts posts</em>](#random-thoughts-posts)
-         * [<em>Better code posts</em>](#better-code-posts)
-         * [<em>Inside Java posts</em>](#inside-java-posts)
-         * [<em>Java programmer posts</em>](#java-programmer-posts)
-         * [<em>Dreamix posts</em>](#dreamix-posts)
-         * [<em>Plumbr posts</em>](#plumbr-posts)
-         * [<em>Thorben Janssen posts</em>](#thorben-janssen-posts)
-         * [<em>Redhat posts</em>](#redhat-posts)
-         * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
-         * [<em>DevCases posts</em>](#devcases-posts)
+
+- [Java Design Patterns](#java-design-patterns)
+  - [<em>Table of contents</em>](#-table-of-contents)
+  - [<em>Summary</em>](#-summary)
+  - [<em>Documentation</em>](#-documentation)
+  - [<em>Statistics</em>](#-statistics)
+  - [<em>Versioning</em>](#-versioning)
+  - [<em>Authors</em>](#-authors)
+  - [<em>Contributing</em>](#-contributing)
+  - [<em>Visitor stats</em>](#-visitor-stats)
+  - [<em>Licensing</em>](#-licensing)
+  - [<em>Development Support</em>](#-development-support)
+  - [<em>Acknowledgement</em>](#-acknowledgement)
+  - [<em>OpenGraph Card</em>](#-opengraph-card)
+  - [<em>Feeds and Podcasts</em>](#-feeds-and-podcasts)
+    - [<em>Reddit posts</em>](#reddit-posts)
+    - [<em>InfoWorld posts</em>](#infoworld-posts)
+    - [<em>Let's talk posts</em>](#lets-talk-posts)
+    - [<em>Random thoughts posts</em>](#random-thoughts-posts)
+    - [<em>Better code posts</em>](#better-code-posts)
+    - [<em>Inside Java posts</em>](#inside-java-posts)
+    - [<em>Java programmer posts</em>](#java-programmer-posts)
+    - [<em>Dreamix posts</em>](#dreamix-posts)
+    - [<em>Plumbr posts</em>](#plumbr-posts)
+    - [<em>Thorben Janssen posts</em>](#thorben-janssen-posts)
+    - [<em>Redhat posts</em>](#redhat-posts)
+    - [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
+    - [<em>DevCases posts</em>](#devcases-posts)
+
 <!--te-->
 
 ## ☝ *Summary*
@@ -257,6 +259,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+
 - [The State of Project Panama](https://www.reddit.com/r/java/comments/o5ykq7/the_state_of_project_panama/)
 - [Are unpaid extra work hours as a developer normal?](https://www.reddit.com/r/java/comments/o5v4ew/are_unpaid_extra_work_hours_as_a_developer_normal/)
 - [Using Eclipse Collections - Piotr's TechBlog](https://www.reddit.com/r/java/comments/o5qaoy/using_eclipse_collections_piotrs_techblog/)
@@ -264,14 +267,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Create own Web App Programming Challenge](https://www.reddit.com/r/java/comments/o5hwa5/create_own_web_app_programming_challenge/)
 - [Spring Data JPA Auditing](https://www.reddit.com/r/java/comments/o5hjku/spring_data_jpa_auditing/)
 - [Why is Eclipse Installer bigger than the installation itself?](https://www.reddit.com/r/java/comments/o54or0/why_is_eclipse_installer_bigger_than_the/)
-- [Hashtag Jakarta EE #77](https://www.reddit.com/r/java/comments/o4yg72/hashtag_jakarta_ee_77/)
+- [Hashtag Jakarta EE #77](https://www.reddit.com/r/java/comments/o4yg72/hashtag_jakarta_ee\_77/)
 - [Java and malware](https://www.reddit.com/r/java/comments/o4d5wh/java_and_malware/)
 - [BlockHound: how it works](https://www.reddit.com/r/java/comments/o48m8b/blockhound_how_it_works/)
+
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+
 - [Eclipse launches group to shepherd popular Java IDE](https://www.infoworld.com/article/3622412/eclipse-launches-group-to-shepherd-popular-java-ide.html#tk.rss_java)
 - [Oracle offers Java management service](https://www.infoworld.com/article/3621690/oracle-offers-java-management-service.html#tk.rss_java)
 - [JDK 17: The new features in Java 17](https://www.infoworld.com/article/3606833/jdk-17-the-new-features-in-java-17.html#tk.rss_java)
@@ -282,12 +287,14 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Kotlin 1.5.0 arrives with JVM records, sealed interfaces](https://www.infoworld.com/article/3615548/kotlin-150-stabilizes-unsigned-integer-types.html#tk.rss_java)
 - [JetBrains IntelliJ IDE debuts ‘run targets’](https://www.infoworld.com/article/3616168/jetbrains-intellij-ide-debuts-run-targets.html#tk.rss_java)
 - [Microsoft returns to Java with Azure-focused OpenJDK release](https://www.infoworld.com/article/3614938/microsoft-returns-to-java-with-azure-focused-openjdk-release.html#tk.rss_java)
+
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
 
 <!-- LETSTALK-POST-LIST:START -->
-- [4 Developers 2020](http://letstalkaboutjava.blogspot.com/2020/02/4-developers-2020_9.html)
+
+- [4 Developers 2020](http://letstalkaboutjava.blogspot.com/2020/02/4-developers-2020\_9.html)
 - [You won't do it later!](http://letstalkaboutjava.blogspot.com/2019/12/you-wont-do-it-later.html)
 - [JDD 2019!](http://letstalkaboutjava.blogspot.com/2019/09/once-again-im-media-partner-of-jdd-and.html)
 - [4 Developers 2019](http://letstalkaboutjava.blogspot.com/2019/02/4-developers-2019.html)
@@ -297,11 +304,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JDD is coming!](http://letstalkaboutjava.blogspot.com/2018/08/jdd-is-coming.html)
 - [Just stop for a moment](http://letstalkaboutjava.blogspot.com/2018/06/just-stop-for-moment.html)
 - [Refactoring vs. Redesign](http://letstalkaboutjava.blogspot.com/2017/11/refactoring-vs-redesign.html)
+
 <!-- LETSTALK-POST-LIST:END -->
 
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+
 - [Docker](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/docker.html)
 - [Aristotle's Wheel Paradox - To Infinity and Beyond](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/aristotles-wheel-paradox-to-infinity.html)
 - [Java Comparison for Beginners](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/java-comparison-for-beginners.html)
@@ -312,11 +321,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Alternate Docroots](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/alternate-docroots.html)
 - [Learning Kotlin](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/learning-kotlin.html)
 - [Getting a Native Query Typed in JPA](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/getting-native-query-typed-in-jpa.html)
+
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
 
 <!-- BETTERCODE-POST-LIST:START -->
+
 - [Integration Testing in Spring Boot Application](https://betterjavacode.com/programming/integration-testing-in-spring-boot-application)
 - [Controller Advice – Exception Handler in Spring Boot](https://betterjavacode.com/programming/controller-advice-exception-handler-in-spring-boot)
 - [How To Use AWS Sagemaker](https://betterjavacode.com/programming/how-to-use-aws-sagemaker)
@@ -327,11 +338,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Spring Retry vs Resilience4j Retry](https://betterjavacode.com/programming/spring-retry-vs-resilience4j-retry)
 - [How to Deploy Spring Boot Application on AWS ECS](https://betterjavacode.com/aws/how-to-deploy-spring-boot-application-on-aws-ecs)
 - [User Management with Okta SDK and Spring Boot](https://betterjavacode.com/spring-boot/user-management-with-okta-sdk-and-spring-boot)
+
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+
 - [Episode 17 “Pattern Matching for switch” with Gavin Bierman](https://inside.java/2021/06/13/podcast-017/)
 - [Oracle JRE and JDK Cryptographic Roadmap](https://inside.java/2021/06/11/security-roadmap-update/)
 - [Inside Java Newscast #6](https://inside.java/2021/06/10/insidejava-newscast-006/)
@@ -342,11 +355,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Taming Resource Scopes](https://inside.java/2021/05/28/taming-resource-scopes/)
 - [Inside Java Newscast #5](https://inside.java/2021/05/27/insidejava-newscast-005/)
 - [JEP proposed to target JDK 17: 306: Restore Always-Strict Floating-Point Semantics](https://inside.java/2021/05/21/jep-306-proposed-to-target-jdk17/)
+
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
 
 <!-- JAVAPROG-POST-LIST:START -->
+
 - [Covariant Return Type in Java](https://www.thejavaprogrammer.com/covariant-return-type-in-java/)
 - [Static Import in Java with Example](https://www.thejavaprogrammer.com/static-import-in-java/)
 - [Advantages and Disadvantages of Generics in Java](https://www.thejavaprogrammer.com/advantages-and-disadvantages-of-generics-in-java/)
@@ -357,11 +372,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Java Global Variables](https://www.thejavaprogrammer.com/java-global-variables/)
 - [Java Control Flow Statements](https://www.thejavaprogrammer.com/java-control-flow-statements/)
 - [Nested While Loop in Java](https://www.thejavaprogrammer.com/nested-while-loop-in-java/)
+
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### *Dreamix posts*
 
 <!-- DREAMIX-POST-LIST:START -->
+
 - [Java vs JavaScript: How to Choose the Right Backend Technology?](https://dreamix.eu/blog/java/java-vs-javascript-how-to-choose-the-right-backend-technology)
 - [Splitting String in Java –  Examples and Tips](https://dreamix.eu/blog/java/splitting-string-in-java-examples-and-tips)
 - [Learn from Java Champion Gerrit Grunwald: JavaFx – not dead yet](https://dreamix.eu/blog/java/learn-from-java-champion-gerrit-grunwald-javafx-not-dead-yet)
@@ -372,11 +389,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [5 Reasons Why Bespoke Software Development Projects Succeed](https://dreamix.eu/blog/java/5-reasons-why-bespoke-software-development-projects-succeed)
 - [Continuous Integration and Delivery to Improve the Software Development Workflow](https://dreamix.eu/blog/java/continuous-integration-and-delivery-to-improve-the-software-development-workflow)
 - [Why good (clean) software architecture matters](https://dreamix.eu/blog/java/why-good-clean-software-architecture-matters)
+
 <!-- DREAMIX-POST-LIST:END -->
 
 ### *Plumbr posts*
 
 <!-- PLUMBR-POST-LIST:START -->
+
 - [Plumbr has been acquired by Splunk](https://plumbr.io/blog/plumbr-blog/acquired-by-splunk)
 - [Using Plumbr with OpenTelemetry NodeJS agent](https://plumbr.io/blog/plumbr-blog/using-plumbr-with-opentelemetry-nodejs-agent)
 - [Extending Plumbr RUM with Web Vitals metrics](https://plumbr.io/blog/performance-blog/extending-plumbr-rum-with-web-vitals-metrics)
@@ -387,11 +406,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Plumbr now monitors Python applications and APIs](https://plumbr.io/blog/product-updates/plumbr-now-monitors-python-applications-and-apis)
 - [Distributed tracing in practice](https://plumbr.io/blog/tracing/distributed-tracing-in-practice)
 - [Plumbr now supports application versioning](https://plumbr.io/blog/product-updates/plumbr-now-supports-application-versioning)
+
 <!-- PLUMBR-POST-LIST:END -->
 
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
+
 - [Hibernate’s Query Plan Cache – How It Works and How to Tune It](https://thorben-janssen.com/hibernate-query-plan-cache/)
 - [Hibernate Proxies – Why they’re used and how to unproxy them](https://thorben-janssen.com/hibernate-proxies/)
 - [Hibernate’s @Filter Annotation – Apply Dynamic Filters at Runtime](https://thorben-janssen.com/hibernate-filter/)
@@ -402,6 +423,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Configuring Spring Data JPA with Spring Boot](https://thorben-janssen.com/configuring-spring-data-jpa-with-spring-boot/)
 - [Coffee with Thorben 2020-02-26 – Utility classes that make your life easier](https://thorben-janssen.com/coffee-with-thorben-2020-02-19-utility-classes/)
 - [Hibernate Performance Tuning Done Right](https://thorben-janssen.com/hibernate-performance-tuning-done-right/)
+
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*

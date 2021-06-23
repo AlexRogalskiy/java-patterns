@@ -7,11 +7,14 @@
         "husky:install": "husky install",
         "postinstall": "npm run husky:install",
         "remark": "remark -q -f .",
+        "commit": "git-cz",
         "format": "prettier --single-quote --write **/*.{json,yaml,yml}",
         "format:md": "remark-preset-davidtheclark --format",
         "format:check": "prettier --check **/*.{json,yaml,yml}",
         "lint:md": "remark-preset-davidtheclark",
         "lint:json": "jsonlint ./package.json --quiet",
+        "lint:style": "stylelint --color --disable-default-ignores --allow-empty-input verbose **/*.{css,scss,sass}",
+        "lint:docker": "dockerfile_lint -r default_rules.yaml",
         "lint:staged": "lint-staged --no-stash --allow-empty",
         "pretty": "pretty-quick --staged --pattern '!test/tests/lint/**'",
         "license": "license-checker --json > licenses.json",
@@ -22,18 +25,30 @@
         "link-check-dev-server": "repo-link-check -c config/config.yml -r http://localhost:3000",
         "link-check-exclude": "repo-link-check -c config/config.yml -s filesystem -u only",
         "build-image": "docker build -f Dockerfile --tag java-patterns .",
-        "lint:all": "npm run lint:md && npm run lint:json",
+        "postversion": "git push --follow-tags && npm publish --access public",
+        "bump:patch": "npm version patch --no-git-tag-version",
+        "bump:minor": "npm version minor --no-git-tag-version",
+        "bump:major": "npm version major --no-git-tag-version",
+        "test:license": "license-checker --production --summary --unknown --onlyAllow=\"Apache-2.0;BSD;ISC;MIT;GPL-3.0;CC-BY-3.0;CC0-1.0;\"",
+        "lint:all": "npm run lint:md && npm run lint:json && npm run lint:style && npm run lint:docker",
         "format:all": "npm run format && npm run format:md",
-        "check:all": "npm run format:check",
-        "all": "npm run format:all && npm run lint:all && npm run pretty"
+        "check:all": "npm run pretty && npm run format:check",
+        "test:all": "npm run test:license",
+        "all": "npm run format:all && npm run lint:all && npm run check:all && npm run test:all"
     },
     "devDependencies": {
         "conventional-changelog-cli": "^2.0.0",
+        "dockerfile_lint": "0.3.4",
         "husky": "^5.0.8",
+        "git-cz": "^4.1.0",
         "jsonlint": "^1.6.3",
         "license-checker": "^25.0.1",
         "lint-staged": "^10.1.6",
         "markdown-link-check": "^3.8.6",
+        "stylelint": "~13.13.1",
+        "stylelint-config-standard": "~22.0.0",
+        "stylelint-order": "^4.0.0",
+        "stylelint-scss": "^3.18.0",
         "prettier": "^2.1.2",
         "pretty-quick": "^3.1.0",
         "remark-cli": "^9.0.0",
@@ -48,14 +63,14 @@
         "url": "git+https://github.com/AlexRogalskiy/java-patterns.git"
     },
     "publishConfig": {
+        "registry": "https://registry.npmjs.org/",
+        "tag": "latest",
         "access": "public"
     },
     "engines": {
         "node": ">= 12.x"
     },
-    "keywords": [
-        "java patterns"
-    ],
+    "keywords": ["java patterns"],
     "maintainers": [
         {
             "name": "Alexander Rogalskiy",
@@ -68,6 +83,13 @@
             "email": "hi@nullables.io"
         }
     ],
+    "husky": {
+        "hooks": {
+            "pre-push": "npm run check:all",
+            "prepare-commit-msg": "git cz --hook --non-interactive --type=feat --subject=\"added new features\" || true",
+            "pre-commit": "npm run lint:staged && npm run all"
+        }
+    },
     "bugs": {
         "url": "https://github.com/AlexRogalskiy/java-patterns/issues"
     },
