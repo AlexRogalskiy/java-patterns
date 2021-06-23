@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [javsus](https://www.reddit.com/r/java/comments/o55vck/javsus/)
+- [The State of Project Panama](https://www.reddit.com/r/java/comments/o5ykq7/the_state_of_project_panama/)
+- [Are unpaid extra work hours as a developer normal?](https://www.reddit.com/r/java/comments/o5v4ew/are_unpaid_extra_work_hours_as_a_developer_normal/)
+- [Using Eclipse Collections - Piotr's TechBlog](https://www.reddit.com/r/java/comments/o5qaoy/using_eclipse_collections_piotrs_techblog/)
+- [Simple linear algebra on byte array representation of float arrays](https://www.reddit.com/r/java/comments/o5ng0e/simple_linear_algebra_on_byte_array/)
+- [Create own Web App Programming Challenge](https://www.reddit.com/r/java/comments/o5hwa5/create_own_web_app_programming_challenge/)
+- [Spring Data JPA Auditing](https://www.reddit.com/r/java/comments/o5hjku/spring_data_jpa_auditing/)
 - [Why is Eclipse Installer bigger than the installation itself?](https://www.reddit.com/r/java/comments/o54or0/why_is_eclipse_installer_bigger_than_the/)
 - [Hashtag Jakarta EE #77](https://www.reddit.com/r/java/comments/o4yg72/hashtag_jakarta_ee_77/)
 - [Java and malware](https://www.reddit.com/r/java/comments/o4d5wh/java_and_malware/)
 - [BlockHound: how it works](https://www.reddit.com/r/java/comments/o48m8b/blockhound_how_it_works/)
-- [Performance Engineering Series - Deep-dive into Out of Memory Error using Eclipse MAT](https://www.reddit.com/r/java/comments/o46oy1/performance_engineering_series_deepdive_into_out/)
-- [MaterialFX, an open source library for JavaFX](https://www.reddit.com/r/java/comments/o454ou/materialfx_an_open_source_library_for_javafx/)
-- [What JAX-RS implementations does quarkus support?](https://www.reddit.com/r/java/comments/o3hoya/what_jaxrs_implementations_does_quarkus_support/)
-- [Do you use functional programming with Spring Boot?](https://www.reddit.com/r/java/comments/o3g9bg/do_you_use_functional_programming_with_spring_boot/)
-- [Does anybody know any good materials for java defensive coding please?.](https://www.reddit.com/r/java/comments/o39ved/does_anybody_know_any_good_materials_for_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
