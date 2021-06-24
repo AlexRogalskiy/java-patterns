@@ -332,7 +332,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
-
+- [JEP Café #1](https://inside.java/2021/06/23/jepcafe/)
 - [Episode 17 “Pattern Matching for switch” with Gavin Bierman](https://inside.java/2021/06/13/podcast-017/)
 - [Oracle JRE and JDK Cryptographic Roadmap](https://inside.java/2021/06/11/security-roadmap-update/)
 - [Inside Java Newscast #6](https://inside.java/2021/06/10/insidejava-newscast-006/)
@@ -342,8 +342,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Updates to JEP 411: Deprecate the Security Manager for Removal](https://inside.java/2021/05/29/updates-to-jep-411/)
 - [Taming Resource Scopes](https://inside.java/2021/05/28/taming-resource-scopes/)
 - [Inside Java Newscast #5](https://inside.java/2021/05/27/insidejava-newscast-005/)
-- [JEP proposed to target JDK 17: 306: Restore Always-Strict Floating-Point Semantics](https://inside.java/2021/05/21/jep-306-proposed-to-target-jdk17/)
-
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
