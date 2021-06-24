@@ -347,7 +347,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Java programmer posts*
 
 <!-- JAVAPROG-POST-LIST:START -->
-
 - [Covariant Return Type in Java](https://www.thejavaprogrammer.com/covariant-return-type-in-java/)
 - [Static Import in Java with Example](https://www.thejavaprogrammer.com/static-import-in-java/)
 - [Advantages and Disadvantages of Generics in Java](https://www.thejavaprogrammer.com/advantages-and-disadvantages-of-generics-in-java/)
@@ -358,7 +357,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Java Global Variables](https://www.thejavaprogrammer.com/java-global-variables/)
 - [Java Control Flow Statements](https://www.thejavaprogrammer.com/java-control-flow-statements/)
 - [Nested While Loop in Java](https://www.thejavaprogrammer.com/nested-while-loop-in-java/)
-
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### *Dreamix posts*
