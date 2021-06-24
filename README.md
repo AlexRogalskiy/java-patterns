@@ -302,7 +302,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
-
 - [Docker](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/docker.html)
 - [Aristotle's Wheel Paradox - To Infinity and Beyond](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/aristotles-wheel-paradox-to-infinity.html)
 - [Java Comparison for Beginners](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/java-comparison-for-beginners.html)
@@ -313,7 +312,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Alternate Docroots](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/alternate-docroots.html)
 - [Learning Kotlin](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/learning-kotlin.html)
 - [Getting a Native Query Typed in JPA](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/getting-native-query-typed-in-jpa.html)
-
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
