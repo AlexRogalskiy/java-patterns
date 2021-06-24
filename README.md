@@ -257,18 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
+- [Practical guide: Feature Toggles with Spring Boot and Unleash](https://www.reddit.com/r/java/comments/o6megl/practical_guide_feature_toggles_with_spring_boot/)
+- [Learning Java Eco System, from C# / .Net background](https://www.reddit.com/r/java/comments/o6k9tn/learning_java_eco_system_from_c_net_background/)
+- [Is class level locks slower than object locks](https://www.reddit.com/r/java/comments/o6fjrp/is_class_level_locks_slower_than_object_locks/)
+- [JEP Café - What is a JEP?](https://www.reddit.com/r/java/comments/o6ewls/jep_café_what_is_a_jep/)
+- [Official WebAssembly support](https://www.reddit.com/r/java/comments/o6e678/official_webassembly_support/)
+- [Interoperability in Cloud Native Continuous Delivery](https://www.reddit.com/r/java/comments/o6cvna/interoperability_in_cloud_native_continuous/)
+- [9 High-Performance Tips when using Oracle with JPA and Hibernate](https://www.reddit.com/r/java/comments/o6c8by/9_highperformance_tips_when_using_oracle_with_jpa/)
 - [The State of Project Panama](https://www.reddit.com/r/java/comments/o5ykq7/the_state_of_project_panama/)
 - [Are unpaid extra work hours as a developer normal?](https://www.reddit.com/r/java/comments/o5v4ew/are_unpaid_extra_work_hours_as_a_developer_normal/)
 - [Using Eclipse Collections - Piotr's TechBlog](https://www.reddit.com/r/java/comments/o5qaoy/using_eclipse_collections_piotrs_techblog/)
-- [Simple linear algebra on byte array representation of float arrays](https://www.reddit.com/r/java/comments/o5ng0e/simple_linear_algebra_on_byte_array/)
-- [Create own Web App Programming Challenge](https://www.reddit.com/r/java/comments/o5hwa5/create_own_web_app_programming_challenge/)
-- [Spring Data JPA Auditing](https://www.reddit.com/r/java/comments/o5hjku/spring_data_jpa_auditing/)
-- [Why is Eclipse Installer bigger than the installation itself?](https://www.reddit.com/r/java/comments/o54or0/why_is_eclipse_installer_bigger_than_the/)
-- [Hashtag Jakarta EE #77](https://www.reddit.com/r/java/comments/o4yg72/hashtag_jakarta_ee\_77/)
-- [Java and malware](https://www.reddit.com/r/java/comments/o4d5wh/java_and_malware/)
-- [BlockHound: how it works](https://www.reddit.com/r/java/comments/o48m8b/blockhound_how_it_works/)
-
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
