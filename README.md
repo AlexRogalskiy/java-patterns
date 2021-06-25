@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Practical guide: Feature Toggles with Spring Boot and Unleash](https://www.reddit.com/r/java/comments/o6megl/practical_guide_feature_toggles_with_spring_boot/)
-- [Learning Java Eco System, from C# / .Net background](https://www.reddit.com/r/java/comments/o6k9tn/learning_java_eco_system_from_c_net_background/)
-- [Is class level locks slower than object locks](https://www.reddit.com/r/java/comments/o6fjrp/is_class_level_locks_slower_than_object_locks/)
-- [JEP Café - What is a JEP?](https://www.reddit.com/r/java/comments/o6ewls/jep_café_what_is_a_jep/)
-- [Official WebAssembly support](https://www.reddit.com/r/java/comments/o6e678/official_webassembly_support/)
-- [Interoperability in Cloud Native Continuous Delivery](https://www.reddit.com/r/java/comments/o6cvna/interoperability_in_cloud_native_continuous/)
-- [9 High-Performance Tips when using Oracle with JPA and Hibernate](https://www.reddit.com/r/java/comments/o6c8by/9_highperformance_tips_when_using_oracle_with_jpa/)
-- [The State of Project Panama](https://www.reddit.com/r/java/comments/o5ykq7/the_state_of_project_panama/)
-- [Are unpaid extra work hours as a developer normal?](https://www.reddit.com/r/java/comments/o5v4ew/are_unpaid_extra_work_hours_as_a_developer_normal/)
-- [Using Eclipse Collections - Piotr's TechBlog](https://www.reddit.com/r/java/comments/o5qaoy/using_eclipse_collections_piotrs_techblog/)
+- [Looking for some open source libraries to start learning Kafka and Cassandra in an environment similar to professional setting.](https://www.reddit.com/r/java/comments/o7dxkk/looking_for_some_open_source_libraries_to_start/)
+- [First project: D&D dice roller (almost done!!)](https://www.reddit.com/r/java/comments/o7clhd/first_project_dd_dice_roller_almost_done/)
+- [Cannot get JSTL tags to work with Tomcat 9, tried every solution nothing work](https://www.reddit.com/r/java/comments/o7atag/cannot_get_jstl_tags_to_work_with_tomcat_9_tried/)
+- [Daobab ORM 1.3 has been released](https://www.reddit.com/r/java/comments/o75hlv/daobab_orm_13_has_been_released/)
+- [How the JIT compiler boosts Java performance in OpenJDK](https://www.reddit.com/r/java/comments/o73h8m/how_the_jit_compiler_boosts_java_performance_in/)
+- [WildFly 24 now supports hash charsets and encodings for security realms](https://www.reddit.com/r/java/comments/o73ar9/wildfly_24_now_supports_hash_charsets_and/)
+- [Do consoles support java based programs?](https://www.reddit.com/r/java/comments/o72agq/do_consoles_support_java_based_programs/)
+- [PMD vs Sonarqube](https://www.reddit.com/r/java/comments/o71pw8/pmd_vs_sonarqube/)
+- [Jakarta EE 9.1 and the Road to Jakarta EE 10 - InfoQ](https://www.reddit.com/r/java/comments/o708ql/jakarta_ee_91_and_the_road_to_jakarta_ee_10_infoq/)
+- [Spring Tips: Kubernetes Native Java](https://www.reddit.com/r/java/comments/o6wfn5/spring_tips_kubernetes_native_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
