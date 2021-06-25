@@ -347,16 +347,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Java programmer posts*
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [Java Reflection Invoke Static Method](https://www.thejavaprogrammer.com/java-reflection-invoke-static-method/)
+- [Volatile vs Synchronized in Java](https://www.thejavaprogrammer.com/volatile-vs-synchronized/)
+- [One Dimensional Array in Java – 1D Array](https://www.thejavaprogrammer.com/one-dimensional-array/)
+- [Java Program for Employee Details using Class and Object](https://www.thejavaprogrammer.com/java-program-for-employee-details-using-class-and-object/)
 - [Covariant Return Type in Java](https://www.thejavaprogrammer.com/covariant-return-type-in-java/)
 - [Static Import in Java with Example](https://www.thejavaprogrammer.com/static-import-in-java/)
 - [Advantages and Disadvantages of Generics in Java](https://www.thejavaprogrammer.com/advantages-and-disadvantages-of-generics-in-java/)
 - [Nested Switch in Java](https://www.thejavaprogrammer.com/nested-switch-in-java/)
 - [TreeSet Vs TreeMap in Java](https://www.thejavaprogrammer.com/treeset-vs-treemap/)
 - [How to Access Variable From Another Class in Java?](https://www.thejavaprogrammer.com/how-to-access-variable-from-another-class-in-java/)
-- [How to Get Filename Without Extension in Java](https://www.thejavaprogrammer.com/how-to-get-filename-without-extension-in-java/)
-- [Java Global Variables](https://www.thejavaprogrammer.com/java-global-variables/)
-- [Java Control Flow Statements](https://www.thejavaprogrammer.com/java-control-flow-statements/)
-- [Nested While Loop in Java](https://www.thejavaprogrammer.com/nested-while-loop-in-java/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### *Dreamix posts*
