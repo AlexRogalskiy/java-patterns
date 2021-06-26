@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [What do I do?](https://www.reddit.com/r/java/comments/o80z9v/what_do_i_do/)
+- [A small open-source project](https://www.reddit.com/r/java/comments/o7qfie/a_small_opensource_project/)
+- [Deploy a Dockerized Spring Boot App to AWS, Azure, Google Cloud](https://www.reddit.com/r/java/comments/o7pvw6/deploy_a_dockerized_spring_boot_app_to_aws_azure/)
+- [From Red Hat: Making Java programs cloud-ready, Part 1: An incremental approach using Jakarta EE and MicroProfile](https://www.reddit.com/r/java/comments/o7puty/from_red_hat_making_java_programs_cloudready_part/)
+- [Consuming GraphQL APIs with Quarkus](https://www.reddit.com/r/java/comments/o7pnk2/consuming_graphql_apis_with_quarkus/)
+- [How to implement multiple classes into one? (For D&D character creator)](https://www.reddit.com/r/java/comments/o7n1k0/how_to_implement_multiple_classes_into_one_for_dd/)
 - [Looking for some open source libraries to start learning Kafka and Cassandra in an environment similar to professional setting.](https://www.reddit.com/r/java/comments/o7dxkk/looking_for_some_open_source_libraries_to_start/)
 - [First project: D&D dice roller (almost done!!)](https://www.reddit.com/r/java/comments/o7clhd/first_project_dd_dice_roller_almost_done/)
 - [Cannot get JSTL tags to work with Tomcat 9, tried every solution nothing work](https://www.reddit.com/r/java/comments/o7atag/cannot_get_jstl_tags_to_work_with_tomcat_9_tried/)
 - [Daobab ORM 1.3 has been released](https://www.reddit.com/r/java/comments/o75hlv/daobab_orm_13_has_been_released/)
-- [How the JIT compiler boosts Java performance in OpenJDK](https://www.reddit.com/r/java/comments/o73h8m/how_the_jit_compiler_boosts_java_performance_in/)
-- [WildFly 24 now supports hash charsets and encodings for security realms](https://www.reddit.com/r/java/comments/o73ar9/wildfly_24_now_supports_hash_charsets_and/)
-- [Do consoles support java based programs?](https://www.reddit.com/r/java/comments/o72agq/do_consoles_support_java_based_programs/)
-- [PMD vs Sonarqube](https://www.reddit.com/r/java/comments/o71pw8/pmd_vs_sonarqube/)
-- [Jakarta EE 9.1 and the Road to Jakarta EE 10 - InfoQ](https://www.reddit.com/r/java/comments/o708ql/jakarta_ee_91_and_the_road_to_jakarta_ee_10_infoq/)
-- [Spring Tips: Kubernetes Native Java](https://www.reddit.com/r/java/comments/o6wfn5/spring_tips_kubernetes_native_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
