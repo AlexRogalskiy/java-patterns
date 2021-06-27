@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [What do I do?](https://www.reddit.com/r/java/comments/o80z9v/what_do_i_do/)
+- [mhewedy/spring-data-jpa-mongodb-expressions](https://www.reddit.com/r/java/comments/o8gqru/mhewedyspringdatajpamongodbexpressions/)
+- [jshell paste bug](https://www.reddit.com/r/java/comments/o8dekx/jshell_paste_bug/)
+- [Best place to practice Java](https://www.reddit.com/r/java/comments/o8959o/best_place_to_practice_java/)
+- [AtomicJar Launches With $4M Seed Funding Round Led by boldstart ventures - AtomicJar, Inc.](https://www.reddit.com/r/java/comments/o870t0/atomicjar_launches_with_4m_seed_funding_round_led/)
 - [A small open-source project](https://www.reddit.com/r/java/comments/o7qfie/a_small_opensource_project/)
 - [Deploy a Dockerized Spring Boot App to AWS, Azure, Google Cloud](https://www.reddit.com/r/java/comments/o7pvw6/deploy_a_dockerized_spring_boot_app_to_aws_azure/)
 - [From Red Hat: Making Java programs cloud-ready, Part 1: An incremental approach using Jakarta EE and MicroProfile](https://www.reddit.com/r/java/comments/o7puty/from_red_hat_making_java_programs_cloudready_part/)
 - [Consuming GraphQL APIs with Quarkus](https://www.reddit.com/r/java/comments/o7pnk2/consuming_graphql_apis_with_quarkus/)
 - [How to implement multiple classes into one? (For D&D character creator)](https://www.reddit.com/r/java/comments/o7n1k0/how_to_implement_multiple_classes_into_one_for_dd/)
 - [Looking for some open source libraries to start learning Kafka and Cassandra in an environment similar to professional setting.](https://www.reddit.com/r/java/comments/o7dxkk/looking_for_some_open_source_libraries_to_start/)
-- [First project: D&D dice roller (almost done!!)](https://www.reddit.com/r/java/comments/o7clhd/first_project_dd_dice_roller_almost_done/)
-- [Cannot get JSTL tags to work with Tomcat 9, tried every solution nothing work](https://www.reddit.com/r/java/comments/o7atag/cannot_get_jstl_tags_to_work_with_tomcat_9_tried/)
-- [Daobab ORM 1.3 has been released](https://www.reddit.com/r/java/comments/o75hlv/daobab_orm_13_has_been_released/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
