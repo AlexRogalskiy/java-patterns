@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Java 8 Library for AWS RDS Data API](https://www.reddit.com/r/java/comments/o96cgu/java_8_library_for_aws_rds_data_api/)
+- [Is JavaFX intended to not function?](https://www.reddit.com/r/java/comments/o968o2/is_javafx_intended_to_not_function/)
+- [Auto photo taker project](https://www.reddit.com/r/java/comments/o946sc/auto_photo_taker_project/)
+- [Building a useful native-image is a pain](https://www.reddit.com/r/java/comments/o8zrqn/building_a_useful_nativeimage_is_a_pain/)
+- [Polyglot VMs, GraalVM and Unikernels Podcast by Observable Stream](https://www.reddit.com/r/java/comments/o8zrnh/polyglot_vms_graalvm_and_unikernels_podcast_by/)
 - [mhewedy/spring-data-jpa-mongodb-expressions](https://www.reddit.com/r/java/comments/o8gqru/mhewedyspringdatajpamongodbexpressions/)
 - [jshell paste bug](https://www.reddit.com/r/java/comments/o8dekx/jshell_paste_bug/)
-- [Best place to practice Java](https://www.reddit.com/r/java/comments/o8959o/best_place_to_practice_java/)
 - [AtomicJar Launches With $4M Seed Funding Round Led by boldstart ventures - AtomicJar, Inc.](https://www.reddit.com/r/java/comments/o870t0/atomicjar_launches_with_4m_seed_funding_round_led/)
 - [A small open-source project](https://www.reddit.com/r/java/comments/o7qfie/a_small_opensource_project/)
 - [Deploy a Dockerized Spring Boot App to AWS, Azure, Google Cloud](https://www.reddit.com/r/java/comments/o7pvw6/deploy_a_dockerized_spring_boot_app_to_aws_azure/)
-- [From Red Hat: Making Java programs cloud-ready, Part 1: An incremental approach using Jakarta EE and MicroProfile](https://www.reddit.com/r/java/comments/o7puty/from_red_hat_making_java_programs_cloudready_part/)
-- [Consuming GraphQL APIs with Quarkus](https://www.reddit.com/r/java/comments/o7pnk2/consuming_graphql_apis_with_quarkus/)
-- [How to implement multiple classes into one? (For D&D character creator)](https://www.reddit.com/r/java/comments/o7n1k0/how_to_implement_multiple_classes_into_one_for_dd/)
-- [Looking for some open source libraries to start learning Kafka and Cassandra in an environment similar to professional setting.](https://www.reddit.com/r/java/comments/o7dxkk/looking_for_some_open_source_libraries_to_start/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
