@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Just got done learning Java](https://www.reddit.com/r/java/comments/o9tupd/just_got_done_learning_java/)
+- [Eclipse 2021-06 Java IDE Improvements](https://www.reddit.com/r/java/comments/o9qsao/eclipse_202106_java_ide_improvements/)
+- [What makes you trust (or distrust) an open source project?](https://www.reddit.com/r/java/comments/o9nj0x/what_makes_you_trust_or_distrust_an_open_source/)
+- [How to Debug Remotely in IntelliJ](https://www.reddit.com/r/java/comments/o9h3dm/how_to_debug_remotely_in_intellij/)
+- [Jetbrains IntelliJ IDEA vs lightweight Jetbrains IDEs](https://www.reddit.com/r/java/comments/o9gi9h/jetbrains_intellij_idea_vs_lightweight_jetbrains/)
+- [Jailer: a truly relational database client.](https://www.reddit.com/r/java/comments/o9eadp/jailer_a_truly_relational_database_client/)
 - [Java 8 Library for AWS RDS Data API](https://www.reddit.com/r/java/comments/o96cgu/java_8_library_for_aws_rds_data_api/)
-- [Is JavaFX intended to not function?](https://www.reddit.com/r/java/comments/o968o2/is_javafx_intended_to_not_function/)
 - [Auto photo taker project](https://www.reddit.com/r/java/comments/o946sc/auto_photo_taker_project/)
 - [Building a useful native-image is a pain](https://www.reddit.com/r/java/comments/o8zrqn/building_a_useful_nativeimage_is_a_pain/)
 - [Polyglot VMs, GraalVM and Unikernels Podcast by Observable Stream](https://www.reddit.com/r/java/comments/o8zrnh/polyglot_vms_graalvm_and_unikernels_podcast_by/)
-- [mhewedy/spring-data-jpa-mongodb-expressions](https://www.reddit.com/r/java/comments/o8gqru/mhewedyspringdatajpamongodbexpressions/)
-- [jshell paste bug](https://www.reddit.com/r/java/comments/o8dekx/jshell_paste_bug/)
-- [AtomicJar Launches With $4M Seed Funding Round Led by boldstart ventures - AtomicJar, Inc.](https://www.reddit.com/r/java/comments/o870t0/atomicjar_launches_with_4m_seed_funding_round_led/)
-- [A small open-source project](https://www.reddit.com/r/java/comments/o7qfie/a_small_opensource_project/)
-- [Deploy a Dockerized Spring Boot App to AWS, Azure, Google Cloud](https://www.reddit.com/r/java/comments/o7pvw6/deploy_a_dockerized_spring_boot_app_to_aws_azure/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
