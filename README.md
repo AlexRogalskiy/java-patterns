@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Just got done learning Java](https://www.reddit.com/r/java/comments/o9tupd/just_got_done_learning_java/)
+- [Any books on spring?](https://www.reddit.com/r/java/comments/oalle1/any_books_on_spring/)
+- [Open documentation - FIDO authentication with Java](https://www.reddit.com/r/java/comments/oafzdk/open_documentation_fido_authentication_with_java/)
+- [Inside Java Podcast - “Java's steady march towards strong encapsulation” with Alan Bateman](https://www.reddit.com/r/java/comments/oabl7z/inside_java_podcast_javas_steady_march_towards/)
+- [If you have ever been curious how to code using state machines...](https://www.reddit.com/r/java/comments/oa9z8v/if_you_have_ever_been_curious_how_to_code_using/)
+- [New to programming, is there any difference between open jdk and oracle jdk in day to day use ?](https://www.reddit.com/r/java/comments/oa9o7h/new_to_programming_is_there_any_difference/)
+- [What version should new Java libraries be written in?](https://www.reddit.com/r/java/comments/oa5pnp/what_version_should_new_java_libraries_be_written/)
 - [Eclipse 2021-06 Java IDE Improvements](https://www.reddit.com/r/java/comments/o9qsao/eclipse_202106_java_ide_improvements/)
 - [What makes you trust (or distrust) an open source project?](https://www.reddit.com/r/java/comments/o9nj0x/what_makes_you_trust_or_distrust_an_open_source/)
 - [How to Debug Remotely in IntelliJ](https://www.reddit.com/r/java/comments/o9h3dm/how_to_debug_remotely_in_intellij/)
 - [Jetbrains IntelliJ IDEA vs lightweight Jetbrains IDEs](https://www.reddit.com/r/java/comments/o9gi9h/jetbrains_intellij_idea_vs_lightweight_jetbrains/)
-- [Jailer: a truly relational database client.](https://www.reddit.com/r/java/comments/o9eadp/jailer_a_truly_relational_database_client/)
-- [Java 8 Library for AWS RDS Data API](https://www.reddit.com/r/java/comments/o96cgu/java_8_library_for_aws_rds_data_api/)
-- [Auto photo taker project](https://www.reddit.com/r/java/comments/o946sc/auto_photo_taker_project/)
-- [Building a useful native-image is a pain](https://www.reddit.com/r/java/comments/o8zrqn/building_a_useful_nativeimage_is_a_pain/)
-- [Polyglot VMs, GraalVM and Unikernels Podcast by Observable Stream](https://www.reddit.com/r/java/comments/o8zrnh/polyglot_vms_graalvm_and_unikernels_podcast_by/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
