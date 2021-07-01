@@ -2,8 +2,9 @@ version: '3.9'
 
 services:
   app:
-    container_name: java-patterns
-    hostname: '$APP_HOSTNAME'
+    container_name: ${APP_CONTAINER_NAME:-'java-patterns'}
+    image: ${APP_IMAGE_NAME:-'java-patterns'}
+    hostname: ${APP_HOST_NAME:-'java-patterns'}
     build:
       context: './'
       dockerfile: Dockerfile
@@ -15,7 +16,7 @@ services:
         volume:
           nocopy: true
       - type: bind
-        source: ./data
+        source: ${APP_DATA_DIR:-./data}
         target: /usr/src/data
     healthcheck:
       test: ['CMD-SHELL', 'nc', '-vz', 'localhost', '8000']

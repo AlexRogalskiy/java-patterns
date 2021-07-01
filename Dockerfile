@@ -7,8 +7,12 @@ FROM ${IMAGE_SOURCE}:${IMAGE_TAG}
 
 ## Setting argument variables
 ARG PYTHON_VERSION=3.8.2
+
 ARG LC_ALL="en_US.UTF-8"
+
+ARG NAME="java-patterns"
 ARG VERSION="0.0.0-dev"
+
 ARG BUILD_DATE="$(git rev-parse --short HEAD)"
 ARG VCS_REF="$(date -u +\"%Y-%m-%dT%H:%M:%SZ\")"
 
@@ -16,7 +20,7 @@ ARG APP_DIR="/usr/src/app"
 ARG DATA_DIR="/usr/src/data"
 
 ## Setting metadata labels
-LABEL "name"="java-patterns"
+LABEL "name"="$NAME"
 LABEL "version"="$VERSION"
 
 LABEL "com.github.repository"="https://github.com/AlexRogalskiy/java-patterns"
@@ -27,7 +31,7 @@ LABEL "com.github.version"="$VERSION"
 LABEL "com.github.build-date"="$BUILD_DATE"
 LABEL "com.github.vcs-ref"="$VCS_REF"
 
-LABEL "com.github.name"="java-patterns"
+LABEL "com.github.name"="$NAME"
 LABEL "com.github.description"="Java Design Patterns"
 
 ## Setting environment variables
@@ -52,17 +56,16 @@ RUN cd /tmp && curl -O https://www.python.org/ftp/python/${PYTHON_VERSION}/Pytho
     make altinstall
 
 RUN apt update
+RUN pip3.8 install --upgrade pip --quiet
 
-RUN pip3.8 install --upgrade pip
-
-RUN pip3.8 install mkdocs --no-cache-dir
-RUN pip3.8 install mkdocs-material --no-cache-dir
-RUN pip3.8 install markdown-include --no-cache-dir
-RUN pip3.8 install mkdocs-techdocs-core --no-cache-dir
-RUN pip3.8 install click-man --no-cache-dir
+RUN pip3.8 install mkdocs --no-cache-dir --quiet
+RUN pip3.8 install mkdocs-material --no-cache-dir --quiet
+RUN pip3.8 install markdown-include --no-cache-dir --quiet
+RUN pip3.8 install mkdocs-techdocs-core --no-cache-dir --quiet
+RUN pip3.8 install click-man --no-cache-dir --quiet
 ## click-man --target path/to/man/pages mkdocs
 
-RUN pip3.8 install cookiecutter --no-cache-dir && \
+RUN pip3.8 install cookiecutter --no-cache-dir --quiet && \
     apt remove -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev libbz2-dev g++ python-pip python-dev && \
     rm -rf /var/cache/apt/* /tmp/Python-${PYTHON_VERSION}
 

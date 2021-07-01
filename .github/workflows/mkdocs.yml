@@ -11,15 +11,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Setup Python
+      - name: Setup Python 3.9
         uses: actions/setup-python@v2
         with:
-          python-version: '3.8'
+          python-version: '3.9'
 
       - name: Upgrade pip
         run: |
           # install pip=>20.1 to use "pip cache dir"
-          python3 -m pip install --upgrade pip
+          python3 -m pip install --upgrade pip --quiet
       - name: Get pip cache dir
         id: pip-cache
         run: echo "::set-output name=dir::$(pip cache dir)"
@@ -33,9 +33,10 @@ jobs:
             ${{ runner.os }}-pip-
 
       - name: Install dependencies
-        run: python3 -m pip install mkdocs mkdocs-material fontawesome_markdown mkdocs-redirects markdown-include
+        run: python3 -m pip install mkdocs mkdocs-material fontawesome_markdown mkdocs-redirects markdown-include --quiet
 
-      - run: mkdocs build
+      - name: Run mkdocs
+        run: mkdocs build --verbose
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
