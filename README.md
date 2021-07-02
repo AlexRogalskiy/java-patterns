@@ -347,7 +347,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Java programmer posts*
 
 <!-- JAVAPROG-POST-LIST:START -->
-
 - [Java Reflection Invoke Static Method](https://www.thejavaprogrammer.com/java-reflection-invoke-static-method/)
 - [Volatile vs Synchronized in Java](https://www.thejavaprogrammer.com/volatile-vs-synchronized/)
 - [One Dimensional Array in Java – 1D Array](https://www.thejavaprogrammer.com/one-dimensional-array/)
@@ -358,7 +357,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Nested Switch in Java](https://www.thejavaprogrammer.com/nested-switch-in-java/)
 - [TreeSet Vs TreeMap in Java](https://www.thejavaprogrammer.com/treeset-vs-treemap/)
 - [How to Access Variable From Another Class in Java?](https://www.thejavaprogrammer.com/how-to-access-variable-from-another-class-in-java/)
-
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### *Dreamix posts*
