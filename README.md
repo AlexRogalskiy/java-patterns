@@ -257,18 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
+- [Handling null and upgrading past Java 8 - Inside Java Newscast #7](https://www.reddit.com/r/java/comments/obscjo/handling_null_and_upgrading_past_java_8_inside/)
+- [Add Auth0 OIDC authentication to a web application using Datawiza in 5 mins](https://www.reddit.com/r/java/comments/obpo0o/add_auth0_oidc_authentication_to_a_web/)
 - [Changing certificates at runtime of a Spring Boot with Jetty server](https://www.reddit.com/r/java/comments/ob5667/changing_certificates_at_runtime_of_a_spring_boot/)
 - [Why do we need function overriding?](https://www.reddit.com/r/java/comments/ob47oe/why_do_we_need_function_overriding/)
-- [Quarkus 2.0.0.Final released - Vert.x 4, MicroProfile 4, Continuous Testing and much more](https://www.reddit.com/r/java/comments/ob3axw/quarkus\_200final_released_vertx\_4\_microprofile\_4/)
-- [Video comparing Java 15 text blocks with other languages](https://www.reddit.com/r/java/comments/ob0s2s/video_comparing_java\_15\_text_blocks_with_other/)
+- [Quarkus 2.0.0.Final released - Vert.x 4, MicroProfile 4, Continuous Testing and much more](https://www.reddit.com/r/java/comments/ob3axw/quarkus_200final_released_vertx_4_microprofile_4/)
+- [Video comparing Java 15 text blocks with other languages](https://www.reddit.com/r/java/comments/ob0s2s/video_comparing_java_15_text_blocks_with_other/)
 - [Any books on spring?](https://www.reddit.com/r/java/comments/oalle1/any_books_on_spring/)
 - [Inside Java Podcast - “Java's steady march towards strong encapsulation” with Alan Bateman](https://www.reddit.com/r/java/comments/oabl7z/inside_java_podcast_javas_steady_march_towards/)
 - [New to programming, is there any difference between open jdk and oracle jdk in day to day use ?](https://www.reddit.com/r/java/comments/oa9o7h/new_to_programming_is_there_any_difference/)
 - [What version should new Java libraries be written in?](https://www.reddit.com/r/java/comments/oa5pnp/what_version_should_new_java_libraries_be_written/)
-- [Eclipse 2021-06 Java IDE Improvements](https://www.reddit.com/r/java/comments/o9qsao/eclipse\_202106\_java_ide_improvements/)
-- [What makes you trust (or distrust) an open source project?](https://www.reddit.com/r/java/comments/o9nj0x/what_makes_you_trust_or_distrust_an_open_source/)
-
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
