@@ -35,11 +35,20 @@ LABEL "com.github.name"="$NAME"
 LABEL "com.github.description"="Java Design Patterns"
 
 ## Setting environment variables
-ENV APP_DIR $APP_DIR
-ENV DATA_DIR $DATA_DIR
-ENV LC_ALL $LC_ALL
-ENV LANG $LC_ALL
 ENV PYTHON_VERSION $PYTHON_VERSION
+
+ENV APP_DIR=$APP_DIR \
+    DATA_DIR=$DATA_DIR
+
+# System-level base config
+ENV TZ=UTC \
+    LANGUAGE=en_US:en \
+    LC_ALL=$LC_ALL \
+    LANG=$LC_ALL \
+    PYTHONIOENCODING=UTF-8 \
+    PYTHONUNBUFFERED=1 \
+    DEBIAN_FRONTEND=noninteractive \
+    APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=1
 
 ## Mounting volumes
 VOLUME ["$APP_DIR"]
