@@ -39,15 +39,16 @@ extra:
       link: 'https://github.com/AlexRogalskiy/java-patterns'
 
 markdown_extensions:
-  - markdown.extensions.admonition
-  - markdown.extensions.codehilite:
+  - admonition
+  - codehilite:
       linenums: true
       use_pygments: false
       guess_lang: false
-  - markdown.extensions.def_list
-  - markdown.extensions.footnotes
-  - markdown.extensions.meta
-  - markdown.extensions.toc:
+  - def_list
+  - footnotes
+  - tables
+  - meta
+  - toc:
       permalink: true
 
 pages:

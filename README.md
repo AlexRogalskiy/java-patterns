@@ -259,21 +259,24 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Handling null and upgrading past Java 8 - Inside Java Newscast #7](https://www.reddit.com/r/java/comments/obscjo/handling_null_and_upgrading_past_java_8_inside/)
-- [Add Auth0 OIDC authentication to a web application using Datawiza in 5 mins](https://www.reddit.com/r/java/comments/obpo0o/add_auth0_oidc_authentication_to_a_web/)
+
+- [Handling null and upgrading past Java 8 - Inside Java Newscast #7](https://www.reddit.com/r/java/comments/obscjo/handling_null_and_upgrading_past_java\_8\_inside/)
+- [Add Auth0 OIDC authentication to a web application using Datawiza in 5 mins](https://www.reddit.com/r/java/comments/obpo0o/add_auth0\_oidc_authentication_to_a_web/)
 - [Changing certificates at runtime of a Spring Boot with Jetty server](https://www.reddit.com/r/java/comments/ob5667/changing_certificates_at_runtime_of_a_spring_boot/)
 - [Why do we need function overriding?](https://www.reddit.com/r/java/comments/ob47oe/why_do_we_need_function_overriding/)
-- [Quarkus 2.0.0.Final released - Vert.x 4, MicroProfile 4, Continuous Testing and much more](https://www.reddit.com/r/java/comments/ob3axw/quarkus_200final_released_vertx_4_microprofile_4/)
-- [Video comparing Java 15 text blocks with other languages](https://www.reddit.com/r/java/comments/ob0s2s/video_comparing_java_15_text_blocks_with_other/)
+- [Quarkus 2.0.0.Final released - Vert.x 4, MicroProfile 4, Continuous Testing and much more](https://www.reddit.com/r/java/comments/ob3axw/quarkus\_200final_released_vertx\_4\_microprofile\_4/)
+- [Video comparing Java 15 text blocks with other languages](https://www.reddit.com/r/java/comments/ob0s2s/video_comparing_java\_15\_text_blocks_with_other/)
 - [Any books on spring?](https://www.reddit.com/r/java/comments/oalle1/any_books_on_spring/)
 - [Inside Java Podcast - “Java's steady march towards strong encapsulation” with Alan Bateman](https://www.reddit.com/r/java/comments/oabl7z/inside_java_podcast_javas_steady_march_towards/)
 - [New to programming, is there any difference between open jdk and oracle jdk in day to day use ?](https://www.reddit.com/r/java/comments/oa9o7h/new_to_programming_is_there_any_difference/)
 - [What version should new Java libraries be written in?](https://www.reddit.com/r/java/comments/oa5pnp/what_version_should_new_java_libraries_be_written/)
+
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+
 - [Kotlin gains Java coding enhancements](https://www.infoworld.com/article/3623371/kotlin-gains-java-coding-enhancements.html#tk.rss_java)
 - [Eclipse launches group to shepherd popular Java IDE](https://www.infoworld.com/article/3622412/eclipse-launches-group-to-shepherd-popular-java-ide.html#tk.rss_java)
 - [Oracle offers Java management service](https://www.infoworld.com/article/3621690/oracle-offers-java-management-service.html#tk.rss_java)
@@ -284,12 +287,14 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Scala 3 ushers in ‘complete overhaul’ of the language](https://www.infoworld.com/article/3608574/scala-3-moves-to-release-candidate-stage.html#tk.rss_java)
 - [Kotlin 1.5.0 arrives with JVM records, sealed interfaces](https://www.infoworld.com/article/3615548/kotlin-150-stabilizes-unsigned-integer-types.html#tk.rss_java)
 - [JetBrains IntelliJ IDE debuts ‘run targets’](https://www.infoworld.com/article/3616168/jetbrains-intellij-ide-debuts-run-targets.html#tk.rss_java)
+
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
 
 <!-- LETSTALK-POST-LIST:START -->
-- [4 Developers 2020](http://letstalkaboutjava.blogspot.com/2020/02/4-developers-2020_9.html)
+
+- [4 Developers 2020](http://letstalkaboutjava.blogspot.com/2020/02/4-developers-2020\_9.html)
 - [You won't do it later!](http://letstalkaboutjava.blogspot.com/2019/12/you-wont-do-it-later.html)
 - [JDD 2019!](http://letstalkaboutjava.blogspot.com/2019/09/once-again-im-media-partner-of-jdd-and.html)
 - [4 Developers 2019](http://letstalkaboutjava.blogspot.com/2019/02/4-developers-2019.html)
@@ -299,11 +304,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JDD is coming!](http://letstalkaboutjava.blogspot.com/2018/08/jdd-is-coming.html)
 - [Just stop for a moment](http://letstalkaboutjava.blogspot.com/2018/06/just-stop-for-moment.html)
 - [Refactoring vs. Redesign](http://letstalkaboutjava.blogspot.com/2017/11/refactoring-vs-redesign.html)
+
 <!-- LETSTALK-POST-LIST:END -->
 
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+
 - [Hibernate's @FetchProfile](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/hibernates-fetchprofile.html)
 - [Docker](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/docker.html)
 - [Aristotle's Wheel Paradox - To Infinity and Beyond](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/aristotles-wheel-paradox-to-infinity.html)
@@ -314,11 +321,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Jelastic CLI](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/jelastic-cli.html)
 - [Alternate Docroots](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/alternate-docroots.html)
 - [Learning Kotlin](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/learning-kotlin.html)
+
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
 
 <!-- BETTERCODE-POST-LIST:START -->
+
 - [Integration Testing in Spring Boot Application](https://betterjavacode.com/programming/integration-testing-in-spring-boot-application)
 - [Controller Advice – Exception Handler in Spring Boot](https://betterjavacode.com/programming/controller-advice-exception-handler-in-spring-boot)
 - [How To Use AWS Sagemaker](https://betterjavacode.com/programming/how-to-use-aws-sagemaker)
@@ -329,11 +338,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Spring Retry vs Resilience4j Retry](https://betterjavacode.com/programming/spring-retry-vs-resilience4j-retry)
 - [How to Deploy Spring Boot Application on AWS ECS](https://betterjavacode.com/aws/how-to-deploy-spring-boot-application-on-aws-ecs)
 - [User Management with Okta SDK and Spring Boot](https://betterjavacode.com/spring-boot/user-management-with-okta-sdk-and-spring-boot)
+
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+
 - [Inside Java Newscast #7](https://inside.java/2021/07/01/insidejava-newscast-007/)
 - [Episode 18 “Java’s steady march towards strong encapsulation” with Alan Bateman](https://inside.java/2021/06/29/podcast-018/)
 - [JEP Café #1](https://inside.java/2021/06/23/jepcafe/)
@@ -344,11 +355,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JEP proposed to target JDK 17: 415: Context-Specific Deserialization Filters](https://inside.java/2021/06/01/jep415-proposed-to-target-jdk17/)
 - [Virtual Threads and Structured Concurrency with Ron Pressler](https://inside.java/2021/05/31/qcon-ron-interview/)
 - [Updates to JEP 411: Deprecate the Security Manager for Removal](https://inside.java/2021/05/29/updates-to-jep-411/)
+
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
 
 <!-- JAVAPROG-POST-LIST:START -->
+
 - [Java Reflection Invoke Static Method](https://www.thejavaprogrammer.com/java-reflection-invoke-static-method/)
 - [Volatile vs Synchronized in Java](https://www.thejavaprogrammer.com/volatile-vs-synchronized/)
 - [One Dimensional Array in Java – 1D Array](https://www.thejavaprogrammer.com/one-dimensional-array/)
@@ -359,11 +372,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Nested Switch in Java](https://www.thejavaprogrammer.com/nested-switch-in-java/)
 - [TreeSet Vs TreeMap in Java](https://www.thejavaprogrammer.com/treeset-vs-treemap/)
 - [How to Access Variable From Another Class in Java?](https://www.thejavaprogrammer.com/how-to-access-variable-from-another-class-in-java/)
+
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### *Dreamix posts*
 
 <!-- DREAMIX-POST-LIST:START -->
+
 - [Java vs JavaScript: How to Choose the Right Backend Technology?](https://dreamix.eu/blog/java/java-vs-javascript-how-to-choose-the-right-backend-technology)
 - [Splitting String in Java –  Examples and Tips](https://dreamix.eu/blog/java/splitting-string-in-java-examples-and-tips)
 - [Learn from Java Champion Gerrit Grunwald: JavaFx – not dead yet](https://dreamix.eu/blog/java/learn-from-java-champion-gerrit-grunwald-javafx-not-dead-yet)
@@ -374,11 +389,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [5 Reasons Why Bespoke Software Development Projects Succeed](https://dreamix.eu/blog/java/5-reasons-why-bespoke-software-development-projects-succeed)
 - [Continuous Integration and Delivery to Improve the Software Development Workflow](https://dreamix.eu/blog/java/continuous-integration-and-delivery-to-improve-the-software-development-workflow)
 - [Why good (clean) software architecture matters](https://dreamix.eu/blog/java/why-good-clean-software-architecture-matters)
+
 <!-- DREAMIX-POST-LIST:END -->
 
 ### *Plumbr posts*
 
 <!-- PLUMBR-POST-LIST:START -->
+
 - [Plumbr has been acquired by Splunk](https://plumbr.io/blog/plumbr-blog/acquired-by-splunk)
 - [Using Plumbr with OpenTelemetry NodeJS agent](https://plumbr.io/blog/plumbr-blog/using-plumbr-with-opentelemetry-nodejs-agent)
 - [Extending Plumbr RUM with Web Vitals metrics](https://plumbr.io/blog/performance-blog/extending-plumbr-rum-with-web-vitals-metrics)
@@ -389,11 +406,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Plumbr now monitors Python applications and APIs](https://plumbr.io/blog/product-updates/plumbr-now-monitors-python-applications-and-apis)
 - [Distributed tracing in practice](https://plumbr.io/blog/tracing/distributed-tracing-in-practice)
 - [Plumbr now supports application versioning](https://plumbr.io/blog/product-updates/plumbr-now-supports-application-versioning)
+
 <!-- PLUMBR-POST-LIST:END -->
 
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
+
 - [Migrating from JPA 2.x to 3.0](https://thorben-janssen.com/migrating-jpa-2-x-to-3-0/)
 - [Hibernate’s Query Plan Cache – How It Works and How to Tune It](https://thorben-janssen.com/hibernate-query-plan-cache/)
 - [Hibernate Proxies – Why they’re used and how to unproxy them](https://thorben-janssen.com/hibernate-proxies/)
@@ -404,6 +423,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Coffee with Thorben 2020-03-05 – Natural vs Surrogate Keys](https://thorben-janssen.com/coffee-with-thorben-2020-02-19-utility-classes-2/)
 - [Configuring Spring Data JPA with Spring Boot](https://thorben-janssen.com/configuring-spring-data-jpa-with-spring-boot/)
 - [Coffee with Thorben 2020-02-26 – Utility classes that make your life easier](https://thorben-janssen.com/coffee-with-thorben-2020-02-19-utility-classes/)
+
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*
