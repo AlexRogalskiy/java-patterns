@@ -317,7 +317,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Better code posts*
 
 <!-- BETTERCODE-POST-LIST:START -->
-
 - [Integration Testing in Spring Boot Application](https://betterjavacode.com/programming/integration-testing-in-spring-boot-application)
 - [Controller Advice – Exception Handler in Spring Boot](https://betterjavacode.com/programming/controller-advice-exception-handler-in-spring-boot)
 - [How To Use AWS Sagemaker](https://betterjavacode.com/programming/how-to-use-aws-sagemaker)
@@ -328,7 +327,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Spring Retry vs Resilience4j Retry](https://betterjavacode.com/programming/spring-retry-vs-resilience4j-retry)
 - [How to Deploy Spring Boot Application on AWS ECS](https://betterjavacode.com/aws/how-to-deploy-spring-boot-application-on-aws-ecs)
 - [User Management with Okta SDK and Spring Boot](https://betterjavacode.com/spring-boot/user-management-with-okta-sdk-and-spring-boot)
-
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### *Inside Java posts*
