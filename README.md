@@ -257,18 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
-- [Handling null and upgrading past Java 8 - Inside Java Newscast #7](https://www.reddit.com/r/java/comments/obscjo/handling_null_and_upgrading_past_java\_8\_inside/)
-- [Add Auth0 OIDC authentication to a web application using Datawiza in 5 mins](https://www.reddit.com/r/java/comments/obpo0o/add_auth0\_oidc_authentication_to_a_web/)
+- [New Laptop, now I need a new IDE...](https://www.reddit.com/r/java/comments/ocnyfb/new_laptop_now_i_need_a_new_ide/)
+- [add support for secondary carriers to memory access API](https://www.reddit.com/r/java/comments/ock2ix/add_support_for_secondary_carriers_to_memory/)
+- [Is Jasper still the best Report Engine?](https://www.reddit.com/r/java/comments/ocdszt/is_jasper_still_the_best_report_engine/)
+- [128-bit floating-point arithmetic for Java](https://www.reddit.com/r/java/comments/ocaj6j/128bit_floatingpoint_arithmetic_for_java/)
+- [Moduliths 1.1 GA released](https://www.reddit.com/r/java/comments/oc97v8/moduliths_11_ga_released/)
+- [I've made WiseLoader, a classloader that creates a secure sandbox by whitelisting classes that can be loaded. Useful for loading third party plugins in wake of JEP 411: Deprecate the Security Manager](https://www.reddit.com/r/java/comments/oc5oks/ive_made_wiseloader_a_classloader_that_creates_a/)
+- [Handling null and upgrading past Java 8 - Inside Java Newscast #7](https://www.reddit.com/r/java/comments/obscjo/handling_null_and_upgrading_past_java_8_inside/)
+- [Add Auth0 OIDC authentication to a web application using Datawiza in 5 mins](https://www.reddit.com/r/java/comments/obpo0o/add_auth0_oidc_authentication_to_a_web/)
 - [Changing certificates at runtime of a Spring Boot with Jetty server](https://www.reddit.com/r/java/comments/ob5667/changing_certificates_at_runtime_of_a_spring_boot/)
 - [Why do we need function overriding?](https://www.reddit.com/r/java/comments/ob47oe/why_do_we_need_function_overriding/)
-- [Quarkus 2.0.0.Final released - Vert.x 4, MicroProfile 4, Continuous Testing and much more](https://www.reddit.com/r/java/comments/ob3axw/quarkus\_200final_released_vertx\_4\_microprofile\_4/)
-- [Video comparing Java 15 text blocks with other languages](https://www.reddit.com/r/java/comments/ob0s2s/video_comparing_java\_15\_text_blocks_with_other/)
-- [Any books on spring?](https://www.reddit.com/r/java/comments/oalle1/any_books_on_spring/)
-- [Inside Java Podcast - “Java's steady march towards strong encapsulation” with Alan Bateman](https://www.reddit.com/r/java/comments/oabl7z/inside_java_podcast_javas_steady_march_towards/)
-- [New to programming, is there any difference between open jdk and oracle jdk in day to day use ?](https://www.reddit.com/r/java/comments/oa9o7h/new_to_programming_is_there_any_difference/)
-- [What version should new Java libraries be written in?](https://www.reddit.com/r/java/comments/oa5pnp/what_version_should_new_java_libraries_be_written/)
-
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
