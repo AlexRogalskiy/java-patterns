@@ -1,3 +1,5 @@
+name: Repository Traffic
+
 on:
   workflow_dispatch:
   schedule:
