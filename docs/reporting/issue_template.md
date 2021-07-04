@@ -1,6 +1,6 @@
 ***
 
-## name: Issue report&#xD;&#xA;about: Create an issue report&#xD;&#xA;title: ''&#xD;&#xA;labels: ''&#xD;&#xA;assignees: ''
+## Name: Issue report&#xD;&#xA;about: Create an issue report&#xD;&#xA;title: ''&#xD;&#xA;labels: ''&#xD;&#xA;assignees: ''
 
 # ![image info](/docs/assets/icons/icons8-template-64.png) Issue Report
 
@@ -14,7 +14,7 @@
     PERFORMANCE
 - **Reproducibility**: \[always, sometimes, random]
 - **Severity**: \[feature, minor, major, crash, block]
-- **Tool/Service/Component**: \[name, version] e.g. "PIT 1.2.0, Descartes 0.2-SNAPSHOT, PITMP 1.0.1""
+- **Tool/Service/Component**: \[name, version] for example "PIT 1.2.0, Descartes 0.2-SNAPSHOT, PITMP 1.0.1""
 - **Execution Environment**: \[platform, OS, etc] Description of the execution environment, e.g "Linux
   OpenSuse Tumbleweed" or "Linux Ubuntu 16.04.1" including information about the version of the executed
   STAMP tools/services and their local dependencies (in case of standalone execution)
@@ -29,8 +29,8 @@ formal syntax: As a <role>, I can <activity> so that <business value> With this 
 involved in the requirement analysis can understand both the role of the user and the business benefit that
 the new functionality provides. For bugs, this section should describe as well:
 
-- the observed execution behavior and obtained results;
-- the expected execution behavior and results.
+- The observed execution behavior and obtained results;
+- The expected execution behavior and results.
 
 ## *Steps to reproduce*
 

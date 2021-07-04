@@ -15,7 +15,7 @@ commands from the root of your repo:
 
 ### Step 2: Search Relevant Places For Similar Issues
 
-- \[ ] Search issues on the [repo](https://github.com/AlexRogalsky/object-mappers-playground/) for a similar
+- \[ ] Search issues on the [repository](https://github.com/AlexRogalsky/object-mappers-playground/) for a similar
   problems?
 - \[ ] Read the [README](https://github.com/AlexRogalsky/object-mappers-playground/blob/master/README.md)
   carefully
@@ -27,10 +27,10 @@ commands from the root of your repo:
   - Pay attention to the emitted logs when you save your notebooks or files. Often, you will see errors
     here that will give you important clues.
 - \[ ] When developing locally, you will notice that Jupyter notebooks are converted to corresponding
-  markdown files in the `_posts` folder. Take a look at the problematic blog posts and see if you can spot
-  the offending HTML or markdown in that code.
+  Markdown files in the `_posts` folder. Take a look at the problematic blog posts and see if you can spot
+  the offending HTML or Markdown in that code.
 - Use your browser's developer tools to see if there are any errors. Common errors are (1) not able to find
-  images because they have not been saved into the right folder, (2) javascript or other errors.
+  images because they have not been saved into the right folder, (2) JavaScript or other errors.
 - If you receive a Jekyll build error or a Liquid error, search for this error on Stack Overflow to provide
   more insight on the problem.
 
@@ -45,12 +45,12 @@ commands from the root of your repo:
 - \[ ] If you cannot find a similar issue create a new thread instead of commenting on an unrelated one.
 - When reporting a bug, provide this information:
   1. Steps to reproduce the problem
-  2. A link to the notebook or markdown file where the error is occurring
+  2. A link to the notebook or Markdown file where the error is occurring
   3. If the error is happening in GitHub Actions, a link to the specific error along with how you are able
      to reproduce this error. You must provide this **in addition to the link to the notebook or markdown
      file**.
   4. A screenshot / dump of relevant logs or error messages you are receiving from your local development
-     environment. the local development server as indicated in the
+     environment. The local development server as indicated in the
      [development guide](https://github.com/fastai/fastpages/blob/master/\_fastpages_docs/DEVELOPMENT.md).
 
 **You must provide ALL of the above information**.
@@ -63,7 +63,7 @@ commands from the root of your repo:
 
    `- title: "Deep learning: A tutorial"`
 
-   or in a notebook
+   Or in a notebook
 
    `# "Deep learning: A tutorial"`
 

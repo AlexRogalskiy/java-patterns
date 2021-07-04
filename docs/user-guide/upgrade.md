@@ -53,7 +53,7 @@ accept or reject. For most people we recommend upgrading fastpages automatically
 
 ### Easy Way (Recommended)
 
-Create a new repo with the current project by following the
+Create a new repository with the current project by following the
 [setup instructions](https://github.com/AlexRogalskiy/object-mappers-playground#setup-instructions) in the
 README.
 

@@ -1,6 +1,6 @@
 ***
 
-## name: Bug report&#xD;&#xA;about: Create a report to help us improve&#xD;&#xA;title: ''&#xD;&#xA;labels: ''&#xD;&#xA;assignees: ''
+## Name: Bug report&#xD;&#xA;about: Create a report to help us improve&#xD;&#xA;title: ''&#xD;&#xA;labels: ''&#xD;&#xA;assignees: ''
 
 # ![image info](/docs/assets/icons/icons8-template-64.png) Bug Report
 
@@ -15,15 +15,15 @@
 
 **Desktop (please complete the following information):**
 
-- OS: \[e.g. iOS]
-- Browser \[e.g. chrome, safari]
-- Version \[e.g. 22]
+- OS: \[for example IOS]
+- Browser \[for example Chrome, safari]
+- Version \[for example 22]
 
-**Smartphone (please complete the following information):**
+**Mobile phone (please complete the following information):**
 
-- Device: \[e.g. iPhone6]
-- OS: \[e.g. iOS8.1]
-- Browser \[e.g. stock browser, safari]
-- Version \[e.g. 22]
+- Device: \[for example IPhone6]
+- OS: \[for example IOS8.1]
+- Browser \[for example Stock browser, safari]
+- Version \[for example 22]
 
 **Additional context** Add any other context about the problem here.

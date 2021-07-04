@@ -11,6 +11,7 @@
         "format": "prettier --single-quote --write **/*.{json,yaml,yml}",
         "format:md": "remark-preset-davidtheclark --format",
         "format:check": "prettier --check **/*.{json,yaml,yml}",
+        "lint:text": "textlint docs",
         "lint:md": "remark-preset-davidtheclark",
         "lint:json": "jsonlint ./package.json --quiet",
         "lint:style": "stylelint --color --disable-default-ignores --allow-empty-input verbose **/*.{css,scss,sass}",
@@ -60,7 +61,14 @@
         "remark-lint-ordered-list-marker-value": "^2.0.1",
         "remark-preset-davidtheclark": "^0.12.0",
         "remark-validate-links": "^10.0.2",
-        "repo-link-check": "^0.7.1"
+        "repo-link-check": "^0.7.1",
+        "textlint": "^11.3.1",
+        "textlint-rule-alex": "^1.3.1",
+        "textlint-rule-common-misspellings": "^1.0.1",
+        "textlint-rule-en-capitalization": "^2.0.2",
+        "textlint-rule-stop-words": "^1.0.17",
+        "textlint-rule-terminology": "^1.1.30",
+        "textlint-rule-write-good": "^1.6.2"
     },
     "repository": {
         "type": "git",

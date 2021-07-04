@@ -1,6 +1,6 @@
 ***
 
-## name: Custom issue template&#xD;&#xA;about: Describe this issue template's purpose here.&#xD;&#xA;steps: ''&#xD;&#xA;labels: ''&#xD;&#xA;assignees: ''
+## Name: Custom issue template&#xD;&#xA;about: Describe this issue template's purpose here.&#xD;&#xA;steps: ''&#xD;&#xA;labels: ''&#xD;&#xA;assignees: ''
 
 # ![image info](/docs/assets/icons/icons8-template-64.png) Custom Report
 

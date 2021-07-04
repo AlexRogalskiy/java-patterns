@@ -3,7 +3,7 @@
 Thanks for contributing to ObjectMappers!
 
 This is a set of guidelines for contributing to IceCore Hashids. Please take a moment to review this document
-in order to make the contribution process easy and effective for everyone involved.
+to make the contribution process easy and effective for everyone involved.
 
 Following these guidelines helps to communicate that you respect the time of the developers managing and
 developing this open source project. In return, they should reciprocate that respect in addressing your issue,
@@ -27,7 +27,7 @@ The project development workflow and process uses
 and pull requests.
 
 Before you continue with this contribution guideslines we highly recommend to read the awesome GitHub
-[Open Source Guide](https://opensource.guide) on how to
+[Open source Guide](https://opensource.guide) on how to
 [making open source contributions](https://opensource.guide/how-to-contribute).
 
 ### *Bug Reports*
@@ -67,7 +67,7 @@ the information it asks for helps maintainers to reproduce the problem and resol
 
 If possible please provide more context by answering these questions:
 
-- **Did the problem start happening recently** (e.g. after updating to a new version of IceCore Hashids) or
+- **Did the problem start happening recently** (for example after updating to a new version of IceCore Hashids) or
   was this always a problem? If the problem started happening recently, **can you reproduce the problem in
   an older version of IceCore Hashids**? What is the most recent version in which the problem does not
   happen?
@@ -177,7 +177,7 @@ model. The repository consists of two core branches with an infinite development
 ### *Improve Issues*
 
 Some issues are created with missing information, not reproducible, or plain invalid. You can help to make it
-easier for maintainer to understand and resolve them faster. since handling issues takes a lot of time that
+easier for maintainer to understand and resolve them faster. Since handling issues takes a lot of time that
 could rather spend on writing code.
 
 ### *Give Feedback On Issues and Pull Requests*
@@ -188,7 +188,7 @@ opportunity to influence the future direction of IceCore Hashids.
 The [question](https://github.com/AlexRogalskiy/object-mappers-playground/labels/question) issue label is a
 good place to find ongoing discussions and questions.
 
-## *Styleguides*
+## *StyleguIDes*
 
 Every major open source project has its own style guide, a set of standards and conventions for the writing
 and design of code, documentations and Git commit messages. It is much easier to understand a large codebase
@@ -252,7 +252,7 @@ bug. Streamline your example in one of two ways:
 #### *Minimal and readable*
 
 Minimal does not mean terse – don't sacrifice communication to brevity. Use consistent naming and indentation
-following the [styleguide](info.md#styleguides), and include comments if needed to explain portions of the
+following the [styleguIDe](info.md#styleguides), and include comments if needed to explain portions of the
 code.
 
 ### *Complete*
@@ -283,7 +283,7 @@ Every significant change is documented in the
 
 ## *Credits*
 
-Thanks for the inspirations and attributions to GitHub's [Open Source Guides](https://opensource.guide) and
+Thanks for the inspirations and attributions to GitHub's [Open source Guides](https://opensource.guide) and
 various contribution guides of large open source projects like
 [Atom](https://github.com/atom/atom/blob/master/CONTRIBUTING.md),
 [React](https://facebook.github.io/react/contributing/how-to-contribute.html) and

@@ -95,7 +95,7 @@ any free file hosting service or paste the code in
 Paste the full stack trace, error messages or the logfile here ...
 ```
 
-... or [attach them as files](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests)
+... Or [attach them as files](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests)
 to this issue.
 
 ## *References*

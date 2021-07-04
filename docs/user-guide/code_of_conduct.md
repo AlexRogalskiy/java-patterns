@@ -86,10 +86,10 @@ and project owner as named above and will not be discussed with the person respo
 
 This Code of Conduct applies both within project spaces and in public spaces when an individual is
 representing the project or its community. Examples of representing a project or community include using an
-official project e-mail address, posting via an official social media account, or acting as an appointed
+official project email address, posting via an official social media account, or acting as an appointed
 representative at an online or offline event. Representation of a project may be further defined and clarified
 by project maintainers.
 
-Thanks for the inspirations and attributions to GitHub's [Open Source Guides](https://opensource.guide),
+Thanks for the inspirations and attributions to GitHub's [Open source Guides](https://opensource.guide),
 [Hoodie's Code of Conduct](http://hood.ie/code-of-conduct) and the
 [Contributor Covenant Version 1.4](http://contributor-covenant.org/version/1/4/).

@@ -1,6 +1,6 @@
 ***
 
-## name: Feature request&#xD;&#xA;about: Suggest an idea for this project&#xD;&#xA;title: ''&#xD;&#xA;labels: ''&#xD;&#xA;assignees: ''
+## Name: Feature request&#xD;&#xA;about: Suggest an idea for this project&#xD;&#xA;title: ''&#xD;&#xA;labels: ''&#xD;&#xA;assignees: ''
 
 # ![image info](/docs/assets/icons/icons8-template-64.png) Feature Request Template
 
