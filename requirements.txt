@@ -1,2 +1,2 @@
-mkdocs-material==7.1.2
-markdown-include==0.6.0
+Mkdocs-material==7.1.2
+Markdown-include==0.6.0
