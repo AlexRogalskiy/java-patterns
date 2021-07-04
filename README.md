@@ -260,6 +260,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- REDDIT-POST-LIST:START -->
 
+- [OpenCV based bot for solitaire "Sigmar's Garden" from Zachtronics Game "Opus Magnum"](https://www.reddit.com/r/java/comments/od0ndc/opencv_based_bot_for_solitaire_sigmars_garden/)
+- [Any good alternatives to Apache POI for creating Excel spreadsheets?](https://www.reddit.com/r/java/comments/ocs1r6/any_good_alternatives_to_apache_poi_for_creating/)
 - [New Laptop, now I need a new IDE...](https://www.reddit.com/r/java/comments/ocnyfb/new_laptop_now_i_need_a_new_ide/)
 - [add support for secondary carriers to memory access API](https://www.reddit.com/r/java/comments/ock2ix/add_support_for_secondary_carriers_to_memory/)
 - [Is Jasper still the best Report Engine?](https://www.reddit.com/r/java/comments/ocdszt/is_jasper_still_the_best_report_engine/)
@@ -268,8 +270,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [I've made WiseLoader, a classloader that creates a secure sandbox by whitelisting classes that can be loaded. Useful for loading third party plugins in wake of JEP 411: Deprecate the Security Manager](https://www.reddit.com/r/java/comments/oc5oks/ive_made_wiseloader_a_classloader_that_creates_a/)
 - [Handling null and upgrading past Java 8 - Inside Java Newscast #7](https://www.reddit.com/r/java/comments/obscjo/handling_null_and_upgrading_past_java\_8\_inside/)
 - [Add Auth0 OIDC authentication to a web application using Datawiza in 5 mins](https://www.reddit.com/r/java/comments/obpo0o/add_auth0\_oidc_authentication_to_a_web/)
-- [Changing certificates at runtime of a Spring Boot with Jetty server](https://www.reddit.com/r/java/comments/ob5667/changing_certificates_at_runtime_of_a_spring_boot/)
-- [Why do we need function overriding?](https://www.reddit.com/r/java/comments/ob47oe/why_do_we_need_function_overriding/)
 
 <!-- REDDIT-POST-LIST:END -->
 

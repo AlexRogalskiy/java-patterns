@@ -12,6 +12,7 @@ pull_request_rules:
       merge:
         method: squash
         strict: smart
+        strict_method: merge
 
   # if there is a conflict in a backport PR, ping the author to send a proper backport PR
   - name: ping author on conflicts
@@ -56,3 +57,15 @@ pull_request_rules:
       - merged
     actions:
       delete_head_branch: {}
+
+  - name: Automatically approve Dependabot PRs
+    conditions:
+      - base=master
+      - author~=^dependabot(|-preview)\[bot\]$
+      - -title~=(WIP|wip)
+      - -label~=(blocked|do-not-merge)
+      - -merged
+      - -closed
+    actions:
+      review:
+        type: APPROVE
