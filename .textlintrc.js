@@ -6,7 +6,7 @@ const allRules = {
     allow: ['color', 'hook', 'host-hostess', 'itch'],
   },
   'common-misspellings': true,
-  'en-capitalization': true,
+  'en-capitalization': false,
   'stop-words': {
     exclude: [
       'relative to', // We need to talk about links "relative to the root",
