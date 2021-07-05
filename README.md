@@ -347,7 +347,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Java programmer posts*
 
 <!-- JAVAPROG-POST-LIST:START -->
-
 - [Evaluate Postfix Expression in Java](https://www.thejavaprogrammer.com/evaluate-postfix-expression-in-java/)
 - [Java Reflection Invoke Static Method](https://www.thejavaprogrammer.com/java-reflection-invoke-static-method/)
 - [Volatile vs Synchronized in Java](https://www.thejavaprogrammer.com/volatile-vs-synchronized/)
@@ -358,7 +357,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Advantages and Disadvantages of Generics in Java](https://www.thejavaprogrammer.com/advantages-and-disadvantages-of-generics-in-java/)
 - [Nested Switch in Java](https://www.thejavaprogrammer.com/nested-switch-in-java/)
 - [TreeSet Vs TreeMap in Java](https://www.thejavaprogrammer.com/treeset-vs-treemap/)
-
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### *Dreamix posts*
