@@ -332,7 +332,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
-
 - [Inside Java Newscast #7](https://inside.java/2021/07/01/insidejava-newscast-007/)
 - [Episode 18 “Java’s steady march towards strong encapsulation” with Alan Bateman](https://inside.java/2021/06/29/podcast-018/)
 - [JEP Café #1](https://inside.java/2021/06/23/jepcafe/)
@@ -343,7 +342,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JEP proposed to target JDK 17: 415: Context-Specific Deserialization Filters](https://inside.java/2021/06/01/jep415-proposed-to-target-jdk17/)
 - [Virtual Threads and Structured Concurrency with Ron Pressler](https://inside.java/2021/05/31/qcon-ron-interview/)
 - [Updates to JEP 411: Deprecate the Security Manager for Removal](https://inside.java/2021/05/29/updates-to-jep-411/)
-
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
