@@ -257,18 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
+- [Wondering if any of you guys have recommendations for books on the topic of Java game development?](https://www.reddit.com/r/java/comments/odxdnk/wondering_if_any_of_you_guys_have_recommendations/)
+- [Why learn Java and what should I try to get out of the experience?](https://www.reddit.com/r/java/comments/odvv5b/why_learn_java_and_what_should_i_try_to_get_out/)
+- [JVM Monitoring Tools/APM’s – The Ultimate List](https://www.reddit.com/r/java/comments/odtftv/jvm_monitoring_toolsapms_the_ultimate_list/)
+- [Is it possible to learn Spring Boot without learning Spring ? If yes, is that the best and acceptable way to go forward ?](https://www.reddit.com/r/java/comments/odqrdp/is_it_possible_to_learn_spring_boot_without/)
+- [Best phase for PMD/Checkstyle checks](https://www.reddit.com/r/java/comments/odnnm9/best_phase_for_pmdcheckstyle_checks/)
+- [Coming from JS and Python background I am comfortable with VS code and now I am developing Spring apps and I wondering if I miss a lot if I don’t use intellij or Eclipse and just stick with vscode and its packages?](https://www.reddit.com/r/java/comments/odmntl/coming_from_js_and_python_background_i_am/)
+- [Hashtag Jakarta EE #79](https://www.reddit.com/r/java/comments/odiw0d/hashtag_jakarta_ee_79/)
 - [OpenCV based bot for solitaire "Sigmar's Garden" from Zachtronics Game "Opus Magnum"](https://www.reddit.com/r/java/comments/od0ndc/opencv_based_bot_for_solitaire_sigmars_garden/)
 - [Any good alternatives to Apache POI for creating Excel spreadsheets?](https://www.reddit.com/r/java/comments/ocs1r6/any_good_alternatives_to_apache_poi_for_creating/)
 - [New Laptop, now I need a new IDE...](https://www.reddit.com/r/java/comments/ocnyfb/new_laptop_now_i_need_a_new_ide/)
-- [add support for secondary carriers to memory access API](https://www.reddit.com/r/java/comments/ock2ix/add_support_for_secondary_carriers_to_memory/)
-- [Is Jasper still the best Report Engine?](https://www.reddit.com/r/java/comments/ocdszt/is_jasper_still_the_best_report_engine/)
-- [128-bit floating-point arithmetic for Java](https://www.reddit.com/r/java/comments/ocaj6j/128bit_floatingpoint_arithmetic_for_java/)
-- [Moduliths 1.1 GA released](https://www.reddit.com/r/java/comments/oc97v8/moduliths\_11\_ga_released/)
-- [I've made WiseLoader, a classloader that creates a secure sandbox by whitelisting classes that can be loaded. Useful for loading third party plugins in wake of JEP 411: Deprecate the Security Manager](https://www.reddit.com/r/java/comments/oc5oks/ive_made_wiseloader_a_classloader_that_creates_a/)
-- [Handling null and upgrading past Java 8 - Inside Java Newscast #7](https://www.reddit.com/r/java/comments/obscjo/handling_null_and_upgrading_past_java\_8\_inside/)
-- [Add Auth0 OIDC authentication to a web application using Datawiza in 5 mins](https://www.reddit.com/r/java/comments/obpo0o/add_auth0\_oidc_authentication_to_a_web/)
-
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
