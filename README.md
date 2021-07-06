@@ -257,6 +257,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Can someone help me with understanding how Streams in Java work?](https://www.reddit.com/r/java/comments/oel704/can_someone_help_me_with_understanding_how/)
+- [Want to learn Java Without IDE - Suggest best sources](https://www.reddit.com/r/java/comments/oe43sy/want_to_learn_java_without_ide_suggest_best/)
 - [Wondering if any of you guys have recommendations for books on the topic of Java game development?](https://www.reddit.com/r/java/comments/odxdnk/wondering_if_any_of_you_guys_have_recommendations/)
 - [Why learn Java and what should I try to get out of the experience?](https://www.reddit.com/r/java/comments/odvv5b/why_learn_java_and_what_should_i_try_to_get_out/)
 - [JVM Monitoring Tools/APM’s – The Ultimate List](https://www.reddit.com/r/java/comments/odtftv/jvm_monitoring_toolsapms_the_ultimate_list/)
@@ -265,8 +267,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Coming from JS and Python background I am comfortable with VS code and now I am developing Spring apps and I wondering if I miss a lot if I don’t use intellij or Eclipse and just stick with vscode and its packages?](https://www.reddit.com/r/java/comments/odmntl/coming_from_js_and_python_background_i_am/)
 - [Hashtag Jakarta EE #79](https://www.reddit.com/r/java/comments/odiw0d/hashtag_jakarta_ee_79/)
 - [OpenCV based bot for solitaire "Sigmar's Garden" from Zachtronics Game "Opus Magnum"](https://www.reddit.com/r/java/comments/od0ndc/opencv_based_bot_for_solitaire_sigmars_garden/)
-- [Any good alternatives to Apache POI for creating Excel spreadsheets?](https://www.reddit.com/r/java/comments/ocs1r6/any_good_alternatives_to_apache_poi_for_creating/)
-- [New Laptop, now I need a new IDE...](https://www.reddit.com/r/java/comments/ocnyfb/new_laptop_now_i_need_a_new_ide/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
