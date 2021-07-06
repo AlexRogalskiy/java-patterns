@@ -45,7 +45,7 @@
         "all": "npm run format:all && npm run lint:all && npm run check:all && npm run test:all"
     },
     "devDependencies": {
-        "alex": "^5.1.0",
+        "alex": "^9.1.0",
         "conventional-changelog-cli": "^2.0.0",
         "dockerfile_lint": "0.3.4",
         "husky": "^5.0.8",
