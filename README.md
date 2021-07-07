@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Organizing your code with hierarchical clustering and Maven](https://www.reddit.com/r/java/comments/of7kur/organizing_your_code_with_hierarchical_clustering/)
+- [Hello, Spring GraphQL](https://www.reddit.com/r/java/comments/of17ua/hello_spring_graphql/)
+- [Is it common to mix different frameworks in Java applications?](https://www.reddit.com/r/java/comments/of17dp/is_it_common_to_mix_different_frameworks_in_java/)
+- [3.15.0 Release with support for R2DBC, nested ROW, ARRAY, and MULTISET types, 5 new SQL dialects, CREATE PROCEDURE, FUNCTION, and TRIGGER support and much more](https://www.reddit.com/r/java/comments/oewtiz/3150_release_with_support_for_r2dbc_nested_row/)
+- [Does anyone else find Spring overwhelming? It is so powerful that I find myself spending a lot of time figuring out how to do something the "Spring Way". How do you ensure you are using Spring to its full potential.](https://www.reddit.com/r/java/comments/oevdq1/does_anyone_else_find_spring_overwhelming_it_is/)
+- [Building RESTful APIs with Eclipse Vertx](https://www.reddit.com/r/java/comments/oeqnzk/building_restful_apis_with_eclipse_vertx/)
+- [What is the best source for keeping up to date with the changes in each new release of Java](https://www.reddit.com/r/java/comments/oem25e/what_is_the_best_source_for_keeping_up_to_date/)
 - [Can someone help me with understanding how Streams in Java work?](https://www.reddit.com/r/java/comments/oel704/can_someone_help_me_with_understanding_how/)
 - [Want to learn Java Without IDE - Suggest best sources](https://www.reddit.com/r/java/comments/oe43sy/want_to_learn_java_without_ide_suggest_best/)
 - [Wondering if any of you guys have recommendations for books on the topic of Java game development?](https://www.reddit.com/r/java/comments/odxdnk/wondering_if_any_of_you_guys_have_recommendations/)
-- [Why learn Java and what should I try to get out of the experience?](https://www.reddit.com/r/java/comments/odvv5b/why_learn_java_and_what_should_i_try_to_get_out/)
-- [JVM Monitoring Tools/APM’s – The Ultimate List](https://www.reddit.com/r/java/comments/odtftv/jvm_monitoring_toolsapms_the_ultimate_list/)
-- [Is it possible to learn Spring Boot without learning Spring ? If yes, is that the best and acceptable way to go forward ?](https://www.reddit.com/r/java/comments/odqrdp/is_it_possible_to_learn_spring_boot_without/)
-- [Best phase for PMD/Checkstyle checks](https://www.reddit.com/r/java/comments/odnnm9/best_phase_for_pmdcheckstyle_checks/)
-- [Coming from JS and Python background I am comfortable with VS code and now I am developing Spring apps and I wondering if I miss a lot if I don’t use intellij or Eclipse and just stick with vscode and its packages?](https://www.reddit.com/r/java/comments/odmntl/coming_from_js_and_python_background_i_am/)
-- [Hashtag Jakarta EE #79](https://www.reddit.com/r/java/comments/odiw0d/hashtag_jakarta_ee_79/)
-- [OpenCV based bot for solitaire "Sigmar's Garden" from Zachtronics Game "Opus Magnum"](https://www.reddit.com/r/java/comments/od0ndc/opencv_based_bot_for_solitaire_sigmars_garden/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
