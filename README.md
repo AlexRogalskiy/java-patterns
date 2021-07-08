@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Just started Java and I already want to die.](https://www.reddit.com/r/java/comments/ofuwrs/just_started_java_and_i_already_want_to_die/)
+- [I made a program that manipulates the duration of the input MP4 file!](https://www.reddit.com/r/java/comments/ofs67s/i_made_a_program_that_manipulates_the_duration_of/)
+- [Call for Discussion : New Project to support the Wayland display server on Linux](https://www.reddit.com/r/java/comments/ofrtng/call_for_discussion_new_project_to_support_the/)
+- [How can I get started with web development in Java for someone coming from Go?](https://www.reddit.com/r/java/comments/ofpkf9/how_can_i_get_started_with_web_development_in/)
+- [Generate production sql from liquibase](https://www.reddit.com/r/java/comments/oflzff/generate_production_sql_from_liquibase/)
+- [FResult: A unified approach to null safety and error handling in Java](https://www.reddit.com/r/java/comments/ofk5gm/fresult_a_unified_approach_to_null_safety_and/)
+- [Can I use an HTTP Client library (Unirest) in a Spring Boot project](https://www.reddit.com/r/java/comments/ofhawg/can_i_use_an_http_client_library_unirest_in_a/)
 - [Organizing your code with hierarchical clustering and Maven](https://www.reddit.com/r/java/comments/of7kur/organizing_your_code_with_hierarchical_clustering/)
 - [Hello, Spring GraphQL](https://www.reddit.com/r/java/comments/of17ua/hello_spring_graphql/)
 - [Is it common to mix different frameworks in Java applications?](https://www.reddit.com/r/java/comments/of17dp/is_it_common_to_mix_different_frameworks_in_java/)
-- [3.15.0 Release with support for R2DBC, nested ROW, ARRAY, and MULTISET types, 5 new SQL dialects, CREATE PROCEDURE, FUNCTION, and TRIGGER support and much more](https://www.reddit.com/r/java/comments/oewtiz/3150_release_with_support_for_r2dbc_nested_row/)
-- [Does anyone else find Spring overwhelming? It is so powerful that I find myself spending a lot of time figuring out how to do something the "Spring Way". How do you ensure you are using Spring to its full potential.](https://www.reddit.com/r/java/comments/oevdq1/does_anyone_else_find_spring_overwhelming_it_is/)
-- [Building RESTful APIs with Eclipse Vertx](https://www.reddit.com/r/java/comments/oeqnzk/building_restful_apis_with_eclipse_vertx/)
-- [What is the best source for keeping up to date with the changes in each new release of Java](https://www.reddit.com/r/java/comments/oem25e/what_is_the_best_source_for_keeping_up_to_date/)
-- [Can someone help me with understanding how Streams in Java work?](https://www.reddit.com/r/java/comments/oel704/can_someone_help_me_with_understanding_how/)
-- [Want to learn Java Without IDE - Suggest best sources](https://www.reddit.com/r/java/comments/oe43sy/want_to_learn_java_without_ide_suggest_best/)
-- [Wondering if any of you guys have recommendations for books on the topic of Java game development?](https://www.reddit.com/r/java/comments/odxdnk/wondering_if_any_of_you_guys_have_recommendations/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
