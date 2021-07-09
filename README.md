@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Just started Java and I already want to die.](https://www.reddit.com/r/java/comments/ofuwrs/just_started_java_and_i_already_want_to_die/)
+- [GraalVM at Facebook](https://www.reddit.com/r/java/comments/ogh4eh/graalvm_at_facebook/)
+- [Http client based on JDK 11+ HttpClient - avaje-http-client](https://www.reddit.com/r/java/comments/ogga0s/http_client_based_on_jdk_11_httpclient/)
+- [Modern JAVA books recommendations ?](https://www.reddit.com/r/java/comments/ogez0q/modern_java_books_recommendations/)
+- [Visitor Pattern Considered Pointless - Use Pattern Switches Instead](https://www.reddit.com/r/java/comments/og6d72/visitor_pattern_considered_pointless_use_pattern/)
+- [either:1.1 and jbock:5.3 released](https://www.reddit.com/r/java/comments/og5rgo/either11_and_jbock53_released/)
+- [Java is criminally underhyped](https://www.reddit.com/r/java/comments/ofzsoh/java_is_criminally_underhyped/)
 - [I made a program that manipulates the duration of the input MP4 file!](https://www.reddit.com/r/java/comments/ofs67s/i_made_a_program_that_manipulates_the_duration_of/)
 - [Call for Discussion : New Project to support the Wayland display server on Linux](https://www.reddit.com/r/java/comments/ofrtng/call_for_discussion_new_project_to_support_the/)
-- [How can I get started with web development in Java for someone coming from Go?](https://www.reddit.com/r/java/comments/ofpkf9/how_can_i_get_started_with_web_development_in/)
 - [Generate production sql from liquibase](https://www.reddit.com/r/java/comments/oflzff/generate_production_sql_from_liquibase/)
 - [FResult: A unified approach to null safety and error handling in Java](https://www.reddit.com/r/java/comments/ofk5gm/fresult_a_unified_approach_to_null_safety_and/)
-- [Can I use an HTTP Client library (Unirest) in a Spring Boot project](https://www.reddit.com/r/java/comments/ofhawg/can_i_use_an_http_client_library_unirest_in_a/)
-- [Organizing your code with hierarchical clustering and Maven](https://www.reddit.com/r/java/comments/of7kur/organizing_your_code_with_hierarchical_clustering/)
-- [Hello, Spring GraphQL](https://www.reddit.com/r/java/comments/of17ua/hello_spring_graphql/)
-- [Is it common to mix different frameworks in Java applications?](https://www.reddit.com/r/java/comments/of17dp/is_it_common_to_mix_different_frameworks_in_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
