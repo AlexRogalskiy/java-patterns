@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [[Java] Print lines created above an Array List are not printing out in the console, not sure why](https://www.reddit.com/r/java/comments/oh1bj9/java_print_lines_created_above_an_array_list_are/)
+- [Confused with Spring Boot](https://www.reddit.com/r/java/comments/oh031p/confused_with_spring_boot/)
+- [J4K - Adam Bien - The Future is Now: Overview of Next Generation Cloud Java Runtimes](https://www.reddit.com/r/java/comments/ogyv24/j4k_adam_bien_the_future_is_now_overview_of_next/)
+- [A Visualization of Radix LSD Sort, made with Processing - Java](https://www.reddit.com/r/java/comments/ogurca/a_visualization_of_radix_lsd_sort_made_with/)
+- [[rant] There is no good reason for a java library to use blocking I/O by default, yet almost all major libraries do, and don't even offer a non-blocking option](https://www.reddit.com/r/java/comments/ogl1o4/rant_there_is_no_good_reason_for_a_java_library/)
 - [GraalVM at Facebook](https://www.reddit.com/r/java/comments/ogh4eh/graalvm_at_facebook/)
 - [Http client based on JDK 11+ HttpClient - avaje-http-client](https://www.reddit.com/r/java/comments/ogga0s/http_client_based_on_jdk_11_httpclient/)
 - [Modern JAVA books recommendations ?](https://www.reddit.com/r/java/comments/ogez0q/modern_java_books_recommendations/)
 - [Visitor Pattern Considered Pointless - Use Pattern Switches Instead](https://www.reddit.com/r/java/comments/og6d72/visitor_pattern_considered_pointless_use_pattern/)
 - [either:1.1 and jbock:5.3 released](https://www.reddit.com/r/java/comments/og5rgo/either11_and_jbock53_released/)
-- [Java is criminally underhyped](https://www.reddit.com/r/java/comments/ofzsoh/java_is_criminally_underhyped/)
-- [I made a program that manipulates the duration of the input MP4 file!](https://www.reddit.com/r/java/comments/ofs67s/i_made_a_program_that_manipulates_the_duration_of/)
-- [Call for Discussion : New Project to support the Wayland display server on Linux](https://www.reddit.com/r/java/comments/ofrtng/call_for_discussion_new_project_to_support_the/)
-- [Generate production sql from liquibase](https://www.reddit.com/r/java/comments/oflzff/generate_production_sql_from_liquibase/)
-- [FResult: A unified approach to null safety and error handling in Java](https://www.reddit.com/r/java/comments/ofk5gm/fresult_a_unified_approach_to_null_safety_and/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
