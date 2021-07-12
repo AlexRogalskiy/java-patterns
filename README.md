@@ -257,6 +257,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [OpenJDK 16 not showing up when listing all java versions on Linux](https://www.reddit.com/r/java/comments/oidzft/openjdk_16_not_showing_up_when_listing_all_java/)
 - [Interactive Examples of Real-World AWS Cloud Hacks and How They Happen](https://www.reddit.com/r/java/comments/ohkj62/interactive_examples_of_realworld_aws_cloud_hacks/)
 - [J4K - Adam Bien - The Future is Now: Overview of Next Generation Cloud Java Runtimes](https://www.reddit.com/r/java/comments/ogyv24/j4k_adam_bien_the_future_is_now_overview_of_next/)
 - [A Visualization of Radix LSD Sort, made with Processing - Java](https://www.reddit.com/r/java/comments/ogurca/a_visualization_of_radix_lsd_sort_made_with/)
@@ -266,7 +267,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Visitor Pattern Considered Pointless - Use Pattern Switches Instead](https://www.reddit.com/r/java/comments/og6d72/visitor_pattern_considered_pointless_use_pattern/)
 - [either:1.1 and jbock:5.3 released](https://www.reddit.com/r/java/comments/og5rgo/either11_and_jbock53_released/)
 - [Java is criminally underhyped](https://www.reddit.com/r/java/comments/ofzsoh/java_is_criminally_underhyped/)
-- [I made a program that manipulates the duration of the input MP4 file!](https://www.reddit.com/r/java/comments/ofs67s/i_made_a_program_that_manipulates_the_duration_of/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
