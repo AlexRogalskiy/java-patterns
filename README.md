@@ -257,6 +257,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Exploring Joshua Bloch’s Builder design pattern in Java](https://www.reddit.com/r/java/comments/oisau3/exploring_joshua_blochs_builder_design_pattern_in/)
+- [Why does java not have pass by reference](https://www.reddit.com/r/java/comments/oiih95/why_does_java_not_have_pass_by_reference/)
+- [Announcing Double2String package](https://www.reddit.com/r/java/comments/oihko9/announcing_double2string_package/)
 - [OpenJDK 16 not showing up when listing all java versions on Linux](https://www.reddit.com/r/java/comments/oidzft/openjdk_16_not_showing_up_when_listing_all_java/)
 - [Interactive Examples of Real-World AWS Cloud Hacks and How They Happen](https://www.reddit.com/r/java/comments/ohkj62/interactive_examples_of_realworld_aws_cloud_hacks/)
 - [J4K - Adam Bien - The Future is Now: Overview of Next Generation Cloud Java Runtimes](https://www.reddit.com/r/java/comments/ogyv24/j4k_adam_bien_the_future_is_now_overview_of_next/)
@@ -264,9 +267,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [[rant] There is no good reason for a java library to use blocking I/O by default, yet almost all major libraries do, and don't even offer a non-blocking option](https://www.reddit.com/r/java/comments/ogl1o4/rant_there_is_no_good_reason_for_a_java_library/)
 - [GraalVM at Facebook](https://www.reddit.com/r/java/comments/ogh4eh/graalvm_at_facebook/)
 - [Http client based on JDK 11+ HttpClient - avaje-http-client](https://www.reddit.com/r/java/comments/ogga0s/http_client_based_on_jdk_11_httpclient/)
-- [Visitor Pattern Considered Pointless - Use Pattern Switches Instead](https://www.reddit.com/r/java/comments/og6d72/visitor_pattern_considered_pointless_use_pattern/)
-- [either:1.1 and jbock:5.3 released](https://www.reddit.com/r/java/comments/og5rgo/either11_and_jbock53_released/)
-- [Java is criminally underhyped](https://www.reddit.com/r/java/comments/ofzsoh/java_is_criminally_underhyped/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
