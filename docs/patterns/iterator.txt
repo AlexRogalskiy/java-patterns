@@ -29,3 +29,24 @@ Read more: http://mrbool.com/how-to-create-iterator-in-java/26422#ixzz3DMNSrEMN
 External vs Internal Iterator
 
 When the client controls the iteration sequence and index position then it is called as the external iterator. Otherwise if the iterator controls the traversal then it is called internal iterator. On external iterator, the design is that the invoking client code should explicitly invoke the method to move the pointer to next element. For internal iterator, when an element is accessed, after access the pointer will be automatically moved to next index by the iterator. In general internal iterators are easier to use than the external iterators.
+
+Шаблон: Итератор (Iterator)
+=======================================================================================================
+Цель:
+
+Получение последовательного доступа ко всем элементам составного объекта.
+
+=======================================================================================================
+
+Для чего используется:
+
+Для получения последовательного доступа ко всем элементам составного объекта, скрывая его
+внутреннее представление.
+
+=======================================================================================================
+Пример использования:
+
+- различные виды обхода составного объекта;
+- упрощённый доступ к составному объекту.
+
+=======================================================================================================
