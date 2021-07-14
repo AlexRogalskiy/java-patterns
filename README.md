@@ -392,6 +392,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
+- [Quarkus & Hibernate – Getting Started](https://thorben-janssen.com/quarkus-hibernate/)
 - [Hibernate’s Read-Only Query Hint For Faster Read Operations](https://thorben-janssen.com/read-only-query-hint/)
 - [Migrating from JPA 2.x to 3.0](https://thorben-janssen.com/migrating-jpa-2-x-to-3-0/)
 - [Hibernate’s Query Plan Cache – How It Works and How to Tune It](https://thorben-janssen.com/hibernate-query-plan-cache/)
@@ -401,7 +402,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Polymorphic association mappings of independent classes](https://thorben-janssen.com/polymorphic-association-mappings-of-independent-classes/)
 - [Hibernate Slow Query Log – The easiest way to find slow queries](https://thorben-janssen.com/hibernate-slow-query-log/)
 - [Coffee with Thorben 2020-03-05 – Natural vs Surrogate Keys](https://thorben-janssen.com/coffee-with-thorben-2020-02-19-utility-classes-2/)
-- [Configuring Spring Data JPA with Spring Boot](https://thorben-janssen.com/configuring-spring-data-jpa-with-spring-boot/)
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*
