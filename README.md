@@ -260,16 +260,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- REDDIT-POST-LIST:START -->
 
-- [Wondering if any of you guys have recommendations for books on the topic of Java game development?](https://www.reddit.com/r/java/comments/odxdnk/wondering_if_any_of_you_guys_have_recommendations/)
-- [Why learn Java and what should I try to get out of the experience?](https://www.reddit.com/r/java/comments/odvv5b/why_learn_java_and_what_should_i_try_to_get_out/)
-- [JVM Monitoring Tools/APM’s – The Ultimate List](https://www.reddit.com/r/java/comments/odtftv/jvm_monitoring_toolsapms_the_ultimate_list/)
-- [Is it possible to learn Spring Boot without learning Spring ? If yes, is that the best and acceptable way to go forward ?](https://www.reddit.com/r/java/comments/odqrdp/is_it_possible_to_learn_spring_boot_without/)
-- [Best phase for PMD/Checkstyle checks](https://www.reddit.com/r/java/comments/odnnm9/best_phase_for_pmdcheckstyle_checks/)
-- [Coming from JS and Python background I am comfortable with VS code and now I am developing Spring apps and I wondering if I miss a lot if I don’t use intellij or Eclipse and just stick with vscode and its packages?](https://www.reddit.com/r/java/comments/odmntl/coming_from_js_and_python_background_i_am/)
-- [Hashtag Jakarta EE #79](https://www.reddit.com/r/java/comments/odiw0d/hashtag_jakarta_ee\_79/)
-- [OpenCV based bot for solitaire "Sigmar's Garden" from Zachtronics Game "Opus Magnum"](https://www.reddit.com/r/java/comments/od0ndc/opencv_based_bot_for_solitaire_sigmars_garden/)
-- [Any good alternatives to Apache POI for creating Excel spreadsheets?](https://www.reddit.com/r/java/comments/ocs1r6/any_good_alternatives_to_apache_poi_for_creating/)
-- [New Laptop, now I need a new IDE...](https://www.reddit.com/r/java/comments/ocnyfb/new_laptop_now_i_need_a_new_ide/)
+- [Unsure what to do about a JDK installation issue](https://www.reddit.com/r/java/comments/ojri49/unsure_what_to_do_about_a_jdk_installation_issue/)
+- [JPA Streamer - an easy way to access JPA functionality](https://www.reddit.com/r/java/comments/ojlvu8/jpa_streamer_an_easy_way_to_access_jpa/)
+- [I wrote a Java Serialization library](https://www.reddit.com/r/java/comments/ojlnf9/i_wrote_a_java_serialization_library/)
+- [Blaze Persistence – the best way to write JPA Criteria queries](https://www.reddit.com/r/java/comments/ojidi3/blaze_persistence_the_best_way_to_write_jpa/)
+- [Sharing my Java Blog for any interested party](https://www.reddit.com/r/java/comments/ojhpit/sharing_my_java_blog_for_any_interested_party/)
+- [Field Validator: an alternative to annotation-based validation](https://www.reddit.com/r/java/comments/ojex8n/field_validator_an_alternative_to_annotationbased/)
+- [Express JPA Queries as Java Streams - Piotr's TechBlog](https://www.reddit.com/r/java/comments/ojd91d/express_jpa_queries_as_java_streams_piotrs/)
+- [Tools For Dynamic Slicing of Java / Android programs](https://www.reddit.com/r/java/comments/oja2zd/tools_for_dynamic_slicing_of_java_android_programs/)
+- [Exploring Joshua Bloch’s Builder design pattern in Java](https://www.reddit.com/r/java/comments/oisau3/exploring_joshua_blochs_builder_design_pattern_in/)
+- [Why does java not have pass by reference](https://www.reddit.com/r/java/comments/oiih95/why_does_java_not_have_pass_by_reference/)
 
 <!-- REDDIT-POST-LIST:END -->
 
@@ -345,6 +345,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- INSIDE-POST-LIST:START -->
 
+- [Call for Discussion : New Project to support the Wayland display server on Linux](https://inside.java/2021/07/07/call-for-discussion/)
+- [Add support for secondary carriers to Memory Access API](https://inside.java/2021/07/02/add-support-for-second-carriers/)
 - [Inside Java Newscast #7](https://inside.java/2021/07/01/insidejava-newscast-007/)
 - [Episode 18 “Java’s steady march towards strong encapsulation” with Alan Bateman](https://inside.java/2021/06/29/podcast-018/)
 - [JEP Café #1](https://inside.java/2021/06/23/jepcafe/)
@@ -353,8 +355,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Inside Java Newscast #6](https://inside.java/2021/06/10/insidejava-newscast-006/)
 - [Experimenting with JFR Mirror Events](https://inside.java/2021/06/04/experimenting-with-jfr-mirror-events/)
 - [JEP proposed to target JDK 17: 415: Context-Specific Deserialization Filters](https://inside.java/2021/06/01/jep415-proposed-to-target-jdk17/)
-- [Virtual Threads and Structured Concurrency with Ron Pressler](https://inside.java/2021/05/31/qcon-ron-interview/)
-- [Updates to JEP 411: Deprecate the Security Manager for Removal](https://inside.java/2021/05/29/updates-to-jep-411/)
 
 <!-- INSIDE-POST-LIST:END -->
 
@@ -413,6 +413,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- TJ-POST-LIST:START -->
 
+- [Quarkus & Hibernate – Getting Started](https://thorben-janssen.com/quarkus-hibernate/)
+- [Hibernate’s Read-Only Query Hint For Faster Read Operations](https://thorben-janssen.com/read-only-query-hint/)
 - [Migrating from JPA 2.x to 3.0](https://thorben-janssen.com/migrating-jpa-2-x-to-3-0/)
 - [Hibernate’s Query Plan Cache – How It Works and How to Tune It](https://thorben-janssen.com/hibernate-query-plan-cache/)
 - [Hibernate Proxies – Why they’re used and how to unproxy them](https://thorben-janssen.com/hibernate-proxies/)
@@ -421,8 +423,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Polymorphic association mappings of independent classes](https://thorben-janssen.com/polymorphic-association-mappings-of-independent-classes/)
 - [Hibernate Slow Query Log – The easiest way to find slow queries](https://thorben-janssen.com/hibernate-slow-query-log/)
 - [Coffee with Thorben 2020-03-05 – Natural vs Surrogate Keys](https://thorben-janssen.com/coffee-with-thorben-2020-02-19-utility-classes-2/)
-- [Configuring Spring Data JPA with Spring Boot](https://thorben-janssen.com/configuring-spring-data-jpa-with-spring-boot/)
-- [Coffee with Thorben 2020-02-26 – Utility classes that make your life easier](https://thorben-janssen.com/coffee-with-thorben-2020-02-19-utility-classes/)
 
 <!-- TJ-POST-LIST:END -->
 
