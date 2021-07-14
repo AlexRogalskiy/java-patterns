@@ -14,3 +14,24 @@ States store a reference to the context object that contains them. Strategies do
 States are allowed to replace themselves (IE: to change the state of the context object to something else), while Strategies are not.
 Strategies are passed to the context object as parameters, while States are created by the context object itself.
 Strategies only handle a single, specific task, while States provide the underlying implementation for everything (or most everything) the context object does.
+
+Шаблон: Состояние (State)
+=======================================================================================================
+Цель:
+
+Управление поведением объекта в зависимости от состояния.
+
+=======================================================================================================
+
+Для чего используется:
+
+Позволяет нам управлять поведением объекта в зависимости от внутреннего состояние объекта.
+
+=======================================================================================================
+Пример использования:
+
+- поведение объекта зависит от его состояние и изменяется во время выполнения;
+- когда встречается большое количество условных операторов, когда выбор ветви
+  зависит от состояния объекта.
+
+=======================================================================================================
