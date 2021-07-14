@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Unsure what to do about a JDK installation issue](https://www.reddit.com/r/java/comments/ojri49/unsure_what_to_do_about_a_jdk_installation_issue/)
+- [JPA Streamer - an easy way to access JPA functionality](https://www.reddit.com/r/java/comments/ojlvu8/jpa_streamer_an_easy_way_to_access_jpa/)
+- [I wrote a Java Serialization library](https://www.reddit.com/r/java/comments/ojlnf9/i_wrote_a_java_serialization_library/)
+- [Blaze Persistence – the best way to write JPA Criteria queries](https://www.reddit.com/r/java/comments/ojidi3/blaze_persistence_the_best_way_to_write_jpa/)
+- [Sharing my Java Blog for any interested party](https://www.reddit.com/r/java/comments/ojhpit/sharing_my_java_blog_for_any_interested_party/)
+- [Field Validator: an alternative to annotation-based validation](https://www.reddit.com/r/java/comments/ojex8n/field_validator_an_alternative_to_annotationbased/)
+- [Express JPA Queries as Java Streams - Piotr's TechBlog](https://www.reddit.com/r/java/comments/ojd91d/express_jpa_queries_as_java_streams_piotrs/)
+- [Tools For Dynamic Slicing of Java / Android programs](https://www.reddit.com/r/java/comments/oja2zd/tools_for_dynamic_slicing_of_java_android_programs/)
 - [Exploring Joshua Bloch’s Builder design pattern in Java](https://www.reddit.com/r/java/comments/oisau3/exploring_joshua_blochs_builder_design_pattern_in/)
 - [Why does java not have pass by reference](https://www.reddit.com/r/java/comments/oiih95/why_does_java_not_have_pass_by_reference/)
-- [Announcing Double2String package](https://www.reddit.com/r/java/comments/oihko9/announcing_double2string_package/)
-- [OpenJDK 16 not showing up when listing all java versions on Linux](https://www.reddit.com/r/java/comments/oidzft/openjdk_16_not_showing_up_when_listing_all_java/)
-- [Interactive Examples of Real-World AWS Cloud Hacks and How They Happen](https://www.reddit.com/r/java/comments/ohkj62/interactive_examples_of_realworld_aws_cloud_hacks/)
-- [J4K - Adam Bien - The Future is Now: Overview of Next Generation Cloud Java Runtimes](https://www.reddit.com/r/java/comments/ogyv24/j4k_adam_bien_the_future_is_now_overview_of_next/)
-- [A Visualization of Radix LSD Sort, made with Processing - Java](https://www.reddit.com/r/java/comments/ogurca/a_visualization_of_radix_lsd_sort_made_with/)
-- [[rant] There is no good reason for a java library to use blocking I/O by default, yet almost all major libraries do, and don't even offer a non-blocking option](https://www.reddit.com/r/java/comments/ogl1o4/rant_there_is_no_good_reason_for_a_java_library/)
-- [GraalVM at Facebook](https://www.reddit.com/r/java/comments/ogh4eh/graalvm_at_facebook/)
-- [Http client based on JDK 11+ HttpClient - avaje-http-client](https://www.reddit.com/r/java/comments/ogga0s/http_client_based_on_jdk_11_httpclient/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
