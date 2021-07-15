@@ -257,18 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
-- [Unsure what to do about a JDK installation issue](https://www.reddit.com/r/java/comments/ojri49/unsure_what_to_do_about_a_jdk_installation_issue/)
+- [Project ideas for weak computer. Only way to not go crazy, please help me :'(](https://www.reddit.com/r/java/comments/okhxyj/project_ideas_for_weak_computer_only_way_to_not/)
+- [The 100. Strolch release of the 1.6 branch and a brand new website!](https://www.reddit.com/r/java/comments/okgits/the_100_strolch_release_of_the_16_branch_and_a/)
+- [I Created a java 3D rendering engine from scratch (no natives just java) for no reason](https://www.reddit.com/r/java/comments/okebt8/i_created_a_java_3d_rendering_engine_from_scratch/)
+- [ConsoleCaptor 1.0.0 Released](https://www.reddit.com/r/java/comments/okd5lo/consolecaptor_100_released/)
+- [Anyone got a list of all Java games that were more advanced and were exclusives for some certain phones like the Nokia 6630](https://www.reddit.com/r/java/comments/ok5w1m/anyone_got_a_list_of_all_java_games_that_were/)
+- [Looking for some Java manual recommendations](https://www.reddit.com/r/java/comments/ok5172/looking_for_some_java_manual_recommendations/)
+- [Ant Colony Simulation made with Processing Java](https://www.reddit.com/r/java/comments/ok3irp/ant_colony_simulation_made_with_processing_java/)
+- [Crafting rolling releases for a Quarkus CLI application](https://www.reddit.com/r/java/comments/ok2fyd/crafting_rolling_releases_for_a_quarkus_cli/)
 - [JPA Streamer - an easy way to access JPA functionality](https://www.reddit.com/r/java/comments/ojlvu8/jpa_streamer_an_easy_way_to_access_jpa/)
-- [I wrote a Java Serialization library](https://www.reddit.com/r/java/comments/ojlnf9/i_wrote_a_java_serialization_library/)
 - [Blaze Persistence – the best way to write JPA Criteria queries](https://www.reddit.com/r/java/comments/ojidi3/blaze_persistence_the_best_way_to_write_jpa/)
-- [Sharing my Java Blog for any interested party](https://www.reddit.com/r/java/comments/ojhpit/sharing_my_java_blog_for_any_interested_party/)
-- [Field Validator: an alternative to annotation-based validation](https://www.reddit.com/r/java/comments/ojex8n/field_validator_an_alternative_to_annotationbased/)
-- [Express JPA Queries as Java Streams - Piotr's TechBlog](https://www.reddit.com/r/java/comments/ojd91d/express_jpa_queries_as_java_streams_piotrs/)
-- [Tools For Dynamic Slicing of Java / Android programs](https://www.reddit.com/r/java/comments/oja2zd/tools_for_dynamic_slicing_of_java_android_programs/)
-- [Exploring Joshua Bloch’s Builder design pattern in Java](https://www.reddit.com/r/java/comments/oisau3/exploring_joshua_blochs_builder_design_pattern_in/)
-- [Why does java not have pass by reference](https://www.reddit.com/r/java/comments/oiih95/why_does_java_not_have_pass_by_reference/)
-
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
