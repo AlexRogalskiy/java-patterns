@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - uses: wagoid/commitlint-github-action@v2.2.5
+      - uses: wagoid/commitlint-github-action@v4.0.2
         with:
           configFile: './.github/workflows/lint/.commitlintrc.json'
           helpURL: https://rook.io/docs/rook/master/development-flow.html#commit-structure
