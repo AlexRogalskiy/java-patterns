@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [2D Robot Simulator with JBox2D](https://www.reddit.com/r/java/comments/okz1ll/2d_robot_simulator_with_jbox2d/)
+- [Emergence : Particle Life](https://www.reddit.com/r/java/comments/okyxoy/emergence_particle_life/)
+- [Is Spring Boot dependent on Java Enterprise Edition?](https://www.reddit.com/r/java/comments/okykco/is_spring_boot_dependent_on_java_enterprise/)
+- [I made a basic 2d fractal generator Java/JavaFx](https://www.reddit.com/r/java/comments/okyk6b/i_made_a_basic_2d_fractal_generator_javajavafx/)
+- [Incremental Evolution, Pattern Switches, Wayland Support - Inside Java Newscast #8](https://www.reddit.com/r/java/comments/okxsz0/incremental_evolution_pattern_switches_wayland/)
+- [Demo Project showing the most interesting developer-friendly features after Java 8](https://www.reddit.com/r/java/comments/okvl8v/demo_project_showing_the_most_interesting/)
+- [What java phone would you say is best for java gaming?](https://www.reddit.com/r/java/comments/okvek5/what_java_phone_would_you_say_is_best_for_java/)
+- [Do you use jigsaw (modules) in your java projects?](https://www.reddit.com/r/java/comments/okt3j3/do_you_use_jigsaw_modules_in_your_java_projects/)
 - [Project ideas for weak computer. Only way to not go crazy, please help me :'(](https://www.reddit.com/r/java/comments/okhxyj/project_ideas_for_weak_computer_only_way_to_not/)
 - [The 100. Strolch release of the 1.6 branch and a brand new website!](https://www.reddit.com/r/java/comments/okgits/the_100_strolch_release_of_the_16_branch_and_a/)
-- [I Created a java 3D rendering engine from scratch (no natives just java) for no reason](https://www.reddit.com/r/java/comments/okebt8/i_created_a_java_3d_rendering_engine_from_scratch/)
-- [ConsoleCaptor 1.0.0 Released](https://www.reddit.com/r/java/comments/okd5lo/consolecaptor_100_released/)
-- [Anyone got a list of all Java games that were more advanced and were exclusives for some certain phones like the Nokia 6630](https://www.reddit.com/r/java/comments/ok5w1m/anyone_got_a_list_of_all_java_games_that_were/)
-- [Looking for some Java manual recommendations](https://www.reddit.com/r/java/comments/ok5172/looking_for_some_java_manual_recommendations/)
-- [Ant Colony Simulation made with Processing Java](https://www.reddit.com/r/java/comments/ok3irp/ant_colony_simulation_made_with_processing_java/)
-- [Crafting rolling releases for a Quarkus CLI application](https://www.reddit.com/r/java/comments/ok2fyd/crafting_rolling_releases_for_a_quarkus_cli/)
-- [JPA Streamer - an easy way to access JPA functionality](https://www.reddit.com/r/java/comments/ojlvu8/jpa_streamer_an_easy_way_to_access_jpa/)
-- [Blaze Persistence – the best way to write JPA Criteria queries](https://www.reddit.com/r/java/comments/ojidi3/blaze_persistence_the_best_way_to_write_jpa/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
