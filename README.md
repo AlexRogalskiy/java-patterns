@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [2D Robot Simulator with JBox2D](https://www.reddit.com/r/java/comments/okz1ll/2d_robot_simulator_with_jbox2d/)
-- [Emergence : Particle Life](https://www.reddit.com/r/java/comments/okyxoy/emergence_particle_life/)
+- [Oh boy, are we doing JavaFX Art? Here are some animations I did a few years back for fun](https://www.reddit.com/r/java/comments/olphsk/oh_boy_are_we_doing_javafx_art_here_are_some/)
+- [Why is this not used more? var keyword.](https://www.reddit.com/r/java/comments/olmnnb/why_is_this_not_used_more_var_keyword/)
+- [State of Spring Survey is back](https://www.reddit.com/r/java/comments/olg7t4/state_of_spring_survey_is_back/)
+- [Why Don't They Just.. ?! The Deliberations Behind Evolving Java - Nicolai Parlog](https://www.reddit.com/r/java/comments/olf3v0/why_dont_they_just_the_deliberations_behind/)
+- [I saw your java fractals and I raise you an algorithm to spawn abstract art (around a thousand a minute)](https://www.reddit.com/r/java/comments/oldnys/i_saw_your_java_fractals_and_i_raise_you_an/)
 - [Is Spring Boot dependent on Java Enterprise Edition?](https://www.reddit.com/r/java/comments/okykco/is_spring_boot_dependent_on_java_enterprise/)
 - [I made a basic 2d fractal generator Java/JavaFx](https://www.reddit.com/r/java/comments/okyk6b/i_made_a_basic_2d_fractal_generator_javajavafx/)
 - [Incremental Evolution, Pattern Switches, Wayland Support - Inside Java Newscast #8](https://www.reddit.com/r/java/comments/okxsz0/incremental_evolution_pattern_switches_wayland/)
 - [Demo Project showing the most interesting developer-friendly features after Java 8](https://www.reddit.com/r/java/comments/okvl8v/demo_project_showing_the_most_interesting/)
 - [What java phone would you say is best for java gaming?](https://www.reddit.com/r/java/comments/okvek5/what_java_phone_would_you_say_is_best_for_java/)
-- [Do you use jigsaw (modules) in your java projects?](https://www.reddit.com/r/java/comments/okt3j3/do_you_use_jigsaw_modules_in_your_java_projects/)
-- [Project ideas for weak computer. Only way to not go crazy, please help me :'(](https://www.reddit.com/r/java/comments/okhxyj/project_ideas_for_weak_computer_only_way_to_not/)
-- [The 100. Strolch release of the 1.6 branch and a brand new website!](https://www.reddit.com/r/java/comments/okgits/the_100_strolch_release_of_the_16_branch_and_a/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
