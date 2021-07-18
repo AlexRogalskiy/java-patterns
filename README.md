@@ -257,6 +257,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Is anyone using the build tool Bazel?](https://www.reddit.com/r/java/comments/omf40z/is_anyone_using_the_build_tool_bazel/)
+- [Curious about opinions of the best cloud native microservice Java framework](https://www.reddit.com/r/java/comments/om72tf/curious_about_opinions_of_the_best_cloud_native/)
+- [Playwright with JBang](https://www.reddit.com/r/java/comments/om5e3b/playwright_with_jbang/)
 - [Oh boy, are we doing JavaFX Art? Here are some animations I did a few years back for fun](https://www.reddit.com/r/java/comments/olphsk/oh_boy_are_we_doing_javafx_art_here_are_some/)
 - [Why is this not used more? var keyword.](https://www.reddit.com/r/java/comments/olmnnb/why_is_this_not_used_more_var_keyword/)
 - [State of Spring Survey is back](https://www.reddit.com/r/java/comments/olg7t4/state_of_spring_survey_is_back/)
@@ -264,9 +267,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [I saw your java fractals and I raise you an algorithm to spawn abstract art (around a thousand a minute)](https://www.reddit.com/r/java/comments/oldnys/i_saw_your_java_fractals_and_i_raise_you_an/)
 - [Is Spring Boot dependent on Java Enterprise Edition?](https://www.reddit.com/r/java/comments/okykco/is_spring_boot_dependent_on_java_enterprise/)
 - [I made a basic 2d fractal generator Java/JavaFx](https://www.reddit.com/r/java/comments/okyk6b/i_made_a_basic_2d_fractal_generator_javajavafx/)
-- [Incremental Evolution, Pattern Switches, Wayland Support - Inside Java Newscast #8](https://www.reddit.com/r/java/comments/okxsz0/incremental_evolution_pattern_switches_wayland/)
-- [Demo Project showing the most interesting developer-friendly features after Java 8](https://www.reddit.com/r/java/comments/okvl8v/demo_project_showing_the_most_interesting/)
-- [What java phone would you say is best for java gaming?](https://www.reddit.com/r/java/comments/okvek5/what_java_phone_would_you_say_is_best_for_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
