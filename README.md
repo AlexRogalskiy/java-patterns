@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Call for Discussion: New Project: CRaC](https://www.reddit.com/r/java/comments/on2dzz/call_for_discussion_new_project_crac/)
+- [This is probably lame to the majority of you because its so simple but I spent 4 years avoiding programming because I couldn't get past figuring out what a variable did. Just finished part 1 of MOOC.fi java course and its insane how more confident I'm becoming. Solved this first try with no error.](https://www.reddit.com/r/java/comments/on160w/this_is_probably_lame_to_the_majority_of_you/)
+- [How much java do I need](https://www.reddit.com/r/java/comments/on0nsa/how_much_java_do_i_need/)
+- [A modular synthesizer built in Java using JSyn library. I call it The Instrument](https://www.reddit.com/r/java/comments/omy0oj/a_modular_synthesizer_built_in_java_using_jsyn/)
+- [Rust and Java together](https://www.reddit.com/r/java/comments/omsstw/rust_and_java_together/)
+- [ChangeNode - new Java content site](https://www.reddit.com/r/java/comments/ompne7/changenode_new_java_content_site/)
+- [Fundamentals course for making app](https://www.reddit.com/r/java/comments/ompfw3/fundamentals_course_for_making_app/)
 - [Is anyone using the build tool Bazel?](https://www.reddit.com/r/java/comments/omf40z/is_anyone_using_the_build_tool_bazel/)
 - [Curious about opinions of the best cloud native microservice Java framework](https://www.reddit.com/r/java/comments/om72tf/curious_about_opinions_of_the_best_cloud_native/)
 - [Playwright with JBang](https://www.reddit.com/r/java/comments/om5e3b/playwright_with_jbang/)
-- [Oh boy, are we doing JavaFX Art? Here are some animations I did a few years back for fun](https://www.reddit.com/r/java/comments/olphsk/oh_boy_are_we_doing_javafx_art_here_are_some/)
-- [Why is this not used more? var keyword.](https://www.reddit.com/r/java/comments/olmnnb/why_is_this_not_used_more_var_keyword/)
-- [State of Spring Survey is back](https://www.reddit.com/r/java/comments/olg7t4/state_of_spring_survey_is_back/)
-- [Why Don't They Just.. ?! The Deliberations Behind Evolving Java - Nicolai Parlog](https://www.reddit.com/r/java/comments/olf3v0/why_dont_they_just_the_deliberations_behind/)
-- [I saw your java fractals and I raise you an algorithm to spawn abstract art (around a thousand a minute)](https://www.reddit.com/r/java/comments/oldnys/i_saw_your_java_fractals_and_i_raise_you_an/)
-- [Is Spring Boot dependent on Java Enterprise Edition?](https://www.reddit.com/r/java/comments/okykco/is_spring_boot_dependent_on_java_enterprise/)
-- [I made a basic 2d fractal generator Java/JavaFx](https://www.reddit.com/r/java/comments/okyk6b/i_made_a_basic_2d_fractal_generator_javajavafx/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
