@@ -257,16 +257,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Call for Discussion: New Project: CRaC](https://www.reddit.com/r/java/comments/on2dzz/call_for_discussion_new_project_crac/)
-- [This is probably lame to the majority of you because its so simple but I spent 4 years avoiding programming because I couldn't get past figuring out what a variable did. Just finished part 1 of MOOC.fi java course and its insane how more confident I'm becoming. Solved this first try with no error.](https://www.reddit.com/r/java/comments/on160w/this_is_probably_lame_to_the_majority_of_you/)
-- [How much java do I need](https://www.reddit.com/r/java/comments/on0nsa/how_much_java_do_i_need/)
-- [A modular synthesizer built in Java using JSyn library. I call it The Instrument](https://www.reddit.com/r/java/comments/omy0oj/a_modular_synthesizer_built_in_java_using_jsyn/)
-- [Rust and Java together](https://www.reddit.com/r/java/comments/omsstw/rust_and_java_together/)
-- [ChangeNode - new Java content site](https://www.reddit.com/r/java/comments/ompne7/changenode_new_java_content_site/)
-- [Fundamentals course for making app](https://www.reddit.com/r/java/comments/ompfw3/fundamentals_course_for_making_app/)
-- [Is anyone using the build tool Bazel?](https://www.reddit.com/r/java/comments/omf40z/is_anyone_using_the_build_tool_bazel/)
-- [Curious about opinions of the best cloud native microservice Java framework](https://www.reddit.com/r/java/comments/om72tf/curious_about_opinions_of_the_best_cloud_native/)
-- [Playwright with JBang](https://www.reddit.com/r/java/comments/om5e3b/playwright_with_jbang/)
+- [Java Cookbook (4th edition) featured in Programming Cookbooks 2021 by O'Reilly](https://www.reddit.com/r/java/comments/onq2cj/java_cookbook_4th_edition_featured_in_programming/)
+- [Thread Pools on the JVM](https://www.reddit.com/r/java/comments/onjo3e/thread_pools_on_the_jvm/)
+- [Bean Validation vs. calling validation methods](https://www.reddit.com/r/java/comments/ongysb/bean_validation_vs_calling_validation_methods/)
+- [Validating Input with Finite Automata in Java | Baeldung](https://www.reddit.com/r/java/comments/ongfb2/validating_input_with_finite_automata_in_java/)
+- [Is there any java library that supports openmp or pthreads?](https://www.reddit.com/r/java/comments/onfaqj/is_there_any_java_library_that_supports_openmp_or/)
+- [Deploying Jakarta EE 9 applications with WildFly Bootable JAR](https://www.reddit.com/r/java/comments/onenuq/deploying_jakarta_ee_9_applications_with_wildfly/)
+- [Static util methods within lambdas](https://www.reddit.com/r/java/comments/onenui/static_util_methods_within_lambdas/)
+- [Will Oracles 1Z0-819 will be updated for the next LTS version, when it comes out this year?](https://www.reddit.com/r/java/comments/ondgy3/will_oracles_1z0819_will_be_updated_for_the_next/)
+- [JVM Anatomy Quark #27: Compiler Blackholes](https://www.reddit.com/r/java/comments/ond0ua/jvm_anatomy_quark_27_compiler_blackholes/)
+- [JVM Anatomy Quark #26: Identity Hash Code](https://www.reddit.com/r/java/comments/onb2pd/jvm_anatomy_quark_26_identity_hash_code/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
