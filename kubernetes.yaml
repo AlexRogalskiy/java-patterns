@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: example-java-patterns
+  labels:
+    app: example-java-patterns
+spec:
+  selector:
+    matchLabels:
+      app: example-java-patterns
+  template:
+    metadata:
+      labels:
+        app: example-java-patterns
+    spec:
+      containers:
+        - name: example-java-patterns
+          image: java-patterns
+          ports:
+            - containerPort: 8000

@@ -63,6 +63,7 @@ theme:
 plugins:
   - search
   - git-revision-date-localized: # https://squidfunk.github.io/mkdocs-material/plugins/revision-date/
+      fallback_to_build_date: true
       type: date
   - awesome-pages # https://squidfunk.github.io/mkdocs-material/plugins/awesome-pages/
   - include-markdown # https://github.com/mondeja/mkdocs-include-markdown-plugin

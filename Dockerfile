@@ -103,7 +103,7 @@ RUN echo "PYTHON version: $(python3 --version)"
 RUN npm install
 
 ## Run format checking & linting
-RUN npm run all
+RUN npm run test:all
 
 ## Expose port
 EXPOSE 8000
