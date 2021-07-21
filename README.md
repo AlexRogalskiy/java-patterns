@@ -43,35 +43,33 @@
 ## 🎹 *Table of contents*
 
 <!--ts-->
-
-- [Java Design Patterns](#java-design-patterns)
-  - [<em>Table of contents</em>](#-table-of-contents)
-  - [<em>Summary</em>](#-summary)
-  - [<em>Documentation</em>](#-documentation)
-  - [<em>Statistics</em>](#-statistics)
-  - [<em>Versioning</em>](#-versioning)
-  - [<em>Authors</em>](#-authors)
-  - [<em>Contributing</em>](#-contributing)
-  - [<em>Visitor stats</em>](#-visitor-stats)
-  - [<em>Licensing</em>](#-licensing)
-  - [<em>Development Support</em>](#-development-support)
-  - [<em>Acknowledgement</em>](#-acknowledgement)
-  - [<em>OpenGraph Card</em>](#-opengraph-card)
-  - [<em>Feeds and Podcasts</em>](#-feeds-and-podcasts)
-    - [<em>Reddit posts</em>](#reddit-posts)
-    - [<em>InfoWorld posts</em>](#infoworld-posts)
-    - [<em>Let's talk posts</em>](#lets-talk-posts)
-    - [<em>Random thoughts posts</em>](#random-thoughts-posts)
-    - [<em>Better code posts</em>](#better-code-posts)
-    - [<em>Inside Java posts</em>](#inside-java-posts)
-    - [<em>Java programmer posts</em>](#java-programmer-posts)
-    - [<em>Dreamix posts</em>](#dreamix-posts)
-    - [<em>Plumbr posts</em>](#plumbr-posts)
-    - [<em>Thorben Janssen posts</em>](#thorben-janssen-posts)
-    - [<em>Redhat posts</em>](#redhat-posts)
-    - [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
-    - [<em>DevCases posts</em>](#devcases-posts)
-
+   * [Java Design Patterns](#java-design-patterns)
+      * [<em>Table of contents</em>](#-table-of-contents)
+      * [<em>Summary</em>](#-summary)
+      * [<em>Documentation</em>](#-documentation)
+      * [<em>Statistics</em>](#-statistics)
+      * [<em>Versioning</em>](#-versioning)
+      * [<em>Authors</em>](#-authors)
+      * [<em>Contributing</em>](#-contributing)
+      * [<em>Visitor stats</em>](#-visitor-stats)
+      * [<em>Licensing</em>](#-licensing)
+      * [<em>Development Support</em>](#-development-support)
+      * [<em>Acknowledgement</em>](#-acknowledgement)
+      * [<em>OpenGraph Card</em>](#-opengraph-card)
+      * [<em>Feeds and Podcasts</em>](#-feeds-and-podcasts)
+         * [<em>Reddit posts</em>](#reddit-posts)
+         * [<em>InfoWorld posts</em>](#infoworld-posts)
+         * [<em>Let's talk posts</em>](#lets-talk-posts)
+         * [<em>Random thoughts posts</em>](#random-thoughts-posts)
+         * [<em>Better code posts</em>](#better-code-posts)
+         * [<em>Inside Java posts</em>](#inside-java-posts)
+         * [<em>Java programmer posts</em>](#java-programmer-posts)
+         * [<em>Dreamix posts</em>](#dreamix-posts)
+         * [<em>Plumbr posts</em>](#plumbr-posts)
+         * [<em>Thorben Janssen posts</em>](#thorben-janssen-posts)
+         * [<em>Redhat posts</em>](#redhat-posts)
+         * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
+         * [<em>DevCases posts</em>](#devcases-posts)
 <!--te-->
 
 ## ☝ *Summary*
@@ -265,24 +263,22 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
-- [Java Cookbook (4th edition) featured in Programming Cookbooks 2021 by O'Reilly](https://www.reddit.com/r/java/comments/onq2cj/java_cookbook\_4th_edition_featured_in_programming/)
+- [Libraries for GitHub-style multi-organization authorization?](https://www.reddit.com/r/java/comments/oobu4q/libraries_for_githubstyle_multiorganization/)
+- [Set a config property when another app is active](https://www.reddit.com/r/java/comments/ooa4j5/set_a_config_property_when_another_app_is_active/)
+- [Herding (Apache) Camels with HashiCorp Consul](https://www.reddit.com/r/java/comments/oo7cre/herding_apache_camels_with_hashicorp_consul/)
+- [GraalVM 21.2 with lots of native image usability improvements](https://www.reddit.com/r/java/comments/oo71ad/graalvm_212_with_lots_of_native_image_usability/)
+- [What is the best java library for networking?](https://www.reddit.com/r/java/comments/oo2z2x/what_is_the_best_java_library_for_networking/)
+- [Spring GraphQL Milestone One](https://www.reddit.com/r/java/comments/onxii9/spring_graphql_milestone_one/)
 - [Thread Pools on the JVM](https://www.reddit.com/r/java/comments/onjo3e/thread_pools_on_the_jvm/)
 - [Bean Validation vs. calling validation methods](https://www.reddit.com/r/java/comments/ongysb/bean_validation_vs_calling_validation_methods/)
 - [Validating Input with Finite Automata in Java | Baeldung](https://www.reddit.com/r/java/comments/ongfb2/validating_input_with_finite_automata_in_java/)
 - [Is there any java library that supports openmp or pthreads?](https://www.reddit.com/r/java/comments/onfaqj/is_there_any_java_library_that_supports_openmp_or/)
-- [Deploying Jakarta EE 9 applications with WildFly Bootable JAR](https://www.reddit.com/r/java/comments/onenuq/deploying_jakarta_ee\_9\_applications_with_wildfly/)
-- [Static util methods within lambdas](https://www.reddit.com/r/java/comments/onenui/static_util_methods_within_lambdas/)
-- [Will Oracles 1Z0-819 will be updated for the next LTS version, when it comes out this year?](https://www.reddit.com/r/java/comments/ondgy3/will_oracles\_1z0819\_will_be_updated_for_the_next/)
-- [JVM Anatomy Quark #27: Compiler Blackholes](https://www.reddit.com/r/java/comments/ond0ua/jvm_anatomy_quark\_27\_compiler_blackholes/)
-- [JVM Anatomy Quark #26: Identity Hash Code](https://www.reddit.com/r/java/comments/onb2pd/jvm_anatomy_quark\_26\_identity_hash_code/)
-
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
-
+- [Visual Studio Code 1.58 improves debugging, Jupyter Notebook support](https://www.infoworld.com/article/3626031/visual-studio-code-158-improves-debugging-jupyter-notebook-support.html#tk.rss_java)
 - [Kotlin gains Java coding enhancements](https://www.infoworld.com/article/3623371/kotlin-gains-java-coding-enhancements.html#tk.rss_java)
 - [Eclipse launches group to shepherd popular Java IDE](https://www.infoworld.com/article/3622412/eclipse-launches-group-to-shepherd-popular-java-ide.html#tk.rss_java)
 - [Oracle offers Java management service](https://www.infoworld.com/article/3621690/oracle-offers-java-management-service.html#tk.rss_java)
@@ -292,15 +288,12 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Build a Java application in Visual Studio Code](https://www.infoworld.com/article/3619031/build-a-java-application-in-visual-studio-code.html#tk.rss_java)
 - [Scala 3 ushers in ‘complete overhaul’ of the language](https://www.infoworld.com/article/3608574/scala-3-moves-to-release-candidate-stage.html#tk.rss_java)
 - [Kotlin 1.5.0 arrives with JVM records, sealed interfaces](https://www.infoworld.com/article/3615548/kotlin-150-stabilizes-unsigned-integer-types.html#tk.rss_java)
-- [JetBrains IntelliJ IDE debuts ‘run targets’](https://www.infoworld.com/article/3616168/jetbrains-intellij-ide-debuts-run-targets.html#tk.rss_java)
-
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
 
 <!-- LETSTALK-POST-LIST:START -->
-
-- [4 Developers 2020](http://letstalkaboutjava.blogspot.com/2020/02/4-developers-2020\_9.html)
+- [4 Developers 2020](http://letstalkaboutjava.blogspot.com/2020/02/4-developers-2020_9.html)
 - [You won't do it later!](http://letstalkaboutjava.blogspot.com/2019/12/you-wont-do-it-later.html)
 - [JDD 2019!](http://letstalkaboutjava.blogspot.com/2019/09/once-again-im-media-partner-of-jdd-and.html)
 - [4 Developers 2019](http://letstalkaboutjava.blogspot.com/2019/02/4-developers-2019.html)
@@ -310,13 +303,11 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JDD is coming!](http://letstalkaboutjava.blogspot.com/2018/08/jdd-is-coming.html)
 - [Just stop for a moment](http://letstalkaboutjava.blogspot.com/2018/06/just-stop-for-moment.html)
 - [Refactoring vs. Redesign](http://letstalkaboutjava.blogspot.com/2017/11/refactoring-vs-redesign.html)
-
 <!-- LETSTALK-POST-LIST:END -->
 
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
-
 - [Hibernate's @FetchProfile](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/hibernates-fetchprofile.html)
 - [Docker](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/docker.html)
 - [Aristotle's Wheel Paradox - To Infinity and Beyond](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/aristotles-wheel-paradox-to-infinity.html)
@@ -327,13 +318,11 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Jelastic CLI](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/jelastic-cli.html)
 - [Alternate Docroots](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/alternate-docroots.html)
 - [Learning Kotlin](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/learning-kotlin.html)
-
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
 
 <!-- BETTERCODE-POST-LIST:START -->
-
 - [Using Apache Kafka With Spring Boot](https://betterjavacode.com/kafka/using-apache-kafka-with-spring-boot)
 - [What Makes a Good Junior Developer](https://betterjavacode.com/programming/what-makes-a-good-junior-developer)
 - [Integration Testing in Spring Boot Application](https://betterjavacode.com/programming/integration-testing-in-spring-boot-application)
@@ -344,13 +333,11 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Everything you need to know about Spring Data JPA](https://betterjavacode.com/spring-boot/everything-you-need-to-know-about-spring-data-jpa)
 - [Conversion of Entity to DTO Using ModelMapper](https://betterjavacode.com/spring-boot/conversion-of-entity-to-dto-using-modelmapper)
 - [Spring Retry vs Resilience4j Retry](https://betterjavacode.com/programming/spring-retry-vs-resilience4j-retry)
-
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
-
 - [A few updates to JEP 411: Deprecate the Security Manager for Removal](https://inside.java/2021/07/16/a-few-updates-to-jep411/)
 - [Inside Java Newscast #8](https://inside.java/2021/07/15/insidejava-newscast-008/)
 - [Call for Discussion : New Project to support the Wayland display server on Linux](https://inside.java/2021/07/07/call-for-discussion/)
@@ -361,13 +348,11 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Episode 17 “Pattern Matching for switch” with Gavin Bierman](https://inside.java/2021/06/13/podcast-017/)
 - [Oracle JRE and JDK Cryptographic Roadmap](https://inside.java/2021/06/11/security-roadmap-update/)
 - [Inside Java Newscast #6](https://inside.java/2021/06/10/insidejava-newscast-006/)
-
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
 
 <!-- JAVAPROG-POST-LIST:START -->
-
 - [Evaluate Postfix Expression in Java](https://www.thejavaprogrammer.com/evaluate-postfix-expression-in-java/)
 - [Java Reflection Invoke Static Method](https://www.thejavaprogrammer.com/java-reflection-invoke-static-method/)
 - [Volatile vs Synchronized in Java](https://www.thejavaprogrammer.com/volatile-vs-synchronized/)
@@ -378,13 +363,11 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Advantages and Disadvantages of Generics in Java](https://www.thejavaprogrammer.com/advantages-and-disadvantages-of-generics-in-java/)
 - [Nested Switch in Java](https://www.thejavaprogrammer.com/nested-switch-in-java/)
 - [TreeSet Vs TreeMap in Java](https://www.thejavaprogrammer.com/treeset-vs-treemap/)
-
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### *Dreamix posts*
 
 <!-- DREAMIX-POST-LIST:START -->
-
 - [Java vs JavaScript: How to Choose the Right Backend Technology?](https://dreamix.eu/blog/java/java-vs-javascript-how-to-choose-the-right-backend-technology)
 - [Splitting String in Java –  Examples and Tips](https://dreamix.eu/blog/java/splitting-string-in-java-examples-and-tips)
 - [Learn from Java Champion Gerrit Grunwald: JavaFx – not dead yet](https://dreamix.eu/blog/java/learn-from-java-champion-gerrit-grunwald-javafx-not-dead-yet)
@@ -395,13 +378,11 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [5 Reasons Why Bespoke Software Development Projects Succeed](https://dreamix.eu/blog/java/5-reasons-why-bespoke-software-development-projects-succeed)
 - [Continuous Integration and Delivery to Improve the Software Development Workflow](https://dreamix.eu/blog/java/continuous-integration-and-delivery-to-improve-the-software-development-workflow)
 - [Why good (clean) software architecture matters](https://dreamix.eu/blog/java/why-good-clean-software-architecture-matters)
-
 <!-- DREAMIX-POST-LIST:END -->
 
 ### *Plumbr posts*
 
 <!-- PLUMBR-POST-LIST:START -->
-
 - [Plumbr has been acquired by Splunk](https://plumbr.io/blog/plumbr-blog/acquired-by-splunk)
 - [Using Plumbr with OpenTelemetry NodeJS agent](https://plumbr.io/blog/plumbr-blog/using-plumbr-with-opentelemetry-nodejs-agent)
 - [Extending Plumbr RUM with Web Vitals metrics](https://plumbr.io/blog/performance-blog/extending-plumbr-rum-with-web-vitals-metrics)
@@ -412,13 +393,12 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Plumbr now monitors Python applications and APIs](https://plumbr.io/blog/product-updates/plumbr-now-monitors-python-applications-and-apis)
 - [Distributed tracing in practice](https://plumbr.io/blog/tracing/distributed-tracing-in-practice)
 - [Plumbr now supports application versioning](https://plumbr.io/blog/product-updates/plumbr-now-supports-application-versioning)
-
 <!-- PLUMBR-POST-LIST:END -->
 
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
-
+- [How and when to use JPA’s getReference() Method](https://thorben-janssen.com/jpa-getreference/)
 - [Quarkus & Hibernate – Getting Started](https://thorben-janssen.com/quarkus-hibernate/)
 - [Hibernate’s Read-Only Query Hint For Faster Read Operations](https://thorben-janssen.com/read-only-query-hint/)
 - [Migrating from JPA 2.x to 3.0](https://thorben-janssen.com/migrating-jpa-2-x-to-3-0/)
@@ -428,8 +408,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [How to retrieve DTOs from your Envers Audit Logs](https://thorben-janssen.com/envers-dto/)
 - [Polymorphic association mappings of independent classes](https://thorben-janssen.com/polymorphic-association-mappings-of-independent-classes/)
 - [Hibernate Slow Query Log – The easiest way to find slow queries](https://thorben-janssen.com/hibernate-slow-query-log/)
-- [Coffee with Thorben 2020-03-05 – Natural vs Surrogate Keys](https://thorben-janssen.com/coffee-with-thorben-2020-02-19-utility-classes-2/)
-
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*
