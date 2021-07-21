@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#name-issue-reportabout-create-an-issue-reporttitle-labels-assignees" class="md-skip">
+        <a href="#issue-report" class="md-skip">
           Skip to content
         </a>
       
@@ -397,8 +397,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../patterns/snippet.template/" class="md-nav__link">
-        Snippet.template
+      <a href="../../patterns/snippet-template/" class="md-nav__link">
+        Snippet template
       </a>
     </li>
   
@@ -497,6 +497,8 @@
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           Issue template
@@ -512,6 +514,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -520,57 +524,37 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#name-issue-reportabout-create-an-issue-reporttitle-labels-assignees" class="md-nav__link">
-    Name: Issue report&#xD;&#xA;about: Create an issue report&#xD;&#xA;title: ''&#xD;&#xA;labels: ''&#xD;&#xA;assignees: ''
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#issue-report" class="md-nav__link">
-    Issue Report
-  </a>
-  
-    <nav class="md-nav" aria-label="Issue Report">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#characteristics" class="md-nav__link">
     Characteristics
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#description" class="md-nav__link">
     Description
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#steps-to-reproduce" class="md-nav__link">
     Steps to reproduce
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#other-files-and-urls" class="md-nav__link">
     Other files and URLs
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#relationships" class="md-nav__link">
     Relationships
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -837,8 +821,26 @@
                   </a>
                 
                 
-                <hr />
-<h2 id="name-issue-reportabout-create-an-issue-reporttitle-labels-assignees">Name: Issue report&#xD;&#xA;about: Create an issue report&#xD;&#xA;title: &lsquo;&rsquo;&#xD;&#xA;labels: &lsquo;&rsquo;&#xD;&#xA;assignees: &lsquo;&rsquo;<a class="headerlink" href="#name-issue-reportabout-create-an-issue-reporttitle-labels-assignees" title="Permanent link">&para;</a></h2>
+                <table>
+<thead>
+<tr>
+<th>Name</th>
+<th align="center">Category</th>
+<th align="center">Description</th>
+<th align="center">Labels</th>
+<th align="center">Links</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Issue name</td>
+<td align="center">Issue category</td>
+<td align="center">Issue description</td>
+<td align="center">&lsquo;utility&rsquo;,&rsquo;intermediate&rsquo;</td>
+<td align="center"><links></td>
+</tr>
+</tbody>
+</table>
 <h1 id="issue-report">Issue Report<a class="headerlink" href="#issue-report" title="Permanent link">&para;</a></h1>
 <h2 id="characteristics"><em>Characteristics</em><a class="headerlink" href="#characteristics" title="Permanent link">&para;</a></h2>
 <ul>
@@ -855,7 +857,7 @@
 <li><strong>Tool/Service/Component</strong>: [name, version] for example &ldquo;PIT 1.2.0, Descartes 0.2-SNAPSHOT, PITMP 1.0.1&rdquo;&ldquo;</li>
 <li><strong>Execution Environment</strong>: [platform, OS, etc] Description of the execution environment, e.g &ldquo;Linux
   OpenSuse Tumbleweed&rdquo; or &ldquo;Linux Ubuntu 16.04.1&rdquo; including information about the version of the executed
-  STAMP tools/services and their local dependencies (in case of standalone execution)</li>
+  STAMP tools/services, and their local dependencies (in case of standalone execution)</li>
 <li><strong>Reporter</strong>: [name, mail] Reference information of the reporter, so the assignee can contact back for
   further issue refinement, if needed.</li>
 </ul>
