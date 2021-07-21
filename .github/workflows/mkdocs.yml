@@ -7,6 +7,7 @@ on:
 
 env:
   PYTHONIOENCODING: utf-8
+  PYTHONUNBUFFERED: 1
   PYTHONLEGACYWINDOWSSTDIO: utf-8
   USE_COLOR: False
 
@@ -44,10 +45,12 @@ jobs:
             ${{ runner.os }}-pip-
 
       - name: Install dependencies
-        run: python3 -m pip install mkdocs mkdocs-material fontawesome_markdown mkdocs-redirects markdown-include --quiet
+        run: |
+          python3 -m pip install -r ./docs/requirements.txt --quiet
 
       - name: Build mkdocs
-        run: mkdocs build
+        run: |
+          python3 -m mkdocs build
 
       - name: Directory listing for debugging
         run: |

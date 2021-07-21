@@ -11,70 +11,128 @@ edit_uri: https://gitlab.com/AlexRogalskiy/java-patterns/master/docs/
 #Copyright (shown at the footer)
 copyright: 'Copyright &copy; 2021 Nullables.io'
 
+# Extra Files
+extra_javascript:
+  - assets/js/asciinema-player.js
+
+extra_css:
+  - assets/css/asciinema-player.css
+  - assets/css/extra.css
+
+# Theme
 theme:
   name: material
+  language: en
+  highlightjs: true
   font:
     text: Roboto
     code: Roboto Mono
-  palette:
-    scheme: preference
-    primary: deep-orange
-    accent: deep-orange
   features:
-    - navigation.tabs
+    - tabs
+    - navigation.top
+    - navigation.tabs.sticky
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
     - search.suggest
     - search.highlight
     - header.autohide
-  highlightjs: true
-  language: 'en'
+    - toc.integrate
+    - content.tabs.link
+  palette:
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: 'black'
+      accent: 'grey'
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  logo: assets/images/logos/logo.svg
+  favicon: assets/images/favicons/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
 
+# Plugins
 plugins:
   - search
+  - git-revision-date-localized: # https://squidfunk.github.io/mkdocs-material/plugins/revision-date/
+      type: date
+  - awesome-pages # https://squidfunk.github.io/mkdocs-material/plugins/awesome-pages/
+  - include-markdown # https://github.com/mondeja/mkdocs-include-markdown-plugin
 #  - minify:
 #      minify_html: true
 
+# Extra
 extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: 'https://github.com/AlexRogalskiy/java-patterns'
 
+hide:
+  - navigation
+  - toc
+
+# Extensions
 markdown_extensions:
-  - admonition
-  - codehilite:
-      linenums: true
-      use_pygments: false
-      guess_lang: false
+  - toc:
+      permalink: true
   - def_list
   - footnotes
   - tables
   - meta
-  - toc:
-      permalink: true
+  - admonition # https://squidfunk.github.io/mkdocs-material/extensions/admonition/
+  - codehilite: # https://squidfunk.github.io/mkdocs-material/extensions/codehilite/
+      linenums: true
+      use_pygments: false
+      guess_lang: false
+  - pymdownx.inlinehilite # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#inlinehilite
+  - pymdownx.superfences # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#superfences
+  - pymdownx.tabbed # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#tabbed
+  - pymdownx.details # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#details
+  - pymdownx.emoji: # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#configuration
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - smarty # https://python-markdown.github.io/extensions/smarty/
+  - mdx_truly_sane_lists # https://github.com/radude/mdx_truly_sane_lists -> proper indentation of md list items
 
-pages:
-  - Introduction: README.md
-  - Table of contents: SUMMARY.md
-  - User Guide:
-      - Changelog: user-guide/changelog.md
-      - Dependency: user-guide/dependency.md
-      - FAQ: user-guide/faq.md
-      - Getting Started: user-guide/getting-started.md
-      - Code of Conduct: user-guide/code_of_conduct.md
-      - Code Owners: user-guide/code_owners.md
-      - Troubleshooting: user-guide/troubleshooting.md
-      - Upgrade: user-guide/upgrade.md
-  - Units:
-      - Design patterns: units/design-patterns.md
-      - Scenarios: units/scenarios.md
-      - Use cases: units/use-cases.md
-  - Contributing:
-      - Information: contributing/info.md
-  - Reporting:
-      - Information: reporting/info.md
-      - Bug Report: reporting/bug_report.md
-      - Custom Report: reporting/custom_report.md
-      - Issue Report: reporting/issue_template.md
-      - Feature Request: reporting/feature_request_template.md
-      - Pull Request: reporting/pull_request_template.md
-  - Links:
-      - Information: links/info.md
+# Navigation
+# nav: omitted, because we're using the awesome-pages plugin (https://squidfunk.github.io/mkdocs-material/plugins/awesome-pages/)
+
+# Navigation
+#nav:
+#  - Introduction: README.md
+#  - Table of contents: SUMMARY.md
+#  - User Guide:
+#      - Changelog: user-guide/changelog.md
+#      - Dependency: user-guide/dependency.md
+#      - FAQ: user-guide/faq.md
+#      - Getting Started: user-guide/getting-started.md
+#      - Code of Conduct: user-guide/code_of_conduct.md
+#      - Code Owners: user-guide/code_owners.md
+#      - Troubleshooting: user-guide/troubleshooting.md
+#      - Upgrade: user-guide/upgrade.md
+#  - Units:
+#      - Design patterns: units/design-patterns.md
+#      - Scenarios: units/scenarios.md
+#      - Use cases: units/use-cases.md
+#  - Contributing:
+#      - Information: contributing/info.md
+#  - Reporting:
+#      - Information: reporting/info.md
+#      - Bug Report: reporting/bug_report.md
+#      - Custom Report: reporting/custom_report.md
+#      - Issue Report: reporting/issue_template.md
+#      - Feature Request: reporting/feature_request_template.md
+#      - Pull Request: reporting/pull_request_template.md
+#  - Links:
+#      - Information: links/info.md
+
+# Other Settings
+strict: false # halt processing when a warning is raised

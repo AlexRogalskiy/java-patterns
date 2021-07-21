@@ -1,4 +1,4 @@
-# ![image info](../assets/icons/icons8-plan-64.png) Changelog
+# Changelog
 
 ## *15.0.0 - 2042-12-03*
 

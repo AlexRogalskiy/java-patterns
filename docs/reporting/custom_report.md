@@ -2,7 +2,7 @@
 
 ## Name: Custom issue template&#xD;&#xA;about: Describe this issue template's purpose here.&#xD;&#xA;steps: ''&#xD;&#xA;labels: ''&#xD;&#xA;assignees: ''
 
-# ![image info](/docs/assets/icons/icons8-template-64.png) Custom Report
+# Custom Report
 
 **Is your feature request related to a problem? Please describe.** A clear and concise name of issue.
 

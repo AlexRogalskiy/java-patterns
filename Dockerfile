@@ -56,7 +56,7 @@ VOLUME ["$APP_DIR"]
 ## Creating work directory
 WORKDIR $APP_DIR
 
-# (workaround) Install cookiecutter and mkdocs to avoid the need to run docker in docker
+## Installing python
 RUN cd /tmp && curl -O https://www.python.org/ftp/python/${PYTHON_VERSION}/Python-${PYTHON_VERSION}.tar.xz && \
     tar -xvf Python-${PYTHON_VERSION}.tar.xz && \
     cd Python-${PYTHON_VERSION} && \
@@ -64,23 +64,42 @@ RUN cd /tmp && curl -O https://www.python.org/ftp/python/${PYTHON_VERSION}/Pytho
     make -j 4 && \
     make altinstall
 
+## Upgrading dependencies
 RUN apt update
+
+## Copying source files
+COPY . ./
+
+## Installing python dependencies
+## RUN pip3.8 install --no-cache-dir -r ./docs/requirements.txt --quiet
 RUN pip3.8 install --upgrade pip --quiet
 
 RUN pip3.8 install mkdocs --no-cache-dir --quiet
 RUN pip3.8 install mkdocs-material --no-cache-dir --quiet
 RUN pip3.8 install markdown-include --no-cache-dir --quiet
+RUN pip3.8 install fontawesome_markdown --no-cache-dir --quiet
+RUN pip3.8 install mkdocs-redirects --no-cache-dir --quiet
 RUN pip3.8 install mkdocs-techdocs-core --no-cache-dir --quiet
+RUN pip3.8 install mkdocs-git-revision-date-localized-plugin --no-cache-dir --quiet
+RUN pip3.8 install mkdocs-awesome-pages-plugin --no-cache-dir --quiet
+RUN pip3.8 install mdx_truly_sane_lists --no-cache-dir --quiet
+RUN pip3.8 install smarty --no-cache-dir --quiet
+RUN pip3.8 install mkdocs-include-markdown-plugin --no-cache-dir --quiet
+#RUN pip3.8 install mkdocs_pymdownx_material_extras --no-cache-dir --quiet
 RUN pip3.8 install click-man --no-cache-dir --quiet
 ## click-man --target path/to/man/pages mkdocs
+RUN pip3.8 install cookiecutter --no-cache-dir --quiet
 
-RUN pip3.8 install cookiecutter --no-cache-dir --quiet && \
-    apt remove -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev libbz2-dev g++ python-pip python-dev && \
-    rm -rf /var/cache/apt/* /tmp/Python-${PYTHON_VERSION}
+## Removing unnecessary dependencies
+RUN apt remove -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev libbz2-dev g++ python-pip python-dev
+RUN rm -rf /var/cache/apt/* /tmp/Python-${PYTHON_VERSION}
 
-COPY . ./
+## Show versions
+RUN echo "NPM version: $(npm --version)"
+RUN echo "NODE version: $(node --version)"
+RUN echo "PYTHON version: $(python3 --version)"
 
-## Install dependencies
+## Install node dependencies
 RUN npm install
 
 ## Run format checking & linting

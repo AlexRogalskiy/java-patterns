@@ -1,4 +1,4 @@
-# ![image info](/docs/assets/icons/icons8-template-64.png) Pull Request Template
+# Pull Request Template
 
 > **Please read the** >
 > [**contribution guidelines**](https://github.com/AlexRogalskiy/java-patterns/blob/master/docs/contributing/info.md) >

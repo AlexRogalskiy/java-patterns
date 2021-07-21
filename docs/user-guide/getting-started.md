@@ -1,4 +1,4 @@
-# ![image info](../assets/icons/icons8-report-64.png) Getting Started
+# Getting Started
 
 ## *Basic Usage*
 

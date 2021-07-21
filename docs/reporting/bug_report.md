@@ -2,7 +2,7 @@
 
 ## Name: Bug report&#xD;&#xA;about: Create a report to help us improve&#xD;&#xA;title: ''&#xD;&#xA;labels: ''&#xD;&#xA;assignees: ''
 
-# ![image info](/docs/assets/icons/icons8-template-64.png) Bug Report
+# Bug Report
 
 **Describe the bug** A clear and concise description of what the bug is.
 

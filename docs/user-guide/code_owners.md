@@ -1,4 +1,4 @@
-# ![image info](../assets/icons/icons8-inspector-64.png) Code Owners
+# Code Owners
 
 > **Configuration for the GitHub feature to automatically request reviews from the code owners when a pull
 > request changes any owned files.**

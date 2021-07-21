@@ -3,15 +3,15 @@
 ## *Useful Links and Materials*
 
 - [**Scala Online Editor**](https://scalafiddle.io/)
-- [**Scala Style**](http://docs.scala-lang.org/style/)\*\*\*\*
-- \*\*\*\*[**Scala school**](http://twitter.github.io/scala_school/)\*\*\*\*
-- [**Scala official documentation**](https://docs.scala-lang.org/)\*\*\*\*
-- \*\*\*\*[**Learning Scala**](http://matt.might.net/articles/learning-scala-in-small-bites/)\*\*\*\*
-- \*\*\*\*[**Scala doc**](https://docs.scala-lang.org/)\*\*\*\*
+- [**Scala Style**](http://docs.scala-lang.org/style/)
+- [**Scala school**](http://twitter.github.io/scala_school/)
+- [**Scala official documentation**](https://docs.scala-lang.org/)
+- [**Learning Scala**](http://matt.might.net/articles/learning-scala-in-small-bites/)
+- [**Scala doc**](https://docs.scala-lang.org/)
 
 ## *Popular Libraries and Utilities*
 
-{% tabs %} {% tab title="Web" %}
+!!! Web
 
 - [Diode](https://diode.suzaku.io/)
 - [Laminar](https://github.com/raquo/Laminar)
@@ -20,9 +20,9 @@
 - [Scala CSS](https://japgolly.github.io/scalacss/book/)
 - [Slinky](https://slinky.dev/)
 - [Udash](https://udash.io/)
-- [Squabs](https://github.com/paypal/squbs) {% endtab %}
+- [Squabs](https://github.com/paypal/squbs)
 
-{% tab title="Functional" %}
+!!! Functional
 
 - [Cats](https://typelevel.org/cats/)
 - [Cats Effect](https://github.com/typelevel/cats-effect)
@@ -39,26 +39,26 @@
 - [Simulacrum](https://github.com/typelevel/simulacrum)
 - [Spire](https://github.com/typelevel/spire)
 - [Squants](http://www.squants.com/)
-- [ZIO](https://zio.dev/) {% endtab %}
+- [ZIO](https://zio.dev/)
 
-{% tab title="FRP" %}
+!!! FRP
 
 - [Binding.scala](https://github.com/ThoughtWorksInc/Binding.scala)
 - [OutWatch](https://outwatch.github.io/?lang=scala)
 - [Owlet](https://oyanglul.us/owlet/)
 - [Reactify](https://github.com/outr/reactify)
 - [Scala.Rx](https://github.com/lihaoyi/scala.rx)
-- [bindable.scala](https://github.com/ThoughtWorksInc/bindable.scala) {% endtab %}
+- [bindable.scala](https://github.com/ThoughtWorksInc/bindable.scala)
 
-{% tab title="Serialization" %}
+!!! Serialization
 
 - [BooPickle](https://boopickle.suzaku.io/)
 - [Circe](https://circe.github.io/circe/)
 - [Play JSON](https://github.com/julienrf/play-json-derived-codecs)
 - [uPickle](https://github.com/lihaoyi/upickle)
-- [Json AST](https://json4s.org/) {% endtab %}
+- [Json AST](https://json4s.org/)
 
-{% tab title="Misc" %}
+!!! Misc
 
 - [Accord](http://wix.github.io/accord/) (validation)
 - [Akka.js](https://github.com/akka-js/akka.js)
@@ -70,12 +70,12 @@
 - [Scalafmt](https://scalameta.org/scalafmt/)
 - [Scalameta](https://scalameta.org/)
 - [sttp](https://sttp.softwaremill.com/en/latest/)
-- [Graph](http://www.scala-graph.org/) {% endtab %}
+- [Graph](http://www.scala-graph.org/)
 
-{% tab title="Style" %}
+!!! Style
 
-- [Scala style](http://www.scalastyle.org/maven.html) {% endtab %}
+- [Scala style](http://www.scalastyle.org/maven.html)
 
-{% tab title="Computing" %}
+!!! Computing
 
-- [Breeze](https://github.com/scalanlp/breeze) {% endtab %} {% endtabs %}
+- [Breeze](https://github.com/scalanlp/breeze)
