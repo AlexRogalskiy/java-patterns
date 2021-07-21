@@ -1,6 +1,6 @@
-***
-
-## Name: Bug report&#xD;&#xA;about: Create a report to help us improve&#xD;&#xA;title: ''&#xD;&#xA;labels: ''&#xD;&#xA;assignees: ''
+|   Name            |   Category            |   Description       |   Labels                |  Links    |
+| ----------------- | :-------------------: | :-----------------: | :---------------------: | :-------: |
+| Bug name          | Bug category          | Bug description     | 'utility','intermediate'| <links>   |
 
 # Bug Report
 

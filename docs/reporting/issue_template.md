@@ -1,6 +1,6 @@
-***
-
-## Name: Issue report&#xD;&#xA;about: Create an issue report&#xD;&#xA;title: ''&#xD;&#xA;labels: ''&#xD;&#xA;assignees: ''
+|   Name            |   Category            |   Description       |   Labels                |  Links    |
+| ----------------- | :-------------------: | :-----------------: | :---------------------: | :-------: |
+| Issue name        | Issue category        | Issue description   | 'utility','intermediate'| <links>   |
 
 # Issue Report
 
@@ -17,7 +17,7 @@
 - **Tool/Service/Component**: \[name, version] for example "PIT 1.2.0, Descartes 0.2-SNAPSHOT, PITMP 1.0.1""
 - **Execution Environment**: \[platform, OS, etc] Description of the execution environment, e.g "Linux
   OpenSuse Tumbleweed" or "Linux Ubuntu 16.04.1" including information about the version of the executed
-  STAMP tools/services and their local dependencies (in case of standalone execution)
+  STAMP tools/services, and their local dependencies (in case of standalone execution)
 - **Reporter**: \[name, mail] Reference information of the reporter, so the assignee can contact back for
   further issue refinement, if needed.
 

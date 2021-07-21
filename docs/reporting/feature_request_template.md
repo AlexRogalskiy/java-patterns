@@ -1,6 +1,6 @@
-***
-
-## Name: Feature request&#xD;&#xA;about: Suggest an idea for this project&#xD;&#xA;title: ''&#xD;&#xA;labels: ''&#xD;&#xA;assignees: ''
+|   Name            |   Category            |   Description       |   Labels                |  Links    |
+| ----------------- | :-------------------: | :-----------------: | :---------------------: | :-------: |
+| Feature name      | Feature category      | Feature description | 'utility','intermediate'| <links>   |
 
 # Feature Request Template
 

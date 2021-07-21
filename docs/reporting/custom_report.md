@@ -1,6 +1,6 @@
-***
-
-## Name: Custom issue template&#xD;&#xA;about: Describe this issue template's purpose here.&#xD;&#xA;steps: ''&#xD;&#xA;labels: ''&#xD;&#xA;assignees: ''
+|   Name            |   Category            |   Description       |   Labels                |  Links    |
+| ----------------- | :-------------------: | :-----------------: | :---------------------: | :-------: |
+| Report name       | Report category      | Report description   | 'utility','intermediate'| <links>   |
 
 # Custom Report
 
