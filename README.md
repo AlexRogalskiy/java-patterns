@@ -263,18 +263,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
+- [Why can’t there be null values in a stream?](https://www.reddit.com/r/java/comments/oou0wt/why_cant_there_be_null_values_in_a_stream/)
+- [Book about Java 9 Modules](https://www.reddit.com/r/java/comments/ooq5wo/book_about_java_9_modules/)
+- [JavaFX: One Codebase for Web, PC, and Mobile](https://www.reddit.com/r/java/comments/ooq55g/javafx_one_codebase_for_web_pc_and_mobile/)
+- [Java Server Page (JSP)](https://www.reddit.com/r/java/comments/oooucy/java_server_page_jsp/)
+- [Foojay.io (Friends of OpenJDK) recently had a redesign, let us know what you think!](https://www.reddit.com/r/java/comments/oolnln/foojayio_friends_of_openjdk_recently_had_a/)
+- [JVM Anatomy Quark #29: Uncommon Traps](https://www.reddit.com/r/java/comments/ooka83/jvm_anatomy_quark_29_uncommon_traps/)
+- [JVM Anatomy Quark #28: Frequency-Based Code Layout](https://www.reddit.com/r/java/comments/ooj5gm/jvm_anatomy_quark_28_frequencybased_code_layout/)
+- [Trying to Self Study Java](https://www.reddit.com/r/java/comments/ooixsa/trying_to_self_study_java/)
+- [OpenJDK Vulnerability Advisory: 2021/07/20](https://www.reddit.com/r/java/comments/oohs96/openjdk_vulnerability_advisory_20210720/)
 - [Libraries for GitHub-style multi-organization authorization?](https://www.reddit.com/r/java/comments/oobu4q/libraries_for_githubstyle_multiorganization/)
-- [Set a config property when another app is active](https://www.reddit.com/r/java/comments/ooa4j5/set_a_config_property_when_another_app_is_active/)
-- [Herding (Apache) Camels with HashiCorp Consul](https://www.reddit.com/r/java/comments/oo7cre/herding_apache_camels_with_hashicorp_consul/)
-- [GraalVM 21.2 with lots of native image usability improvements](https://www.reddit.com/r/java/comments/oo71ad/graalvm\_212\_with_lots_of_native_image_usability/)
-- [What is the best java library for networking?](https://www.reddit.com/r/java/comments/oo2z2x/what_is_the_best_java_library_for_networking/)
-- [Spring GraphQL Milestone One](https://www.reddit.com/r/java/comments/onxii9/spring_graphql_milestone_one/)
-- [Thread Pools on the JVM](https://www.reddit.com/r/java/comments/onjo3e/thread_pools_on_the_jvm/)
-- [Bean Validation vs. calling validation methods](https://www.reddit.com/r/java/comments/ongysb/bean_validation_vs_calling_validation_methods/)
-- [Validating Input with Finite Automata in Java | Baeldung](https://www.reddit.com/r/java/comments/ongfb2/validating_input_with_finite_automata_in_java/)
-- [Is there any java library that supports openmp or pthreads?](https://www.reddit.com/r/java/comments/onfaqj/is_there_any_java_library_that_supports_openmp_or/)
-
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
