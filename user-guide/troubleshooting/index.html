@@ -846,36 +846,36 @@
 <p>These are required prerequisites before filing an issue on GitHub</p>
 <h3 id="step-1-attempt-to-upgrade-fastpages">Step 1: Attempt To Upgrade fastpages<a class="headerlink" href="#step-1-attempt-to-upgrade-fastpages" title="Permanent link">&para;</a></h3>
 <p>See the <a href="https://github.com/AlexRogalsky/object-mappers-playground/blob/master/UPGRADE.md">Upgrading guide</a>.</p>
-<p><strong>In addition to upgrading</strong>, if developing locally, refresh your Docker containers with the following
+<p><strong>In addition to upgrading</strong>, if developing locally, refresh your Docker containers with the following<br />
 commands from the root of your repo:</p>
 <p><code>make remove</code> followed by <code>make build</code></p>
 <h3 id="step-2-search-relevant-places-for-similar-issues">Step 2: Search Relevant Places For Similar Issues<a class="headerlink" href="#step-2-search-relevant-places-for-similar-issues" title="Permanent link">&para;</a></h3>
 <ul>
-<li>[ ] Search issues on the <a href="https://github.com/AlexRogalsky/object-mappers-playground/">repository</a> for a similar
+<li>[ ] Search issues on the <a href="https://github.com/AlexRogalsky/object-mappers-playground/">repository</a> for a similar<br />
   problems?</li>
-<li>[ ] Read the <a href="https://github.com/AlexRogalsky/object-mappers-playground/blob/master/README.md">README</a>
+<li>[ ] Read the <a href="https://github.com/AlexRogalsky/object-mappers-playground/blob/master/README.md">README</a><br />
   carefully</li>
 </ul>
 <h3 id="step-3-observe-build-logs-when-developing-locally">Step 3: Observe Build Logs When Developing Locally<a class="headerlink" href="#step-3-observe-build-logs-when-developing-locally" title="Permanent link">&para;</a></h3>
 <ul>
-<li>[ ] Run the
-  <a href="https://github.com/AlexRogalskiy/object-mappers-playground/tree/411b3cc78f62a724d9d5eab4c09535e4ed36ceb3/docs/user-guide/DEVELOPMENT.md">fastpages blog server locally</a><ul>
-<li>Pay attention to the emitted logs when you save your notebooks or files. Often, you will see errors
+<li>[ ] Run the<br />
+<a href="https://github.com/AlexRogalskiy/object-mappers-playground/tree/411b3cc78f62a724d9d5eab4c09535e4ed36ceb3/docs/user-guide/DEVELOPMENT.md">fastpages blog server locally</a><ul>
+<li>Pay attention to the emitted logs when you save your notebooks or files. Often, you will see errors<br />
   here that will give you important clues.</li>
 </ul>
 </li>
-<li>[ ] When developing locally, you will notice that Jupyter notebooks are converted to corresponding
-  Markdown files in the <code>_posts</code> folder. Take a look at the problematic blog posts and see if you can spot
+<li>[ ] When developing locally, you will notice that Jupyter notebooks are converted to corresponding<br />
+  Markdown files in the <code>_posts</code> folder. Take a look at the problematic blog posts and see if you can spot<br />
   the offending HTML or Markdown in that code.</li>
-<li>Use your browser&rsquo;s developer tools to see if there are any errors. Common errors are (1) not able to find
+<li>Use your browser&rsquo;s developer tools to see if there are any errors. Common errors are (1) not able to find<br />
   images because they have not been saved into the right folder, (2) JavaScript or other errors.</li>
-<li>If you receive a Jekyll build error or a Liquid error, search for this error on Stack Overflow to provide
+<li>If you receive a Jekyll build error or a Liquid error, search for this error on Stack Overflow to provide<br />
   more insight on the problem.</li>
 </ul>
 <h3 id="step-4-see-if-there-are-errors-in-the-build-process-of-github-actions">Step 4: See if there are errors in the build process of GitHub Actions.<a class="headerlink" href="#step-4-see-if-there-are-errors-in-the-build-process-of-github-actions" title="Permanent link">&para;</a></h3>
 <ul>
-<li>[ ] In your GitHub repository, you will have a tab called <strong>Actions</strong>. To find build errors, click on the
-  <code>Event</code> dropdown list and select <code>push</code>. Browse through the logs to see if you can find an error. If you
+<li>[ ] In your GitHub repository, you will have a tab called <strong>Actions</strong>. To find build errors, click on the<br />
+<code>Event</code> dropdown list and select <code>push</code>. Browse through the logs to see if you can find an error. If you<br />
   receive an error, read the error message and try to debug.</li>
 </ul>
 <h3 id="step-5-once-you-have-performed-all-the-above-steps-post-your-issue-in-the-fastai-forums-or-a-github-issue">Step 5: Once you have performed all the above steps, post your issue in the fastai forums or a GitHub Issue.<a class="headerlink" href="#step-5-once-you-have-performed-all-the-above-steps-post-your-issue-in-the-fastai-forums-or-a-github-issue" title="Permanent link">&para;</a></h3>
@@ -884,12 +884,12 @@ commands from the root of your repo:</p>
 <li>When reporting a bug, provide this information:<ol>
 <li>Steps to reproduce the problem</li>
 <li>A link to the notebook or Markdown file where the error is occurring</li>
-<li>If the error is happening in GitHub Actions, a link to the specific error along with how you are able
-   to reproduce this error. You must provide this <strong>in addition to the link to the notebook or markdown
+<li>If the error is happening in GitHub Actions, a link to the specific error along with how you are able<br />
+   to reproduce this error. You must provide this <strong>in addition to the link to the notebook or markdown<br />
    file</strong>.</li>
-<li>A screenshot / dump of relevant logs or error messages you are receiving from your local development
-   environment. The local development server as indicated in the
-   <a href="https://github.com/fastai/fastpages/blob/master/_fastpages_docs/DEVELOPMENT.md">development guide</a>.</li>
+<li>A screenshot / dump of relevant logs or error messages you are receiving from your local development<br />
+   environment. The local development server as indicated in the<br />
+<a href="https://github.com/fastai/fastpages/blob/master/_fastpages_docs/DEVELOPMENT.md">development guide</a>.</li>
 </ol>
 </li>
 </ul>
@@ -897,22 +897,22 @@ commands from the root of your repo:</p>
 <h2 id="frequent-errors"><em>Frequent Errors</em><a class="headerlink" href="#frequent-errors" title="Permanent link">&para;</a></h2>
 <ol>
 <li>
-<p>Malformed front matter. Note that anything defined in front matter must be valid YAML. <strong>Failure to provide
-   valid YAML could result in your page not rendering</strong> in your blog. For example, if you want a colon in your
+<p>Malformed front matter. Note that anything defined in front matter must be valid YAML. <strong>Failure to provide<br />
+   valid YAML could result in your page not rendering</strong> in your blog. For example, if you want a colon in your<br />
    title you must escape it with double quotes like this:</p>
 <p><code>- title: "Deep learning: A tutorial"</code></p>
 <p>Or in a notebook</p>
 <p><code># "Deep learning: A tutorial"</code></p>
-<p>See this <a href="https://rollout.io/blog/yaml-tutorial-everything-you-need-get-started/">tutorial on YAML</a> for
+<p>See this <a href="https://rollout.io/blog/yaml-tutorial-everything-you-need-get-started/">tutorial on YAML</a> for<br />
  more information.</p>
-<p><strong>Colons, tilda, asterisk and other characters may cause your front matter to break and for your posts to
+<p><strong>Colons, tilda, asterisk and other characters may cause your front matter to break and for your posts to<br />
  not render.</strong> If you violoate these conventions you often get an error that looks something like this:</p>
 <div class="highlight"><pre><span></span><code> Error: YAML Exception reading ... <span class="o">(</span>&lt;unknown&gt;<span class="o">)</span>: mapping values are not allowed
 </code></pre></div>
 </li>
 <li>
-<p>Can you customize the styling or theme? <strong>A</strong>: See
-   <a href="https://github.com/AlexRogalskiy/object-mappers-playground#customizing-fastpages">Customizing</a></p>
+<p>Can you customize the styling or theme? <strong>A</strong>: See<br />
+<a href="https://github.com/AlexRogalskiy/object-mappers-playground#customizing-fastpages">Customizing</a></p>
 </li>
 </ol>
 <p>See the <a href="https://github.com/AlexRogalskiy/object-mappers-playground#faq">FAQ</a> for frequently asked questions.</p>
@@ -924,7 +924,7 @@ commands from the root of your repo:</p>
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 21, 2021</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">July 22, 2021</span>
     
   </small>
 </div>
