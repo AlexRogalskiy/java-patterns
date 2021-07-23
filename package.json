@@ -89,7 +89,7 @@
         "access": "public"
     },
     "engines": {
-        "node": ">= 12.x"
+        "node": ">= v16.5.0"
     },
     "keywords": ["java design patterns"],
     "maintainers": [
