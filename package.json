@@ -1,0 +1,123 @@
+{
+    "name": "java-patterns",
+    "version": "0.0.0",
+    "description": "Java Design Patterns",
+    "license": "GPL-3.0",
+    "scripts": {
+        "husky:install": "husky install",
+        "postinstall": "npm run husky:install",
+        "remark": "remark -q -f .",
+        "commit": "git-cz",
+        "release": "release-it",
+        "format": "prettier --single-quote --write **/*.{json,yaml,yml}",
+        "format:md": "remark-preset-davidtheclark --format",
+        "format:check": "prettier --check **/*.{json,yaml,yml}",
+        "format:doc": "alex",
+        "lint:text": "textlint docs",
+        "lint:md": "remark-preset-davidtheclark",
+        "lint:markdown": "markdownlint --config .markdownlint.yml docs/*.md",
+        "lint:json": "jsonlint ./package.json --quiet",
+        "lint:style": "stylelint --color --disable-default-ignores --allow-empty-input verbose **/*.{css,scss,sass}",
+        "lint:docker": "dockerfile_lint -r default_rules.yaml",
+        "lint:staged": "lint-staged --no-stash --allow-empty",
+        "pretty": "pretty-quick --staged --pattern '!test/tests/lint/**'",
+        "license": "license-checker --json > licenses.json",
+        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+        "markdown": "markdown-link-check ./README.md ./SECURITY.md",
+        "git:diff": "git --no-pager diff --exit-code --stat HEAD",
+        "git:log": "git log -1 --format='format:%H' HEAD",
+        "git:clean": "git stash && git clean -fdX",
+        "git:ls": "git cat-file -p HEAD && git ls-tree -r HEAD",
+        "link-check": "repo-link-check -c config/config.yml -s filesystem -u",
+        "link-check-diff": "repo-link-check -c config/config.yml",
+        "link-check-dev-server": "repo-link-check -c config/config.yml -r http://localhost:3000",
+        "link-check-exclude": "repo-link-check -c config/config.yml -s filesystem -u only",
+        "build-image": "docker build -f Dockerfile --tag java-patterns .",
+        "postversion": "git push --follow-tags && npm publish --access public",
+        "bump:patch": "npm version patch --no-git-tag-version",
+        "bump:minor": "npm version minor --no-git-tag-version",
+        "bump:major": "npm version major --no-git-tag-version",
+        "release-patch": "git checkout master && npm run all && npm run bump:patch && git commit -a -m 'Build project codebase with patch version' && git push origin master --tags",
+        "release-minor": "git checkout master && npm run all && npm run bump:minor && git commit -a -m 'Build project codebase with minor version' && git push origin master --tags",
+        "release-major": "git checkout master && npm run all && npm run bump:major && git commit -a -m 'Build project codebase with major version' && git push origin master --tags",
+        "test:license": "license-checker --production --summary --unknown --onlyAllow=\"Apache-2.0;BSD;ISC;MIT;GPL-3.0;CC-BY-3.0;CC0-1.0;\"",
+        "format:all": "npm run format && npm run format:md",
+        "lint:all": "npm run lint:json && npm run lint:style && npm run lint:docker",
+        "check:all": "npm run pretty && npm run format:check",
+        "test:all": "npm run test:license",
+        "all": "npm run format:all && npm run lint:all && npm run check:all && npm run test:all"
+    },
+    "devDependencies": {
+        "alex": "^9.1.0",
+        "conventional-changelog-cli": "^2.1.1",
+        "dockerfile_lint": "^0.3.4",
+        "husky": "^7.0.1",
+        "git-cz": "^4.7.6",
+        "jsonlint": "^1.6.3",
+        "license-checker": "^25.0.1",
+        "lint-staged": "^11.0.1",
+        "markdown-link-check": "^3.8.7",
+        "markdownlint-cli": "^0.27.1",
+        "stylelint": "~13.13.1",
+        "stylelint-config-standard": "^22.0.0",
+        "stylelint-order": "^4.1.0",
+        "stylelint-scss": "^3.20.1",
+        "prettier": "^2.3.2",
+        "pretty-quick": "^3.1.1",
+        "release-it": "^14.10.0",
+        "remark-cli": "^9.0.0",
+        "remark-lint-code-block-style": "^2.0.1",
+        "remark-lint-ordered-list-marker-value": "^2.0.1",
+        "remark-preset-davidtheclark": "^0.12.0",
+        "remark-validate-links": "^10.0.4",
+        "repo-link-check": "^0.7.1",
+        "textlint": "^12.0.2",
+        "textlint-rule-alex": "^3.0.0",
+        "textlint-rule-common-misspellings": "^1.0.1",
+        "textlint-rule-en-capitalization": "^2.0.2",
+        "textlint-rule-stop-words": "^2.0.9",
+        "textlint-rule-terminology": "^2.1.5",
+        "textlint-rule-write-good": "^2.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AlexRogalskiy/java-patterns.git"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/",
+        "tag": "latest",
+        "access": "public"
+    },
+    "engines": {
+        "node": ">= 12.x"
+    },
+    "keywords": ["java design patterns"],
+    "maintainers": [
+        {
+            "name": "Alexander Rogalskiy",
+            "email": "hi@nullables.io"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Alexander Rogalskiy",
+            "email": "hi@nullables.io"
+        }
+    ],
+    "husky": {
+        "hooks": {
+            "pre-push": "npm run check:all",
+            "prepare-commit-msg": "git cz --hook --non-interactive --type=feat --subject=\"added new features\" || true",
+            "pre-commit": "npm run lint:staged && npm run all"
+        }
+    },
+    "bugs": {
+        "url": "https://github.com/AlexRogalskiy/java-patterns/issues"
+    },
+    "homepage": "https://github.com/AlexRogalskiy/java-patterns/",
+    "author": {
+        "name": "Alexander Rogalskiy",
+        "url": "https://github.com/AlexRogalskiy"
+    },
+    "funding": "https://github.com/sponsors/AlexRogalskiy"
+}

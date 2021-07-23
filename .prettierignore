@@ -1,0 +1,14 @@
+*.log
+*.DS_Store
+OSSMETADATA
+
+.github
+.dependabot
+.idea
+.vscode
+.husky
+
+node_modules
+flow-typed
+coverage
+dist

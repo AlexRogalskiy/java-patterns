@@ -1,8 +1,9 @@
-# ![image info](../assets/icons/icons8-plugin-64.png) Dependency Management
+# Dependency Management
 
-## _Maven_
+## *Maven*
 
-ObjectMappers playground dependency can be simply acquired by adding the following code snippet to your `pom.xml`:
+ObjectMappers playground dependency can be simply acquired by adding the following code snippet to your
+`pom.xml`:
 
 ```markup
     <groupId>io.nullables.api.playground</groupId>
@@ -10,9 +11,8 @@ ObjectMappers playground dependency can be simply acquired by adding the followi
     <version>0.1.0-SNAPSHOT</version>
 ```
 
-## _Gradle_
+## *Gradle*
 
 ```groovy
 compile 'io.nullables.api.playground:objectmappers-all:0.1.0-SNAPSHOT'
 ```
-

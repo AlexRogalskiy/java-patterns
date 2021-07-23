@@ -1,33 +1,29 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
----
+|   Name            |   Category            |   Description       |   Labels                |  Links    |
+| ----------------- | :-------------------: | :-----------------: | :---------------------: | :-------: |
+| Bug name          | Bug category          | Bug description     | 'utility','intermediate'| <links>   |
 
-# ![image info](../images/icons8-template-64.png) Bug Report
+# Bug Report
 
 **Describe the bug** A clear and concise description of what the bug is.
 
-**To Reproduce** Steps to reproduce the behavior: 1. Go to '...' 2. Click on '....' 3. Scroll down to '....' 4. See error
+**To Reproduce** Steps to reproduce the behavior: 1. Go to '...' 2. Click on '....' 3. Scroll down to
+'....' 4. See error
 
 **Expected behavior** A clear and concise description of what you expected to happen.
 
 **Screenshots** If applicable, add screenshots to help explain your problem.
 
-**Desktop \(please complete the following information\):**
+**Desktop (please complete the following information):**
 
-* OS: \[e.g. iOS\]
-* Browser \[e.g. chrome, safari\]
-* Version \[e.g. 22\]
+- OS: \[for example IOS]
+- Browser \[for example Chrome, safari]
+- Version \[for example 22]
 
-**Smartphone \(please complete the following information\):**
+**Mobile phone (please complete the following information):**
 
-* Device: \[e.g. iPhone6\]
-* OS: \[e.g. iOS8.1\]
-* Browser \[e.g. stock browser, safari\]
-* Version \[e.g. 22\]
+- Device: \[for example IPhone6]
+- OS: \[for example IOS8.1]
+- Browser \[for example Stock browser, safari]
+- Version \[for example 22]
 
 **Additional context** Add any other context about the problem here.
-
