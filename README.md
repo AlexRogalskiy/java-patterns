@@ -266,16 +266,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- REDDIT-POST-LIST:START -->
 
-- [Why can’t there be null values in a stream?](https://www.reddit.com/r/java/comments/oou0wt/why_cant_there_be_null_values_in_a_stream/)
+- [xap/xap: Distributed, highly-scalable, In Memory Data Grid](https://www.reddit.com/r/java/comments/opn1i6/xapxap_distributed_highlyscalable_in_memory_data/)
+- [What is your opinion on creating intermediate objects?](https://www.reddit.com/r/java/comments/opis36/what_is_your_opinion_on_creating_intermediate/)
+- [Another quick look at The Instrument](https://www.reddit.com/r/java/comments/opewb5/another_quick_look_at_the_instrument/)
+- [How good is your expirience with education.oracle.com?](https://www.reddit.com/r/java/comments/ope36m/how_good_is_your_expirience_with/)
+- [JEP draft: InetAddress host name and address lookup service provider interface](https://www.reddit.com/r/java/comments/opdv4v/jep_draft_inetaddress_host_name_and_address/)
+- [Good java YouTubers?](https://www.reddit.com/r/java/comments/opdm6r/good_java_youtubers/)
+- [Sealed Classes - JEP Café #2](https://www.reddit.com/r/java/comments/opcb0r/sealed_classes_jep_café\_2/)
+- [Do records have an impact during JIT compiling?](https://www.reddit.com/r/java/comments/op8duq/do_records_have_an_impact_during_jit_compiling/)
 - [Book about Java 9 Modules](https://www.reddit.com/r/java/comments/ooq5wo/book_about_java\_9\_modules/)
 - [JavaFX: One Codebase for Web, PC, and Mobile](https://www.reddit.com/r/java/comments/ooq55g/javafx_one_codebase_for_web_pc_and_mobile/)
-- [Java Server Page (JSP)](https://www.reddit.com/r/java/comments/oooucy/java_server_page_jsp/)
-- [Foojay.io (Friends of OpenJDK) recently had a redesign, let us know what you think!](https://www.reddit.com/r/java/comments/oolnln/foojayio_friends_of_openjdk_recently_had_a/)
-- [JVM Anatomy Quark #29: Uncommon Traps](https://www.reddit.com/r/java/comments/ooka83/jvm_anatomy_quark\_29\_uncommon_traps/)
-- [JVM Anatomy Quark #28: Frequency-Based Code Layout](https://www.reddit.com/r/java/comments/ooj5gm/jvm_anatomy_quark\_28\_frequencybased_code_layout/)
-- [Trying to Self Study Java](https://www.reddit.com/r/java/comments/ooixsa/trying_to_self_study_java/)
-- [OpenJDK Vulnerability Advisory: 2021/07/20](https://www.reddit.com/r/java/comments/oohs96/openjdk_vulnerability_advisory\_20210720/)
-- [Libraries for GitHub-style multi-organization authorization?](https://www.reddit.com/r/java/comments/oobu4q/libraries_for_githubstyle_multiorganization/)
 
 <!-- REDDIT-POST-LIST:END -->
 
@@ -351,6 +351,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- INSIDE-POST-LIST:START -->
 
+- [JEP Café #2 - Sealed Classes](https://inside.java/2021/07/22/jepcafe2/)
 - [A few updates to JEP 411: Deprecate the Security Manager for Removal](https://inside.java/2021/07/16/a-few-updates-to-jep411/)
 - [Inside Java Newscast #8](https://inside.java/2021/07/15/insidejava-newscast-008/)
 - [Call for Discussion : New Project to support the Wayland display server on Linux](https://inside.java/2021/07/07/call-for-discussion/)
@@ -360,7 +361,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JEP Café #1](https://inside.java/2021/06/23/jepcafe/)
 - [Episode 17 “Pattern Matching for switch” with Gavin Bierman](https://inside.java/2021/06/13/podcast-017/)
 - [Oracle JRE and JDK Cryptographic Roadmap](https://inside.java/2021/06/11/security-roadmap-update/)
-- [Inside Java Newscast #6](https://inside.java/2021/06/10/insidejava-newscast-006/)
 
 <!-- INSIDE-POST-LIST:END -->
 
