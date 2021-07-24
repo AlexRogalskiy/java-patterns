@@ -263,18 +263,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
+- [Switch to java or continue with C++](https://www.reddit.com/r/java/comments/oq8cr0/switch_to_java_or_continue_with_c/)
+- [Breaking Down Java Monitoring Tools Review](https://www.reddit.com/r/java/comments/oq4h9t/breaking_down_java_monitoring_tools_review/)
+- [Podcast: James Gosling on embedded Java](https://www.reddit.com/r/java/comments/oq2mn6/podcast_james_gosling_on_embedded_java/)
+- [From AdoptOpenJDK to Eclipse Adoptium toward an open Java ecosystem (Webinar)](https://www.reddit.com/r/java/comments/oq1vpt/from_adoptopenjdk_to_eclipse_adoptium_toward_an/)
+- [What java formatter do you use for formatting source code?](https://www.reddit.com/r/java/comments/oq010z/what_java_formatter_do_you_use_for_formatting/)
+- [JVM Anatomy Quark #30: Conditional Moves](https://www.reddit.com/r/java/comments/opydg2/jvm_anatomy_quark_30_conditional_moves/)
 - [xap/xap: Distributed, highly-scalable, In Memory Data Grid](https://www.reddit.com/r/java/comments/opn1i6/xapxap_distributed_highlyscalable_in_memory_data/)
 - [What is your opinion on creating intermediate objects?](https://www.reddit.com/r/java/comments/opis36/what_is_your_opinion_on_creating_intermediate/)
 - [Another quick look at The Instrument](https://www.reddit.com/r/java/comments/opewb5/another_quick_look_at_the_instrument/)
 - [How good is your expirience with education.oracle.com?](https://www.reddit.com/r/java/comments/ope36m/how_good_is_your_expirience_with/)
-- [JEP draft: InetAddress host name and address lookup service provider interface](https://www.reddit.com/r/java/comments/opdv4v/jep_draft_inetaddress_host_name_and_address/)
-- [Good java YouTubers?](https://www.reddit.com/r/java/comments/opdm6r/good_java_youtubers/)
-- [Sealed Classes - JEP Café #2](https://www.reddit.com/r/java/comments/opcb0r/sealed_classes_jep_café\_2/)
-- [Do records have an impact during JIT compiling?](https://www.reddit.com/r/java/comments/op8duq/do_records_have_an_impact_during_jit_compiling/)
-- [Book about Java 9 Modules](https://www.reddit.com/r/java/comments/ooq5wo/book_about_java\_9\_modules/)
-- [JavaFX: One Codebase for Web, PC, and Mobile](https://www.reddit.com/r/java/comments/ooq55g/javafx_one_codebase_for_web_pc_and_mobile/)
-
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
