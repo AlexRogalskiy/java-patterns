@@ -4,6 +4,8 @@
     "description": "Java Design Patterns",
     "license": "GPL-3.0",
     "scripts": {
+        "start-docker": "docker stack deploy -c docker-compose.yml dev",
+        "stop-docker": "docker stack rm dev",
         "husky:install": "husky install",
         "postinstall": "npm run husky:install",
         "remark": "remark -q -f .",
