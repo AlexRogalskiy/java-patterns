@@ -263,6 +263,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Testing Jakarta EE 9 Applications with Arquillian and WildFly](https://www.reddit.com/r/java/comments/oqv3nh/testing_jakarta_ee_9_applications_with_arquillian/)
 - [Switch to java or continue with C++](https://www.reddit.com/r/java/comments/oq8cr0/switch_to_java_or_continue_with_c/)
 - [Breaking Down Java Monitoring Tools Review](https://www.reddit.com/r/java/comments/oq4h9t/breaking_down_java_monitoring_tools_review/)
 - [Podcast: James Gosling on embedded Java](https://www.reddit.com/r/java/comments/oq2mn6/podcast_james_gosling_on_embedded_java/)
@@ -272,7 +273,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [xap/xap: Distributed, highly-scalable, In Memory Data Grid](https://www.reddit.com/r/java/comments/opn1i6/xapxap_distributed_highlyscalable_in_memory_data/)
 - [What is your opinion on creating intermediate objects?](https://www.reddit.com/r/java/comments/opis36/what_is_your_opinion_on_creating_intermediate/)
 - [Another quick look at The Instrument](https://www.reddit.com/r/java/comments/opewb5/another_quick_look_at_the_instrument/)
-- [How good is your expirience with education.oracle.com?](https://www.reddit.com/r/java/comments/ope36m/how_good_is_your_expirience_with/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
