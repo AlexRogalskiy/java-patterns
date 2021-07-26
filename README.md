@@ -263,6 +263,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Is this crazy or what?](https://www.reddit.com/r/java/comments/oril6t/is_this_crazy_or_what/)
+- [From Hibernate schema generation to Flyway in existing applications](https://www.reddit.com/r/java/comments/orh9bv/from_hibernate_schema_generation_to_flyway_in/)
+- [Adding headers to every Spring Boot response](https://www.reddit.com/r/java/comments/orapzz/adding_headers_to_every_spring_boot_response/)
 - [Testing Jakarta EE 9 Applications with Arquillian and WildFly](https://www.reddit.com/r/java/comments/oqv3nh/testing_jakarta_ee_9_applications_with_arquillian/)
 - [Switch to java or continue with C++](https://www.reddit.com/r/java/comments/oq8cr0/switch_to_java_or_continue_with_c/)
 - [Breaking Down Java Monitoring Tools Review](https://www.reddit.com/r/java/comments/oq4h9t/breaking_down_java_monitoring_tools_review/)
@@ -270,9 +273,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [From AdoptOpenJDK to Eclipse Adoptium toward an open Java ecosystem (Webinar)](https://www.reddit.com/r/java/comments/oq1vpt/from_adoptopenjdk_to_eclipse_adoptium_toward_an/)
 - [What java formatter do you use for formatting source code?](https://www.reddit.com/r/java/comments/oq010z/what_java_formatter_do_you_use_for_formatting/)
 - [JVM Anatomy Quark #30: Conditional Moves](https://www.reddit.com/r/java/comments/opydg2/jvm_anatomy_quark_30_conditional_moves/)
-- [xap/xap: Distributed, highly-scalable, In Memory Data Grid](https://www.reddit.com/r/java/comments/opn1i6/xapxap_distributed_highlyscalable_in_memory_data/)
-- [What is your opinion on creating intermediate objects?](https://www.reddit.com/r/java/comments/opis36/what_is_your_opinion_on_creating_intermediate/)
-- [Another quick look at The Instrument](https://www.reddit.com/r/java/comments/opewb5/another_quick_look_at_the_instrument/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
