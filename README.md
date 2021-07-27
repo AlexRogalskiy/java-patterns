@@ -263,6 +263,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [How to Debug Race Conditions Between Threads in Java - Lightrun](https://www.reddit.com/r/java/comments/os24v6/how_to_debug_race_conditions_between_threads_in/)
+- [Did you ever choose or not choose a library based on its size?](https://www.reddit.com/r/java/comments/orp371/did_you_ever_choose_or_not_choose_a_library_based/)
 - [Is this crazy or what?](https://www.reddit.com/r/java/comments/oril6t/is_this_crazy_or_what/)
 - [From Hibernate schema generation to Flyway in existing applications](https://www.reddit.com/r/java/comments/orh9bv/from_hibernate_schema_generation_to_flyway_in/)
 - [Adding headers to every Spring Boot response](https://www.reddit.com/r/java/comments/orapzz/adding_headers_to_every_spring_boot_response/)
@@ -271,8 +273,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Breaking Down Java Monitoring Tools Review](https://www.reddit.com/r/java/comments/oq4h9t/breaking_down_java_monitoring_tools_review/)
 - [Podcast: James Gosling on embedded Java](https://www.reddit.com/r/java/comments/oq2mn6/podcast_james_gosling_on_embedded_java/)
 - [From AdoptOpenJDK to Eclipse Adoptium toward an open Java ecosystem (Webinar)](https://www.reddit.com/r/java/comments/oq1vpt/from_adoptopenjdk_to_eclipse_adoptium_toward_an/)
-- [What java formatter do you use for formatting source code?](https://www.reddit.com/r/java/comments/oq010z/what_java_formatter_do_you_use_for_formatting/)
-- [JVM Anatomy Quark #30: Conditional Moves](https://www.reddit.com/r/java/comments/opydg2/jvm_anatomy_quark_30_conditional_moves/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
