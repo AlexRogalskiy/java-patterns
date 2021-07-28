@@ -263,16 +263,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [This happened yesterday, now I uninstalled java and tried to install it again, and now this happens, plz help, how can I fix this?](https://www.reddit.com/r/java/comments/ot04h7/this_happened_yesterday_now_i_uninstalled_java/)
+- [Using built-in methods during technical interviews](https://www.reddit.com/r/java/comments/oszkik/using_builtin_methods_during_technical_interviews/)
+- [Spring AWS Series: Chapter 1 | Spring and Docker](https://www.reddit.com/r/java/comments/osyixs/spring_aws_series_chapter_1_spring_and_docker/)
+- [Towards Continuous Performance Regression Testing](https://www.reddit.com/r/java/comments/osht20/towards_continuous_performance_regression_testing/)
 - [How to Debug Race Conditions Between Threads in Java - Lightrun](https://www.reddit.com/r/java/comments/os24v6/how_to_debug_race_conditions_between_threads_in/)
 - [Did you ever choose or not choose a library based on its size?](https://www.reddit.com/r/java/comments/orp371/did_you_ever_choose_or_not_choose_a_library_based/)
 - [Is this crazy or what?](https://www.reddit.com/r/java/comments/oril6t/is_this_crazy_or_what/)
 - [From Hibernate schema generation to Flyway in existing applications](https://www.reddit.com/r/java/comments/orh9bv/from_hibernate_schema_generation_to_flyway_in/)
 - [Adding headers to every Spring Boot response](https://www.reddit.com/r/java/comments/orapzz/adding_headers_to_every_spring_boot_response/)
 - [Testing Jakarta EE 9 Applications with Arquillian and WildFly](https://www.reddit.com/r/java/comments/oqv3nh/testing_jakarta_ee_9_applications_with_arquillian/)
-- [Switch to java or continue with C++](https://www.reddit.com/r/java/comments/oq8cr0/switch_to_java_or_continue_with_c/)
-- [Breaking Down Java Monitoring Tools Review](https://www.reddit.com/r/java/comments/oq4h9t/breaking_down_java_monitoring_tools_review/)
-- [Podcast: James Gosling on embedded Java](https://www.reddit.com/r/java/comments/oq2mn6/podcast_james_gosling_on_embedded_java/)
-- [From AdoptOpenJDK to Eclipse Adoptium toward an open Java ecosystem (Webinar)](https://www.reddit.com/r/java/comments/oq1vpt/from_adoptopenjdk_to_eclipse_adoptium_toward_an/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
