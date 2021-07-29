@@ -263,16 +263,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [This happened yesterday, now I uninstalled java and tried to install it again, and now this happens, plz help, how can I fix this?](https://www.reddit.com/r/java/comments/ot04h7/this_happened_yesterday_now_i_uninstalled_java/)
+- [Spring Boot + Docker + AWS](https://www.reddit.com/r/java/comments/otnpx4/spring_boot_docker_aws/)
+- [Is Java 17 a Glass Half Full?](https://www.reddit.com/r/java/comments/otm1o1/is_java_17_a_glass_half_full/)
+- [VScode V/S Intellij for java dev as a beginner](https://www.reddit.com/r/java/comments/otgik6/vscode_vs_intellij_for_java_dev_as_a_beginner/)
+- [BoofCV v0.38 Release Summary](https://www.reddit.com/r/java/comments/ot1bw6/boofcv_v038_release_summary/)
 - [Using built-in methods during technical interviews](https://www.reddit.com/r/java/comments/oszkik/using_builtin_methods_during_technical_interviews/)
 - [Spring AWS Series: Chapter 1 | Spring and Docker](https://www.reddit.com/r/java/comments/osyixs/spring_aws_series_chapter_1_spring_and_docker/)
+- [GCC in Java](https://www.reddit.com/r/java/comments/osw6lq/gcc_in_java/)
 - [Towards Continuous Performance Regression Testing](https://www.reddit.com/r/java/comments/osht20/towards_continuous_performance_regression_testing/)
 - [How to Debug Race Conditions Between Threads in Java - Lightrun](https://www.reddit.com/r/java/comments/os24v6/how_to_debug_race_conditions_between_threads_in/)
 - [Did you ever choose or not choose a library based on its size?](https://www.reddit.com/r/java/comments/orp371/did_you_ever_choose_or_not_choose_a_library_based/)
-- [Is this crazy or what?](https://www.reddit.com/r/java/comments/oril6t/is_this_crazy_or_what/)
-- [From Hibernate schema generation to Flyway in existing applications](https://www.reddit.com/r/java/comments/orh9bv/from_hibernate_schema_generation_to_flyway_in/)
-- [Adding headers to every Spring Boot response](https://www.reddit.com/r/java/comments/orapzz/adding_headers_to_every_spring_boot_response/)
-- [Testing Jakarta EE 9 Applications with Arquillian and WildFly](https://www.reddit.com/r/java/comments/oqv3nh/testing_jakarta_ee_9_applications_with_arquillian/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
