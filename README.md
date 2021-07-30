@@ -266,16 +266,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- REDDIT-POST-LIST:START -->
 
-- [Switch to java or continue with C++](https://www.reddit.com/r/java/comments/oq8cr0/switch_to_java_or_continue_with_c/)
-- [Breaking Down Java Monitoring Tools Review](https://www.reddit.com/r/java/comments/oq4h9t/breaking_down_java_monitoring_tools_review/)
-- [Podcast: James Gosling on embedded Java](https://www.reddit.com/r/java/comments/oq2mn6/podcast_james_gosling_on_embedded_java/)
-- [From AdoptOpenJDK to Eclipse Adoptium toward an open Java ecosystem (Webinar)](https://www.reddit.com/r/java/comments/oq1vpt/from_adoptopenjdk_to_eclipse_adoptium_toward_an/)
-- [What java formatter do you use for formatting source code?](https://www.reddit.com/r/java/comments/oq010z/what_java_formatter_do_you_use_for_formatting/)
-- [JVM Anatomy Quark #30: Conditional Moves](https://www.reddit.com/r/java/comments/opydg2/jvm_anatomy_quark\_30\_conditional_moves/)
-- [xap/xap: Distributed, highly-scalable, In Memory Data Grid](https://www.reddit.com/r/java/comments/opn1i6/xapxap_distributed_highlyscalable_in_memory_data/)
-- [What is your opinion on creating intermediate objects?](https://www.reddit.com/r/java/comments/opis36/what_is_your_opinion_on_creating_intermediate/)
-- [Another quick look at The Instrument](https://www.reddit.com/r/java/comments/opewb5/another_quick_look_at_the_instrument/)
-- [How good is your expirience with education.oracle.com?](https://www.reddit.com/r/java/comments/ope36m/how_good_is_your_expirience_with/)
+- [How is important is object oriented programming, do you guys use it day to day?](https://www.reddit.com/r/java/comments/oub68u/how_is_important_is_object_oriented_programming/)
+- [Spring Boot Docker AWS | Pushing Docker image into AWS ECR](https://www.reddit.com/r/java/comments/ouad29/spring_boot_docker_aws_pushing_docker_image_into/)
+- [Your Daily Motivation to KEEP GOING!](https://www.reddit.com/r/java/comments/ou5opo/your_daily_motivation_to_keep_going/)
+- [What is Big O Notation, Why every software engineer should learn this?](https://www.reddit.com/r/java/comments/ou52xd/what_is_big_o_notation_why_every_software/)
+- [I created a python script that takes your Java Applet code and runs the Applet directly without compiling and placing in HTML files](https://www.reddit.com/r/java/comments/otzptw/i_created_a_python_script_that_takes_your_java/)
+- [Random Numbers & JDK Flight Recorder - Inside Java Newscast #9](https://www.reddit.com/r/java/comments/otzcgk/random_numbers_jdk_flight_recorder_inside_java/)
+- [How to Fuzz Complex JVM Microservices](https://www.reddit.com/r/java/comments/otxgw6/how_to_fuzz_complex_jvm_microservices/)
+- [GUI questions](https://www.reddit.com/r/java/comments/otxccx/gui_questions/)
+- [Enhanced Automated Vectorization in GraalVM](https://www.reddit.com/r/java/comments/otvymm/enhanced_automated_vectorization_in_graalvm/)
+- [Are Java developers obsessed with annotations?](https://www.reddit.com/r/java/comments/otvdf3/are_java_developers_obsessed_with_annotations/)
 
 <!-- REDDIT-POST-LIST:END -->
 
@@ -283,16 +283,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- INFOWORLD-POST-LIST:START -->
 
+- [JDK 17: The new features in Java 17](https://www.infoworld.com/article/3606833/jdk-17-the-new-features-in-java-17.html#tk.rss_java)
+- [GraalVM adds Native Image, compiler enhancements](https://www.infoworld.com/article/3626402/graalvm-adds-native-image-compiler-enhancements.html#tk.rss_java)
 - [Java state API would speed app startup](https://www.infoworld.com/article/3626351/java-state-api-would-speed-app-startup.html#tk.rss_java)
 - [Visual Studio Code 1.58 improves debugging, Jupyter Notebook support](https://www.infoworld.com/article/3626031/visual-studio-code-158-improves-debugging-jupyter-notebook-support.html#tk.rss_java)
 - [Kotlin gains Java coding enhancements](https://www.infoworld.com/article/3623371/kotlin-gains-java-coding-enhancements.html#tk.rss_java)
 - [Eclipse launches group to shepherd popular Java IDE](https://www.infoworld.com/article/3622412/eclipse-launches-group-to-shepherd-popular-java-ide.html#tk.rss_java)
 - [Oracle offers Java management service](https://www.infoworld.com/article/3621690/oracle-offers-java-management-service.html#tk.rss_java)
-- [JDK 17: The new features in Java 17](https://www.infoworld.com/article/3606833/jdk-17-the-new-features-in-java-17.html#tk.rss_java)
 - [Microsoft’s Java build turns GA](https://www.infoworld.com/article/3620390/microsofts-java-build-turns-ga.html#tk.rss_java)
 - [Eclipse Jakarta EE 9.1 aligns with Java 11](https://www.infoworld.com/article/3620088/eclipse-jakarta-ee-91-aligns-with-java-11.html#tk.rss_java)
 - [Build a Java application in Visual Studio Code](https://www.infoworld.com/article/3619031/build-a-java-application-in-visual-studio-code.html#tk.rss_java)
-- [Scala 3 ushers in ‘complete overhaul’ of the language](https://www.infoworld.com/article/3608574/scala-3-moves-to-release-candidate-stage.html#tk.rss_java)
 
 <!-- INFOWORLD-POST-LIST:END -->
 
@@ -334,6 +334,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- BETTERCODE-POST-LIST:START -->
 
+- [How To Use Spring Security With SAML Protocol Binding](https://betterjavacode.com/programming/how-to-use-spring-security-with-saml-protocol-binding)
 - [Using Apache Kafka With Spring Boot](https://betterjavacode.com/kafka/using-apache-kafka-with-spring-boot)
 - [What Makes a Good Junior Developer](https://betterjavacode.com/programming/what-makes-a-good-junior-developer)
 - [Integration Testing in Spring Boot Application](https://betterjavacode.com/programming/integration-testing-in-spring-boot-application)
@@ -343,7 +344,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Example of Spring Boot Application Authentication with AWS Cognito](https://betterjavacode.com/programming/example-of-spring-boot-application-authentication-with-aws-cognito)
 - [Everything you need to know about Spring Data JPA](https://betterjavacode.com/spring-boot/everything-you-need-to-know-about-spring-data-jpa)
 - [Conversion of Entity to DTO Using ModelMapper](https://betterjavacode.com/spring-boot/conversion-of-entity-to-dto-using-modelmapper)
-- [Spring Retry vs Resilience4j Retry](https://betterjavacode.com/programming/spring-retry-vs-resilience4j-retry)
 
 <!-- BETTERCODE-POST-LIST:END -->
 
@@ -351,6 +351,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- INSIDE-POST-LIST:START -->
 
+- [Inside Java Newscast #9](https://inside.java/2021/07/29/insidejava-newscast-009/)
 - [JEP Café #2 - Sealed Classes](https://inside.java/2021/07/22/jepcafe2/)
 - [A few updates to JEP 411: Deprecate the Security Manager for Removal](https://inside.java/2021/07/16/a-few-updates-to-jep411/)
 - [Inside Java Newscast #8](https://inside.java/2021/07/15/insidejava-newscast-008/)
@@ -360,7 +361,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Episode 18 “Java’s steady march towards strong encapsulation” with Alan Bateman](https://inside.java/2021/06/29/podcast-018/)
 - [JEP Café #1](https://inside.java/2021/06/23/jepcafe/)
 - [Episode 17 “Pattern Matching for switch” with Gavin Bierman](https://inside.java/2021/06/13/podcast-017/)
-- [Oracle JRE and JDK Cryptographic Roadmap](https://inside.java/2021/06/11/security-roadmap-update/)
 
 <!-- INSIDE-POST-LIST:END -->
 
@@ -368,6 +368,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- JAVAPROG-POST-LIST:START -->
 
+- [Solved Error: cannot be cast to java.lang.Comparable](https://www.thejavaprogrammer.com/cannot-be-cast-to-java-lang-comparable/)
+- [Java String Interpolation with Examples](https://www.thejavaprogrammer.com/java-string-interpolation/)
 - [Evaluate Postfix Expression in Java](https://www.thejavaprogrammer.com/evaluate-postfix-expression-in-java/)
 - [Java Reflection Invoke Static Method](https://www.thejavaprogrammer.com/java-reflection-invoke-static-method/)
 - [Volatile vs Synchronized in Java](https://www.thejavaprogrammer.com/volatile-vs-synchronized/)
@@ -376,8 +378,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Covariant Return Type in Java](https://www.thejavaprogrammer.com/covariant-return-type-in-java/)
 - [Static Import in Java with Example](https://www.thejavaprogrammer.com/static-import-in-java/)
 - [Advantages and Disadvantages of Generics in Java](https://www.thejavaprogrammer.com/advantages-and-disadvantages-of-generics-in-java/)
-- [Nested Switch in Java](https://www.thejavaprogrammer.com/nested-switch-in-java/)
-- [TreeSet Vs TreeMap in Java](https://www.thejavaprogrammer.com/treeset-vs-treemap/)
 
 <!-- JAVAPROG-POST-LIST:END -->
 
@@ -419,6 +419,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- TJ-POST-LIST:START -->
 
+- [Introduction to Panache](https://thorben-janssen.com/introduction-panache/)
 - [How and when to use JPA’s getReference() Method](https://thorben-janssen.com/jpa-getreference/)
 - [Quarkus & Hibernate – Getting Started](https://thorben-janssen.com/quarkus-hibernate/)
 - [Hibernate’s Read-Only Query Hint For Faster Read Operations](https://thorben-janssen.com/read-only-query-hint/)
@@ -428,7 +429,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Hibernate’s @Filter Annotation – Apply Dynamic Filters at Runtime](https://thorben-janssen.com/hibernate-filter/)
 - [How to retrieve DTOs from your Envers Audit Logs](https://thorben-janssen.com/envers-dto/)
 - [Polymorphic association mappings of independent classes](https://thorben-janssen.com/polymorphic-association-mappings-of-independent-classes/)
-- [Hibernate Slow Query Log – The easiest way to find slow queries](https://thorben-janssen.com/hibernate-slow-query-log/)
 
 <!-- TJ-POST-LIST:END -->
 
