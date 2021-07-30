@@ -338,6 +338,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Inside Java Newscast #9](https://inside.java/2021/07/29/insidejava-newscast-009/)
 - [JEP Café #2 - Sealed Classes](https://inside.java/2021/07/22/jepcafe2/)
 - [A few updates to JEP 411: Deprecate the Security Manager for Removal](https://inside.java/2021/07/16/a-few-updates-to-jep411/)
 - [Inside Java Newscast #8](https://inside.java/2021/07/15/insidejava-newscast-008/)
@@ -347,7 +348,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Episode 18 “Java’s steady march towards strong encapsulation” with Alan Bateman](https://inside.java/2021/06/29/podcast-018/)
 - [JEP Café #1](https://inside.java/2021/06/23/jepcafe/)
 - [Episode 17 “Pattern Matching for switch” with Gavin Bierman](https://inside.java/2021/06/13/podcast-017/)
-- [Oracle JRE and JDK Cryptographic Roadmap](https://inside.java/2021/06/11/security-roadmap-update/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
