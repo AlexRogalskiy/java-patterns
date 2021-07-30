@@ -263,16 +263,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Spring Boot + Docker + AWS](https://www.reddit.com/r/java/comments/otnpx4/spring_boot_docker_aws/)
-- [Is Java 17 a Glass Half Full?](https://www.reddit.com/r/java/comments/otm1o1/is_java_17_a_glass_half_full/)
-- [VScode V/S Intellij for java dev as a beginner](https://www.reddit.com/r/java/comments/otgik6/vscode_vs_intellij_for_java_dev_as_a_beginner/)
-- [BoofCV v0.38 Release Summary](https://www.reddit.com/r/java/comments/ot1bw6/boofcv_v038_release_summary/)
-- [Using built-in methods during technical interviews](https://www.reddit.com/r/java/comments/oszkik/using_builtin_methods_during_technical_interviews/)
-- [Spring AWS Series: Chapter 1 | Spring and Docker](https://www.reddit.com/r/java/comments/osyixs/spring_aws_series_chapter_1_spring_and_docker/)
-- [GCC in Java](https://www.reddit.com/r/java/comments/osw6lq/gcc_in_java/)
-- [Towards Continuous Performance Regression Testing](https://www.reddit.com/r/java/comments/osht20/towards_continuous_performance_regression_testing/)
-- [How to Debug Race Conditions Between Threads in Java - Lightrun](https://www.reddit.com/r/java/comments/os24v6/how_to_debug_race_conditions_between_threads_in/)
-- [Did you ever choose or not choose a library based on its size?](https://www.reddit.com/r/java/comments/orp371/did_you_ever_choose_or_not_choose_a_library_based/)
+- [How is important is object oriented programming, do you guys use it day to day?](https://www.reddit.com/r/java/comments/oub68u/how_is_important_is_object_oriented_programming/)
+- [Spring Boot Docker AWS | Pushing Docker image into AWS ECR](https://www.reddit.com/r/java/comments/ouad29/spring_boot_docker_aws_pushing_docker_image_into/)
+- [Your Daily Motivation to KEEP GOING!](https://www.reddit.com/r/java/comments/ou5opo/your_daily_motivation_to_keep_going/)
+- [What is Big O Notation, Why every software engineer should learn this?](https://www.reddit.com/r/java/comments/ou52xd/what_is_big_o_notation_why_every_software/)
+- [I created a python script that takes your Java Applet code and runs the Applet directly without compiling and placing in HTML files](https://www.reddit.com/r/java/comments/otzptw/i_created_a_python_script_that_takes_your_java/)
+- [Random Numbers & JDK Flight Recorder - Inside Java Newscast #9](https://www.reddit.com/r/java/comments/otzcgk/random_numbers_jdk_flight_recorder_inside_java/)
+- [How to Fuzz Complex JVM Microservices](https://www.reddit.com/r/java/comments/otxgw6/how_to_fuzz_complex_jvm_microservices/)
+- [GUI questions](https://www.reddit.com/r/java/comments/otxccx/gui_questions/)
+- [Enhanced Automated Vectorization in GraalVM](https://www.reddit.com/r/java/comments/otvymm/enhanced_automated_vectorization_in_graalvm/)
+- [Are Java developers obsessed with annotations?](https://www.reddit.com/r/java/comments/otvdf3/are_java_developers_obsessed_with_annotations/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
