@@ -9,6 +9,8 @@ services:
       context: './'
       dockerfile: Dockerfile
     restart: always
+    env:
+      - 'TILT_WATCH_WINDOWS_BUFFER_SIZE=10265536'
     volumes:
       - type: volume
         source: appvolume
