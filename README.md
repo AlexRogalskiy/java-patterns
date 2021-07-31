@@ -263,18 +263,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
-- [How is important is object oriented programming, do you guys use it day to day?](https://www.reddit.com/r/java/comments/oub68u/how_is_important_is_object_oriented_programming/)
+- [Spring Boot Docker AWS | Deploying Docker image from AWS ECR to AWS ECS](https://www.reddit.com/r/java/comments/ouy7bq/spring_boot_docker_aws_deploying_docker_image/)
+- [Must known concurrency concepts for java developers with experience](https://www.reddit.com/r/java/comments/ouwpjw/must_known_concurrency_concepts_for_java/)
+- [CFV: New Project: CRaC](https://www.reddit.com/r/java/comments/ourw3z/cfv_new_project_crac/)
+- [Jakarta Community Acceptance Testing (JCAT)](https://www.reddit.com/r/java/comments/oujrzp/jakarta_community_acceptance_testing_jcat/)
+- [What is the future of Java?](https://www.reddit.com/r/java/comments/oud36n/what_is_the_future_of_java/)
 - [Spring Boot Docker AWS | Pushing Docker image into AWS ECR](https://www.reddit.com/r/java/comments/ouad29/spring_boot_docker_aws_pushing_docker_image_into/)
-- [Your Daily Motivation to KEEP GOING!](https://www.reddit.com/r/java/comments/ou5opo/your_daily_motivation_to_keep_going/)
-- [What is Big O Notation, Why every software engineer should learn this?](https://www.reddit.com/r/java/comments/ou52xd/what_is_big_o_notation_why_every_software/)
-- [I created a python script that takes your Java Applet code and runs the Applet directly without compiling and placing in HTML files](https://www.reddit.com/r/java/comments/otzptw/i_created_a_python_script_that_takes_your_java/)
 - [Random Numbers & JDK Flight Recorder - Inside Java Newscast #9](https://www.reddit.com/r/java/comments/otzcgk/random_numbers_jdk_flight_recorder_inside_java/)
 - [How to Fuzz Complex JVM Microservices](https://www.reddit.com/r/java/comments/otxgw6/how_to_fuzz_complex_jvm_microservices/)
-- [GUI questions](https://www.reddit.com/r/java/comments/otxccx/gui_questions/)
 - [Enhanced Automated Vectorization in GraalVM](https://www.reddit.com/r/java/comments/otvymm/enhanced_automated_vectorization_in_graalvm/)
 - [Are Java developers obsessed with annotations?](https://www.reddit.com/r/java/comments/otvdf3/are_java_developers_obsessed_with_annotations/)
-
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
