@@ -263,16 +263,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Spring Boot Docker AWS | Deploying Docker image from AWS ECR to AWS ECS](https://www.reddit.com/r/java/comments/ouy7bq/spring_boot_docker_aws_deploying_docker_image/)
 - [Must known concurrency concepts for java developers with experience](https://www.reddit.com/r/java/comments/ouwpjw/must_known_concurrency_concepts_for_java/)
 - [CFV: New Project: CRaC](https://www.reddit.com/r/java/comments/ourw3z/cfv_new_project_crac/)
 - [Jakarta Community Acceptance Testing (JCAT)](https://www.reddit.com/r/java/comments/oujrzp/jakarta_community_acceptance_testing_jcat/)
 - [What is the future of Java?](https://www.reddit.com/r/java/comments/oud36n/what_is_the_future_of_java/)
-- [Spring Boot Docker AWS | Pushing Docker image into AWS ECR](https://www.reddit.com/r/java/comments/ouad29/spring_boot_docker_aws_pushing_docker_image_into/)
 - [Random Numbers & JDK Flight Recorder - Inside Java Newscast #9](https://www.reddit.com/r/java/comments/otzcgk/random_numbers_jdk_flight_recorder_inside_java/)
 - [How to Fuzz Complex JVM Microservices](https://www.reddit.com/r/java/comments/otxgw6/how_to_fuzz_complex_jvm_microservices/)
 - [Enhanced Automated Vectorization in GraalVM](https://www.reddit.com/r/java/comments/otvymm/enhanced_automated_vectorization_in_graalvm/)
 - [Are Java developers obsessed with annotations?](https://www.reddit.com/r/java/comments/otvdf3/are_java_developers_obsessed_with_annotations/)
+- [Is Java 17 a Glass Half Full?](https://www.reddit.com/r/java/comments/otm1o1/is_java_17_a_glass_half_full/)
+- [VScode V/S Intellij for java dev as a beginner](https://www.reddit.com/r/java/comments/otgik6/vscode_vs_intellij_for_java_dev_as_a_beginner/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
