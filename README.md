@@ -263,6 +263,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [The Java Version Almanac](https://www.reddit.com/r/java/comments/ovq0h9/the_java_version_almanac/)
 - [Must known concurrency concepts for java developers with experience](https://www.reddit.com/r/java/comments/ouwpjw/must_known_concurrency_concepts_for_java/)
 - [CFV: New Project: CRaC](https://www.reddit.com/r/java/comments/ourw3z/cfv_new_project_crac/)
 - [Jakarta Community Acceptance Testing (JCAT)](https://www.reddit.com/r/java/comments/oujrzp/jakarta_community_acceptance_testing_jcat/)
@@ -272,7 +273,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Enhanced Automated Vectorization in GraalVM](https://www.reddit.com/r/java/comments/otvymm/enhanced_automated_vectorization_in_graalvm/)
 - [Are Java developers obsessed with annotations?](https://www.reddit.com/r/java/comments/otvdf3/are_java_developers_obsessed_with_annotations/)
 - [Is Java 17 a Glass Half Full?](https://www.reddit.com/r/java/comments/otm1o1/is_java_17_a_glass_half_full/)
-- [VScode V/S Intellij for java dev as a beginner](https://www.reddit.com/r/java/comments/otgik6/vscode_vs_intellij_for_java_dev_as_a_beginner/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
