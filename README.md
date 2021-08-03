@@ -263,16 +263,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Number of imports and library usability](https://www.reddit.com/r/java/comments/owhy66/number_of_imports_and_library_usability/)
+- [Guide to Reformatting Code in IntelliJ](https://www.reddit.com/r/java/comments/owcukx/guide_to_reformatting_code_in_intellij/)
+- [Building GraphQL APIs with Eclipse Vertx](https://www.reddit.com/r/java/comments/owc7yv/building_graphql_apis_with_eclipse_vertx/)
+- [Best way to prepare?](https://www.reddit.com/r/java/comments/owavs8/best_way_to_prepare/)
 - [The Java Version Almanac](https://www.reddit.com/r/java/comments/ovq0h9/the_java_version_almanac/)
 - [Must known concurrency concepts for java developers with experience](https://www.reddit.com/r/java/comments/ouwpjw/must_known_concurrency_concepts_for_java/)
 - [CFV: New Project: CRaC](https://www.reddit.com/r/java/comments/ourw3z/cfv_new_project_crac/)
 - [Jakarta Community Acceptance Testing (JCAT)](https://www.reddit.com/r/java/comments/oujrzp/jakarta_community_acceptance_testing_jcat/)
 - [What is the future of Java?](https://www.reddit.com/r/java/comments/oud36n/what_is_the_future_of_java/)
 - [Random Numbers & JDK Flight Recorder - Inside Java Newscast #9](https://www.reddit.com/r/java/comments/otzcgk/random_numbers_jdk_flight_recorder_inside_java/)
-- [How to Fuzz Complex JVM Microservices](https://www.reddit.com/r/java/comments/otxgw6/how_to_fuzz_complex_jvm_microservices/)
-- [Enhanced Automated Vectorization in GraalVM](https://www.reddit.com/r/java/comments/otvymm/enhanced_automated_vectorization_in_graalvm/)
-- [Are Java developers obsessed with annotations?](https://www.reddit.com/r/java/comments/otvdf3/are_java_developers_obsessed_with_annotations/)
-- [Is Java 17 a Glass Half Full?](https://www.reddit.com/r/java/comments/otm1o1/is_java_17_a_glass_half_full/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
