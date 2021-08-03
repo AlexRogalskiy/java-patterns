@@ -3,6 +3,7 @@ mkdocs>=1.2
 pygments>=2.4
 mkdocs-material==7.1.2
 markdown>=3.2
+markdown-checklist==0.4.1
 markdown-include==0.6.0
 pymdown-extensions==8.2
 mkdocs-material-extensions>=1.0

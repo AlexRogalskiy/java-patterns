@@ -146,3 +146,4 @@ EXPOSE 8000
 ENTRYPOINT [ "sh", "-c", "mkdocs serve --verbose --dirtyreload" ]
 #ENTRYPOINT ["mkdocs"]
 #CMD ["serve", "--verbose", "--dirtyreload", "--dev-addr=0.0.0.0:8000"]
+#CMD ["mkdocs", "serve", "--verbose", "--dirtyreload", "-a", "0.0.0.0:8000"]
