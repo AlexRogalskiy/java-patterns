@@ -99,12 +99,13 @@ markdown_extensions:
       use_pygments: false
       guess_lang: false
   - pymdownx.highlight: {}
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.extra: {}
-  - pymdownx.magiclink: {}
   - pymdownx.tilde: {}
+  - pymdownx.magiclink: {}
   - pymdownx.caret: {}
   - pymdownx.smartsymbols: {}
-  - pymdownx.tasklist: {}
   - pymdownx.progressbar: {}
   - pymdownx.arithmatex: {}
   - pymdownx.mark: {}
