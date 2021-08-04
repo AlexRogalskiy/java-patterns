@@ -263,18 +263,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
-- [Number of imports and library usability](https://www.reddit.com/r/java/comments/owhy66/number_of_imports_and_library_usability/)
-- [Guide to Reformatting Code in IntelliJ](https://www.reddit.com/r/java/comments/owcukx/guide_to_reformatting_code_in_intellij/)
+- [Learning java by watching android developemnt with java courses](https://www.reddit.com/r/java/comments/oxd4st/learning_java_by_watching_android_developemnt/)
+- [Brian Goetz: "I think Project Loom is going to kill Reactive Programming"](https://www.reddit.com/r/java/comments/oxcoeq/brian_goetz_i_think_project_loom_is_going_to_kill/)
+- [Adoptium Celebrates First Release (Eclipse Temurin)](https://www.reddit.com/r/java/comments/oxcb2c/adoptium_celebrates_first_release_eclipse_temurin/)
+- [tweakflow: embeddable scripting language for the JVM](https://www.reddit.com/r/java/comments/oxa85j/tweakflow_embeddable_scripting_language_for_the/)
+- [How to Built an iOS App With Java](https://www.reddit.com/r/java/comments/ox7h2f/how_to_built_an_ios_app_with_java/)
+- [Java 17's Enhanced Pseudo-Random Number Generators](https://www.reddit.com/r/java/comments/ox72bb/java_17s_enhanced_pseudorandom_number_generators/)
+- [BoofCV v0.38: Better 3D Reconstruction from photos/videos and automatic retrieval of images taken of the same scene. Source in comments.](https://www.reddit.com/r/java/comments/ox3s67/boofcv_v038_better_3d_reconstruction_from/)
+- [Good place to find looks and feels for Swing?](https://www.reddit.com/r/java/comments/owxjey/good_place_to_find_looks_and_feels_for_swing/)
 - [Building GraphQL APIs with Eclipse Vertx](https://www.reddit.com/r/java/comments/owc7yv/building_graphql_apis_with_eclipse_vertx/)
-- [Best way to prepare?](https://www.reddit.com/r/java/comments/owavs8/best_way_to_prepare/)
 - [The Java Version Almanac](https://www.reddit.com/r/java/comments/ovq0h9/the_java_version_almanac/)
-- [Must known concurrency concepts for java developers with experience](https://www.reddit.com/r/java/comments/ouwpjw/must_known_concurrency_concepts_for_java/)
-- [CFV: New Project: CRaC](https://www.reddit.com/r/java/comments/ourw3z/cfv_new_project_crac/)
-- [Jakarta Community Acceptance Testing (JCAT)](https://www.reddit.com/r/java/comments/oujrzp/jakarta_community_acceptance_testing_jcat/)
-- [What is the future of Java?](https://www.reddit.com/r/java/comments/oud36n/what_is_the_future_of_java/)
-- [Random Numbers & JDK Flight Recorder - Inside Java Newscast #9](https://www.reddit.com/r/java/comments/otzcgk/random_numbers_jdk_flight_recorder_inside_java/)
-
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
