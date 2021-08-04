@@ -43,33 +43,35 @@
 ## 🎹 *Table of contents*
 
 <!--ts-->
-   * [Java Design Patterns](#java-design-patterns)
-      * [<em>Table of contents</em>](#-table-of-contents)
-      * [<em>Summary</em>](#-summary)
-      * [<em>Documentation</em>](#-documentation)
-      * [<em>Statistics</em>](#-statistics)
-      * [<em>Versioning</em>](#-versioning)
-      * [<em>Authors</em>](#-authors)
-      * [<em>Contributing</em>](#-contributing)
-      * [<em>Visitor stats</em>](#-visitor-stats)
-      * [<em>Licensing</em>](#-licensing)
-      * [<em>Development Support</em>](#-development-support)
-      * [<em>Acknowledgement</em>](#-acknowledgement)
-      * [<em>OpenGraph Card</em>](#-opengraph-card)
-      * [<em>Feeds and Podcasts</em>](#-feeds-and-podcasts)
-         * [<em>Reddit posts</em>](#reddit-posts)
-         * [<em>InfoWorld posts</em>](#infoworld-posts)
-         * [<em>Let's talk posts</em>](#lets-talk-posts)
-         * [<em>Random thoughts posts</em>](#random-thoughts-posts)
-         * [<em>Better code posts</em>](#better-code-posts)
-         * [<em>Inside Java posts</em>](#inside-java-posts)
-         * [<em>Java programmer posts</em>](#java-programmer-posts)
-         * [<em>Dreamix posts</em>](#dreamix-posts)
-         * [<em>Plumbr posts</em>](#plumbr-posts)
-         * [<em>Thorben Janssen posts</em>](#thorben-janssen-posts)
-         * [<em>Redhat posts</em>](#redhat-posts)
-         * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
-         * [<em>DevCases posts</em>](#devcases-posts)
+
+- [Java Design Patterns](#java-design-patterns)
+  - [<em>Table of contents</em>](#-table-of-contents)
+  - [<em>Summary</em>](#-summary)
+  - [<em>Documentation</em>](#-documentation)
+  - [<em>Statistics</em>](#-statistics)
+  - [<em>Versioning</em>](#-versioning)
+  - [<em>Authors</em>](#-authors)
+  - [<em>Contributing</em>](#-contributing)
+  - [<em>Visitor stats</em>](#-visitor-stats)
+  - [<em>Licensing</em>](#-licensing)
+  - [<em>Development Support</em>](#-development-support)
+  - [<em>Acknowledgement</em>](#-acknowledgement)
+  - [<em>OpenGraph Card</em>](#-opengraph-card)
+  - [<em>Feeds and Podcasts</em>](#-feeds-and-podcasts)
+    - [<em>Reddit posts</em>](#reddit-posts)
+    - [<em>InfoWorld posts</em>](#infoworld-posts)
+    - [<em>Let's talk posts</em>](#lets-talk-posts)
+    - [<em>Random thoughts posts</em>](#random-thoughts-posts)
+    - [<em>Better code posts</em>](#better-code-posts)
+    - [<em>Inside Java posts</em>](#inside-java-posts)
+    - [<em>Java programmer posts</em>](#java-programmer-posts)
+    - [<em>Dreamix posts</em>](#dreamix-posts)
+    - [<em>Plumbr posts</em>](#plumbr-posts)
+    - [<em>Thorben Janssen posts</em>](#thorben-janssen-posts)
+    - [<em>Redhat posts</em>](#redhat-posts)
+    - [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
+    - [<em>DevCases posts</em>](#devcases-posts)
+
 <!--te-->
 
 ## ☝ *Summary*
@@ -251,6 +253,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ## 👨‍👨‍👧‍👦 *Acknowledgement*
 
 [![Stargazers repo roster for @AlexRogalskiy/java-patterns](https://reporoster.com/stars/AlexRogalskiy/java-patterns)][stars]
+
+[![Stargazers over time](https://starchart.cc/AlexRogalskiy/java-patterns.svg)][stars_chart]
 
 ## 📎 *OpenGraph Card*
 
@@ -498,6 +502,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 [wiki]: https://github.com/AlexRogalskiy/java-patterns/wiki
 
 [stars]: https://github.com/AlexRogalskiy/java-patterns/stargazers
+
+[stars_chart]: https://starchart.cc/AlexRogalskiy/java-patterns
 
 [contributors]: https://github.com/AlexRogalskiy/java-patterns/graphs/contributors
 
