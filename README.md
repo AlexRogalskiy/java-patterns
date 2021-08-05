@@ -340,6 +340,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [AMA About the Java Language](https://inside.java/2021/08/02/ama-about-the-java-language/)
 - [Minor improvement to anonymous classes](https://inside.java/2021/08/01/monior-improvement-to-anonymous-classes/)
 - [Inside Java Newscast #9](https://inside.java/2021/07/29/insidejava-newscast-009/)
 - [JEP Café #2 - Sealed Classes](https://inside.java/2021/07/22/jepcafe2/)
@@ -349,7 +350,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Add support for secondary carriers to Memory Access API](https://inside.java/2021/07/02/add-support-for-second-carriers/)
 - [Inside Java Newscast #7](https://inside.java/2021/07/01/insidejava-newscast-007/)
 - [Episode 18 “Java’s steady march towards strong encapsulation” with Alan Bateman](https://inside.java/2021/06/29/podcast-018/)
-- [JEP Café #1](https://inside.java/2021/06/23/jepcafe/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
