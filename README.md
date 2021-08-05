@@ -265,16 +265,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Learning java by watching android developemnt with java courses](https://www.reddit.com/r/java/comments/oxd4st/learning_java_by_watching_android_developemnt/)
+- [Why java is better than modern programming languages?](https://www.reddit.com/r/java/comments/oy7154/why_java_is_better_than_modern_programming/)
+- [Having trouble running java on new computer](https://www.reddit.com/r/java/comments/oy4r8d/having_trouble_running_java_on_new_computer/)
+- [🎉NEW! Confluent Developer - The One-Stop Shop for Learning Apache Kafka®](https://www.reddit.com/r/java/comments/oy1pj5/new_confluent_developer_the_onestop_shop_for/)
+- [Creating Free Minecraft Java Server using Oracle](https://www.reddit.com/r/java/comments/oxzw6i/creating_free_minecraft_java_server_using_oracle/)
+- [Eclipse Temurin Java SE binaries debut](https://www.reddit.com/r/java/comments/oxyqnk/eclipse_temurin_java_se_binaries_debut/)
+- [JMC Core Now on Maven Central!](https://www.reddit.com/r/java/comments/oxyaiu/jmc_core_now_on_maven_central/)
+- [IBM Semeru Runtimes (Eclipse OpenJ9 JVM)](https://www.reddit.com/r/java/comments/oxmi9h/ibm_semeru_runtimes_eclipse_openj9_jvm/)
 - [Brian Goetz: "I think Project Loom is going to kill Reactive Programming"](https://www.reddit.com/r/java/comments/oxcoeq/brian_goetz_i_think_project_loom_is_going_to_kill/)
 - [Adoptium Celebrates First Release (Eclipse Temurin)](https://www.reddit.com/r/java/comments/oxcb2c/adoptium_celebrates_first_release_eclipse_temurin/)
 - [tweakflow: embeddable scripting language for the JVM](https://www.reddit.com/r/java/comments/oxa85j/tweakflow_embeddable_scripting_language_for_the/)
-- [How to Built an iOS App With Java](https://www.reddit.com/r/java/comments/ox7h2f/how_to_built_an_ios_app_with_java/)
-- [Java 17's Enhanced Pseudo-Random Number Generators](https://www.reddit.com/r/java/comments/ox72bb/java_17s_enhanced_pseudorandom_number_generators/)
-- [BoofCV v0.38: Better 3D Reconstruction from photos/videos and automatic retrieval of images taken of the same scene. Source in comments.](https://www.reddit.com/r/java/comments/ox3s67/boofcv_v038_better_3d_reconstruction_from/)
-- [Good place to find looks and feels for Swing?](https://www.reddit.com/r/java/comments/owxjey/good_place_to_find_looks_and_feels_for_swing/)
-- [Building GraphQL APIs with Eclipse Vertx](https://www.reddit.com/r/java/comments/owc7yv/building_graphql_apis_with_eclipse_vertx/)
-- [The Java Version Almanac](https://www.reddit.com/r/java/comments/ovq0h9/the_java_version_almanac/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
