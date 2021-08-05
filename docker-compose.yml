@@ -5,12 +5,12 @@ services:
     container_name: ${APP_CONTAINER_NAME:-'java-patterns'}
     image: ${APP_IMAGE_NAME:-'java-patterns'}
     hostname: ${APP_HOST_NAME:-'java-patterns'}
+    restart: always
     build:
       context: './'
       dockerfile: Dockerfile
-    restart: always
-    env:
-      - 'TILT_WATCH_WINDOWS_BUFFER_SIZE=10265536'
+    env_file:
+      - .env
     volumes:
       - type: volume
         source: appvolume
