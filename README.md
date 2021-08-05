@@ -268,16 +268,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- REDDIT-POST-LIST:START -->
 
-- [Learning java by watching android developemnt with java courses](https://www.reddit.com/r/java/comments/oxd4st/learning_java_by_watching_android_developemnt/)
+- [Why java is better than modern programming languages?](https://www.reddit.com/r/java/comments/oy7154/why_java_is_better_than_modern_programming/)
+- [Having trouble running java on new computer](https://www.reddit.com/r/java/comments/oy4r8d/having_trouble_running_java_on_new_computer/)
+- [🎉NEW! Confluent Developer - The One-Stop Shop for Learning Apache Kafka®](https://www.reddit.com/r/java/comments/oy1pj5/new_confluent_developer_the_onestop_shop_for/)
+- [Creating Free Minecraft Java Server using Oracle](https://www.reddit.com/r/java/comments/oxzw6i/creating_free_minecraft_java_server_using_oracle/)
+- [Eclipse Temurin Java SE binaries debut](https://www.reddit.com/r/java/comments/oxyqnk/eclipse_temurin_java_se_binaries_debut/)
+- [JMC Core Now on Maven Central!](https://www.reddit.com/r/java/comments/oxyaiu/jmc_core_now_on_maven_central/)
+- [IBM Semeru Runtimes (Eclipse OpenJ9 JVM)](https://www.reddit.com/r/java/comments/oxmi9h/ibm_semeru_runtimes_eclipse_openj9\_jvm/)
 - [Brian Goetz: "I think Project Loom is going to kill Reactive Programming"](https://www.reddit.com/r/java/comments/oxcoeq/brian_goetz_i_think_project_loom_is_going_to_kill/)
 - [Adoptium Celebrates First Release (Eclipse Temurin)](https://www.reddit.com/r/java/comments/oxcb2c/adoptium_celebrates_first_release_eclipse_temurin/)
 - [tweakflow: embeddable scripting language for the JVM](https://www.reddit.com/r/java/comments/oxa85j/tweakflow_embeddable_scripting_language_for_the/)
-- [How to Built an iOS App With Java](https://www.reddit.com/r/java/comments/ox7h2f/how_to_built_an_ios_app_with_java/)
-- [Java 17's Enhanced Pseudo-Random Number Generators](https://www.reddit.com/r/java/comments/ox72bb/java\_17s_enhanced_pseudorandom_number_generators/)
-- [BoofCV v0.38: Better 3D Reconstruction from photos/videos and automatic retrieval of images taken of the same scene. Source in comments.](https://www.reddit.com/r/java/comments/ox3s67/boofcv_v038\_better\_3d_reconstruction_from/)
-- [Good place to find looks and feels for Swing?](https://www.reddit.com/r/java/comments/owxjey/good_place_to_find_looks_and_feels_for_swing/)
-- [Building GraphQL APIs with Eclipse Vertx](https://www.reddit.com/r/java/comments/owc7yv/building_graphql_apis_with_eclipse_vertx/)
-- [The Java Version Almanac](https://www.reddit.com/r/java/comments/ovq0h9/the_java_version_almanac/)
 
 <!-- REDDIT-POST-LIST:END -->
 
@@ -285,6 +285,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- INFOWORLD-POST-LIST:START -->
 
+- [Oracle launches Verrazzano container platform for Kubernetes](https://www.infoworld.com/article/3627407/oracle-launches-verrazzano-container-platform-for-kubernetes.html#tk.rss_java)
 - [Eclipse Temurin Java SE binaries debut](https://www.infoworld.com/article/3627503/eclipse-temurin-java-se-binaries-debut.html#tk.rss_java)
 - [JDK 17: The new features in Java 17](https://www.infoworld.com/article/3606833/jdk-17-the-new-features-in-java-17.html#tk.rss_java)
 - [GraalVM adds Native Image, compiler enhancements](https://www.infoworld.com/article/3626402/graalvm-adds-native-image-compiler-enhancements.html#tk.rss_java)
@@ -294,7 +295,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Eclipse launches group to shepherd popular Java IDE](https://www.infoworld.com/article/3622412/eclipse-launches-group-to-shepherd-popular-java-ide.html#tk.rss_java)
 - [Oracle offers Java management service](https://www.infoworld.com/article/3621690/oracle-offers-java-management-service.html#tk.rss_java)
 - [Microsoft’s Java build turns GA](https://www.infoworld.com/article/3620390/microsofts-java-build-turns-ga.html#tk.rss_java)
-- [Eclipse Jakarta EE 9.1 aligns with Java 11](https://www.infoworld.com/article/3620088/eclipse-jakarta-ee-91-aligns-with-java-11.html#tk.rss_java)
 
 <!-- INFOWORLD-POST-LIST:END -->
 
@@ -353,6 +353,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- INSIDE-POST-LIST:START -->
 
+- [AMA About the Java Language](https://inside.java/2021/08/02/ama-about-the-java-language/)
 - [Minor improvement to anonymous classes](https://inside.java/2021/08/01/monior-improvement-to-anonymous-classes/)
 - [Inside Java Newscast #9](https://inside.java/2021/07/29/insidejava-newscast-009/)
 - [JEP Café #2 - Sealed Classes](https://inside.java/2021/07/22/jepcafe2/)
@@ -362,7 +363,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Add support for secondary carriers to Memory Access API](https://inside.java/2021/07/02/add-support-for-second-carriers/)
 - [Inside Java Newscast #7](https://inside.java/2021/07/01/insidejava-newscast-007/)
 - [Episode 18 “Java’s steady march towards strong encapsulation” with Alan Bateman](https://inside.java/2021/06/29/podcast-018/)
-- [JEP Café #1](https://inside.java/2021/06/23/jepcafe/)
 
 <!-- INSIDE-POST-LIST:END -->
 
