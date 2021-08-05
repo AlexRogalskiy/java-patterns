@@ -14,6 +14,7 @@ ARG GID=10000
 
 ARG NAME="java-patterns"
 ARG VERSION="0.0.0-dev"
+ARG PACKAGE="AlexRogalskiy/java-patterns"
 ARG DESCRIPTION="Java Design Patterns"
 
 ARG LC_ALL="en_US.UTF-8"
@@ -28,8 +29,9 @@ LABEL "name"="$NAME"
 LABEL "version"="$VERSION"
 LABEL "description"="$DESCRIPTION"
 
-LABEL "com.github.repository"="https://github.com/AlexRogalskiy/java-patterns"
-LABEL "com.github.homepage"="https://github.com/AlexRogalskiy/java-patterns"
+LABEL "com.github.repository"="https://github.com/${PACKAGE}"
+LABEL "com.github.homepage"="https://github.com/${PACKAGE}"
+LABEL "com.github.documentation"="https://github.com/${PACKAGE}/blob/master/README.md"
 LABEL "com.github.maintainer"="Sensiblemetrics, Inc. <hello@sensiblemetrics.io> (https://sensiblemetrics.io)"
 
 LABEL "com.github.version"="$VERSION"
@@ -81,7 +83,7 @@ RUN addgroup --gid "$GID" "$USER" \
 
 ## Installing dependencies
 RUN apt-get update \
-    && apt-get install --assume-yes \
+    && apt-get install --assume-yes --no-install-recommends \
     git \
     curl \
     locales \
