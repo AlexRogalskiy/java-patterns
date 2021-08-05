@@ -4,7 +4,22 @@ verbose = true
 # Show progress
 progress = false
 
+# Maximum number of allowed redirects
 max_redirects = 10
+
+# Proceed for server connections considered insecure (invalid TLS)
+insecure = true
+
+# Only test links with the given scheme (e.g. https)
+# Omit to check links with any scheme
+#scheme = "https"
+
+###
+### Runtime
+###
+# Number of threads to utilize.
+# Defaults to number of cores available to the system if omitted.
+#threads = 2
 
 # Comma-separated list of accepted status codes for valid links.
 # Omit to accept all response types.
@@ -16,6 +31,9 @@ exclude_all_private = true
 
 # Exclude all mail addresses from checking
 exclude_mail = true
+
+# Custom request headers
+headers = []
 
 exclude = [
   "(.*?).example.com",
@@ -43,3 +61,14 @@ exclude = [
   "https://stefanprodan.github.io/podinfo2/index.yaml",
   "https://cloud.weave.works/api/flux",
 ]
+
+include = []
+
+# Exclude private IP address ranges from checking
+exclude_private = false
+
+# Exclude link-local IP address range from checking
+exclude_link_local = false
+
+# Exclude loopback IP address range from checking
+exclude_loopback = true
