@@ -128,6 +128,7 @@ RUN pip3.8 install mkdocs-git-revision-date-localized-plugin --no-cache-dir --qu
 RUN pip3.8 install mkdocs-awesome-pages-plugin --no-cache-dir --quiet
 RUN pip3.8 install mdx_truly_sane_lists --no-cache-dir --quiet
 RUN pip3.8 install smarty --no-cache-dir --quiet
+RUN pip3.8 install dumb-init --no-cache-dir --quiet
 RUN pip3.8 install mkdocs-include-markdown-plugin --no-cache-dir --quiet
 #RUN pip3.8 install mkdocs_pymdownx_material_extras --no-cache-dir --quiet
 RUN pip3.8 install click-man --no-cache-dir --quiet
@@ -141,7 +142,7 @@ RUN rm -rf /var/cache/apt/* /tmp/Python-${PYTHON_VERSION}
 
 ## Show versions
 RUN echo "NPM version: $(npm --version)"
-RUN echo "NODE version: $(node --version)"
+RUN echo "NODE version: $(node --version | awk -F. '{print "\""$1"\""}')"
 RUN echo "PYTHON version: $(python3 --version)"
 
 ## Install node dependencies
