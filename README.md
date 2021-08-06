@@ -265,18 +265,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
-- [Why java is better than modern programming languages?](https://www.reddit.com/r/java/comments/oy7154/why_java_is_better_than_modern_programming/)
-- [Having trouble running java on new computer](https://www.reddit.com/r/java/comments/oy4r8d/having_trouble_running_java_on_new_computer/)
-- [🎉NEW! Confluent Developer - The One-Stop Shop for Learning Apache Kafka®](https://www.reddit.com/r/java/comments/oy1pj5/new_confluent_developer_the_onestop_shop_for/)
-- [Creating Free Minecraft Java Server using Oracle](https://www.reddit.com/r/java/comments/oxzw6i/creating_free_minecraft_java_server_using_oracle/)
-- [Eclipse Temurin Java SE binaries debut](https://www.reddit.com/r/java/comments/oxyqnk/eclipse_temurin_java_se_binaries_debut/)
-- [JMC Core Now on Maven Central!](https://www.reddit.com/r/java/comments/oxyaiu/jmc_core_now_on_maven_central/)
-- [IBM Semeru Runtimes (Eclipse OpenJ9 JVM)](https://www.reddit.com/r/java/comments/oxmi9h/ibm_semeru_runtimes_eclipse_openj9\_jvm/)
-- [Brian Goetz: "I think Project Loom is going to kill Reactive Programming"](https://www.reddit.com/r/java/comments/oxcoeq/brian_goetz_i_think_project_loom_is_going_to_kill/)
-- [Adoptium Celebrates First Release (Eclipse Temurin)](https://www.reddit.com/r/java/comments/oxcb2c/adoptium_celebrates_first_release_eclipse_temurin/)
-- [tweakflow: embeddable scripting language for the JVM](https://www.reddit.com/r/java/comments/oxa85j/tweakflow_embeddable_scripting_language_for_the/)
-
+- [RedMonk Language Rank: Java surged back into a tie for second place with Python](https://www.reddit.com/r/java/comments/oysw1l/redmonk_language_rank_java_surged_back_into_a_tie/)
+- [Practical? Common Lisp on the JVM: A quick intro to ABCL for modern web apps](https://www.reddit.com/r/java/comments/oyouat/practical_common_lisp_on_the_jvm_a_quick_intro_to/)
+- [New candidate JEP: 416: Reimplement Core Reflection with Method Handles](https://www.reddit.com/r/java/comments/oyo5d2/new_candidate_jep_416_reimplement_core_reflection/)
+- [General Availability Microsoft Build of OpenJDK for M1 and ARM64](https://www.reddit.com/r/java/comments/oynf4y/general_availability_microsoft_build_of_openjdk/)
+- [ATM Machine Project in Java Programming with Code](https://www.reddit.com/r/java/comments/oyltsz/atm_machine_project_in_java_programming_with_code/)
+- [Trying to run the Minecraft's data generator, but a JNI error occurs.](https://www.reddit.com/r/java/comments/oyjyes/trying_to_run_the_minecrafts_data_generator_but_a/)
+- [Tips to increase the interpreter performance?](https://www.reddit.com/r/java/comments/oyhw94/tips_to_increase_the_interpreter_performance/)
+- [Microsoft Release GCToolkit as Open Source (previously JClarity Censum)](https://www.reddit.com/r/java/comments/oyhq0o/microsoft_release_gctoolkit_as_open_source/)
+- [What's new in Java 17 for us, developers ?](https://www.reddit.com/r/java/comments/oyg7v2/whats_new_in_java_17_for_us_developers/)
+- [What Newsletter/Java Weekly are you subscribing?](https://www.reddit.com/r/java/comments/oydu2i/what_newsletterjava_weekly_are_you_subscribing/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
