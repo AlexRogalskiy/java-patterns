@@ -8,9 +8,10 @@ FROM ${IMAGE_SOURCE}:${IMAGE_TAG}
 ## Setting argument variables
 ARG PYTHON_VERSION=3.8.2
 
-ARG USER="cukebot"
-ARG UID=5000
-ARG GID=10000
+## User with uid/gid
+ARG USER
+ARG UID
+ARG GID
 
 ARG NAME="java-patterns"
 ARG VERSION="0.0.0-dev"
@@ -21,8 +22,12 @@ ARG LC_ALL="en_US.UTF-8"
 ARG BUILD_DATE="$(git rev-parse --short HEAD)"
 ARG VCS_REF="$(date -u +\"%Y-%m-%dT%H:%M:%SZ\")"
 
+## Working directories
 ARG APP_DIR="/usr/src/app"
 ARG DATA_DIR="/usr/src/data"
+
+## Dependencies
+ARG PACKAGES="git curl tini dos2unix locales"
 
 ## General metadata
 LABEL "name"="$NAME"
@@ -54,15 +59,16 @@ ENV TZ=UTC \
     LANG=$LC_ALL \
     PYTHONIOENCODING=UTF-8 \
     PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
     DEBIAN_FRONTEND=noninteractive \
     APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=1
 
 ENV PIP_DISABLE_PIP_VERSION_CHECK=1
 ENV PIP_NO_CACHE_DIR=1
 
-ENV USER=$USER \
-    UID=$UID \
-    GID=$GID
+ENV USER=${USER:-'cukebot'} \
+    UID=${UID:-5000} \
+    GID=${GID:-10000}
 
 ## Mounting volumes
 VOLUME ["$APP_DIR"]
@@ -72,24 +78,28 @@ WORKDIR $APP_DIR
 
 # Create a cukebot user. Some tools (Bundler, npm publish) don't work properly
 # when run as root
-RUN addgroup --gid "$GID" "$USER" \
-    && adduser \
+RUN addgroup --gid "$GID" "$USER" || exit 0
+RUN adduser \
     --disabled-password \
     --gecos "" \
     --ingroup "$USER" \
     --uid "$UID" \
     --shell /bin/bash \
-    "$USER"
+    "$USER" \
+    || exit 0
 
 ## Installing dependencies
+RUN echo "**** Installing build packages ****"
+RUN add-apt-repository universe
 RUN apt-get update \
-    && apt-get install --assume-yes --no-install-recommends \
-    git \
-    curl \
-    locales \
-    && apt-get clean
+    && apt-get install --assume-yes --no-install-recommends $PACKAGES \
+    && apt-get autoclean \
+    && apt-get clean \
+    && apt-get autoremove \
+    && rm -rf /var/lib/apt/lists/*
 
 ## Installing python
+RUN echo "**** Installing Python ****"
 RUN cd /tmp && curl -O https://www.python.org/ftp/python/${PYTHON_VERSION}/Python-${PYTHON_VERSION}.tar.xz && \
     tar -xvf Python-${PYTHON_VERSION}.tar.xz && \
     cd Python-${PYTHON_VERSION} && \
@@ -102,6 +112,7 @@ COPY . ./
 
 ## Installing python dependencies
 ## RUN pip3.8 install --no-cache-dir -r ./docs/requirements.txt --quiet
+RUN echo "**** Installing Python modules ****"
 RUN pip3.8 install --upgrade pip --quiet
 
 RUN pip3.8 install mkdocs --no-cache-dir --quiet
@@ -124,6 +135,7 @@ RUN pip3.8 install click-man --no-cache-dir --quiet
 RUN pip3.8 install cookiecutter --no-cache-dir --quiet
 
 ## Removing unnecessary dependencies
+RUN echo "**** Cleaning Up cache ****"
 RUN apt remove -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev libbz2-dev g++ python-pip python-dev
 RUN rm -rf /var/cache/apt/* /tmp/Python-${PYTHON_VERSION}
 
@@ -133,6 +145,7 @@ RUN echo "NODE version: $(node --version)"
 RUN echo "PYTHON version: $(python3 --version)"
 
 ## Install node dependencies
+RUN echo "**** Installing project packages ****"
 RUN npm install
 
 ## Run format checking & linting
@@ -148,7 +161,7 @@ USER $USER
 EXPOSE 8000
 
 ## Running package bundle
-ENTRYPOINT [ "sh", "-c", "mkdocs serve --verbose --dirtyreload" ]
+ENTRYPOINT [ "/usr/bin/tini", "--", "/bin/sh", "-c", "mkdocs" ]
 #ENTRYPOINT ["mkdocs"]
-#CMD ["serve", "--verbose", "--dirtyreload", "--dev-addr=0.0.0.0:8000"]
+CMD ["serve", "--verbose", "--dirtyreload", "--dev-addr=0.0.0.0:8000"]
 #CMD ["mkdocs", "serve", "--verbose", "--dirtyreload", "-a", "0.0.0.0:8000"]
