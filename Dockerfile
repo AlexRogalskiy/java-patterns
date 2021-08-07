@@ -90,7 +90,6 @@ RUN adduser \
 
 ## Installing dependencies
 RUN echo "**** Installing build packages ****"
-RUN add-apt-repository universe
 RUN apt-get update \
     && apt-get install --assume-yes --no-install-recommends $PACKAGES \
     && apt-get autoclean \
