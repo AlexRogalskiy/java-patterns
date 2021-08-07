@@ -265,18 +265,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
+- [Programming Students: How we have Built the Largest Programming Community and How you can Join it](https://www.reddit.com/r/java/comments/ozfvwc/programming_students_how_we_have_built_the/)
+- [JDK 17 First Release-Candidate Build Released #TestItNow](https://www.reddit.com/r/java/comments/ozcitb/jdk_17_first_releasecandidate_build_released/)
+- [Azul Platform Prime Stream Builds Are Now Free for Evaluation, Development, and Testing](https://www.reddit.com/r/java/comments/oz70l4/azul_platform_prime_stream_builds_are_now_free/)
+- [OneDev 4.9 - Java Based Open Source Git Server with Built-in CI/CD](https://www.reddit.com/r/java/comments/oz6nfu/onedev_49_java_based_open_source_git_server_with/)
+- [spring-data-jpa-temporal: a lightweight temporal auditing library](https://www.reddit.com/r/java/comments/oz67sy/springdatajpatemporal_a_lightweight_temporal/)
+- [Java Development on the SteamDeck?](https://www.reddit.com/r/java/comments/oz3feu/java_development_on_the_steamdeck/)
+- [Open source and free library to serialize and de-serialize data in b-encoded format](https://www.reddit.com/r/java/comments/oyzxws/open_source_and_free_library_to_serialize_and/)
+- [Java performance talk - Performance Engineers Clubhouse](https://www.reddit.com/r/java/comments/oyz1am/java_performance_talk_performance_engineers/)
+- [JDK 17 is now in the Release Candidate Phase](https://www.reddit.com/r/java/comments/oyxwgy/jdk_17_is_now_in_the_release_candidate_phase/)
 - [RedMonk Language Rank: Java surged back into a tie for second place with Python](https://www.reddit.com/r/java/comments/oysw1l/redmonk_language_rank_java_surged_back_into_a_tie/)
-- [Practical? Common Lisp on the JVM: A quick intro to ABCL for modern web apps](https://www.reddit.com/r/java/comments/oyouat/practical_common_lisp_on_the_jvm_a_quick_intro_to/)
-- [New candidate JEP: 416: Reimplement Core Reflection with Method Handles](https://www.reddit.com/r/java/comments/oyo5d2/new_candidate_jep\_416\_reimplement_core_reflection/)
-- [General Availability Microsoft Build of OpenJDK for M1 and ARM64](https://www.reddit.com/r/java/comments/oynf4y/general_availability_microsoft_build_of_openjdk/)
-- [ATM Machine Project in Java Programming with Code](https://www.reddit.com/r/java/comments/oyltsz/atm_machine_project_in_java_programming_with_code/)
-- [Trying to run the Minecraft's data generator, but a JNI error occurs.](https://www.reddit.com/r/java/comments/oyjyes/trying_to_run_the_minecrafts_data_generator_but_a/)
-- [Tips to increase the interpreter performance?](https://www.reddit.com/r/java/comments/oyhw94/tips_to_increase_the_interpreter_performance/)
-- [Microsoft Release GCToolkit as Open Source (previously JClarity Censum)](https://www.reddit.com/r/java/comments/oyhq0o/microsoft_release_gctoolkit_as_open_source/)
-- [What's new in Java 17 for us, developers ?](https://www.reddit.com/r/java/comments/oyg7v2/whats_new_in_java\_17\_for_us_developers/)
-- [What Newsletter/Java Weekly are you subscribing?](https://www.reddit.com/r/java/comments/oydu2i/what_newsletterjava_weekly_are_you_subscribing/)
-
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
