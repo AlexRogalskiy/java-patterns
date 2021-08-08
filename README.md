@@ -265,16 +265,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Programming Students: How we have Built the Largest Programming Community and How you can Join it](https://www.reddit.com/r/java/comments/ozfvwc/programming_students_how_we_have_built_the/)
+- [Quarkus 2.0 Delivers Continuous Testing, CLI and Supports Minimal JDK 11](https://www.reddit.com/r/java/comments/p02rzw/quarkus_20_delivers_continuous_testing_cli_and/)
+- [Should I put Helsinki MOOC on my resume?](https://www.reddit.com/r/java/comments/p00o6g/should_i_put_helsinki_mooc_on_my_resume/)
+- [Do you know of any good Spring Boot sample project for learning?](https://www.reddit.com/r/java/comments/ozwxn2/do_you_know_of_any_good_spring_boot_sample/)
+- [Why you recommend java for learning DSA and not c++?](https://www.reddit.com/r/java/comments/ozl997/why_you_recommend_java_for_learning_dsa_and_not_c/)
 - [JDK 17 First Release-Candidate Build Released #TestItNow](https://www.reddit.com/r/java/comments/ozcitb/jdk_17_first_releasecandidate_build_released/)
 - [Azul Platform Prime Stream Builds Are Now Free for Evaluation, Development, and Testing](https://www.reddit.com/r/java/comments/oz70l4/azul_platform_prime_stream_builds_are_now_free/)
 - [OneDev 4.9 - Java Based Open Source Git Server with Built-in CI/CD](https://www.reddit.com/r/java/comments/oz6nfu/onedev_49_java_based_open_source_git_server_with/)
 - [spring-data-jpa-temporal: a lightweight temporal auditing library](https://www.reddit.com/r/java/comments/oz67sy/springdatajpatemporal_a_lightweight_temporal/)
 - [Java Development on the SteamDeck?](https://www.reddit.com/r/java/comments/oz3feu/java_development_on_the_steamdeck/)
 - [Open source and free library to serialize and de-serialize data in b-encoded format](https://www.reddit.com/r/java/comments/oyzxws/open_source_and_free_library_to_serialize_and/)
-- [Java performance talk - Performance Engineers Clubhouse](https://www.reddit.com/r/java/comments/oyz1am/java_performance_talk_performance_engineers/)
-- [JDK 17 is now in the Release Candidate Phase](https://www.reddit.com/r/java/comments/oyxwgy/jdk_17_is_now_in_the_release_candidate_phase/)
-- [RedMonk Language Rank: Java surged back into a tie for second place with Python](https://www.reddit.com/r/java/comments/oysw1l/redmonk_language_rank_java_surged_back_into_a_tie/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
