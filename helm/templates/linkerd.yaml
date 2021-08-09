@@ -1,0 +1,14 @@
+{{- if .Values.linkerd.profile.enabled -}}
+apiVersion: linkerd.io/v1alpha2
+kind: ServiceProfile
+metadata:
+  name: {{ template "java-patterns.name" . }}.{{ .Release.Namespace }}.svc.cluster.local
+  labels:
+  {{- include "java-patterns.labels" . | nindent 4 }}
+spec:
+  routes:
+    - condition:
+        method: GET
+        pathRegex: /
+      name: GET /
+  {{- end }}

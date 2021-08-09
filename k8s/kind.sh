@@ -34,14 +34,14 @@ kubectl apply -f ./secure/backend
 kubectl rollout status --namespace secure deployment/backend --timeout=1m
 
 # curl the endpoints (responds with info due to header regexp on route handler)
-echo
-echo "http enpdoint:"
+echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+echo "http endpoint:"
 echo "curl http://localhost:8000/"
-echo
+echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 curl http://localhost:8000/
 
-echo
+echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 echo "https (secure) enpdoint:"
 echo "curl --insecure https://localhost:8443/"
-echo
+echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 curl --insecure https://localhost:8443/

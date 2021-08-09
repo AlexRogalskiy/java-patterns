@@ -3,6 +3,14 @@ kind: Certificate
 metadata:
   name: backend
   namespace: secure
+  labels:
+    app.kubernetes.io/name: backend
+    app.kubernetes.io/instance: java-patterns
+    app.kubernetes.io/version: '0.0.0'
+    app.kubernetes.io/component: backend
+    app.kubernetes.io/part-of: documentation
+    app.kubernetes.io/managed-by: tilt
+
 spec:
   dnsNames:
     - localhost

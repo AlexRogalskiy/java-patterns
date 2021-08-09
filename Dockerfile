@@ -14,13 +14,13 @@ ARG UID
 ARG GID
 
 ARG NAME="java-patterns"
-ARG VERSION="0.0.0-dev"
+ARG VERSION="$(git describe --abbrev=0 --tag)"
 ARG PACKAGE="AlexRogalskiy/java-patterns"
 ARG DESCRIPTION="Java Design Patterns"
 
 ARG LC_ALL="en_US.UTF-8"
-ARG BUILD_DATE="$(git rev-parse --short HEAD)"
-ARG VCS_REF="$(date -u +\"%Y-%m-%dT%H:%M:%SZ\")"
+ARG BUILD_DATE="$(date -u +\"%Y-%m-%dT%H:%M:%SZ\")"
+ARG VCS_REF="$(git rev-parse --short HEAD)"
 
 ## Working directories
 ARG APP_DIR="/usr/src/app"
@@ -119,6 +119,7 @@ RUN pip3.8 install mkdocs-material --no-cache-dir --quiet
 RUN pip3.8 install pygments --no-cache-dir --quiet
 RUN pip3.8 install markdown --no-cache-dir --quiet
 RUN pip3.8 install markdown-include --no-cache-dir --quiet
+RUN pip3.8 install markdown-checklist --no-cache-dir --quiet
 RUN pip3.8 install fontawesome_markdown --no-cache-dir --quiet
 RUN pip3.8 install mkdocs-redirects --no-cache-dir --quiet
 RUN pip3.8 install mkdocs-material-extensions --no-cache-dir --quiet

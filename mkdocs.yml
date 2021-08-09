@@ -2,7 +2,7 @@ site_name: Java Patterns
 site_description: >
   java code patterns and general architectural design concepts
 site_author: Alexander Rogalskiy
-site_url: https://alexander-rogalsky.gitbook.io/java-patterns-docs/
+site_url: https://alexander-rogalsky.gitbook.io/java-patterns/
 
 repo_name: AlexRogalskiy/java-patterns
 repo_url: https://gitlab.com/AlexRogalskiy/java-patterns
@@ -78,10 +78,6 @@ extra:
       link: 'https://github.com/AlexRogalskiy/java-patterns'
   version:
     provider: mike
-
-hide:
-  - navigation
-  - toc
 
 # Extensions
 markdown_extensions:

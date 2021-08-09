@@ -58,10 +58,14 @@ spec:
               cpu: 100m
               memory: 32Mi
           volumeMounts:
+            - name: data
+              mountPath: /data
             - name: tls
               mountPath: /data/cert
               readOnly: true
       volumes:
+        - name: data
+          emptyDir: {}
         - name: tls
           secret:
             secretName: backend-tls
