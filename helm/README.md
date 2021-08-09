@@ -88,7 +88,7 @@ the [Development environments](docs/development-environment.md) documentation.
 
 Version 5.0.0 is a major update.
 
-* The chart now follows the new Kubernetes label recommendations:
+- The chart now follows the new Kubernetes label recommendations:
   <https://kubernetes.io/docs/concepts/overview/working-with-objects/common-labels/>
 
 The simplest way to update is to do a force upgrade, which recreates the resources by doing a delete and an install.
