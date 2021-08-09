@@ -1,2 +1,0 @@
-startTimeSecs = 1628533547;
-startTimeNanos = 510196924;

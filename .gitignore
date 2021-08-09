@@ -14,6 +14,7 @@ lerna-debug.log*
 .npm
 .eslintcache
 lunr-index.json
+build.txt
 
 # Package files
 *.jar
