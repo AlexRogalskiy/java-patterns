@@ -61,15 +61,7 @@ spec:
             - name: tls
               mountPath: /data/cert
               readOnly: true
-            - mountPath: /usr/src/app
-              name: appvolume
-            - mountPath: /usr/src/data
-              name: data
       volumes:
         - name: tls
           secret:
             secretName: backend-tls
-        - name: appvolume
-          emptyDir: {}
-        - name: data
-          emptyDir: {}

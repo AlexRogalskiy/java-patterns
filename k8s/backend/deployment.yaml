@@ -31,6 +31,7 @@ spec:
       annotations:
         scheduler.alpha.kubernetes.io/critical-pod: ''
     spec:
+      dnsPolicy: Default
       tolerations:
         - key: 'CriticalAddonsOnly'
           operator: 'Exists'
@@ -49,30 +50,3 @@ spec:
             requests:
               cpu: 100m
               memory: 32Mi
-      #          livenessProbe:
-      #            httpGet:
-      #              host: localhost
-      #              path: /
-      #              port: 8000
-      #              scheme: HTTP
-      #            initialDelaySeconds: 60
-      #            timeoutSeconds: 5
-      #            successThreshold: 1
-      #            failureThreshold: 5
-      #          readinessProbe:
-      #            httpGet:
-      #              host: localhost
-      #              path: /
-      #              port: 8000
-      #              scheme: HTTP
-      dnsPolicy: Default
-#          volumeMounts:
-#            - mountPath: /usr/src/app
-#              name: appvolume
-#            - mountPath: /usr/src/data
-#              name: data
-#      volumes:
-#        - name: appvolume
-#          emptyDir: { }
-#        - name: data
-#          emptyDir: { }
