@@ -191,6 +191,20 @@ python -m mkdocs --verbose gh-deploy --force --remote-branch gh-pages
 
 5\) Open up [localhost](http://127.0.0.1:8000/) in browser to get the default documentation homepage.
 
+## 🧶 *Kubernetes*
+
+Running k8s cluster with tilt command by acquiring k8s deployment configuration:
+
+```shell
+tilt up
+```
+
+Shutting down k8s cluster with provisioned resources removal:
+
+```shell
+tilt down --delete-namespaces
+```
+
 ## ⏰ *Statistics*
 
 <p align="center" style="text-align:center;">
@@ -267,21 +281,24 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+
 - [Programming Students: How we have Built the Largest Programming Community and How you can Join it](https://www.reddit.com/r/java/comments/ozfvwc/programming_students_how_we_have_built_the/)
-- [JDK 17 First Release-Candidate Build Released #TestItNow](https://www.reddit.com/r/java/comments/ozcitb/jdk_17_first_releasecandidate_build_released/)
+- [JDK 17 First Release-Candidate Build Released #TestItNow](https://www.reddit.com/r/java/comments/ozcitb/jdk\_17\_first_releasecandidate_build_released/)
 - [Azul Platform Prime Stream Builds Are Now Free for Evaluation, Development, and Testing](https://www.reddit.com/r/java/comments/oz70l4/azul_platform_prime_stream_builds_are_now_free/)
-- [OneDev 4.9 - Java Based Open Source Git Server with Built-in CI/CD](https://www.reddit.com/r/java/comments/oz6nfu/onedev_49_java_based_open_source_git_server_with/)
+- [OneDev 4.9 - Java Based Open Source Git Server with Built-in CI/CD](https://www.reddit.com/r/java/comments/oz6nfu/onedev\_49\_java_based_open_source_git_server_with/)
 - [spring-data-jpa-temporal: a lightweight temporal auditing library](https://www.reddit.com/r/java/comments/oz67sy/springdatajpatemporal_a_lightweight_temporal/)
 - [Java Development on the SteamDeck?](https://www.reddit.com/r/java/comments/oz3feu/java_development_on_the_steamdeck/)
 - [Open source and free library to serialize and de-serialize data in b-encoded format](https://www.reddit.com/r/java/comments/oyzxws/open_source_and_free_library_to_serialize_and/)
 - [Java performance talk - Performance Engineers Clubhouse](https://www.reddit.com/r/java/comments/oyz1am/java_performance_talk_performance_engineers/)
-- [JDK 17 is now in the Release Candidate Phase](https://www.reddit.com/r/java/comments/oyxwgy/jdk_17_is_now_in_the_release_candidate_phase/)
+- [JDK 17 is now in the Release Candidate Phase](https://www.reddit.com/r/java/comments/oyxwgy/jdk\_17\_is_now_in_the_release_candidate_phase/)
 - [RedMonk Language Rank: Java surged back into a tie for second place with Python](https://www.reddit.com/r/java/comments/oysw1l/redmonk_language_rank_java_surged_back_into_a_tie/)
+
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+
 - [JDK 17: The new features in Java 17](https://www.infoworld.com/article/3606833/jdk-17-the-new-features-in-java-17.html#tk.rss_java)
 - [Oracle launches Verrazzano container platform for Kubernetes](https://www.infoworld.com/article/3627407/oracle-launches-verrazzano-container-platform-for-kubernetes.html#tk.rss_java)
 - [Eclipse Temurin Java SE binaries debut](https://www.infoworld.com/article/3627503/eclipse-temurin-java-se-binaries-debut.html#tk.rss_java)
@@ -292,12 +309,14 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Eclipse launches group to shepherd popular Java IDE](https://www.infoworld.com/article/3622412/eclipse-launches-group-to-shepherd-popular-java-ide.html#tk.rss_java)
 - [Oracle offers Java management service](https://www.infoworld.com/article/3621690/oracle-offers-java-management-service.html#tk.rss_java)
 - [Microsoft’s Java build turns GA](https://www.infoworld.com/article/3620390/microsofts-java-build-turns-ga.html#tk.rss_java)
+
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
 
 <!-- LETSTALK-POST-LIST:START -->
-- [4 Developers 2020](http://letstalkaboutjava.blogspot.com/2020/02/4-developers-2020_9.html)
+
+- [4 Developers 2020](http://letstalkaboutjava.blogspot.com/2020/02/4-developers-2020\_9.html)
 - [You won't do it later!](http://letstalkaboutjava.blogspot.com/2019/12/you-wont-do-it-later.html)
 - [JDD 2019!](http://letstalkaboutjava.blogspot.com/2019/09/once-again-im-media-partner-of-jdd-and.html)
 - [4 Developers 2019](http://letstalkaboutjava.blogspot.com/2019/02/4-developers-2019.html)
@@ -307,11 +326,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JDD is coming!](http://letstalkaboutjava.blogspot.com/2018/08/jdd-is-coming.html)
 - [Just stop for a moment](http://letstalkaboutjava.blogspot.com/2018/06/just-stop-for-moment.html)
 - [Refactoring vs. Redesign](http://letstalkaboutjava.blogspot.com/2017/11/refactoring-vs-redesign.html)
+
 <!-- LETSTALK-POST-LIST:END -->
 
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+
 - [Angular in Strict Mode](http://randomthoughtsonjavaprogramming.blogspot.com/2021/08/angular-in-strict-mode.html)
 - [Kotlin : the "by" keyword in Interface/Class Delegation](http://randomthoughtsonjavaprogramming.blogspot.com/2021/07/kotlin-by-keyword-in-interfaceclass.html)
 - [Hibernate's @FetchProfile](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/hibernates-fetchprofile.html)
@@ -322,11 +343,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Method determination ignored variable arity and implicit auto boxing/unboxing](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/method-determination-ignored-variable.html)
 - [USB-C Hubs for MacBooks - Review](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/usb-c-hubs-for-macbooks-review.html)
 - [Jelastic CLI](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/jelastic-cli.html)
+
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
 
 <!-- BETTERCODE-POST-LIST:START -->
+
 - [Introduction to Serverless Architecture Patterns](https://betterjavacode.com/programming/introduction-to-serverless-architecture-patterns)
 - [How To Use Spring Security With SAML Protocol Binding](https://betterjavacode.com/programming/how-to-use-spring-security-with-saml-protocol-binding)
 - [Using Apache Kafka With Spring Boot](https://betterjavacode.com/kafka/using-apache-kafka-with-spring-boot)
@@ -337,11 +360,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [How to Use API Gateway with Spring Cloud](https://betterjavacode.com/programming/how-to-use-api-gateway-with-spring-cloud)
 - [Example of Spring Boot Application Authentication with AWS Cognito](https://betterjavacode.com/programming/example-of-spring-boot-application-authentication-with-aws-cognito)
 - [Everything you need to know about Spring Data JPA](https://betterjavacode.com/spring-boot/everything-you-need-to-know-about-spring-data-jpa)
+
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+
 - [AMA About the Java Language](https://inside.java/2021/08/02/ama-about-the-java-language/)
 - [Minor improvement to anonymous classes](https://inside.java/2021/08/01/monior-improvement-to-anonymous-classes/)
 - [Inside Java Newscast #9](https://inside.java/2021/07/29/insidejava-newscast-009/)
@@ -352,11 +377,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Add support for secondary carriers to Memory Access API](https://inside.java/2021/07/02/add-support-for-second-carriers/)
 - [Inside Java Newscast #7](https://inside.java/2021/07/01/insidejava-newscast-007/)
 - [Episode 18 “Java’s steady march towards strong encapsulation” with Alan Bateman](https://inside.java/2021/06/29/podcast-018/)
+
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
 
 <!-- JAVAPROG-POST-LIST:START -->
+
 - [How to Find Array Length in Java with Examples](https://www.thejavaprogrammer.com/array-length-in-java/)
 - [Solved Error: cannot be cast to java.lang.Comparable](https://www.thejavaprogrammer.com/cannot-be-cast-to-java-lang-comparable/)
 - [Java String Interpolation with Examples](https://www.thejavaprogrammer.com/java-string-interpolation/)
@@ -367,11 +394,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Java Program for Employee Details using Class and Object](https://www.thejavaprogrammer.com/java-program-for-employee-details-using-class-and-object/)
 - [Covariant Return Type in Java](https://www.thejavaprogrammer.com/covariant-return-type-in-java/)
 - [Static Import in Java with Example](https://www.thejavaprogrammer.com/static-import-in-java/)
+
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### *Dreamix posts*
 
 <!-- DREAMIX-POST-LIST:START -->
+
 - [Java vs JavaScript: How to Choose the Right Backend Technology?](https://dreamix.eu/blog/java/java-vs-javascript-how-to-choose-the-right-backend-technology)
 - [Splitting String in Java –  Examples and Tips](https://dreamix.eu/blog/java/splitting-string-in-java-examples-and-tips)
 - [Learn from Java Champion Gerrit Grunwald: JavaFx – not dead yet](https://dreamix.eu/blog/java/learn-from-java-champion-gerrit-grunwald-javafx-not-dead-yet)
@@ -382,11 +411,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [5 Reasons Why Bespoke Software Development Projects Succeed](https://dreamix.eu/blog/java/5-reasons-why-bespoke-software-development-projects-succeed)
 - [Continuous Integration and Delivery to Improve the Software Development Workflow](https://dreamix.eu/blog/java/continuous-integration-and-delivery-to-improve-the-software-development-workflow)
 - [Why good (clean) software architecture matters](https://dreamix.eu/blog/java/why-good-clean-software-architecture-matters)
+
 <!-- DREAMIX-POST-LIST:END -->
 
 ### *Plumbr posts*
 
 <!-- PLUMBR-POST-LIST:START -->
+
 - [Plumbr has been acquired by Splunk](https://plumbr.io/blog/plumbr-blog/acquired-by-splunk)
 - [Using Plumbr with OpenTelemetry NodeJS agent](https://plumbr.io/blog/plumbr-blog/using-plumbr-with-opentelemetry-nodejs-agent)
 - [Extending Plumbr RUM with Web Vitals metrics](https://plumbr.io/blog/performance-blog/extending-plumbr-rum-with-web-vitals-metrics)
@@ -397,11 +428,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Plumbr now monitors Python applications and APIs](https://plumbr.io/blog/product-updates/plumbr-now-monitors-python-applications-and-apis)
 - [Distributed tracing in practice](https://plumbr.io/blog/tracing/distributed-tracing-in-practice)
 - [Plumbr now supports application versioning](https://plumbr.io/blog/product-updates/plumbr-now-supports-application-versioning)
+
 <!-- PLUMBR-POST-LIST:END -->
 
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
+
 - [Spring Data JPA – How to Return DTOs from Native Queries](https://thorben-janssen.com/spring-data-jpa-dto-native-queries/)
 - [Introduction to Panache](https://thorben-janssen.com/introduction-panache/)
 - [How and when to use JPA’s getReference() Method](https://thorben-janssen.com/jpa-getreference/)
@@ -412,6 +445,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Hibernate Proxies – Why they’re used and how to unproxy them](https://thorben-janssen.com/hibernate-proxies/)
 - [Hibernate’s @Filter Annotation – Apply Dynamic Filters at Runtime](https://thorben-janssen.com/hibernate-filter/)
 - [How to retrieve DTOs from your Envers Audit Logs](https://thorben-janssen.com/envers-dto/)
+
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*

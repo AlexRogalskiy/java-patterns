@@ -14,9 +14,13 @@ tilt_inspector()
 #load('ext://min_k8s_version', 'min_k8s_version')
 #min_k8s_version('1.21.1')
 
-conftest(path='k8s/deployment.yaml', namespace='main')
-k8s_yaml('k8s/deployment.yaml')
-k8s_resource('java-patterns', port_forwards=8000, resource_deps=['deploy', 'conftest'])
+load('ext://namespace', 'namespace_create', 'namespace_inject')
+namespace_create('webapp')
+
+conftest(path='k8s/backend/deployment.yaml', namespace='main')
+# k8s_yaml('k8s/backend/deployment.yaml')
+k8s_yaml(namespace_inject(read_file('k8s/backend/deployment.yaml'), 'webapp'), allow_duplicates=False)
+k8s_resource('backend', port_forwards=8000, resource_deps=['deploy', 'conftest'])
 
 # Records the current time, then kicks off a server update.
 # Normally, you would let Tilt do deploys automatically, but this

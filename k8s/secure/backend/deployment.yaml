@@ -1,0 +1,75 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  namespace: secure
+  labels:
+    app.kubernetes.io/name: backend
+    app.kubernetes.io/instance: java-patterns
+    app.kubernetes.io/version: '0.0.0'
+    app.kubernetes.io/component: backend
+    app.kubernetes.io/part-of: documentation
+    app.kubernetes.io/managed-by: tilt
+
+spec:
+  replicas: 1
+  minReadySeconds: 60
+  revisionHistoryLimit: 5
+  progressDeadlineSeconds: 60
+  strategy:
+    rollingUpdate:
+      maxSurge: 10%
+      maxUnavailable: 0
+    type: RollingUpdate
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      serviceAccountName: webapp
+      containers:
+        - name: backend
+          image: java-patterns
+          imagePullPolicy: IfNotPresent
+          securityContext:
+            capabilities:
+              drop:
+                - ALL
+              add:
+                - NET_BIND_SERVICE
+            allowPrivilegeEscalation: true
+          ports:
+            - name: http
+              containerPort: 8000
+              protocol: TCP
+              hostPort: 8000
+            - name: https
+              containerPort: 443
+              protocol: TCP
+              hostPort: 8443
+          resources:
+            limits:
+              cpu: 2000m
+              memory: 512Mi
+            requests:
+              cpu: 100m
+              memory: 32Mi
+          volumeMounts:
+            - name: tls
+              mountPath: /data/cert
+              readOnly: true
+            - mountPath: /usr/src/app
+              name: appvolume
+            - mountPath: /usr/src/data
+              name: data
+      volumes:
+        - name: tls
+          secret:
+            secretName: backend-tls
+        - name: appvolume
+          emptyDir: {}
+        - name: data
+          emptyDir: {}

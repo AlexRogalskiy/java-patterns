@@ -136,12 +136,12 @@ RUN pip3.8 install cookiecutter --no-cache-dir --quiet
 
 ## Removing unnecessary dependencies
 RUN echo "**** Cleaning Up cache ****"
-RUN apt remove -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev libbz2-dev g++ python-pip python-dev
+RUN apt remove -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev libbz2-dev g++
 RUN rm -rf /var/cache/apt/* /tmp/Python-${PYTHON_VERSION}
 
 ## Show versions
 RUN echo "NPM version: $(npm --version)"
-RUN echo "NODE version: $(node --version | awk -F. '{print "\""$1"\""}')"
+RUN echo "NODE version: $(node --version | awk -F. '{print \"$1\"}')"
 RUN echo "PYTHON version: $(python3 --version)"
 
 ## Install node dependencies
