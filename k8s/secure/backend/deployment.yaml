@@ -50,6 +50,15 @@ spec:
               containerPort: 443
               protocol: TCP
               hostPort: 8443
+          env:
+            - name: WATCH_NAMESPACE
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.namespace
+            - name: POD_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
           resources:
             limits:
               cpu: 2000m
