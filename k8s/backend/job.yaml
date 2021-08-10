@@ -1,0 +1,25 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: backend-test
+  namespace: webapp
+  labels:
+    app.kubernetes.io/name: backend
+    app.kubernetes.io/instance: java-patterns
+    app.kubernetes.io/version: '0.0.0'
+    app.kubernetes.io/component: backend
+    app.kubernetes.io/part-of: documentation
+    app.kubernetes.io/managed-by: tilt
+
+spec:
+  backoffLimit: 1
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+        - name: backend-test
+          image: curlimages/curl
+          command: ['curl', '-fsSL', 'http://localhost:8000/java-patterns']
+      restartPolicy: Never
