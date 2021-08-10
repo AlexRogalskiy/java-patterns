@@ -17,7 +17,7 @@ jobs:
           docker build . --file Dockerfile --tag containerscanner:${{ github.sha }}
 
       - name: Anchore scan
-        uses: anchore/scan-action@1.0.6
+        uses: anchore/scan-action@v2.0.4
         with:
           image-reference: containerscanner:${{ github.sha }}
           dockerfile-path: Dockerfile
