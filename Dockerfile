@@ -1,4 +1,5 @@
-## Setting image source variables
+## Setting base OS layer
+## docker build -t container_tag --build-arg IMAGE_SOURCE=node IMAGE_TAG=12-buster .
 ARG IMAGE_SOURCE=node
 ARG IMAGE_TAG=12-buster
 
@@ -58,6 +59,7 @@ ENV TZ=UTC \
     LC_ALL=$LC_ALL \
     LANG=$LC_ALL \
     PYTHONIOENCODING=UTF-8 \
+    PYTHONLEGACYWINDOWSSTDIO=UTF-8 \
     PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     DEBIAN_FRONTEND=noninteractive \
@@ -69,6 +71,9 @@ ENV PIP_NO_CACHE_DIR=1
 ENV USER=${USER:-'cukebot'} \
     UID=${UID:-5000} \
     GID=${GID:-10000}
+
+ENV npm_config_loglevel=error
+ENV IN_DOCKER=True
 
 ## Mounting volumes
 VOLUME ["$APP_DIR"]

@@ -41,7 +41,7 @@ echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 curl http://localhost:8000/
 
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-echo "https (secure) enpdoint:"
+echo "https (secure) endpoint:"
 echo "curl --insecure https://localhost:8443/"
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 curl --insecure https://localhost:8443/

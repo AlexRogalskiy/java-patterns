@@ -15,7 +15,7 @@ spec:
   replicas: 1
   minReadySeconds: 60
   revisionHistoryLimit: 5
-  progressDeadlineSeconds: 60
+  progressDeadlineSeconds: 120
   strategy:
     rollingUpdate:
       maxSurge: 10%
