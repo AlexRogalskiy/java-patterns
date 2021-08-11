@@ -415,7 +415,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
-
+- [Panache – Active Record Pattern](https://thorben-janssen.com/panache-active-record-pattern/)
 - [Spring Data JPA – How to Return DTOs from Native Queries](https://thorben-janssen.com/spring-data-jpa-dto-native-queries/)
 - [Introduction to Panache](https://thorben-janssen.com/introduction-panache/)
 - [How and when to use JPA’s getReference() Method](https://thorben-janssen.com/jpa-getreference/)
@@ -425,8 +425,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Hibernate’s Query Plan Cache – How It Works and How to Tune It](https://thorben-janssen.com/hibernate-query-plan-cache/)
 - [Hibernate Proxies – Why they’re used and how to unproxy them](https://thorben-janssen.com/hibernate-proxies/)
 - [Hibernate’s @Filter Annotation – Apply Dynamic Filters at Runtime](https://thorben-janssen.com/hibernate-filter/)
-- [How to retrieve DTOs from your Envers Audit Logs](https://thorben-janssen.com/envers-dto/)
-
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*
