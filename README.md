@@ -280,18 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
-- [Java News Roundup: JDK 17 Initial RC, OpenJDK, Updates to Open Liberty, Hibernate ORM, Spring Cloud](https://www.reddit.com/r/java/comments/p13s9a/java_news_roundup_jdk\_17\_initial_rc_openjdk/)
+- [Integrating Vertx application with Spring framework](https://www.reddit.com/r/java/comments/p1xnbf/integrating_vertx_application_with_spring/)
+- [Panache - Active Record Pattern](https://www.reddit.com/r/java/comments/p1r13q/panache_active_record_pattern/)
+- [Concrete reasons why one would choose java over node.js?](https://www.reddit.com/r/java/comments/p1ouh3/concrete_reasons_why_one_would_choose_java_over/)
+- [Open source Java projects to learn system design and good coding practices](https://www.reddit.com/r/java/comments/p1ndfb/open_source_java_projects_to_learn_system_design/)
+- [Project Panama for Newbies (Part 1) | Foojay Today](https://www.reddit.com/r/java/comments/p1m3xi/project_panama_for_newbies_part_1_foojay_today/)
+- [Is using ArrayList good practice for a regular software engineering job?](https://www.reddit.com/r/java/comments/p1jz1z/is_using_arraylist_good_practice_for_a_regular/)
+- [Java News Roundup: JDK 17 Initial RC, OpenJDK, Updates to Open Liberty, Hibernate ORM, Spring Cloud](https://www.reddit.com/r/java/comments/p13s9a/java_news_roundup_jdk_17_initial_rc_openjdk/)
 - [The weekly Console email just went out! This week we had Oleksandr Porunov of JanusGraph on. We talked about why you would want to use a graph database and what happens if you don’t! I thought /r/java might be interested in checking it out! :)](https://www.reddit.com/r/java/comments/p0klsg/the_weekly_console_email_just_went_out_this_week/)
 - [Do you know of any good Spring Boot sample project for learning?](https://www.reddit.com/r/java/comments/ozwxn2/do_you_know_of_any_good_spring_boot_sample/)
 - [Why you recommend java for learning DSA and not c++?](https://www.reddit.com/r/java/comments/ozl997/why_you_recommend_java_for_learning_dsa_and_not_c/)
-- [JDK 17 First Release-Candidate Build Released #TestItNow](https://www.reddit.com/r/java/comments/ozcitb/jdk\_17\_first_releasecandidate_build_released/)
-- [Azul Platform Prime Stream Builds Are Now Free for Evaluation, Development, and Testing](https://www.reddit.com/r/java/comments/oz70l4/azul_platform_prime_stream_builds_are_now_free/)
-- [OneDev 4.9 - Java Based Open Source Git Server with Built-in CI/CD](https://www.reddit.com/r/java/comments/oz6nfu/onedev\_49\_java_based_open_source_git_server_with/)
-- [spring-data-jpa-temporal: a lightweight temporal auditing library](https://www.reddit.com/r/java/comments/oz67sy/springdatajpatemporal_a_lightweight_temporal/)
-- [Java Development on the SteamDeck?](https://www.reddit.com/r/java/comments/oz3feu/java_development_on_the_steamdeck/)
-- [Open source and free library to serialize and de-serialize data in b-encoded format](https://www.reddit.com/r/java/comments/oyzxws/open_source_and_free_library_to_serialize_and/)
-
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
