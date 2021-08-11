@@ -1,15 +1,18 @@
-## Setting base OS layer
-## docker build -t container_tag --build-arg IMAGE_SOURCE=node IMAGE_TAG=12-buster .
+##
+## ---- Base OS layer ----
+## docker build -t <container_tag> --build-arg IMAGE_SOURCE=node IMAGE_TAG=lts-alpine .
+##
 ARG IMAGE_SOURCE=node
-ARG IMAGE_TAG=12-buster
+ARG IMAGE_TAG=lts-alpine
 
-## Setting base image
-FROM ${IMAGE_SOURCE}:${IMAGE_TAG}
+FROM ${IMAGE_SOURCE}:${IMAGE_TAG} AS base
 
-## Setting argument variables
+## setup base stage
+RUN echo "**** Base stage ****"
+
+## setup image arguments
 ARG PYTHON_VERSION=3.8.2
 
-## User with uid/gid
 ARG USER
 ARG UID
 ARG GID
@@ -23,14 +26,13 @@ ARG LC_ALL="en_US.UTF-8"
 ARG BUILD_DATE="$(date -u +\"%Y-%m-%dT%H:%M:%SZ\")"
 ARG VCS_REF="$(git rev-parse --short HEAD)"
 
-## Working directories
 ARG APP_DIR="/usr/src/app"
 ARG DATA_DIR="/usr/src/data"
+ARG TEMP_DIR="/tmp"
 
-## Dependencies
-ARG PACKAGES="git curl tini dos2unix locales"
+ARG INSTALL_PACKAGES="git curl tini dos2unix locales"
 
-## General metadata
+## setup image labels
 LABEL "name"="$NAME"
 LABEL "version"="$VERSION"
 LABEL "description"="$DESCRIPTION"
@@ -47,42 +49,35 @@ LABEL "com.github.vcs-ref"="$VCS_REF"
 LABEL "com.github.name"="$NAME"
 LABEL "com.github.description"="$DESCRIPTION"
 
-## Setting environment variables
+## setup environment variables
 ENV PYTHON_VERSION $PYTHON_VERSION
 
 ENV APP_DIR=$APP_DIR \
-    DATA_DIR=$DATA_DIR
+    DATA_DIR=$DATA_DIR \
+    TEMP_DIR=$TEMP_DIR
 
-# System-level base config
 ENV TZ=UTC \
     LANGUAGE=en_US:en \
     LC_ALL=$LC_ALL \
+    LC_CTYPE=$LC_ALL \
     LANG=$LC_ALL \
     PYTHONIOENCODING=UTF-8 \
     PYTHONLEGACYWINDOWSSTDIO=UTF-8 \
     PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     DEBIAN_FRONTEND=noninteractive \
-    APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=1
+    APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DEFAULT_TIMEOUT=100 \
+    NPM_CONFIG_LOGLEVEL=error \
+    IN_DOCKER=True
 
-ENV PIP_DISABLE_PIP_VERSION_CHECK=1
-ENV PIP_NO_CACHE_DIR=1
-
-ENV USER=${USER:-'cukebot'} \
+ENV USER=${USER:-'devbot'} \
     UID=${UID:-5000} \
     GID=${GID:-10000}
 
-ENV npm_config_loglevel=error
-ENV IN_DOCKER=True
-
-## Mounting volumes
-VOLUME ["$APP_DIR"]
-
-## Creating work directory
-WORKDIR $APP_DIR
-
-# Create a cukebot user. Some tools (Bundler, npm publish) don't work properly
-# when run as root
+## create user
 RUN addgroup --gid "$GID" "$USER" || exit 0
 RUN adduser \
     --disabled-password \
@@ -93,81 +88,131 @@ RUN adduser \
     "$USER" \
     || exit 0
 
-## Installing dependencies
+## mount volumes
+VOLUME ["$APP_DIR", "$DATA_DIR", "$TEMP_DIR"]
+
+## create working directory
+WORKDIR $APP_DIR
+
+## install dependencies
 RUN echo "**** Installing build packages ****"
+## RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 RUN apt-get update \
-    && apt-get install --assume-yes --no-install-recommends $PACKAGES \
+    && apt-get install --assume-yes --no-install-recommends $INSTALL_PACKAGES \
     && apt-get autoclean \
     && apt-get clean \
     && apt-get autoremove \
     && rm -rf /var/lib/apt/lists/*
 
-## Installing python
+## install python
 RUN echo "**** Installing Python ****"
 RUN cd /tmp && curl -O https://www.python.org/ftp/python/${PYTHON_VERSION}/Python-${PYTHON_VERSION}.tar.xz && \
     tar -xvf Python-${PYTHON_VERSION}.tar.xz && \
     cd Python-${PYTHON_VERSION} && \
     ./configure --enable-optimizations && \
     make -j 4 && \
-    make altinstall
+    make altinstall && \
+    ln -s /usr/local/bin/python3.8 /usr/bin/python3.8
 
-## Copying source files
+## show versions
+RUN echo "npm version: $(npm --version)"
+RUN echo "node version: $(node --version | awk -F. '{print $1}')"
+RUN echo "python version: $(python3 --version)"
+
+## setup entrypoint
+ENTRYPOINT [ "/usr/bin/tini", "--" ]
+
+## remove cache
+RUN echo "**** Cleaning cache ****"
+
+RUN apt-get remove -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev libbz2-dev g++
+RUN rm -rf /var/cache/apt/* /tmp/* /var/tmp/*
+
+## copy project files
+COPY package.json .
+COPY ./docs/requirements.txt .
+
+##
+## ---- Python Dependencies ----
+##
+FROM base AS python-dependencies
+
+## setup python dependencies stage
+RUN echo "**** Installing python modules stage ****"
+
+RUN /usr/bin/python3.8 -m pip install --upgrade setuptools && \
+    /usr/bin/python3.8 -m pip install --upgrade pip && \
+    /usr/bin/python3.8 -m pip install -r requirements.txt
+
+## remove cache
+RUN echo "**** Cleaning python cache ****"
+
+RUN rm -rf ~/.cache/pip
+
+##
+## ---- Node Dependencies ----
+##
+FROM base AS node-dependencies
+
+## setup node modules stage
+RUN echo "**** Installing node modules stage ****"
+
+## update npm settings
+RUN npm set progress=false && npm config set depth 0
+
+## install only <production> node_modules
+## RUN npm install --no-audit --only=prod
+
+## copy production node_modules aside
+## RUN cp -R node_modules prod_node_modules
+
+## install node_modules, including 'devDependencies'
+RUN npm install --no-audit
+
+## remove cache
+RUN echo "**** Cleaning node cache ****"
+
+RUN npm cache clean --force
+
+##
+## ---- Testing ----
+##
+FROM node-dependencies AS test
+
+## setup testing stage
+RUN echo "**** Testing stage ****"
+
+## copy source files
 COPY . ./
 
-## Installing python dependencies
-## RUN pip3.8 install --no-cache-dir -r ./docs/requirements.txt --quiet
-RUN echo "**** Installing Python modules ****"
-RUN pip3.8 install --upgrade pip --quiet
-
-RUN pip3.8 install mkdocs --no-cache-dir --quiet
-RUN pip3.8 install mkdocs-material --no-cache-dir --quiet
-RUN pip3.8 install pygments --no-cache-dir --quiet
-RUN pip3.8 install markdown --no-cache-dir --quiet
-RUN pip3.8 install markdown-include --no-cache-dir --quiet
-RUN pip3.8 install markdown-checklist --no-cache-dir --quiet
-RUN pip3.8 install fontawesome_markdown --no-cache-dir --quiet
-RUN pip3.8 install mkdocs-redirects --no-cache-dir --quiet
-RUN pip3.8 install mkdocs-material-extensions --no-cache-dir --quiet
-RUN pip3.8 install mkdocs-techdocs-core --no-cache-dir --quiet
-RUN pip3.8 install mkdocs-git-revision-date-localized-plugin --no-cache-dir --quiet
-RUN pip3.8 install mkdocs-awesome-pages-plugin --no-cache-dir --quiet
-RUN pip3.8 install mdx_truly_sane_lists --no-cache-dir --quiet
-RUN pip3.8 install smarty --no-cache-dir --quiet
-RUN pip3.8 install dumb-init --no-cache-dir --quiet
-RUN pip3.8 install mkdocs-include-markdown-plugin --no-cache-dir --quiet
-#RUN pip3.8 install mkdocs_pymdownx_material_extras --no-cache-dir --quiet
-RUN pip3.8 install click-man --no-cache-dir --quiet
-## click-man --target path/to/man/pages mkdocs
-RUN pip3.8 install cookiecutter --no-cache-dir --quiet
-
-## Removing unnecessary dependencies
-RUN echo "**** Cleaning Up cache ****"
-RUN apt remove -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev libbz2-dev g++
-RUN rm -rf /var/cache/apt/* /tmp/Python-${PYTHON_VERSION}
-
-## Show versions
-RUN echo "NPM version: $(npm --version)"
-RUN echo "NODE version: $(node --version | awk -F. '{print \"$1\"}')"
-RUN echo "PYTHON version: $(python3 --version)"
-
-## Install node dependencies
-RUN echo "**** Installing project packages ****"
-RUN npm install
-
-## Run format checking & linting
+## run format checking & linting
 RUN npm run test:all
 
-## Setting volumes
-VOLUME /tmp
+##
+## ---- Release ----
+##
+FROM base AS release
 
-## Setting user
+## setup release stage
+RUN echo "**** Release stage ****"
+
+## copy dependencies
+#COPY --from=node-dependencies ${APP_DIR}/prod_node_modules ./node_modules
+COPY --from=node-dependencies ${APP_DIR}/node_modules ./node_modules
+COPY --from=python-dependencies /usr/local/lib/python3.8/site-packages /usr/local/lib/python3.8/site-packages
+
+## setup environment path
+ENV PATH=/root/.local:$PATH
+
+## copy app sources
+COPY . ./
+
+## setup user
 USER $USER
 
-## Expose port
+## expose port
 EXPOSE 8000
 
-## Running package bundle
-ENTRYPOINT [ "/usr/bin/tini", "--", "/bin/sh", "-c", "mkdocs" ]
-#ENTRYPOINT ["mkdocs"]
-CMD ["serve", "--verbose", "--dirtyreload", "--dev-addr=0.0.0.0:8000"]
-#CMD ["mkdocs", "serve", "--verbose", "--dirtyreload", "-a", "0.0.0.0:8000"]
+## define cmd
+CMD [ "/usr/bin/python3.8", "-m", "mkdocs", "serve", "--verbose", "--dirtyreload", "--dev-addr=0.0.0.0:8000" ]
+## CMD [ "mkdocs", "serve", "--verbose", "--dirtyreload", "-a", "0.0.0.0:8000" ]

@@ -1,6 +1,6 @@
 site_name: Java Patterns
 site_description: >
-  java code patterns and general architectural design concepts
+  java code patterns and basic architecture designing concepts
 site_author: Alexander Rogalskiy
 site_url: https://alexander-rogalsky.gitbook.io/java-patterns/
 
@@ -88,7 +88,6 @@ markdown_extensions:
   - footnotes: {}
   - tables: {}
   - meta: {}
-  - markdown_checklist.extension: {}
   - admonition: {} # https://squidfunk.github.io/mkdocs-material/extensions/admonition/
   - codehilite: # https://squidfunk.github.io/mkdocs-material/extensions/codehilite/
       linenums: true
@@ -116,38 +115,6 @@ markdown_extensions:
   - smarty: {} # https://python-markdown.github.io/extensions/smarty/
   - nl2br: {} # https://python-markdown.github.io/extensions/smarty/
   - mdx_truly_sane_lists: {} # https://github.com/radude/mdx_truly_sane_lists -> proper indentation of md list items
-
-# Navigation
-# nav: omitted, because we're using the awesome-pages plugin (https://squidfunk.github.io/mkdocs-material/plugins/awesome-pages/)
-
-# Navigation
-#nav:
-#  - Introduction: README.md
-#  - Table of contents: SUMMARY.md
-#  - User Guide:
-#      - Changelog: user-guide/changelog.md
-#      - Dependency: user-guide/dependency.md
-#      - FAQ: user-guide/faq.md
-#      - Getting Started: user-guide/getting-started.md
-#      - Code of Conduct: user-guide/code_of_conduct.md
-#      - Code Owners: user-guide/code_owners.md
-#      - Troubleshooting: user-guide/troubleshooting.md
-#      - Upgrade: user-guide/upgrade.md
-#  - Units:
-#      - Design patterns: units/design-patterns.md
-#      - Scenarios: units/scenarios.md
-#      - Use cases: units/use-cases.md
-#  - Contributing:
-#      - Information: contributing/info.md
-#  - Reporting:
-#      - Information: reporting/info.md
-#      - Bug Report: reporting/bug_report.md
-#      - Custom Report: reporting/custom_report.md
-#      - Issue Report: reporting/issue_template.md
-#      - Feature Request: reporting/feature_request_template.md
-#      - Pull Request: reporting/pull_request_template.md
-#  - Links:
-#      - Information: links/info.md
 
 # Other Settings
 strict: false # halt processing when a warning is raised

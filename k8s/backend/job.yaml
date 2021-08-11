@@ -21,5 +21,5 @@ spec:
       containers:
         - name: backend-test
           image: curlimages/curl
-          command: ['curl', '-fsSL', 'http://localhost:8000/java-patterns']
+          command: ['curl', '-fsSL', 'http://backend:8000/java-patterns']
       restartPolicy: Never
