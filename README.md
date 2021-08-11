@@ -170,12 +170,9 @@ python -m mkdocs
 ```shell script
 python -m pip install mkdocs-material --quiet
 python -m pip install markdown-include --quiet
-python -m pip install mkdocs-techdocs-core --no-cache-dir --quiet
-python -m pip install mkdocs-git-revision-date-localized-plugin --no-cache-dir --quiet
-python -m pip install mkdocs-awesome-pages-plugin --no-cache-dir --quiet
-python -m pip install mdx_truly_sane_lists --no-cache-dir --quiet
-python -m pip install mkdocs-include-markdown-plugin --no-cache-dir --quiet
-python -m pip install click-man --no-cache-dir --quiet
+...
+(see requirements.txt)
+...
 ```
 
 4\) Start the server at ***localhost*** by running the following command:

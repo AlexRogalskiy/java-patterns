@@ -1,9 +1,9 @@
 ##
 ## ---- Base OS layer ----
-## docker build -t <container_tag> --build-arg IMAGE_SOURCE=node IMAGE_TAG=lts-alpine .
+## docker build -t <container_tag> --build-arg IMAGE_SOURCE=node IMAGE_TAG=12-buster .
 ##
 ARG IMAGE_SOURCE=node
-ARG IMAGE_TAG=lts-alpine
+ARG IMAGE_TAG=12-buster
 
 FROM ${IMAGE_SOURCE}:${IMAGE_TAG} AS base
 

@@ -5,5 +5,8 @@
 docs
 images
 node_modules
+tilt_modules
+k8s
+helm
 reports
 scripts
