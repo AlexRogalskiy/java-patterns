@@ -355,18 +355,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
-
 - [New candidate JEP: 416: Reimplement Core Reflection with Method Handles](https://inside.java/2021/08/05/new-candidate-jep-416/)
+- [JEP proposed to target JDK 18: 400: UTF-8 by Default](https://inside.java/2021/08/03/jep-400-proposed-to-target-jdk18/)
 - [AMA About the Java Language](https://inside.java/2021/08/02/ama-about-the-java-language/)
+- [Project Loom: Modern Scalable Concurrency for the Java Platform](https://inside.java/2021/08/02/project-loom/)
 - [Minor improvement to anonymous classes](https://inside.java/2021/08/01/monior-improvement-to-anonymous-classes/)
 - [Inside Java Newscast #9](https://inside.java/2021/07/29/insidejava-newscast-009/)
 - [JEP Café #2 - Sealed Classes](https://inside.java/2021/07/22/jepcafe2/)
 - [A few updates to JEP 411: Deprecate the Security Manager for Removal](https://inside.java/2021/07/16/a-few-updates-to-jep411/)
 - [Inside Java Newscast #8](https://inside.java/2021/07/15/insidejava-newscast-008/)
 - [Call for Discussion : New Project to support the Wayland display server on Linux](https://inside.java/2021/07/07/call-for-discussion/)
-- [Add support for secondary carriers to Memory Access API](https://inside.java/2021/07/02/add-support-for-second-carriers/)
-- [Inside Java Newscast #7](https://inside.java/2021/07/01/insidejava-newscast-007/)
-
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
