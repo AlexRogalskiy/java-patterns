@@ -277,18 +277,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
+- [Project Loom: JDK18 EA Build with AArch64 support is now available for download.](https://www.reddit.com/r/java/comments/p2lj86/project_loom_jdk18_ea_build_with_aarch64_support/)
+- [Keyset Pagination with JPA and Hibernate](https://www.reddit.com/r/java/comments/p2jcfd/keyset_pagination_with_jpa_and_hibernate/)
+- [Evolution of programmers communities on Stack Overflow](https://www.reddit.com/r/java/comments/p2hy41/evolution_of_programmers_communities_on_stack/)
+- [CFV: New Project: Wakefield](https://www.reddit.com/r/java/comments/p2hqtz/cfv_new_project_wakefield/)
+- [What are they building—and why? 6 questions for the top Java architects](https://www.reddit.com/r/java/comments/p2f30l/what_are_they_buildingand_why_6_questions_for_the/)
 - [Integrating Vertx application with Spring framework](https://www.reddit.com/r/java/comments/p1xnbf/integrating_vertx_application_with_spring/)
 - [Panache - Active Record Pattern](https://www.reddit.com/r/java/comments/p1r13q/panache_active_record_pattern/)
 - [Concrete reasons why one would choose java over node.js?](https://www.reddit.com/r/java/comments/p1ouh3/concrete_reasons_why_one_would_choose_java_over/)
 - [Open source Java projects to learn system design and good coding practices](https://www.reddit.com/r/java/comments/p1ndfb/open_source_java_projects_to_learn_system_design/)
-- [Project Panama for Newbies (Part 1) | Foojay Today](https://www.reddit.com/r/java/comments/p1m3xi/project_panama_for_newbies_part\_1\_foojay_today/)
-- [Is using ArrayList good practice for a regular software engineering job?](https://www.reddit.com/r/java/comments/p1jz1z/is_using_arraylist_good_practice_for_a_regular/)
-- [Java News Roundup: JDK 17 Initial RC, OpenJDK, Updates to Open Liberty, Hibernate ORM, Spring Cloud](https://www.reddit.com/r/java/comments/p13s9a/java_news_roundup_jdk\_17\_initial_rc_openjdk/)
-- [The weekly Console email just went out! This week we had Oleksandr Porunov of JanusGraph on. We talked about why you would want to use a graph database and what happens if you don’t! I thought /r/java might be interested in checking it out! :)](https://www.reddit.com/r/java/comments/p0klsg/the_weekly_console_email_just_went_out_this_week/)
-- [Do you know of any good Spring Boot sample project for learning?](https://www.reddit.com/r/java/comments/ozwxn2/do_you_know_of_any_good_spring_boot_sample/)
-- [Why you recommend java for learning DSA and not c++?](https://www.reddit.com/r/java/comments/ozl997/why_you_recommend_java_for_learning_dsa_and_not_c/)
-
+- [Project Panama for Newbies (Part 1) | Foojay Today](https://www.reddit.com/r/java/comments/p1m3xi/project_panama_for_newbies_part_1_foojay_today/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
