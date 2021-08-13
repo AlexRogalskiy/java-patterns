@@ -277,16 +277,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [JEP 417: Vector API (Third Incubator)](https://www.reddit.com/r/java/comments/p39ugy/jep_417_vector_api_third_incubator/)
+- [Java Threads and The Mandelbrot Set](https://www.reddit.com/r/java/comments/p38yqq/java_threads_and_the_mandelbrot_set/)
+- [There is no magic in Spring, I wrote my own (very simplified) framework from scratch to show it](https://www.reddit.com/r/java/comments/p37n94/there_is_no_magic_in_spring_i_wrote_my_own_very/)
+- [restricted type](https://www.reddit.com/r/java/comments/p36phy/restricted_type/)
+- [JDK17 1st Release Candidate, finalize() deprecation, Value-based classes - Inside Java Newscast #10](https://www.reddit.com/r/java/comments/p2xjzi/jdk17_1st_release_candidate_finalize_deprecation/)
+- [Confused with getters](https://www.reddit.com/r/java/comments/p2w7qa/confused_with_getters/)
 - [Project Loom: JDK18 EA Build with AArch64 support is now available for download.](https://www.reddit.com/r/java/comments/p2lj86/project_loom_jdk18_ea_build_with_aarch64_support/)
 - [Keyset Pagination with JPA and Hibernate](https://www.reddit.com/r/java/comments/p2jcfd/keyset_pagination_with_jpa_and_hibernate/)
-- [Evolution of programmers communities on Stack Overflow](https://www.reddit.com/r/java/comments/p2hy41/evolution_of_programmers_communities_on_stack/)
 - [CFV: New Project: Wakefield](https://www.reddit.com/r/java/comments/p2hqtz/cfv_new_project_wakefield/)
 - [What are they building—and why? 6 questions for the top Java architects](https://www.reddit.com/r/java/comments/p2f30l/what_are_they_buildingand_why_6_questions_for_the/)
-- [Integrating Vertx application with Spring framework](https://www.reddit.com/r/java/comments/p1xnbf/integrating_vertx_application_with_spring/)
-- [Panache - Active Record Pattern](https://www.reddit.com/r/java/comments/p1r13q/panache_active_record_pattern/)
-- [Concrete reasons why one would choose java over node.js?](https://www.reddit.com/r/java/comments/p1ouh3/concrete_reasons_why_one_would_choose_java_over/)
-- [Open source Java projects to learn system design and good coding practices](https://www.reddit.com/r/java/comments/p1ndfb/open_source_java_projects_to_learn_system_design/)
-- [Project Panama for Newbies (Part 1) | Foojay Today](https://www.reddit.com/r/java/comments/p1m3xi/project_panama_for_newbies_part_1_foojay_today/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
