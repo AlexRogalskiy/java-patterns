@@ -353,6 +353,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- INSIDE-POST-LIST:START -->
 - [Inside Java Newscast #10](https://inside.java/2021/08/12/insidejava-newscast-010/)
+- [New candidate JEP: 417: Vector API (Third Incubator)](https://inside.java/2021/08/12/new-candidate-jep-417/)
 - [CFV: New Project: Wakefield](https://inside.java/2021/08/11/new-project-wakefield/)
 - [What are they building—and why? 6 questions for the top Java architects](https://inside.java/2021/08/06/what-are-they-building-and-why/)
 - [New candidate JEP: 416: Reimplement Core Reflection with Method Handles](https://inside.java/2021/08/05/new-candidate-jep-416/)
@@ -361,7 +362,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Project Loom: Modern Scalable Concurrency for the Java Platform](https://inside.java/2021/08/02/project-loom/)
 - [Minor improvement to anonymous classes](https://inside.java/2021/08/01/monior-improvement-to-anonymous-classes/)
 - [Inside Java Newscast #9](https://inside.java/2021/07/29/insidejava-newscast-009/)
-- [JEP Café #2 - Sealed Classes](https://inside.java/2021/07/22/jepcafe2/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
