@@ -277,6 +277,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Java 8 vs 15 for multi-threaded gaming support](https://www.reddit.com/r/java/comments/p3wgfv/java_8_vs_15_for_multithreaded_gaming_support/)
 - [JEP 417: Vector API (Third Incubator)](https://www.reddit.com/r/java/comments/p39ugy/jep_417_vector_api_third_incubator/)
 - [Java Threads and The Mandelbrot Set](https://www.reddit.com/r/java/comments/p38yqq/java_threads_and_the_mandelbrot_set/)
 - [There is no magic in Spring, I wrote my own (very simplified) framework from scratch to show it](https://www.reddit.com/r/java/comments/p37n94/there_is_no_magic_in_spring_i_wrote_my_own_very/)
@@ -286,7 +287,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Project Loom: JDK18 EA Build with AArch64 support is now available for download.](https://www.reddit.com/r/java/comments/p2lj86/project_loom_jdk18_ea_build_with_aarch64_support/)
 - [Keyset Pagination with JPA and Hibernate](https://www.reddit.com/r/java/comments/p2jcfd/keyset_pagination_with_jpa_and_hibernate/)
 - [CFV: New Project: Wakefield](https://www.reddit.com/r/java/comments/p2hqtz/cfv_new_project_wakefield/)
-- [What are they building—and why? 6 questions for the top Java architects](https://www.reddit.com/r/java/comments/p2f30l/what_are_they_buildingand_why_6_questions_for_the/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
