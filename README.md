@@ -277,7 +277,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Java 8 vs 15 for multi-threaded gaming support](https://www.reddit.com/r/java/comments/p3wgfv/java_8_vs_15_for_multithreaded_gaming_support/)
+- [java never installs after installing](https://www.reddit.com/r/java/comments/p4k6bo/java_never_installs_after_installing/)
+- [Rate Limit APIs with Bucket4J via Java](https://www.reddit.com/r/java/comments/p49tyk/rate_limit_apis_with_bucket4j_via_java/)
+- [What are some most useful things you coded with ArchUnit?](https://www.reddit.com/r/java/comments/p45niw/what_are_some_most_useful_things_you_coded_with/)
 - [JEP 417: Vector API (Third Incubator)](https://www.reddit.com/r/java/comments/p39ugy/jep_417_vector_api_third_incubator/)
 - [Java Threads and The Mandelbrot Set](https://www.reddit.com/r/java/comments/p38yqq/java_threads_and_the_mandelbrot_set/)
 - [There is no magic in Spring, I wrote my own (very simplified) framework from scratch to show it](https://www.reddit.com/r/java/comments/p37n94/there_is_no_magic_in_spring_i_wrote_my_own_very/)
@@ -285,8 +287,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JDK17 1st Release Candidate, finalize() deprecation, Value-based classes - Inside Java Newscast #10](https://www.reddit.com/r/java/comments/p2xjzi/jdk17_1st_release_candidate_finalize_deprecation/)
 - [Confused with getters](https://www.reddit.com/r/java/comments/p2w7qa/confused_with_getters/)
 - [Project Loom: JDK18 EA Build with AArch64 support is now available for download.](https://www.reddit.com/r/java/comments/p2lj86/project_loom_jdk18_ea_build_with_aarch64_support/)
-- [Keyset Pagination with JPA and Hibernate](https://www.reddit.com/r/java/comments/p2jcfd/keyset_pagination_with_jpa_and_hibernate/)
-- [CFV: New Project: Wakefield](https://www.reddit.com/r/java/comments/p2hqtz/cfv_new_project_wakefield/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
