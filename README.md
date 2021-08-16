@@ -277,16 +277,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [java never installs after installing](https://www.reddit.com/r/java/comments/p4k6bo/java_never_installs_after_installing/)
+- [Free java udemy course! (Will expire soon)](https://www.reddit.com/r/java/comments/p51mrd/free_java_udemy_course_will_expire_soon/)
+- [11 Best Java IDEs To Help in Java Programming](https://www.reddit.com/r/java/comments/p500g3/11_best_java_ides_to_help_in_java_programming/)
+- [Studying for Java 11 Exam, when Java 17 is about to be out](https://www.reddit.com/r/java/comments/p4q79k/studying_for_java_11_exam_when_java_17_is_about/)
+- [Java springboot for backend with reactjs frontend](https://www.reddit.com/r/java/comments/p4od70/java_springboot_for_backend_with_reactjs_frontend/)
 - [Rate Limit APIs with Bucket4J via Java](https://www.reddit.com/r/java/comments/p49tyk/rate_limit_apis_with_bucket4j_via_java/)
 - [What are some most useful things you coded with ArchUnit?](https://www.reddit.com/r/java/comments/p45niw/what_are_some_most_useful_things_you_coded_with/)
+- [Free fuzzing tool for (major) java projects.](https://www.reddit.com/r/java/comments/p42l96/free_fuzzing_tool_for_major_java_projects/)
 - [JEP 417: Vector API (Third Incubator)](https://www.reddit.com/r/java/comments/p39ugy/jep_417_vector_api_third_incubator/)
 - [Java Threads and The Mandelbrot Set](https://www.reddit.com/r/java/comments/p38yqq/java_threads_and_the_mandelbrot_set/)
 - [There is no magic in Spring, I wrote my own (very simplified) framework from scratch to show it](https://www.reddit.com/r/java/comments/p37n94/there_is_no_magic_in_spring_i_wrote_my_own_very/)
-- [restricted type](https://www.reddit.com/r/java/comments/p36phy/restricted_type/)
-- [JDK17 1st Release Candidate, finalize() deprecation, Value-based classes - Inside Java Newscast #10](https://www.reddit.com/r/java/comments/p2xjzi/jdk17_1st_release_candidate_finalize_deprecation/)
-- [Confused with getters](https://www.reddit.com/r/java/comments/p2w7qa/confused_with_getters/)
-- [Project Loom: JDK18 EA Build with AArch64 support is now available for download.](https://www.reddit.com/r/java/comments/p2lj86/project_loom_jdk18_ea_build_with_aarch64_support/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
