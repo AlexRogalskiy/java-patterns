@@ -70,7 +70,7 @@
         "pretty-quick": "^3.1.1",
         "release-it": "^14.10.0",
         "remark-cli": "^9.0.0",
-        "remark-lint-code-block-style": "^2.0.1",
+        "remark-lint-code-block-style": "^3.0.1",
         "remark-lint-ordered-list-marker-value": "^2.0.1",
         "remark-preset-davidtheclark": "^0.12.0",
         "remark-validate-links": "^10.0.4",
