@@ -277,16 +277,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [sbt error](https://www.reddit.com/r/java/comments/p5s879/sbt_error/)
-- [Did you use an HTML parser? What for?](https://www.reddit.com/r/java/comments/p5qwme/did_you_use_an_html_parser_what_for/)
-- [Encrypt and Sign Soap body?](https://www.reddit.com/r/java/comments/p5pi75/encrypt_and_sign_soap_body/)
-- [Spring boot alternative for this](https://www.reddit.com/r/java/comments/p5n3pt/spring_boot_alternative_for_this/)
-- [Taking advantage of Junit 5 extensions](https://www.reddit.com/r/java/comments/p5a36z/taking_advantage_of_junit_5_extensions/)
-- [Configuring Tomcat logging for a read-only file system in Kubernetes.](https://www.reddit.com/r/java/comments/p59en8/configuring_tomcat_logging_for_a_readonly_file/)
+- [3D Sorting Algorithms - Visualized with Java (Processing)!](https://www.reddit.com/r/java/comments/p6g6bf/3d_sorting_algorithms_visualized_with_java/)
+- [Hash code in AtomicReference](https://www.reddit.com/r/java/comments/p67yj8/hash_code_in_atomicreference/)
+- [Hosting Web Components on Amazon S3 using Java](https://www.reddit.com/r/java/comments/p65o5b/hosting_web_components_on_amazon_s3_using_java/)
 - [Studying for Java 11 Exam, when Java 17 is about to be out](https://www.reddit.com/r/java/comments/p4q79k/studying_for_java_11_exam_when_java_17_is_about/)
 - [Java springboot for backend with reactjs frontend](https://www.reddit.com/r/java/comments/p4od70/java_springboot_for_backend_with_reactjs_frontend/)
 - [Rate Limit APIs with Bucket4J via Java](https://www.reddit.com/r/java/comments/p49tyk/rate_limit_apis_with_bucket4j_via_java/)
 - [What are some most useful things you coded with ArchUnit?](https://www.reddit.com/r/java/comments/p45niw/what_are_some_most_useful_things_you_coded_with/)
+- [Free fuzzing tool for (major) java projects.](https://www.reddit.com/r/java/comments/p42l96/free_fuzzing_tool_for_major_java_projects/)
+- [JEP 417: Vector API (Third Incubator)](https://www.reddit.com/r/java/comments/p39ugy/jep_417_vector_api_third_incubator/)
+- [Java Threads and The Mandelbrot Set](https://www.reddit.com/r/java/comments/p38yqq/java_threads_and_the_mandelbrot_set/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
