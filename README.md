@@ -277,16 +277,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [RegExp - structured regular expression](https://www.reddit.com/r/java/comments/p6x6i9/regexp_structured_regular_expression/)
+- [Findjar.com Down?](https://www.reddit.com/r/java/comments/p6wkkr/findjarcom_down/)
+- [JEP proposed to target JDK 18: 400: UTF-8 by Default](https://www.reddit.com/r/java/comments/p6usrj/jep_proposed_to_target_jdk_18_400_utf8_by_default/)
+- [Is there Expressjs like framework for java](https://www.reddit.com/r/java/comments/p6upyw/is_there_expressjs_like_framework_for_java/)
+- [Help with project Idea](https://www.reddit.com/r/java/comments/p6sq5u/help_with_project_idea/)
+- [The tale of two forks: GlassFish and Payara](https://www.reddit.com/r/java/comments/p6sc05/the_tale_of_two_forks_glassfish_and_payara/)
+- [Hottest topics for research for JAVA software engineers](https://www.reddit.com/r/java/comments/p6qrck/hottest_topics_for_research_for_java_software/)
+- [What's New in IntelliJ IDEA - 2021.2](https://www.reddit.com/r/java/comments/p6nhar/whats_new_in_intellij_idea_20212/)
+- [Debugger for Java Bytecode](https://www.reddit.com/r/java/comments/p6hsol/debugger_for_java_bytecode/)
 - [3D Sorting Algorithms - Visualized with Java (Processing)!](https://www.reddit.com/r/java/comments/p6g6bf/3d_sorting_algorithms_visualized_with_java/)
-- [Hash code in AtomicReference](https://www.reddit.com/r/java/comments/p67yj8/hash_code_in_atomicreference/)
-- [Hosting Web Components on Amazon S3 using Java](https://www.reddit.com/r/java/comments/p65o5b/hosting_web_components_on_amazon_s3_using_java/)
-- [Studying for Java 11 Exam, when Java 17 is about to be out](https://www.reddit.com/r/java/comments/p4q79k/studying_for_java_11_exam_when_java_17_is_about/)
-- [Java springboot for backend with reactjs frontend](https://www.reddit.com/r/java/comments/p4od70/java_springboot_for_backend_with_reactjs_frontend/)
-- [Rate Limit APIs with Bucket4J via Java](https://www.reddit.com/r/java/comments/p49tyk/rate_limit_apis_with_bucket4j_via_java/)
-- [What are some most useful things you coded with ArchUnit?](https://www.reddit.com/r/java/comments/p45niw/what_are_some_most_useful_things_you_coded_with/)
-- [Free fuzzing tool for (major) java projects.](https://www.reddit.com/r/java/comments/p42l96/free_fuzzing_tool_for_major_java_projects/)
-- [JEP 417: Vector API (Third Incubator)](https://www.reddit.com/r/java/comments/p39ugy/jep_417_vector_api_third_incubator/)
-- [Java Threads and The Mandelbrot Set](https://www.reddit.com/r/java/comments/p38yqq/java_threads_and_the_mandelbrot_set/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
