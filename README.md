@@ -352,6 +352,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [JEP Café #3](https://inside.java/2021/08/19/jepcafe3/)
 - [Inside Java Newscast #10](https://inside.java/2021/08/12/insidejava-newscast-010/)
 - [New candidate JEP: 417: Vector API (Third Incubator)](https://inside.java/2021/08/12/new-candidate-jep-417/)
 - [CFV: New Project: Wakefield](https://inside.java/2021/08/11/new-project-wakefield/)
@@ -361,7 +362,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [AMA About the Java Language](https://inside.java/2021/08/02/ama-about-the-java-language/)
 - [Project Loom: Modern Scalable Concurrency for the Java Platform](https://inside.java/2021/08/02/project-loom/)
 - [Minor improvement to anonymous classes](https://inside.java/2021/08/01/monior-improvement-to-anonymous-classes/)
-- [Inside Java Newscast #9](https://inside.java/2021/07/29/insidejava-newscast-009/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
