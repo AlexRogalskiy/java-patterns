@@ -277,7 +277,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Fully Static Java Webserver - Is this a bad idea?](https://www.reddit.com/r/java/comments/p7if5m/fully_static_java_webserver_is_this_a_bad_idea/)
+- [Automated migration from Java 8 to 11](https://www.reddit.com/r/java/comments/p88rjq/automated_migration_from_java_8_to_11/)
+- [SOAP with Helidon](https://www.reddit.com/r/java/comments/p84e7z/soap_with_helidon/)
 - [Whippet-Db - a fast embedded key-value database](https://www.reddit.com/r/java/comments/p7gfd7/whippetdb_a_fast_embedded_keyvalue_database/)
 - [Switch Expressions - JEP Café #3](https://www.reddit.com/r/java/comments/p7cnaj/switch_expressions_jep_café_3/)
 - [What is the scope of Java Sound library and its MIDI class?](https://www.reddit.com/r/java/comments/p793oi/what_is_the_scope_of_java_sound_library_and_its/)
@@ -286,7 +287,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [RegExp - structured regular expression](https://www.reddit.com/r/java/comments/p6x6i9/regexp_structured_regular_expression/)
 - [Findjar.com Down?](https://www.reddit.com/r/java/comments/p6wkkr/findjarcom_down/)
 - [JEP proposed to target JDK 18: 400: UTF-8 by Default](https://www.reddit.com/r/java/comments/p6usrj/jep_proposed_to_target_jdk_18_400_utf8_by_default/)
-- [Is there Expressjs like framework for java](https://www.reddit.com/r/java/comments/p6upyw/is_there_expressjs_like_framework_for_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
