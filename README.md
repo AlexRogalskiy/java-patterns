@@ -277,8 +277,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Overhead added by Garbage Collection Logging](https://www.reddit.com/r/java/comments/p8m3kc/overhead_added_by_garbage_collection_logging/)
 - [Automated migration from Java 8 to 11](https://www.reddit.com/r/java/comments/p88rjq/automated_migration_from_java_8_to_11/)
-- [SOAP with Helidon](https://www.reddit.com/r/java/comments/p84e7z/soap_with_helidon/)
 - [Whippet-Db - a fast embedded key-value database](https://www.reddit.com/r/java/comments/p7gfd7/whippetdb_a_fast_embedded_keyvalue_database/)
 - [Switch Expressions - JEP Café #3](https://www.reddit.com/r/java/comments/p7cnaj/switch_expressions_jep_café_3/)
 - [What is the scope of Java Sound library and its MIDI class?](https://www.reddit.com/r/java/comments/p793oi/what_is_the_scope_of_java_sound_library_and_its/)
