@@ -277,6 +277,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [The History of PrimeFaces](https://www.reddit.com/r/java/comments/p9m4sf/the_history_of_primefaces/)
+- [Persism 1.2.0 Released - A zero ceremony ORM for Java](https://www.reddit.com/r/java/comments/p9ljk8/persism_120_released_a_zero_ceremony_orm_for_java/)
+- [Hashtag Jakarta EE #86](https://www.reddit.com/r/java/comments/p9f976/hashtag_jakarta_ee_86/)
 - [Overhead added by Garbage Collection Logging](https://www.reddit.com/r/java/comments/p8m3kc/overhead_added_by_garbage_collection_logging/)
 - [Automated migration from Java 8 to 11](https://www.reddit.com/r/java/comments/p88rjq/automated_migration_from_java_8_to_11/)
 - [Whippet-Db - a fast embedded key-value database](https://www.reddit.com/r/java/comments/p7gfd7/whippetdb_a_fast_embedded_keyvalue_database/)
@@ -284,9 +287,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [What is the scope of Java Sound library and its MIDI class?](https://www.reddit.com/r/java/comments/p793oi/what_is_the_scope_of_java_sound_library_and_its/)
 - [[Discussion] To use var or explicit typing](https://www.reddit.com/r/java/comments/p791cn/discussion_to_use_var_or_explicit_typing/)
 - [Optimised Gradle build on Docker](https://www.reddit.com/r/java/comments/p78mt3/optimised_gradle_build_on_docker/)
-- [RegExp - structured regular expression](https://www.reddit.com/r/java/comments/p6x6i9/regexp_structured_regular_expression/)
-- [Findjar.com Down?](https://www.reddit.com/r/java/comments/p6wkkr/findjarcom_down/)
-- [JEP proposed to target JDK 18: 400: UTF-8 by Default](https://www.reddit.com/r/java/comments/p6usrj/jep_proposed_to_target_jdk_18_400_utf8_by_default/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
