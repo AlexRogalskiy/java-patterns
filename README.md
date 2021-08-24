@@ -277,16 +277,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [OpenJDK/Maven code duplication](https://www.reddit.com/r/java/comments/pac7p4/openjdkmaven_code_duplication/)
+- [JEP proposed to target JDK 18: 413: Code Snippets in Java API Documentation](https://www.reddit.com/r/java/comments/paaku9/jep_proposed_to_target_jdk_18_413_code_snippets/)
+- [A huge commit for Generational ZGC has landed in Git repo!](https://www.reddit.com/r/java/comments/paa2y4/a_huge_commit_for_generational_zgc_has_landed_in/)
+- [What exactly is the reason for denying reflection access?](https://www.reddit.com/r/java/comments/p9ymhb/what_exactly_is_the_reason_for_denying_reflection/)
+- [JEP 405: Record Patterns & Array Patterns (Preview)](https://www.reddit.com/r/java/comments/p9xu14/jep_405_record_patterns_array_patterns_preview/)
+- [10 things you didn’t know about jOOQ](https://www.reddit.com/r/java/comments/p9vidj/10_things_you_didnt_know_about_jooq/)
+- [How to structure Spring applications](https://www.reddit.com/r/java/comments/p9v16q/how_to_structure_spring_applications/)
 - [The History of PrimeFaces](https://www.reddit.com/r/java/comments/p9m4sf/the_history_of_primefaces/)
 - [Persism 1.2.0 Released - A zero ceremony ORM for Java](https://www.reddit.com/r/java/comments/p9ljk8/persism_120_released_a_zero_ceremony_orm_for_java/)
 - [Hashtag Jakarta EE #86](https://www.reddit.com/r/java/comments/p9f976/hashtag_jakarta_ee_86/)
-- [Overhead added by Garbage Collection Logging](https://www.reddit.com/r/java/comments/p8m3kc/overhead_added_by_garbage_collection_logging/)
-- [Automated migration from Java 8 to 11](https://www.reddit.com/r/java/comments/p88rjq/automated_migration_from_java_8_to_11/)
-- [Whippet-Db - a fast embedded key-value database](https://www.reddit.com/r/java/comments/p7gfd7/whippetdb_a_fast_embedded_keyvalue_database/)
-- [Switch Expressions - JEP Café #3](https://www.reddit.com/r/java/comments/p7cnaj/switch_expressions_jep_café_3/)
-- [What is the scope of Java Sound library and its MIDI class?](https://www.reddit.com/r/java/comments/p793oi/what_is_the_scope_of_java_sound_library_and_its/)
-- [[Discussion] To use var or explicit typing](https://www.reddit.com/r/java/comments/p791cn/discussion_to_use_var_or_explicit_typing/)
-- [Optimised Gradle build on Docker](https://www.reddit.com/r/java/comments/p78mt3/optimised_gradle_build_on_docker/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
