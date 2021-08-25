@@ -337,6 +337,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Better code posts*
 
 <!-- BETTERCODE-POST-LIST:START -->
+- [A Complete Guide to Using ElasticSearch with Spring Boot](https://betterjavacode.com/programming/elasticsearch-spring-boot)
 - [Connect Spring Boot Application with AWS Dynamo DB](https://betterjavacode.com/programming/spring-boot-connect-aws-dynamo-db)
 - [Introduction to Serverless Architecture Patterns](https://betterjavacode.com/programming/introduction-to-serverless-architecture-patterns)
 - [How To Use Spring Security With SAML Protocol Binding](https://betterjavacode.com/programming/how-to-use-spring-security-with-saml-protocol-binding)
@@ -346,7 +347,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Controller Advice – Exception Handler in Spring Boot](https://betterjavacode.com/programming/controller-advice-exception-handler-in-spring-boot)
 - [How To Use AWS Sagemaker](https://betterjavacode.com/programming/how-to-use-aws-sagemaker)
 - [How to Use API Gateway with Spring Cloud](https://betterjavacode.com/programming/how-to-use-api-gateway-with-spring-cloud)
-- [Example of Spring Boot Application Authentication with AWS Cognito](https://betterjavacode.com/programming/example-of-spring-boot-application-authentication-with-aws-cognito)
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### *Inside Java posts*
