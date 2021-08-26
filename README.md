@@ -277,16 +277,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [My brief story of Java and C#](https://www.reddit.com/r/java/comments/pboa74/my_brief_story_of_java_and_c/)
+- [I'm on Course Academy for Intro to Java Programming and I'm stuck with this Compilation: Creating Executables question. I don't know what I'm doing wrong or what I should do next! Please help/ I'm confused as to why we gotta do this.](https://www.reddit.com/r/java/comments/pbnkzc/im_on_course_academy_for_intro_to_java/)
+- [Detect uses of legacy Java or library APIs](https://www.reddit.com/r/java/comments/pbimrf/detect_uses_of_legacy_java_or_library_apis/)
+- [70+ Android App Projects built with Jetpack Compose for Beginners, Intermediate and Experienced Developers](https://www.reddit.com/r/java/comments/pb8otq/70_android_app_projects_built_with_jetpack/)
+- [Exousia 1.0.0 (Jakarta Authorization implementation) released!](https://www.reddit.com/r/java/comments/pb7rho/exousia_100_jakarta_authorization_implementation/)
+- [[Question] why java cannot accept a convention to never pass/return null values?](https://www.reddit.com/r/java/comments/pb50bb/question_why_java_cannot_accept_a_convention_to/)
 - [Back to java after 10+ years, which IDE now](https://www.reddit.com/r/java/comments/paxhzz/back_to_java_after_10_years_which_ide_now/)
 - [What are some open source applications which have a robust external API calls implementations ?](https://www.reddit.com/r/java/comments/pan38h/what_are_some_open_source_applications_which_have/)
 - [OpenJDK/Maven code duplication](https://www.reddit.com/r/java/comments/pac7p4/openjdkmaven_code_duplication/)
 - [JEP proposed to target JDK 18: 413: Code Snippets in Java API Documentation](https://www.reddit.com/r/java/comments/paaku9/jep_proposed_to_target_jdk_18_413_code_snippets/)
-- [Oracle Developer Live: Java Innovations Event (Sept 14/16)](https://www.reddit.com/r/java/comments/paa7dq/oracle_developer_live_java_innovations_event_sept/)
-- [A huge commit for Generational ZGC has landed in Git repo!](https://www.reddit.com/r/java/comments/paa2y4/a_huge_commit_for_generational_zgc_has_landed_in/)
-- [What exactly is the reason for denying reflection access?](https://www.reddit.com/r/java/comments/p9ymhb/what_exactly_is_the_reason_for_denying_reflection/)
-- [JEP 405: Record Patterns & Array Patterns (Preview)](https://www.reddit.com/r/java/comments/p9xu14/jep_405_record_patterns_array_patterns_preview/)
-- [10 things you didn’t know about jOOQ](https://www.reddit.com/r/java/comments/p9vidj/10_things_you_didnt_know_about_jooq/)
-- [How to structure Spring applications](https://www.reddit.com/r/java/comments/p9v16q/how_to_structure_spring_applications/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
