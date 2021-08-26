@@ -354,6 +354,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 <!-- INSIDE-POST-LIST:START -->
 - [JEP proposed to target JDK 18: 413: Code Snippets in Java API Documentation](https://inside.java/2021/08/23/jep-413-proposed-to-target-jdk18/)
 - [JEP Café #3](https://inside.java/2021/08/19/jepcafe3/)
+- [New Loom Early Access Build](https://inside.java/2021/08/13/new-loom-ea-builds/)
 - [Inside Java Newscast #10](https://inside.java/2021/08/12/insidejava-newscast-010/)
 - [New candidate JEP: 417: Vector API (Third Incubator)](https://inside.java/2021/08/12/new-candidate-jep-417/)
 - [CFV: New Project: Wakefield](https://inside.java/2021/08/11/new-project-wakefield/)
@@ -361,7 +362,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [New candidate JEP: 416: Reimplement Core Reflection with Method Handles](https://inside.java/2021/08/05/new-candidate-jep-416/)
 - [JEP proposed to target JDK 18: 400: UTF-8 by Default](https://inside.java/2021/08/03/jep-400-proposed-to-target-jdk18/)
 - [AMA About the Java Language](https://inside.java/2021/08/02/ama-about-the-java-language/)
-- [Project Loom: Modern Scalable Concurrency for the Java Platform](https://inside.java/2021/08/02/project-loom/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
