@@ -277,16 +277,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [My brief story of Java and C#](https://www.reddit.com/r/java/comments/pboa74/my_brief_story_of_java_and_c/)
-- [I'm on Course Academy for Intro to Java Programming and I'm stuck with this Compilation: Creating Executables question. I don't know what I'm doing wrong or what I should do next! Please help/ I'm confused as to why we gotta do this.](https://www.reddit.com/r/java/comments/pbnkzc/im_on_course_academy_for_intro_to_java/)
+- [How to create an ArrayList including special characters?](https://www.reddit.com/r/java/comments/pcafl9/how_to_create_an_arraylist_including_special/)
+- [How fast is spring boot in relation to competitors?](https://www.reddit.com/r/java/comments/pc4kmo/how_fast_is_spring_boot_in_relation_to_competitors/)
+- [Our platform is not on sandbox. Is it okay to forget about CVE-2021-2388?](https://www.reddit.com/r/java/comments/pbyah9/our_platform_is_not_on_sandbox_is_it_okay_to/)
+- [Fast and Secure Inter-process Communication on JDK 16 - Inside Java Newscast #11](https://www.reddit.com/r/java/comments/pbxq2b/fast_and_secure_interprocess_communication_on_jdk/)
 - [Detect uses of legacy Java or library APIs](https://www.reddit.com/r/java/comments/pbimrf/detect_uses_of_legacy_java_or_library_apis/)
-- [70+ Android App Projects built with Jetpack Compose for Beginners, Intermediate and Experienced Developers](https://www.reddit.com/r/java/comments/pb8otq/70_android_app_projects_built_with_jetpack/)
 - [Exousia 1.0.0 (Jakarta Authorization implementation) released!](https://www.reddit.com/r/java/comments/pb7rho/exousia_100_jakarta_authorization_implementation/)
 - [[Question] why java cannot accept a convention to never pass/return null values?](https://www.reddit.com/r/java/comments/pb50bb/question_why_java_cannot_accept_a_convention_to/)
 - [Back to java after 10+ years, which IDE now](https://www.reddit.com/r/java/comments/paxhzz/back_to_java_after_10_years_which_ide_now/)
 - [What are some open source applications which have a robust external API calls implementations ?](https://www.reddit.com/r/java/comments/pan38h/what_are_some_open_source_applications_which_have/)
 - [OpenJDK/Maven code duplication](https://www.reddit.com/r/java/comments/pac7p4/openjdkmaven_code_duplication/)
-- [JEP proposed to target JDK 18: 413: Code Snippets in Java API Documentation](https://www.reddit.com/r/java/comments/paaku9/jep_proposed_to_target_jdk_18_413_code_snippets/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
