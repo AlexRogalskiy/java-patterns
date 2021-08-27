@@ -352,6 +352,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Fast and Secure Inter-process Communication on JDK 16 - Inside Java Newscast #11](https://inside.java/2021/08/26/insidejava-newscast-011/)
 - [JEP proposed to target JDK 18: 413: Code Snippets in Java API Documentation](https://inside.java/2021/08/23/jep-413-proposed-to-target-jdk18/)
 - [JEP Café #3](https://inside.java/2021/08/19/jepcafe3/)
 - [New Loom Early Access Build](https://inside.java/2021/08/13/new-loom-ea-builds/)
@@ -361,7 +362,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [What are they building—and why? 6 questions for the top Java architects](https://inside.java/2021/08/06/what-are-they-building-and-why/)
 - [New candidate JEP: 416: Reimplement Core Reflection with Method Handles](https://inside.java/2021/08/05/new-candidate-jep-416/)
 - [JEP proposed to target JDK 18: 400: UTF-8 by Default](https://inside.java/2021/08/03/jep-400-proposed-to-target-jdk18/)
-- [AMA About the Java Language](https://inside.java/2021/08/02/ama-about-the-java-language/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
