@@ -277,16 +277,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [How to create an ArrayList including special characters?](https://www.reddit.com/r/java/comments/pcafl9/how_to_create_an_arraylist_including_special/)
+- [What's the future of Java UI development?](https://www.reddit.com/r/java/comments/pcz32z/whats_the_future_of_java_ui_development/)
+- [GlassFish 6.2.1 released!](https://www.reddit.com/r/java/comments/pcyred/glassfish_621_released/)
+- [Default argument values in Java](https://www.reddit.com/r/java/comments/pcth3h/default_argument_values_in_java/)
+- [Who remembers the Java applet game, Rollerboy 2?](https://www.reddit.com/r/java/comments/pcrpcs/who_remembers_the_java_applet_game_rollerboy_2/)
 - [How fast is spring boot in relation to competitors?](https://www.reddit.com/r/java/comments/pc4kmo/how_fast_is_spring_boot_in_relation_to_competitors/)
 - [Our platform is not on sandbox. Is it okay to forget about CVE-2021-2388?](https://www.reddit.com/r/java/comments/pbyah9/our_platform_is_not_on_sandbox_is_it_okay_to/)
 - [Fast and Secure Inter-process Communication on JDK 16 - Inside Java Newscast #11](https://www.reddit.com/r/java/comments/pbxq2b/fast_and_secure_interprocess_communication_on_jdk/)
 - [Detect uses of legacy Java or library APIs](https://www.reddit.com/r/java/comments/pbimrf/detect_uses_of_legacy_java_or_library_apis/)
 - [Exousia 1.0.0 (Jakarta Authorization implementation) released!](https://www.reddit.com/r/java/comments/pb7rho/exousia_100_jakarta_authorization_implementation/)
 - [[Question] why java cannot accept a convention to never pass/return null values?](https://www.reddit.com/r/java/comments/pb50bb/question_why_java_cannot_accept_a_convention_to/)
-- [Back to java after 10+ years, which IDE now](https://www.reddit.com/r/java/comments/paxhzz/back_to_java_after_10_years_which_ide_now/)
-- [What are some open source applications which have a robust external API calls implementations ?](https://www.reddit.com/r/java/comments/pan38h/what_are_some_open_source_applications_which_have/)
-- [OpenJDK/Maven code duplication](https://www.reddit.com/r/java/comments/pac7p4/openjdkmaven_code_duplication/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
