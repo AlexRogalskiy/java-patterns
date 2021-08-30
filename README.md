@@ -277,6 +277,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [How do you install Tomcat on Linux systems (Ubuntu here)](https://www.reddit.com/r/java/comments/pe876u/how_do_you_install_tomcat_on_linux_systems_ubuntu/)
+- [How to choose between multiple JDK's on MacOS?](https://www.reddit.com/r/java/comments/pe5vs7/how_to_choose_between_multiple_jdks_on_macos/)
 - [Java News Roundup: Micronaut 3.0, Open Liberty Starter, Spring Boot, GraalVM, and JEP 400](https://www.reddit.com/r/java/comments/pdbgm6/java_news_roundup_micronaut_30_open_liberty/)
 - [Current state of Java, JavaFX, and Pi4J on the Raspberry Pi - Frank Delporte on the Foojay JUG Tour](https://www.reddit.com/r/java/comments/pdabyi/current_state_of_java_javafx_and_pi4j_on_the/)
 - [RESTEasy Reactive - To block or not to block](https://www.reddit.com/r/java/comments/pd9dml/resteasy_reactive_to_block_or_not_to_block/)
@@ -285,8 +287,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Java performance talk - Performance Engineers Clubhouse](https://www.reddit.com/r/java/comments/pd8wwg/java_performance_talk_performance_engineers/)
 - [[ANN] Apache Maven 3.8.2 released](https://www.reddit.com/r/java/comments/pd8s8k/ann_apache_maven_382_released/)
 - [Is there a cats-effect or ZIO for Java? If not, then what are the blockers of having an effect system as of Java 17? What are the drawbacks of such a library in Java?](https://www.reddit.com/r/java/comments/pd7hqe/is_there_a_catseffect_or_zio_for_java_if_not_then/)
-- [Java on M1 MacBook](https://www.reddit.com/r/java/comments/pd28pk/java_on_m1_macbook/)
-- [What's the future of Java UI development?](https://www.reddit.com/r/java/comments/pcz32z/whats_the_future_of_java_ui_development/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
