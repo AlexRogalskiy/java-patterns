@@ -60,3 +60,6 @@ site/
 dist/
 .cache
 node_modules
+
+# Env files
+.env
