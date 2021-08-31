@@ -18,8 +18,7 @@ if [[ $STRICT_SCRIPT =~ $TRUE_REG ]]; then
 fi
 
 ## Change working directory
-BASE_DIR=$(dirname $0)/..
-cd $BASE_DIR
+cd "$(dirname "$0")" || exit 1
 
 ## Install pip module
 wget --no-check-certificate https://bootstrap.pypa.io/get-pip.py -O $TMPDIR/get-pip.py

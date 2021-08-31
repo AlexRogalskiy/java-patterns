@@ -20,7 +20,7 @@ namespace_create('webapp')
 conftest(path='k8s/backend/deployment.yaml', namespace='main')
 # k8s_yaml('k8s/backend/deployment.yaml')
 k8s_yaml(namespace_inject(read_file('k8s/backend/deployment.yaml'), 'webapp'), allow_duplicates=False)
-k8s_resource('backend', port_forwards=8000, resource_deps=['deploy', 'conftest'])
+k8s_resource('backend-java-patterns-v1', port_forwards=8000, resource_deps=['deploy', 'conftest'])
 
 # Records the current time, then kicks off a server update.
 # Normally, you would let Tilt do deploys automatically, but this
@@ -32,7 +32,7 @@ local_resource(
 
 # Add a live_update rule to our docker_build
 congrats = "🎉 Congrats, you ran a live_update! 🎉"
-docker_build_with_restart('java-patterns', '.', build_args={'IMAGE_SOURCE': 'node', 'IMAGE_TAG': '12-buster'},
+docker_build('styled-java-patterns', '.', build_args={'IMAGE_SOURCE': 'node', 'IMAGE_TAG': '12-buster'},
     dockerfile='./Dockerfile',
     entrypoint=['mkdocs', 'serve', '--verbose', '--dirtyreload'],
     live_update=[

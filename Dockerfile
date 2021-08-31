@@ -1,6 +1,6 @@
 ##
 ## ---- Base OS layer ----
-## docker build -t <container_tag> --build-arg IMAGE_SOURCE=node IMAGE_TAG=12-buster .
+## docker build -t styled-java-patterns --build-arg IMAGE_SOURCE=node --build-arg IMAGE_TAG=12-buster .
 ##
 ARG IMAGE_SOURCE=node
 ARG IMAGE_TAG=12-buster
