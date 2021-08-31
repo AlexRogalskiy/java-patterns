@@ -277,16 +277,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [How do you install Tomcat on Linux systems (Ubuntu here)](https://www.reddit.com/r/java/comments/pe876u/how_do_you_install_tomcat_on_linux_systems_ubuntu/)
+- [What JCA Security Provider do you use for your Java applications?](https://www.reddit.com/r/java/comments/perpvq/what_jca_security_provider_do_you_use_for_your/)
+- [I want to make an ios app using java, I have read about Oracle MAF and gluon but I’m still confused where to start.](https://www.reddit.com/r/java/comments/perbqy/i_want_to_make_an_ios_app_using_java_i_have_read/)
+- [People who used to avoid, dislike, or even hate Java (and/or OOP) but changed their minds, can you tell us why and how your opinion changed?](https://www.reddit.com/r/java/comments/peolfh/people_who_used_to_avoid_dislike_or_even_hate/)
+- [Contributing Improved Security to JavaMelody with Content Security Policy](https://www.reddit.com/r/java/comments/pekpsx/contributing_improved_security_to_javamelody_with/)
+- [What has happened to the Java 17 Final Release Candidate?](https://www.reddit.com/r/java/comments/pehukb/what_has_happened_to_the_java_17_final_release/)
+- [[Q] Any reason to still use Eclipse?](https://www.reddit.com/r/java/comments/peezyq/q_any_reason_to_still_use_eclipse/)
+- [How to deploy Google Cloud Functions in Java with GitHub Actions](https://www.reddit.com/r/java/comments/pedrh6/how_to_deploy_google_cloud_functions_in_java_with/)
 - [How to choose between multiple JDK's on MacOS?](https://www.reddit.com/r/java/comments/pe5vs7/how_to_choose_between_multiple_jdks_on_macos/)
 - [Java News Roundup: Micronaut 3.0, Open Liberty Starter, Spring Boot, GraalVM, and JEP 400](https://www.reddit.com/r/java/comments/pdbgm6/java_news_roundup_micronaut_30_open_liberty/)
 - [Current state of Java, JavaFX, and Pi4J on the Raspberry Pi - Frank Delporte on the Foojay JUG Tour](https://www.reddit.com/r/java/comments/pdabyi/current_state_of_java_javafx_and_pi4j_on_the/)
-- [RESTEasy Reactive - To block or not to block](https://www.reddit.com/r/java/comments/pd9dml/resteasy_reactive_to_block_or_not_to_block/)
-- [Quarkus 2.1.4.Final released - Maintenance release](https://www.reddit.com/r/java/comments/pd9d7f/quarkus_214final_released_maintenance_release/)
-- [Dynamic github readme with jbang and quarkus](https://www.reddit.com/r/java/comments/pd8zi5/dynamic_github_readme_with_jbang_and_quarkus/)
-- [Java performance talk - Performance Engineers Clubhouse](https://www.reddit.com/r/java/comments/pd8wwg/java_performance_talk_performance_engineers/)
-- [[ANN] Apache Maven 3.8.2 released](https://www.reddit.com/r/java/comments/pd8s8k/ann_apache_maven_382_released/)
-- [Is there a cats-effect or ZIO for Java? If not, then what are the blockers of having an effect system as of Java 17? What are the drawbacks of such a library in Java?](https://www.reddit.com/r/java/comments/pd7hqe/is_there_a_catseffect_or_zio_for_java_if_not_then/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
