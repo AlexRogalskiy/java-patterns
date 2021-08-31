@@ -4,9 +4,10 @@ $(if $(findstring /,$(MAKEFILE_LIST)),$(error Please only invoke this makefile f
 IMAGE ?= styled-java-patterns
 TAG ?= latest
 
-UTILS := docker
+UTILS := docker tilt
 # Make sure that all required utilities can be located.
-UTIL_CHECK := $(or $(shell which $(UTILS) >/dev/null && echo 'ok'),$(error Did you forget to install `docker` after cloning the repo? At least one of the required supporting utilities not found: $(UTILS)))
+UTIL_CHECK := $(or $(shell which $(UTILS) >/dev/null && echo 'ok'),$(error Did you forget to install `docker` and `tilt` after cloning the repo? At least one of the required supporting utilities not found: $(UTILS)))
+DIRS := $(shell ls -d -- */ | grep -v public)
 
 # Default target (by virtue of being the first non '.'-prefixed in the file).
 .PHONY: _no-target-specified
@@ -17,6 +18,11 @@ _no-target-specified:
 .PHONY: list
 list:
 	@$(MAKE) -pRrn : -f $(MAKEFILE_LIST) 2>/dev/null | awk -v RS= -F: '/^# File/,/^# Finished Make data base/ {if ($$1 !~ "^[#.]") {print $$1}}' | command grep -v -e '^[^[:alnum:]]' -e '^$@$$command ' | sort
+
+# Lists all dirs (except `public`).
+.PHONY: dirs
+dirs:
+	echo "$(DIRS)"
 
 # Ensures that the git workspace is clean.
 .PHONY: _ensure-clean

@@ -14,7 +14,6 @@ name = input.metadata.name
 deny[msg] {
   input.kind == "Deployment"
    not input.spec.selector.matchLabels.app.kubernetes.io/name
-   not input.spec.selector.matchLabels.app.kubernetes.io/version
  #  not input.spec.selector.matchLabels.app
 
   msg := "Containers must provide name/version label for pod selectors"
