@@ -277,16 +277,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Challenges & Solutions for Migrating Java Apps to Reactive](https://www.reddit.com/r/java/comments/pfeov6/challenges_solutions_for_migrating_java_apps_to/)
+- [A Visualization of 20 Sorting Algorithms - Made with java (processing)](https://www.reddit.com/r/java/comments/pf7c4t/a_visualization_of_20_sorting_algorithms_made/)
+- [How to try Project Loom and would Project Loom replace Threads in java.net.ServerSocket implementation?](https://www.reddit.com/r/java/comments/pf6hf4/how_to_try_project_loom_and_would_project_loom/)
+- [Cypress Testing Integrated with Gradle and Spring Boot](https://www.reddit.com/r/java/comments/pf5etr/cypress_testing_integrated_with_gradle_and_spring/)
+- [Possible to detect performance and memory issues with testing?](https://www.reddit.com/r/java/comments/pf2lnq/possible_to_detect_performance_and_memory_issues/)
+- [How do you reduce time for changes redeployment in the Spring Boot project during development?](https://www.reddit.com/r/java/comments/pf2j3x/how_do_you_reduce_time_for_changes_redeployment/)
+- [What do you like about Java?](https://www.reddit.com/r/java/comments/pf1mq1/what_do_you_like_about_java/)
+- [The State of Project Valhalla with Brian Goetz](https://www.reddit.com/r/java/comments/pez7h7/the_state_of_project_valhalla_with_brian_goetz/)
 - [What JCA Security Provider do you use for your Java applications?](https://www.reddit.com/r/java/comments/perpvq/what_jca_security_provider_do_you_use_for_your/)
-- [I want to make an ios app using java, I have read about Oracle MAF and gluon but I’m still confused where to start.](https://www.reddit.com/r/java/comments/perbqy/i_want_to_make_an_ios_app_using_java_i_have_read/)
 - [People who used to avoid, dislike, or even hate Java (and/or OOP) but changed their minds, can you tell us why and how your opinion changed?](https://www.reddit.com/r/java/comments/peolfh/people_who_used_to_avoid_dislike_or_even_hate/)
-- [Contributing Improved Security to JavaMelody with Content Security Policy](https://www.reddit.com/r/java/comments/pekpsx/contributing_improved_security_to_javamelody_with/)
-- [What has happened to the Java 17 Final Release Candidate?](https://www.reddit.com/r/java/comments/pehukb/what_has_happened_to_the_java_17_final_release/)
-- [[Q] Any reason to still use Eclipse?](https://www.reddit.com/r/java/comments/peezyq/q_any_reason_to_still_use_eclipse/)
-- [How to deploy Google Cloud Functions in Java with GitHub Actions](https://www.reddit.com/r/java/comments/pedrh6/how_to_deploy_google_cloud_functions_in_java_with/)
-- [How to choose between multiple JDK's on MacOS?](https://www.reddit.com/r/java/comments/pe5vs7/how_to_choose_between_multiple_jdks_on_macos/)
-- [Java News Roundup: Micronaut 3.0, Open Liberty Starter, Spring Boot, GraalVM, and JEP 400](https://www.reddit.com/r/java/comments/pdbgm6/java_news_roundup_micronaut_30_open_liberty/)
-- [Current state of Java, JavaFX, and Pi4J on the Raspberry Pi - Frank Delporte on the Foojay JUG Tour](https://www.reddit.com/r/java/comments/pdabyi/current_state_of_java_javafx_and_pi4j_on_the/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
