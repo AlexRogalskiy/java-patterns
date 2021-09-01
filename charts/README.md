@@ -23,10 +23,10 @@ Deploy the `java-patterns` app into the `webapp` namespace. The app is exposed v
 service typically only works in cloud provider based Kubernetes offerings.
 
 ```bash
-$ helm install --create-namespace --namespace webapp java-patterns .
+$ helm upgrade --install backend-java-patterns -f values.yaml --create-namespace --namespace webapp .
 
 # get the LoadBalancer ip address.
-$ kubectl get svc webapp-java-patterns -n webapp -o 'jsonpath={ .status.loadBalancer.ingress[0].ip }'
+$ kubectl get svc webapp-backend-java-patterns -n webapp -o 'jsonpath={ .status.loadBalancer.ingress[0].ip }'
 ```
 
 ### Example 2: Custom message
@@ -35,10 +35,10 @@ Deploy the `java-patterns` app into the `webapp` namespace with an "I just deplo
 on port 80 by default - note that a LoadBalancer service typically only works in cloud provider based Kubernetes offerings.
 
 ```bash
-$ helm install --create-namespace --namespace webapp custom-java-patterns . --set message="I just deployed this on Kubernetes!"
+$ helm upgrade --install backend-java-patterns -f values.yaml --create-namespace --namespace webapp . --set message="I just deployed this on Kubernetes!"
 
 # get the LoadBalancer ip address.
-$ kubectl get svc webapp-custom-java-patterns -n webapp -o 'jsonpath={ .status.loadBalancer.ingress[0].ip }'
+$ kubectl get svc webapp-backend-java-patterns -n webapp -o 'jsonpath={ .status.loadBalancer.ingress[0].ip }'
 ```
 
 ### Example 3: Ingress
@@ -49,7 +49,7 @@ ingress has a path of `/app/java-patterns/` mapped to the `java-patterns` servic
 The `java-patterns` app can be reached on the ip address of the ingress via the `/app/java-patterns/` path.
 
 ```bash
-$ helm install --create-namespace --namespace webapp ingress . \
+$ helm upgrade --install backend-java-patterns -f values.yaml --create-namespace --namespace webapp ingress . \
   --set ingress.configured=true \
   --set ingress.pathPrefix="/app/java-patterns/" \
   --set service.type="ClusterIP"
@@ -58,22 +58,46 @@ $ helm install --create-namespace --namespace webapp ingress . \
 Alternatively, a YAML file that specifies the values for the above parameters can be provided while installing the chart. For example,
 
 ```bash
-$ helm install --create-namespace --namespace webapp java-patterns . -f values.yaml
+$ helm install --create-namespace --namespace webapp backend-java-patterns . -f values.yaml
 ```
 
 > **Tip**: You can use the default [values.yaml](values.yaml)
+
+### Example 4: Helm uninstall
+
+```bash
+helm uninstall backend-java-patterns --namespace webapp
+```
+
+### Example 5: Helm status
+
+```bash
+helm status backend-java-patterns --namespace webapp
+```
+
+### Example 6: Helm list
+
+```bash
+helm list --namespace webapp
+```
+
+### Example 7: Helm lint
+
+```bash
+helm lint charts
+```
 
 ## Documentation
 
 ### Deploying
 
-If you'd like to explore the various Helm chart configuration options, then read the [Deploy with Helm](docs/deploy-using-helm.md) documentation. You can also
-discover more about the ingress configuration options in the [Deploy with ingress](docs/deploy-with-ingress.md) documentation
+If you'd like to explore the various Helm chart configuration options, then read the [Deploy with Helm](charts2/docs/deploy-using-helm.md) documentation. You can also
+discover more about the ingress configuration options in the [Deploy with ingress](charts2/docs/deploy-with-ingress.md) documentation
 
 ### Building your own images
 
 If you'd like to build the `java-patterns` container image yourself and reference from your own registry or DockerHub repository, then you can get more details
-on how to do this in the [Build and push container images](docs/build-and-push-container-images.md) documentation.
+on how to do this in the [Build and push container images](charts2/docs/build-and-push-container-images.md) documentation.
 
 ### Development environment
 

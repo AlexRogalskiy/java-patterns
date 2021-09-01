@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: "{{.Release.Name | lower}}"
+  labels:
+    # The "app.kubernetes.io/managed-by" label is used to track which tool deployed a given chart.
+    # It is useful for admins who want to see what releases a particular tool
+    # is responsible for.
+    app.kubernetes.io/managed-by: {{ .Release.Service }}
+    # The "app.kubernetes.io/instance" convention makes it easy to tie a release to all of the
+    # Kubernetes resources that were created as part of that release.
+    app.kubernetes.io/name: {{ .Chart.Name | lower | quote }}
+    app.kubernetes.io/instance: {{ .Release.Name | lower | quote }}
+    app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
+    # This makes it easy to audit chart usage.
+    helm.sh/chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: {{ .Chart.Name | lower | quote }}
+      app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: {{ .Chart.Name | lower | quote }}
+        app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
+    spec:
+      containers:
+      - name: backend-java-patterns
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        imagePullPolicy: {{ .Values.image.pullPolicy }}

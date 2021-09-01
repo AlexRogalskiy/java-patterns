@@ -52,7 +52,7 @@ $ helm install --create-namespace --namespace webapp custom-java-patterns . \
 
 The `java-patterns` Helm chart has a `ingress.rewritePath` configuration parameter that is `true` by default. When used together with
 the `ingress.configured=true` configuration parameter, there is an assumption that the ingress being used supports path rewrites. See
-the [Deploy using Helm](deploy-using-helm.md) guidance for more details.
+the [Deploy using Helm](charts2/docs/deploy-using-helm.md) guidance for more details.
 
 So from our example, a request to `/java-patterns` should be rewritten to `/` before being passed to the `java-patterns` app instance.
 
