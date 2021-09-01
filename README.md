@@ -412,6 +412,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
+- [How to Generate Values of Basic Entity Attributes with Hibernate](https://thorben-janssen.com/hibernate-generator-type/)
 - [Panache – Repository Pattern](https://thorben-janssen.com/panache-repository-pattern/)
 - [5 Hibernate Features You Should Use With Spring Data JPA](https://thorben-janssen.com/hibernate-features-with-spring-data-jpa/)
 - [Panache – Active Record Pattern](https://thorben-janssen.com/panache-active-record-pattern/)
@@ -421,7 +422,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Quarkus & Hibernate – Getting Started](https://thorben-janssen.com/quarkus-hibernate/)
 - [Hibernate’s Read-Only Query Hint For Faster Read Operations](https://thorben-janssen.com/read-only-query-hint/)
 - [Migrating from JPA 2.x to 3.0](https://thorben-janssen.com/migrating-jpa-2-x-to-3-0/)
-- [Hibernate’s Query Plan Cache – How It Works and How to Tune It](https://thorben-janssen.com/hibernate-query-plan-cache/)
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*
