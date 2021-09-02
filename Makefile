@@ -122,4 +122,4 @@ helm-package:
 
 # Run helm dev command.
 .PHONY: helm-dev
-helm-dev: clean helm-package
+helm-dev: clean helm-lint helm-package
