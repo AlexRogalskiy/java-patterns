@@ -1,0 +1,44 @@
+{{- if .Values.virtualservice.enabled -}}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+{{- $svcPort := .Values.service.port -}}
+{{- $svcHost := .Values.virtualservice.serviceHost -}}
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: {{ $fullName }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  {{- with .Values.virtualservice.annotations }}
+  annotations:
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+spec:
+  exportTo:
+  - '*'
+  {{- range .Values.virtualservice.hosts }}
+  hosts:
+  - {{ .host | quote }}
+  gateways:
+  - istio-system/gateway
+  http:
+  {{- range .names }}
+  - name: {{ .name | quote }}
+    match:
+    {{- range .uris }}
+    - uri:
+        prefix: {{ .prefix | quote }}
+    - uri:
+        exact: {{ .exact | quote }}
+    {{- end }}
+    {{- range .rewrites }}
+    rewrite:
+      uri: {{ . | quote }}
+    {{- end }}
+    route:
+    - destination:
+        host: {{ $svcHost }}
+        port:
+          number: {{ $svcPort }}
+  {{- end }}
+{{- end }}
+{{- end }}

@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "backend-java-patterns.fullname" . }}-test-connection"
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: curl
+      image: curlimages/curl
+      command: ['curl']
+      args: [
+        '--retry-connrefused',
+        '--connect-timeout', '5',
+        '--max-time', '10',
+        '--retry', '15',
+        '--retry-max-time', '300',
+        '{{ include "backend-java-patterns.fullname" . }}:{{ .Values.service.port }}',
+      ]
+  restartPolicy: Never

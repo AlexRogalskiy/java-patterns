@@ -1,13 +1,13 @@
-{{- if .Values.service.enabled -}}
+{{- if .Values.service.enabled }}
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "java-patterns.name" . }}
+  name: {{ include "backend-java-patterns.fullname" . }}
   labels:
-  {{- include "java-patterns.labels" . | nindent 4 }}
+    {{ include "backend-java-patterns.labels" . | nindent 4 }}
   {{- with .Values.service.annotations }}
   annotations:
-  {{ toYaml . | indent 4 }}
+    {{- toYaml . | indent 4 }}
   {{- end }}
 spec:
   type: {{ .Values.service.type }}
@@ -18,13 +18,13 @@ spec:
       name: http
       {{- if (and (eq .Values.service.type "NodePort") (not (empty .Values.service.nodePort))) }}
       nodePort: {{ .Values.service.nodePort }}
-    {{- end }}
+      {{- end }}
     {{- if .Values.tls.enabled }}
     - port: {{ .Values.tls.httpPort | default 8000 }}
       targetPort: https
       protocol: TCP
       name: https
-  {{- end }}
+    {{- end }}
   selector:
-  {{- include "java-patterns.selectorLabels" . | nindent 4 }}
-  {{- end }}
+    {{- include "backend-java-patterns.selectorLabels" . | nindent 4 }}
+{{- end }}

@@ -102,7 +102,7 @@ tilt-stop:
 # Run helm lint command.
 .PHONY: helm-lint
 helm-lint:
-	helm lint charts
+	helm lint charts --values charts/values.yaml
 
 # Run helm start command.
 .PHONY: helm-start

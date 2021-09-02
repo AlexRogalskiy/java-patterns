@@ -1,21 +1,41 @@
 # Provide a custom message
-message: ''
+message: ""
 
-replicaCount: 1
-logLevel: info
-host: #0.0.0.0
-backend: #http://backend-podinfo:9898/echo
-backends: []
+general:
+  debug: false
+  replicaCount: 1
+  nameOverride: ""
+  fullnameOverride: ""
+  logLevel: info
+  host: #0.0.0.0
+  backend: #http://backend-podinfo:9898/echo
+  backends: []
 
 image:
   repository: styled-java-patterns
   tag: latest
   pullPolicy: IfNotPresent
+  pullSecrets: {}
+  # command: ['./run.sh']
+  # args: []
+
+podSecurityContext:
+  fsGroup: 1000
+
+configMaps:
+  create: false
+  data:
+    debug: info
+    serverPort: "8000"
+    appName: "styled-java-patterns"
+
+secrets:
+  create: false
 
 ui:
-  color: '#34577c'
-  message: ''
-  logo: ''
+  color: "#34577c"
+  message: ""
+  logo: ""
 
 # failure conditions
 faults:
@@ -27,13 +47,11 @@ faults:
   testTimeout: false
 
 service:
-  #  enabled: true
-  #  annotations: { }
-  #  type: LoadBalancer
-  #  port: 80
   enabled: true
   annotations: {}
   type: ClusterIP
+#   port: 8193
+#   portName: http
   httpPort: 8000
   externalPort: 8000
   nodePort: 8000
@@ -74,8 +92,11 @@ certificate:
 
 # metrics-server add-on required
 hpa:
-  enabled: false
+  enabled: true
+  minReplicas: 2
   maxReplicas: 10
+  targetCPUUtilizationPercentage: 80
+  targetMemoryUtilizationPercentage: 80
   # average total CPU usage per pod (1-100)
   cpu:
   # average memory usage per pod (100Mi-1Gi)
@@ -84,25 +105,34 @@ hpa:
   requests:
 
 serviceAccount:
-  # Specifies whether a service account should be created
   enabled: false
+  # Specifies whether a service account should be created
+  create: true
+  # Annotations to add to the service account
+  annotations: {}
   # The name of the service account to use.
   # If not set and create is true, a name is generated using the fullname template
-  name:
+  name: ""
 
 # set container security context
 securityContext: {}
+  # capabilities:
+  #   drop:
+  #   - ALL
+  # readOnlyRootFilesystem: true
+  # runAsNonRoot: true
+  # runAsUser: 1000
 
 # Remember to set service.type=ClusterIP if you are using an ingress
 ingress:
   enabled: false
-  className: ''
+  className: ""
   annotations: {}
+    # kubernetes.io/ingress.class: nginx
+    # kubernetes.io/tls-acme: "true"
   configured: false
   rewritePath: true
-  pathPrefix: ''
-  # kubernetes.io/ingress.class: nginx
-  # kubernetes.io/tls-acme: "true"
+  pathPrefix: ""
   hosts:
     - host: podinfo.local
       paths:
@@ -123,25 +153,62 @@ serviceMonitor:
   interval: 15s
   additionalLabels: {}
 
+virtualservice:
+  enabled: false
+  annotations: []
+  hosts:
+    - host: ""
+      names: []
+      uris: {}
+      rewrites: []
+  serviceHost: ""
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 1024Mi
+  requests:
+    cpu: 100m
+    memory: 512Mi
+
 deployment:
   replicaCount: 2
   container:
     image:
-      repository: 'styled-java-patterns'
-      tag: '' # uses chart appVersion if not provided
+      repository: "styled-java-patterns"
+      tag: "latest" # uses chart appVersion if not provided
       pullPolicy: IfNotPresent
     port: 8000
-
-  # Currently only linux images on amd64 architecture are supported - support for arm64 and windows/amd64 coming ...
-#  nodeSelector:
-#    kubernetes.io/os: linux
-#    kubernetes.io/arch: amd64
 
   resources:
     limits:
     requests:
       cpu: 1m
       memory: 16Mi
+
+  # An arbitrary use of livenessProbe could make a lot of service interruption, use it wisely.
+  livenessProbe:
+    enabled: false
+    config:
+      httpGet:
+        path: /actuator/health
+        port: http
+      initialDelaySeconds: 210
+      periodSeconds: 60
+
+  readinessProbe:
+    enabled: false
+    config:
+      httpGet:
+        path: /actuator/health
+        port: http
+      initialDelaySeconds: 180
+      periodSeconds: 60
+
+  # Currently only linux images on amd64 architecture are supported - support for arm64 and windows/amd64 coming ...
+  nodeSelector: {}
+#    kubernetes.io/os: linux
+#    kubernetes.io/arch: amd64
 
   tolerations: []
 

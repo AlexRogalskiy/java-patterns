@@ -1,15 +1,19 @@
-{{- if .Values.ingress.enabled -}}
-  {{- $fullName := include "java-patterns.name" . -}}
-  {{- $svcPort := .Values.service.externalPort -}}
-apiVersion: networking.k8s.io/v1
+{{- if .Values.ingress.enabled }}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+{{- $svcPort := .Values.service.externalPort -}}
+{{- if semverCompare ">=1.14-0" .Capabilities.KubeVersion.GitVersion -}}
+apiVersion: networking.k8s.io/v1beta1
+{{- else -}}
+apiVersion: extensions/v1beta1
+{{- end }}
 kind: Ingress
 metadata:
   name: {{ $fullName }}
   labels:
-  {{- include "java-patterns.labels" . | nindent 4 }}
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
   {{- with .Values.ingress.annotations }}
   annotations:
-  {{- toYaml . | nindent 4 }}
+    {{- toYaml . | nindent 4 }}
   {{- end }}
 spec:
   ingressClassName: {{ .Values.ingress.className }}
@@ -19,9 +23,9 @@ spec:
     - hosts:
         {{- range .hosts }}
         - {{ . | quote }}
-      {{- end }}
+        {{- end }}
       secretName: {{ .secretName }}
-  {{- end }}
+    {{- end }}
   {{- end }}
   rules:
     {{- range .Values.ingress.hosts }}
@@ -32,10 +36,8 @@ spec:
           - path: {{ .path }}
             pathType: {{ .pathType }}
             backend:
-              service:
-                name: {{ $fullName }}
-                port:
-                  number: {{ $svcPort }}
-  {{- end }}
-  {{- end }}
+              serviceName: {{ $fullName }}
+              servicePort: {{ $svcPort }}
+          {{- end }}
+    {{- end }}
   {{- end }}

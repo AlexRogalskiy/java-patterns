@@ -1,12 +1,12 @@
-{{- if .Values.serviceMonitor.enabled -}}
+{{- if .Values.serviceMonitor.enabled }}
 apiVersion: monitoring.coreos.com/v1
 kind: ServiceMonitor
 metadata:
-  name: {{ template "java-patterns.name" . }}
+  name: {{ include "backend-java-patterns.fullname" . }}
   labels:
-  {{- include "java-patterns.labels" . | nindent 4 }}
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
   {{- with .Values.serviceMonitor.additionalLabels }}
-  {{- toYaml . | nindent 4 }}
+    {{- toYaml . | nindent 4 }}
   {{- end }}
 spec:
   endpoints:
@@ -18,5 +18,5 @@ spec:
       - {{ .Release.Namespace }}
   selector:
     matchLabels:
-  {{- include "java-patterns.selectorLabels" . | nindent 6 }}
-  {{- end }}
+      {{- include "backend-java-patterns.selectorLabels" . | nindent 6 }}
+{{- end }}

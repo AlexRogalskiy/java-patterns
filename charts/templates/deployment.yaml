@@ -1,31 +1,145 @@
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: "{{.Release.Name | lower}}"
+  name: {{ $fullName }}
   labels:
-    # The "app.kubernetes.io/managed-by" label is used to track which tool deployed a given chart.
-    # It is useful for admins who want to see what releases a particular tool
-    # is responsible for.
-    app.kubernetes.io/managed-by: {{ .Release.Service }}
-    # The "app.kubernetes.io/instance" convention makes it easy to tie a release to all of the
-    # Kubernetes resources that were created as part of that release.
-    app.kubernetes.io/name: {{ .Chart.Name | lower | quote }}
-    app.kubernetes.io/instance: {{ .Release.Name | lower | quote }}
-    app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
-    # This makes it easy to audit chart usage.
-    helm.sh/chart: "{{ .Chart.Name }}-{{ .Chart.Version }}"
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
 spec:
+  {{- if not .Values.hpa.enabled }}
+  replicas: {{ .Values.general.replicaCount }}
+  {{- end }}
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
   selector:
     matchLabels:
-      app.kubernetes.io/name: {{ .Chart.Name | lower | quote }}
-      app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
+      {{- include "backend-java-patterns.selectorLabels" . | nindent 6 }}
   template:
     metadata:
       labels:
-        app.kubernetes.io/name: {{ .Chart.Name | lower | quote }}
-        app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
+        {{- include "backend-java-patterns.selectorLabels" . | nindent 8 }}
+      annotations:
+        {{- range $key, $value := .Values.deployment.podAnnotations }}
+        {{ $key }}: {{ $value | quote }}
+        {{- end }}
     spec:
+      {{- with .Values.image.pullSecrets }}
+      imagePullSecrets:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      terminationGracePeriodSeconds: 30
+      {{- if .Values.serviceAccount.enabled }}
+      serviceAccountName: {{ include "backend-java-patterns.serviceAccountName" . }}
+      {{- end }}
+      securityContext:
+        {{- toYaml .Values.podSecurityContext | nindent 8 }}
       containers:
-      - name: backend-java-patterns
-        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
-        imagePullPolicy: {{ .Values.image.pullPolicy }}
+        - name: {{ .Chart.Name }}
+          image: "{{ .Values.deployment.container.image.repository }}:{{ .Values.deployment.container.image.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.deployment.container.image.pullPolicy }}
+          {{ if .Values.image.command -}}
+          command: {{ .Values.image.command }}
+          {{- end }}
+          {{ if .Values.image.args -}}
+          args: {{ .Values.image.args }}
+          {{- end }}
+          {{- if .Values.securityContext }}
+          securityContext:
+          {{- toYaml .Values.securityContext | nindent 12 }}
+          {{- else if (or .Values.service.hostPort .Values.tls.hostPort) }}
+          securityContext:
+            allowPrivilegeEscalation: true
+            capabilities:
+              drop:
+                - ALL
+              add:
+                - NET_BIND_SERVICE
+          {{- end }}
+          ports:
+            - name: http
+              containerPort: {{ .Values.service.httpPort | default 8000 }}
+              protocol: TCP
+              {{- if .Values.service.hostPort }}
+              hostPort: {{ .Values.service.hostPort }}
+              {{- end }}
+            {{- if .Values.tls.enabled }}
+            - name: https
+              containerPort: {{ .Values.tls.externalPort | default 8443 }}
+              protocol: TCP
+              {{- if .Values.tls.hostPort }}
+              hostPort: {{ .Values.tls.hostPort }}
+              {{- end }}
+            {{- end }}
+          env:
+            {{- if ne (.Values.deployment.container.port | int) (8000 | int) }}
+            - name: PORT
+              value: "{{ .Values.deployment.container.port }}"
+            {{- end }}
+            {{- if .Values.message }}
+            - name: MESSAGE
+              value: "{{ .Values.message }}"
+            {{- end }}
+            {{- if .Values.ingress.configured }}
+            - name: HANDLER_PATH_PREFIX
+              {{- if .Values.ingress.rewritePath }}
+              value: ""
+              {{- else }}
+              value: "{{ .Values.ingress.pathPrefix }}"
+            {{- end }}
+            - name: RENDER_PATH_PREFIX
+              value: "{{ .Values.ingress.pathPrefix }}"
+            {{- end }}
+            - name: KUBERNETES_NAMESPACE
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.namespace
+            - name: KUBERNETES_POD_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: KUBERNETES_NODE_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: spec.nodeName
+            - name: CONTAINER_IMAGE
+              value: "{{ .Values.deployment.container.image.repository }}:{{ .Values.deployment.container.image.tag | default .Chart.AppVersion }}"
+          volumeMounts:
+            - name: data
+              mountPath: /data
+            {{- if .Values.tls.enabled }}
+            - name: tls
+              mountPath: {{ .Values.tls.certPath | default "/data/cert" }}
+              readOnly: true
+            {{- end }}
+          {{ if .Values.deployment.livenessProbe.enabled -}}
+          livenessProbe:
+            {{- toYaml .Values.deployment.livenessProbe.config | nindent 12 }}
+          {{- end }}
+          {{ if .Values.deployment.readinessProbe.enabled -}}
+          readinessProbe:
+            {{- toYaml .Values.deployment.readinessProbe.config | nindent 12 }}
+          {{- end }}
+          resources:
+            {{- toYaml .Values.deployment.resources | nindent 12 }}
+      {{- with .Values.deployment.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.deployment.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.deployment.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      volumes:
+        - name: data
+          emptyDir: { }
+        {{- if .Values.tls.enabled }}
+        - name: tls
+          secret:
+            secretName: {{ include "backend-java-patterns.tlsSecretName" . }}
+        {{- end }}

@@ -1,0 +1,11 @@
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ $fullName }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+data:
+  DEBUG: {{ default "" .Values.configMaps.data.debug | quote }}
+  SERVER_PORT: {{ default "" .Values.configMaps.data.serverPort | quote }}
+  APP_NAME: {{ default "" .Values.configMaps.data.appName | quote }}
