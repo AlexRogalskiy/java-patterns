@@ -14,4 +14,4 @@ spec:
   secretName: {{ include "backend-java-patterns.tlsSecretName" . }}
   issuerRef:
   {{- .Values.certificate.issuerRef | toYaml | trimSuffix "\n" | nindent 4 }}
-  {{- end }}
+{{- end }}

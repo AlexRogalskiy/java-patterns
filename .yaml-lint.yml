@@ -1,11 +1,24 @@
 ---
 # https://yamllint.readthedocs.io/en/stable/index.html
-# yamllint --strict -c .github/linters/.yaml-lint.yml .
+# yamllint --strict -c .yaml-lint.yml .
 
 extends: default
 
 rules:
+  # 150 chars should be enough, but don't fail if a line is longer
+  line-length:
+    max: 150
+    level: warning
+  comments:
+    min-spaces-from-content: 1
+  braces:
+    min-spaces-inside: 0
+    max-spaces-inside: 0
+  brackets:
+    min-spaces-inside: 0
+    max-spaces-inside: 0
+  indentation:
+    indent-sequences: consistent
   document-start: disable
   indentation: disable
-  line-length: disable
   truthy: false
