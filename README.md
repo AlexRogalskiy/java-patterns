@@ -277,16 +277,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Challenges & Solutions for Migrating Java Apps to Reactive](https://www.reddit.com/r/java/comments/pfeov6/challenges_solutions_for_migrating_java_apps_to/)
-- [A Visualization of 20 Sorting Algorithms - Made with java (processing)](https://www.reddit.com/r/java/comments/pf7c4t/a_visualization_of_20_sorting_algorithms_made/)
-- [How to try Project Loom and would Project Loom replace Threads in java.net.ServerSocket implementation?](https://www.reddit.com/r/java/comments/pf6hf4/how_to_try_project_loom_and_would_project_loom/)
-- [Cypress Testing Integrated with Gradle and Spring Boot](https://www.reddit.com/r/java/comments/pf5etr/cypress_testing_integrated_with_gradle_and_spring/)
-- [Possible to detect performance and memory issues with testing?](https://www.reddit.com/r/java/comments/pf2lnq/possible_to_detect_performance_and_memory_issues/)
-- [How do you reduce time for changes redeployment in the Spring Boot project during development?](https://www.reddit.com/r/java/comments/pf2j3x/how_do_you_reduce_time_for_changes_redeployment/)
-- [What do you like about Java?](https://www.reddit.com/r/java/comments/pf1mq1/what_do_you_like_about_java/)
-- [The State of Project Valhalla with Brian Goetz](https://www.reddit.com/r/java/comments/pez7h7/the_state_of_project_valhalla_with_brian_goetz/)
-- [What JCA Security Provider do you use for your Java applications?](https://www.reddit.com/r/java/comments/perpvq/what_jca_security_provider_do_you_use_for_your/)
-- [People who used to avoid, dislike, or even hate Java (and/or OOP) but changed their minds, can you tell us why and how your opinion changed?](https://www.reddit.com/r/java/comments/peolfh/people_who_used_to_avoid_dislike_or_even_hate/)
+- [College professor uses the oracle IDE, but the java course i bought on udemy uses Intellij Idea. Should i switch to oracle only?](https://www.reddit.com/r/java/comments/pfz3xr/college_professor_uses_the_oracle_ide_but_the/)
+- [Spring 6.0 will be using Java 17 as its baseline](https://www.reddit.com/r/java/comments/pfwrgw/spring_60_will_be_using_java_17_as_its_baseline/)
+- [It’s time to move your applications to Java 17. Here’s why. And here’s how.](https://www.reddit.com/r/java/comments/pfvuy8/its_time_to_move_your_applications_to_java_17/)
+- [I wish the Java standard library had type tokens](https://www.reddit.com/r/java/comments/pfuftm/i_wish_the_java_standard_library_had_type_tokens/)
+- [Thoughts on using a more "traditional" IDE like Eclipse or Intellij vs VS Code?](https://www.reddit.com/r/java/comments/pfssql/thoughts_on_using_a_more_traditional_ide_like/)
+- [JDK 18: ParallelGC and SerialGC String deduplication](https://www.reddit.com/r/java/comments/pfqd0c/jdk_18_parallelgc_and_serialgc_string/)
+- [Top 10 Java Linters](https://www.reddit.com/r/java/comments/pfppay/top_10_java_linters/)
+- [Narcissus: thwart strong encapsulation in JDK 16+](https://www.reddit.com/r/java/comments/pfphmo/narcissus_thwart_strong_encapsulation_in_jdk_16/)
+- [R2DBC 0.9.0.M2 available (Borca-M2)](https://www.reddit.com/r/java/comments/pfp44k/r2dbc_090m2_available_borcam2/)
+- [Generate high-quality springboot webapps from entity schemas in CSV using Hiberium](https://www.reddit.com/r/java/comments/pfp290/generate_highquality_springboot_webapps_from/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
