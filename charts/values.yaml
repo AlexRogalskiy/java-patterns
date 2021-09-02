@@ -31,6 +31,11 @@ configMaps:
 
 secrets:
   create: false
+  additionalLabels:
+    app.kubernetes.io/component: vault
+  data:
+    baseUrl: ""
+    baseToken: ""
 
 ui:
   color: "#34577c"
@@ -176,6 +181,8 @@ resources:
 
 deployment:
   replicaCount: 2
+  additionalLabels:
+    app.kubernetes.io/component: documentation
   container:
     image:
       repository: "styled-java-patterns"

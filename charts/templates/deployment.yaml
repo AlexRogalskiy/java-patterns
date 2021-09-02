@@ -5,6 +5,9 @@ metadata:
   name: {{ $fullName }}
   labels:
     {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  {{- with .Values.deployment.additionalLabels }}
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
 spec:
   {{- if not .Values.hpa.enabled }}
   replicas: {{ .Values.general.replicaCount }}

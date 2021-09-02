@@ -1,0 +1,13 @@
+name: styled-java-patterns
+image: styled-java-patterns
+environment:
+  - ENVIRONMENT=Development
+# command: [ "dotnet", "watch", "run" ]
+workdir: .
+remote: 2222
+# sync:
+#   - .:/docs
+forward:
+  - 8000:8000
+persistentVolume:
+  enabled: false
