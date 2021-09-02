@@ -28,10 +28,10 @@ spec:
         {{ $key }}: {{ $value | quote }}
         {{- end }}
     spec:
-#       {{- with .Values.image.pullSecrets }}
-#       imagePullSecrets:
-#         {{- toYaml . | nindent 8 }}
-#       {{- end }}
+      {{- with .Values.image.pullSecrets }}
+      imagePullSecrets:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
       terminationGracePeriodSeconds: 30
       {{- if .Values.serviceAccount.enabled }}
       serviceAccountName: {{ include "backend-java-patterns.serviceAccountName" . }}

@@ -1,13 +1,31 @@
 name: styled-java-patterns
 image: styled-java-patterns
+labels:
+  app.kubernetes.io/part-of: devops
+  app.kubernetes.io/component: documentation
 environment:
   - ENVIRONMENT=Development
 # command: [ "dotnet", "watch", "run" ]
 workdir: .
 remote: 2222
-# sync:
-#   - .:/docs
+resources:
+  requests:
+    memory: "64Mi"
+    cpu: "250m"
+  limits:
+    memory: "128Mi"
+    cpu: "500m"
 forward:
   - 8000:8000
 persistentVolume:
   enabled: false
+lifecycle:
+  postStart: false
+  postStop: true
+securityContext:
+  runAsUser: 1000
+  runAsGroup: 2000
+  fsGroup: 3000
+  capabilities:
+    add:
+    - SYS_PTRACE
