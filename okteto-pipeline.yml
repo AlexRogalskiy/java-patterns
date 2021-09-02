@@ -1,6 +1,6 @@
 icon: https://okteto.com/icons/icon-384x384.png
 deploy:
-  - okteto build -t styled-java-patterns:${OKTETO_GIT_COMMIT} .
+#   - okteto build -t styled-java-patterns:${OKTETO_GIT_COMMIT} .
   - helm upgrade --install backend-java-patterns -f charts/values.yaml --create-namespace --namespace webapp charts --set tag=${OKTETO_GIT_COMMIT}
 #   - kubectl apply -f k8s/backend/deployment.yaml
 devs:
