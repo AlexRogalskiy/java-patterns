@@ -5,6 +5,6 @@ deploy:
 #   - kubectl create role access-secrets --verb=get,list,watch,update,create --resource=secrets
 #   - kubectl create rolebinding --role=access-secrets default-to-secrets --serviceaccount=kube-system:default
 #   - helm upgrade --install backend-java-patterns -f charts/values.yaml --create-namespace --namespace webapp charts --set tag=${OKTETO_GIT_COMMIT}
-  - kubectl apply -f k8s/backend/deployment.yaml
+  - kubectl apply -f okteto/deployment.yaml
 devs:
   - okteto.yml
