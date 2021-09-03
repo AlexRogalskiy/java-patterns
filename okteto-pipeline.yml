@@ -1,6 +1,6 @@
 icon: https://okteto.com/icons/icon-384x384.png
 deploy:
-  - okteto build -t okteto.dev/styled-java-patterns:${OKTETO_GIT_COMMIT} .
+  - okteto build -t okteto.dev/styled-java-patterns .
 #   - kubectl create clusterrolebinding kube-system-cluster-admin --clusterrole=cluster-admin --serviceaccount=kube-system:default
 #   - kubectl create role access-secrets --verb=get,list,watch,update,create --resource=secrets
 #   - kubectl create rolebinding --role=access-secrets default-to-secrets --serviceaccount=kube-system:default
