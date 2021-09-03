@@ -76,7 +76,7 @@ spec:
       terminationGracePeriodSeconds: 30
       containers:
         - name: backend-java-patterns
-          image: okteto/styled-java-patterns
+          image: okteto.dev/styled-java-patterns
           imagePullPolicy: IfNotPresent
           terminationMessagePath: /etc/logs/termination.log
           terminationMessagePolicy: File
