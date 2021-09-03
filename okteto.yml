@@ -5,7 +5,9 @@ labels:
   app.kubernetes.io/component: documentation
 environment:
   - ENVIRONMENT=Development
-# command: [ "dotnet", "watch", "run" ]
+# command: [ "/usr/bin/python3.8", "-m", "mkdocs", "serve", "--verbose", "--dirtyreload", "--dev-addr=0.0.0.0:8000" ]
+sync:
+  - .:/docs
 workdir: .
 remote: 2222
 resources:

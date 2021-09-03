@@ -125,6 +125,6 @@ helm-package:
 helm-dev: clean helm-lint helm-package
 
 # Run okteto build command.
-.PHONY: okteto
-okteto:
+.PHONY: push
+push:
 	okteto build -t alexanderr/styled-java-patterns .
