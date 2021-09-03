@@ -277,21 +277,22 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Is this legit? I haven’t clicked on it, I got it yesterday too. Was there a new version of Java?](https://www.reddit.com/r/java/comments/pgv8ah/is_this_legit_i_havent_clicked_on_it_i_got_it/)
+- [How to get a certificate](https://www.reddit.com/r/java/comments/pgtsji/how_to_get_a_certificate/)
+- [Revisiting Java in 2021 - I](https://www.reddit.com/r/java/comments/pgteri/revisiting_java_in_2021_i/)
+- [How to secure REST with Spring Security](https://www.reddit.com/r/java/comments/pgontu/how_to_secure_rest_with_spring_security/)
+- [Does FAANG companies encourage the use of Java SE instead of Netty or batteries included framework like Spring Boot?](https://www.reddit.com/r/java/comments/pgll7x/does_faang_companies_encourage_the_use_of_java_se/)
+- [yield return](https://www.reddit.com/r/java/comments/pgl4qq/yield_return/)
+- [Switch back from Go to Java/Kotlin/JVM](https://www.reddit.com/r/java/comments/pgetwr/switch_back_from_go_to_javakotlinjvm/)
+- [OutOfMemoryError: Kill process or sacrifice child causes & solutions](https://www.reddit.com/r/java/comments/pgdzte/outofmemoryerror_kill_process_or_sacrifice_child/)
+- [My small tool created in JavaFX with Github release pipeline](https://www.reddit.com/r/java/comments/pgcgaj/my_small_tool_created_in_javafx_with_github/)
 - [College professor uses the oracle IDE, but the java course i bought on udemy uses Intellij Idea. Should i switch to oracle only?](https://www.reddit.com/r/java/comments/pfz3xr/college_professor_uses_the_oracle_ide_but_the/)
-- [Spring 6.0 will be using Java 17 as its baseline](https://www.reddit.com/r/java/comments/pfwrgw/spring_60_will_be_using_java_17_as_its_baseline/)
-- [It’s time to move your applications to Java 17. Here’s why. And here’s how.](https://www.reddit.com/r/java/comments/pfvuy8/its_time_to_move_your_applications_to_java_17/)
-- [I wish the Java standard library had type tokens](https://www.reddit.com/r/java/comments/pfuftm/i_wish_the_java_standard_library_had_type_tokens/)
-- [Thoughts on using a more "traditional" IDE like Eclipse or Intellij vs VS Code?](https://www.reddit.com/r/java/comments/pfssql/thoughts_on_using_a_more_traditional_ide_like/)
-- [JDK 18: ParallelGC and SerialGC String deduplication](https://www.reddit.com/r/java/comments/pfqd0c/jdk_18_parallelgc_and_serialgc_string/)
-- [Top 10 Java Linters](https://www.reddit.com/r/java/comments/pfppay/top_10_java_linters/)
-- [Narcissus: thwart strong encapsulation in JDK 16+](https://www.reddit.com/r/java/comments/pfphmo/narcissus_thwart_strong_encapsulation_in_jdk_16/)
-- [R2DBC 0.9.0.M2 available (Borca-M2)](https://www.reddit.com/r/java/comments/pfp44k/r2dbc_090m2_available_borcam2/)
-- [Generate high-quality springboot webapps from entity schemas in CSV using Hiberium](https://www.reddit.com/r/java/comments/pfp290/generate_highquality_springboot_webapps_from/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [How to secure REST with Spring Security](https://www.infoworld.com/article/3630107/how-to-secure-rest-with-spring-security.html#tk.rss_java)
 - [Kotlin update previews experimental features](https://www.infoworld.com/article/3631133/kotlin-update-previews-experimental-features.html#tk.rss_java)
 - [What to expect in Java 18](https://www.infoworld.com/article/3630510/what-to-expect-in-java-18.html#tk.rss_java)
 - [JDK 17: The new features in Java 17](https://www.infoworld.com/article/3606833/jdk-17-the-new-features-in-java-17.html#tk.rss_java)
@@ -301,7 +302,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [GraalVM adds Native Image, compiler enhancements](https://www.infoworld.com/article/3626402/graalvm-adds-native-image-compiler-enhancements.html#tk.rss_java)
 - [Java state API would speed app startup](https://www.infoworld.com/article/3626351/java-state-api-would-speed-app-startup.html#tk.rss_java)
 - [Visual Studio Code 1.58 improves debugging, Jupyter Notebook support](https://www.infoworld.com/article/3626031/visual-studio-code-158-improves-debugging-jupyter-notebook-support.html#tk.rss_java)
-- [Kotlin gains Java coding enhancements](https://www.infoworld.com/article/3623371/kotlin-gains-java-coding-enhancements.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
