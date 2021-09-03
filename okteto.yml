@@ -1,5 +1,5 @@
 name: styled-java-patterns
-image: styled-java-patterns
+image: okteto/styled-java-patterns
 labels:
   app.kubernetes.io/part-of: devops
   app.kubernetes.io/component: documentation

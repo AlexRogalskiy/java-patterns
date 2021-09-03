@@ -86,7 +86,7 @@ spec:
 #        node-priority: infra
       containers:
         - name: backend-java-patterns
-          image: styled-java-patterns
+          image: okteto/styled-java-patterns
           imagePullPolicy: IfNotPresent
           terminationMessagePath: /etc/logs/termination.log
           terminationMessagePolicy: File
