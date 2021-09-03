@@ -106,15 +106,20 @@ markdown_extensions:
   - pymdownx.mark: {}
   - pymdownx.critic: {}
   - pymdownx.inlinehilite: {} # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#inlinehilite
-  - pymdownx.superfences: {} # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#superfences
+  - pymdownx.superfences: # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#superfences
+     custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
   - pymdownx.tabbed: {} # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#tabbed
   - pymdownx.details: {} # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#details
   - pymdownx.emoji: # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#configuration
-      emoji_index: "!!python/name:materialx.emoji.twemoji"
-      emoji_generator: "!!python/name:materialx.emoji.to_svg"
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - smarty: {} # https://python-markdown.github.io/extensions/smarty/
   - nl2br: {} # https://python-markdown.github.io/extensions/smarty/
   - mdx_truly_sane_lists: {} # https://github.com/radude/mdx_truly_sane_lists -> proper indentation of md list items
+  - markdown.extensions.attr_list: {}
 
 # Other Settings
 strict: false # halt processing when a warning is raised

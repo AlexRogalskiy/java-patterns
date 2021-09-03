@@ -113,7 +113,6 @@ spec:
               ephemeral-storage: "3G"
           securityContext:
             allowPrivilegeEscalation: false
-            allowPrivilegeEscalation: false
             privileged: false
             readOnlyRootFilesystem: false
             runAsNonRoot: false

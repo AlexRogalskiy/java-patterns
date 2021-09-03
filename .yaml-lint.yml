@@ -4,13 +4,17 @@
 
 extends: default
 
+locale: en_US.UTF-8
+
 rules:
   # 150 chars should be enough, but don't fail if a line is longer
   line-length:
     max: 150
+    allow-non-breakable-inline-mappings: true
     level: warning
   comments:
     min-spaces-from-content: 1
+    level: warning
   braces:
     min-spaces-inside: 0
     max-spaces-inside: 0
@@ -19,6 +23,24 @@ rules:
     max-spaces-inside: 0
   indentation:
     indent-sequences: consistent
-  document-start: disable
+    level: warning
+  document-end: disable
+  document-start:
+    level: warning
   indentation: disable
-  truthy: false
+  colons: enable
+  commas: enable
+  comments-indentation:
+    level: warning
+  empty-lines: enable
+  empty-values: disable
+  hyphens: enable
+  key-duplicates: enable
+  key-ordering: disable
+  new-line-at-end-of-file: enable
+  new-lines: enable
+  octal-values: disable
+  quoted-strings: disable
+  trailing-spaces: enable
+  truthy:
+    level: warning
