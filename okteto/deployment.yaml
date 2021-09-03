@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/version: v1
     app.kubernetes.io/component: function
     app.kubernetes.io/part-of: serverless
-    app.kubernetes.io/managed-by: tilt
+    app.kubernetes.io/managed-by: okteto
 data:
   SERVER_PORT: '8000'
   APP_NAME: styled-java-patterns
@@ -23,7 +23,7 @@ metadata:
     app.kubernetes.io/version: v1
     app.kubernetes.io/component: function
     app.kubernetes.io/part-of: serverless
-    app.kubernetes.io/managed-by: tilt
+    app.kubernetes.io/managed-by: okteto
 spec:
   type: ClusterIP
   clusterIP: None
@@ -37,6 +37,31 @@ spec:
     app.kubernetes.io/name: backend-java-patterns
     app.kubernetes.io/version: v1
 ---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: backend-java-patterns-ingress
+  labels:
+    app.kubernetes.io/name: backend-java-patterns
+    app.kubernetes.io/instance: styled-java-patterns
+    app.kubernetes.io/version: v1
+    app.kubernetes.io/component: function
+    app.kubernetes.io/part-of: serverless
+    app.kubernetes.io/managed-by: okteto
+  annotations:
+    dev.okteto.com/generate-host: "true"
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /java-patterns
+            pathType: Prefix
+            backend:
+              service:
+                name: backend-java-patterns
+                port:
+                  number: 8000
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -47,7 +72,7 @@ metadata:
     app.kubernetes.io/version: v1
     app.kubernetes.io/component: function
     app.kubernetes.io/part-of: documentation
-    app.kubernetes.io/managed-by: tilt
+    app.kubernetes.io/managed-by: okteto
 spec:
   replicas: 1
   minReadySeconds: 60
