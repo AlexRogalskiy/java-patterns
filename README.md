@@ -353,6 +353,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Brief Introduction to the Template Interpreter in OpenJDK](https://inside.java/2021/09/03/brief-intro-to-template-interpreter/)
+- [Calling a Rust library with the Panama FFI](https://inside.java/2021/09/03/calling-a-rust-library-with-panama-ffi/)
 - [Fast and Secure Inter-process Communication on JDK 16 - Inside Java Newscast #11](https://inside.java/2021/08/26/insidejava-newscast-011/)
 - [JEP proposed to target JDK 18: 413: Code Snippets in Java API Documentation](https://inside.java/2021/08/23/jep-413-proposed-to-target-jdk18/)
 - [JEP Café #3](https://inside.java/2021/08/19/jepcafe3/)
@@ -361,8 +363,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [New candidate JEP: 417: Vector API (Third Incubator)](https://inside.java/2021/08/12/new-candidate-jep-417/)
 - [CFV: New Project: Wakefield](https://inside.java/2021/08/11/new-project-wakefield/)
 - [What are they building—and why? 6 questions for the top Java architects](https://inside.java/2021/08/06/what-are-they-building-and-why/)
-- [New candidate JEP: 416: Reimplement Core Reflection with Method Handles](https://inside.java/2021/08/05/new-candidate-jep-416/)
-- [JEP proposed to target JDK 18: 400: UTF-8 by Default](https://inside.java/2021/08/03/jep-400-proposed-to-target-jdk18/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
