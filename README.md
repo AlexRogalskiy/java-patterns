@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Is this legit? I haven’t clicked on it, I got it yesterday too. Was there a new version of Java?](https://www.reddit.com/r/java/comments/pgv8ah/is_this_legit_i_havent_clicked_on_it_i_got_it/)
+- [JEP 418: Internet-Address Resolution SPI](https://www.reddit.com/r/java/comments/phf46o/jep_418_internetaddress_resolution_spi/)
+- [Hey, you spring boot developer, what do you think about spring boot after trying other frameworks?](https://www.reddit.com/r/java/comments/phezyo/hey_you_spring_boot_developer_what_do_you_think/)
+- [A Java 17 and Jakarta EE 9 baseline for Spring Framework 6](https://www.reddit.com/r/java/comments/phctg1/a_java_17_and_jakarta_ee_9_baseline_for_spring/)
+- [Calling a Rust library with the Panama FFI](https://www.reddit.com/r/java/comments/ph8mux/calling_a_rust_library_with_the_panama_ffi/)
+- [Introduction to the OpenJDK Template Interpreter](https://www.reddit.com/r/java/comments/ph21ab/introduction_to_the_openjdk_template_interpreter/)
+- [Wich design patterns to learn?](https://www.reddit.com/r/java/comments/pgy1ej/wich_design_patterns_to_learn/)
+- [How to Add Okta OIDC Authentication to a Web Application in 5 mins](https://www.reddit.com/r/java/comments/pgxyc5/how_to_add_okta_oidc_authentication_to_a_web/)
+- [Brain Soup - Cellular Automata Brain Evolution - Made with Java](https://www.reddit.com/r/java/comments/pgwwi9/brain_soup_cellular_automata_brain_evolution_made/)
 - [How to get a certificate](https://www.reddit.com/r/java/comments/pgtsji/how_to_get_a_certificate/)
 - [Revisiting Java in 2021 - I](https://www.reddit.com/r/java/comments/pgteri/revisiting_java_in_2021_i/)
-- [How to secure REST with Spring Security](https://www.reddit.com/r/java/comments/pgontu/how_to_secure_rest_with_spring_security/)
-- [Does FAANG companies encourage the use of Java SE instead of Netty or batteries included framework like Spring Boot?](https://www.reddit.com/r/java/comments/pgll7x/does_faang_companies_encourage_the_use_of_java_se/)
-- [yield return](https://www.reddit.com/r/java/comments/pgl4qq/yield_return/)
-- [Switch back from Go to Java/Kotlin/JVM](https://www.reddit.com/r/java/comments/pgetwr/switch_back_from_go_to_javakotlinjvm/)
-- [OutOfMemoryError: Kill process or sacrifice child causes & solutions](https://www.reddit.com/r/java/comments/pgdzte/outofmemoryerror_kill_process_or_sacrifice_child/)
-- [My small tool created in JavaFX with Github release pipeline](https://www.reddit.com/r/java/comments/pgcgaj/my_small_tool_created_in_javafx_with_github/)
-- [College professor uses the oracle IDE, but the java course i bought on udemy uses Intellij Idea. Should i switch to oracle only?](https://www.reddit.com/r/java/comments/pfz3xr/college_professor_uses_the_oracle_ide_but_the/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
