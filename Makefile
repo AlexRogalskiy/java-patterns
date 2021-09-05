@@ -15,6 +15,8 @@ else
 endif
 
 IMAGE ?= styled-java-patterns
+OKTETO_IMAGE ?= okteto/styled-java-patterns
+DOCKER_IMAGE ?= alexanderr/styled-java-patterns
 TAG ?= latest
 
 # UNAME_OS stores the value of uname -s.
@@ -127,5 +129,21 @@ helm-dev: clean helm-lint helm-package
 # Run okteto build command.
 .PHONY: okteto
 okteto:
-	okteto build -t alexanderr/styled-java-patterns .
-	okteto build -t okteto/styled-java-patterns .
+	okteto build -t $(DOCKER_IMAGE) .
+	okteto build -t $(OKTETO_IMAGE) .
+
+# Run local build command.
+.PHONY: local-build
+local-build:
+	python3 -m pip install -r ./docs/requirements.txt
+	python3 -m mkdocs build --clean --config-file mkdocs.yml
+
+# Run local run command.
+.PHONY: local-run
+local-run:
+	python3 -m mkdocs serve --verbose --dirtyreload
+
+# Run github pages deploy command.
+.PHONY: gh-pages
+gh-pages:
+	python3 -m mkdocs --verbose gh-deploy --force --remote-branch gh-pages

@@ -1,4 +1,4 @@
-name: styled-java-patterns
+name: backend-java-patterns-v1
 image: okteto/styled-java-patterns
 labels:
   app.kubernetes.io/part-of: devops
