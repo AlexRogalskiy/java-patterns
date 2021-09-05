@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Is this legit? I haven’t clicked on it, I got it yesterday too. Was there a new version of Java?](https://www.reddit.com/r/java/comments/pgv8ah/is_this_legit_i_havent_clicked_on_it_i_got_it/)
-- [How to get a certificate](https://www.reddit.com/r/java/comments/pgtsji/how_to_get_a_certificate/)
-- [Revisiting Java in 2021 - I](https://www.reddit.com/r/java/comments/pgteri/revisiting_java_in_2021_i/)
-- [How to secure REST with Spring Security](https://www.reddit.com/r/java/comments/pgontu/how_to_secure_rest_with_spring_security/)
-- [Does FAANG companies encourage the use of Java SE instead of Netty or batteries included framework like Spring Boot?](https://www.reddit.com/r/java/comments/pgll7x/does_faang_companies_encourage_the_use_of_java_se/)
-- [yield return](https://www.reddit.com/r/java/comments/pgl4qq/yield_return/)
-- [Switch back from Go to Java/Kotlin/JVM](https://www.reddit.com/r/java/comments/pgetwr/switch_back_from_go_to_javakotlinjvm/)
-- [OutOfMemoryError: Kill process or sacrifice child causes & solutions](https://www.reddit.com/r/java/comments/pgdzte/outofmemoryerror_kill_process_or_sacrifice_child/)
-- [My small tool created in JavaFX with Github release pipeline](https://www.reddit.com/r/java/comments/pgcgaj/my_small_tool_created_in_javafx_with_github/)
-- [College professor uses the oracle IDE, but the java course i bought on udemy uses Intellij Idea. Should i switch to oracle only?](https://www.reddit.com/r/java/comments/pfz3xr/college_professor_uses_the_oracle_ide_but_the/)
+- [.NET 6 gets massive performance improvements. Can Java keep up?](https://www.reddit.com/r/java/comments/phyayg/net_6_gets_massive_performance_improvements_can/)
+- [How does Gluon's GraalVM based substrate work?](https://www.reddit.com/r/java/comments/phy4vl/how_does_gluons_graalvm_based_substrate_work/)
+- [Is Joda Money a good choice today and what are the alternatives?](https://www.reddit.com/r/java/comments/phwlnv/is_joda_money_a_good_choice_today_and_what_are/)
+- ["get-it-done" MVC web framework like Django in Java?](https://www.reddit.com/r/java/comments/phwhcg/getitdone_mvc_web_framework_like_django_in_java/)
+- [Favorite Java Book for better programming in Java?](https://www.reddit.com/r/java/comments/phw71l/favorite_java_book_for_better_programming_in_java/)
+- [How hard would it be to add a safe call operator to the Java language?](https://www.reddit.com/r/java/comments/phksz2/how_hard_would_it_be_to_add_a_safe_call_operator/)
+- [JEP 418: Internet-Address Resolution SPI](https://www.reddit.com/r/java/comments/phf46o/jep_418_internetaddress_resolution_spi/)
+- [Hey, you spring boot developer, what do you think about spring boot after trying other frameworks?](https://www.reddit.com/r/java/comments/phezyo/hey_you_spring_boot_developer_what_do_you_think/)
+- [A Java 17 and Jakarta EE 9 baseline for Spring Framework 6](https://www.reddit.com/r/java/comments/phctg1/a_java_17_and_jakarta_ee_9_baseline_for_spring/)
+- [Calling a Rust library with the Panama FFI](https://www.reddit.com/r/java/comments/ph8mux/calling_a_rust_library_with_the_panama_ffi/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
@@ -353,16 +353,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [New candidate JEP: 418: Internet-Address Resolution SPI](https://inside.java/2021/09/04/new-candidate-jep-418/)
+- [Brief Introduction to the Template Interpreter in OpenJDK](https://inside.java/2021/09/03/brief-intro-to-template-interpreter/)
+- [Calling a Rust library with the Panama FFI](https://inside.java/2021/09/03/calling-a-rust-library-with-panama-ffi/)
+- [JDK Mission Control Core libraries now available on Maven Central](https://inside.java/2021/09/01/jmc-libs-avialable-on-maven-central/)
 - [Fast and Secure Inter-process Communication on JDK 16 - Inside Java Newscast #11](https://inside.java/2021/08/26/insidejava-newscast-011/)
 - [JEP proposed to target JDK 18: 413: Code Snippets in Java API Documentation](https://inside.java/2021/08/23/jep-413-proposed-to-target-jdk18/)
 - [JEP Café #3](https://inside.java/2021/08/19/jepcafe3/)
 - [New Loom Early Access Build](https://inside.java/2021/08/13/new-loom-ea-builds/)
 - [Inside Java Newscast #10](https://inside.java/2021/08/12/insidejava-newscast-010/)
 - [New candidate JEP: 417: Vector API (Third Incubator)](https://inside.java/2021/08/12/new-candidate-jep-417/)
-- [CFV: New Project: Wakefield](https://inside.java/2021/08/11/new-project-wakefield/)
-- [What are they building—and why? 6 questions for the top Java architects](https://inside.java/2021/08/06/what-are-they-building-and-why/)
-- [New candidate JEP: 416: Reimplement Core Reflection with Method Handles](https://inside.java/2021/08/05/new-candidate-jep-416/)
-- [JEP proposed to target JDK 18: 400: UTF-8 by Default](https://inside.java/2021/08/03/jep-400-proposed-to-target-jdk18/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
