@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [.NET 6 gets massive performance improvements. Can Java keep up?](https://www.reddit.com/r/java/comments/phyayg/net_6_gets_massive_performance_improvements_can/)
+- [How does Gluon's GraalVM based substrate work?](https://www.reddit.com/r/java/comments/phy4vl/how_does_gluons_graalvm_based_substrate_work/)
+- [Is Joda Money a good choice today and what are the alternatives?](https://www.reddit.com/r/java/comments/phwlnv/is_joda_money_a_good_choice_today_and_what_are/)
+- ["get-it-done" MVC web framework like Django in Java?](https://www.reddit.com/r/java/comments/phwhcg/getitdone_mvc_web_framework_like_django_in_java/)
+- [Favorite Java Book for better programming in Java?](https://www.reddit.com/r/java/comments/phw71l/favorite_java_book_for_better_programming_in_java/)
+- [How hard would it be to add a safe call operator to the Java language?](https://www.reddit.com/r/java/comments/phksz2/how_hard_would_it_be_to_add_a_safe_call_operator/)
 - [JEP 418: Internet-Address Resolution SPI](https://www.reddit.com/r/java/comments/phf46o/jep_418_internetaddress_resolution_spi/)
 - [Hey, you spring boot developer, what do you think about spring boot after trying other frameworks?](https://www.reddit.com/r/java/comments/phezyo/hey_you_spring_boot_developer_what_do_you_think/)
 - [A Java 17 and Jakarta EE 9 baseline for Spring Framework 6](https://www.reddit.com/r/java/comments/phctg1/a_java_17_and_jakarta_ee_9_baseline_for_spring/)
 - [Calling a Rust library with the Panama FFI](https://www.reddit.com/r/java/comments/ph8mux/calling_a_rust_library_with_the_panama_ffi/)
-- [Introduction to the OpenJDK Template Interpreter](https://www.reddit.com/r/java/comments/ph21ab/introduction_to_the_openjdk_template_interpreter/)
-- [Wich design patterns to learn?](https://www.reddit.com/r/java/comments/pgy1ej/wich_design_patterns_to_learn/)
-- [How to Add Okta OIDC Authentication to a Web Application in 5 mins](https://www.reddit.com/r/java/comments/pgxyc5/how_to_add_okta_oidc_authentication_to_a_web/)
-- [Brain Soup - Cellular Automata Brain Evolution - Made with Java](https://www.reddit.com/r/java/comments/pgwwi9/brain_soup_cellular_automata_brain_evolution_made/)
-- [How to get a certificate](https://www.reddit.com/r/java/comments/pgtsji/how_to_get_a_certificate/)
-- [Revisiting Java in 2021 - I](https://www.reddit.com/r/java/comments/pgteri/revisiting_java_in_2021_i/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
