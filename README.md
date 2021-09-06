@@ -278,7 +278,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [.NET 6 gets massive performance improvements. Can Java keep up?](https://www.reddit.com/r/java/comments/phyayg/net_6_gets_massive_performance_improvements_can/)
+- [Looking for a FAANG preparation buddy from Vancouver](https://www.reddit.com/r/java/comments/pipd5k/looking_for_a_faang_preparation_buddy_from/)
+- [Is it worth the effort to modularise my project?](https://www.reddit.com/r/java/comments/pie2nk/is_it_worth_the_effort_to_modularise_my_project/)
 - [How does Gluon's GraalVM based substrate work?](https://www.reddit.com/r/java/comments/phy4vl/how_does_gluons_graalvm_based_substrate_work/)
 - [Is Joda Money a good choice today and what are the alternatives?](https://www.reddit.com/r/java/comments/phwlnv/is_joda_money_a_good_choice_today_and_what_are/)
 - ["get-it-done" MVC web framework like Django in Java?](https://www.reddit.com/r/java/comments/phwhcg/getitdone_mvc_web_framework_like_django_in_java/)
@@ -287,7 +288,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JEP 418: Internet-Address Resolution SPI](https://www.reddit.com/r/java/comments/phf46o/jep_418_internetaddress_resolution_spi/)
 - [Hey, you spring boot developer, what do you think about spring boot after trying other frameworks?](https://www.reddit.com/r/java/comments/phezyo/hey_you_spring_boot_developer_what_do_you_think/)
 - [A Java 17 and Jakarta EE 9 baseline for Spring Framework 6](https://www.reddit.com/r/java/comments/phctg1/a_java_17_and_jakarta_ee_9_baseline_for_spring/)
-- [Calling a Rust library with the Panama FFI](https://www.reddit.com/r/java/comments/ph8mux/calling_a_rust_library_with_the_panama_ffi/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
