@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Looking for a FAANG preparation buddy from Vancouver](https://www.reddit.com/r/java/comments/pipd5k/looking_for_a_faang_preparation_buddy_from/)
+- [Modern Java Web application?](https://www.reddit.com/r/java/comments/pj7k7z/modern_java_web_application/)
+- [Java News Roundup: Roadmap for Spring 6.0 and Spring Boot 3.0, OpenJDK and Quarkus Updates](https://www.reddit.com/r/java/comments/pj74e2/java_news_roundup_roadmap_for_spring_60_and/)
+- [Should I learn Gradle or Maven for Spring?](https://www.reddit.com/r/java/comments/pj5iu0/should_i_learn_gradle_or_maven_for_spring/)
+- [Why Java doesn't have good support for oData (v4)?](https://www.reddit.com/r/java/comments/pj5a0z/why_java_doesnt_have_good_support_for_odata_v4/)
+- [GCToolkit - The tool for parsing GC logs was open-sourced](https://www.reddit.com/r/java/comments/pj0kfm/gctoolkit_the_tool_for_parsing_gc_logs_was/)
+- [MicroRaft: Feature-complete implementation of the Raft consensus algorithm in Java](https://www.reddit.com/r/java/comments/pizjnt/microraft_featurecomplete_implementation_of_the/)
+- [Hibernate Tips: Fluent JPA Native Query Builder](https://www.reddit.com/r/java/comments/piyixk/hibernate_tips_fluent_jpa_native_query_builder/)
+- [A practical look at JEP-412 in JDK17 with libsodium](https://www.reddit.com/r/java/comments/pixqgz/a_practical_look_at_jep412_in_jdk17_with_libsodium/)
+- [What’s the near future like for Spring Boot?](https://www.reddit.com/r/java/comments/pixlg5/whats_the_near_future_like_for_spring_boot/)
 - [Is it worth the effort to modularise my project?](https://www.reddit.com/r/java/comments/pie2nk/is_it_worth_the_effort_to_modularise_my_project/)
-- [How does Gluon's GraalVM based substrate work?](https://www.reddit.com/r/java/comments/phy4vl/how_does_gluons_graalvm_based_substrate_work/)
-- [Is Joda Money a good choice today and what are the alternatives?](https://www.reddit.com/r/java/comments/phwlnv/is_joda_money_a_good_choice_today_and_what_are/)
-- ["get-it-done" MVC web framework like Django in Java?](https://www.reddit.com/r/java/comments/phwhcg/getitdone_mvc_web_framework_like_django_in_java/)
-- [Favorite Java Book for better programming in Java?](https://www.reddit.com/r/java/comments/phw71l/favorite_java_book_for_better_programming_in_java/)
-- [How hard would it be to add a safe call operator to the Java language?](https://www.reddit.com/r/java/comments/phksz2/how_hard_would_it_be_to_add_a_safe_call_operator/)
-- [JEP 418: Internet-Address Resolution SPI](https://www.reddit.com/r/java/comments/phf46o/jep_418_internetaddress_resolution_spi/)
-- [Hey, you spring boot developer, what do you think about spring boot after trying other frameworks?](https://www.reddit.com/r/java/comments/phezyo/hey_you_spring_boot_developer_what_do_you_think/)
-- [A Java 17 and Jakarta EE 9 baseline for Spring Framework 6](https://www.reddit.com/r/java/comments/phctg1/a_java_17_and_jakarta_ee_9_baseline_for_spring/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
