@@ -27,7 +27,7 @@ Thank you for installing Java Patterns Docs!
 
 {{- else if contains "ClusterIP" .Values.service.type }}
   kubectl --namespace {{ .Release.Namespace }} port-forward svc/{{ include "backend-java-patterns.fullname" . }} {{ .Values.service.port }}
-  kubectl port-forward $POD_NAME 8000:8000
+  example>>> kubectl --namespace {{ .Release.Namespace }} port-forward $KUBERNETES_POD_NAME 8000:8000
   http://localhost:8000/java-patterns/
 {{- end }}
 

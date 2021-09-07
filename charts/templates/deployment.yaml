@@ -3,9 +3,10 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: {{ $fullName }}
+  namespace: {{ .Release.Namespace | quote }}
   labels:
     {{- include "backend-java-patterns.labels" . | nindent 4 }}
-  {{- with .Values.deployment.additionalLabels }}
+  {{- with .Values.deployment.labels }}
     {{- toYaml . | nindent 4 }}
   {{- end }}
 spec:
@@ -28,11 +29,12 @@ spec:
         {{ $key }}: {{ $value | quote }}
         {{- end }}
     spec:
-      {{- with .Values.image.pullSecrets }}
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 30
+      {{- with .Values.deployment.container.image.pullSecrets }}
       imagePullSecrets:
         {{- toYaml . | nindent 8 }}
       {{- end }}
-      terminationGracePeriodSeconds: 30
       {{- if .Values.serviceAccount.enabled }}
       serviceAccountName: {{ include "backend-java-patterns.serviceAccountName" . }}
       {{- end }}
@@ -42,11 +44,11 @@ spec:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.deployment.container.image.repository }}:{{ .Values.deployment.container.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.deployment.container.image.pullPolicy }}
-          {{ if .Values.image.command -}}
-          command: {{ .Values.image.command }}
+          {{ if .Values.deployment.container.image.command -}}
+          command: {{ .Values.image.deployment.command }}
           {{- end }}
-          {{ if .Values.image.args -}}
-          args: {{ .Values.image.args }}
+          {{ if .Values.deployment.container.image.args -}}
+          args: {{ .Values.image.deployment.args }}
           {{- end }}
           {{- if .Values.securityContext }}
           securityContext:
@@ -140,9 +142,15 @@ spec:
       {{- end }}
       volumes:
         - name: data
-          emptyDir: { }
+          {{- if .Values.storage.persistentVolumeClaim.enabled }}
+          persistentVolumeClaim:
+            claimName: {{ $fullName }}-local-volume
+          {{- else }}
+          emptyDir: {}
+          {{- end }}
         {{- if .Values.tls.enabled }}
         - name: tls
           secret:
             secretName: {{ include "backend-java-patterns.tlsSecretName" . }}
+            defaultMode: 0400
         {{- end }}

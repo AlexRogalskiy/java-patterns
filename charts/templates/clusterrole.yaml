@@ -1,0 +1,14 @@
+{{- if .Values.tls.enabled }}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: {{ $fullName }}
+  namespace: {{ .Release.Namespace | quote }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+rules:
+  - apiGroups: ["certificates.k8s.io"]
+    resources: ["certificatesigningrequests"]
+    verbs: ["create", "get", "watch"]
+{{- end }}

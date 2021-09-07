@@ -1,0 +1,18 @@
+{{- if .Values.tls.enabled }}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: {{ $fullName }}
+  namespace: {{ .Release.Namespace | quote }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+rules:
+  - apiGroups: [""]
+    resources: ["secrets"]
+    {{- if .Values.tls.certs.provided }}
+    verbs: ["get"]
+    {{- else }}
+    verbs: ["create", "get"]
+    {{- end }}
+{{- end }}

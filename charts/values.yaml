@@ -11,14 +11,6 @@ general:
   backend: #http://backend-podinfo:9898/echo
   backends: []
 
-image:
-  repository: styled-java-patterns
-  tag: latest
-  pullPolicy: IfNotPresent
-  pullSecrets: {}
-  # command: ['./run.sh']
-  # args: []
-
 podSecurityContext:
   fsGroup: 1000
 
@@ -31,7 +23,7 @@ configMaps:
 
 secrets:
   create: false
-  additionalLabels:
+  labels:
     app.kubernetes.io/component: vault
   data:
     baseUrl: ""
@@ -64,10 +56,41 @@ service:
   # NOTE: requires privileged container with NET_BIND_SERVICE capability -- this is useful for testing
   # in local clusters such as kind without port forwarding
   hostPort:
+  discovery:
+    enabled: false
+    labels: {}
+    annotations: {}
 
 # enable h2c protocol (non-TLS version of HTTP/2)
 h2c:
   enabled: false
+
+networkPolicy:
+  enabled: no
+  ingress:
+    # List of sources which should be able to access the CockroachDB Pods via
+    # gRPC port. Items in this list are combined using a logical OR operation.
+    # Rules for allowing inter-communication are applied automatically.
+    # If empty, then connections from any Pod is allowed.
+    grpc: []
+      # - podSelector:
+      #     matchLabels:
+      #       app.kubernetes.io/name: my-app-django
+      #       app.kubernetes.io/instance: my-app
+
+    # List of sources which should be able to access the CockroachDB Pods via
+    # HTTP port. Items in this list are combined using a logical OR operation.
+    # If empty, then connections from any Pod is allowed.
+    http: []
+      # - namespaceSelector:
+      #     matchLabels:
+      #       project: my-project
+
+storage:
+  persistentVolumeClaim:
+    enabled: false
+    labels: {}
+    annotations: {}
 
 # enable tls on the podinfo service
 tls:
@@ -159,11 +182,11 @@ linkerd:
 serviceMonitor:
   enabled: false
   interval: 15s
-  additionalLabels: {}
+  labels: {}
 
 virtualservice:
   enabled: false
-  annotations: []
+  annotations: {}
   hosts:
     - host: ""
       names: []
@@ -179,15 +202,90 @@ resources:
     cpu: 100m
     memory: 512Mi
 
+statefulset:
+  enabled: false
+  replicas: 3
+  updateStrategy:
+    type: RollingUpdate
+  podManagementPolicy: Parallel
+  budget:
+    maxUnavailable: 1
+
+  # List of additional command-line arguments you want to pass to the
+  # `start` command.
+  args: []
+    # - --disable-cluster-name-verification
+
+  # List of extra environment variables to pass into container
+  env: []
+    # - name: ENGINE_MAX_SYNC_DURATION
+    #   value: "24h"
+
+  # List of Secrets names in the same Namespace as the cluster,
+  # which shall be mounted into `/etc/path/secrets/` for every cluster
+  # member.
+  secretMounts: []
+
+  # Additional labels to apply to this StatefulSet and all its Pods.
+  labels:
+    app.kubernetes.io/component: documentation
+
+  # Additional annotations to apply to the Pods of this StatefulSet.
+  annotations: {}
+
+  # Affinity rules for scheduling Pods of this StatefulSet on Nodes.
+  # https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#node-affinity
+  nodeAffinity: {}
+  # Inter-Pod Affinity rules for scheduling Pods of this StatefulSet.
+  # https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#inter-pod-affinity-and-anti-affinity
+  podAffinity: {}
+  # Anti-affinity rules for scheduling Pods of this StatefulSet.
+  # https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#inter-pod-affinity-and-anti-affinity
+  # You may either toggle options below for default anti-affinity rules,
+  # or specify the whole set of anti-affinity rules instead of them.
+  podAntiAffinity:
+    # Type of anti-affinity rules: either `soft`, `hard` or empty value (which
+    # disables anti-affinity rules).
+    type: soft
+    # Weight for `soft` anti-affinity rules.
+    # Does not apply for other anti-affinity types.
+    weight: 100
+
+  # Node selection constraints for scheduling Pods of this StatefulSet.
+  # https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#nodeselector
+  nodeSelector: {}
+
+  # Taints to be tolerated by Pods of this StatefulSet.
+  # https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
+  tolerations: []
+
+  # Uncomment the following resources definitions or pass them from
+  # command line to control the CPU and memory resources allocated
+  # by Pods of this StatefulSet.
+  resources: {}
+    # limits:
+    #   cpu: 100m
+    #   memory: 512Mi
+    # requests:
+    #   cpu: 100m
+    #   memory: 512Mi
+
 deployment:
   replicaCount: 2
-  additionalLabels:
+  labels:
     app.kubernetes.io/component: documentation
   container:
     image:
       repository: "styled-java-patterns"
       tag: "latest" # uses chart appVersion if not provided
       pullPolicy: IfNotPresent
+      pullSecrets: {}
+      # command: ['./run.sh']
+      # args: []
+      credentials: {}
+        # registry: docker.io
+        # username: john_doe
+        # password: changeme
     port: 8000
 
   resources:

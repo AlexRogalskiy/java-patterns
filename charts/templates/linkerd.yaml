@@ -1,8 +1,10 @@
 {{- if .Values.linkerd.profile.enabled }}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
 apiVersion: linkerd.io/v1alpha2
 kind: ServiceProfile
 metadata:
-  name: {{ include "backend-java-patterns.name" . }}.{{ .Release.Namespace }}.svc.cluster.local
+  name: {{ $fullName }}.{{ .Release.Namespace }}.svc.cluster.local
+  namespace: {{ .Release.Namespace | quote }}
   labels:
     {{- include "backend-java-patterns.labels" . | nindent 4 }}
 spec:

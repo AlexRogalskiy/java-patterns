@@ -1,0 +1,17 @@
+{{- if .Values.storage.persistentVolumeClaim.enabled }}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{ $fullName }}-local-volume
+  namespace: {{ .Release.Namespace | quote }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+spec:
+  storageClassName: "local-storage"
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi
+{{- end }}

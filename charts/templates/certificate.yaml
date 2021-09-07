@@ -4,6 +4,7 @@ apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
   name: {{ $fullName }}
+  namespace: {{ .Release.Namespace | quote }}
   labels:
     {{- include "backend-java-patterns.labels" . | nindent 4 }}
 spec:

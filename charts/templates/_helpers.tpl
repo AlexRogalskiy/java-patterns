@@ -75,3 +75,25 @@ Create the name of the service account to use
 {{- default "default" .Values.serviceAccount.name }}
 {{- end }}
 {{- end }}
+
+{{/*
+Return the appropriate apiVersion for NetworkPolicy.
+*/}}
+{{- define "backend-java-patterns.networkPolicy.apiVersion" -}}
+{{- if semverCompare ">=1.4-0, <=1.7-0" .Capabilities.KubeVersion.GitVersion -}}
+    {{- print "extensions/v1beta1" -}}
+{{- else if semverCompare "^1.7-0" .Capabilities.KubeVersion.GitVersion -}}
+    {{- print "networking.k8s.io/v1" -}}
+{{- end -}}
+{{- end -}}
+
+{{/*
+Return the appropriate apiVersion for StatefulSets
+*/}}
+{{- define "backend-java-patterns.statefulset.apiVersion" -}}
+{{- if semverCompare "<1.12-0" .Capabilities.KubeVersion.GitVersion -}}
+    {{- print "apps/v1beta1" -}}
+{{- else -}}
+    {{- print "apps/v1" -}}
+{{- end -}}
+{{- end -}}

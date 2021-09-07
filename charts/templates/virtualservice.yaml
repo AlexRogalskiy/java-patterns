@@ -6,6 +6,7 @@ apiVersion: networking.istio.io/v1beta1
 kind: VirtualService
 metadata:
   name: {{ $fullName }}
+  namespace: {{ .Release.Namespace | quote }}
   labels:
     {{- include "backend-java-patterns.labels" . | nindent 4 }}
   {{- with .Values.virtualservice.annotations }}

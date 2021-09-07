@@ -3,6 +3,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: {{ $fullName }}
+  namespace: {{ .Release.Namespace | quote }}
   labels:
     {{- include "backend-java-patterns.labels" . | nindent 4 }}
 data:

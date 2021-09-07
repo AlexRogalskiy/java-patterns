@@ -1,12 +1,23 @@
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
 apiVersion: v1
 kind: Pod
 metadata:
-  name: "{{ include "backend-java-patterns.fullname" . }}-test-connection"
+  name: "{{ $fullName }}-test"
+  namespace: {{ .Release.Namespace | quote }}
+{{- if .Values.networkPolicy.enabled }}
+  labels:
+    {{ $fullName }}-client: "true"
+{{- end }}
   labels:
     {{- include "backend-java-patterns.labels" . | nindent 4 }}
   annotations:
     "helm.sh/hook": test
 spec:
+  restartPolicy: Never
+{{- if .Values.deployment.container.image.credentials }}
+  imagePullSecrets:
+    - name: {{ $fullName }}.db.registry
+{{- end }}
   containers:
     - name: curl
       image: curlimages/curl

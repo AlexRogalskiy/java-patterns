@@ -1,14 +1,11 @@
 {{- if .Values.ingress.enabled }}
 {{- $fullName := include "backend-java-patterns.fullname" . -}}
 {{- $svcPort := .Values.service.externalPort -}}
-{{- if semverCompare ">=1.14-0" .Capabilities.KubeVersion.GitVersion -}}
-apiVersion: networking.k8s.io/v1beta1
-{{- else -}}
-apiVersion: extensions/v1beta1
-{{- end }}
+apiVersion: {{ template "backend-java-patterns.networkPolicy.apiVersion" . }}
 kind: Ingress
 metadata:
   name: {{ $fullName }}
+  namespace: {{ .Release.Namespace | quote }}
   labels:
     {{- include "backend-java-patterns.labels" . | nindent 4 }}
   {{- with .Values.ingress.annotations }}

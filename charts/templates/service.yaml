@@ -1,8 +1,10 @@
 {{- if .Values.service.enabled }}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ include "backend-java-patterns.fullname" . }}
+  name: {{ $fullName }}
+  namespace: {{ .Release.Namespace | quote }}
   labels:
     {{ include "backend-java-patterns.labels" . | nindent 4 }}
   {{- with .Values.service.annotations }}
@@ -12,7 +14,7 @@ metadata:
 spec:
   type: {{ .Values.service.type }}
   ports:
-    - port: {{ .Values.service.externalPort }}
+    - port: {{ .Values.service.externalPort | int64 }}
       targetPort: http
       protocol: TCP
       name: http
@@ -20,7 +22,7 @@ spec:
       nodePort: {{ .Values.service.nodePort }}
       {{- end }}
     {{- if .Values.tls.enabled }}
-    - port: {{ .Values.tls.httpPort | default 8000 }}
+    - port: {{ .Values.tls.httpPort | default 8000 | int64 }}
       targetPort: https
       protocol: TCP
       name: https
