@@ -7,6 +7,7 @@ OSSMETADATA
 .idea
 .vscode
 .husky
+.ghpages-tmp
 
 node_modules
 flow-typed

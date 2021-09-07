@@ -2,6 +2,8 @@
 .github
 .husky
 .idea
+.ghpages-tmp
+
 docs
 images
 node_modules

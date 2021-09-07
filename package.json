@@ -12,7 +12,7 @@
         "commit": "git-cz",
         "release": "release-it",
         "name": "node ./scripts/rootAppName.js",
-        "deploy": "deploy-to-gh-pages --local --update demo",
+        "deploy": "deploy-to-gh-pages --local --update site",
         "format": "prettier --single-quote --list-different --write **/*.{json,yaml,yml}",
         "format:md": "remark-preset-davidtheclark --format",
         "format:check": "prettier --check **/*.{json,yaml,yml}",
