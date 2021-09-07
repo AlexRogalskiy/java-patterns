@@ -4,6 +4,9 @@ set -e
 
 cd "$(dirname "$0")" || exit 1
 
-# Build docker images
+# Docker image params
 GIT_SHA=$(git rev-parse HEAD)
-docker build -f Dockerfile -t styled-java-patterns -t styled-java-patterns:$GIT_SHA .
+IMAGE_TAG="styled-java-patterns"
+
+# Build docker image
+docker build -f Dockerfile -t "${IMAGE_TAG}" -t "${IMAGE_TAG}:${GIT_SHA}" .

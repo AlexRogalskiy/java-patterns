@@ -10,8 +10,6 @@ metadata:
     app.kubernetes.io/component: backend
     app.kubernetes.io/part-of: documentation
     app.kubernetes.io/managed-by: tilt
-#   annotations:
-#     dev.okteto.com/auto-ingress: "true"
 spec:
   type: ClusterIP
   selector:
