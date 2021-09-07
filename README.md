@@ -278,21 +278,22 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Looking for a FAANG preparation buddy from Vancouver](https://www.reddit.com/r/java/comments/pipd5k/looking_for_a_faang_preparation_buddy_from/)
+- [Modern Java Web application?](https://www.reddit.com/r/java/comments/pj7k7z/modern_java_web_application/)
+- [Java News Roundup: Roadmap for Spring 6.0 and Spring Boot 3.0, OpenJDK and Quarkus Updates](https://www.reddit.com/r/java/comments/pj74e2/java_news_roundup_roadmap_for_spring_60_and/)
+- [Should I learn Gradle or Maven for Spring?](https://www.reddit.com/r/java/comments/pj5iu0/should_i_learn_gradle_or_maven_for_spring/)
+- [Why Java doesn't have good support for oData (v4)?](https://www.reddit.com/r/java/comments/pj5a0z/why_java_doesnt_have_good_support_for_odata_v4/)
+- [GCToolkit - The tool for parsing GC logs was open-sourced](https://www.reddit.com/r/java/comments/pj0kfm/gctoolkit_the_tool_for_parsing_gc_logs_was/)
+- [MicroRaft: Feature-complete implementation of the Raft consensus algorithm in Java](https://www.reddit.com/r/java/comments/pizjnt/microraft_featurecomplete_implementation_of_the/)
+- [Hibernate Tips: Fluent JPA Native Query Builder](https://www.reddit.com/r/java/comments/piyixk/hibernate_tips_fluent_jpa_native_query_builder/)
+- [A practical look at JEP-412 in JDK17 with libsodium](https://www.reddit.com/r/java/comments/pixqgz/a_practical_look_at_jep412_in_jdk17_with_libsodium/)
+- [What’s the near future like for Spring Boot?](https://www.reddit.com/r/java/comments/pixlg5/whats_the_near_future_like_for_spring_boot/)
 - [Is it worth the effort to modularise my project?](https://www.reddit.com/r/java/comments/pie2nk/is_it_worth_the_effort_to_modularise_my_project/)
-- [How does Gluon's GraalVM based substrate work?](https://www.reddit.com/r/java/comments/phy4vl/how_does_gluons_graalvm_based_substrate_work/)
-- [Is Joda Money a good choice today and what are the alternatives?](https://www.reddit.com/r/java/comments/phwlnv/is_joda_money_a_good_choice_today_and_what_are/)
-- ["get-it-done" MVC web framework like Django in Java?](https://www.reddit.com/r/java/comments/phwhcg/getitdone_mvc_web_framework_like_django_in_java/)
-- [Favorite Java Book for better programming in Java?](https://www.reddit.com/r/java/comments/phw71l/favorite_java_book_for_better_programming_in_java/)
-- [How hard would it be to add a safe call operator to the Java language?](https://www.reddit.com/r/java/comments/phksz2/how_hard_would_it_be_to_add_a_safe_call_operator/)
-- [JEP 418: Internet-Address Resolution SPI](https://www.reddit.com/r/java/comments/phf46o/jep_418_internetaddress_resolution_spi/)
-- [Hey, you spring boot developer, what do you think about spring boot after trying other frameworks?](https://www.reddit.com/r/java/comments/phezyo/hey_you_spring_boot_developer_what_do_you_think/)
-- [A Java 17 and Jakarta EE 9 baseline for Spring Framework 6](https://www.reddit.com/r/java/comments/phctg1/a_java_17_and_jakarta_ee_9_baseline_for_spring/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [Microsoft open-sources Java garbage collection analyzer](https://www.infoworld.com/article/3632355/microsoft-open-sources-java-garbage-collection-analyzer.html#tk.rss_java)
 - [How to secure REST with Spring Security](https://www.infoworld.com/article/3630107/how-to-secure-rest-with-spring-security.html#tk.rss_java)
 - [Kotlin update previews experimental features](https://www.infoworld.com/article/3631133/kotlin-update-previews-experimental-features.html#tk.rss_java)
 - [What to expect in Java 18](https://www.infoworld.com/article/3630510/what-to-expect-in-java-18.html#tk.rss_java)
@@ -302,7 +303,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Eclipse Temurin Java SE binaries debut](https://www.infoworld.com/article/3627503/eclipse-temurin-java-se-binaries-debut.html#tk.rss_java)
 - [GraalVM adds Native Image, compiler enhancements](https://www.infoworld.com/article/3626402/graalvm-adds-native-image-compiler-enhancements.html#tk.rss_java)
 - [Java state API would speed app startup](https://www.infoworld.com/article/3626351/java-state-api-would-speed-app-startup.html#tk.rss_java)
-- [Visual Studio Code 1.58 improves debugging, Jupyter Notebook support](https://www.infoworld.com/article/3626031/visual-studio-code-158-improves-debugging-jupyter-notebook-support.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
@@ -323,6 +323,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [Finding out where your class comes from](http://randomthoughtsonjavaprogramming.blogspot.com/2021/09/finding-out-where-your-class-comes-from.html)
 - [Angular in Strict Mode](http://randomthoughtsonjavaprogramming.blogspot.com/2021/08/angular-in-strict-mode.html)
 - [Kotlin : the "by" keyword in Interface/Class Delegation](http://randomthoughtsonjavaprogramming.blogspot.com/2021/07/kotlin-by-keyword-in-interfaceclass.html)
 - [Hibernate's @FetchProfile](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/hibernates-fetchprofile.html)
@@ -332,12 +333,12 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Java Inheritance for Beginners](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/java-inheritance-for-beginners.html)
 - [Method determination ignored variable arity and implicit auto boxing/unboxing](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/method-determination-ignored-variable.html)
 - [USB-C Hubs for MacBooks - Review](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/usb-c-hubs-for-macbooks-review.html)
-- [Jelastic CLI](http://randomthoughtsonjavaprogramming.blogspot.com/2021/04/jelastic-cli.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
 
 <!-- BETTERCODE-POST-LIST:START -->
+- [On Being A Senior Software Engineer](https://betterjavacode.com/programming/on-being-a-senior-software-engineer)
 - [A Complete Guide to Using ElasticSearch with Spring Boot](https://betterjavacode.com/programming/elasticsearch-spring-boot)
 - [Connect Spring Boot Application with AWS Dynamo DB](https://betterjavacode.com/programming/spring-boot-connect-aws-dynamo-db)
 - [Introduction to Serverless Architecture Patterns](https://betterjavacode.com/programming/introduction-to-serverless-architecture-patterns)
@@ -347,7 +348,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Integration Testing in Spring Boot Application](https://betterjavacode.com/programming/integration-testing-in-spring-boot-application)
 - [Controller Advice – Exception Handler in Spring Boot](https://betterjavacode.com/programming/controller-advice-exception-handler-in-spring-boot)
 - [How To Use AWS Sagemaker](https://betterjavacode.com/programming/how-to-use-aws-sagemaker)
-- [How to Use API Gateway with Spring Cloud](https://betterjavacode.com/programming/how-to-use-api-gateway-with-spring-cloud)
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### *Inside Java posts*
