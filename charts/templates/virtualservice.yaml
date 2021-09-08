@@ -9,9 +9,11 @@ metadata:
   namespace: {{ .Release.Namespace | quote }}
   labels:
     {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  {{- if .Values.virtualservice.annotations }}
   {{- with .Values.virtualservice.annotations }}
   annotations:
     {{- toYaml . | nindent 4 }}
+  {{- end }}
   {{- end }}
 spec:
   exportTo:

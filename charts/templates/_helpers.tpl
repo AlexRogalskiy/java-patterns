@@ -69,10 +69,10 @@ Create the name of the tls secret for secure port
 Create the name of the service account to use
 */}}
 {{- define "backend-java-patterns.serviceAccountName" -}}
-{{- if .Values.serviceAccount.create }}
-{{- default (include "backend-java-patterns.fullname" .) .Values.serviceAccount.name }}
+{{- if .Values.serviceAccount.enabled }}
+    {{- default (include "backend-java-patterns.fullname" .) .Values.serviceAccount.name }}
 {{- else }}
-{{- default "default" .Values.serviceAccount.name }}
+    {{- default "default" .Values.serviceAccount.name }}
 {{- end }}
 {{- end }}
 
@@ -96,4 +96,14 @@ Return the appropriate apiVersion for StatefulSets
 {{- else -}}
     {{- print "apps/v1" -}}
 {{- end -}}
+{{- end -}}
+
+{{/*
+Return the proper image name
+*/}}
+{{- define "backend-java-patterns.image" -}}
+{{- $registryName := .Values.deployment.container.image.registry -}}
+{{- $repositoryName := .Values.deployment.container.image.repository -}}
+{{- $tag := .Values.deployment.container.image.tag | toString -}}
+{{- printf "%s/%s:%s" $registryName $repositoryName $tag -}}
 {{- end -}}

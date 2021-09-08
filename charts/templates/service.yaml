@@ -7,19 +7,38 @@ metadata:
   namespace: {{ .Release.Namespace | quote }}
   labels:
     {{ include "backend-java-patterns.labels" . | nindent 4 }}
+  {{- if .Values.service.labels }}
+  {{- with .Values.service.labels }}
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+  {{- end }}
+  {{- if .Values.service.annotations }}
   {{- with .Values.service.annotations }}
   annotations:
     {{- toYaml . | indent 4 }}
   {{- end }}
+  {{- end }}
 spec:
   type: {{ .Values.service.type }}
+  {{- if eq .Values.service.type "ClusterIP" }}
+  {{- if eq .Values.general.architecture "high-availability" }}
+  clusterIP: None
+  {{- else if not (empty .Values.service.clusterIp) }}
+  clusterIP: {{ .Values.service.clusterIp }}
+  {{- end }}
+  {{- end }}
+  {{- if and (not (empty .Values.service.loadBalancerIP)) (eq .Values.service.type "LoadBalancer") }}
+  loadBalancerIP: {{ .Values.service.loadBalancerIP }}
+  {{- end }}
   ports:
     - port: {{ .Values.service.externalPort | int64 }}
       targetPort: http
       protocol: TCP
       name: http
-      {{- if (and (eq .Values.service.type "NodePort") (not (empty .Values.service.nodePort))) }}
+      {{- if and (or (eq .Values.service.type "NodePort") (eq .Values.service.type "LoadBalancer")) (not (empty .Values.service.nodePort)) }}
       nodePort: {{ .Values.service.nodePort }}
+      {{- else if eq .Values.service.type "ClusterIP" }}
+      nodePort: null
       {{- end }}
     {{- if .Values.tls.enabled }}
     - port: {{ .Values.tls.httpPort | default 8000 | int64 }}

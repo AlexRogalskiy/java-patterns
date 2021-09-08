@@ -1,4 +1,4 @@
-{{- if .Values.storage.persistentVolumeClaim.enabled }}
+{{- if .Values.persistence.enabled }}
 {{- $fullName := include "backend-java-patterns.fullname" . -}}
 apiVersion: v1
 kind: PersistentVolumeClaim
@@ -7,11 +7,25 @@ metadata:
   namespace: {{ .Release.Namespace | quote }}
   labels:
     {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  {{- if .Values.persistence.labels }}
+  {{- with .Values.persistence.labels }}
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+  {{- end }}
+  {{- if .Values.persistence.annotations }}
+  {{- with .Values.persistence.annotations }}
+  annotations:
+    {{- toYaml . | indent 4 }}
+  {{- end }}
+  {{- end }}
 spec:
   storageClassName: "local-storage"
   accessModes:
-    - ReadWriteOnce
+  {{- range .Values.persistence.accessModes }}
+    - {{ . | quote }}
+  {{- end }}
   resources:
     requests:
-      storage: 10Gi
+      storage: {{ .Values.persistence.size | quote }}
+  {{ include "mariadb.slave.storageClass" . }}
 {{- end }}

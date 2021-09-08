@@ -1,4 +1,4 @@
-{{- if .Values.hpa.enabled }}
+{{- if and .Values.hpa.enabled (eq .Values.general.architecture "high-availability") }}
 {{- $fullName := include "backend-java-patterns.fullname" . -}}
 apiVersion: autoscaling/v2beta2
 kind: HorizontalPodAutoscaler
@@ -7,7 +7,17 @@ metadata:
   namespace: {{ .Release.Namespace | quote }}
   labels:
     {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  {{- if .Values.hpa.annotations }}
+  {{- with .Values.hpa.annotations }}
+  annotations:
+    {{- toYaml . | indent 4 }}
+  {{- end }}
+  {{- end }}
 spec:
+#   scaleTargetRef:
+#     apiVersion: {{ include "common.capabilities.statefulset.apiVersion" . }}
+#     kind: StatefulSet
+#     name: {{ template "common.names.fullname" . }}
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment

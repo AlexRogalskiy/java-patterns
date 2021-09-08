@@ -7,31 +7,52 @@ metadata:
   namespace: {{ .Release.Namespace | quote }}
   labels:
     {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  {{- if .Values.statefulset.labels }}
   {{- with .Values.statefulset.labels }}
     {{- toYaml . | nindent 4 }}
+  {{- end }}
   {{- end }}
 spec:
   serviceName: {{ $fullName }}
   replicas: {{ .Values.statefulset.replicas | int64 }}
-  updateStrategy: {{- toYaml .Values.statefulset.updateStrategy | nindent 4 }}
+  updateStrategy:
+    type: {{ .Values.statefulset.updateStrategy.type }}
+    {{- if (eq "Recreate" .Values.statefulset.updateStrategy.type) }}
+    rollingUpdate: null
+    {{- end }}
+#   updateStrategy: {{- toYaml .Values.statefulset.updateStrategy | nindent 4 }}
   podManagementPolicy: {{ .Values.statefulset.podManagementPolicy | quote }}
   selector:
     matchLabels:
       {{- include "backend-java-patterns.selectorLabels" . | nindent 6 }}
+    {{- if .Values.statefulset.labels }}
     {{- with .Values.statefulset.labels }}
       {{- toYaml . | nindent 6 }}
+    {{- end }}
     {{- end }}
   template:
     metadata:
       labels:
         {{- include "backend-java-patterns.selectorLabels" . | nindent 6 }}
+      {{- if .Values.statefulset.labels }}
       {{- with .Values.statefulset.labels }}
         {{- toYaml . | nindent 8 }}
       {{- end }}
+      {{- end }}
+    {{- if .Values.statefulset.annotations }}
     {{- with .Values.statefulset.annotations }}
-      annotations: {{- toYaml . | nindent 8 }}
+      annotations:
+        {{- toYaml . | nindent 8 }}
+    {{- end }}
     {{- end }}
     spec:
+    {{- if .Values.hostAliases }}
+      hostAliases:
+        {{- toYaml .Values.hostAliases | nindent 8 }}
+    {{- end }}
+    {{- if .Values.schedulerName }}
+      schedulerName: "{{ .Values.schedulerName }}"
+    {{- end }}
     {{- if or .Values.deployment.container.image.credentials (and .Values.tls.enabled .Values.tls.init.image.credentials (not .Values.tls.certs.provided)) }}
       imagePullSecrets:
       {{- if .Values.deployment.container.image.credentials }}
@@ -43,6 +64,10 @@ spec:
     {{- end }}
     {{- if .Values.tls.enabled }}
       serviceAccountName: {{ template "backend-java-patterns.tls.serviceAccountName" . }}
+      {{- if .Values.securityContext.enabled }}
+      securityContext:
+      {{- toYaml .Values.securityContext.config | nindent 8 }}
+      {{- end }}
       {{- if not .Values.tls.certs.provided }}
       initContainers:
         # The init-certs container sends a CSR (certificate signing request) to
@@ -250,12 +275,12 @@ spec:
         {{- end }}
       volumes:
         - name: datadir
-        {{- if .Values.storage.persistentVolumeClaim.enabled }}
+        {{- if .Values.persistence.enabled }}
           persistentVolumeClaim:
             claimName: datadir
-        {{- else if .Values.storage.hostPath }}
+        {{- else if .Values.persistence.hostPath }}
           hostPath:
-            path: {{ .Values.storage.hostPath | quote }}
+            path: {{ .Values.persistence.hostPath | quote }}
         {{- else }}
           emptyDir: {}
         {{- end }}
@@ -291,29 +316,29 @@ spec:
           secret:
             secretName: {{ . | quote }}
       {{- end }}
-{{- if .Values.storage.persistentVolumeClaim.enabled }}
+{{- if .Values.persistence.enabled }}
   volumeClaimTemplates:
     - metadata:
         name: datadir
         labels:
           {{- include "backend-java-patterns.labels" . | nindent 10 }}
-        {{- with .Values.storage.persistentVolumeClaim.labels }}
+        {{- with .Values.persistence.labels }}
           {{- toYaml . | nindent 10 }}
         {{- end }}
-      {{- with .Values.storage.persistentVolumeClaim.annotations }}
+      {{- with .Values.persistence.annotations }}
         annotations: {{- toYaml . | nindent 10 }}
       {{- end }}
       spec:
         accessModes: ["ReadWriteOnce"]
-      {{- if .Values.storage.persistentVolumeClaim.storageClass }}
-      {{- if (eq "-" .Values.storage.persistentVolumeClaim.storageClass) }}
+      {{- if .Values.persistence.storageClass }}
+      {{- if (eq "-" .Values.persistence.storageClass) }}
         storageClassName: ""
       {{- else }}
-        storageClassName: {{ .Values.storage.persistentVolumeClaim.storageClass | quote}}
+        storageClassName: {{ .Values.persistence.storageClass | quote}}
       {{- end }}
       {{- end }}
         resources:
           requests:
-            storage: {{ .Values.storage.persistentVolumeClaim.size | quote }}
+            storage: {{ .Values.persistence.size | quote }}
 {{- end }}
 {{- end }}

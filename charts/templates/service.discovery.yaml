@@ -11,8 +11,10 @@ metadata:
   namespace: {{ .Release.Namespace | quote }}
   labels:
     {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  {{- if .Values.service.discovery.labels }}
   {{- with .Values.service.discovery.labels }}
     {{- toYaml . | nindent 4 }}
+  {{- end }}
   {{- end }}
   annotations:
     # Use this annotation in addition to the actual field below because the
@@ -53,7 +55,9 @@ spec:
   selector:
     app.kubernetes.io/name: {{ template "cockroachdb.name" . }}
     app.kubernetes.io/instance: {{ .Release.Name | quote }}
+  {{- if .Values.statefulset.labels }}
   {{- with .Values.statefulset.labels }}
     {{- toYaml . | nindent 4 }}
+  {{- end }}
   {{- end }}
 {{- end }}

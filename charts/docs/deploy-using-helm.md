@@ -25,7 +25,7 @@ The following table lists the configuration parameters of the java-patterns char
 | `ingress.pathPrefix` | `string` | `""` | The path prefix configured in the ingress for the java-patterns service.<br/> Must be provided when ingress is used. |
 | `service.type` | `string` | `"LoadBalancer"` | The service type. |
 | `service.port` | `int` | `80` | The port exposed by the service. |
-| `deployment.replicaCount` | `int` | `2` | The number of replicas for the java-patterns deployment. |
+| `deployment.replicas` | `int` | `2` | The number of replicas for the java-patterns deployment. |
 | `deployment.container.image.repository` | `string` | `java-patterns` | The container image to run in the java-patterns pods. |
 | `deployment.container.image.tag` | `string` | `""` | The container image tag. If not specified, the chart's appVersion is used. |
 | `deployment.container.image.pullPolicy` | `string` | `"IfNotPresent"` | The pull policy for the container image. |
