@@ -278,18 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
-- [Modern Java Web application?](https://www.reddit.com/r/java/comments/pj7k7z/modern_java_web_application/)
-- [Java News Roundup: Roadmap for Spring 6.0 and Spring Boot 3.0, OpenJDK and Quarkus Updates](https://www.reddit.com/r/java/comments/pj74e2/java_news_roundup_roadmap_for_spring\_60\_and/)
+- [can someone link me the download for latest java 64bit download](https://www.reddit.com/r/java/comments/pjxykz/can_someone_link_me_the_download_for_latest_java/)
+- [JavaFX 17 Released](https://www.reddit.com/r/java/comments/pjwurb/javafx_17_released/)
+- [Identifying, Reporting, and Fixing CVE-2021-22119: DoS Vulnerability in Spring Security OAuth 2.0](https://www.reddit.com/r/java/comments/pjnkcg/identifying_reporting_and_fixing_cve202122119_dos/)
+- [Release Notes for JavaFX 17](https://www.reddit.com/r/java/comments/pjkzfl/release_notes_for_javafx_17/)
+- [Do you use Java for Saas product?](https://www.reddit.com/r/java/comments/pjjtf4/do_you_use_java_for_saas_product/)
+- [Static Dependency Injection with Intersection Types](https://www.reddit.com/r/java/comments/pjaqg2/static_dependency_injection_with_intersection/)
+- [Java News Roundup: Roadmap for Spring 6.0 and Spring Boot 3.0, OpenJDK and Quarkus Updates](https://www.reddit.com/r/java/comments/pj74e2/java_news_roundup_roadmap_for_spring_60_and/)
 - [Should I learn Gradle or Maven for Spring?](https://www.reddit.com/r/java/comments/pj5iu0/should_i_learn_gradle_or_maven_for_spring/)
 - [Why Java doesn't have good support for oData (v4)?](https://www.reddit.com/r/java/comments/pj5a0z/why_java_doesnt_have_good_support_for_odata_v4/)
-- [GCToolkit - The tool for parsing GC logs was open-sourced](https://www.reddit.com/r/java/comments/pj0kfm/gctoolkit_the_tool_for_parsing_gc_logs_was/)
-- [MicroRaft: Feature-complete implementation of the Raft consensus algorithm in Java](https://www.reddit.com/r/java/comments/pizjnt/microraft_featurecomplete_implementation_of_the/)
-- [Hibernate Tips: Fluent JPA Native Query Builder](https://www.reddit.com/r/java/comments/piyixk/hibernate_tips_fluent_jpa_native_query_builder/)
-- [A practical look at JEP-412 in JDK17 with libsodium](https://www.reddit.com/r/java/comments/pixqgz/a_practical_look_at_jep412\_in_jdk17\_with_libsodium/)
-- [What’s the near future like for Spring Boot?](https://www.reddit.com/r/java/comments/pixlg5/whats_the_near_future_like_for_spring_boot/)
-- [Is it worth the effort to modularise my project?](https://www.reddit.com/r/java/comments/pie2nk/is_it_worth_the_effort_to_modularise_my_project/)
-
+- [An AI unit test generator for Java. (works with IntelliJ IDE)](https://www.reddit.com/r/java/comments/pj21fo/an_ai_unit_test_generator_for_java_works_with/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
