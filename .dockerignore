@@ -9,6 +9,10 @@ k8s
 traffic
 node_modules
 tilt_modules
+okteto
+release
+site
+venv
 
 npm-debug.log
 .gitignore

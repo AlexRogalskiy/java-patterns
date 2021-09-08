@@ -91,10 +91,10 @@ spec:
             - >-
               /request-cert
               -namespace=${POD_NAMESPACE}
-              -certs-dir=/cockroach-certs/
+              -certs-dir=/etc/certs/
               -symlink-ca-from=/var/run/secrets/kubernetes.io/serviceaccount/ca.crt
               -type=node
-              -addresses=localhost,127.0.0.1,$(hostname -f),$(hostname -f|cut -f 1-2 -d '.'),{{ template "cockroachdb.fullname" . }}-public,{{ template "cockroachdb.fullname" . }}-public.$(hostname -f|cut -f 3- -d '.')
+              -addresses=localhost,127.0.0.1,$(hostname -f),$(hostname -f|cut -f 1-2 -d '.'),{{ $fullName }}-public,{{ $fullName }}-public.$(hostname -f|cut -f 3- -d '.')
           env:
             - name: POD_NAMESPACE
               valueFrom:
@@ -102,7 +102,7 @@ spec:
                   fieldPath: metadata.namespace
           volumeMounts:
             - name: certs
-              mountPath: /cockroach-certs/
+              mountPath: /etc/certs/
       {{- end }}
     {{- end }}
     {{- if or .Values.statefulset.nodeAffinity .Values.statefulset.podAffinity .Values.statefulset.podAntiAffinity }}
@@ -121,7 +121,7 @@ spec:
             - topologyKey: kubernetes.io/hostname
               labelSelector:
                 matchLabels:
-                  app.kubernetes.io/name: {{ template "cockroachdb.name" . }}
+                  app.kubernetes.io/name: {{ template "backend-java-patterns.name" . }}
                   app.kubernetes.io/instance: {{ .Release.Name | quote }}
                 {{- with .Values.statefulset.labels }}
                   {{- toYaml . | nindent 18 }}
@@ -133,7 +133,7 @@ spec:
                 topologyKey: kubernetes.io/hostname
                 labelSelector:
                   matchLabels:
-                    app.kubernetes.io/name: {{ template "cockroachdb.name" . }}
+                    app.kubernetes.io/name: {{ template "backend-java-patterns.name" . }}
                     app.kubernetes.io/instance: {{ .Release.Name | quote }}
                   {{- with .Values.statefulset.labels }}
                     {{- toYaml . | nindent 20 }}
@@ -169,7 +169,7 @@ spec:
             #    StatefulSet is scaled up/down. We want to scale without
             #    restarting existing Pods.
             # 2. At least one Pod in `--join` is enough to successfully
-            #    join CockroachDB cluster and gossip with all other existing
+            #    join cluster and gossip with all other existing
             #    Pods, even if there are 3 or more Pods.
             # 3. It's harmless for `--join` to have 3 Pods even for 1-Pod
             #    clusters, while it gives us opportunity to scale up even if
@@ -177,7 +177,7 @@ spec:
             # See details explained here:
             # https://github.com/helm/charts/pull/18993#issuecomment-558795102
             - >-
-              exec /cockroach/cockroach
+              exec /bin/bash
             {{- if index .Values.conf `single-node` }}
               start-single-node
             {{- else }}
@@ -200,7 +200,7 @@ spec:
             {{- end }}
               --logtostderr={{ .Values.conf.logtostderr }}
             {{- if .Values.tls.enabled }}
-              --certs-dir=/cockroach/cockroach-certs/
+              --certs-dir=/etc/certs/
             {{- else }}
               --insecure
             {{- end }}
@@ -224,11 +224,9 @@ spec:
             {{- end }}
           env:
             - name: STATEFULSET_NAME
-              value: {{ template "cockroachdb.fullname" . }}
+              value: {{ $fullName }}
             - name: STATEFULSET_FQDN
-              value: {{ template "cockroachdb.fullname" . }}.{{ .Release.Namespace }}.svc.{{ .Values.clusterDomain }}
-            - name: COCKROACH_CHANNEL
-              value: kubernetes-helm
+              value: {{ $fullName }}.{{ .Release.Namespace }}.svc.{{ .Values.clusterDomain }}
           {{- with .Values.statefulset.env }}
             {{- toYaml . | nindent 12 }}
           {{- end }}
@@ -241,14 +239,14 @@ spec:
               protocol: TCP
           volumeMounts:
             - name: datadir
-              mountPath: /cockroach/cockroach-data/
+              mountPath: /etc/data/
           {{- if .Values.tls.enabled }}
             - name: certs
-              mountPath: /cockroach/cockroach-certs/
+              mountPath: /etc/certs/
           {{- end }}
           {{- range .Values.statefulset.secretMounts }}
             - name: {{ printf "secret-%s" . | quote }}
-              mountPath: {{ printf "/etc/cockroach/secrets/%s" . | quote }}
+              mountPath: {{ printf "/etc/secrets/%s" . | quote }}
               readOnly: true
           {{- end }}
           livenessProbe:

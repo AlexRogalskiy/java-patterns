@@ -50,7 +50,7 @@ jobs:
 
       - name: Build mkdocs
         run: |
-          python3 -m mkdocs build
+          python3 -m mkdocs build --clean --config-file mkdocs.yml
 
       - name: Directory listing for debugging
         run: |

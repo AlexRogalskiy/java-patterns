@@ -27,13 +27,15 @@ metadata:
     prometheus.io/scrape: "true"
     prometheus.io/path: _status/vars
     prometheus.io/port: {{ .Values.service.ports.http.port | quote }}
+  {{- if .Values.service.discovery.annotations }}
   {{- with .Values.service.discovery.annotations }}
     {{- toYaml . | nindent 4 }}
+  {{- end }}
   {{- end }}
 spec:
   clusterIP: None
   # We want all Pods in the StatefulSet to have their addresses published for
-  # the sake of the other CockroachDB Pods even before they're ready, since they
+  # the sake of the other pods even before they're ready, since they
   # have to be able to talk to each other in order to become ready.
   publishNotReadyAddresses: true
   ports:
@@ -53,8 +55,7 @@ spec:
       port: {{ $ports.http.port | int64 }}
       targetPort: http
   selector:
-    app.kubernetes.io/name: {{ template "cockroachdb.name" . }}
-    app.kubernetes.io/instance: {{ .Release.Name | quote }}
+    {{- include "backend-java-patterns.selectorLabels" . | nindent 4 }}
   {{- if .Values.statefulset.labels }}
   {{- with .Values.statefulset.labels }}
     {{- toYaml . | nindent 4 }}

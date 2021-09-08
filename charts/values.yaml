@@ -27,7 +27,13 @@ topologySpreadConstraints: {}
 ##
 priorityClassName: ""
 
-## @param initContainers Add additional init containers to the Memcached pod
+## Use an alternate scheduler, e.g. "stork".
+## @param schedulerName Scheduler name
+## ref: https://kubernetes.io/docs/tasks/administer-cluster/configure-multiple-schedulers/
+##
+schedulerName:
+
+## @param initContainers Add additional init containers to the pod
 ## Example:
 ## initContainers:
 ##   - name: your-image-name
@@ -60,7 +66,6 @@ faults:
   testTimeout: false
 
 ## @param extraEnv Additional env vars to pass
-## ref: https://github.com/bitnami/bitnami-docker-memcached#configuration
 ##
 extraEnv: []
 
@@ -143,7 +148,7 @@ networkPolicy:
   ##
   enabled: false
   ingress:
-    # List of sources which should be able to access the CockroachDB Pods via
+    # List of sources which should be able to access the pods via
     # gRPC port. Items in this list are combined using a logical OR operation.
     # Rules for allowing inter-communication are applied automatically.
     # If empty, then connections from any Pod is allowed.
@@ -153,7 +158,7 @@ networkPolicy:
       #       app.kubernetes.io/name: my-app-django
       #       app.kubernetes.io/instance: my-app
 
-    # List of sources which should be able to access the CockroachDB Pods via
+    # List of sources which should be able to access the pods via
     # HTTP port. Items in this list are combined using a logical OR operation.
     # If empty, then connections from any Pod is allowed.
     http: []
@@ -166,7 +171,7 @@ persistence:
   ## @param persistence.enabled Enable persistence using PVC (Requires architecture: "high-availability")
   ##
   enabled: false
-  ## @param persistence.storageClass PVC Storage Class for Memcached volume
+  ## @param persistence.storageClass PVC Storage Class for volume
   ## If defined, storageClassName: <storageClass>
   ## If set to "-", storageClassName: "", which disables dynamic provisioning
   ## If undefined (the default) or set to null, no storageClassName spec is
@@ -184,7 +189,7 @@ persistence:
   ##
   accessModes:
     - ReadWriteOnce
-  ## @param persistence.size PVC Storage Request for Memcached volume
+  ## @param persistence.size PVC Storage Request for volume
   ##
   size: 8Gi
 
@@ -193,17 +198,25 @@ tls:
   ## @param tls.enabled Enable tls parameters
   ##
   enabled: false
-  # the name of the secret used to mount the certificate key pair
+  ## the name of the secret used to mount the certificate key pair
+  ##
   secretName:
-  # the path where the certificate key pair will be mounted
+  ## the path where the certificate key pair will be mounted
+  ##
   certPath: /data/cert
+  ## The subdirectory of the volume to mount to, useful in dev environments
+  ## and one PV for multiple services.
+  ##
   subPath: ""
-  # the port used to host the tls endpoint on the service
+  ## the port used to host the tls endpoint on the service
+  ##
   httpPort: 8000
+  ## the external port used to connect from external host
+  ##
   externalPort: 8000
-  # the port used to bind the tls port to the host
-  # NOTE: requires privileged container with NET_BIND_SERVICE capability -- this is useful for testing
-  # in local clusters such as kind without port forwarding
+  ## the port used to bind the tls port to the host
+  ## NOTE: requires privileged container with NET_BIND_SERVICE capability -- this is useful for testing
+  ## in local clusters such as kind without port forwarding
   hostPort:
 
 ## certificate manager configurations (cert-manager required)
@@ -225,7 +238,7 @@ metrics:
   ##
   enabled: false
 
-  ## @param labels Pod extra labels
+  ## @param metrics.labels Pod extra labels
   ## ref: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
   ##
   labels: {}
@@ -237,7 +250,7 @@ metrics:
     prometheus.io/scrape: "true"
     prometheus.io/port: "9150"
 
-  ## @param metrics.portName Memcached exporter port name
+  ## @param metrics.portName exporter port name
   ## If you want to override the port name (can be usefull when using a service mesh)
   ## ref for istio: https://istio.io/latest/docs/ops/configuration/traffic-management/protocol-selection/
   ##
@@ -264,11 +277,41 @@ metrics:
     ##    memory: 128Mi
     requests: {}
 
-  service:
-    ## @param metrics.service.type Kubernetes service type for Prometheus metrics
-    ##
-    annotations: {}
+  ## Configure extra options for liveness probes
+  ## @param metrics.livenessProbe Metrics liveness probe
+  ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/#configure-probes)
+  ##
+  livenessProbe:
+    enabled: false
+    config:
+      httpGet:
+        path: /actuator/health
+        port: http
+      initialDelaySeconds: 210
+      periodSeconds: 60
+      timeoutSeconds: 5
+      failureThreshold: 6
+      successThreshold: 1
 
+  ## Configure extra options for readiness probes
+  ## @param metrics.readinessProbe Metrics readiness probe
+  ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/#configure-probes)
+  ##
+  readinessProbe:
+    enabled: false
+    config:
+      httpGet:
+        path: /actuator/health
+        port: http
+      initialDelaySeconds: 180
+      periodSeconds: 60
+      timeoutSeconds: 5
+      failureThreshold: 6
+      successThreshold: 1
+
+  ## @param metrics.service Metrics service parameters
+  ##
+  service:
     ## @param metrics.service.type Kubernetes service type for Prometheus metrics
     ##
     type: ClusterIP
@@ -284,11 +327,11 @@ metrics:
       prometheus.io/port: "{{ .Values.metrics.service.port }}"
 
 ## autoscaling configurations
-## @param autoscaling.enabled Enable memcached statefulset autoscaling (requires architecture: "high-availability")
-## @param autoscaling.minReplicas memcached statefulset autoscaling minimum number of replicas
-## @param autoscaling.maxReplicas memcached statefulset autoscaling maximum number of replicas
-## @param autoscaling.targetCPU memcached statefulset autoscaling target CPU percentage
-## @param autoscaling.targetMemory memcached statefulset autoscaling target CPU memory
+## @param autoscaling.enabled Enable statefulset autoscaling (requires architecture: "high-availability")
+## @param autoscaling.minReplicas statefulset autoscaling minimum number of replicas
+## @param autoscaling.maxReplicas statefulset autoscaling maximum number of replicas
+## @param autoscaling.targetCPU statefulset autoscaling target CPU percentage
+## @param autoscaling.targetMemory statefulset autoscaling target CPU memory
 ##
 hpa:
   ## @param hpa.enabled Enable autoscaling policy
@@ -352,8 +395,9 @@ serviceAccount:
 securityContext:
   enabled: false
   config:
-    fsGroup: 1001
     runAsUser: 1001
+    runAsGroup: 1000
+    fsGroup: 100
     readOnlyRootFilesystem: false
     # capabilities:
     #   drop:
@@ -363,22 +407,37 @@ securityContext:
 ## ingress configurations
 ## set service.type=ClusterIP
 ingress:
+  ## Set to true to enable ingress record generation
   enabled: false
   className: ""
+
+  ## Ingress annotations done as key:value pairs
+  ## For a full list of possible ingress annotations, please see
+  ## ref: https://github.com/kubernetes/ingress-nginx/blob/master/docs/user-guide/nginx-configuration/annotations.md
+  ##
+  ## If tls is set to true, annotation ingress.kubernetes.io/secure-backends: "true" will automatically be set
+  ## If certManager is set to true, annotation kubernetes.io/tls-acme: "true" will automatically be set
   annotations: {}
     ## Nginx ingress controller (default)
     # nginx.ingress.kubernetes.io/rewrite-target: /$1
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
     # certmanager.k8s.io/cluster-issuer: letsencrypt-prod
+
   configured: false
   rewritePath: true
   pathPrefix: ""
+
+  ## The list of hostnames to be covered with this ingress record.
+  ## Most likely this will be just one host, but in the event more hosts are needed, this is an array
   hosts:
     - host: podinfo.local
       paths:
         - path: /
           pathType: ImplementationSpecific
+
+  ## The tls configuration for the ingress
+  ## see: https://kubernetes.io/docs/concepts/services-networking/ingress/#tls
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
@@ -390,6 +449,9 @@ linkerd:
     enabled: false
 
 ## service monitor configurations
+## Prometheus Service Monitor
+## ref: https://github.com/coreos/prometheus-operator
+## https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md
 serviceMonitor:
   ## @param serviceMonitor.enabled Create ServiceMonitor resource(s) for scraping metrics using PrometheusOperator
   ##
@@ -450,8 +512,22 @@ serviceMonitor:
   relabelings: []
 
   ## @param serviceMonitor.labels ServiceMonitor labels
+  ## Used to pass Labels that are used by the Prometheus installed in your cluster to select Service Monitors to work with
+  ## ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#prometheusspec
   ##
   labels: {}
+
+  ## @param serviceMonitor.alerting ServiceMonitor alerting parameters
+  ##
+  alerting:
+    ## Define individual alerting rules as required
+    ## ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#rulegroup
+    ##      https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/
+    rules: {}
+
+    ## Used to pass Labels that are used by the Prometheus installed in your cluster to select Prometheus Rules to work with
+    ## ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#prometheusspec
+    additionalLabels: {}
 
 ## virtual service configurations
 virtualservice:
@@ -615,6 +691,7 @@ deployment:
   ## @param deployment.container Container parameters
   ##
   container:
+    port: 8000
     image:
       repository: "styled-java-patterns"
       tag: "latest" # uses chart appVersion if not provided
@@ -626,7 +703,6 @@ deployment:
         # registry: docker.io
         # username: john_doe
         # password: changeme
-    port: 8000
 
   ## Container resource limits/requests
   ## @param deployment.resources Deployment resources
@@ -637,7 +713,9 @@ deployment:
       cpu: 1m
       memory: 16Mi
 
+  ## Configure extra options for liveness probes
   ## @param deployment.livenessProbe Deployment liveness probe
+  ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/#configure-probes)
   ##
   livenessProbe:
     enabled: false
@@ -647,8 +725,13 @@ deployment:
         port: http
       initialDelaySeconds: 210
       periodSeconds: 60
+      timeoutSeconds: 5
+      failureThreshold: 6
+      successThreshold: 1
 
+  ## Configure extra options for readiness probes
   ## @param deployment.readinessProbe Deployment readiness probe
+  ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/#configure-probes)
   ##
   readinessProbe:
     enabled: false
@@ -658,6 +741,9 @@ deployment:
         port: http
       initialDelaySeconds: 180
       periodSeconds: 60
+      timeoutSeconds: 5
+      failureThreshold: 6
+      successThreshold: 1
 
   ## @param deployment.nodeSelector Node labels for pod assignment
   ## ref: https://kubernetes.io/docs/user-guide/node-selection/

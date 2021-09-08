@@ -27,5 +27,5 @@ spec:
   resources:
     requests:
       storage: {{ .Values.persistence.size | quote }}
-  {{ include "mariadb.slave.storageClass" . }}
+  {{ include "Values.persistence.storageClass" . }}
 {{- end }}

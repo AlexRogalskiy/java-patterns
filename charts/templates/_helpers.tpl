@@ -105,5 +105,145 @@ Return the proper image name
 {{- $registryName := .Values.deployment.container.image.registry -}}
 {{- $repositoryName := .Values.deployment.container.image.repository -}}
 {{- $tag := .Values.deployment.container.image.tag | toString -}}
-{{- printf "%s/%s:%s" $registryName $repositoryName $tag -}}
+{{/*
+Helm 2.11 supports the assignment of a value to a variable defined in a different scope,
+but Helm 2.9 and 2.10 doesn't support it, so we need to implement this if-else logic.
+Also, we can't use a single if because lazy evaluation is not an option
+*/}}
+{{- if .Values.general }}
+    {{- if .Values.general.imageRegistry }}
+        {{- printf "%s/%s:%s" .Values.general.imageRegistry $repositoryName $tag -}}
+    {{- else -}}
+        {{- printf "%s/%s:%s" $registryName $repositoryName $tag -}}
+    {{- end -}}
+{{- else -}}
+    {{- printf "%s/%s:%s" $registryName $repositoryName $tag -}}
+{{- end -}}
+{{- end -}}
+
+{{/*
+Return the proper image name (for the metrics image)
+*/}}
+{{- define "backend-java-patterns.metrics.image" -}}
+{{- $registryName := .Values.metrics.image.registry -}}
+{{- $repositoryName := .Values.metrics.image.repository -}}
+{{- $tag := .Values.metrics.image.tag | toString -}}
+{{/*
+Helm 2.11 supports the assignment of a value to a variable defined in a different scope,
+but Helm 2.9 and 2.10 doesn't support it, so we need to implement this if-else logic.
+Also, we can't use a single if because lazy evaluation is not an option
+*/}}
+{{- if .Values.general }}
+    {{- if .Values.general.imageRegistry }}
+        {{- printf "%s/%s:%s" .Values.general.imageRegistry $repositoryName $tag -}}
+    {{- else -}}
+        {{- printf "%s/%s:%s" $registryName $repositoryName $tag -}}
+    {{- end -}}
+{{- else -}}
+    {{- printf "%s/%s:%s" $registryName $repositoryName $tag -}}
+{{- end -}}
+{{- end -}}
+
+{{/*
+Return the proper Storage Class
+*/}}
+{{- define "backend-java-patterns.storageClass" -}}
+{{/*
+Helm 2.11 supports the assignment of a value to a variable defined in a different scope,
+but Helm 2.9 and 2.10 does not support it, so we need to implement this if-else logic.
+*/}}
+{{- if .Values.general -}}
+    {{- if .Values.general.storageClass -}}
+        {{- if (eq "-" .Values.general.storageClass) -}}
+            {{- printf "storageClassName: \"\"" -}}
+        {{- else }}
+            {{- printf "storageClassName: %s" .Values.general.storageClass -}}
+        {{- end -}}
+    {{- else -}}
+        {{- if .Values.persistence.storageClass -}}
+              {{- if (eq "-" .Values.persistence.storageClass) -}}
+                  {{- printf "storageClassName: \"\"" -}}
+              {{- else }}
+                  {{- printf "storageClassName: %s" .Values.persistence.storageClass -}}
+              {{- end -}}
+        {{- end -}}
+    {{- end -}}
+{{- else -}}
+    {{- if .Values.persistence.storageClass -}}
+        {{- if (eq "-" .Values.persistence.storageClass) -}}
+            {{- printf "storageClassName: \"\"" -}}
+        {{- else }}
+            {{- printf "storageClassName: %s" .Values.persistence.storageClass -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+{{- end -}}
+
+
+{{/*
+Compile all warnings into a single message, and call fail.
+*/}}
+{{- define "backend-java-patterns.validateValues" -}}
+{{- $messages := list -}}
+{{- $messages2 := append $messages (include "backend-java-patterns.validateValues.customDatabase" .) -}}
+{{- $messages3 := without $messages2 "" -}}
+{{- $message := join "\n" $messages3 -}}
+
+{{- if $message -}}
+{{-   printf "\nVALUES VALIDATION:\n%s" $message | fail -}}
+{{- end -}}
+{{- end -}}
+
+{{/*
+Validate values of MongoDB - both mongodbUsername and mongodbDatabase are necessary
+to create a custom user and database during 1st initialization
+*/}}
+{{- define "backend-java-patterns.validateValues.customDatabase" -}}
+{{- if or (and .Values.general.username (not .Values.general.database)) (and (not .Values.general.username) .Values.general.database) }}
+db: username, database
+    Both username and database must be provided to create
+    a custom user and database during 1st initialization.
+    Please set both of them (--set username="xxxx",database="yyyy")
+{{- end -}}
+{{- end -}}
+
+{{/*
+Return the proper Docker Image Registry Secret Names
+*/}}
+{{- define "backend-java-patterns.imagePullSecrets" -}}
+{{/*
+Helm 2.11 supports the assignment of a value to a variable defined in a different scope,
+but Helm 2.9 and 2.10 does not support it, so we need to implement this if-else logic.
+Also, we can not use a single if because lazy evaluation is not an option
+*/}}
+{{- if .Values.general }}
+{{- if .Values.general.imagePullSecrets }}
+imagePullSecrets:
+{{- range .Values.general.imagePullSecrets }}
+  - name: {{ . }}
+{{- end }}
+{{- else if or .Values.image.pullSecrets .Values.metrics.image.pullSecrets .Values.volumePermissions.image.pullSecrets }}
+imagePullSecrets:
+{{- range .Values.image.pullSecrets }}
+  - name: {{ . }}
+{{- end }}
+{{- range .Values.metrics.image.pullSecrets }}
+  - name: {{ . }}
+{{- end }}
+{{- range .Values.volumePermissions.image.pullSecrets }}
+  - name: {{ . }}
+{{- end }}
+{{- end -}}
+{{- else if or .Values.image.pullSecrets .Values.metrics.image.pullSecrets .Values.volumePermissions.image.pullSecrets }}
+imagePullSecrets:
+{{- range .Values.image.pullSecrets }}
+  - name: {{ . }}
+{{- end }}
+{{- range .Values.metrics.image.pullSecrets }}
+  - name: {{ . }}
+{{- end }}
+{{- range .Values.volumePermissions.image.pullSecrets }}
+  - name: {{ . }}
+{{- end }}
+{{- end -}}
 {{- end -}}

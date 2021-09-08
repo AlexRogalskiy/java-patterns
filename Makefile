@@ -5,6 +5,8 @@ $(if $(findstring /,$(MAKEFILE_LIST)),$(error Please only invoke this makefile f
 # We also set -o pipefail so that if a previous command in a pipeline fails, a command fails.
 # http://redsymbol.net/articles/unofficial-bash-strict-mode
 SHELL := /bin/bash
+PYTHON := python3
+VENV_NAME := venv
 
 # Set V=1 on the command line to turn off all suppression. Many trivial
 # commands are suppressed with "@", by setting V=1, this will be turned off.
@@ -71,6 +73,11 @@ clean:
 	rm -rf dist
 	rm -rf release
 
+# Create venv.
+.PHONY: _venv
+_venv:
+	virtualenv $(VENV_NAME)
+
 # Ensures that the git workspace is clean.
 .PHONY: _ensure-clean
 _ensure-clean:
@@ -135,15 +142,29 @@ okteto:
 # Run local build command.
 .PHONY: local-build
 local-build:
-	python3 -m pip install -r ./docs/requirements.txt
-	python3 -m mkdocs build --clean --config-file mkdocs.yml
+	$(PYTHON) -m pip install -r ./docs/requirements.txt
+	$(PYTHON) -m mkdocs build --clean --config-file mkdocs.yml
 
 # Run local run command.
 .PHONY: local-run
-local-run:
-	python3 -m mkdocs serve --verbose --dirtyreload
+local-run: local-build
+	$(PYTHON) -m mkdocs serve --verbose --dirtyreload
+
+# Run venv build command.
+.PHONY: venv-build
+venv-build: _venv
+	. $(VENV_NAME)/bin/activate
+	$(VENV_NAME)/bin/python3 -m pip install -r ./docs/requirements.txt
+	$(VENV_NAME)/bin/python3 -m mkdocs build --clean --config-file mkdocs.yml
+	exit
+
+# Run venv run command.
+.PHONY: venv-run
+venv-run: _venv venv-build
+	. $(VENV_NAME)/bin/activate
+	$(VENV_NAME)/bin/python3 -m mkdocs serve --verbose --dirtyreload
 
 # Run github pages deploy command.
 .PHONY: gh-pages
 gh-pages:
-	python3 -m mkdocs --verbose gh-deploy --force --remote-branch gh-pages
+	$(PYTHON) -m mkdocs --verbose gh-deploy --force --remote-branch gh-pages

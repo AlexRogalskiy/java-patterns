@@ -25,5 +25,6 @@ spec:
     - name: metrics
       port: {{ .Values.metrics.service.port }}
       targetPort: metrics
-  selector: {{- include "common.labels.matchLabels" . | nindent 4 }}
+  selector:
+    {{- include "backend-java-patterns.selectorLabels" . | nindent 4 }}
 {{- end }}
