@@ -6,6 +6,7 @@ $(if $(findstring /,$(MAKEFILE_LIST)),$(error Please only invoke this makefile f
 # http://redsymbol.net/articles/unofficial-bash-strict-mode
 SHELL := /bin/bash
 PYTHON := python3
+NPM := npm
 VENV_NAME := venv
 
 # Set V=1 on the command line to turn off all suppression. Many trivial
@@ -168,3 +169,13 @@ venv-run: _venv venv-build
 .PHONY: gh-pages
 gh-pages:
 	$(PYTHON) -m mkdocs --verbose gh-deploy --force --remote-branch gh-pages
+
+# Run npm install command.
+.PHONY: deps
+deps:
+	$(NPM) install
+
+# Run npm all command.
+.PHONY: all
+all:
+	$(NPM) run all
