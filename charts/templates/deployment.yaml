@@ -39,12 +39,12 @@ spec:
         {{- range $key, $value := .Values.deployment.annotations }}
         {{ $key }}: {{ $value | quote }}
         {{- end }}
-        {{- end }}
-        {{- if .Values.metrics.annotations }}
+      {{- end }}
+      {{- if .Values.metrics.enabled }}
         {{- range $key, $value := .Values.metrics.annotations }}
         {{ $key }}: {{ $value | quote }}
         {{- end }}
-        {{- end }}
+      {{- end }}
       {{- end }}
     spec:
       restartPolicy: Always
@@ -55,6 +55,9 @@ spec:
       {{- end }}
       {{- if .Values.serviceAccount.enabled }}
       serviceAccountName: {{ include "backend-java-patterns.serviceAccountName" . }}
+      {{- end }}
+      {{- if .Values.schedulerName }}
+      schedulerName: "{{ .Values.schedulerName }}"
       {{- end }}
       {{- if .Values.priorityClassName }}
       priorityClassName: {{ .Values.priorityClassName | quote }}
@@ -71,6 +74,22 @@ spec:
       securityContext:
         {{- toYaml .Values.deployment.podSecurityContext | nindent 8 }}
       {{- end }}
+      initContainers:
+        {{- if .Values.extraInitContainers }}
+          {{ tpl .Values.extraInitContainers . | indent 6}}
+        {{- end }}
+        {{- if and .Values.volumePermissions.enabled .Values.persistence.enabled }}
+        - name: volume-permissions
+          image: {{ template "backend-java-patterns.volumePermissions.image" . }}
+          imagePullPolicy: {{ .Values.volumePermissions.image.pullPolicy | quote }}
+          command: ["chown", "-R", "{{ .Values.securityContext.config.runAsUser }}:{{ .Values.securityContext.config.fsGroup }}", "{{ .Values.persistence.mountPath }}"]
+          securityContext:
+            runAsUser: 0
+          resources: {{ toYaml .Values.volumePermissions.resources | nindent 10 }}
+          volumeMounts:
+            - name: data
+              mountPath: {{ .Values.persistence.mountPath }}
+        {{- end }}
       containers:
         {{- if .Values.deployment.sidecars }}
           {{- toYaml .Values.deployment.sidecars | nindent 8 }}
@@ -112,6 +131,10 @@ spec:
               {{- end }}
             {{- end }}
           env:
+            {{- if .Values.general.debug}}
+            - name: DEBUG
+              value: "true"
+            {{- end }}
             {{- if ne (.Values.deployment.container.port | int) (8000 | int) }}
             - name: PORT
               value: "{{ .Values.deployment.container.port }}"
@@ -161,10 +184,16 @@ spec:
           volumeMounts:
             {{- if .Values.configMaps.enabled }}
             - name: config
-              mountPath: /etc/config
+              mountPath: /etc/config/default.conf
+              subPath: default.conf
+            {{- if (.Files.Glob "files/docker-entrypoint-initdb.d/*[sh|js|json]") }}
+            - name: custom-init-scripts
+              mountPath: /docker-entrypoint-initdb.d
+            {{- end }}
             {{- end }}
             - name: data
-              mountPath: /data
+              mountPath: {{ .Values.persistence.mountPath }}
+              subPath: {{ .Values.persistence.subPath }}
             {{- if .Values.tls.enabled }}
             - name: tls
               mountPath: {{ .Values.tls.certPath | default "/data/cert" }}
@@ -202,6 +231,11 @@ spec:
         - name: config
           configMap:
             name: {{ $fullName }}
+        {{- if (.Files.Glob "files/docker-entrypoint-initdb.d/*[sh|js|json]") }}
+        - name: custom-init-scripts
+          configMap:
+            name: {{ $fullName }}-init-scripts
+        {{- end }}
         {{- end }}
         - name: data
           {{- if .Values.persistence.enabled }}
