@@ -1,0 +1,16 @@
+{{- if and .Values.metrics.enabled .Values.serviceMonitor.enabled .Values.serviceMonitor.alerting.rules }}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+apiVersion: monitoring.coreos.com/v1
+kind: PrometheusRule
+metadata:
+  name: {{ $fullName }}
+  namespace: {{ .Release.Namespace | quote }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+    {{- if .Values.serviceMonitor.alerting.labels }}
+      {{ toYaml .Values.serviceMonitor.alerting.labels | indent 4 }}
+    {{- end }}
+spec:
+  groups:
+    {{ toYaml .Values.serviceMonitor.alerting.rules | indent 4 }}
+{{- end }}

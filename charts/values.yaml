@@ -547,7 +547,7 @@ serviceMonitor:
 
     ## Used to pass Labels that are used by the Prometheus installed in your cluster to select Prometheus Rules to work with
     ## ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#prometheusspec
-    additionalLabels: {}
+    labels: {}
 
 ## virtual service configurations
 virtualservice:
