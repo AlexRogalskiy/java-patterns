@@ -9,6 +9,8 @@ SHELL := /bin/bash
 PYTHON := python3
 NPM := npm
 VENV_NAME := venv
+RELEASE_NAME := release
+GH_PAGES_NAME := site
 
 # Set V=1 on the command line to turn off all suppression. Many trivial
 # commands are suppressed with "@", by setting V=1, this will be turned off.
@@ -37,7 +39,7 @@ TMP_COVERAGE := $(TMP_BASE)/coverage
 UTILS := docker tilt helm
 # Make sure that all required utilities can be located.
 UTIL_CHECK := $(or $(shell which $(UTILS) >/dev/null && echo 'ok'),$(error Did you forget to install `docker` and `tilt` after cloning the repo? At least one of the required supporting utilities not found: $(UTILS)))
-DIRS := $(shell ls -ad -- */ | grep -v release)
+DIRS := $(shell ls -ad -- */)
 
 # Run all by default when "make" is invoked.
 .DEFAULT_GOAL := list
@@ -52,7 +54,7 @@ _no-target-specified:
 list:
 	$(AT)$(MAKE) -pRrn : -f $(MAKEFILE_LIST) 2>/dev/null | awk -v RS= -F: '/^# File/,/^# Finished Make data base/ {if ($$1 !~ "^[#.]") {print $$1}}' | command grep -v -e '^[^[:alnum:]]' -e '^$@$$command ' | sort
 
-# Lists all dirs (except `release`).
+# Lists all dirs.
 .PHONY: dirs
 dirs:
 	echo "$(DIRS)"
@@ -72,8 +74,9 @@ versions:
 .PHONY: clean
 clean:
 	rm -rf $(TMP_BASE)
-	rm -rf dist
-	rm -rf release
+	rm -rf $(RELEASE_NAME)
+	rm -rf $(GH_PAGES_NAME)
+	rm -rf $(VENV_NAME)
 	@echo
 	@echo "Clean finished."
 
@@ -133,8 +136,8 @@ helm-stop:
 # Run helm package command.
 .PHONY: helm-package
 helm-package:
-	mkdir -p release/charts
-	helm package charts --dependency-update --destination release/charts
+	mkdir -p $(RELEASE_NAME)/charts
+	helm package charts --dependency-update --destination $(RELEASE_NAME)/charts
 
 # Run helm dev command.
 .PHONY: helm-dev
