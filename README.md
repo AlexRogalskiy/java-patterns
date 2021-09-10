@@ -353,7 +353,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
-
+- [The Packaging Tool aka `jpackage` - JEP Café #4](https://inside.java/2021/09/09/jepcafe4/)
 - [New candidate JEP: 418: Internet-Address Resolution SPI](https://inside.java/2021/09/04/new-candidate-jep-418/)
 - [Brief Introduction to the Template Interpreter in OpenJDK](https://inside.java/2021/09/03/brief-intro-to-template-interpreter/)
 - [Calling a Rust library with the Panama FFI](https://inside.java/2021/09/03/calling-a-rust-library-with-panama-ffi/)
@@ -363,8 +363,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JEP Café #3](https://inside.java/2021/08/19/jepcafe3/)
 - [New Loom Early Access Build](https://inside.java/2021/08/13/new-loom-ea-builds/)
 - [Inside Java Newscast #10](https://inside.java/2021/08/12/insidejava-newscast-010/)
-- [New candidate JEP: 417: Vector API (Third Incubator)](https://inside.java/2021/08/12/new-candidate-jep-417/)
-
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
