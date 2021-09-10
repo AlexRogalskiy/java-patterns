@@ -278,18 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
+- [Attempting to make a basic repeater, but its not working, what am I doing wrong?](https://www.reddit.com/r/java/comments/pl9nhy/attempting_to_make_a_basic_repeater_but_its_not/)
+- [Good source-code structure in Java](https://www.reddit.com/r/java/comments/pl3xv4/good_sourcecode_structure_in_java/)
+- [Factory methods & the language model](https://www.reddit.com/r/java/comments/pl0cnp/factory_methods_the_language_model/)
+- [Rust for Java Developers - Introduction [Beginners]](https://www.reddit.com/r/java/comments/pkxwla/rust_for_java_developers_introduction_beginners/)
+- [Junior Java Developer](https://www.reddit.com/r/java/comments/pkw141/junior_java_developer/)
+- [Polyglot Maven](https://www.reddit.com/r/java/comments/pkvx18/polyglot_maven/)
+- [The Packaging Tool aka `jpackage` - JEP Café #4](https://www.reddit.com/r/java/comments/pkvumr/the_packaging_tool_aka_jpackage_jep_café_4/)
+- [A categorized list of all Java and JVM features since JDK 8 to 16](https://www.reddit.com/r/java/comments/pkqmdc/a_categorized_list_of_all_java_and_jvm_features/)
 - [Digging into Java Garbage Collection](https://www.reddit.com/r/java/comments/pkjj5e/digging_into_java_garbage_collection/)
 - [Do you use code generators in your IDEs or some external ones? If so, which ones?](https://www.reddit.com/r/java/comments/pkb1ns/do_you_use_code_generators_in_your_ides_or_some/)
-- [How to Dynamically Fill Data in Word Table Using Java](https://www.reddit.com/r/java/comments/pk8z46/how_to_dynamically_fill_data_in_word_table_using/)
-- [Is multi-thread programming less relevant nowadays?](https://www.reddit.com/r/java/comments/pk7kg8/is_multithread_programming_less_relevant_nowadays/)
-- [JDK Mission Control Core libraries now available on Maven Central](https://www.reddit.com/r/java/comments/pk79s7/jdk_mission_control_core_libraries_now_available/)
-- [JDK Mission Control Core libraries now available on Maven Central](https://www.reddit.com/r/java/comments/pk78w6/jdk_mission_control_core_libraries_now_available/)
-- [JavaFX 17 Released](https://www.reddit.com/r/java/comments/pjwurb/javafx\_17\_released/)
-- [Identifying, Reporting, and Fixing CVE-2021-22119: DoS Vulnerability in Spring Security OAuth 2.0](https://www.reddit.com/r/java/comments/pjnkcg/identifying_reporting_and_fixing_cve202122119\_dos/)
-- [Release Notes for JavaFX 17](https://www.reddit.com/r/java/comments/pjkzfl/release_notes_for_javafx\_17/)
-- [Do you use Java for Saas product?](https://www.reddit.com/r/java/comments/pjjtf4/do_you_use_java_for_saas_product/)
-
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
