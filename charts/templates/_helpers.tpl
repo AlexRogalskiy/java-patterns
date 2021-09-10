@@ -195,8 +195,8 @@ Compile all warnings into a single message, and call fail.
 {{- end -}}
 
 {{/*
-Validate values of MongoDB - both mongodbUsername and mongodbDatabase are necessary
-to create a custom user and database during 1st initialization
+Validate both values: username and database that are necessary
+to create a custom user and database during initialization
 */}}
 {{- define "backend-java-patterns.validateValues.customDatabase" -}}
 {{- if or (and .Values.general.username (not .Values.general.database)) (and (not .Values.general.username) .Values.general.database) }}

@@ -5,6 +5,7 @@ $(if $(findstring /,$(MAKEFILE_LIST)),$(error Please only invoke this makefile f
 # We also set -o pipefail so that if a previous command in a pipeline fails, a command fails.
 # http://redsymbol.net/articles/unofficial-bash-strict-mode
 SHELL := /bin/bash
+#SHELL := /bin/bash -o pipefail
 PYTHON := python3
 NPM := npm
 VENV_NAME := venv

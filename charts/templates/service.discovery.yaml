@@ -40,8 +40,7 @@ spec:
   publishNotReadyAddresses: true
   ports:
   {{- $ports := .Values.service.ports }}
-    # The main port, served by gRPC, serves Postgres-flavor SQL, inter-node
-    # traffic and the CLI.
+    # The main port, served by gRPC inter-node traffic and the CLI.
     - name: {{ $ports.grpc.external.name | quote }}
       port: {{ $ports.grpc.external.port | int64 }}
       targetPort: grpc
