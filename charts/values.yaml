@@ -35,6 +35,10 @@ general:
   ## NOTE: This will override initdbScripts
   # initdbScriptsConfigMap:
 
+## @param terminationGracePeriodSeconds Pod termination grace period (in seconds)
+##
+terminationGracePeriodSeconds: 30
+
 ## @param topologySpreadConstraints Topology Spread Constraints for pod assignment spread across your cluster among failure-domains
 ## Ref: https://kubernetes.io/docs/concepts/workloads/pods/pod-topology-spread-constraints/#spread-constraints-for-pods
 ##

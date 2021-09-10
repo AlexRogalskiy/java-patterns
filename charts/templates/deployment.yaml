@@ -48,7 +48,9 @@ spec:
       {{- end }}
     spec:
       restartPolicy: Always
-      terminationGracePeriodSeconds: 30
+      {{- if .Values.terminationGracePeriodSeconds }}
+      terminationGracePeriodSeconds: {{ .Values.terminationGracePeriodSeconds }}
+      {{- end }}
       {{- with .Values.deployment.container.image.pullSecrets }}
       imagePullSecrets:
         {{- toYaml . | nindent 8 }}
@@ -133,7 +135,7 @@ spec:
           env:
             {{- if .Values.general.debug}}
             - name: DEBUG
-              value: "true"
+              value: {{ ternary "true" "false" .Values.general.debug | quote }}
             {{- end }}
             {{- if ne (.Values.deployment.container.port | int) (8000 | int) }}
             - name: PORT

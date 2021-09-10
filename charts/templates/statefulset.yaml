@@ -20,7 +20,6 @@ spec:
     {{- if (eq "Recreate" .Values.statefulset.updateStrategy.type) }}
     rollingUpdate: null
     {{- end }}
-#   updateStrategy: {{- toYaml .Values.statefulset.updateStrategy | nindent 4 }}
   podManagementPolicy: {{ .Values.statefulset.podManagementPolicy | quote }}
   selector:
     matchLabels:
@@ -240,6 +239,13 @@ spec:
           volumeMounts:
             - name: datadir
               mountPath: /etc/data/
+          {{- if or (.Files.Glob "files/conf.d/*.conf") .Values.extendedConf .Values.extendedConfConfigMap }}
+            - name: postgresql-extended-config
+              mountPath: /bitnami/postgresql/conf/conf.d/
+          {{- end }}
+          {{- if .Values.extraVolumeMounts }}
+            {{- toYaml .Values.extraVolumeMounts | nindent 8 }}
+          {{- end }}
           {{- if .Values.tls.enabled }}
             - name: certs
               mountPath: /etc/certs/
@@ -309,6 +315,9 @@ spec:
           emptyDir: {}
           {{- end }}
       {{- end }}
+      {{- if .Values.extraVolumes }}
+        {{- toYaml .Values.extraVolumes | nindent 6}}
+      {{- end }}
       {{- range .Values.statefulset.secretMounts }}
         - name: {{ printf "secret-%s" . | quote }}
           secret:
@@ -327,7 +336,10 @@ spec:
         annotations: {{- toYaml . | nindent 10 }}
       {{- end }}
       spec:
-        accessModes: ["ReadWriteOnce"]
+        accessModes:
+        {{- range .Values.persistence.accessModes }}
+          - {{ . | quote }}
+        {{- end }}
       {{- if .Values.persistence.storageClass }}
       {{- if (eq "-" .Values.persistence.storageClass) }}
         storageClassName: ""
