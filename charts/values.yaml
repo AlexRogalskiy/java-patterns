@@ -14,8 +14,26 @@ general:
   fullnameOverride: ""
   logLevel: info
   host: #0.0.0.0
-  backend: #http://backend-podinfo:9898/echo
-  backends: []
+
+  ## ConfigMap with PostgreSQL extended configuration
+  # extendedConfConfigMap:
+
+  ## ConfigMap with PostgreSQL configuration
+  ## NOTE: This will override postgresqlConfiguration and pgHbaConfiguration
+  # configurationConfigMap:
+
+  ## initdb scripts
+  ## Specify dictionary of scripts to be run at first boot
+  ## Alternatively, you can put your scripts under the files/docker-entrypoint-initdb.d directory
+  ##
+  # initdbScripts:
+  #   my_init_script.sh: |
+  #      #!/bin/sh
+  #      echo "Do something."
+
+  ## ConfigMap with scripts to be run at first boot
+  ## NOTE: This will override initdbScripts
+  # initdbScriptsConfigMap:
 
 ## @param topologySpreadConstraints Topology Spread Constraints for pod assignment spread across your cluster among failure-domains
 ## Ref: https://kubernetes.io/docs/concepts/workloads/pods/pod-topology-spread-constraints/#spread-constraints-for-pods
@@ -96,42 +114,69 @@ service:
   ## @param service.enabled Enable service parameters
   ##
   enabled: true
+
   ## @param service.labels Additional labels for service
   ##
   labels: {}
+
   ## @param service.annotations Additional annotations for service
   ##
   annotations: {}
+
   ## @param service.type Kubernetes service type
   ##
   type: ClusterIP
+
   ## @param service.httpPort Kubernetes service http port
   ##
   httpPort: 8000
+
   ## @param service.type Kubernetes service external port
   ##
   externalPort: 8000
+
   ## @param service.loadBalancerIP `loadBalancerIP` if service type is `LoadBalancer`
   ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#internal-load-balancer
   ##
   loadBalancerIP: ""
+
+  ## Specify the nodePort value for the LoadBalancer and NodePort service types.
+  ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
   ## @param service.nodePort Kubernetes Service nodePort
   ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
   ##
   nodePort: 8000
+
   ## @param service.hostPort Kubernetes service host port
   ## the port used to bind the http port to the host
   ## NOTE: requires privileged container with NET_BIND_SERVICE capability -- this is useful for testing
   ## in local clusters such as kind without port forwarding
   ##
   hostPort:
+
+  ## Specify the externalIP value ClusterIP service type.
+  ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#external-ips
+  # externalIPs: []
+
+  ## Specify the loadBalancerIP value for LoadBalancer service types.
+  ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer
+  ##
+  # loadBalancerIP:
+
+  ## Specify the loadBalancerSourceRanges value for LoadBalancer service types.
+  ## ref: https://kubernetes.io/docs/tasks/access-application-cluster/configure-cloud-provider-firewall/#restrict-access-for-loadbalancer-service
+  ##
+  # loadBalancerSourceRanges: []
+
   discovery:
     ## @param service.h2c.discovery.enabled Enable h2c protocol
     ##
     enabled: false
+
     ## @param service.discovery.labels Service discovery labels
     ##
     labels: {}
+
     ## @param service.discovery.annotations Service discovery annotations
     ##
     annotations: {}
@@ -147,11 +192,22 @@ networkPolicy:
   ## @param networkPolicy.enabled Enable network policy
   ##
   enabled: false
+
+  ## The Policy model to apply. When set to false, only pods with the correct
+  ## client label will have network access to the port PostgreSQL is listening
+  ## on. When true, PostgreSQL will accept connections from any source
+  ## (with the correct destination port).
+  ##
+  allowExternal: true
+
+  ## @param networkPolicy.ingress Ingress parameters
+  ##
   ingress:
     # List of sources which should be able to access the pods via
     # gRPC port. Items in this list are combined using a logical OR operation.
     # Rules for allowing inter-communication are applied automatically.
     # If empty, then connections from any Pod is allowed.
+
     grpc: []
       # - podSelector:
       #     matchLabels:
@@ -161,6 +217,7 @@ networkPolicy:
     # List of sources which should be able to access the pods via
     # HTTP port. Items in this list are combined using a logical OR operation.
     # If empty, then connections from any Pod is allowed.
+
     http: []
       # - namespaceSelector:
       #     matchLabels:
@@ -213,22 +270,28 @@ tls:
   ## @param tls.enabled Enable tls parameters
   ##
   enabled: false
+
   ## the name of the secret used to mount the certificate key pair
   ##
   secretName:
+
   ## the path where the certificate key pair will be mounted
   ##
   certPath: /data/cert
+
   ## The subdirectory of the volume to mount to, useful in dev environments
   ## and one PV for multiple services.
   ##
   subPath: ""
+
   ## the port used to host the tls endpoint on the service
   ##
   httpPort: 8000
+
   ## the external port used to connect from external host
   ##
   externalPort: 8000
+
   ## the port used to bind the tls port to the host
   ## NOTE: requires privileged container with NET_BIND_SERVICE capability -- this is useful for testing
   ## in local clusters such as kind without port forwarding
@@ -239,10 +302,12 @@ certificate:
   ## @param certificate.enabled Enable certificate parameters
   ##
   enabled: false
+
   # the issuer used to issue the certificate
   issuerRef:
     kind: ClusterIssuer
     name: self-signed
+
   # the hostname / subject alternative names for the certificate
   dnsNames:
     - localhost
@@ -603,9 +668,11 @@ statefulset:
     ## @param statefulset.podDisruptionBudget.enabled Specifies whether a Pod disruption budget should be created
     ##
     enabled: false
+
     ## @param statefulset.podDisruptionBudget.minAvailable Minimum number of pods that need to be available
     ##
     minAvailable: 1
+
     ## @param statefulset.podDisruptionBudget.maxUnavailable Maximum number of pods that can be unavailable
     ##
     maxUnavailable: 1
@@ -668,6 +735,7 @@ statefulset:
     # Type of anti-affinity rules: either `soft`, `hard` or empty value (which
     # disables anti-affinity rules).
     type: soft
+
     # Weight for `soft` anti-affinity rules.
     # Does not apply for other anti-affinity types.
     weight: 100

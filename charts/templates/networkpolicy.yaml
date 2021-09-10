@@ -1,9 +1,10 @@
 {{- if .Values.networkPolicy.enabled }}
 {{- $serviceAccountName := include "backend-java-patterns.serviceAccountName" . -}}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
 apiVersion: {{ template "backend-java-patterns.networkPolicy.apiVersion" . }}
 kind: NetworkPolicy
 metadata:
-  name: {{ $serviceAccountName }}
+  name: {{ $fullName }}
   namespace: {{ .Release.Namespace | quote }}
   labels:
     {{- include "backend-java-patterns.labels" . | nindent 4 }}
@@ -16,7 +17,8 @@ spec:
     {{- end }}
   ingress:
     - ports:
-        - port: grpc
+        - port: {{ template "backend-java-patterns.port" . }}
+    {{- if not .Values.networkPolicy.allowExternal }}
     {{- with .Values.networkPolicy.ingress.grpc }}
       from:
         # Allow connections via custom rules.
@@ -40,6 +42,7 @@ spec:
               {{- toYaml . | nindent 14 }}
             {{- end }}
       {{- end }}
+    {{- end }}
     {{- end }}
     # Allow connections to admin UI and for Prometheus.
     - ports:

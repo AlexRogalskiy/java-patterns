@@ -270,3 +270,18 @@ Also, we can't use a single if because lazy evaluation is not an option
     {{- printf "%s/%s:%s" $registryName $repositoryName $tag -}}
 {{- end -}}
 {{- end -}}
+
+{{/*
+Return port
+*/}}
+{{- define "backend-java-patterns.port" -}}
+{{- if .Values.general.servicePort }}
+    {{- .Values.general.servicePort -}}
+{{- else if .Values.service.httpPort }}
+    {{- .Values.service.httpPort -}}
+{{- else if .Values.service.nodePort }}
+  {{- .Values.service.nodePort -}}
+{{- else -}}
+  {{- .Values.service.port -}}
+{{- end -}}
+{{- end -}}
