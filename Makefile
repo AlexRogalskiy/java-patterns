@@ -74,11 +74,16 @@ clean:
 	rm -rf $(TMP_BASE)
 	rm -rf dist
 	rm -rf release
+	@echo
+	@echo "Clean finished."
 
 # Create venv.
 .PHONY: _venv
 _venv:
 	virtualenv $(VENV_NAME)
+	. $(VENV_NAME)/bin/activate
+	@echo
+	@echo "Virtual env created. The source pages are in $(VENV_NAME) directory."
 
 # Ensures that the git workspace is clean.
 .PHONY: _ensure-clean
@@ -155,28 +160,34 @@ local-run: local-build
 # Run venv build command.
 .PHONY: venv-build
 venv-build: _venv
-	. $(VENV_NAME)/bin/activate
 	$(VENV_NAME)/bin/python3 -m pip install -r ./docs/requirements.txt
 	$(VENV_NAME)/bin/python3 -m mkdocs build --clean --config-file mkdocs.yml
+	@echo
+	@echo "Build finished. The source pages are in $(VENV_NAME) directory."
 	exit
 
 # Run venv run command.
 .PHONY: venv-run
-venv-run: _venv venv-build
-	. $(VENV_NAME)/bin/activate
+venv-run: venv-build
 	$(VENV_NAME)/bin/python3 -m mkdocs serve --verbose --dirtyreload
 
 # Run github pages deploy command.
 .PHONY: gh-pages
 gh-pages:
 	$(PYTHON) -m mkdocs --verbose gh-deploy --force --remote-branch gh-pages
+	@echo
+	@echo "GitHub pages generated."
 
 # Run npm install command.
 .PHONY: deps
 deps:
 	$(NPM) install
+	@echo
+	@echo "Install finished."
 
 # Run npm all command.
 .PHONY: all
 all:
 	$(NPM) run all
+	@echo
+	@echo "Build finished."
