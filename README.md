@@ -278,18 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
-- [Attempting to make a basic repeater, but its not working, what am I doing wrong?](https://www.reddit.com/r/java/comments/pl9nhy/attempting_to_make_a_basic_repeater_but_its_not/)
-- [Good source-code structure in Java](https://www.reddit.com/r/java/comments/pl3xv4/good_sourcecode_structure_in_java/)
-- [Factory methods & the language model](https://www.reddit.com/r/java/comments/pl0cnp/factory_methods_the_language_model/)
-- [Rust for Java Developers - Introduction \[Beginners\]](https://www.reddit.com/r/java/comments/pkxwla/rust_for_java_developers_introduction_beginners/)
-- [Junior Java Developer](https://www.reddit.com/r/java/comments/pkw141/junior_java_developer/)
-- [Polyglot Maven](https://www.reddit.com/r/java/comments/pkvx18/polyglot_maven/)
-- [The Packaging Tool aka `jpackage` - JEP Café #4](https://www.reddit.com/r/java/comments/pkvumr/the_packaging_tool_aka_jpackage_jep_café\_4/)
-- [A categorized list of all Java and JVM features since JDK 8 to 16](https://www.reddit.com/r/java/comments/pkqmdc/a_categorized_list_of_all_java_and_jvm_features/)
-- [Digging into Java Garbage Collection](https://www.reddit.com/r/java/comments/pkjj5e/digging_into_java_garbage_collection/)
-- [Do you use code generators in your IDEs or some external ones? If so, which ones?](https://www.reddit.com/r/java/comments/pkb1ns/do_you_use_code_generators_in_your_ides_or_some/)
-
+- [Why is learning framework so difficult](https://www.reddit.com/r/java/comments/plr3mg/why_is_learning_framework_so_difficult/)
+- [What do you think about Tim Buchalka's Data Structures and Algorithms Using Java course?](https://www.reddit.com/r/java/comments/plqand/what_do_you_think_about_tim_buchalkas_data/)
+- [How to keep constant Heap size with MinRamPercentage and MaxRamPercentage options](https://www.reddit.com/r/java/comments/pllw2j/how_to_keep_constant_heap_size_with/)
+- [JavaFX 17 Maven Artifacts](https://www.reddit.com/r/java/comments/plkzql/javafx_17_maven_artifacts/)
+- [Will Microsoft's Ongoing Push Draw Java Developers to Azure? -- ADTmag](https://www.reddit.com/r/java/comments/plk5mr/will_microsofts_ongoing_push_draw_java_developers/)
+- [hq - command line HTML processor built with Quarkus and compiled to native using GraalVM](https://www.reddit.com/r/java/comments/plh5pr/hq_command_line_html_processor_built_with_quarkus/)
+- [What Modules Are About](https://www.reddit.com/r/java/comments/plgv9h/what_modules_are_about/)
+- [Java Annotated Monthly – September 2021 | The IntelliJ IDEA Blog](https://www.reddit.com/r/java/comments/plefe2/java_annotated_monthly_september_2021_the/)
+- [Overhead Added by Collecting Java Thread Dumps](https://www.reddit.com/r/java/comments/ple3gd/overhead_added_by_collecting_java_thread_dumps/)
+- [Why people don't love Java?](https://www.reddit.com/r/java/comments/pldhus/why_people_dont_love_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
