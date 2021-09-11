@@ -353,7 +353,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
-
+- [What Modules Are About](https://inside.java/2021/09/10/what-are-modules-about/)
 - [The Packaging Tool aka `jpackage` - JEP Café #4](https://inside.java/2021/09/09/jepcafe4/)
 - [New candidate JEP: 418: Internet-Address Resolution SPI](https://inside.java/2021/09/04/new-candidate-jep-418/)
 - [Brief Introduction to the Template Interpreter in OpenJDK](https://inside.java/2021/09/03/brief-intro-to-template-interpreter/)
@@ -361,10 +361,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JDK Mission Control Core libraries now available on Maven Central](https://inside.java/2021/09/01/jmc-libs-avialable-on-maven-central/)
 - [Fast and Secure Inter-process Communication on JDK 16 - Inside Java Newscast #11](https://inside.java/2021/08/26/insidejava-newscast-011/)
 - [JEP proposed to target JDK 18: 413: Code Snippets in Java API Documentation](https://inside.java/2021/08/23/jep-413-proposed-to-target-jdk18/)
-- [JEP Café #3](https://inside.java/2021/08/19/jepcafe3/)
+- [Switch Expressions - JEP Café #3](https://inside.java/2021/08/19/jepcafe3/)
 - [New Loom Early Access Build](https://inside.java/2021/08/13/new-loom-ea-builds/)
-- [Inside Java Newscast #10](https://inside.java/2021/08/12/insidejava-newscast-010/)
-
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
