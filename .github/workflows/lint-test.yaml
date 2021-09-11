@@ -37,7 +37,7 @@ jobs:
           fi
 
       - name: Run chart-testing (lint)
-        run: ct lint --config ct.yaml
+        run: ct lint --config ct-lint.yaml
 
       - name: Create kind cluster
         uses: helm/kind-action@v1.1.0
@@ -45,3 +45,33 @@ jobs:
 
       - name: Run chart-testing (install)
         run: ct install --config ct.yaml
+
+ test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Fetch history
+        run: git fetch --prune --unshallow
+
+      - name: Set up chart-testing
+        uses: helm/chart-testing-action@v2.1.0
+
+      - name: Create kind cluster
+        uses: helm/kind-action@v1.2.0
+
+      - name: Run chart-testing (install)
+        run: ct install --config ct.yaml
+
+  check-categories:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Fetch history
+        run: git fetch --prune --unshallow
+
+      - name: Check categories
+        uses: bitnami/chart-categories-action@master
