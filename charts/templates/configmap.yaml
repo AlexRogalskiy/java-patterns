@@ -12,3 +12,7 @@ data:
   SERVER_PORT: {{ default "" .Values.configMaps.data.serverPort | quote }}
   APP_NAME: {{ default "" .Values.configMaps.data.appName | quote }}
 {{- end }}
+  credentials: |
+    #!/bin/bash
+    echo username=$GIT_TOKEN
+    echo password=""

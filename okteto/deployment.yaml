@@ -49,7 +49,9 @@ metadata:
     app.kubernetes.io/part-of: serverless
     app.kubernetes.io/managed-by: okteto
   annotations:
+#   let okteto dynamically generate the ingress hostname
     dev.okteto.com/generate-host: "true"
+    dev.okteto.com/private: "true"
 spec:
   rules:
     - http:

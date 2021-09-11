@@ -1,3 +1,7 @@
+############################################################################
+# Variables
+############################################################################
+
 # Since we rely on paths relative to the makefile location, abort if make isn't being run from there.
 $(if $(findstring /,$(MAKEFILE_LIST)),$(error Please only invoke this makefile from the directory it resides in))
 
@@ -44,10 +48,52 @@ DIRS := $(shell ls -ad -- */)
 # Run all by default when "make" is invoked.
 .DEFAULT_GOAL := list
 
+############################################################################
+# Common
+############################################################################
+
 # Default target (by virtue of being the first non '.'-prefixed in the file).
 .PHONY: _no-target-specified
 _no-target-specified:
 	$(error Please specify the target to make - `make list` shows targets)
+
+# Create virtual environment.
+.PHONY: _venv
+_venv:
+	virtualenv $(VENV_NAME)
+	. $(VENV_NAME)/bin/activate
+	@echo
+	@echo "Virtual env created. The source pages are in $(VENV_NAME) directory."
+
+# Create help information.
+.PHONY: help
+help:
+	@echo
+	@echo "Please use \`make <target>' where <target> is one of"
+	@echo "  all       				to run linting & format tasks"
+	@echo "  clean     				to remove temporary directories"
+	@echo "  deps 						to install dependencies"
+	@echo "  dirs     				to list directories"
+	@echo "  docker-build     to build docker image"
+	@echo "  docker-start   	to start docker image"
+	@echo "  docker-stop     	to stop docker image"
+	@echo "  gh-pages  				to create new version of documentation and publish on GitHub pages"
+	@echo "  helm-dev    			to lint and create helm package"
+	@echo "  helm-lint       	to lint helm charts"
+	@echo "  helm-package     to package helm charts"
+	@echo "  helm-start      	to run k8s cluster"
+	@echo "  helm-stop   			to stop k8s cluster"
+	@echo "  help 						to list all make targets with description"
+	@echo "  list       			to list all make targets"
+	@echo "  local-build      to build documentation locally"
+	@echo "  local-run    		to run documentation locally"
+	@echo "  okteto      			to build okteto image"
+	@echo "  tilt-start    		to start development k8s cluster"
+	@echo "  tilt-stop    		to stop development k8s cluster"
+	@echo "  venv-build       to build documentation in virtual environment"
+	@echo "  venv-run  				to run documentation in virtual environment"
+	@echo "  versions  				to list commands versions"
+	@echo
 
 # Lists all targets defined in this makefile.
 .PHONY: list
@@ -58,6 +104,8 @@ list:
 .PHONY: dirs
 dirs:
 	echo "$(DIRS)"
+	@echo
+	@echo "Directory list finished."
 
 # Run version command.
 .PHONY: versions
@@ -69,6 +117,8 @@ versions:
 	$(AT) echo
 	helm version
 	$(AT) echo
+	@echo
+	@echo "Versions list finished."
 
 # Clean removes all temporary files.
 .PHONY: clean
@@ -79,14 +129,6 @@ clean:
 	rm -rf $(VENV_NAME)
 	@echo
 	@echo "Clean finished."
-
-# Create venv.
-.PHONY: _venv
-_venv:
-	virtualenv $(VENV_NAME)
-	. $(VENV_NAME)/bin/activate
-	@echo
-	@echo "Virtual env created. The source pages are in $(VENV_NAME) directory."
 
 # Ensures that the git workspace is clean.
 .PHONY: _ensure-clean
