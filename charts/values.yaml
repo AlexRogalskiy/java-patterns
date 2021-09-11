@@ -149,12 +149,21 @@ service:
   ##
   loadBalancerIP: ""
 
+  ## Specify the port value for the service types.
+  ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
+  ## @param service.ports.http Kubernetes Service port
+  ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-port
+  ##
+  ports:
+    http: 8000
+
   ## Specify the nodePort value for the LoadBalancer and NodePort service types.
   ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
-  ## @param service.nodePort Kubernetes Service nodePort
+  ## @param service.nodePorts.http Kubernetes Service nodePort
   ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
   ##
-  nodePort: 8000
+  nodePorts:
+    http: 8000
 
   ## @param service.hostPort Kubernetes service host port
   ## the port used to bind the http port to the host

@@ -1,9 +1,9 @@
-{{- if and (or (.Files.Glob "files/conf.d/*.conf") .Values.general.extendedConf) (not .Values.general.extendedConfConfigMap)}}
+{{- if and (.Files.Glob "files/vhosts/*.conf") (not .Values.vhostsConfigMap) }}
 {{- $fullName := include "backend-java-patterns.fullname" . -}}
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: {{ $fullName }}-extended-configuration
+  name: {{ $fullName }}-vhosts
   namespace: {{ .Release.Namespace | quote }}
   labels:
     {{- include "backend-java-patterns.labels" . | nindent 4 }}
@@ -19,13 +19,5 @@ metadata:
   {{- end }}
   {{- end }}
 data:
-{{- with .Files.Glob "files/conf.d/*.conf" }}
-{{ .AsConfig | indent 2 }}
-{{- end }}
-{{ with .Values.general.extendedConf }}
-  override.conf: |
-{{- range $key, $value := . }}
-    {{ $key | snakecase }}={{ $value }}
-{{- end }}
-{{- end }}
-{{- end }}
+{{ (.Files.Glob "files/vhosts/*.conf").AsConfig | indent 2 }}
+{{ end }}

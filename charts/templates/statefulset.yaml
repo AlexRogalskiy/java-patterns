@@ -14,13 +14,18 @@ metadata:
   {{- end }}
 spec:
   serviceName: {{ $fullName }}
-  replicas: {{ .Values.statefulset.replicas | int64 }}
+  replicas: {{ default 1 .Values.statefulset.replicas | int64 }}
   updateStrategy:
-    type: {{ .Values.statefulset.updateStrategy.type }}
+    type: {{ .Values.statefulset.updateStrategy.type | quote }}
     {{- if (eq "Recreate" .Values.statefulset.updateStrategy.type) }}
     rollingUpdate: null
+    {{- else if .Values.statefulset.rollingUpdatePartition }}
+    rollingUpdate:
+      partition: {{ .Values.statefulset.rollingUpdatePartition }}
     {{- end }}
+  {{- if .Values.statefulset.podManagementPolicy }}
   podManagementPolicy: {{ .Values.statefulset.podManagementPolicy | quote }}
+  {{- end }}
   selector:
     matchLabels:
       {{- include "backend-java-patterns.selectorLabels" . | nindent 6 }}

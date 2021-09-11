@@ -23,10 +23,10 @@ Thank you for installing Java Patterns Docs!
      NOTE: It may take a few minutes for the LoadBalancer IP to be available.
            You can watch the status of by running 'kubectl get --namespace {{ .Release.Namespace }} svc -w {{ include "backend-java-patterns.fullname" . }}'
   export SERVICE_IP=$(kubectl get svc --namespace {{ .Release.Namespace }} {{ include "backend-java-patterns.fullname" . }} --template "{{"{{ range (index .status.loadBalancer.ingress 0) }}{{.}}{{ end }}"}}")
-  echo "http://$SERVICE_IP:{{ .Values.service.port }}/java-patterns/"
+  echo "http://$SERVICE_IP:{{ .Values.service.ports.http }}/java-patterns/"
 
 {{- else if contains "ClusterIP" .Values.service.type }}
-  kubectl --namespace {{ .Release.Namespace }} port-forward svc/{{ include "backend-java-patterns.fullname" . }} {{ .Values.service.port }}
+  kubectl --namespace {{ .Release.Namespace }} port-forward svc/{{ include "backend-java-patterns.fullname" . }} {{ .Values.service.ports.http }}
 
   Port-forward >>> kubectl --namespace {{ .Release.Namespace }} port-forward $KUBERNETES_POD_NAME {{ .Values.service.externalPort }}:{{ .Values.service.externalPort }}
   Logs >>> kubectl logs deployment/{{ include "backend-java-patterns.fullname" . }} -c recv

@@ -7,6 +7,17 @@ metadata:
   namespace: {{ .Release.Namespace | quote }}
   labels:
     {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  {{- if .Values.general.labels }}
+  {{- with .Values.general.labels }}
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+  {{- end }}
+  {{- if .Values.general.annotations }}
+  {{- with .Values.general.annotations }}
+  annotations:
+    {{- toYaml . | indent 4 }}
+  {{- end }}
+  {{- end }}
 data:
   DEBUG: {{ default "" .Values.configMaps.data.debug | quote }}
   SERVER_PORT: {{ default "" .Values.configMaps.data.serverPort | quote }}

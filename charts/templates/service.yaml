@@ -40,20 +40,38 @@ spec:
   loadBalancerSourceRanges: {{- toYaml .Values.service.loadBalancerSourceRanges | nindent 4 }}
   {{- end }}
   ports:
-    - port: {{ .Values.service.externalPort | int64 }}
+    {{- if .Values.service.ports.http }}
+    - port: {{ .Values.service.ports.http | int64 }}
       targetPort: http
       protocol: TCP
       name: http
-      {{- if and (or (eq .Values.service.type "NodePort") (eq .Values.service.type "LoadBalancer")) (not (empty .Values.service.nodePort)) }}
-      nodePort: {{ .Values.service.nodePort }}
+      {{- if and (or (eq .Values.service.type "NodePort") (eq .Values.service.type "LoadBalancer")) (not (empty .Values.service.nodePorts.http)) }}
+      nodePort: {{ .Values.service.nodePorts.http }}
       {{- else if eq .Values.service.type "ClusterIP" }}
       nodePort: null
       {{- end }}
+    {{- end }}
+    {{- if .Values.service.ports.grpc }}
+    - port: {{ .Values.service.ports.grpc | int64 }}
+      targetPort: grpc
+      protocol: TCP
+      name: grpc
+      {{- if and (or (eq .Values.service.type "NodePort") (eq .Values.service.type "LoadBalancer")) (not (empty .Values.service.nodePorts.grpc)) }}
+      nodePort: {{ .Values.service.nodePorts.grpc }}
+      {{- else if eq .Values.service.type "ClusterIP" }}
+      nodePort: null
+      {{- end }}
+    {{- end }}
     {{- if .Values.tls.enabled }}
     - port: {{ .Values.tls.httpPort | default 8000 | int64 }}
       targetPort: https
       protocol: TCP
       name: https
+      {{- if and (or (eq .Values.service.type "NodePort") (eq .Values.service.type "LoadBalancer")) (not (empty .Values.service.nodePorts.https)) }}
+      nodePort: {{ .Values.service.nodePorts.https }}
+      {{- else if eq .Values.service.type "ClusterIP" }}
+      nodePort: null
+      {{- end }}
     {{- end }}
   selector:
     {{- include "backend-java-patterns.selectorLabels" . | nindent 4 }}

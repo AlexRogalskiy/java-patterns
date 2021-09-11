@@ -279,9 +279,23 @@ Return port
     {{- .Values.general.servicePort -}}
 {{- else if .Values.service.httpPort }}
     {{- .Values.service.httpPort -}}
-{{- else if .Values.service.nodePort }}
-  {{- .Values.service.nodePort -}}
+{{- else if .Values.service.nodePorts.http }}
+  {{- .Values.service.nodePorts.http -}}
+{{- else if .Values.service.nodePorts.https }}
+  {{- .Values.service.nodePorts.https -}}
 {{- else -}}
-  {{- .Values.service.port -}}
+  {{- .Values.service.ports.http -}}
+{{- end -}}
+{{- end -}}
+
+{{/*
+Get the user defined LoadBalancerIP for this release.
+Note, returns 127.0.0.1 if using ClusterIP.
+*/}}
+{{- define "backend-java-patterns.serviceIP" -}}
+{{- if eq .Values.service.type "ClusterIP" -}}
+127.0.0.1
+{{- else -}}
+{{- .Values.service.loadBalancerIP | default "" -}}
 {{- end -}}
 {{- end -}}

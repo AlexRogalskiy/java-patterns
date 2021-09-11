@@ -26,7 +26,7 @@ metadata:
     # in the cluster.
     prometheus.io/scrape: "true"
     prometheus.io/path: _status/vars
-    prometheus.io/port: {{ .Values.service.ports.http.port | quote }}
+    prometheus.io/port: {{ .Values.service.ports.http | quote }}
   {{- if .Values.service.discovery.annotations }}
   {{- with .Values.service.discovery.annotations }}
     {{- toYaml . | nindent 4 }}

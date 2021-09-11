@@ -1,6 +1,6 @@
 {{- if .Values.virtualservice.enabled -}}
 {{- $fullName := include "backend-java-patterns.fullname" . -}}
-{{- $svcPort := .Values.service.port -}}
+{{- $svcPort := .Values.service.ports.http -}}
 {{- $svcHost := .Values.virtualservice.serviceHost -}}
 apiVersion: networking.istio.io/v1beta1
 kind: VirtualService

@@ -4,7 +4,9 @@ apiVersion: monitoring.coreos.com/v1
 kind: PrometheusRule
 metadata:
   name: {{ $fullName }}
-  namespace: {{ .Release.Namespace | quote }}
+  {{- if .Values.metrics.rules.namespace }}
+  namespace: {{ .Values.metrics.rules.namespace }}
+  {{- end }}
   labels:
     {{- include "backend-java-patterns.labels" . | nindent 4 }}
     {{- if .Values.serviceMonitor.alerting.labels }}
