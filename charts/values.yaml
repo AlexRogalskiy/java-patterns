@@ -560,6 +560,12 @@ serviceMonitor:
   ##
   enabled: false
 
+  ## @param serviceMonitor.path The path for service metrics
+  ## e.g:
+  ## namespace: metrics
+  ##
+  path: "/metrics"
+
   ## @param serviceMonitor.namespace The namespace in which the ServiceMonitor will be created
   ## e.g:
   ## namespace: monitoring

@@ -117,6 +117,10 @@ spec:
               add:
                 - NET_BIND_SERVICE
           {{- end }}
+          {{- if .Values.general.lifecycleHooks }}
+          lifecycle:
+          {{- toYaml .Values.general.lifecycleHooks | nindent 12 }}
+          {{- end }}
           ports:
             - name: http
               containerPort: {{ .Values.service.httpPort | default 8000 }}
@@ -132,6 +136,15 @@ spec:
               hostPort: {{ .Values.tls.hostPort }}
               {{- end }}
             {{- end }}
+          envFrom:
+          {{- if .Values.general.extraEnvVars }}
+            - configMapRef:
+                name: {{ .Values.general.extraEnvVars }}
+          {{- end }}
+          {{- if .Values.general.extraEnvVarsSecret }}
+            - secretRef:
+                name: {{ .Values.general.extraEnvVarsSecret }}
+          {{- end }}
           env:
             {{- if .Values.general.debug}}
             - name: DEBUG
