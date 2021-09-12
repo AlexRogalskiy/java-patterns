@@ -278,8 +278,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Why is learning framework so difficult](https://www.reddit.com/r/java/comments/plr3mg/why_is_learning_framework_so_difficult/)
-- [What do you think about Tim Buchalka's Data Structures and Algorithms Using Java course?](https://www.reddit.com/r/java/comments/plqand/what_do_you_think_about_tim_buchalkas_data/)
+- [Why isn't every software built in java?](https://www.reddit.com/r/java/comments/plzukh/why_isnt_every_software_built_in_java/)
 - [How to keep constant Heap size with MinRamPercentage and MaxRamPercentage options](https://www.reddit.com/r/java/comments/pllw2j/how_to_keep_constant_heap_size_with/)
 - [JavaFX 17 Maven Artifacts](https://www.reddit.com/r/java/comments/plkzql/javafx_17_maven_artifacts/)
 - [Will Microsoft's Ongoing Push Draw Java Developers to Azure? -- ADTmag](https://www.reddit.com/r/java/comments/plk5mr/will_microsofts_ongoing_push_draw_java_developers/)
@@ -288,6 +287,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Java Annotated Monthly – September 2021 | The IntelliJ IDEA Blog](https://www.reddit.com/r/java/comments/plefe2/java_annotated_monthly_september_2021_the/)
 - [Overhead Added by Collecting Java Thread Dumps](https://www.reddit.com/r/java/comments/ple3gd/overhead_added_by_collecting_java_thread_dumps/)
 - [Why people don't love Java?](https://www.reddit.com/r/java/comments/pldhus/why_people_dont_love_java/)
+- [Good source-code structure in Java](https://www.reddit.com/r/java/comments/pl3xv4/good_sourcecode_structure_in_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
