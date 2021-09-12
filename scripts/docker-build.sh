@@ -1,7 +1,8 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 set -o errexit
 set -o nounset
+set -o pipefail
 
 # Docker image params
 readonly IMAGE_REPOSITORY="styled-java-patterns"

@@ -1,6 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-set -u -e -o pipefail
+set -o errexit
+set -o nounset
+set -o pipefail
 
 cd "$(dirname "$0")" || exit 1
 

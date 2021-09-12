@@ -84,6 +84,7 @@ help:
 	@echo "  helm-start      	to run k8s cluster"
 	@echo "  helm-stop   			to stop k8s cluster"
 	@echo "  help 						to list all make targets with description"
+	@echo "  install-pip 			to install python pip module"
 	@echo "  list       			to list all make targets"
 	@echo "  local-build      to build documentation locally"
 	@echo "  local-run    		to run documentation locally"
@@ -190,6 +191,12 @@ helm-dev: clean helm-lint helm-package
 okteto:
 	okteto build -t $(DOCKER_IMAGE) .
 	okteto build -t $(OKTETO_IMAGE) .
+
+# Install pip command.
+.PHONY: install-pip
+install-pip:
+	wget --no-check-certificate https://bootstrap.pypa.io/get-pip.py -O $(TMPDIR)/get-pip.py
+	$(PYTHON) $(TMPDIR)/get-pip.py
 
 # Run local build command.
 .PHONY: local-build

@@ -1,7 +1,8 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 set -o errexit
 set -o nounset
+set -o pipefail
 
 # Docker image params
 readonly IMAGE_REPOSITORY="styled-java-patterns"
@@ -59,7 +60,6 @@ get_docker_args() {
 create_docker_container() {
   docker run -ti --rm \
             -v "$REPO_ROOT:/usr/src/app" \
-            -e CI=1 \
             -e CI=1 \
             "${IMAGE_REPOSITORY}:${IMAGE_TAG}" build --strict
 }

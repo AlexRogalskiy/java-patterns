@@ -1,8 +1,16 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-set -e
+set -o errexit
+set -o nounset
+set -o pipefail
 
 cd "$(dirname "$0")" || exit 1
 
-docker-compose -f docker-compose.yml build
-docker-compose -f docker-compose.yml up -d
+main() {
+  echo 'Starting docker container...'
+
+  docker-compose -f docker-compose.yml build
+  docker-compose -f docker-compose.yml up -d
+}
+
+main

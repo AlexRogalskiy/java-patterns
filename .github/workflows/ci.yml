@@ -1,0 +1,45 @@
+name: ci
+
+on:
+  push:
+    branches:
+      - 'master'
+  pull_request:
+    branches:
+      - 'master'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: shellcheck
+        uses: ludeeus/action-shellcheck@1.1.0
+
+      - uses: azure/setup-helm@v1
+        with:
+          version: v3.6.3
+
+      - name: Install tools
+        run: |
+          echo "Installing kubectl..."
+          curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+          chmod +x ./kubectl
+          sudo mv ./kubectl /usr/local/bin/kubectl
+
+          echo "Installing kind..."
+          curl -fsSLo kind "https://github.com/kubernetes-sigs/kind/releases/download/v0.11.1/kind-linux-amd64"
+          chmod +x kind
+          sudo mv kind /usr/local/bin/kind
+
+      - name: Build
+        run: |
+          ./scripts/docker-build.sh
+
+      - name: Test
+        run: |
+          ./scripts/e2e-kind.sh

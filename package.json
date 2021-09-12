@@ -3,15 +3,21 @@
     "version": "0.0.0",
     "description": "Java Design Patterns Documentation",
     "license": "GPL-3.0",
+    "config": {
+        "image": "styled-java-patterns"
+    },
     "scripts": {
         "start-docker": "docker stack deploy -c docker-compose.yml dev",
         "stop-docker": "docker stack rm dev",
         "husky:install": "husky install",
-        "postinstall": "npm run husky:install",
+        "postinstall": "npm run husky:install && npm run env:install",
+        "env:install": "export NODE_ENV=$(grep NODE_ENV .env | cut -d '=' -f2)",
         "remark": "remark -q -f .",
         "commit": "git-cz",
         "release": "release-it",
         "name": "node ./scripts/rootAppName.js",
+        "env:linux": "export $(cat .env | xargs) && env",
+        "env:windows": "(for /F \"tokens=*\" %i in (.env) do set %i)",
         "deploy": "deploy-to-gh-pages --local --update site",
         "format": "prettier --single-quote --list-different --write **/*.{json,yaml,yml}",
         "format:md": "remark-preset-davidtheclark --format",
@@ -38,8 +44,8 @@
         "link-check-diff": "repo-link-check -c config/config.yml",
         "link-check-dev-server": "repo-link-check -c config/config.yml -r http://localhost:3000",
         "link-check-exclude": "repo-link-check -c config/config.yml -s filesystem -u only",
-        "docker:build": "docker build -f Dockerfile -t java-patterns .",
-        "docker:run": "docker run -ti --rm -v ${PWD}:/usr/src/app -e CI=1 java-patterns build --strict",
+        "docker:build": "docker build -f Dockerfile -t $npm_package_config_image .",
+        "docker:run": "docker run -ti --rm -v ${PWD}:/usr/src/app -e CI=1 $npm_package_config_image build --strict",
         "postversion": "git push --follow-tags && npm publish --access public",
         "bump:patch": "npm version patch --no-git-tag-version",
         "bump:minor": "npm version minor --no-git-tag-version",
@@ -88,6 +94,9 @@
         "textlint-rule-write-good": "^2.0.0",
         "validate-commit-msg": "^2.14.0",
         "yaml-lint": "^1.2.4"
+    },
+    "envDependencies": {
+        "localJSON": "../.env.json"
     },
     "repository": {
         "type": "git",
