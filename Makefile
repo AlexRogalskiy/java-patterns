@@ -201,7 +201,7 @@ install-pip:
 # Run local build command.
 .PHONY: local-build
 local-build:
-	$(PYTHON) -m pip install -r ./docs/requirements.txt
+	$(PYTHON) -m pip install -r ./docs/requirements.txt --disable-pip-version-check
 	$(PYTHON) -m mkdocs build --clean --config-file mkdocs.yml
 
 # Run local run command.
@@ -212,7 +212,7 @@ local-run: local-build
 # Run venv build command.
 .PHONY: venv-build
 venv-build: _venv
-	$(VENV_NAME)/bin/python3 -m pip install -r ./docs/requirements.txt
+	$(VENV_NAME)/bin/python3 -m pip install -r ./docs/requirements.txt --disable-pip-version-check --no-cache-dir --prefer-binary
 	$(VENV_NAME)/bin/python3 -m mkdocs build --clean --config-file mkdocs.yml
 	@echo
 	@echo "Build finished. The source pages are in $(VENV_NAME) directory."
