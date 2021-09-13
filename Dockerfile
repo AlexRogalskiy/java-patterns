@@ -172,15 +172,20 @@ RUN npm install --no-audit
 ## remove cache
 RUN echo "**** Cleaning node cache ****"
 
-#RUN npm cache clean --force
+RUN npm cache clean --force
 
 ##
 ## ---- Testing ----
 ##
-FROM node-dependencies AS test
+FROM base AS test
 
 ## setup testing stage
 RUN echo "**** Testing stage ****"
+
+## copy dependencies
+#COPY --from=node-dependencies ${APP_DIR}/prod_node_modules ./node_modules
+COPY --from=node-dependencies /usr/local/lib/node_modules ./node_modules
+COPY --from=node-dependencies ./node_modules ./node_modules
 
 ## copy source files
 COPY . ./
