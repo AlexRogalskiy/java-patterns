@@ -179,14 +179,13 @@ RUN npm cache clean --force
 ##
 ## ---- Testing ----
 ##
-FROM base AS test
+FROM node-dependencies AS test
 
 ## setup testing stage
 RUN echo "**** Testing stage ****"
 
 ## copy dependencies
-#COPY --from=node-dependencies /usr/local/lib/node_modules ./node_modules/
-COPY --from=node-dependencies ${TEMP_DIR}/node_modules ./node_modules
+COPY ${TEMP_DIR}/node_modules ./node_modules
 
 ## copy source files
 COPY . ./
