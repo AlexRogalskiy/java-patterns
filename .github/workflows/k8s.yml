@@ -21,7 +21,7 @@ jobs:
         uses: ludeeus/action-shellcheck@1.1.0
         env:
           SHELLCHECK_OPTS: -e SC2059 -e SC2034 -e SC1090
-          ignore: scripts gh-md-toc record-start-time.sh
+          severity: error
 
       - uses: azure/setup-helm@v1
         with:
