@@ -28,7 +28,7 @@ ARG VCS_REF="$(git rev-parse --short HEAD)"
 
 ARG APP_DIR="/usr/src/app"
 ARG DATA_DIR="/usr/src/data"
-ARG TEMP_DIR="/tmp"
+ARG TEMP_DIR="{${TEMP_DIR:-$(dirname $(mktemp))/}"
 
 ARG INSTALL_PACKAGES="git curl tini dos2unix locales"
 
@@ -169,6 +169,8 @@ RUN npm set progress=false && npm config set depth 0
 ## install node_modules, including 'devDependencies'
 RUN npm install --no-audit
 
+RUN cp -R node_modules ${TEMP_DIR}/node_modules
+
 ## remove cache
 RUN echo "**** Cleaning node cache ****"
 
@@ -184,6 +186,7 @@ RUN echo "**** Testing stage ****"
 
 ## copy dependencies
 COPY --from=node-dependencies /usr/local/lib/node_modules ./node_modules
+COPY --from=node-dependencies ${TEMP_DIR}/node_modules ./node_modules
 
 ## copy source files
 COPY . ./
