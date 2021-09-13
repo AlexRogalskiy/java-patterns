@@ -177,13 +177,16 @@ RUN npm cache clean --force
 ##
 ## ---- Testing ----
 ##
-FROM node-dependencies AS test
+FROM base AS test
 
 ## setup testing stage
 RUN echo "**** Testing stage ****"
 
+## copy dependencies
+#COPY --from=node-dependencies ${APP_DIR}/prod_node_modules ./node_modules
+COPY --from=node-dependencies ${APP_DIR}/node_modules ./node_modules
+
 ## copy source files
-RUN ls -la
 COPY . ./
 
 ## run format checking & linting
@@ -198,13 +201,13 @@ FROM base AS release
 ## setup release stage
 RUN echo "**** Release stage ****"
 
+## setup environment path
+ENV PATH=/root/.local:$PATH
+
 ## copy dependencies
 #COPY --from=node-dependencies ${APP_DIR}/prod_node_modules ./node_modules
 COPY --from=node-dependencies ${APP_DIR}/node_modules ./node_modules
 COPY --from=python-dependencies /usr/local/lib/python3.8/site-packages /usr/local/lib/python3.8/site-packages
-
-## setup environment path
-ENV PATH=/root/.local:$PATH
 
 ## copy app sources
 COPY . ./
