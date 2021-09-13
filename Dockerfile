@@ -186,7 +186,7 @@ RUN echo "**** Testing stage ****"
 COPY . ./
 
 ## run format checking & linting
-RUN npm run test:all
+RUN npm run check:all
 
 ##
 ## ---- Release ----

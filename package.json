@@ -25,7 +25,7 @@
         "format:doc": "alex",
         "lint:text": "textlint docs",
         "lint:md": "remark-preset-davidtheclark",
-        "lint:yaml": "yamllint --strict -c .yaml-lint.yml --ignore=okteto/deployment.yaml **/*.{yaml,yml}",
+        "lint:yaml": "yamllint --strict -c .yaml-lint.yml --ignore=okteto/**/*.yaml --ignore=charts/**/*.yaml **/*.{yaml,yml}",
         "lint:markdown": "markdownlint --config .markdownlint.yml docs/*.md",
         "lint:json": "jsonlint ./package.json --quiet",
         "lint:style": "stylelint --color --disable-default-ignores --allow-empty-input verbose **/*.{css,scss,sass}",
