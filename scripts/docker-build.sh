@@ -15,7 +15,7 @@ main() {
   echo 'Building docker container...'
 
   # Build docker image
-  docker build -f Dockerfile -t "${IMAGE_REPOSITORY}:${IMAGE_TAG}" -t "${IMAGE_REPOSITORY}:${GIT_SHA}" .
+  docker build --rm=false -f Dockerfile -t "${IMAGE_REPOSITORY}:${IMAGE_TAG}" -t "${IMAGE_REPOSITORY}:${GIT_SHA}" .
 }
 
 main

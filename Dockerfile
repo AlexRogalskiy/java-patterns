@@ -169,8 +169,6 @@ RUN npm set progress=false && npm config set depth 0
 ## install node_modules, including 'devDependencies'
 RUN npm install --no-audit
 
-RUN ls -la
-
 ## remove cache
 RUN echo "**** Cleaning node cache ****"
 
@@ -205,6 +203,7 @@ ENV PATH=/root/.local:$PATH
 ## copy dependencies
 #COPY --from=node-dependencies ${APP_DIR}/prod_node_modules ./node_modules
 COPY --from=node-dependencies /usr/local/lib/node_modules ./node_modules
+COPY --from=node-dependencies ./node_modules ./node_modules
 COPY --from=python-dependencies /usr/local/lib/python3.8/site-packages /usr/local/lib/python3.8/site-packages
 
 ## copy app sources
