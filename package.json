@@ -10,7 +10,7 @@
         "start-docker": "docker stack deploy -c docker-compose.yml dev",
         "stop-docker": "docker stack rm dev",
         "husky:install": "husky install",
-        "postinstall": "npm run husky:install && npm run env:install",
+        "postinstall": "npm run husky:install",
         "env:install": "export NODE_ENV=$(grep NODE_ENV .env | cut -d '=' -f2)",
         "remark": "remark -q -f .",
         "commit": "git-cz",

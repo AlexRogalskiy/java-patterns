@@ -165,9 +165,10 @@ RUN npm set progress=false && npm config set depth 0
 
 ## copy production node_modules aside
 ## RUN cp -R node_modules prod_node_modules
-
+RUN ls -la
 ## install node_modules, including 'devDependencies'
 RUN npm install --no-audit
+RUN ls -la
 
 RUN cp -R node_modules ${TEMP_DIR}/node_modules
 
