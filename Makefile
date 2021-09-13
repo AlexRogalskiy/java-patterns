@@ -8,10 +8,14 @@ $(if $(findstring /,$(MAKEFILE_LIST)),$(error Please only invoke this makefile f
 # SHELL defines the shell that the Makefile uses.
 # We also set -o pipefail so that if a previous command in a pipeline fails, a command fails.
 # http://redsymbol.net/articles/unofficial-bash-strict-mode
-SHELL := /bin/bash
-#SHELL := /bin/bash -o pipefail
+SHELL := /bin/bash -o errexit -o nounset
+
 PYTHON := python3
 NPM := npm
+
+CLUSTER_NAME := backend-java-patterns
+CLUSTER_NAMESPACE := webapp
+
 VENV_NAME := venv
 RELEASE_NAME := release
 GH_PAGES_NAME := site
@@ -136,20 +140,30 @@ clean:
 _ensure-clean:
 	$(AT)[ -z "$$((git status --porcelain --untracked-files=no || echo err) | command grep -v 'CHANGELOG.md')" ] || { echo "Workspace is not clean; please commit changes first." >&2; exit 2; }
 
+# Ensure docker tag command.
+.PHONY: _ensure-docker-tag
+_ensure-docker-tag:
+ifndef DOCKER_TAG
+	$(error Please invoke with `make DOCKER_TAG=<tag> docker-build`)
+endif
+
 # Run docker build command.
 .PHONY: docker-build
-docker-build: _ensure-clean
-	docker build -f Dockerfile -t $(IMAGE):$(TAG) .
+docker-build: _ensure-docker-tag
+	chmod +x ./scripts/docker-build.sh
+	./scripts/docker-build.sh $(DOCKER_TAG)
 
 # Run docker start command.
 .PHONY: docker-start
 docker-start:
-	docker-compose -f docker-compose.yml up -d
+	chmod +x ./scripts/docker-compose-start.sh
+	./scripts/docker-compose-start.sh
 
 # Run docker stop command.
 .PHONY: docker-stop
 docker-stop:
-	docker-compose -f docker-compose.yml down -v --remove-orphans
+	chmod +x ./scripts/docker-compose-stop.sh
+	./scripts/docker-compose-stop.sh
 
 # Run tilt start command.
 .PHONY: tilt-start
@@ -169,12 +183,12 @@ helm-lint:
 # Run helm start command.
 .PHONY: helm-start
 helm-start:
-	helm upgrade --install backend-java-patterns -f charts/values.yaml --create-namespace --namespace webapp charts
+	helm upgrade --install $(CLUSTER_NAME) -f charts/values.yaml --create-namespace --namespace $(CLUSTER_NAMESPACE) charts
 
 # Run helm stop command.
 .PHONY: helm-stop
 helm-stop:
-	helm uninstall backend-java-patterns --namespace webapp
+	helm uninstall $(CLUSTER_NAME) --namespace $(CLUSTER_NAMESPACE)
 
 # Run helm package command.
 .PHONY: helm-package
@@ -197,6 +211,8 @@ okteto:
 install-pip:
 	wget --no-check-certificate https://bootstrap.pypa.io/get-pip.py -O $(TMPDIR)/get-pip.py
 	$(PYTHON) $(TMPDIR)/get-pip.py
+	@echo
+	@echo "Pip installed."
 
 # Run local build command.
 .PHONY: local-build

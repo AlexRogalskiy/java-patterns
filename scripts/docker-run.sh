@@ -27,7 +27,7 @@ cleanup() {
   echo 'Removing docker container...'
 
   config_container_id=$1
-  docker container rm --force $config_container_id > /dev/null
+  docker container rm --force "$config_container_id" > /dev/null
   #docker kill ct > /dev/null 2>&1
 
   echo 'Done!'
@@ -58,10 +58,11 @@ get_docker_args() {
 }
 
 create_docker_container() {
-  docker run -ti --rm \
+  docker run -it --rm --privileged \
             -v "$REPO_ROOT:/usr/src/app" \
+            -v /var/run/docker.sock:/var/run/docker.sock \
             -e CI=1 \
             "${IMAGE_REPOSITORY}:${IMAGE_TAG}" build --strict
 }
 
-main
+main "$@"

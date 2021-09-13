@@ -161,33 +161,12 @@ RUN echo "**** Installing node modules stage ****"
 RUN npm set progress=false && npm config set depth 0
 
 ## install only <production> node_modules
-## RUN npm install --no-audit --only=prod
-
-## copy production node_modules aside
-## RUN cp -R node_modules prod_node_modules
-
-## install node_modules, including 'devDependencies'
-RUN npm install --no-audit
+RUN npm install --no-audit --only=prod
 
 ## remove cache
 RUN echo "**** Cleaning node cache ****"
 
 RUN npm cache clean --force
-
-##
-## ---- Test stage ----
-##
-FROM node-dependencies AS test
-
-## setup testing stage
-RUN echo "**** Testing stage ****"
-
-## copy source files
-COPY . ./
-
-## run format checking & linting
-RUN npm run check:all
-RUN npm run test:all
 
 ##
 ## ---- Release stage ----
@@ -201,7 +180,6 @@ RUN echo "**** Release stage ****"
 ENV PATH=/root/.local:$PATH
 
 ## copy dependencies
-#COPY --from=node-dependencies ${APP_DIR}/prod_node_modules ./node_modules
 COPY --from=node-dependencies /usr/local/lib/node_modules ./node_modules
 COPY --from=python-dependencies /usr/local/lib/python3.8/site-packages /usr/local/lib/python3.8/site-packages
 
@@ -216,4 +194,3 @@ EXPOSE 8000
 
 ## define cmd
 CMD [ "/usr/bin/python3.8", "-m", "mkdocs", "serve", "--verbose", "--dirtyreload", "--dev-addr=0.0.0.0:8000" ]
-## CMD [ "mkdocs", "serve", "--verbose", "--dirtyreload", "-a", "0.0.0.0:8000" ]

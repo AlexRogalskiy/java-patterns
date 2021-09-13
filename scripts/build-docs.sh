@@ -20,12 +20,18 @@ fi
 ## Change working directory
 cd "$(dirname "$0")/.." || exit 1
 
-## Install pip module
-wget --no-check-certificate https://bootstrap.pypa.io/get-pip.py -O $TMPDIR/get-pip.py
-python3 $TMPDIR/get-pip.py
+main() {
+  echo 'Running mkdocs server...'
 
-## Install project dependencies
-python3 -m pip install -r ./docs/requirements.txt
+  ## Install pip module
+  wget --no-check-certificate https://bootstrap.pypa.io/get-pip.py -O "$TMPDIR"/get-pip.py
+  python3 "$TMPDIR"/get-pip.py
 
-## Start server locally
-python3 -m mkdocs serve --verbose --dirtyreload
+  ## Install project dependencies
+  python3 -m pip install -r ./docs/requirements.txt --no-cache-dir --disable-pip-version-check
+
+  ## Start server locally
+  python3 -m mkdocs serve --verbose --dirtyreload
+}
+
+main "$@"

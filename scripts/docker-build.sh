@@ -14,8 +14,16 @@ cd "$(dirname "$0")/.." || exit 1
 main() {
   echo 'Building docker container...'
 
+  # docker file tag
+  local tag
+  tag="$1"
+
+  # docker file path
+  local file
+  file="./distribution/docker-images/${tag}.Dockerfile"
+
   # Build docker image
-  docker build --rm=false -f Dockerfile -t "${IMAGE_REPOSITORY}:${IMAGE_TAG}" -t "${IMAGE_REPOSITORY}:${GIT_SHA}" .
+  docker build --rm -f "$file" -t "${IMAGE_REPOSITORY}:${IMAGE_TAG}" -t "${IMAGE_REPOSITORY}:${GIT_SHA}" .
 }
 
-main
+main "$@"

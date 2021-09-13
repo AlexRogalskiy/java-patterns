@@ -14,13 +14,13 @@ jobs:
 
       - name: Docker build
         run: |
-          docker build . --file Dockerfile --tag containerscanner:${{ github.sha }}
+          docker build . --file ./distribution/docker-images/ci.Dockerfile --tag containerscanner:${{ github.sha }}
 
       - name: Anchore scan
         uses: anchore/scan-action@1.0.6
         with:
           image-reference: containerscanner:${{ github.sha }}
-          dockerfile-path: Dockerfile
+          dockerfile-path: ./distribution/docker-images/dev.Dockerfile
           include-app-packages: true
           fail-build: true # no idea why it doesn't work
 

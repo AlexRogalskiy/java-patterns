@@ -12,4 +12,4 @@ main() {
   docker-compose -f docker-compose.yml down -v --remove-orphans
 }
 
-main
+main "$@"

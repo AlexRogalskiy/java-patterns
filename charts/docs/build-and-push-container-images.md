@@ -2,7 +2,7 @@ Building docker image with docker command:
 
 ```shell
 GIT_SHA=$(git rev-parse HEAD)
-docker build -f Dockerfile -t styled-java-patterns -t styled-java-patterns:$GIT_SHA --build-arg VERCEL_TOKEN=$1 .
+docker build -f ./distribution/docker-images/dev.Dockerfile -t styled-java-patterns -t styled-java-patterns:$GIT_SHA --build-arg VERCEL_TOKEN=$1 .
 ```
 
 Running docker image via `docker-compose` command:

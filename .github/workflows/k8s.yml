@@ -53,7 +53,7 @@ jobs:
         run: |
           echo "Running build command..."
           chmod +x ./scripts/docker-build.sh
-          sudo ./scripts/docker-build.sh
+          sudo ./scripts/docker-build.sh ci
 
       - name: Test
         shell: bash

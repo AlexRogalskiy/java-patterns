@@ -33,7 +33,7 @@ local_resource(
 # Add a live_update rule to our docker_build
 congrats = "🎉 Congrats, you ran a live_update! 🎉"
 docker_build('styled-java-patterns', '.', build_args={'IMAGE_SOURCE': 'node', 'IMAGE_TAG': '12-buster'},
-    dockerfile='./Dockerfile',
+    dockerfile='./distribution/docker-images/dev.Dockerfile',
     live_update=[
         sync('.', '/usr/src/app'),
         run('python3 ./record-start-time.py'),

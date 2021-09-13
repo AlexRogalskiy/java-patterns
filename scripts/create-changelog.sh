@@ -14,13 +14,18 @@ reported="$(mktemp)"
 grep -E "#[0-9]{4}" -o CHANGELOG.md | sort >"$reported"
 
 echo "[$VERSION] - $RELEASE_DATE"
+
 echo "--------------------"
 echo '##### Enhancements'
+echo "--------------------"
 git log stable..master --first-parent --format='%s %b' |
   sed -E 's/.*#([0-9]+).*\[ENH\] *(.*)/\* \2 ([#\1](\.\.\/\.\.\/pull\/\1))/' |
   grep -E '^\*' | grep -v -F -f "$reported"
-echo
+
+echo "--------------------"
 echo "##### Bugfixes"
+echo "--------------------"
 git log stable..master --first-parent --format='%s %b' |
   sed -E 's/.*#([0-9]+).*\[FIX\] *(.*)/\* \2 ([#\1](\.\.\/\.\.\/pull\/\1))/' |
   grep -E '^\*' | grep -v -F -f "$reported"
+echo "--------------------"

@@ -48,7 +48,7 @@ services:
     hostname: ${APP_HOST_NAME:-'java-patterns'}
     build:
       context: './'
-      dockerfile: Dockerfile
+      dockerfile: './distribution/docker-images/$DOCKER_TAG.Dockerfile'
       labels:
         - 'org.opencontainers.image.authors=Alexander Rogalskiy'
         - 'org.opencontainers.image.vendor=Sensiblemetrics, Inc.'

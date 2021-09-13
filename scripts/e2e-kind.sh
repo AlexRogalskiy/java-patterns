@@ -41,4 +41,4 @@ main() {
     create_kind_cluster
 }
 
-main
+main "$@"
