@@ -177,14 +177,10 @@ RUN npm cache clean --force
 ##
 ## ---- Test stage ----
 ##
-FROM base AS test
+FROM node-dependencies AS test
 
 ## setup testing stage
 RUN echo "**** Testing stage ****"
-
-## copy dependencies
-#COPY --from=node-dependencies ${APP_DIR}/prod_node_modules ./node_modules
-COPY --from=node-dependencies /usr/local/lib/node_modules ./node_modules
 
 ## copy source files
 COPY . ./
@@ -207,7 +203,6 @@ ENV PATH=/root/.local:$PATH
 ## copy dependencies
 #COPY --from=node-dependencies ${APP_DIR}/prod_node_modules ./node_modules
 COPY --from=node-dependencies /usr/local/lib/node_modules ./node_modules
-COPY --from=node-dependencies ${APP_DIR}/node_modules ./node_modules
 COPY --from=python-dependencies /usr/local/lib/python3.8/site-packages /usr/local/lib/python3.8/site-packages
 
 ## copy app sources
