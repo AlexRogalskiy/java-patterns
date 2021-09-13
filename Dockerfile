@@ -165,12 +165,11 @@ RUN npm set progress=false && npm config set depth 0
 
 ## copy production node_modules aside
 ## RUN cp -R node_modules prod_node_modules
-RUN ls -la
+
 ## install node_modules, including 'devDependencies'
 RUN npm install --no-audit
-RUN ls -la
 
-RUN cp -R node_modules ${TEMP_DIR}/node_modules
+RUN cp -R /usr/local/lib/node_modules ${TEMP_DIR}/node_modules
 
 ## remove cache
 RUN echo "**** Cleaning node cache ****"
@@ -186,7 +185,7 @@ FROM base AS test
 RUN echo "**** Testing stage ****"
 
 ## copy dependencies
-COPY --from=node-dependencies /usr/local/lib/node_modules ./node_modules
+#COPY --from=node-dependencies /usr/local/lib/node_modules ./node_modules/
 COPY --from=node-dependencies ${TEMP_DIR}/node_modules ./node_modules
 
 ## copy source files
