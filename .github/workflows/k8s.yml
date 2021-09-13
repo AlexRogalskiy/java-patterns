@@ -1,4 +1,4 @@
-name: ci
+name: k8s
 
 on:
   push:

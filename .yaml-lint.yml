@@ -27,7 +27,6 @@ rules:
   document-end: disable
   document-start:
     level: warning
-  indentation: disable
   colons: enable
   commas: enable
   comments-indentation:
