@@ -182,11 +182,8 @@ FROM node-dependencies AS test
 ## setup testing stage
 RUN echo "**** Testing stage ****"
 
-## copy dependencies
-#COPY --from=node-dependencies ${APP_DIR}/prod_node_modules ./node_modules
-COPY --from=node-dependencies ${APP_DIR}/node_modules ./node_modules
-
 ## copy source files
+RUN ls -la
 COPY . ./
 
 ## run format checking & linting
