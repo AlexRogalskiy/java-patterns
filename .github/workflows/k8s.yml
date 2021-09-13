@@ -43,8 +43,8 @@ jobs:
 
       - name: Build
         run: |
-          ./scripts/docker-build.sh
+          sudo ./scripts/docker-build.sh
 
       - name: Test
         run: |
-          ./scripts/e2e-kind.sh
+          sudo ./scripts/e2e-kind.sh
