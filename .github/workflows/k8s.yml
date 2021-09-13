@@ -18,12 +18,13 @@ jobs:
         with:
           fetch-depth: 0
 
-#       - name: Run ShellCheck
-#         uses: ludeeus/action-shellcheck@master
-#         env:
-#           SHELLCHECK_OPTS: -e SC2059 -e SC2034 -e SC1090
-#           ignore: scripts
-#           severity: error
+      - name: Run ShellCheck
+        uses: ludeeus/action-shellcheck@master
+        env:
+          SHELLCHECK_OPTS: -e SC2059 -e SC2034 -e SC1090
+        with:
+          ignore: scripts
+          severity: error
 
       - uses: azure/setup-helm@v1
         with:
@@ -42,9 +43,11 @@ jobs:
           sudo mv kind /usr/local/bin/kind
 
       - name: Build
+        shell: bash
         run: |
           sudo ./scripts/docker-build.sh
 
       - name: Test
+        shell: bash
         run: |
           sudo ./scripts/e2e-kind.sh

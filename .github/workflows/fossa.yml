@@ -17,6 +17,7 @@ jobs:
       - run: go version
       # Runs a set of commands to initialize and analyze with FOSSA
       - name: run FOSSA analysis
+        shell: bash
         env:
           # FOSSA Push-Only API Token
           FOSSA_API_KEY: '5ee8bf422db1471e0bcf2bcb289185de'
