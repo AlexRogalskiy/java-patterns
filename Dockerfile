@@ -186,6 +186,9 @@ RUN echo "**** Testing stage ****"
 #COPY --from=node-dependencies ${APP_DIR}/prod_node_modules ./node_modules
 COPY --from=node-dependencies /usr/local/lib/node_modules ./node_modules
 
+RUN ls -la
+RUN ls -./node_modules
+
 ## copy source files
 COPY . ./
 
