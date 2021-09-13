@@ -169,12 +169,12 @@ RUN npm set progress=false && npm config set depth 0
 ## install node_modules, including 'devDependencies'
 RUN npm install --no-audit
 
-RUN cp -R /usr/local/lib/node_modules ${TEMP_DIR}/node_modules
+RUN ls -la
 
 ## remove cache
 RUN echo "**** Cleaning node cache ****"
 
-RUN npm cache clean --force
+#RUN npm cache clean --force
 
 ##
 ## ---- Testing ----
@@ -183,9 +183,6 @@ FROM node-dependencies AS test
 
 ## setup testing stage
 RUN echo "**** Testing stage ****"
-
-## copy dependencies
-COPY ${TEMP_DIR}/node_modules ./node_modules
 
 ## copy source files
 COPY . ./
