@@ -28,7 +28,7 @@ ARG VCS_REF="$(git rev-parse --short HEAD)"
 
 ARG APP_DIR="/usr/src/app"
 ARG DATA_DIR="/usr/src/data"
-ARG TEMP_DIR="{${TEMP_DIR:-$(dirname $(mktemp))/}"
+ARG TEMP_DIR="{${TEMP_DIR:-$(dirname $(mktemp))}"
 
 ARG INSTALL_PACKAGES="git curl tini dos2unix locales"
 
