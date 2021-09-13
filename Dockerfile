@@ -1,5 +1,5 @@
 ##
-## ---- Base OS layer ----
+## ---- Base stage ----
 ## docker build -t styled-java-patterns --build-arg IMAGE_SOURCE=node --build-arg IMAGE_TAG=12-buster .
 ##
 ARG IMAGE_SOURCE=node
@@ -133,7 +133,7 @@ COPY package.json .
 COPY ./docs/requirements.txt .
 
 ##
-## ---- Python Dependencies ----
+## ---- Python Dependencies stage ----
 ##
 FROM base AS python-dependencies
 
@@ -150,7 +150,7 @@ RUN echo "**** Cleaning python cache ****"
 RUN rm -rf ~/.cache/pip
 
 ##
-## ---- Node Dependencies ----
+## ---- Node Dependencies stage ----
 ##
 FROM base AS node-dependencies
 
@@ -175,7 +175,7 @@ RUN echo "**** Cleaning node cache ****"
 RUN npm cache clean --force
 
 ##
-## ---- Testing ----
+## ---- Test stage ----
 ##
 FROM base AS test
 
@@ -185,9 +185,7 @@ RUN echo "**** Testing stage ****"
 ## copy dependencies
 #COPY --from=node-dependencies ${APP_DIR}/prod_node_modules ./node_modules
 COPY --from=node-dependencies /usr/local/lib/node_modules ./node_modules
-
-RUN ls -la
-RUN ls -./node_modules
+COPY --from=node-dependencies ${APP_DIR}/node_modules ./node_modules
 
 ## copy source files
 COPY . ./
@@ -197,7 +195,7 @@ RUN npm run check:all
 RUN npm run test:all
 
 ##
-## ---- Release ----
+## ---- Release stage ----
 ##
 FROM base AS release
 
@@ -210,7 +208,7 @@ ENV PATH=/root/.local:$PATH
 ## copy dependencies
 #COPY --from=node-dependencies ${APP_DIR}/prod_node_modules ./node_modules
 COPY --from=node-dependencies /usr/local/lib/node_modules ./node_modules
-COPY --from=node-dependencies ./node_modules ./node_modules
+COPY --from=node-dependencies ${APP_DIR}/node_modules ./node_modules
 COPY --from=python-dependencies /usr/local/lib/python3.8/site-packages /usr/local/lib/python3.8/site-packages
 
 ## copy app sources
