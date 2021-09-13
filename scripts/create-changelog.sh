@@ -4,7 +4,7 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-cd "$(dirname "$0")" || exit 1
+cd "$(dirname "$0")/.." || exit 1
 
 VERSION=$(grep 'version:' package.json | sed -E "s/.*'([^']*)'/\1/")
 RELEASE_DATE=$(date "+%Y-%m-%d")

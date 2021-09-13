@@ -9,7 +9,7 @@ readonly IMAGE_REPOSITORY="styled-java-patterns"
 readonly IMAGE_TAG="latest"
 readonly REPO_ROOT="${REPO_ROOT:-$(git rev-parse --show-toplevel)}"
 
-cd "$(dirname "$0")" || exit 1
+cd "$(dirname "$0")/.." || exit 1
 
 main() {
   echo 'Running docker container...'

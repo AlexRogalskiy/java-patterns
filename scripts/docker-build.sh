@@ -9,7 +9,7 @@ readonly IMAGE_REPOSITORY="styled-java-patterns"
 readonly IMAGE_TAG="latest"
 readonly GIT_SHA=$(git rev-parse HEAD)
 
-cd "$(dirname "$0")" || exit 1
+cd "$(dirname "$0")/.." || exit 1
 
 main() {
   echo 'Building docker container...'
