@@ -42,12 +42,22 @@ jobs:
           chmod +x kind
           sudo mv kind /usr/local/bin/kind
 
+      - name: List directories
+        shell: bash
+        run: |
+          echo "Listing of directory..."
+          ls -la scripts
+
       - name: Build
         shell: bash
         run: |
+          echo "Running build command..."
+          chmod +x ./scripts/docker-build.sh
           sudo ./scripts/docker-build.sh
 
       - name: Test
         shell: bash
         run: |
+          echo "Running test command..."
+          chmod +x ./scripts/e2e-kind.sh
           sudo ./scripts/e2e-kind.sh
