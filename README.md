@@ -278,18 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
+- [Jakarta Faces 4.0 release plan](https://www.reddit.com/r/java/comments/pn1zrd/jakarta_faces_40_release_plan/)
+- [Annotation-free Spring](https://www.reddit.com/r/java/comments/pmuqk8/annotationfree_spring/)
+- [Career path after learning Java?](https://www.reddit.com/r/java/comments/pmsuwu/career_path_after_learning_java/)
+- [ActiveMQ Artemis embraces Jakarta EE](https://www.reddit.com/r/java/comments/pmnmjl/activemq_artemis_embraces_jakarta_ee/)
 - [Why isn't every software built in java?](https://www.reddit.com/r/java/comments/plzukh/why_isnt_every_software_built_in_java/)
 - [How to keep constant Heap size with MinRamPercentage and MaxRamPercentage options](https://www.reddit.com/r/java/comments/pllw2j/how_to_keep_constant_heap_size_with/)
-- [JavaFX 17 Maven Artifacts](https://www.reddit.com/r/java/comments/plkzql/javafx\_17\_maven_artifacts/)
+- [JavaFX 17 Maven Artifacts](https://www.reddit.com/r/java/comments/plkzql/javafx_17_maven_artifacts/)
 - [Will Microsoft's Ongoing Push Draw Java Developers to Azure? -- ADTmag](https://www.reddit.com/r/java/comments/plk5mr/will_microsofts_ongoing_push_draw_java_developers/)
 - [hq - command line HTML processor built with Quarkus and compiled to native using GraalVM](https://www.reddit.com/r/java/comments/plh5pr/hq_command_line_html_processor_built_with_quarkus/)
 - [What Modules Are About](https://www.reddit.com/r/java/comments/plgv9h/what_modules_are_about/)
-- [Java Annotated Monthly – September 2021 | The IntelliJ IDEA Blog](https://www.reddit.com/r/java/comments/plefe2/java_annotated_monthly_september\_2021\_the/)
-- [Overhead Added by Collecting Java Thread Dumps](https://www.reddit.com/r/java/comments/ple3gd/overhead_added_by_collecting_java_thread_dumps/)
-- [Why people don't love Java?](https://www.reddit.com/r/java/comments/pldhus/why_people_dont_love_java/)
-- [Good source-code structure in Java](https://www.reddit.com/r/java/comments/pl3xv4/good_sourcecode_structure_in_java/)
-
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
