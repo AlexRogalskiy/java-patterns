@@ -278,18 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-
-- [Jakarta Faces 4.0 release plan](https://www.reddit.com/r/java/comments/pn1zrd/jakarta_faces\_40\_release_plan/)
+- [Learned the basics of java now what?](https://www.reddit.com/r/java/comments/pnqpvb/learned_the_basics_of_java_now_what/)
+- [Spring Native](https://www.reddit.com/r/java/comments/pnlkqt/spring_native/)
+- [Backend Dev communities?](https://www.reddit.com/r/java/comments/pnkilt/backend_dev_communities/)
+- [Tool to sanitize data from Java heap dumps](https://www.reddit.com/r/java/comments/pnkh4p/tool_to_sanitize_data_from_java_heap_dumps/)
+- [Javalin 4.0.0 stable is now out (web micro-framework)](https://www.reddit.com/r/java/comments/pnhbca/javalin_400_stable_is_now_out_web_microframework/)
+- [Is cloudsim the best simulator to learn cloud computing? Is there a better simulator available now?](https://www.reddit.com/r/java/comments/pndj6d/is_cloudsim_the_best_simulator_to_learn_cloud/)
+- [JEP proposed to target JDK 18: 417: Vector API (3rd Incubator)](https://www.reddit.com/r/java/comments/pnb2bv/jep_proposed_to_target_jdk_18_417_vector_api_3rd/)
+- [Jakarta Faces 4.0 release plan](https://www.reddit.com/r/java/comments/pn1zrd/jakarta_faces_40_release_plan/)
 - [Annotation-free Spring](https://www.reddit.com/r/java/comments/pmuqk8/annotationfree_spring/)
 - [Career path after learning Java?](https://www.reddit.com/r/java/comments/pmsuwu/career_path_after_learning_java/)
-- [ActiveMQ Artemis embraces Jakarta EE](https://www.reddit.com/r/java/comments/pmnmjl/activemq_artemis_embraces_jakarta_ee/)
-- [Why isn't every software built in java?](https://www.reddit.com/r/java/comments/plzukh/why_isnt_every_software_built_in_java/)
-- [How to keep constant Heap size with MinRamPercentage and MaxRamPercentage options](https://www.reddit.com/r/java/comments/pllw2j/how_to_keep_constant_heap_size_with/)
-- [JavaFX 17 Maven Artifacts](https://www.reddit.com/r/java/comments/plkzql/javafx\_17\_maven_artifacts/)
-- [Will Microsoft's Ongoing Push Draw Java Developers to Azure? -- ADTmag](https://www.reddit.com/r/java/comments/plk5mr/will_microsofts_ongoing_push_draw_java_developers/)
-- [hq - command line HTML processor built with Quarkus and compiled to native using GraalVM](https://www.reddit.com/r/java/comments/plh5pr/hq_command_line_html_processor_built_with_quarkus/)
-- [What Modules Are About](https://www.reddit.com/r/java/comments/plgv9h/what_modules_are_about/)
-
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
