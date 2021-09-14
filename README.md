@@ -353,7 +353,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
-
 - [What Modules Are About](https://inside.java/2021/09/10/what-are-modules-about/)
 - [JEP proposed to target JDK 18: 417: Vector API (Third Incubator)](https://inside.java/2021/09/09/jep-417-proposed-to-target-jdk18/)
 - [The Packaging Tool aka `jpackage` - JEP Café #4](https://inside.java/2021/09/09/jepcafe4/)
@@ -364,7 +363,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Fast and Secure Inter-process Communication on JDK 16 - Inside Java Newscast #11](https://inside.java/2021/08/26/insidejava-newscast-011/)
 - [JEP proposed to target JDK 18: 413: Code Snippets in Java API Documentation](https://inside.java/2021/08/23/jep-413-proposed-to-target-jdk18/)
 - [Switch Expressions - JEP Café #3](https://inside.java/2021/08/19/jepcafe3/)
-
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
