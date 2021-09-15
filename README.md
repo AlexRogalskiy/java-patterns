@@ -413,6 +413,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
+- [How to use QueryDSL with Hibernate](https://thorben-janssen.com/querydsl-hibernate/)
 - [Spring Data JPA – Working with Views](https://thorben-janssen.com/spring-data-jpa-views/)
 - [How to Generate Values of Basic Entity Attributes with Hibernate](https://thorben-janssen.com/hibernate-generator-type/)
 - [Panache – Repository Pattern](https://thorben-janssen.com/panache-repository-pattern/)
@@ -422,7 +423,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Introduction to Panache](https://thorben-janssen.com/introduction-panache/)
 - [How and when to use JPA’s getReference() Method](https://thorben-janssen.com/jpa-getreference/)
 - [Quarkus & Hibernate – Getting Started](https://thorben-janssen.com/quarkus-hibernate/)
-- [Hibernate’s Read-Only Query Hint For Faster Read Operations](https://thorben-janssen.com/read-only-query-hint/)
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*
