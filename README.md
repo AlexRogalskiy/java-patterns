@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Learned the basics of java now what?](https://www.reddit.com/r/java/comments/pnqpvb/learned_the_basics_of_java_now_what/)
-- [Spring Native](https://www.reddit.com/r/java/comments/pnlkqt/spring_native/)
-- [Backend Dev communities?](https://www.reddit.com/r/java/comments/pnkilt/backend_dev_communities/)
-- [Tool to sanitize data from Java heap dumps](https://www.reddit.com/r/java/comments/pnkh4p/tool_to_sanitize_data_from_java_heap_dumps/)
-- [Javalin 4.0.0 stable is now out (web micro-framework)](https://www.reddit.com/r/java/comments/pnhbca/javalin_400_stable_is_now_out_web_microframework/)
-- [Is cloudsim the best simulator to learn cloud computing? Is there a better simulator available now?](https://www.reddit.com/r/java/comments/pndj6d/is_cloudsim_the_best_simulator_to_learn_cloud/)
-- [JEP proposed to target JDK 18: 417: Vector API (3rd Incubator)](https://www.reddit.com/r/java/comments/pnb2bv/jep_proposed_to_target_jdk_18_417_vector_api_3rd/)
-- [Jakarta Faces 4.0 release plan](https://www.reddit.com/r/java/comments/pn1zrd/jakarta_faces_40_release_plan/)
-- [Annotation-free Spring](https://www.reddit.com/r/java/comments/pmuqk8/annotationfree_spring/)
-- [Career path after learning Java?](https://www.reddit.com/r/java/comments/pmsuwu/career_path_after_learning_java/)
+- [Is it bad to change a method from static to non-static for the sole purpose of being able to override it?](https://www.reddit.com/r/java/comments/pofe3m/is_it_bad_to_change_a_method_from_static_to/)
+- [Roast my github project... please?](https://www.reddit.com/r/java/comments/poah50/roast_my_github_project_please/)
+- [Create Java CLI applications with picocli](https://www.reddit.com/r/java/comments/po8grv/create_java_cli_applications_with_picocli/)
+- [Faster LTS and free JDK with Java 17 - Inside Java Newscast #12](https://www.reddit.com/r/java/comments/po4u0c/faster_lts_and_free_jdk_with_java_17_inside_java/)
+- [Oracle Releases Java 17](https://www.reddit.com/r/java/comments/po43ks/oracle_releases_java_17/)
+- [Moving the JDK to a Two Year LTS Cadence](https://www.reddit.com/r/java/comments/po3yu2/moving_the_jdk_to_a_two_year_lts_cadence/)
+- [Introducing the Free Java License](https://www.reddit.com/r/java/comments/po3y1z/introducing_the_free_java_license/)
+- [Moving Java Forward Even Faster](https://www.reddit.com/r/java/comments/po3xh9/moving_java_forward_even_faster/)
+- [JDK 17: General Availability](https://www.reddit.com/r/java/comments/po3trj/jdk_17_general_availability/)
+- [Meet the team- Kevin Sutter, Jakarta EE Advocate](https://www.reddit.com/r/java/comments/po3rhd/meet_the_team_kevin_sutter_jakarta_ee_advocate/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
