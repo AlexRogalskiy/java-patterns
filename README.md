@@ -383,6 +383,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Dreamix posts*
 
 <!-- DREAMIX-POST-LIST:START -->
+- [Unit Testing in Java – The Missing Bits (Part 1)](https://dreamix.eu/blog/java/unit-testing-in-java-the-missing-bits-part-1)
 - [Sorting An Array In Java: Tips & Tricks](https://dreamix.eu/blog/java/sorting-an-array-in-java-tips-tricks)
 - [Java vs JavaScript: How to Choose the Right Backend Technology?](https://dreamix.eu/blog/java/java-vs-javascript-how-to-choose-the-right-backend-technology)
 - [Splitting String in Java –  Examples and Tips](https://dreamix.eu/blog/java/splitting-string-in-java-examples-and-tips)
@@ -392,7 +393,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Java Tools for Agile Software Development](https://dreamix.eu/blog/java/java-tools-for-agile-software-development)
 - [Learn form Java Champion: Simon Ritter x Java Daily](https://dreamix.eu/blog/java/learn-form-java-champion-simon-ritter-x-java-daily)
 - [5 Reasons Why Bespoke Software Development Projects Succeed](https://dreamix.eu/blog/java/5-reasons-why-bespoke-software-development-projects-succeed)
-- [Continuous Integration and Delivery to Improve the Software Development Workflow](https://dreamix.eu/blog/java/continuous-integration-and-delivery-to-improve-the-software-development-workflow)
 <!-- DREAMIX-POST-LIST:END -->
 
 ### *Plumbr posts*
