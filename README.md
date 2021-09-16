@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Is it bad to change a method from static to non-static for the sole purpose of being able to override it?](https://www.reddit.com/r/java/comments/pofe3m/is_it_bad_to_change_a_method_from_static_to/)
-- [Roast my github project... please?](https://www.reddit.com/r/java/comments/poah50/roast_my_github_project_please/)
+- [Announcing the Flow FLIP Fest](https://www.reddit.com/r/java/comments/pp3yjx/announcing_the_flow_flip_fest/)
+- [What is the main purpose of the new interface java.time.InstantSource?](https://www.reddit.com/r/java/comments/poyqep/what_is_the_main_purpose_of_the_new_interface/)
+- [How common is `ADD` in the Java community?](https://www.reddit.com/r/java/comments/powhw6/how_common_is_add_in_the_java_community/)
+- [Eclipse 2021-09 Java IDE Improvements](https://www.reddit.com/r/java/comments/povq0p/eclipse_202109_java_ide_improvements/)
+- [Eclipse 4.21 available](https://www.reddit.com/r/java/comments/por5ko/eclipse_421_available/)
+- [Eclipse 2021-09-4.21 released!](https://www.reddit.com/r/java/comments/por47h/eclipse_202109421_released/)
+- [6 Advanced Comparator and Comparable Examples in Java 8 for Sorting ArrayList Objects By Fields](https://www.reddit.com/r/java/comments/popsvy/6_advanced_comparator_and_comparable_examples_in/)
+- [JDK 17 Security Enhancements](https://www.reddit.com/r/java/comments/poixk4/jdk_17_security_enhancements/)
 - [Create Java CLI applications with picocli](https://www.reddit.com/r/java/comments/po8grv/create_java_cli_applications_with_picocli/)
 - [Faster LTS and free JDK with Java 17 - Inside Java Newscast #12](https://www.reddit.com/r/java/comments/po4u0c/faster_lts_and_free_jdk_with_java_17_inside_java/)
-- [Oracle Releases Java 17](https://www.reddit.com/r/java/comments/po43ks/oracle_releases_java_17/)
-- [Moving the JDK to a Two Year LTS Cadence](https://www.reddit.com/r/java/comments/po3yu2/moving_the_jdk_to_a_two_year_lts_cadence/)
-- [Introducing the Free Java License](https://www.reddit.com/r/java/comments/po3y1z/introducing_the_free_java_license/)
-- [Moving Java Forward Even Faster](https://www.reddit.com/r/java/comments/po3xh9/moving_java_forward_even_faster/)
-- [JDK 17: General Availability](https://www.reddit.com/r/java/comments/po3trj/jdk_17_general_availability/)
-- [Meet the team- Kevin Sutter, Jakarta EE Advocate](https://www.reddit.com/r/java/comments/po3rhd/meet_the_team_kevin_sutter_jakarta_ee_advocate/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
