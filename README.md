@@ -353,6 +353,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Finalizing the Foreign APIs](https://inside.java/2021/09/16/finalizing-the-foreign-apis/)
+- [Faster LTS and free JDK with Java 17 - Inside Java Newscast #12](https://inside.java/2021/09/15/insidejava-newscast-012/)
 - [JDK 17 Security Enhancements](https://inside.java/2021/09/15/jdk-17-security-enhancements/)
 - [Java 17 / JDK 17: General Availability](https://inside.java/2021/09/14/jdk-17/)
 - [Moving Java Forward Even Faster](https://inside.java/2021/09/14/moving-java-forward-even-faster/)
@@ -360,9 +362,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Moving the JDK to a Two Year LTS Cadence](https://inside.java/2021/09/14/moving-the-jdk-to-a-2-year-lts-candence/)
 - [The Arrival of Java 17!](https://inside.java/2021/09/14/the-arrival-of-java17/)
 - [Episode 19 “Java 17 is Here! Part 1”](https://inside.java/2021/09/14/podcast-019/)
-- [What Modules Are About](https://inside.java/2021/09/10/what-are-modules-about/)
-- [JEP proposed to target JDK 18: 417: Vector API (Third Incubator)](https://inside.java/2021/09/09/jep-417-proposed-to-target-jdk18/)
-- [The Packaging Tool aka `jpackage` - JEP Café #4](https://inside.java/2021/09/09/jepcafe4/)
+- [The art of long-term support and what LTS means for the Java ecosystem](https://inside.java/2021/09/10/art-of-lts/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
