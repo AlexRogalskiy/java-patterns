@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Announcing the Flow FLIP Fest](https://www.reddit.com/r/java/comments/pp3yjx/announcing_the_flow_flip_fest/)
-- [What is the main purpose of the new interface java.time.InstantSource?](https://www.reddit.com/r/java/comments/poyqep/what_is_the_main_purpose_of_the_new_interface/)
-- [How common is `ADD` in the Java community?](https://www.reddit.com/r/java/comments/powhw6/how_common_is_add_in_the_java_community/)
-- [Eclipse 2021-09 Java IDE Improvements](https://www.reddit.com/r/java/comments/povq0p/eclipse_202109_java_ide_improvements/)
-- [Eclipse 4.21 available](https://www.reddit.com/r/java/comments/por5ko/eclipse_421_available/)
-- [Eclipse 2021-09-4.21 released!](https://www.reddit.com/r/java/comments/por47h/eclipse_202109421_released/)
-- [6 Advanced Comparator and Comparable Examples in Java 8 for Sorting ArrayList Objects By Fields](https://www.reddit.com/r/java/comments/popsvy/6_advanced_comparator_and_comparable_examples_in/)
-- [JDK 17 Security Enhancements](https://www.reddit.com/r/java/comments/poixk4/jdk_17_security_enhancements/)
-- [Create Java CLI applications with picocli](https://www.reddit.com/r/java/comments/po8grv/create_java_cli_applications_with_picocli/)
-- [Faster LTS and free JDK with Java 17 - Inside Java Newscast #12](https://www.reddit.com/r/java/comments/po4u0c/faster_lts_and_free_jdk_with_java_17_inside_java/)
+- [Shenandoah in OpenJDK 17: Sub-millisecond GC pauses](https://www.reddit.com/r/java/comments/ppjkrp/shenandoah_in_openjdk_17_submillisecond_gc_pauses/)
+- [Vaadin Reaches Version 21](https://www.reddit.com/r/java/comments/ppiraa/vaadin_reaches_version_21/)
+- [Did anything replace Java applets](https://www.reddit.com/r/java/comments/ppgure/did_anything_replace_java_applets/)
+- [Do you prefer traditional or functional java?](https://www.reddit.com/r/java/comments/ppgn1x/do_you_prefer_traditional_or_functional_java/)
+- [Folks with M1 Macbooks and Macs. Oracle's JDK17 now officially supports ARM.](https://www.reddit.com/r/java/comments/ppgm4b/folks_with_m1_macbooks_and_macs_oracles_jdk17_now/)
+- [Finalizing the Foreign APIs](https://www.reddit.com/r/java/comments/ppf3pq/finalizing_the_foreign_apis/)
+- [What's your favourite distributed memory cache product these days?](https://www.reddit.com/r/java/comments/ppep2b/whats_your_favourite_distributed_memory_cache/)
+- [Templated Strings - Amber](https://www.reddit.com/r/java/comments/ppcyzn/templated_strings_amber/)
+- [Web scraping 101 with Java](https://www.reddit.com/r/java/comments/ppbtcz/web_scraping_101_with_java/)
+- [A categorized list of all Java and JVM features since JDK 8 to 17](https://www.reddit.com/r/java/comments/ppb5c7/a_categorized_list_of_all_java_and_jvm_features/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
