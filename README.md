@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Record classes and their constructors](https://www.reddit.com/r/java/comments/pqath9/record_classes_and_their_constructors/)
+- [I created a Java based game engine - FayPixelEngine](https://www.reddit.com/r/java/comments/pq8wzp/i_created_a_java_based_game_engine_faypixelengine/)
+- [Moving Java Forward Keynote](https://www.reddit.com/r/java/comments/pq6w6i/moving_java_forward_keynote/)
+- [Oracle JDK now is free](https://www.reddit.com/r/java/comments/pq2urw/oracle_jdk_now_is_free/)
+- [G1 GC & Parallel GC Improvements in JDK 17](https://www.reddit.com/r/java/comments/ppzdwv/g1_gc_parallel_gc_improvements_in_jdk_17/)
+- [Should i continue with Java ?](https://www.reddit.com/r/java/comments/ppvukb/should_i_continue_with_java/)
+- [Java on Visual Studio Code Update – August 2021](https://www.reddit.com/r/java/comments/ppvo19/java_on_visual_studio_code_update_august_2021/)
 - [Shenandoah in OpenJDK 17: Sub-millisecond GC pauses](https://www.reddit.com/r/java/comments/ppjkrp/shenandoah_in_openjdk_17_submillisecond_gc_pauses/)
 - [Vaadin Reaches Version 21](https://www.reddit.com/r/java/comments/ppiraa/vaadin_reaches_version_21/)
 - [Did anything replace Java applets](https://www.reddit.com/r/java/comments/ppgure/did_anything_replace_java_applets/)
-- [Do you prefer traditional or functional java?](https://www.reddit.com/r/java/comments/ppgn1x/do_you_prefer_traditional_or_functional_java/)
-- [Folks with M1 Macbooks and Macs. Oracle's JDK17 now officially supports ARM.](https://www.reddit.com/r/java/comments/ppgm4b/folks_with_m1_macbooks_and_macs_oracles_jdk17_now/)
-- [Finalizing the Foreign APIs](https://www.reddit.com/r/java/comments/ppf3pq/finalizing_the_foreign_apis/)
-- [What's your favourite distributed memory cache product these days?](https://www.reddit.com/r/java/comments/ppep2b/whats_your_favourite_distributed_memory_cache/)
-- [Templated Strings - Amber](https://www.reddit.com/r/java/comments/ppcyzn/templated_strings_amber/)
-- [Web scraping 101 with Java](https://www.reddit.com/r/java/comments/ppbtcz/web_scraping_101_with_java/)
-- [A categorized list of all Java and JVM features since JDK 8 to 17](https://www.reddit.com/r/java/comments/ppb5c7/a_categorized_list_of_all_java_and_jvm_features/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
