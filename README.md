@@ -353,6 +353,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Keynote - Moving Java Forward](https://inside.java/2021/09/17/devlive-keynote/)
+- [G1 GC &amp; Parallel GC Improvements in JDK 17](https://inside.java/2021/09/17/jdk-17-gc-updates/)
 - [Finalizing the Foreign APIs](https://inside.java/2021/09/16/finalizing-the-foreign-apis/)
 - [Faster LTS and free JDK with Java 17 - Inside Java Newscast #12](https://inside.java/2021/09/15/insidejava-newscast-012/)
 - [JDK 17 Security Enhancements](https://inside.java/2021/09/15/jdk-17-security-enhancements/)
@@ -361,8 +363,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Introducing the Free Java License](https://inside.java/2021/09/14/introducing-the-free-java-license/)
 - [Moving the JDK to a Two Year LTS Cadence](https://inside.java/2021/09/14/moving-the-jdk-to-a-2-year-lts-candence/)
 - [The Arrival of Java 17!](https://inside.java/2021/09/14/the-arrival-of-java17/)
-- [Episode 19 “Java 17 is Here! Part 1”](https://inside.java/2021/09/14/podcast-019/)
-- [The art of long-term support and what LTS means for the Java ecosystem](https://inside.java/2021/09/10/art-of-lts/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
