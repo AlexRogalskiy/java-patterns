@@ -4,6 +4,12 @@ x-deploy: &deploy-template
   deploy:
     mode: global
 
+x-networks: &networks-template
+  networks:
+    extended:
+      aliases:
+        - docs
+
 x-restart-deploy: &restart-deploy-template
   <<: *deploy-template
   deploy:
@@ -77,6 +83,8 @@ services:
       - '${IP_ADDRESS:-127.0.0.1}:${APP_SERVER_PORT:-8000}:8000'
 
 networks:
+  extended:
+    attachable: true
   default:
     driver: bridge
     driver_opts:
