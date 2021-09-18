@@ -29,14 +29,18 @@ else
 endif
 
 IMAGE ?= styled-java-patterns
-OKTETO_IMAGE ?= okteto/styled-java-patterns
-DOCKER_IMAGE ?= alexanderr/styled-java-patterns
+OKTETO_IMAGE ?= okteto/$(IMAGE)
+DOCKER_IMAGE ?= alexanderr/$(IMAGE)
 TAG ?= latest
 
 # UNAME_OS stores the value of uname -s.
 UNAME_OS := $(shell uname -s)
 # UNAME_ARCH stores the value of uname -m.
 UNAME_ARCH := $(shell uname -m)
+# ROOT_DIR stored git root directory
+ROOT_DIR=$(git rev-parse --show-toplevel)
+# ORIGINAL_BRANCH stored git branch name
+ORIGINAL_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
 # TMP_BASE is the base directory used for TMP.
 # Use TMP and not TMP_BASE as the temporary directory.

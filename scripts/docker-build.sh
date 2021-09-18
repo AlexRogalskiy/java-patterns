@@ -5,8 +5,11 @@ set -o nounset
 set -o pipefail
 
 # Docker image params
-readonly IMAGE_REPOSITORY="styled-java-patterns"
-readonly IMAGE_TAG="latest"
+DEFAULT_IMAGE_REPOSITORY="styled-java-patterns"
+DEFAULT_IMAGE_TAG="latest"
+
+readonly IMAGE_REPOSITORY="${IMAGE_REPOSITORY:-$DEFAULT_IMAGE_REPOSITORY}"
+readonly IMAGE_TAG="${IMAGE_TAG:-$DEFAULT_IMAGE_TAG}"
 readonly GIT_SHA=$(git rev-parse HEAD)
 
 cd "$(dirname "$0")/.." || exit 1
