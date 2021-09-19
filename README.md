@@ -278,7 +278,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Record classes and their constructors](https://www.reddit.com/r/java/comments/pqath9/record_classes_and_their_constructors/)
+- [Questions about using Java for competitive programming](https://www.reddit.com/r/java/comments/pqscht/questions_about_using_java_for_competitive/)
+- [JPA compatible "record"s with Lombok](https://www.reddit.com/r/java/comments/pqpekr/jpa_compatible_records_with_lombok/)
+- [What are the restrictions of an OTN Agreement?](https://www.reddit.com/r/java/comments/pqin4w/what_are_the_restrictions_of_an_otn_agreement/)
 - [I created a Java based game engine - FayPixelEngine](https://www.reddit.com/r/java/comments/pq8wzp/i_created_a_java_based_game_engine_faypixelengine/)
 - [Moving Java Forward Keynote](https://www.reddit.com/r/java/comments/pq6w6i/moving_java_forward_keynote/)
 - [Oracle JDK now is free](https://www.reddit.com/r/java/comments/pq2urw/oracle_jdk_now_is_free/)
@@ -286,8 +288,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Should i continue with Java ?](https://www.reddit.com/r/java/comments/ppvukb/should_i_continue_with_java/)
 - [Java on Visual Studio Code Update – August 2021](https://www.reddit.com/r/java/comments/ppvo19/java_on_visual_studio_code_update_august_2021/)
 - [Shenandoah in OpenJDK 17: Sub-millisecond GC pauses](https://www.reddit.com/r/java/comments/ppjkrp/shenandoah_in_openjdk_17_submillisecond_gc_pauses/)
-- [Vaadin Reaches Version 21](https://www.reddit.com/r/java/comments/ppiraa/vaadin_reaches_version_21/)
-- [Did anything replace Java applets](https://www.reddit.com/r/java/comments/ppgure/did_anything_replace_java_applets/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
