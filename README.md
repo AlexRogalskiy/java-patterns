@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Questions about using Java for competitive programming](https://www.reddit.com/r/java/comments/pqscht/questions_about_using_java_for_competitive/)
+- [Java would really need some way of separating imports and actual code](https://www.reddit.com/r/java/comments/prfruu/java_would_really_need_some_way_of_separating/)
+- [Reassessing TestNG vs. Junit](https://www.reddit.com/r/java/comments/prayh5/reassessing_testng_vs_junit/)
+- [Minvio - a simple Java graphical app framework.](https://www.reddit.com/r/java/comments/pr5e1s/minvio_a_simple_java_graphical_app_framework/)
+- [Migrating a JPA application from Oracle to PostgreSQL](https://www.reddit.com/r/java/comments/pr4sgi/migrating_a_jpa_application_from_oracle_to/)
+- [Report: Enterprise Java is having a renaissance - SD Times](https://www.reddit.com/r/java/comments/pr3dri/report_enterprise_java_is_having_a_renaissance_sd/)
 - [JPA compatible "record"s with Lombok](https://www.reddit.com/r/java/comments/pqpekr/jpa_compatible_records_with_lombok/)
 - [What are the restrictions of an OTN Agreement?](https://www.reddit.com/r/java/comments/pqin4w/what_are_the_restrictions_of_an_otn_agreement/)
 - [I created a Java based game engine - FayPixelEngine](https://www.reddit.com/r/java/comments/pq8wzp/i_created_a_java_based_game_engine_faypixelengine/)
 - [Moving Java Forward Keynote](https://www.reddit.com/r/java/comments/pq6w6i/moving_java_forward_keynote/)
 - [Oracle JDK now is free](https://www.reddit.com/r/java/comments/pq2urw/oracle_jdk_now_is_free/)
-- [G1 GC & Parallel GC Improvements in JDK 17](https://www.reddit.com/r/java/comments/ppzdwv/g1_gc_parallel_gc_improvements_in_jdk_17/)
-- [Should i continue with Java ?](https://www.reddit.com/r/java/comments/ppvukb/should_i_continue_with_java/)
-- [Java on Visual Studio Code Update – August 2021](https://www.reddit.com/r/java/comments/ppvo19/java_on_visual_studio_code_update_august_2021/)
-- [Shenandoah in OpenJDK 17: Sub-millisecond GC pauses](https://www.reddit.com/r/java/comments/ppjkrp/shenandoah_in_openjdk_17_submillisecond_gc_pauses/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
