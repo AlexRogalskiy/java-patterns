@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Java would really need some way of separating imports and actual code](https://www.reddit.com/r/java/comments/prfruu/java_would_really_need_some_way_of_separating/)
+- [How to log into Google gmail account using java and check if the certain credentials are correct?](https://www.reddit.com/r/java/comments/ps6k08/how_to_log_into_google_gmail_account_using_java/)
+- ["As of Java 16, the language allows statics inside of inner classes, including anonymous ones in the middle of expressions. This allows us to create two new kinds of variables at any point in a Java program."](https://www.reddit.com/r/java/comments/ps3m2i/as_of_java_16_the_language_allows_statics_inside/)
+- [Keep Track Of Java Features with JEP Search](https://www.reddit.com/r/java/comments/prz3sy/keep_track_of_java_features_with_jep_search/)
+- [New and Deprecated Tabs Available on Official JDK 17 javadoc](https://www.reddit.com/r/java/comments/prx6bq/new_and_deprecated_tabs_available_on_official_jdk/)
+- [DevLive Recordings published!](https://www.reddit.com/r/java/comments/prrlag/devlive_recordings_published/)
+- [I dont know where to ask this question but, is it still possible to code games or programs to old nokia phones if i remember they used java?](https://www.reddit.com/r/java/comments/prp6rr/i_dont_know_where_to_ask_this_question_but_is_it/)
+- [The javac Tree API](https://www.reddit.com/r/java/comments/prp017/the_javac_tree_api/)
 - [Reassessing TestNG vs. Junit](https://www.reddit.com/r/java/comments/prayh5/reassessing_testng_vs_junit/)
 - [Minvio - a simple Java graphical app framework.](https://www.reddit.com/r/java/comments/pr5e1s/minvio_a_simple_java_graphical_app_framework/)
 - [Migrating a JPA application from Oracle to PostgreSQL](https://www.reddit.com/r/java/comments/pr4sgi/migrating_a_jpa_application_from_oracle_to/)
-- [Report: Enterprise Java is having a renaissance - SD Times](https://www.reddit.com/r/java/comments/pr3dri/report_enterprise_java_is_having_a_renaissance_sd/)
-- [JPA compatible "record"s with Lombok](https://www.reddit.com/r/java/comments/pqpekr/jpa_compatible_records_with_lombok/)
-- [What are the restrictions of an OTN Agreement?](https://www.reddit.com/r/java/comments/pqin4w/what_are_the_restrictions_of_an_otn_agreement/)
-- [I created a Java based game engine - FayPixelEngine](https://www.reddit.com/r/java/comments/pq8wzp/i_created_a_java_based_game_engine_faypixelengine/)
-- [Moving Java Forward Keynote](https://www.reddit.com/r/java/comments/pq6w6i/moving_java_forward_keynote/)
-- [Oracle JDK now is free](https://www.reddit.com/r/java/comments/pq2urw/oracle_jdk_now_is_free/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
