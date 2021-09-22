@@ -413,6 +413,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
+- [Spring Data JPA – Detecting Your Entity’s State](https://thorben-janssen.com/spring-data-jpa-state-detection/)
 - [How to use QueryDSL with Hibernate](https://thorben-janssen.com/querydsl-hibernate/)
 - [Spring Data JPA – Working with Views](https://thorben-janssen.com/spring-data-jpa-views/)
 - [How to Generate Values of Basic Entity Attributes with Hibernate](https://thorben-janssen.com/hibernate-generator-type/)
@@ -422,7 +423,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Spring Data JPA – How to Return DTOs from Native Queries](https://thorben-janssen.com/spring-data-jpa-dto-native-queries/)
 - [Introduction to Panache](https://thorben-janssen.com/introduction-panache/)
 - [How and when to use JPA’s getReference() Method](https://thorben-janssen.com/jpa-getreference/)
-- [Quarkus & Hibernate – Getting Started](https://thorben-janssen.com/quarkus-hibernate/)
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*
