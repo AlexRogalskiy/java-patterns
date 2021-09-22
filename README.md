@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [How to log into Google gmail account using java and check if the certain credentials are correct?](https://www.reddit.com/r/java/comments/ps6k08/how_to_log_into_google_gmail_account_using_java/)
+- [Apache NetBeans 12.5 released](https://www.reddit.com/r/java/comments/pstupf/apache_netbeans_125_released/)
+- [OpenJDK file/directory name conventions](https://www.reddit.com/r/java/comments/psso4u/openjdk_filedirectory_name_conventions/)
+- [MicroStream 5.0 is Now Open Source](https://www.reddit.com/r/java/comments/psrwmz/microstream_50_is_now_open_source/)
+- [A template project for setting up Panama's Foreign Linker (jextract) & Rust](https://www.reddit.com/r/java/comments/psnnms/a_template_project_for_setting_up_panamas_foreign/)
+- [Be sure to check out these Java and JDT Talks at EclipseCon 2021](https://www.reddit.com/r/java/comments/psmc65/be_sure_to_check_out_these_java_and_jdt_talks_at/)
+- [Java Language Futures: Late 2021 Edition](https://www.reddit.com/r/java/comments/psk2ui/java_language_futures_late_2021_edition/)
+- [Does anybody know locations of Java 17 docker images?](https://www.reddit.com/r/java/comments/pscq94/does_anybody_know_locations_of_java_17_docker/)
 - ["As of Java 16, the language allows statics inside of inner classes, including anonymous ones in the middle of expressions. This allows us to create two new kinds of variables at any point in a Java program."](https://www.reddit.com/r/java/comments/ps3m2i/as_of_java_16_the_language_allows_statics_inside/)
 - [Keep Track Of Java Features with JEP Search](https://www.reddit.com/r/java/comments/prz3sy/keep_track_of_java_features_with_jep_search/)
 - [New and Deprecated Tabs Available on Official JDK 17 javadoc](https://www.reddit.com/r/java/comments/prx6bq/new_and_deprecated_tabs_available_on_official_jdk/)
-- [DevLive Recordings published!](https://www.reddit.com/r/java/comments/prrlag/devlive_recordings_published/)
-- [I dont know where to ask this question but, is it still possible to code games or programs to old nokia phones if i remember they used java?](https://www.reddit.com/r/java/comments/prp6rr/i_dont_know_where_to_ask_this_question_but_is_it/)
-- [The javac Tree API](https://www.reddit.com/r/java/comments/prp017/the_javac_tree_api/)
-- [Reassessing TestNG vs. Junit](https://www.reddit.com/r/java/comments/prayh5/reassessing_testng_vs_junit/)
-- [Minvio - a simple Java graphical app framework.](https://www.reddit.com/r/java/comments/pr5e1s/minvio_a_simple_java_graphical_app_framework/)
-- [Migrating a JPA application from Oracle to PostgreSQL](https://www.reddit.com/r/java/comments/pr4sgi/migrating_a_jpa_application_from_oracle_to/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
