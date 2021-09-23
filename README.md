@@ -353,6 +353,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Floating-Point Arithmetic : What Every Java Programmer Should Know!](https://inside.java/2021/09/22/devlive-floating-point-arithmetic/)
 - [Java Language Futures: Late 2021 Edition](https://inside.java/2021/09/21/devlive-java-language-futures/)
 - [The javac Tree API](https://inside.java/2021/09/20/javac-tree-api/)
 - [Keynote - Moving Java Forward](https://inside.java/2021/09/17/devlive-keynote/)
@@ -362,7 +363,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JDK 17 Security Enhancements](https://inside.java/2021/09/15/jdk-17-security-enhancements/)
 - [Java 17 / JDK 17: General Availability](https://inside.java/2021/09/14/jdk-17/)
 - [Moving Java Forward Even Faster](https://inside.java/2021/09/14/moving-java-forward-even-faster/)
-- [Introducing the Free Java License](https://inside.java/2021/09/14/introducing-the-free-java-license/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
