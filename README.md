@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Apache NetBeans 12.5 released](https://www.reddit.com/r/java/comments/pstupf/apache_netbeans_125_released/)
-- [OpenJDK file/directory name conventions](https://www.reddit.com/r/java/comments/psso4u/openjdk_filedirectory_name_conventions/)
-- [MicroStream 5.0 is Now Open Source](https://www.reddit.com/r/java/comments/psrwmz/microstream_50_is_now_open_source/)
-- [A template project for setting up Panama's Foreign Linker (jextract) & Rust](https://www.reddit.com/r/java/comments/psnnms/a_template_project_for_setting_up_panamas_foreign/)
-- [Be sure to check out these Java and JDT Talks at EclipseCon 2021](https://www.reddit.com/r/java/comments/psmc65/be_sure_to_check_out_these_java_and_jdt_talks_at/)
-- [Java Language Futures: Late 2021 Edition](https://www.reddit.com/r/java/comments/psk2ui/java_language_futures_late_2021_edition/)
-- [Does anybody know locations of Java 17 docker images?](https://www.reddit.com/r/java/comments/pscq94/does_anybody_know_locations_of_java_17_docker/)
-- ["As of Java 16, the language allows statics inside of inner classes, including anonymous ones in the middle of expressions. This allows us to create two new kinds of variables at any point in a Java program."](https://www.reddit.com/r/java/comments/ps3m2i/as_of_java_16_the_language_allows_statics_inside/)
-- [Keep Track Of Java Features with JEP Search](https://www.reddit.com/r/java/comments/prz3sy/keep_track_of_java_features_with_jep_search/)
-- [New and Deprecated Tabs Available on Official JDK 17 javadoc](https://www.reddit.com/r/java/comments/prx6bq/new_and_deprecated_tabs_available_on_official_jdk/)
+- [Difficult to learn spring boot](https://www.reddit.com/r/java/comments/ptfn8p/difficult_to_learn_spring_boot/)
+- [Difficult to learn spring boot](https://www.reddit.com/r/java/comments/ptfn3m/difficult_to_learn_spring_boot/)
+- [Spring Data JPA MongoDB Expressions new documentation website](https://www.reddit.com/r/java/comments/ptfcpo/spring_data_jpa_mongodb_expressions_new/)
+- [GraalVM + Typescript + Quarkus !??](https://www.reddit.com/r/java/comments/ptei13/graalvm_typescript_quarkus/)
+- [Spring Data JPA - Detecting Your Entity's State](https://www.reddit.com/r/java/comments/ptccpq/spring_data_jpa_detecting_your_entitys_state/)
+- [Dissecting the 2021 Jakarta EE Developer Survey](https://www.reddit.com/r/java/comments/ptaysd/dissecting_the_2021_jakarta_ee_developer_survey/)
+- [Hi fellow programmers, So I am entering a job with role expecting 2.5 years of Java and spring boot experience. Am bit confused on what will be expected of me over there and how well I will get to know their architecture. So any tips to prepare myself ? Any books or any resources to practise skills](https://www.reddit.com/r/java/comments/pt9ain/hi_fellow_programmers_so_i_am_entering_a_job_with/)
+- [Micronaut 3.0 Delivers Significant Changes Adaptable for Future Development](https://www.reddit.com/r/java/comments/pt3zgh/micronaut_30_delivers_significant_changes/)
+- [Hibernate: all systems go for Java 17](https://www.reddit.com/r/java/comments/pt3dqp/hibernate_all_systems_go_for_java_17/)
+- [Failsafe vs Resilience4j](https://www.reddit.com/r/java/comments/pt27uo/failsafe_vs_resilience4j/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
