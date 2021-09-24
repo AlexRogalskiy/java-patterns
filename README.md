@@ -368,6 +368,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Java programmer posts*
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [12 Best Java Blogs for Beginners 2021](https://www.thejavaprogrammer.com/best-java-blogs/)
 - [Advantages and Disadvantages of Encapsulation in Java](https://www.thejavaprogrammer.com/advantages-and-disadvantages-of-encapsulation-in-java/)
 - [How to Find Array Length in Java with Examples](https://www.thejavaprogrammer.com/array-length-in-java/)
 - [Solved Error: cannot be cast to java.lang.Comparable](https://www.thejavaprogrammer.com/cannot-be-cast-to-java-lang-comparable/)
@@ -377,7 +378,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Volatile vs Synchronized in Java](https://www.thejavaprogrammer.com/volatile-vs-synchronized/)
 - [One Dimensional Array in Java – 1D Array](https://www.thejavaprogrammer.com/one-dimensional-array/)
 - [Java Program for Employee Details using Class and Object](https://www.thejavaprogrammer.com/java-program-for-employee-details-using-class-and-object/)
-- [Covariant Return Type in Java](https://www.thejavaprogrammer.com/covariant-return-type-in-java/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### *Dreamix posts*
