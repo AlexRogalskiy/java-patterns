@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Difficult to learn spring boot](https://www.reddit.com/r/java/comments/ptfn8p/difficult_to_learn_spring_boot/)
-- [Difficult to learn spring boot](https://www.reddit.com/r/java/comments/ptfn3m/difficult_to_learn_spring_boot/)
-- [Spring Data JPA MongoDB Expressions new documentation website](https://www.reddit.com/r/java/comments/ptfcpo/spring_data_jpa_mongodb_expressions_new/)
+- [Should we make our project open source?](https://www.reddit.com/r/java/comments/ptz87m/should_we_make_our_project_open_source/)
+- [Adoptium provides OpenJDK 17 LTS downloads](https://www.reddit.com/r/java/comments/ptxrxt/adoptium_provides_openjdk_17_lts_downloads/)
+- [Amazon Corretto, A Journey into Latency Reduction](https://www.reddit.com/r/java/comments/ptxduq/amazon_corretto_a_journey_into_latency_reduction/)
+- [Rust for Java Developers - Part 2 - Java 17 side by side](https://www.reddit.com/r/java/comments/ptwqro/rust_for_java_developers_part_2_java_17_side_by/)
+- [The Vector API in JDK 17](https://www.reddit.com/r/java/comments/ptwne1/the_vector_api_in_jdk_17/)
+- [Java 15+ for Solaris/Illumos](https://www.reddit.com/r/java/comments/ptpo0k/java_15_for_solarisillumos/)
 - [GraalVM + Typescript + Quarkus !??](https://www.reddit.com/r/java/comments/ptei13/graalvm_typescript_quarkus/)
 - [Spring Data JPA - Detecting Your Entity's State](https://www.reddit.com/r/java/comments/ptccpq/spring_data_jpa_detecting_your_entitys_state/)
 - [Dissecting the 2021 Jakarta EE Developer Survey](https://www.reddit.com/r/java/comments/ptaysd/dissecting_the_2021_jakarta_ee_developer_survey/)
-- [Hi fellow programmers, So I am entering a job with role expecting 2.5 years of Java and spring boot experience. Am bit confused on what will be expected of me over there and how well I will get to know their architecture. So any tips to prepare myself ? Any books or any resources to practise skills](https://www.reddit.com/r/java/comments/pt9ain/hi_fellow_programmers_so_i_am_entering_a_job_with/)
 - [Micronaut 3.0 Delivers Significant Changes Adaptable for Future Development](https://www.reddit.com/r/java/comments/pt3zgh/micronaut_30_delivers_significant_changes/)
-- [Hibernate: all systems go for Java 17](https://www.reddit.com/r/java/comments/pt3dqp/hibernate_all_systems_go_for_java_17/)
-- [Failsafe vs Resilience4j](https://www.reddit.com/r/java/comments/pt27uo/failsafe_vs_resilience4j/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
