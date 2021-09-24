@@ -278,21 +278,22 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Apache NetBeans 12.5 released](https://www.reddit.com/r/java/comments/pstupf/apache_netbeans_125_released/)
-- [OpenJDK file/directory name conventions](https://www.reddit.com/r/java/comments/psso4u/openjdk_filedirectory_name_conventions/)
-- [MicroStream 5.0 is Now Open Source](https://www.reddit.com/r/java/comments/psrwmz/microstream_50_is_now_open_source/)
-- [A template project for setting up Panama's Foreign Linker (jextract) & Rust](https://www.reddit.com/r/java/comments/psnnms/a_template_project_for_setting_up_panamas_foreign/)
-- [Be sure to check out these Java and JDT Talks at EclipseCon 2021](https://www.reddit.com/r/java/comments/psmc65/be_sure_to_check_out_these_java_and_jdt_talks_at/)
-- [Java Language Futures: Late 2021 Edition](https://www.reddit.com/r/java/comments/psk2ui/java_language_futures_late_2021_edition/)
-- [Does anybody know locations of Java 17 docker images?](https://www.reddit.com/r/java/comments/pscq94/does_anybody_know_locations_of_java_17_docker/)
-- ["As of Java 16, the language allows statics inside of inner classes, including anonymous ones in the middle of expressions. This allows us to create two new kinds of variables at any point in a Java program."](https://www.reddit.com/r/java/comments/ps3m2i/as_of_java_16_the_language_allows_statics_inside/)
-- [Keep Track Of Java Features with JEP Search](https://www.reddit.com/r/java/comments/prz3sy/keep_track_of_java_features_with_jep_search/)
-- [New and Deprecated Tabs Available on Official JDK 17 javadoc](https://www.reddit.com/r/java/comments/prx6bq/new_and_deprecated_tabs_available_on_official_jdk/)
+- [Should we make our project open source?](https://www.reddit.com/r/java/comments/ptz87m/should_we_make_our_project_open_source/)
+- [Adoptium provides OpenJDK 17 LTS downloads](https://www.reddit.com/r/java/comments/ptxrxt/adoptium_provides_openjdk_17_lts_downloads/)
+- [Amazon Corretto, A Journey into Latency Reduction](https://www.reddit.com/r/java/comments/ptxduq/amazon_corretto_a_journey_into_latency_reduction/)
+- [Rust for Java Developers - Part 2 - Java 17 side by side](https://www.reddit.com/r/java/comments/ptwqro/rust_for_java_developers_part_2_java_17_side_by/)
+- [The Vector API in JDK 17](https://www.reddit.com/r/java/comments/ptwne1/the_vector_api_in_jdk_17/)
+- [Java 15+ for Solaris/Illumos](https://www.reddit.com/r/java/comments/ptpo0k/java_15_for_solarisillumos/)
+- [GraalVM + Typescript + Quarkus !??](https://www.reddit.com/r/java/comments/ptei13/graalvm_typescript_quarkus/)
+- [Spring Data JPA - Detecting Your Entity's State](https://www.reddit.com/r/java/comments/ptccpq/spring_data_jpa_detecting_your_entitys_state/)
+- [Dissecting the 2021 Jakarta EE Developer Survey](https://www.reddit.com/r/java/comments/ptaysd/dissecting_the_2021_jakarta_ee_developer_survey/)
+- [Micronaut 3.0 Delivers Significant Changes Adaptable for Future Development](https://www.reddit.com/r/java/comments/pt3zgh/micronaut_30_delivers_significant_changes/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [6 great new Java features you don’t want to miss](https://www.infoworld.com/article/3633638/6-great-new-java-features-you-dont-want-to-miss.html#tk.rss_java)
 - [Oracle v. Google: What the verdict means for open source](https://www.infoworld.com/article/3633668/oracle-v-google-what-the-verdict-means-for-open-source.html#tk.rss_java)
 - [What to expect in Java 18](https://www.infoworld.com/article/3630510/what-to-expect-in-java-18.html#tk.rss_java)
 - [Eclipse’s Jakarta EE gains momentum](https://www.infoworld.com/article/3633469/eclipses-jakarta-ee-gains-momentum.html#tk.rss_java)
@@ -302,7 +303,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [How to secure REST with Spring Security](https://www.infoworld.com/article/3630107/how-to-secure-rest-with-spring-security.html#tk.rss_java)
 - [Kotlin update previews experimental features](https://www.infoworld.com/article/3631133/kotlin-update-previews-experimental-features.html#tk.rss_java)
 - [JetBrains Java IDE adds project analysis, build system improvements](https://www.infoworld.com/article/3628177/jetbrains-java-ide-adds-project-analysis-build-system-improvements.html#tk.rss_java)
-- [Oracle launches Verrazzano container platform for Kubernetes](https://www.infoworld.com/article/3627407/oracle-launches-verrazzano-container-platform-for-kubernetes.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
@@ -353,6 +353,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [The Vector API in JDK 17](https://inside.java/2021/09/23/devlive-vector-api/)
+- [Floating-Point Arithmetic : What Every Java Programmer Should Know!](https://inside.java/2021/09/22/devlive-floating-point-arithmetic/)
 - [Java Language Futures: Late 2021 Edition](https://inside.java/2021/09/21/devlive-java-language-futures/)
 - [The javac Tree API](https://inside.java/2021/09/20/javac-tree-api/)
 - [Keynote - Moving Java Forward](https://inside.java/2021/09/17/devlive-keynote/)
@@ -361,13 +363,12 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Faster LTS and free JDK with Java 17 - Inside Java Newscast #12](https://inside.java/2021/09/15/insidejava-newscast-012/)
 - [JDK 17 Security Enhancements](https://inside.java/2021/09/15/jdk-17-security-enhancements/)
 - [Java 17 / JDK 17: General Availability](https://inside.java/2021/09/14/jdk-17/)
-- [Moving Java Forward Even Faster](https://inside.java/2021/09/14/moving-java-forward-even-faster/)
-- [Introducing the Free Java License](https://inside.java/2021/09/14/introducing-the-free-java-license/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [12 Best Java Blogs for Beginners 2021](https://www.thejavaprogrammer.com/best-java-blogs/)
 - [Advantages and Disadvantages of Encapsulation in Java](https://www.thejavaprogrammer.com/advantages-and-disadvantages-of-encapsulation-in-java/)
 - [How to Find Array Length in Java with Examples](https://www.thejavaprogrammer.com/array-length-in-java/)
 - [Solved Error: cannot be cast to java.lang.Comparable](https://www.thejavaprogrammer.com/cannot-be-cast-to-java-lang-comparable/)
@@ -377,7 +378,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Volatile vs Synchronized in Java](https://www.thejavaprogrammer.com/volatile-vs-synchronized/)
 - [One Dimensional Array in Java – 1D Array](https://www.thejavaprogrammer.com/one-dimensional-array/)
 - [Java Program for Employee Details using Class and Object](https://www.thejavaprogrammer.com/java-program-for-employee-details-using-class-and-object/)
-- [Covariant Return Type in Java](https://www.thejavaprogrammer.com/covariant-return-type-in-java/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### *Dreamix posts*
