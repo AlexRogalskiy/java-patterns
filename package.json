@@ -16,6 +16,7 @@
         "commit": "git-cz",
         "release": "release-it",
         "name": "node ./scripts/rootAppName.js",
+        "check:git": ". ./scripts/checkgit.sh",
         "env:linux": "export $(cat .env | xargs) && env",
         "env:windows": "(for /F \"tokens=*\" %i in (.env) do set %i)",
         "deploy": "deploy-to-gh-pages --local --update site",
