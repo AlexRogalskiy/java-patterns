@@ -17,8 +17,16 @@ CLUSTER_NAME := backend-java-patterns
 CLUSTER_NAMESPACE := webapp
 
 VENV_NAME := venv
+VENV_BIN=$(VENV_NAME)/bin
+VENV_PIP=$(VENV_BIN)/pip3
+VENV_PYTHON=$(VENV_BIN)/python3
+
 RELEASE_NAME := release
 GH_PAGES_NAME := site
+
+cred := $(shell echo -e "\033[0;31m")
+cyellow := $(shell echo -e "\033[0;33m")
+cend := $(shell echo -e "\033[0m")
 
 # Set V=1 on the command line to turn off all suppression. Many trivial
 # commands are suppressed with "@", by setting V=1, this will be turned off.
@@ -69,15 +77,17 @@ _no-target-specified:
 .PHONY: _venv
 _venv:
 	virtualenv $(VENV_NAME)
-	. $(VENV_NAME)/bin/activate
+	. $(VENV_BIN)/activate
 	@echo
-	@echo "Virtual env created. The source pages are in $(VENV_NAME) directory."
+	@echo -e "$(cred)Virtual env created. The source pages are in $(VENV_NAME) directory.$(cend)"
+	@echo
 
 # Create help information.
 .PHONY: help
 help:
 	@echo
-	@echo "Please use \`make <target>' where <target> is one of"
+	@echo
+	@echo -e "$(cred)Please use [make <target>] where <target> is one of:$(cend)"
 	@echo "  all       				to run linting & format tasks"
 	@echo "  clean     				to remove temporary directories"
 	@echo "  deps 						to install dependencies"
@@ -103,6 +113,7 @@ help:
 	@echo "  venv-run  				to run documentation in virtual environment"
 	@echo "  versions  				to list commands versions"
 	@echo
+	@echo
 
 # Lists all targets defined in this makefile.
 .PHONY: list
@@ -114,7 +125,8 @@ list:
 dirs:
 	echo "$(DIRS)"
 	@echo
-	@echo "Directory list finished."
+	@echo -e "$(cred)Directory list finished.$(cend)"
+	@echo
 
 # Run version command.
 .PHONY: versions
@@ -127,7 +139,8 @@ versions:
 	helm version
 	$(AT) echo
 	@echo
-	@echo "Versions list finished."
+	@echo -e "$(cred)Versions list finished.$(cend)"
+	@echo
 
 # Clean removes all temporary files.
 .PHONY: clean
@@ -137,7 +150,8 @@ clean:
 	rm -rf $(GH_PAGES_NAME)
 	rm -rf $(VENV_NAME)
 	@echo
-	@echo "Clean finished."
+	@echo -e "$(cred)Clean finished.$(cend)"
+	@echo
 
 # Ensures that the git workspace is clean.
 .PHONY: _ensure-clean
@@ -199,6 +213,9 @@ helm-stop:
 helm-package:
 	mkdir -p $(RELEASE_NAME)/charts
 	helm package charts --dependency-update --destination $(RELEASE_NAME)/charts
+	@echo
+	@echo -e "$(cred)Helm packages build finished.$(cend)"
+	@echo
 
 # Run helm dev command.
 .PHONY: helm-dev
@@ -209,6 +226,9 @@ helm-dev: clean helm-lint helm-package
 okteto:
 	okteto build -t $(DOCKER_IMAGE) .
 	okteto build -t $(OKTETO_IMAGE) .
+	@echo
+	@echo -e "$(cred)Okteto images build finished.$(cend)"
+	@echo
 
 # Install pip command.
 .PHONY: install-pip
@@ -216,13 +236,17 @@ install-pip:
 	wget --no-check-certificate https://bootstrap.pypa.io/get-pip.py -O $(TMPDIR)/get-pip.py
 	$(PYTHON) $(TMPDIR)/get-pip.py
 	@echo
-	@echo "Pip installed."
+	@echo -e "$(cred)Pip installed.$(cend)"
+	@echo
 
 # Run local build command.
 .PHONY: local-build
 local-build:
 	$(PYTHON) -m pip install -r ./docs/requirements.txt --disable-pip-version-check
 	$(PYTHON) -m mkdocs build --clean --config-file mkdocs.yml
+	@echo
+	@echo -e "$(cred)Python documentation build finished.$(cend)"
+	@echo
 
 # Run local run command.
 .PHONY: local-run
@@ -232,34 +256,38 @@ local-run: local-build
 # Run venv build command.
 .PHONY: venv-build
 venv-build: _venv
-	$(VENV_NAME)/bin/python3 -m pip install -r ./docs/requirements.txt --disable-pip-version-check --no-cache-dir --prefer-binary
-	$(VENV_NAME)/bin/python3 -m mkdocs build --clean --config-file mkdocs.yml
+	$(VENV_PYTHON) -m pip install -r ./docs/requirements.txt --disable-pip-version-check --no-cache-dir --prefer-binary
+	$(VENV_PYTHON) -m mkdocs build --clean --config-file mkdocs.yml
 	@echo
-	@echo "Build finished. The source pages are in $(VENV_NAME) directory."
+	@echo -e "$(cred)Build finished. The source pages are in $(VENV_NAME) directory.$(cend)"
+	@echo
 	exit
 
 # Run venv run command.
 .PHONY: venv-run
 venv-run: venv-build
-	$(VENV_NAME)/bin/python3 -m mkdocs serve --verbose --dirtyreload
+	$(VENV_PYTHON) -m mkdocs serve --verbose --dirtyreload
 
 # Run github pages deploy command.
 .PHONY: gh-pages
 gh-pages:
 	$(PYTHON) -m mkdocs --verbose gh-deploy --force --remote-branch gh-pages
 	@echo
-	@echo "GitHub pages generated."
+	@echo -e "$(cred)GitHub pages generated.$(cend)"
+	@echo
 
 # Run npm install command.
 .PHONY: deps
 deps:
 	$(NPM) install
 	@echo
-	@echo "Install finished."
+	@echo -e "$(cred)Install finished.$(cend)"
+	@echo
 
 # Run npm all command.
 .PHONY: all
 all:
 	$(NPM) run all
 	@echo
-	@echo "Build finished."
+	@echo -e "$(cred)Build finished.$(cend)"
+	@echo
