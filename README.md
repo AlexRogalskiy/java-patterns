@@ -278,7 +278,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Should we make our project open source?](https://www.reddit.com/r/java/comments/ptz87m/should_we_make_our_project_open_source/)
+- [Big problems at the timezone database](https://www.reddit.com/r/java/comments/puwe13/big_problems_at_the_timezone_database/)
+- [Porting Loom to additional architectures](https://www.reddit.com/r/java/comments/puigwc/porting_loom_to_additional_architectures/)
+- [Pattern Matching in Java 17 and Beyond](https://www.reddit.com/r/java/comments/puhtkz/pattern_matching_in_java_17_and_beyond/)
 - [Adoptium provides OpenJDK 17 LTS downloads](https://www.reddit.com/r/java/comments/ptxrxt/adoptium_provides_openjdk_17_lts_downloads/)
 - [Amazon Corretto, A Journey into Latency Reduction](https://www.reddit.com/r/java/comments/ptxduq/amazon_corretto_a_journey_into_latency_reduction/)
 - [Rust for Java Developers - Part 2 - Java 17 side by side](https://www.reddit.com/r/java/comments/ptwqro/rust_for_java_developers_part_2_java_17_side_by/)
@@ -286,8 +288,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Java 15+ for Solaris/Illumos](https://www.reddit.com/r/java/comments/ptpo0k/java_15_for_solarisillumos/)
 - [GraalVM + Typescript + Quarkus !??](https://www.reddit.com/r/java/comments/ptei13/graalvm_typescript_quarkus/)
 - [Spring Data JPA - Detecting Your Entity's State](https://www.reddit.com/r/java/comments/ptccpq/spring_data_jpa_detecting_your_entitys_state/)
-- [Dissecting the 2021 Jakarta EE Developer Survey](https://www.reddit.com/r/java/comments/ptaysd/dissecting_the_2021_jakarta_ee_developer_survey/)
-- [Micronaut 3.0 Delivers Significant Changes Adaptable for Future Development](https://www.reddit.com/r/java/comments/pt3zgh/micronaut_30_delivers_significant_changes/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
