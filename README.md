@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [What's the best certification out there to be a java developer?](https://www.reddit.com/r/java/comments/pvj3ae/whats_the_best_certification_out_there_to_be_a/)
+- [Anyone benchmarked JDK 17 on macOS? (ARM) - I get slight performance regression over 13 & 15 (Testing on Zulu)](https://www.reddit.com/r/java/comments/pvdz7a/anyone_benchmarked_jdk_17_on_macos_arm_i_get/)
+- [notes for the "Programming Concurrency on the JVM" book](https://www.reddit.com/r/java/comments/pv6uen/notes_for_the_programming_concurrency_on_the_jvm/)
+- [Faster hot reload in jte 1.12.0](https://www.reddit.com/r/java/comments/pv14zr/faster_hot_reload_in_jte_1120/)
 - [Big problems at the timezone database](https://www.reddit.com/r/java/comments/puwe13/big_problems_at_the_timezone_database/)
 - [Porting Loom to additional architectures](https://www.reddit.com/r/java/comments/puigwc/porting_loom_to_additional_architectures/)
 - [Pattern Matching in Java 17 and Beyond](https://www.reddit.com/r/java/comments/puhtkz/pattern_matching_in_java_17_and_beyond/)
 - [Adoptium provides OpenJDK 17 LTS downloads](https://www.reddit.com/r/java/comments/ptxrxt/adoptium_provides_openjdk_17_lts_downloads/)
 - [Amazon Corretto, A Journey into Latency Reduction](https://www.reddit.com/r/java/comments/ptxduq/amazon_corretto_a_journey_into_latency_reduction/)
 - [Rust for Java Developers - Part 2 - Java 17 side by side](https://www.reddit.com/r/java/comments/ptwqro/rust_for_java_developers_part_2_java_17_side_by/)
-- [The Vector API in JDK 17](https://www.reddit.com/r/java/comments/ptwne1/the_vector_api_in_jdk_17/)
-- [Java 15+ for Solaris/Illumos](https://www.reddit.com/r/java/comments/ptpo0k/java_15_for_solarisillumos/)
-- [GraalVM + Typescript + Quarkus !??](https://www.reddit.com/r/java/comments/ptei13/graalvm_typescript_quarkus/)
-- [Spring Data JPA - Detecting Your Entity's State](https://www.reddit.com/r/java/comments/ptccpq/spring_data_jpa_detecting_your_entitys_state/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
