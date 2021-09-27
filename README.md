@@ -338,7 +338,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Better code posts*
 
 <!-- BETTERCODE-POST-LIST:START -->
-
 - [Building Microservices with Event-Driven Architecture](https://betterjavacode.com/programming/microservices-event-driven-architecture)
 - [On Being A Senior Software Engineer](https://betterjavacode.com/programming/on-being-a-senior-software-engineer)
 - [A Complete Guide to Using ElasticSearch with Spring Boot](https://betterjavacode.com/programming/elasticsearch-spring-boot)
@@ -349,7 +348,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [What Makes a Good Junior Developer](https://betterjavacode.com/programming/what-makes-a-good-junior-developer)
 - [Integration Testing in Spring Boot Application](https://betterjavacode.com/programming/integration-testing-in-spring-boot-application)
 - [Controller Advice – Exception Handler in Spring Boot](https://betterjavacode.com/programming/controller-advice-exception-handler-in-spring-boot)
-
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### *Inside Java posts*
