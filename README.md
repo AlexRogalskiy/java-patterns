@@ -383,7 +383,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Dreamix posts*
 
 <!-- DREAMIX-POST-LIST:START -->
-
 - [Unit Testing in Java – The Missing Bits (Part 2)](https://dreamix.eu/blog/java/unit-testing-in-java-the-missing-bits-part-2)
 - [Unit Testing in Java – The Missing Bits (Part 1)](https://dreamix.eu/blog/java/unit-testing-in-java-the-missing-bits-part-1)
 - [Sorting An Array In Java: Tips & Tricks](https://dreamix.eu/blog/java/sorting-an-array-in-java-tips-tricks)
@@ -394,7 +393,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Learn from Java Champion Matt Raible: JHipster to the rescue](https://dreamix.eu/blog/java/learn-from-java-champion-matt-raible-jhipster-to-the-rescue)
 - [Java Tools for Agile Software Development](https://dreamix.eu/blog/java/java-tools-for-agile-software-development)
 - [Learn form Java Champion: Simon Ritter x Java Daily](https://dreamix.eu/blog/java/learn-form-java-champion-simon-ritter-x-java-daily)
-
 <!-- DREAMIX-POST-LIST:END -->
 
 ### *Plumbr posts*
