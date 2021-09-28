@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Changes are coming to WildFly](https://www.reddit.com/r/java/comments/pwqolz/changes_are_coming_to_wildfly/)
+- [Will Spring still be relevant in the near future?](https://www.reddit.com/r/java/comments/pwjnyj/will_spring_still_be_relevant_in_the_near_future/)
+- [A new parser generator for Java 17, with grammar as algebraic datatypes](https://www.reddit.com/r/java/comments/pwinfn/a_new_parser_generator_for_java_17_with_grammar/)
+- [BellSoft has built the Java 17 ( LTS ) JRE Oracle Should Have Built](https://www.reddit.com/r/java/comments/pwgy59/bellsoft_has_built_the_java_17_lts_jre_oracle/)
+- [Call for Discussion: New Project: RISC-V Port](https://www.reddit.com/r/java/comments/pwfc9w/call_for_discussion_new_project_riscv_port/)
+- [Z Garbage Collector with Monica Beckwith - Java Champion and Senior Principal Engineer at Microsoft](https://www.reddit.com/r/java/comments/pwemaq/z_garbage_collector_with_monica_beckwith_java/)
+- [Introducing Kogito API Incubation](https://www.reddit.com/r/java/comments/pwdwfr/introducing_kogito_api_incubation/)
+- [OneDev5 - open source self-hosted GitHub alternative in Java](https://www.reddit.com/r/java/comments/pwd28h/onedev5_open_source_selfhosted_github_alternative/)
+- [Inside Java Podcast 20 with Brian Goetz & Stuart Marks](https://www.reddit.com/r/java/comments/pwbvqc/inside_java_podcast_20_with_brian_goetz_stuart/)
 - [VMware Overhauls Spring 6 & Spring Boot 3 for Another Decade](https://www.reddit.com/r/java/comments/pw17x7/vmware_overhauls_spring_6_spring_boot_3_for/)
-- [Multiple ways to configure Spring](https://www.reddit.com/r/java/comments/pvwhvv/multiple_ways_to_configure_spring/)
-- [Hashtag Jakarta EE #91](https://www.reddit.com/r/java/comments/pvs8xg/hashtag_jakarta_ee_91/)
-- [Best Http client for web scraping](https://www.reddit.com/r/java/comments/pvs8aw/best_http_client_for_web_scraping/)
-- [DSL for generating HTML in Java](https://www.reddit.com/r/java/comments/pvpwls/dsl_for_generating_html_in_java/)
-- [GlassFish & Payara Auto-Clustering](https://www.reddit.com/r/java/comments/pvp7ts/glassfish_payara_autoclustering/)
-- [What's the best certification out there to be a java developer?](https://www.reddit.com/r/java/comments/pvj3ae/whats_the_best_certification_out_there_to_be_a/)
-- [Anyone benchmarked JDK 17 on macOS? (ARM) - I get slight performance regression over 13 & 15 (Testing on Zulu)](https://www.reddit.com/r/java/comments/pvdz7a/anyone_benchmarked_jdk_17_on_macos_arm_i_get/)
-- [notes for the "Programming Concurrency on the JVM" book](https://www.reddit.com/r/java/comments/pv6uen/notes_for_the_programming_concurrency_on_the_jvm/)
-- [Faster hot reload in jte 1.12.0](https://www.reddit.com/r/java/comments/pv14zr/faster_hot_reload_in_jte_1120/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
