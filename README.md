@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [6 great new Java features you don’t want to miss](https://www.reddit.com/r/java/comments/pxk81l/6_great_new_java_features_you_dont_want_to_miss/)
+- [If Loom was going to preview in 18, when would we know?](https://www.reddit.com/r/java/comments/pxe73c/if_loom_was_going_to_preview_in_18_when_would_we/)
+- [[OC] Most Popular Backend Frameworks 2011/2021](https://www.reddit.com/r/java/comments/px5mqk/oc_most_popular_backend_frameworks_20112021/)
+- [Java developer communities? IRC, Slack or Discord etc?](https://www.reddit.com/r/java/comments/px31za/java_developer_communities_irc_slack_or_discord/)
+- [Recommendations for open source java projects to contribute to?](https://www.reddit.com/r/java/comments/px2kzs/recommendations_for_open_source_java_projects_to/)
+- [What do you whish for Spring 6?](https://www.reddit.com/r/java/comments/px07e5/what_do_you_whish_for_spring_6/)
+- [Big little core handling by OS?](https://www.reddit.com/r/java/comments/pwyfzb/big_little_core_handling_by_os/)
 - [Changes are coming to WildFly](https://www.reddit.com/r/java/comments/pwqolz/changes_are_coming_to_wildfly/)
 - [Will Spring still be relevant in the near future?](https://www.reddit.com/r/java/comments/pwjnyj/will_spring_still_be_relevant_in_the_near_future/)
 - [A new parser generator for Java 17, with grammar as algebraic datatypes](https://www.reddit.com/r/java/comments/pwinfn/a_new_parser_generator_for_java_17_with_grammar/)
-- [BellSoft has built the Java 17 ( LTS ) JRE Oracle Should Have Built](https://www.reddit.com/r/java/comments/pwgy59/bellsoft_has_built_the_java_17_lts_jre_oracle/)
-- [Call for Discussion: New Project: RISC-V Port](https://www.reddit.com/r/java/comments/pwfc9w/call_for_discussion_new_project_riscv_port/)
-- [Z Garbage Collector with Monica Beckwith - Java Champion and Senior Principal Engineer at Microsoft](https://www.reddit.com/r/java/comments/pwemaq/z_garbage_collector_with_monica_beckwith_java/)
-- [Introducing Kogito API Incubation](https://www.reddit.com/r/java/comments/pwdwfr/introducing_kogito_api_incubation/)
-- [OneDev5 - open source self-hosted GitHub alternative in Java](https://www.reddit.com/r/java/comments/pwd28h/onedev5_open_source_selfhosted_github_alternative/)
-- [Inside Java Podcast 20 with Brian Goetz & Stuart Marks](https://www.reddit.com/r/java/comments/pwbvqc/inside_java_podcast_20_with_brian_goetz_stuart/)
-- [VMware Overhauls Spring 6 & Spring Boot 3 for Another Decade](https://www.reddit.com/r/java/comments/pw17x7/vmware_overhauls_spring_6_spring_boot_3_for/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
