@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [RFC - Improving C2 Escape Analysis](https://www.reddit.com/r/java/comments/pyvqyl/rfc_improving_c2_escape_analysis/)
+- [Developer preview for JavaFX inside a web browser](https://www.reddit.com/r/java/comments/pypz57/developer_preview_for_javafx_inside_a_web_browser/)
+- [Does SonarQube 9.1 support Java 17?](https://www.reddit.com/r/java/comments/pynmsg/does_sonarqube_91_support_java_17/)
+- [How much Java do you really need ?](https://www.reddit.com/r/java/comments/pykvqp/how_much_java_do_you_really_need/)
+- [My 8 year journey of blogging about Java and SQL](https://www.reddit.com/r/java/comments/pye6q1/my_8_year_journey_of_blogging_about_java_and_sql/)
 - [Spring @Transactional mistakes everyone did](https://www.reddit.com/r/java/comments/pxwy0k/spring_transactional_mistakes_everyone_did/)
 - [Recommended DB for Java Android Development](https://www.reddit.com/r/java/comments/pxv83g/recommended_db_for_java_android_development/)
 - [Majestic Modular Monoliths](https://www.reddit.com/r/java/comments/pxpu9f/majestic_modular_monoliths/)
 - [Making Use of Sealed Classes in Java](https://www.reddit.com/r/java/comments/pxoi09/making_use_of_sealed_classes_in_java/)
 - [At first I was skeptical, but now I think I might prefer Java to C++](https://www.reddit.com/r/java/comments/pxl3is/at_first_i_was_skeptical_but_now_i_think_i_might/)
-- [If Loom was going to preview in 18, when would we know?](https://www.reddit.com/r/java/comments/pxe73c/if_loom_was_going_to_preview_in_18_when_would_we/)
-- [[OC] Most Popular Backend Frameworks 2011/2021](https://www.reddit.com/r/java/comments/px5mqk/oc_most_popular_backend_frameworks_20112021/)
-- [Java developer communities? IRC, Slack or Discord etc?](https://www.reddit.com/r/java/comments/px31za/java_developer_communities_irc_slack_or_discord/)
-- [Recommendations for open source java projects to contribute to?](https://www.reddit.com/r/java/comments/px2kzs/recommendations_for_open_source_java_projects_to/)
-- [What do you whish for Spring 6?](https://www.reddit.com/r/java/comments/px07e5/what_do_you_whish_for_spring_6/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
