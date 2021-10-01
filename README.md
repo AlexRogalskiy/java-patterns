@@ -383,6 +383,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Dreamix posts*
 
 <!-- DREAMIX-POST-LIST:START -->
+- [Learn from Java Champion Gunnar Morling: Performance unit testing with Java Flight Recorder (JFR) and JfrUnit](https://dreamix.eu/blog/java/learn-from-java-champion-gunnar-morling-performance-unit-testing-with-java-flight-recorder-jfr-and-jfrunit)
 - [Unit Testing in Java – The Missing Bits (Part 2)](https://dreamix.eu/blog/java/unit-testing-in-java-the-missing-bits-part-2)
 - [Unit Testing in Java – The Missing Bits (Part 1)](https://dreamix.eu/blog/java/unit-testing-in-java-the-missing-bits-part-1)
 - [Sorting An Array In Java: Tips & Tricks](https://dreamix.eu/blog/java/sorting-an-array-in-java-tips-tricks)
@@ -392,7 +393,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [How to Send Multiple Data Types to REST API](https://dreamix.eu/blog/java/how-to-send-multiple-data-types-to-rest-api)
 - [Learn from Java Champion Matt Raible: JHipster to the rescue](https://dreamix.eu/blog/java/learn-from-java-champion-matt-raible-jhipster-to-the-rescue)
 - [Java Tools for Agile Software Development](https://dreamix.eu/blog/java/java-tools-for-agile-software-development)
-- [Learn form Java Champion: Simon Ritter x Java Daily](https://dreamix.eu/blog/java/learn-form-java-champion-simon-ritter-x-java-daily)
 <!-- DREAMIX-POST-LIST:END -->
 
 ### *Plumbr posts*
