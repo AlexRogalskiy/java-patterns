@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [how to automatically put in the semicolon](https://www.reddit.com/r/java/comments/pzkqrb/how_to_automatically_put_in_the_semicolon/)
+- [GlassFish 6.2.2 released!](https://www.reddit.com/r/java/comments/pzbnwk/glassfish_622_released/)
+- [Has anyone tried the new Selenium competitor from Microsoft called PlayWright. How do you feel it compared to Selenium in terms of ease of use?](https://www.reddit.com/r/java/comments/pzbfq3/has_anyone_tried_the_new_selenium_competitor_from/)
+- [Java FX future?](https://www.reddit.com/r/java/comments/pz8z1h/java_fx_future/)
+- [Box2D physics toy I started working on](https://www.reddit.com/r/java/comments/pz7b9e/box2d_physics_toy_i_started_working_on/)
+- [JVM Testing Newsletter | October 2021](https://www.reddit.com/r/java/comments/pz6zos/jvm_testing_newsletter_october_2021/)
+- [Pattern Matching - Java 17 v.s Rust](https://www.reddit.com/r/java/comments/pz6nza/pattern_matching_java_17_vs_rust/)
+- [Process and service and orchestrators.](https://www.reddit.com/r/java/comments/pz4lll/process_and_service_and_orchestrators/)
 - [RFC - Improving C2 Escape Analysis](https://www.reddit.com/r/java/comments/pyvqyl/rfc_improving_c2_escape_analysis/)
 - [Developer preview for JavaFX inside a web browser](https://www.reddit.com/r/java/comments/pypz57/developer_preview_for_javafx_inside_a_web_browser/)
-- [Does SonarQube 9.1 support Java 17?](https://www.reddit.com/r/java/comments/pynmsg/does_sonarqube_91_support_java_17/)
-- [How much Java do you really need ?](https://www.reddit.com/r/java/comments/pykvqp/how_much_java_do_you_really_need/)
-- [My 8 year journey of blogging about Java and SQL](https://www.reddit.com/r/java/comments/pye6q1/my_8_year_journey_of_blogging_about_java_and_sql/)
-- [Spring @Transactional mistakes everyone did](https://www.reddit.com/r/java/comments/pxwy0k/spring_transactional_mistakes_everyone_did/)
-- [Recommended DB for Java Android Development](https://www.reddit.com/r/java/comments/pxv83g/recommended_db_for_java_android_development/)
-- [Majestic Modular Monoliths](https://www.reddit.com/r/java/comments/pxpu9f/majestic_modular_monoliths/)
-- [Making Use of Sealed Classes in Java](https://www.reddit.com/r/java/comments/pxoi09/making_use_of_sealed_classes_in_java/)
-- [At first I was skeptical, but now I think I might prefer Java to C++](https://www.reddit.com/r/java/comments/pxl3is/at_first_i_was_skeptical_but_now_i_think_i_might/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
