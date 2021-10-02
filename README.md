@@ -353,6 +353,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Gavin Bierman explains Pattern Matching for switch, a Java 17 preview feature](https://inside.java/2021/10/01/gavin-bierman-explains-pattern-matching/)
 - [Making Use of Sealed Classes in Java](https://inside.java/2021/09/29/sealed-classes/)
 - [JDK 17: The Next Long-Term Support (LTS) Release Is Here](https://inside.java/2021/09/28/devlive-jdk17-the-next-lts/)
 - [Episode 20 “Java 17 is Here! Part 2”](https://inside.java/2021/09/27/podcast-020/)
@@ -362,7 +363,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Java Language Futures: Late 2021 Edition](https://inside.java/2021/09/21/devlive-java-language-futures/)
 - [The javac Tree API](https://inside.java/2021/09/20/javac-tree-api/)
 - [Keynote - Moving Java Forward](https://inside.java/2021/09/17/devlive-keynote/)
-- [G1 GC &amp; Parallel GC Improvements in JDK 17](https://inside.java/2021/09/17/jdk-17-gc-updates/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
