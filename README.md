@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [how to automatically put in the semicolon](https://www.reddit.com/r/java/comments/pzkqrb/how_to_automatically_put_in_the_semicolon/)
+- [Yet Another Data Frame Library](https://www.reddit.com/r/java/comments/q07nqz/yet_another_data_frame_library/)
+- [Sonatype's 2021 State of the Software Supply Chain](https://www.reddit.com/r/java/comments/pzwtur/sonatypes_2021_state_of_the_software_supply_chain/)
+- [JobRunr 4.0 Delivers Improved Integration with Spring Starter, Quarkus and Micronaut](https://www.reddit.com/r/java/comments/pzwo60/jobrunr_40_delivers_improved_integration_with/)
+- [Custom Identity Store with Jakarta Security in TomEE](https://www.reddit.com/r/java/comments/pzw880/custom_identity_store_with_jakarta_security_in/)
 - [GlassFish 6.2.2 released!](https://www.reddit.com/r/java/comments/pzbnwk/glassfish_622_released/)
 - [Has anyone tried the new Selenium competitor from Microsoft called PlayWright. How do you feel it compared to Selenium in terms of ease of use?](https://www.reddit.com/r/java/comments/pzbfq3/has_anyone_tried_the_new_selenium_competitor_from/)
 - [Java FX future?](https://www.reddit.com/r/java/comments/pz8z1h/java_fx_future/)
 - [Box2D physics toy I started working on](https://www.reddit.com/r/java/comments/pz7b9e/box2d_physics_toy_i_started_working_on/)
 - [JVM Testing Newsletter | October 2021](https://www.reddit.com/r/java/comments/pz6zos/jvm_testing_newsletter_october_2021/)
 - [Pattern Matching - Java 17 v.s Rust](https://www.reddit.com/r/java/comments/pz6nza/pattern_matching_java_17_vs_rust/)
-- [Process and service and orchestrators.](https://www.reddit.com/r/java/comments/pz4lll/process_and_service_and_orchestrators/)
-- [RFC - Improving C2 Escape Analysis](https://www.reddit.com/r/java/comments/pyvqyl/rfc_improving_c2_escape_analysis/)
-- [Developer preview for JavaFX inside a web browser](https://www.reddit.com/r/java/comments/pypz57/developer_preview_for_javafx_inside_a_web_browser/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
