@@ -323,6 +323,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [JDK17: The next Long Term Support Java](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/jdk17-next-long-term-support-java.html)
 - [Finding out where your class comes from](http://randomthoughtsonjavaprogramming.blogspot.com/2021/09/finding-out-where-your-class-comes-from.html)
 - [Angular in Strict Mode](http://randomthoughtsonjavaprogramming.blogspot.com/2021/08/angular-in-strict-mode.html)
 - [Kotlin : the "by" keyword in Interface/Class Delegation](http://randomthoughtsonjavaprogramming.blogspot.com/2021/07/kotlin-by-keyword-in-interfaceclass.html)
@@ -332,7 +333,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Java Comparison for Beginners](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/java-comparison-for-beginners.html)
 - [Java Inheritance for Beginners](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/java-inheritance-for-beginners.html)
 - [Method determination ignored variable arity and implicit auto boxing/unboxing](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/method-determination-ignored-variable.html)
-- [USB-C Hubs for MacBooks - Review](http://randomthoughtsonjavaprogramming.blogspot.com/2021/05/usb-c-hubs-for-macbooks-review.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
