@@ -353,6 +353,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [JEP 400 and the Default Charset](https://inside.java/2021/10/04/the-default-charset-jep400/)
 - [Gavin Bierman explains Pattern Matching for switch, a Java 17 preview feature](https://inside.java/2021/10/01/gavin-bierman-explains-pattern-matching/)
 - [Making Use of Sealed Classes in Java](https://inside.java/2021/09/29/sealed-classes/)
 - [JDK 17: The Next Long-Term Support (LTS) Release Is Here](https://inside.java/2021/09/28/devlive-jdk17-the-next-lts/)
@@ -362,7 +363,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Floating-Point Arithmetic : What Every Java Programmer Should Know!](https://inside.java/2021/09/22/devlive-floating-point-arithmetic/)
 - [Java Language Futures: Late 2021 Edition](https://inside.java/2021/09/21/devlive-java-language-futures/)
 - [The javac Tree API](https://inside.java/2021/09/20/javac-tree-api/)
-- [Keynote - Moving Java Forward](https://inside.java/2021/09/17/devlive-keynote/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
