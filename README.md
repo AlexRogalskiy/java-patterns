@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [How long would it take to learn java if i spent 6 hours a day trying?](https://www.reddit.com/r/java/comments/q0s237/how_long_would_it_take_to_learn_java_if_i_spent_6/)
+- [Java News Roundup: Hazelcast 5.0, Changes Coming to WildFly, Scene Builder 17, Hibernate ORM](https://www.reddit.com/r/java/comments/q1dlcf/java_news_roundup_hazelcast_50_changes_coming_to/)
+- [Java Is Still Free (Updated for Java 17)](https://www.reddit.com/r/java/comments/q1a45z/java_is_still_free_updated_for_java_17/)
+- [Will the majority of records become primitive records once Valhalla is out?](https://www.reddit.com/r/java/comments/q19se8/will_the_majority_of_records_become_primitive/)
+- [Java Virtual Machine Garbage Collection and Its Performance Impact](https://www.reddit.com/r/java/comments/q15n0u/java_virtual_machine_garbage_collection_and_its/)
+- [Book Review: Quarkus for Spring Developers](https://www.reddit.com/r/java/comments/q11mls/book_review_quarkus_for_spring_developers/)
+- [JDK18 - The default charset and JEP 400](https://www.reddit.com/r/java/comments/q0yg5i/jdk18_the_default_charset_and_jep_400/)
 - [Getting Started With Java 17](https://www.reddit.com/r/java/comments/q0r6or/getting_started_with_java_17/)
 - [Faster Maven builds](https://www.reddit.com/r/java/comments/q0kri6/faster_maven_builds/)
 - [Yet Another Data Frame Library](https://www.reddit.com/r/java/comments/q07nqz/yet_another_data_frame_library/)
 - [Sonatype's 2021 State of the Software Supply Chain](https://www.reddit.com/r/java/comments/pzwtur/sonatypes_2021_state_of_the_software_supply_chain/)
-- [JobRunr 4.0 Delivers Improved Integration with Spring Starter, Quarkus and Micronaut](https://www.reddit.com/r/java/comments/pzwo60/jobrunr_40_delivers_improved_integration_with/)
-- [Custom Identity Store with Jakarta Security in TomEE](https://www.reddit.com/r/java/comments/pzw880/custom_identity_store_with_jakarta_security_in/)
-- [GlassFish 6.2.2 released!](https://www.reddit.com/r/java/comments/pzbnwk/glassfish_622_released/)
-- [Has anyone tried the new Selenium competitor from Microsoft called PlayWright. How do you feel it compared to Selenium in terms of ease of use?](https://www.reddit.com/r/java/comments/pzbfq3/has_anyone_tried_the_new_selenium_competitor_from/)
-- [Java FX future?](https://www.reddit.com/r/java/comments/pz8z1h/java_fx_future/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
