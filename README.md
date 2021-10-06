@@ -278,16 +278,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Java News Roundup: Hazelcast 5.0, Changes Coming to WildFly, Scene Builder 17, Hibernate ORM](https://www.reddit.com/r/java/comments/q1dlcf/java_news_roundup_hazelcast_50_changes_coming_to/)
-- [Java Is Still Free (Updated for Java 17)](https://www.reddit.com/r/java/comments/q1a45z/java_is_still_free_updated_for_java_17/)
-- [Will the majority of records become primitive records once Valhalla is out?](https://www.reddit.com/r/java/comments/q19se8/will_the_majority_of_records_become_primitive/)
-- [Java Virtual Machine Garbage Collection and Its Performance Impact](https://www.reddit.com/r/java/comments/q15n0u/java_virtual_machine_garbage_collection_and_its/)
-- [Book Review: Quarkus for Spring Developers](https://www.reddit.com/r/java/comments/q11mls/book_review_quarkus_for_spring_developers/)
-- [JDK18 - The default charset and JEP 400](https://www.reddit.com/r/java/comments/q0yg5i/jdk18_the_default_charset_and_jep_400/)
-- [Getting Started With Java 17](https://www.reddit.com/r/java/comments/q0r6or/getting_started_with_java_17/)
-- [Faster Maven builds](https://www.reddit.com/r/java/comments/q0kri6/faster_maven_builds/)
-- [Yet Another Data Frame Library](https://www.reddit.com/r/java/comments/q07nqz/yet_another_data_frame_library/)
-- [Sonatype's 2021 State of the Software Supply Chain](https://www.reddit.com/r/java/comments/pzwtur/sonatypes_2021_state_of_the_software_supply_chain/)
+- [Phrack: Twenty years of Escaping the Java Sandbox](https://www.reddit.com/r/java/comments/q29bt5/phrack_twenty_years_of_escaping_the_java_sandbox/)
+- [A nice timeline of Java releases 8->17 with biggest changes](https://www.reddit.com/r/java/comments/q27f7v/a_nice_timeline_of_java_releases_817_with_biggest/)
+- [Why do people hate java?](https://www.reddit.com/r/java/comments/q23wcm/why_do_people_hate_java/)
+- [Bullet Physics in Java](https://www.reddit.com/r/java/comments/q22xp0/bullet_physics_in_java/)
+- [Using Java Enums, Bitfields and MySQL SET to store values of multiple selected checkboxes in a single column rather than in a separate table](https://www.reddit.com/r/java/comments/q1yd6s/using_java_enums_bitfields_and_mysql_set_to_store/)
+- [100% CPU: My Fault?](https://www.reddit.com/r/java/comments/q1wlyw/100_cpu_my_fault/)
+- [Jaybird 4.0.4 has been released](https://www.reddit.com/r/java/comments/q1slzp/jaybird_404_has_been_released/)
+- [ZGC | What's new in JDK 17](https://www.reddit.com/r/java/comments/q1rr4o/zgc_whats_new_in_jdk_17/)
+- [Java 17 support and a number of significant bug fixes in Open Liberty 21.0.0.10](https://www.reddit.com/r/java/comments/q1o9fb/java_17_support_and_a_number_of_significant_bug/)
+- [Project Valhalla - Addressing the full range of use cases](https://www.reddit.com/r/java/comments/q1o364/project_valhalla_addressing_the_full_range_of_use/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
