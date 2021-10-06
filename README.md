@@ -413,6 +413,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
+- [@DiscriminatorFormular – Modeling Single Table Inheritance Without a Discriminator](https://thorben-janssen.com/discriminatorformular/)
 - [Modeling sequence-based composite primary keys with Hibernate](https://thorben-janssen.com/composite-primary-keys-sequence/)
 - [Spring Data JPA – Detecting Your Entity’s State](https://thorben-janssen.com/spring-data-jpa-state-detection/)
 - [How to use QueryDSL with Hibernate](https://thorben-janssen.com/querydsl-hibernate/)
@@ -422,7 +423,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [5 Hibernate Features You Should Use With Spring Data JPA](https://thorben-janssen.com/hibernate-features-with-spring-data-jpa/)
 - [Panache – Active Record Pattern](https://thorben-janssen.com/panache-active-record-pattern/)
 - [Spring Data JPA – How to Return DTOs from Native Queries](https://thorben-janssen.com/spring-data-jpa-dto-native-queries/)
-- [Introduction to Panache](https://thorben-janssen.com/introduction-panache/)
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*
