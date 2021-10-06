@@ -267,6 +267,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 [![Stargazers over time](https://starchart.cc/AlexRogalskiy/java-patterns.svg)][stars_chart]
 
+[![Statistics report](https://cauldron.io/project/5121/stats.svg)][stats_chart]
+
 ## 📎 *OpenGraph Card*
 
 <p align="center" style="text-align:center;">
@@ -495,6 +497,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 [stars]: https://github.com/AlexRogalskiy/java-patterns/stargazers
 
 [stars_chart]: https://starchart.cc/AlexRogalskiy/java-patterns
+
+[stats_chart]: https://cauldron.io/project/5121
 
 [contributors]: https://github.com/AlexRogalskiy/java-patterns/graphs/contributors
 
