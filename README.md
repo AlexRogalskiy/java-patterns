@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [JDK 17 G1/Parallel GC changes](https://www.reddit.com/r/java/comments/q2y885/jdk_17_g1parallel_gc_changes/)
+- [Inspecting filter chain](https://www.reddit.com/r/java/comments/q2rb10/inspecting_filter_chain/)
+- [Is java's compile time less than C++ 's compile time ?](https://www.reddit.com/r/java/comments/q2n3j9/is_javas_compile_time_less_than_c_s_compile_time/)
+- [WildFly 25 Final is now available](https://www.reddit.com/r/java/comments/q2cabj/wildfly_25_final_is_now_available/)
 - [Phrack: Twenty years of Escaping the Java Sandbox](https://www.reddit.com/r/java/comments/q29bt5/phrack_twenty_years_of_escaping_the_java_sandbox/)
 - [A nice timeline of Java releases 8->17 with biggest changes](https://www.reddit.com/r/java/comments/q27f7v/a_nice_timeline_of_java_releases_817_with_biggest/)
 - [Why do people hate java?](https://www.reddit.com/r/java/comments/q23wcm/why_do_people_hate_java/)
-- [Bullet Physics in Java](https://www.reddit.com/r/java/comments/q22xp0/bullet_physics_in_java/)
 - [Using Java Enums, Bitfields and MySQL SET to store values of multiple selected checkboxes in a single column rather than in a separate table](https://www.reddit.com/r/java/comments/q1yd6s/using_java_enums_bitfields_and_mysql_set_to_store/)
 - [100% CPU: My Fault?](https://www.reddit.com/r/java/comments/q1wlyw/100_cpu_my_fault/)
 - [Jaybird 4.0.4 has been released](https://www.reddit.com/r/java/comments/q1slzp/jaybird_404_has_been_released/)
-- [ZGC | What's new in JDK 17](https://www.reddit.com/r/java/comments/q1rr4o/zgc_whats_new_in_jdk_17/)
-- [Java 17 support and a number of significant bug fixes in Open Liberty 21.0.0.10](https://www.reddit.com/r/java/comments/q1o9fb/java_17_support_and_a_number_of_significant_bug/)
-- [Project Valhalla - Addressing the full range of use cases](https://www.reddit.com/r/java/comments/q1o364/project_valhalla_addressing_the_full_range_of_use/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
