@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [JEP proposed to target JDK 18: 408: Simple Web Server](https://www.reddit.com/r/java/comments/q3nn5y/jep_proposed_to_target_jdk_18_408_simple_web/)
+- [ANN: RecordBuilder v28](https://www.reddit.com/r/java/comments/q3ahzq/ann_recordbuilder_v28/)
+- [MicroProfile 5.0-RC1 release available!](https://www.reddit.com/r/java/comments/q376ay/microprofile_50rc1_release_available/)
+- [Giving up JRE and requiring to bundle JVM in the app considered harmful?](https://www.reddit.com/r/java/comments/q33vq2/giving_up_jre_and_requiring_to_bundle_jvm_in_the/)
 - [JDK 17 G1/Parallel GC changes](https://www.reddit.com/r/java/comments/q2y885/jdk_17_g1parallel_gc_changes/)
-- [Inspecting filter chain](https://www.reddit.com/r/java/comments/q2rb10/inspecting_filter_chain/)
 - [Is java's compile time less than C++ 's compile time ?](https://www.reddit.com/r/java/comments/q2n3j9/is_javas_compile_time_less_than_c_s_compile_time/)
 - [WildFly 25 Final is now available](https://www.reddit.com/r/java/comments/q2cabj/wildfly_25_final_is_now_available/)
 - [Phrack: Twenty years of Escaping the Java Sandbox](https://www.reddit.com/r/java/comments/q29bt5/phrack_twenty_years_of_escaping_the_java_sandbox/)
 - [A nice timeline of Java releases 8->17 with biggest changes](https://www.reddit.com/r/java/comments/q27f7v/a_nice_timeline_of_java_releases_817_with_biggest/)
 - [Why do people hate java?](https://www.reddit.com/r/java/comments/q23wcm/why_do_people_hate_java/)
-- [Using Java Enums, Bitfields and MySQL SET to store values of multiple selected checkboxes in a single column rather than in a separate table](https://www.reddit.com/r/java/comments/q1yd6s/using_java_enums_bitfields_and_mysql_set_to_store/)
-- [100% CPU: My Fault?](https://www.reddit.com/r/java/comments/q1wlyw/100_cpu_my_fault/)
-- [Jaybird 4.0.4 has been released](https://www.reddit.com/r/java/comments/q1slzp/jaybird_404_has_been_released/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
