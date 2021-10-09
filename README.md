@@ -295,6 +295,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [Quarkus: Get started with Kubernetes-native Java](https://www.infoworld.com/article/3636228/quarkus-get-started-with-kubernetes-native-java.html#tk.rss_java)
 - [Java port eyed for RISC-V hardware](https://www.infoworld.com/article/3635029/java-port-eyed-for-risc-v-hardware.html#tk.rss_java)
 - [6 great new Java features you don’t want to miss](https://www.infoworld.com/article/3633638/6-great-new-java-features-you-dont-want-to-miss.html#tk.rss_java)
 - [Oracle v. Google: What the verdict means for open source](https://www.infoworld.com/article/3633668/oracle-v-google-what-the-verdict-means-for-open-source.html#tk.rss_java)
@@ -304,7 +305,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Java internet address resolution plan proposed](https://www.infoworld.com/article/3632973/java-internet-address-resolution-plan-proposed.html#tk.rss_java)
 - [Microsoft open-sources Java garbage collection analyzer](https://www.infoworld.com/article/3632355/microsoft-open-sources-java-garbage-collection-analyzer.html#tk.rss_java)
 - [How to secure REST with Spring Security](https://www.infoworld.com/article/3630107/how-to-secure-rest-with-spring-security.html#tk.rss_java)
-- [Kotlin update previews experimental features](https://www.infoworld.com/article/3631133/kotlin-update-previews-experimental-features.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
