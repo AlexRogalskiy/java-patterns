@@ -11,6 +11,7 @@ python-markdown-math>=0.6
 mkdocs-material-extensions>=1.0
 mkdocs-git-revision-date-localized-plugin>=0.9.2
 mkdocs-awesome-pages-plugin>=2.5.0
+mkdocs-static-i18n>=0.14
 mdx-truly-sane-lists>=1.2
 mkdocs-include-markdown-plugin>=3.2.1
 mkdocs-redirects>=1.0.3

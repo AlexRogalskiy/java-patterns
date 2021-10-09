@@ -36,6 +36,12 @@ else
 	AT := @
 endif
 
+# Optional flag to run target in a docker container.
+# (example `make test USE_DOCKER=true`)
+ifeq ($(USE_DOCKER),true)
+	DOCKER_CMD := docker compose run
+endif
+
 IMAGE ?= styled-java-patterns
 OKTETO_IMAGE ?= okteto/$(IMAGE)
 DOCKER_IMAGE ?= alexanderr/$(IMAGE)
@@ -82,12 +88,23 @@ _venv:
 	@echo -e "$(cred)Virtual env created. The source pages are in $(VENV_NAME) directory.$(cend)"
 	@echo
 
+# This rule creates a file named .env that is used by docker-compose for passing
+# the USER_ID and GROUP_ID arguments to the Docker image.
+.env: ## Setup step for using using docker-compose with make target.
+	@touch .env
+ifneq ($(OS),Windows_NT)
+ifneq ($(shell uname -s), Darwin)
+	@echo USER_ID=$(shell id -u) >> .env
+	@echo GROUP_ID=$(shell id -g) >> .env
+endif
+endif
+
 # Create help information.
 .PHONY: help
 help:
 	@echo
 	@echo
-	@echo -e "$(cred)Please use [make <target>] where <target> is one of:$(cend)"
+	@echo -e "$(cred)Please use <make [target] [USE_DOCKER=true]> where [target] is one of:$(cend)"
 	@echo "  all       				to run linting & format tasks"
 	@echo "  clean     				to remove temporary directories"
 	@echo "  deps 						to install dependencies"
@@ -113,6 +130,7 @@ help:
 	@echo "  venv-run  				to run documentation in virtual environment"
 	@echo "  versions  				to list commands versions"
 	@echo
+	@echo 'use USE_DOCKER=true to run target in a docker container'
 	@echo
 
 # Lists all targets defined in this makefile.

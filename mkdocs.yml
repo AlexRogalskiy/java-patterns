@@ -34,6 +34,7 @@ theme:
     - navigation.tracking
     - navigation.sections
     - navigation.expand
+    - navigation.instant
     - navigation.indexes
     - search.suggest
     - search.highlight
@@ -62,6 +63,12 @@ theme:
 # Plugins
 plugins:
   - search
+  - i18n:
+      default_language: en
+      languages:
+        en: English
+        uk: Українська
+        zh: 简体中文
   - git-revision-date-localized: # https://squidfunk.github.io/mkdocs-material/plugins/revision-date/
       fallback_to_build_date: true
       type: date
