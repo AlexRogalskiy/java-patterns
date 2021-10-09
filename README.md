@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Quarkus: Get started with Kubernetes-native Java](https://www.reddit.com/r/java/comments/q3zpzz/quarkus_get_started_with_kubernetesnative_java/)
+- [Advice Wanted - How To Arrange New Java 17 Material in Our Book?](https://www.reddit.com/r/java/comments/q3v9r1/advice_wanted_how_to_arrange_new_java_17_material/)
+- [[Q] What is your default maven configuration?](https://www.reddit.com/r/java/comments/q3ts2o/q_what_is_your_default_maven_configuration/)
+- [Oracle Certification Courses for an intermediate level dev](https://www.reddit.com/r/java/comments/q3tl2y/oracle_certification_courses_for_an_intermediate/)
 - [JEP proposed to target JDK 18: 408: Simple Web Server](https://www.reddit.com/r/java/comments/q3nn5y/jep_proposed_to_target_jdk_18_408_simple_web/)
 - [ANN: RecordBuilder v28](https://www.reddit.com/r/java/comments/q3ahzq/ann_recordbuilder_v28/)
 - [MicroProfile 5.0-RC1 release available!](https://www.reddit.com/r/java/comments/q376ay/microprofile_50rc1_release_available/)
 - [Giving up JRE and requiring to bundle JVM in the app considered harmful?](https://www.reddit.com/r/java/comments/q33vq2/giving_up_jre_and_requiring_to_bundle_jvm_in_the/)
 - [JDK 17 G1/Parallel GC changes](https://www.reddit.com/r/java/comments/q2y885/jdk_17_g1parallel_gc_changes/)
 - [Is java's compile time less than C++ 's compile time ?](https://www.reddit.com/r/java/comments/q2n3j9/is_javas_compile_time_less_than_c_s_compile_time/)
-- [WildFly 25 Final is now available](https://www.reddit.com/r/java/comments/q2cabj/wildfly_25_final_is_now_available/)
-- [Phrack: Twenty years of Escaping the Java Sandbox](https://www.reddit.com/r/java/comments/q29bt5/phrack_twenty_years_of_escaping_the_java_sandbox/)
-- [A nice timeline of Java releases 8->17 with biggest changes](https://www.reddit.com/r/java/comments/q27f7v/a_nice_timeline_of_java_releases_817_with_biggest/)
-- [Why do people hate java?](https://www.reddit.com/r/java/comments/q23wcm/why_do_people_hate_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
