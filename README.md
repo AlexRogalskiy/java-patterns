@@ -355,6 +355,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [JEP proposed to target JDK 18: 408: Simple Web Server](https://inside.java/2021/10/07/jep-408-proposed-to-target-jdk18/)
 - [Java Management Service: What Is It? Why Do You Need It?](https://inside.java/2021/10/06/devlive-jms/)
 - [Meet the Java Experts Panel](https://inside.java/2021/10/05/devlive-meet-the-experts/)
 - [ZGC - What’s new in JDK 17](https://inside.java/2021/10/05/zgc-in-jdk17/)
@@ -364,7 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JDK 17: The Next Long-Term Support (LTS) Release Is Here](https://inside.java/2021/09/28/devlive-jdk17-the-next-lts/)
 - [Episode 20 “Java 17 is Here! Part 2”](https://inside.java/2021/09/27/podcast-020/)
 - [Pattern Matching in Java 17 and Beyond](https://inside.java/2021/09/24/devlive-pattern-matching/)
-- [The Vector API in JDK 17](https://inside.java/2021/09/23/devlive-vector-api/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
