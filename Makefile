@@ -13,6 +13,22 @@ SHELL := /bin/bash -o errexit -o nounset
 PYTHON := python3
 NPM := npm
 
+TIME_LONG	= `date +%Y-%m-%d' '%H:%M:%S`
+TIME_SHORT	= `date +%H:%M:%S`
+TIME		= $(TIME_SHORT)
+
+BLUE         := $(shell printf "\033[34m")
+YELLOW       := $(shell printf "\033[33m")
+RED          := $(shell printf "\033[31m")
+GREEN        := $(shell printf "\033[32m")
+CNone        := $(shell printf "\033[0m")
+
+INFO	= echo ${TIME} ${BLUE}[ .. ]${CNone}
+WARN	= echo ${TIME} ${YELLOW}[WARN]${CNone}
+ERR		= echo ${TIME} ${RED}[FAIL]${CNone}
+OK		= echo ${TIME} ${GREEN}[ OK ]${CNone}
+FAIL	= (echo ${TIME} ${RED}[FAIL]${CNone} && false)
+
 CLUSTER_NAME := backend-java-patterns
 CLUSTER_NAMESPACE := webapp
 
@@ -39,7 +55,7 @@ endif
 # Optional flag to run target in a docker container.
 # (example `make test USE_DOCKER=true`)
 ifeq ($(USE_DOCKER),true)
-	DOCKER_CMD := docker compose run
+	DOCKER_CMD := docker compose
 endif
 
 IMAGE ?= styled-java-patterns
@@ -68,7 +84,7 @@ UTIL_CHECK := $(or $(shell which $(UTILS) >/dev/null && echo 'ok'),$(error Did y
 DIRS := $(shell ls -ad -- */)
 
 # Run all by default when "make" is invoked.
-.DEFAULT_GOAL := list
+.DEFAULT_GOAL := help
 
 ############################################################################
 # Common
@@ -101,36 +117,40 @@ endif
 
 # Create help information.
 .PHONY: help
+##= all: to run linting & format tasks
+##= clean: to remove temporary directories
+##= deps: to install dependencies
+##= diff: to list modified files
+##= dirs: to list directories
+##= docker-build: to build docker image
+##= docker-start: to start docker image
+##= docker-stop: to stop docker image
+##= gh-pages: to create new version of documentation and publish on GitHub pages
+##= git-authors: to lint git authors
+##= git-pull: to pull remote changes
+##= helm-dev: to lint and create helm package
+##= helm-lint: to lint helm charts
+##= helm-package: to package helm chart
+##= helm-start: to run k8s cluster
+##= helm-stop : to stop k8s cluster
+##= help: to list all make targets with description
+##= install-pip: to install python pip module
+##= list: to list all make targets
+##= local-build: to build documentation locally
+##= local-run: to run documentation locally
+##= okteto: to build okteto image
+##= tilt-start: to start development k8s cluster
+##= tilt-stop: to stop development k8s cluster
+##= venv-build: to build documentation in virtual environment
+##= venv-run: to run documentation in virtual environment
+##= versions: to list commands versions
 help:
 	@echo
 	@echo
-	@echo -e "$(cred)Please use <make [target] [USE_DOCKER=true]> where [target] is one of:$(cend)"
-	@echo "  all       				to run linting & format tasks"
-	@echo "  clean     				to remove temporary directories"
-	@echo "  deps 						to install dependencies"
-	@echo "  dirs     				to list directories"
-	@echo "  docker-build     to build docker image"
-	@echo "  docker-start   	to start docker image"
-	@echo "  docker-stop     	to stop docker image"
-	@echo "  gh-pages  				to create new version of documentation and publish on GitHub pages"
-	@echo "  helm-dev    			to lint and create helm package"
-	@echo "  helm-lint       	to lint helm charts"
-	@echo "  helm-package     to package helm charts"
-	@echo "  helm-start      	to run k8s cluster"
-	@echo "  helm-stop   			to stop k8s cluster"
-	@echo "  help 						to list all make targets with description"
-	@echo "  install-pip 			to install python pip module"
-	@echo "  list       			to list all make targets"
-	@echo "  local-build      to build documentation locally"
-	@echo "  local-run    		to run documentation locally"
-	@echo "  okteto      			to build okteto image"
-	@echo "  tilt-start    		to start development k8s cluster"
-	@echo "  tilt-stop    		to stop development k8s cluster"
-	@echo "  venv-build       to build documentation in virtual environment"
-	@echo "  venv-run  				to run documentation in virtual environment"
-	@echo "  versions  				to list commands versions"
+	@echo "Please use [make <target>] where <target> is one of:"
 	@echo
-	@echo 'use USE_DOCKER=true to run target in a docker container'
+	$(AT)sed -n 's/^##=//p' $(MAKEFILE_LIST) 2>/dev/null | column -t -s ':' |  sed -e 's/^/ /'
+	@echo
 	@echo
 
 # Lists all targets defined in this makefile.
@@ -191,7 +211,7 @@ docker-build: _ensure-docker-tag
 
 # Run docker start command.
 .PHONY: docker-start
-docker-start:
+docker-start: .env
 	chmod +x ./scripts/docker-compose-start.sh
 	./scripts/docker-compose-start.sh
 
@@ -308,4 +328,23 @@ all:
 	$(NPM) run all
 	@echo
 	@echo -e "$(cred)Build finished.$(cend)"
+	@echo
+
+# Run git diff command.
+.PHONY: diff
+diff:
+	$(AT)git diff --diff-filter=d --name-only
+
+# Run git authors command.
+.PHONY: git-authors
+git-authors:
+	@echo
+	$(AT)find . -name ".git" -type d -exec git --git-dir={} --work-tree="$(PWD)"/{} config --get remote.origin.url \; -exec git --git-dir={} --work-tree="$(PWD)"/{} --no-pager shortlog -sn \;
+	@echo
+
+# Run git pull command.
+.PHONY: git-pull
+git-pull:
+	@echo
+	$(AT)find . -name ".git" -type d | xargs -P10 -I{} git --git-dir={} --work-tree="$(PWD)"/{} pull origin master
 	@echo
