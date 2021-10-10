@@ -280,6 +280,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [txtai 3.4 released - Build AI-powered semantic search applications in Java](https://www.reddit.com/r/java/comments/q4jz2u/txtai_34_released_build_aipowered_semantic_search/)
+- [OneDev 5.1 - annotate code/diff with Java code analysis results](https://www.reddit.com/r/java/comments/q4fose/onedev_51_annotate_codediff_with_java_code/)
+- [JEP draft: Pattern Matching for switch (Second Preview)](https://www.reddit.com/r/java/comments/q4c3vt/jep_draft_pattern_matching_for_switch_second/)
 - [Quarkus: Get started with Kubernetes-native Java](https://www.reddit.com/r/java/comments/q3zpzz/quarkus_get_started_with_kubernetesnative_java/)
 - [Advice Wanted - How To Arrange New Java 17 Material in Our Book?](https://www.reddit.com/r/java/comments/q3v9r1/advice_wanted_how_to_arrange_new_java_17_material/)
 - [[Q] What is your default maven configuration?](https://www.reddit.com/r/java/comments/q3ts2o/q_what_is_your_default_maven_configuration/)
@@ -287,9 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JEP proposed to target JDK 18: 408: Simple Web Server](https://www.reddit.com/r/java/comments/q3nn5y/jep_proposed_to_target_jdk_18_408_simple_web/)
 - [ANN: RecordBuilder v28](https://www.reddit.com/r/java/comments/q3ahzq/ann_recordbuilder_v28/)
 - [MicroProfile 5.0-RC1 release available!](https://www.reddit.com/r/java/comments/q376ay/microprofile_50rc1_release_available/)
-- [Giving up JRE and requiring to bundle JVM in the app considered harmful?](https://www.reddit.com/r/java/comments/q33vq2/giving_up_jre_and_requiring_to_bundle_jvm_in_the/)
-- [JDK 17 G1/Parallel GC changes](https://www.reddit.com/r/java/comments/q2y885/jdk_17_g1parallel_gc_changes/)
-- [Is java's compile time less than C++ 's compile time ?](https://www.reddit.com/r/java/comments/q2n3j9/is_javas_compile_time_less_than_c_s_compile_time/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
