@@ -280,6 +280,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Faster Maven builds in Docker](https://www.reddit.com/r/java/comments/q5ccom/faster_maven_builds_in_docker/)
+- [Oracle Proposes Shorter Java LTS Cycle of Two Years](https://www.reddit.com/r/java/comments/q55d5h/oracle_proposes_shorter_java_lts_cycle_of_two/)
+- [Learn nuances of Java Compiler?](https://www.reddit.com/r/java/comments/q520of/learn_nuances_of_java_compiler/)
 - [txtai 3.4 released - Build AI-powered semantic search applications in Java](https://www.reddit.com/r/java/comments/q4jz2u/txtai_34_released_build_aipowered_semantic_search/)
 - [OneDev 5.1 - annotate code/diff with Java code analysis results](https://www.reddit.com/r/java/comments/q4fose/onedev_51_annotate_codediff_with_java_code/)
 - [JEP draft: Pattern Matching for switch (Second Preview)](https://www.reddit.com/r/java/comments/q4c3vt/jep_draft_pattern_matching_for_switch_second/)
@@ -287,9 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Advice Wanted - How To Arrange New Java 17 Material in Our Book?](https://www.reddit.com/r/java/comments/q3v9r1/advice_wanted_how_to_arrange_new_java_17_material/)
 - [[Q] What is your default maven configuration?](https://www.reddit.com/r/java/comments/q3ts2o/q_what_is_your_default_maven_configuration/)
 - [Oracle Certification Courses for an intermediate level dev](https://www.reddit.com/r/java/comments/q3tl2y/oracle_certification_courses_for_an_intermediate/)
-- [JEP proposed to target JDK 18: 408: Simple Web Server](https://www.reddit.com/r/java/comments/q3nn5y/jep_proposed_to_target_jdk_18_408_simple_web/)
-- [ANN: RecordBuilder v28](https://www.reddit.com/r/java/comments/q3ahzq/ann_recordbuilder_v28/)
-- [MicroProfile 5.0-RC1 release available!](https://www.reddit.com/r/java/comments/q376ay/microprofile_50rc1_release_available/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
