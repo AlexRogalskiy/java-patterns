@@ -280,6 +280,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Good Open Source Repositories that Accepts New Contributors](https://www.reddit.com/r/java/comments/q68crw/good_open_source_repositories_that_accepts_new/)
+- [New candidate JEP: 419: Foreign Function &amp; Memory API (Second Incubator)](https://www.reddit.com/r/java/comments/q683ul/new_candidate_jep_419_foreign_function_amp_memory/)
+- [G1: To Infinity and Beyond](https://www.reddit.com/r/java/comments/q5ofbs/g1_to_infinity_and_beyond/)
 - [Faster Maven builds in Docker](https://www.reddit.com/r/java/comments/q5ccom/faster_maven_builds_in_docker/)
 - [Oracle Proposes Shorter Java LTS Cycle of Two Years](https://www.reddit.com/r/java/comments/q55d5h/oracle_proposes_shorter_java_lts_cycle_of_two/)
 - [Learn nuances of Java Compiler?](https://www.reddit.com/r/java/comments/q520of/learn_nuances_of_java_compiler/)
@@ -287,9 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [OneDev 5.1 - annotate code/diff with Java code analysis results](https://www.reddit.com/r/java/comments/q4fose/onedev_51_annotate_codediff_with_java_code/)
 - [JEP draft: Pattern Matching for switch (Second Preview)](https://www.reddit.com/r/java/comments/q4c3vt/jep_draft_pattern_matching_for_switch_second/)
 - [Quarkus: Get started with Kubernetes-native Java](https://www.reddit.com/r/java/comments/q3zpzz/quarkus_get_started_with_kubernetesnative_java/)
-- [Advice Wanted - How To Arrange New Java 17 Material in Our Book?](https://www.reddit.com/r/java/comments/q3v9r1/advice_wanted_how_to_arrange_new_java_17_material/)
-- [[Q] What is your default maven configuration?](https://www.reddit.com/r/java/comments/q3ts2o/q_what_is_your_default_maven_configuration/)
-- [Oracle Certification Courses for an intermediate level dev](https://www.reddit.com/r/java/comments/q3tl2y/oracle_certification_courses_for_an_intermediate/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
