@@ -110,7 +110,7 @@
         "access": "public"
     },
     "engines": {
-        "node": ">= 12.x"
+        "node": ">= v16.11.1"
     },
     "keywords": [
         "java design patterns"
