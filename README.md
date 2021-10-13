@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Good Open Source Repositories that Accepts New Contributors](https://www.reddit.com/r/java/comments/q68crw/good_open_source_repositories_that_accepts_new/)
-- [New candidate JEP: 419: Foreign Function &amp; Memory API (Second Incubator)](https://www.reddit.com/r/java/comments/q683ul/new_candidate_jep_419_foreign_function_amp_memory/)
-- [G1: To Infinity and Beyond](https://www.reddit.com/r/java/comments/q5ofbs/g1_to_infinity_and_beyond/)
-- [Faster Maven builds in Docker](https://www.reddit.com/r/java/comments/q5ccom/faster_maven_builds_in_docker/)
-- [Oracle Proposes Shorter Java LTS Cycle of Two Years](https://www.reddit.com/r/java/comments/q55d5h/oracle_proposes_shorter_java_lts_cycle_of_two/)
-- [Learn nuances of Java Compiler?](https://www.reddit.com/r/java/comments/q520of/learn_nuances_of_java_compiler/)
-- [txtai 3.4 released - Build AI-powered semantic search applications in Java](https://www.reddit.com/r/java/comments/q4jz2u/txtai_34_released_build_aipowered_semantic_search/)
-- [OneDev 5.1 - annotate code/diff with Java code analysis results](https://www.reddit.com/r/java/comments/q4fose/onedev_51_annotate_codediff_with_java_code/)
-- [JEP draft: Pattern Matching for switch (Second Preview)](https://www.reddit.com/r/java/comments/q4c3vt/jep_draft_pattern_matching_for_switch_second/)
-- [Quarkus: Get started with Kubernetes-native Java](https://www.reddit.com/r/java/comments/q3zpzz/quarkus_get_started_with_kubernetesnative_java/)
+- [What are the characteristics of a good REST api?](https://www.reddit.com/r/java/comments/q70942/what_are_the_characteristics_of_a_good_rest_api/)
+- [Foreign Memory API - Resource Scope Dependencies](https://www.reddit.com/r/java/comments/q6my1t/foreign_memory_api_resource_scope_dependencies/)
+- [New language features since Java 8 - Updated for Java 17](https://www.reddit.com/r/java/comments/q6mici/new_language_features_since_java_8_updated_for/)
+- [Learn You An Actor (System) For Great Good! (with Java 17, records, switch expressions and JBang)](https://www.reddit.com/r/java/comments/q6me7x/learn_you_an_actor_system_for_great_good_with/)
+- [Quarkus Tips, Tricks and Techniques - Piotr's TechBlog](https://www.reddit.com/r/java/comments/q6kcng/quarkus_tips_tricks_and_techniques_piotrs_techblog/)
+- [Helidon 2.3.4 released](https://www.reddit.com/r/java/comments/q6j83j/helidon_234_released/)
+- [Licensing Question](https://www.reddit.com/r/java/comments/q6j0y7/licensing_question/)
+- [What do you use for ad-hoc SumType/tagged-Union?](https://www.reddit.com/r/java/comments/q6gg49/what_do_you_use_for_adhoc_sumtypetaggedunion/)
+- [Is there a @NotNull annotation that applies a default for a file/class/interface with @Nullable override?](https://www.reddit.com/r/java/comments/q6g7hd/is_there_a_notnull_annotation_that_applies_a/)
+- [What is goal of the JPA and Hibernate second-level cache](https://www.reddit.com/r/java/comments/q6g6kw/what_is_goal_of_the_jpa_and_hibernate_secondlevel/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
