@@ -355,6 +355,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Learn Java 17 with IntelliJ IDEA](https://inside.java/2021/10/12/devlive-learn-java-17-with-intellij-idea/)
+- [Resource Scope Dependencies](https://inside.java/2021/10/12/panama-scope-dependencies/)
 - [G1: To Infinity and Beyond](https://inside.java/2021/10/11/p99-g1-to-infinity-and-beyond/)
 - [JEP proposed to target JDK 18: 408: Simple Web Server](https://inside.java/2021/10/07/jep-408-proposed-to-target-jdk18/)
 - [Java Management Service: What Is It? Why Do You Need It?](https://inside.java/2021/10/06/devlive-jms/)
@@ -363,8 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JEP 400 and the Default Charset](https://inside.java/2021/10/04/the-default-charset-jep400/)
 - [Gavin Bierman explains Pattern Matching for switch, a Java 17 preview feature](https://inside.java/2021/10/01/gavin-bierman-explains-pattern-matching/)
 - [Making Use of Sealed Classes in Java](https://inside.java/2021/09/29/sealed-classes/)
-- [JDK 17: The Next Long-Term Support (LTS) Release Is Here](https://inside.java/2021/09/28/devlive-jdk17-the-next-lts/)
-- [Episode 20 “Java 17 is Here! Part 2”](https://inside.java/2021/09/27/podcast-020/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
