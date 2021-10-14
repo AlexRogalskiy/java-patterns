@@ -295,12 +295,12 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [What to expect in Java 18](https://www.infoworld.com/article/3630510/what-to-expect-in-java-18.html#tk.rss_java)
 - [Python tops Tiobe language index](https://www.infoworld.com/article/3636789/python-tops-tiobe-language-index.html#tk.rss_java)
 - [Quarkus: Get started with Kubernetes-native Java](https://www.infoworld.com/article/3636228/quarkus-get-started-with-kubernetes-native-java.html#tk.rss_java)
 - [Java port eyed for RISC-V hardware](https://www.infoworld.com/article/3635029/java-port-eyed-for-risc-v-hardware.html#tk.rss_java)
 - [6 great new Java features you don’t want to miss](https://www.infoworld.com/article/3633638/6-great-new-java-features-you-dont-want-to-miss.html#tk.rss_java)
 - [Oracle v. Google: What the verdict means for open source](https://www.infoworld.com/article/3633668/oracle-v-google-what-the-verdict-means-for-open-source.html#tk.rss_java)
-- [What to expect in Java 18](https://www.infoworld.com/article/3630510/what-to-expect-in-java-18.html#tk.rss_java)
 - [Eclipse’s Jakarta EE gains momentum](https://www.infoworld.com/article/3633469/eclipses-jakarta-ee-gains-momentum.html#tk.rss_java)
 - [JDK 17: The new features in Java 17](https://www.infoworld.com/article/3606833/jdk-17-the-new-features-in-java-17.html#tk.rss_java)
 - [Java internet address resolution plan proposed](https://www.infoworld.com/article/3632973/java-internet-address-resolution-plan-proposed.html#tk.rss_java)
