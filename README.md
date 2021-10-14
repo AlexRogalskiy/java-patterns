@@ -355,6 +355,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Modern, Scalable Concurrency for the Java Platform](https://inside.java/2021/10/13/devlive-loom/)
 - [Learn Java 17 with IntelliJ IDEA](https://inside.java/2021/10/12/devlive-learn-java-17-with-intellij-idea/)
 - [Resource Scope Dependencies](https://inside.java/2021/10/12/panama-scope-dependencies/)
 - [G1: To Infinity and Beyond](https://inside.java/2021/10/11/p99-g1-to-infinity-and-beyond/)
@@ -364,7 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [ZGC - What’s new in JDK 17](https://inside.java/2021/10/05/zgc-in-jdk17/)
 - [JEP 400 and the Default Charset](https://inside.java/2021/10/04/the-default-charset-jep400/)
 - [Gavin Bierman explains Pattern Matching for switch, a Java 17 preview feature](https://inside.java/2021/10/01/gavin-bierman-explains-pattern-matching/)
-- [Making Use of Sealed Classes in Java](https://inside.java/2021/09/29/sealed-classes/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
