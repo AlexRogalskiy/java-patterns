@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [What are the characteristics of a good REST api?](https://www.reddit.com/r/java/comments/q70942/what_are_the_characteristics_of_a_good_rest_api/)
+- [Looking for a big management system(?) that I installed years ago](https://www.reddit.com/r/java/comments/q7mzd8/looking_for_a_big_management_system_that_i/)
+- [is it true that the JVM basically "stiches together" pairs of integers/floats to make long/doubles work?](https://www.reddit.com/r/java/comments/q7fj48/is_it_true_that_the_jvm_basically_stiches/)
+- [Inverno Framework](https://www.reddit.com/r/java/comments/q75j3x/inverno_framework/)
+- [Quarkus for Spring developers: Kubernetes-native design patterns](https://www.reddit.com/r/java/comments/q73uhp/quarkus_for_spring_developers_kubernetesnative/)
+- [Video: Modern, Scalable Concurrency for the Java Platform](https://www.reddit.com/r/java/comments/q73h5d/video_modern_scalable_concurrency_for_the_java/)
+- [Reactive programming and Loom: will you make the switch once it's out?](https://www.reddit.com/r/java/comments/q6wpel/reactive_programming_and_loom_will_you_make_the/)
 - [Foreign Memory API - Resource Scope Dependencies](https://www.reddit.com/r/java/comments/q6my1t/foreign_memory_api_resource_scope_dependencies/)
 - [New language features since Java 8 - Updated for Java 17](https://www.reddit.com/r/java/comments/q6mici/new_language_features_since_java_8_updated_for/)
 - [Learn You An Actor (System) For Great Good! (with Java 17, records, switch expressions and JBang)](https://www.reddit.com/r/java/comments/q6me7x/learn_you_an_actor_system_for_great_good_with/)
 - [Quarkus Tips, Tricks and Techniques - Piotr's TechBlog](https://www.reddit.com/r/java/comments/q6kcng/quarkus_tips_tricks_and_techniques_piotrs_techblog/)
-- [Helidon 2.3.4 released](https://www.reddit.com/r/java/comments/q6j83j/helidon_234_released/)
-- [Licensing Question](https://www.reddit.com/r/java/comments/q6j0y7/licensing_question/)
-- [What do you use for ad-hoc SumType/tagged-Union?](https://www.reddit.com/r/java/comments/q6gg49/what_do_you_use_for_adhoc_sumtypetaggedunion/)
-- [Is there a @NotNull annotation that applies a default for a file/class/interface with @Nullable override?](https://www.reddit.com/r/java/comments/q6g7hd/is_there_a_notnull_annotation_that_applies_a/)
-- [What is goal of the JPA and Hibernate second-level cache](https://www.reddit.com/r/java/comments/q6g6kw/what_is_goal_of_the_jpa_and_hibernate_secondlevel/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
