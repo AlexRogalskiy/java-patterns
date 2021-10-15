@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Looking for a big management system(?) that I installed years ago](https://www.reddit.com/r/java/comments/q7mzd8/looking_for_a_big_management_system_that_i/)
+- [What do I need to know in order to get hired as a junior?](https://www.reddit.com/r/java/comments/q85yq5/what_do_i_need_to_know_in_order_to_get_hired_as_a/)
+- [Asserting Lists with AssertJ](https://www.reddit.com/r/java/comments/q85u3k/asserting_lists_with_assertj/)
+- [Java Equivalent of Express.js for REST](https://www.reddit.com/r/java/comments/q82694/java_equivalent_of_expressjs_for_rest/)
+- [Getting Started in GraphQL With Spring Boot in Java](https://www.reddit.com/r/java/comments/q8022w/getting_started_in_graphql_with_spring_boot_in/)
+- [A curated list of awesome frameworks, libraries and software for the Java programming language](https://www.reddit.com/r/java/comments/q7zq7w/a_curated_list_of_awesome_frameworks_libraries/)
+- [An overview of continuous application profiling](https://www.reddit.com/r/java/comments/q7ul09/an_overview_of_continuous_application_profiling/)
 - [is it true that the JVM basically "stiches together" pairs of integers/floats to make long/doubles work?](https://www.reddit.com/r/java/comments/q7fj48/is_it_true_that_the_jvm_basically_stiches/)
 - [Inverno Framework](https://www.reddit.com/r/java/comments/q75j3x/inverno_framework/)
 - [Quarkus for Spring developers: Kubernetes-native design patterns](https://www.reddit.com/r/java/comments/q73uhp/quarkus_for_spring_developers_kubernetesnative/)
 - [Video: Modern, Scalable Concurrency for the Java Platform](https://www.reddit.com/r/java/comments/q73h5d/video_modern_scalable_concurrency_for_the_java/)
-- [Reactive programming and Loom: will you make the switch once it's out?](https://www.reddit.com/r/java/comments/q6wpel/reactive_programming_and_loom_will_you_make_the/)
-- [Foreign Memory API - Resource Scope Dependencies](https://www.reddit.com/r/java/comments/q6my1t/foreign_memory_api_resource_scope_dependencies/)
-- [New language features since Java 8 - Updated for Java 17](https://www.reddit.com/r/java/comments/q6mici/new_language_features_since_java_8_updated_for/)
-- [Learn You An Actor (System) For Great Good! (with Java 17, records, switch expressions and JBang)](https://www.reddit.com/r/java/comments/q6me7x/learn_you_an_actor_system_for_great_good_with/)
-- [Quarkus Tips, Tricks and Techniques - Piotr's TechBlog](https://www.reddit.com/r/java/comments/q6kcng/quarkus_tips_tricks_and_techniques_piotrs_techblog/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
