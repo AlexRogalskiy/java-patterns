@@ -295,6 +295,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [Red Hat OpenStack tightens OpenShift Kubernetes integration](https://www.infoworld.com/article/3637080/red-hat-openstack-tightens-openshift-kubernetes-integration.html#tk.rss_java)
 - [What to expect in Java 18](https://www.infoworld.com/article/3630510/what-to-expect-in-java-18.html#tk.rss_java)
 - [Python tops Tiobe language index](https://www.infoworld.com/article/3636789/python-tops-tiobe-language-index.html#tk.rss_java)
 - [Quarkus: Get started with Kubernetes-native Java](https://www.infoworld.com/article/3636228/quarkus-get-started-with-kubernetes-native-java.html#tk.rss_java)
@@ -304,7 +305,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Eclipse’s Jakarta EE gains momentum](https://www.infoworld.com/article/3633469/eclipses-jakarta-ee-gains-momentum.html#tk.rss_java)
 - [JDK 17: The new features in Java 17](https://www.infoworld.com/article/3606833/jdk-17-the-new-features-in-java-17.html#tk.rss_java)
 - [Java internet address resolution plan proposed](https://www.infoworld.com/article/3632973/java-internet-address-resolution-plan-proposed.html#tk.rss_java)
-- [Microsoft open-sources Java garbage collection analyzer](https://www.infoworld.com/article/3632355/microsoft-open-sources-java-garbage-collection-analyzer.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
