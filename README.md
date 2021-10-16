@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [What do I need to know in order to get hired as a junior?](https://www.reddit.com/r/java/comments/q85yq5/what_do_i_need_to_know_in_order_to_get_hired_as_a/)
-- [Asserting Lists with AssertJ](https://www.reddit.com/r/java/comments/q85u3k/asserting_lists_with_assertj/)
-- [Java Equivalent of Express.js for REST](https://www.reddit.com/r/java/comments/q82694/java_equivalent_of_expressjs_for_rest/)
-- [Getting Started in GraphQL With Spring Boot in Java](https://www.reddit.com/r/java/comments/q8022w/getting_started_in_graphql_with_spring_boot_in/)
+- [Career in java](https://www.reddit.com/r/java/comments/q91g16/career_in_java/)
+- [in Maven what is "version" and "update" referring to in compile dependencies?](https://www.reddit.com/r/java/comments/q8wdbn/in_maven_what_is_version_and_update_referring_to/)
+- [NewsCast — Using Sagas with Choreography and Orchestration Patterns](https://www.reddit.com/r/java/comments/q8n0oi/newscast_using_sagas_with_choreography_and/)
+- [Corner case cheat sheet in Java](https://www.reddit.com/r/java/comments/q8kfa5/corner_case_cheat_sheet_in_java/)
+- [Java 17… more videos, UTF-8 by default in Java 18, Dev.java - Inside Java Newscast #13](https://www.reddit.com/r/java/comments/q8igy2/java_17_more_videos_utf8_by_default_in_java_18/)
 - [A curated list of awesome frameworks, libraries and software for the Java programming language](https://www.reddit.com/r/java/comments/q7zq7w/a_curated_list_of_awesome_frameworks_libraries/)
 - [An overview of continuous application profiling](https://www.reddit.com/r/java/comments/q7ul09/an_overview_of_continuous_application_profiling/)
 - [is it true that the JVM basically "stiches together" pairs of integers/floats to make long/doubles work?](https://www.reddit.com/r/java/comments/q7fj48/is_it_true_that_the_jvm_basically_stiches/)
 - [Inverno Framework](https://www.reddit.com/r/java/comments/q75j3x/inverno_framework/)
 - [Quarkus for Spring developers: Kubernetes-native design patterns](https://www.reddit.com/r/java/comments/q73uhp/quarkus_for_spring_developers_kubernetesnative/)
-- [Video: Modern, Scalable Concurrency for the Java Platform](https://www.reddit.com/r/java/comments/q73h5d/video_modern_scalable_concurrency_for_the_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
