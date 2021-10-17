@@ -356,6 +356,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- INSIDE-POST-LIST:START -->
 - [Java 17… more videos, UTF-8 by default in Java 18 - Inside Java Newscast #13](https://inside.java/2021/10/15/insidejava-newcast-013/)
+- [Java SE 7 End of Extended Support in July 2022](https://inside.java/2021/10/15/java-se-7-end-of-extended-support/)
 - [Sip of Java - Serialization Filters](https://inside.java/2021/10/14/sip23/)
 - [Modern, Scalable Concurrency for the Java Platform](https://inside.java/2021/10/13/devlive-loom/)
 - [Learn Java 17 with IntelliJ IDEA](https://inside.java/2021/10/12/devlive-learn-java-17-with-intellij-idea/)
@@ -364,7 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JEP proposed to target JDK 18: 408: Simple Web Server](https://inside.java/2021/10/07/jep-408-proposed-to-target-jdk18/)
 - [Java Management Service: What Is It? Why Do You Need It?](https://inside.java/2021/10/06/devlive-jms/)
 - [Meet the Java Experts Panel](https://inside.java/2021/10/05/devlive-meet-the-experts/)
-- [ZGC - What’s new in JDK 17](https://inside.java/2021/10/05/zgc-in-jdk17/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
