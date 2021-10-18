@@ -18,3 +18,5 @@ mkdocs-redirects>=1.0.3
 smarty>=0.3.3
 dumb-init>=1.2.5
 cookiecutter>=1.7.3
+mkdocs-git-committers-plugin>=0.2.2
+mike>=1.1.2

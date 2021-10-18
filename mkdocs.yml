@@ -1,15 +1,18 @@
 site_name: Java Patterns
-site_description: >
+site_description: >-
   java code patterns and basic architecture designing concepts
 site_author: Alexander Rogalskiy
 site_url: https://alexander-rogalsky.gitbook.io/java-patterns/
 
+# Repository
 repo_name: AlexRogalskiy/java-patterns
 repo_url: https://gitlab.com/AlexRogalskiy/java-patterns
 edit_uri: https://gitlab.com/AlexRogalskiy/java-patterns/master/docs/
 
 #Copyright (shown at the footer)
 copyright: 'Copyright &copy; 2021 Nullables.io'
+
+use_directory_urls: false
 
 # Extra Files
 extra_javascript:
@@ -62,6 +65,13 @@ theme:
 
 # Plugins
 plugins:
+  - mike:
+      # these fields are all optional; the defaults are as below...
+      version_selector: true   # set to false to leave out the version selector
+      css_dir: css             # the directory to put the version selector's CSS
+      javascript_dir: js       # the directory to put the version selector's JS
+      canonical_version: null  # the version for <link rel="canonical">; `null`
+                               # uses the version specified via `mike deploy`
   - search
   - i18n:
       default_language: en
@@ -126,7 +136,7 @@ markdown_extensions:
   - smarty: {} # https://python-markdown.github.io/extensions/smarty/
   - nl2br: {} # https://python-markdown.github.io/extensions/smarty/
   - mdx_truly_sane_lists: {} # https://github.com/radude/mdx_truly_sane_lists -> proper indentation of md list items
-  - markdown.extensions.attr_list: {}
+  - attr_list: {}
 
 # Other Settings
 strict: false # halt processing when a warning is raised
