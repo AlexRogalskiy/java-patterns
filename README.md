@@ -280,8 +280,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [The best way to map JSON with JPA and Hibernate](https://www.reddit.com/r/java/comments/qa6mbl/the_best_way_to_map_json_with_jpa_and_hibernate/)
+- [Budget Proof Key for Code Exchange (PKCE) implementation](https://www.reddit.com/r/java/comments/q9zf3t/budget_proof_key_for_code_exchange_pkce/)
 - [The future of Lucene's MMapDirectory - Uwe Schindler](https://www.reddit.com/r/java/comments/q9j8w3/the_future_of_lucenes_mmapdirectory_uwe_schindler/)
-- [Rust Option 30x more efficient to return than Java Optional](https://www.reddit.com/r/java/comments/q9e2hi/rust_option_30x_more_efficient_to_return_than/)
 - [JEP draft: Templated Strings and Template Policies (Preview)](https://www.reddit.com/r/java/comments/q9aeyz/jep_draft_templated_strings_and_template_policies/)
 - [Manifold is a Java compiler plugin, its features include Metaprogramming, Properties, Extension Methods, Operator Overloading, Templates, a Preprocessor, and more.](https://www.reddit.com/r/java/comments/q97el0/manifold_is_a_java_compiler_plugin_its_features/)
 - [NewsCast — Using Sagas with Choreography and Orchestration Patterns](https://www.reddit.com/r/java/comments/q8n0oi/newscast_using_sagas_with_choreography_and/)
@@ -289,7 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Java 17… more videos, UTF-8 by default in Java 18, Dev.java - Inside Java Newscast #13](https://www.reddit.com/r/java/comments/q8igy2/java_17_more_videos_utf8_by_default_in_java_18/)
 - [A curated list of awesome frameworks, libraries and software for the Java programming language](https://www.reddit.com/r/java/comments/q7zq7w/a_curated_list_of_awesome_frameworks_libraries/)
 - [An overview of continuous application profiling](https://www.reddit.com/r/java/comments/q7ul09/an_overview_of_continuous_application_profiling/)
-- [is it true that the JVM basically "stiches together" pairs of integers/floats to make long/doubles work?](https://www.reddit.com/r/java/comments/q7fj48/is_it_true_that_the_jvm_basically_stiches/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
