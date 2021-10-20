@@ -363,8 +363,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Learn Java 17 with IntelliJ IDEA](https://inside.java/2021/10/12/devlive-learn-java-17-with-intellij-idea/)
 - [Resource Scope Dependencies](https://inside.java/2021/10/12/panama-scope-dependencies/)
 - [G1: To Infinity and Beyond](https://inside.java/2021/10/11/p99-g1-to-infinity-and-beyond/)
+- [Announcing Windows support for Java Management Service](https://inside.java/2021/10/07/announcing-windows-support-for-java-management-service/)
 - [JEP proposed to target JDK 18: 408: Simple Web Server](https://inside.java/2021/10/07/jep-408-proposed-to-target-jdk18/)
-- [Java Management Service: What Is It? Why Do You Need It?](https://inside.java/2021/10/06/devlive-jms/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
