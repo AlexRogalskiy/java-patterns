@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [JEP 420: Pattern Matching for switch (Second Preview)](https://www.reddit.com/r/java/comments/qbjt30/jep_420_pattern_matching_for_switch_second_preview/)
+- [Can Java cold-start a Spring Boot based HTTP server?](https://www.reddit.com/r/java/comments/qbjsqg/can_java_coldstart_a_spring_boot_based_http_server/)
+- [GraalVM 21.3 is here: Java 17, Native Image performance updates and more](https://www.reddit.com/r/java/comments/qbgpbv/graalvm_213_is_here_java_17_native_image/)
+- [ObjectBox 3.0: an embedded lightweight database for (Java) objects without ORM/SQL layer](https://www.reddit.com/r/java/comments/qbas8z/objectbox_30_an_embedded_lightweight_database_for/)
 - [Analysing the Performance and Costs of Reactive Programming Libraries in Java](https://www.reddit.com/r/java/comments/qaupu2/analysing_the_performance_and_costs_of_reactive/)
 - [Executable JavaDoc Code Snippets](https://www.reddit.com/r/java/comments/qajxig/executable_javadoc_code_snippets/)
 - [Watch "Modern, Scalable Concurrency for the Java Platform [Re-Upload w/ proper audio]" on YouTube](https://www.reddit.com/r/java/comments/qajc8g/watch_modern_scalable_concurrency_for_the_java/)
 - [Faster Charset Encoding](https://www.reddit.com/r/java/comments/qafjtg/faster_charset_encoding/)
 - [The best way to map JSON with JPA and Hibernate](https://www.reddit.com/r/java/comments/qa6mbl/the_best_way_to_map_json_with_jpa_and_hibernate/)
 - [Budget Proof Key for Code Exchange (PKCE) implementation](https://www.reddit.com/r/java/comments/q9zf3t/budget_proof_key_for_code_exchange_pkce/)
-- [The future of Lucene's MMapDirectory - Uwe Schindler](https://www.reddit.com/r/java/comments/q9j8w3/the_future_of_lucenes_mmapdirectory_uwe_schindler/)
-- [JEP draft: Templated Strings and Template Policies (Preview)](https://www.reddit.com/r/java/comments/q9aeyz/jep_draft_templated_strings_and_template_policies/)
-- [Manifold is a Java compiler plugin, its features include Metaprogramming, Properties, Extension Methods, Operator Overloading, Templates, a Preprocessor, and more.](https://www.reddit.com/r/java/comments/q97el0/manifold_is_a_java_compiler_plugin_its_features/)
-- [NewsCast — Using Sagas with Choreography and Orchestration Patterns](https://www.reddit.com/r/java/comments/q8n0oi/newscast_using_sagas_with_choreography_and/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
