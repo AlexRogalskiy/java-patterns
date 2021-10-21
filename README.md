@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Danny Thomas from Netflix discusses Developer Productivity Engineering](https://www.reddit.com/r/java/comments/qcdsic/danny_thomas_from_netflix_discusses_developer/)
+- [JavaFX 17.0.1 Release Notes](https://www.reddit.com/r/java/comments/qc64ct/javafx_1701_release_notes/)
+- [I wrote a Java library to simplify the development of Discord bots](https://www.reddit.com/r/java/comments/qc3t2n/i_wrote_a_java_library_to_simplify_the/)
+- [Lightbend handing Play Framework over to the community](https://www.reddit.com/r/java/comments/qc1tzv/lightbend_handing_play_framework_over_to_the/)
+- [How to mess up statement batching in Hibernate](https://www.reddit.com/r/java/comments/qbvhld/how_to_mess_up_statement_batching_in_hibernate/)
+- [Proposed to target JDK 18: JEP 416: Reimplement Core Reflection with Method Handles](https://www.reddit.com/r/java/comments/qbsqi5/proposed_to_target_jdk_18_jep_416_reimplement/)
+- [Interviewing for first time](https://www.reddit.com/r/java/comments/qbqxfb/interviewing_for_first_time/)
 - [JEP 420: Pattern Matching for switch (Second Preview)](https://www.reddit.com/r/java/comments/qbjt30/jep_420_pattern_matching_for_switch_second_preview/)
 - [Can Java cold-start a Spring Boot based HTTP server?](https://www.reddit.com/r/java/comments/qbjsqg/can_java_coldstart_a_spring_boot_based_http_server/)
 - [GraalVM 21.3 is here: Java 17, Native Image performance updates and more](https://www.reddit.com/r/java/comments/qbgpbv/graalvm_213_is_here_java_17_native_image/)
-- [ObjectBox 3.0: an embedded lightweight database for (Java) objects without ORM/SQL layer](https://www.reddit.com/r/java/comments/qbas8z/objectbox_30_an_embedded_lightweight_database_for/)
-- [Analysing the Performance and Costs of Reactive Programming Libraries in Java](https://www.reddit.com/r/java/comments/qaupu2/analysing_the_performance_and_costs_of_reactive/)
-- [Executable JavaDoc Code Snippets](https://www.reddit.com/r/java/comments/qajxig/executable_javadoc_code_snippets/)
-- [Watch "Modern, Scalable Concurrency for the Java Platform [Re-Upload w/ proper audio]" on YouTube](https://www.reddit.com/r/java/comments/qajc8g/watch_modern_scalable_concurrency_for_the_java/)
-- [Faster Charset Encoding](https://www.reddit.com/r/java/comments/qafjtg/faster_charset_encoding/)
-- [The best way to map JSON with JPA and Hibernate](https://www.reddit.com/r/java/comments/qa6mbl/the_best_way_to_map_json_with_jpa_and_hibernate/)
-- [Budget Proof Key for Code Exchange (PKCE) implementation](https://www.reddit.com/r/java/comments/q9zf3t/budget_proof_key_for_code_exchange_pkce/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
