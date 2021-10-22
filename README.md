@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Eclipse EE4J (Jakarta EE) combined commit activity](https://www.reddit.com/r/java/comments/qd3bdo/eclipse_ee4j_jakarta_ee_combined_commit_activity/)
+- [How would experienced devs handle checking JSON objects for specific property condition?](https://www.reddit.com/r/java/comments/qd23k1/how_would_experienced_devs_handle_checking_json/)
+- [Parameterize like a pro with JUnit 5 @CsvSource](https://www.reddit.com/r/java/comments/qd0rbh/parameterize_like_a_pro_with_junit_5_csvsource/)
+- [Continuous integration with Docker and Jenkins](https://www.reddit.com/r/java/comments/qcxef3/continuous_integration_with_docker_and_jenkins/)
+- [Search API with Spelling Corrections: implementation using Ngram index algorithm](https://www.reddit.com/r/java/comments/qcu9cz/search_api_with_spelling_corrections/)
+- [Text Blocks - JEP Café #5](https://www.reddit.com/r/java/comments/qcskii/text_blocks_jep_café_5/)
+- [Java Garbage Collection Patterns](https://www.reddit.com/r/java/comments/qcohed/java_garbage_collection_patterns/)
+- [JDK 18 - Augmented `javac -xlint:serial` checks](https://www.reddit.com/r/java/comments/qclomj/jdk_18_augmented_javac_xlintserial_checks/)
 - [Danny Thomas from Netflix discusses Developer Productivity Engineering](https://www.reddit.com/r/java/comments/qcdsic/danny_thomas_from_netflix_discusses_developer/)
 - [JavaFX 17.0.1 Release Notes](https://www.reddit.com/r/java/comments/qc64ct/javafx_1701_release_notes/)
-- [I wrote a Java library to simplify the development of Discord bots](https://www.reddit.com/r/java/comments/qc3t2n/i_wrote_a_java_library_to_simplify_the/)
-- [Lightbend handing Play Framework over to the community](https://www.reddit.com/r/java/comments/qc1tzv/lightbend_handing_play_framework_over_to_the/)
-- [How to mess up statement batching in Hibernate](https://www.reddit.com/r/java/comments/qbvhld/how_to_mess_up_statement_batching_in_hibernate/)
-- [Proposed to target JDK 18: JEP 416: Reimplement Core Reflection with Method Handles](https://www.reddit.com/r/java/comments/qbsqi5/proposed_to_target_jdk_18_jep_416_reimplement/)
-- [Interviewing for first time](https://www.reddit.com/r/java/comments/qbqxfb/interviewing_for_first_time/)
-- [JEP 420: Pattern Matching for switch (Second Preview)](https://www.reddit.com/r/java/comments/qbjt30/jep_420_pattern_matching_for_switch_second_preview/)
-- [Can Java cold-start a Spring Boot based HTTP server?](https://www.reddit.com/r/java/comments/qbjsqg/can_java_coldstart_a_spring_boot_based_http_server/)
-- [GraalVM 21.3 is here: Java 17, Native Image performance updates and more](https://www.reddit.com/r/java/comments/qbgpbv/graalvm_213_is_here_java_17_native_image/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
