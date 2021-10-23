@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Newbie JPA question!](https://www.reddit.com/r/java/comments/qduu81/newbie_jpa_question/)
+- [Why or how is Maven more secure/reliable than NPM?](https://www.reddit.com/r/java/comments/qdq2qh/why_or_how_is_maven_more_securereliable_than_npm/)
+- [Java for game development?](https://www.reddit.com/r/java/comments/qdp3jf/java_for_game_development/)
+- [Mac vs Linux vs ...windows](https://www.reddit.com/r/java/comments/qdmzll/mac_vs_linux_vs_windows/)
+- [Jakarta Concurrency: What's Next | Jakarta Tech Talks | August 11, 2021](https://www.reddit.com/r/java/comments/qdi5qt/jakarta_concurrency_whats_next_jakarta_tech_talks/)
+- [From C#.NET to JAVA](https://www.reddit.com/r/java/comments/qdfjzi/from_cnet_to_java/)
+- [Kafka Performance Optimization overview](https://www.reddit.com/r/java/comments/qdb8l1/kafka_performance_optimization_overview/)
 - [Eclipse EE4J (Jakarta EE) combined commit activity](https://www.reddit.com/r/java/comments/qd3bdo/eclipse_ee4j_jakarta_ee_combined_commit_activity/)
 - [How would experienced devs handle checking JSON objects for specific property condition?](https://www.reddit.com/r/java/comments/qd23k1/how_would_experienced_devs_handle_checking_json/)
 - [Parameterize like a pro with JUnit 5 @CsvSource](https://www.reddit.com/r/java/comments/qd0rbh/parameterize_like_a_pro_with_junit_5_csvsource/)
-- [Continuous integration with Docker and Jenkins](https://www.reddit.com/r/java/comments/qcxef3/continuous_integration_with_docker_and_jenkins/)
-- [Search API with Spelling Corrections: implementation using Ngram index algorithm](https://www.reddit.com/r/java/comments/qcu9cz/search_api_with_spelling_corrections/)
-- [Text Blocks - JEP Café #5](https://www.reddit.com/r/java/comments/qcskii/text_blocks_jep_café_5/)
-- [Java Garbage Collection Patterns](https://www.reddit.com/r/java/comments/qcohed/java_garbage_collection_patterns/)
-- [JDK 18 - Augmented `javac -xlint:serial` checks](https://www.reddit.com/r/java/comments/qclomj/jdk_18_augmented_javac_xlintserial_checks/)
-- [Danny Thomas from Netflix discusses Developer Productivity Engineering](https://www.reddit.com/r/java/comments/qcdsic/danny_thomas_from_netflix_discusses_developer/)
-- [JavaFX 17.0.1 Release Notes](https://www.reddit.com/r/java/comments/qc64ct/javafx_1701_release_notes/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
