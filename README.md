@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Newbie JPA question!](https://www.reddit.com/r/java/comments/qduu81/newbie_jpa_question/)
+- [Reified - Enhanced Type Parameters in Java 11 and upwards](https://www.reddit.com/r/java/comments/qechdf/reified_enhanced_type_parameters_in_java_11_and/)
+- [Could Java libraries/frameworks come with AOT-hints?](https://www.reddit.com/r/java/comments/qe0ua6/could_java_librariesframeworks_come_with_aothints/)
 - [Why or how is Maven more secure/reliable than NPM?](https://www.reddit.com/r/java/comments/qdq2qh/why_or_how_is_maven_more_securereliable_than_npm/)
-- [Java for game development?](https://www.reddit.com/r/java/comments/qdp3jf/java_for_game_development/)
-- [Mac vs Linux vs ...windows](https://www.reddit.com/r/java/comments/qdmzll/mac_vs_linux_vs_windows/)
 - [Jakarta Concurrency: What's Next | Jakarta Tech Talks | August 11, 2021](https://www.reddit.com/r/java/comments/qdi5qt/jakarta_concurrency_whats_next_jakarta_tech_talks/)
 - [From C#.NET to JAVA](https://www.reddit.com/r/java/comments/qdfjzi/from_cnet_to_java/)
 - [Kafka Performance Optimization overview](https://www.reddit.com/r/java/comments/qdb8l1/kafka_performance_optimization_overview/)
 - [Eclipse EE4J (Jakarta EE) combined commit activity](https://www.reddit.com/r/java/comments/qd3bdo/eclipse_ee4j_jakarta_ee_combined_commit_activity/)
 - [How would experienced devs handle checking JSON objects for specific property condition?](https://www.reddit.com/r/java/comments/qd23k1/how_would_experienced_devs_handle_checking_json/)
 - [Parameterize like a pro with JUnit 5 @CsvSource](https://www.reddit.com/r/java/comments/qd0rbh/parameterize_like_a_pro_with_junit_5_csvsource/)
+- [Continuous integration with Docker and Jenkins](https://www.reddit.com/r/java/comments/qcxef3/continuous_integration_with_docker_and_jenkins/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
