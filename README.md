@@ -370,6 +370,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Java programmer posts*
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [Features of Java Programming Language](https://www.thejavaprogrammer.com/features-of-java-programming-language/)
+- [8 Best Youtube Channels to Learn Java for Beginners 2021](https://www.thejavaprogrammer.com/best-youtube-channels-to-learn-java/)
 - [12 Best Java Blogs for Beginners 2021](https://www.thejavaprogrammer.com/best-java-blogs/)
 - [Advantages and Disadvantages of Encapsulation in Java](https://www.thejavaprogrammer.com/advantages-and-disadvantages-of-encapsulation-in-java/)
 - [How to Find Array Length in Java with Examples](https://www.thejavaprogrammer.com/array-length-in-java/)
@@ -378,8 +380,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Evaluate Postfix Expression in Java](https://www.thejavaprogrammer.com/evaluate-postfix-expression-in-java/)
 - [Java Reflection Invoke Static Method](https://www.thejavaprogrammer.com/java-reflection-invoke-static-method/)
 - [Volatile vs Synchronized in Java](https://www.thejavaprogrammer.com/volatile-vs-synchronized/)
-- [One Dimensional Array in Java – 1D Array](https://www.thejavaprogrammer.com/one-dimensional-array/)
-- [Java Program for Employee Details using Class and Object](https://www.thejavaprogrammer.com/java-program-for-employee-details-using-class-and-object/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### *Dreamix posts*
