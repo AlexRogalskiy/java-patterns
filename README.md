@@ -280,6 +280,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Choosing a cache](https://www.reddit.com/r/java/comments/qevgvc/choosing_a_cache/)
+- [Hashtag Jakarta EE #95](https://www.reddit.com/r/java/comments/qequn4/hashtag_jakarta_ee_95/)
+- [What you should know about Java Optional about hidden performance killer](https://www.reddit.com/r/java/comments/qeotpt/what_you_should_know_about_java_optional_about/)
 - [Reified - Enhanced Type Parameters in Java 11 and upwards](https://www.reddit.com/r/java/comments/qechdf/reified_enhanced_type_parameters_in_java_11_and/)
 - [Could Java libraries/frameworks come with AOT-hints?](https://www.reddit.com/r/java/comments/qe0ua6/could_java_librariesframeworks_come_with_aothints/)
 - [Why or how is Maven more secure/reliable than NPM?](https://www.reddit.com/r/java/comments/qdq2qh/why_or_how_is_maven_more_securereliable_than_npm/)
@@ -287,9 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [From C#.NET to JAVA](https://www.reddit.com/r/java/comments/qdfjzi/from_cnet_to_java/)
 - [Kafka Performance Optimization overview](https://www.reddit.com/r/java/comments/qdb8l1/kafka_performance_optimization_overview/)
 - [Eclipse EE4J (Jakarta EE) combined commit activity](https://www.reddit.com/r/java/comments/qd3bdo/eclipse_ee4j_jakarta_ee_combined_commit_activity/)
-- [How would experienced devs handle checking JSON objects for specific property condition?](https://www.reddit.com/r/java/comments/qd23k1/how_would_experienced_devs_handle_checking_json/)
-- [Parameterize like a pro with JUnit 5 @CsvSource](https://www.reddit.com/r/java/comments/qd0rbh/parameterize_like_a_pro_with_junit_5_csvsource/)
-- [Continuous integration with Docker and Jenkins](https://www.reddit.com/r/java/comments/qcxef3/continuous_integration_with_docker_and_jenkins/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
