@@ -415,6 +415,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
+- [Spring Data JPA – Publishing Domain Events When Changing an Entity](https://thorben-janssen.com/spring-data-jpa-domain-event/)
 - [It’s Time to Make a Change](https://thorben-janssen.com/membership-announcement/)
 - [Fetching a DTO With a To-Many Association](https://thorben-janssen.com/fetching-dtos-with-to-many-association/)
 - [@DiscriminatorFormular – Modeling Single Table Inheritance Without a Discriminator](https://thorben-janssen.com/discriminatorformular/)
@@ -424,7 +425,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Spring Data JPA – Working with Views](https://thorben-janssen.com/spring-data-jpa-views/)
 - [How to Generate Values of Basic Entity Attributes with Hibernate](https://thorben-janssen.com/hibernate-generator-type/)
 - [Panache – Repository Pattern](https://thorben-janssen.com/panache-repository-pattern/)
-- [5 Hibernate Features You Should Use With Spring Data JPA](https://thorben-janssen.com/hibernate-features-with-spring-data-jpa/)
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*
