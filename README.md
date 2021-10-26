@@ -359,12 +359,12 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Sip of Java - Record Serialization](https://inside.java/2021/10/21/sip24/)
 - [JDK 18 augmented `javac -Xlint:serial` checks](https://inside.java/2021/10/20/augmented-serial-checks/)
 - [JEP proposed to target JDK 18: 416: Reimplement Core Reflection with Method Handles](https://inside.java/2021/10/19/jep-416-proposed-to-target-jdk18/)
+- [Oracle JRE and JDK Cryptographic Roadmap update](https://inside.java/2021/10/19/security-roadmap-update/)
 - [In-memory HttpServer Handler](https://inside.java/2021/10/18/in-memory-httpserver-handler/)
 - [Faster Charset Encoding](https://inside.java/2021/10/17/faster-charset-encoding/)
 - [Java 17… more videos, UTF-8 by default in Java 18 - Inside Java Newscast #13](https://inside.java/2021/10/15/insidejava-newcast-013/)
 - [Java SE 7 End of Extended Support in July 2022](https://inside.java/2021/10/15/java-se-7-end-of-extended-support/)
 - [Sip of Java - Serialization Filters](https://inside.java/2021/10/14/sip23/)
-- [Modern, Scalable Concurrency for the Java Platform](https://inside.java/2021/10/13/devlive-loom/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
