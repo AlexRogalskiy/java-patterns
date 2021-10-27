@@ -280,6 +280,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [How to properly inject CDI beans into Jakarta REST sub-resources](https://www.reddit.com/r/java/comments/qg9npe/how_to_properly_inject_cdi_beans_into_jakarta/)
+- [Representational State Transfer + Structured Query Language (RSQL): using Java Spring-boot](https://www.reddit.com/r/java/comments/qg26bs/representational_state_transfer_structured_query/)
+- [Best performance monitoring tools?](https://www.reddit.com/r/java/comments/qfw571/best_performance_monitoring_tools/)
 - [Can Java cold-start? (updated for WildFly and Quarkus)](https://www.reddit.com/r/java/comments/qfrwcv/can_java_coldstart_updated_for_wildfly_and_quarkus/)
 - [I'm looking for a Java library that can format JShell-type code](https://www.reddit.com/r/java/comments/qfrol0/im_looking_for_a_java_library_that_can_format/)
 - [Helidon + Swagger/OpenAPI](https://www.reddit.com/r/java/comments/qfi6le/helidon_swaggeropenapi/)
@@ -287,9 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [When it's good practice to use var instead of explicit name of the variable](https://www.reddit.com/r/java/comments/qfayz4/when_its_good_practice_to_use_var_instead_of/)
 - [Choosing a cache](https://www.reddit.com/r/java/comments/qevgvc/choosing_a_cache/)
 - [Hashtag Jakarta EE #95](https://www.reddit.com/r/java/comments/qequn4/hashtag_jakarta_ee_95/)
-- [Reified - Enhanced Type Parameters in Java 11 and upwards](https://www.reddit.com/r/java/comments/qechdf/reified_enhanced_type_parameters_in_java_11_and/)
-- [Could Java libraries/frameworks come with AOT-hints?](https://www.reddit.com/r/java/comments/qe0ua6/could_java_librariesframeworks_come_with_aothints/)
-- [Why or how is Maven more secure/reliable than NPM?](https://www.reddit.com/r/java/comments/qdq2qh/why_or_how_is_maven_more_securereliable_than_npm/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
