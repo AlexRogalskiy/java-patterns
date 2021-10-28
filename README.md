@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [How to properly inject CDI beans into Jakarta REST sub-resources](https://www.reddit.com/r/java/comments/qg9npe/how_to_properly_inject_cdi_beans_into_jakarta/)
-- [Representational State Transfer + Structured Query Language (RSQL): using Java Spring-boot](https://www.reddit.com/r/java/comments/qg26bs/representational_state_transfer_structured_query/)
-- [Best performance monitoring tools?](https://www.reddit.com/r/java/comments/qfw571/best_performance_monitoring_tools/)
-- [Can Java cold-start? (updated for WildFly and Quarkus)](https://www.reddit.com/r/java/comments/qfrwcv/can_java_coldstart_updated_for_wildfly_and_quarkus/)
-- [I'm looking for a Java library that can format JShell-type code](https://www.reddit.com/r/java/comments/qfrol0/im_looking_for_a_java_library_that_can_format/)
-- [Helidon + Swagger/OpenAPI](https://www.reddit.com/r/java/comments/qfi6le/helidon_swaggeropenapi/)
-- [ResultSet mapping library](https://www.reddit.com/r/java/comments/qfbefw/resultset_mapping_library/)
-- [When it's good practice to use var instead of explicit name of the variable](https://www.reddit.com/r/java/comments/qfayz4/when_its_good_practice_to_use_var_instead_of/)
-- [Choosing a cache](https://www.reddit.com/r/java/comments/qevgvc/choosing_a_cache/)
-- [Hashtag Jakarta EE #95](https://www.reddit.com/r/java/comments/qequn4/hashtag_jakarta_ee_95/)
+- [Advanced Topics and Books](https://www.reddit.com/r/java/comments/qh6t1p/advanced_topics_and_books/)
+- [Hibernate Reactive: is it worth it?](https://www.reddit.com/r/java/comments/qh5tvg/hibernate_reactive_is_it_worth_it/)
+- [Spring Tips: Spring Plugin](https://www.reddit.com/r/java/comments/qh4fzn/spring_tips_spring_plugin/)
+- [Igor Braga, Jonathan Oommen — GC optimizations you never knew existed](https://www.reddit.com/r/java/comments/qh18ly/igor_braga_jonathan_oommen_gc_optimizations_you/)
+- [JavaFx in the Age of Browsers](https://www.reddit.com/r/java/comments/qgxe1a/javafx_in_the_age_of_browsers/)
+- [Interesting Application Garbage Collection Patterns](https://www.reddit.com/r/java/comments/qgsvk1/interesting_application_garbage_collection/)
+- [Is immutables deprecated ?](https://www.reddit.com/r/java/comments/qgr18b/is_immutables_deprecated/)
+- [Venkat Subramaniam — Type inference: Friend or foe?](https://www.reddit.com/r/java/comments/qgp3n8/venkat_subramaniam_type_inference_friend_or_foe/)
+- [Why user-mode threads are (often) the right answer](https://www.reddit.com/r/java/comments/qgoded/why_usermode_threads_are_often_the_right_answer/)
+- [Anyone have content and resources they like to reference?](https://www.reddit.com/r/java/comments/qgo2u6/anyone_have_content_and_resources_they_like_to/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
