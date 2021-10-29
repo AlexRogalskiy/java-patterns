@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Advanced Topics and Books](https://www.reddit.com/r/java/comments/qh6t1p/advanced_topics_and_books/)
+- [gRPC, Thrift, REST Server framework](https://www.reddit.com/r/java/comments/qi1bil/grpc_thrift_rest_server_framework/)
+- [What are some new or upcoming Java projects or advancements that excite you the most?](https://www.reddit.com/r/java/comments/qi01s4/what_are_some_new_or_upcoming_java_projects_or/)
+- [11 Tricks From dev.java - Inside Java Newscast #14](https://www.reddit.com/r/java/comments/qhucuc/11_tricks_from_devjava_inside_java_newscast_14/)
+- [Null Object Pattern](https://www.reddit.com/r/java/comments/qhu79m/null_object_pattern/)
+- [Using GCP event driven Java microservices](https://www.reddit.com/r/java/comments/qhp46d/using_gcp_event_driven_java_microservices/)
+- [JProperties: A modern replacement for java.util.Properties](https://www.reddit.com/r/java/comments/qhi6j9/jproperties_a_modern_replacement_for/)
 - [Hibernate Reactive: is it worth it?](https://www.reddit.com/r/java/comments/qh5tvg/hibernate_reactive_is_it_worth_it/)
-- [Spring Tips: Spring Plugin](https://www.reddit.com/r/java/comments/qh4fzn/spring_tips_spring_plugin/)
 - [Igor Braga, Jonathan Oommen — GC optimizations you never knew existed](https://www.reddit.com/r/java/comments/qh18ly/igor_braga_jonathan_oommen_gc_optimizations_you/)
 - [JavaFx in the Age of Browsers](https://www.reddit.com/r/java/comments/qgxe1a/javafx_in_the_age_of_browsers/)
 - [Interesting Application Garbage Collection Patterns](https://www.reddit.com/r/java/comments/qgsvk1/interesting_application_garbage_collection/)
-- [Is immutables deprecated ?](https://www.reddit.com/r/java/comments/qgr18b/is_immutables_deprecated/)
-- [Venkat Subramaniam — Type inference: Friend or foe?](https://www.reddit.com/r/java/comments/qgp3n8/venkat_subramaniam_type_inference_friend_or_foe/)
-- [Why user-mode threads are (often) the right answer](https://www.reddit.com/r/java/comments/qgoded/why_usermode_threads_are_often_the_right_answer/)
-- [Anyone have content and resources they like to reference?](https://www.reddit.com/r/java/comments/qgo2u6/anyone_have_content_and_resources_they_like_to/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
