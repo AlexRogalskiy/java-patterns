@@ -280,8 +280,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [where is a good place to get good practice in java](https://www.reddit.com/r/java/comments/qiq9o4/where_is_a_good_place_to_get_good_practice_in_java/)
-- [Fx, Swing, AWT and ...?](https://www.reddit.com/r/java/comments/qimgfg/fx_swing_awt_and/)
+- [String.format() is 3x faster in Java 17](https://www.reddit.com/r/java/comments/qj3g2x/stringformat_is_3x_faster_in_java_17/)
 - [JEP draft: Region Pinning in G1](https://www.reddit.com/r/java/comments/qilv4v/jep_draft_region_pinning_in_g1/)
 - [Is it a good idea to apply jobs that "requires" years of experience which I don't have](https://www.reddit.com/r/java/comments/qicp9s/is_it_a_good_idea_to_apply_jobs_that_requires/)
 - [Use case : Node.js in front of Spring Boot (or something else in Java)](https://www.reddit.com/r/java/comments/qibb3f/use_case_nodejs_in_front_of_spring_boot_or/)
@@ -290,6 +289,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [11 Tricks From dev.java - Inside Java Newscast #14](https://www.reddit.com/r/java/comments/qhucuc/11_tricks_from_devjava_inside_java_newscast_14/)
 - [Using GCP event driven Java microservices](https://www.reddit.com/r/java/comments/qhp46d/using_gcp_event_driven_java_microservices/)
 - [JProperties: A modern replacement for java.util.Properties](https://www.reddit.com/r/java/comments/qhi6j9/jproperties_a_modern_replacement_for/)
+- [Hibernate Reactive: is it worth it?](https://www.reddit.com/r/java/comments/qh5tvg/hibernate_reactive_is_it_worth_it/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
