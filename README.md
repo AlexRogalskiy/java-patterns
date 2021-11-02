@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Candidate JEP 421: Deprecate Finalization for Removal](https://www.reddit.com/r/java/comments/qkmcaj/candidate_jep_421_deprecate_finalization_for/)
+- [Exploring JNR - A faster way to connect Java to native libraries](https://www.reddit.com/r/java/comments/qkjroa/exploring_jnr_a_faster_way_to_connect_java_to/)
+- [Java’s Checked Exceptions Are Just Weird Union Types](https://www.reddit.com/r/java/comments/qkac2k/javas_checked_exceptions_are_just_weird_union/)
+- [Externalized Properties for the JVM](https://www.reddit.com/r/java/comments/qk9has/externalized_properties_for_the_jvm/)
+- [Trojan Source exploit in Java (and other languages') compiler](https://www.reddit.com/r/java/comments/qk8zpt/trojan_source_exploit_in_java_and_other_languages/)
+- [Smuggling Checked Exceptions with Sealed Interfaces](https://www.reddit.com/r/java/comments/qk6skd/smuggling_checked_exceptions_with_sealed/)
 - [A list of Java cache providers](https://www.reddit.com/r/java/comments/qjvip6/a_list_of_java_cache_providers/)
 - [Hashtag Jakarta EE #96](https://www.reddit.com/r/java/comments/qjt3pr/hashtag_jakarta_ee_96/)
-- [What are major productivity/performance trade-offs between kotlin and java; as of jdk 17/kotlin 1.6](https://www.reddit.com/r/java/comments/qjo9gf/what_are_major_productivityperformance_tradeoffs/)
 - [String.format() is 3x faster in Java 17](https://www.reddit.com/r/java/comments/qj3g2x/stringformat_is_3x_faster_in_java_17/)
 - [JEP draft: Region Pinning in G1](https://www.reddit.com/r/java/comments/qilv4v/jep_draft_region_pinning_in_g1/)
-- [Is it a good idea to apply jobs that "requires" years of experience which I don't have](https://www.reddit.com/r/java/comments/qicp9s/is_it_a_good_idea_to_apply_jobs_that_requires/)
-- [Use case : Node.js in front of Spring Boot (or something else in Java)](https://www.reddit.com/r/java/comments/qibb3f/use_case_nodejs_in_front_of_spring_boot_or/)
-- [Hint (to myself and other poor souls): Don't use java.net.URLs as keys in a Map!](https://www.reddit.com/r/java/comments/qi8yu8/hint_to_myself_and_other_poor_souls_dont_use/)
-- [What are some new or upcoming Java projects or advancements that excite you the most?](https://www.reddit.com/r/java/comments/qi01s4/what_are_some_new_or_upcoming_java_projects_or/)
-- [11 Tricks From dev.java - Inside Java Newscast #14](https://www.reddit.com/r/java/comments/qhucuc/11_tricks_from_devjava_inside_java_newscast_14/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
