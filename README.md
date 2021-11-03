@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Valhalla: Consolidating the user model [Brian Goetz]](https://www.reddit.com/r/java/comments/qlenef/valhalla_consolidating_the_user_model_brian_goetz/)
+- [Which one is better Intellij or Eclipse](https://www.reddit.com/r/java/comments/qlbxze/which_one_is_better_intellij_or_eclipse/)
+- [The New Liberica Native Image Kit 21.3 based on Liberica 17 and 11 is out](https://www.reddit.com/r/java/comments/qlb4ue/the_new_liberica_native_image_kit_213_based_on/)
+- [Helidon 2.4.0 released!](https://www.reddit.com/r/java/comments/ql0s0u/helidon_240_released/)
+- [Spring Boot Memory leaks and OOM in docker](https://www.reddit.com/r/java/comments/qkzt96/spring_boot_memory_leaks_and_oom_in_docker/)
+- [Non Spring users what are you using ??](https://www.reddit.com/r/java/comments/qkyu81/non_spring_users_what_are_you_using/)
+- [GitHub - EnterpriseQualityCoding/FizzBuzzEnterpriseEdition: FizzBuzz Enterprise Edition is a no-nonsense implementation of FizzBuzz made by serious businessmen for serious business purposes.](https://www.reddit.com/r/java/comments/qkwtq3/github/)
 - [Candidate JEP 421: Deprecate Finalization for Removal](https://www.reddit.com/r/java/comments/qkmcaj/candidate_jep_421_deprecate_finalization_for/)
 - [Exploring JNR - A faster way to connect Java to native libraries](https://www.reddit.com/r/java/comments/qkjroa/exploring_jnr_a_faster_way_to_connect_java_to/)
 - [Java’s Checked Exceptions Are Just Weird Union Types](https://www.reddit.com/r/java/comments/qkac2k/javas_checked_exceptions_are_just_weird_union/)
-- [Externalized Properties for the JVM](https://www.reddit.com/r/java/comments/qk9has/externalized_properties_for_the_jvm/)
-- [Trojan Source exploit in Java (and other languages') compiler](https://www.reddit.com/r/java/comments/qk8zpt/trojan_source_exploit_in_java_and_other_languages/)
-- [Smuggling Checked Exceptions with Sealed Interfaces](https://www.reddit.com/r/java/comments/qk6skd/smuggling_checked_exceptions_with_sealed/)
-- [A list of Java cache providers](https://www.reddit.com/r/java/comments/qjvip6/a_list_of_java_cache_providers/)
-- [Hashtag Jakarta EE #96](https://www.reddit.com/r/java/comments/qjt3pr/hashtag_jakarta_ee_96/)
-- [String.format() is 3x faster in Java 17](https://www.reddit.com/r/java/comments/qj3g2x/stringformat_is_3x_faster_in_java_17/)
-- [JEP draft: Region Pinning in G1](https://www.reddit.com/r/java/comments/qilv4v/jep_draft_region_pinning_in_g1/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
