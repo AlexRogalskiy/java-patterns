@@ -325,6 +325,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [JFall 2021](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/jfall-2021.html)
+- [Kotlin, AssertJ and Overloads](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/kotlin-assertj-and-overloads.html)
 - [Netlify and Github pages](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/netlify-and-github-pages.html)
 - [My Printer's Gone!](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/my-printers-gone.html)
 - [Running Payara Micro on Java 11 via GraalVM on Docker on Jelastic](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/running-payara-micro-on-java-11-via.html)
@@ -333,8 +335,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Angular in Strict Mode](http://randomthoughtsonjavaprogramming.blogspot.com/2021/08/angular-in-strict-mode.html)
 - [Kotlin : the "by" keyword in Interface/Class Delegation](http://randomthoughtsonjavaprogramming.blogspot.com/2021/07/kotlin-by-keyword-in-interfaceclass.html)
 - [Hibernate's @FetchProfile](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/hibernates-fetchprofile.html)
-- [Docker](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/docker.html)
-- [Aristotle's Wheel Paradox - To Infinity and Beyond](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/aristotles-wheel-paradox-to-infinity.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
