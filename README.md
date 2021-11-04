@@ -355,6 +355,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [New candidate JEP: 421: Deprecate Finalization for Removal](https://inside.java/2021/11/01/new-candidate-jep-421/)
+- [11 Tricks From dev.java - Inside Java Newscast #14](https://inside.java/2021/10/28/insidejava-newscast-014/)
+- [JEP proposed to target JDK 18: 418: Internet-Address Resolution SPI](https://inside.java/2021/10/28/jep-418-proposed-to-target-jdk18/)
 - [Why user-mode threads are (often) the right answer](https://inside.java/2021/10/26/why-user-mode-thread-video/)
 - [Text Blocks - JEP Café #5](https://inside.java/2021/10/21/jepcafe5/)
 - [Sip of Java - Record Serialization](https://inside.java/2021/10/21/sip24/)
@@ -362,9 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JEP proposed to target JDK 18: 416: Reimplement Core Reflection with Method Handles](https://inside.java/2021/10/19/jep-416-proposed-to-target-jdk18/)
 - [Oracle JRE and JDK Cryptographic Roadmap update](https://inside.java/2021/10/19/security-roadmap-update/)
 - [In-memory HttpServer Handler](https://inside.java/2021/10/18/in-memory-httpserver-handler/)
-- [Faster Charset Encoding](https://inside.java/2021/10/17/faster-charset-encoding/)
-- [Java 17… more videos, UTF-8 by default in Java 18 - Inside Java Newscast #13](https://inside.java/2021/10/15/insidejava-newcast-013/)
-- [Java SE 7 End of Extended Support in July 2022](https://inside.java/2021/10/15/java-se-7-end-of-extended-support/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
