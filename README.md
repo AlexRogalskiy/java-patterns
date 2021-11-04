@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [The Meaning of L.I.F.E. in Valhalla [John Rose]](https://www.reddit.com/r/java/comments/qm2zci/the_meaning_of_life_in_valhalla_john_rose/)
+- [About Jersey 2.35 and Jersey 3.0.3](https://www.reddit.com/r/java/comments/qlykn9/about_jersey_235_and_jersey_303/)
+- [How to choose the best Java garbage collector](https://www.reddit.com/r/java/comments/qlxopy/how_to_choose_the_best_java_garbage_collector/)
+- [Im out of coding ideas. Help! Write in the description,any idea is welcome!](https://www.reddit.com/r/java/comments/qlx3h5/im_out_of_coding_ideas_help_write_in_the/)
+- ["Cannot resolve symbol" error](https://www.reddit.com/r/java/comments/qlrff3/cannot_resolve_symbol_error/)
+- [Did Oracle just do a 180° turn and is now offering OracleJDK free for commercial use again after estranging commercial customers and pushing the adoption of OpenJDK?](https://www.reddit.com/r/java/comments/qlo1w6/did_oracle_just_do_a_180_turn_and_is_now_offering/)
 - [Valhalla: Consolidating the user model [Brian Goetz]](https://www.reddit.com/r/java/comments/qlenef/valhalla_consolidating_the_user_model_brian_goetz/)
 - [Which one is better Intellij or Eclipse](https://www.reddit.com/r/java/comments/qlbxze/which_one_is_better_intellij_or_eclipse/)
 - [The New Liberica Native Image Kit 21.3 based on Liberica 17 and 11 is out](https://www.reddit.com/r/java/comments/qlb4ue/the_new_liberica_native_image_kit_213_based_on/)
 - [Helidon 2.4.0 released!](https://www.reddit.com/r/java/comments/ql0s0u/helidon_240_released/)
-- [Spring Boot Memory leaks and OOM in docker](https://www.reddit.com/r/java/comments/qkzt96/spring_boot_memory_leaks_and_oom_in_docker/)
-- [Non Spring users what are you using ??](https://www.reddit.com/r/java/comments/qkyu81/non_spring_users_what_are_you_using/)
-- [GitHub - EnterpriseQualityCoding/FizzBuzzEnterpriseEdition: FizzBuzz Enterprise Edition is a no-nonsense implementation of FizzBuzz made by serious businessmen for serious business purposes.](https://www.reddit.com/r/java/comments/qkwtq3/github/)
-- [Candidate JEP 421: Deprecate Finalization for Removal](https://www.reddit.com/r/java/comments/qkmcaj/candidate_jep_421_deprecate_finalization_for/)
-- [Exploring JNR - A faster way to connect Java to native libraries](https://www.reddit.com/r/java/comments/qkjroa/exploring_jnr_a_faster_way_to_connect_java_to/)
-- [Java’s Checked Exceptions Are Just Weird Union Types](https://www.reddit.com/r/java/comments/qkac2k/javas_checked_exceptions_are_just_weird_union/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
