@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [The Meaning of L.I.F.E. in Valhalla [John Rose]](https://www.reddit.com/r/java/comments/qm2zci/the_meaning_of_life_in_valhalla_john_rose/)
-- [About Jersey 2.35 and Jersey 3.0.3](https://www.reddit.com/r/java/comments/qlykn9/about_jersey_235_and_jersey_303/)
-- [How to choose the best Java garbage collector](https://www.reddit.com/r/java/comments/qlxopy/how_to_choose_the_best_java_garbage_collector/)
-- [Im out of coding ideas. Help! Write in the description,any idea is welcome!](https://www.reddit.com/r/java/comments/qlx3h5/im_out_of_coding_ideas_help_write_in_the/)
-- ["Cannot resolve symbol" error](https://www.reddit.com/r/java/comments/qlrff3/cannot_resolve_symbol_error/)
-- [Did Oracle just do a 180° turn and is now offering OracleJDK free for commercial use again after estranging commercial customers and pushing the adoption of OpenJDK?](https://www.reddit.com/r/java/comments/qlo1w6/did_oracle_just_do_a_180_turn_and_is_now_offering/)
-- [Valhalla: Consolidating the user model [Brian Goetz]](https://www.reddit.com/r/java/comments/qlenef/valhalla_consolidating_the_user_model_brian_goetz/)
-- [Which one is better Intellij or Eclipse](https://www.reddit.com/r/java/comments/qlbxze/which_one_is_better_intellij_or_eclipse/)
-- [The New Liberica Native Image Kit 21.3 based on Liberica 17 and 11 is out](https://www.reddit.com/r/java/comments/qlb4ue/the_new_liberica_native_image_kit_213_based_on/)
-- [Helidon 2.4.0 released!](https://www.reddit.com/r/java/comments/ql0s0u/helidon_240_released/)
+- [How to use Docker for Java development](https://www.reddit.com/r/java/comments/qmx4qg/how_to_use_docker_for_java_development/)
+- [Updating server certificates during runtime without the need of restarting it](https://www.reddit.com/r/java/comments/qmwsi7/updating_server_certificates_during_runtime/)
+- [Microsoft joins the Java Community Process (JCP)](https://www.reddit.com/r/java/comments/qmv9ne/microsoft_joins_the_java_community_process_jcp/)
+- [Can Java cold-start? (updated for Piranha, Micronaut, Vert.X and others)](https://www.reddit.com/r/java/comments/qmtriv/can_java_coldstart_updated_for_piranha_micronaut/)
+- [What is the state of Spring WebFlux and R2DBC](https://www.reddit.com/r/java/comments/qms7x7/what_is_the_state_of_spring_webflux_and_r2dbc/)
+- [NumPy equivalent for Java?](https://www.reddit.com/r/java/comments/qmrrzk/numpy_equivalent_for_java/)
+- [Choosing Java as your language for a Machine Learning project](https://www.reddit.com/r/java/comments/qmno9n/choosing_java_as_your_language_for_a_machine/)
+- [New in Eclipse 2021-12/4.22 M2 - Label Objects during debugging](https://www.reddit.com/r/java/comments/qmm079/new_in_eclipse_202112422_m2_label_objects_during/)
+- [On the Way to CDI 4.0](https://www.reddit.com/r/java/comments/qmkxlc/on_the_way_to_cdi_40/)
+- [Jailer Database Tools, a follow-up.](https://www.reddit.com/r/java/comments/qmkr4j/jailer_database_tools_a_followup/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
