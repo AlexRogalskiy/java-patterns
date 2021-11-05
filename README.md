@@ -355,6 +355,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Improving Java Performance on OCI Ampere A1 Compute instances](https://inside.java/2021/11/03/improving-java-perf-on-oci-ampere/)
 - [New candidate JEP: 421: Deprecate Finalization for Removal](https://inside.java/2021/11/01/new-candidate-jep-421/)
 - [11 Tricks From dev.java - Inside Java Newscast #14](https://inside.java/2021/10/28/insidejava-newscast-014/)
 - [JEP proposed to target JDK 18: 418: Internet-Address Resolution SPI](https://inside.java/2021/10/28/jep-418-proposed-to-target-jdk18/)
@@ -364,7 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JDK 18 augmented `javac -Xlint:serial` checks](https://inside.java/2021/10/20/augmented-serial-checks/)
 - [JEP proposed to target JDK 18: 416: Reimplement Core Reflection with Method Handles](https://inside.java/2021/10/19/jep-416-proposed-to-target-jdk18/)
 - [Oracle JRE and JDK Cryptographic Roadmap update](https://inside.java/2021/10/19/security-roadmap-update/)
-- [In-memory HttpServer Handler](https://inside.java/2021/10/18/in-memory-httpserver-handler/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
