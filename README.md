@@ -280,7 +280,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [How to use Docker for Java development](https://www.reddit.com/r/java/comments/qmx4qg/how_to_use_docker_for_java_development/)
+- [Embracing Java 17: Here’s What We Learned](https://www.reddit.com/r/java/comments/qndt6b/embracing_java_17_heres_what_we_learned/)
+- [Cheat Sheet - 40+ example Http Client SSL TLS Configuration with http requests](https://www.reddit.com/r/java/comments/qn78pk/cheat_sheet_40_example_http_client_ssl_tls/)
 - [Updating server certificates during runtime without the need of restarting it](https://www.reddit.com/r/java/comments/qmwsi7/updating_server_certificates_during_runtime/)
 - [Microsoft joins the Java Community Process (JCP)](https://www.reddit.com/r/java/comments/qmv9ne/microsoft_joins_the_java_community_process_jcp/)
 - [Can Java cold-start? (updated for Piranha, Micronaut, Vert.X and others)](https://www.reddit.com/r/java/comments/qmtriv/can_java_coldstart_updated_for_piranha_micronaut/)
@@ -289,7 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Choosing Java as your language for a Machine Learning project](https://www.reddit.com/r/java/comments/qmno9n/choosing_java_as_your_language_for_a_machine/)
 - [New in Eclipse 2021-12/4.22 M2 - Label Objects during debugging](https://www.reddit.com/r/java/comments/qmm079/new_in_eclipse_202112422_m2_label_objects_during/)
 - [On the Way to CDI 4.0](https://www.reddit.com/r/java/comments/qmkxlc/on_the_way_to_cdi_40/)
-- [Jailer Database Tools, a follow-up.](https://www.reddit.com/r/java/comments/qmkr4j/jailer_database_tools_a_followup/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
