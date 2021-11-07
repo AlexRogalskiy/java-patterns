@@ -280,6 +280,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [I just released 1.2.0 of an open source project called Juery ! It's a simple library designed to make working with search and filter criteria. Check it out and give me feedback !](https://www.reddit.com/r/java/comments/qo2m9y/i_just_released_120_of_an_open_source_project/)
+- [Non-Android projects that use Gradle?](https://www.reddit.com/r/java/comments/qo2b6g/nonandroid_projects_that_use_gradle/)
 - [Embracing Java 17: Here’s What We Learned](https://www.reddit.com/r/java/comments/qndt6b/embracing_java_17_heres_what_we_learned/)
 - [Cheat Sheet - 40+ example Http Client SSL TLS Configuration with http requests](https://www.reddit.com/r/java/comments/qn78pk/cheat_sheet_40_example_http_client_ssl_tls/)
 - [Updating server certificates during runtime without the need of restarting it](https://www.reddit.com/r/java/comments/qmwsi7/updating_server_certificates_during_runtime/)
@@ -288,8 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [What is the state of Spring WebFlux and R2DBC](https://www.reddit.com/r/java/comments/qms7x7/what_is_the_state_of_spring_webflux_and_r2dbc/)
 - [NumPy equivalent for Java?](https://www.reddit.com/r/java/comments/qmrrzk/numpy_equivalent_for_java/)
 - [Choosing Java as your language for a Machine Learning project](https://www.reddit.com/r/java/comments/qmno9n/choosing_java_as_your_language_for_a_machine/)
-- [New in Eclipse 2021-12/4.22 M2 - Label Objects during debugging](https://www.reddit.com/r/java/comments/qmm079/new_in_eclipse_202112422_m2_label_objects_during/)
-- [On the Way to CDI 4.0](https://www.reddit.com/r/java/comments/qmkxlc/on_the_way_to_cdi_40/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
