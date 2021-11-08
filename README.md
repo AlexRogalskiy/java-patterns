@@ -280,6 +280,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Up and coming features for Persism 2.0](https://www.reddit.com/r/java/comments/qozg0y/up_and_coming_features_for_persism_20/)
 - [I just released 1.2.0 of an open source project called Juery ! It's a simple library designed to make working with search and filter criteria. Check it out and give me feedback !](https://www.reddit.com/r/java/comments/qo2m9y/i_just_released_120_of_an_open_source_project/)
 - [Non-Android projects that use Gradle?](https://www.reddit.com/r/java/comments/qo2b6g/nonandroid_projects_that_use_gradle/)
 - [Embracing Java 17: Here’s What We Learned](https://www.reddit.com/r/java/comments/qndt6b/embracing_java_17_heres_what_we_learned/)
@@ -289,7 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Can Java cold-start? (updated for Piranha, Micronaut, Vert.X and others)](https://www.reddit.com/r/java/comments/qmtriv/can_java_coldstart_updated_for_piranha_micronaut/)
 - [What is the state of Spring WebFlux and R2DBC](https://www.reddit.com/r/java/comments/qms7x7/what_is_the_state_of_spring_webflux_and_r2dbc/)
 - [NumPy equivalent for Java?](https://www.reddit.com/r/java/comments/qmrrzk/numpy_equivalent_for_java/)
-- [Choosing Java as your language for a Machine Learning project](https://www.reddit.com/r/java/comments/qmno9n/choosing_java_as_your_language_for_a_machine/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
