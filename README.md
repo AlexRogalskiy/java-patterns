@@ -328,13 +328,13 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JFall 2021](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/jfall-2021.html)
 - [Kotlin, AssertJ and Overloads](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/kotlin-assertj-and-overloads.html)
 - [Netlify and Github pages](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/netlify-and-github-pages.html)
-- [My Printer's Gone!](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/my-printers-gone.html)
+- [My Printer&#39;s Gone!](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/my-printers-gone.html)
 - [Running Payara Micro on Java 11 via GraalVM on Docker on Jelastic](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/running-payara-micro-on-java-11-via.html)
 - [JDK17: The next Long Term Support Java](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/jdk17-next-long-term-support-java.html)
 - [Finding out where your class comes from](http://randomthoughtsonjavaprogramming.blogspot.com/2021/09/finding-out-where-your-class-comes-from.html)
 - [Angular in Strict Mode](http://randomthoughtsonjavaprogramming.blogspot.com/2021/08/angular-in-strict-mode.html)
-- [Kotlin : the "by" keyword in Interface/Class Delegation](http://randomthoughtsonjavaprogramming.blogspot.com/2021/07/kotlin-by-keyword-in-interfaceclass.html)
-- [Hibernate's @FetchProfile](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/hibernates-fetchprofile.html)
+- [Kotlin : the &quot;by&quot; keyword in Interface/Class Delegation](http://randomthoughtsonjavaprogramming.blogspot.com/2021/07/kotlin-by-keyword-in-interfaceclass.html)
+- [Hibernate&#39;s @FetchProfile](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/hibernates-fetchprofile.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
