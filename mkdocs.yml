@@ -73,6 +73,8 @@ plugins:
       canonical_version: null  # the version for <link rel="canonical">; `null`
                                # uses the version specified via `mike deploy`
   - search
+  - codeinclude
+  - markdownextradata
   - i18n:
       default_language: en
       languages:
