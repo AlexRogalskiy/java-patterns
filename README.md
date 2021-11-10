@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Loom And Reactive Presentation - Reactive Summit](https://www.reddit.com/r/java/comments/qqi013/loom_and_reactive_presentation_reactive_summit/)
+- [Helidon 2.4.0 now fully implements MicroProfile LRA 1.0!](https://www.reddit.com/r/java/comments/qq3nln/helidon_240_now_fully_implements_microprofile_lra/)
+- [Oracle - Java SE 17 Developer Exam Number 1Z0-829](https://www.reddit.com/r/java/comments/qq12d7/oracle_java_se_17_developer_exam_number_1z0829/)
+- [Java ecosystem vs .Net 6](https://www.reddit.com/r/java/comments/qpzmdy/java_ecosystem_vs_net_6/)
 - [Is it reasonable to transform log4jlogs in via a configuration file?](https://www.reddit.com/r/java/comments/qpqim9/is_it_reasonable_to_transform_log4jlogs_in_via_a/)
-- [Best intro to Java books?](https://www.reddit.com/r/java/comments/qpi8br/best_intro_to_java_books/)
 - [What are some forbidden, broken, possibly even black magic stuff that you can do in Java and to that extent, JVM in general?](https://www.reddit.com/r/java/comments/qpepoe/what_are_some_forbidden_broken_possibly_even/)
 - [Up and coming features for Persism 2.0](https://www.reddit.com/r/java/comments/qozg0y/up_and_coming_features_for_persism_20/)
 - [I just released 1.2.0 of an open source project called Juery ! It&#39;s a simple library designed to make working with search and filter criteria. Check it out and give me feedback !](https://www.reddit.com/r/java/comments/qo2m9y/i_just_released_120_of_an_open_source_project/)
 - [Non-Android projects that use Gradle?](https://www.reddit.com/r/java/comments/qo2b6g/nonandroid_projects_that_use_gradle/)
 - [Embracing Java 17: Here’s What We Learned](https://www.reddit.com/r/java/comments/qndt6b/embracing_java_17_heres_what_we_learned/)
-- [Cheat Sheet - 40+ example Http Client SSL TLS Configuration with http requests](https://www.reddit.com/r/java/comments/qn78pk/cheat_sheet_40_example_http_client_ssl_tls/)
-- [Updating server certificates during runtime without the need of restarting it](https://www.reddit.com/r/java/comments/qmwsi7/updating_server_certificates_during_runtime/)
-- [Microsoft joins the Java Community Process &lpar;JCP&rpar;](https://www.reddit.com/r/java/comments/qmv9ne/microsoft_joins_the_java_community_process_jcp/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
