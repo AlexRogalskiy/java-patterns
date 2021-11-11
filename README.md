@@ -295,6 +295,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [OpenJDK proposals would bring universal generics to Java](https://www.infoworld.com/article/3639525/openjdk-proposals-would-bring-universal-generics-to-java.html#tk.rss_java)
 - [Microsoft joins Java Community Process](https://www.infoworld.com/article/3639518/microsoft-joins-java-community-process.html#tk.rss_java)
 - [How to use Docker for Java development](https://www.infoworld.com/article/3638548/how-to-use-docker-for-java-development.html#tk.rss_java)
 - [JDK 18: What to expect in Java 18](https://www.infoworld.com/article/3630510/jdk-18-what-to-expect-in-java-18.html#tk.rss_java)
@@ -304,7 +305,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Quarkus: Get started with Kubernetes-native Java](https://www.infoworld.com/article/3636228/quarkus-get-started-with-kubernetes-native-java.html#tk.rss_java)
 - [Java port eyed for RISC-V hardware](https://www.infoworld.com/article/3635029/java-port-eyed-for-risc-v-hardware.html#tk.rss_java)
 - [6 great new Java features you don’t want to miss](https://www.infoworld.com/article/3633638/6-great-new-java-features-you-dont-want-to-miss.html#tk.rss_java)
-- [Oracle v. Google: What the verdict means for open source](https://www.infoworld.com/article/3633668/oracle-v-google-what-the-verdict-means-for-open-source.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
