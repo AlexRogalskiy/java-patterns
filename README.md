@@ -280,6 +280,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [reflection Method from lambda method reference](https://www.reddit.com/r/java/comments/qqypmh/reflection_method_from_lambda_method_reference/)
+- [Testing Spring Cloud Feign clients with Eureka](https://www.reddit.com/r/java/comments/qqpsoo/testing_spring_cloud_feign_clients_with_eureka/)
+- [A tale of a fateful trick &lpar;a chantey for castaway primitives&rpar;](https://www.reddit.com/r/java/comments/qqnpff/a_tale_of_a_fateful_trick_a_chantey_for_castaway/)
 - [Loom And Reactive Presentation - Reactive Summit](https://www.reddit.com/r/java/comments/qqi013/loom_and_reactive_presentation_reactive_summit/)
 - [Helidon 2.4.0 now fully implements MicroProfile LRA 1.0!](https://www.reddit.com/r/java/comments/qq3nln/helidon_240_now_fully_implements_microprofile_lra/)
 - [Oracle - Java SE 17 Developer Exam Number 1Z0-829](https://www.reddit.com/r/java/comments/qq12d7/oracle_java_se_17_developer_exam_number_1z0829/)
@@ -287,9 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Is it reasonable to transform log4jlogs in via a configuration file?](https://www.reddit.com/r/java/comments/qpqim9/is_it_reasonable_to_transform_log4jlogs_in_via_a/)
 - [What are some forbidden, broken, possibly even black magic stuff that you can do in Java and to that extent, JVM in general?](https://www.reddit.com/r/java/comments/qpepoe/what_are_some_forbidden_broken_possibly_even/)
 - [Up and coming features for Persism 2.0](https://www.reddit.com/r/java/comments/qozg0y/up_and_coming_features_for_persism_20/)
-- [I just released 1.2.0 of an open source project called Juery ! It&#39;s a simple library designed to make working with search and filter criteria. Check it out and give me feedback !](https://www.reddit.com/r/java/comments/qo2m9y/i_just_released_120_of_an_open_source_project/)
-- [Non-Android projects that use Gradle?](https://www.reddit.com/r/java/comments/qo2b6g/nonandroid_projects_that_use_gradle/)
-- [Embracing Java 17: Here’s What We Learned](https://www.reddit.com/r/java/comments/qndt6b/embracing_java_17_heres_what_we_learned/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
