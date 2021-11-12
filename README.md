@@ -325,6 +325,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [LetsEncrypt with Webroot](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/letsencrypt-with-webroot.html)
 - [JFall 2021](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/jfall-2021.html)
 - [Kotlin, AssertJ and Overloads](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/kotlin-assertj-and-overloads.html)
 - [Netlify and Github pages](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/netlify-and-github-pages.html)
@@ -334,7 +335,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Finding out where your class comes from](http://randomthoughtsonjavaprogramming.blogspot.com/2021/09/finding-out-where-your-class-comes-from.html)
 - [Angular in Strict Mode](http://randomthoughtsonjavaprogramming.blogspot.com/2021/08/angular-in-strict-mode.html)
 - [Kotlin : the &quot;by&quot; keyword in Interface/Class Delegation](http://randomthoughtsonjavaprogramming.blogspot.com/2021/07/kotlin-by-keyword-in-interfaceclass.html)
-- [Hibernate&#39;s @FetchProfile](http://randomthoughtsonjavaprogramming.blogspot.com/2021/06/hibernates-fetchprofile.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
