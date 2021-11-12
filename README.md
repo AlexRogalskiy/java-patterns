@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Looking for a library to parse object files](https://www.reddit.com/r/java/comments/qrsnul/looking_for_a_library_to_parse_object_files/)
+- [We talked Software Architecture with Bert Jan Schrijver - Observable Stream Podcast](https://www.reddit.com/r/java/comments/qrsc46/we_talked_software_architecture_with_bert_jan/)
+- [What Happens to Finalization in JDK 18? - Inside Java Newscast #15](https://www.reddit.com/r/java/comments/qrsaza/what_happens_to_finalization_in_jdk_18_inside/)
+- [Helidon + MicroSream = brave performant combination!](https://www.reddit.com/r/java/comments/qrop53/helidon_microsream_brave_performant_combination/)
+- [OpenLiberty beta &lpar;21.0.0.12&rpar; now supports MicroProfile 5.0 features &lpar;Jakarta EE 9.1&rpar;](https://www.reddit.com/r/java/comments/qrm4uw/openliberty_beta_210012_now_supports_microprofile/)
+- [Where to find a &quot;By the book&quot; example of java spring boot.](https://www.reddit.com/r/java/comments/qrjsbu/where_to_find_a_by_the_book_example_of_java/)
+- [Kafka Streams with Spring Cloud Stream - Piotr&#39;s TechBlog](https://www.reddit.com/r/java/comments/qri7jz/kafka_streams_with_spring_cloud_stream_piotrs/)
+- [A statement on why Java operating systems should be a normal thing in 2021/2022](https://www.reddit.com/r/java/comments/qrfa9q/a_statement_on_why_java_operating_systems_should/)
+- [Spring Boot Pet Clinic App: A Performance Study](https://www.reddit.com/r/java/comments/qrdpp8/spring_boot_pet_clinic_app_a_performance_study/)
 - [reflection Method from lambda method reference](https://www.reddit.com/r/java/comments/qqypmh/reflection_method_from_lambda_method_reference/)
-- [Testing Spring Cloud Feign clients with Eureka](https://www.reddit.com/r/java/comments/qqpsoo/testing_spring_cloud_feign_clients_with_eureka/)
-- [A tale of a fateful trick &lpar;a chantey for castaway primitives&rpar;](https://www.reddit.com/r/java/comments/qqnpff/a_tale_of_a_fateful_trick_a_chantey_for_castaway/)
-- [Loom And Reactive Presentation - Reactive Summit](https://www.reddit.com/r/java/comments/qqi013/loom_and_reactive_presentation_reactive_summit/)
-- [Helidon 2.4.0 now fully implements MicroProfile LRA 1.0!](https://www.reddit.com/r/java/comments/qq3nln/helidon_240_now_fully_implements_microprofile_lra/)
-- [Oracle - Java SE 17 Developer Exam Number 1Z0-829](https://www.reddit.com/r/java/comments/qq12d7/oracle_java_se_17_developer_exam_number_1z0829/)
-- [Java ecosystem vs .Net 6](https://www.reddit.com/r/java/comments/qpzmdy/java_ecosystem_vs_net_6/)
-- [Is it reasonable to transform log4jlogs in via a configuration file?](https://www.reddit.com/r/java/comments/qpqim9/is_it_reasonable_to_transform_log4jlogs_in_via_a/)
-- [What are some forbidden, broken, possibly even black magic stuff that you can do in Java and to that extent, JVM in general?](https://www.reddit.com/r/java/comments/qpepoe/what_are_some_forbidden_broken_possibly_even/)
-- [Up and coming features for Persism 2.0](https://www.reddit.com/r/java/comments/qozg0y/up_and_coming_features_for_persism_20/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
