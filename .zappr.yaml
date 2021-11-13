@@ -1,0 +1,65 @@
+# https://zappr.readthedocs.io/en/latest/setup
+autobranch:
+  pattern: '{number}-{title}'
+  length: 60
+approvals:
+  minimum: 1              # PR needs at least 1 approval for compliant reasons
+  pattern: "^(:\\+1:|👍|approved)$"   # write a comment to the PR with "approved" or ":+1"
+  ignore: pr_opener
+  veto:
+    pattern: "^(:\\-1:|👎|rejected)$" # write a comment to the PR with "rejected" or ":-1"
+  from:
+    orgs:
+      - AlexRogalskiy
+    collaborators: true
+specification:
+  title:
+    minimum-length:
+      enabled: true
+      length: 8
+  body:
+    minimum-length:
+      enabled: true
+      length: 8
+    contains-url: true
+    contains-issue-number: true
+  template:
+    differs-from-body: true
+commit:
+  message:
+    patterns:
+      # see CONTRIBUTING.md
+      - "^(feat|fix|docs|style|refactor|perf|test|chore)\\([a-zA-Z0-9-._]+\\):.{3,}"
+pull-request:
+  labels:
+    additional: true
+
+# autobranch:
+#   pattern: '{number}-{title}'
+#   length: 60
+# commit:
+#   message:
+#     patterns:
+#       - '#[0-9]+'
+# approvals:
+#   minimum: 2
+#   ignore: none
+#   pattern: "^(:\\+1:|F44D)$"
+#   veto:
+#     pattern: "^(:\\-1:|F44E)$"
+# specification:
+#   title:
+#     minimum-length:
+#       enabled: true
+#       length: 8
+#   body:
+#     minimum-length:
+#       enabled: true
+#       length: 8
+#     contains-url: true
+#     contains-issue-number: true
+#   template:
+#     differs-from-body: true
+# pull-request:
+#   labels:
+#     additional: true
