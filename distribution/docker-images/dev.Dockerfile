@@ -71,6 +71,9 @@ ENV TZ=UTC \
     PIP_NO_CACHE_DIR=1 \
     PIP_DEFAULT_TIMEOUT=100 \
     NPM_CONFIG_LOGLEVEL=error \
+    npm_config_update_notifier=false \
+    NODE_NO_WARNINGS='1' \
+    NODE_TLS_REJECT_UNAUTHORIZED='0' \
     IN_DOCKER=True
 
 ENV USER=${USER:-'devbot'} \
