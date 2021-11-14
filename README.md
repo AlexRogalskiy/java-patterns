@@ -355,7 +355,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
-- [What Happens to Finalization in JDK 18? - Inside Java Newscast #15](https://inside.java/2021/11/11/insidejava-newscast-015/)
+- [Java Experts Spill the Beans](https://inside.java/2021/11/12/java-experts-spill-the-beans/)
+- [What Happens to Finalization in JDK 18? - Inside Java Newscast](https://inside.java/2021/11/11/insidejava-newscast-015/)
+- [Moving Java Forward…Together](https://inside.java/2021/11/11/moving-java-foward-djug/)
 - [Improving Java Performance on OCI Ampere A1 Compute instances](https://inside.java/2021/11/03/improving-java-perf-on-oci-ampere/)
 - [New candidate JEP: 421: Deprecate Finalization for Removal](https://inside.java/2021/11/01/new-candidate-jep-421/)
 - [11 Tricks From dev.java - Inside Java Newscast #14](https://inside.java/2021/10/28/insidejava-newscast-014/)
@@ -363,8 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Why user-mode threads are &lpar;often&rpar; the right answer](https://inside.java/2021/10/26/why-user-mode-thread-video/)
 - [Text Blocks - JEP Café #5](https://inside.java/2021/10/21/jepcafe5/)
 - [Sip of Java - Record Serialization](https://inside.java/2021/10/21/sip24/)
-- [JDK 18 augmented `javac -Xlint:serial` checks](https://inside.java/2021/10/20/augmented-serial-checks/)
-- [JEP proposed to target JDK 18: 416: Reimplement Core Reflection with Method Handles](https://inside.java/2021/10/19/jep-416-proposed-to-target-jdk18/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
