@@ -310,6 +310,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Let's talk posts*
 
 <!-- LETSTALK-POST-LIST:START -->
+- [Link Dump #12](http://letstalkaboutjava.blogspot.com/2021/11/link-dump-12.html)
 - [Link Dump #11](http://letstalkaboutjava.blogspot.com/2021/11/link-dump-11.html)
 - [Link Dump #10](http://letstalkaboutjava.blogspot.com/2021/10/link-dump-10.html)
 - [4 Developers 2020](http://letstalkaboutjava.blogspot.com/2020/02/4-developers-2020_9.html)
@@ -319,7 +320,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Test-Driven Development - you are doing it wrong!](http://letstalkaboutjava.blogspot.com/2019/01/test-driven-development-you-are-doing.html)
 - [HackYeah!](http://letstalkaboutjava.blogspot.com/2018/11/its-time-for-another-great-chance-to.html)
 - [ByteMyCode - let&#39;s meet in Wrocław](http://letstalkaboutjava.blogspot.com/2018/10/bytemycode-lets-meet-in-wrocaw.html)
-- [JDD is coming!](http://letstalkaboutjava.blogspot.com/2018/08/jdd-is-coming.html)
 <!-- LETSTALK-POST-LIST:END -->
 
 ### *Random thoughts posts*
