@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Looking for a library to parse object files](https://www.reddit.com/r/java/comments/qrsnul/looking_for_a_library_to_parse_object_files/)
+- [Get the logged-in user in Jakarta EE – the simplest way](https://www.reddit.com/r/java/comments/qtd9a7/get_the_loggedin_user_in_jakarta_ee_the_simplest/)
+- [Maven Hibernate Enhance Plugin](https://www.reddit.com/r/java/comments/qt8his/maven_hibernate_enhance_plugin/)
+- [What&#39;s the state of modern Java library/JDK compatibility, anno 2021?](https://www.reddit.com/r/java/comments/qt7qj9/whats_the_state_of_modern_java_libraryjdk/)
+- [Piranha 21.11 released!](https://www.reddit.com/r/java/comments/qt5e0s/piranha_2111_released/)
+- [List All the Classes Loaded in the JVM](https://www.reddit.com/r/java/comments/qt310m/list_all_the_classes_loaded_in_the_jvm/)
+- [How can Oracle know if someone use their JDK instead of OpenJDK](https://www.reddit.com/r/java/comments/qt2vmp/how_can_oracle_know_if_someone_use_their_jdk/)
+- [JVM optimisation](https://www.reddit.com/r/java/comments/qso955/jvm_optimisation/)
+- [[18-loom+4-273] Seems like there is a new API for structured concurrency.](https://www.reddit.com/r/java/comments/qscnwb/18loom4273_seems_like_there_is_a_new_api_for/)
 - [We talked Software Architecture with Bert Jan Schrijver - Observable Stream Podcast](https://www.reddit.com/r/java/comments/qrsc46/we_talked_software_architecture_with_bert_jan/)
 - [What Happens to Finalization in JDK 18? - Inside Java Newscast #15](https://www.reddit.com/r/java/comments/qrsaza/what_happens_to_finalization_in_jdk_18_inside/)
-- [Helidon + MicroSream = brave performant combination!](https://www.reddit.com/r/java/comments/qrop53/helidon_microsream_brave_performant_combination/)
-- [OpenLiberty beta &lpar;21.0.0.12&rpar; now supports MicroProfile 5.0 features &lpar;Jakarta EE 9.1&rpar;](https://www.reddit.com/r/java/comments/qrm4uw/openliberty_beta_210012_now_supports_microprofile/)
-- [Where to find a &quot;By the book&quot; example of java spring boot.](https://www.reddit.com/r/java/comments/qrjsbu/where_to_find_a_by_the_book_example_of_java/)
-- [Kafka Streams with Spring Cloud Stream - Piotr&#39;s TechBlog](https://www.reddit.com/r/java/comments/qri7jz/kafka_streams_with_spring_cloud_stream_piotrs/)
-- [A statement on why Java operating systems should be a normal thing in 2021/2022](https://www.reddit.com/r/java/comments/qrfa9q/a_statement_on_why_java_operating_systems_should/)
-- [Spring Boot Pet Clinic App: A Performance Study](https://www.reddit.com/r/java/comments/qrdpp8/spring_boot_pet_clinic_app_a_performance_study/)
-- [reflection Method from lambda method reference](https://www.reddit.com/r/java/comments/qqypmh/reflection_method_from_lambda_method_reference/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
@@ -310,6 +310,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Let's talk posts*
 
 <!-- LETSTALK-POST-LIST:START -->
+- [Link Dump #12](http://letstalkaboutjava.blogspot.com/2021/11/link-dump-12.html)
 - [Link Dump #11](http://letstalkaboutjava.blogspot.com/2021/11/link-dump-11.html)
 - [Link Dump #10](http://letstalkaboutjava.blogspot.com/2021/10/link-dump-10.html)
 - [4 Developers 2020](http://letstalkaboutjava.blogspot.com/2020/02/4-developers-2020_9.html)
@@ -319,7 +320,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Test-Driven Development - you are doing it wrong!](http://letstalkaboutjava.blogspot.com/2019/01/test-driven-development-you-are-doing.html)
 - [HackYeah!](http://letstalkaboutjava.blogspot.com/2018/11/its-time-for-another-great-chance-to.html)
 - [ByteMyCode - let&#39;s meet in Wrocław](http://letstalkaboutjava.blogspot.com/2018/10/bytemycode-lets-meet-in-wrocaw.html)
-- [JDD is coming!](http://letstalkaboutjava.blogspot.com/2018/08/jdd-is-coming.html)
 <!-- LETSTALK-POST-LIST:END -->
 
 ### *Random thoughts posts*
@@ -355,7 +355,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
-- [What Happens to Finalization in JDK 18? - Inside Java Newscast #15](https://inside.java/2021/11/11/insidejava-newscast-015/)
+- [Java Experts Spill the Beans](https://inside.java/2021/11/12/java-experts-spill-the-beans/)
+- [What Happens to Finalization in JDK 18? - Inside Java Newscast](https://inside.java/2021/11/11/insidejava-newscast-015/)
+- [Moving Java Forward…Together](https://inside.java/2021/11/11/moving-java-foward-djug/)
 - [Improving Java Performance on OCI Ampere A1 Compute instances](https://inside.java/2021/11/03/improving-java-perf-on-oci-ampere/)
 - [New candidate JEP: 421: Deprecate Finalization for Removal](https://inside.java/2021/11/01/new-candidate-jep-421/)
 - [11 Tricks From dev.java - Inside Java Newscast #14](https://inside.java/2021/10/28/insidejava-newscast-014/)
@@ -363,8 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Why user-mode threads are &lpar;often&rpar; the right answer](https://inside.java/2021/10/26/why-user-mode-thread-video/)
 - [Text Blocks - JEP Café #5](https://inside.java/2021/10/21/jepcafe5/)
 - [Sip of Java - Record Serialization](https://inside.java/2021/10/21/sip24/)
-- [JDK 18 augmented `javac -Xlint:serial` checks](https://inside.java/2021/10/20/augmented-serial-checks/)
-- [JEP proposed to target JDK 18: 416: Reimplement Core Reflection with Method Handles](https://inside.java/2021/10/19/jep-416-proposed-to-target-jdk18/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
