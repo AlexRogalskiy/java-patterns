@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Looking for a library to parse object files](https://www.reddit.com/r/java/comments/qrsnul/looking_for_a_library_to_parse_object_files/)
+- [Get the logged-in user in Jakarta EE – the simplest way](https://www.reddit.com/r/java/comments/qtd9a7/get_the_loggedin_user_in_jakarta_ee_the_simplest/)
+- [Maven Hibernate Enhance Plugin](https://www.reddit.com/r/java/comments/qt8his/maven_hibernate_enhance_plugin/)
+- [What&#39;s the state of modern Java library/JDK compatibility, anno 2021?](https://www.reddit.com/r/java/comments/qt7qj9/whats_the_state_of_modern_java_libraryjdk/)
+- [Piranha 21.11 released!](https://www.reddit.com/r/java/comments/qt5e0s/piranha_2111_released/)
+- [List All the Classes Loaded in the JVM](https://www.reddit.com/r/java/comments/qt310m/list_all_the_classes_loaded_in_the_jvm/)
+- [How can Oracle know if someone use their JDK instead of OpenJDK](https://www.reddit.com/r/java/comments/qt2vmp/how_can_oracle_know_if_someone_use_their_jdk/)
+- [JVM optimisation](https://www.reddit.com/r/java/comments/qso955/jvm_optimisation/)
+- [[18-loom+4-273] Seems like there is a new API for structured concurrency.](https://www.reddit.com/r/java/comments/qscnwb/18loom4273_seems_like_there_is_a_new_api_for/)
 - [We talked Software Architecture with Bert Jan Schrijver - Observable Stream Podcast](https://www.reddit.com/r/java/comments/qrsc46/we_talked_software_architecture_with_bert_jan/)
 - [What Happens to Finalization in JDK 18? - Inside Java Newscast #15](https://www.reddit.com/r/java/comments/qrsaza/what_happens_to_finalization_in_jdk_18_inside/)
-- [Helidon + MicroSream = brave performant combination!](https://www.reddit.com/r/java/comments/qrop53/helidon_microsream_brave_performant_combination/)
-- [OpenLiberty beta &lpar;21.0.0.12&rpar; now supports MicroProfile 5.0 features &lpar;Jakarta EE 9.1&rpar;](https://www.reddit.com/r/java/comments/qrm4uw/openliberty_beta_210012_now_supports_microprofile/)
-- [Where to find a &quot;By the book&quot; example of java spring boot.](https://www.reddit.com/r/java/comments/qrjsbu/where_to_find_a_by_the_book_example_of_java/)
-- [Kafka Streams with Spring Cloud Stream - Piotr&#39;s TechBlog](https://www.reddit.com/r/java/comments/qri7jz/kafka_streams_with_spring_cloud_stream_piotrs/)
-- [A statement on why Java operating systems should be a normal thing in 2021/2022](https://www.reddit.com/r/java/comments/qrfa9q/a_statement_on_why_java_operating_systems_should/)
-- [Spring Boot Pet Clinic App: A Performance Study](https://www.reddit.com/r/java/comments/qrdpp8/spring_boot_pet_clinic_app_a_performance_study/)
-- [reflection Method from lambda method reference](https://www.reddit.com/r/java/comments/qqypmh/reflection_method_from_lambda_method_reference/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
