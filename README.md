@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [How to get DCEVM and HotswapAgent for Java JDK 17](https://www.reddit.com/r/java/comments/qtv37x/how_to_get_dcevm_and_hotswapagent_for_java_jdk_17/)
+- [Hashtag Jakarta EE #98](https://www.reddit.com/r/java/comments/qtsgpw/hashtag_jakarta_ee_98/)
+- [To Java 17 and Beyond! - Billy Korando](https://www.reddit.com/r/java/comments/qtflzu/to_java_17_and_beyond_billy_korando/)
 - [Get the logged-in user in Jakarta EE – the simplest way](https://www.reddit.com/r/java/comments/qtd9a7/get_the_loggedin_user_in_jakarta_ee_the_simplest/)
 - [Maven Hibernate Enhance Plugin](https://www.reddit.com/r/java/comments/qt8his/maven_hibernate_enhance_plugin/)
 - [What&#39;s the state of modern Java library/JDK compatibility, anno 2021?](https://www.reddit.com/r/java/comments/qt7qj9/whats_the_state_of_modern_java_libraryjdk/)
 - [Piranha 21.11 released!](https://www.reddit.com/r/java/comments/qt5e0s/piranha_2111_released/)
-- [List All the Classes Loaded in the JVM](https://www.reddit.com/r/java/comments/qt310m/list_all_the_classes_loaded_in_the_jvm/)
 - [How can Oracle know if someone use their JDK instead of OpenJDK](https://www.reddit.com/r/java/comments/qt2vmp/how_can_oracle_know_if_someone_use_their_jdk/)
 - [JVM optimisation](https://www.reddit.com/r/java/comments/qso955/jvm_optimisation/)
 - [[18-loom+4-273] Seems like there is a new API for structured concurrency.](https://www.reddit.com/r/java/comments/qscnwb/18loom4273_seems_like_there_is_a_new_api_for/)
-- [We talked Software Architecture with Bert Jan Schrijver - Observable Stream Podcast](https://www.reddit.com/r/java/comments/qrsc46/we_talked_software_architecture_with_bert_jan/)
-- [What Happens to Finalization in JDK 18? - Inside Java Newscast #15](https://www.reddit.com/r/java/comments/qrsaza/what_happens_to_finalization_in_jdk_18_inside/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
