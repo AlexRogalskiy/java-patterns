@@ -355,6 +355,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [To Java 17 and Beyond!](https://inside.java/2021/11/13/to-java-17-and-beyond/)
 - [Java Experts Spill the Beans](https://inside.java/2021/11/12/java-experts-spill-the-beans/)
 - [What Happens to Finalization in JDK 18? - Inside Java Newscast](https://inside.java/2021/11/11/insidejava-newscast-015/)
 - [Moving Java Forward…Together](https://inside.java/2021/11/11/moving-java-foward-djug/)
@@ -364,7 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JEP proposed to target JDK 18: 418: Internet-Address Resolution SPI](https://inside.java/2021/10/28/jep-418-proposed-to-target-jdk18/)
 - [Why user-mode threads are &lpar;often&rpar; the right answer](https://inside.java/2021/10/26/why-user-mode-thread-video/)
 - [Text Blocks - JEP Café #5](https://inside.java/2021/10/21/jepcafe5/)
-- [Sip of Java - Record Serialization](https://inside.java/2021/10/21/sip24/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
