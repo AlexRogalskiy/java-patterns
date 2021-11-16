@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [How to get DCEVM and HotswapAgent for Java JDK 17](https://www.reddit.com/r/java/comments/qtv37x/how_to_get_dcevm_and_hotswapagent_for_java_jdk_17/)
-- [Hashtag Jakarta EE #98](https://www.reddit.com/r/java/comments/qtsgpw/hashtag_jakarta_ee_98/)
-- [To Java 17 and Beyond! - Billy Korando](https://www.reddit.com/r/java/comments/qtflzu/to_java_17_and_beyond_billy_korando/)
-- [Get the logged-in user in Jakarta EE – the simplest way](https://www.reddit.com/r/java/comments/qtd9a7/get_the_loggedin_user_in_jakarta_ee_the_simplest/)
-- [Maven Hibernate Enhance Plugin](https://www.reddit.com/r/java/comments/qt8his/maven_hibernate_enhance_plugin/)
-- [What&#39;s the state of modern Java library/JDK compatibility, anno 2021?](https://www.reddit.com/r/java/comments/qt7qj9/whats_the_state_of_modern_java_libraryjdk/)
-- [Piranha 21.11 released!](https://www.reddit.com/r/java/comments/qt5e0s/piranha_2111_released/)
-- [How can Oracle know if someone use their JDK instead of OpenJDK](https://www.reddit.com/r/java/comments/qt2vmp/how_can_oracle_know_if_someone_use_their_jdk/)
-- [JVM optimisation](https://www.reddit.com/r/java/comments/qso955/jvm_optimisation/)
-- [[18-loom+4-273] Seems like there is a new API for structured concurrency.](https://www.reddit.com/r/java/comments/qscnwb/18loom4273_seems_like_there_is_a_new_api_for/)
+- [JEP proposed to target JDK 18: 420: Pattern Matching for switch &lpar;Second Preview&rpar;](https://www.reddit.com/r/java/comments/quv3ck/jep_proposed_to_target_jdk_18_420_pattern/)
+- [JEP proposed to target JDK 18: 419: Foreign Function &amp;amp; Memory API &lpar;Second Incubator&rpar;](https://www.reddit.com/r/java/comments/quv31b/jep_proposed_to_target_jdk_18_419_foreign/)
+- [Corel Office for Java &lpar;1997&rpar;: big name office suite in Java targeting Java, some features sounding eerily present day like &quot;office productivity environment for the emerging server-centric thin client architecture&quot; &lpar;= smart edge&rpar;](https://www.reddit.com/r/java/comments/quu0jg/corel_office_for_java_1997_big_name_office_suite/)
+- [Java LTS - perspective of a library author](https://www.reddit.com/r/java/comments/qurtd7/java_lts_perspective_of_a_library_author/)
+- [[Loom] JEP draft: Virtual Threads &lpar;Preview&rpar;](https://www.reddit.com/r/java/comments/quqbyq/loom_jep_draft_virtual_threads_preview/)
+- [[Loom] JEP draft: Structured Concurrency &lpar;Preview&rpar;](https://www.reddit.com/r/java/comments/quqb3y/loom_jep_draft_structured_concurrency_preview/)
+- [Ron Pressler technical lead of OpenJDK Project Loom talking about their new work about Structured Concurrency](https://www.reddit.com/r/java/comments/quoqta/ron_pressler_technical_lead_of_openjdk_project/)
+- [What is Java&#39;s excuse for not handling Unicode correctly?](https://www.reddit.com/r/java/comments/qufl1v/what_is_javas_excuse_for_not_handling_unicode/)
+- [Event-Driven Architectures with Kafka and Java Spring-Boot — Revision 1](https://www.reddit.com/r/java/comments/qu8srb/eventdriven_architectures_with_kafka_and_java/)
+- [The CUPS pattern](https://www.reddit.com/r/java/comments/qu5zgi/the_cups_pattern/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
