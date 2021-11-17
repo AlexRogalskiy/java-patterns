@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [We had to make a form about something we are passionate about and send it to that community for my English class, so I made a form about coding:](https://www.reddit.com/r/java/comments/qvmjqw/we_had_to_make_a_form_about_something_we_are/)
+- [Minecraft 1.18 Pre-Release 2: Minecraft 1.18 will require Java 17](https://www.reddit.com/r/java/comments/qvl9h9/minecraft_118_prerelease_2_minecraft_118_will/)
+- [Are there any entry level Java programmer jobs?](https://www.reddit.com/r/java/comments/qvitnb/are_there_any_entry_level_java_programmer_jobs/)
+- [X-Large Heap Regions in JDK 18](https://www.reddit.com/r/java/comments/qvh4dn/xlarge_heap_regions_in_jdk_18/)
+- [Code Kata - Expenses Report &lpar;by Gregor Riegler&rpar;](https://www.reddit.com/r/java/comments/qv8uz5/code_kata_expenses_report_by_gregor_riegler/)
+- [Write You A Chat For Great Good! &lpar;with Java 17, actors, and JBang!&rpar;](https://www.reddit.com/r/java/comments/qv55ps/write_you_a_chat_for_great_good_with_java_17/)
+- [A new build and a new structured concurrency API](https://www.reddit.com/r/java/comments/qv3803/a_new_build_and_a_new_structured_concurrency_api/)
 - [JEP proposed to target JDK 18: 420: Pattern Matching for switch &lpar;Second Preview&rpar;](https://www.reddit.com/r/java/comments/quv3ck/jep_proposed_to_target_jdk_18_420_pattern/)
 - [JEP proposed to target JDK 18: 419: Foreign Function &amp;amp; Memory API &lpar;Second Incubator&rpar;](https://www.reddit.com/r/java/comments/quv31b/jep_proposed_to_target_jdk_18_419_foreign/)
 - [Corel Office for Java &lpar;1997&rpar;: big name office suite in Java targeting Java, some features sounding eerily present day like &quot;office productivity environment for the emerging server-centric thin client architecture&quot; &lpar;= smart edge&rpar;](https://www.reddit.com/r/java/comments/quu0jg/corel_office_for_java_1997_big_name_office_suite/)
-- [Java LTS - perspective of a library author](https://www.reddit.com/r/java/comments/qurtd7/java_lts_perspective_of_a_library_author/)
-- [[Loom] JEP draft: Virtual Threads &lpar;Preview&rpar;](https://www.reddit.com/r/java/comments/quqbyq/loom_jep_draft_virtual_threads_preview/)
-- [[Loom] JEP draft: Structured Concurrency &lpar;Preview&rpar;](https://www.reddit.com/r/java/comments/quqb3y/loom_jep_draft_structured_concurrency_preview/)
-- [Ron Pressler technical lead of OpenJDK Project Loom talking about their new work about Structured Concurrency](https://www.reddit.com/r/java/comments/quoqta/ron_pressler_technical_lead_of_openjdk_project/)
-- [What is Java&#39;s excuse for not handling Unicode correctly?](https://www.reddit.com/r/java/comments/qufl1v/what_is_javas_excuse_for_not_handling_unicode/)
-- [Event-Driven Architectures with Kafka and Java Spring-Boot — Revision 1](https://www.reddit.com/r/java/comments/qu8srb/eventdriven_architectures_with_kafka_and_java/)
-- [The CUPS pattern](https://www.reddit.com/r/java/comments/qu5zgi/the_cups_pattern/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
