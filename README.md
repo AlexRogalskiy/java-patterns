@@ -355,16 +355,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [JEP proposed to target JDK 18: 419: Foreign Function &amp;amp; Memory API &lpar;Second Incubator&rpar;](https://inside.java/2021/11/16/jep-419-proposed-to-target-jdk18/)
+- [JEP proposed to target JDK 18: 420: Pattern Matching for switch &lpar;Second Preview&rpar;](https://inside.java/2021/11/16/jep-420-proposed-to-target-jdk18/)
+- [A new Loom EA build and a new structured concurrency API](https://inside.java/2021/11/15/a-new-build-and-a-new-structured-concurrency-api/)
+- [Heap Regions X-Large](https://inside.java/2021/11/15/heap-regions-xl/)
 - [To Java 17 and Beyond!](https://inside.java/2021/11/13/to-java-17-and-beyond/)
 - [Java Experts Spill the Beans](https://inside.java/2021/11/12/java-experts-spill-the-beans/)
 - [What Happens to Finalization in JDK 18? - Inside Java Newscast](https://inside.java/2021/11/11/insidejava-newscast-015/)
 - [Moving Java Forward…Together](https://inside.java/2021/11/11/moving-java-foward-djug/)
 - [Improving Java Performance on OCI Ampere A1 Compute instances](https://inside.java/2021/11/03/improving-java-perf-on-oci-ampere/)
 - [New candidate JEP: 421: Deprecate Finalization for Removal](https://inside.java/2021/11/01/new-candidate-jep-421/)
-- [11 Tricks From dev.java - Inside Java Newscast #14](https://inside.java/2021/10/28/insidejava-newscast-014/)
-- [JEP proposed to target JDK 18: 418: Internet-Address Resolution SPI](https://inside.java/2021/10/28/jep-418-proposed-to-target-jdk18/)
-- [Why user-mode threads are &lpar;often&rpar; the right answer](https://inside.java/2021/10/26/why-user-mode-thread-video/)
-- [Text Blocks - JEP Café #5](https://inside.java/2021/10/21/jepcafe5/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
