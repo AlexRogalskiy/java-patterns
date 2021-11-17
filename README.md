@@ -280,31 +280,31 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [How to get DCEVM and HotswapAgent for Java JDK 17](https://www.reddit.com/r/java/comments/qtv37x/how_to_get_dcevm_and_hotswapagent_for_java_jdk_17/)
-- [Hashtag Jakarta EE #98](https://www.reddit.com/r/java/comments/qtsgpw/hashtag_jakarta_ee_98/)
-- [To Java 17 and Beyond! - Billy Korando](https://www.reddit.com/r/java/comments/qtflzu/to_java_17_and_beyond_billy_korando/)
-- [Get the logged-in user in Jakarta EE – the simplest way](https://www.reddit.com/r/java/comments/qtd9a7/get_the_loggedin_user_in_jakarta_ee_the_simplest/)
-- [Maven Hibernate Enhance Plugin](https://www.reddit.com/r/java/comments/qt8his/maven_hibernate_enhance_plugin/)
-- [What&#39;s the state of modern Java library/JDK compatibility, anno 2021?](https://www.reddit.com/r/java/comments/qt7qj9/whats_the_state_of_modern_java_libraryjdk/)
-- [Piranha 21.11 released!](https://www.reddit.com/r/java/comments/qt5e0s/piranha_2111_released/)
-- [How can Oracle know if someone use their JDK instead of OpenJDK](https://www.reddit.com/r/java/comments/qt2vmp/how_can_oracle_know_if_someone_use_their_jdk/)
-- [JVM optimisation](https://www.reddit.com/r/java/comments/qso955/jvm_optimisation/)
-- [[18-loom+4-273] Seems like there is a new API for structured concurrency.](https://www.reddit.com/r/java/comments/qscnwb/18loom4273_seems_like_there_is_a_new_api_for/)
+- [We had to make a form about something we are passionate about and send it to that community for my English class, so I made a form about coding:](https://www.reddit.com/r/java/comments/qvmjqw/we_had_to_make_a_form_about_something_we_are/)
+- [Minecraft 1.18 Pre-Release 2: Minecraft 1.18 will require Java 17](https://www.reddit.com/r/java/comments/qvl9h9/minecraft_118_prerelease_2_minecraft_118_will/)
+- [Are there any entry level Java programmer jobs?](https://www.reddit.com/r/java/comments/qvitnb/are_there_any_entry_level_java_programmer_jobs/)
+- [X-Large Heap Regions in JDK 18](https://www.reddit.com/r/java/comments/qvh4dn/xlarge_heap_regions_in_jdk_18/)
+- [Code Kata - Expenses Report &lpar;by Gregor Riegler&rpar;](https://www.reddit.com/r/java/comments/qv8uz5/code_kata_expenses_report_by_gregor_riegler/)
+- [Write You A Chat For Great Good! &lpar;with Java 17, actors, and JBang!&rpar;](https://www.reddit.com/r/java/comments/qv55ps/write_you_a_chat_for_great_good_with_java_17/)
+- [A new build and a new structured concurrency API](https://www.reddit.com/r/java/comments/qv3803/a_new_build_and_a_new_structured_concurrency_api/)
+- [JEP proposed to target JDK 18: 420: Pattern Matching for switch &lpar;Second Preview&rpar;](https://www.reddit.com/r/java/comments/quv3ck/jep_proposed_to_target_jdk_18_420_pattern/)
+- [JEP proposed to target JDK 18: 419: Foreign Function &amp;amp; Memory API &lpar;Second Incubator&rpar;](https://www.reddit.com/r/java/comments/quv31b/jep_proposed_to_target_jdk_18_419_foreign/)
+- [Corel Office for Java &lpar;1997&rpar;: big name office suite in Java targeting Java, some features sounding eerily present day like &quot;office productivity environment for the emerging server-centric thin client architecture&quot; &lpar;= smart edge&rpar;](https://www.reddit.com/r/java/comments/quu0jg/corel_office_for_java_1997_big_name_office_suite/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [Kotlin roadmap points to compiler, mobile improvements](https://www.infoworld.com/article/3640580/kotlin-roadmap-points-to-compiler-mobile-improvements.html#tk.rss_java)
+- [JDK 18: What to expect in Java 18](https://www.infoworld.com/article/3630510/jdk-18-what-to-expect-in-java-18.html#tk.rss_java)
 - [OpenJDK proposals would bring universal generics to Java](https://www.infoworld.com/article/3639525/openjdk-proposals-would-bring-universal-generics-to-java.html#tk.rss_java)
 - [Microsoft joins Java Community Process](https://www.infoworld.com/article/3639518/microsoft-joins-java-community-process.html#tk.rss_java)
 - [How to use Docker for Java development](https://www.infoworld.com/article/3638548/how-to-use-docker-for-java-development.html#tk.rss_java)
-- [JDK 18: What to expect in Java 18](https://www.infoworld.com/article/3630510/jdk-18-what-to-expect-in-java-18.html#tk.rss_java)
 - [JetBrains unveils Qodana code quality platform for CI/CD](https://www.infoworld.com/article/3638052/jetbrains-unveils-qodana-code-quality-platform-for-cicd.html#tk.rss_java)
 - [Red Hat OpenStack tightens OpenShift Kubernetes integration](https://www.infoworld.com/article/3637080/red-hat-openstack-tightens-openshift-kubernetes-integration.html#tk.rss_java)
 - [Python tops Tiobe language index](https://www.infoworld.com/article/3636789/python-tops-tiobe-language-index.html#tk.rss_java)
 - [Quarkus: Get started with Kubernetes-native Java](https://www.infoworld.com/article/3636228/quarkus-get-started-with-kubernetes-native-java.html#tk.rss_java)
 - [Java port eyed for RISC-V hardware](https://www.infoworld.com/article/3635029/java-port-eyed-for-risc-v-hardware.html#tk.rss_java)
-- [6 great new Java features you don’t want to miss](https://www.infoworld.com/article/3633638/6-great-new-java-features-you-dont-want-to-miss.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
@@ -355,16 +355,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [JEP proposed to target JDK 18: 419: Foreign Function &amp;amp; Memory API &lpar;Second Incubator&rpar;](https://inside.java/2021/11/16/jep-419-proposed-to-target-jdk18/)
+- [JEP proposed to target JDK 18: 420: Pattern Matching for switch &lpar;Second Preview&rpar;](https://inside.java/2021/11/16/jep-420-proposed-to-target-jdk18/)
+- [A new Loom EA build and a new structured concurrency API](https://inside.java/2021/11/15/a-new-build-and-a-new-structured-concurrency-api/)
+- [Heap Regions X-Large](https://inside.java/2021/11/15/heap-regions-xl/)
 - [To Java 17 and Beyond!](https://inside.java/2021/11/13/to-java-17-and-beyond/)
 - [Java Experts Spill the Beans](https://inside.java/2021/11/12/java-experts-spill-the-beans/)
 - [What Happens to Finalization in JDK 18? - Inside Java Newscast](https://inside.java/2021/11/11/insidejava-newscast-015/)
 - [Moving Java Forward…Together](https://inside.java/2021/11/11/moving-java-foward-djug/)
 - [Improving Java Performance on OCI Ampere A1 Compute instances](https://inside.java/2021/11/03/improving-java-perf-on-oci-ampere/)
 - [New candidate JEP: 421: Deprecate Finalization for Removal](https://inside.java/2021/11/01/new-candidate-jep-421/)
-- [11 Tricks From dev.java - Inside Java Newscast #14](https://inside.java/2021/10/28/insidejava-newscast-014/)
-- [JEP proposed to target JDK 18: 418: Internet-Address Resolution SPI](https://inside.java/2021/10/28/jep-418-proposed-to-target-jdk18/)
-- [Why user-mode threads are &lpar;often&rpar; the right answer](https://inside.java/2021/10/26/why-user-mode-thread-video/)
-- [Text Blocks - JEP Café #5](https://inside.java/2021/10/21/jepcafe5/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
@@ -415,6 +415,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
+- [Mixing Inheritance Mapping Strategies with Hibernate](https://thorben-janssen.com/hibernate-mix-inheritance-mappings/)
 - [Implementing Bulk Updates with Spring Data JPA](https://thorben-janssen.com/implementing-bulk-updates-with-spring-data-jpa/)
 - [Announcing the Persistence Hub](https://thorben-janssen.com/announcing-the-persistence-hub/)
 - [Spring Data JPA – Publishing Domain Events When Changing an Entity](https://thorben-janssen.com/spring-data-jpa-domain-event/)
@@ -424,7 +425,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Modeling sequence-based composite primary keys with Hibernate](https://thorben-janssen.com/composite-primary-keys-sequence/)
 - [Spring Data JPA – Detecting Your Entity’s State](https://thorben-janssen.com/spring-data-jpa-state-detection/)
 - [How to use QueryDSL with Hibernate](https://thorben-janssen.com/querydsl-hibernate/)
-- [Spring Data JPA – Working with Views](https://thorben-janssen.com/spring-data-jpa-views/)
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*
