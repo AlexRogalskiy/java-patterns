@@ -295,6 +295,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [Kotlin roadmap points to compiler, mobile improvements](https://www.infoworld.com/article/3640580/kotlin-roadmap-points-to-compiler-mobile-improvements.html#tk.rss_java)
 - [JDK 18: What to expect in Java 18](https://www.infoworld.com/article/3630510/jdk-18-what-to-expect-in-java-18.html#tk.rss_java)
 - [OpenJDK proposals would bring universal generics to Java](https://www.infoworld.com/article/3639525/openjdk-proposals-would-bring-universal-generics-to-java.html#tk.rss_java)
 - [Microsoft joins Java Community Process](https://www.infoworld.com/article/3639518/microsoft-joins-java-community-process.html#tk.rss_java)
@@ -304,7 +305,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Python tops Tiobe language index](https://www.infoworld.com/article/3636789/python-tops-tiobe-language-index.html#tk.rss_java)
 - [Quarkus: Get started with Kubernetes-native Java](https://www.infoworld.com/article/3636228/quarkus-get-started-with-kubernetes-native-java.html#tk.rss_java)
 - [Java port eyed for RISC-V hardware](https://www.infoworld.com/article/3635029/java-port-eyed-for-risc-v-hardware.html#tk.rss_java)
-- [6 great new Java features you don’t want to miss](https://www.infoworld.com/article/3633638/6-great-new-java-features-you-dont-want-to-miss.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
