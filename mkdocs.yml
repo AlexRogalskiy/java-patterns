@@ -27,6 +27,7 @@ theme:
   name: material
   language: en
   highlightjs: true
+#   custom_dir: docs/overrides
   font:
     text: Roboto
     code: Roboto Mono
@@ -86,8 +87,8 @@ plugins:
       type: date
   - awesome-pages # https://squidfunk.github.io/mkdocs-material/plugins/awesome-pages/
   - include-markdown # https://github.com/mondeja/mkdocs-include-markdown-plugin
-#  - minify:
-#      minify_html: true
+  - minify:
+      minify_html: true
 
 # Extra
 extra:
@@ -103,11 +104,12 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 3
-  - def_list: {}
-  - footnotes: {}
+  - markdown.extensions.admonition # https://squidfunk.github.io/mkdocs-material/extensions/admonition/
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
   - tables: {}
   - meta: {}
-  - admonition: {} # https://squidfunk.github.io/mkdocs-material/extensions/admonition/
   - codehilite: # https://squidfunk.github.io/mkdocs-material/extensions/codehilite/
       linenums: true
       use_pygments: false
@@ -116,12 +118,18 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.extra: {}
+  - pymdownx.snippets:
+      check_paths: true
   - pymdownx.tilde: {}
   - pymdownx.magiclink: {}
   - pymdownx.caret: {}
+  - pymdownx.keys: {}
   - pymdownx.smartsymbols: {}
   - pymdownx.progressbar: {}
-  - pymdownx.arithmatex: {}
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
   - pymdownx.mark: {}
   - pymdownx.critic: {}
   - pymdownx.inlinehilite: {} # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#inlinehilite
@@ -138,7 +146,6 @@ markdown_extensions:
   - smarty: {} # https://python-markdown.github.io/extensions/smarty/
   - nl2br: {} # https://python-markdown.github.io/extensions/smarty/
   - mdx_truly_sane_lists: {} # https://github.com/radude/mdx_truly_sane_lists -> proper indentation of md list items
-  - attr_list: {}
 
 # Other Settings
 strict: false # halt processing when a warning is raised
