@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [We had to make a form about something we are passionate about and send it to that community for my English class, so I made a form about coding:](https://www.reddit.com/r/java/comments/qvmjqw/we_had_to_make_a_form_about_something_we_are/)
+- [How can I generate UML diagrams of my program?](https://www.reddit.com/r/java/comments/qwcllo/how_can_i_generate_uml_diagrams_of_my_program/)
+- [Anything on mobile?](https://www.reddit.com/r/java/comments/qw6cb2/anything_on_mobile/)
+- [Rate Limiting API with Spring-Security and Bucket4J](https://www.reddit.com/r/java/comments/qvzve7/rate_limiting_api_with_springsecurity_and_bucket4j/)
+- [GitHub Projects to Contribute](https://www.reddit.com/r/java/comments/qvyq6h/github_projects_to_contribute/)
+- [When Project Loom is launched, will web servers use one virtual thread per request instead of os thread?](https://www.reddit.com/r/java/comments/qvtr5g/when_project_loom_is_launched_will_web_servers/)
 - [Minecraft 1.18 Pre-Release 2: Minecraft 1.18 will require Java 17](https://www.reddit.com/r/java/comments/qvl9h9/minecraft_118_prerelease_2_minecraft_118_will/)
-- [Are there any entry level Java programmer jobs?](https://www.reddit.com/r/java/comments/qvitnb/are_there_any_entry_level_java_programmer_jobs/)
+- [Differences between jdk versions and source code.](https://www.reddit.com/r/java/comments/qvihqo/differences_between_jdk_versions_and_source_code/)
 - [X-Large Heap Regions in JDK 18](https://www.reddit.com/r/java/comments/qvh4dn/xlarge_heap_regions_in_jdk_18/)
 - [Code Kata - Expenses Report &lpar;by Gregor Riegler&rpar;](https://www.reddit.com/r/java/comments/qv8uz5/code_kata_expenses_report_by_gregor_riegler/)
 - [Write You A Chat For Great Good! &lpar;with Java 17, actors, and JBang!&rpar;](https://www.reddit.com/r/java/comments/qv55ps/write_you_a_chat_for_great_good_with_java_17/)
-- [A new build and a new structured concurrency API](https://www.reddit.com/r/java/comments/qv3803/a_new_build_and_a_new_structured_concurrency_api/)
-- [JEP proposed to target JDK 18: 420: Pattern Matching for switch &lpar;Second Preview&rpar;](https://www.reddit.com/r/java/comments/quv3ck/jep_proposed_to_target_jdk_18_420_pattern/)
-- [JEP proposed to target JDK 18: 419: Foreign Function &amp;amp; Memory API &lpar;Second Incubator&rpar;](https://www.reddit.com/r/java/comments/quv31b/jep_proposed_to_target_jdk_18_419_foreign/)
-- [Corel Office for Java &lpar;1997&rpar;: big name office suite in Java targeting Java, some features sounding eerily present day like &quot;office productivity environment for the emerging server-centric thin client architecture&quot; &lpar;= smart edge&rpar;](https://www.reddit.com/r/java/comments/quu0jg/corel_office_for_java_1997_big_name_office_suite/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
