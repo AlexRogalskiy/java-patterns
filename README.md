@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [How can I generate UML diagrams of my program?](https://www.reddit.com/r/java/comments/qwcllo/how_can_i_generate_uml_diagrams_of_my_program/)
-- [Anything on mobile?](https://www.reddit.com/r/java/comments/qw6cb2/anything_on_mobile/)
+- [Anything like requires.io for Java?](https://www.reddit.com/r/java/comments/qx3e6u/anything_like_requiresio_for_java/)
+- [GlassFish 6.2.3 released!](https://www.reddit.com/r/java/comments/qwzsal/glassfish_623_released/)
+- [Made this looping Morph with java, look kinda cool. Do you have any other ideas for projects like this?](https://www.reddit.com/r/java/comments/qwuend/made_this_looping_morph_with_java_look_kinda_cool/)
+- [Factory Methods for Collections - JEP Café #6](https://www.reddit.com/r/java/comments/qwudzv/factory_methods_for_collections_jep_café_6/)
+- [Is Java SE open source software? The short answer is ‘yes.’](https://www.reddit.com/r/java/comments/qwtxye/is_java_se_open_source_software_the_short_answer/)
+- [GitHub - HanSolo/JDKMon: A little tool written in JavaFX that monitors your installed JDK&#39;s and inform you about updates](https://www.reddit.com/r/java/comments/qwrnf7/github_hansolojdkmon_a_little_tool_written_in/)
+- [Failsafe 3.0 is released](https://www.reddit.com/r/java/comments/qwiamw/failsafe_30_is_released/)
 - [Rate Limiting API with Spring-Security and Bucket4J](https://www.reddit.com/r/java/comments/qvzve7/rate_limiting_api_with_springsecurity_and_bucket4j/)
-- [GitHub Projects to Contribute](https://www.reddit.com/r/java/comments/qvyq6h/github_projects_to_contribute/)
 - [When Project Loom is launched, will web servers use one virtual thread per request instead of os thread?](https://www.reddit.com/r/java/comments/qvtr5g/when_project_loom_is_launched_will_web_servers/)
 - [Minecraft 1.18 Pre-Release 2: Minecraft 1.18 will require Java 17](https://www.reddit.com/r/java/comments/qvl9h9/minecraft_118_prerelease_2_minecraft_118_will/)
-- [Differences between jdk versions and source code.](https://www.reddit.com/r/java/comments/qvihqo/differences_between_jdk_versions_and_source_code/)
-- [X-Large Heap Regions in JDK 18](https://www.reddit.com/r/java/comments/qvh4dn/xlarge_heap_regions_in_jdk_18/)
-- [Code Kata - Expenses Report &lpar;by Gregor Riegler&rpar;](https://www.reddit.com/r/java/comments/qv8uz5/code_kata_expenses_report_by_gregor_riegler/)
-- [Write You A Chat For Great Good! &lpar;with Java 17, actors, and JBang!&rpar;](https://www.reddit.com/r/java/comments/qv55ps/write_you_a_chat_for_great_good_with_java_17/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
