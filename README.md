@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [What is considered &quot;basic knowledge&quot;](https://www.reddit.com/r/java/comments/qxu59w/what_is_considered_basic_knowledge/)
+- [Will Panama allow the allocation of executable memory?](https://www.reddit.com/r/java/comments/qxtshk/will_panama_allow_the_allocation_of_executable/)
+- [New candidate JEP: 422: Linux/RISC-V Port](https://www.reddit.com/r/java/comments/qxoryc/new_candidate_jep_422_linuxriscv_port/)
+- [OptionalDesugarer: Type safety with no overhead](https://www.reddit.com/r/java/comments/qxnv9g/optionaldesugarer_type_safety_with_no_overhead/)
+- [Detect Proactively Whether Application’s Memory is Under-allocated](https://www.reddit.com/r/java/comments/qxa249/detect_proactively_whether_applications_memory_is/)
+- [I&#39;m building a new personal finance manager. Thanks, Java, thanks for being excellent at date formats](https://www.reddit.com/r/java/comments/qx96mz/im_building_a_new_personal_finance_manager_thanks/)
 - [Anything like requires.io for Java?](https://www.reddit.com/r/java/comments/qx3e6u/anything_like_requiresio_for_java/)
 - [GlassFish 6.2.3 released!](https://www.reddit.com/r/java/comments/qwzsal/glassfish_623_released/)
 - [Made this looping Morph with java, look kinda cool. Do you have any other ideas for projects like this?](https://www.reddit.com/r/java/comments/qwuend/made_this_looping_morph_with_java_look_kinda_cool/)
 - [Factory Methods for Collections - JEP Café #6](https://www.reddit.com/r/java/comments/qwudzv/factory_methods_for_collections_jep_café_6/)
-- [Is Java SE open source software? The short answer is ‘yes.’](https://www.reddit.com/r/java/comments/qwtxye/is_java_se_open_source_software_the_short_answer/)
-- [GitHub - HanSolo/JDKMon: A little tool written in JavaFX that monitors your installed JDK&#39;s and inform you about updates](https://www.reddit.com/r/java/comments/qwrnf7/github_hansolojdkmon_a_little_tool_written_in/)
-- [Failsafe 3.0 is released](https://www.reddit.com/r/java/comments/qwiamw/failsafe_30_is_released/)
-- [Rate Limiting API with Spring-Security and Bucket4J](https://www.reddit.com/r/java/comments/qvzve7/rate_limiting_api_with_springsecurity_and_bucket4j/)
-- [When Project Loom is launched, will web servers use one virtual thread per request instead of os thread?](https://www.reddit.com/r/java/comments/qvtr5g/when_project_loom_is_launched_will_web_servers/)
-- [Minecraft 1.18 Pre-Release 2: Minecraft 1.18 will require Java 17](https://www.reddit.com/r/java/comments/qvl9h9/minecraft_118_prerelease_2_minecraft_118_will/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
