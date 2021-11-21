@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Would anyone be interested in joining a small community of makers?](https://www.reddit.com/r/java/comments/qyhv1c/would_anyone_be_interested_in_joining_a_small/)
+- [How&#39;s the situation in the Java job market?](https://www.reddit.com/r/java/comments/qyby48/hows_the_situation_in_the_java_job_market/)
+- [The Future of Java: Records, Sealed Classes and Pattern Matching with José Paumard](https://www.reddit.com/r/java/comments/qy7qxv/the_future_of_java_records_sealed_classes_and/)
+- [Web apis without async-await or futures block threads?](https://www.reddit.com/r/java/comments/qy2ov5/web_apis_without_asyncawait_or_futures_block/)
 - [What is considered &quot;basic knowledge&quot;](https://www.reddit.com/r/java/comments/qxu59w/what_is_considered_basic_knowledge/)
 - [Will Panama allow the allocation of executable memory?](https://www.reddit.com/r/java/comments/qxtshk/will_panama_allow_the_allocation_of_executable/)
 - [New candidate JEP: 422: Linux/RISC-V Port](https://www.reddit.com/r/java/comments/qxoryc/new_candidate_jep_422_linuxriscv_port/)
 - [OptionalDesugarer: Type safety with no overhead](https://www.reddit.com/r/java/comments/qxnv9g/optionaldesugarer_type_safety_with_no_overhead/)
 - [Detect Proactively Whether Application’s Memory is Under-allocated](https://www.reddit.com/r/java/comments/qxa249/detect_proactively_whether_applications_memory_is/)
 - [I&#39;m building a new personal finance manager. Thanks, Java, thanks for being excellent at date formats](https://www.reddit.com/r/java/comments/qx96mz/im_building_a_new_personal_finance_manager_thanks/)
-- [Anything like requires.io for Java?](https://www.reddit.com/r/java/comments/qx3e6u/anything_like_requiresio_for_java/)
-- [GlassFish 6.2.3 released!](https://www.reddit.com/r/java/comments/qwzsal/glassfish_623_released/)
-- [Made this looping Morph with java, look kinda cool. Do you have any other ideas for projects like this?](https://www.reddit.com/r/java/comments/qwuend/made_this_looping_morph_with_java_look_kinda_cool/)
-- [Factory Methods for Collections - JEP Café #6](https://www.reddit.com/r/java/comments/qwudzv/factory_methods_for_collections_jep_café_6/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
