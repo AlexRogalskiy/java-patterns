@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Need help with this HW Problem](https://www.reddit.com/r/java/comments/qz8xnr/need_help_with_this_hw_problem/)
+- [Good resource to quickly go through Java fundamentals as a refresher? Have not used the language in 2+ years.](https://www.reddit.com/r/java/comments/r01avz/good_resource_to_quickly_go_through_java/)
+- [Hibernate goes Reactive - What Does That Mean?](https://www.reddit.com/r/java/comments/qzswp3/hibernate_goes_reactive_what_does_that_mean/)
+- [Libraries to a simple java application&#39;s GUI](https://www.reddit.com/r/java/comments/qzsrgu/libraries_to_a_simple_java_applications_gui/)
+- [Which Java frameworks should I learn to get a high paying job?](https://www.reddit.com/r/java/comments/qzl3qc/which_java_frameworks_should_i_learn_to_get_a/)
+- [Why use gradle subprojects to structure an app?](https://www.reddit.com/r/java/comments/qzfj1r/why_use_gradle_subprojects_to_structure_an_app/)
 - [Forking google](https://www.reddit.com/r/java/comments/qypqbd/forking_google/)
 - [How complex of a state machine could be made using the JLS, the grammar, the type system incl. sealed classes and operated by pattern matching?](https://www.reddit.com/r/java/comments/qynza9/how_complex_of_a_state_machine_could_be_made/)
 - [How&#39;s the situation in the Java job market?](https://www.reddit.com/r/java/comments/qyby48/hows_the_situation_in_the_java_job_market/)
 - [The Future of Java: Records, Sealed Classes and Pattern Matching with José Paumard](https://www.reddit.com/r/java/comments/qy7qxv/the_future_of_java_records_sealed_classes_and/)
 - [Web apis without async-await or futures block threads?](https://www.reddit.com/r/java/comments/qy2ov5/web_apis_without_asyncawait_or_futures_block/)
-- [What is considered &quot;basic knowledge&quot;](https://www.reddit.com/r/java/comments/qxu59w/what_is_considered_basic_knowledge/)
-- [Will Panama allow the allocation of executable memory?](https://www.reddit.com/r/java/comments/qxtshk/will_panama_allow_the_allocation_of_executable/)
-- [New candidate JEP: 422: Linux/RISC-V Port](https://www.reddit.com/r/java/comments/qxoryc/new_candidate_jep_422_linuxriscv_port/)
-- [OptionalDesugarer: Type safety with no overhead](https://www.reddit.com/r/java/comments/qxnv9g/optionaldesugarer_type_safety_with_no_overhead/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
