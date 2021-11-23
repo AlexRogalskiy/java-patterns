@@ -370,6 +370,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Java programmer posts*
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [Types of Constants in Java](https://www.thejavaprogrammer.com/types-of-constants-in-java/)
+- [Java Collection Hierarchy](https://www.thejavaprogrammer.com/java-collection-hierarchy/)
 - [Features of Java Programming Language](https://www.thejavaprogrammer.com/features-of-java-programming-language/)
 - [8 Best Youtube Channels to Learn Java for Beginners 2021](https://www.thejavaprogrammer.com/best-youtube-channels-to-learn-java/)
 - [12 Best Java Blogs for Beginners 2021](https://www.thejavaprogrammer.com/best-java-blogs/)
@@ -378,8 +380,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Solved Error: cannot be cast to java.lang.Comparable](https://www.thejavaprogrammer.com/cannot-be-cast-to-java-lang-comparable/)
 - [Java String Interpolation with Examples](https://www.thejavaprogrammer.com/java-string-interpolation/)
 - [Evaluate Postfix Expression in Java](https://www.thejavaprogrammer.com/evaluate-postfix-expression-in-java/)
-- [Java Reflection Invoke Static Method](https://www.thejavaprogrammer.com/java-reflection-invoke-static-method/)
-- [Volatile vs Synchronized in Java](https://www.thejavaprogrammer.com/volatile-vs-synchronized/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### *Dreamix posts*
