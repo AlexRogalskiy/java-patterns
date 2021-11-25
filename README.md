@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Book recommendation for Java Functional Programming?](https://www.reddit.com/r/java/comments/r0dbku/book_recommendation_for_java_functional/)
-- [A tale of Java Hash Tables](https://www.reddit.com/r/java/comments/r0b9o9/a_tale_of_java_hash_tables/)
-- [Hibernate goes Reactive - What Does That Mean?](https://www.reddit.com/r/java/comments/qzswp3/hibernate_goes_reactive_what_does_that_mean/)
-- [Why use gradle subprojects to structure an app?](https://www.reddit.com/r/java/comments/qzfj1r/why_use_gradle_subprojects_to_structure_an_app/)
-- [Forking google](https://www.reddit.com/r/java/comments/qypqbd/forking_google/)
-- [How complex of a state machine could be made using the JLS, the grammar, the type system incl. sealed classes and operated by pattern matching?](https://www.reddit.com/r/java/comments/qynza9/how_complex_of_a_state_machine_could_be_made/)
-- [How&#39;s the situation in the Java job market?](https://www.reddit.com/r/java/comments/qyby48/hows_the_situation_in_the_java_job_market/)
-- [The Future of Java: Records, Sealed Classes and Pattern Matching with José Paumard](https://www.reddit.com/r/java/comments/qy7qxv/the_future_of_java_records_sealed_classes_and/)
-- [Web apis without async-await or futures block threads?](https://www.reddit.com/r/java/comments/qy2ov5/web_apis_without_asyncawait_or_futures_block/)
-- [What is considered &quot;basic knowledge&quot;](https://www.reddit.com/r/java/comments/qxu59w/what_is_considered_basic_knowledge/)
+- [[ANN] Apache Maven 3.8.4 released](https://www.reddit.com/r/java/comments/r1gqxf/ann_apache_maven_384_released/)
+- [Don’t miss these 4 talks about Jakarta EE at this year&#39;s JakartaOne Livestream](https://www.reddit.com/r/java/comments/r1fz99/dont_miss_these_4_talks_about_jakarta_ee_at_this/)
+- [Java 17 Features and Migration Considerations - DZone Java](https://www.reddit.com/r/java/comments/r1dmn2/java_17_features_and_migration_considerations/)
+- [Refining The Return Type Of Java Methods Without Breaking Backwards-Compatibility](https://www.reddit.com/r/java/comments/r15jjj/refining_the_return_type_of_java_methods_without/)
+- [Do developers use SWT/FX GUI Editors to develop UI&#39;s or is the UI code written by hand?](https://www.reddit.com/r/java/comments/r137ly/do_developers_use_swtfx_gui_editors_to_develop/)
+- [Kafka Streams with Quarkus - Piotr&#39;s TechBlog](https://www.reddit.com/r/java/comments/r10rn1/kafka_streams_with_quarkus_piotrs_techblog/)
+- [GC progress from JDK 8 to JDK 17](https://www.reddit.com/r/java/comments/r10hev/gc_progress_from_jdk_8_to_jdk_17/)
+- [Spring Cloud Feign traffic cut-off with Resilience4J TimeLimiter](https://www.reddit.com/r/java/comments/r106kq/spring_cloud_feign_traffic_cutoff_with/)
+- [RevoGain Software Architecture - A boring Java stack that works like a charm](https://www.reddit.com/r/java/comments/r0zq2f/revogain_software_architecture_a_boring_java/)
+- [Helidon, Testcontainers, Cucumber, Kafka messaging and a lot more!](https://www.reddit.com/r/java/comments/r0xmzw/helidon_testcontainers_cucumber_kafka_messaging/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
