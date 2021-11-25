@@ -295,10 +295,10 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [JDK 18: What to expect in Java 18](https://www.infoworld.com/article/3630510/jdk-18-what-to-expect-in-java-18.html#tk.rss_java)
 - [Kotlin 1.6.0 debuts memory manager](https://www.infoworld.com/article/3641254/kotlin-160-debuts-memory-manager.html#tk.rss_java)
 - [Java could get virtual threads](https://www.infoworld.com/article/3641288/java-could-get-virtual-threads.html#tk.rss_java)
 - [Kotlin roadmap points to compiler, mobile improvements](https://www.infoworld.com/article/3640580/kotlin-roadmap-points-to-compiler-mobile-improvements.html#tk.rss_java)
-- [JDK 18: What to expect in Java 18](https://www.infoworld.com/article/3630510/jdk-18-what-to-expect-in-java-18.html#tk.rss_java)
 - [OpenJDK proposals would bring universal generics to Java](https://www.infoworld.com/article/3639525/openjdk-proposals-would-bring-universal-generics-to-java.html#tk.rss_java)
 - [Microsoft joins Java Community Process](https://www.infoworld.com/article/3639518/microsoft-joins-java-community-process.html#tk.rss_java)
 - [How to use Docker for Java development](https://www.infoworld.com/article/3638548/how-to-use-docker-for-java-development.html#tk.rss_java)
