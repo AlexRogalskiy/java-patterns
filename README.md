@@ -355,6 +355,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [GC progress from JDK 8 to JDK 17](https://inside.java/2021/11/24/gc-progress-from-jdk-8-to17/)
 - [Records, Sealed Classes and Pattern Matching](https://inside.java/2021/11/19/video-amber-manchester/)
 - [Factory Methods for Collections - JEP Café #6](https://inside.java/2021/11/18/jepcafe6/)
 - [JEP proposed to target JDK 18: 419: Foreign Function &amp;amp; Memory API &lpar;Second Incubator&rpar;](https://inside.java/2021/11/16/jep-419-proposed-to-target-jdk18/)
@@ -364,7 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [To Java 17 and Beyond!](https://inside.java/2021/11/13/to-java-17-and-beyond/)
 - [Java Experts Spill the Beans](https://inside.java/2021/11/12/java-experts-spill-the-beans/)
 - [What Happens to Finalization in JDK 18? - Inside Java Newscast](https://inside.java/2021/11/11/insidejava-newscast-015/)
-- [Moving Java Forward…Together](https://inside.java/2021/11/11/moving-java-foward-djug/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
