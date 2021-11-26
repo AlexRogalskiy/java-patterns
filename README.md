@@ -325,6 +325,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [Replacing many if statements](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/replacing-many-if-statements.html)
 - [Running Mariadb on the Raspberry Pi](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/running-mariadb-on-raspberry-pi.html)
 - [LetsEncrypt with Webroot](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/letsencrypt-with-webroot.html)
 - [JFall 2021](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/jfall-2021.html)
@@ -334,7 +335,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Running Payara Micro on Java 11 via GraalVM on Docker on Jelastic](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/running-payara-micro-on-java-11-via.html)
 - [JDK17: The next Long Term Support Java](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/jdk17-next-long-term-support-java.html)
 - [Finding out where your class comes from](http://randomthoughtsonjavaprogramming.blogspot.com/2021/09/finding-out-where-your-class-comes-from.html)
-- [Angular in Strict Mode](http://randomthoughtsonjavaprogramming.blogspot.com/2021/08/angular-in-strict-mode.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
