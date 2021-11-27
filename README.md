@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [How to fix PKIX struggles using cacerts](https://www.reddit.com/r/java/comments/r25bui/how_to_fix_pkix_struggles_using_cacerts/)
+- [jMolecules 2021.2.0 released](https://www.reddit.com/r/java/comments/r2zo2s/jmolecules_202120_released/)
+- [Has any one attempted to write logs directly to Kafka?](https://www.reddit.com/r/java/comments/r2z17a/has_any_one_attempted_to_write_logs_directly_to/)
+- [Junit5 what is the diffrence between surfire 3.0.0-M5 and 2.22.2](https://www.reddit.com/r/java/comments/r2vwxq/junit5_what_is_the_diffrence_between_surfire/)
+- [LWJGL - The Lightweight Java Game Library Version 3.3 Released](https://www.reddit.com/r/java/comments/r2vlhs/lwjgl_the_lightweight_java_game_library_version/)
+- [Java Experts Spill the Beans](https://www.reddit.com/r/java/comments/r2m3jx/java_experts_spill_the_beans/)
+- [What are some good sites / blogs that contain in-depth spring guides / tutorials?](https://www.reddit.com/r/java/comments/r2jies/what_are_some_good_sites_blogs_that_contain/)
+- [Understanding Apache Kafka with Factorio](https://www.reddit.com/r/java/comments/r2jcxk/understanding_apache_kafka_with_factorio/)
 - [Helidon and JBatch](https://www.reddit.com/r/java/comments/r2009n/helidon_and_jbatch/)
 - [Check if your Intellij Idea is using the new G1 GC](https://www.reddit.com/r/java/comments/r1sz74/check_if_your_intellij_idea_is_using_the_new_g1_gc/)
 - [qbicc - Exploring the possibilities of Java native images.](https://www.reddit.com/r/java/comments/r1ql3w/qbicc_exploring_the_possibilities_of_java_native/)
-- [[ANN] Apache Maven 3.8.4 released](https://www.reddit.com/r/java/comments/r1gqxf/ann_apache_maven_384_released/)
-- [Don’t miss these 4 talks about Jakarta EE at this year&#39;s JakartaOne Livestream](https://www.reddit.com/r/java/comments/r1fz99/dont_miss_these_4_talks_about_jakarta_ee_at_this/)
-- [Java 17 Features and Migration Considerations - DZone Java](https://www.reddit.com/r/java/comments/r1dmn2/java_17_features_and_migration_considerations/)
-- [Refining The Return Type Of Java Methods Without Breaking Backwards-Compatibility](https://www.reddit.com/r/java/comments/r15jjj/refining_the_return_type_of_java_methods_without/)
-- [Do developers use SWT/FX GUI Editors to develop UI&#39;s or is the UI code written by hand?](https://www.reddit.com/r/java/comments/r137ly/do_developers_use_swtfx_gui_editors_to_develop/)
-- [Kafka Streams with Quarkus - Piotr&#39;s TechBlog](https://www.reddit.com/r/java/comments/r10rn1/kafka_streams_with_quarkus_piotrs_techblog/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
