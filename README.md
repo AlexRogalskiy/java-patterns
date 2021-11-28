@@ -280,6 +280,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [9 High-Performance Tips when using MySQL and Java](https://www.reddit.com/r/java/comments/r3ake7/9_highperformance_tips_when_using_mysql_and_java/)
+- [How does the community like the fact that Spring 5 goes &quot;reactive&quot; for restful?](https://www.reddit.com/r/java/comments/r32ud6/how_does_the_community_like_the_fact_that_spring/)
 - [jMolecules 2021.2.0 released](https://www.reddit.com/r/java/comments/r2zo2s/jmolecules_202120_released/)
 - [Has any one attempted to write logs directly to Kafka?](https://www.reddit.com/r/java/comments/r2z17a/has_any_one_attempted_to_write_logs_directly_to/)
 - [Junit5 what is the diffrence between surfire 3.0.0-M5 and 2.22.2](https://www.reddit.com/r/java/comments/r2vwxq/junit5_what_is_the_diffrence_between_surfire/)
@@ -288,8 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [What are some good sites / blogs that contain in-depth spring guides / tutorials?](https://www.reddit.com/r/java/comments/r2jies/what_are_some_good_sites_blogs_that_contain/)
 - [Understanding Apache Kafka with Factorio](https://www.reddit.com/r/java/comments/r2jcxk/understanding_apache_kafka_with_factorio/)
 - [Helidon and JBatch](https://www.reddit.com/r/java/comments/r2009n/helidon_and_jbatch/)
-- [Check if your Intellij Idea is using the new G1 GC](https://www.reddit.com/r/java/comments/r1sz74/check_if_your_intellij_idea_is_using_the_new_g1_gc/)
-- [qbicc - Exploring the possibilities of Java native images.](https://www.reddit.com/r/java/comments/r1ql3w/qbicc_exploring_the_possibilities_of_java_native/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
