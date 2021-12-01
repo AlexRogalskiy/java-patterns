@@ -385,6 +385,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Dreamix posts*
 
 <!-- DREAMIX-POST-LIST:START -->
+- [Learn from Java Champion Markus Eisele: Developer productivity with containers and the future of cloud-native](https://dreamix.eu/blog/java/learn-from-java-champion-markus-eisele-developer-productivity-with-containers-and-the-future-of-cloud-native)
 - [Learn from Java Champion Johan Vos: JavaFx in the Age of Browsers](https://dreamix.eu/blog/java/learn-from-java-champion-johan-vos-javafx-in-the-age-of-browsers)
 - [Five Reasons to Choose Java for your Next Software Project](https://dreamix.eu/blog/java/five-reasons-to-choose-java-for-your-next-software-project)
 - [Learn from Java Champion Gunnar Morling: Performance unit testing with Java Flight Recorder &lpar;JFR&rpar; and JfrUnit](https://dreamix.eu/blog/java/learn-from-java-champion-gunnar-morling-performance-unit-testing-with-java-flight-recorder-jfr-and-jfrunit)
@@ -394,7 +395,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Java vs JavaScript: How to Choose the Right Backend Technology?](https://dreamix.eu/blog/java/java-vs-javascript-how-to-choose-the-right-backend-technology)
 - [Splitting String in Java –  Examples and Tips](https://dreamix.eu/blog/java/splitting-string-in-java-examples-and-tips)
 - [Learn from Java Champion Gerrit Grunwald: JavaFx – not dead yet](https://dreamix.eu/blog/java/learn-from-java-champion-gerrit-grunwald-javafx-not-dead-yet)
-- [How to Send Multiple Data Types to REST API](https://dreamix.eu/blog/java/how-to-send-multiple-data-types-to-rest-api)
 <!-- DREAMIX-POST-LIST:END -->
 
 ### *Plumbr posts*
