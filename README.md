@@ -355,6 +355,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [On Parallelism and Concurrency](https://inside.java/2021/11/30/on-parallelism-and-concurrency/)
+- [Quality Outreach Heads-up - JDK 18: JEP 416](https://inside.java/2021/11/29/quality-heads-up/)
+- [Java Value Layout Constants](https://inside.java/2021/11/25/java-value-layout-constants/)
 - [GC progress from JDK 8 to JDK 17](https://inside.java/2021/11/24/gc-progress-from-jdk-8-to17/)
 - [Records, Sealed Classes and Pattern Matching](https://inside.java/2021/11/19/video-amber-manchester/)
 - [Factory Methods for Collections - JEP Café #6](https://inside.java/2021/11/18/jepcafe6/)
@@ -362,9 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JEP proposed to target JDK 18: 420: Pattern Matching for switch &lpar;Second Preview&rpar;](https://inside.java/2021/11/16/jep-420-proposed-to-target-jdk18/)
 - [A new Loom EA build and a new structured concurrency API](https://inside.java/2021/11/15/a-new-build-and-a-new-structured-concurrency-api/)
 - [Heap Regions X-Large](https://inside.java/2021/11/15/heap-regions-xl/)
-- [To Java 17 and Beyond!](https://inside.java/2021/11/13/to-java-17-and-beyond/)
-- [Java Experts Spill the Beans](https://inside.java/2021/11/12/java-experts-spill-the-beans/)
-- [What Happens to Finalization in JDK 18? - Inside Java Newscast](https://inside.java/2021/11/11/insidejava-newscast-015/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
