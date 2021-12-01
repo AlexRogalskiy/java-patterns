@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Is it possible to deploy war to a jakarta ee compatible cluster in kubernetes?](https://www.reddit.com/r/java/comments/r4c38v/is_it_possible_to_deploy_war_to_a_jakarta_ee/)
-- [GitHub - eclipse/eclipse-collections-kata: Eclipse Collections Katas](https://www.reddit.com/r/java/comments/r488r0/github_eclipseeclipsecollectionskata_eclipse/)
-- [Mojarra 2.3.17 released!](https://www.reddit.com/r/java/comments/r47cn3/mojarra_2317_released/)
-- [Hashtag Jakarta EE #100](https://www.reddit.com/r/java/comments/r46o31/hashtag_jakarta_ee_100/)
-- [5 Mundane Java Performance Tips](https://www.reddit.com/r/java/comments/r3xzqw/5_mundane_java_performance_tips/)
-- [9 High-Performance Tips when using MySQL and Java](https://www.reddit.com/r/java/comments/r3ake7/9_highperformance_tips_when_using_mysql_and_java/)
-- [How does the community like the fact that Spring 5 goes &quot;reactive&quot; for restful?](https://www.reddit.com/r/java/comments/r32ud6/how_does_the_community_like_the_fact_that_spring/)
-- [jMolecules 2021.2.0 released](https://www.reddit.com/r/java/comments/r2zo2s/jmolecules_202120_released/)
-- [Has any one attempted to write logs directly to Kafka?](https://www.reddit.com/r/java/comments/r2z17a/has_any_one_attempted_to_write_logs_directly_to/)
-- [Junit5 what is the diffrence between surfire 3.0.0-M5 and 2.22.2](https://www.reddit.com/r/java/comments/r2vwxq/junit5_what_is_the_diffrence_between_surfire/)
+- [Java 17 not supported iMac late 2013?](https://www.reddit.com/r/java/comments/r60kjr/java_17_not_supported_imac_late_2013/)
+- [Best web server for reactive app](https://www.reddit.com/r/java/comments/r5ztcf/best_web_server_for_reactive_app/)
+- [OdinCodeBrowser: Navigate Code Like in your IDE but on a Static Webpage](https://www.reddit.com/r/java/comments/r5rwvn/odincodebrowser_navigate_code_like_in_your_ide/)
+- [Caves &amp; Cliffs: Part II out today on Java - based on Java 17](https://www.reddit.com/r/java/comments/r5ra2n/caves_cliffs_part_ii_out_today_on_java_based_on/)
+- [IntelliJ IDEA 2021.3 has been released](https://www.reddit.com/r/java/comments/r5r0ej/intellij_idea_20213_has_been_released/)
+- [Persism 2.0.0 Released - A zero ceremony ORM for Java](https://www.reddit.com/r/java/comments/r5p8qg/persism_200_released_a_zero_ceremony_orm_for_java/)
+- [Serverless Java Functions on OpenShift - Piotr&#39;s TechBlog](https://www.reddit.com/r/java/comments/r5o447/serverless_java_functions_on_openshift_piotrs/)
+- [Writing a simple filesystem in Java with Fuse and project Panama](https://www.reddit.com/r/java/comments/r5n1i5/writing_a_simple_filesystem_in_java_with_fuse_and/)
+- [Jailer Database Tools, a follow-up.](https://www.reddit.com/r/java/comments/r5lm7w/jailer_database_tools_a_followup/)
+- [On Parallelism and Concurrency](https://www.reddit.com/r/java/comments/r5l9to/on_parallelism_and_concurrency/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
