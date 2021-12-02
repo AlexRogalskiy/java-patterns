@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Java 17 not supported iMac late 2013?](https://www.reddit.com/r/java/comments/r60kjr/java_17_not_supported_imac_late_2013/)
-- [Best web server for reactive app](https://www.reddit.com/r/java/comments/r5ztcf/best_web_server_for_reactive_app/)
+- [What&#39;s new in Faces 4.0?](https://www.reddit.com/r/java/comments/r6t836/whats_new_in_faces_40/)
+- [Fallbacks with Spring Cloud Feign](https://www.reddit.com/r/java/comments/r6a25o/fallbacks_with_spring_cloud_feign/)
+- [Avoid optional, nullable attributes with this one simple trick](https://www.reddit.com/r/java/comments/r68gw5/avoid_optional_nullable_attributes_with_this_one/)
+- [[EVENT] Java Pathfinder Day 2021 - Model Checking Java Code](https://www.reddit.com/r/java/comments/r64zjz/event_java_pathfinder_day_2021_model_checking/)
 - [OdinCodeBrowser: Navigate Code Like in your IDE but on a Static Webpage](https://www.reddit.com/r/java/comments/r5rwvn/odincodebrowser_navigate_code_like_in_your_ide/)
 - [Caves &amp; Cliffs: Part II out today on Java - based on Java 17](https://www.reddit.com/r/java/comments/r5ra2n/caves_cliffs_part_ii_out_today_on_java_based_on/)
 - [IntelliJ IDEA 2021.3 has been released](https://www.reddit.com/r/java/comments/r5r0ej/intellij_idea_20213_has_been_released/)
 - [Persism 2.0.0 Released - A zero ceremony ORM for Java](https://www.reddit.com/r/java/comments/r5p8qg/persism_200_released_a_zero_ceremony_orm_for_java/)
 - [Serverless Java Functions on OpenShift - Piotr&#39;s TechBlog](https://www.reddit.com/r/java/comments/r5o447/serverless_java_functions_on_openshift_piotrs/)
 - [Writing a simple filesystem in Java with Fuse and project Panama](https://www.reddit.com/r/java/comments/r5n1i5/writing_a_simple_filesystem_in_java_with_fuse_and/)
-- [Jailer Database Tools, a follow-up.](https://www.reddit.com/r/java/comments/r5lm7w/jailer_database_tools_a_followup/)
-- [On Parallelism and Concurrency](https://www.reddit.com/r/java/comments/r5l9to/on_parallelism_and_concurrency/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
