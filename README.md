@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [I just made my own Rubik&#39;s cube scrambler in Java :D](https://www.reddit.com/r/java/comments/r7k0z9/i_just_made_my_own_rubiks_cube_scrambler_in_java_d/)
+- [Data structure project ideas.](https://www.reddit.com/r/java/comments/r7g3w9/data_structure_project_ideas/)
+- [Simple Web Server, Incremental JVM Improvements &amp; JEP 420 Update - Inside Java Newscast #16](https://www.reddit.com/r/java/comments/r7c6d2/simple_web_server_incremental_jvm_improvements/)
+- [Connect with Java developers around the world at next week&#39;s JakartaOne Livestream](https://www.reddit.com/r/java/comments/r7aefr/connect_with_java_developers_around_the_world_at/)
+- [Loop Fission](https://www.reddit.com/r/java/comments/r74ag2/loop_fission/)
+- [What is the better way of Spring boot JwtAuthetication? Uses of OncePerRequestFilter or UsernamePasswordAuthenticationFilter?](https://www.reddit.com/r/java/comments/r6z7ag/what_is_the_better_way_of_spring_boot/)
+- [Detect your application’s memory under-allocation in a proactive manner](https://www.reddit.com/r/java/comments/r6y0if/detect_your_applications_memory_underallocation/)
 - [What&#39;s new in Faces 4.0?](https://www.reddit.com/r/java/comments/r6t836/whats_new_in_faces_40/)
 - [Fallbacks with Spring Cloud Feign](https://www.reddit.com/r/java/comments/r6a25o/fallbacks_with_spring_cloud_feign/)
 - [Avoid optional, nullable attributes with this one simple trick](https://www.reddit.com/r/java/comments/r68gw5/avoid_optional_nullable_attributes_with_this_one/)
-- [[EVENT] Java Pathfinder Day 2021 - Model Checking Java Code](https://www.reddit.com/r/java/comments/r64zjz/event_java_pathfinder_day_2021_model_checking/)
-- [OdinCodeBrowser: Navigate Code Like in your IDE but on a Static Webpage](https://www.reddit.com/r/java/comments/r5rwvn/odincodebrowser_navigate_code_like_in_your_ide/)
-- [Caves &amp; Cliffs: Part II out today on Java - based on Java 17](https://www.reddit.com/r/java/comments/r5ra2n/caves_cliffs_part_ii_out_today_on_java_based_on/)
-- [IntelliJ IDEA 2021.3 has been released](https://www.reddit.com/r/java/comments/r5r0ej/intellij_idea_20213_has_been_released/)
-- [Persism 2.0.0 Released - A zero ceremony ORM for Java](https://www.reddit.com/r/java/comments/r5p8qg/persism_200_released_a_zero_ceremony_orm_for_java/)
-- [Serverless Java Functions on OpenShift - Piotr&#39;s TechBlog](https://www.reddit.com/r/java/comments/r5o447/serverless_java_functions_on_openshift_piotrs/)
-- [Writing a simple filesystem in Java with Fuse and project Panama](https://www.reddit.com/r/java/comments/r5n1i5/writing_a_simple_filesystem_in_java_with_fuse_and/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
