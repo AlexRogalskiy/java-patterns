@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Automatically create a class diagram from Java code](https://www.reddit.com/r/java/comments/r8cizo/automatically_create_a_class_diagram_from_java/)
+- [panama/foreign status update](https://www.reddit.com/r/java/comments/r85v0z/panamaforeign_status_update/)
+- [Why did Electron succeed but Java didn&#39;t, in creating cross-platform Desktop software?](https://www.reddit.com/r/java/comments/r7zaau/why_did_electron_succeed_but_java_didnt_in/)
+- [The JVM Advent calendar is here!](https://www.reddit.com/r/java/comments/r7vavb/the_jvm_advent_calendar_is_here/)
+- [Eclipse GlassFish: Swimming Towards Jakarta EE 10](https://www.reddit.com/r/java/comments/r7ux8i/eclipse_glassfish_swimming_towards_jakarta_ee_10/)
 - [I just made my own Rubik&#39;s cube scrambler in Java :D](https://www.reddit.com/r/java/comments/r7k0z9/i_just_made_my_own_rubiks_cube_scrambler_in_java_d/)
-- [Data structure project ideas.](https://www.reddit.com/r/java/comments/r7g3w9/data_structure_project_ideas/)
 - [Simple Web Server, Incremental JVM Improvements &amp; JEP 420 Update - Inside Java Newscast #16](https://www.reddit.com/r/java/comments/r7c6d2/simple_web_server_incremental_jvm_improvements/)
 - [Connect with Java developers around the world at next week&#39;s JakartaOne Livestream](https://www.reddit.com/r/java/comments/r7aefr/connect_with_java_developers_around_the_world_at/)
 - [Loop Fission](https://www.reddit.com/r/java/comments/r74ag2/loop_fission/)
-- [What is the better way of Spring boot JwtAuthetication? Uses of OncePerRequestFilter or UsernamePasswordAuthenticationFilter?](https://www.reddit.com/r/java/comments/r6z7ag/what_is_the_better_way_of_spring_boot/)
 - [Detect your application’s memory under-allocation in a proactive manner](https://www.reddit.com/r/java/comments/r6y0if/detect_your_applications_memory_underallocation/)
-- [What&#39;s new in Faces 4.0?](https://www.reddit.com/r/java/comments/r6t836/whats_new_in_faces_40/)
-- [Fallbacks with Spring Cloud Feign](https://www.reddit.com/r/java/comments/r6a25o/fallbacks_with_spring_cloud_feign/)
-- [Avoid optional, nullable attributes with this one simple trick](https://www.reddit.com/r/java/comments/r68gw5/avoid_optional_nullable_attributes_with_this_one/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
