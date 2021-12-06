@@ -280,6 +280,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Multiple Spring Boot applications in the same project](https://www.reddit.com/r/java/comments/r9jut5/multiple_spring_boot_applications_in_the_same/)
+- [Arrays of Wisdom of the Ancients](https://www.reddit.com/r/java/comments/r9is3p/arrays_of_wisdom_of_the_ancients/)
+- [Announcing preview release for the generational mode to the Shenandoah GC | Amazon Web Services](https://www.reddit.com/r/java/comments/r9gbmb/announcing_preview_release_for_the_generational/)
 - [Introducing the OSS Quickstart Archetype](https://www.reddit.com/r/java/comments/r8y4gw/introducing_the_oss_quickstart_archetype/)
 - [panama/foreign status update](https://www.reddit.com/r/java/comments/r85v0z/panamaforeign_status_update/)
 - [Why did Electron succeed but Java didn&#39;t, in creating cross-platform Desktop software?](https://www.reddit.com/r/java/comments/r7zaau/why_did_electron_succeed_but_java_didnt_in/)
@@ -287,9 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Eclipse GlassFish: Swimming Towards Jakarta EE 10](https://www.reddit.com/r/java/comments/r7ux8i/eclipse_glassfish_swimming_towards_jakarta_ee_10/)
 - [I just made my own Rubik&#39;s cube scrambler in Java :D](https://www.reddit.com/r/java/comments/r7k0z9/i_just_made_my_own_rubiks_cube_scrambler_in_java_d/)
 - [Simple Web Server, Incremental JVM Improvements &amp; JEP 420 Update - Inside Java Newscast #16](https://www.reddit.com/r/java/comments/r7c6d2/simple_web_server_incremental_jvm_improvements/)
-- [Connect with Java developers around the world at next week&#39;s JakartaOne Livestream](https://www.reddit.com/r/java/comments/r7aefr/connect_with_java_developers_around_the_world_at/)
-- [Loop Fission](https://www.reddit.com/r/java/comments/r74ag2/loop_fission/)
-- [Detect your application’s memory under-allocation in a proactive manner](https://www.reddit.com/r/java/comments/r6y0if/detect_your_applications_memory_underallocation/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
