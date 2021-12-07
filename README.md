@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Multiple Spring Boot applications in the same project](https://www.reddit.com/r/java/comments/r9jut5/multiple_spring_boot_applications_in_the_same/)
-- [Arrays of Wisdom of the Ancients](https://www.reddit.com/r/java/comments/r9is3p/arrays_of_wisdom_of_the_ancients/)
-- [Announcing preview release for the generational mode to the Shenandoah GC | Amazon Web Services](https://www.reddit.com/r/java/comments/r9gbmb/announcing_preview_release_for_the_generational/)
-- [Introducing the OSS Quickstart Archetype](https://www.reddit.com/r/java/comments/r8y4gw/introducing_the_oss_quickstart_archetype/)
-- [panama/foreign status update](https://www.reddit.com/r/java/comments/r85v0z/panamaforeign_status_update/)
-- [Why did Electron succeed but Java didn&#39;t, in creating cross-platform Desktop software?](https://www.reddit.com/r/java/comments/r7zaau/why_did_electron_succeed_but_java_didnt_in/)
-- [The JVM Advent calendar is here!](https://www.reddit.com/r/java/comments/r7vavb/the_jvm_advent_calendar_is_here/)
-- [Eclipse GlassFish: Swimming Towards Jakarta EE 10](https://www.reddit.com/r/java/comments/r7ux8i/eclipse_glassfish_swimming_towards_jakarta_ee_10/)
-- [I just made my own Rubik&#39;s cube scrambler in Java :D](https://www.reddit.com/r/java/comments/r7k0z9/i_just_made_my_own_rubiks_cube_scrambler_in_java_d/)
-- [Simple Web Server, Incremental JVM Improvements &amp; JEP 420 Update - Inside Java Newscast #16](https://www.reddit.com/r/java/comments/r7c6d2/simple_web_server_incremental_jvm_improvements/)
+- [Apache NetBeans 12.6 released](https://www.reddit.com/r/java/comments/ragnef/apache_netbeans_126_released/)
+- [Humble Bundle: Over $1300 in Wrox programming books for donation to charity](https://www.reddit.com/r/java/comments/rag4j9/humble_bundle_over_1300_in_wrox_programming_books/)
+- [New drop in templated strings branch](https://www.reddit.com/r/java/comments/radhxp/new_drop_in_templated_strings_branch/)
+- [Gitember v 2.3](https://www.reddit.com/r/java/comments/rab2z1/gitember_v_23/)
+- [Working with the Simple Web Server #JDK18](https://www.reddit.com/r/java/comments/ra990q/working_with_the_simple_web_server_jdk18/)
+- [Red Hat response to Java release cadence change](https://www.reddit.com/r/java/comments/ra8ssl/red_hat_response_to_java_release_cadence_change/)
+- [How to build SpringBoot API for eCommerce App using NoSQL Datastore](https://www.reddit.com/r/java/comments/ra4hp7/how_to_build_springboot_api_for_ecommerce_app/)
+- [PerfUnit - Java Agent which helps to take control over applications bottlenecks, expensive calls, or simply control your performance SLO budget.](https://www.reddit.com/r/java/comments/ra4apv/perfunit_java_agent_which_helps_to_take_control/)
+- [Introducing the Free Java License](https://www.reddit.com/r/java/comments/ra2iaj/introducing_the_free_java_license/)
+- [Diagnosing a JVM Crash](https://www.reddit.com/r/java/comments/r9zqeb/diagnosing_a_jvm_crash/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
