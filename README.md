@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Java sdk 17 kills jre 8.0 Minecraft servers How would I be able to use both Java to run two servers at the same time?](https://www.reddit.com/r/java/comments/rbdu8k/java_sdk_17_kills_jre_80_minecraft_servers_how/)
+- [Static Java &lpar;Leyden&rpar;, GraalVM Native and OpenJDK - Andrew Dinn](https://www.reddit.com/r/java/comments/rbarej/static_java_leyden_graalvm_native_and_openjdk/)
+- [What is the complexity of contains method of HashSet?](https://www.reddit.com/r/java/comments/rb24ks/what_is_the_complexity_of_contains_method_of/)
+- [Package by feature, not by layer](https://www.reddit.com/r/java/comments/rb1n7e/package_by_feature_not_by_layer/)
+- [A bit confused about GC, Java, Memory Utilization and High CPU.](https://www.reddit.com/r/java/comments/raym04/a_bit_confused_about_gc_java_memory_utilization/)
+- [What are the most important skills as a Java Software Engineer?](https://www.reddit.com/r/java/comments/rauj3e/what_are_the_most_important_skills_as_a_java/)
+- [Interesting Garbage Collection Patterns](https://www.reddit.com/r/java/comments/raq0ew/interesting_garbage_collection_patterns/)
 - [Apache NetBeans 12.6 released](https://www.reddit.com/r/java/comments/ragnef/apache_netbeans_126_released/)
 - [Humble Bundle: Over $1300 in Wrox programming books for donation to charity](https://www.reddit.com/r/java/comments/rag4j9/humble_bundle_over_1300_in_wrox_programming_books/)
 - [New drop in templated strings branch](https://www.reddit.com/r/java/comments/radhxp/new_drop_in_templated_strings_branch/)
-- [Gitember v 2.3](https://www.reddit.com/r/java/comments/rab2z1/gitember_v_23/)
-- [Working with the Simple Web Server #JDK18](https://www.reddit.com/r/java/comments/ra990q/working_with_the_simple_web_server_jdk18/)
-- [Red Hat response to Java release cadence change](https://www.reddit.com/r/java/comments/ra8ssl/red_hat_response_to_java_release_cadence_change/)
-- [How to build SpringBoot API for eCommerce App using NoSQL Datastore](https://www.reddit.com/r/java/comments/ra4hp7/how_to_build_springboot_api_for_ecommerce_app/)
-- [PerfUnit - Java Agent which helps to take control over applications bottlenecks, expensive calls, or simply control your performance SLO budget.](https://www.reddit.com/r/java/comments/ra4apv/perfunit_java_agent_which_helps_to_take_control/)
-- [Introducing the Free Java License](https://www.reddit.com/r/java/comments/ra2iaj/introducing_the_free_java_license/)
-- [Diagnosing a JVM Crash](https://www.reddit.com/r/java/comments/r9zqeb/diagnosing_a_jvm_crash/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
