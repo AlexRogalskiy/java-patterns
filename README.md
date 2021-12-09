@@ -280,7 +280,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Java sdk 17 kills jre 8.0 Minecraft servers How would I be able to use both Java to run two servers at the same time?](https://www.reddit.com/r/java/comments/rbdu8k/java_sdk_17_kills_jre_80_minecraft_servers_how/)
+- [jdk 17 case statement using Class representing a sealed hierarchy.](https://www.reddit.com/r/java/comments/rbutzy/jdk_17_case_statement_using_class_representing_a/)
+- [Running IntelliJ IDEA with JDK 17 for Better Render Performance with Metal](https://www.reddit.com/r/java/comments/rbum2q/running_intellij_idea_with_jdk_17_for_better/)
+- [Creating scalable microservices for practice?](https://www.reddit.com/r/java/comments/rbs15e/creating_scalable_microservices_for_practice/)
 - [Static Java &lpar;Leyden&rpar;, GraalVM Native and OpenJDK - Andrew Dinn](https://www.reddit.com/r/java/comments/rbarej/static_java_leyden_graalvm_native_and_openjdk/)
 - [What is the complexity of contains method of HashSet?](https://www.reddit.com/r/java/comments/rb24ks/what_is_the_complexity_of_contains_method_of/)
 - [Package by feature, not by layer](https://www.reddit.com/r/java/comments/rb1n7e/package_by_feature_not_by_layer/)
@@ -288,8 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [What are the most important skills as a Java Software Engineer?](https://www.reddit.com/r/java/comments/rauj3e/what_are_the_most_important_skills_as_a_java/)
 - [Interesting Garbage Collection Patterns](https://www.reddit.com/r/java/comments/raq0ew/interesting_garbage_collection_patterns/)
 - [Apache NetBeans 12.6 released](https://www.reddit.com/r/java/comments/ragnef/apache_netbeans_126_released/)
-- [Humble Bundle: Over $1300 in Wrox programming books for donation to charity](https://www.reddit.com/r/java/comments/rag4j9/humble_bundle_over_1300_in_wrox_programming_books/)
-- [New drop in templated strings branch](https://www.reddit.com/r/java/comments/radhxp/new_drop_in_templated_strings_branch/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
