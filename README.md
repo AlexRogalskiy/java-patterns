@@ -355,6 +355,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [String Concatenation - JEP Café #7](https://inside.java/2021/12/09/jepcafe7/)
+- [JDK Migration Guide](https://inside.java/2021/12/08/jdk-migration-guide/)
 - [Quality Outreach Heads-up - JDK 18: JEP 411](https://inside.java/2021/12/06/quality-heads-up/)
 - [Working with the Simple Web Server](https://inside.java/2021/12/06/working-with-the-simple-web-server/)
 - [Panama/Foreign Status Update](https://inside.java/2021/12/03/panama-update/)
@@ -363,8 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [On Parallelism and Concurrency](https://inside.java/2021/11/30/on-parallelism-and-concurrency/)
 - [Quality Outreach Heads-up - JDK 18: JEP 416](https://inside.java/2021/11/29/quality-heads-up/)
 - [Java Value Layout Constants](https://inside.java/2021/11/25/java-value-layout-constants/)
-- [GC progress from JDK 8 to JDK 17](https://inside.java/2021/11/24/gc-progress-from-jdk-8-to17/)
-- [Records, Sealed Classes and Pattern Matching](https://inside.java/2021/11/19/video-amber-manchester/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
