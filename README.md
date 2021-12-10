@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [jdk 17 case statement using Class representing a sealed hierarchy.](https://www.reddit.com/r/java/comments/rbutzy/jdk_17_case_statement_using_class_representing_a/)
+- [Resize me - Easily compress and resize images](https://www.reddit.com/r/java/comments/rcvu0r/resize_me_easily_compress_and_resize_images/)
+- [Stack Overflow Problem](https://www.reddit.com/r/java/comments/rcuzxv/stack_overflow_problem/)
+- [How to Add Auth0 Authentication to Java Application using Datawiza in 5 Mins](https://www.reddit.com/r/java/comments/rcui46/how_to_add_auth0_authentication_to_java/)
+- [Get to Know Jakarta MVC](https://www.reddit.com/r/java/comments/rcmo4b/get_to_know_jakarta_mvc/)
+- [String Concatenation - JEP Café #7](https://www.reddit.com/r/java/comments/rcltdb/string_concatenation_jep_café_7/)
+- [New AOT Engine Brings Spring Native to the Next Level](https://www.reddit.com/r/java/comments/rcjdgz/new_aot_engine_brings_spring_native_to_the_next/)
+- [JDK Migration Guide](https://www.reddit.com/r/java/comments/rcdedt/jdk_migration_guide/)
 - [Running IntelliJ IDEA with JDK 17 for Better Render Performance with Metal](https://www.reddit.com/r/java/comments/rbum2q/running_intellij_idea_with_jdk_17_for_better/)
-- [Creating scalable microservices for practice?](https://www.reddit.com/r/java/comments/rbs15e/creating_scalable_microservices_for_practice/)
 - [Static Java &lpar;Leyden&rpar;, GraalVM Native and OpenJDK - Andrew Dinn](https://www.reddit.com/r/java/comments/rbarej/static_java_leyden_graalvm_native_and_openjdk/)
 - [What is the complexity of contains method of HashSet?](https://www.reddit.com/r/java/comments/rb24ks/what_is_the_complexity_of_contains_method_of/)
-- [Package by feature, not by layer](https://www.reddit.com/r/java/comments/rb1n7e/package_by_feature_not_by_layer/)
-- [A bit confused about GC, Java, Memory Utilization and High CPU.](https://www.reddit.com/r/java/comments/raym04/a_bit_confused_about_gc_java_memory_utilization/)
-- [What are the most important skills as a Java Software Engineer?](https://www.reddit.com/r/java/comments/rauj3e/what_are_the_most_important_skills_as_a_java/)
-- [Interesting Garbage Collection Patterns](https://www.reddit.com/r/java/comments/raq0ew/interesting_garbage_collection_patterns/)
-- [Apache NetBeans 12.6 released](https://www.reddit.com/r/java/comments/ragnef/apache_netbeans_126_released/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
