@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [About Log4j](https://www.reddit.com/r/java/comments/rdluh3/about_log4j/)
+- [Kind of a game theory question but I feel programming minds maybe able to figure it out](https://www.reddit.com/r/java/comments/rdkjc1/kind_of_a_game_theory_question_but_i_feel/)
+- [Spring Tips: Spring Native 0.11](https://www.reddit.com/r/java/comments/rd5qd2/spring_tips_spring_native_011/)
+- [RCE 0-day exploit found in log4j, a popular Java logging package](https://www.reddit.com/r/java/comments/rd00ak/rce_0day_exploit_found_in_log4j_a_popular_java/)
+- [Remote code injection in Log4j](https://www.reddit.com/r/java/comments/rcy3nf/remote_code_injection_in_log4j/)
+- [RCE in log4j](https://www.reddit.com/r/java/comments/rcw23s/rce_in_log4j/)
 - [Resize me - Easily compress and resize images](https://www.reddit.com/r/java/comments/rcvu0r/resize_me_easily_compress_and_resize_images/)
-- [Stack Overflow Problem](https://www.reddit.com/r/java/comments/rcuzxv/stack_overflow_problem/)
 - [How to Add Auth0 Authentication to Java Application using Datawiza in 5 Mins](https://www.reddit.com/r/java/comments/rcui46/how_to_add_auth0_authentication_to_java/)
 - [Get to Know Jakarta MVC](https://www.reddit.com/r/java/comments/rcmo4b/get_to_know_jakarta_mvc/)
 - [String Concatenation - JEP Café #7](https://www.reddit.com/r/java/comments/rcltdb/string_concatenation_jep_café_7/)
-- [New AOT Engine Brings Spring Native to the Next Level](https://www.reddit.com/r/java/comments/rcjdgz/new_aot_engine_brings_spring_native_to_the_next/)
-- [JDK Migration Guide](https://www.reddit.com/r/java/comments/rcdedt/jdk_migration_guide/)
-- [Running IntelliJ IDEA with JDK 17 for Better Render Performance with Metal](https://www.reddit.com/r/java/comments/rbum2q/running_intellij_idea_with_jdk_17_for_better/)
-- [Static Java &lpar;Leyden&rpar;, GraalVM Native and OpenJDK - Andrew Dinn](https://www.reddit.com/r/java/comments/rbarej/static_java_leyden_graalvm_native_and_openjdk/)
-- [What is the complexity of contains method of HashSet?](https://www.reddit.com/r/java/comments/rb24ks/what_is_the_complexity_of_contains_method_of/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
