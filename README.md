@@ -355,6 +355,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Quality Outreach Heads-up - JDK 18: JEP 400](https://inside.java/2021/12/10/quality-heads-up/)
 - [String Concatenation - JEP Café #7](https://inside.java/2021/12/09/jepcafe7/)
 - [JDK Migration Guide](https://inside.java/2021/12/08/jdk-migration-guide/)
 - [Quality Outreach Heads-up - JDK 18: JEP 411](https://inside.java/2021/12/06/quality-heads-up/)
@@ -364,7 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JEP proposed to target JDK 18: 421: Deprecate Finalization for Removal](https://inside.java/2021/11/30/jep-421-proposed-to-target-jdk18/)
 - [On Parallelism and Concurrency](https://inside.java/2021/11/30/on-parallelism-and-concurrency/)
 - [Quality Outreach Heads-up - JDK 18: JEP 416](https://inside.java/2021/11/29/quality-heads-up/)
-- [Java Value Layout Constants](https://inside.java/2021/11/25/java-value-layout-constants/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
