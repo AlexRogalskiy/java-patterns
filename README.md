@@ -295,6 +295,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [How to detect the Log4j vulnerability in your applications](https://www.infoworld.com/article/3644492/how-to-detect-the-log4j-vulnerability-in-your-applications.html#tk.rss_java)
 - [JetBrains previews next-gen Fleet IDE](https://www.infoworld.com/article/3642536/jetbrains-previews-next-gen-fleet-ide.html#tk.rss_java)
 - [JDK 18: What to expect in Java 18](https://www.infoworld.com/article/3630510/jdk-18-what-to-expect-in-java-18.html#tk.rss_java)
 - [Kotlin 1.6.0 debuts memory manager](https://www.infoworld.com/article/3641254/kotlin-160-debuts-memory-manager.html#tk.rss_java)
@@ -304,7 +305,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Microsoft joins Java Community Process](https://www.infoworld.com/article/3639518/microsoft-joins-java-community-process.html#tk.rss_java)
 - [How to use Docker for Java development](https://www.infoworld.com/article/3638548/how-to-use-docker-for-java-development.html#tk.rss_java)
 - [JetBrains unveils Qodana code quality platform for CI/CD](https://www.infoworld.com/article/3638052/jetbrains-unveils-qodana-code-quality-platform-for-cicd.html#tk.rss_java)
-- [Red Hat OpenStack tightens OpenShift Kubernetes integration](https://www.infoworld.com/article/3637080/red-hat-openstack-tightens-openshift-kubernetes-integration.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
