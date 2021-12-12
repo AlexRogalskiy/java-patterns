@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [About Log4j](https://www.reddit.com/r/java/comments/rdluh3/about_log4j/)
-- [Kind of a game theory question but I feel programming minds maybe able to figure it out](https://www.reddit.com/r/java/comments/rdkjc1/kind_of_a_game_theory_question_but_i_feel/)
+- [I Don&#39;t Seem Have Java Installed?](https://www.reddit.com/r/java/comments/red9qw/i_dont_seem_have_java_installed/)
+- [Log4j Developer Response](https://www.reddit.com/r/java/comments/rebl16/log4j_developer_response/)
+- [What is your take on the current state of JavaFX as a GUI library?](https://www.reddit.com/r/java/comments/re4czb/what_is_your_take_on_the_current_state_of_javafx/)
+- [Persism and the SELECT N+1 problem](https://www.reddit.com/r/java/comments/re0hqn/persism_and_the_select_n1_problem/)
+- [2021-12-10 benchmark results · LesnyRumcajs/grpc_bench Wiki](https://www.reddit.com/r/java/comments/rdvomv/20211210_benchmark_results_lesnyrumcajsgrpc_bench/)
+- [Have you ever wondered how Java&#39;s Logging framework came to be so complex and numerous?](https://www.reddit.com/r/java/comments/rdv98z/have_you_ever_wondered_how_javas_logging/)
+- [graal-bindgen - safe rust bindings to make java/rust interop painless](https://www.reddit.com/r/java/comments/rdk348/graalbindgen_safe_rust_bindings_to_make_javarust/)
 - [Spring Tips: Spring Native 0.11](https://www.reddit.com/r/java/comments/rd5qd2/spring_tips_spring_native_011/)
 - [RCE 0-day exploit found in log4j, a popular Java logging package](https://www.reddit.com/r/java/comments/rd00ak/rce_0day_exploit_found_in_log4j_a_popular_java/)
 - [Remote code injection in Log4j](https://www.reddit.com/r/java/comments/rcy3nf/remote_code_injection_in_log4j/)
-- [RCE in log4j](https://www.reddit.com/r/java/comments/rcw23s/rce_in_log4j/)
-- [Resize me - Easily compress and resize images](https://www.reddit.com/r/java/comments/rcvu0r/resize_me_easily_compress_and_resize_images/)
-- [How to Add Auth0 Authentication to Java Application using Datawiza in 5 Mins](https://www.reddit.com/r/java/comments/rcui46/how_to_add_auth0_authentication_to_java/)
-- [Get to Know Jakarta MVC](https://www.reddit.com/r/java/comments/rcmo4b/get_to_know_jakarta_mvc/)
-- [String Concatenation - JEP Café #7](https://www.reddit.com/r/java/comments/rcltdb/string_concatenation_jep_café_7/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
