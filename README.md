@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [I Don&#39;t Seem Have Java Installed?](https://www.reddit.com/r/java/comments/red9qw/i_dont_seem_have_java_installed/)
-- [Log4j Developer Response](https://www.reddit.com/r/java/comments/rebl16/log4j_developer_response/)
-- [What is your take on the current state of JavaFX as a GUI library?](https://www.reddit.com/r/java/comments/re4czb/what_is_your_take_on_the_current_state_of_javafx/)
-- [Persism and the SELECT N+1 problem](https://www.reddit.com/r/java/comments/re0hqn/persism_and_the_select_n1_problem/)
-- [2021-12-10 benchmark results · LesnyRumcajs/grpc_bench Wiki](https://www.reddit.com/r/java/comments/rdvomv/20211210_benchmark_results_lesnyrumcajsgrpc_bench/)
-- [Have you ever wondered how Java&#39;s Logging framework came to be so complex and numerous?](https://www.reddit.com/r/java/comments/rdv98z/have_you_ever_wondered_how_javas_logging/)
-- [graal-bindgen - safe rust bindings to make java/rust interop painless](https://www.reddit.com/r/java/comments/rdk348/graalbindgen_safe_rust_bindings_to_make_javarust/)
-- [Spring Tips: Spring Native 0.11](https://www.reddit.com/r/java/comments/rd5qd2/spring_tips_spring_native_011/)
-- [RCE 0-day exploit found in log4j, a popular Java logging package](https://www.reddit.com/r/java/comments/rd00ak/rce_0day_exploit_found_in_log4j_a_popular_java/)
-- [Remote code injection in Log4j](https://www.reddit.com/r/java/comments/rcy3nf/remote_code_injection_in_log4j/)
+- [Test your tests](https://www.reddit.com/r/java/comments/rf3ryp/test_your_tests/)
+- [Can you create an instance of abstract class?](https://www.reddit.com/r/java/comments/rf3h2j/can_you_create_an_instance_of_abstract_class/)
+- [Can abstract class be final in Java?](https://www.reddit.com/r/java/comments/rf342d/can_abstract_class_be_final_in_java/)
+- [Is it necessary for abstract class to have an abstract method?](https://www.reddit.com/r/java/comments/rf33p7/is_it_necessary_for_abstract_class_to_have_an/)
+- [Can abstract class have constructors in Java?](https://www.reddit.com/r/java/comments/rf33aa/can_abstract_class_have_constructors_in_java/)
+- [I need help on this homework problem for my computer programming class, I need to identify if the term seen is “setter”, “constructor with parameter”, “class”, “default constructor”, or “getter”?](https://www.reddit.com/r/java/comments/rf2oka/i_need_help_on_this_homework_problem_for_my/)
+- [Java based hotpatch for Log4shell &lpar;log4j2 vulnerability&rpar;](https://www.reddit.com/r/java/comments/resvaz/java_based_hotpatch_for_log4shell_log4j2/)
+- [A tool for checking log4shell vulnerability mitigations](https://www.reddit.com/r/java/comments/rerm9v/a_tool_for_checking_log4shell_vulnerability/)
+- [Is Kathy Sierra still writing?](https://www.reddit.com/r/java/comments/reqxuz/is_kathy_sierra_still_writing/)
+- [OneDev 6.0 - Java based self-hosted git service with CI/CD and issue board](https://www.reddit.com/r/java/comments/renyj2/onedev_60_java_based_selfhosted_git_service_with/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
