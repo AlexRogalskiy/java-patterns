@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Log4j used indirectly in 60+% of java projects it&#39;s utilized, per Snyk data](https://www.reddit.com/r/java/comments/rfpdwy/log4j_used_indirectly_in_60_of_java_projects_its/)
+- [Features I’d like to have...](https://www.reddit.com/r/java/comments/rfoo3i/features_id_like_to_have/)
+- [Adoptium Temurin Log4j?](https://www.reddit.com/r/java/comments/rfnvr5/adoptium_temurin_log4j/)
+- [Bytecode annotation processor](https://www.reddit.com/r/java/comments/rfmqew/bytecode_annotation_processor/)
+- [Type You An Actor Runtime For Greater Good! &lpar;with Java 17, records, switch expressions and JBang&rpar; - JVM Advent](https://www.reddit.com/r/java/comments/rffozl/type_you_an_actor_runtime_for_greater_good_with/)
+- [Eclipse 2021-12 Java IDE Improvements](https://www.reddit.com/r/java/comments/rffkqq/eclipse_202112_java_ide_improvements/)
+- [Why Log4Shell was not discovered earlier?](https://www.reddit.com/r/java/comments/rff721/why_log4shell_was_not_discovered_earlier/)
+- [How is a library like log4j even allowed to do random jndi calls outside the server secure environment?](https://www.reddit.com/r/java/comments/rf6t8c/how_is_a_library_like_log4j_even_allowed_to_do/)
 - [Test your tests](https://www.reddit.com/r/java/comments/rf3ryp/test_your_tests/)
-- [Can you create an instance of abstract class?](https://www.reddit.com/r/java/comments/rf3h2j/can_you_create_an_instance_of_abstract_class/)
-- [Can abstract class be final in Java?](https://www.reddit.com/r/java/comments/rf342d/can_abstract_class_be_final_in_java/)
-- [Is it necessary for abstract class to have an abstract method?](https://www.reddit.com/r/java/comments/rf33p7/is_it_necessary_for_abstract_class_to_have_an/)
-- [Can abstract class have constructors in Java?](https://www.reddit.com/r/java/comments/rf33aa/can_abstract_class_have_constructors_in_java/)
-- [I need help on this homework problem for my computer programming class, I need to identify if the term seen is “setter”, “constructor with parameter”, “class”, “default constructor”, or “getter”?](https://www.reddit.com/r/java/comments/rf2oka/i_need_help_on_this_homework_problem_for_my/)
 - [Java based hotpatch for Log4shell &lpar;log4j2 vulnerability&rpar;](https://www.reddit.com/r/java/comments/resvaz/java_based_hotpatch_for_log4shell_log4j2/)
-- [A tool for checking log4shell vulnerability mitigations](https://www.reddit.com/r/java/comments/rerm9v/a_tool_for_checking_log4shell_vulnerability/)
-- [Is Kathy Sierra still writing?](https://www.reddit.com/r/java/comments/reqxuz/is_kathy_sierra_still_writing/)
-- [OneDev 6.0 - Java based self-hosted git service with CI/CD and issue board](https://www.reddit.com/r/java/comments/renyj2/onedev_60_java_based_selfhosted_git_service_with/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
