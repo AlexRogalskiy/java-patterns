@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Log4j used indirectly in 60+% of java projects it&#39;s utilized, per Snyk data](https://www.reddit.com/r/java/comments/rfpdwy/log4j_used_indirectly_in_60_of_java_projects_its/)
-- [Features I’d like to have...](https://www.reddit.com/r/java/comments/rfoo3i/features_id_like_to_have/)
-- [Adoptium Temurin Log4j?](https://www.reddit.com/r/java/comments/rfnvr5/adoptium_temurin_log4j/)
-- [Bytecode annotation processor](https://www.reddit.com/r/java/comments/rfmqew/bytecode_annotation_processor/)
-- [Type You An Actor Runtime For Greater Good! &lpar;with Java 17, records, switch expressions and JBang&rpar; - JVM Advent](https://www.reddit.com/r/java/comments/rffozl/type_you_an_actor_runtime_for_greater_good_with/)
-- [Eclipse 2021-12 Java IDE Improvements](https://www.reddit.com/r/java/comments/rffkqq/eclipse_202112_java_ide_improvements/)
-- [Why Log4Shell was not discovered earlier?](https://www.reddit.com/r/java/comments/rff721/why_log4shell_was_not_discovered_earlier/)
-- [How is a library like log4j even allowed to do random jndi calls outside the server secure environment?](https://www.reddit.com/r/java/comments/rf6t8c/how_is_a_library_like_log4j_even_allowed_to_do/)
-- [Test your tests](https://www.reddit.com/r/java/comments/rf3ryp/test_your_tests/)
-- [Java based hotpatch for Log4shell &lpar;log4j2 vulnerability&rpar;](https://www.reddit.com/r/java/comments/resvaz/java_based_hotpatch_for_log4shell_log4j2/)
+- [Java putting an unwanted framerate cap](https://www.reddit.com/r/java/comments/rgktxm/java_putting_an_unwanted_framerate_cap/)
+- [😰 Log4J vulnerability in detail and the bigger picture](https://www.reddit.com/r/java/comments/rgh5xa/log4j_vulnerability_in_detail_and_the_bigger/)
+- [Java rate-limiting library based on the token-bucket algorithm.](https://www.reddit.com/r/java/comments/rggqb2/java_ratelimiting_library_based_on_the/)
+- [Apache Log4j 2.16 Released to Address Missed Edge Case](https://www.reddit.com/r/java/comments/rgg5hg/apache_log4j_216_released_to_address_missed_edge/)
+- [Logback disables JNDI lookup in response to Log4j2 vulnerability](https://www.reddit.com/r/java/comments/rgbc40/logback_disables_jndi_lookup_in_response_to/)
+- [What&#39;s everyones favorite Stream utility library &lpar;or ies&rpar;? I see jOOL and StreamEx mentioned occasionally, are there others?](https://www.reddit.com/r/java/comments/rga2ar/whats_everyones_favorite_stream_utility_library/)
+- [Does anyone remember if having functions in a static block caused problems?](https://www.reddit.com/r/java/comments/rg9uv0/does_anyone_remember_if_having_functions_in_a/)
+- [Is my copy of IntelliJ broken, or does IntelliJ IDEA just suck?](https://www.reddit.com/r/java/comments/rg90bn/is_my_copy_of_intellij_broken_or_does_intellij/)
+- [New Developer Friendly Features After Java 8 - Piotr&#39;s TechBlog](https://www.reddit.com/r/java/comments/rg6f7c/new_developer_friendly_features_after_java_8/)
+- [Primitive Collections Library](https://www.reddit.com/r/java/comments/rg30a0/primitive_collections_library/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
