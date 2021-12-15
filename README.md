@@ -415,6 +415,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
+- [The Best Spring Data JPA Logging Configuration in Spring Boot](https://thorben-janssen.com/spring-data-jpa-logging/)
 - [Naming Strategies in Hibernate 5](https://thorben-janssen.com/naming-strategies-in-hibernate-5/)
 - [The Best Mapping for Shared Technical Attributes With Hibernate](https://thorben-janssen.com/mapping-shared-technical-attributes/)
 - [Mixing Inheritance Mapping Strategies with Hibernate](https://thorben-janssen.com/hibernate-mix-inheritance-mappings/)
@@ -424,7 +425,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [It’s Time to Make a Change](https://thorben-janssen.com/membership-announcement/)
 - [Fetching a DTO With a To-Many Association](https://thorben-janssen.com/fetching-dtos-with-to-many-association/)
 - [@DiscriminatorFormular – Modeling Single Table Inheritance Without a Discriminator](https://thorben-janssen.com/discriminatorformular/)
-- [Modeling sequence-based composite primary keys with Hibernate](https://thorben-janssen.com/composite-primary-keys-sequence/)
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*
