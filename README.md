@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Java putting an unwanted framerate cap](https://www.reddit.com/r/java/comments/rgktxm/java_putting_an_unwanted_framerate_cap/)
-- [😰 Log4J vulnerability in detail and the bigger picture](https://www.reddit.com/r/java/comments/rgh5xa/log4j_vulnerability_in_detail_and_the_bigger/)
-- [Java rate-limiting library based on the token-bucket algorithm.](https://www.reddit.com/r/java/comments/rggqb2/java_ratelimiting_library_based_on_the/)
-- [Apache Log4j 2.16 Released to Address Missed Edge Case](https://www.reddit.com/r/java/comments/rgg5hg/apache_log4j_216_released_to_address_missed_edge/)
-- [Logback disables JNDI lookup in response to Log4j2 vulnerability](https://www.reddit.com/r/java/comments/rgbc40/logback_disables_jndi_lookup_in_response_to/)
-- [What&#39;s everyones favorite Stream utility library &lpar;or ies&rpar;? I see jOOL and StreamEx mentioned occasionally, are there others?](https://www.reddit.com/r/java/comments/rga2ar/whats_everyones_favorite_stream_utility_library/)
-- [Does anyone remember if having functions in a static block caused problems?](https://www.reddit.com/r/java/comments/rg9uv0/does_anyone_remember_if_having_functions_in_a/)
-- [Is my copy of IntelliJ broken, or does IntelliJ IDEA just suck?](https://www.reddit.com/r/java/comments/rg90bn/is_my_copy_of_intellij_broken_or_does_intellij/)
-- [New Developer Friendly Features After Java 8 - Piotr&#39;s TechBlog](https://www.reddit.com/r/java/comments/rg6f7c/new_developer_friendly_features_after_java_8/)
-- [Primitive Collections Library](https://www.reddit.com/r/java/comments/rg30a0/primitive_collections_library/)
+- [Can a mod create a megathread?](https://www.reddit.com/r/java/comments/rhapvh/can_a_mod_create_a_megathread/)
+- [CDI Build Extensions vs Runtime Extensions](https://www.reddit.com/r/java/comments/rhabmm/cdi_build_extensions_vs_runtime_extensions/)
+- [Log4Shell Public Bug Bounty Hitlist](https://www.reddit.com/r/java/comments/rha021/log4shell_public_bug_bounty_hitlist/)
+- [jfreechart developer guide?](https://www.reddit.com/r/java/comments/rh3msg/jfreechart_developer_guide/)
+- [Apache Kafka CVE statement re. log4j](https://www.reddit.com/r/java/comments/rh00x5/apache_kafka_cve_statement_re_log4j/)
+- [Hi folks! Is Jedis affected by CVE-2021-44228 in any way?](https://www.reddit.com/r/java/comments/rgz3jn/hi_folks_is_jedis_affected_by_cve202144228_in_any/)
+- [Log4Shell Remediation Cheat Sheet | Created by Java Champion and security researcher at Snyk](https://www.reddit.com/r/java/comments/rgxfgl/log4shell_remediation_cheat_sheet_created_by_java/)
+- [A JavaAgent based hotpatch for fixing live JVMs with the log4shell vulnerability](https://www.reddit.com/r/java/comments/rgwfpb/a_javaagent_based_hotpatch_for_fixing_live_jvms/)
+- [Hey guys uhmm can you help me? I&#39;m a little bit confused as of now........](https://www.reddit.com/r/java/comments/rgulg4/hey_guys_uhmm_can_you_help_me_im_a_little_bit/)
+- [Eclipse/jifa - Analyze heap dump files using a browser.](https://www.reddit.com/r/java/comments/rgqrmz/eclipsejifa_analyze_heap_dump_files_using_a/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
