@@ -355,6 +355,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Client Applications Configuration with Oracle JDK 11+](https://inside.java/2021/12/15/client-applications-with-oracle-jdk11/)
+- [Understanding Metaspace and Class Space GC Log Entries](https://inside.java/2021/12/14/understanding-metaspace-and-class-space-gc-log/)
 - [Quality Outreach Heads-up - JDK 18: JEP 400](https://inside.java/2021/12/10/quality-heads-up/)
 - [String Concatenation - JEP Café #7](https://inside.java/2021/12/09/jepcafe7/)
 - [JDK Migration Guide](https://inside.java/2021/12/08/jdk-migration-guide/)
@@ -363,8 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Panama/Foreign Status Update](https://inside.java/2021/12/03/panama-update/)
 - [Simple Web Server - Inside Java Newscast](https://inside.java/2021/12/02/insidejava-newscast-016/)
 - [JEP proposed to target JDK 18: 421: Deprecate Finalization for Removal](https://inside.java/2021/11/30/jep-421-proposed-to-target-jdk18/)
-- [On Parallelism and Concurrency](https://inside.java/2021/11/30/on-parallelism-and-concurrency/)
-- [Quality Outreach Heads-up - JDK 18: JEP 416](https://inside.java/2021/11/29/quality-heads-up/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
