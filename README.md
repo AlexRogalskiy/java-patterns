@@ -295,6 +295,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [Azul brings Java compilation to the cloud](https://www.infoworld.com/article/3644971/azul-brings-java-compilation-to-the-cloud.html#tk.rss_java)
 - [JDK 18: The new features in Java 18](https://www.infoworld.com/article/3630510/jdk-18-the-new-features-in-java-18.html#tk.rss_java)
 - [How to detect the Log4j vulnerability in your applications](https://www.infoworld.com/article/3644492/how-to-detect-the-log4j-vulnerability-in-your-applications.html#tk.rss_java)
 - [JetBrains previews next-gen Fleet IDE](https://www.infoworld.com/article/3642536/jetbrains-previews-next-gen-fleet-ide.html#tk.rss_java)
@@ -304,7 +305,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [OpenJDK proposals would bring universal generics to Java](https://www.infoworld.com/article/3639525/openjdk-proposals-would-bring-universal-generics-to-java.html#tk.rss_java)
 - [Microsoft joins Java Community Process](https://www.infoworld.com/article/3639518/microsoft-joins-java-community-process.html#tk.rss_java)
 - [How to use Docker for Java development](https://www.infoworld.com/article/3638548/how-to-use-docker-for-java-development.html#tk.rss_java)
-- [JetBrains unveils Qodana code quality platform for CI/CD](https://www.infoworld.com/article/3638052/jetbrains-unveils-qodana-code-quality-platform-for-cicd.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
