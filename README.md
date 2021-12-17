@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Can a mod create a megathread?](https://www.reddit.com/r/java/comments/rhapvh/can_a_mod_create_a_megathread/)
-- [CDI Build Extensions vs Runtime Extensions](https://www.reddit.com/r/java/comments/rhabmm/cdi_build_extensions_vs_runtime_extensions/)
-- [Log4Shell Public Bug Bounty Hitlist](https://www.reddit.com/r/java/comments/rha021/log4shell_public_bug_bounty_hitlist/)
-- [jfreechart developer guide?](https://www.reddit.com/r/java/comments/rh3msg/jfreechart_developer_guide/)
-- [Apache Kafka CVE statement re. log4j](https://www.reddit.com/r/java/comments/rh00x5/apache_kafka_cve_statement_re_log4j/)
-- [Hi folks! Is Jedis affected by CVE-2021-44228 in any way?](https://www.reddit.com/r/java/comments/rgz3jn/hi_folks_is_jedis_affected_by_cve202144228_in_any/)
-- [Log4Shell Remediation Cheat Sheet | Created by Java Champion and security researcher at Snyk](https://www.reddit.com/r/java/comments/rgxfgl/log4shell_remediation_cheat_sheet_created_by_java/)
-- [A JavaAgent based hotpatch for fixing live JVMs with the log4shell vulnerability](https://www.reddit.com/r/java/comments/rgwfpb/a_javaagent_based_hotpatch_for_fixing_live_jvms/)
-- [Hey guys uhmm can you help me? I&#39;m a little bit confused as of now........](https://www.reddit.com/r/java/comments/rgulg4/hey_guys_uhmm_can_you_help_me_im_a_little_bit/)
-- [Eclipse/jifa - Analyze heap dump files using a browser.](https://www.reddit.com/r/java/comments/rgqrmz/eclipsejifa_analyze_heap_dump_files_using_a/)
+- [Spring Framework 6.0 M1 released](https://www.reddit.com/r/java/comments/ri44uc/spring_framework_60_m1_released/)
+- [An Empirical Lower Bound on the Overheads of Production Garbage Collectors](https://www.reddit.com/r/java/comments/ri0kwd/an_empirical_lower_bound_on_the_overheads_of/)
+- [IDE Plugins for Performance Testing Code?](https://www.reddit.com/r/java/comments/rhzaku/ide_plugins_for_performance_testing_code/)
+- [Log4j MEGATHREAD](https://www.reddit.com/r/java/comments/rhywh5/log4j_megathread/)
+- [Log4j : Logpresso patch issue - remove jndi from jar](https://www.reddit.com/r/java/comments/rhusxn/log4j_logpresso_patch_issue_remove_jndi_from_jar/)
+- [The wrong lessons to learn from the Log4j vulnerability](https://www.reddit.com/r/java/comments/rhuqym/the_wrong_lessons_to_learn_from_the_log4j/)
+- [Keep Your SQL in Check With Flight Recorder, JMC Agent and JfrUnit](https://www.reddit.com/r/java/comments/rhuh6m/keep_your_sql_in_check_with_flight_recorder_jmc/)
+- [code faster by swearing at your command lind](https://www.reddit.com/r/java/comments/rhs157/code_faster_by_swearing_at_your_command_lind/)
+- [Still calling remote server with version 2.16.0!](https://www.reddit.com/r/java/comments/rhq2jk/still_calling_remote_server_with_version_2160/)
+- [Talk: Testcontainers with Kevin Wittek](https://www.reddit.com/r/java/comments/rhpijr/talk_testcontainers_with_kevin_wittek/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
