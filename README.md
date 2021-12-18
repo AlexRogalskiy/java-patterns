@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Logback released a new version. Update ASAP](https://www.reddit.com/r/java/comments/riv9gk/logback_released_a_new_version_update_asap/)
+- [How to Add Azure AD Authentication to Java Web Application in 5 Mins](https://www.reddit.com/r/java/comments/risyi8/how_to_add_azure_ad_authentication_to_java_web/)
+- [Azul introduces remote compilation for Java](https://www.reddit.com/r/java/comments/rinma7/azul_introduces_remote_compilation_for_java/)
+- [[Update] Primitive Collections Benchmarks](https://www.reddit.com/r/java/comments/rilyud/update_primitive_collections_benchmarks/)
+- [Project Loom Brings Structured Concurrency - Inside Java Newscast #17](https://www.reddit.com/r/java/comments/riljht/project_loom_brings_structured_concurrency_inside/)
+- [Automating your release process](https://www.reddit.com/r/java/comments/rigwjp/automating_your_release_process/)
+- [Spring Boot 2.6 Improves Docker Images and Metrics, Version 2.4 Is EOL](https://www.reddit.com/r/java/comments/rigup2/spring_boot_26_improves_docker_images_and_metrics/)
+- [Detect your application’s memory under-allocation in a proactive manner](https://www.reddit.com/r/java/comments/rifr5o/detect_your_applications_memory_underallocation/)
 - [Spring Framework 6.0 M1 released](https://www.reddit.com/r/java/comments/ri44uc/spring_framework_60_m1_released/)
 - [An Empirical Lower Bound on the Overheads of Production Garbage Collectors](https://www.reddit.com/r/java/comments/ri0kwd/an_empirical_lower_bound_on_the_overheads_of/)
-- [IDE Plugins for Performance Testing Code?](https://www.reddit.com/r/java/comments/rhzaku/ide_plugins_for_performance_testing_code/)
-- [Log4j MEGATHREAD](https://www.reddit.com/r/java/comments/rhywh5/log4j_megathread/)
-- [Log4j : Logpresso patch issue - remove jndi from jar](https://www.reddit.com/r/java/comments/rhusxn/log4j_logpresso_patch_issue_remove_jndi_from_jar/)
-- [The wrong lessons to learn from the Log4j vulnerability](https://www.reddit.com/r/java/comments/rhuqym/the_wrong_lessons_to_learn_from_the_log4j/)
-- [Keep Your SQL in Check With Flight Recorder, JMC Agent and JfrUnit](https://www.reddit.com/r/java/comments/rhuh6m/keep_your_sql_in_check_with_flight_recorder_jmc/)
-- [code faster by swearing at your command lind](https://www.reddit.com/r/java/comments/rhs157/code_faster_by_swearing_at_your_command_lind/)
-- [Still calling remote server with version 2.16.0!](https://www.reddit.com/r/java/comments/rhq2jk/still_calling_remote_server_with_version_2160/)
-- [Talk: Testcontainers with Kevin Wittek](https://www.reddit.com/r/java/comments/rhpijr/talk_testcontainers_with_kevin_wittek/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
