@@ -355,6 +355,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Loom Brings Structured Concurrency - Inside Java Newscast](https://inside.java/2021/12/17/insidejava-newscast-17/)
 - [Client Applications Configuration with Oracle JDK 11+](https://inside.java/2021/12/15/client-applications-with-oracle-jdk11/)
 - [Understanding Metaspace and Class Space GC Log Entries](https://inside.java/2021/12/14/understanding-metaspace-and-class-space-gc-log/)
 - [Quality Outreach Heads-up - JDK 18: JEP 400](https://inside.java/2021/12/10/quality-heads-up/)
@@ -364,7 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Working with the Simple Web Server](https://inside.java/2021/12/06/working-with-the-simple-web-server/)
 - [Panama/Foreign Status Update](https://inside.java/2021/12/03/panama-update/)
 - [Simple Web Server - Inside Java Newscast](https://inside.java/2021/12/02/insidejava-newscast-016/)
-- [JEP proposed to target JDK 18: 421: Deprecate Finalization for Removal](https://inside.java/2021/11/30/jep-421-proposed-to-target-jdk18/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
