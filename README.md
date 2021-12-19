@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [I&#39;ve written a simple query builder inspired from PyPika](https://www.reddit.com/r/java/comments/rjhisz/ive_written_a_simple_query_builder_inspired_from/)
+- [Log4j 2.17.0 released, for third CVE &lpar;CVE-2021-45105&rpar;](https://www.reddit.com/r/java/comments/rjgiwo/log4j_2170_released_for_third_cve_cve202145105/)
+- [GitHub - Storyyeller/Krakatau: Java decompiler, assembler, and disassembler](https://www.reddit.com/r/java/comments/rjg0rk/github_storyyellerkrakatau_java_decompiler/)
+- [The Maven Wrapper has now been officially released from the Apache Maven Project](https://www.reddit.com/r/java/comments/rjf6vr/the_maven_wrapper_has_now_been_officially/)
+- [An epic tale: comparing JDBC and R2DBC in a real-world scenario](https://www.reddit.com/r/java/comments/rj818f/an_epic_tale_comparing_jdbc_and_r2dbc_in_a/)
 - [Logback released a new version. Update ASAP](https://www.reddit.com/r/java/comments/riv9gk/logback_released_a_new_version_update_asap/)
-- [How to Add Azure AD Authentication to Java Web Application in 5 Mins](https://www.reddit.com/r/java/comments/risyi8/how_to_add_azure_ad_authentication_to_java_web/)
 - [Azul introduces remote compilation for Java](https://www.reddit.com/r/java/comments/rinma7/azul_introduces_remote_compilation_for_java/)
 - [[Update] Primitive Collections Benchmarks](https://www.reddit.com/r/java/comments/rilyud/update_primitive_collections_benchmarks/)
 - [Project Loom Brings Structured Concurrency - Inside Java Newscast #17](https://www.reddit.com/r/java/comments/riljht/project_loom_brings_structured_concurrency_inside/)
 - [Automating your release process](https://www.reddit.com/r/java/comments/rigwjp/automating_your_release_process/)
-- [Spring Boot 2.6 Improves Docker Images and Metrics, Version 2.4 Is EOL](https://www.reddit.com/r/java/comments/rigup2/spring_boot_26_improves_docker_images_and_metrics/)
-- [Detect your application’s memory under-allocation in a proactive manner](https://www.reddit.com/r/java/comments/rifr5o/detect_your_applications_memory_underallocation/)
-- [Spring Framework 6.0 M1 released](https://www.reddit.com/r/java/comments/ri44uc/spring_framework_60_m1_released/)
-- [An Empirical Lower Bound on the Overheads of Production Garbage Collectors](https://www.reddit.com/r/java/comments/ri0kwd/an_empirical_lower_bound_on_the_overheads_of/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
