@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Artificial Intelligence Made This Video](https://www.reddit.com/r/java/comments/rmhowc/artificial_intelligence_made_this_video/)
+- [txtai: AI-powered search engine for Java;](https://www.reddit.com/r/java/comments/rmgfyo/txtai_aipowered_search_engine_for_java/)
+- [Micronaut 3. 2 Released for More Performant Microservices](https://www.reddit.com/r/java/comments/rmavxu/micronaut_3_2_released_for_more_performant/)
+- [A beginner&#39;s guide to custom Spring Data Repositories](https://www.reddit.com/r/java/comments/rm7ctu/a_beginners_guide_to_custom_spring_data/)
+- [Does anyone know if documentation is just stale or if im missing something on Thread.sleep&lpar;long millis, int nanos&rpar;?](https://www.reddit.com/r/java/comments/rm61r0/does_anyone_know_if_documentation_is_just_stale/)
+- [Build Kubernetes controllers with Fabric8 Kubernetes Client, Quarkus, and JKube](https://www.reddit.com/r/java/comments/rm34qg/build_kubernetes_controllers_with_fabric8/)
 - [Are there any other methods besides JVMTI for finding objects allocated in the heap ? &lpar;Hotspot VM&rpar;](https://www.reddit.com/r/java/comments/rlphw8/are_there_any_other_methods_besides_jvmti_for/)
 - [Monorepo with Gradle](https://www.reddit.com/r/java/comments/rlo5gb/monorepo_with_gradle/)
-- [Adding Spring Security with JWTs into a Java Project](https://www.reddit.com/r/java/comments/rll30e/adding_spring_security_with_jwts_into_a_java/)
-- [Java documentation explanation](https://www.reddit.com/r/java/comments/rlj3rh/java_documentation_explanation/)
 - [Java News Roundup: Updates on Log4Shell, Spring Framework 6.0-M1, WildFly 26](https://www.reddit.com/r/java/comments/rlirkn/java_news_roundup_updates_on_log4shell_spring/)
 - [Kibana alternatives &lpar;log viewing &rpar;](https://www.reddit.com/r/java/comments/rld7pn/kibana_alternatives_log_viewing/)
-- [Why doesn&#39;t everyone use gradle?](https://www.reddit.com/r/java/comments/rlc41l/why_doesnt_everyone_use_gradle/)
-- [From Maven 3 to Maven 5](https://www.reddit.com/r/java/comments/rlarbq/from_maven_3_to_maven_5/)
-- [The 5 Java Concise Syntax I Miss in Kotlin](https://www.reddit.com/r/java/comments/rl6kk2/the_5_java_concise_syntax_i_miss_in_kotlin/)
-- [Fallacies of Doom Lessons learned from porting Doom 3 to Java - Mahmoud Abdelghany](https://www.reddit.com/r/java/comments/rl5085/fallacies_of_doom_lessons_learned_from_porting/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
