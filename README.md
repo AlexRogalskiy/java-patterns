@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Artificial Intelligence Made This Video](https://www.reddit.com/r/java/comments/rmhowc/artificial_intelligence_made_this_video/)
-- [txtai: AI-powered search engine for Java;](https://www.reddit.com/r/java/comments/rmgfyo/txtai_aipowered_search_engine_for_java/)
+- [Hands-on with Dropwizard REST APIs](https://www.reddit.com/r/java/comments/rn4mbs/handson_with_dropwizard_rest_apis/)
+- [My real-time oscilloscope music rendering program written in Java](https://www.reddit.com/r/java/comments/rn4emr/my_realtime_oscilloscope_music_rendering_program/)
+- [New Loom EA build based on jdk-19+2 is available with some ScopeLocals changes](https://www.reddit.com/r/java/comments/rn21g0/new_loom_ea_build_based_on_jdk192_is_available/)
+- [Updated State of Valhalla documents](https://www.reddit.com/r/java/comments/rn0opy/updated_state_of_valhalla_documents/)
+- [AWS Is Out To Kill Mainframes: &quot;The cloud vendor wants to replace big iron with hyperscale servers, and COBOL – with Java&quot;](https://www.reddit.com/r/java/comments/rmwmmo/aws_is_out_to_kill_mainframes_the_cloud_vendor/)
 - [Micronaut 3. 2 Released for More Performant Microservices](https://www.reddit.com/r/java/comments/rmavxu/micronaut_3_2_released_for_more_performant/)
 - [A beginner&#39;s guide to custom Spring Data Repositories](https://www.reddit.com/r/java/comments/rm7ctu/a_beginners_guide_to_custom_spring_data/)
 - [Does anyone know if documentation is just stale or if im missing something on Thread.sleep&lpar;long millis, int nanos&rpar;?](https://www.reddit.com/r/java/comments/rm61r0/does_anyone_know_if_documentation_is_just_stale/)
 - [Build Kubernetes controllers with Fabric8 Kubernetes Client, Quarkus, and JKube](https://www.reddit.com/r/java/comments/rm34qg/build_kubernetes_controllers_with_fabric8/)
 - [Are there any other methods besides JVMTI for finding objects allocated in the heap ? &lpar;Hotspot VM&rpar;](https://www.reddit.com/r/java/comments/rlphw8/are_there_any_other_methods_besides_jvmti_for/)
-- [Monorepo with Gradle](https://www.reddit.com/r/java/comments/rlo5gb/monorepo_with_gradle/)
-- [Java News Roundup: Updates on Log4Shell, Spring Framework 6.0-M1, WildFly 26](https://www.reddit.com/r/java/comments/rlirkn/java_news_roundup_updates_on_log4shell_spring/)
-- [Kibana alternatives &lpar;log viewing &rpar;](https://www.reddit.com/r/java/comments/rld7pn/kibana_alternatives_log_viewing/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
