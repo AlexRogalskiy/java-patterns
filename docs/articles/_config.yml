@@ -1,0 +1,4 @@
+title: Articles
+collapse_single_pages: true
+nav:
+  - Default Template: default.md.tpl
