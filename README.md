@@ -280,21 +280,22 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Artificial Intelligence Made This Video](https://www.reddit.com/r/java/comments/rmhowc/artificial_intelligence_made_this_video/)
-- [txtai: AI-powered search engine for Java;](https://www.reddit.com/r/java/comments/rmgfyo/txtai_aipowered_search_engine_for_java/)
+- [Hands-on with Dropwizard REST APIs](https://www.reddit.com/r/java/comments/rn4mbs/handson_with_dropwizard_rest_apis/)
+- [My real-time oscilloscope music rendering program written in Java](https://www.reddit.com/r/java/comments/rn4emr/my_realtime_oscilloscope_music_rendering_program/)
+- [New Loom EA build based on jdk-19+2 is available with some ScopeLocals changes](https://www.reddit.com/r/java/comments/rn21g0/new_loom_ea_build_based_on_jdk192_is_available/)
+- [Updated State of Valhalla documents](https://www.reddit.com/r/java/comments/rn0opy/updated_state_of_valhalla_documents/)
+- [AWS Is Out To Kill Mainframes: &quot;The cloud vendor wants to replace big iron with hyperscale servers, and COBOL – with Java&quot;](https://www.reddit.com/r/java/comments/rmwmmo/aws_is_out_to_kill_mainframes_the_cloud_vendor/)
 - [Micronaut 3. 2 Released for More Performant Microservices](https://www.reddit.com/r/java/comments/rmavxu/micronaut_3_2_released_for_more_performant/)
 - [A beginner&#39;s guide to custom Spring Data Repositories](https://www.reddit.com/r/java/comments/rm7ctu/a_beginners_guide_to_custom_spring_data/)
 - [Does anyone know if documentation is just stale or if im missing something on Thread.sleep&lpar;long millis, int nanos&rpar;?](https://www.reddit.com/r/java/comments/rm61r0/does_anyone_know_if_documentation_is_just_stale/)
 - [Build Kubernetes controllers with Fabric8 Kubernetes Client, Quarkus, and JKube](https://www.reddit.com/r/java/comments/rm34qg/build_kubernetes_controllers_with_fabric8/)
 - [Are there any other methods besides JVMTI for finding objects allocated in the heap ? &lpar;Hotspot VM&rpar;](https://www.reddit.com/r/java/comments/rlphw8/are_there_any_other_methods_besides_jvmti_for/)
-- [Monorepo with Gradle](https://www.reddit.com/r/java/comments/rlo5gb/monorepo_with_gradle/)
-- [Java News Roundup: Updates on Log4Shell, Spring Framework 6.0-M1, WildFly 26](https://www.reddit.com/r/java/comments/rlirkn/java_news_roundup_updates_on_log4shell_spring/)
-- [Kibana alternatives &lpar;log viewing &rpar;](https://www.reddit.com/r/java/comments/rld7pn/kibana_alternatives_log_viewing/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [Hands-on with Dropwizard REST APIs](https://www.infoworld.com/article/3645503/hands-on-with-dropwizard-rest-apis.html#tk.rss_java)
 - [Why SBOM management is no longer optional](https://www.infoworld.com/article/3645452/why-sbom-management-is-no-longer-optional.html#tk.rss_java)
 - [How developers scrambled to secure the Log4j vulnerability](https://www.infoworld.com/article/3645131/how-developers-scrambled-to-secure-the-log4j-vulnerability.html#tk.rss_java)
 - [Azul brings Java compilation to the cloud](https://www.infoworld.com/article/3644971/azul-brings-java-compilation-to-the-cloud.html#tk.rss_java)
@@ -304,7 +305,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Kotlin 1.6.0 debuts memory manager](https://www.infoworld.com/article/3641254/kotlin-160-debuts-memory-manager.html#tk.rss_java)
 - [Java could get virtual threads](https://www.infoworld.com/article/3641288/java-could-get-virtual-threads.html#tk.rss_java)
 - [Kotlin roadmap points to compiler, mobile improvements](https://www.infoworld.com/article/3640580/kotlin-roadmap-points-to-compiler-mobile-improvements.html#tk.rss_java)
-- [OpenJDK proposals would bring universal generics to Java](https://www.infoworld.com/article/3639525/openjdk-proposals-would-bring-universal-generics-to-java.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
@@ -325,6 +325,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [Assing JsonIgnore on generated files in openapi](http://randomthoughtsonjavaprogramming.blogspot.com/2021/12/assing-jsonignore-on-generated-files-in.html)
 - [RESTEASY004590: You must define a @Consumes type on your client method or interface, or supply a default](http://randomthoughtsonjavaprogramming.blogspot.com/2021/12/resteasy004590-you-must-define-consumes.html)
 - [Replacing many if statements](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/replacing-many-if-statements.html)
 - [Running Mariadb on the Raspberry Pi](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/running-mariadb-on-raspberry-pi.html)
@@ -334,7 +335,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Netlify and Github pages](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/netlify-and-github-pages.html)
 - [My Printer&#39;s Gone!](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/my-printers-gone.html)
 - [Running Payara Micro on Java 11 via GraalVM on Docker on Jelastic](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/running-payara-micro-on-java-11-via.html)
-- [JDK17: The next Long Term Support Java](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/jdk17-next-long-term-support-java.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
@@ -355,6 +355,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [JDK 17 Script Friendly URLs](https://inside.java/2021/12/23/script-friendly-url/)
 - [Loom Brings Structured Concurrency - Inside Java Newscast](https://inside.java/2021/12/17/insidejava-newscast-17/)
 - [Client Applications Configuration with Oracle JDK 11+](https://inside.java/2021/12/15/client-applications-with-oracle-jdk11/)
 - [Understanding Metaspace and Class Space GC Log Entries](https://inside.java/2021/12/14/understanding-metaspace-and-class-space-gc-log/)
@@ -364,7 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Quality Outreach Heads-up - JDK 18: JEP 411](https://inside.java/2021/12/06/quality-heads-up/)
 - [Working with the Simple Web Server](https://inside.java/2021/12/06/working-with-the-simple-web-server/)
 - [Panama/Foreign Status Update](https://inside.java/2021/12/03/panama-update/)
-- [Simple Web Server - Inside Java Newscast](https://inside.java/2021/12/02/insidejava-newscast-016/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
