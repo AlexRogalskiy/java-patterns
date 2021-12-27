@@ -71,7 +71,7 @@
         "husky": "^7.0.1",
         "jsonlint": "^1.6.3",
         "license-checker": "^25.0.1",
-        "lint-staged": "^11.0.1",
+        "lint-staged": "^12.1.4",
         "markdown-link-check": "^3.8.7",
         "markdownlint-cli": "^0.27.1",
         "prettier": "^2.3.2",
