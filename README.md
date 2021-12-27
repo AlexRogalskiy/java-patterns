@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Certification course in JAVA](https://www.reddit.com/r/java/comments/rp1do1/certification_course_in_java/)
+- [Migration from Java EE to JakartaEE and Microprofile](https://www.reddit.com/r/java/comments/rovv5a/migration_from_java_ee_to_jakartaee_and/)
+- [How are LTS updates made?](https://www.reddit.com/r/java/comments/roteqw/how_are_lts_updates_made/)
+- [An epic tale: comparing JDBC and R2DBC in a real-world scenario &lpar;Part 2/2&rpar;](https://www.reddit.com/r/java/comments/rot4pq/an_epic_tale_comparing_jdbc_and_r2dbc_in_a/)
+- [JEP draft: Instruction Issue Cache Hardware Accommodation](https://www.reddit.com/r/java/comments/roplkk/jep_draft_instruction_issue_cache_hardware/)
 - [MicroProfile 5.0 Release with Updated Jakarta EE 9.1 Dependencies](https://www.reddit.com/r/java/comments/rofyj8/microprofile_50_release_with_updated_jakarta_ee/)
 - [Java Development on M1 Macs](https://www.reddit.com/r/java/comments/roc2j4/java_development_on_m1_macs/)
 - [JRE &amp; JDK implementation mess](https://www.reddit.com/r/java/comments/roc1d3/jre_jdk_implementation_mess/)
 - [What is something you made in Java to automate/make your job easier?](https://www.reddit.com/r/java/comments/rnwchs/what_is_something_you_made_in_java_to/)
 - [ExpressiveJava: Re-implementing a simple Scala interpreter in JDK 8/15/17. JDK 17 code nearly identical with use of Records + Pattern Matching + Sealed Types.](https://www.reddit.com/r/java/comments/rnoz2q/expressivejava_reimplementing_a_simple_scala/)
-- [Floating-point arithmetic: what every Java programmer should know](https://www.reddit.com/r/java/comments/rnim79/floatingpoint_arithmetic_what_every_java/)
-- [My real-time oscilloscope music rendering program written in Java](https://www.reddit.com/r/java/comments/rn4emr/my_realtime_oscilloscope_music_rendering_program/)
-- [New Loom EA build based on jdk-19+2 is available with some ScopeLocals changes](https://www.reddit.com/r/java/comments/rn21g0/new_loom_ea_build_based_on_jdk192_is_available/)
-- [Updated State of Valhalla documents](https://www.reddit.com/r/java/comments/rn0opy/updated_state_of_valhalla_documents/)
-- [AWS Is Out To Kill Mainframes: &quot;The cloud vendor wants to replace big iron with hyperscale servers, and COBOL – with Java&quot;](https://www.reddit.com/r/java/comments/rmwmmo/aws_is_out_to_kill_mainframes_the_cloud_vendor/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
