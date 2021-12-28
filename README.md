@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Is it worth looking at GraalVM native image?](https://www.reddit.com/r/java/comments/rpt4k9/is_it_worth_looking_at_graalvm_native_image/)
+- [MicroStream 6.0 Supports JDK 17, Spring Boot and Helidon](https://www.reddit.com/r/java/comments/rpmjm3/microstream_60_supports_jdk_17_spring_boot_and/)
+- [Do I even care about JBoss or are there better alternatives?](https://www.reddit.com/r/java/comments/rpjvjq/do_i_even_care_about_jboss_or_are_there_better/)
 - [Certification course in JAVA](https://www.reddit.com/r/java/comments/rp1do1/certification_course_in_java/)
 - [Migration from Java EE to JakartaEE and Microprofile](https://www.reddit.com/r/java/comments/rovv5a/migration_from_java_ee_to_jakartaee_and/)
 - [How are LTS updates made?](https://www.reddit.com/r/java/comments/roteqw/how_are_lts_updates_made/)
 - [An epic tale: comparing JDBC and R2DBC in a real-world scenario &lpar;Part 2/2&rpar;](https://www.reddit.com/r/java/comments/rot4pq/an_epic_tale_comparing_jdbc_and_r2dbc_in_a/)
 - [JEP draft: Instruction Issue Cache Hardware Accommodation](https://www.reddit.com/r/java/comments/roplkk/jep_draft_instruction_issue_cache_hardware/)
 - [MicroProfile 5.0 Release with Updated Jakarta EE 9.1 Dependencies](https://www.reddit.com/r/java/comments/rofyj8/microprofile_50_release_with_updated_jakarta_ee/)
-- [Java Development on M1 Macs](https://www.reddit.com/r/java/comments/roc2j4/java_development_on_m1_macs/)
 - [JRE &amp; JDK implementation mess](https://www.reddit.com/r/java/comments/roc1d3/jre_jdk_implementation_mess/)
-- [What is something you made in Java to automate/make your job easier?](https://www.reddit.com/r/java/comments/rnwchs/what_is_something_you_made_in_java_to/)
-- [ExpressiveJava: Re-implementing a simple Scala interpreter in JDK 8/15/17. JDK 17 code nearly identical with use of Records + Pattern Matching + Sealed Types.](https://www.reddit.com/r/java/comments/rnoz2q/expressivejava_reimplementing_a_simple_scala/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
