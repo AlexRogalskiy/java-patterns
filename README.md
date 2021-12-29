@@ -280,6 +280,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Jre or Jdk for production?](https://www.reddit.com/r/java/comments/rqsnyc/jre_or_jdk_for_production/)
+- [Spring Warehouse - A quest to learn more Java and Spring boot](https://www.reddit.com/r/java/comments/rqqvbh/spring_warehouse_a_quest_to_learn_more_java_and/)
+- [Java News Roundup: More Log4Shell Statements, Spring and Quarkus Updates, New Value Objects JEP](https://www.reddit.com/r/java/comments/rqau75/java_news_roundup_more_log4shell_statements/)
 - [Is it worth looking at GraalVM native image?](https://www.reddit.com/r/java/comments/rpt4k9/is_it_worth_looking_at_graalvm_native_image/)
 - [MicroStream 6.0 Supports JDK 17, Spring Boot and Helidon](https://www.reddit.com/r/java/comments/rpmjm3/microstream_60_supports_jdk_17_spring_boot_and/)
 - [Do I even care about JBoss or are there better alternatives?](https://www.reddit.com/r/java/comments/rpjvjq/do_i_even_care_about_jboss_or_are_there_better/)
@@ -287,9 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Migration from Java EE to JakartaEE and Microprofile](https://www.reddit.com/r/java/comments/rovv5a/migration_from_java_ee_to_jakartaee_and/)
 - [How are LTS updates made?](https://www.reddit.com/r/java/comments/roteqw/how_are_lts_updates_made/)
 - [An epic tale: comparing JDBC and R2DBC in a real-world scenario &lpar;Part 2/2&rpar;](https://www.reddit.com/r/java/comments/rot4pq/an_epic_tale_comparing_jdbc_and_r2dbc_in_a/)
-- [JEP draft: Instruction Issue Cache Hardware Accommodation](https://www.reddit.com/r/java/comments/roplkk/jep_draft_instruction_issue_cache_hardware/)
-- [MicroProfile 5.0 Release with Updated Jakarta EE 9.1 Dependencies](https://www.reddit.com/r/java/comments/rofyj8/microprofile_50_release_with_updated_jakarta_ee/)
-- [JRE &amp; JDK implementation mess](https://www.reddit.com/r/java/comments/roc1d3/jre_jdk_implementation_mess/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
