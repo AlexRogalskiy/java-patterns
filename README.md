@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Jre or Jdk for production?](https://www.reddit.com/r/java/comments/rqsnyc/jre_or_jdk_for_production/)
+- [Why everyone hates Java?](https://www.reddit.com/r/java/comments/rrlwi7/why_everyone_hates_java/)
+- [You don’t need an application server to run Jakarta EE applications](https://www.reddit.com/r/java/comments/rrkvcb/you_dont_need_an_application_server_to_run/)
+- [GlassFish 7 - M1 released! &lpar;early Jakarta EE 10 alpha&rpar;](https://www.reddit.com/r/java/comments/rrfqj3/glassfish_7_m1_released_early_jakarta_ee_10_alpha/)
+- [Spring Cloud annotations simplified: useful annotations and explanations that are worth knowing for developing microservices.](https://www.reddit.com/r/java/comments/rr7g0m/spring_cloud_annotations_simplified_useful/)
 - [Spring Warehouse - A quest to learn more Java and Spring boot](https://www.reddit.com/r/java/comments/rqqvbh/spring_warehouse_a_quest_to_learn_more_java_and/)
 - [Java News Roundup: More Log4Shell Statements, Spring and Quarkus Updates, New Value Objects JEP](https://www.reddit.com/r/java/comments/rqau75/java_news_roundup_more_log4shell_statements/)
 - [Is it worth looking at GraalVM native image?](https://www.reddit.com/r/java/comments/rpt4k9/is_it_worth_looking_at_graalvm_native_image/)
 - [MicroStream 6.0 Supports JDK 17, Spring Boot and Helidon](https://www.reddit.com/r/java/comments/rpmjm3/microstream_60_supports_jdk_17_spring_boot_and/)
 - [Do I even care about JBoss or are there better alternatives?](https://www.reddit.com/r/java/comments/rpjvjq/do_i_even_care_about_jboss_or_are_there_better/)
 - [Certification course in JAVA](https://www.reddit.com/r/java/comments/rp1do1/certification_course_in_java/)
-- [Migration from Java EE to JakartaEE and Microprofile](https://www.reddit.com/r/java/comments/rovv5a/migration_from_java_ee_to_jakartaee_and/)
-- [How are LTS updates made?](https://www.reddit.com/r/java/comments/roteqw/how_are_lts_updates_made/)
-- [An epic tale: comparing JDBC and R2DBC in a real-world scenario &lpar;Part 2/2&rpar;](https://www.reddit.com/r/java/comments/rot4pq/an_epic_tale_comparing_jdbc_and_r2dbc_in_a/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
