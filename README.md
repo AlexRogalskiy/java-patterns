@@ -370,6 +370,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Java programmer posts*
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [Method Overloading in Java With Example](https://www.thejavaprogrammer.com/method-overloading-in-java/)
 - [10 Best Laptop for Java Programming in India 2021](https://www.thejavaprogrammer.com/laptop-for-java-programming/)
 - [Types of Constants in Java](https://www.thejavaprogrammer.com/types-of-constants-in-java/)
 - [Java Collection Hierarchy](https://www.thejavaprogrammer.com/java-collection-hierarchy/)
@@ -379,7 +380,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Advantages and Disadvantages of Encapsulation in Java](https://www.thejavaprogrammer.com/advantages-and-disadvantages-of-encapsulation-in-java/)
 - [How to Find Array Length in Java with Examples](https://www.thejavaprogrammer.com/array-length-in-java/)
 - [Solved Error: cannot be cast to java.lang.Comparable](https://www.thejavaprogrammer.com/cannot-be-cast-to-java-lang-comparable/)
-- [Java String Interpolation with Examples](https://www.thejavaprogrammer.com/java-string-interpolation/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### *Dreamix posts*
