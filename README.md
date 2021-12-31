@@ -325,6 +325,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [Standard RAID levels](http://randomthoughtsonjavaprogramming.blogspot.com/2021/12/standard-raid-levels.html)
 - [Assing JsonIgnore on generated files in openapi](http://randomthoughtsonjavaprogramming.blogspot.com/2021/12/assing-jsonignore-on-generated-files-in.html)
 - [RESTEASY004590: You must define a @Consumes type on your client method or interface, or supply a default](http://randomthoughtsonjavaprogramming.blogspot.com/2021/12/resteasy004590-you-must-define-consumes.html)
 - [Replacing many if statements](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/replacing-many-if-statements.html)
@@ -334,7 +335,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Kotlin, AssertJ and Overloads](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/kotlin-assertj-and-overloads.html)
 - [Netlify and Github pages](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/netlify-and-github-pages.html)
 - [My Printer&#39;s Gone!](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/my-printers-gone.html)
-- [Running Payara Micro on Java 11 via GraalVM on Docker on Jelastic](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/running-payara-micro-on-java-11-via.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
