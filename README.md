@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Want to be an expert](https://www.reddit.com/r/java/comments/rsfyb4/want_to_be_an_expert/)
+- [Notes about loading configuration Examples for Play Framework and Spring Boot](https://www.reddit.com/r/java/comments/rsffzv/notes_about_loading_configuration_examples_for/)
+- [When would you use Spring Integration?](https://www.reddit.com/r/java/comments/rscyoe/when_would_you_use_spring_integration/)
+- [Does anybody enjoy CompletableFuture?](https://www.reddit.com/r/java/comments/rsa40l/does_anybody_enjoy_completablefuture/)
+- [How do you respond to a non programmer asking you: “You still work with Java!?” in a negative connotation?](https://www.reddit.com/r/java/comments/rs795i/how_do_you_respond_to_a_non_programmer_asking_you/)
+- [Keyset Pagination with Spring - Vlad Mihalcea](https://www.reddit.com/r/java/comments/rs3gou/keyset_pagination_with_spring_vlad_mihalcea/)
+- [Coming from C# to java world.](https://www.reddit.com/r/java/comments/rruosa/coming_from_c_to_java_world/)
 - [Why everyone hates Java?](https://www.reddit.com/r/java/comments/rrlwi7/why_everyone_hates_java/)
 - [You don’t need an application server to run Jakarta EE applications](https://www.reddit.com/r/java/comments/rrkvcb/you_dont_need_an_application_server_to_run/)
 - [GlassFish 7 - M1 released! &lpar;early Jakarta EE 10 alpha&rpar;](https://www.reddit.com/r/java/comments/rrfqj3/glassfish_7_m1_released_early_jakarta_ee_10_alpha/)
-- [Spring Cloud annotations simplified: useful annotations and explanations that are worth knowing for developing microservices.](https://www.reddit.com/r/java/comments/rr7g0m/spring_cloud_annotations_simplified_useful/)
-- [Spring Warehouse - A quest to learn more Java and Spring boot](https://www.reddit.com/r/java/comments/rqqvbh/spring_warehouse_a_quest_to_learn_more_java_and/)
-- [Java News Roundup: More Log4Shell Statements, Spring and Quarkus Updates, New Value Objects JEP](https://www.reddit.com/r/java/comments/rqau75/java_news_roundup_more_log4shell_statements/)
-- [Is it worth looking at GraalVM native image?](https://www.reddit.com/r/java/comments/rpt4k9/is_it_worth_looking_at_graalvm_native_image/)
-- [MicroStream 6.0 Supports JDK 17, Spring Boot and Helidon](https://www.reddit.com/r/java/comments/rpmjm3/microstream_60_supports_jdk_17_spring_boot_and/)
-- [Do I even care about JBoss or are there better alternatives?](https://www.reddit.com/r/java/comments/rpjvjq/do_i_even_care_about_jboss_or_are_there_better/)
-- [Certification course in JAVA](https://www.reddit.com/r/java/comments/rp1do1/certification_course_in_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
