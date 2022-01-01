@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Want to be an expert](https://www.reddit.com/r/java/comments/rsfyb4/want_to_be_an_expert/)
+- [Why is the Java Valhalla project named Valhalla?](https://www.reddit.com/r/java/comments/rt3wi8/why_is_the_java_valhalla_project_named_valhalla/)
+- [Happy New Year 2022 in Java!](https://www.reddit.com/r/java/comments/rsyot3/happy_new_year_2022_in_java/)
+- [What exactly is &#39;tearing&#39;?](https://www.reddit.com/r/java/comments/rsr8az/what_exactly_is_tearing/)
 - [Notes about loading configuration Examples for Play Framework and Spring Boot](https://www.reddit.com/r/java/comments/rsffzv/notes_about_loading_configuration_examples_for/)
 - [When would you use Spring Integration?](https://www.reddit.com/r/java/comments/rscyoe/when_would_you_use_spring_integration/)
 - [Does anybody enjoy CompletableFuture?](https://www.reddit.com/r/java/comments/rsa40l/does_anybody_enjoy_completablefuture/)
-- [How do you respond to a non programmer asking you: “You still work with Java!?” in a negative connotation?](https://www.reddit.com/r/java/comments/rs795i/how_do_you_respond_to_a_non_programmer_asking_you/)
 - [Keyset Pagination with Spring - Vlad Mihalcea](https://www.reddit.com/r/java/comments/rs3gou/keyset_pagination_with_spring_vlad_mihalcea/)
 - [Coming from C# to java world.](https://www.reddit.com/r/java/comments/rruosa/coming_from_c_to_java_world/)
 - [Why everyone hates Java?](https://www.reddit.com/r/java/comments/rrlwi7/why_everyone_hates_java/)
 - [You don’t need an application server to run Jakarta EE applications](https://www.reddit.com/r/java/comments/rrkvcb/you_dont_need_an_application_server_to_run/)
-- [GlassFish 7 - M1 released! &lpar;early Jakarta EE 10 alpha&rpar;](https://www.reddit.com/r/java/comments/rrfqj3/glassfish_7_m1_released_early_jakarta_ee_10_alpha/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
