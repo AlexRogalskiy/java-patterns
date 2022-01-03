@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Are there any java build tools which have not been written in Java?, If not, what could be the reason?](https://www.reddit.com/r/java/comments/ruoc37/are_there_any_java_build_tools_which_have_not/)
+- [Thoughts on Spring Boot](https://www.reddit.com/r/java/comments/ruoas7/thoughts_on_spring_boot/)
+- [Echopraxia, a better Java Logging API](https://www.reddit.com/r/java/comments/ruldk5/echopraxia_a_better_java_logging_api/)
+- [Java Tutor here, should I move on to Python?](https://www.reddit.com/r/java/comments/rujx1s/java_tutor_here_should_i_move_on_to_python/)
+- [Vavr or PFJ for functional Java?](https://www.reddit.com/r/java/comments/ruarod/vavr_or_pfj_for_functional_java/)
+- [Switching to Java](https://www.reddit.com/r/java/comments/ru9dxc/switching_to_java/)
 - [Worth earning Java 11 certification before trying to transition to a Java position?](https://www.reddit.com/r/java/comments/rtx1lz/worth_earning_java_11_certification_before_trying/)
 - [Why is the Java Valhalla project named Valhalla?](https://www.reddit.com/r/java/comments/rt3wi8/why_is_the_java_valhalla_project_named_valhalla/)
 - [What exactly is &#39;tearing&#39;?](https://www.reddit.com/r/java/comments/rsr8az/what_exactly_is_tearing/)
 - [Notes about loading configuration Examples for Play Framework and Spring Boot](https://www.reddit.com/r/java/comments/rsffzv/notes_about_loading_configuration_examples_for/)
-- [When would you use Spring Integration?](https://www.reddit.com/r/java/comments/rscyoe/when_would_you_use_spring_integration/)
-- [Does anybody enjoy CompletableFuture?](https://www.reddit.com/r/java/comments/rsa40l/does_anybody_enjoy_completablefuture/)
-- [Keyset Pagination with Spring - Vlad Mihalcea](https://www.reddit.com/r/java/comments/rs3gou/keyset_pagination_with_spring_vlad_mihalcea/)
-- [Coming from C# to java world.](https://www.reddit.com/r/java/comments/rruosa/coming_from_c_to_java_world/)
-- [Why everyone hates Java?](https://www.reddit.com/r/java/comments/rrlwi7/why_everyone_hates_java/)
-- [You don’t need an application server to run Jakarta EE applications](https://www.reddit.com/r/java/comments/rrkvcb/you_dont_need_an_application_server_to_run/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
