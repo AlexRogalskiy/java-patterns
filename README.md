@@ -295,6 +295,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [Project Valhalla tees up Java object model improvements](https://www.infoworld.com/article/3646092/project-valhalla-tees-up-java-object-model-improvements.html#tk.rss_java)
 - [What app developers need to do now to fight Log4j exploits](https://www.infoworld.com/article/3645908/what-app-developers-need-to-do-now-to-fight-log4j-exploits.html#tk.rss_java)
 - [Hands-on with Dropwizard REST APIs](https://www.infoworld.com/article/3645503/hands-on-with-dropwizard-rest-apis.html#tk.rss_java)
 - [Why SBOM management is no longer optional](https://www.infoworld.com/article/3645452/why-sbom-management-is-no-longer-optional.html#tk.rss_java)
@@ -304,7 +305,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [How to detect the Log4j vulnerability in your applications](https://www.infoworld.com/article/3644492/how-to-detect-the-log4j-vulnerability-in-your-applications.html#tk.rss_java)
 - [JetBrains previews next-gen Fleet IDE](https://www.infoworld.com/article/3642536/jetbrains-previews-next-gen-fleet-ide.html#tk.rss_java)
 - [Kotlin 1.6.0 debuts memory manager](https://www.infoworld.com/article/3641254/kotlin-160-debuts-memory-manager.html#tk.rss_java)
-- [Java could get virtual threads](https://www.infoworld.com/article/3641288/java-could-get-virtual-threads.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
