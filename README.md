@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Java leads job posts in Europe. Python leads US.](https://www.reddit.com/r/java/comments/rvcmn6/java_leads_job_posts_in_europe_python_leads_us/)
+- [Book notes on the GoF Design Patterns book](https://www.reddit.com/r/java/comments/rv2i0q/book_notes_on_the_gof_design_patterns_book/)
+- [Jaybird 4.0.5 and 3.0.12 released](https://www.reddit.com/r/java/comments/rv1trm/jaybird_405_and_3012_released/)
+- [Performance impact of java.lang.System.getProperty&lpar;&rpar;](https://www.reddit.com/r/java/comments/ruyvnr/performance_impact_of_javalangsystemgetproperty/)
+- [What are some useful static analyzers for Java?](https://www.reddit.com/r/java/comments/rur1yi/what_are_some_useful_static_analyzers_for_java/)
 - [Are there any java build tools which have not been written in Java?, If not, what could be the reason?](https://www.reddit.com/r/java/comments/ruoc37/are_there_any_java_build_tools_which_have_not/)
-- [Thoughts on Spring Boot](https://www.reddit.com/r/java/comments/ruoas7/thoughts_on_spring_boot/)
 - [Echopraxia, a better Java Logging API](https://www.reddit.com/r/java/comments/ruldk5/echopraxia_a_better_java_logging_api/)
-- [Java Tutor here, should I move on to Python?](https://www.reddit.com/r/java/comments/rujx1s/java_tutor_here_should_i_move_on_to_python/)
 - [Vavr or PFJ for functional Java?](https://www.reddit.com/r/java/comments/ruarod/vavr_or_pfj_for_functional_java/)
 - [Switching to Java](https://www.reddit.com/r/java/comments/ru9dxc/switching_to_java/)
 - [Worth earning Java 11 certification before trying to transition to a Java position?](https://www.reddit.com/r/java/comments/rtx1lz/worth_earning_java_11_certification_before_trying/)
-- [Why is the Java Valhalla project named Valhalla?](https://www.reddit.com/r/java/comments/rt3wi8/why_is_the_java_valhalla_project_named_valhalla/)
-- [What exactly is &#39;tearing&#39;?](https://www.reddit.com/r/java/comments/rsr8az/what_exactly_is_tearing/)
-- [Notes about loading configuration Examples for Play Framework and Spring Boot](https://www.reddit.com/r/java/comments/rsffzv/notes_about_loading_configuration_examples_for/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
