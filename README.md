@@ -295,6 +295,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [Python nabs programming language of the year honors](https://www.infoworld.com/article/3646136/python-nabs-programming-language-of-the-year-honors.html#tk.rss_java)
 - [Project Valhalla tees up Java object model improvements](https://www.infoworld.com/article/3646092/project-valhalla-tees-up-java-object-model-improvements.html#tk.rss_java)
 - [What app developers need to do now to fight Log4j exploits](https://www.infoworld.com/article/3645908/what-app-developers-need-to-do-now-to-fight-log4j-exploits.html#tk.rss_java)
 - [Hands-on with Dropwizard REST APIs](https://www.infoworld.com/article/3645503/hands-on-with-dropwizard-rest-apis.html#tk.rss_java)
@@ -304,7 +305,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JDK 18: The new features in Java 18](https://www.infoworld.com/article/3630510/jdk-18-the-new-features-in-java-18.html#tk.rss_java)
 - [How to detect the Log4j vulnerability in your applications](https://www.infoworld.com/article/3644492/how-to-detect-the-log4j-vulnerability-in-your-applications.html#tk.rss_java)
 - [JetBrains previews next-gen Fleet IDE](https://www.infoworld.com/article/3642536/jetbrains-previews-next-gen-fleet-ide.html#tk.rss_java)
-- [Kotlin 1.6.0 debuts memory manager](https://www.infoworld.com/article/3641254/kotlin-160-debuts-memory-manager.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
