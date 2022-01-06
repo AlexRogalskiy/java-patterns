@@ -90,6 +90,8 @@ plugins:
   - include-markdown # https://github.com/mondeja/mkdocs-include-markdown-plugin
   - minify:
       minify_html: true
+  - macros:
+      module_name: docs.mkdocs_macros
 
 # Extra
 extra:
