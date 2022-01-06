@@ -415,6 +415,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
+- [Hibernate Performance Tuning Tips – 2022 Edition](https://thorben-janssen.com/tips-to-boost-your-hibernate-performance/)
 - [The Best Spring Data JPA Logging Configuration in Spring Boot](https://thorben-janssen.com/spring-data-jpa-logging/)
 - [Naming Strategies in Hibernate 5](https://thorben-janssen.com/naming-strategies-in-hibernate-5/)
 - [The Best Mapping for Shared Technical Attributes With Hibernate](https://thorben-janssen.com/mapping-shared-technical-attributes/)
@@ -424,7 +425,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Spring Data JPA – Publishing Domain Events When Changing an Entity](https://thorben-janssen.com/spring-data-jpa-domain-event/)
 - [It’s Time to Make a Change](https://thorben-janssen.com/membership-announcement/)
 - [Fetching a DTO With a To-Many Association](https://thorben-janssen.com/fetching-dtos-with-to-many-association/)
-- [@DiscriminatorFormular – Modeling Single Table Inheritance Without a Discriminator](https://thorben-janssen.com/discriminatorformular/)
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*
