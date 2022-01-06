@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Modularization &lpar;modular-info.java&rpar;, maven, and testing misery](https://www.reddit.com/r/java/comments/rx2vzk/modularization_modularinfojava_maven_and_testing/)
+- [Java Installer doesn’t start](https://www.reddit.com/r/java/comments/rx1exx/java_installer_doesnt_start/)
+- [Java Matrix Benchmark is Updated! See how linear algebra libraries compare for speed](https://www.reddit.com/r/java/comments/rwyea6/java_matrix_benchmark_is_updated_see_how_linear/)
+- [Useful &amp; Unknown Java Features - Piotr&#39;s TechBlog](https://www.reddit.com/r/java/comments/rwq385/useful_unknown_java_features_piotrs_techblog/)
+- [John Snow Labs Spark-NLP 3.4.0: New OpenAI GPT-2, new ALBERT, XLNet, RoBERTa, XLM-RoBERTa, and Longformer for Sequence Classification, support for Spark 3.2, new distributed Word2Vec, extend support to more Databricks &amp; EMR runtimes, new state-of-the-art transformer models, bug fixes, and lots more!](https://www.reddit.com/r/java/comments/rwpssl/john_snow_labs_sparknlp_340_new_openai_gpt2_new/)
+- [IntelliJ IDEA plugin catches cut&#39;n&#39;pasted Java code](https://www.reddit.com/r/java/comments/rwm1ww/intellij_idea_plugin_catches_cutnpasted_java_code/)
+- [Making your RestTemplate fault tolerant with Resilience4J](https://www.reddit.com/r/java/comments/rwlzt9/making_your_resttemplate_fault_tolerant_with/)
+- [What are the benefits of garbage collection vs explicit memory cleanup ?](https://www.reddit.com/r/java/comments/rwim0w/what_are_the_benefits_of_garbage_collection_vs/)
+- [Coming from C/C++, what is Java?](https://www.reddit.com/r/java/comments/rwg1pe/coming_from_cc_what_is_java/)
 - [Why did java disable applet?](https://www.reddit.com/r/java/comments/rw6fbb/why_did_java_disable_applet/)
-- [Is there a cheatsheet for javafx ?](https://www.reddit.com/r/java/comments/rvwbzr/is_there_a_cheatsheet_for_javafx/)
-- [Is auto wiring recommend to handle dependency injection when building a maven library?](https://www.reddit.com/r/java/comments/rvv5oj/is_auto_wiring_recommend_to_handle_dependency/)
-- [Datafaker, an alternative to using Production Data](https://www.reddit.com/r/java/comments/rvuyf7/datafaker_an_alternative_to_using_production_data/)
-- [What&#39;s new in Java 18 for us, developers ?](https://www.reddit.com/r/java/comments/rvso80/whats_new_in_java_18_for_us_developers/)
-- [Helidon 2.4.1 released!](https://www.reddit.com/r/java/comments/rvqtal/helidon_241_released/)
-- [Java News Roundup: State of Project Valhalla by Brian Goetz, GlassFish 7.0-M1 and Project Loom Lab](https://www.reddit.com/r/java/comments/rvq66u/java_news_roundup_state_of_project_valhalla_by/)
-- [Book notes on the GoF Design Patterns book](https://www.reddit.com/r/java/comments/rv2i0q/book_notes_on_the_gof_design_patterns_book/)
-- [Jaybird 4.0.5 and 3.0.12 released](https://www.reddit.com/r/java/comments/rv1trm/jaybird_405_and_3012_released/)
-- [Performance impact of java.lang.System.getProperty&lpar;&rpar;](https://www.reddit.com/r/java/comments/ruyvnr/performance_impact_of_javalangsystemgetproperty/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
