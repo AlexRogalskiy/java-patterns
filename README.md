@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Modularization &lpar;modular-info.java&rpar;, maven, and testing misery](https://www.reddit.com/r/java/comments/rx2vzk/modularization_modularinfojava_maven_and_testing/)
-- [Java Installer doesn’t start](https://www.reddit.com/r/java/comments/rx1exx/java_installer_doesnt_start/)
-- [Java Matrix Benchmark is Updated! See how linear algebra libraries compare for speed](https://www.reddit.com/r/java/comments/rwyea6/java_matrix_benchmark_is_updated_see_how_linear/)
-- [Useful &amp; Unknown Java Features - Piotr&#39;s TechBlog](https://www.reddit.com/r/java/comments/rwq385/useful_unknown_java_features_piotrs_techblog/)
-- [John Snow Labs Spark-NLP 3.4.0: New OpenAI GPT-2, new ALBERT, XLNet, RoBERTa, XLM-RoBERTa, and Longformer for Sequence Classification, support for Spark 3.2, new distributed Word2Vec, extend support to more Databricks &amp; EMR runtimes, new state-of-the-art transformer models, bug fixes, and lots more!](https://www.reddit.com/r/java/comments/rwpssl/john_snow_labs_sparknlp_340_new_openai_gpt2_new/)
-- [IntelliJ IDEA plugin catches cut&#39;n&#39;pasted Java code](https://www.reddit.com/r/java/comments/rwm1ww/intellij_idea_plugin_catches_cutnpasted_java_code/)
-- [Making your RestTemplate fault tolerant with Resilience4J](https://www.reddit.com/r/java/comments/rwlzt9/making_your_resttemplate_fault_tolerant_with/)
-- [What are the benefits of garbage collection vs explicit memory cleanup ?](https://www.reddit.com/r/java/comments/rwim0w/what_are_the_benefits_of_garbage_collection_vs/)
-- [Coming from C/C++, what is Java?](https://www.reddit.com/r/java/comments/rwg1pe/coming_from_cc_what_is_java/)
-- [Why did java disable applet?](https://www.reddit.com/r/java/comments/rw6fbb/why_did_java_disable_applet/)
+- [A question about BigInteger and random constructor](https://www.reddit.com/r/java/comments/rxsdhp/a_question_about_biginteger_and_random_constructor/)
+- [Amazon Corretto, Microsoft Build of OpenJDK, Red Hat Build, IBM Semeru, Oracle, or something else?](https://www.reddit.com/r/java/comments/rxphik/amazon_corretto_microsoft_build_of_openjdk_red/)
+- [Are there any plans to create an official, comprehensive introductory documentation for Java 9+?](https://www.reddit.com/r/java/comments/rxm9vp/are_there_any_plans_to_create_an_official/)
+- [Records Patterns, Performance and Serialization - JEP Café #8](https://www.reddit.com/r/java/comments/rxjgyx/records_patterns_performance_and_serialization/)
+- [Good Java Source Code](https://www.reddit.com/r/java/comments/rxg3lf/good_java_source_code/)
+- [Background: How We Got the Generics We Have](https://www.reddit.com/r/java/comments/rxg2tz/background_how_we_got_the_generics_we_have/)
+- [Java management service by oracle cloud](https://www.reddit.com/r/java/comments/rxfh0x/java_management_service_by_oracle_cloud/)
+- [How much Integration test are too much?](https://www.reddit.com/r/java/comments/rxds86/how_much_integration_test_are_too_much/)
+- [Java Annotated Monthly - January 2022](https://www.reddit.com/r/java/comments/rxawcz/java_annotated_monthly_january_2022/)
+- [3.16.0 release with a new public query object model API, spatial support, YugabyteDB support and much more](https://www.reddit.com/r/java/comments/rxa5rg/3160_release_with_a_new_public_query_object_model/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
