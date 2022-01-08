@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Hi guys, I&#39;m trying to better understand the Java ecosystem but this doubt is bugging me out. Can someone help?](https://www.reddit.com/r/java/comments/ryn1ic/hi_guys_im_trying_to_better_understand_the_java/)
+- [Is there a &quot;Java Experts&quot; community?](https://www.reddit.com/r/java/comments/ryhjbg/is_there_a_java_experts_community/)
+- [Generating documentation sites for Maven projects](https://www.reddit.com/r/java/comments/rybhi8/generating_documentation_sites_for_maven_projects/)
+- [R2DBC and it’s usefulness](https://www.reddit.com/r/java/comments/ry7lii/r2dbc_and_its_usefulness/)
+- [Just starting to learn Java, but the book I have is for Java 11, a new edition of the same book is out today, but it&#39;s for Java 17. Should I spend 20 something $ On the new book?](https://www.reddit.com/r/java/comments/ry7evv/just_starting_to_learn_java_but_the_book_i_have/)
+- [Why is the JCK not public?](https://www.reddit.com/r/java/comments/ry2rsf/why_is_the_jck_not_public/)
+- [This sneaky hacking group targets old Java applications to break into networks](https://www.reddit.com/r/java/comments/rxx3be/this_sneaky_hacking_group_targets_old_java/)
 - [A question about BigInteger and random constructor](https://www.reddit.com/r/java/comments/rxsdhp/a_question_about_biginteger_and_random_constructor/)
 - [Amazon Corretto, Microsoft Build of OpenJDK, Red Hat Build, IBM Semeru, Oracle, or something else?](https://www.reddit.com/r/java/comments/rxphik/amazon_corretto_microsoft_build_of_openjdk_red/)
 - [Are there any plans to create an official, comprehensive introductory documentation for Java 9+?](https://www.reddit.com/r/java/comments/rxm9vp/are_there_any_plans_to_create_an_official/)
-- [Records Patterns, Performance and Serialization - JEP Café #8](https://www.reddit.com/r/java/comments/rxjgyx/records_patterns_performance_and_serialization/)
-- [Good Java Source Code](https://www.reddit.com/r/java/comments/rxg3lf/good_java_source_code/)
-- [Background: How We Got the Generics We Have](https://www.reddit.com/r/java/comments/rxg2tz/background_how_we_got_the_generics_we_have/)
-- [Java management service by oracle cloud](https://www.reddit.com/r/java/comments/rxfh0x/java_management_service_by_oracle_cloud/)
-- [How much Integration test are too much?](https://www.reddit.com/r/java/comments/rxds86/how_much_integration_test_are_too_much/)
-- [Java Annotated Monthly - January 2022](https://www.reddit.com/r/java/comments/rxawcz/java_annotated_monthly_january_2022/)
-- [3.16.0 release with a new public query object model API, spatial support, YugabyteDB support and much more](https://www.reddit.com/r/java/comments/rxa5rg/3160_release_with_a_new_public_query_object_model/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
