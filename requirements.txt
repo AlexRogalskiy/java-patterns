@@ -1,3 +1,4 @@
+jinja2>=2.11.1
 click-man>=0.4.1
 mkdocs>=1.2
 pygments>=2.4
@@ -11,6 +12,7 @@ python-markdown-math>=0.6
 mkdocs-material-extensions>=1.0
 mkdocs-git-revision-date-localized-plugin>=0.9.2
 mkdocs-awesome-pages-plugin>=2.5.0
+mkdocs-macros-plugin>=0.6.3
 mkdocs-static-i18n>=0.14
 mkdocs-minify-plugin>=0.5.0
 mdx-truly-sane-lists>=1.2
