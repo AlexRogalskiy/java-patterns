@@ -27,7 +27,10 @@ theme:
   name: material
   language: en
   highlightjs: true
-#   custom_dir: docs/overrides
+#   custom_dir: !ENV [THEME_DIR, "docs/overrides"]
+  # Static files
+  static_templates:
+    - 404.html
   font:
     text: Roboto
     code: Roboto Mono
@@ -41,6 +44,7 @@ theme:
     - navigation.instant
     - navigation.indexes
     - search.suggest
+    - search.share
     - search.highlight
     - header.autohide
     - toc.integrate
@@ -91,7 +95,8 @@ plugins:
   - minify:
       minify_html: true
   - macros:
-      module_name: docs.mkdocs_macros
+      modules:
+        - docs.mkdocs_macros
 
 # Extra
 extra:

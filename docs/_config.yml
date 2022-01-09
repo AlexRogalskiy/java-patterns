@@ -3,7 +3,6 @@ theme: jekyll-theme-cayman
 permalink: pretty
 
 baseurl: https://github.com/AlexRogalskiy/java-patterns
-title: Java Design Patterns
 description:
   Explores different architectural concepts and design principles for Java
   applications
