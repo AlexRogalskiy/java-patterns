@@ -280,7 +280,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Hi guys, I&#39;m trying to better understand the Java ecosystem but this doubt is bugging me out. Can someone help?](https://www.reddit.com/r/java/comments/ryn1ic/hi_guys_im_trying_to_better_understand_the_java/)
+- [Testing Log Statements in Spring Boot](https://www.reddit.com/r/java/comments/rzckzo/testing_log_statements_in_spring_boot/)
+- [A refresher on modern low-level Java file I/O](https://www.reddit.com/r/java/comments/rz1j0b/a_refresher_on_modern_lowlevel_java_file_io/)
+- [Log4Shell-like security hole found in popular Java SQL database engine H2](https://www.reddit.com/r/java/comments/ryrgqb/log4shelllike_security_hole_found_in_popular_java/)
 - [Is there a &quot;Java Experts&quot; community?](https://www.reddit.com/r/java/comments/ryhjbg/is_there_a_java_experts_community/)
 - [Generating documentation sites for Maven projects](https://www.reddit.com/r/java/comments/rybhi8/generating_documentation_sites_for_maven_projects/)
 - [R2DBC and it’s usefulness](https://www.reddit.com/r/java/comments/ry7lii/r2dbc_and_its_usefulness/)
@@ -288,8 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Why is the JCK not public?](https://www.reddit.com/r/java/comments/ry2rsf/why_is_the_jck_not_public/)
 - [This sneaky hacking group targets old Java applications to break into networks](https://www.reddit.com/r/java/comments/rxx3be/this_sneaky_hacking_group_targets_old_java/)
 - [A question about BigInteger and random constructor](https://www.reddit.com/r/java/comments/rxsdhp/a_question_about_biginteger_and_random_constructor/)
-- [Amazon Corretto, Microsoft Build of OpenJDK, Red Hat Build, IBM Semeru, Oracle, or something else?](https://www.reddit.com/r/java/comments/rxphik/amazon_corretto_microsoft_build_of_openjdk_red/)
-- [Are there any plans to create an official, comprehensive introductory documentation for Java 9+?](https://www.reddit.com/r/java/comments/rxm9vp/are_there_any_plans_to_create_an_official/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
