@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Testing Log Statements in Spring Boot](https://www.reddit.com/r/java/comments/rzckzo/testing_log_statements_in_spring_boot/)
+- [GlassFish 6.2.4 released!](https://www.reddit.com/r/java/comments/s04a2c/glassfish_624_released/)
+- [OCA 1z0-808 format help.](https://www.reddit.com/r/java/comments/s035cp/oca_1z0808_format_help/)
+- [A tentative comparison of fault tolerance libraries on the JVM](https://www.reddit.com/r/java/comments/rzsx8a/a_tentative_comparison_of_fault_tolerance/)
+- [Multi-release JARs - Good or bad idea?](https://www.reddit.com/r/java/comments/rzl15p/multirelease_jars_good_or_bad_idea/)
+- [Singleton Design Pattern in Java](https://www.reddit.com/r/java/comments/rzj68a/singleton_design_pattern_in_java/)
 - [A refresher on modern low-level Java file I/O](https://www.reddit.com/r/java/comments/rz1j0b/a_refresher_on_modern_lowlevel_java_file_io/)
 - [Log4Shell-like security hole found in popular Java SQL database engine H2](https://www.reddit.com/r/java/comments/ryrgqb/log4shelllike_security_hole_found_in_popular_java/)
 - [Is there a &quot;Java Experts&quot; community?](https://www.reddit.com/r/java/comments/ryhjbg/is_there_a_java_experts_community/)
 - [Generating documentation sites for Maven projects](https://www.reddit.com/r/java/comments/rybhi8/generating_documentation_sites_for_maven_projects/)
 - [R2DBC and it’s usefulness](https://www.reddit.com/r/java/comments/ry7lii/r2dbc_and_its_usefulness/)
-- [Just starting to learn Java, but the book I have is for Java 11, a new edition of the same book is out today, but it&#39;s for Java 17. Should I spend 20 something $ On the new book?](https://www.reddit.com/r/java/comments/ry7evv/just_starting_to_learn_java_but_the_book_i_have/)
-- [Why is the JCK not public?](https://www.reddit.com/r/java/comments/ry2rsf/why_is_the_jck_not_public/)
-- [This sneaky hacking group targets old Java applications to break into networks](https://www.reddit.com/r/java/comments/rxx3be/this_sneaky_hacking_group_targets_old_java/)
-- [A question about BigInteger and random constructor](https://www.reddit.com/r/java/comments/rxsdhp/a_question_about_biginteger_and_random_constructor/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
