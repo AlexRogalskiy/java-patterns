@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Gradle: JLink &amp; JPackage support](https://www.reddit.com/r/java/comments/s0xikh/gradle_jlink_jpackage_support/)
+- [JDK 18: Omit enclosing instance fields from inner classes that don&#39;t use it](https://www.reddit.com/r/java/comments/s0psq1/jdk_18_omit_enclosing_instance_fields_from_inner/)
+- [Java News Roundup: JDK 18, JDK 19, Groovy DSL for Spring Integration, JHipster, Micronaut Foundation](https://www.reddit.com/r/java/comments/s0lbyp/java_news_roundup_jdk_18_jdk_19_groovy_dsl_for/)
+- [Subreddit appreciation post](https://www.reddit.com/r/java/comments/s0b17v/subreddit_appreciation_post/)
 - [GlassFish 6.2.4 released!](https://www.reddit.com/r/java/comments/s04a2c/glassfish_624_released/)
 - [OCA 1z0-808 format help.](https://www.reddit.com/r/java/comments/s035cp/oca_1z0808_format_help/)
 - [A tentative comparison of fault tolerance libraries on the JVM](https://www.reddit.com/r/java/comments/rzsx8a/a_tentative_comparison_of_fault_tolerance/)
 - [Multi-release JARs - Good or bad idea?](https://www.reddit.com/r/java/comments/rzl15p/multirelease_jars_good_or_bad_idea/)
 - [Singleton Design Pattern in Java](https://www.reddit.com/r/java/comments/rzj68a/singleton_design_pattern_in_java/)
 - [A refresher on modern low-level Java file I/O](https://www.reddit.com/r/java/comments/rz1j0b/a_refresher_on_modern_lowlevel_java_file_io/)
-- [Log4Shell-like security hole found in popular Java SQL database engine H2](https://www.reddit.com/r/java/comments/ryrgqb/log4shelllike_security_hole_found_in_popular_java/)
-- [Is there a &quot;Java Experts&quot; community?](https://www.reddit.com/r/java/comments/ryhjbg/is_there_a_java_experts_community/)
-- [Generating documentation sites for Maven projects](https://www.reddit.com/r/java/comments/rybhi8/generating_documentation_sites_for_maven_projects/)
-- [R2DBC and it’s usefulness](https://www.reddit.com/r/java/comments/ry7lii/r2dbc_and_its_usefulness/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
