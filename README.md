@@ -355,6 +355,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Java SE - Write Once, Run Forever](https://inside.java/2022/01/10/write-once-run-forever/)
 - [Records Patterns, Performance and Serialization - JEP Café #8](https://inside.java/2022/01/06/jepcafe8/)
 - [State of Valhalla](https://inside.java/2021/12/27/state-of-valhalla/)
 - [11 Great Java Tricks From Dev.java](https://inside.java/2021/12/25/eleven-tips/)
@@ -364,7 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Client Applications Configuration with Oracle JDK 11+](https://inside.java/2021/12/15/client-applications-with-oracle-jdk11/)
 - [Understanding Metaspace and Class Space GC Log Entries](https://inside.java/2021/12/14/understanding-metaspace-and-class-space-gc-log/)
 - [Quality Outreach Heads-up - JDK 18: JEP 400](https://inside.java/2021/12/10/quality-heads-up/)
-- [String Concatenation - JEP Café #7](https://inside.java/2021/12/09/jepcafe7/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
