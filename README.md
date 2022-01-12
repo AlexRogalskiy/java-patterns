@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [What are some of your tips for improving the Java development experience?](https://www.reddit.com/r/java/comments/s1rgdy/what_are_some_of_your_tips_for_improving_the_java/)
+- [Java 17 Deep Dive by José Paumard](https://www.reddit.com/r/java/comments/s1okz6/java_17_deep_dive_by_josé_paumard/)
+- [Cattle - Run and Share Java Code](https://www.reddit.com/r/java/comments/s1o8nl/cattle_run_and_share_java_code/)
+- [Resources files not working in .jar](https://www.reddit.com/r/java/comments/s1nqz0/resources_files_not_working_in_jar/)
+- [[Event C4P] Last day of TypeVille Conference Call for Papers!](https://www.reddit.com/r/java/comments/s1jg8t/event_c4p_last_day_of_typeville_conference_call/)
+- [Join the DevOps - Programming - Cloud Discord Server!](https://www.reddit.com/r/java/comments/s1h21v/join_the_devops_programming_cloud_discord_server/)
+- [Open Source Java Project for Software Engineering](https://www.reddit.com/r/java/comments/s1f017/open_source_java_project_for_software_engineering/)
+- [Debugging RAM - Part 1: Java Garbage Collection - Java Heap Deep Dive](https://www.reddit.com/r/java/comments/s1cbl5/debugging_ram_part_1_java_garbage_collection_java/)
+- [How to monitor in terminal what Java process is running and how much ram it uses?](https://www.reddit.com/r/java/comments/s175bh/how_to_monitor_in_terminal_what_java_process_is/)
 - [Gradle: JLink &amp; JPackage support](https://www.reddit.com/r/java/comments/s0xikh/gradle_jlink_jpackage_support/)
-- [JDK 18: Omit enclosing instance fields from inner classes that don&#39;t use it](https://www.reddit.com/r/java/comments/s0psq1/jdk_18_omit_enclosing_instance_fields_from_inner/)
-- [Java News Roundup: JDK 18, JDK 19, Groovy DSL for Spring Integration, JHipster, Micronaut Foundation](https://www.reddit.com/r/java/comments/s0lbyp/java_news_roundup_jdk_18_jdk_19_groovy_dsl_for/)
-- [Subreddit appreciation post](https://www.reddit.com/r/java/comments/s0b17v/subreddit_appreciation_post/)
-- [GlassFish 6.2.4 released!](https://www.reddit.com/r/java/comments/s04a2c/glassfish_624_released/)
-- [OCA 1z0-808 format help.](https://www.reddit.com/r/java/comments/s035cp/oca_1z0808_format_help/)
-- [A tentative comparison of fault tolerance libraries on the JVM](https://www.reddit.com/r/java/comments/rzsx8a/a_tentative_comparison_of_fault_tolerance/)
-- [Multi-release JARs - Good or bad idea?](https://www.reddit.com/r/java/comments/rzl15p/multirelease_jars_good_or_bad_idea/)
-- [Singleton Design Pattern in Java](https://www.reddit.com/r/java/comments/rzj68a/singleton_design_pattern_in_java/)
-- [A refresher on modern low-level Java file I/O](https://www.reddit.com/r/java/comments/rz1j0b/a_refresher_on_modern_lowlevel_java_file_io/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
