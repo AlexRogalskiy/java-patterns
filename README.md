@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Nullaway fully supports switch expressions without issues now in 0.9.5](https://www.reddit.com/r/java/comments/s3g57f/nullaway_fully_supports_switch_expressions/)
+- [Java&#39;s Plans for 2022 - Inside Java Newscast #18](https://www.reddit.com/r/java/comments/s37cum/javas_plans_for_2022_inside_java_newscast_18/)
+- [Piranha 22.1.0 released!](https://www.reddit.com/r/java/comments/s30a06/piranha_2210_released/)
+- [Signals: A library for using decoupled observers](https://www.reddit.com/r/java/comments/s2nztt/signals_a_library_for_using_decoupled_observers/)
 - [Pants 2.9: Alpha support for Java and Scala](https://www.reddit.com/r/java/comments/s2iswp/pants_29_alpha_support_for_java_and_scala/)
 - [Zephyr 2.0.92 released!](https://www.reddit.com/r/java/comments/s2cg1y/zephyr_2092_released/)
 - [5 Common Pitfalls When Using Apache Kafka](https://www.reddit.com/r/java/comments/s2apa9/5_common_pitfalls_when_using_apache_kafka/)
 - [Getters and Setters are usually dumb](https://www.reddit.com/r/java/comments/s25v2r/getters_and_setters_are_usually_dumb/)
 - [2022-01-11 gRPC benchmark results](https://www.reddit.com/r/java/comments/s22vkv/20220111_grpc_benchmark_results/)
 - [Does anyone have experience with Java ME Embedded?](https://www.reddit.com/r/java/comments/s1x5vh/does_anyone_have_experience_with_java_me_embedded/)
-- [Java 17 Deep Dive by José Paumard](https://www.reddit.com/r/java/comments/s1okz6/java_17_deep_dive_by_josé_paumard/)
-- [Cattle - Run and Share Java Code](https://www.reddit.com/r/java/comments/s1o8nl/cattle_run_and_share_java_code/)
-- [[Event C4P] Last day of TypeVille Conference Call for Papers!](https://www.reddit.com/r/java/comments/s1jg8t/event_c4p_last_day_of_typeville_conference_call/)
-- [Debugging RAM - Part 1: Java Garbage Collection - Java Heap Deep Dive](https://www.reddit.com/r/java/comments/s1cbl5/debugging_ram_part_1_java_garbage_collection_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
