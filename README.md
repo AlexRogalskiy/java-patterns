@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Just to make sure, this is the official mooc.fi helsinki site that people have been learning on right?](https://www.reddit.com/r/java/comments/s44t5z/just_to_make_sure_this_is_the_official_moocfi/)
+- [Version 11 of Jailer, the real relational database client, is out now.](https://www.reddit.com/r/java/comments/s3ypuk/version_11_of_jailer_the_real_relational_database/)
+- [The JVM Lunch #1 - Log4Shell, Upcoming Java releases](https://www.reddit.com/r/java/comments/s3rlmd/the_jvm_lunch_1_log4shell_upcoming_java_releases/)
+- [Maintaining a medium-sized Java library in 2022 and beyond](https://www.reddit.com/r/java/comments/s3oypy/maintaining_a_mediumsized_java_library_in_2022/)
 - [Nullaway fully supports switch expressions without issues now in 0.9.5](https://www.reddit.com/r/java/comments/s3g57f/nullaway_fully_supports_switch_expressions/)
 - [Java&#39;s Plans for 2022 - Inside Java Newscast #18](https://www.reddit.com/r/java/comments/s37cum/javas_plans_for_2022_inside_java_newscast_18/)
 - [Piranha 22.1.0 released!](https://www.reddit.com/r/java/comments/s30a06/piranha_2210_released/)
 - [Signals: A library for using decoupled observers](https://www.reddit.com/r/java/comments/s2nztt/signals_a_library_for_using_decoupled_observers/)
 - [Pants 2.9: Alpha support for Java and Scala](https://www.reddit.com/r/java/comments/s2iswp/pants_29_alpha_support_for_java_and_scala/)
 - [Zephyr 2.0.92 released!](https://www.reddit.com/r/java/comments/s2cg1y/zephyr_2092_released/)
-- [5 Common Pitfalls When Using Apache Kafka](https://www.reddit.com/r/java/comments/s2apa9/5_common_pitfalls_when_using_apache_kafka/)
-- [Getters and Setters are usually dumb](https://www.reddit.com/r/java/comments/s25v2r/getters_and_setters_are_usually_dumb/)
-- [2022-01-11 gRPC benchmark results](https://www.reddit.com/r/java/comments/s22vkv/20220111_grpc_benchmark_results/)
-- [Does anyone have experience with Java ME Embedded?](https://www.reddit.com/r/java/comments/s1x5vh/does_anyone_have_experience_with_java_me_embedded/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
