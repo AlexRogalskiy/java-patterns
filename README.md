@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Just to make sure, this is the official mooc.fi helsinki site that people have been learning on right?](https://www.reddit.com/r/java/comments/s44t5z/just_to_make_sure_this_is_the_official_moocfi/)
+- [Java 9 Process API Improvements](https://www.reddit.com/r/java/comments/s4wbz9/java_9_process_api_improvements/)
+- [Keystore password in windows control panel vs keytool -&gt; where are the keys stored ?](https://www.reddit.com/r/java/comments/s4us5e/keystore_password_in_windows_control_panel_vs/)
+- [Rapid Micronaut Development With Microstarter CLI](https://www.reddit.com/r/java/comments/s4mwea/rapid_micronaut_development_with_microstarter_cli/)
+- [I created a library that exports your Spring endpoints into a Postman collection! Please, let me know what you think of it :&rpar;](https://www.reddit.com/r/java/comments/s4ldnm/i_created_a_library_that_exports_your_spring/)
+- [txtai 4.0 - semantic search with SQL, content storage, object storage and reindexing in Java](https://www.reddit.com/r/java/comments/s4ivk9/txtai_40_semantic_search_with_sql_content_storage/)
+- [we had to create a sorting method other than selection and inseruon, I present the mayhem sort.](https://www.reddit.com/r/java/comments/s4aa9z/we_had_to_create_a_sorting_method_other_than/)
 - [Version 11 of Jailer, the real relational database client, is out now.](https://www.reddit.com/r/java/comments/s3ypuk/version_11_of_jailer_the_real_relational_database/)
 - [The JVM Lunch #1 - Log4Shell, Upcoming Java releases](https://www.reddit.com/r/java/comments/s3rlmd/the_jvm_lunch_1_log4shell_upcoming_java_releases/)
 - [Maintaining a medium-sized Java library in 2022 and beyond](https://www.reddit.com/r/java/comments/s3oypy/maintaining_a_mediumsized_java_library_in_2022/)
 - [Nullaway fully supports switch expressions without issues now in 0.9.5](https://www.reddit.com/r/java/comments/s3g57f/nullaway_fully_supports_switch_expressions/)
-- [Java&#39;s Plans for 2022 - Inside Java Newscast #18](https://www.reddit.com/r/java/comments/s37cum/javas_plans_for_2022_inside_java_newscast_18/)
-- [Piranha 22.1.0 released!](https://www.reddit.com/r/java/comments/s30a06/piranha_2210_released/)
-- [Signals: A library for using decoupled observers](https://www.reddit.com/r/java/comments/s2nztt/signals_a_library_for_using_decoupled_observers/)
-- [Pants 2.9: Alpha support for Java and Scala](https://www.reddit.com/r/java/comments/s2iswp/pants_29_alpha_support_for_java_and_scala/)
-- [Zephyr 2.0.92 released!](https://www.reddit.com/r/java/comments/s2cg1y/zephyr_2092_released/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
