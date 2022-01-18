@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [You&#39;re running untrusted code!](https://www.reddit.com/r/java/comments/s5i5td/youre_running_untrusted_code/)
+- [Java beans](https://www.reddit.com/r/java/comments/s6g4qx/java_beans/)
+- [Kafka Clients in Java with Avro Serialization and Confluent Schema Registry](https://www.reddit.com/r/java/comments/s6bm2n/kafka_clients_in_java_with_avro_serialization_and/)
+- [Who remembers the Java applet game, Rollerboy 2? A group of Reddit users managed to track down the original source codes and this is the result](https://www.reddit.com/r/java/comments/s687o2/who_remembers_the_java_applet_game_rollerboy_2_a/)
+- [Java News Roundup: Java Plans for 2022, Spring 6.0-M2, Piranha 22.1.0, Quarkus 2.6.2](https://www.reddit.com/r/java/comments/s668ox/java_news_roundup_java_plans_for_2022_spring_60m2/)
+- [Using Playwright to automatically play Wordle](https://www.reddit.com/r/java/comments/s65vkt/using_playwright_to_automatically_play_wordle/)
+- [Reload4j. A drop-in replacement for log4j 1.2.17 &lpar;with the security issues fixed&rpar;](https://www.reddit.com/r/java/comments/s6151e/reload4j_a_dropin_replacement_for_log4j_1217_with/)
+- [JEP 421 and Finalization Deprecation - Inside Java Podcast](https://www.reddit.com/r/java/comments/s5wht4/jep_421_and_finalization_deprecation_inside_java/)
 - [Replacing Logging APIs with java.lang.System.Logger](https://www.reddit.com/r/java/comments/s5bomf/replacing_logging_apis_with_javalangsystemlogger/)
 - [Rapid Micronaut Development With Microstarter CLI](https://www.reddit.com/r/java/comments/s4mwea/rapid_micronaut_development_with_microstarter_cli/)
 - [I created a library that exports your Spring endpoints into a Postman collection! Please, let me know what you think of it :&rpar;](https://www.reddit.com/r/java/comments/s4ldnm/i_created_a_library_that_exports_your_spring/)
-- [txtai 4.0 - semantic search with SQL, content storage, object storage and reindexing in Java](https://www.reddit.com/r/java/comments/s4ivk9/txtai_40_semantic_search_with_sql_content_storage/)
-- [we had to create a sorting method other than selection and inseruon, I present the mayhem sort.](https://www.reddit.com/r/java/comments/s4aa9z/we_had_to_create_a_sorting_method_other_than/)
-- [Version 11 of Jailer, the real relational database client, is out now.](https://www.reddit.com/r/java/comments/s3ypuk/version_11_of_jailer_the_real_relational_database/)
-- [The JVM Lunch #1 - Log4Shell, Upcoming Java releases](https://www.reddit.com/r/java/comments/s3rlmd/the_jvm_lunch_1_log4shell_upcoming_java_releases/)
-- [Maintaining a medium-sized Java library in 2022 and beyond](https://www.reddit.com/r/java/comments/s3oypy/maintaining_a_mediumsized_java_library_in_2022/)
-- [Nullaway fully supports switch expressions without issues now in 0.9.5](https://www.reddit.com/r/java/comments/s3g57f/nullaway_fully_supports_switch_expressions/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
