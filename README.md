@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [How about this relic?](https://www.reddit.com/r/java/comments/s7d57r/how_about_this_relic/)
+- [Big Java Project - Gradle Update 5.x to 7.x](https://www.reddit.com/r/java/comments/s7ab7j/big_java_project_gradle_update_5x_to_7x/)
+- [Which O/S libraries does your Java code *interact* with the most?](https://www.reddit.com/r/java/comments/s79ylp/which_os_libraries_does_your_java_code_interact/)
+- [Hello can anyone please recommend me an advanced java course on udemy or any free course i can get](https://www.reddit.com/r/java/comments/s79d79/hello_can_anyone_please_recommend_me_an_advanced/)
+- [What’s something you wish they taught in school that you had to learn on your own](https://www.reddit.com/r/java/comments/s75wx8/whats_something_you_wish_they_taught_in_school/)
+- [Is OCAJP still worth it?](https://www.reddit.com/r/java/comments/s6x5kp/is_ocajp_still_worth_it/)
+- [What are some very less known facts about java?](https://www.reddit.com/r/java/comments/s6rymt/what_are_some_very_less_known_facts_about_java/)
 - [Java beans](https://www.reddit.com/r/java/comments/s6g4qx/java_beans/)
 - [Kafka Clients in Java with Avro Serialization and Confluent Schema Registry](https://www.reddit.com/r/java/comments/s6bm2n/kafka_clients_in_java_with_avro_serialization_and/)
 - [Who remembers the Java applet game, Rollerboy 2? A group of Reddit users managed to track down the original source codes and this is the result](https://www.reddit.com/r/java/comments/s687o2/who_remembers_the_java_applet_game_rollerboy_2_a/)
-- [Java News Roundup: Java Plans for 2022, Spring 6.0-M2, Piranha 22.1.0, Quarkus 2.6.2](https://www.reddit.com/r/java/comments/s668ox/java_news_roundup_java_plans_for_2022_spring_60m2/)
-- [Using Playwright to automatically play Wordle](https://www.reddit.com/r/java/comments/s65vkt/using_playwright_to_automatically_play_wordle/)
-- [Reload4j. A drop-in replacement for log4j 1.2.17 &lpar;with the security issues fixed&rpar;](https://www.reddit.com/r/java/comments/s6151e/reload4j_a_dropin_replacement_for_log4j_1217_with/)
-- [JEP 421 and Finalization Deprecation - Inside Java Podcast](https://www.reddit.com/r/java/comments/s5wht4/jep_421_and_finalization_deprecation_inside_java/)
-- [Replacing Logging APIs with java.lang.System.Logger](https://www.reddit.com/r/java/comments/s5bomf/replacing_logging_apis_with_javalangsystemlogger/)
-- [Rapid Micronaut Development With Microstarter CLI](https://www.reddit.com/r/java/comments/s4mwea/rapid_micronaut_development_with_microstarter_cli/)
-- [I created a library that exports your Spring endpoints into a Postman collection! Please, let me know what you think of it :&rpar;](https://www.reddit.com/r/java/comments/s4ldnm/i_created_a_library_that_exports_your_spring/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
