@@ -280,6 +280,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Can one technically use IntellJ CE for unsupported frameworks?](https://www.reddit.com/r/java/comments/s8f5ar/can_one_technically_use_intellj_ce_for/)
+- [Suggestion: completely disable serialization and JNDI in your application](https://www.reddit.com/r/java/comments/s8cua7/suggestion_completely_disable_serialization_and/)
 - [I just realised... the toString contract does not require deterministic behaviour.](https://www.reddit.com/r/java/comments/s84ifr/i_just_realised_the_tostring_contract_does_not/)
 - [ParallelGC throughput](https://www.reddit.com/r/java/comments/s7yr43/parallelgc_throughput/)
 - [The truth about starting with microservices](https://www.reddit.com/r/java/comments/s7lnew/the_truth_about_starting_with_microservices/)
@@ -288,8 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Java beans](https://www.reddit.com/r/java/comments/s6g4qx/java_beans/)
 - [Who remembers the Java applet game, Rollerboy 2? A group of Reddit users managed to track down the original source codes and this is the result](https://www.reddit.com/r/java/comments/s687o2/who_remembers_the_java_applet_game_rollerboy_2_a/)
 - [Java News Roundup: Java Plans for 2022, Spring 6.0-M2, Piranha 22.1.0, Quarkus 2.6.2](https://www.reddit.com/r/java/comments/s668ox/java_news_roundup_java_plans_for_2022_spring_60m2/)
-- [Using Playwright to automatically play Wordle](https://www.reddit.com/r/java/comments/s65vkt/using_playwright_to_automatically_play_wordle/)
-- [Reload4j. A drop-in replacement for log4j 1.2.17 &lpar;with the security issues fixed&rpar;](https://www.reddit.com/r/java/comments/s6151e/reload4j_a_dropin_replacement_for_log4j_1217_with/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
