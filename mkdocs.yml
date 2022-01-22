@@ -78,15 +78,17 @@ plugins:
       canonical_version: null  # the version for <link rel="canonical">; `null`
                                # uses the version specified via `mike deploy`
   - mermaid2
-  - search
+  - search:
+      lang:
+        - en
+        - ru
   - codeinclude
   - markdownextradata
   - i18n:
       default_language: en
       languages:
         en: English
-        uk: Українська
-        zh: 简体中文
+        ru: Russian
   - git-revision-date-localized: # https://squidfunk.github.io/mkdocs-material/plugins/revision-date/
       fallback_to_build_date: true
       type: date

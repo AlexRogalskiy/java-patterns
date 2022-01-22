@@ -37,6 +37,9 @@ VENV_BIN=$(VENV_NAME)/bin
 VENV_PIP=$(VENV_BIN)/pip3
 VENV_PYTHON=$(VENV_BIN)/python3
 
+MKDOCS_BUILD_OPTS = --clean --strict --verbose
+MKDOCS_SERVE_OPTS = --verbose --dirtyreload
+
 RELEASE_NAME := release
 GH_PAGES_NAME := site
 
@@ -281,7 +284,7 @@ install-pip:
 .PHONY: local-build
 local-build:
 	$(PYTHON) -m pip install -r ./docs/requirements.txt --disable-pip-version-check
-	$(PYTHON) -m mkdocs build --clean --config-file mkdocs.yml
+	$(PYTHON) -m mkdocs build $(MKDOCS_BUILD_OPTS) --config-file mkdocs.yml
 	@echo
 	@echo -e "$(cred)Python documentation build finished.$(cend)"
 	@echo
@@ -289,13 +292,13 @@ local-build:
 # Run local run command.
 .PHONY: local-run
 local-run: local-build
-	$(PYTHON) -m mkdocs serve --verbose --dirtyreload
+	$(PYTHON) -m mkdocs serve $(MKDOCS_SERVE_OPTS)
 
 # Run venv build command.
 .PHONY: venv-build
 venv-build: _venv
 	$(VENV_PYTHON) -m pip install -r ./docs/requirements.txt --disable-pip-version-check --no-cache-dir --prefer-binary
-	$(VENV_PYTHON) -m mkdocs build --clean --config-file mkdocs.yml
+	$(VENV_PYTHON) -m mkdocs build $(MKDOCS_BUILD_OPTS) --config-file mkdocs.yml
 	@echo
 	@echo -e "$(cred)Build finished. The source pages are in $(VENV_NAME) directory.$(cend)"
 	@echo
@@ -304,7 +307,7 @@ venv-build: _venv
 # Run venv run command.
 .PHONY: venv-run
 venv-run: venv-build
-	$(VENV_PYTHON) -m mkdocs serve --verbose --dirtyreload
+	$(VENV_PYTHON) -m mkdocs serve $(MKDOCS_SERVE_OPTS)
 
 # Run github pages deploy command.
 .PHONY: gh-pages
