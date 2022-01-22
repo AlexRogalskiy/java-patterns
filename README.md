@@ -280,7 +280,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Can one technically use IntellJ CE for unsupported frameworks?](https://www.reddit.com/r/java/comments/s8f5ar/can_one_technically_use_intellj_ce_for/)
+- [lambda x method reference taste](https://www.reddit.com/r/java/comments/s9hlfb/lambda_x_method_reference_taste/)
+- [Helidon FAQ:](https://www.reddit.com/r/java/comments/s9ar7a/helidon_faq/)
+- [.NET &lpar;Core&rpar; developer, looking for Java starting point for web applications](https://www.reddit.com/r/java/comments/s97sw4/net_core_developer_looking_for_java_starting/)
 - [Suggestion: completely disable serialization and JNDI in your application](https://www.reddit.com/r/java/comments/s8cua7/suggestion_completely_disable_serialization_and/)
 - [I just realised... the toString contract does not require deterministic behaviour.](https://www.reddit.com/r/java/comments/s84ifr/i_just_realised_the_tostring_contract_does_not/)
 - [ParallelGC throughput](https://www.reddit.com/r/java/comments/s7yr43/parallelgc_throughput/)
@@ -288,8 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [How about this relic?](https://www.reddit.com/r/java/comments/s7d57r/how_about_this_relic/)
 - [What are some very less known facts about java?](https://www.reddit.com/r/java/comments/s6rymt/what_are_some_very_less_known_facts_about_java/)
 - [Java beans](https://www.reddit.com/r/java/comments/s6g4qx/java_beans/)
-- [Who remembers the Java applet game, Rollerboy 2? A group of Reddit users managed to track down the original source codes and this is the result](https://www.reddit.com/r/java/comments/s687o2/who_remembers_the_java_applet_game_rollerboy_2_a/)
-- [Java News Roundup: Java Plans for 2022, Spring 6.0-M2, Piranha 22.1.0, Quarkus 2.6.2](https://www.reddit.com/r/java/comments/s668ox/java_news_roundup_java_plans_for_2022_spring_60m2/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
