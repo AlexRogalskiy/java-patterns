@@ -280,21 +280,22 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [lambda x method reference taste](https://www.reddit.com/r/java/comments/s9hlfb/lambda_x_method_reference_taste/)
+- [Helidon FAQ:](https://www.reddit.com/r/java/comments/s9ar7a/helidon_faq/)
+- [.NET &lpar;Core&rpar; developer, looking for Java starting point for web applications](https://www.reddit.com/r/java/comments/s97sw4/net_core_developer_looking_for_java_starting/)
+- [Suggestion: completely disable serialization and JNDI in your application](https://www.reddit.com/r/java/comments/s8cua7/suggestion_completely_disable_serialization_and/)
 - [I just realised... the toString contract does not require deterministic behaviour.](https://www.reddit.com/r/java/comments/s84ifr/i_just_realised_the_tostring_contract_does_not/)
 - [ParallelGC throughput](https://www.reddit.com/r/java/comments/s7yr43/parallelgc_throughput/)
 - [The truth about starting with microservices](https://www.reddit.com/r/java/comments/s7lnew/the_truth_about_starting_with_microservices/)
 - [How about this relic?](https://www.reddit.com/r/java/comments/s7d57r/how_about_this_relic/)
 - [What are some very less known facts about java?](https://www.reddit.com/r/java/comments/s6rymt/what_are_some_very_less_known_facts_about_java/)
 - [Java beans](https://www.reddit.com/r/java/comments/s6g4qx/java_beans/)
-- [Who remembers the Java applet game, Rollerboy 2? A group of Reddit users managed to track down the original source codes and this is the result](https://www.reddit.com/r/java/comments/s687o2/who_remembers_the_java_applet_game_rollerboy_2_a/)
-- [Java News Roundup: Java Plans for 2022, Spring 6.0-M2, Piranha 22.1.0, Quarkus 2.6.2](https://www.reddit.com/r/java/comments/s668ox/java_news_roundup_java_plans_for_2022_spring_60m2/)
-- [Using Playwright to automatically play Wordle](https://www.reddit.com/r/java/comments/s65vkt/using_playwright_to_automatically_play_wordle/)
-- [Reload4j. A drop-in replacement for log4j 1.2.17 &lpar;with the security issues fixed&rpar;](https://www.reddit.com/r/java/comments/s6151e/reload4j_a_dropin_replacement_for_log4j_1217_with/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [JDK 18: The new features in Java 18](https://www.infoworld.com/article/3630510/jdk-18-the-new-features-in-java-18.html#tk.rss_java)
 - [Python nabs programming language of the year honors](https://www.infoworld.com/article/3646136/python-nabs-programming-language-of-the-year-honors.html#tk.rss_java)
 - [Project Valhalla tees up Java object model improvements](https://www.infoworld.com/article/3646092/project-valhalla-tees-up-java-object-model-improvements.html#tk.rss_java)
 - [What app developers need to do now to fight Log4j exploits](https://www.infoworld.com/article/3645908/what-app-developers-need-to-do-now-to-fight-log4j-exploits.html#tk.rss_java)
@@ -302,7 +303,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Why SBOM management is no longer optional](https://www.infoworld.com/article/3645452/why-sbom-management-is-no-longer-optional.html#tk.rss_java)
 - [How developers scrambled to secure the Log4j vulnerability](https://www.infoworld.com/article/3645131/how-developers-scrambled-to-secure-the-log4j-vulnerability.html#tk.rss_java)
 - [Azul brings Java compilation to the cloud](https://www.infoworld.com/article/3644971/azul-brings-java-compilation-to-the-cloud.html#tk.rss_java)
-- [JDK 18: The new features in Java 18](https://www.infoworld.com/article/3630510/jdk-18-the-new-features-in-java-18.html#tk.rss_java)
 - [How to detect the Log4j vulnerability in your applications](https://www.infoworld.com/article/3644492/how-to-detect-the-log4j-vulnerability-in-your-applications.html#tk.rss_java)
 - [JetBrains previews next-gen Fleet IDE](https://www.infoworld.com/article/3642536/jetbrains-previews-next-gen-fleet-ide.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
@@ -310,6 +310,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Let's talk posts*
 
 <!-- LETSTALK-POST-LIST:START -->
+- [Link Dump #21](http://letstalkaboutjava.blogspot.com/2022/01/link-dump-21.html)
 - [Link Dump #20](http://letstalkaboutjava.blogspot.com/2022/01/link-dump-20.html)
 - [Link Dump #19](http://letstalkaboutjava.blogspot.com/2022/01/link-dump-19.html)
 - [Happy New Year 2022!](http://letstalkaboutjava.blogspot.com/2021/12/happy-new-year-2022.html)
@@ -319,12 +320,12 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Link Dump #15](http://letstalkaboutjava.blogspot.com/2021/12/link-dump-15.html)
 - [Link Dump #14](http://letstalkaboutjava.blogspot.com/2021/11/link-dump-14.html)
 - [Link Dump #13](http://letstalkaboutjava.blogspot.com/2021/11/link-dump-13.html)
-- [Link Dump #12](http://letstalkaboutjava.blogspot.com/2021/11/link-dump-12.html)
 <!-- LETSTALK-POST-LIST:END -->
 
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [Are we really engineers?](http://randomthoughtsonjavaprogramming.blogspot.com/2022/01/are-we-really-engineers.html)
 - [Standard RAID levels](http://randomthoughtsonjavaprogramming.blogspot.com/2021/12/standard-raid-levels.html)
 - [Assing JsonIgnore on generated files in openapi](http://randomthoughtsonjavaprogramming.blogspot.com/2021/12/assing-jsonignore-on-generated-files-in.html)
 - [RESTEASY004590: You must define a @Consumes type on your client method or interface, or supply a default](http://randomthoughtsonjavaprogramming.blogspot.com/2021/12/resteasy004590-you-must-define-consumes.html)
@@ -334,7 +335,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JFall 2021](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/jfall-2021.html)
 - [Kotlin, AssertJ and Overloads](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/kotlin-assertj-and-overloads.html)
 - [Netlify and Github pages](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/netlify-and-github-pages.html)
-- [My Printer&#39;s Gone!](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/my-printers-gone.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
