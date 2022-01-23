@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [OmniFaces 3.13 has been released!](https://www.reddit.com/r/java/comments/sabun3/omnifaces_313_has_been_released/)
+- [WildFly Release Plans for 2022](https://www.reddit.com/r/java/comments/sa2ln8/wildfly_release_plans_for_2022/)
+- [Effective Java SE 9 through 16 APIs/Lang features, makes your life easier](https://www.reddit.com/r/java/comments/s9zd3f/effective_java_se_9_through_16_apislang_features/)
+- [Novel uses of Core Java](https://www.reddit.com/r/java/comments/s9ywg9/novel_uses_of_core_java/)
+- [Magic Beans - automatic get/set, equals, hashCode, toString without any compiler hacks](https://www.reddit.com/r/java/comments/s9ypud/magic_beans_automatic_getset_equals_hashcode/)
+- [Video Demonstration of Zephyr&#39;s new UI!](https://www.reddit.com/r/java/comments/s9sc6o/video_demonstration_of_zephyrs_new_ui/)
 - [lambda x method reference taste](https://www.reddit.com/r/java/comments/s9hlfb/lambda_x_method_reference_taste/)
 - [Helidon FAQ:](https://www.reddit.com/r/java/comments/s9ar7a/helidon_faq/)
 - [.NET &lpar;Core&rpar; developer, looking for Java starting point for web applications](https://www.reddit.com/r/java/comments/s97sw4/net_core_developer_looking_for_java_starting/)
 - [Suggestion: completely disable serialization and JNDI in your application](https://www.reddit.com/r/java/comments/s8cua7/suggestion_completely_disable_serialization_and/)
-- [I just realised... the toString contract does not require deterministic behaviour.](https://www.reddit.com/r/java/comments/s84ifr/i_just_realised_the_tostring_contract_does_not/)
-- [ParallelGC throughput](https://www.reddit.com/r/java/comments/s7yr43/parallelgc_throughput/)
-- [The truth about starting with microservices](https://www.reddit.com/r/java/comments/s7lnew/the_truth_about_starting_with_microservices/)
-- [How about this relic?](https://www.reddit.com/r/java/comments/s7d57r/how_about_this_relic/)
-- [What are some very less known facts about java?](https://www.reddit.com/r/java/comments/s6rymt/what_are_some_very_less_known_facts_about_java/)
-- [Java beans](https://www.reddit.com/r/java/comments/s6g4qx/java_beans/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
