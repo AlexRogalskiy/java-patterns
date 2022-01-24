@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [OmniFaces 3.13 has been released!](https://www.reddit.com/r/java/comments/sabun3/omnifaces_313_has_been_released/)
-- [WildFly Release Plans for 2022](https://www.reddit.com/r/java/comments/sa2ln8/wildfly_release_plans_for_2022/)
-- [Effective Java SE 9 through 16 APIs/Lang features, makes your life easier](https://www.reddit.com/r/java/comments/s9zd3f/effective_java_se_9_through_16_apislang_features/)
-- [Novel uses of Core Java](https://www.reddit.com/r/java/comments/s9ywg9/novel_uses_of_core_java/)
-- [Magic Beans - automatic get/set, equals, hashCode, toString without any compiler hacks](https://www.reddit.com/r/java/comments/s9ypud/magic_beans_automatic_getset_equals_hashcode/)
-- [Video Demonstration of Zephyr&#39;s new UI!](https://www.reddit.com/r/java/comments/s9sc6o/video_demonstration_of_zephyrs_new_ui/)
-- [lambda x method reference taste](https://www.reddit.com/r/java/comments/s9hlfb/lambda_x_method_reference_taste/)
-- [Helidon FAQ:](https://www.reddit.com/r/java/comments/s9ar7a/helidon_faq/)
-- [.NET &lpar;Core&rpar; developer, looking for Java starting point for web applications](https://www.reddit.com/r/java/comments/s97sw4/net_core_developer_looking_for_java_starting/)
-- [Suggestion: completely disable serialization and JNDI in your application](https://www.reddit.com/r/java/comments/s8cua7/suggestion_completely_disable_serialization_and/)
+- [Netbeans vs Eclipse vs IntellJ](https://www.reddit.com/r/java/comments/sb7ag6/netbeans_vs_eclipse_vs_intellj/)
+- [Example Project for setting up Spring Boot with PostgreSQL. Complete with unit and integration testing.](https://www.reddit.com/r/java/comments/sb46mc/example_project_for_setting_up_spring_boot_with/)
+- [Treat security as a risk](https://www.reddit.com/r/java/comments/say8qc/treat_security_as_a_risk/)
+- [I created a library like Retrofit and OpenFeign, but using codegen](https://www.reddit.com/r/java/comments/sax4vb/i_created_a_library_like_retrofit_and_openfeign/)
+- [I know the JLS is not aimed at mere mortals. But Sheesh!](https://www.reddit.com/r/java/comments/saw0i5/i_know_the_jls_is_not_aimed_at_mere_mortals_but/)
+- [Opinions on using Optional&lt;&gt; as parameter](https://www.reddit.com/r/java/comments/sat1j4/opinions_on_using_optional_as_parameter/)
+- [ssslasher, a multithreaded and easy to use tool to bruteforce user passwords over ssh written &lpar;mainly&rpar; in java.](https://www.reddit.com/r/java/comments/sar13i/ssslasher_a_multithreaded_and_easy_to_use_tool_to/)
+- [Employee motivation](https://www.reddit.com/r/java/comments/sapil0/employee_motivation/)
+- [Last weekend&#39;s cassette audio. Enjoy?](https://www.reddit.com/r/java/comments/sampra/last_weekends_cassette_audio_enjoy/)
+- [Recommended book resource for Java web development](https://www.reddit.com/r/java/comments/salg43/recommended_book_resource_for_java_web_development/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
