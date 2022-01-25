@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Netbeans vs Eclipse vs IntellJ](https://www.reddit.com/r/java/comments/sb7ag6/netbeans_vs_eclipse_vs_intellj/)
+- [It’s happening guys!](https://www.reddit.com/r/java/comments/sbxc3d/its_happening_guys/)
+- [Caribou: Use data-driven metrics to reduce your technical debt](https://www.reddit.com/r/java/comments/sbth9i/caribou_use_datadriven_metrics_to_reduce_your/)
+- [Distributed Transactions in Microservices with Kafka Streams and Spring Boot - Piotr&#39;s TechBlog](https://www.reddit.com/r/java/comments/sbjwl7/distributed_transactions_in_microservices_with/)
+- [New generation of Java programers](https://www.reddit.com/r/java/comments/sbd0ya/new_generation_of_java_programers/)
 - [Example Project for setting up Spring Boot with PostgreSQL. Complete with unit and integration testing.](https://www.reddit.com/r/java/comments/sb46mc/example_project_for_setting_up_spring_boot_with/)
 - [Treat security as a risk](https://www.reddit.com/r/java/comments/say8qc/treat_security_as_a_risk/)
 - [I created a library like Retrofit and OpenFeign, but using codegen](https://www.reddit.com/r/java/comments/sax4vb/i_created_a_library_like_retrofit_and_openfeign/)
 - [I know the JLS is not aimed at mere mortals. But Sheesh!](https://www.reddit.com/r/java/comments/saw0i5/i_know_the_jls_is_not_aimed_at_mere_mortals_but/)
 - [Opinions on using Optional&lt;&gt; as parameter](https://www.reddit.com/r/java/comments/sat1j4/opinions_on_using_optional_as_parameter/)
 - [ssslasher, a multithreaded and easy to use tool to bruteforce user passwords over ssh written &lpar;mainly&rpar; in java.](https://www.reddit.com/r/java/comments/sar13i/ssslasher_a_multithreaded_and_easy_to_use_tool_to/)
-- [Employee motivation](https://www.reddit.com/r/java/comments/sapil0/employee_motivation/)
-- [Last weekend&#39;s cassette audio. Enjoy?](https://www.reddit.com/r/java/comments/sampra/last_weekends_cassette_audio_enjoy/)
-- [Recommended book resource for Java web development](https://www.reddit.com/r/java/comments/salg43/recommended_book_resource_for_java_web_development/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
