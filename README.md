@@ -415,6 +415,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
+- [Logging Guide for Hibernate 4, 5 &amp; 6 – Use the right config for dev and prod](https://thorben-janssen.com/hibernate-logging-guide/)
 - [Dynamic Inserts and Updates with Spring Data JPA](https://thorben-janssen.com/dynamic-inserts-and-updates-with-spring-data-jpa/)
 - [FlushMode in JPA and Hibernate – What it is and how to change it](https://thorben-janssen.com/flushmode-in-jpa-and-hibernate/)
 - [Hibernate Performance Tuning Tips – 2022 Edition](https://thorben-janssen.com/tips-to-boost-your-hibernate-performance/)
@@ -424,7 +425,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Mixing Inheritance Mapping Strategies with Hibernate](https://thorben-janssen.com/hibernate-mix-inheritance-mappings/)
 - [Implementing Bulk Updates with Spring Data JPA](https://thorben-janssen.com/implementing-bulk-updates-with-spring-data-jpa/)
 - [Announcing the Persistence Hub](https://thorben-janssen.com/announcing-the-persistence-hub/)
-- [Spring Data JPA – Publishing Domain Events When Changing an Entity](https://thorben-janssen.com/spring-data-jpa-domain-event/)
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*
