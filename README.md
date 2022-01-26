@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Reviewing feedback on patterns in switch &lpar;Brian Goetz&rpar;](https://www.reddit.com/r/java/comments/scnkm2/reviewing_feedback_on_patterns_in_switch_brian/)
+- [Dagger clone with a module info](https://www.reddit.com/r/java/comments/scky5t/dagger_clone_with_a_module_info/)
+- [Missing offline Java conferences? Check out TypeVille!](https://www.reddit.com/r/java/comments/scg6xj/missing_offline_java_conferences_check_out/)
+- [Do you think Java will some day finally remove the need of Lombok&#39;s @Data annotation?](https://www.reddit.com/r/java/comments/sc9tju/do_you_think_java_will_some_day_finally_remove/)
 - [It’s happening guys!](https://www.reddit.com/r/java/comments/sbxc3d/its_happening_guys/)
 - [Caribou: Use data-driven metrics to reduce your technical debt](https://www.reddit.com/r/java/comments/sbth9i/caribou_use_datadriven_metrics_to_reduce_your/)
 - [Distributed Transactions in Microservices with Kafka Streams and Spring Boot - Piotr&#39;s TechBlog](https://www.reddit.com/r/java/comments/sbjwl7/distributed_transactions_in_microservices_with/)
 - [New generation of Java programers](https://www.reddit.com/r/java/comments/sbd0ya/new_generation_of_java_programers/)
-- [Example Project for setting up Spring Boot with PostgreSQL. Complete with unit and integration testing.](https://www.reddit.com/r/java/comments/sb46mc/example_project_for_setting_up_spring_boot_with/)
 - [Treat security as a risk](https://www.reddit.com/r/java/comments/say8qc/treat_security_as_a_risk/)
 - [I created a library like Retrofit and OpenFeign, but using codegen](https://www.reddit.com/r/java/comments/sax4vb/i_created_a_library_like_retrofit_and_openfeign/)
-- [I know the JLS is not aimed at mere mortals. But Sheesh!](https://www.reddit.com/r/java/comments/saw0i5/i_know_the_jls_is_not_aimed_at_mere_mortals_but/)
-- [Opinions on using Optional&lt;&gt; as parameter](https://www.reddit.com/r/java/comments/sat1j4/opinions_on_using_optional_as_parameter/)
-- [ssslasher, a multithreaded and easy to use tool to bruteforce user passwords over ssh written &lpar;mainly&rpar; in java.](https://www.reddit.com/r/java/comments/sar13i/ssslasher_a_multithreaded_and_easy_to_use_tool_to/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
