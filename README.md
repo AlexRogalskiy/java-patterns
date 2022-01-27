@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Lenses in Java](https://www.reddit.com/r/java/comments/sdm12w/lenses_in_java/)
+- [JSpecify: Express specifications &lpar;initially, just nullness properties&rpar; in a machine-readable way](https://www.reddit.com/r/java/comments/sdcqwq/jspecify_express_specifications_initially_just/)
+- [Support for new changes to SSL certificates in Open Liberty 22.0.0.2-beta](https://www.reddit.com/r/java/comments/sdclsp/support_for_new_changes_to_ssl_certificates_in/)
+- [Error Prone 2.11.0 Released. Requires JDK11+](https://www.reddit.com/r/java/comments/scxd1e/error_prone_2110_released_requires_jdk11/)
 - [Reviewing feedback on patterns in switch &lpar;Brian Goetz&rpar;](https://www.reddit.com/r/java/comments/scnkm2/reviewing_feedback_on_patterns_in_switch_brian/)
 - [Dagger clone with a module info](https://www.reddit.com/r/java/comments/scky5t/dagger_clone_with_a_module_info/)
 - [Missing offline Java conferences? Check out TypeVille!](https://www.reddit.com/r/java/comments/scg6xj/missing_offline_java_conferences_check_out/)
 - [Do you think Java will some day finally remove the need of Lombok&#39;s @Data annotation?](https://www.reddit.com/r/java/comments/sc9tju/do_you_think_java_will_some_day_finally_remove/)
 - [It’s happening guys!](https://www.reddit.com/r/java/comments/sbxc3d/its_happening_guys/)
 - [Caribou: Use data-driven metrics to reduce your technical debt](https://www.reddit.com/r/java/comments/sbth9i/caribou_use_datadriven_metrics_to_reduce_your/)
-- [Distributed Transactions in Microservices with Kafka Streams and Spring Boot - Piotr&#39;s TechBlog](https://www.reddit.com/r/java/comments/sbjwl7/distributed_transactions_in_microservices_with/)
-- [New generation of Java programers](https://www.reddit.com/r/java/comments/sbd0ya/new_generation_of_java_programers/)
-- [Treat security as a risk](https://www.reddit.com/r/java/comments/say8qc/treat_security_as_a_risk/)
-- [I created a library like Retrofit and OpenFeign, but using codegen](https://www.reddit.com/r/java/comments/sax4vb/i_created_a_library_like_retrofit_and_openfeign/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
