@@ -295,6 +295,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [GraalVM 22.0 promises a better developer experience](https://www.infoworld.com/article/3648448/graalvm-220-promises-a-better-developer-experience.html#tk.rss_java)
 - [Microsoft publishes Java roadmap for Visual Studio Code](https://www.infoworld.com/article/3648290/microsoft-looks-to-woo-more-java-developers-to-visual-studio-code.html#tk.rss_java)
 - [JDK 18: The new features in Java 18](https://www.infoworld.com/article/3630510/jdk-18-the-new-features-in-java-18.html#tk.rss_java)
 - [Python nabs programming language of the year honors](https://www.infoworld.com/article/3646136/python-nabs-programming-language-of-the-year-honors.html#tk.rss_java)
@@ -304,7 +305,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Why SBOM management is no longer optional](https://www.infoworld.com/article/3645452/why-sbom-management-is-no-longer-optional.html#tk.rss_java)
 - [How developers scrambled to secure the Log4j vulnerability](https://www.infoworld.com/article/3645131/how-developers-scrambled-to-secure-the-log4j-vulnerability.html#tk.rss_java)
 - [Azul brings Java compilation to the cloud](https://www.infoworld.com/article/3644971/azul-brings-java-compilation-to-the-cloud.html#tk.rss_java)
-- [How to detect the Log4j vulnerability in your applications](https://www.infoworld.com/article/3644492/how-to-detect-the-log4j-vulnerability-in-your-applications.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
