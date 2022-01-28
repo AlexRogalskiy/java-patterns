@@ -325,6 +325,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [RAID Mirrorring with ADM](http://randomthoughtsonjavaprogramming.blogspot.com/2022/01/raid-mirrorring-with-adm.html)
 - [Are we really engineers?](http://randomthoughtsonjavaprogramming.blogspot.com/2022/01/are-we-really-engineers.html)
 - [Standard RAID levels](http://randomthoughtsonjavaprogramming.blogspot.com/2021/12/standard-raid-levels.html)
 - [Assing JsonIgnore on generated files in openapi](http://randomthoughtsonjavaprogramming.blogspot.com/2021/12/assing-jsonignore-on-generated-files-in.html)
@@ -334,7 +335,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [LetsEncrypt with Webroot](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/letsencrypt-with-webroot.html)
 - [JFall 2021](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/jfall-2021.html)
 - [Kotlin, AssertJ and Overloads](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/kotlin-assertj-and-overloads.html)
-- [Netlify and Github pages](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/netlify-and-github-pages.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
