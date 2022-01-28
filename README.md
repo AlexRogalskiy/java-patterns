@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Where to use Optional [Inside Java Newscast]](https://www.reddit.com/r/java/comments/seali3/where_to_use_optional_inside_java_newscast/)
+- [GitHub - locationtech/jts: The JTS Topology Suite is a Java library for creating and manipulating vector geometry.](https://www.reddit.com/r/java/comments/se98xn/github_locationtechjts_the_jts_topology_suite_is/)
+- [Netflix builds their own OpenJDK](https://www.reddit.com/r/java/comments/se6s7p/netflix_builds_their_own_openjdk/)
+- [What GUI options are available for Java?](https://www.reddit.com/r/java/comments/se5wxl/what_gui_options_are_available_for_java/)
+- [Profiling a native agent ?](https://www.reddit.com/r/java/comments/se2ji8/profiling_a_native_agent/)
+- [What&#39;s New in MicroProfile 5.0](https://www.reddit.com/r/java/comments/se24eg/whats_new_in_microprofile_50/)
+- [Weld 5.0.0.Beta1 released!](https://www.reddit.com/r/java/comments/se0ykt/weld_500beta1_released/)
 - [Lenses in Java](https://www.reddit.com/r/java/comments/sdm12w/lenses_in_java/)
 - [JSpecify: Express specifications &lpar;initially, just nullness properties&rpar; in a machine-readable way](https://www.reddit.com/r/java/comments/sdcqwq/jspecify_express_specifications_initially_just/)
 - [Support for new changes to SSL certificates in Open Liberty 22.0.0.2-beta](https://www.reddit.com/r/java/comments/sdclsp/support_for_new_changes_to_ssl_certificates_in/)
-- [Error Prone 2.11.0 Released. Requires JDK11+](https://www.reddit.com/r/java/comments/scxd1e/error_prone_2110_released_requires_jdk11/)
-- [Reviewing feedback on patterns in switch &lpar;Brian Goetz&rpar;](https://www.reddit.com/r/java/comments/scnkm2/reviewing_feedback_on_patterns_in_switch_brian/)
-- [Dagger clone with a module info](https://www.reddit.com/r/java/comments/scky5t/dagger_clone_with_a_module_info/)
-- [Missing offline Java conferences? Check out TypeVille!](https://www.reddit.com/r/java/comments/scg6xj/missing_offline_java_conferences_check_out/)
-- [Do you think Java will some day finally remove the need of Lombok&#39;s @Data annotation?](https://www.reddit.com/r/java/comments/sc9tju/do_you_think_java_will_some_day_finally_remove/)
-- [It’s happening guys!](https://www.reddit.com/r/java/comments/sbxc3d/its_happening_guys/)
-- [Caribou: Use data-driven metrics to reduce your technical debt](https://www.reddit.com/r/java/comments/sbth9i/caribou_use_datadriven_metrics_to_reduce_your/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
