@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [AI](https://www.reddit.com/r/java/comments/sfupra/ai/)
+- [Andrew Dinn — Static Java, GraalVM Native and OpenJDK](https://www.reddit.com/r/java/comments/sgh3ln/andrew_dinn_static_java_graalvm_native_and_openjdk/)
+- [The Flatten Maven plugin](https://www.reddit.com/r/java/comments/sgd4dk/the_flatten_maven_plugin/)
+- [Polyglot: Compiler Framework for Extending Java || Type Theory 101](https://www.reddit.com/r/java/comments/sgcf8a/polyglot_compiler_framework_for_extending_java/)
+- [Feature Idea: a --beginner &lpar;-b&rpar; flag for JShell?](https://www.reddit.com/r/java/comments/sg70pt/feature_idea_a_beginner_b_flag_for_jshell/)
 - [Hibernate 6 rc1 released!](https://www.reddit.com/r/java/comments/sftz7y/hibernate_6_rc1_released/)
 - [Foreign function interface in JDK?](https://www.reddit.com/r/java/comments/sfiq9k/foreign_function_interface_in_jdk/)
 - [new panama/foreign EA](https://www.reddit.com/r/java/comments/sfbx9c/new_panamaforeign_ea/)
 - [JEP draft: Sequenced Collections](https://www.reddit.com/r/java/comments/sf8qrv/jep_draft_sequenced_collections/)
 - [Where to use Optional [Inside Java Newscast]](https://www.reddit.com/r/java/comments/seali3/where_to_use_optional_inside_java_newscast/)
 - [GitHub - locationtech/jts: The JTS Topology Suite is a Java library for creating and manipulating vector geometry.](https://www.reddit.com/r/java/comments/se98xn/github_locationtechjts_the_jts_topology_suite_is/)
-- [Profiling a native agent ?](https://www.reddit.com/r/java/comments/se2ji8/profiling_a_native_agent/)
-- [What&#39;s New in MicroProfile 5.0](https://www.reddit.com/r/java/comments/se24eg/whats_new_in_microprofile_50/)
-- [Weld 5.0.0.Beta1 released!](https://www.reddit.com/r/java/comments/se0ykt/weld_500beta1_released/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
