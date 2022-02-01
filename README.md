@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Andrew Dinn — Static Java, GraalVM Native and OpenJDK](https://www.reddit.com/r/java/comments/sgh3ln/andrew_dinn_static_java_graalvm_native_and_openjdk/)
+- [Friendly reminder: get ride of any JCenter repository dependencies you might still have](https://www.reddit.com/r/java/comments/shfuz2/friendly_reminder_get_ride_of_any_jcenter/)
+- [An open-source Java application to Test](https://www.reddit.com/r/java/comments/shfda2/an_opensource_java_application_to_test/)
+- [Is the java 17 64 bit windows safe from log 4j if not what version should I get?](https://www.reddit.com/r/java/comments/sh9dga/is_the_java_17_64_bit_windows_safe_from_log_4j_if/)
+- [How to organise a proper contract testing solution?](https://www.reddit.com/r/java/comments/sgzu34/how_to_organise_a_proper_contract_testing_solution/)
 - [The Flatten Maven plugin](https://www.reddit.com/r/java/comments/sgd4dk/the_flatten_maven_plugin/)
 - [Polyglot: Compiler Framework for Extending Java || Type Theory 101](https://www.reddit.com/r/java/comments/sgcf8a/polyglot_compiler_framework_for_extending_java/)
 - [Feature Idea: a --beginner &lpar;-b&rpar; flag for JShell?](https://www.reddit.com/r/java/comments/sg70pt/feature_idea_a_beginner_b_flag_for_jshell/)
 - [Hibernate 6 rc1 released!](https://www.reddit.com/r/java/comments/sftz7y/hibernate_6_rc1_released/)
 - [Foreign function interface in JDK?](https://www.reddit.com/r/java/comments/sfiq9k/foreign_function_interface_in_jdk/)
 - [new panama/foreign EA](https://www.reddit.com/r/java/comments/sfbx9c/new_panamaforeign_ea/)
-- [JEP draft: Sequenced Collections](https://www.reddit.com/r/java/comments/sf8qrv/jep_draft_sequenced_collections/)
-- [Where to use Optional [Inside Java Newscast]](https://www.reddit.com/r/java/comments/seali3/where_to_use_optional_inside_java_newscast/)
-- [GitHub - locationtech/jts: The JTS Topology Suite is a Java library for creating and manipulating vector geometry.](https://www.reddit.com/r/java/comments/se98xn/github_locationtechjts_the_jts_topology_suite_is/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
