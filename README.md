@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [changes to the foreign preview API](https://www.reddit.com/r/java/comments/si4vqo/changes_to_the_foreign_preview_api/)
+- [Refactoring Java 8 code with Java 17 features - JEP Café #9](https://www.reddit.com/r/java/comments/shzz4v/refactoring_java_8_code_with_java_17_features_jep/)
+- [Datafaker 1.1.0 is released, with more features and fewer dependencies](https://www.reddit.com/r/java/comments/shry6s/datafaker_110_is_released_with_more_features_and/)
+- [Java Annotated Monthly – February 2022](https://www.reddit.com/r/java/comments/shqpbh/java_annotated_monthly_february_2022/)
+- [Failsafe 3.2 is released, with new resilience policies](https://www.reddit.com/r/java/comments/shl5gd/failsafe_32_is_released_with_new_resilience/)
 - [Friendly reminder: get ride of any JCenter repository dependencies you might still have](https://www.reddit.com/r/java/comments/shfuz2/friendly_reminder_get_ride_of_any_jcenter/)
-- [An open-source Java application to Test](https://www.reddit.com/r/java/comments/shfda2/an_opensource_java_application_to_test/)
-- [Is the java 17 64 bit windows safe from log 4j if not what version should I get?](https://www.reddit.com/r/java/comments/sh9dga/is_the_java_17_64_bit_windows_safe_from_log_4j_if/)
 - [How to organise a proper contract testing solution?](https://www.reddit.com/r/java/comments/sgzu34/how_to_organise_a_proper_contract_testing_solution/)
 - [The Flatten Maven plugin](https://www.reddit.com/r/java/comments/sgd4dk/the_flatten_maven_plugin/)
 - [Polyglot: Compiler Framework for Extending Java || Type Theory 101](https://www.reddit.com/r/java/comments/sgcf8a/polyglot_compiler_framework_for_extending_java/)
 - [Feature Idea: a --beginner &lpar;-b&rpar; flag for JShell?](https://www.reddit.com/r/java/comments/sg70pt/feature_idea_a_beginner_b_flag_for_jshell/)
-- [Hibernate 6 rc1 released!](https://www.reddit.com/r/java/comments/sftz7y/hibernate_6_rc1_released/)
-- [Foreign function interface in JDK?](https://www.reddit.com/r/java/comments/sfiq9k/foreign_function_interface_in_jdk/)
-- [new panama/foreign EA](https://www.reddit.com/r/java/comments/sfbx9c/new_panamaforeign_ea/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
