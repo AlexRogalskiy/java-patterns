@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Is there an Intelli-j plugin that&#39;ll tell you when you have done something considered bad practice?](https://www.reddit.com/r/java/comments/sj6bk9/is_there_an_intellij_plugin_thatll_tell_you_when/)
+- [https://blog.sunshower.io/2022/02/02/thoughts-on-testing-is-an-unsolved-problem/](https://www.reddit.com/r/java/comments/sj52bh/httpsblogsunshowerio20220202thoughtsontestingisanu/)
+- [When I Create New Project in Java, it Copies the Code from my Last Project](https://www.reddit.com/r/java/comments/sj3yla/when_i_create_new_project_in_java_it_copies_the/)
+- [Experienced Java/Kotlin developers: what libraries do you use in your day to day work?](https://www.reddit.com/r/java/comments/sj2s7z/experienced_javakotlin_developers_what_libraries/)
+- [is this the beginning of the end for programmers?](https://www.reddit.com/r/java/comments/sj17lg/is_this_the_beginning_of_the_end_for_programmers/)
+- [Named and Optional Parameters in Java](https://www.reddit.com/r/java/comments/siv00z/named_and_optional_parameters_in_java/)
+- [I&#39;ve created a command framework for JDA &lpar;Discord Bots&rpar;](https://www.reddit.com/r/java/comments/sinqnx/ive_created_a_command_framework_for_jda_discord/)
+- [Understanding Java Compilation: From Bytecodes to Machine Code in the JVM](https://www.reddit.com/r/java/comments/sinj6q/understanding_java_compilation_from_bytecodes_to/)
 - [changes to the foreign preview API](https://www.reddit.com/r/java/comments/si4vqo/changes_to_the_foreign_preview_api/)
 - [Refactoring Java 8 code with Java 17 features - JEP Café #9](https://www.reddit.com/r/java/comments/shzz4v/refactoring_java_8_code_with_java_17_features_jep/)
-- [Datafaker 1.1.0 is released, with more features and fewer dependencies](https://www.reddit.com/r/java/comments/shry6s/datafaker_110_is_released_with_more_features_and/)
-- [Java Annotated Monthly – February 2022](https://www.reddit.com/r/java/comments/shqpbh/java_annotated_monthly_february_2022/)
-- [Failsafe 3.2 is released, with new resilience policies](https://www.reddit.com/r/java/comments/shl5gd/failsafe_32_is_released_with_new_resilience/)
-- [Friendly reminder: get ride of any JCenter repository dependencies you might still have](https://www.reddit.com/r/java/comments/shfuz2/friendly_reminder_get_ride_of_any_jcenter/)
-- [How to organise a proper contract testing solution?](https://www.reddit.com/r/java/comments/sgzu34/how_to_organise_a_proper_contract_testing_solution/)
-- [The Flatten Maven plugin](https://www.reddit.com/r/java/comments/sgd4dk/the_flatten_maven_plugin/)
-- [Polyglot: Compiler Framework for Extending Java || Type Theory 101](https://www.reddit.com/r/java/comments/sgcf8a/polyglot_compiler_framework_for_extending_java/)
-- [Feature Idea: a --beginner &lpar;-b&rpar; flag for JShell?](https://www.reddit.com/r/java/comments/sg70pt/feature_idea_a_beginner_b_flag_for_jshell/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
