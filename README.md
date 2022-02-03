@@ -415,6 +415,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
+- [Hibernate 6 EmbeddableInstantiator – Instantiate embeddables your way](https://thorben-janssen.com/hibernate-embeddableinstantiator/)
 - [Logging Guide for Hibernate 4, 5 &amp; 6 – Use the right config for dev and prod](https://thorben-janssen.com/hibernate-logging-guide/)
 - [Dynamic Inserts and Updates with Spring Data JPA](https://thorben-janssen.com/dynamic-inserts-and-updates-with-spring-data-jpa/)
 - [FlushMode in JPA and Hibernate – What it is and how to change it](https://thorben-janssen.com/flushmode-in-jpa-and-hibernate/)
@@ -424,7 +425,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [The Best Mapping for Shared Technical Attributes With Hibernate](https://thorben-janssen.com/mapping-shared-technical-attributes/)
 - [Mixing Inheritance Mapping Strategies with Hibernate](https://thorben-janssen.com/hibernate-mix-inheritance-mappings/)
 - [Implementing Bulk Updates with Spring Data JPA](https://thorben-janssen.com/implementing-bulk-updates-with-spring-data-jpa/)
-- [Announcing the Persistence Hub](https://thorben-janssen.com/announcing-the-persistence-hub/)
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*
