@@ -280,11 +280,11 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Is there an Intelli-j plugin that&#39;ll tell you when you have done something considered bad practice?](https://www.reddit.com/r/java/comments/sj6bk9/is_there_an_intellij_plugin_thatll_tell_you_when/)
-- [https://blog.sunshower.io/2022/02/02/thoughts-on-testing-is-an-unsolved-problem/](https://www.reddit.com/r/java/comments/sj52bh/httpsblogsunshowerio20220202thoughtsontestingisanu/)
-- [When I Create New Project in Java, it Copies the Code from my Last Project](https://www.reddit.com/r/java/comments/sj3yla/when_i_create_new_project_in_java_it_copies_the/)
-- [Experienced Java/Kotlin developers: what libraries do you use in your day to day work?](https://www.reddit.com/r/java/comments/sj2s7z/experienced_javakotlin_developers_what_libraries/)
-- [is this the beginning of the end for programmers?](https://www.reddit.com/r/java/comments/sj17lg/is_this_the_beginning_of_the_end_for_programmers/)
+- [Extension that generates Javadocs for you using AI](https://www.reddit.com/r/java/comments/sjvyij/extension_that_generates_javadocs_for_you_using_ai/)
+- [What is the most commonly used version of Java these days?](https://www.reddit.com/r/java/comments/sjvi7c/what_is_the_most_commonly_used_version_of_java/)
+- [Is there a way to know if my java game is slow on other computers?](https://www.reddit.com/r/java/comments/sjuw8d/is_there_a_way_to_know_if_my_java_game_is_slow_on/)
+- [Jexer 1.6.0 release - Java advanced TUI framework](https://www.reddit.com/r/java/comments/sjoail/jexer_160_release_java_advanced_tui_framework/)
+- [The impact of reflection and annotations on AWS lambda&#39;s performance](https://www.reddit.com/r/java/comments/sjgfpg/the_impact_of_reflection_and_annotations_on_aws/)
 - [Named and Optional Parameters in Java](https://www.reddit.com/r/java/comments/siv00z/named_and_optional_parameters_in_java/)
 - [I&#39;ve created a command framework for JDA &lpar;Discord Bots&rpar;](https://www.reddit.com/r/java/comments/sinqnx/ive_created_a_command_framework_for_jda_discord/)
 - [Understanding Java Compilation: From Bytecodes to Machine Code in the JVM](https://www.reddit.com/r/java/comments/sinj6q/understanding_java_compilation_from_bytecodes_to/)
