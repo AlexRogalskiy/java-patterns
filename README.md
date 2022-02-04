@@ -325,6 +325,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [Hibernate Proxies and the Visitor Pattern](http://randomthoughtsonjavaprogramming.blogspot.com/2022/02/hibernate-proxies-and-visitor-pattern.html)
 - [RAID Mirrorring with ADM](http://randomthoughtsonjavaprogramming.blogspot.com/2022/01/raid-mirrorring-with-adm.html)
 - [Are we really engineers?](http://randomthoughtsonjavaprogramming.blogspot.com/2022/01/are-we-really-engineers.html)
 - [Standard RAID levels](http://randomthoughtsonjavaprogramming.blogspot.com/2021/12/standard-raid-levels.html)
@@ -334,7 +335,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Running Mariadb on the Raspberry Pi](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/running-mariadb-on-raspberry-pi.html)
 - [LetsEncrypt with Webroot](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/letsencrypt-with-webroot.html)
 - [JFall 2021](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/jfall-2021.html)
-- [Kotlin, AssertJ and Overloads](http://randomthoughtsonjavaprogramming.blogspot.com/2021/10/kotlin-assertj-and-overloads.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
