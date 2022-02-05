@@ -280,8 +280,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Create native JavaFX applications using GraalVM 22 builds](https://www.reddit.com/r/java/comments/sklbwd/create_native_javafx_applications_using_graalvm/)
 - [Extension that generates Javadocs for you using AI](https://www.reddit.com/r/java/comments/sjvyij/extension_that_generates_javadocs_for_you_using_ai/)
-- [What is the most commonly used version of Java these days?](https://www.reddit.com/r/java/comments/sjvi7c/what_is_the_most_commonly_used_version_of_java/)
 - [Is there a way to know if my java game is slow on other computers?](https://www.reddit.com/r/java/comments/sjuw8d/is_there_a_way_to_know_if_my_java_game_is_slow_on/)
 - [Jexer 1.6.0 release - Java advanced TUI framework](https://www.reddit.com/r/java/comments/sjoail/jexer_160_release_java_advanced_tui_framework/)
 - [The impact of reflection and annotations on AWS lambda&#39;s performance](https://www.reddit.com/r/java/comments/sjgfpg/the_impact_of_reflection_and_annotations_on_aws/)
