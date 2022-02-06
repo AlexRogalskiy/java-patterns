@@ -280,6 +280,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [What is the best Java IDE?](https://www.reddit.com/r/java/comments/sll9fs/what_is_the_best_java_ide/)
+- [GraalVM native image is getting ready for Loom &lpar;Virtual thread&rpar; Support?](https://www.reddit.com/r/java/comments/skzks5/graalvm_native_image_is_getting_ready_for_loom/)
 - [Create native JavaFX applications using GraalVM 22 builds](https://www.reddit.com/r/java/comments/sklbwd/create_native_javafx_applications_using_graalvm/)
 - [Extension that generates Javadocs for you using AI](https://www.reddit.com/r/java/comments/sjvyij/extension_that_generates_javadocs_for_you_using_ai/)
 - [Is there a way to know if my java game is slow on other computers?](https://www.reddit.com/r/java/comments/sjuw8d/is_there_a_way_to_know_if_my_java_game_is_slow_on/)
@@ -288,8 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Named and Optional Parameters in Java](https://www.reddit.com/r/java/comments/siv00z/named_and_optional_parameters_in_java/)
 - [I&#39;ve created a command framework for JDA &lpar;Discord Bots&rpar;](https://www.reddit.com/r/java/comments/sinqnx/ive_created_a_command_framework_for_jda_discord/)
 - [Understanding Java Compilation: From Bytecodes to Machine Code in the JVM](https://www.reddit.com/r/java/comments/sinj6q/understanding_java_compilation_from_bytecodes_to/)
-- [changes to the foreign preview API](https://www.reddit.com/r/java/comments/si4vqo/changes_to_the_foreign_preview_api/)
-- [Refactoring Java 8 code with Java 17 features - JEP Café #9](https://www.reddit.com/r/java/comments/shzz4v/refactoring_java_8_code_with_java_17_features_jep/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
