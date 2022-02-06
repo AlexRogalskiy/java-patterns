@@ -340,6 +340,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Better code posts*
 
 <!-- BETTERCODE-POST-LIST:START -->
+- [Handling Large Datasets in Distributed Systems](https://betterjavacode.com/programming/handling-large-datasets-in-distributed-systems)
 - [Example of Spring Cloud Function with AWS Lambda](https://betterjavacode.com/programming/example-spring-cloud-function-aws-lambda)
 - [How to Use Pub/Sub with NodeJS](https://betterjavacode.com/programming/how-to-use-pub-sub-with-nodejs)
 - [Logging in Spring Boot Microservices](https://betterjavacode.com/programming/logging-in-spring-boot-microservices)
@@ -349,7 +350,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Details of Liskov Substitution Principle Example](https://betterjavacode.com/programming/liskov-substitution-principle-example)
 - [Building Microservices with Event-Driven Architecture](https://betterjavacode.com/programming/microservices-event-driven-architecture)
 - [On Being A Senior Software Engineer](https://betterjavacode.com/programming/on-being-a-senior-software-engineer)
-- [A Complete Guide to Using ElasticSearch with Spring Boot](https://betterjavacode.com/programming/elasticsearch-spring-boot)
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### *Inside Java posts*
