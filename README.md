@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [What is the best Java IDE?](https://www.reddit.com/r/java/comments/sll9fs/what_is_the_best_java_ide/)
+- [How do I determine the minimum number of threads needed for the thread pools in my IO-bound Java apps?](https://www.reddit.com/r/java/comments/smd1qx/how_do_i_determine_the_minimum_number_of_threads/)
+- [And then there are these kinda people](https://www.reddit.com/r/java/comments/smbf5x/and_then_there_are_these_kinda_people/)
+- [java logo but animated](https://www.reddit.com/r/java/comments/sm5zke/java_logo_but_animated/)
+- [JRE/JDK compiled with x86-64-v3 instruction set](https://www.reddit.com/r/java/comments/sm0tmn/jrejdk_compiled_with_x8664v3_instruction_set/)
+- [What are the most exciting future features in Java and JVM?](https://www.reddit.com/r/java/comments/slz70e/what_are_the_most_exciting_future_features_in/)
+- [Use case for non application scopes in Dagger.](https://www.reddit.com/r/java/comments/sln7kf/use_case_for_non_application_scopes_in_dagger/)
 - [GraalVM native image is getting ready for Loom &lpar;Virtual thread&rpar; Support?](https://www.reddit.com/r/java/comments/skzks5/graalvm_native_image_is_getting_ready_for_loom/)
 - [Create native JavaFX applications using GraalVM 22 builds](https://www.reddit.com/r/java/comments/sklbwd/create_native_javafx_applications_using_graalvm/)
 - [Extension that generates Javadocs for you using AI](https://www.reddit.com/r/java/comments/sjvyij/extension_that_generates_javadocs_for_you_using_ai/)
 - [Is there a way to know if my java game is slow on other computers?](https://www.reddit.com/r/java/comments/sjuw8d/is_there_a_way_to_know_if_my_java_game_is_slow_on/)
-- [Jexer 1.6.0 release - Java advanced TUI framework](https://www.reddit.com/r/java/comments/sjoail/jexer_160_release_java_advanced_tui_framework/)
-- [The impact of reflection and annotations on AWS lambda&#39;s performance](https://www.reddit.com/r/java/comments/sjgfpg/the_impact_of_reflection_and_annotations_on_aws/)
-- [Named and Optional Parameters in Java](https://www.reddit.com/r/java/comments/siv00z/named_and_optional_parameters_in_java/)
-- [I&#39;ve created a command framework for JDA &lpar;Discord Bots&rpar;](https://www.reddit.com/r/java/comments/sinqnx/ive_created_a_command_framework_for_jda_discord/)
-- [Understanding Java Compilation: From Bytecodes to Machine Code in the JVM](https://www.reddit.com/r/java/comments/sinj6q/understanding_java_compilation_from_bytecodes_to/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
