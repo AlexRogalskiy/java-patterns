@@ -79,7 +79,7 @@
         "license-checker": "^25.0.1",
         "lint-staged": "^11.0.1",
         "markdown-link-check": "^3.8.7",
-        "markdownlint-cli": "^0.27.1",
+        "markdownlint-cli": "^0.31.0",
         "prettier": "^2.3.2",
         "pretty-quick": "^3.1.1",
         "release-it": "^14.10.0",
