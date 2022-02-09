@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Worm Soup - A game where you raise worms in a petri dish](https://www.reddit.com/r/java/comments/snyblv/worm_soup_a_game_where_you_raise_worms_in_a_petri/)
+- [Serverless on AWS Lambda with Micronaut + Kotlin](https://www.reddit.com/r/java/comments/snw4yq/serverless_on_aws_lambda_with_micronaut_kotlin/)
+- [Java&#39;s Options for Options](https://www.reddit.com/r/java/comments/snrfek/javas_options_for_options/)
+- [Azul Launches Java Cloud Compiler](https://www.reddit.com/r/java/comments/snoro8/azul_launches_java_cloud_compiler/)
+- [Technical Interview Resources](https://www.reddit.com/r/java/comments/sni28e/technical_interview_resources/)
+- [Deep Dive into Saga Transactions with Kafka Streams and Spring Boot](https://www.reddit.com/r/java/comments/sngfns/deep_dive_into_saga_transactions_with_kafka/)
+- [Are there any recommended Java mailing lists/news youtube channels?](https://www.reddit.com/r/java/comments/snc5yo/are_there_any_recommended_java_mailing_listsnews/)
 - [What are the most exciting future features in Java and JVM?](https://www.reddit.com/r/java/comments/slz70e/what_are_the_most_exciting_future_features_in/)
 - [GraalVM native image is getting ready for Loom &lpar;Virtual thread&rpar; Support?](https://www.reddit.com/r/java/comments/skzks5/graalvm_native_image_is_getting_ready_for_loom/)
 - [Create native JavaFX applications using GraalVM 22 builds](https://www.reddit.com/r/java/comments/sklbwd/create_native_javafx_applications_using_graalvm/)
-- [Extension that generates Javadocs for you using AI](https://www.reddit.com/r/java/comments/sjvyij/extension_that_generates_javadocs_for_you_using_ai/)
-- [The impact of reflection and annotations on AWS lambda&#39;s performance](https://www.reddit.com/r/java/comments/sjgfpg/the_impact_of_reflection_and_annotations_on_aws/)
-- [Named and Optional Parameters in Java](https://www.reddit.com/r/java/comments/siv00z/named_and_optional_parameters_in_java/)
-- [I&#39;ve created a command framework for JDA &lpar;Discord Bots&rpar;](https://www.reddit.com/r/java/comments/sinqnx/ive_created_a_command_framework_for_jda_discord/)
-- [Understanding Java Compilation: From Bytecodes to Machine Code in the JVM](https://www.reddit.com/r/java/comments/sinj6q/understanding_java_compilation_from_bytecodes_to/)
-- [changes to the foreign preview API](https://www.reddit.com/r/java/comments/si4vqo/changes_to_the_foreign_preview_api/)
-- [Refactoring Java 8 code with Java 17 features - JEP Café #9](https://www.reddit.com/r/java/comments/shzz4v/refactoring_java_8_code_with_java_17_features_jep/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
