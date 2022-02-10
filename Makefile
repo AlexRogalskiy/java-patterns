@@ -351,3 +351,24 @@ git-pull:
 	@echo
 	$(AT)find . -name ".git" -type d | xargs -P10 -I{} git --git-dir={} --work-tree="$(PWD)"/{} pull origin master
 	@echo
+
+# Run install link checker command.
+.PHONY: install-link-checker
+install-link-checker:
+	$(AT)[[ -f "./scripts/htmltest.sh" ]] || curl https://htmltest.wjdp.uk -o ./scripts/htmltest.sh
+
+# Run setup link checker command.
+.PHONY: setup-link-checker
+setup-link-checker:
+	chmod +x ./scripts/htmltest.sh
+	./scripts/htmltest.sh -d
+
+# Run run link checker command.
+.PHONY: run-link-checker
+run-link-checker:
+	chmod +x ./bin/htmltest
+	./bin/htmltest --conf .htmltest.yml
+
+# Run check links command.
+.PHONY: check-links
+check-links: install-link-checker setup-link-checker run-link-checker
