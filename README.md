@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Worm Soup - A game where you raise worms in a petri dish](https://www.reddit.com/r/java/comments/snyblv/worm_soup_a_game_where_you_raise_worms_in_a_petri/)
-- [Serverless on AWS Lambda with Micronaut + Kotlin](https://www.reddit.com/r/java/comments/snw4yq/serverless_on_aws_lambda_with_micronaut_kotlin/)
+- [Spring Boot Microservices Coding Style Guidelines and Best Practices](https://www.reddit.com/r/java/comments/sos5x1/spring_boot_microservices_coding_style_guidelines/)
+- [MaterialFX reaches version 11.13.2](https://www.reddit.com/r/java/comments/son3j3/materialfx_reaches_version_11132/)
+- [Code visualization tool inside your IDE](https://www.reddit.com/r/java/comments/sogbey/code_visualization_tool_inside_your_ide/)
+- [Dominion ECS, a high-performance implementation with Java 17 &lpar;and record classes&rpar; vs C / C++](https://www.reddit.com/r/java/comments/sock5l/dominion_ecs_a_highperformance_implementation/)
+- [Helidon 2.4.2 released!](https://www.reddit.com/r/java/comments/soaj9b/helidon_242_released/)
+- [OneDev 6.3 - Java based git server now with dark mode](https://www.reddit.com/r/java/comments/so50hq/onedev_63_java_based_git_server_now_with_dark_mode/)
 - [Java&#39;s Options for Options](https://www.reddit.com/r/java/comments/snrfek/javas_options_for_options/)
 - [Azul Launches Java Cloud Compiler](https://www.reddit.com/r/java/comments/snoro8/azul_launches_java_cloud_compiler/)
 - [Technical Interview Resources](https://www.reddit.com/r/java/comments/sni28e/technical_interview_resources/)
 - [Deep Dive into Saga Transactions with Kafka Streams and Spring Boot](https://www.reddit.com/r/java/comments/sngfns/deep_dive_into_saga_transactions_with_kafka/)
-- [Are there any recommended Java mailing lists/news youtube channels?](https://www.reddit.com/r/java/comments/snc5yo/are_there_any_recommended_java_mailing_listsnews/)
-- [What are the most exciting future features in Java and JVM?](https://www.reddit.com/r/java/comments/slz70e/what_are_the_most_exciting_future_features_in/)
-- [GraalVM native image is getting ready for Loom &lpar;Virtual thread&rpar; Support?](https://www.reddit.com/r/java/comments/skzks5/graalvm_native_image_is_getting_ready_for_loom/)
-- [Create native JavaFX applications using GraalVM 22 builds](https://www.reddit.com/r/java/comments/sklbwd/create_native_javafx_applications_using_graalvm/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
