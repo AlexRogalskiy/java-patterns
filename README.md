@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Why is @Override not required?](https://www.reddit.com/r/java/comments/spgdze/why_is_override_not_required/)
+- [Spring retry in Spring Boot](https://www.reddit.com/r/java/comments/spfy4g/spring_retry_in_spring_boot/)
+- [Compiled &amp; Tested Code In Javadoc - Inside Java Newscast #20](https://www.reddit.com/r/java/comments/spapoz/compiled_tested_code_in_javadoc_inside_java/)
+- [Why is Java templating/server rendering losing ground?](https://www.reddit.com/r/java/comments/sp9yos/why_is_java_templatingserver_rendering_losing/)
+- [Java on Visual Studio Code February 2022 Update](https://www.reddit.com/r/java/comments/sp7tzu/java_on_visual_studio_code_february_2022_update/)
 - [Spring Boot Microservices Coding Style Guidelines and Best Practices](https://www.reddit.com/r/java/comments/sos5x1/spring_boot_microservices_coding_style_guidelines/)
 - [MaterialFX reaches version 11.13.2](https://www.reddit.com/r/java/comments/son3j3/materialfx_reaches_version_11132/)
 - [Code visualization tool inside your IDE](https://www.reddit.com/r/java/comments/sogbey/code_visualization_tool_inside_your_ide/)
 - [Dominion ECS, a high-performance implementation with Java 17 &lpar;and record classes&rpar; vs C / C++](https://www.reddit.com/r/java/comments/sock5l/dominion_ecs_a_highperformance_implementation/)
 - [Helidon 2.4.2 released!](https://www.reddit.com/r/java/comments/soaj9b/helidon_242_released/)
-- [OneDev 6.3 - Java based git server now with dark mode](https://www.reddit.com/r/java/comments/so50hq/onedev_63_java_based_git_server_now_with_dark_mode/)
-- [Java&#39;s Options for Options](https://www.reddit.com/r/java/comments/snrfek/javas_options_for_options/)
-- [Azul Launches Java Cloud Compiler](https://www.reddit.com/r/java/comments/snoro8/azul_launches_java_cloud_compiler/)
-- [Technical Interview Resources](https://www.reddit.com/r/java/comments/sni28e/technical_interview_resources/)
-- [Deep Dive into Saga Transactions with Kafka Streams and Spring Boot](https://www.reddit.com/r/java/comments/sngfns/deep_dive_into_saga_transactions_with_kafka/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
