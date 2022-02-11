@@ -325,6 +325,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [Being Glue](http://randomthoughtsonjavaprogramming.blogspot.com/2022/02/being-glue.html)
 - [Hibernate Proxies and the Visitor Pattern](http://randomthoughtsonjavaprogramming.blogspot.com/2022/02/hibernate-proxies-and-visitor-pattern.html)
 - [RAID Mirrorring with ADM](http://randomthoughtsonjavaprogramming.blogspot.com/2022/01/raid-mirrorring-with-adm.html)
 - [Are we really engineers?](http://randomthoughtsonjavaprogramming.blogspot.com/2022/01/are-we-really-engineers.html)
@@ -334,7 +335,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Replacing many if statements](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/replacing-many-if-statements.html)
 - [Running Mariadb on the Raspberry Pi](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/running-mariadb-on-raspberry-pi.html)
 - [LetsEncrypt with Webroot](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/letsencrypt-with-webroot.html)
-- [JFall 2021](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/jfall-2021.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
