@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [What can I do with Java 1.4?](https://www.reddit.com/r/java/comments/sq5q6m/what_can_i_do_with_java_14/)
+- [Hardware Uber Speed Builds? Java8/gradle/IntelliJ](https://www.reddit.com/r/java/comments/sq3q6a/hardware_uber_speed_builds_java8gradleintellij/)
+- [Origin of misconception for equals and hashcode implementation](https://www.reddit.com/r/java/comments/sq2yye/origin_of_misconception_for_equals_and_hashcode/)
+- [GetTotalSpace&lpar;&rpar; on different linux distributions.](https://www.reddit.com/r/java/comments/sq25cw/gettotalspace_on_different_linux_distributions/)
+- [Alternative standard libraries](https://www.reddit.com/r/java/comments/spxxiu/alternative_standard_libraries/)
 - [Why is @Override not required?](https://www.reddit.com/r/java/comments/spgdze/why_is_override_not_required/)
-- [Spring retry in Spring Boot](https://www.reddit.com/r/java/comments/spfy4g/spring_retry_in_spring_boot/)
 - [Compiled &amp; Tested Code In Javadoc - Inside Java Newscast #20](https://www.reddit.com/r/java/comments/spapoz/compiled_tested_code_in_javadoc_inside_java/)
 - [Why is Java templating/server rendering losing ground?](https://www.reddit.com/r/java/comments/sp9yos/why_is_java_templatingserver_rendering_losing/)
 - [Java on Visual Studio Code February 2022 Update](https://www.reddit.com/r/java/comments/sp7tzu/java_on_visual_studio_code_february_2022_update/)
 - [Spring Boot Microservices Coding Style Guidelines and Best Practices](https://www.reddit.com/r/java/comments/sos5x1/spring_boot_microservices_coding_style_guidelines/)
-- [MaterialFX reaches version 11.13.2](https://www.reddit.com/r/java/comments/son3j3/materialfx_reaches_version_11132/)
-- [Code visualization tool inside your IDE](https://www.reddit.com/r/java/comments/sogbey/code_visualization_tool_inside_your_ide/)
-- [Dominion ECS, a high-performance implementation with Java 17 &lpar;and record classes&rpar; vs C / C++](https://www.reddit.com/r/java/comments/sock5l/dominion_ecs_a_highperformance_implementation/)
-- [Helidon 2.4.2 released!](https://www.reddit.com/r/java/comments/soaj9b/helidon_242_released/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
