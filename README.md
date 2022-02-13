@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [What can I do with Java 1.4?](https://www.reddit.com/r/java/comments/sq5q6m/what_can_i_do_with_java_14/)
-- [Hardware Uber Speed Builds? Java8/gradle/IntelliJ](https://www.reddit.com/r/java/comments/sq3q6a/hardware_uber_speed_builds_java8gradleintellij/)
+- [Java being Java.](https://www.reddit.com/r/java/comments/sr6vzi/java_being_java/)
+- [Virtual thread &lpar;along with Structured concurrency and Scope Local&rpar; is previewing in JDK19?](https://www.reddit.com/r/java/comments/sr5gpp/virtual_thread_along_with_structured_concurrency/)
+- [Hidden gems in Java 16 and Java 17, from Stream.mapMulti to HexFormat](https://www.reddit.com/r/java/comments/sr26bb/hidden_gems_in_java_16_and_java_17_from/)
+- [Java Programming Java EE, Microservices and Testing Bundle | eBook Bundle](https://www.reddit.com/r/java/comments/sqz6zb/java_programming_java_ee_microservices_and/)
+- [Best OS for Java dev](https://www.reddit.com/r/java/comments/sqyjkp/best_os_for_java_dev/)
+- [Is Java hashCode&lpar;&rpar; and equals&lpar;&rpar; API flawed?](https://www.reddit.com/r/java/comments/sqd4cg/is_java_hashcode_and_equals_api_flawed/)
+- [Deploy Java Desktop apps as Native bundles for Windows, Mac, and Linux](https://www.reddit.com/r/java/comments/sqbz69/deploy_java_desktop_apps_as_native_bundles_for/)
 - [Origin of misconception for equals and hashcode implementation](https://www.reddit.com/r/java/comments/sq2yye/origin_of_misconception_for_equals_and_hashcode/)
-- [GetTotalSpace&lpar;&rpar; on different linux distributions.](https://www.reddit.com/r/java/comments/sq25cw/gettotalspace_on_different_linux_distributions/)
 - [Alternative standard libraries](https://www.reddit.com/r/java/comments/spxxiu/alternative_standard_libraries/)
 - [Why is @Override not required?](https://www.reddit.com/r/java/comments/spgdze/why_is_override_not_required/)
-- [Compiled &amp; Tested Code In Javadoc - Inside Java Newscast #20](https://www.reddit.com/r/java/comments/spapoz/compiled_tested_code_in_javadoc_inside_java/)
-- [Why is Java templating/server rendering losing ground?](https://www.reddit.com/r/java/comments/sp9yos/why_is_java_templatingserver_rendering_losing/)
-- [Java on Visual Studio Code February 2022 Update](https://www.reddit.com/r/java/comments/sp7tzu/java_on_visual_studio_code_february_2022_update/)
-- [Spring Boot Microservices Coding Style Guidelines and Best Practices](https://www.reddit.com/r/java/comments/sos5x1/spring_boot_microservices_coding_style_guidelines/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
