@@ -370,6 +370,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Java programmer posts*
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [Advantages of Hibernate Over JDBC?](https://www.thejavaprogrammer.com/advantages-of-hibernate-over-jdbc/)
 - [Advantages of R Programming Language](https://www.thejavaprogrammer.com/advantages-of-r-programming-language/)
 - [Method Overloading in Java With Example](https://www.thejavaprogrammer.com/method-overloading-in-java/)
 - [10 Best Laptop for Java Programming in India 2022](https://www.thejavaprogrammer.com/laptop-for-java-programming/)
@@ -379,7 +380,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [8 Best Youtube Channels to Learn Java for Beginners 2022](https://www.thejavaprogrammer.com/best-youtube-channels-to-learn-java/)
 - [12 Best Java Blogs for Beginners 2022](https://www.thejavaprogrammer.com/best-java-blogs/)
 - [Advantages and Disadvantages of Encapsulation in Java](https://www.thejavaprogrammer.com/advantages-and-disadvantages-of-encapsulation-in-java/)
-- [How to Find Array Length in Java with Examples](https://www.thejavaprogrammer.com/array-length-in-java/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 ### *Dreamix posts*
