@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [I&#39;ve implemented a C# nameof&lpar;&rpar; equivalent for Java](https://www.reddit.com/r/java/comments/ssmw1m/ive_implemented_a_c_nameof_equivalent_for_java/)
+- [Any ETA on Project Loom going GA?](https://www.reddit.com/r/java/comments/sslgkq/any_eta_on_project_loom_going_ga/)
+- [Microhttp is an event-driven, single-threaded, zero-dependency web server with 500 LOC. Benchmarks on EC2 show 100,000+ requests per second and 50,000+ persistent connections.](https://www.reddit.com/r/java/comments/ssfe82/microhttp_is_an_eventdriven_singlethreaded/)
+- [Clarification of OpenJDK 8 end of life](https://www.reddit.com/r/java/comments/ssf228/clarification_of_openjdk_8_end_of_life/)
+- [How to do GC Log analysis?](https://www.reddit.com/r/java/comments/ss1eo3/how_to_do_gc_log_analysis/)
+- [Github action to download and install Oracle JDK and OpenJDK &lpar;including EA&rpar; builds.](https://www.reddit.com/r/java/comments/ss0y8u/github_action_to_download_and_install_oracle_jdk/)
 - [Hot reload SSL configuration for a server and http client](https://www.reddit.com/r/java/comments/srnl5k/hot_reload_ssl_configuration_for_a_server_and/)
 - [System Logger](https://www.reddit.com/r/java/comments/srnhsi/system_logger/)
 - [Type You An Actor Runtime For Greater Good! &lpar;with Java 17, records, switch expressions and JBang&rpar;](https://www.reddit.com/r/java/comments/srmma6/type_you_an_actor_runtime_for_greater_good_with/)
 - [GlassFish 6.2.5 released!](https://www.reddit.com/r/java/comments/srk55p/glassfish_625_released/)
-- [Virtual thread &lpar;along with Structured concurrency and Scope Local&rpar; is previewing in JDK19?](https://www.reddit.com/r/java/comments/sr5gpp/virtual_thread_along_with_structured_concurrency/)
-- [Hidden gems in Java 16 and Java 17, from Stream.mapMulti to HexFormat](https://www.reddit.com/r/java/comments/sr26bb/hidden_gems_in_java_16_and_java_17_from/)
-- [Java Programming Java EE, Microservices and Testing Bundle | eBook Bundle](https://www.reddit.com/r/java/comments/sqz6zb/java_programming_java_ee_microservices_and/)
-- [Best OS for Java dev](https://www.reddit.com/r/java/comments/sqyjkp/best_os_for_java_dev/)
-- [Is Java hashCode&lpar;&rpar; and equals&lpar;&rpar; API flawed?](https://www.reddit.com/r/java/comments/sqd4cg/is_java_hashcode_and_equals_api_flawed/)
-- [Deploy Java Desktop apps as Native bundles for Windows, Mac, and Linux](https://www.reddit.com/r/java/comments/sqbz69/deploy_java_desktop_apps_as_native_bundles_for/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
