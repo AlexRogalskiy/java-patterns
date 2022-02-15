@@ -10,7 +10,7 @@ repo_url: https://gitlab.com/AlexRogalskiy/java-patterns
 edit_uri: https://gitlab.com/AlexRogalskiy/java-patterns/master/docs/
 
 #Copyright (shown at the footer)
-copyright: 'Copyright &copy; 2021 Nullables.io'
+copyright: 'Copyright &copy; 2021-2022 Nullables.io'
 
 use_directory_urls: true
 
@@ -119,6 +119,7 @@ markdown_extensions:
   - markdown.extensions.attr_list
   - markdown.extensions.def_list
   - markdown.extensions.footnotes
+  - footnotes: {}
   - tables: {}
   - meta: {}
   - mkautodoc: {}
