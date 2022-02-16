@@ -49,6 +49,7 @@ theme:
     - header.autohide
     - toc.integrate
     - content.tabs.link
+    - content.code.annotate
   palette:
     - media: '(prefers-color-scheme: light)'
       scheme: default
@@ -122,6 +123,7 @@ markdown_extensions:
   - footnotes: {}
   - tables: {}
   - meta: {}
+  - md_in_html: {}
   - mkautodoc: {}
   - codehilite: # https://squidfunk.github.io/mkdocs-material/extensions/codehilite/
       linenums: true
