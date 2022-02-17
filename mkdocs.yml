@@ -132,6 +132,7 @@ markdown_extensions:
   - pymdownx.highlight: {}
   - pymdownx.tasklist:
       custom_checkbox: true
+      clickable_checkbox: true
   - pymdownx.extra: {}
   - pymdownx.snippets:
       check_paths: true
