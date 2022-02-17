@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Weld 4.0.3 and 3.1.9 released!](https://www.reddit.com/r/java/comments/suack7/weld_403_and_319_released/)
+- [Marketing email about Java licensing? We are a .net shop with only 2 third party apps built on Java for part of our business. We get a patch from the vendor and apply it. That’s all our java patching. Anything I actually need to worry about?](https://www.reddit.com/r/java/comments/su7028/marketing_email_about_java_licensing_we_are_a_net/)
+- [Seeking suggestions for Automated Deployment strategies and tools.](https://www.reddit.com/r/java/comments/stztv1/seeking_suggestions_for_automated_deployment/)
+- [Java records &amp; compact constructors](https://www.reddit.com/r/java/comments/stte7o/java_records_compact_constructors/)
 - [A rough example of using Loom to develop NLP desktop applications using GPT3](https://www.reddit.com/r/java/comments/stjntc/a_rough_example_of_using_loom_to_develop_nlp/)
 - [Official project-info website link when searching with MVNRepository.](https://www.reddit.com/r/java/comments/sthi9z/official_projectinfo_website_link_when_searching/)
 - [IntelliJ Plugin that generates Javadocs using AI](https://www.reddit.com/r/java/comments/stdb57/intellij_plugin_that_generates_javadocs_using_ai/)
 - [There will be a third preview of type patterns in switch [Brian]](https://www.reddit.com/r/java/comments/stao3q/there_will_be_a_third_preview_of_type_patterns_in/)
 - [Inevitable happened: Jini moves back to the bottle](https://www.reddit.com/r/java/comments/st9o5u/inevitable_happened_jini_moves_back_to_the_bottle/)
 - [Best way to prevent redundant null checks further down in stack?](https://www.reddit.com/r/java/comments/st5n89/best_way_to_prevent_redundant_null_checks_further/)
-- [New loom EA builds with APIs for Structured Concurrency and Scope Locals into an incubator module.](https://www.reddit.com/r/java/comments/st4pnq/new_loom_ea_builds_with_apis_for_structured/)
-- [Extract Java classes information from AOT compiled binary file](https://www.reddit.com/r/java/comments/ssyvui/extract_java_classes_information_from_aot/)
-- [I&#39;ve implemented a C# nameof&lpar;&rpar; equivalent for Java](https://www.reddit.com/r/java/comments/ssmw1m/ive_implemented_a_c_nameof_equivalent_for_java/)
-- [Any ETA on Project Loom going GA?](https://www.reddit.com/r/java/comments/sslgkq/any_eta_on_project_loom_going_ga/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
