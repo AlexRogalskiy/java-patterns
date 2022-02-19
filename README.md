@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Question about singleton classes](https://www.reddit.com/r/java/comments/sv5rce/question_about_singleton_classes/)
-- [Java SE 8 Certification.... how??](https://www.reddit.com/r/java/comments/sv4p7f/java_se_8_certification_how/)
+- [jLuaScript 1.3 - A Java/Lua bridge that allows you to use Java Objects directly in Lua scripts.](https://www.reddit.com/r/java/comments/svsocb/jluascript_13_a_javalua_bridge_that_allows_you_to/)
+- [JBang can now be used to make java one-liners](https://www.reddit.com/r/java/comments/svra2z/jbang_can_now_be_used_to_make_java_oneliners/)
+- [Telegram Bot API for Java](https://www.reddit.com/r/java/comments/svqmis/telegram_bot_api_for_java/)
+- [isnt this the java logo&lpar;this is in bulgarian&rpar;](https://www.reddit.com/r/java/comments/svk6gx/isnt_this_the_java_logothis_is_in_bulgarian/)
+- [Running Elasticsearch 8.0 with Testcontainers](https://www.reddit.com/r/java/comments/svfz01/running_elasticsearch_80_with_testcontainers/)
+- [Java real-life conferences](https://www.reddit.com/r/java/comments/sve0cz/java_reallife_conferences/)
 - [Eclipse Collections 11.0.0 Features New APIs and Functionality](https://www.reddit.com/r/java/comments/sv18x8/eclipse_collections_1100_features_new_apis_and/)
 - [Quarkus 2.7.1 Released - But Why Quarkus?](https://www.reddit.com/r/java/comments/suwlwv/quarkus_271_released_but_why_quarkus/)
 - [Piranha 22.2 released!](https://www.reddit.com/r/java/comments/supna9/piranha_222_released/)
 - [State of Pattern Matching with Brian Goetz](https://www.reddit.com/r/java/comments/sujanz/state_of_pattern_matching_with_brian_goetz/)
-- [JDK 18 - Card Table Card Size Shenanigans](https://www.reddit.com/r/java/comments/sugcvq/jdk_18_card_table_card_size_shenanigans/)
-- [Weld 4.0.3 and 3.1.9 released!](https://www.reddit.com/r/java/comments/suack7/weld_403_and_319_released/)
-- [Marketing email about Java licensing? We are a .net shop with only 2 third party apps built on Java for part of our business. We get a patch from the vendor and apply it. That’s all our java patching. Anything I actually need to worry about?](https://www.reddit.com/r/java/comments/su7028/marketing_email_about_java_licensing_we_are_a_net/)
-- [Java records &amp; compact constructors](https://www.reddit.com/r/java/comments/stte7o/java_records_compact_constructors/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
