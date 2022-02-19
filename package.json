@@ -46,6 +46,7 @@
         "git:log": "git log -1 --format='format:%H' HEAD",
         "git:clean": "git stash && git clean -fdX",
         "git:ls": "git cat-file -p HEAD && git ls-tree -r HEAD",
+        "zip": "zip -r $npm_package_config_image.zip ./site",
         "link-check": "repo-link-check -c config/config.yml -s filesystem -u",
         "link-check-diff": "repo-link-check -c config/config.yml",
         "link-check-dev-server": "repo-link-check -c config/config.yml -r http://localhost:3000",
