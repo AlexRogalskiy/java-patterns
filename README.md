@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Client Library to Make HTTP Requests Look Like Regular Methods](https://www.reddit.com/r/java/comments/swpuwz/client_library_to_make_http_requests_look_like/)
+- [Text Adventure](https://www.reddit.com/r/java/comments/swojvt/text_adventure/)
+- [Viewing Optional as a Replacement for Checked Exceptions](https://www.reddit.com/r/java/comments/swjqpb/viewing_optional_as_a_replacement_for_checked/)
+- [I&#39;ve been programming in Java for 20 years. What would be some advanced java projects?](https://www.reddit.com/r/java/comments/swi1aa/ive_been_programming_in_java_for_20_years_what/)
 - [jLuaScript 1.3 - A Java/Lua bridge that allows you to use Java Objects directly in Lua scripts.](https://www.reddit.com/r/java/comments/svsocb/jluascript_13_a_javalua_bridge_that_allows_you_to/)
 - [JBang can now be used to make java one-liners](https://www.reddit.com/r/java/comments/svra2z/jbang_can_now_be_used_to_make_java_oneliners/)
 - [Telegram Bot API for Java](https://www.reddit.com/r/java/comments/svqmis/telegram_bot_api_for_java/)
-- [isnt this the java logo&lpar;this is in bulgarian&rpar;](https://www.reddit.com/r/java/comments/svk6gx/isnt_this_the_java_logothis_is_in_bulgarian/)
 - [Running Elasticsearch 8.0 with Testcontainers](https://www.reddit.com/r/java/comments/svfz01/running_elasticsearch_80_with_testcontainers/)
 - [Java real-life conferences](https://www.reddit.com/r/java/comments/sve0cz/java_reallife_conferences/)
 - [Eclipse Collections 11.0.0 Features New APIs and Functionality](https://www.reddit.com/r/java/comments/sv18x8/eclipse_collections_1100_features_new_apis_and/)
-- [Quarkus 2.7.1 Released - But Why Quarkus?](https://www.reddit.com/r/java/comments/suwlwv/quarkus_271_released_but_why_quarkus/)
-- [Piranha 22.2 released!](https://www.reddit.com/r/java/comments/supna9/piranha_222_released/)
-- [State of Pattern Matching with Brian Goetz](https://www.reddit.com/r/java/comments/sujanz/state_of_pattern_matching_with_brian_goetz/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
