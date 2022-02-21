@@ -280,10 +280,10 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Client Library to Make HTTP Requests Look Like Regular Methods](https://www.reddit.com/r/java/comments/swpuwz/client_library_to_make_http_requests_look_like/)
-- [Text Adventure](https://www.reddit.com/r/java/comments/swojvt/text_adventure/)
+- [Trouble Getting JavaFX to Work on Eclipse IDE](https://www.reddit.com/r/java/comments/sxcg02/trouble_getting_javafx_to_work_on_eclipse_ide/)
+- [Does something like this exist for Java?](https://www.reddit.com/r/java/comments/sx2v44/does_something_like_this_exist_for_java/)
+- [The elusive and beautiful Java Method Reference](https://www.reddit.com/r/java/comments/swxp19/the_elusive_and_beautiful_java_method_reference/)
 - [Viewing Optional as a Replacement for Checked Exceptions](https://www.reddit.com/r/java/comments/swjqpb/viewing_optional_as_a_replacement_for_checked/)
-- [I&#39;ve been programming in Java for 20 years. What would be some advanced java projects?](https://www.reddit.com/r/java/comments/swi1aa/ive_been_programming_in_java_for_20_years_what/)
 - [jLuaScript 1.3 - A Java/Lua bridge that allows you to use Java Objects directly in Lua scripts.](https://www.reddit.com/r/java/comments/svsocb/jluascript_13_a_javalua_bridge_that_allows_you_to/)
 - [JBang can now be used to make java one-liners](https://www.reddit.com/r/java/comments/svra2z/jbang_can_now_be_used_to_make_java_oneliners/)
 - [Telegram Bot API for Java](https://www.reddit.com/r/java/comments/svqmis/telegram_bot_api_for_java/)
