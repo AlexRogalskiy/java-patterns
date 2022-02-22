@@ -280,21 +280,22 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Trouble Getting JavaFX to Work on Eclipse IDE](https://www.reddit.com/r/java/comments/sxcg02/trouble_getting_javafx_to_work_on_eclipse_ide/)
-- [Does something like this exist for Java?](https://www.reddit.com/r/java/comments/sx2v44/does_something_like_this_exist_for_java/)
+- [Little debate regarding &quot;mastering java&quot; or learning Java.](https://www.reddit.com/r/java/comments/sy3owt/little_debate_regarding_mastering_java_or/)
+- [nio_uring: Java I/O library using io_uring under the hood. Just released, feedback welcome!](https://www.reddit.com/r/java/comments/sy1whh/nio_uring_java_io_library_using_io_uring_under/)
+- [Implementing a single class Java parser for semantic versioning with correct precedence ordering](https://www.reddit.com/r/java/comments/sy0oam/implementing_a_single_class_java_parser_for/)
+- [Running jmap and jstack on Java applications running on Kubernetes](https://www.reddit.com/r/java/comments/sxyzig/running_jmap_and_jstack_on_java_applications/)
+- [The JDK Flight Recorder File Format](https://www.reddit.com/r/java/comments/sxx4mm/the_jdk_flight_recorder_file_format/)
 - [The elusive and beautiful Java Method Reference](https://www.reddit.com/r/java/comments/swxp19/the_elusive_and_beautiful_java_method_reference/)
 - [Viewing Optional as a Replacement for Checked Exceptions](https://www.reddit.com/r/java/comments/swjqpb/viewing_optional_as_a_replacement_for_checked/)
 - [jLuaScript 1.3 - A Java/Lua bridge that allows you to use Java Objects directly in Lua scripts.](https://www.reddit.com/r/java/comments/svsocb/jluascript_13_a_javalua_bridge_that_allows_you_to/)
 - [JBang can now be used to make java one-liners](https://www.reddit.com/r/java/comments/svra2z/jbang_can_now_be_used_to_make_java_oneliners/)
 - [Telegram Bot API for Java](https://www.reddit.com/r/java/comments/svqmis/telegram_bot_api_for_java/)
-- [Running Elasticsearch 8.0 with Testcontainers](https://www.reddit.com/r/java/comments/svfz01/running_elasticsearch_80_with_testcontainers/)
-- [Java real-life conferences](https://www.reddit.com/r/java/comments/sve0cz/java_reallife_conferences/)
-- [Eclipse Collections 11.0.0 Features New APIs and Functionality](https://www.reddit.com/r/java/comments/sv18x8/eclipse_collections_1100_features_new_apis_and/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [TypeScript usage growing by leads and bounds — report](https://www.infoworld.com/article/3650513/typescript-usage-growing-by-leads-and-bounds-report.html#tk.rss_java)
 - [A brief intro to the Pants build system](https://www.infoworld.com/article/3650508/a-brief-intro-to-the-pants-build-system.html#tk.rss_java)
 - [JDK 18: The new features in Java 18](https://www.infoworld.com/article/3630510/jdk-18-the-new-features-in-java-18.html#tk.rss_java)
 - [Java proposal would lower GC latency](https://www.infoworld.com/article/3649194/java-proposal-would-lower-gc-latency.html#tk.rss_java)
@@ -304,7 +305,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Microsoft publishes Java roadmap for Visual Studio Code](https://www.infoworld.com/article/3648290/microsoft-looks-to-woo-more-java-developers-to-visual-studio-code.html#tk.rss_java)
 - [Python nabs programming language of the year honors](https://www.infoworld.com/article/3646136/python-nabs-programming-language-of-the-year-honors.html#tk.rss_java)
 - [Project Valhalla tees up Java object model improvements](https://www.infoworld.com/article/3646092/project-valhalla-tees-up-java-object-model-improvements.html#tk.rss_java)
-- [What app developers need to do now to fight Log4j exploits](https://www.infoworld.com/article/3645908/what-app-developers-need-to-do-now-to-fight-log4j-exploits.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
