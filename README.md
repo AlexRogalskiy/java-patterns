@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [I need help understanding a Java question. I just can’t wrap my head around it. It has to do with “increments”. If something is a++ it means a + 1, but it there is an additional ++a in the formula, do we not add it the same way?](https://www.reddit.com/r/java/comments/sz4g80/i_need_help_understanding_a_java_question_i_just/)
+- [Basic programs to practice?](https://www.reddit.com/r/java/comments/sz2aap/basic_programs_to_practice/)
+- [Handling Mouse Click Events in Swing](https://www.reddit.com/r/java/comments/sz1c5k/handling_mouse_click_events_in_swing/)
+- [A Matter of Interpretation: From Bytecodes to Machine Code in the JVM](https://www.reddit.com/r/java/comments/syyjae/a_matter_of_interpretation_from_bytecodes_to/)
+- [Leverage Java 17 New Features to Create Your Wordle Checker - JEP Café #10](https://www.reddit.com/r/java/comments/syr4lu/leverage_java_17_new_features_to_create_your/)
+- [What do you think about new features to work with checked exceptions?](https://www.reddit.com/r/java/comments/syo3x9/what_do_you_think_about_new_features_to_work_with/)
+- [Which openjdk image to use for running CI container?](https://www.reddit.com/r/java/comments/sylmvv/which_openjdk_image_to_use_for_running_ci/)
+- [ControlsFX is an open source project for JavaFX that aims to provide really high quality UI controls](https://www.reddit.com/r/java/comments/sykqtr/controlsfx_is_an_open_source_project_for_javafx/)
 - [Little debate regarding &quot;mastering java&quot; or learning Java.](https://www.reddit.com/r/java/comments/sy3owt/little_debate_regarding_mastering_java_or/)
 - [nio_uring: Java I/O library using io_uring under the hood. Just released, feedback welcome!](https://www.reddit.com/r/java/comments/sy1whh/nio_uring_java_io_library_using_io_uring_under/)
-- [Implementing a single class Java parser for semantic versioning with correct precedence ordering](https://www.reddit.com/r/java/comments/sy0oam/implementing_a_single_class_java_parser_for/)
-- [Running jmap and jstack on Java applications running on Kubernetes](https://www.reddit.com/r/java/comments/sxyzig/running_jmap_and_jstack_on_java_applications/)
-- [The JDK Flight Recorder File Format](https://www.reddit.com/r/java/comments/sxx4mm/the_jdk_flight_recorder_file_format/)
-- [The elusive and beautiful Java Method Reference](https://www.reddit.com/r/java/comments/swxp19/the_elusive_and_beautiful_java_method_reference/)
-- [Viewing Optional as a Replacement for Checked Exceptions](https://www.reddit.com/r/java/comments/swjqpb/viewing_optional_as_a_replacement_for_checked/)
-- [jLuaScript 1.3 - A Java/Lua bridge that allows you to use Java Objects directly in Lua scripts.](https://www.reddit.com/r/java/comments/svsocb/jluascript_13_a_javalua_bridge_that_allows_you_to/)
-- [JBang can now be used to make java one-liners](https://www.reddit.com/r/java/comments/svra2z/jbang_can_now_be_used_to_make_java_oneliners/)
-- [Telegram Bot API for Java](https://www.reddit.com/r/java/comments/svqmis/telegram_bot_api_for_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
