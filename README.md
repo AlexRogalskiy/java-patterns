@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [I need help understanding a Java question. I just can’t wrap my head around it. It has to do with “increments”. If something is a++ it means a + 1, but it there is an additional ++a in the formula, do we not add it the same way?](https://www.reddit.com/r/java/comments/sz4g80/i_need_help_understanding_a_java_question_i_just/)
-- [Basic programs to practice?](https://www.reddit.com/r/java/comments/sz2aap/basic_programs_to_practice/)
-- [Handling Mouse Click Events in Swing](https://www.reddit.com/r/java/comments/sz1c5k/handling_mouse_click_events_in_swing/)
+- [Jesus Christ, why is it so hard to reference-pass a primitive instead of value-pass?? Who thought this was a good idea???](https://www.reddit.com/r/java/comments/szyk9h/jesus_christ_why_is_it_so_hard_to_referencepass_a/)
+- [Using Amazon Aurora Global Databases With Spring](https://www.reddit.com/r/java/comments/szkd1z/using_amazon_aurora_global_databases_with_spring/)
+- [Weld 5.0.0.CR1 released!](https://www.reddit.com/r/java/comments/szjkyz/weld_500cr1_released/)
+- [Multiple non-final fields vs one non-final field of immutable object](https://www.reddit.com/r/java/comments/szckad/multiple_nonfinal_fields_vs_one_nonfinal_field_of/)
+- [Java lambdas vs anonymous classes](https://www.reddit.com/r/java/comments/szc5lm/java_lambdas_vs_anonymous_classes/)
 - [A Matter of Interpretation: From Bytecodes to Machine Code in the JVM](https://www.reddit.com/r/java/comments/syyjae/a_matter_of_interpretation_from_bytecodes_to/)
 - [Leverage Java 17 New Features to Create Your Wordle Checker - JEP Café #10](https://www.reddit.com/r/java/comments/syr4lu/leverage_java_17_new_features_to_create_your/)
 - [What do you think about new features to work with checked exceptions?](https://www.reddit.com/r/java/comments/syo3x9/what_do_you_think_about_new_features_to_work_with/)
 - [Which openjdk image to use for running CI container?](https://www.reddit.com/r/java/comments/sylmvv/which_openjdk_image_to_use_for_running_ci/)
 - [ControlsFX is an open source project for JavaFX that aims to provide really high quality UI controls](https://www.reddit.com/r/java/comments/sykqtr/controlsfx_is_an_open_source_project_for_javafx/)
-- [Little debate regarding &quot;mastering java&quot; or learning Java.](https://www.reddit.com/r/java/comments/sy3owt/little_debate_regarding_mastering_java_or/)
-- [nio_uring: Java I/O library using io_uring under the hood. Just released, feedback welcome!](https://www.reddit.com/r/java/comments/sy1whh/nio_uring_java_io_library_using_io_uring_under/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
