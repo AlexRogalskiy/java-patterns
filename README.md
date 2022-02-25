@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [It seems like Eclipse has finally won the IDE war?](https://www.reddit.com/r/java/comments/t0rivg/it_seems_like_eclipse_has_finally_won_the_ide_war/)
+- [Open source Java projects](https://www.reddit.com/r/java/comments/t0o5ef/open_source_java_projects/)
+- [Practical intro into creating Virtual Threads with project Loom](https://www.reddit.com/r/java/comments/t0i1j5/practical_intro_into_creating_virtual_threads/)
+- [Integrating AWS Rekognition with Java for the use case of image content moderation.](https://www.reddit.com/r/java/comments/t0h5or/integrating_aws_rekognition_with_java_for_the_use/)
+- [Project Panama for Newbies &lpar;Part 4&rpar;](https://www.reddit.com/r/java/comments/t06iru/project_panama_for_newbies_part_4/)
 - [Jesus Christ, why is it so hard to reference-pass a primitive instead of value-pass?? Who thought this was a good idea???](https://www.reddit.com/r/java/comments/szyk9h/jesus_christ_why_is_it_so_hard_to_referencepass_a/)
 - [Using Amazon Aurora Global Databases With Spring](https://www.reddit.com/r/java/comments/szkd1z/using_amazon_aurora_global_databases_with_spring/)
 - [Weld 5.0.0.CR1 released!](https://www.reddit.com/r/java/comments/szjkyz/weld_500cr1_released/)
 - [Multiple non-final fields vs one non-final field of immutable object](https://www.reddit.com/r/java/comments/szckad/multiple_nonfinal_fields_vs_one_nonfinal_field_of/)
 - [Java lambdas vs anonymous classes](https://www.reddit.com/r/java/comments/szc5lm/java_lambdas_vs_anonymous_classes/)
-- [A Matter of Interpretation: From Bytecodes to Machine Code in the JVM](https://www.reddit.com/r/java/comments/syyjae/a_matter_of_interpretation_from_bytecodes_to/)
-- [Leverage Java 17 New Features to Create Your Wordle Checker - JEP Café #10](https://www.reddit.com/r/java/comments/syr4lu/leverage_java_17_new_features_to_create_your/)
-- [What do you think about new features to work with checked exceptions?](https://www.reddit.com/r/java/comments/syo3x9/what_do_you_think_about_new_features_to_work_with/)
-- [Which openjdk image to use for running CI container?](https://www.reddit.com/r/java/comments/sylmvv/which_openjdk_image_to_use_for_running_ci/)
-- [ControlsFX is an open source project for JavaFX that aims to provide really high quality UI controls](https://www.reddit.com/r/java/comments/sykqtr/controlsfx_is_an_open_source_project_for_javafx/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
