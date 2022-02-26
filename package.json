@@ -45,6 +45,7 @@
         "markdown": "markdown-link-check ./README.md ./SECURITY.md",
         "git:diff": "git --no-pager diff --exit-code --stat HEAD",
         "git:log": "git log -1 --format='format:%H' HEAD",
+        "print:version": "cat ./package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]' | jq  --raw-input . | jq --slurp . > ./docs/versions.json",
         "git:clean": "git stash && git clean -fdX",
         "git:ls": "git cat-file -p HEAD && git ls-tree -r HEAD",
         "zip": "zip -r $npm_package_config_image.zip ./site",

@@ -4,13 +4,17 @@ site_description: >-
 site_author: Alexander Rogalskiy
 site_url: https://alexander-rogalsky.gitbook.io/java-patterns/
 
+# Documentation directory
+docs_dir: docs/
+
 # Repository
 repo_name: AlexRogalskiy/java-patterns
 repo_url: https://gitlab.com/AlexRogalskiy/java-patterns
 edit_uri: https://gitlab.com/AlexRogalskiy/java-patterns/master/docs/
 
 #Copyright (shown at the footer)
-copyright: 'Copyright &copy; 2021-2022 Nullables.io'
+copyright: Copyright &copy; 2021-2022 <a href="https://mirantis.com/">Nullables.io</a>
+    - All rights reserved.
 
 use_directory_urls: true
 
@@ -27,6 +31,7 @@ theme:
   name: material
   language: en
   highlightjs: true
+  custom_dir: docs/custom_theme
 #   custom_dir: !ENV [THEME_DIR, "docs/overrides"]
   # Static files
   static_templates:
@@ -48,6 +53,7 @@ theme:
     - search.highlight
     - header.autohide
     - toc.integrate
+    - toc.autohide
     - content.tabs.link
     - content.code.annotate
   palette:
@@ -110,6 +116,7 @@ extra:
       link: 'https://github.com/AlexRogalskiy/java-patterns'
   version:
     provider: mike
+    default: latest
 
 # Extensions
 markdown_extensions:
