@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [It seems like Eclipse has finally won the IDE war?](https://www.reddit.com/r/java/comments/t0rivg/it_seems_like_eclipse_has_finally_won_the_ide_war/)
+- [Still seeing misuse of Optional..](https://www.reddit.com/r/java/comments/t1ev7h/still_seeing_misuse_of_optional/)
+- [Relevant Java Skills for advanced course](https://www.reddit.com/r/java/comments/t1cwld/relevant_java_skills_for_advanced_course/)
+- [Java Topics for an advanced course](https://www.reddit.com/r/java/comments/t1cu42/java_topics_for_an_advanced_course/)
+- [Best Functional Library for Java ? And do you recommend going for a functional style in Java?](https://www.reddit.com/r/java/comments/t1bkjp/best_functional_library_for_java_and_do_you/)
+- [Ta4j is an open source Java library for technical analysis](https://www.reddit.com/r/java/comments/t173nr/ta4j_is_an_open_source_java_library_for_technical/)
+- [Eclipse 4.23 finally introduces stable sort order in Progress View](https://www.reddit.com/r/java/comments/t16dki/eclipse_423_finally_introduces_stable_sort_order/)
+- [GlassFish 7 milestone 2 released!](https://www.reddit.com/r/java/comments/t12cge/glassfish_7_milestone_2_released/)
 - [Open source Java projects](https://www.reddit.com/r/java/comments/t0o5ef/open_source_java_projects/)
 - [Practical intro into creating Virtual Threads with project Loom](https://www.reddit.com/r/java/comments/t0i1j5/practical_intro_into_creating_virtual_threads/)
 - [Integrating AWS Rekognition with Java for the use case of image content moderation.](https://www.reddit.com/r/java/comments/t0h5or/integrating_aws_rekognition_with_java_for_the_use/)
-- [Project Panama for Newbies &lpar;Part 4&rpar;](https://www.reddit.com/r/java/comments/t06iru/project_panama_for_newbies_part_4/)
-- [Jesus Christ, why is it so hard to reference-pass a primitive instead of value-pass?? Who thought this was a good idea???](https://www.reddit.com/r/java/comments/szyk9h/jesus_christ_why_is_it_so_hard_to_referencepass_a/)
-- [Using Amazon Aurora Global Databases With Spring](https://www.reddit.com/r/java/comments/szkd1z/using_amazon_aurora_global_databases_with_spring/)
-- [Weld 5.0.0.CR1 released!](https://www.reddit.com/r/java/comments/szjkyz/weld_500cr1_released/)
-- [Multiple non-final fields vs one non-final field of immutable object](https://www.reddit.com/r/java/comments/szckad/multiple_nonfinal_fields_vs_one_nonfinal_field_of/)
-- [Java lambdas vs anonymous classes](https://www.reddit.com/r/java/comments/szc5lm/java_lambdas_vs_anonymous_classes/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
