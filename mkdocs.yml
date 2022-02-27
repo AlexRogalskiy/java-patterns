@@ -7,6 +7,9 @@ site_url: https://alexander-rogalsky.gitbook.io/java-patterns/
 # Documentation directory
 docs_dir: docs/
 
+# Google analytics
+# google_analytics: ['UA-7131053-20', 'auto']
+
 # Repository
 repo_name: AlexRogalskiy/java-patterns
 repo_url: https://gitlab.com/AlexRogalskiy/java-patterns

@@ -47,6 +47,10 @@ cred := $(shell echo -e "\033[0;31m")
 cyellow := $(shell echo -e "\033[0;33m")
 cend := $(shell echo -e "\033[0m")
 
+HTMLTEST 			?= htmltest # Specify as make arg if different
+HTMLTEST_ARGS	?= --skip-external --conf .htmltest.yml
+HTMLTEST_DIR	= ./scripts
+
 # Set V=1 on the command line to turn off all suppression. Many trivial
 # commands are suppressed with "@", by setting V=1, this will be turned off.
 ifeq ($(V),1)
@@ -61,10 +65,10 @@ ifeq ($(USE_DOCKER),true)
 	DOCKER_CMD := docker compose
 endif
 
-IMAGE ?= styled-java-patterns
-OKTETO_IMAGE ?= okteto/$(IMAGE)
-DOCKER_IMAGE ?= alexanderr/$(IMAGE)
-TAG ?= latest
+IMAGE 				?= styled-java-patterns
+OKTETO_IMAGE 	?= okteto/$(IMAGE)
+DOCKER_IMAGE 	?= alexanderr/$(IMAGE)
+TAG 					?= latest
 
 # UNAME_OS stores the value of uname -s.
 UNAME_OS := $(shell uname -s)
@@ -312,7 +316,7 @@ venv-run: venv-build
 # Run github pages deploy command.
 .PHONY: gh-pages
 gh-pages:
-	$(PYTHON) -m mkdocs --verbose gh-deploy --force --remote-branch gh-pages
+	$(PYTHON) -m mkdocs --verbose gh-deploy --clean --force --remote-branch gh-pages
 	@echo
 	@echo -e "$(cred)GitHub pages generated.$(cend)"
 	@echo
@@ -355,19 +359,19 @@ git-pull:
 # Run install link checker command.
 .PHONY: install-link-checker
 install-link-checker:
-	$(AT)[[ -f "./scripts/htmltest.sh" ]] || curl https://htmltest.wjdp.uk -o ./scripts/htmltest.sh
+	$(AT)[ -f $(HTMLTEST_DIR)/$(HTMLTEST) ] || curl https://htmltest.wjdp.uk -o $(HTMLTEST_DIR)/$(HTMLTEST)
 
 # Run setup link checker command.
 .PHONY: setup-link-checker
-setup-link-checker:
-	chmod +x ./scripts/htmltest.sh
-	./scripts/htmltest.sh -d
+setup-link-checker: install-link-checker
+	chmod +x $(HTMLTEST_DIR)/$(HTMLTEST)
+	$(HTMLTEST_DIR)/$(HTMLTEST) -d -b $(HTMLTEST_DIR)/bin
 
 # Run run link checker command.
 .PHONY: run-link-checker
-run-link-checker:
-	chmod +x ./bin/htmltest
-	./bin/htmltest --conf .htmltest.yml
+run-link-checker: setup-link-checker
+	chmod +x $(HTMLTEST_DIR)/bin/$(HTMLTEST)
+	$(HTMLTEST_DIR)/bin/$(HTMLTEST) $(HTMLTEST_ARGS)
 
 # Run check links command.
 .PHONY: check-links

@@ -371,7 +371,8 @@ REPO="htmltest"
 BINARY=htmltest
 FORMAT=tar.gz
 OS=$(uname_os)
-ARCH=$(uname_arch)
+#ARCH=$(uname_arch)
+ARCH=amd64
 PREFIX="$OWNER/$REPO"
 
 # use in logging routines
