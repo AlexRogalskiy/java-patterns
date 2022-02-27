@@ -28,7 +28,11 @@
         "ideas",
         "infra",
         "maintenance",
-        "test"
+        "test",
+        "bug",
+        "content",
+        "data",
+        "tutorial"
       ]
     },
     {
@@ -37,8 +41,9 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/25180681",
       "profile": "https://github.com/renovate-bot",
       "contributions": [
-         "maintenance"
+        "maintenance"
       ]
     }
-  ]
+  ],
+  "commitConvention": "none"
 }
