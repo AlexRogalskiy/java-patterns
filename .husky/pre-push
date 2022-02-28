@@ -1,4 +1,11 @@
 #!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
 
-npm run check:all
+FILE_NAME="$(dirname "$0")/_/husky.sh"
+
+# Conditionally invoke so as to avoid running npm commands if this is a clean checkout (ie before installing npm modules)
+if [ -f "$FILE_NAME" ]; then
+  # shellcheck source=./_/husky.sh
+  . "$FILE_NAME"
+
+  npm run check:all
+fi

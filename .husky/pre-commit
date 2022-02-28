@@ -1,11 +1,18 @@
 #!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
 
-npm run lint:staged
-npm run all
-npm run changelog
+FILE_NAME="$(dirname "$0")/_/husky.sh"
 
-git add docs/
+# Conditionally invoke so as to avoid running npm commands if this is a clean checkout (ie before installing npm modules)
+if [ -f "$FILE_NAME" ]; then
+  # shellcheck source=./_/husky.sh
+  . "$FILE_NAME"
 
-git add README.md
-git add CHANGELOG.md
+  npm run lint:staged
+  npm run all
+  npm run changelog
+
+  git add docs/
+
+  git add README.md
+  git add CHANGELOG.md
+fi
