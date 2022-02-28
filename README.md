@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [AWS Transcribe integration with Java Spring-boot for Audio-to-text translation](https://www.reddit.com/r/java/comments/t2x0jw/aws_transcribe_integration_with_java_springboot/)
+- [Will I have an easier time using maven + vscode instead of gradle + vscode?](https://www.reddit.com/r/java/comments/t2w15g/will_i_have_an_easier_time_using_maven_vscode/)
+- [What do you think about the future of java ?](https://www.reddit.com/r/java/comments/t2qbs7/what_do_you_think_about_the_future_of_java/)
+- [Are the Oracle Java exams worth doing?](https://www.reddit.com/r/java/comments/t2kxye/are_the_oracle_java_exams_worth_doing/)
 - [Spring Data JPA Repository unit tests.](https://www.reddit.com/r/java/comments/t286n6/spring_data_jpa_repository_unit_tests/)
 - [Java method signatures &quot;philosophical&quot; question](https://www.reddit.com/r/java/comments/t25ufd/java_method_signatures_philosophical_question/)
-- [Are there any fullstack, monolith website projects built on Spring Boot?](https://www.reddit.com/r/java/comments/t1som7/are_there_any_fullstack_monolith_website_projects/)
 - [jte 2](https://www.reddit.com/r/java/comments/t1qxnr/jte_2/)
 - [Still seeing misuse of Optional..](https://www.reddit.com/r/java/comments/t1ev7h/still_seeing_misuse_of_optional/)
 - [Relevant Java Skills for advanced course](https://www.reddit.com/r/java/comments/t1cwld/relevant_java_skills_for_advanced_course/)
-- [Java Topics for an advanced course](https://www.reddit.com/r/java/comments/t1cu42/java_topics_for_an_advanced_course/)
 - [Best Functional Library for Java ? And do you recommend going for a functional style in Java?](https://www.reddit.com/r/java/comments/t1bkjp/best_functional_library_for_java_and_do_you/)
-- [Ta4j is an open source Java library for technical analysis](https://www.reddit.com/r/java/comments/t173nr/ta4j_is_an_open_source_java_library_for_technical/)
-- [Eclipse 4.23 finally introduces stable sort order in Progress View](https://www.reddit.com/r/java/comments/t16dki/eclipse_423_finally_introduces_stable_sort_order/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
