@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [What&#39;s best practice for storing keys used for API access.](https://www.reddit.com/r/java/comments/t3tgjz/whats_best_practice_for_storing_keys_used_for_api/)
+- [Run .java GUI Swing application in dwm](https://www.reddit.com/r/java/comments/t3lw0h/run_java_gui_swing_application_in_dwm/)
+- [Oracle 1Z0-819 Java SE 11 Developer study guide](https://www.reddit.com/r/java/comments/t3hqbt/oracle_1z0819_java_se_11_developer_study_guide/)
+- [[Academic] - code review experiment - looking for participants](https://www.reddit.com/r/java/comments/t3gosj/academic_code_review_experiment_looking_for/)
+- [KoolKits: Opinionated, language-specific, batteries-included debug container images for Kubernetes](https://www.reddit.com/r/java/comments/t3a7oh/koolkits_opinionated_languagespecific/)
 - [AWS Transcribe integration with Java Spring-boot for Audio-to-text translation](https://www.reddit.com/r/java/comments/t2x0jw/aws_transcribe_integration_with_java_springboot/)
-- [Will I have an easier time using maven + vscode instead of gradle + vscode?](https://www.reddit.com/r/java/comments/t2w15g/will_i_have_an_easier_time_using_maven_vscode/)
 - [What do you think about the future of java ?](https://www.reddit.com/r/java/comments/t2qbs7/what_do_you_think_about_the_future_of_java/)
 - [Are the Oracle Java exams worth doing?](https://www.reddit.com/r/java/comments/t2kxye/are_the_oracle_java_exams_worth_doing/)
 - [Spring Data JPA Repository unit tests.](https://www.reddit.com/r/java/comments/t286n6/spring_data_jpa_repository_unit_tests/)
 - [Java method signatures &quot;philosophical&quot; question](https://www.reddit.com/r/java/comments/t25ufd/java_method_signatures_philosophical_question/)
-- [jte 2](https://www.reddit.com/r/java/comments/t1qxnr/jte_2/)
-- [Still seeing misuse of Optional..](https://www.reddit.com/r/java/comments/t1ev7h/still_seeing_misuse_of_optional/)
-- [Relevant Java Skills for advanced course](https://www.reddit.com/r/java/comments/t1cwld/relevant_java_skills_for_advanced_course/)
-- [Best Functional Library for Java ? And do you recommend going for a functional style in Java?](https://www.reddit.com/r/java/comments/t1bkjp/best_functional_library_for_java_and_do_you/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
