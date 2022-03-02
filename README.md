@@ -415,6 +415,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
+- [MutationQuery and SelectionQuery in Hibernate 6](https://thorben-janssen.com/mutationquery-and-selectionquery/)
 - [Native Queries – How to call native SQL queries with JPA &amp; Hibernate](https://thorben-janssen.com/jpa-native-queries/)
 - [Hibernate 6 EmbeddableInstantiator – Instantiate embeddables your way](https://thorben-janssen.com/hibernate-embeddableinstantiator/)
 - [Logging Guide for Hibernate 4, 5 &amp; 6 – Use the right config for dev and prod](https://thorben-janssen.com/hibernate-logging-guide/)
@@ -424,7 +425,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [The Best Spring Data JPA Logging Configuration in Spring Boot](https://thorben-janssen.com/spring-data-jpa-logging/)
 - [Naming Strategies in Hibernate 5](https://thorben-janssen.com/naming-strategies-in-hibernate-5/)
 - [The Best Mapping for Shared Technical Attributes With Hibernate](https://thorben-janssen.com/mapping-shared-technical-attributes/)
-- [Mixing Inheritance Mapping Strategies with Hibernate](https://thorben-janssen.com/hibernate-mix-inheritance-mappings/)
 <!-- TJ-POST-LIST:END -->
 
 ### *Redhat posts*
