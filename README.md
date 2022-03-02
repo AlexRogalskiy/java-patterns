@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [New candidate JEP 424: Foreign Function &amp; Memory API &lpar;Preview&rpar;](https://www.reddit.com/r/java/comments/t4opal/new_candidate_jep_424_foreign_function_memory_api/)
+- [The Zephyr Dependency Graph](https://www.reddit.com/r/java/comments/t4mf29/the_zephyr_dependency_graph/)
+- [Interview with Senior Java Developer](https://www.reddit.com/r/java/comments/t4kg4k/interview_with_senior_java_developer/)
+- [JDK 18 and JDK 19: What We Know So Far](https://www.reddit.com/r/java/comments/t4ig68/jdk_18_and_jdk_19_what_we_know_so_far/)
+- [AWK in Java with JBang!](https://www.reddit.com/r/java/comments/t4f0s7/awk_in_java_with_jbang/)
+- [Consumers vs void methods?](https://www.reddit.com/r/java/comments/t4eodr/consumers_vs_void_methods/)
+- [Java on ARM - Theory, Applications, and Workloads – Dmitry Chuyko](https://www.reddit.com/r/java/comments/t46syt/java_on_arm_theory_applications_and_workloads/)
+- [Awesome Software Architecture: A curated list of useful resources about software architecture and design principles.](https://www.reddit.com/r/java/comments/t44lcy/awesome_software_architecture_a_curated_list_of/)
+- [Can tags assigned to objects by a native agent be accessed in the corresponding Java program ?](https://www.reddit.com/r/java/comments/t3xdxo/can_tags_assigned_to_objects_by_a_native_agent_be/)
 - [What&#39;s best practice for storing keys used for API access.](https://www.reddit.com/r/java/comments/t3tgjz/whats_best_practice_for_storing_keys_used_for_api/)
-- [Run .java GUI Swing application in dwm](https://www.reddit.com/r/java/comments/t3lw0h/run_java_gui_swing_application_in_dwm/)
-- [Oracle 1Z0-819 Java SE 11 Developer study guide](https://www.reddit.com/r/java/comments/t3hqbt/oracle_1z0819_java_se_11_developer_study_guide/)
-- [[Academic] - code review experiment - looking for participants](https://www.reddit.com/r/java/comments/t3gosj/academic_code_review_experiment_looking_for/)
-- [KoolKits: Opinionated, language-specific, batteries-included debug container images for Kubernetes](https://www.reddit.com/r/java/comments/t3a7oh/koolkits_opinionated_languagespecific/)
-- [AWS Transcribe integration with Java Spring-boot for Audio-to-text translation](https://www.reddit.com/r/java/comments/t2x0jw/aws_transcribe_integration_with_java_springboot/)
-- [What do you think about the future of java ?](https://www.reddit.com/r/java/comments/t2qbs7/what_do_you_think_about_the_future_of_java/)
-- [Are the Oracle Java exams worth doing?](https://www.reddit.com/r/java/comments/t2kxye/are_the_oracle_java_exams_worth_doing/)
-- [Spring Data JPA Repository unit tests.](https://www.reddit.com/r/java/comments/t286n6/spring_data_jpa_repository_unit_tests/)
-- [Java method signatures &quot;philosophical&quot; question](https://www.reddit.com/r/java/comments/t25ufd/java_method_signatures_philosophical_question/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
