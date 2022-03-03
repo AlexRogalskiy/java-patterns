@@ -355,7 +355,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [New candidate JEP: 424: Foreign Function &amp;amp; Memory API &lpar;Preview&rpar;](https://inside.java/2022/03/02/new-candidate-jep-424/)
 - [Job Opportunity: Java VM Quality Engineer](https://inside.java/2022/03/01/ojp-jvm-gc-sqe/)
+- [The New Stack - Java Adapts to Cloud Native Computing](https://inside.java/2022/03/01/java-adapts-to-cloud-native/)
 - [Job Opportunity: Java VM Runtime Engineer](https://inside.java/2022/02/28/ojp-jvm-runtime/)
 - [Leverage Java 17 New Features to Create Your Wordle Checker - JEP Café #10](https://inside.java/2022/02/22/jepcafe10/)
 - [Card Table Card Size Shenanigans](https://inside.java/2022/02/16/cardtablecardsize/)
@@ -363,8 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Quality Outreach Heads-up - JDK 19: Constant class entries ending in ‘/’](https://inside.java/2022/02/10/quality-heads-up/)
 - [New candidate JEP: 423: Region Pinning for G1](https://inside.java/2022/02/02/new-candidate-jep-423/)
 - [Refactoring Java 8 code with Java 17 new features - JEP Café #9](https://inside.java/2022/02/01/jepcafe9/)
-- [Quality Outreach Heads-up - JDK 18: JEP 421](https://inside.java/2022/01/31/quality-heads-up/)
-- [Where to use Optional - Inside Java Newscast #19](https://inside.java/2022/01/27/insidejava-newscast-019/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
