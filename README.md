@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Study: Developers spend over 2 days a week just waiting for other developers to review their code](https://www.reddit.com/r/java/comments/t5f6i7/study_developers_spend_over_2_days_a_week_just/)
+- [Looking for guidance with GATE](https://www.reddit.com/r/java/comments/t57xot/looking_for_guidance_with_gate/)
+- [The Decline and Fall of Java on the Desktop Part 1 &lpar;1999-2005&rpar;](https://www.reddit.com/r/java/comments/t56o2u/the_decline_and_fall_of_java_on_the_desktop_part/)
+- [What is the recommended service discovery server/client to use in 2022 with Spring Boot?](https://www.reddit.com/r/java/comments/t56aqm/what_is_the_recommended_service_discovery/)
+- [Is Java8 still free for commercial use? I haven&#39;t done any Java work in a long time. I was under the impression that lots of people were still using java8 because it was exempt from the commercial licensing of later versions. If you&#39;re paying for Java, is there any reason not to upgrade to 17?](https://www.reddit.com/r/java/comments/t55jcv/is_java8_still_free_for_commercial_use_i_havent/)
+- [How is the market for Java developers where you live?](https://www.reddit.com/r/java/comments/t51k9v/how_is_the_market_for_java_developers_where_you/)
+- [Feign client Rate Limiting using Resilience4J](https://www.reddit.com/r/java/comments/t4vtkr/feign_client_rate_limiting_using_resilience4j/)
 - [New candidate JEP 424: Foreign Function &amp; Memory API &lpar;Preview&rpar;](https://www.reddit.com/r/java/comments/t4opal/new_candidate_jep_424_foreign_function_memory_api/)
 - [The Zephyr Dependency Graph](https://www.reddit.com/r/java/comments/t4mf29/the_zephyr_dependency_graph/)
 - [Interview with Senior Java Developer](https://www.reddit.com/r/java/comments/t4kg4k/interview_with_senior_java_developer/)
-- [JDK 18 and JDK 19: What We Know So Far](https://www.reddit.com/r/java/comments/t4ig68/jdk_18_and_jdk_19_what_we_know_so_far/)
-- [AWK in Java with JBang!](https://www.reddit.com/r/java/comments/t4f0s7/awk_in_java_with_jbang/)
-- [Consumers vs void methods?](https://www.reddit.com/r/java/comments/t4eodr/consumers_vs_void_methods/)
-- [Java on ARM - Theory, Applications, and Workloads – Dmitry Chuyko](https://www.reddit.com/r/java/comments/t46syt/java_on_arm_theory_applications_and_workloads/)
-- [Awesome Software Architecture: A curated list of useful resources about software architecture and design principles.](https://www.reddit.com/r/java/comments/t44lcy/awesome_software_architecture_a_curated_list_of/)
-- [Can tags assigned to objects by a native agent be accessed in the corresponding Java program ?](https://www.reddit.com/r/java/comments/t3xdxo/can_tags_assigned_to_objects_by_a_native_agent_be/)
-- [What&#39;s best practice for storing keys used for API access.](https://www.reddit.com/r/java/comments/t3tgjz/whats_best_practice_for_storing_keys_used_for_api/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
