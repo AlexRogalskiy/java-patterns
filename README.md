@@ -280,21 +280,23 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [New candidate JEP 424: Foreign Function &amp; Memory API &lpar;Preview&rpar;](https://www.reddit.com/r/java/comments/t4opal/new_candidate_jep_424_foreign_function_memory_api/)
-- [The Zephyr Dependency Graph](https://www.reddit.com/r/java/comments/t4mf29/the_zephyr_dependency_graph/)
-- [Interview with Senior Java Developer](https://www.reddit.com/r/java/comments/t4kg4k/interview_with_senior_java_developer/)
-- [JDK 18 and JDK 19: What We Know So Far](https://www.reddit.com/r/java/comments/t4ig68/jdk_18_and_jdk_19_what_we_know_so_far/)
-- [AWK in Java with JBang!](https://www.reddit.com/r/java/comments/t4f0s7/awk_in_java_with_jbang/)
-- [Consumers vs void methods?](https://www.reddit.com/r/java/comments/t4eodr/consumers_vs_void_methods/)
-- [Java on ARM - Theory, Applications, and Workloads – Dmitry Chuyko](https://www.reddit.com/r/java/comments/t46syt/java_on_arm_theory_applications_and_workloads/)
-- [Awesome Software Architecture: A curated list of useful resources about software architecture and design principles.](https://www.reddit.com/r/java/comments/t44lcy/awesome_software_architecture_a_curated_list_of/)
-- [Can tags assigned to objects by a native agent be accessed in the corresponding Java program ?](https://www.reddit.com/r/java/comments/t3xdxo/can_tags_assigned_to_objects_by_a_native_agent_be/)
-- [What&#39;s best practice for storing keys used for API access.](https://www.reddit.com/r/java/comments/t3tgjz/whats_best_practice_for_storing_keys_used_for_api/)
+- [Telling the totality story [Brian Goetz on explaining how pattern matching will work]](https://www.reddit.com/r/java/comments/t65h3s/telling_the_totality_story_brian_goetz_on/)
+- [Transition from IT back to Development](https://www.reddit.com/r/java/comments/t5xc47/transition_from_it_back_to_development/)
+- [Visualizing Robots with JavaFX](https://www.reddit.com/r/java/comments/t5rbni/visualizing_robots_with_javafx/)
+- [Native Reference Guide &lpar;Quarkus GraalVM Native Image Advanced Debugging Techniques&rpar;](https://www.reddit.com/r/java/comments/t5oszz/native_reference_guide_quarkus_graalvm_native/)
+- [Always set a Garbage Collector](https://www.reddit.com/r/java/comments/t5ja5p/always_set_a_garbage_collector/)
+- [Study: Developers spend over 2 days a week just waiting for other developers to review their code](https://www.reddit.com/r/java/comments/t5f6i7/study_developers_spend_over_2_days_a_week_just/)
+- [Looking for guidance with GATE](https://www.reddit.com/r/java/comments/t57xot/looking_for_guidance_with_gate/)
+- [The Decline and Fall of Java on the Desktop Part 1 &lpar;1999-2005&rpar;](https://www.reddit.com/r/java/comments/t56o2u/the_decline_and_fall_of_java_on_the_desktop_part/)
+- [What is the recommended service discovery server/client to use in 2022 with Spring Boot?](https://www.reddit.com/r/java/comments/t56aqm/what_is_the_recommended_service_discovery/)
+- [Is Java8 still free for commercial use? I haven&#39;t done any Java work in a long time. I was under the impression that lots of people were still using java8 because it was exempt from the commercial licensing of later versions. If you&#39;re paying for Java, is there any reason not to upgrade to 17?](https://www.reddit.com/r/java/comments/t55jcv/is_java8_still_free_for_commercial_use_i_havent/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [Rust programming for Java developers](https://www.infoworld.com/article/3651362/rust-programming-for-java-developers.html#tk.rss_java)
+- [Java 8 still dominates, but Java 17 wave is coming – survey](https://www.infoworld.com/article/3652408/java-8-still-dominates-but-java-17-wave-is-coming-survey.html#tk.rss_java)
 - [TypeScript usage growing by leaps and bounds — report](https://www.infoworld.com/article/3650513/typescript-usage-growing-by-leaps-and-bounds-report.html#tk.rss_java)
 - [A brief intro to the Pants build system](https://www.infoworld.com/article/3650508/a-brief-intro-to-the-pants-build-system.html#tk.rss_java)
 - [JDK 18: The new features in Java 18](https://www.infoworld.com/article/3630510/jdk-18-the-new-features-in-java-18.html#tk.rss_java)
@@ -303,8 +305,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Groovy 4.0.0 adds SQL-like querying](https://www.infoworld.com/article/3649128/groovy-400-adds-sql-like-querying.html#tk.rss_java)
 - [GraalVM 22.0 promises a better developer experience](https://www.infoworld.com/article/3648448/graalvm-220-promises-a-better-developer-experience.html#tk.rss_java)
 - [Microsoft publishes Java roadmap for Visual Studio Code](https://www.infoworld.com/article/3648290/microsoft-looks-to-woo-more-java-developers-to-visual-studio-code.html#tk.rss_java)
-- [Python nabs programming language of the year honors](https://www.infoworld.com/article/3646136/python-nabs-programming-language-of-the-year-honors.html#tk.rss_java)
-- [Project Valhalla tees up Java object model improvements](https://www.infoworld.com/article/3646092/project-valhalla-tees-up-java-object-model-improvements.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
@@ -355,16 +355,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Job Opportunity: JavaFX Engineer](https://inside.java/2022/03/03/ojp-javafx-developer/)
+- [New candidate JEP: 424: Foreign Function &amp;amp; Memory API &lpar;Preview&rpar;](https://inside.java/2022/03/02/new-candidate-jep-424/)
 - [Job Opportunity: Java VM Quality Engineer](https://inside.java/2022/03/01/ojp-jvm-gc-sqe/)
+- [The New Stack - Java Adapts to Cloud Native Computing](https://inside.java/2022/03/01/java-adapts-to-cloud-native/)
 - [Job Opportunity: Java VM Runtime Engineer](https://inside.java/2022/02/28/ojp-jvm-runtime/)
 - [Leverage Java 17 New Features to Create Your Wordle Checker - JEP Café #10](https://inside.java/2022/02/22/jepcafe10/)
 - [Card Table Card Size Shenanigans](https://inside.java/2022/02/16/cardtablecardsize/)
 - [Compiled &amp;amp; Tested Code In Javadoc - Inside Java Newscast #20](https://inside.java/2022/02/10/insidejava-newscast-020/)
 - [Quality Outreach Heads-up - JDK 19: Constant class entries ending in ‘/’](https://inside.java/2022/02/10/quality-heads-up/)
 - [New candidate JEP: 423: Region Pinning for G1](https://inside.java/2022/02/02/new-candidate-jep-423/)
-- [Refactoring Java 8 code with Java 17 new features - JEP Café #9](https://inside.java/2022/02/01/jepcafe9/)
-- [Quality Outreach Heads-up - JDK 18: JEP 421](https://inside.java/2022/01/31/quality-heads-up/)
-- [Where to use Optional - Inside Java Newscast #19](https://inside.java/2022/01/27/insidejava-newscast-019/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
