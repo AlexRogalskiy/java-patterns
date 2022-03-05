@@ -355,6 +355,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Episode 22 “JEP 408 - Simple Web Server”](https://inside.java/2022/03/04/podcast-022/)
 - [Job Opportunity: JavaFX Engineer](https://inside.java/2022/03/03/ojp-javafx-developer/)
 - [New candidate JEP: 424: Foreign Function &amp;amp; Memory API &lpar;Preview&rpar;](https://inside.java/2022/03/02/new-candidate-jep-424/)
 - [Job Opportunity: Java VM Quality Engineer](https://inside.java/2022/03/01/ojp-jvm-gc-sqe/)
@@ -364,7 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Card Table Card Size Shenanigans](https://inside.java/2022/02/16/cardtablecardsize/)
 - [Compiled &amp;amp; Tested Code In Javadoc - Inside Java Newscast #20](https://inside.java/2022/02/10/insidejava-newscast-020/)
 - [Quality Outreach Heads-up - JDK 19: Constant class entries ending in ‘/’](https://inside.java/2022/02/10/quality-heads-up/)
-- [New candidate JEP: 423: Region Pinning for G1](https://inside.java/2022/02/02/new-candidate-jep-423/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
