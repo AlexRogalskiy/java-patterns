@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Spring Constructor Injection: Why is it the recommended approach to Dependency Injection?](https://www.reddit.com/r/java/comments/t6rygb/spring_constructor_injection_why_is_it_the/)
+- [Apache NetBeans 13 released](https://www.reddit.com/r/java/comments/t6rn6d/apache_netbeans_13_released/)
+- [Apache NetBeans 13 released](https://www.reddit.com/r/java/comments/t6rl1w/apache_netbeans_13_released/)
+- [Rapidly develop CRUD apps &lpar;and Apache Isis experience?&rpar;](https://www.reddit.com/r/java/comments/t6fwuc/rapidly_develop_crud_apps_and_apache_isis/)
+- [Conceptual question regarding JVMTI](https://www.reddit.com/r/java/comments/t6dx6f/conceptual_question_regarding_jvmti/)
 - [Telling the totality story [Brian Goetz on explaining how pattern matching will work]](https://www.reddit.com/r/java/comments/t65h3s/telling_the_totality_story_brian_goetz_on/)
 - [Transition from IT back to Development](https://www.reddit.com/r/java/comments/t5xc47/transition_from_it_back_to_development/)
 - [Visualizing Robots with JavaFX](https://www.reddit.com/r/java/comments/t5rbni/visualizing_robots_with_javafx/)
 - [Native Reference Guide &lpar;Quarkus GraalVM Native Image Advanced Debugging Techniques&rpar;](https://www.reddit.com/r/java/comments/t5oszz/native_reference_guide_quarkus_graalvm_native/)
 - [Always set a Garbage Collector](https://www.reddit.com/r/java/comments/t5ja5p/always_set_a_garbage_collector/)
-- [Study: Developers spend over 2 days a week just waiting for other developers to review their code](https://www.reddit.com/r/java/comments/t5f6i7/study_developers_spend_over_2_days_a_week_just/)
-- [Looking for guidance with GATE](https://www.reddit.com/r/java/comments/t57xot/looking_for_guidance_with_gate/)
-- [The Decline and Fall of Java on the Desktop Part 1 &lpar;1999-2005&rpar;](https://www.reddit.com/r/java/comments/t56o2u/the_decline_and_fall_of_java_on_the_desktop_part/)
-- [What is the recommended service discovery server/client to use in 2022 with Spring Boot?](https://www.reddit.com/r/java/comments/t56aqm/what_is_the_recommended_service_discovery/)
-- [Is Java8 still free for commercial use? I haven&#39;t done any Java work in a long time. I was under the impression that lots of people were still using java8 because it was exempt from the commercial licensing of later versions. If you&#39;re paying for Java, is there any reason not to upgrade to 17?](https://www.reddit.com/r/java/comments/t55jcv/is_java8_still_free_for_commercial_use_i_havent/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
