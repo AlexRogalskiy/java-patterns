@@ -280,8 +280,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [How does the Java community feel about Kotlin?](https://www.reddit.com/r/java/comments/t7c6ri/how_does_the_java_community_feel_about_kotlin/)
+- [How to test my code when writing for active webserver?](https://www.reddit.com/r/java/comments/t6zal5/how_to_test_my_code_when_writing_for_active/)
 - [Spring Constructor Injection: Why is it the recommended approach to Dependency Injection?](https://www.reddit.com/r/java/comments/t6rygb/spring_constructor_injection_why_is_it_the/)
-- [Apache NetBeans 13 released](https://www.reddit.com/r/java/comments/t6rn6d/apache_netbeans_13_released/)
 - [Apache NetBeans 13 released](https://www.reddit.com/r/java/comments/t6rl1w/apache_netbeans_13_released/)
 - [Rapidly develop CRUD apps &lpar;and Apache Isis experience?&rpar;](https://www.reddit.com/r/java/comments/t6fwuc/rapidly_develop_crud_apps_and_apache_isis/)
 - [Conceptual question regarding JVMTI](https://www.reddit.com/r/java/comments/t6dx6f/conceptual_question_regarding_jvmti/)
@@ -289,7 +290,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Transition from IT back to Development](https://www.reddit.com/r/java/comments/t5xc47/transition_from_it_back_to_development/)
 - [Visualizing Robots with JavaFX](https://www.reddit.com/r/java/comments/t5rbni/visualizing_robots_with_javafx/)
 - [Native Reference Guide &lpar;Quarkus GraalVM Native Image Advanced Debugging Techniques&rpar;](https://www.reddit.com/r/java/comments/t5oszz/native_reference_guide_quarkus_graalvm_native/)
-- [Always set a Garbage Collector](https://www.reddit.com/r/java/comments/t5ja5p/always_set_a_garbage_collector/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
