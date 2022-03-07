@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [How to get process details? | jProcesses2](https://www.reddit.com/r/java/comments/t8bcgi/how_to_get_process_details_jprocesses2/)
+- [Alternatives to DTO](https://www.reddit.com/r/java/comments/t85jl2/alternatives_to_dto/)
+- [FAANG software engineer questions with Java, what should I expect?](https://www.reddit.com/r/java/comments/t83woj/faang_software_engineer_questions_with_java_what/)
+- [What is the best career path of becoming a successful Java software engineer?](https://www.reddit.com/r/java/comments/t8319n/what_is_the_best_career_path_of_becoming_a/)
+- [If you were starting a new Java + Kafka project from scratch, what would you use?](https://www.reddit.com/r/java/comments/t80ca7/if_you_were_starting_a_new_java_kafka_project/)
+- [What are the best books/tutorials to learn both software development philosophy/design/architecture and Java?](https://www.reddit.com/r/java/comments/t7vm74/what_are_the_best_bookstutorials_to_learn_both/)
 - [How does the Java community feel about Kotlin?](https://www.reddit.com/r/java/comments/t7c6ri/how_does_the_java_community_feel_about_kotlin/)
 - [How to test my code when writing for active webserver?](https://www.reddit.com/r/java/comments/t6zal5/how_to_test_my_code_when_writing_for_active/)
 - [Spring Constructor Injection: Why is it the recommended approach to Dependency Injection?](https://www.reddit.com/r/java/comments/t6rygb/spring_constructor_injection_why_is_it_the/)
 - [Apache NetBeans 13 released](https://www.reddit.com/r/java/comments/t6rl1w/apache_netbeans_13_released/)
-- [Rapidly develop CRUD apps &lpar;and Apache Isis experience?&rpar;](https://www.reddit.com/r/java/comments/t6fwuc/rapidly_develop_crud_apps_and_apache_isis/)
-- [Conceptual question regarding JVMTI](https://www.reddit.com/r/java/comments/t6dx6f/conceptual_question_regarding_jvmti/)
-- [Telling the totality story [Brian Goetz on explaining how pattern matching will work]](https://www.reddit.com/r/java/comments/t65h3s/telling_the_totality_story_brian_goetz_on/)
-- [Transition from IT back to Development](https://www.reddit.com/r/java/comments/t5xc47/transition_from_it_back_to_development/)
-- [Visualizing Robots with JavaFX](https://www.reddit.com/r/java/comments/t5rbni/visualizing_robots_with_javafx/)
-- [Native Reference Guide &lpar;Quarkus GraalVM Native Image Advanced Debugging Techniques&rpar;](https://www.reddit.com/r/java/comments/t5oszz/native_reference_guide_quarkus_graalvm_native/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
