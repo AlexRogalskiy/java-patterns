@@ -355,6 +355,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Job Opportunity: Senior Manager Java VM Development](https://inside.java/2022/03/07/ojp-jvm-compiler-manager/)
 - [Episode 22 “JEP 408 - Simple Web Server”](https://inside.java/2022/03/04/podcast-022/)
 - [Job Opportunity: JavaFX Engineer](https://inside.java/2022/03/03/ojp-javafx-developer/)
 - [New candidate JEP: 424: Foreign Function &amp;amp; Memory API &lpar;Preview&rpar;](https://inside.java/2022/03/02/new-candidate-jep-424/)
@@ -364,7 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Leverage Java 17 New Features to Create Your Wordle Checker - JEP Café #10](https://inside.java/2022/02/22/jepcafe10/)
 - [Card Table Card Size Shenanigans](https://inside.java/2022/02/16/cardtablecardsize/)
 - [Compiled &amp;amp; Tested Code In Javadoc - Inside Java Newscast #20](https://inside.java/2022/02/10/insidejava-newscast-020/)
-- [Quality Outreach Heads-up - JDK 19: Constant class entries ending in ‘/’](https://inside.java/2022/02/10/quality-heads-up/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
