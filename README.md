@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [How to get process details? | jProcesses2](https://www.reddit.com/r/java/comments/t8bcgi/how_to_get_process_details_jprocesses2/)
-- [Alternatives to DTO](https://www.reddit.com/r/java/comments/t85jl2/alternatives_to_dto/)
-- [FAANG software engineer questions with Java, what should I expect?](https://www.reddit.com/r/java/comments/t83woj/faang_software_engineer_questions_with_java_what/)
-- [What is the best career path of becoming a successful Java software engineer?](https://www.reddit.com/r/java/comments/t8319n/what_is_the_best_career_path_of_becoming_a/)
-- [If you were starting a new Java + Kafka project from scratch, what would you use?](https://www.reddit.com/r/java/comments/t80ca7/if_you_were_starting_a_new_java_kafka_project/)
-- [What are the best books/tutorials to learn both software development philosophy/design/architecture and Java?](https://www.reddit.com/r/java/comments/t7vm74/what_are_the_best_bookstutorials_to_learn_both/)
-- [How does the Java community feel about Kotlin?](https://www.reddit.com/r/java/comments/t7c6ri/how_does_the_java_community_feel_about_kotlin/)
-- [How to test my code when writing for active webserver?](https://www.reddit.com/r/java/comments/t6zal5/how_to_test_my_code_when_writing_for_active/)
-- [Spring Constructor Injection: Why is it the recommended approach to Dependency Injection?](https://www.reddit.com/r/java/comments/t6rygb/spring_constructor_injection_why_is_it_the/)
-- [Apache NetBeans 13 released](https://www.reddit.com/r/java/comments/t6rl1w/apache_netbeans_13_released/)
+- [Replacing JNI with Panama in the SQLite JDBC driver](https://www.reddit.com/r/java/comments/t93pc2/replacing_jni_with_panama_in_the_sqlite_jdbc/)
+- [I created a full Spring GraphQL example project that generates efficient SQL queries](https://www.reddit.com/r/java/comments/t9081q/i_created_a_full_spring_graphql_example_project/)
+- [Lambda demo with common Java application frameworks](https://www.reddit.com/r/java/comments/t8wdtt/lambda_demo_with_common_java_application/)
+- [Inverno Framework performance benchmark](https://www.reddit.com/r/java/comments/t8ua7k/inverno_framework_performance_benchmark/)
+- [Industry-standard frameworks for Java web development as of 2022?](https://www.reddit.com/r/java/comments/t8txb7/industrystandard_frameworks_for_java_web/)
+- [LogMasker - Log Masking library for Log4j and Logback](https://www.reddit.com/r/java/comments/t8qnsi/logmasker_log_masking_library_for_log4j_and/)
+- [Configuring Connection Pool with Spring R2DBC](https://www.reddit.com/r/java/comments/t8ovx8/configuring_connection_pool_with_spring_r2dbc/)
+- [Concurrency 3.0 for Jakarta EE 10 in Open Liberty 22 beta](https://www.reddit.com/r/java/comments/t8mn4r/concurrency_30_for_jakarta_ee_10_in_open_liberty/)
+- [Core java fundamentals book 11th vs 12th version](https://www.reddit.com/r/java/comments/t8lvbi/core_java_fundamentals_book_11th_vs_12th_version/)
+- [Interesting tips to improve with java optional](https://www.reddit.com/r/java/comments/t8jnaa/interesting_tips_to_improve_with_java_optional/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
