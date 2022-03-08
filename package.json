@@ -2,88 +2,123 @@
     "name": "java-patterns",
     "version": "0.0.0",
     "description": "Java Design Patterns Documentation",
-    "license": "GPL-3.0",
-    "config": {
-        "image": "styled-java-patterns"
+    "keywords": [
+        "java design patterns"
+    ],
+    "homepage": "https://github.com/AlexRogalskiy/java-patterns/",
+    "bugs": {
+        "url": "https://github.com/AlexRogalskiy/java-patterns/issues"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AlexRogalskiy/java-patterns.git"
+    },
+    "funding": "https://github.com/sponsors/AlexRogalskiy",
+    "license": "GPL-3.0",
+    "author": {
+        "name": "Alexander Rogalskiy",
+        "url": "https://github.com/AlexRogalskiy"
+    },
+    "maintainers": [
+        {
+            "name": "Alexander Rogalskiy",
+            "email": "hi@nullables.io"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Alexander Rogalskiy",
+            "email": "hi@nullables.io"
+        }
+    ],
     "scripts": {
-        "start-docker": "docker stack deploy -c docker-compose.yml dev",
-        "stop-docker": "docker stack rm dev",
-        "crowdin-upload": "yarn crowdin --config crowdin.yml upload sources --auto-update -b $(git rev-parse --abbrev-ref HEAD)",
-        "crowdin-download": "yarn crowdin --config crowdin.yml download -b $(git rev-parse --abbrev-ref HEAD)",
-        "getheapsize": "node -e 'console.log(`node heap limit = ${require(\"v8\").getHeapStatistics().heap_size_limit / (1024 * 1024)} Mb`)'",
-        "setheapsize": "export NODE_OPTIONS=--max_old_space_size=2048",
-        "husky:install": "is-ci || husky install",
-        "preinstall": "npm run get:submodule",
-        "postinstall": "npm run husky:install",
-        "env:install": "export NODE_ENV=$(grep NODE_ENV .env | cut -d '=' -f2)",
-        "remark": "remark -q -f .",
-        "commit": "git-cz",
-        "prepack": "check-for-leaks",
-        "prepush": "check-for-leaks",
-        "release": "release-it",
-        "linkcheck:json": "linkinator \"docs/**/*.md\" --markdown --format JSON --verbosity DEBUG",
-        "linkcheck:csv": "linkinator \"docs/**/*.md\" --markdown --format CSV",
-        "name": "test -f ./scripts/rootAppName.js && node --experimental-modules --no-warnings --no-deprecation ./scripts/rootAppName.js || echo 'RootAppName script missing'",
-        "check:git": "test -f ./scripts/checkgit.sh && . ./scripts/checkgit.sh || echo 'CheckGit script missing'",
-        "env:linux": "export $(cat .env | xargs) && env",
-        "env:windows": "(for /F \"tokens=*\" %i in (.env) do set %i)",
-        "deploy": "deploy-to-gh-pages --local --update site",
-        "format": "prettier --single-quote --list-different --write **/*.{json,yaml,yml}",
-        "format:md": "remark-preset-davidtheclark --format",
-        "format:check": "prettier --check **/*.{json,yaml,yml}",
-        "authors": "git log --format='%aN <%aE>' | sort -u > AUTHORS",
-        "authors:md": "test -f ./scripts/update-authors.sh && . ./scripts/update-authors.sh",
-        "release:md": "test -f ./scripts/generate-release-notes.sh && . ./scripts/generate-release-notes.sh > NOTES.md",
         "_get:submodule": "set -x && git submodule update --init --recursive ${DEPTH:- --depth 1}",
         "_update:submodule": "set -x && git submodule update --remote --recursive ${DEPTH:- --depth 1}",
-        "get:submodule": "npm run _get:${GET:-submodule}",
-        "update:submodule": "npm run _update:${UPDATE:-submodule}",
-        "format:doc": "alex",
-        "sort-package-json": "sort-package-json",
-        "lint:text": "textlint docs",
-        "lint:md": "remark-preset-davidtheclark",
-        "lint:yaml": "yamllint --strict -c .yaml-lint.yml --ignore=okteto/**/*.yaml --ignore=charts/**/*.yaml **/*.{yaml,yml}",
-        "lint:markdown": "markdownlint --config .markdownlint.yml docs/*.md",
-        "lint:json": "jsonlint ./package.json --quiet",
-        "lint:style": "stylelint --color --disable-default-ignores --allow-empty-input verbose **/*.{css,scss,sass}",
-        "lint:docker": "dockerfile_lint -f ./distribution/docker-images/ci.Dockerfile -f ./distribution/docker-images/dev.Dockerfile -f ./distribution/docker-images/release.Dockerfile -r default_rules.yaml",
-        "lint:staged": "lint-staged --no-stash --allow-empty",
-        "lint:spaces": "lintspaces ./docs/**/*.{html,less,json} -n -t -d spaces",
-        "validate:commit": "validate-commit-msg",
-        "pretty": "pretty-quick --staged --pattern '!test/tests/lint/**'",
-        "license": "license-checker --json > licenses.json",
+        "all": "npm run format:all && npm run lint:all && npm run check:all && npm run test:all",
+        "authors": "git log --format='%aN <%aE>' | sort -u > AUTHORS",
+        "authors:md": "test -f ./scripts/update-authors.sh && . ./scripts/update-authors.sh",
+        "browsersync": "browser-sync start --server site --config 'bs-config.js' --files 'site'",
+        "bump:major": "npm version major --no-git-tag-version",
+        "bump:minor": "npm version minor --no-git-tag-version",
+        "bump:patch": "npm version patch --no-git-tag-version",
         "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-        "markdown": "markdown-link-check ./README.md ./SECURITY.md",
+        "check:all": "npm run pretty && npm run format:check",
+        "check:git": "test -f ./scripts/checkgit.sh && . ./scripts/checkgit.sh || echo 'CheckGit script missing'",
+        "commit": "git-cz",
         "contribs": "all-contributors",
         "contribs:add": "all-contributors add",
         "contribs:generate": "all-contributors generate && cp .all-contributorsrc ./docs/contributors.json",
-        "git:diff": "git --no-pager diff --exit-code --stat HEAD",
-        "git:log": "git log -1 --format='format:%H' HEAD",
-        "print:version": "cat ./package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]' | jq  --raw-input . | jq --slurp . > ./docs/versions.json",
-        "git:clean": "git stash && git clean -fdX",
-        "git:ls": "git cat-file -p HEAD && git ls-tree -r HEAD",
-        "zip": "zip -r $npm_package_config_image.zip ./site",
-        "browsersync": "browser-sync start --server site --config 'bs-config.js' --files 'site'",
-        "link-check": "repo-link-check -c config/config.yml -s filesystem -u",
-        "link-check-diff": "repo-link-check -c config/config.yml",
-        "link-check-dev-server": "repo-link-check -c config/config.yml -r http://localhost:3000",
-        "link-check-exclude": "repo-link-check -c config/config.yml -s filesystem -u only",
+        "crowdin-download": "yarn crowdin --config crowdin.yml download -b $(git rev-parse --abbrev-ref HEAD)",
+        "crowdin-upload": "yarn crowdin --config crowdin.yml upload sources --auto-update -b $(git rev-parse --abbrev-ref HEAD)",
+        "deploy": "deploy-to-gh-pages --local --update site",
         "docker:build": "docker build -f ./distribution/docker-images/dev.Dockerfile -t $npm_package_config_image .",
         "docker:run": "docker run -ti --rm -v ${PWD}:/usr/src/app -e CI=1 $npm_package_config_image build --strict",
-        "postversion": "git push --follow-tags && npm publish --access public",
-        "bump:patch": "npm version patch --no-git-tag-version",
-        "bump:minor": "npm version minor --no-git-tag-version",
-        "bump:major": "npm version major --no-git-tag-version",
-        "release-patch": "git checkout master && npm run all && npm run bump:patch && git commit -a -m 'Build project codebase with patch version' && git push origin master --tags",
-        "release-minor": "git checkout master && npm run all && npm run bump:minor && git commit -a -m 'Build project codebase with minor version' && git push origin master --tags",
-        "release-major": "git checkout master && npm run all && npm run bump:major && git commit -a -m 'Build project codebase with major version' && git push origin master --tags",
-        "test:license": "license-checker --production --summary --unknown --onlyAllow=\"Apache-2.0;BSD;ISC;MIT;GPL-3.0;CC-BY-3.0;CC0-1.0;\"",
+        "env:install": "export NODE_ENV=$(grep NODE_ENV .env | cut -d '=' -f2)",
+        "env:linux": "export $(cat .env | xargs) && env",
+        "env:windows": "(for /F \"tokens=*\" %i in (.env) do set %i)",
+        "format": "prettier --single-quote --list-different --write **/*.{json,yaml,yml}",
         "format:all": "npm run format && npm run format:md",
+        "format:check": "prettier --check **/*.{json,yaml,yml}",
+        "format:doc": "alex",
+        "format:md": "remark-preset-davidtheclark --format",
+        "get:submodule": "npm run _get:${GET:-submodule}",
+        "getheapsize": "node -e 'console.log(`node heap limit = ${require(\"v8\").getHeapStatistics().heap_size_limit / (1024 * 1024)} Mb`)'",
+        "git:clean": "git stash && git clean -fdX",
+        "git:diff": "git --no-pager diff --exit-code --stat HEAD",
+        "git:log": "git log -1 --format='format:%H' HEAD",
+        "git:ls": "git cat-file -p HEAD && git ls-tree -r HEAD",
+        "husky:install": "is-ci || husky install",
+        "preinstall": "npm run get:submodule",
+        "postinstall": "npm run husky:install",
+        "license": "license-checker --json > licenses.json",
+        "link-check": "repo-link-check -c config/config.yml -s filesystem -u",
+        "link-check-dev-server": "repo-link-check -c config/config.yml -r http://localhost:3000",
+        "link-check-diff": "repo-link-check -c config/config.yml",
+        "link-check-exclude": "repo-link-check -c config/config.yml -s filesystem -u only",
+        "linkcheck:csv": "linkinator \"docs/**/*.md\" --markdown --format CSV",
+        "linkcheck:json": "linkinator \"docs/**/*.md\" --markdown --format JSON --verbosity DEBUG",
         "lint:all": "npm run lint:json && npm run lint:style && npm run lint:yaml && npm run lint:markdown && npm run lint:docker",
-        "check:all": "npm run pretty && npm run format:check",
+        "lint:docker": "dockerfile_lint -f ./distribution/docker-images/ci.Dockerfile -f ./distribution/docker-images/dev.Dockerfile -f ./distribution/docker-images/release.Dockerfile -r default_rules.yaml",
+        "lint:json": "jsonlint ./package.json --quiet",
+        "lint:markdown": "markdownlint --config .markdownlint.yml docs/*.md",
+        "lint:md": "remark-preset-davidtheclark",
+        "lint:spaces": "lintspaces ./docs/**/*.{html,less,json} -n -t -d spaces",
+        "lint:staged": "lint-staged --no-stash --allow-empty",
+        "lint:style": "stylelint --color --disable-default-ignores --allow-empty-input verbose **/*.{css,scss,sass}",
+        "lint:text": "textlint docs",
+        "lint:yaml": "yamllint --strict -c .yaml-lint.yml --ignore=okteto/**/*.yaml --ignore=charts/**/*.yaml **/*.{yaml,yml}",
+        "markdown": "markdown-link-check ./README.md ./SECURITY.md",
+        "name": "test -f ./scripts/rootAppName.js && node --experimental-modules --no-warnings --no-deprecation ./scripts/rootAppName.js || echo 'RootAppName script missing'",
+        "prepack": "check-for-leaks",
+        "prepush": "check-for-leaks",
+        "pretty": "pretty-quick --staged --pattern '!test/tests/lint/**'",
+        "print:version": "cat ./package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]' | jq  --raw-input . | jq --slurp . > ./docs/versions.json",
+        "release": "release-it",
+        "release-major": "git checkout master && npm run all && npm run bump:major && git commit -a -m 'Build project codebase with major version' && git push origin master --tags",
+        "release-minor": "git checkout master && npm run all && npm run bump:minor && git commit -a -m 'Build project codebase with minor version' && git push origin master --tags",
+        "release-patch": "git checkout master && npm run all && npm run bump:patch && git commit -a -m 'Build project codebase with patch version' && git push origin master --tags",
+        "release:md": "test -f ./scripts/generate-release-notes.sh && . ./scripts/generate-release-notes.sh > NOTES.md",
+        "remark": "remark -q -f .",
+        "setheapsize": "export NODE_OPTIONS=--max_old_space_size=2048",
+        "sort-package-json": "sort-package-json",
+        "start-docker": "docker stack deploy -c docker-compose.yml dev",
+        "stop-docker": "docker stack rm dev",
         "test:all": "npm run test:license",
-        "all": "npm run format:all && npm run lint:all && npm run check:all && npm run test:all"
+        "test:license": "license-checker --production --summary --unknown --onlyAllow=\"Apache-2.0;BSD;ISC;MIT;GPL-3.0;CC-BY-3.0;CC0-1.0;\"",
+        "update:submodule": "npm run _update:${UPDATE:-submodule}",
+        "validate:commit": "validate-commit-msg",
+        "postversion": "git push --follow-tags && npm publish --access public",
+        "zip": "zip -r $npm_package_config_image.zip ./site"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run lint:staged && npm run all",
+            "prepare-commit-msg": "git cz --hook --non-interactive --type=feat --subject=\"added new features\" || true",
+            "pre-push": "npm run check:all"
+        }
+    },
+    "config": {
+        "image": "styled-java-patterns"
     },
     "devDependencies": {
         "alex": "^9.1.0",
@@ -128,50 +163,15 @@
         "validate-commit-msg": "^2.14.0",
         "yaml-lint": "^1.2.4"
     },
-    "envDependencies": {
-        "localJSON": "../.env.json"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/AlexRogalskiy/java-patterns.git"
-    },
-    "publishConfig": {
-        "registry": "https://registry.npmjs.org/",
-        "tag": "latest",
-        "access": "public"
-    },
     "engines": {
         "node": ">= 12.x"
     },
-    "keywords": [
-        "java design patterns"
-    ],
-    "maintainers": [
-        {
-            "name": "Alexander Rogalskiy",
-            "email": "hi@nullables.io"
-        }
-    ],
-    "contributors": [
-        {
-            "name": "Alexander Rogalskiy",
-            "email": "hi@nullables.io"
-        }
-    ],
-    "husky": {
-        "hooks": {
-            "pre-push": "npm run check:all",
-            "prepare-commit-msg": "git cz --hook --non-interactive --type=feat --subject=\"added new features\" || true",
-            "pre-commit": "npm run lint:staged && npm run all"
-        }
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/",
+        "tag": "latest"
     },
-    "bugs": {
-        "url": "https://github.com/AlexRogalskiy/java-patterns/issues"
-    },
-    "homepage": "https://github.com/AlexRogalskiy/java-patterns/",
-    "author": {
-        "name": "Alexander Rogalskiy",
-        "url": "https://github.com/AlexRogalskiy"
-    },
-    "funding": "https://github.com/sponsors/AlexRogalskiy"
+    "envDependencies": {
+        "localJSON": "../.env.json"
+    }
 }
