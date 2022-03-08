@@ -340,6 +340,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Better code posts*
 
 <!-- BETTERCODE-POST-LIST:START -->
+- [How To Use CORS in NestJS Application](https://betterjavacode.com/programming/how-to-use-cors-in-nestjs-application)
 - [Handling Large Datasets in Distributed Systems](https://betterjavacode.com/programming/handling-large-datasets-in-distributed-systems)
 - [Example of Spring Cloud Function with AWS Lambda](https://betterjavacode.com/programming/example-spring-cloud-function-aws-lambda)
 - [How to Use Pub/Sub with NodeJS](https://betterjavacode.com/programming/how-to-use-pub-sub-with-nodejs)
@@ -349,7 +350,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Spring Cloud Tutorial for Beginners](https://betterjavacode.com/spring-boot/spring-cloud-tutorial-for-beginners)
 - [Details of Liskov Substitution Principle Example](https://betterjavacode.com/programming/liskov-substitution-principle-example)
 - [Building Microservices with Event-Driven Architecture](https://betterjavacode.com/programming/microservices-event-driven-architecture)
-- [On Being A Senior Software Engineer](https://betterjavacode.com/programming/on-being-a-senior-software-engineer)
 <!-- BETTERCODE-POST-LIST:END -->
 
 ### *Inside Java posts*
