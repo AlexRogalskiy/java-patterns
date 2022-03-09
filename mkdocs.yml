@@ -36,8 +36,6 @@ theme:
   language: en
   highlightjs: true
   custom_dir: docs/overrides
-#   custom_dir: !ENV [THEME_DIR, "docs/overrides"]
-  # Static files
   include_search_page: false
   search_index_only: true
   static_templates:
