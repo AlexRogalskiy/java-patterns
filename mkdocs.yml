@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: Java Patterns
 site_description: >-
   java code patterns and basic architecture designing concepts
@@ -34,11 +35,14 @@ theme:
   name: material
   language: en
   highlightjs: true
-  custom_dir: docs/custom_theme
+  custom_dir: docs/overrides
 #   custom_dir: !ENV [THEME_DIR, "docs/overrides"]
   # Static files
+  include_search_page: false
+  search_index_only: true
   static_templates:
     - 404.html
+  language: en
   font:
     text: Roboto
     code: Roboto Mono
@@ -117,6 +121,8 @@ extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: 'https://github.com/AlexRogalskiy/java-patterns'
+    - icon: kofi
+      link: https://ko-fi.com/alexrogalskiy
   version:
     provider: mike
     default: latest
@@ -172,6 +178,9 @@ markdown_extensions:
   - pymdownx.emoji: # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#configuration
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - docs/overrides/.icons
   - smarty: {} # https://python-markdown.github.io/extensions/smarty/
   - nl2br: {} # https://python-markdown.github.io/extensions/smarty/
   - mdx_truly_sane_lists: {} # https://github.com/radude/mdx_truly_sane_lists -> proper indentation of md list items
