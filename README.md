@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Hey, IntelliJ, wtf is this? Yea, and btw the UI is frozen on a 32GB mbp](https://www.reddit.com/r/java/comments/t9tm15/hey_intellij_wtf_is_this_yea_and_btw_the_ui_is/)
+- [Inside Java class files: Understanding the constant pool](https://www.reddit.com/r/java/comments/t9ohpb/inside_java_class_files_understanding_the/)
+- [How we run database migrations with Flyway, jOOQ, and testcontainers](https://www.reddit.com/r/java/comments/t9krd1/how_we_run_database_migrations_with_flyway_jooq/)
+- [How to Setup a Jenkins Pipeline to Build Java Projects on OpenShift](https://www.reddit.com/r/java/comments/t9kl2e/how_to_setup_a_jenkins_pipeline_to_build_java/)
 - [Replacing JNI with Panama in the SQLite JDBC driver](https://www.reddit.com/r/java/comments/t93pc2/replacing_jni_with_panama_in_the_sqlite_jdbc/)
 - [I created a full Spring GraphQL example project that generates efficient SQL queries](https://www.reddit.com/r/java/comments/t9081q/i_created_a_full_spring_graphql_example_project/)
 - [Lambda demo with common Java application frameworks](https://www.reddit.com/r/java/comments/t8wdtt/lambda_demo_with_common_java_application/)
 - [Inverno Framework performance benchmark](https://www.reddit.com/r/java/comments/t8ua7k/inverno_framework_performance_benchmark/)
 - [Industry-standard frameworks for Java web development as of 2022?](https://www.reddit.com/r/java/comments/t8txb7/industrystandard_frameworks_for_java_web/)
 - [LogMasker - Log Masking library for Log4j and Logback](https://www.reddit.com/r/java/comments/t8qnsi/logmasker_log_masking_library_for_log4j_and/)
-- [Configuring Connection Pool with Spring R2DBC](https://www.reddit.com/r/java/comments/t8ovx8/configuring_connection_pool_with_spring_r2dbc/)
-- [Concurrency 3.0 for Jakarta EE 10 in Open Liberty 22 beta](https://www.reddit.com/r/java/comments/t8mn4r/concurrency_30_for_jakarta_ee_10_in_open_liberty/)
-- [Core java fundamentals book 11th vs 12th version](https://www.reddit.com/r/java/comments/t8lvbi/core_java_fundamentals_book_11th_vs_12th_version/)
-- [Interesting tips to improve with java optional](https://www.reddit.com/r/java/comments/t8jnaa/interesting_tips_to_improve_with_java_optional/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
