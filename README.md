@@ -295,6 +295,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [Project Loom: Understand the new Java concurrency model](https://www.infoworld.com/article/3652596/project-loom-understand-the-new-java-concurrency-model.html#tk.rss_java)
 - [Java 19 could be big](https://www.infoworld.com/article/3652336/java-19-could-be-big.html#tk.rss_java)
 - [JDK 18: The new features in Java 18](https://www.infoworld.com/article/3630510/jdk-18-the-new-features-in-java-18.html#tk.rss_java)
 - [Java 8 still dominates, but Java 17 wave is coming – survey](https://www.infoworld.com/article/3652408/java-8-still-dominates-but-java-17-wave-is-coming-survey.html#tk.rss_java)
@@ -304,7 +305,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Java proposal would lower GC latency](https://www.infoworld.com/article/3649194/java-proposal-would-lower-gc-latency.html#tk.rss_java)
 - [How to handle Java errors and cleanup without finalize](https://www.infoworld.com/article/3649089/how-to-handle-java-errors-and-cleanup-without-finalize.html#tk.rss_java)
 - [Groovy 4.0.0 adds SQL-like querying](https://www.infoworld.com/article/3649128/groovy-400-adds-sql-like-querying.html#tk.rss_java)
-- [GraalVM 22.0 promises a better developer experience](https://www.infoworld.com/article/3648448/graalvm-220-promises-a-better-developer-experience.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
 
 ### *Let's talk posts*
