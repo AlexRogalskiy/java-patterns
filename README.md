@@ -325,6 +325,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [For-loops and Streams](http://randomthoughtsonjavaprogramming.blogspot.com/2022/03/for-loops-and-streams.html)
 - [Being Glue](http://randomthoughtsonjavaprogramming.blogspot.com/2022/02/being-glue.html)
 - [Hibernate Proxies and the Visitor Pattern](http://randomthoughtsonjavaprogramming.blogspot.com/2022/02/hibernate-proxies-and-visitor-pattern.html)
 - [RAID Mirrorring with ADM](http://randomthoughtsonjavaprogramming.blogspot.com/2022/01/raid-mirrorring-with-adm.html)
@@ -334,7 +335,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [RESTEASY004590: You must define a @Consumes type on your client method or interface, or supply a default](http://randomthoughtsonjavaprogramming.blogspot.com/2021/12/resteasy004590-you-must-define-consumes.html)
 - [Replacing many if statements](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/replacing-many-if-statements.html)
 - [Running Mariadb on the Raspberry Pi](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/running-mariadb-on-raspberry-pi.html)
-- [LetsEncrypt with Webroot](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/letsencrypt-with-webroot.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 ### *Better code posts*
