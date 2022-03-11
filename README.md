@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Oracle Java](https://www.reddit.com/r/java/comments/talqpn/oracle_java/)
+- [Valhalla - Performance benefits](https://www.reddit.com/r/java/comments/tb9dgk/valhalla_performance_benefits/)
+- [All About JDK 18 - Inside Java Newscast #21](https://www.reddit.com/r/java/comments/tb6fs0/all_about_jdk_18_inside_java_newscast_21/)
+- [Thread dump analysis tool](https://www.reddit.com/r/java/comments/tb4965/thread_dump_analysis_tool/)
+- [Project Loom: Understand the new Java concurrency model](https://www.reddit.com/r/java/comments/tb3fvx/project_loom_understand_the_new_java_concurrency/)
+- [Faster PDF to image library ?](https://www.reddit.com/r/java/comments/taz49b/faster_pdf_to_image_library/)
 - [utt – Universal Text Transformer](https://www.reddit.com/r/java/comments/taf5lq/utt_universal_text_transformer/)
 - [The Decline and Fall of Java on the Desktop Part 2 &lpar;2004-2007&rpar;](https://www.reddit.com/r/java/comments/taegrk/the_decline_and_fall_of_java_on_the_desktop_part/)
 - [Zero Config Code Formatter?](https://www.reddit.com/r/java/comments/tae35x/zero_config_code_formatter/)
 - [RefactorFirst - a tool to help figure out where you should start refactoring your Java codebases](https://www.reddit.com/r/java/comments/taaqm2/refactorfirst_a_tool_to_help_figure_out_where_you/)
 - [Spring Native &lpar;GraalVM&rpar;: Anyone using it in real projects / production environment? What do you feel about it, does it have traps or is it OK? Will it lead to runtime error even if compile-time ok?](https://www.reddit.com/r/java/comments/ta1pck/spring_native_graalvm_anyone_using_it_in_real/)
-- [Inside Java class files: Understanding the constant pool](https://www.reddit.com/r/java/comments/t9ohpb/inside_java_class_files_understanding_the/)
-- [How we run database migrations with Flyway, jOOQ, and testcontainers](https://www.reddit.com/r/java/comments/t9krd1/how_we_run_database_migrations_with_flyway_jooq/)
-- [How to Setup a Jenkins Pipeline to Build Java Projects on OpenShift](https://www.reddit.com/r/java/comments/t9kl2e/how_to_setup_a_jenkins_pipeline_to_build_java/)
-- [Replacing JNI with Panama in the SQLite JDBC driver](https://www.reddit.com/r/java/comments/t93pc2/replacing_jni_with_panama_in_the_sqlite_jdbc/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
