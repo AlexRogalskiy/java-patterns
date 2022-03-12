@@ -355,6 +355,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Introducing the `oracle-actions/setup-java` GitHub action](https://inside.java/2022/03/11/setup-java/)
 - [All About JDK 18 - Inside Java Newscast #21](https://inside.java/2022/03/10/insidejava-newscast-021/)
 - [Job Opportunity: Java Technical Support Engineers](https://inside.java/2022/03/10/ojp-java-support-engineer/)
 - [JShell Tutorial](https://inside.java/2022/03/09/jshell-tutorial/)
@@ -364,7 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [New candidate JEP: 424: Foreign Function &amp;amp; Memory API &lpar;Preview&rpar;](https://inside.java/2022/03/02/new-candidate-jep-424/)
 - [Job Opportunity: Java VM Quality Engineer](https://inside.java/2022/03/01/ojp-jvm-gc-sqe/)
 - [The New Stack - Java Adapts to Cloud Native Computing](https://inside.java/2022/03/01/java-adapts-to-cloud-native/)
-- [Job Opportunity: Java VM Runtime Engineer](https://inside.java/2022/02/28/ojp-jvm-runtime/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
