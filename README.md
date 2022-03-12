@@ -310,6 +310,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Let's talk posts*
 
 <!-- LETSTALK-POST-LIST:START -->
+- [Link Dump #27](http://letstalkaboutjava.blogspot.com/2022/03/link-dump-27.html)
 - [Link Dump #26](http://letstalkaboutjava.blogspot.com/2022/03/link-dump-26.html)
 - [Link Dump #25](http://letstalkaboutjava.blogspot.com/2022/02/link-dump-25.html)
 - [Link Dump #24](http://letstalkaboutjava.blogspot.com/2022/02/link-dump-24.html)
@@ -319,7 +320,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Link Dump #20](http://letstalkaboutjava.blogspot.com/2022/01/link-dump-20.html)
 - [Link Dump #19](http://letstalkaboutjava.blogspot.com/2022/01/link-dump-19.html)
 - [Happy New Year 2022!](http://letstalkaboutjava.blogspot.com/2021/12/happy-new-year-2022.html)
-- [Link Dump #18](http://letstalkaboutjava.blogspot.com/2021/12/link-dump-18.html)
 <!-- LETSTALK-POST-LIST:END -->
 
 ### *Random thoughts posts*
