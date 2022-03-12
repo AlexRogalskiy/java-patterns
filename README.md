@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Expected knowledge for a junior developer](https://www.reddit.com/r/java/comments/tc3xun/expected_knowledge_for_a_junior_developer/)
+- [[META] Why lock the Jetbrains + Ukraine thread?](https://www.reddit.com/r/java/comments/tc3thn/meta_why_lock_the_jetbrains_ukraine_thread/)
+- [jsmud-analysis 0.6.0 - analyze bytecode execution or debug without JVM&#39;s agent](https://www.reddit.com/r/java/comments/tc0s8l/jsmudanalysis_060_analyze_bytecode_execution_or/)
+- [JetBrains’ Statement on Ukraine](https://www.reddit.com/r/java/comments/tbu6rr/jetbrains_statement_on_ukraine/)
+- [Running apps as services: Is there a standard?](https://www.reddit.com/r/java/comments/tbu0tx/running_apps_as_services_is_there_a_standard/)
+- [GUI builder 2022](https://www.reddit.com/r/java/comments/tbo80x/gui_builder_2022/)
+- [What docker base image are people using for JDK 17?](https://www.reddit.com/r/java/comments/tbiunm/what_docker_base_image_are_people_using_for_jdk_17/)
 - [Valhalla - Performance benefits](https://www.reddit.com/r/java/comments/tb9dgk/valhalla_performance_benefits/)
 - [All About JDK 18 - Inside Java Newscast #21](https://www.reddit.com/r/java/comments/tb6fs0/all_about_jdk_18_inside_java_newscast_21/)
 - [Thread dump analysis tool](https://www.reddit.com/r/java/comments/tb4965/thread_dump_analysis_tool/)
-- [Project Loom: Understand the new Java concurrency model](https://www.reddit.com/r/java/comments/tb3fvx/project_loom_understand_the_new_java_concurrency/)
-- [Faster PDF to image library ?](https://www.reddit.com/r/java/comments/taz49b/faster_pdf_to_image_library/)
-- [utt – Universal Text Transformer](https://www.reddit.com/r/java/comments/taf5lq/utt_universal_text_transformer/)
-- [The Decline and Fall of Java on the Desktop Part 2 &lpar;2004-2007&rpar;](https://www.reddit.com/r/java/comments/taegrk/the_decline_and_fall_of_java_on_the_desktop_part/)
-- [Zero Config Code Formatter?](https://www.reddit.com/r/java/comments/tae35x/zero_config_code_formatter/)
-- [RefactorFirst - a tool to help figure out where you should start refactoring your Java codebases](https://www.reddit.com/r/java/comments/taaqm2/refactorfirst_a_tool_to_help_figure_out_where_you/)
-- [Spring Native &lpar;GraalVM&rpar;: Anyone using it in real projects / production environment? What do you feel about it, does it have traps or is it OK? Will it lead to runtime error even if compile-time ok?](https://www.reddit.com/r/java/comments/ta1pck/spring_native_graalvm_anyone_using_it_in_real/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
