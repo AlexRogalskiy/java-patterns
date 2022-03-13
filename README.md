@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [HTML Parsers benchmark](https://www.reddit.com/r/java/comments/tcw9wt/html_parsers_benchmark/)
+- [Programming Languages Most in Demand Right Now &lpar;March, 2022&rpar;](https://www.reddit.com/r/java/comments/tcp1n7/programming_languages_most_in_demand_right_now/)
+- [I created a lightweight tensor/nd-array library with autograd &lpar;as in PyTorch&rpar;](https://www.reddit.com/r/java/comments/tcn247/i_created_a_lightweight_tensorndarray_library/)
+- [Google Java App Engine Standard is Now Open Source](https://www.reddit.com/r/java/comments/tckemk/google_java_app_engine_standard_is_now_open_source/)
+- [JavaFX 18 Release Notes &lpar;under review&rpar;](https://www.reddit.com/r/java/comments/tcfq3o/javafx_18_release_notes_under_review/)
+- [Shall we say dependency injection example as TV remote needing batteries?](https://www.reddit.com/r/java/comments/tccwri/shall_we_say_dependency_injection_example_as_tv/)
+- [9 High-Performance Tips when accessing PostgreSQL from Java!](https://www.reddit.com/r/java/comments/tcasmg/9_highperformance_tips_when_accessing_postgresql/)
 - [Expected knowledge for a junior developer](https://www.reddit.com/r/java/comments/tc3xun/expected_knowledge_for_a_junior_developer/)
-- [[META] Why lock the Jetbrains + Ukraine thread?](https://www.reddit.com/r/java/comments/tc3thn/meta_why_lock_the_jetbrains_ukraine_thread/)
 - [jsmud-analysis 0.6.0 - analyze bytecode execution or debug without JVM&#39;s agent](https://www.reddit.com/r/java/comments/tc0s8l/jsmudanalysis_060_analyze_bytecode_execution_or/)
 - [JetBrains’ Statement on Ukraine](https://www.reddit.com/r/java/comments/tbu6rr/jetbrains_statement_on_ukraine/)
-- [Running apps as services: Is there a standard?](https://www.reddit.com/r/java/comments/tbu0tx/running_apps_as_services_is_there_a_standard/)
-- [GUI builder 2022](https://www.reddit.com/r/java/comments/tbo80x/gui_builder_2022/)
-- [What docker base image are people using for JDK 17?](https://www.reddit.com/r/java/comments/tbiunm/what_docker_base_image_are_people_using_for_jdk_17/)
-- [Valhalla - Performance benefits](https://www.reddit.com/r/java/comments/tb9dgk/valhalla_performance_benefits/)
-- [All About JDK 18 - Inside Java Newscast #21](https://www.reddit.com/r/java/comments/tb6fs0/all_about_jdk_18_inside_java_newscast_21/)
-- [Thread dump analysis tool](https://www.reddit.com/r/java/comments/tb4965/thread_dump_analysis_tool/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
