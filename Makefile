@@ -37,6 +37,7 @@ VENV_BIN=$(VENV_NAME)/bin
 VENV_PIP=$(VENV_BIN)/pip3
 VENV_PYTHON=$(VENV_BIN)/python3
 
+PIP_BUILD_OPTS = --disable-pip-version-check --no-cache-dir --prefer-binary
 MKDOCS_BUILD_OPTS = --clean --strict --verbose
 MKDOCS_SERVE_OPTS = --verbose --dirtyreload
 
@@ -287,7 +288,7 @@ install-pip:
 # Run local build command.
 .PHONY: local-build
 local-build:
-	$(PYTHON) -m pip install -r ./docs/requirements.txt --disable-pip-version-check
+	$(PYTHON) -m pip install $(PIP_BUILD_OPTS) -r ./docs/requirements.txt
 	$(PYTHON) -m mkdocs build $(MKDOCS_BUILD_OPTS) --config-file mkdocs.yml
 	@echo
 	@echo -e "$(cred)Python documentation build finished.$(cend)"
@@ -301,7 +302,7 @@ local-run: local-build
 # Run venv build command.
 .PHONY: venv-build
 venv-build: _venv
-	$(VENV_PYTHON) -m pip install -r ./docs/requirements.txt --disable-pip-version-check --no-cache-dir --prefer-binary
+	$(VENV_PYTHON) -m pip install $(PIP_BUILD_OPTS) -r ./docs/requirements.txt
 	$(VENV_PYTHON) -m mkdocs build $(MKDOCS_BUILD_OPTS) --config-file mkdocs.yml
 	@echo
 	@echo -e "$(cred)Build finished. The source pages are in $(VENV_NAME) directory.$(cend)"
