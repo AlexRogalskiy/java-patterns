@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Azul&#39;s Cloud Native Compiler - Why Share The JIT Compiler?](https://www.reddit.com/r/java/comments/te4gqy/azuls_cloud_native_compiler_why_share_the_jit/)
+- [Analyzing AWS Lambda and GraalVM](https://www.reddit.com/r/java/comments/te11jx/analyzing_aws_lambda_and_graalvm/)
+- [Introducing the `oracle-actions/setup-java` GitHub action](https://www.reddit.com/r/java/comments/tdy6lt/introducing_the_oracleactionssetupjava_github/)
+- [Anyone using the Alpine Musl JDK builds in production?](https://www.reddit.com/r/java/comments/tdlvbk/anyone_using_the_alpine_musl_jdk_builds_in/)
 - [Why does Java get labeled as old, even when compared to Python and JavaScript?](https://www.reddit.com/r/java/comments/tdkqd4/why_does_java_get_labeled_as_old_even_when/)
-- [Nitro Client a java based minecraft client](https://www.reddit.com/r/java/comments/tdkfk5/nitro_client_a_java_based_minecraft_client/)
 - [An OpenAPI/Swagger schema merger](https://www.reddit.com/r/java/comments/tdacv9/an_openapiswagger_schema_merger/)
 - [Is Java a good language to enter software engineering?](https://www.reddit.com/r/java/comments/td6ee9/is_java_a_good_language_to_enter_software/)
 - [Evaluating Range Predicates over Java collections](https://www.reddit.com/r/java/comments/td376c/evaluating_range_predicates_over_java_collections/)
 - [A library for decoding Ethereum blockchain data on Apache Spark](https://www.reddit.com/r/java/comments/tcxrpz/a_library_for_decoding_ethereum_blockchain_data/)
 - [HTML Parsers benchmark](https://www.reddit.com/r/java/comments/tcw9wt/html_parsers_benchmark/)
-- [I created a lightweight tensor/nd-array library with autograd &lpar;as in PyTorch&rpar;](https://www.reddit.com/r/java/comments/tcn247/i_created_a_lightweight_tensorndarray_library/)
-- [Google Java App Engine Standard is Now Open Source](https://www.reddit.com/r/java/comments/tckemk/google_java_app_engine_standard_is_now_open_source/)
-- [JavaFX 18 Release Notes &lpar;under review&rpar;](https://www.reddit.com/r/java/comments/tcfq3o/javafx_18_release_notes_under_review/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
