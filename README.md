@@ -280,16 +280,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Trying something a little more 2022](https://www.reddit.com/r/java/comments/tf65um/trying_something_a_little_more_2022/)
+- [Dynamic UIs and Feature-Flags with Zephyr and Aire](https://www.reddit.com/r/java/comments/tf5vsp/dynamic_uis_and_featureflags_with_zephyr_and_aire/)
+- [IKVM.NET now have Multithreaded Dynamic Compilation](https://www.reddit.com/r/java/comments/tf5bl2/ikvmnet_now_have_multithreaded_dynamic_compilation/)
+- [Is Learning Java at 31 for a future career a viable choice?](https://www.reddit.com/r/java/comments/tf1vxw/is_learning_java_at_31_for_a_future_career_a/)
+- [Hi! What do you guys think?](https://www.reddit.com/r/java/comments/tf1b0f/hi_what_do_you_guys_think/)
+- [ElasticCC platform - Part 2 - Using the new Elasticsearch Java Client](https://www.reddit.com/r/java/comments/tf15fq/elasticcc_platform_part_2_using_the_new/)
+- [ElasticCC platform - Part 3 - Upgrading on k8s without downtime &lpar;Javalin, Jetty, Kubernetes&rpar;](https://www.reddit.com/r/java/comments/tf14bl/elasticcc_platform_part_3_upgrading_on_k8s/)
+- [Options for high level front-end frameworks for Java developers](https://www.reddit.com/r/java/comments/ten43t/options_for_high_level_frontend_frameworks_for/)
+- [Debugging Race Conditions in Production](https://www.reddit.com/r/java/comments/tekpbp/debugging_race_conditions_in_production/)
 - [Azul&#39;s Cloud Native Compiler - Why Share The JIT Compiler?](https://www.reddit.com/r/java/comments/te4gqy/azuls_cloud_native_compiler_why_share_the_jit/)
-- [Analyzing AWS Lambda and GraalVM](https://www.reddit.com/r/java/comments/te11jx/analyzing_aws_lambda_and_graalvm/)
-- [Introducing the `oracle-actions/setup-java` GitHub action](https://www.reddit.com/r/java/comments/tdy6lt/introducing_the_oracleactionssetupjava_github/)
-- [Anyone using the Alpine Musl JDK builds in production?](https://www.reddit.com/r/java/comments/tdlvbk/anyone_using_the_alpine_musl_jdk_builds_in/)
-- [Why does Java get labeled as old, even when compared to Python and JavaScript?](https://www.reddit.com/r/java/comments/tdkqd4/why_does_java_get_labeled_as_old_even_when/)
-- [An OpenAPI/Swagger schema merger](https://www.reddit.com/r/java/comments/tdacv9/an_openapiswagger_schema_merger/)
-- [Is Java a good language to enter software engineering?](https://www.reddit.com/r/java/comments/td6ee9/is_java_a_good_language_to_enter_software/)
-- [Evaluating Range Predicates over Java collections](https://www.reddit.com/r/java/comments/td376c/evaluating_range_predicates_over_java_collections/)
-- [A library for decoding Ethereum blockchain data on Apache Spark](https://www.reddit.com/r/java/comments/tcxrpz/a_library_for_decoding_ethereum_blockchain_data/)
-- [HTML Parsers benchmark](https://www.reddit.com/r/java/comments/tcw9wt/html_parsers_benchmark/)
 <!-- REDDIT-POST-LIST:END -->
 
 ### *InfoWorld posts*
