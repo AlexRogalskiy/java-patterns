@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "outDir": "out",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "strict": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "rootDir": "scripts",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "./scripts",
+        "./typings"
+    ]
+}

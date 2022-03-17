@@ -73,6 +73,8 @@
          * [<em>DevCases posts</em>](#devcases-posts)
 <!--te-->
 
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
+
 ## ☝ *Summary*
 
 <p align="center" style="text-align:center;">
@@ -122,6 +124,8 @@ docs/
     links/
         info.md # Links page
 ```
+
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
 
 ## 📝 *Documentation*
 
@@ -188,6 +192,8 @@ python -m mkdocs --verbose gh-deploy --force --remote-branch gh-pages
 
 5\) Open up [localhost](http://127.0.0.1:8000/) in browser to get the default documentation homepage.
 
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
+
 ## 🧶 *Kubernetes*
 
 Running k8s cluster with tilt command by acquiring k8s deployment configuration:
@@ -202,16 +208,22 @@ Shutting down k8s cluster with provisioned resources removal:
 tilt down --delete-namespaces
 ```
 
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
+
 ## ⏰ *Statistics*
 
 <p align="center" style="text-align:center;">
     <img alt="Documentation PageSpeed result dashboard" src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/master/reports/pagespeedresultmobile.svg"/>
 </p>
 
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
+
 ## 📝 *Versioning*
 
 The project uses [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on
 this repository][tags].
+
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
 
 ## 🌹 *Authors*
 
@@ -221,6 +233,8 @@ this repository][tags].
 
 with community support please contact with us if you have some question or proposition.
 
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
+
 ## 💕 *Contributing*
 
 [![Contributors Display](https://badges.pufler.dev/contributors/AlexRogalskiy/java-patterns?size=50\&padding=5\&bots=true)](https://badges.pufler.dev)
@@ -228,13 +242,21 @@ with community support please contact with us if you have some question or propo
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests
 to us ([emoji key](https://allcontributors.org/docs/en/emoji-key)).
 
+More on information on project contributions can be found at [CHANGELOG.md](CHANGELOG.md).
+
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors)
 specification. Contributions of any kind are welcome!
+
+<p align="center" style="text-align:center;">
+    <img alt="GitHub contributors" src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/master/images/contributors.png"/>
+</p>
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ![Github contributors](https://img.shields.io/github/all-contributors/AlexRogalskiy/java-patterns)
 
 See also the list of [contributors][contributors] who participated in this project.
+
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
 
 ## 🚨 *Visitor stats*
 
@@ -244,6 +266,8 @@ See also the list of [contributors][contributors] who participated in this proje
 ![GitHub forks](https://img.shields.io/github/forks/AlexRogalskiy/java-patterns?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/AlexRogalskiy/java-patterns?style=social)
 
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
+
 ## ⚽ *Licensing*
 
 ***Java Patterns*** is distributed under LGPL version 3 or later,
@@ -251,6 +275,8 @@ See also the list of [contributors][contributors] who participated in this proje
 permissions on top of GPLv3.
 
 ![image](https://user-images.githubusercontent.com/19885116/48661948-6cf97e80-ea7a-11e8-97e7-b45332a13e49.png)
+
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
 
 ## 🌟 *Development Support*
 
@@ -261,6 +287,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 [![Buy Me A Coffee](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellow.svg?logo=buy%20me%20a%20coffee)](https://www.buymeacoffee.com/AlexRogalskiy)
 [![KoFi](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellow.svg?logo=ko-fi)](https://ko-fi.com/alexrogalskiy)
 
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
+
 ## 👨‍👨‍👧‍👦 *Acknowledgement*
 
 [![Stargazers repo roster for @AlexRogalskiy/java-patterns](https://reporoster.com/stars/AlexRogalskiy/java-patterns)][stars]
@@ -269,11 +297,15 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 [![Statistics report](https://cauldron.io/project/5121/stats.svg)][stats_chart]
 
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
+
 ## 📎 *OpenGraph Card*
 
 <p align="center" style="text-align:center;">
     <img alt="OpenGraph card" src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/master/images/opengraph-card.png"/>
 </p>
+
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
 
 ## 🔥 *Feeds and Podcasts*
 
@@ -292,6 +324,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Azul&#39;s Cloud Native Compiler - Why Share The JIT Compiler?](https://www.reddit.com/r/java/comments/te4gqy/azuls_cloud_native_compiler_why_share_the_jit/)
 <!-- REDDIT-POST-LIST:END -->
 
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
+
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
@@ -306,6 +340,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Java proposal would lower GC latency](https://www.infoworld.com/article/3649194/java-proposal-would-lower-gc-latency.html#tk.rss_java)
 - [How to handle Java errors and cleanup without finalize](https://www.infoworld.com/article/3649089/how-to-handle-java-errors-and-cleanup-without-finalize.html#tk.rss_java)
 <!-- INFOWORLD-POST-LIST:END -->
+
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
 
 ### *Let's talk posts*
 
@@ -322,6 +358,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Happy New Year 2022!](http://letstalkaboutjava.blogspot.com/2021/12/happy-new-year-2022.html)
 <!-- LETSTALK-POST-LIST:END -->
 
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
+
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
@@ -336,6 +374,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Replacing many if statements](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/replacing-many-if-statements.html)
 - [Running Mariadb on the Raspberry Pi](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/running-mariadb-on-raspberry-pi.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
+
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
 
 ### *Better code posts*
 
@@ -352,6 +392,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Building Microservices with Event-Driven Architecture](https://betterjavacode.com/programming/microservices-event-driven-architecture)
 <!-- BETTERCODE-POST-LIST:END -->
 
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
+
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
@@ -366,6 +408,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [New candidate JEP: 424: Foreign Function &amp;amp; Memory API &lpar;Preview&rpar;](https://inside.java/2022/03/02/new-candidate-jep-424/)
 - [Job Opportunity: Java VM Quality Engineer](https://inside.java/2022/03/01/ojp-jvm-gc-sqe/)
 <!-- INSIDE-POST-LIST:END -->
+
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
 
 ### *Java programmer posts*
 
@@ -382,6 +426,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Features of Java Programming Language](https://www.thejavaprogrammer.com/features-of-java-programming-language/)
 <!-- JAVAPROG-POST-LIST:END -->
 
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
+
 ### *Dreamix posts*
 
 <!-- DREAMIX-POST-LIST:START -->
@@ -396,6 +442,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Splitting String in Java –  Examples and Tips](https://dreamix.eu/blog/java/splitting-string-in-java-examples-and-tips)
 - [Learn from Java Champion Gerrit Grunwald: JavaFx – not dead yet](https://dreamix.eu/blog/java/learn-from-java-champion-gerrit-grunwald-javafx-not-dead-yet)
 <!-- DREAMIX-POST-LIST:END -->
+
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
 
 ### *Plumbr posts*
 
@@ -412,6 +460,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Plumbr now supports application versioning](https://plumbr.io/blog/product-updates/plumbr-now-supports-application-versioning)
 <!-- PLUMBR-POST-LIST:END -->
 
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
+
 ### *Thorben Janssen posts*
 
 <!-- TJ-POST-LIST:START -->
@@ -426,6 +476,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Naming Strategies in Hibernate 5](https://thorben-janssen.com/naming-strategies-in-hibernate-5/)
 - [The Best Mapping for Shared Technical Attributes With Hibernate](https://thorben-janssen.com/mapping-shared-technical-attributes/)
 <!-- TJ-POST-LIST:END -->
+
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
 
 ### *Redhat posts*
 
@@ -444,6 +496,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- REDHAT-POST-LIST:END -->
 
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
+
 ### *JavaCodeGeeks posts*
 
 <!-- JAVACODEGEEKS-POST-LIST:START -->
@@ -461,6 +515,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
+
 ### *DevCases posts*
 
 <!-- DEVCASES-POST-LIST:START -->
@@ -477,6 +533,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [How to debug maven tests](https://devcases.com/java/how-to-debug-maven-tests/?utm_source=rss\&utm_medium=rss\&utm_campaign=how-to-debug-maven-tests)
 
 <!-- DEVCASES-POST-LIST:END -->
+
+<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns">(back to top)</a></div>
 
 ***
 

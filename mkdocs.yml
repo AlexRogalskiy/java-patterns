@@ -1,34 +1,36 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+# Site specific data
 site_name: Java Patterns
 site_description: >-
   java code patterns and basic architecture designing concepts
 site_author: Alexander Rogalskiy
+
+# Canonical URL (HTML content instructs search engines that this is where the preferred version of the docs is located, useful when we have duplicate content like versioned docs)
+# https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Choosing_between_www_and_non-www_URLs#using_%3Clink_relcanonical%3E
+# Also required for `sitemap.xml` generation at build time; which bots use to assist them crawling and indexing a website,
+# the `mkdocs-material` 'Instant Navigation' feature utilizes the sitemap data to work.
 site_url: https://alexander-rogalsky.gitbook.io/java-patterns/
 
-# Documentation directory
+# The main docs content lives here, any files will be copied over to the deployed version,
+# unless the file or directory name is prefixed with a `.`
 docs_dir: docs/
 
 # Google analytics
 # google_analytics: ['UA-7131053-20', 'auto']
 
-# Repository
+# Project source specific data
 repo_name: AlexRogalskiy/java-patterns
-repo_url: https://gitlab.com/AlexRogalskiy/java-patterns
-edit_uri: https://gitlab.com/AlexRogalskiy/java-patterns/master/docs/
+repo_url: https://github.com/AlexRogalskiy/java-patterns
+
+# All docs `edit` button will go to this subpath of the `repo_url`:
+# For versioned docs, this may be a little misleading for a user not viewing the `edge` docs which match the `master` branch.
+edit_uri: edit/master/docs
 
 #Copyright (shown at the footer)
-copyright: Copyright &copy; 2021-2022 <a href="https://mirantis.com/">Nullables.io</a>
-    - All rights reserved.
+copyright: Copyright &copy; 2021-2022 <a href="https://github.com/AlexRogalskiy/java-patterns"><em>Nullables.io</em></a><br/><span>This project is licensed under the MIT license.</span></p>
+    <p>All rights reserved.</p>
 
 use_directory_urls: true
-
-# Extra Files
-extra_javascript:
-  - assets/js/asciinema-player.js
-
-extra_css:
-  - assets/css/asciinema-player.css
-  - assets/css/extra.css
 
 # Theme
 theme:
@@ -44,6 +46,10 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
+  logo: assets/images/logos/logo.svg
+  favicon: assets/images/favicons/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
   features:
     - tabs
     - navigation.top
@@ -72,13 +78,10 @@ theme:
     - media: '(prefers-color-scheme: dark)'
       scheme: slate
       primary: light blue
+      accent: blue
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-  logo: assets/images/logos/logo.svg
-  favicon: assets/images/favicons/favicon.ico
-  icon:
-    repo: fontawesome/brands/github
 
 # Plugins
 plugins:
@@ -121,19 +124,35 @@ extra:
       link: 'https://github.com/AlexRogalskiy/java-patterns'
     - icon: kofi
       link: https://ko-fi.com/alexrogalskiy
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/alexander-rogalskiy-985a4828/
   version:
     provider: mike
     default: latest
 
+# We make some minor style adjustments or resolve issues that upstream `mkdocs-material` would not accept a PR for:
+extra_css:
+  - assets/css/customizations.css
+  - assets/css/asciinema-player.css
+  - assets/css/extra.css
+
+# Extra Files
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - assets/js/asciinema-player.js
+  - assets/js/chat.js
+  - assets/js/sidecar-1.5.0.js
+
 # Extensions
 markdown_extensions:
   - toc:
+      anchorlink: true
       permalink: true
       toc_depth: 3
-  - markdown.extensions.admonition # https://squidfunk.github.io/mkdocs-material/extensions/admonition/
-  - markdown.extensions.attr_list
-  - markdown.extensions.def_list
-  - markdown.extensions.footnotes
+  - abbr: {}
+  - attr_list: {}
+  - def_list: {}
+  - admonition: {} # https://squidfunk.github.io/mkdocs-material/extensions/admonition/
   - footnotes: {}
   - tables: {}
   - meta: {}
@@ -143,7 +162,25 @@ markdown_extensions:
       linenums: true
       use_pygments: false
       guess_lang: false
-  - pymdownx.highlight: {}
+  - pymdownx.highlight:
+      linenums: true
+      extend_pygments_lang:
+        - name: yml
+          lang: yaml
+        - name: cf
+          lang: cfg
+        - name: conf
+          lang: cfg
+        - name: env
+          lang: properties
+        # Not helpful with Python Pygments lexer highlighting, but we might change to a JS highlighter in future
+        # Ideally, this type of codefence might also have word-wrap enabled (CSS: {white-space: pre-wrap})
+        - name: log
+          lang: shell-session
+        - name: fetchmailrc
+          lang: txt
+        - name: caddyfile
+          lang: txt
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
@@ -185,10 +222,3 @@ markdown_extensions:
 
 # Other Settings
 strict: false # halt processing when a warning is raised
-
-nav:
-  - ...
-
-extra_javascript:
-  - 'js/chat.js'
-  - 'js/sidecar-1.5.0.js'

@@ -1,4 +1,4 @@
 {
-    "packages": ["packages/docsearch-*"],
+    "buildCommand": "all",
     "node": "16"
 }
