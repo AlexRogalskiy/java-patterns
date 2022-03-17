@@ -355,6 +355,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [G1/Parallel/Serial GC improvements in JDK 18](https://inside.java/2022/03/16/jdk18-gc-changes/)
 - [Job Opportunity: Java VM Compiler Developer](https://inside.java/2022/03/15/jvm-compiler-dev/)
 - [Introducing the `oracle-actions/setup-java` GitHub action](https://inside.java/2022/03/11/setup-java/)
 - [All About JDK 18 - Inside Java Newscast #21](https://inside.java/2022/03/10/insidejava-newscast-021/)
@@ -364,7 +365,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Episode 22 “JEP 408 - Simple Web Server”](https://inside.java/2022/03/04/podcast-022/)
 - [Job Opportunity: JavaFX Engineer](https://inside.java/2022/03/03/ojp-javafx-developer/)
 - [New candidate JEP: 424: Foreign Function &amp;amp; Memory API &lpar;Preview&rpar;](https://inside.java/2022/03/02/new-candidate-jep-424/)
-- [Job Opportunity: Java VM Quality Engineer](https://inside.java/2022/03/01/ojp-jvm-gc-sqe/)
 <!-- INSIDE-POST-LIST:END -->
 
 ### *Java programmer posts*
