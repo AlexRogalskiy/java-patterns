@@ -280,15 +280,15 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Trying something a little more 2022](https://www.reddit.com/r/java/comments/tf65um/trying_something_a_little_more_2022/)
+- [needing advice on containerizing java stuff.](https://www.reddit.com/r/java/comments/tfya8v/needing_advice_on_containerizing_java_stuff/)
+- [Eclipse 4.23.2022-03 released!](https://www.reddit.com/r/java/comments/tfirqd/eclipse_423202203_released/)
+- [Eclipse Theia is the next generation Eclipse RCP?! - EclipseSource](https://www.reddit.com/r/java/comments/tfecv3/eclipse_theia_is_the_next_generation_eclipse_rcp/)
+- [EclipseLink static weaving with Gradle](https://www.reddit.com/r/java/comments/tfcomr/eclipselink_static_weaving_with_gradle/)
+- [G1/Parallel/Serial GC improvements in JDK 18](https://www.reddit.com/r/java/comments/tfciwe/g1parallelserial_gc_improvements_in_jdk_18/)
 - [Dynamic UIs and Feature-Flags with Zephyr and Aire](https://www.reddit.com/r/java/comments/tf5vsp/dynamic_uis_and_featureflags_with_zephyr_and_aire/)
 - [IKVM.NET now have Multithreaded Dynamic Compilation](https://www.reddit.com/r/java/comments/tf5bl2/ikvmnet_now_have_multithreaded_dynamic_compilation/)
 - [Is Learning Java at 31 for a future career a viable choice?](https://www.reddit.com/r/java/comments/tf1vxw/is_learning_java_at_31_for_a_future_career_a/)
-- [Hi! What do you guys think?](https://www.reddit.com/r/java/comments/tf1b0f/hi_what_do_you_guys_think/)
-- [ElasticCC platform - Part 2 - Using the new Elasticsearch Java Client](https://www.reddit.com/r/java/comments/tf15fq/elasticcc_platform_part_2_using_the_new/)
-- [ElasticCC platform - Part 3 - Upgrading on k8s without downtime &lpar;Javalin, Jetty, Kubernetes&rpar;](https://www.reddit.com/r/java/comments/tf14bl/elasticcc_platform_part_3_upgrading_on_k8s/)
 - [Options for high level front-end frameworks for Java developers](https://www.reddit.com/r/java/comments/ten43t/options_for_high_level_frontend_frameworks_for/)
-- [Debugging Race Conditions in Production](https://www.reddit.com/r/java/comments/tekpbp/debugging_race_conditions_in_production/)
 - [Azul&#39;s Cloud Native Compiler - Why Share The JIT Compiler?](https://www.reddit.com/r/java/comments/te4gqy/azuls_cloud_native_compiler_why_share_the_jit/)
 <!-- REDDIT-POST-LIST:END -->
 
