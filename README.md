@@ -312,16 +312,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [needing advice on containerizing java stuff.](https://www.reddit.com/r/java/comments/tfya8v/needing_advice_on_containerizing_java_stuff/)
+- [Having fun with OpenAI api&#39;s new insertion capabilities](https://www.reddit.com/r/java/comments/tghx5d/having_fun_with_openai_apis_new_insertion/)
+- [Are java modules a must know ?](https://www.reddit.com/r/java/comments/tggwdi/are_java_modules_a_must_know/)
+- [Eclipse 2022-03 Java IDE Improvements](https://www.reddit.com/r/java/comments/tggq5d/eclipse_202203_java_ide_improvements/)
+- [Record Patterns Officially Planned as Preview Feature for JDK 19](https://www.reddit.com/r/java/comments/tgdl7y/record_patterns_officially_planned_as_preview/)
+- [Localization in Java by ResourceBundle Library](https://www.reddit.com/r/java/comments/tgcyzs/localization_in_java_by_resourcebundle_library/)
+- [Retrying SQL operations in transaction recovery logs and more in Open Liberty 22.0.0.3](https://www.reddit.com/r/java/comments/tgbfto/retrying_sql_operations_in_transaction_recovery/)
+- [The Golden Age of Java on the Mac](https://www.reddit.com/r/java/comments/tg7wws/the_golden_age_of_java_on_the_mac/)
+- [JRebel Java Development Trends and Analysis 2022](https://www.reddit.com/r/java/comments/tg5qlp/jrebel_java_development_trends_and_analysis_2022/)
 - [Eclipse 4.23.2022-03 released!](https://www.reddit.com/r/java/comments/tfirqd/eclipse_423202203_released/)
 - [Eclipse Theia is the next generation Eclipse RCP?! - EclipseSource](https://www.reddit.com/r/java/comments/tfecv3/eclipse_theia_is_the_next_generation_eclipse_rcp/)
-- [EclipseLink static weaving with Gradle](https://www.reddit.com/r/java/comments/tfcomr/eclipselink_static_weaving_with_gradle/)
-- [G1/Parallel/Serial GC improvements in JDK 18](https://www.reddit.com/r/java/comments/tfciwe/g1parallelserial_gc_improvements_in_jdk_18/)
-- [Dynamic UIs and Feature-Flags with Zephyr and Aire](https://www.reddit.com/r/java/comments/tf5vsp/dynamic_uis_and_featureflags_with_zephyr_and_aire/)
-- [IKVM.NET now have Multithreaded Dynamic Compilation](https://www.reddit.com/r/java/comments/tf5bl2/ikvmnet_now_have_multithreaded_dynamic_compilation/)
-- [Is Learning Java at 31 for a future career a viable choice?](https://www.reddit.com/r/java/comments/tf1vxw/is_learning_java_at_31_for_a_future_career_a/)
-- [Options for high level front-end frameworks for Java developers](https://www.reddit.com/r/java/comments/ten43t/options_for_high_level_frontend_frameworks_for/)
-- [Azul&#39;s Cloud Native Compiler - Why Share The JIT Compiler?](https://www.reddit.com/r/java/comments/te4gqy/azuls_cloud_native_compiler_why_share_the_jit/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
