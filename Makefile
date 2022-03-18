@@ -1,102 +1,114 @@
-############################################################################
-# Variables
-############################################################################
+################################################################################
+# Dependencies                                                                 #
+################################################################################
+
+# MAKE_DIRS stores makefile directories
+MAKE_DIRS							:= makefiles
+
+include $(foreach dir,$(MAKE_DIRS),$(sort $(wildcard $(dir)/*.mk)))
+include $(foreach dir,$(MAKE_DIRS),$(sort $(wildcard $(dir)/*/*.mk)))
+
+################################################################################
+# Variables                                                               		 #
+################################################################################
 
 # Since we rely on paths relative to the makefile location, abort if make isn't being run from there.
-$(if $(findstring /,$(MAKEFILE_LIST)),$(error Please only invoke this makefile from the directory it resides in))
-
-# SHELL defines the shell that the Makefile uses.
-# We also set -o pipefail so that if a previous command in a pipeline fails, a command fails.
-# http://redsymbol.net/articles/unofficial-bash-strict-mode
-SHELL := /bin/bash -o errexit -o nounset
-
-PYTHON := python3
-NPM := npm
-
-TIME_LONG	= `date +%Y-%m-%d' '%H:%M:%S`
-TIME_SHORT	= `date +%H:%M:%S`
-TIME		= $(TIME_SHORT)
-
-BLUE         := $(shell printf "\033[34m")
-YELLOW       := $(shell printf "\033[33m")
-RED          := $(shell printf "\033[31m")
-GREEN        := $(shell printf "\033[32m")
-CNone        := $(shell printf "\033[0m")
-
-INFO	= echo ${TIME} ${BLUE}[ .. ]${CNone}
-WARN	= echo ${TIME} ${YELLOW}[WARN]${CNone}
-ERR		= echo ${TIME} ${RED}[FAIL]${CNone}
-OK		= echo ${TIME} ${GREEN}[ OK ]${CNone}
-FAIL	= (echo ${TIME} ${RED}[FAIL]${CNone} && false)
-
-CLUSTER_NAME := backend-java-patterns
-CLUSTER_NAMESPACE := webapp
-
-VENV_NAME := venv
-VENV_BIN=$(VENV_NAME)/bin
-VENV_PIP=$(VENV_BIN)/pip3
-VENV_PYTHON=$(VENV_BIN)/python3
-
-PIP_BUILD_OPTS = --disable-pip-version-check --no-cache-dir --prefer-binary
-MKDOCS_BUILD_OPTS = --clean --strict --verbose
-MKDOCS_SERVE_OPTS = --verbose --dirtyreload
-
-RELEASE_NAME := release
-GH_PAGES_NAME := site
-
-cred := $(shell echo -e "\033[0;31m")
-cyellow := $(shell echo -e "\033[0;33m")
-cend := $(shell echo -e "\033[0m")
-
-HTMLTEST 			?= htmltest # Specify as make arg if different
-HTMLTEST_ARGS	?= --skip-external --conf .htmltest.yml
-HTMLTEST_DIR	= ./scripts
-
-# Set V=1 on the command line to turn off all suppression. Many trivial
-# commands are suppressed with "@", by setting V=1, this will be turned off.
-ifeq ($(V),1)
-	AT :=
-else
-	AT := @
-endif
-
-# Optional flag to run target in a docker container.
-# (example `make test USE_DOCKER=true`)
-ifeq ($(USE_DOCKER),true)
-	DOCKER_CMD := docker compose
-endif
-
-IMAGE 				?= styled-java-patterns
-OKTETO_IMAGE 	?= okteto/$(IMAGE)
-DOCKER_IMAGE 	?= alexanderr/$(IMAGE)
-TAG 					?= latest
-
-# UNAME_OS stores the value of uname -s.
-UNAME_OS := $(shell uname -s)
-# UNAME_ARCH stores the value of uname -m.
-UNAME_ARCH := $(shell uname -m)
-# ROOT_DIR stored git root directory
-ROOT_DIR=$(git rev-parse --show-toplevel)
-# ORIGINAL_BRANCH stored git branch name
-ORIGINAL_BRANCH=$(git rev-parse --abbrev-ref HEAD)
-
-# TMP_BASE is the base directory used for TMP.
-# Use TMP and not TMP_BASE as the temporary directory.
-TMP_BASE := .tmp
-# TMP_COVERAGE is where we store code coverage files.
-TMP_COVERAGE := $(TMP_BASE)/coverage
-
-UTILS := docker tilt helm
+$(if $(findstring "..",$(MAKEFILE_LIST)),$(error Please only invoke this makefile from the directory it resides in))
 # Make sure that all required utilities can be located.
-UTIL_CHECK := $(or $(shell which $(UTILS) >/dev/null && echo 'ok'),$(error Did you forget to install `docker` and `tilt` after cloning the repo? At least one of the required supporting utilities not found: $(UTILS)))
-DIRS := $(shell ls -ad -- */)
+UTILS_CHECK := $(or $(shell which $(UTILS) >/dev/null && echo 'ok'),$(error Did you forget to install $(UTILS) after cloning the repo? At least one of the required supporting utilities not found: $(UTILS)))
+
+# DOCKER_REGISTRY defines docker registry
+DOCKER_REGISTRY 			:= docker.io
+# DOCKER_ORG defines docker organization
+DOCKER_ORG 						:= nullables
+# DOCKER_IMAGE_NAME defines docker image name
+DOCKER_IMAGE_NAME 		:= styled-java-patterns
+# IMAGE_NAME defines image name
+IMAGE_NAME         		:= $(DOCKER_REGISTRY)/$(DOCKER_ORG)/$(DOCKER_IMAGE_NAME):$(DOCKER_VERSION)
+# MUTABLE_IMAGE_NAME defines mutable image name
+MUTABLE_IMAGE_NAME 		:= $(DOCKER_REGISTRY)/$(DOCKER_ORG)/$(DOCKER_IMAGE_NAME):$(MUTABLE_DOCKER_VERSION)
+# OKTETO_IMAGE_NAME defines okteto image name
+OKTETO_IMAGE_NAME 		:= okteto/$(DOCKER_IMAGE_NAME)
+# DOCKER_HUB_IMAGE_NAME defines docker hub image name
+DOCKER_HUB_IMAGE_NAME := alexanderr/$(DOCKER_IMAGE_NAME)
+
+# CLUSTER_NAME defines cluster name
+CLUSTER_NAME 					:= backend-java-patterns
+# CLUSTER_NAMESPACE defines cluster namespace
+CLUSTER_NAMESPACE 		:= webapp
+
+# SHELL stores the shell that the Makefile uses.
+SHELL 								:= $(shell if [ -x "$$BASH" ]; then echo $$BASH; \
+	 												else if [ -x /bin/bash ]; then echo /bin/bash -o errexit -o nounset; \
+	 												else echo sh; fi; fi)
+# PYTHON_CMD stores python binary
+PYTHON_CMD 						:= $(shell command -v python3 2> /dev/null)
+# SED_CMD stores stream editor binary
+SED_CMD 							:= $(shell command -v sed 2> /dev/null || type -p sed)
+# DOCKER_CMD stores docker binary
+DOCKER_CMD 						:= $(shell command -v docker 2> /dev/null || command -v podman 2> /dev/null || type -p docker)
+# DOCKER_COMPOSE_CMD stores docker-compose binary
+DOCKER_COMPOSE_CMD 		:= $(shell command -v docker-compose 2> /dev/null || command -v docker compose 2> /dev/null || type -p docker-compose)
+# NPM_CMD stores npm binary
+NPM_CMD 							:= $(shell command -v npm 2> /dev/null || type -p npm)
+
+# DOCKER_DIR stores docker configurations
+DOCKER_DIR 						:= $(GIT_ROOT_DIR)
+
+# VERBOSE stores logging output verbosity
+VERBOSE 							:= false
+
+# VENV_NAME stores virtual environment name
+VENV_NAME 						:= venv
+# VENV_BIN stores virtual environment binary directory
+VENV_BIN							:= $(VENV_NAME)/bin
+# VENV_PIP stores virtual environment pip binary
+VENV_PIP							:= $(VENV_BIN)/pip3
+# VENV_PYTHON stores virtual environment python binary
+VENV_PYTHON						:= $(VENV_BIN)/python3
+
+# WGET_OPTS stores wget options
+WGET_OPTS 						:= --no-check-certificate
+# PIP_BUILD_OPTS stores pip build options
+PIP_BUILD_OPTS		 		:= --disable-pip-version-check --no-cache-dir --prefer-binary
+# PIP_BUILD_OPTS stores mkdocs build options
+MKDOCS_BUILD_OPTS 		:= --clean --strict --verbose
+# PIP_BUILD_OPTS stores mkdocs deploy options
+MKDOCS_DEPLOY_OPTS 		:= --verbose --clean --force
+# PIP_BUILD_OPTS stores mkdocs serve options
+MKDOCS_SERVE_OPTS 		:= --verbose --dirtyreload
+# HTMLTEST stores htmltest binary
+HTMLTEST 							:= htmltest
+# HTMLTEST_OPTS stores htmltest binary arguments
+HTMLTEST_OPTS					:= --skip-external --conf .htmltest.yml
+
+# CHART_RELEASE_DIR stores chart release folder
+CHART_RELEASE_DIR 		:= release
+# GITHUB_PAGES_DIR stores github pages folder
+GITHUB_PAGES_DIR 			:= site
+# HTMLTEST_DIR stores htmltest directory
+HTMLTEST_DIR					:= scripts
+
+# VARS stores printing variables
+VARS += DOCKER_IMAGE_NAME
+VARS += IMAGE_NAME MUTABLE_IMAGE_NAME
+VARS += MUTABLE_IMAGE_NAME
+VARS += OKTETO_IMAGE_NAME
+VARS += DOCKER_HUB_IMAGE_NAME
+VARS += SHELL
+VARS += SED_CMD
+VARS += DOCKER_CMD
+VARS += DOCKER_COMPOSE_CMD
+VARS += NPM_CMD
+VARS += DOCKER_DIR
+VARS += VERBOSE
+
+################################################################################
+# Targets                                                               		   #
+################################################################################
 
 # Run all by default when "make" is invoked.
 .DEFAULT_GOAL := help
-
-############################################################################
-# Common
-############################################################################
 
 # Default target (by virtue of being the first non '.'-prefixed in the file).
 .PHONY: _no-target-specified
@@ -106,20 +118,19 @@ _no-target-specified:
 # Create virtual environment.
 .PHONY: _venv
 _venv:
-	virtualenv $(VENV_NAME)
+	$(AT)virtualenv $(VENV_NAME)
 	. $(VENV_BIN)/activate
-	@echo
-	@echo -e "$(cred)Virtual env created. The source pages are in $(VENV_NAME) directory.$(cend)"
-	@echo
+	$(AT)echo
+	$(AT)echo -e "$(COLOR_RED)Virtual env created. The source pages are in $(VENV_NAME) directory.$(COLOR_NORMAL)"
+	$(AT)echo
 
-# This rule creates a file named .env that is used by docker-compose for passing
-# the USER_ID and GROUP_ID arguments to the Docker image.
-.env: ## Setup step for using using docker-compose with make target.
-	@touch .env
-ifneq ($(OS),Windows_NT)
-ifneq ($(shell uname -s), Darwin)
-	@echo USER_ID=$(shell id -u) >> .env
-	@echo GROUP_ID=$(shell id -g) >> .env
+# Create environment variables
+.PHONY: _check_env
+_check_env:
+ifneq ($(SYS_OS),Windows_NT)
+ifneq ($(SYS_OS), Darwin)
+	$(AT)echo USER_ID=$(USER_ID) >> .env
+	$(AT)echo GROUP_ID=$(GROUP_ID) >> .env
 endif
 endif
 
@@ -153,13 +164,13 @@ endif
 ##= venv-run: to run documentation in virtual environment
 ##= versions: to list commands versions
 help:
-	@echo
-	@echo
-	@echo "Please use [make <target>] where <target> is one of:"
-	@echo
-	$(AT)sed -n 's/^##=//p' $(MAKEFILE_LIST) 2>/dev/null | column -t -s ':' |  sed -e 's/^/ /'
-	@echo
-	@echo
+	$(AT)echo
+	$(AT)echo
+	$(AT)echo "Please use [make <target>] where <target> is one of:"
+	$(AT)echo
+	$(AT)$(SED_CMD) -n 's/^##=//p' $(MAKEFILE_LIST) 2>/dev/null | column -t -s ':' |  $(SED_CMD) -e 's/^/ /'
+	$(AT)echo
+	$(AT)echo
 
 # Lists all targets defined in this makefile.
 .PHONY: list
@@ -169,35 +180,35 @@ list:
 # Lists all dirs.
 .PHONY: dirs
 dirs:
-	echo "$(DIRS)"
-	@echo
-	@echo -e "$(cred)Directory list finished.$(cend)"
-	@echo
+	$(AT)echo "$(shell ls -ad -- */)"
+	$(AT)echo
+	$(AT)echo -e "$(COLOR_RED)Directory list finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run version command.
 .PHONY: versions
 versions:
-	$(AT) echo
-	docker --version
-	$(AT) echo
-	tilt version
-	$(AT) echo
-	helm version
-	$(AT) echo
-	@echo
-	@echo -e "$(cred)Versions list finished.$(cend)"
-	@echo
+	$(AT)echo
+	$(AT)docker --version
+	$(AT)echo
+	$(AT)tilt version
+	$(AT)echo
+	$(AT)helm version
+	$(AT)echo
+	$(AT)echo
+	$(AT)echo -e "$(COLOR_RED)Versions list finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Clean removes all temporary files.
 .PHONY: clean
 clean:
-	rm -rf $(TMP_BASE)
-	rm -rf $(RELEASE_NAME)
-	rm -rf $(GH_PAGES_NAME)
-	rm -rf $(VENV_NAME)
-	@echo
-	@echo -e "$(cred)Clean finished.$(cend)"
-	@echo
+	$(AT)rm -rf $(TMP_BASE)
+	$(AT)rm -rf $(CHART_RELEASE_DIR)
+	$(AT)rm -rf $(GITHUB_PAGES_DIR)
+	$(AT)rm -rf $(VENV_NAME)
+	$(AT)echo
+	$(AT)echo -e "$(COLOR_RED)Clean finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Ensures that the git workspace is clean.
 .PHONY: _ensure-clean
@@ -211,57 +222,117 @@ ifndef DOCKER_TAG
 	$(error Please invoke with `make DOCKER_TAG=<tag> docker-build`)
 endif
 
+# Run docker scan command.
+.PHONY: docker-scan
+docker-scan:
+	$(DOCKER_CMD) scan --json --group-issues --dependency-tree -f Dockerfile "$(IMAGE_NAME)"
+
+# Run docker table command.
+.PHONY: docker-table
+docker-table:
+	$(DOCKER_CMD) ps --format "table {{.Image}}\t{{.Ports}}\t{{.Names}}"
+
+# Run docker code lint command.
+.PHONY: docker-code-lint
+docker-code-lint:
+	$(DOCKER_CMD) run -it \
+		--platform=linux/amd64 \
+		--rm \
+		--ulimit memlock=-1:-1 \
+		--user $$(id -u):$$(id -g) \
+		--volume $(GIT_ROOT_DIR)/:/data/project/ \
+		-p 8080:8080 \
+		jetbrains/qodana-jvm-community --show-report
+
+# Run docker clean command.
+.PHONY: docker-clean
+docker-clean: docker-stop docker-remove
+
+# Run docker remove container command.
+.PHONY: docker-remove
+docker-remove:
+	$(DOCKER_CMD) container rm --force "$(DOCKER_IMAGE_NAME)" > /dev/null
+
+# Run docker remove all images command.
+.PHONY: docker-remove-all
+docker-remove-all:
+	$(DOCKER_CMD) images | grep $(DOCKER_IMAGE_NAME) | awk '{print $3}' | xargs docker rmi -f
+
 # Run docker build command.
 .PHONY: docker-build
 docker-build: _ensure-docker-tag
-	chmod +x ./scripts/docker-build.sh
+	$(AT)chmod +x ./scripts/docker-build.sh
 	./scripts/docker-build.sh $(DOCKER_TAG)
+
+# Run docker rebuild command.
+.PHONY: docker-rebuild
+docker-rebuild: _ensure-docker-tag
+	$(AT)chmod +x ./scripts/docker-rebuild.sh
+	./scripts/docker-rebuild.sh $(DOCKER_TAG)
 
 # Run docker start command.
 .PHONY: docker-start
-docker-start: .env
-	chmod +x ./scripts/docker-compose-start.sh
-	./scripts/docker-compose-start.sh
+docker-start: _check_env
+	$(AT)chmod +x ./scripts/docker-compose.sh
+	./scripts/docker-compose.sh start
 
 # Run docker stop command.
 .PHONY: docker-stop
 docker-stop:
-	chmod +x ./scripts/docker-compose-stop.sh
-	./scripts/docker-compose-stop.sh
+	$(AT)chmod +x ./scripts/docker-compose.sh
+	./scripts/docker-compose.sh stop
+
+# Run docker logs command.
+.PHONY: docker-logs
+docker-logs:
+	$(AT)chmod +x ./scripts/docker-compose.sh
+	./scripts/docker-compose.sh logs
+
+# Run docker ps command.
+.PHONY: docker-ps
+docker-ps:
+	$(AT)chmod +x ./scripts/docker-compose.sh
+	./scripts/docker-compose.sh ps
+
+# Run docker pull command.
+.PHONY: docker-pull
+docker-pull:
+	$(AT)chmod +x ./scripts/docker-compose.sh
+	./scripts/docker-compose.sh pull
 
 # Run tilt start command.
 .PHONY: tilt-start
 tilt-start:
-	tilt up
+	$(AT)tilt up
 
 # Run tilt stop command.
 .PHONY: tilt-stop
 tilt-stop:
-	tilt down --delete-namespaces
+	$(AT)tilt down --delete-namespaces
 
 # Run helm lint command.
 .PHONY: helm-lint
 helm-lint:
-	helm lint charts --values charts/values.yaml
+	$(AT)helm lint charts --values charts/values.yaml
 
 # Run helm start command.
 .PHONY: helm-start
 helm-start:
-	helm upgrade --install $(CLUSTER_NAME) -f charts/values.yaml --create-namespace --namespace $(CLUSTER_NAMESPACE) charts
+	$(AT)helm upgrade --install $(CLUSTER_NAME) -f charts/values.yaml --create-namespace --namespace $(CLUSTER_NAMESPACE) charts
 
 # Run helm stop command.
 .PHONY: helm-stop
 helm-stop:
-	helm uninstall $(CLUSTER_NAME) --namespace $(CLUSTER_NAMESPACE)
+	$(AT)helm uninstall $(CLUSTER_NAME) --namespace $(CLUSTER_NAMESPACE)
 
 # Run helm package command.
 .PHONY: helm-package
 helm-package:
-	mkdir -p $(RELEASE_NAME)/charts
-	helm package charts --dependency-update --destination $(RELEASE_NAME)/charts
-	@echo
-	@echo -e "$(cred)Helm packages build finished.$(cend)"
-	@echo
+	$(AT)mkdir -p $(CHART_RELEASE_DIR)/charts
+	$(AT)helm package charts --dependency-update --destination $(CHART_RELEASE_DIR)/charts
+	$(AT)echo
+	$(AT)echo -e "$(COLOR_RED)Helm packages build finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run helm dev command.
 .PHONY: helm-dev
@@ -270,73 +341,73 @@ helm-dev: clean helm-lint helm-package
 # Run okteto build command.
 .PHONY: okteto
 okteto:
-	okteto build -t $(DOCKER_IMAGE) .
-	okteto build -t $(OKTETO_IMAGE) .
-	@echo
-	@echo -e "$(cred)Okteto images build finished.$(cend)"
-	@echo
+	$(AT)okteto build -t $(DOCKER_HUB_IMAGE_NAME) .
+	$(AT)okteto build -t $(OKTETO_IMAGE_NAME) .
+	$(AT)echo
+	$(AT)echo -e "$(COLOR_RED)Okteto images build finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Install pip command.
 .PHONY: install-pip
 install-pip:
-	wget --no-check-certificate https://bootstrap.pypa.io/get-pip.py -O $(TMPDIR)/get-pip.py
-	$(PYTHON) $(TMPDIR)/get-pip.py
-	@echo
-	@echo -e "$(cred)Pip installed.$(cend)"
-	@echo
+	$(AT)wget $(WGET_OPTS) https://bootstrap.pypa.io/get-pip.py -O $(TMPDIR)/get-pip.py
+	$(AT)$(PYTHON_CMD) $(TMPDIR)/get-pip.py
+	$(AT)echo
+	$(AT)echo -e "$(COLOR_RED)Pip installed.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run local build command.
 .PHONY: local-build
 local-build:
-	$(PYTHON) -m pip install $(PIP_BUILD_OPTS) -r ./docs/requirements.txt
-	$(PYTHON) -m mkdocs build $(MKDOCS_BUILD_OPTS) --config-file mkdocs.yml
-	@echo
-	@echo -e "$(cred)Python documentation build finished.$(cend)"
-	@echo
+	$(AT)$(PYTHON_CMD) -m pip install $(PIP_BUILD_OPTS) -r ./docs/requirements.txt
+	$(AT)$(PYTHON_CMD) -m mkdocs build $(MKDOCS_BUILD_OPTS) --config-file mkdocs.yml
+	$(AT)echo
+	$(AT)echo -e "$(COLOR_RED)Python documentation build finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run local run command.
 .PHONY: local-run
 local-run: local-build
-	$(PYTHON) -m mkdocs serve $(MKDOCS_SERVE_OPTS)
+	$(AT)$(PYTHON_CMD) -m mkdocs serve $(MKDOCS_SERVE_OPTS)
 
 # Run venv build command.
 .PHONY: venv-build
 venv-build: _venv
-	$(VENV_PYTHON) -m pip install $(PIP_BUILD_OPTS) -r ./docs/requirements.txt
-	$(VENV_PYTHON) -m mkdocs build $(MKDOCS_BUILD_OPTS) --config-file mkdocs.yml
-	@echo
-	@echo -e "$(cred)Build finished. The source pages are in $(VENV_NAME) directory.$(cend)"
-	@echo
+	$(AT)$(VENV_PYTHON) -m pip install $(PIP_BUILD_OPTS) -r ./docs/requirements.txt
+	$(AT)$(VENV_PYTHON) -m mkdocs build $(MKDOCS_BUILD_OPTS) --config-file mkdocs.yml
+	$(AT)echo
+	$(AT)echo -e "$(COLOR_RED)Build finished. The source pages are in $(VENV_NAME) directory.$(COLOR_NORMAL)"
+	$(AT)echo
 	exit
 
 # Run venv run command.
 .PHONY: venv-run
 venv-run: venv-build
-	$(VENV_PYTHON) -m mkdocs serve $(MKDOCS_SERVE_OPTS)
+	$(AT)$(VENV_PYTHON) -m mkdocs serve $(MKDOCS_SERVE_OPTS)
 
 # Run github pages deploy command.
 .PHONY: gh-pages
 gh-pages:
-	$(PYTHON) -m mkdocs --verbose gh-deploy --clean --force --remote-branch gh-pages
-	@echo
-	@echo -e "$(cred)GitHub pages generated.$(cend)"
-	@echo
+	$(AT)$(PYTHON_CMD) -m mkdocs gh-deploy $(MKDOCS_DEPLOY_OPTS) --remote-branch gh-pages
+	$(AT)echo
+	$(AT)echo -e "$(COLOR_RED)GitHub pages generated.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run npm install command.
 .PHONY: deps
 deps:
-	$(NPM) install
-	@echo
-	@echo -e "$(cred)Install finished.$(cend)"
-	@echo
+	$(AT)$(NPM_CMD) install
+	$(AT)echo
+	$(AT)echo -e "$(COLOR_RED)Install finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run npm all command.
 .PHONY: all
 all:
-	$(NPM) run all
-	@echo
-	@echo -e "$(cred)Build finished.$(cend)"
-	@echo
+	$(AT)$(NPM_CMD) run all
+	$(AT)echo
+	$(AT)echo -e "$(COLOR_RED)Build finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run git diff command.
 .PHONY: diff
@@ -346,16 +417,22 @@ diff:
 # Run git authors command.
 .PHONY: git-authors
 git-authors:
-	@echo
+	$(AT)echo
 	$(AT)find . -name ".git" -type d -exec git --git-dir={} --work-tree="$(PWD)"/{} config --get remote.origin.url \; -exec git --git-dir={} --work-tree="$(PWD)"/{} --no-pager shortlog -sn \;
-	@echo
+	$(AT)echo
 
 # Run git pull command.
 .PHONY: git-pull
 git-pull:
-	@echo
+	$(AT)echo
 	$(AT)find . -name ".git" -type d | xargs -P10 -I{} git --git-dir={} --work-tree="$(PWD)"/{} pull origin master
-	@echo
+	$(AT)echo
+
+# Run git log command.
+.PHONY: git-changelog
+git-changelog: release
+	$(AT)echo "🌟 Running git changelog command"
+	$(AT)git log $(shell git tag | tail -n1)..HEAD --no-merges --format=%B > changelog
 
 # Run install link checker command.
 .PHONY: install-link-checker
@@ -365,15 +442,85 @@ install-link-checker:
 # Run setup link checker command.
 .PHONY: setup-link-checker
 setup-link-checker: install-link-checker
-	chmod +x $(HTMLTEST_DIR)/$(HTMLTEST)
+	$(AT)chmod +x $(HTMLTEST_DIR)/$(HTMLTEST)
 	$(HTMLTEST_DIR)/$(HTMLTEST) -d -b $(HTMLTEST_DIR)/bin
 
 # Run run link checker command.
 .PHONY: run-link-checker
 run-link-checker: setup-link-checker
-	chmod +x $(HTMLTEST_DIR)/bin/$(HTMLTEST)
-	$(HTMLTEST_DIR)/bin/$(HTMLTEST) $(HTMLTEST_ARGS)
+	$(AT)chmod +x $(HTMLTEST_DIR)/bin/$(HTMLTEST)
+	$(HTMLTEST_DIR)/bin/$(HTMLTEST) $(HTMLTEST_OPTS)
 
 # Run check links command.
 .PHONY: check-links
 check-links: install-link-checker setup-link-checker run-link-checker
+
+# Run docker graph command.
+.PHONY: docker-graph
+docker-graph:
+	$(AT)$(DOCKER_CMD) run \
+		--platform=linux/amd64 \
+		--rm \
+		--user $(USER_ID):$(GROUP_ID) \
+		--workdir /workspace \
+		--volume "$(PWD)/distribution/docker-images":/workspace \
+		ghcr.io/patrickhoefler/dockerfilegraph
+
+# Run lint command.
+.PHONY: lint
+lint:
+	$(AT)$(DOCKER_CMD) run \
+		--platform=linux/amd64 \
+		--rm \
+		--user $(USER_ID):$(GROUP_ID) \
+		--volume "$(PWD):/tmp/lint" \
+		-e RUN_LOCAL=true \
+		-e LINTER_RULES_PATH=/ \
+		github/super-linter
+
+# Run syft command.
+.PHONY: syft
+syft:
+	$(AT)$(DOCKER_CMD) run \
+		--platform=linux/amd64 \
+		--rm \
+		--user $(USER_ID):$(GROUP_ID) \
+		--volume "$(PWD)/config/config.json":/config/config.json \
+		$(if $(findstring true,$(VERBOSE)),,--quiet) \
+  	-e "DOCKER_CONFIG=/config" \
+  	anchore/syft:latest \
+  	"$(IMAGE_NAME)"
+
+# printvars prints all the variables currently defined in our
+# Makefiles. Alternatively, if a non-empty VARS variable is passed,
+# only the variables matching the make pattern passed in VARS are
+# displayed.
+.PHONY: printvars
+printvars:
+	$(AT):
+	$(foreach V, \
+		$(sort $(filter $(VARS),$(.VARIABLES))), \
+		$(if $(filter-out environment% default automatic, \
+				$(origin $V)), \
+		$(if $(QUOTED_VARS),\
+			$(info $V='$(subst ','\'',$(if $(RAW_VARS),$(value $V),$($V)))'), \
+			$(info $V=$(if $(RAW_VARS),$(value $V),$($V))))))
+
+# Run zip archive command.
+.PHONY: zip-archive
+zip-archive:
+	git archive -o $(basename $PWD).zip HEAD
+
+# Run tgz archive command.
+.PHONY: tgz-archive
+tgz-archive:
+	git archive -o $(basename $PWD).tgz HEAD
+
+# Run clean images command.
+.PHONY: clean-images
+clean-images:
+	echo "Cleaning images \n========================================== ";
+	for image in `docker images -qf "label=$(DOCKER_IMAGE_NAME)"`; do \
+	    echo "Removing image $${image} \n==========================================\n " ; \
+        docker rmi -f $${image} || exit 1 ; \
+    done

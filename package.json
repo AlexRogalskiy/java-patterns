@@ -81,7 +81,7 @@
         "linkcheck:json": "linkinator \"docs/**/*.md\" --markdown --format JSON --verbosity DEBUG",
         "lint:all": "npm run lint:json && npm run lint:style && npm run lint:yaml && npm run lint:markdown && npm run lint:docker",
         "lint:docker": "dockerfile_lint -f ./distribution/docker-images/ci.Dockerfile -f ./distribution/docker-images/dev.Dockerfile -f ./distribution/docker-images/release.Dockerfile -r default_rules.yaml",
-        "lint:json": "jsonlint ./package.json --quiet",
+        "lint:json": "jsonlint --quiet -si --trim-trailing-commas --enforce-double-quotes ./package.json",
         "lint:markdown": "markdownlint --config .markdownlint.yml docs/*.md",
         "lint:md": "remark-preset-davidtheclark",
         "lint:spaces": "lintspaces ./docs/**/*.{html,less,json} -n -t -d spaces",

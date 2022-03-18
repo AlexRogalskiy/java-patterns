@@ -26,13 +26,15 @@ repo_url: https://github.com/AlexRogalskiy/java-patterns
 # For versioned docs, this may be a little misleading for a user not viewing the `edge` docs which match the `master` branch.
 edit_uri: edit/master/docs
 
-#Copyright (shown at the footer)
+# Copyright (shown at the footer)
 copyright: Copyright &copy; 2021-2022 <a href="https://github.com/AlexRogalskiy/java-patterns"><em>Nullables.io</em></a><br/><span>This project is licensed under the MIT license.</span></p>
     <p>All rights reserved.</p>
 
+# Other settings
 use_directory_urls: true
+strict: false # halt processing when a warning is raised
 
-# Theme
+# Theme settings
 theme:
   name: material
   language: en
@@ -51,6 +53,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
   features:
+    - announce.dismiss
     - tabs
     - navigation.top
     - navigation.tabs.sticky
@@ -83,7 +86,7 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
 
-# Plugins
+# Plugins settings
 plugins:
   - mike:
       # these fields are all optional; the defaults are as below...
@@ -116,34 +119,40 @@ plugins:
       modules:
         - docs.mkdocs_macros
 
-# Extra
+# Extra settings
 extra:
   generator: false
   social:
     - icon: fontawesome/brands/github-alt
       link: 'https://github.com/AlexRogalskiy/java-patterns'
+      name: Go to GitHub
     - icon: kofi
       link: https://ko-fi.com/alexrogalskiy
+      name: Go to Kofi
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/repository/docker/alexanderr/styled-java-patterns
+      name: Go to Docker Hub
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/alexander-rogalskiy-985a4828/
+      name: Go to LinkedIn
   version:
     provider: mike
     default: latest
 
-# We make some minor style adjustments or resolve issues that upstream `mkdocs-material` would not accept a PR for:
+# Extra css settings
 extra_css:
   - assets/css/customizations.css
   - assets/css/asciinema-player.css
   - assets/css/extra.css
 
-# Extra Files
+# Extra javascript settings
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - assets/js/asciinema-player.js
   - assets/js/chat.js
   - assets/js/sidecar-1.5.0.js
 
-# Extensions
+# Extensions settings
 markdown_extensions:
   - toc:
       anchorlink: true
@@ -219,6 +228,3 @@ markdown_extensions:
   - smarty: {} # https://python-markdown.github.io/extensions/smarty/
   - nl2br: {} # https://python-markdown.github.io/extensions/smarty/
   - mdx_truly_sane_lists: {} # https://github.com/radude/mdx_truly_sane_lists -> proper indentation of md list items
-
-# Other Settings
-strict: false # halt processing when a warning is raised

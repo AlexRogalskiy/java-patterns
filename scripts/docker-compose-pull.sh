@@ -7,9 +7,9 @@ set -o pipefail
 cd "$(dirname "$0")/.." || exit 1
 
 main() {
-  echo ">>> Stopping docker containers..."
+  echo ">>> Pulling docker containers..."
 
-  docker-compose -f docker-compose.yml down --remove-orphans --volumes
+  docker-compose -f docker-compose.yml pull --include-deps --quiet
 }
 
 main "$@"

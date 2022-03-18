@@ -7,10 +7,9 @@ set -o pipefail
 cd "$(dirname "$0")/.." || exit 1
 
 main() {
-  echo 'Starting docker container...'
+  echo ">>> Starting docker containers..."
 
-  docker-compose -f docker-compose.yml build
-  docker-compose -f docker-compose.yml up -d
+  docker-compose -f docker-compose.yml up --detach --build --force-recreate --renew-anon-volumes
 }
 
 main "$@"
