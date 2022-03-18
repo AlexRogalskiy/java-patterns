@@ -363,6 +363,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Random thoughts posts*
 
 <!-- RANDOMTHOUGHTS-POST-LIST:START -->
+- [Join in SQL](http://randomthoughtsonjavaprogramming.blogspot.com/2022/03/join-in-sql.html)
 - [For-loops and Streams](http://randomthoughtsonjavaprogramming.blogspot.com/2022/03/for-loops-and-streams.html)
 - [Being Glue](http://randomthoughtsonjavaprogramming.blogspot.com/2022/02/being-glue.html)
 - [Hibernate Proxies and the Visitor Pattern](http://randomthoughtsonjavaprogramming.blogspot.com/2022/02/hibernate-proxies-and-visitor-pattern.html)
@@ -372,7 +373,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Assing JsonIgnore on generated files in openapi](http://randomthoughtsonjavaprogramming.blogspot.com/2021/12/assing-jsonignore-on-generated-files-in.html)
 - [RESTEASY004590: You must define a @Consumes type on your client method or interface, or supply a default](http://randomthoughtsonjavaprogramming.blogspot.com/2021/12/resteasy004590-you-must-define-consumes.html)
 - [Replacing many if statements](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/replacing-many-if-statements.html)
-- [Running Mariadb on the Raspberry Pi](http://randomthoughtsonjavaprogramming.blogspot.com/2021/11/running-mariadb-on-raspberry-pi.html)
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
