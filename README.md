@@ -397,6 +397,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Java Platform Evolution](https://inside.java/2022/03/18/java-evolution/)
 - [G1/Parallel/Serial GC improvements in JDK 18](https://inside.java/2022/03/16/jdk18-gc-changes/)
 - [Job Opportunity: Java VM Compiler Developer](https://inside.java/2022/03/15/jvm-compiler-dev/)
 - [Introducing the `oracle-actions/setup-java` GitHub action](https://inside.java/2022/03/11/setup-java/)
@@ -406,7 +407,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Job Opportunity: Senior Manager Java VM Development](https://inside.java/2022/03/07/ojp-jvm-compiler-manager/)
 - [Episode 22 “JEP 408 - Simple Web Server”](https://inside.java/2022/03/04/podcast-022/)
 - [Job Opportunity: JavaFX Engineer](https://inside.java/2022/03/03/ojp-javafx-developer/)
-- [New candidate JEP: 424: Foreign Function &amp;amp; Memory API &lpar;Preview&rpar;](https://inside.java/2022/03/02/new-candidate-jep-424/)
 <!-- INSIDE-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
