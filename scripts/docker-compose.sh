@@ -130,7 +130,7 @@ docker_stop() {
 main() {
   [ ${#@} -gt 0 ] || usage
 
-  cmd="$1"; shift;
+  cmd=$(echo "$1" | tr "[:upper:]" "[:lower:]"); shift;
   case "$cmd" in
   [sS]tart|[uU]p)
     docker_start "${@:1}"
