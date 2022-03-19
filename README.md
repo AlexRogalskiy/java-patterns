@@ -312,16 +312,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [I created a Java Program to graph polar functions](https://www.reddit.com/r/java/comments/thfa0p/i_created_a_java_program_to_graph_polar_functions/)
+- [How to Stop a Java Thread Without Using Thread.stop&lpar;&rpar;?](https://www.reddit.com/r/java/comments/thf7ld/how_to_stop_a_java_thread_without_using_threadstop/)
+- [Helidon 3.0.0 Milestone 1 has been released!](https://www.reddit.com/r/java/comments/thapmv/helidon_300_milestone_1_has_been_released/)
+- [Helidon 3.0.0-M1 released!](https://www.reddit.com/r/java/comments/th450e/helidon_300m1_released/)
+- [JDK-8058778: New APIs for creating certificates and certificate requests](https://www.reddit.com/r/java/comments/th3lie/jdk8058778_new_apis_for_creating_certificates_and/)
+- [JDKMon 17.0.23 Released](https://www.reddit.com/r/java/comments/tgxe3v/jdkmon_17023_released/)
+- [How did you adopt to new releases?](https://www.reddit.com/r/java/comments/tgvvc5/how_did_you_adopt_to_new_releases/)
+- [Jackson 2.13.2 Release](https://www.reddit.com/r/java/comments/tgvj72/jackson_2132_release/)
 - [Having fun with OpenAI api&#39;s new insertion capabilities](https://www.reddit.com/r/java/comments/tghx5d/having_fun_with_openai_apis_new_insertion/)
 - [Are java modules a must know ?](https://www.reddit.com/r/java/comments/tggwdi/are_java_modules_a_must_know/)
-- [Eclipse 2022-03 Java IDE Improvements](https://www.reddit.com/r/java/comments/tggq5d/eclipse_202203_java_ide_improvements/)
-- [Record Patterns Officially Planned as Preview Feature for JDK 19](https://www.reddit.com/r/java/comments/tgdl7y/record_patterns_officially_planned_as_preview/)
-- [Localization in Java by ResourceBundle Library](https://www.reddit.com/r/java/comments/tgcyzs/localization_in_java_by_resourcebundle_library/)
-- [Retrying SQL operations in transaction recovery logs and more in Open Liberty 22.0.0.3](https://www.reddit.com/r/java/comments/tgbfto/retrying_sql_operations_in_transaction_recovery/)
-- [The Golden Age of Java on the Mac](https://www.reddit.com/r/java/comments/tg7wws/the_golden_age_of_java_on_the_mac/)
-- [JRebel Java Development Trends and Analysis 2022](https://www.reddit.com/r/java/comments/tg5qlp/jrebel_java_development_trends_and_analysis_2022/)
-- [Eclipse 4.23.2022-03 released!](https://www.reddit.com/r/java/comments/tfirqd/eclipse_423202203_released/)
-- [Eclipse Theia is the next generation Eclipse RCP?! - EclipseSource](https://www.reddit.com/r/java/comments/tfecv3/eclipse_theia_is_the_next_generation_eclipse_rcp/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
