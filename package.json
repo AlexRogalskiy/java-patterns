@@ -104,6 +104,10 @@
         "release-minor": "git checkout master && npm run all && npm run bump:minor && git commit -a -m 'Build project codebase with minor version' && git push origin master --tags",
         "release-patch": "git checkout master && npm run all && npm run bump:patch && git commit -a -m 'Build project codebase with patch version' && git push origin master --tags",
         "release:md": "test -f ./scripts/generate-release-notes.sh && . ./scripts/generate-release-notes.sh > NOTES.md",
+        "size:list": "test -f ./scripts/size.sh && . ./scripts/size.sh",
+        "history:list": "test -f ./scripts/history.sh && . ./scripts/history.sh",
+        "adr:new": "adr-tools new 'Styled Java Patterns'",
+        "adr:list": "adr-tools list",
         "remark": "remark -q -f .",
         "setheapsize": "export NODE_OPTIONS=--max_old_space_size=2048",
         "sort-package-json": "sort-package-json",
@@ -129,6 +133,7 @@
     "devDependencies": {
         "@types/node": "^17.0.21",
         "@types/puppeteer": "^5.4.5",
+        "adr-tools": "^2.0.4",
         "alex": "^9.1.0",
         "all-contributors-cli": "^6.20.0",
         "browser-sync": "^2.27.7",

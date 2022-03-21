@@ -70,7 +70,7 @@ VENV_PYTHON						:= $(VENV_BIN)/python3
 # WGET_OPTS stores wget options
 WGET_OPTS 						:= --no-check-certificate
 # PIP_BUILD_OPTS stores pip build options
-PIP_BUILD_OPTS		 		:= --disable-pip-version-check --no-cache-dir --prefer-binary
+PIP_BUILD_OPTS		 		:= --disable-pip-version-check --no-cache-dir --no-compile --prefer-binary
 # PIP_BUILD_OPTS stores mkdocs build options
 MKDOCS_BUILD_OPTS 		:= --clean --strict --verbose
 # PIP_BUILD_OPTS stores mkdocs deploy options
