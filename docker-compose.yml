@@ -52,6 +52,7 @@ services:
     container_name: ${APP_CONTAINER_NAME:-'java-patterns'}
     image: ${APP_IMAGE_NAME:-'java-patterns'}
     hostname: ${APP_HOST_NAME:-'java-patterns'}
+    user: "${UID}:${GID}"
     build:
       context: './'
       dockerfile: './distribution/docker-images/$DOCKER_TAG.Dockerfile'

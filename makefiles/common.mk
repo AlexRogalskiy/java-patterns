@@ -2,10 +2,10 @@
 # Default variables                                                            #
 ################################################################################
 
-# USER_ID stores user identifier
-USER_ID  									:= $(shell id -u)
-# GROUP_ID stores group identifier
-GROUP_ID  								:= $(shell id -g)
+# UID stores user identifier
+UID  											:= $(shell id -u)
+# GID stores group identifier
+GID  											:= $(shell id -g)
 
 # GIT_ROOT_DIR stores git root directory
 GIT_ROOT_DIR 							:= $(shell git rev-parse --show-toplevel)
@@ -44,7 +44,7 @@ SYS_OS 					  				:= $(shell uname -s | tr '[:upper:]' '[:lower:]')
 # SYS_ARCH stores the value of uname -m.
 SYS_ARCH 									:= $(shell uname -m | sed -e 's/x86_64/amd64/' | sed -e 's/aarch64\(_be\)\?/arm64/' | sed -e 's/\(arm\)\(64\)\?.*/\1\2/')
 # SYS_USER_GROUP stores user name/group
-SYS_USER_GROUP 						:= $(shell echo "$(USER_ID):$(GROUP_ID)")
+SYS_USER_GROUP 						:= $(shell echo "$(UID):$(GID)")
 # SYS_CPU stores cpu count
 SYS_CPU 									:= $(shell bash $(GIT_ROOT_DIR)/scripts/read_cpus_available.sh)
 

@@ -1,3 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>chart-csv</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.css" rel="stylesheet" type="text/css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.15/d3.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.js"></script>
+</head>
+<body onload="run()">
+
+<div id="graph"></div>
+
+<script>
+
+function parseCSV (csv) {
+  return csv.split('\n')
+    .filter(function (row) {
+      return !!row.trim()
+    })
+    .map(function (row) {
+      return row.split(',')
+    })
+}
+
+function haveHead (csv) {
+  return !/^\d+$/.test(csv[0][0])
+}
+
+function chart (id, csv) {
+  csv = parseCSV(csv)
+
+  var columns = []
+  var showLegend = haveHead(csv)
+
+  if (showLegend) {
+    csv.shift().forEach(function (head) {
+      columns.push([head])
+    })
+  } else {
+    for (var n = 0; n < csv[0].length; n++) {
+      columns.push([n])
+    }
+  }
+
+  csv.forEach(function (r) {
+    r.forEach(function (c, i) {
+      columns[i].push(parseInt(c, 10))
+    })
+  })
+
+  var opts = {
+    bindto: '#' + id,
+    data: {
+      columns: columns,
+      type: 'line'
+    },
+    point: { show: false },
+    axis: { x: { show: false } },
+    legend: { show: showLegend }
+  }
+
+  c3.generate(opts)
+}
+
+function run () {
+  chart('graph', csv)
+}
+
+var csv = `
 date,commits,filePath
 ,       1,.codesandbox/ci.json
 Wed Apr 21 01:04:44 2021 +0300,       1,.DEREK.yml
@@ -515,3 +585,8 @@ Sun Mar 20 23:58:19 2022 +0000,      65,traffic/plots.png
 Sun Mar 20 23:58:19 2022 +0000,      30,traffic/views.csv
 Thu Mar 17 19:02:35 2022 +0300,       1,tsconfig.json
 Thu Feb 18 14:32:01 2021 +0000,       7,version.txt
+`
+
+</script>
+</body>
+</html>
