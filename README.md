@@ -312,16 +312,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Having fun with OpenAI api&#39;s new insertion capabilities](https://www.reddit.com/r/java/comments/tghx5d/having_fun_with_openai_apis_new_insertion/)
-- [Are java modules a must know ?](https://www.reddit.com/r/java/comments/tggwdi/are_java_modules_a_must_know/)
-- [Eclipse 2022-03 Java IDE Improvements](https://www.reddit.com/r/java/comments/tggq5d/eclipse_202203_java_ide_improvements/)
-- [Record Patterns Officially Planned as Preview Feature for JDK 19](https://www.reddit.com/r/java/comments/tgdl7y/record_patterns_officially_planned_as_preview/)
-- [Localization in Java by ResourceBundle Library](https://www.reddit.com/r/java/comments/tgcyzs/localization_in_java_by_resourcebundle_library/)
-- [Retrying SQL operations in transaction recovery logs and more in Open Liberty 22.0.0.3](https://www.reddit.com/r/java/comments/tgbfto/retrying_sql_operations_in_transaction_recovery/)
-- [The Golden Age of Java on the Mac](https://www.reddit.com/r/java/comments/tg7wws/the_golden_age_of_java_on_the_mac/)
-- [JRebel Java Development Trends and Analysis 2022](https://www.reddit.com/r/java/comments/tg5qlp/jrebel_java_development_trends_and_analysis_2022/)
-- [Eclipse 4.23.2022-03 released!](https://www.reddit.com/r/java/comments/tfirqd/eclipse_423202203_released/)
-- [Eclipse Theia is the next generation Eclipse RCP?! - EclipseSource](https://www.reddit.com/r/java/comments/tfecv3/eclipse_theia_is_the_next_generation_eclipse_rcp/)
+- [Yorm: a simple Orm based on Java Records](https://www.reddit.com/r/java/comments/tijdl1/yorm_a_simple_orm_based_on_java_records/)
+- [Spring Boot Data Access Layer Best Practices](https://www.reddit.com/r/java/comments/tig3g8/spring_boot_data_access_layer_best_practices/)
+- [GlassFish 7.0.0-M3 released!](https://www.reddit.com/r/java/comments/ti60zy/glassfish_700m3_released/)
+- [Hibernate ORM 5.6.7.Final released](https://www.reddit.com/r/java/comments/thzj4n/hibernate_orm_567final_released/)
+- [Java Metadata API](https://www.reddit.com/r/java/comments/thuv0a/java_metadata_api/)
+- [I created a Java Program to graph polar functions](https://www.reddit.com/r/java/comments/thfa0p/i_created_a_java_program_to_graph_polar_functions/)
+- [How to Stop a Java Thread Without Using Thread.stop&lpar;&rpar;?](https://www.reddit.com/r/java/comments/thf7ld/how_to_stop_a_java_thread_without_using_threadstop/)
+- [Helidon 3.0.0 Milestone 1 has been released!](https://www.reddit.com/r/java/comments/thapmv/helidon_300_milestone_1_has_been_released/)
+- [Helidon 3.0.0-M1 released!](https://www.reddit.com/r/java/comments/th450e/helidon_300m1_released/)
+- [JDK-8058778: New APIs for creating certificates and certificate requests](https://www.reddit.com/r/java/comments/th3lie/jdk8058778_new_apis_for_creating_certificates_and/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
@@ -346,6 +346,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Let's talk posts*
 
 <!-- LETSTALK-POST-LIST:START -->
+- [Link Dump #28](http://letstalkaboutjava.blogspot.com/2022/03/link-dump-28.html)
 - [Link Dump #27](http://letstalkaboutjava.blogspot.com/2022/03/link-dump-27.html)
 - [Link Dump #26](http://letstalkaboutjava.blogspot.com/2022/03/link-dump-26.html)
 - [Link Dump #25](http://letstalkaboutjava.blogspot.com/2022/02/link-dump-25.html)
@@ -355,7 +356,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Link Dump #21](http://letstalkaboutjava.blogspot.com/2022/01/link-dump-21.html)
 - [Link Dump #20](http://letstalkaboutjava.blogspot.com/2022/01/link-dump-20.html)
 - [Link Dump #19](http://letstalkaboutjava.blogspot.com/2022/01/link-dump-19.html)
-- [Happy New Year 2022!](http://letstalkaboutjava.blogspot.com/2021/12/happy-new-year-2022.html)
 <!-- LETSTALK-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
@@ -397,6 +397,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [JEP targeted to JDK 19: 422: Linux/RISC-V Port](https://inside.java/2022/03/19/jep-422-targeted-to-jdk19/)
+- [Java Platform Evolution](https://inside.java/2022/03/18/java-evolution/)
 - [G1/Parallel/Serial GC improvements in JDK 18](https://inside.java/2022/03/16/jdk18-gc-changes/)
 - [Job Opportunity: Java VM Compiler Developer](https://inside.java/2022/03/15/jvm-compiler-dev/)
 - [Introducing the `oracle-actions/setup-java` GitHub action](https://inside.java/2022/03/11/setup-java/)
@@ -405,8 +407,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JShell Tutorial](https://inside.java/2022/03/09/jshell-tutorial/)
 - [Job Opportunity: Senior Manager Java VM Development](https://inside.java/2022/03/07/ojp-jvm-compiler-manager/)
 - [Episode 22 “JEP 408 - Simple Web Server”](https://inside.java/2022/03/04/podcast-022/)
-- [Job Opportunity: JavaFX Engineer](https://inside.java/2022/03/03/ojp-javafx-developer/)
-- [New candidate JEP: 424: Foreign Function &amp;amp; Memory API &lpar;Preview&rpar;](https://inside.java/2022/03/02/new-candidate-jep-424/)
 <!-- INSIDE-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
