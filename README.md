@@ -312,6 +312,8 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Yorm: a simple Orm based on Java Records](https://www.reddit.com/r/java/comments/tijdl1/yorm_a_simple_orm_based_on_java_records/)
+- [Spring Boot Data Access Layer Best Practices](https://www.reddit.com/r/java/comments/tig3g8/spring_boot_data_access_layer_best_practices/)
 - [GlassFish 7.0.0-M3 released!](https://www.reddit.com/r/java/comments/ti60zy/glassfish_700m3_released/)
 - [Hibernate ORM 5.6.7.Final released](https://www.reddit.com/r/java/comments/thzj4n/hibernate_orm_567final_released/)
 - [Java Metadata API](https://www.reddit.com/r/java/comments/thuv0a/java_metadata_api/)
@@ -320,8 +322,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Helidon 3.0.0 Milestone 1 has been released!](https://www.reddit.com/r/java/comments/thapmv/helidon_300_milestone_1_has_been_released/)
 - [Helidon 3.0.0-M1 released!](https://www.reddit.com/r/java/comments/th450e/helidon_300m1_released/)
 - [JDK-8058778: New APIs for creating certificates and certificate requests](https://www.reddit.com/r/java/comments/th3lie/jdk8058778_new_apis_for_creating_certificates_and/)
-- [JDKMon 17.0.23 Released](https://www.reddit.com/r/java/comments/tgxe3v/jdkmon_17023_released/)
-- [How did you adopt to new releases?](https://www.reddit.com/r/java/comments/tgvvc5/how_did_you_adopt_to_new_releases/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
