@@ -397,16 +397,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [Job Opportunity: Java Security Engineer](https://inside.java/2022/03/21/security-engineer/)
+- [Job Opportunity: Java Language and Tooling Engineer](https://inside.java/2022/03/20/java-lang-engineer/)
 - [JEP targeted to JDK 19: 422: Linux/RISC-V Port](https://inside.java/2022/03/19/jep-422-targeted-to-jdk19/)
 - [Java Platform Evolution](https://inside.java/2022/03/18/java-evolution/)
+- [Job Opportunity: JDK Flight Recorder Engineer](https://inside.java/2022/03/17/jvm-runtime-jfr/)
 - [G1/Parallel/Serial GC improvements in JDK 18](https://inside.java/2022/03/16/jdk18-gc-changes/)
+- [Job Opportunity: Senior JDK Flight Recorder Engineer](https://inside.java/2022/03/16/jvm-runtime-jfr/)
 - [Job Opportunity: Java VM Compiler Developer](https://inside.java/2022/03/15/jvm-compiler-dev/)
+- [Job Opportunity: Java VM Quality Engineer](https://inside.java/2022/03/14/jvm-compiler-sqe/)
 - [Introducing the `oracle-actions/setup-java` GitHub action](https://inside.java/2022/03/11/setup-java/)
-- [All About JDK 18 - Inside Java Newscast #21](https://inside.java/2022/03/10/insidejava-newscast-021/)
-- [Job Opportunity: Java Technical Support Engineers](https://inside.java/2022/03/10/ojp-java-support-engineer/)
-- [JShell Tutorial](https://inside.java/2022/03/09/jshell-tutorial/)
-- [Job Opportunity: Senior Manager Java VM Development](https://inside.java/2022/03/07/ojp-jvm-compiler-manager/)
-- [Episode 22 “JEP 408 - Simple Web Server”](https://inside.java/2022/03/04/podcast-022/)
 <!-- INSIDE-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
