@@ -312,16 +312,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [global-tz, a new fork of iana-tz &lpar;uses JEP 330 to automate data transformation&rpar;](https://www.reddit.com/r/java/comments/tjnzy5/globaltz_a_new_fork_of_ianatz_uses_jep_330_to/)
+- [Help running old Java applets in Windows 11 / Chrome](https://www.reddit.com/r/java/comments/tjjnft/help_running_old_java_applets_in_windows_11_chrome/)
+- [Vaadin 23.0.0 Released](https://www.reddit.com/r/java/comments/tjiih5/vaadin_2300_released/)
+- [MicroProfile GraphQL 2.0, Java 18 support, and distributed security caches on Open Liberty 22.0.0.4-beta](https://www.reddit.com/r/java/comments/tjdtl2/microprofile_graphql_20_java_18_support_and/)
+- [Fanout based event-driven architecture using AWS SNS and SQS](https://www.reddit.com/r/java/comments/tjb17l/fanout_based_eventdriven_architecture_using_aws/)
+- [Crest, a command-line API modeled after JAX-RS &lpar;Command REST&rpar;](https://www.reddit.com/r/java/comments/tj9rwd/crest_a_commandline_api_modeled_after_jaxrs/)
+- [Backwards compatible, null safe, non-null by default type system proposal](https://www.reddit.com/r/java/comments/tiw76i/backwards_compatible_null_safe_nonnull_by_default/)
 - [Yorm: a simple Orm based on Java Records](https://www.reddit.com/r/java/comments/tijdl1/yorm_a_simple_orm_based_on_java_records/)
 - [Spring Boot Data Access Layer Best Practices](https://www.reddit.com/r/java/comments/tig3g8/spring_boot_data_access_layer_best_practices/)
 - [GlassFish 7.0.0-M3 released!](https://www.reddit.com/r/java/comments/ti60zy/glassfish_700m3_released/)
-- [Hibernate ORM 5.6.7.Final released](https://www.reddit.com/r/java/comments/thzj4n/hibernate_orm_567final_released/)
-- [Java Metadata API](https://www.reddit.com/r/java/comments/thuv0a/java_metadata_api/)
-- [I created a Java Program to graph polar functions](https://www.reddit.com/r/java/comments/thfa0p/i_created_a_java_program_to_graph_polar_functions/)
-- [How to Stop a Java Thread Without Using Thread.stop&lpar;&rpar;?](https://www.reddit.com/r/java/comments/thf7ld/how_to_stop_a_java_thread_without_using_threadstop/)
-- [Helidon 3.0.0 Milestone 1 has been released!](https://www.reddit.com/r/java/comments/thapmv/helidon_300_milestone_1_has_been_released/)
-- [Helidon 3.0.0-M1 released!](https://www.reddit.com/r/java/comments/th450e/helidon_300m1_released/)
-- [JDK-8058778: New APIs for creating certificates and certificate requests](https://www.reddit.com/r/java/comments/th3lie/jdk8058778_new_apis_for_creating_certificates_and/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
