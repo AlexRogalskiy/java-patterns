@@ -312,16 +312,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [global-tz, a new fork of iana-tz &lpar;uses JEP 330 to automate data transformation&rpar;](https://www.reddit.com/r/java/comments/tjnzy5/globaltz_a_new_fork_of_ianatz_uses_jep_330_to/)
-- [Help running old Java applets in Windows 11 / Chrome](https://www.reddit.com/r/java/comments/tjjnft/help_running_old_java_applets_in_windows_11_chrome/)
-- [Vaadin 23.0.0 Released](https://www.reddit.com/r/java/comments/tjiih5/vaadin_2300_released/)
-- [MicroProfile GraphQL 2.0, Java 18 support, and distributed security caches on Open Liberty 22.0.0.4-beta](https://www.reddit.com/r/java/comments/tjdtl2/microprofile_graphql_20_java_18_support_and/)
-- [Fanout based event-driven architecture using AWS SNS and SQS](https://www.reddit.com/r/java/comments/tjb17l/fanout_based_eventdriven_architecture_using_aws/)
-- [Crest, a command-line API modeled after JAX-RS &lpar;Command REST&rpar;](https://www.reddit.com/r/java/comments/tj9rwd/crest_a_commandline_api_modeled_after_jaxrs/)
-- [Backwards compatible, null safe, non-null by default type system proposal](https://www.reddit.com/r/java/comments/tiw76i/backwards_compatible_null_safe_nonnull_by_default/)
-- [Yorm: a simple Orm based on Java Records](https://www.reddit.com/r/java/comments/tijdl1/yorm_a_simple_orm_based_on_java_records/)
-- [Spring Boot Data Access Layer Best Practices](https://www.reddit.com/r/java/comments/tig3g8/spring_boot_data_access_layer_best_practices/)
-- [GlassFish 7.0.0-M3 released!](https://www.reddit.com/r/java/comments/ti60zy/glassfish_700m3_released/)
+- [I like Java, but I don&#39;t know which useful personal projects I could do with it](https://www.reddit.com/r/java/comments/tkhpad/i_like_java_but_i_dont_know_which_useful_personal/)
+- [Why did Java lose UIs to HTML/JS?](https://www.reddit.com/r/java/comments/tkcxri/why_did_java_lose_uis_to_htmljs/)
+- [GitHub - wildfly/jandex: Java Annotation Indexer](https://www.reddit.com/r/java/comments/tkcqjq/github_wildflyjandex_java_annotation_indexer/)
+- [Looks like GA builds of OpenJDK 18 are already available](https://www.reddit.com/r/java/comments/tkaak5/looks_like_ga_builds_of_openjdk_18_are_already/)
+- [The arrival of java 18!](https://www.reddit.com/r/java/comments/tk5u0g/the_arrival_of_java_18/)
+- [Java 18 released!](https://www.reddit.com/r/java/comments/tk4zwv/java_18_released/)
+- [JavaOne is back!!](https://www.reddit.com/r/java/comments/tk4xy7/javaone_is_back/)
+- [Are Beginner Java books worth it?](https://www.reddit.com/r/java/comments/tk4jsg/are_beginner_java_books_worth_it/)
+- [JavaOne 2022](https://www.reddit.com/r/java/comments/tk4bwy/javaone_2022/)
+- [Debugging Java Equals and Hashcode Performance in Production](https://www.reddit.com/r/java/comments/tjykoz/debugging_java_equals_and_hashcode_performance_in/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
