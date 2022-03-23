@@ -329,10 +329,10 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *InfoWorld posts*
 
 <!-- INFOWORLD-POST-LIST:START -->
+- [JDK 18: The new features in Java 18](https://www.infoworld.com/article/3630510/jdk-18-the-new-features-in-java-18.html#tk.rss_java)
 - [JDK 19: Java 19 begins to take shape](https://www.infoworld.com/article/3653331/jdk-19-java-19-begins-to-take-shape.html#tk.rss_java)
 - [Project Loom: Understand the new Java concurrency model](https://www.infoworld.com/article/3652596/project-loom-understand-the-new-java-concurrency-model.html#tk.rss_java)
 - [Java 19 could be big](https://www.infoworld.com/article/3652336/java-19-could-be-big.html#tk.rss_java)
-- [JDK 18: The new features in Java 18](https://www.infoworld.com/article/3630510/jdk-18-the-new-features-in-java-18.html#tk.rss_java)
 - [Java 8 still dominates, but Java 17 wave is coming – survey](https://www.infoworld.com/article/3652408/java-8-still-dominates-but-java-17-wave-is-coming-survey.html#tk.rss_java)
 - [Rust programming for Java developers](https://www.infoworld.com/article/3651362/rust-programming-for-java-developers.html#tk.rss_java)
 - [TypeScript usage growing by leaps and bounds — report](https://www.infoworld.com/article/3650513/typescript-usage-growing-by-leaps-and-bounds-report.html#tk.rss_java)
