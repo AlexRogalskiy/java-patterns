@@ -312,16 +312,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [I like Java, but I don&#39;t know which useful personal projects I could do with it](https://www.reddit.com/r/java/comments/tkhpad/i_like_java_but_i_dont_know_which_useful_personal/)
-- [Why did Java lose UIs to HTML/JS?](https://www.reddit.com/r/java/comments/tkcxri/why_did_java_lose_uis_to_htmljs/)
-- [GitHub - wildfly/jandex: Java Annotation Indexer](https://www.reddit.com/r/java/comments/tkcqjq/github_wildflyjandex_java_annotation_indexer/)
-- [Looks like GA builds of OpenJDK 18 are already available](https://www.reddit.com/r/java/comments/tkaak5/looks_like_ga_builds_of_openjdk_18_are_already/)
-- [The arrival of java 18!](https://www.reddit.com/r/java/comments/tk5u0g/the_arrival_of_java_18/)
-- [Java 18 released!](https://www.reddit.com/r/java/comments/tk4zwv/java_18_released/)
-- [JavaOne is back!!](https://www.reddit.com/r/java/comments/tk4xy7/javaone_is_back/)
-- [Are Beginner Java books worth it?](https://www.reddit.com/r/java/comments/tk4jsg/are_beginner_java_books_worth_it/)
-- [JavaOne 2022](https://www.reddit.com/r/java/comments/tk4bwy/javaone_2022/)
-- [Debugging Java Equals and Hashcode Performance in Production](https://www.reddit.com/r/java/comments/tjykoz/debugging_java_equals_and_hashcode_performance_in/)
+- [jextract standalone repository](https://www.reddit.com/r/java/comments/tlibuw/jextract_standalone_repository/)
+- [JDK 18 Security Enhancements](https://www.reddit.com/r/java/comments/tl8l49/jdk_18_security_enhancements/)
+- [Building Cross-platform UIs in Java](https://www.reddit.com/r/java/comments/tl3mrq/building_crossplatform_uis_in_java/)
+- [Oracle starts running license audits for Java](https://www.reddit.com/r/java/comments/tl388m/oracle_starts_running_license_audits_for_java/)
+- [Why do collections need wrappers for primitive types?](https://www.reddit.com/r/java/comments/tl2q5j/why_do_collections_need_wrappers_for_primitive/)
+- [Exception &amp; Method Breakpoints that don&#39;t suck](https://www.reddit.com/r/java/comments/tkztqb/exception_method_breakpoints_that_dont_suck/)
+- [Any tips and practices that you have to know to learn java coming from C#?](https://www.reddit.com/r/java/comments/tkwhqu/any_tips_and_practices_that_you_have_to_know_to/)
+- [jbock 5.13 released](https://www.reddit.com/r/java/comments/tkucy1/jbock_513_released/)
+- [How do you guys go about the persistence layer?](https://www.reddit.com/r/java/comments/tkt94n/how_do_you_guys_go_about_the_persistence_layer/)
+- [Open-source user authentication server in Java](https://www.reddit.com/r/java/comments/tkt74r/opensource_user_authentication_server_in_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
