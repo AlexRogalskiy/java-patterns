@@ -312,6 +312,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [anyneed to learn applets](https://www.reddit.com/r/java/comments/tmzbfx/anyneed_to_learn_applets/)
+- [JDK 19: Pattern matching for switch &lpar;Third Preview&rpar;](https://www.reddit.com/r/java/comments/tmt4cr/jdk_19_pattern_matching_for_switch_third_preview/)
+- [Kestra - Open-Source Airflow Alternative](https://www.reddit.com/r/java/comments/tmpfv5/kestra_opensource_airflow_alternative/)
 - [jextract standalone repository](https://www.reddit.com/r/java/comments/tlibuw/jextract_standalone_repository/)
 - [JDK 18 Security Enhancements](https://www.reddit.com/r/java/comments/tl8l49/jdk_18_security_enhancements/)
 - [Building Cross-platform UIs in Java](https://www.reddit.com/r/java/comments/tl3mrq/building_crossplatform_uis_in_java/)
@@ -319,9 +322,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Why do collections need wrappers for primitive types?](https://www.reddit.com/r/java/comments/tl2q5j/why_do_collections_need_wrappers_for_primitive/)
 - [Exception &amp; Method Breakpoints that don&#39;t suck](https://www.reddit.com/r/java/comments/tkztqb/exception_method_breakpoints_that_dont_suck/)
 - [Any tips and practices that you have to know to learn java coming from C#?](https://www.reddit.com/r/java/comments/tkwhqu/any_tips_and_practices_that_you_have_to_know_to/)
-- [jbock 5.13 released](https://www.reddit.com/r/java/comments/tkucy1/jbock_513_released/)
-- [How do you guys go about the persistence layer?](https://www.reddit.com/r/java/comments/tkt94n/how_do_you_guys_go_about_the_persistence_layer/)
-- [Open-source user authentication server in Java](https://www.reddit.com/r/java/comments/tkt74r/opensource_user_authentication_server_in_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
