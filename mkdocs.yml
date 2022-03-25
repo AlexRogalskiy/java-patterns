@@ -15,6 +15,8 @@ site_url: https://alexander-rogalsky.gitbook.io/java-patterns/
 # unless the file or directory name is prefixed with a `.`
 docs_dir: docs/
 
+remote_branch: gh-pages
+
 # Google analytics
 # google_analytics: ['UA-7131053-20', 'auto']
 
@@ -148,6 +150,7 @@ extra_css:
 # Extra javascript settings
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - https://unpkg.com/mermaid@8.9.3/dist/mermaid.min.js
   - assets/js/asciinema-player.js
   - assets/js/chat.js
   - assets/js/sidecar-1.5.0.js
@@ -158,6 +161,7 @@ markdown_extensions:
       anchorlink: true
       permalink: true
       toc_depth: 3
+      slugify: !!python/name:pymdownx.slugs.uslugify
   - abbr: {}
   - attr_list: {}
   - def_list: {}
@@ -190,15 +194,18 @@ markdown_extensions:
           lang: txt
         - name: caddyfile
           lang: txt
+  - pymdownx.escapeall: {}
   - pymdownx.tasklist:
       custom_checkbox: true
       clickable_checkbox: true
   - pymdownx.extra: {}
   - pymdownx.snippets:
+      base_path: docs/snippets
       check_paths: true
   - pymdownx.tilde: {}
   - pymdownx.magiclink:
-      repo_url_shorthand: true
+      repo_url_shortener: true
+      social_url_shortener: true
       user: AlexRogalskiy
       repo: java-patterns
   - pymdownx.caret: {}
@@ -213,6 +220,7 @@ markdown_extensions:
   - pymdownx.critic: {}
   - pymdownx.inlinehilite: {} # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#inlinehilite
   - pymdownx.superfences: # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#superfences
+     preserve_tabs: true
      custom_fences:
         - name: mermaid
           class: mermaid
