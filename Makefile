@@ -72,11 +72,11 @@ WGET_OPTS 						:= --no-check-certificate
 # PIP_BUILD_OPTS stores pip build options
 PIP_BUILD_OPTS		 		:= --disable-pip-version-check --no-cache-dir --no-compile --prefer-binary
 # PIP_BUILD_OPTS stores mkdocs build options
-MKDOCS_BUILD_OPTS 		:= --clean --strict --verbose
+MKDOCS_BUILD_OPTS 		:= --clean --strict --verbose --config-file mkdocs.yml
 # PIP_BUILD_OPTS stores mkdocs deploy options
-MKDOCS_DEPLOY_OPTS 		:= --verbose --clean --force
+MKDOCS_DEPLOY_OPTS 		:= --verbose --clean --force --remote-branch gh-pages
 # PIP_BUILD_OPTS stores mkdocs serve options
-MKDOCS_SERVE_OPTS 		:= --verbose --dirtyreload
+MKDOCS_SERVE_OPTS 		:= --verbose --dirtyreload --dev-addr=0.0.0.0:8000 --config-file mkdocs.yml
 # HTMLTEST stores htmltest binary
 HTMLTEST 							:= htmltest
 # HTMLTEST_OPTS stores htmltest binary arguments
@@ -360,7 +360,7 @@ install-pip:
 .PHONY: local-build
 local-build:
 	$(AT)$(PYTHON_CMD) -m pip install $(PIP_BUILD_OPTS) -r ./docs/requirements.txt
-	$(AT)$(PYTHON_CMD) -m mkdocs build $(MKDOCS_BUILD_OPTS) --config-file mkdocs.yml
+	$(AT)$(PYTHON_CMD) -m mkdocs build $(MKDOCS_BUILD_OPTS)
 	$(AT)echo
 	$(AT)echo -e "$(COLOR_RED)Python documentation build finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -374,7 +374,7 @@ local-run: local-build
 .PHONY: venv-build
 venv-build: _venv
 	$(AT)$(VENV_PYTHON) -m pip install $(PIP_BUILD_OPTS) -r ./docs/requirements.txt
-	$(AT)$(VENV_PYTHON) -m mkdocs build $(MKDOCS_BUILD_OPTS) --config-file mkdocs.yml
+	$(AT)$(VENV_PYTHON) -m mkdocs build $(MKDOCS_BUILD_OPTS)
 	$(AT)echo
 	$(AT)echo -e "$(COLOR_RED)Build finished. The source pages are in $(VENV_NAME) directory.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -388,7 +388,7 @@ venv-run: venv-build
 # Run github pages deploy command.
 .PHONY: gh-pages
 gh-pages:
-	$(AT)$(PYTHON_CMD) -m mkdocs gh-deploy $(MKDOCS_DEPLOY_OPTS) --remote-branch gh-pages
+	$(AT)$(PYTHON_CMD) -m mkdocs gh-deploy $(MKDOCS_DEPLOY_OPTS)
 	$(AT)echo
 	$(AT)echo -e "$(COLOR_RED)GitHub pages generated.$(COLOR_NORMAL)"
 	$(AT)echo
