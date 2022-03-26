@@ -312,16 +312,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Pattern assignment [Brian Goetz]](https://www.reddit.com/r/java/comments/tnvoll/pattern_assignment_brian_goetz/)
+- [Java 17 on Linux: Permission denied error launching external tool](https://www.reddit.com/r/java/comments/tnuc6e/java_17_on_linux_permission_denied_error/)
+- [Java by Comparison Sale &lpar;ends Mar 28 noon ET&rpar;](https://www.reddit.com/r/java/comments/tnpift/java_by_comparison_sale_ends_mar_28_noon_et/)
+- [Does JGC not report JVM statistics like G1?](https://www.reddit.com/r/java/comments/tnnuq3/does_jgc_not_report_jvm_statistics_like_g1/)
+- [Testcontainers makes integration testing Jakarta EE easy - AtomicJar, Inc.](https://www.reddit.com/r/java/comments/tngytc/testcontainers_makes_integration_testing_jakarta/)
+- [Anybody use Hilt for server-side java?](https://www.reddit.com/r/java/comments/tnf3ps/anybody_use_hilt_for_serverside_java/)
 - [anyneed to learn applets](https://www.reddit.com/r/java/comments/tmzbfx/anyneed_to_learn_applets/)
 - [JDK 19: Pattern matching for switch &lpar;Third Preview&rpar;](https://www.reddit.com/r/java/comments/tmt4cr/jdk_19_pattern_matching_for_switch_third_preview/)
 - [Kestra - Open-Source Airflow Alternative](https://www.reddit.com/r/java/comments/tmpfv5/kestra_opensource_airflow_alternative/)
 - [jextract standalone repository](https://www.reddit.com/r/java/comments/tlibuw/jextract_standalone_repository/)
-- [JDK 18 Security Enhancements](https://www.reddit.com/r/java/comments/tl8l49/jdk_18_security_enhancements/)
-- [Building Cross-platform UIs in Java](https://www.reddit.com/r/java/comments/tl3mrq/building_crossplatform_uis_in_java/)
-- [Oracle starts running license audits for Java](https://www.reddit.com/r/java/comments/tl388m/oracle_starts_running_license_audits_for_java/)
-- [Why do collections need wrappers for primitive types?](https://www.reddit.com/r/java/comments/tl2q5j/why_do_collections_need_wrappers_for_primitive/)
-- [Exception &amp; Method Breakpoints that don&#39;t suck](https://www.reddit.com/r/java/comments/tkztqb/exception_method_breakpoints_that_dont_suck/)
-- [Any tips and practices that you have to know to learn java coming from C#?](https://www.reddit.com/r/java/comments/tkwhqu/any_tips_and_practices_that_you_have_to_know_to/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
