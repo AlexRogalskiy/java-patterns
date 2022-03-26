@@ -346,6 +346,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Let's talk posts*
 
 <!-- LETSTALK-POST-LIST:START -->
+- [Link Dump #29](http://letstalkaboutjava.blogspot.com/2022/03/link-dump-29.html)
 - [Link Dump #28](http://letstalkaboutjava.blogspot.com/2022/03/link-dump-28.html)
 - [Link Dump #27](http://letstalkaboutjava.blogspot.com/2022/03/link-dump-27.html)
 - [Link Dump #26](http://letstalkaboutjava.blogspot.com/2022/03/link-dump-26.html)
@@ -355,7 +356,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [Link Dump #22](http://letstalkaboutjava.blogspot.com/2022/01/link-dump-22.html)
 - [Link Dump #21](http://letstalkaboutjava.blogspot.com/2022/01/link-dump-21.html)
 - [Link Dump #20](http://letstalkaboutjava.blogspot.com/2022/01/link-dump-20.html)
-- [Link Dump #19](http://letstalkaboutjava.blogspot.com/2022/01/link-dump-19.html)
 <!-- LETSTALK-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
