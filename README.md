@@ -414,6 +414,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Java programmer posts*
 
 <!-- JAVAPROG-POST-LIST:START -->
+- [6 Best Online Java Courses for Beginners in 2022](https://www.thejavaprogrammer.com/java-courses-for-beginners/)
 - [Solve Error Java Access Denied FileNotFoundException](https://www.thejavaprogrammer.com/java-access-denied/)
 - [Custom Iterator in Java with Example](https://www.thejavaprogrammer.com/custom-iterator-in-java/)
 - [Rounding in Java – Math.Round, Math.Floor, Math.Ceil](https://www.thejavaprogrammer.com/rounding-in-java/)
@@ -423,7 +424,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [10 Best Laptop for Java Programming in India 2022](https://www.thejavaprogrammer.com/laptop-for-java-programming/)
 - [Types of Constants in Java](https://www.thejavaprogrammer.com/types-of-constants-in-java/)
 - [Java Collection Hierarchy](https://www.thejavaprogrammer.com/java-collection-hierarchy/)
-- [Features of Java Programming Language](https://www.thejavaprogrammer.com/features-of-java-programming-language/)
 <!-- JAVAPROG-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
