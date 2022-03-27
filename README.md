@@ -312,16 +312,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [I have a strange question](https://www.reddit.com/r/java/comments/tp9s2j/i_have_a_strange_question/)
+- [When should you use Spring WebFlux over Spring MVC?](https://www.reddit.com/r/java/comments/tp36m1/when_should_you_use_spring_webflux_over_spring_mvc/)
+- [Why does Avast detect a file i JUST made in java Intellij as IDP.HELU.JarMal15? &lpar;also don&#39;t ask why i&#39;m trying to compile it with cmd&rpar;](https://www.reddit.com/r/java/comments/tp0fo8/why_does_avast_detect_a_file_i_just_made_in_java/)
+- [What benefits did Sun Microsystems get from developing and heavily promoting Java?](https://www.reddit.com/r/java/comments/tovxib/what_benefits_did_sun_microsystems_get_from/)
 - [Pattern assignment [Brian Goetz]](https://www.reddit.com/r/java/comments/tnvoll/pattern_assignment_brian_goetz/)
 - [Java 17 on Linux: Permission denied error launching external tool](https://www.reddit.com/r/java/comments/tnuc6e/java_17_on_linux_permission_denied_error/)
 - [Java by Comparison Sale &lpar;ends Mar 28 noon ET&rpar;](https://www.reddit.com/r/java/comments/tnpift/java_by_comparison_sale_ends_mar_28_noon_et/)
 - [Does JGC not report JVM statistics like G1?](https://www.reddit.com/r/java/comments/tnnuq3/does_jgc_not_report_jvm_statistics_like_g1/)
 - [Testcontainers makes integration testing Jakarta EE easy - AtomicJar, Inc.](https://www.reddit.com/r/java/comments/tngytc/testcontainers_makes_integration_testing_jakarta/)
 - [Anybody use Hilt for server-side java?](https://www.reddit.com/r/java/comments/tnf3ps/anybody_use_hilt_for_serverside_java/)
-- [anyneed to learn applets](https://www.reddit.com/r/java/comments/tmzbfx/anyneed_to_learn_applets/)
-- [JDK 19: Pattern matching for switch &lpar;Third Preview&rpar;](https://www.reddit.com/r/java/comments/tmt4cr/jdk_19_pattern_matching_for_switch_third_preview/)
-- [Kestra - Open-Source Airflow Alternative](https://www.reddit.com/r/java/comments/tmpfv5/kestra_opensource_airflow_alternative/)
-- [jextract standalone repository](https://www.reddit.com/r/java/comments/tlibuw/jextract_standalone_repository/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
