@@ -123,6 +123,7 @@ plugins:
 
 # Extra settings
 extra:
+  homepage: https://alexander-rogalsky.gitbook.io/java-patterns/
   generator: false
   social:
     - icon: fontawesome/brands/github-alt
