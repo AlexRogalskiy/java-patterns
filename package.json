@@ -111,6 +111,8 @@
         "adr:list": "adr-tools list",
         "remark": "remark -q -f .",
         "toc": "roadmarks",
+        "get:version": "echo $npm_package_version",
+        "get:name": "echo $npm_package_name",
         "setheapsize": "export NODE_OPTIONS=--max_old_space_size=2048",
         "sort-package-json": "sort-package-json",
         "start-docker": "docker stack deploy -c docker-compose.yml dev",
