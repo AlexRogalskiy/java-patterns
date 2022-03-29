@@ -91,7 +91,7 @@ const createContributorsList = (contributors: Contributor[]) => {
   const styling = '<link rel="stylesheet" href="contributors.css">'
   const generatedHtml = `${htmlDoctype}${styling}<ul>${list}</ul>`
 
-  const outputPath = path.join(__dirname, '..', 'contributors.html')
+  const outputPath = path.join(__dirname, '..', 'assets', 'contributors.html')
   fs.writeFileSync(outputPath, generatedHtml)
   return outputPath
 }
