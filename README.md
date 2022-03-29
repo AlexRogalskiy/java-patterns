@@ -312,16 +312,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [Methods of gaining experience to become a java developer](https://www.reddit.com/r/java/comments/tpvzib/methods_of_gaining_experience_to_become_a_java/)
+- [ERror](https://www.reddit.com/r/java/comments/tqkvk4/error/)
+- [A Java library to help create and manage your garden](https://www.reddit.com/r/java/comments/tqi4gr/a_java_library_to_help_create_and_manage_your/)
+- [ZGC - The Future of Low-Latency Garbage Collection Is Here](https://www.reddit.com/r/java/comments/tqeizr/zgc_the_future_of_lowlatency_garbage_collection/)
+- [Spring Boot + Junit 5 + Testcontainers](https://www.reddit.com/r/java/comments/tqcpx7/spring_boot_junit_5_testcontainers/)
+- [Hash, displace, and compress: Perfect hashing with Java](https://www.reddit.com/r/java/comments/tqaxr9/hash_displace_and_compress_perfect_hashing_with/)
+- [What to expect from Jakarta EE 10?](https://www.reddit.com/r/java/comments/tq96cs/what_to_expect_from_jakarta_ee_10/)
+- [Starting a shared starter project in Java ecosystem, where to start?](https://www.reddit.com/r/java/comments/tq943a/starting_a_shared_starter_project_in_java/)
+- [Embracing Java 17 — Here’s What We Learned](https://www.reddit.com/r/java/comments/tq4r89/embracing_java_17_heres_what_we_learned/)
+- [Who writes the code for the JVMs and JDK?](https://www.reddit.com/r/java/comments/tq12bj/who_writes_the_code_for_the_jvms_and_jdk/)
 - [Persism Release V2.1.0 - with support for Table Joins!](https://www.reddit.com/r/java/comments/tpqkix/persism_release_v210_with_support_for_table_joins/)
-- [How is java platform independent?](https://www.reddit.com/r/java/comments/tplco2/how_is_java_platform_independent/)
-- [When should you use Spring WebFlux over Spring MVC?](https://www.reddit.com/r/java/comments/tp36m1/when_should_you_use_spring_webflux_over_spring_mvc/)
-- [What benefits did Sun Microsystems get from developing and heavily promoting Java?](https://www.reddit.com/r/java/comments/tovxib/what_benefits_did_sun_microsystems_get_from/)
-- [Pattern assignment [Brian Goetz]](https://www.reddit.com/r/java/comments/tnvoll/pattern_assignment_brian_goetz/)
-- [Java 17 on Linux: Permission denied error launching external tool](https://www.reddit.com/r/java/comments/tnuc6e/java_17_on_linux_permission_denied_error/)
-- [Java by Comparison Sale &lpar;ends Mar 28 noon ET&rpar;](https://www.reddit.com/r/java/comments/tnpift/java_by_comparison_sale_ends_mar_28_noon_et/)
-- [Does JGC not report JVM statistics like G1?](https://www.reddit.com/r/java/comments/tnnuq3/does_jgc_not_report_jvm_statistics_like_g1/)
-- [Testcontainers makes integration testing Jakarta EE easy - AtomicJar, Inc.](https://www.reddit.com/r/java/comments/tngytc/testcontainers_makes_integration_testing_jakarta/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
