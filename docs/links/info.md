@@ -1,10 +1,14 @@
----
+***
+
 title: Links and Materials
 tags:
-  - links
-  - resources
-  - materials
----
+
+- links
+- resources
+- materials
+
+***
+
 # Resources
 
 ## *Useful Links and Materials*

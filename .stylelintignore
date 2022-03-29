@@ -8,6 +8,7 @@ docs
 images
 node_modules
 tilt_modules
+coverage
 k8s
 charts
 release

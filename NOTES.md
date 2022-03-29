@@ -1,8 +1,8 @@
-# Release [v1-1675-g7cd44aa]
+# Release \[v1-1675-g7cd44aa]
 
 Provide short description.
 
-## What's New in release [v1-1675-g7cd44aa]?
+## What's New in release \[v1-1675-g7cd44aa]?
 
 Describe the release here.
 

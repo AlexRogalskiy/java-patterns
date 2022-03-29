@@ -12,14 +12,16 @@
         "strictPropertyInitialization": true,
         "noImplicitAny": true,
         "sourceMap": true,
-        "rootDir": "scripts",
+        "rootDir": "packages",
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true
     },
-    "include": [
-        "./scripts",
-        "./typings"
-    ]
+    "exclude": [
+        "node_modules"
+    ],
+    "linterOptions": {
+        "exclude": ["node_modules/**"]
+    }
 }
