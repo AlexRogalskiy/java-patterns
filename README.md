@@ -312,7 +312,9 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
-- [ERror](https://www.reddit.com/r/java/comments/tqkvk4/error/)
+- [New in JDK 18: Reviewing Enhancements in the Latest JDK Release](https://www.reddit.com/r/java/comments/trufoj/new_in_jdk_18_reviewing_enhancements_in_the/)
+- [Spring Boot vs Spring vs .NET Core](https://www.reddit.com/r/java/comments/tre3d4/spring_boot_vs_spring_vs_net_core/)
+- [Event Sourcing with Spring Boot and EventStoreDB](https://www.reddit.com/r/java/comments/tqu6ka/event_sourcing_with_spring_boot_and_eventstoredb/)
 - [A Java library to help create and manage your garden](https://www.reddit.com/r/java/comments/tqi4gr/a_java_library_to_help_create_and_manage_your/)
 - [ZGC - The Future of Low-Latency Garbage Collection Is Here](https://www.reddit.com/r/java/comments/tqeizr/zgc_the_future_of_lowlatency_garbage_collection/)
 - [Spring Boot + Junit 5 + Testcontainers](https://www.reddit.com/r/java/comments/tqcpx7/spring_boot_junit_5_testcontainers/)
@@ -320,8 +322,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [What to expect from Jakarta EE 10?](https://www.reddit.com/r/java/comments/tq96cs/what_to_expect_from_jakarta_ee_10/)
 - [Starting a shared starter project in Java ecosystem, where to start?](https://www.reddit.com/r/java/comments/tq943a/starting_a_shared_starter_project_in_java/)
 - [Embracing Java 17 — Here’s What We Learned](https://www.reddit.com/r/java/comments/tq4r89/embracing_java_17_heres_what_we_learned/)
-- [Who writes the code for the JVMs and JDK?](https://www.reddit.com/r/java/comments/tq12bj/who_writes_the_code_for_the_jvms_and_jdk/)
-- [Persism Release V2.1.0 - with support for Table Joins!](https://www.reddit.com/r/java/comments/tpqkix/persism_release_v210_with_support_for_table_joins/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
@@ -397,6 +397,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [New in JDK 18: Reviewing Enhancements in the Latest JDK Release](https://inside.java/2022/03/29/new-in-jdk18/)
 - [Moving Java Forward Keynote](https://inside.java/2022/03/28/odl-moving-java-forward/)
 - [Java Is Fast! - Inside Java Newscast #22](https://inside.java/2022/03/24/insidejava-newscast-022/)
 - [Programmer’s Guide to Snippets](https://inside.java/2022/03/23/snippets-programmer-guide/)
@@ -406,8 +407,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [JavaOne is back!](https://inside.java/2022/03/22/javaone-is-back/)
 - [JDK 18 Security Enhancements](https://inside.java/2022/03/22/jdk-18-security-enhancements/)
 - [Job Opportunity: Java Security Engineer](https://inside.java/2022/03/21/security-engineer/)
-- [Job Opportunity: Java Language and Tooling Engineer](https://inside.java/2022/03/20/java-lang-engineer/)
-- [JEP targeted to JDK 19: 422: Linux/RISC-V Port](https://inside.java/2022/03/19/jep-422-targeted-to-jdk19/)
 <!-- INSIDE-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
