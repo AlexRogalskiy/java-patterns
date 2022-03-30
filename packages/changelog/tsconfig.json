@@ -42,7 +42,7 @@
         "target": "esnext",
         "module": "esnext",
         "outDir": "dist",
-        "sourceMap": false,
+        "sourceMap": true,
         "declaration": true,
         "typeRoots": [
             "./src/@types",

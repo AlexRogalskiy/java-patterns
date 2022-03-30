@@ -54,6 +54,7 @@ bin/
 tmp/
 build/*
 coverage/
+coverage-ts/
 target/
 log/
 site/

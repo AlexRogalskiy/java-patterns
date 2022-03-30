@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2021 The SensibleMetrics team (http://sensiblemetrics.io/)
+ * Copyright (C) 2022 The SensibleMetrics team (http://sensiblemetrics.io/)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 import * as log from "loglevel"
 import fetchMock from "jest-fetch-mock";
 
-// rewire global.fetch to call 'fetchMock'
+//rewire global.fetch to call 'fetchMock'
 fetchMock.enableMocks();
 
 if (process.env.LOGLEVEL) {
