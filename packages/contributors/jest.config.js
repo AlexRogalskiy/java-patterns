@@ -72,6 +72,7 @@ module.exports = {
   ],
   reporters: [
     "default",
+    "./node_modules/jest-fail-on-console-reporter",
     ["jest-junit", {
       usePathForSuiteName: true,
       suiteNameTemplate: "{filename}",

@@ -44,6 +44,8 @@
         "tag": "latest"
     },
     "scripts": {
+        "deps": "npm install",
+        "dist": "npm run deps && npm run build",
         "prepublishOnly": "npm run build",
         "clean": "del-cli --dot=true dist coverage",
         "reinstall": "del-cli --dot=true ./node_modules ./package-lock.json ./yarn.lock",
@@ -86,6 +88,7 @@
         "jest-circus": "^27.5.1",
         "jest-environment-node-debug": "^2.0.0",
         "jest-extended": "^2.0.0",
+        "jest-fail-on-console-reporter": "^0.1.0",
         "jest-fetch-mock": "^3.0.3",
         "jest-html": "^1.5.0",
         "jest-junit": "^13.0.0",
