@@ -8,6 +8,9 @@
     "packages": [
         "packages/*"
     ],
+    "npmClientArgs": [
+        "--frozen-lockfile"
+    ],
     "command": {
         "bootstrap": {
             "hoist": true,
