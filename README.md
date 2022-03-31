@@ -312,16 +312,16 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Reddit posts*
 
 <!-- REDDIT-POST-LIST:START -->
+- [Spring4Shell Details and Exploit code leaked](https://www.reddit.com/r/java/comments/tsdllr/spring4shell_details_and_exploit_code_leaked/)
+- [Apple&#39;s Code-signing Quagmire](https://www.reddit.com/r/java/comments/tsd2cr/apples_codesigning_quagmire/)
+- [Spring4Shell: 0-day RCE on Spring Core](https://www.reddit.com/r/java/comments/tscqlg/spring4shell_0day_rce_on_spring_core/)
+- [Game Making Libraries + Engines in Java 2022](https://www.reddit.com/r/java/comments/tscojc/game_making_libraries_engines_in_java_2022/)
+- [Where&#39;s Java Going In 2022?](https://www.reddit.com/r/java/comments/tsbleo/wheres_java_going_in_2022/)
+- [Architecture design help](https://www.reddit.com/r/java/comments/tsb2tu/architecture_design_help/)
+- [Maven is turning 20 today 🥳 To many more years of stable Java builds 🍻](https://www.reddit.com/r/java/comments/ts5urt/maven_is_turning_20_today_to_many_more_years_of/)
+- [Memory leak due to improper exception handling](https://www.reddit.com/r/java/comments/ts4rfm/memory_leak_due_to_improper_exception_handling/)
+- [Scaling Spring Batch processing with partitioning using Kafka](https://www.reddit.com/r/java/comments/ts190r/scaling_spring_batch_processing_with_partitioning/)
 - [New in JDK 18: Reviewing Enhancements in the Latest JDK Release](https://www.reddit.com/r/java/comments/trufoj/new_in_jdk_18_reviewing_enhancements_in_the/)
-- [Spring Boot vs Spring vs .NET Core](https://www.reddit.com/r/java/comments/tre3d4/spring_boot_vs_spring_vs_net_core/)
-- [Event Sourcing with Spring Boot and EventStoreDB](https://www.reddit.com/r/java/comments/tqu6ka/event_sourcing_with_spring_boot_and_eventstoredb/)
-- [A Java library to help create and manage your garden](https://www.reddit.com/r/java/comments/tqi4gr/a_java_library_to_help_create_and_manage_your/)
-- [ZGC - The Future of Low-Latency Garbage Collection Is Here](https://www.reddit.com/r/java/comments/tqeizr/zgc_the_future_of_lowlatency_garbage_collection/)
-- [Spring Boot + Junit 5 + Testcontainers](https://www.reddit.com/r/java/comments/tqcpx7/spring_boot_junit_5_testcontainers/)
-- [Hash, displace, and compress: Perfect hashing with Java](https://www.reddit.com/r/java/comments/tqaxr9/hash_displace_and_compress_perfect_hashing_with/)
-- [What to expect from Jakarta EE 10?](https://www.reddit.com/r/java/comments/tq96cs/what_to_expect_from_jakarta_ee_10/)
-- [Starting a shared starter project in Java ecosystem, where to start?](https://www.reddit.com/r/java/comments/tq943a/starting_a_shared_starter_project_in_java/)
-- [Embracing Java 17 — Here’s What We Learned](https://www.reddit.com/r/java/comments/tq4r89/embracing_java_17_heres_what_we_learned/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
@@ -397,6 +397,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 ### *Inside Java posts*
 
 <!-- INSIDE-POST-LIST:START -->
+- [ZGC - The Future of Low-Latency Garbage Collection Is Here](https://inside.java/2022/03/30/odl-zgc/)
 - [New in JDK 18: Reviewing Enhancements in the Latest JDK Release](https://inside.java/2022/03/29/new-in-jdk18/)
 - [Moving Java Forward Keynote](https://inside.java/2022/03/28/odl-moving-java-forward/)
 - [Java Is Fast! - Inside Java Newscast #22](https://inside.java/2022/03/24/insidejava-newscast-022/)
@@ -406,7 +407,6 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 - [The Arrival of Java 18!](https://inside.java/2022/03/22/the-arrival-of-java18/)
 - [JavaOne is back!](https://inside.java/2022/03/22/javaone-is-back/)
 - [JDK 18 Security Enhancements](https://inside.java/2022/03/22/jdk-18-security-enhancements/)
-- [Job Opportunity: Java Security Engineer](https://inside.java/2022/03/21/security-engineer/)
 <!-- INSIDE-POST-LIST:END -->
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
