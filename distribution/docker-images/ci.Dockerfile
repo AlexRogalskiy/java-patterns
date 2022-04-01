@@ -71,6 +71,8 @@ ENV TZ=UTC \
     PIP_NO_CACHE_DIR=1 \
     PIP_DEFAULT_TIMEOUT=100 \
     NPM_CONFIG_LOGLEVEL=error \
+    NODE_MODULES_CACHE=true \
+    NODE_VERBOSE=true \
     IN_DOCKER=True
 
 ENV USER=${USER:-'devbot'} \
