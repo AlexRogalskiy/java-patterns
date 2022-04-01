@@ -13,45 +13,30 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Usage example: /bin/sh ./scripts/git_changelog.sh
+
 set -o errexit
 set -o nounset
 set -o pipefail
 
-CLUSTER_NAME="backend-java-patterns"
-readonly CLUSTER_NAME
-
-K8S_IMAGE="styled-java-patterns"
-readonly K8S_IMAGE
-
-K8S_VERSION="latest"
-readonly K8S_VERSION
-
-create_kind_cluster() {
-  echo 'Creating k8s cluster...'
-
-  kind create cluster --name "$CLUSTER_NAME" --image "$K8S_IMAGE:$K8S_VERSION" --wait 60s
-
-  kubectl cluster-info || kubectl cluster-info dump
-  echo
-
-  kubectl get nodes
-  echo
-
-  echo 'Cluster ready!'
-  echo
-}
-
-cleanup() {
-    echo 'Removing k8s cluster...'
-
-    kind delete cluster --name "$CLUSTER_NAME"
-    echo 'Done!'
+_exit() {
+  (($# > 1)) && echo "${@:2}"
+  exit "$1"
 }
 
 main() {
-    trap cleanup EXIT
+  FILE=$(mktemp)
+  TAG_CURRENT=$(git describe --abbrev=0)
+  {
+      printf '# Release: '%s'\n' "$TAG_CURRENT"
+      git log "$TAG_CURRENT"...HEAD --pretty=format:"* %s";
+      printf "%s" "\n\n---\n";
+      cat CHANGELOG.md
 
-    create_kind_cluster
+  } >> "$FILE"
+
+  cp "$FILE" CHANGELOG.md
+  rm "$FILE"
 }
 
 main "$@"

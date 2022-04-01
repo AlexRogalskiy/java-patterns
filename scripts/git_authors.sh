@@ -13,45 +13,20 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Usage example: /bin/sh ./scripts/git_authors.sh
+
 set -o errexit
 set -o nounset
 set -o pipefail
 
-CLUSTER_NAME="backend-java-patterns"
-readonly CLUSTER_NAME
+{
+	cat <<-'EOH'
+	# This file lists all individuals having contributed content to the repository.
+	# For how it is generated, see `scripts/git_authors.sh`.
+	EOH
+	echo
+} > AUTHORS
 
-K8S_IMAGE="styled-java-patterns"
-readonly K8S_IMAGE
-
-K8S_VERSION="latest"
-readonly K8S_VERSION
-
-create_kind_cluster() {
-  echo 'Creating k8s cluster...'
-
-  kind create cluster --name "$CLUSTER_NAME" --image "$K8S_IMAGE:$K8S_VERSION" --wait 60s
-
-  kubectl cluster-info || kubectl cluster-info dump
-  echo
-
-  kubectl get nodes
-  echo
-
-  echo 'Cluster ready!'
-  echo
-}
-
-cleanup() {
-    echo 'Removing k8s cluster...'
-
-    kind delete cluster --name "$CLUSTER_NAME"
-    echo 'Done!'
-}
-
-main() {
-    trap cleanup EXIT
-
-    create_kind_cluster
-}
-
-main "$@"
+{
+	git log --format='%aN <%aE>' | LC_ALL=C.UTF-8 sort -uf
+} | sort -u >> AUTHORS

@@ -1,0 +1,10 @@
+ports:
+- port: 8000
+  onOpen: open-preview
+
+tasks:
+- init: npm install && npm run all
+  command: >
+    npm run lerna:dist &&
+    printf "\nWelcome to Java Design Patterns Docs\nTo rebuild the app, simply run './scripts/build-docs.sh' and reload index.html.\n\n" &&
+    ./scripts/build-docs.sh 2>/dev/null

@@ -1,8 +1,8 @@
-# Release \[v1-1675-g7cd44aa]
+# Release \[v1-1803-g56ca63f]
 
 Provide short description.
 
-## What's New in release \[v1-1675-g7cd44aa]?
+## What's New in release \[v1-1803-g56ca63f]?
 
 Describe the release here.
 
@@ -78,9 +78,30 @@ Describe the release here.
 - `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
 - `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
 - `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
 - `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns into master
 - `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns into master
 - `docs`: updates on VERSION
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
 - `docs`: updates on docs page speed
 - `docs`: updates on docs page speed
 - `docs`: updates on docs page speed

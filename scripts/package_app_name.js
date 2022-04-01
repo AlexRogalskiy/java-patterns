@@ -13,16 +13,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-const execSync = require('child_process').execSync
+const pkg = require('../package.json');
 
-export function getBundleBanner(pkg) {
-  const lastCommitHash = execSync('git rev-parse --short HEAD')
-    .toString()
-    .trim();
-  const version = process.env.SHIPJS
-    ? pkg.version
-    : `${pkg.version} (UNRELEASED ${lastCommitHash})`;
-  const authors = '© SensibleMetrics, Inc. and contributors';
+const moduleName = `${/[^/]*$/.exec(pkg.name)[0]}_${pkg.version.replace(/\./g, '_')}`;
+const packageName = process.env.npm_package_name;
 
-  return `/*! ${pkg.name} ${version} | MIT License | ${authors} | ${pkg.homepage} */`;
-}
+console.log(`\n>>> Module name: ${moduleName}`);
+console.log(`>>> Package name: ${packageName}\n`)
+
+module.exports = {
+  moduleName,
+  packageName
+};

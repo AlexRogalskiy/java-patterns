@@ -4,6 +4,7 @@
 .idea
 .ghpages-tmp
 
+assets
 docs
 images
 node_modules

@@ -13,45 +13,30 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Usage example: /bin/sh ./scripts/git_history.sh
+
 set -o errexit
 set -o nounset
 set -o pipefail
 
-CLUSTER_NAME="backend-java-patterns"
-readonly CLUSTER_NAME
+CSV_FILE=$(PWD)/datas.csv
 
-K8S_IMAGE="styled-java-patterns"
-readonly K8S_IMAGE
+echo 'date,commits,filePath' > "$CSV_FILE"
 
-K8S_VERSION="latest"
-readonly K8S_VERSION
+if [ $# = 1 ]
+then
+    cd "$1" || exit 1
+fi
 
-create_kind_cluster() {
-  echo 'Creating k8s cluster...'
+tree=$(git ls-tree -r --name-only HEAD)
+nbFiles=$(echo "$tree" | wc -l)
+echo "Number of files: $nbFiles"
 
-  kind create cluster --name "$CLUSTER_NAME" --image "$K8S_IMAGE:$K8S_VERSION" --wait 60s
-
-  kubectl cluster-info || kubectl cluster-info dump
-  echo
-
-  kubectl get nodes
-  echo
-
-  echo 'Cluster ready!'
-  echo
-}
-
-cleanup() {
-    echo 'Removing k8s cluster...'
-
-    kind delete cluster --name "$CLUSTER_NAME"
-    echo 'Done!'
-}
-
-main() {
-    trap cleanup EXIT
-
-    create_kind_cluster
-}
-
-main "$@"
+i=0
+for filename in $tree ; do
+    i=$((i + 1))
+    log=$(git log --format="%ad" -- "$filename")
+    echo "$(echo "$log" | head -n 1),$(echo "$log" | wc -l),$filename" >> "$CSV_FILE"
+    percent=$((i*100/nbFiles))
+    echo -en "\r>$percent%"
+done

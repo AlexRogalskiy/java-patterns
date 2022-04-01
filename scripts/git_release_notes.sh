@@ -13,45 +13,26 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Usage example: /bin/sh ./scripts/git_release_notes.sh
+
 set -o errexit
 set -o nounset
 set -o pipefail
 
-CLUSTER_NAME="backend-java-patterns"
-readonly CLUSTER_NAME
+VERSION=$(git describe --tags)
+LAST=$(git describe --abbrev=0 --tags ${VERSION}^)
+CHANGELOG=$(git log --pretty=format:%s ${LAST}..HEAD | grep ':' | sed -re 's/(.*)\:/- \`\1\`\:/' | sort)
 
-K8S_IMAGE="styled-java-patterns"
-readonly K8S_IMAGE
+cat <<NOTES
+# Release [${VERSION}]
 
-K8S_VERSION="latest"
-readonly K8S_VERSION
+Provide short description.
 
-create_kind_cluster() {
-  echo 'Creating k8s cluster...'
+## What's New in release [${VERSION}]?
 
-  kind create cluster --name "$CLUSTER_NAME" --image "$K8S_IMAGE:$K8S_VERSION" --wait 60s
+Describe the release here.
 
-  kubectl cluster-info || kubectl cluster-info dump
-  echo
+## Changelog
 
-  kubectl get nodes
-  echo
-
-  echo 'Cluster ready!'
-  echo
-}
-
-cleanup() {
-    echo 'Removing k8s cluster...'
-
-    kind delete cluster --name "$CLUSTER_NAME"
-    echo 'Done!'
-}
-
-main() {
-    trap cleanup EXIT
-
-    create_kind_cluster
-}
-
-main "$@"
+${CHANGELOG}
+NOTES

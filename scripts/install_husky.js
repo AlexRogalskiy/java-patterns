@@ -13,16 +13,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-const execSync = require('child_process').execSync
+const exec = require('child_process').exec
 
-export function getBundleBanner(pkg) {
-  const lastCommitHash = execSync('git rev-parse --short HEAD')
-    .toString()
-    .trim();
-  const version = process.env.SHIPJS
-    ? pkg.version
-    : `${pkg.version} (UNRELEASED ${lastCommitHash})`;
-  const authors = '© SensibleMetrics, Inc. and contributors';
-
-  return `/*! ${pkg.name} ${version} | MIT License | ${authors} | ${pkg.homepage} */`;
-}
+exec(`husky install `, (err, stdout, stderr) => {
+    console.log(`stdout: ${stdout}`);
+    console.log(`stderr: ${stderr}`);
+});

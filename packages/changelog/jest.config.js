@@ -70,6 +70,9 @@ module.exports = {
     "clover",
     "html"
   ],
+  "transformIgnorePatterns": [
+    "<rootDir>/node_modules/"
+  ],
   reporters: [
     "default",
     "./node_modules/jest-fail-on-console-reporter",

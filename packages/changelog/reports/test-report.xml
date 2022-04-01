@@ -1,5 +1,5 @@
 <!--
-Copyright (C) 2022 The SensibleMetrics team (http://sensiblemetrics.io/)
+Copyright (C) 2022 SensibleMetrics, Inc. (http://sensiblemetrics.io/)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -16,8 +16,8 @@ limitations under the License.
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
     <file path="/Users/user/repo/java-patterns/packages/changelog/tests/simple.test.ts">
-        <testCase name="Test Suite one of my .only test" duration="4"/>
-        <testCase name="Test Suite other of my .only test" duration="2"/>
+        <testCase name="Test Suite one of my .only test" duration="5"/>
+        <testCase name="Test Suite other of my .only test" duration="3"/>
         <testCase name="Test Suite my only true test" duration="0"/>
     </file>
 </testExecutions>

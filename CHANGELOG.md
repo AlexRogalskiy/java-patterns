@@ -1,4 +1,3611 @@
-### Changelog
+# Release: v1
+
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- GitHub traffic
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updates on docs
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Updates on files
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- GitHub traffic
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Update @AlexRogalskiy as a contributor
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updates on files
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge pull request #481 from AlexRogalskiy/configure-zappr
+- Merge branch 'master' into configure-zappr
+- Merge branch 'csb-oh1e3'
+- Updates on filez
+- initial commit
+- Updates on sandbox config
+- Create /.zappr.yaml
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Optimised images with calibre/image-actions
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Auto update markdown TOC
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Optimised images with calibre/image-actions
+- Updates on files
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updates on files
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- updates on files
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- GitHub traffic
+- Updates on files
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Auto update markdown TOC
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updates on files
+- Auto update markdown TOC
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Updates on files
+- Updates on files
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on okteto
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updates on files
+- Updates on files
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Optimised images with calibre/image-actions
+- Updates on files
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- :arrow_up: Updates @tilt.dev/tilt-inspector to v0.1.8
+- :arrow_up: Updates Matticusau/pr-helper action to v1.3.0
+- :arrow_up: Updates JamesIves/github-pages-deploy-action action to v4.1.4
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Added info on workflows
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Auto update markdown TOC
+- Added info on workflows
+- Added info on workflows
+- Added info on workflows
+- Auto update markdown TOC
+- Added info on workflows
+- Added info on workflows
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Added info on workflows
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Added info on workflows
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Added info on workflows
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Added info on workflows
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Added info on workflows
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Added info on workflows
+- Auto update markdown TOC
+- Added info on workflows
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Added info on workflows
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Added info on workflows
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Added info on workflows
+- Added info on workflows
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Added info on workflows
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- docs: updates on documents
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- docs: updates on workflows
+- docs: updates on workflows
+- docs: updates on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- docs: updates on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- docs: updates on workflows
+- Auto update markdown TOC
+- docs: updates on workflows
+- docs: updates on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- docs: updates on workflows
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns into master
+- docs: updates on workflows
+- Auto update markdown TOC
+- docs: updates on workflows
+- Auto update markdown TOC
+- docs: updates on workflows
+- Auto update markdown TOC
+- docs: updates on workflows
+- Auto update markdown TOC
+- docs: updates on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- docs: updates on workflows
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns into master
+- docs: updates on workflows
+- docs: updates on workflows
+- Auto update markdown TOC
+- docs: updates on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- docs: updates on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- docs: updates on workflows
+- docs: updates on workflows
+- docs: updates on workflows
+- docs: updates on workflows
+- docs: updates on workflows
+- docs: updates on workflows
+- docs: updates on workflows
+- docs: updates on workflows
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- docs: updates on docs page speed
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- docs: updates on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge pull request #77 from AlexRogalskiy/renovate/wagoid-commitlint-github-action-2.x
+- Merge pull request #79 from AlexRogalskiy/dependabot/github_actions/wagoid/commitlint-github-action-v2.2.5
+- Create shiftleft-analysis.yml
+- Create SECURITY.md
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- :arrow_up: Updates wagoid/commitlint-github-action action to v2.2.5
+- docs: updates on docs page speed
+- github-actions: bump wagoid/commitlint-github-action
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- docs: updates on VERSION\n\n---\n# Release: v1
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- GitHub traffic
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updates on docs
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Updates on files
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- GitHub traffic
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Update @AlexRogalskiy as a contributor
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updates on files
+- Updated with the latest blog posts
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Merge pull request #481 from AlexRogalskiy/configure-zappr
+- Merge branch 'master' into configure-zappr
+- Merge branch 'csb-oh1e3'
+- Updates on filez
+- initial commit
+- Updates on sandbox config
+- Create /.zappr.yaml
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Optimised images with calibre/image-actions
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Auto update markdown TOC
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Optimised images with calibre/image-actions
+- Updates on files
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updates on files
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- updates on files
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- GitHub traffic
+- Updates on files
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Auto update markdown TOC
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updates on files
+- Auto update markdown TOC
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Updates on files
+- Updates on files
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on files
+- Updates on okteto
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Updates on files
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updates on files
+- Updates on files
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Optimised images with calibre/image-actions
+- Updates on files
+- Updated with the latest blog posts
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- :arrow_up: Updates @tilt.dev/tilt-inspector to v0.1.8
+- :arrow_up: Updates Matticusau/pr-helper action to v1.3.0
+- :arrow_up: Updates JamesIves/github-pages-deploy-action action to v4.1.4
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Added info on workflows
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Auto update markdown TOC
+- Added info on workflows
+- Added info on workflows
+- Added info on workflows
+- Auto update markdown TOC
+- Added info on workflows
+- Added info on workflows
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Added info on workflows
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Added info on workflows
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Added info on workflows
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Added info on workflows
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Added info on workflows
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Added info on workflows
+- Auto update markdown TOC
+- Added info on workflows
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Added info on workflows
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Added info on workflows
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- GitHub traffic
+- Optimised images with calibre/image-actions
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Added info on workflows
+- Added info on workflows
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- GitHub traffic
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Added info on workflows
+- Auto update markdown TOC
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- Added info on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- docs: updates on documents
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- docs: updates on workflows
+- docs: updates on workflows
+- docs: updates on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- docs: updates on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- docs: updates on workflows
+- Auto update markdown TOC
+- docs: updates on workflows
+- docs: updates on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- docs: updates on workflows
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns into master
+- docs: updates on workflows
+- Auto update markdown TOC
+- docs: updates on workflows
+- Auto update markdown TOC
+- docs: updates on workflows
+- Auto update markdown TOC
+- docs: updates on workflows
+- Auto update markdown TOC
+- docs: updates on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- docs: updates on workflows
+- Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns into master
+- docs: updates on workflows
+- docs: updates on workflows
+- Auto update markdown TOC
+- docs: updates on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Auto update markdown TOC
+- docs: updates on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- docs: updates on workflows
+- docs: updates on workflows
+- docs: updates on workflows
+- docs: updates on workflows
+- docs: updates on workflows
+- docs: updates on workflows
+- docs: updates on workflows
+- docs: updates on workflows
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- docs: updates on docs page speed
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- docs: updates on workflows
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- Merge pull request #77 from AlexRogalskiy/renovate/wagoid-commitlint-github-action-2.x
+- Merge pull request #79 from AlexRogalskiy/dependabot/github_actions/wagoid/commitlint-github-action-v2.2.5
+- Create shiftleft-analysis.yml
+- Create SECURITY.md
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- :arrow_up: Updates wagoid/commitlint-github-action action to v2.2.5
+- docs: updates on docs page speed
+- github-actions: bump wagoid/commitlint-github-action
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- Updated with the latest blog posts
+- docs: updates on docs page speed
+- docs: updates on VERSION\n\n---\n### Changelog
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
