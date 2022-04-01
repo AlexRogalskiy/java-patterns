@@ -178,7 +178,7 @@
     "lint:staged": "lint-staged --no-stash --allow-empty",
     "lint:style": "stylelint --color --disable-default-ignores --allow-empty-input verbose **/*.{css,scss,sass}",
     "lint:text": "textlint docs",
-    "lint:yaml": "yamllint --strict -c .yaml-lint.yml --ignore=okteto/**/*.yaml --ignore=charts/**/*.yaml --ignore=k8s/**/*.yaml **/*.{yaml,yml}",
+    "lint:yaml": "yamllint --strict -c .yaml-lint.yml --ignore=mkdocs.yml --ignore=okteto/**/*.yaml --ignore=charts/**/*.yaml --ignore=k8s/**/*.yaml **/*.{yaml,yml}",
     "markdown": "markdown-link-check ./README.md ./SECURITY.md",
     "package:changelog": "npm run dev --base_dir=../../ --workspace=packages/changelog --if-present",
     "package:contributors": "npm run dev --image_dir=../../images --workspace=packages/contributors --if-present",
