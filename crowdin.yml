@@ -1,3 +1,6 @@
+project_identifier: java-patterns
+api_key_env: CROWDIN_API_KEY
+base_path: .
 commit_message: "docs(i18n): New translations %original_file_name% (%language%)"
 append_commit_message: false
 files:
@@ -5,3 +8,39 @@ files:
     translation: /docs/**/%file_name%.%two_letters_code%.%file_extension%
     ignore:
       - /docs/**/%file_name%.%two_letters_code%.%file_extension%
+    languages_mapping:
+      locale:
+        af: af
+        ar: ar
+        ca: ca
+        cs: cs
+        da: da
+        de: de
+        el: el
+        en: en
+        es-ES: es-ES
+        fa-IR: fa-IR
+        fi: fi
+        fr: fr
+        he: he
+        hu: hu
+        id-ID: id-ID
+        it: it
+        ja: ja
+        ko: ko
+        mr-IN: mr-IN
+        nl: nl
+        no-NO: no-NO
+        pl: pl
+        pt-BR: pt-BR
+        pt-PT: pt-PT
+        ro: ro
+        ru: ru
+        sk-SK: sk-SK
+        sr: sr
+        sv-SE: sv-SE
+        tr: tr
+        uk: uk
+        vi: vi
+        zh-CN: zh-Hans
+        zh-TW: zh-Hant
