@@ -46,7 +46,6 @@ theme:
   search_index_only: true
   static_templates:
     - 404.html
-  language: en
   font:
     text: Roboto
     code: Roboto Mono
