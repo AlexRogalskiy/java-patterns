@@ -258,6 +258,10 @@ specification. Contributions of any kind are welcome!
 
 See also the list of [contributors][contributors] who participated in this project.
 
+[![Edit with Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/AlexRogalskiy/java-patterns)
+
+***Java Design Patterns*** has experimental support for *Gitpod*, a pre-configured development environment that runs in your browser. To use *Gitpod*, click the button below and sign in with GitHub. *Gitpod* also offers a browser add-on, though it is not required.
+
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
 
 ## 🚨 *Visitor stats*
