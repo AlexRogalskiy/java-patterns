@@ -9,6 +9,7 @@ locale: en_US.UTF-8
 ignore: |
   okteto/
   charts/
+  k8s/
 
 rules:
   # 150 chars should be enough, but don't fail if a line is longer
