@@ -1,0 +1,23 @@
+name: Spell Check
+
+on:
+  push:
+    branches:
+      - master
+      - "*-stable"
+  # Switch from `pull_request_target` event to reduce distraction from comments
+  # regarding errors reported in unmodified files.
+  pull_request:
+    branches:
+      - master
+      - "*-stable"
+
+jobs:
+  build:
+    name: Spell Check
+    runs-on: "ubuntu-latest"
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+    - name: Check Spellings
+      uses: check-spelling/check-spelling@v0.0.19
