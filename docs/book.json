@@ -3,13 +3,7 @@
     "title": "Java Patterns",
     "description": "Java Design Patterns Documentation",
     "author": "Alexander Rogalskiy",
-    "plugins": [
-        "anchorjs",
-        "github",
-        "toggle-chapters",
-        "toggle-headers",
-        "-sharing"
-    ],
+    "plugins": ["anchorjs", "github", "toggle-chapters", "toggle-headers", "-sharing"],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/AlexRogalskiy/java-patterns"
