@@ -204,7 +204,7 @@
     "release-minor": "git checkout master && npm run all && npm run bump:minor && git commit -a -m 'Build project codebase with minor version' && git push origin master --tags",
     "release-patch": "git checkout master && npm run all && npm run bump:patch && git commit -a -m 'Build project codebase with patch version' && git push origin master --tags",
     "release:md": "test -f ./scripts/git_release_notes.sh && . ./scripts/git_release_notes.sh > NOTES.md || echo '✔ Git release notes script is missing'",
-    "remark": "remark -q -f .",
+    "remark": "remark --frail --quiet .",
     "setheapsize": "export NODE_OPTIONS=--max_old_space_size=2048",
     "sort-package-json": "sort-package-json",
     "start-docker": "docker stack deploy -c docker-compose.yml dev",
