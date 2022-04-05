@@ -22,9 +22,10 @@
         "importHelpers": true
     },
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "scripts"
     ],
     "linterOptions": {
-        "exclude": ["node_modules/**"]
+        "exclude": ["node_modules/**", "scripts/**"]
     }
 }

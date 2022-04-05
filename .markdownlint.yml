@@ -1,3 +1,13 @@
----
+# Example markdownlint YAML configuration with all properties set to their default value
+
+# Default state for all rules
 default: true
 line_length: false
+
+# Path to configuration file to extend
+extends: null
+
+# MD041/first-line-heading/first-line-h1 - First line in a file should be a top-level heading
+MD041: false
+# MD034/no-bare-urls - Bare URL used
+MD034: false

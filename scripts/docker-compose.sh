@@ -62,7 +62,7 @@ EOM
 
 cleanup_sig() {
   local ret=$?
-  echo "Starting cleanup"
+  echo ">>> Starting cleanup"
   stop
 
   return $ret
@@ -71,7 +71,7 @@ cleanup_sig() {
 cleanup_err() {
   local ret=$?
   local fn=$0 ret=$? lineno=${BASH_LINENO:-$LINENO}
-  echo "ERROR $fn exit with $ret at line $lineno: $(sed -n ${lineno}p "$0")."
+  echo ">>> ERROR $fn exit with $ret at line $lineno: $(sed -n ${lineno}p "$0")."
   stop
 
   return $ret
@@ -83,61 +83,31 @@ trap cleanup_err ERR
 docker_ps() {
   echo ">>> Processing status of docker containers..."
 
-  ## save current working directory
-  pushd "$BASE_DIR" &> /dev/null || _exit 1 "Unable to save current working directory"
-
-  $(DOCKER_COMPOSE_CMD) -f docker-compose.yml ps "$@"
-
-  ## restore previous working directory
-  popd &> /dev/null || _exit 1 "Unable to restore current working directory"
+  $DOCKER_COMPOSE_CMD -f docker-compose.yml ps "$@"
 }
 
 docker_logs() {
   echo ">>> Logging docker containers..."
 
-  ## save current working directory
-  pushd "$BASE_DIR" &> /dev/null || _exit 1 "Unable to save current working directory"
-
-  $(DOCKER_COMPOSE_CMD) -f docker-compose.yml logs -t --follow "$@"
-
-  ## restore previous working directory
-  popd &> /dev/null || _exit 1 "Unable to restore current working directory"
+  $DOCKER_COMPOSE_CMD -f docker-compose.yml logs -t --follow "$@"
 }
 
 docker_pull() {
   echo ">>> Pulling docker containers..."
 
-  ## save current working directory
-  pushd "$BASE_DIR" &> /dev/null || _exit 1 "Unable to save current working directory"
-
-  $(DOCKER_COMPOSE_CMD) -f docker-compose.yml pull --include-deps --quiet "$@"
-
-  ## restore previous working directory
-  popd &> /dev/null || _exit 1 "Unable to restore current working directory"
+  $DOCKER_COMPOSE_CMD -f docker-compose.yml pull --include-deps --quiet "$@"
 }
 
 docker_start() {
   echo ">>> Starting docker containers..."
 
-  ## save current working directory
-  pushd "$BASE_DIR" &> /dev/null || _exit 1 "Unable to save current working directory"
-
-  $(DOCKER_COMPOSE_CMD) -f docker-compose.yml up --detach --build --force-recreate --renew-anon-volumes "$@"
-
-  ## restore previous working directory
-  popd &> /dev/null || _exit 1 "Unable to restore current working directory"
+  $DOCKER_COMPOSE_CMD -f docker-compose.yml up --detach --build --force-recreate --renew-anon-volumes "$@"
 }
 
 docker_stop() {
   echo ">>> Stopping docker containers..."
 
-  ## save current working directory
-  pushd "$BASE_DIR" &> /dev/null || _exit 1 "Unable to save current working directory"
-
-  $(DOCKER_COMPOSE_CMD) -f docker-compose.yml down --remove-orphans --volumes "$@"
-
-  ## restore previous working directory
-  popd &> /dev/null || _exit 1 "Unable to restore current working directory"
+  $DOCKER_COMPOSE_CMD -f docker-compose.yml down --remove-orphans --volumes "$@"
 }
 
 main() {

@@ -54,6 +54,8 @@ NPM_CMD 							:= $(shell command -v npm 2> /dev/null || type -p npm)
 
 # DOCKER_DIR stores docker configurations
 DOCKER_DIR 						:= $(GIT_ROOT_DIR)
+# SCRIPT_DIR stores script configurations
+SCRIPT_DIR 						:= scripts
 
 # VERBOSE stores logging output verbosity
 VERBOSE 							:= false
@@ -129,8 +131,8 @@ _venv:
 _check_env:
 ifneq ($(SYS_OS),Windows_NT)
 ifneq ($(SYS_OS), Darwin)
-	$(AT)echo USER_ID=$(USER_ID) >> .env
-	$(AT)echo GROUP_ID=$(GROUP_ID) >> .env
+	$(AT)echo USER_ID=$(UID) >> .env
+	$(AT)echo GROUP_ID=$(GID) >> .env
 endif
 endif
 
@@ -261,44 +263,44 @@ docker-remove-all:
 # Run docker build command.
 .PHONY: docker-build
 docker-build: _ensure-docker-tag
-	$(AT)chmod +x ./scripts/docker-build.sh
-	./scripts/docker-build.sh $(DOCKER_TAG)
+	$(AT)chmod +x $(SCRIPT_DIR)/docker-build.sh
+	$(SCRIPT_DIR)/docker-build.sh $(DOCKER_TAG)
 
 # Run docker rebuild command.
 .PHONY: docker-rebuild
 docker-rebuild: _ensure-docker-tag
-	$(AT)chmod +x ./scripts/docker-rebuild.sh
-	./scripts/docker-rebuild.sh $(DOCKER_TAG)
+	$(AT)chmod +x $(SCRIPT_DIR)/docker-rebuild.sh
+	$(SCRIPT_DIR)/docker-rebuild.sh $(DOCKER_TAG)
 
 # Run docker start command.
 .PHONY: docker-start
-docker-start: _check_env
-	$(AT)chmod +x ./scripts/docker-compose.sh
-	./scripts/docker-compose.sh start
+docker-start:
+	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
+	$(SCRIPT_DIR)/docker-compose.sh start
 
 # Run docker stop command.
 .PHONY: docker-stop
 docker-stop:
-	$(AT)chmod +x ./scripts/docker-compose.sh
-	./scripts/docker-compose.sh stop
+	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
+	$(SCRIPT_DIR)/docker-compose.sh stop
 
 # Run docker logs command.
 .PHONY: docker-logs
 docker-logs:
-	$(AT)chmod +x ./scripts/docker-compose.sh
-	./scripts/docker-compose.sh logs
+	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
+	$(SCRIPT_DIR)/docker-compose.sh logs
 
 # Run docker ps command.
 .PHONY: docker-ps
 docker-ps:
-	$(AT)chmod +x ./scripts/docker-compose.sh
-	./scripts/docker-compose.sh ps
+	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
+	$(SCRIPT_DIR)/docker-compose.sh ps
 
 # Run docker pull command.
 .PHONY: docker-pull
 docker-pull:
-	$(AT)chmod +x ./scripts/docker-compose.sh
-	./scripts/docker-compose.sh pull
+	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
+	$(SCRIPT_DIR)/docker-compose.sh pull
 
 # Run tilt start command.
 .PHONY: tilt-start

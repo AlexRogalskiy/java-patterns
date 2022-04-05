@@ -1,4 +1,4 @@
-version: '3.9'
+version: "3.9"
 
 x-deploy: &deploy-template
   deploy:
@@ -30,7 +30,7 @@ x-replica-deploy: &replica-deploy-template
       order: stop-first
     resources:
       limits:
-        cpus: '0.5'
+        cpus: "0.5"
         memory: 1000M
       reservations:
         memory: 250M
@@ -38,8 +38,8 @@ x-replica-deploy: &replica-deploy-template
 x-logging: &logging-template
   logging:
     options:
-      max-size: '100m'
-      max-file: '10'
+      max-size: "100m"
+      max-file: "10"
 
 x-restart: &restart-template
   restart: unless-stopped
@@ -49,52 +49,53 @@ services:
     <<: *deploy-template
     <<: *logging-template
     <<: *restart-template
-    container_name: ${APP_CONTAINER_NAME:-'java-patterns'}
-    image: ${APP_IMAGE_NAME:-'java-patterns'}
-    hostname: ${APP_HOST_NAME:-'java-patterns'}
+    container_name: ${APP_CONTAINER_NAME:-"java-patterns"}
+    image: ${APP_IMAGE_NAME:-"java-patterns"}
+    hostname: ${APP_HOST_NAME:-"java-patterns"}
     user: "${UID}:${GID}"
     build:
-      context: './'
-      dockerfile: './distribution/docker-images/$DOCKER_TAG.Dockerfile'
+      context: "./"
+      dockerfile: "$DOCKER_FILE"
       labels:
-        - 'org.opencontainers.image.authors=Alexander Rogalskiy'
-        - 'org.opencontainers.image.vendor=Sensiblemetrics, Inc.'
+        - "org.opencontainers.image.authors=Alexander Rogalskiy"
+        - "org.opencontainers.image.vendor=Sensiblemetrics, Inc."
       args:
-        IMAGE_SOURCE: '$IMAGE_SOURCE'
-        IMAGE_TAG: '$IMAGE_TAG'
-    env_file:
-      - .env.example
+        IMAGE_SOURCE: "$IMAGE_SOURCE"
+        IMAGE_TAG: "$IMAGE_TAG"
+    environment:
+      TZ: ${WORKSPACE_TIMEZONE}
     volumes:
-      - type: volume
-        source: appvolume
+      - tmp_volume:/tmp
+      - type: bind
+        source: ${APP_SRC_DIR:-./}
         target: /usr/src/app
-        volume:
-          nocopy: true
       - type: bind
         source: ${APP_DATA_DIR:-./data}
         target: /usr/src/data
     healthcheck:
-      test: ['CMD-SHELL', 'nc', '-vz', 'localhost', '8000']
+      #test: [ "CMD-SHELL", "curl --fail --silent localhost:8000/versions.json 2>/dev/null | jq . | grep UP || exit 1" ]
+      test: ["CMD-SHELL", "nc", "-vz", "localhost", "8000"]
       interval: 3s
+      timeout: 5s
       retries: 15
       start_period: 30s
     networks:
       - default
     ports:
-      - '${IP_ADDRESS:-127.0.0.1}:${APP_SERVER_PORT:-8000}:8000'
+      - "${IP_ADDRESS:-127.0.0.1}:${APP_SERVER_PORT:-8000}:8000"
 
 networks:
   extended:
     attachable: true
   default:
-    driver: bridge
+    driver: ${NETWORKS_DRIVER}
     driver_opts:
       com.docker.network.driver.mtu: 1450
 
 volumes:
-  appvolume:
-    driver: local
+  tmp_volume:
+    driver: ${VOLUMES_DRIVER}
     driver_opts:
       o: bind
       type: none
-      device: ./
+      device: /tmp

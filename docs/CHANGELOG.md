@@ -1,0 +1,1760 @@
+### v1.5
+
+#### Bugfixes
+
+- \[[6322fd7](https://github.com/boardgameio/boardgame.io/commit/6322fd7)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[7e41ea0](https://github.com/boardgameio/boardgame.io/commit/7e41ea0)] Updates on files
+- \[[b20ca3c](https://github.com/boardgameio/boardgame.io/commit/b20ca3c)] GitHub traffic
+- \[[abc33a0](https://github.com/boardgameio/boardgame.io/commit/abc33a0)] Updates on files
+- \[[9d9653f](https://github.com/boardgameio/boardgame.io/commit/9d9653f)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[a8579f8](https://github.com/boardgameio/boardgame.io/commit/a8579f8)] Updates on files
+- \[[a7fd365](https://github.com/boardgameio/boardgame.io/commit/a7fd365)] Auto update markdown TOC
+- \[[293ab07](https://github.com/boardgameio/boardgame.io/commit/293ab07)] Updates on files
+- \[[5859800](https://github.com/boardgameio/boardgame.io/commit/5859800)] Updates on files
+- \[[6e3a93a](https://github.com/boardgameio/boardgame.io/commit/6e3a93a)] Updates on files
+- \[[a7a27e6](https://github.com/boardgameio/boardgame.io/commit/a7a27e6)] Updates on files
+- \[[733638e](https://github.com/boardgameio/boardgame.io/commit/733638e)] Updates on files
+- \[[64a2f30](https://github.com/boardgameio/boardgame.io/commit/64a2f30)] Updates on files
+- \[[739bcb3](https://github.com/boardgameio/boardgame.io/commit/739bcb3)] Updates on files
+- \[[d49ec1c](https://github.com/boardgameio/boardgame.io/commit/d49ec1c)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[978efdf](https://github.com/boardgameio/boardgame.io/commit/978efdf)] Updates on files
+- \[[51adc89](https://github.com/boardgameio/boardgame.io/commit/51adc89)] Auto update markdown TOC
+- \[[eb585af](https://github.com/boardgameio/boardgame.io/commit/eb585af)] Updates on files
+- \[[56ca63f](https://github.com/boardgameio/boardgame.io/commit/56ca63f)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[7d8054d](https://github.com/boardgameio/boardgame.io/commit/7d8054d)] Updates on files
+- \[[95cd227](https://github.com/boardgameio/boardgame.io/commit/95cd227)] Optimised images with calibre/image-actions
+- \[[18620d4](https://github.com/boardgameio/boardgame.io/commit/18620d4)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[bdd26be](https://github.com/boardgameio/boardgame.io/commit/bdd26be)] Updates on files
+- \[[cfd09e2](https://github.com/boardgameio/boardgame.io/commit/cfd09e2)] Updated with the latest blog posts
+- \[[586f6ab](https://github.com/boardgameio/boardgame.io/commit/586f6ab)] Updated with the latest blog posts
+- \[[4c460f6](https://github.com/boardgameio/boardgame.io/commit/4c460f6)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[e938b38](https://github.com/boardgameio/boardgame.io/commit/e938b38)] Updates on files
+- \[[d37410f](https://github.com/boardgameio/boardgame.io/commit/d37410f)] Updated with the latest blog posts
+- \[[320384d](https://github.com/boardgameio/boardgame.io/commit/320384d)] Updated with the latest blog posts
+- \[[364a5c1](https://github.com/boardgameio/boardgame.io/commit/364a5c1)] Optimised images with calibre/image-actions
+- \[[1047e4a](https://github.com/boardgameio/boardgame.io/commit/1047e4a)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[d86c4dc](https://github.com/boardgameio/boardgame.io/commit/d86c4dc)] Updates on files
+- \[[b64d5e0](https://github.com/boardgameio/boardgame.io/commit/b64d5e0)] Optimised images with calibre/image-actions
+- \[[fb9ea3b](https://github.com/boardgameio/boardgame.io/commit/fb9ea3b)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[bdd23db](https://github.com/boardgameio/boardgame.io/commit/bdd23db)] Updates on files
+- \[[a934d2b](https://github.com/boardgameio/boardgame.io/commit/a934d2b)] Updated with the latest blog posts
+- \[[6dcedad](https://github.com/boardgameio/boardgame.io/commit/6dcedad)] Updated with the latest blog posts
+- \[[f216edb](https://github.com/boardgameio/boardgame.io/commit/f216edb)] Updated with the latest blog posts
+- \[[0da0504](https://github.com/boardgameio/boardgame.io/commit/0da0504)] Optimised images with calibre/image-actions
+- \[[db923cc](https://github.com/boardgameio/boardgame.io/commit/db923cc)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[99411df](https://github.com/boardgameio/boardgame.io/commit/99411df)] Updates on files
+- \[[9af3c01](https://github.com/boardgameio/boardgame.io/commit/9af3c01)] GitHub traffic
+- \[[5c5074f](https://github.com/boardgameio/boardgame.io/commit/5c5074f)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[ec188e5](https://github.com/boardgameio/boardgame.io/commit/ec188e5)] Updates on files
+- \[[059717a](https://github.com/boardgameio/boardgame.io/commit/059717a)] Updated with the latest blog posts
+- \[[f87d5b5](https://github.com/boardgameio/boardgame.io/commit/f87d5b5)] Updated with the latest blog posts
+- \[[42632a4](https://github.com/boardgameio/boardgame.io/commit/42632a4)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[3028a7c](https://github.com/boardgameio/boardgame.io/commit/3028a7c)] Updates on files
+- \[[3d3d697](https://github.com/boardgameio/boardgame.io/commit/3d3d697)] Updated with the latest blog posts
+- \[[bd1cc84](https://github.com/boardgameio/boardgame.io/commit/bd1cc84)] Updated with the latest blog posts
+- \[[fe0ed95](https://github.com/boardgameio/boardgame.io/commit/fe0ed95)] Updates on docs
+- \[[e67f52d](https://github.com/boardgameio/boardgame.io/commit/e67f52d)] Updated with the latest blog posts
+- \[[bdb1fe4](https://github.com/boardgameio/boardgame.io/commit/bdb1fe4)] Updated with the latest blog posts
+- \[[4115cce](https://github.com/boardgameio/boardgame.io/commit/4115cce)] Updated with the latest blog posts
+- \[[578c0f4](https://github.com/boardgameio/boardgame.io/commit/578c0f4)] Updated with the latest blog posts
+- \[[be10c67](https://github.com/boardgameio/boardgame.io/commit/be10c67)] Updated with the latest blog posts
+- \[[68c1122](https://github.com/boardgameio/boardgame.io/commit/68c1122)] Updated with the latest blog posts
+- \[[27ca3b7](https://github.com/boardgameio/boardgame.io/commit/27ca3b7)] Updated with the latest blog posts
+- \[[a834d6c](https://github.com/boardgameio/boardgame.io/commit/a834d6c)] Updated with the latest blog posts
+- \[[c259e65](https://github.com/boardgameio/boardgame.io/commit/c259e65)] Updated with the latest blog posts
+- \[[0bdc575](https://github.com/boardgameio/boardgame.io/commit/0bdc575)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[075530c](https://github.com/boardgameio/boardgame.io/commit/075530c)] Updates on files
+- \[[1d3c7cd](https://github.com/boardgameio/boardgame.io/commit/1d3c7cd)] Optimised images with calibre/image-actions
+- \[[90c3480](https://github.com/boardgameio/boardgame.io/commit/90c3480)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[6317865](https://github.com/boardgameio/boardgame.io/commit/6317865)] Updates on files
+- \[[f771f2b](https://github.com/boardgameio/boardgame.io/commit/f771f2b)] Updated with the latest blog posts
+- \[[9d9181f](https://github.com/boardgameio/boardgame.io/commit/9d9181f)] GitHub traffic
+- \[[5282555](https://github.com/boardgameio/boardgame.io/commit/5282555)] Updated with the latest blog posts
+- \[[2b089a8](https://github.com/boardgameio/boardgame.io/commit/2b089a8)] Updated with the latest blog posts
+- \[[07b4784](https://github.com/boardgameio/boardgame.io/commit/07b4784)] Updated with the latest blog posts
+- \[[ba22316](https://github.com/boardgameio/boardgame.io/commit/ba22316)] Updated with the latest blog posts
+- \[[fb1ec07](https://github.com/boardgameio/boardgame.io/commit/fb1ec07)] Updated with the latest blog posts
+- \[[34efca2](https://github.com/boardgameio/boardgame.io/commit/34efca2)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[285d6c2](https://github.com/boardgameio/boardgame.io/commit/285d6c2)] Updates on files
+- \[[96f171c](https://github.com/boardgameio/boardgame.io/commit/96f171c)] Optimised images with calibre/image-actions
+- \[[85be2ae](https://github.com/boardgameio/boardgame.io/commit/85be2ae)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[c8815e1](https://github.com/boardgameio/boardgame.io/commit/c8815e1)] Updates on files
+- \[[ee19e41](https://github.com/boardgameio/boardgame.io/commit/ee19e41)] Updated with the latest blog posts
+- \[[71b5403](https://github.com/boardgameio/boardgame.io/commit/71b5403)] Updated with the latest blog posts
+- \[[0337d7f](https://github.com/boardgameio/boardgame.io/commit/0337d7f)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[1d8d736](https://github.com/boardgameio/boardgame.io/commit/1d8d736)] Updates on files
+- \[[9f862d7](https://github.com/boardgameio/boardgame.io/commit/9f862d7)] Auto update markdown TOC
+- \[[ce1bb05](https://github.com/boardgameio/boardgame.io/commit/ce1bb05)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[cbf7d1f](https://github.com/boardgameio/boardgame.io/commit/cbf7d1f)] Updates on files
+- \[[47fdc3b](https://github.com/boardgameio/boardgame.io/commit/47fdc3b)] Updated with the latest blog posts
+- \[[2419504](https://github.com/boardgameio/boardgame.io/commit/2419504)] Updated with the latest blog posts
+- \[[05de332](https://github.com/boardgameio/boardgame.io/commit/05de332)] Updated with the latest blog posts
+- \[[d4c0c3e](https://github.com/boardgameio/boardgame.io/commit/d4c0c3e)] Updated with the latest blog posts
+- \[[ef27aeb](https://github.com/boardgameio/boardgame.io/commit/ef27aeb)] Updated with the latest blog posts
+- \[[b69d581](https://github.com/boardgameio/boardgame.io/commit/b69d581)] Updated with the latest blog posts
+- \[[83edead](https://github.com/boardgameio/boardgame.io/commit/83edead)] Updated with the latest blog posts
+- \[[30043c6](https://github.com/boardgameio/boardgame.io/commit/30043c6)] Updated with the latest blog posts
+- \[[6272960](https://github.com/boardgameio/boardgame.io/commit/6272960)] Updated with the latest blog posts
+- \[[6558f77](https://github.com/boardgameio/boardgame.io/commit/6558f77)] GitHub traffic
+- \[[f71c70a](https://github.com/boardgameio/boardgame.io/commit/f71c70a)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[1885d04](https://github.com/boardgameio/boardgame.io/commit/1885d04)] Updates on files
+- \[[1e128f1](https://github.com/boardgameio/boardgame.io/commit/1e128f1)] Updated with the latest blog posts
+- \[[cef7a11](https://github.com/boardgameio/boardgame.io/commit/cef7a11)] Updated with the latest blog posts
+- \[[47db76f](https://github.com/boardgameio/boardgame.io/commit/47db76f)] Updated with the latest blog posts
+- \[[284b9b4](https://github.com/boardgameio/boardgame.io/commit/284b9b4)] Updated with the latest blog posts
+- \[[68ba3ca](https://github.com/boardgameio/boardgame.io/commit/68ba3ca)] Updated with the latest blog posts
+- \[[0cb19ff](https://github.com/boardgameio/boardgame.io/commit/0cb19ff)] Updated with the latest blog posts
+- \[[a51a461](https://github.com/boardgameio/boardgame.io/commit/a51a461)] Updated with the latest blog posts
+- \[[cde50e9](https://github.com/boardgameio/boardgame.io/commit/cde50e9)] Updated with the latest blog posts
+- \[[17c3af2](https://github.com/boardgameio/boardgame.io/commit/17c3af2)] Updated with the latest blog posts
+- \[[ee98552](https://github.com/boardgameio/boardgame.io/commit/ee98552)] Updated with the latest blog posts
+- \[[52bb6c1](https://github.com/boardgameio/boardgame.io/commit/52bb6c1)] Updated with the latest blog posts
+- \[[dc4de06](https://github.com/boardgameio/boardgame.io/commit/dc4de06)] Updates on files
+- \[[760b55a](https://github.com/boardgameio/boardgame.io/commit/760b55a)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[628c51b](https://github.com/boardgameio/boardgame.io/commit/628c51b)] Updates on files
+- \[[ef69782](https://github.com/boardgameio/boardgame.io/commit/ef69782)] Updated with the latest blog posts
+- \[[be0a051](https://github.com/boardgameio/boardgame.io/commit/be0a051)] Updated with the latest blog posts
+- \[[8305fb9](https://github.com/boardgameio/boardgame.io/commit/8305fb9)] Optimised images with calibre/image-actions
+- \[[e228d92](https://github.com/boardgameio/boardgame.io/commit/e228d92)] Updates on files
+- \[[62d5a85](https://github.com/boardgameio/boardgame.io/commit/62d5a85)] Updates on files
+- \[[dad25c0](https://github.com/boardgameio/boardgame.io/commit/dad25c0)] Updated with the latest blog posts
+- \[[6130f92](https://github.com/boardgameio/boardgame.io/commit/6130f92)] Updated with the latest blog posts
+- \[[9c99e71](https://github.com/boardgameio/boardgame.io/commit/9c99e71)] Updated with the latest blog posts
+- \[[2bb899b](https://github.com/boardgameio/boardgame.io/commit/2bb899b)] Updated with the latest blog posts
+- \[[12b041e](https://github.com/boardgameio/boardgame.io/commit/12b041e)] GitHub traffic
+- \[[2eccf08](https://github.com/boardgameio/boardgame.io/commit/2eccf08)] Updated with the latest blog posts
+- \[[07f1d12](https://github.com/boardgameio/boardgame.io/commit/07f1d12)] Updated with the latest blog posts
+- \[[3a5ff9f](https://github.com/boardgameio/boardgame.io/commit/3a5ff9f)] Updated with the latest blog posts
+- \[[0f2d868](https://github.com/boardgameio/boardgame.io/commit/0f2d868)] Updated with the latest blog posts
+- \[[c96716c](https://github.com/boardgameio/boardgame.io/commit/c96716c)] Updated with the latest blog posts
+- \[[5cce9c7](https://github.com/boardgameio/boardgame.io/commit/5cce9c7)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[b8fa1a7](https://github.com/boardgameio/boardgame.io/commit/b8fa1a7)] Updates on files
+- \[[6f8faba](https://github.com/boardgameio/boardgame.io/commit/6f8faba)] Updated with the latest blog posts
+- \[[3e6e073](https://github.com/boardgameio/boardgame.io/commit/3e6e073)] Updated with the latest blog posts
+- \[[e2d7670](https://github.com/boardgameio/boardgame.io/commit/e2d7670)] Updated with the latest blog posts
+- \[[a07d67c](https://github.com/boardgameio/boardgame.io/commit/a07d67c)] Updated with the latest blog posts
+- \[[c84d785](https://github.com/boardgameio/boardgame.io/commit/c84d785)] Updated with the latest blog posts
+- \[[174af49](https://github.com/boardgameio/boardgame.io/commit/174af49)] Updated with the latest blog posts
+- \[[7776ac1](https://github.com/boardgameio/boardgame.io/commit/7776ac1)] Updated with the latest blog posts
+- \[[3b61255](https://github.com/boardgameio/boardgame.io/commit/3b61255)] Updated with the latest blog posts
+- \[[a99a410](https://github.com/boardgameio/boardgame.io/commit/a99a410)] Updated with the latest blog posts
+- \[[0574c36](https://github.com/boardgameio/boardgame.io/commit/0574c36)] Updated with the latest blog posts
+- \[[f8aba4f](https://github.com/boardgameio/boardgame.io/commit/f8aba4f)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[9701be5](https://github.com/boardgameio/boardgame.io/commit/9701be5)] Updates on files
+- \[[3fe9789](https://github.com/boardgameio/boardgame.io/commit/3fe9789)] Optimised images with calibre/image-actions
+- \[[4acd1ec](https://github.com/boardgameio/boardgame.io/commit/4acd1ec)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[0f1c844](https://github.com/boardgameio/boardgame.io/commit/0f1c844)] Updates on files
+- \[[1a4fa44](https://github.com/boardgameio/boardgame.io/commit/1a4fa44)] Updated with the latest blog posts
+- \[[285115b](https://github.com/boardgameio/boardgame.io/commit/285115b)] GitHub traffic
+- \[[7cd44aa](https://github.com/boardgameio/boardgame.io/commit/7cd44aa)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[ae7a3c1](https://github.com/boardgameio/boardgame.io/commit/ae7a3c1)] Updates on files
+- \[[8722c43](https://github.com/boardgameio/boardgame.io/commit/8722c43)]  Update @AlexRogalskiy as a contributor
+- \[[116881f](https://github.com/boardgameio/boardgame.io/commit/116881f)] Updated with the latest blog posts
+- \[[1664e90](https://github.com/boardgameio/boardgame.io/commit/1664e90)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[887d223](https://github.com/boardgameio/boardgame.io/commit/887d223)] Updates on files
+- \[[07e0510](https://github.com/boardgameio/boardgame.io/commit/07e0510)] Updated with the latest blog posts
+- \[[c3f315e](https://github.com/boardgameio/boardgame.io/commit/c3f315e)] Updated with the latest blog posts
+- \[[1457df7](https://github.com/boardgameio/boardgame.io/commit/1457df7)] Updated with the latest blog posts
+- \[[d7e39ef](https://github.com/boardgameio/boardgame.io/commit/d7e39ef)] Updated with the latest blog posts
+- \[[d923c56](https://github.com/boardgameio/boardgame.io/commit/d923c56)] Updated with the latest blog posts
+- \[[d42d739](https://github.com/boardgameio/boardgame.io/commit/d42d739)] Updated with the latest blog posts
+- \[[a6da7e4](https://github.com/boardgameio/boardgame.io/commit/a6da7e4)] Optimised images with calibre/image-actions
+- \[[d190868](https://github.com/boardgameio/boardgame.io/commit/d190868)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[3255dee](https://github.com/boardgameio/boardgame.io/commit/3255dee)] Updates on files
+- \[[132332c](https://github.com/boardgameio/boardgame.io/commit/132332c)] Updated with the latest blog posts
+- \[[dc7b67a](https://github.com/boardgameio/boardgame.io/commit/dc7b67a)] Updated with the latest blog posts
+- \[[8ebd97f](https://github.com/boardgameio/boardgame.io/commit/8ebd97f)] Updated with the latest blog posts
+- \[[0e52f7b](https://github.com/boardgameio/boardgame.io/commit/0e52f7b)] GitHub traffic
+- \[[671a787](https://github.com/boardgameio/boardgame.io/commit/671a787)] Updated with the latest blog posts
+- \[[2b753c4](https://github.com/boardgameio/boardgame.io/commit/2b753c4)] Updates on files
+- \[[50a569f](https://github.com/boardgameio/boardgame.io/commit/50a569f)] Updated with the latest blog posts
+- \[[7183520](https://github.com/boardgameio/boardgame.io/commit/7183520)] Updated with the latest blog posts
+- \[[ebe0895](https://github.com/boardgameio/boardgame.io/commit/ebe0895)] Updated with the latest blog posts
+- \[[1b4a558](https://github.com/boardgameio/boardgame.io/commit/1b4a558)] Updated with the latest blog posts
+- \[[add5a7d](https://github.com/boardgameio/boardgame.io/commit/add5a7d)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[7d1182e](https://github.com/boardgameio/boardgame.io/commit/7d1182e)] Updates on files
+- \[[bd7b2f7](https://github.com/boardgameio/boardgame.io/commit/bd7b2f7)] Updated with the latest blog posts
+- \[[e09c321](https://github.com/boardgameio/boardgame.io/commit/e09c321)] Updated with the latest blog posts
+- \[[dd69d15](https://github.com/boardgameio/boardgame.io/commit/dd69d15)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[4cbf570](https://github.com/boardgameio/boardgame.io/commit/4cbf570)] Updates on files
+- \[[f05d18b](https://github.com/boardgameio/boardgame.io/commit/f05d18b)] Updated with the latest blog posts
+- \[[09ce3a9](https://github.com/boardgameio/boardgame.io/commit/09ce3a9)] Updated with the latest blog posts
+- \[[4d88721](https://github.com/boardgameio/boardgame.io/commit/4d88721)] Optimised images with calibre/image-actions
+- \[[28c6abc](https://github.com/boardgameio/boardgame.io/commit/28c6abc)] Updates on files
+- \[[9edbe17](https://github.com/boardgameio/boardgame.io/commit/9edbe17)] Updated with the latest blog posts
+- \[[6c4c5f1](https://github.com/boardgameio/boardgame.io/commit/6c4c5f1)] Updated with the latest blog posts
+- \[[3ad74cb](https://github.com/boardgameio/boardgame.io/commit/3ad74cb)] Updated with the latest blog posts
+- \[[df9fbd2](https://github.com/boardgameio/boardgame.io/commit/df9fbd2)] GitHub traffic
+- \[[5877a12](https://github.com/boardgameio/boardgame.io/commit/5877a12)] Updated with the latest blog posts
+- \[[7a0369c](https://github.com/boardgameio/boardgame.io/commit/7a0369c)] Updated with the latest blog posts
+- \[[1d77582](https://github.com/boardgameio/boardgame.io/commit/1d77582)] Updated with the latest blog posts
+- \[[cb0f04b](https://github.com/boardgameio/boardgame.io/commit/cb0f04b)] Updated with the latest blog posts
+- \[[e61a963](https://github.com/boardgameio/boardgame.io/commit/e61a963)] Updated with the latest blog posts
+- \[[40914c2](https://github.com/boardgameio/boardgame.io/commit/40914c2)] Updated with the latest blog posts
+- \[[75cee14](https://github.com/boardgameio/boardgame.io/commit/75cee14)] Optimised images with calibre/image-actions
+- \[[a7fc6fa](https://github.com/boardgameio/boardgame.io/commit/a7fc6fa)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[218eeab](https://github.com/boardgameio/boardgame.io/commit/218eeab)] Updates on files
+- \[[1b38f79](https://github.com/boardgameio/boardgame.io/commit/1b38f79)] Updated with the latest blog posts
+- \[[ec970d5](https://github.com/boardgameio/boardgame.io/commit/ec970d5)] Updated with the latest blog posts
+- \[[a128fd9](https://github.com/boardgameio/boardgame.io/commit/a128fd9)] Updated with the latest blog posts
+- \[[e4a8c81](https://github.com/boardgameio/boardgame.io/commit/e4a8c81)] Updated with the latest blog posts
+- \[[3d48b49](https://github.com/boardgameio/boardgame.io/commit/3d48b49)] Updated with the latest blog posts
+- \[[2bddf30](https://github.com/boardgameio/boardgame.io/commit/2bddf30)] GitHub traffic
+- \[[a5a3dd0](https://github.com/boardgameio/boardgame.io/commit/a5a3dd0)] Updated with the latest blog posts
+- \[[b13933c](https://github.com/boardgameio/boardgame.io/commit/b13933c)] Updated with the latest blog posts
+- \[[bf52b26](https://github.com/boardgameio/boardgame.io/commit/bf52b26)] Updated with the latest blog posts
+- \[[3ad5ede](https://github.com/boardgameio/boardgame.io/commit/3ad5ede)] Updated with the latest blog posts
+- \[[9719788](https://github.com/boardgameio/boardgame.io/commit/9719788)] Updated with the latest blog posts
+- \[[c94d0b9](https://github.com/boardgameio/boardgame.io/commit/c94d0b9)] Updated with the latest blog posts
+- \[[7c8b46b](https://github.com/boardgameio/boardgame.io/commit/7c8b46b)] Updated with the latest blog posts
+- \[[2493adb](https://github.com/boardgameio/boardgame.io/commit/2493adb)] Updated with the latest blog posts
+- \[[8cf8694](https://github.com/boardgameio/boardgame.io/commit/8cf8694)] Updated with the latest blog posts
+- \[[5159564](https://github.com/boardgameio/boardgame.io/commit/5159564)] Updated with the latest blog posts
+- \[[a76b1e5](https://github.com/boardgameio/boardgame.io/commit/a76b1e5)] Updated with the latest blog posts
+- \[[f76f246](https://github.com/boardgameio/boardgame.io/commit/f76f246)] Updated with the latest blog posts
+- \[[c74b914](https://github.com/boardgameio/boardgame.io/commit/c74b914)] Updated with the latest blog posts
+- \[[af1a78a](https://github.com/boardgameio/boardgame.io/commit/af1a78a)] Updated with the latest blog posts
+- \[[881725e](https://github.com/boardgameio/boardgame.io/commit/881725e)] Updated with the latest blog posts
+- \[[d53a622](https://github.com/boardgameio/boardgame.io/commit/d53a622)] Updated with the latest blog posts
+- \[[88fa1cc](https://github.com/boardgameio/boardgame.io/commit/88fa1cc)] GitHub traffic
+- \[[5201d5f](https://github.com/boardgameio/boardgame.io/commit/5201d5f)] Updated with the latest blog posts
+- \[[3d65835](https://github.com/boardgameio/boardgame.io/commit/3d65835)] Updated with the latest blog posts
+- \[[c5da7cf](https://github.com/boardgameio/boardgame.io/commit/c5da7cf)] Updated with the latest blog posts
+- \[[cb2eb01](https://github.com/boardgameio/boardgame.io/commit/cb2eb01)] Updated with the latest blog posts
+- \[[3e208f7](https://github.com/boardgameio/boardgame.io/commit/3e208f7)] Updated with the latest blog posts
+- \[[a755638](https://github.com/boardgameio/boardgame.io/commit/a755638)] Updated with the latest blog posts
+- \[[bdf2b7a](https://github.com/boardgameio/boardgame.io/commit/bdf2b7a)] Updated with the latest blog posts
+- \[[39895f8](https://github.com/boardgameio/boardgame.io/commit/39895f8)] Updated with the latest blog posts
+- \[[d5e4875](https://github.com/boardgameio/boardgame.io/commit/d5e4875)] Updated with the latest blog posts
+- \[[0030d38](https://github.com/boardgameio/boardgame.io/commit/0030d38)] Updated with the latest blog posts
+- \[[9fd9b49](https://github.com/boardgameio/boardgame.io/commit/9fd9b49)] Updated with the latest blog posts
+- \[[2ceca70](https://github.com/boardgameio/boardgame.io/commit/2ceca70)] Updated with the latest blog posts
+- \[[ad2b002](https://github.com/boardgameio/boardgame.io/commit/ad2b002)] Updated with the latest blog posts
+- \[[e9ca7b3](https://github.com/boardgameio/boardgame.io/commit/e9ca7b3)] Updated with the latest blog posts
+- \[[b93934b](https://github.com/boardgameio/boardgame.io/commit/b93934b)] Updated with the latest blog posts
+- \[[67fa223](https://github.com/boardgameio/boardgame.io/commit/67fa223)] GitHub traffic
+- \[[a51a80a](https://github.com/boardgameio/boardgame.io/commit/a51a80a)] Updated with the latest blog posts
+- \[[77bdb8a](https://github.com/boardgameio/boardgame.io/commit/77bdb8a)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[d35b769](https://github.com/boardgameio/boardgame.io/commit/d35b769)] Updates on files
+- \[[e6f7719](https://github.com/boardgameio/boardgame.io/commit/e6f7719)] Updated with the latest blog posts
+- \[[b92f5e9](https://github.com/boardgameio/boardgame.io/commit/b92f5e9)] Updated with the latest blog posts
+- \[[4d28ecb](https://github.com/boardgameio/boardgame.io/commit/4d28ecb)] Updated with the latest blog posts
+- \[[0ab961f](https://github.com/boardgameio/boardgame.io/commit/0ab961f)] Updated with the latest blog posts
+- \[[add25ef](https://github.com/boardgameio/boardgame.io/commit/add25ef)] Updated with the latest blog posts
+- \[[51d145d](https://github.com/boardgameio/boardgame.io/commit/51d145d)] Optimised images with calibre/image-actions
+- \[[99d6511](https://github.com/boardgameio/boardgame.io/commit/99d6511)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[b82b9ec](https://github.com/boardgameio/boardgame.io/commit/b82b9ec)] Updates on files
+- \[[0705cfd](https://github.com/boardgameio/boardgame.io/commit/0705cfd)] Updated with the latest blog posts
+- \[[4971210](https://github.com/boardgameio/boardgame.io/commit/4971210)] Updated with the latest blog posts
+- \[[3f25df6](https://github.com/boardgameio/boardgame.io/commit/3f25df6)] Updated with the latest blog posts
+- \[[d495c52](https://github.com/boardgameio/boardgame.io/commit/d495c52)] Updated with the latest blog posts
+- \[[acff99b](https://github.com/boardgameio/boardgame.io/commit/acff99b)] Updated with the latest blog posts
+- \[[f97b00b](https://github.com/boardgameio/boardgame.io/commit/f97b00b)] GitHub traffic
+- \[[287b2db](https://github.com/boardgameio/boardgame.io/commit/287b2db)] Updated with the latest blog posts
+- \[[a981099](https://github.com/boardgameio/boardgame.io/commit/a981099)] Updated with the latest blog posts
+- \[[296760e](https://github.com/boardgameio/boardgame.io/commit/296760e)] Updated with the latest blog posts
+- \[[c1e3cf6](https://github.com/boardgameio/boardgame.io/commit/c1e3cf6)] Updated with the latest blog posts
+- \[[a90c4b9](https://github.com/boardgameio/boardgame.io/commit/a90c4b9)] Updated with the latest blog posts
+- \[[3fd7645](https://github.com/boardgameio/boardgame.io/commit/3fd7645)] Updated with the latest blog posts
+- \[[809dba7](https://github.com/boardgameio/boardgame.io/commit/809dba7)] Updated with the latest blog posts
+- \[[303e911](https://github.com/boardgameio/boardgame.io/commit/303e911)] Updated with the latest blog posts
+- \[[c3e1150](https://github.com/boardgameio/boardgame.io/commit/c3e1150)] Updated with the latest blog posts
+- \[[053b49f](https://github.com/boardgameio/boardgame.io/commit/053b49f)] Updated with the latest blog posts
+- \[[4bd4885](https://github.com/boardgameio/boardgame.io/commit/4bd4885)] Updated with the latest blog posts
+- \[[49b7a23](https://github.com/boardgameio/boardgame.io/commit/49b7a23)] Updated with the latest blog posts
+- \[[ef8ffb5](https://github.com/boardgameio/boardgame.io/commit/ef8ffb5)] Updated with the latest blog posts
+- \[[6f2c441](https://github.com/boardgameio/boardgame.io/commit/6f2c441)] Updated with the latest blog posts
+- \[[3e7c0c2](https://github.com/boardgameio/boardgame.io/commit/3e7c0c2)] GitHub traffic
+- \[[c3325a5](https://github.com/boardgameio/boardgame.io/commit/c3325a5)] Updates on files
+- \[[b1fe754](https://github.com/boardgameio/boardgame.io/commit/b1fe754)] Updated with the latest blog posts
+- \[[8daaef9](https://github.com/boardgameio/boardgame.io/commit/8daaef9)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[2c9451b](https://github.com/boardgameio/boardgame.io/commit/2c9451b)] Updates on files
+- \[[606ddab](https://github.com/boardgameio/boardgame.io/commit/606ddab)] Updated with the latest blog posts
+- \[[5e4d070](https://github.com/boardgameio/boardgame.io/commit/5e4d070)] Updated with the latest blog posts
+- \[[c0effae](https://github.com/boardgameio/boardgame.io/commit/c0effae)] Updated with the latest blog posts
+- \[[6ad4b74](https://github.com/boardgameio/boardgame.io/commit/6ad4b74)] Updated with the latest blog posts
+- \[[fa4797c](https://github.com/boardgameio/boardgame.io/commit/fa4797c)] Optimised images with calibre/image-actions
+- \[[b431938](https://github.com/boardgameio/boardgame.io/commit/b431938)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[6182bab](https://github.com/boardgameio/boardgame.io/commit/6182bab)] Updates on files
+- \[[d39e2c4](https://github.com/boardgameio/boardgame.io/commit/d39e2c4)] Updated with the latest blog posts
+- \[[61d3d68](https://github.com/boardgameio/boardgame.io/commit/61d3d68)] Updated with the latest blog posts
+- \[[660595b](https://github.com/boardgameio/boardgame.io/commit/660595b)] Updated with the latest blog posts
+- \[[308284b](https://github.com/boardgameio/boardgame.io/commit/308284b)] Updated with the latest blog posts
+- \[[ec69833](https://github.com/boardgameio/boardgame.io/commit/ec69833)] Updated with the latest blog posts
+- \[[1737c97](https://github.com/boardgameio/boardgame.io/commit/1737c97)] Updated with the latest blog posts
+- \[[f103948](https://github.com/boardgameio/boardgame.io/commit/f103948)] Updated with the latest blog posts
+- \[[9165fe9](https://github.com/boardgameio/boardgame.io/commit/9165fe9)] GitHub traffic
+- \[[91cd635](https://github.com/boardgameio/boardgame.io/commit/91cd635)] Updated with the latest blog posts
+- \[[9652fb2](https://github.com/boardgameio/boardgame.io/commit/9652fb2)] Updated with the latest blog posts
+- \[[fe3957b](https://github.com/boardgameio/boardgame.io/commit/fe3957b)] Updated with the latest blog posts
+- \[[3fa62d7](https://github.com/boardgameio/boardgame.io/commit/3fa62d7)] Updated with the latest blog posts
+- \[[5f35fc1](https://github.com/boardgameio/boardgame.io/commit/5f35fc1)] Updated with the latest blog posts
+- \[[86808a0](https://github.com/boardgameio/boardgame.io/commit/86808a0)] Optimised images with calibre/image-actions
+- \[[a76a5c7](https://github.com/boardgameio/boardgame.io/commit/a76a5c7)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[754ba2d](https://github.com/boardgameio/boardgame.io/commit/754ba2d)] Updates on files
+- \[[be7b47f](https://github.com/boardgameio/boardgame.io/commit/be7b47f)] Updated with the latest blog posts
+- \[[ed32486](https://github.com/boardgameio/boardgame.io/commit/ed32486)] Updated with the latest blog posts
+- \[[8d5759a](https://github.com/boardgameio/boardgame.io/commit/8d5759a)] Updated with the latest blog posts
+- \[[81671e6](https://github.com/boardgameio/boardgame.io/commit/81671e6)] Updated with the latest blog posts
+- \[[ceb5a4b](https://github.com/boardgameio/boardgame.io/commit/ceb5a4b)] Updated with the latest blog posts
+- \[[ecdf4e4](https://github.com/boardgameio/boardgame.io/commit/ecdf4e4)] Updated with the latest blog posts
+- \[[56c8bd1](https://github.com/boardgameio/boardgame.io/commit/56c8bd1)] Updated with the latest blog posts
+- \[[7f513f8](https://github.com/boardgameio/boardgame.io/commit/7f513f8)] Updated with the latest blog posts
+- \[[d17f599](https://github.com/boardgameio/boardgame.io/commit/d17f599)] GitHub traffic
+- \[[f48dce7](https://github.com/boardgameio/boardgame.io/commit/f48dce7)] Updated with the latest blog posts
+- \[[c66fe67](https://github.com/boardgameio/boardgame.io/commit/c66fe67)] Updated with the latest blog posts
+- \[[f78a832](https://github.com/boardgameio/boardgame.io/commit/f78a832)] Updated with the latest blog posts
+- \[[98910fc](https://github.com/boardgameio/boardgame.io/commit/98910fc)] Updated with the latest blog posts
+- \[[623c79c](https://github.com/boardgameio/boardgame.io/commit/623c79c)] Updated with the latest blog posts
+- \[[c251110](https://github.com/boardgameio/boardgame.io/commit/c251110)] Optimised images with calibre/image-actions
+- \[[73dfefa](https://github.com/boardgameio/boardgame.io/commit/73dfefa)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[4f554c4](https://github.com/boardgameio/boardgame.io/commit/4f554c4)] Updates on files
+- \[[c9b27df](https://github.com/boardgameio/boardgame.io/commit/c9b27df)] Updated with the latest blog posts
+- \[[9cbd241](https://github.com/boardgameio/boardgame.io/commit/9cbd241)] Updated with the latest blog posts
+- \[[d0beaad](https://github.com/boardgameio/boardgame.io/commit/d0beaad)] Updated with the latest blog posts
+- \[[6e5120e](https://github.com/boardgameio/boardgame.io/commit/6e5120e)] Updated with the latest blog posts
+- \[[64f260d](https://github.com/boardgameio/boardgame.io/commit/64f260d)] Updated with the latest blog posts
+- \[[b02c5ed](https://github.com/boardgameio/boardgame.io/commit/b02c5ed)] Updated with the latest blog posts
+- \[[320b8b8](https://github.com/boardgameio/boardgame.io/commit/320b8b8)] Updated with the latest blog posts
+- \[[e6ab9cd](https://github.com/boardgameio/boardgame.io/commit/e6ab9cd)] Updated with the latest blog posts
+- \[[a330ffa](https://github.com/boardgameio/boardgame.io/commit/a330ffa)] Updated with the latest blog posts
+- \[[98cbc1b](https://github.com/boardgameio/boardgame.io/commit/98cbc1b)] GitHub traffic
+- \[[84e0f9c](https://github.com/boardgameio/boardgame.io/commit/84e0f9c)] Updated with the latest blog posts
+- \[[8b41c80](https://github.com/boardgameio/boardgame.io/commit/8b41c80)] Updated with the latest blog posts
+- \[[4f84d00](https://github.com/boardgameio/boardgame.io/commit/4f84d00)] Updated with the latest blog posts
+- \[[26c59da](https://github.com/boardgameio/boardgame.io/commit/26c59da)] Updated with the latest blog posts
+- \[[d55b984](https://github.com/boardgameio/boardgame.io/commit/d55b984)] Updated with the latest blog posts
+- \[[463c645](https://github.com/boardgameio/boardgame.io/commit/463c645)] Updated with the latest blog posts
+- \[[4acd2f8](https://github.com/boardgameio/boardgame.io/commit/4acd2f8)] Updated with the latest blog posts
+- \[[2727ac0](https://github.com/boardgameio/boardgame.io/commit/2727ac0)] Updated with the latest blog posts
+- \[[2c7f28b](https://github.com/boardgameio/boardgame.io/commit/2c7f28b)] Updated with the latest blog posts
+- \[[c7c6d3c](https://github.com/boardgameio/boardgame.io/commit/c7c6d3c)] Updated with the latest blog posts
+- \[[26ece51](https://github.com/boardgameio/boardgame.io/commit/26ece51)] Updated with the latest blog posts
+- \[[5a9da12](https://github.com/boardgameio/boardgame.io/commit/5a9da12)] Updated with the latest blog posts
+- \[[5b6432d](https://github.com/boardgameio/boardgame.io/commit/5b6432d)] Updated with the latest blog posts
+- \[[66678f3](https://github.com/boardgameio/boardgame.io/commit/66678f3)] Updated with the latest blog posts
+- \[[b99de1a](https://github.com/boardgameio/boardgame.io/commit/b99de1a)] GitHub traffic
+- \[[6296fa1](https://github.com/boardgameio/boardgame.io/commit/6296fa1)] Updated with the latest blog posts
+- \[[de506ea](https://github.com/boardgameio/boardgame.io/commit/de506ea)] Updated with the latest blog posts
+- \[[2837a36](https://github.com/boardgameio/boardgame.io/commit/2837a36)] Updated with the latest blog posts
+- \[[bf8ee01](https://github.com/boardgameio/boardgame.io/commit/bf8ee01)] Updated with the latest blog posts
+- \[[8de4bbf](https://github.com/boardgameio/boardgame.io/commit/8de4bbf)] Updated with the latest blog posts
+- \[[56b9e61](https://github.com/boardgameio/boardgame.io/commit/56b9e61)] Updated with the latest blog posts
+- \[[820b2d6](https://github.com/boardgameio/boardgame.io/commit/820b2d6)] Updated with the latest blog posts
+- \[[144231d](https://github.com/boardgameio/boardgame.io/commit/144231d)] Updated with the latest blog posts
+- \[[8ebe249](https://github.com/boardgameio/boardgame.io/commit/8ebe249)] Updated with the latest blog posts
+- \[[5271681](https://github.com/boardgameio/boardgame.io/commit/5271681)] Updated with the latest blog posts
+- \[[5908e67](https://github.com/boardgameio/boardgame.io/commit/5908e67)] Updated with the latest blog posts
+- \[[ee8cac9](https://github.com/boardgameio/boardgame.io/commit/ee8cac9)] Updated with the latest blog posts
+- \[[3dbf3d0](https://github.com/boardgameio/boardgame.io/commit/3dbf3d0)] Updated with the latest blog posts
+- \[[243d19d](https://github.com/boardgameio/boardgame.io/commit/243d19d)] Updated with the latest blog posts
+- \[[6e231c5](https://github.com/boardgameio/boardgame.io/commit/6e231c5)] GitHub traffic
+- \[[5c01a6a](https://github.com/boardgameio/boardgame.io/commit/5c01a6a)] Updated with the latest blog posts
+- \[[f8069e5](https://github.com/boardgameio/boardgame.io/commit/f8069e5)] Updated with the latest blog posts
+- \[[42215e0](https://github.com/boardgameio/boardgame.io/commit/42215e0)] Optimised images with calibre/image-actions
+- \[[850df19](https://github.com/boardgameio/boardgame.io/commit/850df19)] Updates on files
+- \[[10c9a3e](https://github.com/boardgameio/boardgame.io/commit/10c9a3e)] Updated with the latest blog posts
+- \[[046c158](https://github.com/boardgameio/boardgame.io/commit/046c158)] Updated with the latest blog posts
+- \[[c49be9c](https://github.com/boardgameio/boardgame.io/commit/c49be9c)] Updated with the latest blog posts
+- \[[3cfd226](https://github.com/boardgameio/boardgame.io/commit/3cfd226)] Updated with the latest blog posts
+- \[[0d4980c](https://github.com/boardgameio/boardgame.io/commit/0d4980c)] Updated with the latest blog posts
+- \[[497bb59](https://github.com/boardgameio/boardgame.io/commit/497bb59)] Updated with the latest blog posts
+- \[[c333ecd](https://github.com/boardgameio/boardgame.io/commit/c333ecd)] Updated with the latest blog posts
+- \[[06a6f88](https://github.com/boardgameio/boardgame.io/commit/06a6f88)] Updated with the latest blog posts
+- \[[5c73099](https://github.com/boardgameio/boardgame.io/commit/5c73099)] Updated with the latest blog posts
+- \[[0063d3f](https://github.com/boardgameio/boardgame.io/commit/0063d3f)] Updated with the latest blog posts
+- \[[3838411](https://github.com/boardgameio/boardgame.io/commit/3838411)] Updated with the latest blog posts
+- \[[12b0665](https://github.com/boardgameio/boardgame.io/commit/12b0665)] Updated with the latest blog posts
+- \[[034dd28](https://github.com/boardgameio/boardgame.io/commit/034dd28)] Updated with the latest blog posts
+- \[[2211d04](https://github.com/boardgameio/boardgame.io/commit/2211d04)] Updated with the latest blog posts
+- \[[ba39410](https://github.com/boardgameio/boardgame.io/commit/ba39410)] GitHub traffic
+- \[[8d38278](https://github.com/boardgameio/boardgame.io/commit/8d38278)] Updated with the latest blog posts
+- \[[41ccb19](https://github.com/boardgameio/boardgame.io/commit/41ccb19)] Updated with the latest blog posts
+- \[[152cdaa](https://github.com/boardgameio/boardgame.io/commit/152cdaa)] Updated with the latest blog posts
+- \[[f77146e](https://github.com/boardgameio/boardgame.io/commit/f77146e)] Updated with the latest blog posts
+- \[[7a4a362](https://github.com/boardgameio/boardgame.io/commit/7a4a362)] Updated with the latest blog posts
+- \[[8bd6f28](https://github.com/boardgameio/boardgame.io/commit/8bd6f28)] Updated with the latest blog posts
+- \[[43fe69e](https://github.com/boardgameio/boardgame.io/commit/43fe69e)] Updated with the latest blog posts
+- \[[61d14df](https://github.com/boardgameio/boardgame.io/commit/61d14df)] Updated with the latest blog posts
+- \[[13b034c](https://github.com/boardgameio/boardgame.io/commit/13b034c)] Updated with the latest blog posts
+- \[[89a5ceb](https://github.com/boardgameio/boardgame.io/commit/89a5ceb)] Updated with the latest blog posts
+- \[[ca2e783](https://github.com/boardgameio/boardgame.io/commit/ca2e783)] Updated with the latest blog posts
+- \[[bd6aaa1](https://github.com/boardgameio/boardgame.io/commit/bd6aaa1)] Updated with the latest blog posts
+- \[[e8725c3](https://github.com/boardgameio/boardgame.io/commit/e8725c3)] Updated with the latest blog posts
+- \[[47f760e](https://github.com/boardgameio/boardgame.io/commit/47f760e)] Updated with the latest blog posts
+- \[[a6f1fef](https://github.com/boardgameio/boardgame.io/commit/a6f1fef)] GitHub traffic
+- \[[ac66940](https://github.com/boardgameio/boardgame.io/commit/ac66940)] Updated with the latest blog posts
+- \[[627806d](https://github.com/boardgameio/boardgame.io/commit/627806d)] Updated with the latest blog posts
+- \[[06a3673](https://github.com/boardgameio/boardgame.io/commit/06a3673)] Updated with the latest blog posts
+- \[[cccb1ec](https://github.com/boardgameio/boardgame.io/commit/cccb1ec)] Updated with the latest blog posts
+- \[[a16446e](https://github.com/boardgameio/boardgame.io/commit/a16446e)] Updated with the latest blog posts
+- \[[8dde9da](https://github.com/boardgameio/boardgame.io/commit/8dde9da)] Updated with the latest blog posts
+- \[[5f13d26](https://github.com/boardgameio/boardgame.io/commit/5f13d26)] Updated with the latest blog posts
+- \[[2bc9582](https://github.com/boardgameio/boardgame.io/commit/2bc9582)] Updated with the latest blog posts
+- \[[8fb62cd](https://github.com/boardgameio/boardgame.io/commit/8fb62cd)] Updated with the latest blog posts
+- \[[bff8ec8](https://github.com/boardgameio/boardgame.io/commit/bff8ec8)] Optimised images with calibre/image-actions
+- \[[25ab1ca](https://github.com/boardgameio/boardgame.io/commit/25ab1ca)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[c92f3ce](https://github.com/boardgameio/boardgame.io/commit/c92f3ce)] Updates on files
+- \[[34fd56c](https://github.com/boardgameio/boardgame.io/commit/34fd56c)] Updated with the latest blog posts
+- \[[c28142b](https://github.com/boardgameio/boardgame.io/commit/c28142b)] Updated with the latest blog posts
+- \[[b0d76b2](https://github.com/boardgameio/boardgame.io/commit/b0d76b2)] Updated with the latest blog posts
+- \[[205a36f](https://github.com/boardgameio/boardgame.io/commit/205a36f)] Updated with the latest blog posts
+- \[[bd8cdca](https://github.com/boardgameio/boardgame.io/commit/bd8cdca)] Updated with the latest blog posts
+- \[[2eaaf54](https://github.com/boardgameio/boardgame.io/commit/2eaaf54)] Updated with the latest blog posts
+- \[[307e261](https://github.com/boardgameio/boardgame.io/commit/307e261)] Updated with the latest blog posts
+- \[[5c1273f](https://github.com/boardgameio/boardgame.io/commit/5c1273f)] Updated with the latest blog posts
+- \[[06861b0](https://github.com/boardgameio/boardgame.io/commit/06861b0)] GitHub traffic
+- \[[84c8819](https://github.com/boardgameio/boardgame.io/commit/84c8819)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[6779e8b](https://github.com/boardgameio/boardgame.io/commit/6779e8b)] Updates on files
+- \[[8d8702f](https://github.com/boardgameio/boardgame.io/commit/8d8702f)] Updated with the latest blog posts
+- \[[9e41d4d](https://github.com/boardgameio/boardgame.io/commit/9e41d4d)] Updated with the latest blog posts
+- \[[1cf268e](https://github.com/boardgameio/boardgame.io/commit/1cf268e)] Updated with the latest blog posts
+- \[[d02f81f](https://github.com/boardgameio/boardgame.io/commit/d02f81f)] Merge pull request #481 from AlexRogalskiy/configure-zappr
+- \[[c15a962](https://github.com/boardgameio/boardgame.io/commit/c15a962)] Merge branch 'master' into configure-zappr
+- \[[7c04fec](https://github.com/boardgameio/boardgame.io/commit/7c04fec)] Merge branch 'csb-oh1e3'
+- \[[b70d069](https://github.com/boardgameio/boardgame.io/commit/b70d069)] Updates on filez
+- \[[d87fd1f](https://github.com/boardgameio/boardgame.io/commit/d87fd1f)] initial commit
+- \[[b44b8a6](https://github.com/boardgameio/boardgame.io/commit/b44b8a6)] Updates on sandbox config
+- \[[d860b39](https://github.com/boardgameio/boardgame.io/commit/d860b39)] Create /.zappr.yaml
+- \[[6ce0856](https://github.com/boardgameio/boardgame.io/commit/6ce0856)] Updated with the latest blog posts
+- \[[456a8f5](https://github.com/boardgameio/boardgame.io/commit/456a8f5)] Updated with the latest blog posts
+- \[[607b463](https://github.com/boardgameio/boardgame.io/commit/607b463)] Updated with the latest blog posts
+- \[[2598ff0](https://github.com/boardgameio/boardgame.io/commit/2598ff0)] Updated with the latest blog posts
+- \[[edf45ad](https://github.com/boardgameio/boardgame.io/commit/edf45ad)] Updated with the latest blog posts
+- \[[3e09afc](https://github.com/boardgameio/boardgame.io/commit/3e09afc)] Optimised images with calibre/image-actions
+- \[[145e28c](https://github.com/boardgameio/boardgame.io/commit/145e28c)] Updates on files
+- \[[3149260](https://github.com/boardgameio/boardgame.io/commit/3149260)] Updated with the latest blog posts
+- \[[de9b72f](https://github.com/boardgameio/boardgame.io/commit/de9b72f)] Updated with the latest blog posts
+- \[[ad07ee6](https://github.com/boardgameio/boardgame.io/commit/ad07ee6)] Updated with the latest blog posts
+- \[[8df7536](https://github.com/boardgameio/boardgame.io/commit/8df7536)] Updated with the latest blog posts
+- \[[0aa67ce](https://github.com/boardgameio/boardgame.io/commit/0aa67ce)] Updated with the latest blog posts
+- \[[29ed951](https://github.com/boardgameio/boardgame.io/commit/29ed951)] Updated with the latest blog posts
+- \[[87c0fea](https://github.com/boardgameio/boardgame.io/commit/87c0fea)] Updated with the latest blog posts
+- \[[fa4efce](https://github.com/boardgameio/boardgame.io/commit/fa4efce)] Updated with the latest blog posts
+- \[[9f022bd](https://github.com/boardgameio/boardgame.io/commit/9f022bd)] Updated with the latest blog posts
+- \[[cdcbeac](https://github.com/boardgameio/boardgame.io/commit/cdcbeac)] Updated with the latest blog posts
+- \[[74f5cd9](https://github.com/boardgameio/boardgame.io/commit/74f5cd9)] GitHub traffic
+- \[[fe0a89d](https://github.com/boardgameio/boardgame.io/commit/fe0a89d)] Updated with the latest blog posts
+- \[[fcc55e1](https://github.com/boardgameio/boardgame.io/commit/fcc55e1)] Updated with the latest blog posts
+- \[[6cab9e9](https://github.com/boardgameio/boardgame.io/commit/6cab9e9)] Updated with the latest blog posts
+- \[[45bc862](https://github.com/boardgameio/boardgame.io/commit/45bc862)] Updated with the latest blog posts
+- \[[bad16ba](https://github.com/boardgameio/boardgame.io/commit/bad16ba)] Updated with the latest blog posts
+- \[[c498515](https://github.com/boardgameio/boardgame.io/commit/c498515)] Updated with the latest blog posts
+- \[[4a13806](https://github.com/boardgameio/boardgame.io/commit/4a13806)] Updated with the latest blog posts
+- \[[c0964ef](https://github.com/boardgameio/boardgame.io/commit/c0964ef)] Updated with the latest blog posts
+- \[[339813c](https://github.com/boardgameio/boardgame.io/commit/339813c)] Updated with the latest blog posts
+- \[[053fbcd](https://github.com/boardgameio/boardgame.io/commit/053fbcd)] Updated with the latest blog posts
+- \[[b805192](https://github.com/boardgameio/boardgame.io/commit/b805192)] Updated with the latest blog posts
+- \[[be0f12d](https://github.com/boardgameio/boardgame.io/commit/be0f12d)] Updated with the latest blog posts
+- \[[e86eba2](https://github.com/boardgameio/boardgame.io/commit/e86eba2)] Updated with the latest blog posts
+- \[[a3f7fe3](https://github.com/boardgameio/boardgame.io/commit/a3f7fe3)] Updated with the latest blog posts
+- \[[18930dd](https://github.com/boardgameio/boardgame.io/commit/18930dd)] Updated with the latest blog posts
+- \[[c1ae256](https://github.com/boardgameio/boardgame.io/commit/c1ae256)] Updated with the latest blog posts
+- \[[b7563e5](https://github.com/boardgameio/boardgame.io/commit/b7563e5)] GitHub traffic
+- \[[90ab171](https://github.com/boardgameio/boardgame.io/commit/90ab171)] Updated with the latest blog posts
+- \[[0c6424c](https://github.com/boardgameio/boardgame.io/commit/0c6424c)] Updated with the latest blog posts
+- \[[7979032](https://github.com/boardgameio/boardgame.io/commit/7979032)] Updated with the latest blog posts
+- \[[f264db6](https://github.com/boardgameio/boardgame.io/commit/f264db6)] Updated with the latest blog posts
+- \[[e256c17](https://github.com/boardgameio/boardgame.io/commit/e256c17)] Updated with the latest blog posts
+- \[[82a7e2e](https://github.com/boardgameio/boardgame.io/commit/82a7e2e)] Updated with the latest blog posts
+- \[[2d57205](https://github.com/boardgameio/boardgame.io/commit/2d57205)] Updated with the latest blog posts
+- \[[34ad81d](https://github.com/boardgameio/boardgame.io/commit/34ad81d)] Updated with the latest blog posts
+- \[[2126013](https://github.com/boardgameio/boardgame.io/commit/2126013)] Updated with the latest blog posts
+- \[[718137a](https://github.com/boardgameio/boardgame.io/commit/718137a)] Updated with the latest blog posts
+- \[[a3ddf95](https://github.com/boardgameio/boardgame.io/commit/a3ddf95)] GitHub traffic
+- \[[243f792](https://github.com/boardgameio/boardgame.io/commit/243f792)] Updated with the latest blog posts
+- \[[57041cf](https://github.com/boardgameio/boardgame.io/commit/57041cf)] Updated with the latest blog posts
+- \[[168a12a](https://github.com/boardgameio/boardgame.io/commit/168a12a)] Updated with the latest blog posts
+- \[[75c61a7](https://github.com/boardgameio/boardgame.io/commit/75c61a7)] Updated with the latest blog posts
+- \[[70f8a74](https://github.com/boardgameio/boardgame.io/commit/70f8a74)] Updated with the latest blog posts
+- \[[ec7fee8](https://github.com/boardgameio/boardgame.io/commit/ec7fee8)] Updated with the latest blog posts
+- \[[477b631](https://github.com/boardgameio/boardgame.io/commit/477b631)] Updated with the latest blog posts
+- \[[629eed3](https://github.com/boardgameio/boardgame.io/commit/629eed3)] Updated with the latest blog posts
+- \[[4f43061](https://github.com/boardgameio/boardgame.io/commit/4f43061)] Updated with the latest blog posts
+- \[[320c2dd](https://github.com/boardgameio/boardgame.io/commit/320c2dd)] Updated with the latest blog posts
+- \[[240e3f5](https://github.com/boardgameio/boardgame.io/commit/240e3f5)] Updated with the latest blog posts
+- \[[2e234f4](https://github.com/boardgameio/boardgame.io/commit/2e234f4)] Updated with the latest blog posts
+- \[[3a81d49](https://github.com/boardgameio/boardgame.io/commit/3a81d49)] Updated with the latest blog posts
+- \[[9f603c9](https://github.com/boardgameio/boardgame.io/commit/9f603c9)] Updated with the latest blog posts
+- \[[e54cc60](https://github.com/boardgameio/boardgame.io/commit/e54cc60)] Updated with the latest blog posts
+- \[[4246cbe](https://github.com/boardgameio/boardgame.io/commit/4246cbe)] Optimised images with calibre/image-actions
+- \[[8bad729](https://github.com/boardgameio/boardgame.io/commit/8bad729)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[8ad15ac](https://github.com/boardgameio/boardgame.io/commit/8ad15ac)] Updates on files
+- \[[3f8a20f](https://github.com/boardgameio/boardgame.io/commit/3f8a20f)] Updated with the latest blog posts
+- \[[b8ec876](https://github.com/boardgameio/boardgame.io/commit/b8ec876)] GitHub traffic
+- \[[3191902](https://github.com/boardgameio/boardgame.io/commit/3191902)] Updated with the latest blog posts
+- \[[01a6275](https://github.com/boardgameio/boardgame.io/commit/01a6275)] Updated with the latest blog posts
+- \[[1976f7b](https://github.com/boardgameio/boardgame.io/commit/1976f7b)] Updated with the latest blog posts
+- \[[c98a85f](https://github.com/boardgameio/boardgame.io/commit/c98a85f)] Updated with the latest blog posts
+- \[[a44e8ed](https://github.com/boardgameio/boardgame.io/commit/a44e8ed)] Updated with the latest blog posts
+- \[[5311146](https://github.com/boardgameio/boardgame.io/commit/5311146)] Updated with the latest blog posts
+- \[[057005a](https://github.com/boardgameio/boardgame.io/commit/057005a)] Updated with the latest blog posts
+- \[[a9895e8](https://github.com/boardgameio/boardgame.io/commit/a9895e8)] Updated with the latest blog posts
+- \[[b428e36](https://github.com/boardgameio/boardgame.io/commit/b428e36)] Updated with the latest blog posts
+- \[[30f34e7](https://github.com/boardgameio/boardgame.io/commit/30f34e7)] Updated with the latest blog posts
+- \[[83a4b3b](https://github.com/boardgameio/boardgame.io/commit/83a4b3b)] Updated with the latest blog posts
+- \[[1482a58](https://github.com/boardgameio/boardgame.io/commit/1482a58)] Updated with the latest blog posts
+- \[[bbea6a7](https://github.com/boardgameio/boardgame.io/commit/bbea6a7)] Updated with the latest blog posts
+- \[[1128494](https://github.com/boardgameio/boardgame.io/commit/1128494)] Updated with the latest blog posts
+- \[[2f90a40](https://github.com/boardgameio/boardgame.io/commit/2f90a40)] Updated with the latest blog posts
+- \[[74e0b2d](https://github.com/boardgameio/boardgame.io/commit/74e0b2d)] Updated with the latest blog posts
+- \[[2d976ce](https://github.com/boardgameio/boardgame.io/commit/2d976ce)] Updated with the latest blog posts
+- \[[bdde613](https://github.com/boardgameio/boardgame.io/commit/bdde613)] Updated with the latest blog posts
+- \[[b8ef75d](https://github.com/boardgameio/boardgame.io/commit/b8ef75d)] Updated with the latest blog posts
+- \[[b5eb95d](https://github.com/boardgameio/boardgame.io/commit/b5eb95d)] GitHub traffic
+- \[[b4fb479](https://github.com/boardgameio/boardgame.io/commit/b4fb479)] Updated with the latest blog posts
+- \[[faad9e1](https://github.com/boardgameio/boardgame.io/commit/faad9e1)] Updates on files
+- \[[7afe88e](https://github.com/boardgameio/boardgame.io/commit/7afe88e)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[3672c4b](https://github.com/boardgameio/boardgame.io/commit/3672c4b)] Updates on files
+- \[[9c7331d](https://github.com/boardgameio/boardgame.io/commit/9c7331d)] Updated with the latest blog posts
+- \[[ea5f7fb](https://github.com/boardgameio/boardgame.io/commit/ea5f7fb)] Updated with the latest blog posts
+- \[[52d3be2](https://github.com/boardgameio/boardgame.io/commit/52d3be2)] Updated with the latest blog posts
+- \[[3b8c3f3](https://github.com/boardgameio/boardgame.io/commit/3b8c3f3)] Updated with the latest blog posts
+- \[[291768b](https://github.com/boardgameio/boardgame.io/commit/291768b)] Updated with the latest blog posts
+- \[[78961ad](https://github.com/boardgameio/boardgame.io/commit/78961ad)] Updated with the latest blog posts
+- \[[23b9882](https://github.com/boardgameio/boardgame.io/commit/23b9882)] Updated with the latest blog posts
+- \[[e3174d3](https://github.com/boardgameio/boardgame.io/commit/e3174d3)] Optimised images with calibre/image-actions
+- \[[2ee241a](https://github.com/boardgameio/boardgame.io/commit/2ee241a)] Updates on files
+- \[[19671b6](https://github.com/boardgameio/boardgame.io/commit/19671b6)] Updated with the latest blog posts
+- \[[1871ca3](https://github.com/boardgameio/boardgame.io/commit/1871ca3)] Updated with the latest blog posts
+- \[[f374e58](https://github.com/boardgameio/boardgame.io/commit/f374e58)] Updated with the latest blog posts
+- \[[b6e5475](https://github.com/boardgameio/boardgame.io/commit/b6e5475)] Updated with the latest blog posts
+- \[[1db54d1](https://github.com/boardgameio/boardgame.io/commit/1db54d1)] Updated with the latest blog posts
+- \[[13076e8](https://github.com/boardgameio/boardgame.io/commit/13076e8)] Updated with the latest blog posts
+- \[[952eb99](https://github.com/boardgameio/boardgame.io/commit/952eb99)] GitHub traffic
+- \[[f969c6a](https://github.com/boardgameio/boardgame.io/commit/f969c6a)] Updated with the latest blog posts
+- \[[5279a02](https://github.com/boardgameio/boardgame.io/commit/5279a02)] Updated with the latest blog posts
+- \[[a22e6b9](https://github.com/boardgameio/boardgame.io/commit/a22e6b9)] Updated with the latest blog posts
+- \[[dedfb5c](https://github.com/boardgameio/boardgame.io/commit/dedfb5c)] Updated with the latest blog posts
+- \[[fe92f5a](https://github.com/boardgameio/boardgame.io/commit/fe92f5a)] Updated with the latest blog posts
+- \[[409d313](https://github.com/boardgameio/boardgame.io/commit/409d313)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[b771837](https://github.com/boardgameio/boardgame.io/commit/b771837)] Updates on files
+- \[[35ad7a6](https://github.com/boardgameio/boardgame.io/commit/35ad7a6)] Updated with the latest blog posts
+- \[[66af423](https://github.com/boardgameio/boardgame.io/commit/66af423)] Updated with the latest blog posts
+- \[[1ebd1ef](https://github.com/boardgameio/boardgame.io/commit/1ebd1ef)] Updated with the latest blog posts
+- \[[82d33d2](https://github.com/boardgameio/boardgame.io/commit/82d33d2)] Updated with the latest blog posts
+- \[[790fb16](https://github.com/boardgameio/boardgame.io/commit/790fb16)] Updated with the latest blog posts
+- \[[693474f](https://github.com/boardgameio/boardgame.io/commit/693474f)] Updated with the latest blog posts
+- \[[58658f6](https://github.com/boardgameio/boardgame.io/commit/58658f6)] Updated with the latest blog posts
+- \[[5718429](https://github.com/boardgameio/boardgame.io/commit/5718429)] Updated with the latest blog posts
+- \[[6f19bfc](https://github.com/boardgameio/boardgame.io/commit/6f19bfc)] Optimised images with calibre/image-actions
+- \[[ab8b337](https://github.com/boardgameio/boardgame.io/commit/ab8b337)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[e16d008](https://github.com/boardgameio/boardgame.io/commit/e16d008)] Updates on files
+- \[[6ca1394](https://github.com/boardgameio/boardgame.io/commit/6ca1394)] Updated with the latest blog posts
+- \[[abd1f72](https://github.com/boardgameio/boardgame.io/commit/abd1f72)] Updated with the latest blog posts
+- \[[29a1992](https://github.com/boardgameio/boardgame.io/commit/29a1992)] Updated with the latest blog posts
+- \[[6d046ca](https://github.com/boardgameio/boardgame.io/commit/6d046ca)] Updated with the latest blog posts
+- \[[c5f9db1](https://github.com/boardgameio/boardgame.io/commit/c5f9db1)] Updated with the latest blog posts
+- \[[bdaf89b](https://github.com/boardgameio/boardgame.io/commit/bdaf89b)] Updated with the latest blog posts
+- \[[cc160a3](https://github.com/boardgameio/boardgame.io/commit/cc160a3)] Updated with the latest blog posts
+- \[[0c02993](https://github.com/boardgameio/boardgame.io/commit/0c02993)] Updated with the latest blog posts
+- \[[fee08dc](https://github.com/boardgameio/boardgame.io/commit/fee08dc)] Updated with the latest blog posts
+- \[[cc0d2ec](https://github.com/boardgameio/boardgame.io/commit/cc0d2ec)] Updated with the latest blog posts
+- \[[c9edece](https://github.com/boardgameio/boardgame.io/commit/c9edece)] Updated with the latest blog posts
+- \[[b86d78a](https://github.com/boardgameio/boardgame.io/commit/b86d78a)] Updated with the latest blog posts
+- \[[1b04c00](https://github.com/boardgameio/boardgame.io/commit/1b04c00)] GitHub traffic
+- \[[351fd93](https://github.com/boardgameio/boardgame.io/commit/351fd93)] Auto update markdown TOC
+- \[[16348ef](https://github.com/boardgameio/boardgame.io/commit/16348ef)] Updates on files
+- \[[e49e32c](https://github.com/boardgameio/boardgame.io/commit/e49e32c)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[ee158fb](https://github.com/boardgameio/boardgame.io/commit/ee158fb)] Updates on files
+- \[[6cab209](https://github.com/boardgameio/boardgame.io/commit/6cab209)] Updated with the latest blog posts
+- \[[4369af7](https://github.com/boardgameio/boardgame.io/commit/4369af7)] Updates on files
+- \[[8039231](https://github.com/boardgameio/boardgame.io/commit/8039231)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[7ecfdba](https://github.com/boardgameio/boardgame.io/commit/7ecfdba)] Updates on files
+- \[[1641b91](https://github.com/boardgameio/boardgame.io/commit/1641b91)] Updated with the latest blog posts
+- \[[c21ad48](https://github.com/boardgameio/boardgame.io/commit/c21ad48)] Updated with the latest blog posts
+- \[[293dfaa](https://github.com/boardgameio/boardgame.io/commit/293dfaa)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[ee6f6da](https://github.com/boardgameio/boardgame.io/commit/ee6f6da)] Updates on files
+- \[[079dc58](https://github.com/boardgameio/boardgame.io/commit/079dc58)] Updated with the latest blog posts
+- \[[8c50b08](https://github.com/boardgameio/boardgame.io/commit/8c50b08)] Updated with the latest blog posts
+- \[[427ef6e](https://github.com/boardgameio/boardgame.io/commit/427ef6e)] Updated with the latest blog posts
+- \[[987ab2c](https://github.com/boardgameio/boardgame.io/commit/987ab2c)] Updated with the latest blog posts
+- \[[0e64804](https://github.com/boardgameio/boardgame.io/commit/0e64804)] Updated with the latest blog posts
+- \[[14e066d](https://github.com/boardgameio/boardgame.io/commit/14e066d)] Updated with the latest blog posts
+- \[[10c4149](https://github.com/boardgameio/boardgame.io/commit/10c4149)] Updated with the latest blog posts
+- \[[a0204b3](https://github.com/boardgameio/boardgame.io/commit/a0204b3)] Updated with the latest blog posts
+- \[[3789b26](https://github.com/boardgameio/boardgame.io/commit/3789b26)] Updated with the latest blog posts
+- \[[8d3f453](https://github.com/boardgameio/boardgame.io/commit/8d3f453)] Updated with the latest blog posts
+- \[[b86f13e](https://github.com/boardgameio/boardgame.io/commit/b86f13e)] Updated with the latest blog posts
+- \[[64d9702](https://github.com/boardgameio/boardgame.io/commit/64d9702)] Updated with the latest blog posts
+- \[[1aafcc5](https://github.com/boardgameio/boardgame.io/commit/1aafcc5)] Updated with the latest blog posts
+- \[[d4c1a9c](https://github.com/boardgameio/boardgame.io/commit/d4c1a9c)] Optimised images with calibre/image-actions
+- \[[ec94bea](https://github.com/boardgameio/boardgame.io/commit/ec94bea)] Updates on files
+- \[[0264c40](https://github.com/boardgameio/boardgame.io/commit/0264c40)] Updated with the latest blog posts
+- \[[be62cea](https://github.com/boardgameio/boardgame.io/commit/be62cea)] GitHub traffic
+- \[[617ad1a](https://github.com/boardgameio/boardgame.io/commit/617ad1a)] Updated with the latest blog posts
+- \[[c8a4cbc](https://github.com/boardgameio/boardgame.io/commit/c8a4cbc)] Updated with the latest blog posts
+- \[[fe53fac](https://github.com/boardgameio/boardgame.io/commit/fe53fac)] Updates on files
+- \[[6a0d7a6](https://github.com/boardgameio/boardgame.io/commit/6a0d7a6)] Updates on files
+- \[[11f46fc](https://github.com/boardgameio/boardgame.io/commit/11f46fc)] Updated with the latest blog posts
+- \[[39de4c7](https://github.com/boardgameio/boardgame.io/commit/39de4c7)] Updated with the latest blog posts
+- \[[6aa1648](https://github.com/boardgameio/boardgame.io/commit/6aa1648)] Updated with the latest blog posts
+- \[[0e6d965](https://github.com/boardgameio/boardgame.io/commit/0e6d965)] Updated with the latest blog posts
+- \[[29ab585](https://github.com/boardgameio/boardgame.io/commit/29ab585)] Updated with the latest blog posts
+- \[[657d568](https://github.com/boardgameio/boardgame.io/commit/657d568)] Updated with the latest blog posts
+- \[[f9328ec](https://github.com/boardgameio/boardgame.io/commit/f9328ec)] Updated with the latest blog posts
+- \[[b0fbfea](https://github.com/boardgameio/boardgame.io/commit/b0fbfea)] Updated with the latest blog posts
+- \[[f45cf1b](https://github.com/boardgameio/boardgame.io/commit/f45cf1b)] Updated with the latest blog posts
+- \[[851b5a5](https://github.com/boardgameio/boardgame.io/commit/851b5a5)] Updated with the latest blog posts
+- \[[5f7a935](https://github.com/boardgameio/boardgame.io/commit/5f7a935)] Updated with the latest blog posts
+- \[[d3a413b](https://github.com/boardgameio/boardgame.io/commit/d3a413b)] Updated with the latest blog posts
+- \[[7edc783](https://github.com/boardgameio/boardgame.io/commit/7edc783)] Updated with the latest blog posts
+- \[[bf6168a](https://github.com/boardgameio/boardgame.io/commit/bf6168a)] Updated with the latest blog posts
+- \[[ef4401c](https://github.com/boardgameio/boardgame.io/commit/ef4401c)] Updated with the latest blog posts
+- \[[371b1de](https://github.com/boardgameio/boardgame.io/commit/371b1de)] Updated with the latest blog posts
+- \[[d15713f](https://github.com/boardgameio/boardgame.io/commit/d15713f)] Updated with the latest blog posts
+- \[[a2faad5](https://github.com/boardgameio/boardgame.io/commit/a2faad5)] Updated with the latest blog posts
+- \[[a799e5f](https://github.com/boardgameio/boardgame.io/commit/a799e5f)] Updated with the latest blog posts
+- \[[8b1fb41](https://github.com/boardgameio/boardgame.io/commit/8b1fb41)] Updated with the latest blog posts
+- \[[9f3e958](https://github.com/boardgameio/boardgame.io/commit/9f3e958)] Updated with the latest blog posts
+- \[[6babcb6](https://github.com/boardgameio/boardgame.io/commit/6babcb6)] Updated with the latest blog posts
+- \[[cfc211a](https://github.com/boardgameio/boardgame.io/commit/cfc211a)] Updated with the latest blog posts
+- \[[c105e2f](https://github.com/boardgameio/boardgame.io/commit/c105e2f)] Updated with the latest blog posts
+- \[[44f3574](https://github.com/boardgameio/boardgame.io/commit/44f3574)] Auto update markdown TOC
+- \[[2355ac4](https://github.com/boardgameio/boardgame.io/commit/2355ac4)] Updates on files
+- \[[58ded1d](https://github.com/boardgameio/boardgame.io/commit/58ded1d)] Updates on files
+- \[[e415590](https://github.com/boardgameio/boardgame.io/commit/e415590)] Updates on files
+- \[[0614464](https://github.com/boardgameio/boardgame.io/commit/0614464)] Updates on files
+- \[[0c1310f](https://github.com/boardgameio/boardgame.io/commit/0c1310f)] Updates on files
+- \[[cc9a04a](https://github.com/boardgameio/boardgame.io/commit/cc9a04a)] Updates on files
+- \[[834dafc](https://github.com/boardgameio/boardgame.io/commit/834dafc)] Updates on files
+- \[[4b4c2b4](https://github.com/boardgameio/boardgame.io/commit/4b4c2b4)] Updates on files
+- \[[79bff08](https://github.com/boardgameio/boardgame.io/commit/79bff08)] Updates on files
+- \[[52235b5](https://github.com/boardgameio/boardgame.io/commit/52235b5)] Updates on files
+- \[[47c6537](https://github.com/boardgameio/boardgame.io/commit/47c6537)] Updates on files
+- \[[ba3bc26](https://github.com/boardgameio/boardgame.io/commit/ba3bc26)] Updates on files
+- \[[c37dbb1](https://github.com/boardgameio/boardgame.io/commit/c37dbb1)] Updates on files
+- \[[1f8975b](https://github.com/boardgameio/boardgame.io/commit/1f8975b)] Updates on files
+- \[[aa26c50](https://github.com/boardgameio/boardgame.io/commit/aa26c50)] Updates on files
+- \[[6edda7f](https://github.com/boardgameio/boardgame.io/commit/6edda7f)] Updates on files
+- \[[e15e292](https://github.com/boardgameio/boardgame.io/commit/e15e292)] Updates on files
+- \[[e90de67](https://github.com/boardgameio/boardgame.io/commit/e90de67)] Updates on files
+- \[[9a5c192](https://github.com/boardgameio/boardgame.io/commit/9a5c192)] Updates on files
+- \[[69ce981](https://github.com/boardgameio/boardgame.io/commit/69ce981)] updates on files
+- \[[6e0fa21](https://github.com/boardgameio/boardgame.io/commit/6e0fa21)] Updates on files
+- \[[7d44250](https://github.com/boardgameio/boardgame.io/commit/7d44250)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[3b7dcc4](https://github.com/boardgameio/boardgame.io/commit/3b7dcc4)] Updates on files
+- \[[3507c6c](https://github.com/boardgameio/boardgame.io/commit/3507c6c)] Updated with the latest blog posts
+- \[[6e56205](https://github.com/boardgameio/boardgame.io/commit/6e56205)] Updated with the latest blog posts
+- \[[a63fe08](https://github.com/boardgameio/boardgame.io/commit/a63fe08)] Updated with the latest blog posts
+- \[[cf216e3](https://github.com/boardgameio/boardgame.io/commit/cf216e3)] Updated with the latest blog posts
+- \[[c8011ec](https://github.com/boardgameio/boardgame.io/commit/c8011ec)] Updated with the latest blog posts
+- \[[9eddd06](https://github.com/boardgameio/boardgame.io/commit/9eddd06)] Updated with the latest blog posts
+- \[[544304d](https://github.com/boardgameio/boardgame.io/commit/544304d)] Updated with the latest blog posts
+- \[[faec67f](https://github.com/boardgameio/boardgame.io/commit/faec67f)] Updated with the latest blog posts
+- \[[afd29ab](https://github.com/boardgameio/boardgame.io/commit/afd29ab)] Updated with the latest blog posts
+- \[[559d8c1](https://github.com/boardgameio/boardgame.io/commit/559d8c1)] Updated with the latest blog posts
+- \[[6ffbefc](https://github.com/boardgameio/boardgame.io/commit/6ffbefc)] Updates on files
+- \[[0bee944](https://github.com/boardgameio/boardgame.io/commit/0bee944)] Updates on files
+- \[[4066f86](https://github.com/boardgameio/boardgame.io/commit/4066f86)] Updates on files
+- \[[6540b5c](https://github.com/boardgameio/boardgame.io/commit/6540b5c)] Updates on files
+- \[[bf988a6](https://github.com/boardgameio/boardgame.io/commit/bf988a6)] Updates on files
+- \[[dfce335](https://github.com/boardgameio/boardgame.io/commit/dfce335)] Updates on files
+- \[[05dc6fb](https://github.com/boardgameio/boardgame.io/commit/05dc6fb)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[f4e2f5e](https://github.com/boardgameio/boardgame.io/commit/f4e2f5e)] Updates on files
+- \[[a15704c](https://github.com/boardgameio/boardgame.io/commit/a15704c)] Optimised images with calibre/image-actions
+- \[[a80d07d](https://github.com/boardgameio/boardgame.io/commit/a80d07d)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[0c8d3c2](https://github.com/boardgameio/boardgame.io/commit/0c8d3c2)] Updates on files
+- \[[6c11a68](https://github.com/boardgameio/boardgame.io/commit/6c11a68)] Auto update markdown TOC
+- \[[f2442fa](https://github.com/boardgameio/boardgame.io/commit/f2442fa)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[12d1d7f](https://github.com/boardgameio/boardgame.io/commit/12d1d7f)] Updates on files
+- \[[813b296](https://github.com/boardgameio/boardgame.io/commit/813b296)] GitHub traffic
+- \[[3874068](https://github.com/boardgameio/boardgame.io/commit/3874068)] Updates on files
+- \[[c74cff9](https://github.com/boardgameio/boardgame.io/commit/c74cff9)] Updates on files
+- \[[2cece68](https://github.com/boardgameio/boardgame.io/commit/2cece68)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[871f956](https://github.com/boardgameio/boardgame.io/commit/871f956)] Updates on files
+- \[[3b3dad4](https://github.com/boardgameio/boardgame.io/commit/3b3dad4)] Updated with the latest blog posts
+- \[[dfae227](https://github.com/boardgameio/boardgame.io/commit/dfae227)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[4dab273](https://github.com/boardgameio/boardgame.io/commit/4dab273)] Updates on files
+- \[[ad47c6e](https://github.com/boardgameio/boardgame.io/commit/ad47c6e)] Updated with the latest blog posts
+- \[[c5b4473](https://github.com/boardgameio/boardgame.io/commit/c5b4473)] Updated with the latest blog posts
+- \[[dc63d2c](https://github.com/boardgameio/boardgame.io/commit/dc63d2c)] Updated with the latest blog posts
+- \[[ab0b474](https://github.com/boardgameio/boardgame.io/commit/ab0b474)] Updated with the latest blog posts
+- \[[36a3b19](https://github.com/boardgameio/boardgame.io/commit/36a3b19)] Updated with the latest blog posts
+- \[[d7b62e5](https://github.com/boardgameio/boardgame.io/commit/d7b62e5)] Updated with the latest blog posts
+- \[[af6d52d](https://github.com/boardgameio/boardgame.io/commit/af6d52d)] Updated with the latest blog posts
+- \[[3755b02](https://github.com/boardgameio/boardgame.io/commit/3755b02)] Updated with the latest blog posts
+- \[[e4ff85c](https://github.com/boardgameio/boardgame.io/commit/e4ff85c)] Updated with the latest blog posts
+- \[[cc28378](https://github.com/boardgameio/boardgame.io/commit/cc28378)] Updated with the latest blog posts
+- \[[3f845e5](https://github.com/boardgameio/boardgame.io/commit/3f845e5)] Updates on files
+- \[[e74d39f](https://github.com/boardgameio/boardgame.io/commit/e74d39f)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[f890c80](https://github.com/boardgameio/boardgame.io/commit/f890c80)] Updates on files
+- \[[627c899](https://github.com/boardgameio/boardgame.io/commit/627c899)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[877a4b8](https://github.com/boardgameio/boardgame.io/commit/877a4b8)] Updates on files
+- \[[51c9b66](https://github.com/boardgameio/boardgame.io/commit/51c9b66)] Auto update markdown TOC
+- \[[ff4547f](https://github.com/boardgameio/boardgame.io/commit/ff4547f)] Updates on files
+- \[[70731fc](https://github.com/boardgameio/boardgame.io/commit/70731fc)] Updates on files
+- \[[1e2fcbb](https://github.com/boardgameio/boardgame.io/commit/1e2fcbb)] Updates on files
+- \[[103349f](https://github.com/boardgameio/boardgame.io/commit/103349f)] Updates on files
+- \[[2e166d2](https://github.com/boardgameio/boardgame.io/commit/2e166d2)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[e526ed6](https://github.com/boardgameio/boardgame.io/commit/e526ed6)] Updates on files
+- \[[0ac1f57](https://github.com/boardgameio/boardgame.io/commit/0ac1f57)] Updated with the latest blog posts
+- \[[94958ed](https://github.com/boardgameio/boardgame.io/commit/94958ed)] Updated with the latest blog posts
+- \[[8c5df2f](https://github.com/boardgameio/boardgame.io/commit/8c5df2f)] Updated with the latest blog posts
+- \[[d6a8f8f](https://github.com/boardgameio/boardgame.io/commit/d6a8f8f)] Updated with the latest blog posts
+- \[[009a056](https://github.com/boardgameio/boardgame.io/commit/009a056)] Updated with the latest blog posts
+- \[[5d65c92](https://github.com/boardgameio/boardgame.io/commit/5d65c92)] Updated with the latest blog posts
+- \[[155a498](https://github.com/boardgameio/boardgame.io/commit/155a498)] Updated with the latest blog posts
+- \[[bed21c6](https://github.com/boardgameio/boardgame.io/commit/bed21c6)] Updated with the latest blog posts
+- \[[c74ebb1](https://github.com/boardgameio/boardgame.io/commit/c74ebb1)] Updated with the latest blog posts
+- \[[054460b](https://github.com/boardgameio/boardgame.io/commit/054460b)] Updated with the latest blog posts
+- \[[8581fba](https://github.com/boardgameio/boardgame.io/commit/8581fba)] Updates on files
+- \[[b8f9c2c](https://github.com/boardgameio/boardgame.io/commit/b8f9c2c)] Auto update markdown TOC
+- \[[0c9c607](https://github.com/boardgameio/boardgame.io/commit/0c9c607)] Updates on files
+- \[[beb1ad8](https://github.com/boardgameio/boardgame.io/commit/beb1ad8)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[d094a65](https://github.com/boardgameio/boardgame.io/commit/d094a65)] Updates on files
+- \[[fa3d5ad](https://github.com/boardgameio/boardgame.io/commit/fa3d5ad)] Updated with the latest blog posts
+- \[[f497524](https://github.com/boardgameio/boardgame.io/commit/f497524)] Updated with the latest blog posts
+- \[[ebc2058](https://github.com/boardgameio/boardgame.io/commit/ebc2058)] Updated with the latest blog posts
+- \[[2a0a3c6](https://github.com/boardgameio/boardgame.io/commit/2a0a3c6)] Updated with the latest blog posts
+- \[[4d9b24f](https://github.com/boardgameio/boardgame.io/commit/4d9b24f)] Updated with the latest blog posts
+- \[[c06f7c3](https://github.com/boardgameio/boardgame.io/commit/c06f7c3)] Updated with the latest blog posts
+- \[[bfd3b23](https://github.com/boardgameio/boardgame.io/commit/bfd3b23)] Updated with the latest blog posts
+- \[[d13e408](https://github.com/boardgameio/boardgame.io/commit/d13e408)] Updated with the latest blog posts
+- \[[617e670](https://github.com/boardgameio/boardgame.io/commit/617e670)] Updated with the latest blog posts
+- \[[60f4c45](https://github.com/boardgameio/boardgame.io/commit/60f4c45)] Updated with the latest blog posts
+- \[[a435440](https://github.com/boardgameio/boardgame.io/commit/a435440)] Auto update markdown TOC
+- \[[58c0d3f](https://github.com/boardgameio/boardgame.io/commit/58c0d3f)] Updates on files
+- \[[72c35a2](https://github.com/boardgameio/boardgame.io/commit/72c35a2)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[ddd8b34](https://github.com/boardgameio/boardgame.io/commit/ddd8b34)] Updates on files
+- \[[83f8e26](https://github.com/boardgameio/boardgame.io/commit/83f8e26)] Updated with the latest blog posts
+- \[[f7c323e](https://github.com/boardgameio/boardgame.io/commit/f7c323e)] Updated with the latest blog posts
+- \[[27da966](https://github.com/boardgameio/boardgame.io/commit/27da966)] Updated with the latest blog posts
+- \[[92f1a91](https://github.com/boardgameio/boardgame.io/commit/92f1a91)] Updated with the latest blog posts
+- \[[f3c352b](https://github.com/boardgameio/boardgame.io/commit/f3c352b)] Updated with the latest blog posts
+- \[[04e6dee](https://github.com/boardgameio/boardgame.io/commit/04e6dee)] Updated with the latest blog posts
+- \[[0effb3f](https://github.com/boardgameio/boardgame.io/commit/0effb3f)] Updated with the latest blog posts
+- \[[7a68a8f](https://github.com/boardgameio/boardgame.io/commit/7a68a8f)] Updated with the latest blog posts
+- \[[9a43d88](https://github.com/boardgameio/boardgame.io/commit/9a43d88)] Updated with the latest blog posts
+- \[[e926faa](https://github.com/boardgameio/boardgame.io/commit/e926faa)] Updated with the latest blog posts
+- \[[57823ba](https://github.com/boardgameio/boardgame.io/commit/57823ba)] Auto update markdown TOC
+- \[[bf64d9e](https://github.com/boardgameio/boardgame.io/commit/bf64d9e)] Updates on files
+- \[[2bf398f](https://github.com/boardgameio/boardgame.io/commit/2bf398f)] Updates on files
+- \[[0ef888e](https://github.com/boardgameio/boardgame.io/commit/0ef888e)] Optimised images with calibre/image-actions
+- \[[50d8c37](https://github.com/boardgameio/boardgame.io/commit/50d8c37)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[60010a1](https://github.com/boardgameio/boardgame.io/commit/60010a1)] Updates on files
+- \[[64c4dfb](https://github.com/boardgameio/boardgame.io/commit/64c4dfb)] Updated with the latest blog posts
+- \[[1d1ef77](https://github.com/boardgameio/boardgame.io/commit/1d1ef77)] Updated with the latest blog posts
+- \[[b8f8093](https://github.com/boardgameio/boardgame.io/commit/b8f8093)] Updated with the latest blog posts
+- \[[19691de](https://github.com/boardgameio/boardgame.io/commit/19691de)] Updated with the latest blog posts
+- \[[72ed739](https://github.com/boardgameio/boardgame.io/commit/72ed739)] Updated with the latest blog posts
+- \[[107b6ac](https://github.com/boardgameio/boardgame.io/commit/107b6ac)] GitHub traffic
+- \[[36f8e66](https://github.com/boardgameio/boardgame.io/commit/36f8e66)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[5dafd86](https://github.com/boardgameio/boardgame.io/commit/5dafd86)] Updates on files
+- \[[d64df51](https://github.com/boardgameio/boardgame.io/commit/d64df51)] Updated with the latest blog posts
+- \[[0d4be42](https://github.com/boardgameio/boardgame.io/commit/0d4be42)] Updated with the latest blog posts
+- \[[7f7e800](https://github.com/boardgameio/boardgame.io/commit/7f7e800)] Updated with the latest blog posts
+- \[[53cab7e](https://github.com/boardgameio/boardgame.io/commit/53cab7e)] Updated with the latest blog posts
+- \[[59ebe04](https://github.com/boardgameio/boardgame.io/commit/59ebe04)] Updates on files
+- \[[fd99a49](https://github.com/boardgameio/boardgame.io/commit/fd99a49)] Updates on files
+- \[[12a5c8d](https://github.com/boardgameio/boardgame.io/commit/12a5c8d)] Updates on files
+- \[[aa94eb3](https://github.com/boardgameio/boardgame.io/commit/aa94eb3)] Updates on files
+- \[[ea6e4a5](https://github.com/boardgameio/boardgame.io/commit/ea6e4a5)] Updates on files
+- \[[04c9cb1](https://github.com/boardgameio/boardgame.io/commit/04c9cb1)] Updates on files
+- \[[8f2d646](https://github.com/boardgameio/boardgame.io/commit/8f2d646)] Updates on files
+- \[[bdb1b84](https://github.com/boardgameio/boardgame.io/commit/bdb1b84)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[06223fd](https://github.com/boardgameio/boardgame.io/commit/06223fd)] Updates on files
+- \[[517770c](https://github.com/boardgameio/boardgame.io/commit/517770c)] Updated with the latest blog posts
+- \[[ea27300](https://github.com/boardgameio/boardgame.io/commit/ea27300)] Updated with the latest blog posts
+- \[[b33060a](https://github.com/boardgameio/boardgame.io/commit/b33060a)] Updates on files
+- \[[c847992](https://github.com/boardgameio/boardgame.io/commit/c847992)] Updates on files
+- \[[13d8722](https://github.com/boardgameio/boardgame.io/commit/13d8722)] Updates on files
+- \[[5446f5f](https://github.com/boardgameio/boardgame.io/commit/5446f5f)] Updates on files
+- \[[2f720e9](https://github.com/boardgameio/boardgame.io/commit/2f720e9)] Updates on files
+- \[[561e922](https://github.com/boardgameio/boardgame.io/commit/561e922)] Updates on files
+- \[[ec27d55](https://github.com/boardgameio/boardgame.io/commit/ec27d55)] Updates on files
+- \[[a51d497](https://github.com/boardgameio/boardgame.io/commit/a51d497)] Updates on files
+- \[[ec84c68](https://github.com/boardgameio/boardgame.io/commit/ec84c68)] Updates on files
+- \[[fcf161c](https://github.com/boardgameio/boardgame.io/commit/fcf161c)] Updates on okteto
+- \[[8579f9f](https://github.com/boardgameio/boardgame.io/commit/8579f9f)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[08bcb67](https://github.com/boardgameio/boardgame.io/commit/08bcb67)] Updates on files
+- \[[dfe2595](https://github.com/boardgameio/boardgame.io/commit/dfe2595)] Updated with the latest blog posts
+- \[[d9fef01](https://github.com/boardgameio/boardgame.io/commit/d9fef01)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[aa61239](https://github.com/boardgameio/boardgame.io/commit/aa61239)] Updates on files
+- \[[e81eaa0](https://github.com/boardgameio/boardgame.io/commit/e81eaa0)] Updated with the latest blog posts
+- \[[61ded50](https://github.com/boardgameio/boardgame.io/commit/61ded50)] Updated with the latest blog posts
+- \[[4d18e2f](https://github.com/boardgameio/boardgame.io/commit/4d18e2f)] Updates on files
+- \[[0e2a95e](https://github.com/boardgameio/boardgame.io/commit/0e2a95e)] Updates on files
+- \[[974bcad](https://github.com/boardgameio/boardgame.io/commit/974bcad)] Updated with the latest blog posts
+- \[[c38bdb5](https://github.com/boardgameio/boardgame.io/commit/c38bdb5)] Optimised images with calibre/image-actions
+- \[[29f3428](https://github.com/boardgameio/boardgame.io/commit/29f3428)] Updates on files
+- \[[13acf94](https://github.com/boardgameio/boardgame.io/commit/13acf94)] Updated with the latest blog posts
+- \[[0c50647](https://github.com/boardgameio/boardgame.io/commit/0c50647)] GitHub traffic
+- \[[cfa4f7c](https://github.com/boardgameio/boardgame.io/commit/cfa4f7c)] Updated with the latest blog posts
+- \[[f59f90a](https://github.com/boardgameio/boardgame.io/commit/f59f90a)] Updated with the latest blog posts
+- \[[beea679](https://github.com/boardgameio/boardgame.io/commit/beea679)] Updated with the latest blog posts
+- \[[50b6a4b](https://github.com/boardgameio/boardgame.io/commit/50b6a4b)] Updated with the latest blog posts
+- \[[eb10814](https://github.com/boardgameio/boardgame.io/commit/eb10814)] Updated with the latest blog posts
+- \[[8ee8e7a](https://github.com/boardgameio/boardgame.io/commit/8ee8e7a)] Updated with the latest blog posts
+- \[[50bf64e](https://github.com/boardgameio/boardgame.io/commit/50bf64e)] Updated with the latest blog posts
+- \[[32edbf2](https://github.com/boardgameio/boardgame.io/commit/32edbf2)] Updated with the latest blog posts
+- \[[efee201](https://github.com/boardgameio/boardgame.io/commit/efee201)] Updated with the latest blog posts
+- \[[9d8a37d](https://github.com/boardgameio/boardgame.io/commit/9d8a37d)] Updated with the latest blog posts
+- \[[e57af2c](https://github.com/boardgameio/boardgame.io/commit/e57af2c)] Updated with the latest blog posts
+- \[[d399f6b](https://github.com/boardgameio/boardgame.io/commit/d399f6b)] Updated with the latest blog posts
+- \[[c356781](https://github.com/boardgameio/boardgame.io/commit/c356781)] Updated with the latest blog posts
+- \[[88b8b4a](https://github.com/boardgameio/boardgame.io/commit/88b8b4a)] Updated with the latest blog posts
+- \[[f2f5e98](https://github.com/boardgameio/boardgame.io/commit/f2f5e98)] Updated with the latest blog posts
+- \[[ccb0c81](https://github.com/boardgameio/boardgame.io/commit/ccb0c81)] GitHub traffic
+- \[[e38f061](https://github.com/boardgameio/boardgame.io/commit/e38f061)] Updated with the latest blog posts
+- \[[4483380](https://github.com/boardgameio/boardgame.io/commit/4483380)] Updated with the latest blog posts
+- \[[f3752c0](https://github.com/boardgameio/boardgame.io/commit/f3752c0)] Updated with the latest blog posts
+- \[[47d6495](https://github.com/boardgameio/boardgame.io/commit/47d6495)] Updated with the latest blog posts
+- \[[f2fb1a1](https://github.com/boardgameio/boardgame.io/commit/f2fb1a1)] Updated with the latest blog posts
+- \[[bde9b89](https://github.com/boardgameio/boardgame.io/commit/bde9b89)] Updated with the latest blog posts
+- \[[efb19b3](https://github.com/boardgameio/boardgame.io/commit/efb19b3)] Updated with the latest blog posts
+- \[[ec4ec2a](https://github.com/boardgameio/boardgame.io/commit/ec4ec2a)] Updated with the latest blog posts
+- \[[36f242f](https://github.com/boardgameio/boardgame.io/commit/36f242f)] Updated with the latest blog posts
+- \[[e7da6ab](https://github.com/boardgameio/boardgame.io/commit/e7da6ab)] Updated with the latest blog posts
+- \[[105d82b](https://github.com/boardgameio/boardgame.io/commit/105d82b)] Updated with the latest blog posts
+- \[[3ddb24c](https://github.com/boardgameio/boardgame.io/commit/3ddb24c)] GitHub traffic
+- \[[6c2cbb2](https://github.com/boardgameio/boardgame.io/commit/6c2cbb2)] Updated with the latest blog posts
+- \[[3c1092d](https://github.com/boardgameio/boardgame.io/commit/3c1092d)] Updated with the latest blog posts
+- \[[b9f38e1](https://github.com/boardgameio/boardgame.io/commit/b9f38e1)] Updated with the latest blog posts
+- \[[db719fb](https://github.com/boardgameio/boardgame.io/commit/db719fb)] Updated with the latest blog posts
+- \[[7846a0d](https://github.com/boardgameio/boardgame.io/commit/7846a0d)] Updated with the latest blog posts
+- \[[a2ec0c7](https://github.com/boardgameio/boardgame.io/commit/a2ec0c7)] Updated with the latest blog posts
+- \[[a962e1c](https://github.com/boardgameio/boardgame.io/commit/a962e1c)] Updated with the latest blog posts
+- \[[8fb9843](https://github.com/boardgameio/boardgame.io/commit/8fb9843)] Updated with the latest blog posts
+- \[[d87f226](https://github.com/boardgameio/boardgame.io/commit/d87f226)] Updated with the latest blog posts
+- \[[097eed7](https://github.com/boardgameio/boardgame.io/commit/097eed7)] Updated with the latest blog posts
+- \[[09c5b19](https://github.com/boardgameio/boardgame.io/commit/09c5b19)] Updated with the latest blog posts
+- \[[6cd2e6c](https://github.com/boardgameio/boardgame.io/commit/6cd2e6c)] Updated with the latest blog posts
+- \[[bee5719](https://github.com/boardgameio/boardgame.io/commit/bee5719)] Updated with the latest blog posts
+- \[[0b6200c](https://github.com/boardgameio/boardgame.io/commit/0b6200c)] Updated with the latest blog posts
+- \[[64adac4](https://github.com/boardgameio/boardgame.io/commit/64adac4)] Updated with the latest blog posts
+- \[[3df9ba3](https://github.com/boardgameio/boardgame.io/commit/3df9ba3)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[50901d2](https://github.com/boardgameio/boardgame.io/commit/50901d2)] Added info on workflows
+- \[[8afa1b5](https://github.com/boardgameio/boardgame.io/commit/8afa1b5)] Auto update markdown TOC
+- \[[866f500](https://github.com/boardgameio/boardgame.io/commit/866f500)] Added info on workflows
+- \[[6518af8](https://github.com/boardgameio/boardgame.io/commit/6518af8)] Updated with the latest blog posts
+- \[[f5e5c7d](https://github.com/boardgameio/boardgame.io/commit/f5e5c7d)] Updated with the latest blog posts
+- \[[288cbf9](https://github.com/boardgameio/boardgame.io/commit/288cbf9)] Updated with the latest blog posts
+- \[[72f69eb](https://github.com/boardgameio/boardgame.io/commit/72f69eb)] Updated with the latest blog posts
+- \[[fce9de3](https://github.com/boardgameio/boardgame.io/commit/fce9de3)] Updated with the latest blog posts
+- \[[f6e0858](https://github.com/boardgameio/boardgame.io/commit/f6e0858)] Updated with the latest blog posts
+- \[[1ce4e72](https://github.com/boardgameio/boardgame.io/commit/1ce4e72)] Updated with the latest blog posts
+- \[[6436762](https://github.com/boardgameio/boardgame.io/commit/6436762)] Updated with the latest blog posts
+- \[[c744bf5](https://github.com/boardgameio/boardgame.io/commit/c744bf5)] Updated with the latest blog posts
+- \[[82990d3](https://github.com/boardgameio/boardgame.io/commit/82990d3)] Updated with the latest blog posts
+- \[[dcdd6f3](https://github.com/boardgameio/boardgame.io/commit/dcdd6f3)] :arrow_Updates @tilt.dev/tilt-inspector to v0.1.8
+- \[[56f349b](https://github.com/boardgameio/boardgame.io/commit/56f349b)] :arrow_Updates Matticusau/pr-helper action to v1.3.0
+- \[[aebf8fa](https://github.com/boardgameio/boardgame.io/commit/aebf8fa)] :arrow_Updates JamesIves/github-pages-deploy-action action to v4.1.4
+- \[[6e15e30](https://github.com/boardgameio/boardgame.io/commit/6e15e30)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[77677d9](https://github.com/boardgameio/boardgame.io/commit/77677d9)] Added info on workflows
+- \[[29729ec](https://github.com/boardgameio/boardgame.io/commit/29729ec)] Auto update markdown TOC
+- \[[2c50a56](https://github.com/boardgameio/boardgame.io/commit/2c50a56)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[559a857](https://github.com/boardgameio/boardgame.io/commit/559a857)] Added info on workflows
+- \[[863f80c](https://github.com/boardgameio/boardgame.io/commit/863f80c)] Optimised images with calibre/image-actions
+- \[[6b19c8a](https://github.com/boardgameio/boardgame.io/commit/6b19c8a)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[82bcfbc](https://github.com/boardgameio/boardgame.io/commit/82bcfbc)] Added info on workflows
+- \[[8d78417](https://github.com/boardgameio/boardgame.io/commit/8d78417)] Auto update markdown TOC
+- \[[f53fc01](https://github.com/boardgameio/boardgame.io/commit/f53fc01)] Added info on workflows
+- \[[23ea278](https://github.com/boardgameio/boardgame.io/commit/23ea278)] Updated with the latest blog posts
+- \[[9eec6c8](https://github.com/boardgameio/boardgame.io/commit/9eec6c8)] Updated with the latest blog posts
+- \[[9f9e1a4](https://github.com/boardgameio/boardgame.io/commit/9f9e1a4)] Updated with the latest blog posts
+- \[[9b8870b](https://github.com/boardgameio/boardgame.io/commit/9b8870b)] Updated with the latest blog posts
+- \[[4915506](https://github.com/boardgameio/boardgame.io/commit/4915506)] Updated with the latest blog posts
+- \[[dda8e50](https://github.com/boardgameio/boardgame.io/commit/dda8e50)] Updated with the latest blog posts
+- \[[7b82051](https://github.com/boardgameio/boardgame.io/commit/7b82051)] Updated with the latest blog posts
+- \[[1a3b274](https://github.com/boardgameio/boardgame.io/commit/1a3b274)] Updated with the latest blog posts
+- \[[04d7fd4](https://github.com/boardgameio/boardgame.io/commit/04d7fd4)] Updated with the latest blog posts
+- \[[65dcd87](https://github.com/boardgameio/boardgame.io/commit/65dcd87)] Updated with the latest blog posts
+- \[[5fe1bc2](https://github.com/boardgameio/boardgame.io/commit/5fe1bc2)] Auto update markdown TOC
+- \[[3b03929](https://github.com/boardgameio/boardgame.io/commit/3b03929)] Added info on workflows
+- \[[effb0a6](https://github.com/boardgameio/boardgame.io/commit/effb0a6)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[a02da0d](https://github.com/boardgameio/boardgame.io/commit/a02da0d)] Auto update markdown TOC
+- \[[be962ad](https://github.com/boardgameio/boardgame.io/commit/be962ad)] Added info on workflows
+- \[[fb3f891](https://github.com/boardgameio/boardgame.io/commit/fb3f891)] Added info on workflows
+- \[[325214b](https://github.com/boardgameio/boardgame.io/commit/325214b)] Added info on workflows
+- \[[89744eb](https://github.com/boardgameio/boardgame.io/commit/89744eb)] Auto update markdown TOC
+- \[[8f9d345](https://github.com/boardgameio/boardgame.io/commit/8f9d345)] Added info on workflows
+- \[[860c6c8](https://github.com/boardgameio/boardgame.io/commit/860c6c8)] Added info on workflows
+- \[[0c4b8ff](https://github.com/boardgameio/boardgame.io/commit/0c4b8ff)] Updated with the latest blog posts
+- \[[da2c0e9](https://github.com/boardgameio/boardgame.io/commit/da2c0e9)] GitHub traffic
+- \[[93b6b91](https://github.com/boardgameio/boardgame.io/commit/93b6b91)] Updated with the latest blog posts
+- \[[281ce47](https://github.com/boardgameio/boardgame.io/commit/281ce47)] Auto update markdown TOC
+- \[[5385e86](https://github.com/boardgameio/boardgame.io/commit/5385e86)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[36ae8ec](https://github.com/boardgameio/boardgame.io/commit/36ae8ec)] Added info on workflows
+- \[[3cb865c](https://github.com/boardgameio/boardgame.io/commit/3cb865c)] Updated with the latest blog posts
+- \[[7ad4b9c](https://github.com/boardgameio/boardgame.io/commit/7ad4b9c)] Updated with the latest blog posts
+- \[[91ec0d4](https://github.com/boardgameio/boardgame.io/commit/91ec0d4)] Updated with the latest blog posts
+- \[[b3c8084](https://github.com/boardgameio/boardgame.io/commit/b3c8084)] Updated with the latest blog posts
+- \[[58c518a](https://github.com/boardgameio/boardgame.io/commit/58c518a)] Updated with the latest blog posts
+- \[[323348e](https://github.com/boardgameio/boardgame.io/commit/323348e)] Updated with the latest blog posts
+- \[[1d343aa](https://github.com/boardgameio/boardgame.io/commit/1d343aa)] Updated with the latest blog posts
+- \[[54e871b](https://github.com/boardgameio/boardgame.io/commit/54e871b)] Updated with the latest blog posts
+- \[[fa64b34](https://github.com/boardgameio/boardgame.io/commit/fa64b34)] Updated with the latest blog posts
+- \[[cb9583b](https://github.com/boardgameio/boardgame.io/commit/cb9583b)] Updated with the latest blog posts
+- \[[0b34854](https://github.com/boardgameio/boardgame.io/commit/0b34854)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[f1bb643](https://github.com/boardgameio/boardgame.io/commit/f1bb643)] Added info on workflows
+- \[[29074b8](https://github.com/boardgameio/boardgame.io/commit/29074b8)] Auto update markdown TOC
+- \[[74d6c1f](https://github.com/boardgameio/boardgame.io/commit/74d6c1f)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[0a6f837](https://github.com/boardgameio/boardgame.io/commit/0a6f837)] Added info on workflows
+- \[[11ca5a6](https://github.com/boardgameio/boardgame.io/commit/11ca5a6)] Updated with the latest blog posts
+- \[[c2ec221](https://github.com/boardgameio/boardgame.io/commit/c2ec221)] Updated with the latest blog posts
+- \[[d3b04ab](https://github.com/boardgameio/boardgame.io/commit/d3b04ab)] Updated with the latest blog posts
+- \[[10912b0](https://github.com/boardgameio/boardgame.io/commit/10912b0)] Updated with the latest blog posts
+- \[[c8cb3aa](https://github.com/boardgameio/boardgame.io/commit/c8cb3aa)] Updated with the latest blog posts
+- \[[1614c84](https://github.com/boardgameio/boardgame.io/commit/1614c84)] Updated with the latest blog posts
+- \[[7f04978](https://github.com/boardgameio/boardgame.io/commit/7f04978)] Updated with the latest blog posts
+- \[[ba9de62](https://github.com/boardgameio/boardgame.io/commit/ba9de62)] Updated with the latest blog posts
+- \[[51115ee](https://github.com/boardgameio/boardgame.io/commit/51115ee)] Updated with the latest blog posts
+- \[[fc9846d](https://github.com/boardgameio/boardgame.io/commit/fc9846d)] Updated with the latest blog posts
+- \[[5b6574f](https://github.com/boardgameio/boardgame.io/commit/5b6574f)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[abcc9bb](https://github.com/boardgameio/boardgame.io/commit/abcc9bb)] Added info on workflows
+- \[[0bddb47](https://github.com/boardgameio/boardgame.io/commit/0bddb47)] Auto update markdown TOC
+- \[[118755a](https://github.com/boardgameio/boardgame.io/commit/118755a)] Added info on workflows
+- \[[b76145b](https://github.com/boardgameio/boardgame.io/commit/b76145b)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[fffe314](https://github.com/boardgameio/boardgame.io/commit/fffe314)] Added info on workflows
+- \[[9975adb](https://github.com/boardgameio/boardgame.io/commit/9975adb)] Auto update markdown TOC
+- \[[298dbc3](https://github.com/boardgameio/boardgame.io/commit/298dbc3)] Added info on workflows
+- \[[85db37f](https://github.com/boardgameio/boardgame.io/commit/85db37f)] Added info on workflows
+- \[[9e4ff16](https://github.com/boardgameio/boardgame.io/commit/9e4ff16)] Updated with the latest blog posts
+- \[[d983bf6](https://github.com/boardgameio/boardgame.io/commit/d983bf6)] Updated with the latest blog posts
+- \[[cb75849](https://github.com/boardgameio/boardgame.io/commit/cb75849)] Updated with the latest blog posts
+- \[[cf3de99](https://github.com/boardgameio/boardgame.io/commit/cf3de99)] Auto update markdown TOC
+- \[[f8d9e58](https://github.com/boardgameio/boardgame.io/commit/f8d9e58)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[709f147](https://github.com/boardgameio/boardgame.io/commit/709f147)] Added info on workflows
+- \[[3999bd3](https://github.com/boardgameio/boardgame.io/commit/3999bd3)] Updated with the latest blog posts
+- \[[389aba0](https://github.com/boardgameio/boardgame.io/commit/389aba0)] Updated with the latest blog posts
+- \[[f4ed745](https://github.com/boardgameio/boardgame.io/commit/f4ed745)] Updated with the latest blog posts
+- \[[3ab3169](https://github.com/boardgameio/boardgame.io/commit/3ab3169)] Updated with the latest blog posts
+- \[[5443bc0](https://github.com/boardgameio/boardgame.io/commit/5443bc0)] Updated with the latest blog posts
+- \[[cb84e9f](https://github.com/boardgameio/boardgame.io/commit/cb84e9f)] Updated with the latest blog posts
+- \[[764ffb1](https://github.com/boardgameio/boardgame.io/commit/764ffb1)] Updated with the latest blog posts
+- \[[1b1ba4d](https://github.com/boardgameio/boardgame.io/commit/1b1ba4d)] Updated with the latest blog posts
+- \[[3000f9b](https://github.com/boardgameio/boardgame.io/commit/3000f9b)] Updated with the latest blog posts
+- \[[2028944](https://github.com/boardgameio/boardgame.io/commit/2028944)] Updated with the latest blog posts
+- \[[b6c8a60](https://github.com/boardgameio/boardgame.io/commit/b6c8a60)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[25e29d8](https://github.com/boardgameio/boardgame.io/commit/25e29d8)] Added info on workflows
+- \[[45fc21e](https://github.com/boardgameio/boardgame.io/commit/45fc21e)] Auto update markdown TOC
+- \[[8adbd93](https://github.com/boardgameio/boardgame.io/commit/8adbd93)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[862d72b](https://github.com/boardgameio/boardgame.io/commit/862d72b)] Added info on workflows
+- \[[c1fe6f7](https://github.com/boardgameio/boardgame.io/commit/c1fe6f7)] Optimised images with calibre/image-actions
+- \[[0247260](https://github.com/boardgameio/boardgame.io/commit/0247260)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[4124279](https://github.com/boardgameio/boardgame.io/commit/4124279)] Added info on workflows
+- \[[a3d2470](https://github.com/boardgameio/boardgame.io/commit/a3d2470)] Auto update markdown TOC
+- \[[c06fc3b](https://github.com/boardgameio/boardgame.io/commit/c06fc3b)] Added info on workflows
+- \[[34aaad2](https://github.com/boardgameio/boardgame.io/commit/34aaad2)] Updated with the latest blog posts
+- \[[d68a4ee](https://github.com/boardgameio/boardgame.io/commit/d68a4ee)] Updated with the latest blog posts
+- \[[d38e4fe](https://github.com/boardgameio/boardgame.io/commit/d38e4fe)] GitHub traffic
+- \[[72ad537](https://github.com/boardgameio/boardgame.io/commit/72ad537)] Updated with the latest blog posts
+- \[[8813c7f](https://github.com/boardgameio/boardgame.io/commit/8813c7f)] Optimised images with calibre/image-actions
+- \[[3499342](https://github.com/boardgameio/boardgame.io/commit/3499342)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[4b64d94](https://github.com/boardgameio/boardgame.io/commit/4b64d94)] Added info on workflows
+- \[[4cd3c93](https://github.com/boardgameio/boardgame.io/commit/4cd3c93)] Updated with the latest blog posts
+- \[[f3a352b](https://github.com/boardgameio/boardgame.io/commit/f3a352b)] Updated with the latest blog posts
+- \[[6fb31ea](https://github.com/boardgameio/boardgame.io/commit/6fb31ea)] Updated with the latest blog posts
+- \[[5701cc4](https://github.com/boardgameio/boardgame.io/commit/5701cc4)] Updated with the latest blog posts
+- \[[3b7ff2e](https://github.com/boardgameio/boardgame.io/commit/3b7ff2e)] Updated with the latest blog posts
+- \[[ebde076](https://github.com/boardgameio/boardgame.io/commit/ebde076)] Updated with the latest blog posts
+- \[[bfbede0](https://github.com/boardgameio/boardgame.io/commit/bfbede0)] Updated with the latest blog posts
+- \[[c3400f7](https://github.com/boardgameio/boardgame.io/commit/c3400f7)] Updated with the latest blog posts
+- \[[70b3f89](https://github.com/boardgameio/boardgame.io/commit/70b3f89)] Updated with the latest blog posts
+- \[[fb66cb4](https://github.com/boardgameio/boardgame.io/commit/fb66cb4)] Updated with the latest blog posts
+- \[[f39c72e](https://github.com/boardgameio/boardgame.io/commit/f39c72e)] Auto update markdown TOC
+- \[[3d4cf51](https://github.com/boardgameio/boardgame.io/commit/3d4cf51)] Added info on workflows
+- \[[62d9749](https://github.com/boardgameio/boardgame.io/commit/62d9749)] Added info on workflows
+- \[[35a47ce](https://github.com/boardgameio/boardgame.io/commit/35a47ce)] Updated with the latest blog posts
+- \[[cbef1de](https://github.com/boardgameio/boardgame.io/commit/cbef1de)] Updated with the latest blog posts
+- \[[c7e4778](https://github.com/boardgameio/boardgame.io/commit/c7e4778)] Updated with the latest blog posts
+- \[[df57ed2](https://github.com/boardgameio/boardgame.io/commit/df57ed2)] Updated with the latest blog posts
+- \[[077ab2f](https://github.com/boardgameio/boardgame.io/commit/077ab2f)] Updated with the latest blog posts
+- \[[4f34ac0](https://github.com/boardgameio/boardgame.io/commit/4f34ac0)] Updated with the latest blog posts
+- \[[d7c1f0c](https://github.com/boardgameio/boardgame.io/commit/d7c1f0c)] Updated with the latest blog posts
+- \[[45cbdb6](https://github.com/boardgameio/boardgame.io/commit/45cbdb6)] Updated with the latest blog posts
+- \[[ee90d93](https://github.com/boardgameio/boardgame.io/commit/ee90d93)] Updated with the latest blog posts
+- \[[cfa15d7](https://github.com/boardgameio/boardgame.io/commit/cfa15d7)] Updated with the latest blog posts
+- \[[acbf1a9](https://github.com/boardgameio/boardgame.io/commit/acbf1a9)] GitHub traffic
+- \[[0a92094](https://github.com/boardgameio/boardgame.io/commit/0a92094)] Updated with the latest blog posts
+- \[[09a7b91](https://github.com/boardgameio/boardgame.io/commit/09a7b91)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[3ec1507](https://github.com/boardgameio/boardgame.io/commit/3ec1507)] Added info on workflows
+- \[[5a6825c](https://github.com/boardgameio/boardgame.io/commit/5a6825c)] Updated with the latest blog posts
+- \[[f63593b](https://github.com/boardgameio/boardgame.io/commit/f63593b)] Updated with the latest blog posts
+- \[[9c13809](https://github.com/boardgameio/boardgame.io/commit/9c13809)] Updated with the latest blog posts
+- \[[3c54e4d](https://github.com/boardgameio/boardgame.io/commit/3c54e4d)] Updated with the latest blog posts
+- \[[4579faa](https://github.com/boardgameio/boardgame.io/commit/4579faa)] Updated with the latest blog posts
+- \[[7af2089](https://github.com/boardgameio/boardgame.io/commit/7af2089)] Updated with the latest blog posts
+- \[[bb84a0a](https://github.com/boardgameio/boardgame.io/commit/bb84a0a)] Updated with the latest blog posts
+- \[[4c76b5e](https://github.com/boardgameio/boardgame.io/commit/4c76b5e)] Updated with the latest blog posts
+- \[[f8b2fae](https://github.com/boardgameio/boardgame.io/commit/f8b2fae)] Updated with the latest blog posts
+- \[[302f445](https://github.com/boardgameio/boardgame.io/commit/302f445)] Updated with the latest blog posts
+- \[[00a9957](https://github.com/boardgameio/boardgame.io/commit/00a9957)] Auto update markdown TOC
+- \[[4525cb1](https://github.com/boardgameio/boardgame.io/commit/4525cb1)] Added info on workflows
+- \[[c5506fd](https://github.com/boardgameio/boardgame.io/commit/c5506fd)] Added info on workflows
+- \[[c1e8bc0](https://github.com/boardgameio/boardgame.io/commit/c1e8bc0)] Updated with the latest blog posts
+- \[[804150f](https://github.com/boardgameio/boardgame.io/commit/804150f)] Updated with the latest blog posts
+- \[[8a4b2f3](https://github.com/boardgameio/boardgame.io/commit/8a4b2f3)] Auto update markdown TOC
+- \[[df3a1ac](https://github.com/boardgameio/boardgame.io/commit/df3a1ac)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[d607d6a](https://github.com/boardgameio/boardgame.io/commit/d607d6a)] Added info on workflows
+- \[[341e86b](https://github.com/boardgameio/boardgame.io/commit/341e86b)] Updated with the latest blog posts
+- \[[694d119](https://github.com/boardgameio/boardgame.io/commit/694d119)] Updated with the latest blog posts
+- \[[37b6a67](https://github.com/boardgameio/boardgame.io/commit/37b6a67)] Updated with the latest blog posts
+- \[[673324c](https://github.com/boardgameio/boardgame.io/commit/673324c)] Updated with the latest blog posts
+- \[[cdfa340](https://github.com/boardgameio/boardgame.io/commit/cdfa340)] Updated with the latest blog posts
+- \[[6244bc2](https://github.com/boardgameio/boardgame.io/commit/6244bc2)] Updated with the latest blog posts
+- \[[27ee7d6](https://github.com/boardgameio/boardgame.io/commit/27ee7d6)] Updated with the latest blog posts
+- \[[cd3f672](https://github.com/boardgameio/boardgame.io/commit/cd3f672)] Updated with the latest blog posts
+- \[[8740882](https://github.com/boardgameio/boardgame.io/commit/8740882)] Updated with the latest blog posts
+- \[[78b35ad](https://github.com/boardgameio/boardgame.io/commit/78b35ad)] Updated with the latest blog posts
+- \[[1038786](https://github.com/boardgameio/boardgame.io/commit/1038786)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[64a3f9a](https://github.com/boardgameio/boardgame.io/commit/64a3f9a)] Added info on workflows
+- \[[1f87bf2](https://github.com/boardgameio/boardgame.io/commit/1f87bf2)] Added info on workflows
+- \[[eeec132](https://github.com/boardgameio/boardgame.io/commit/eeec132)] Auto update markdown TOC
+- \[[819dbb6](https://github.com/boardgameio/boardgame.io/commit/819dbb6)] Added info on workflows
+- \[[136f0d5](https://github.com/boardgameio/boardgame.io/commit/136f0d5)] Optimised images with calibre/image-actions
+- \[[f36cb2d](https://github.com/boardgameio/boardgame.io/commit/f36cb2d)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[29589d4](https://github.com/boardgameio/boardgame.io/commit/29589d4)] Added info on workflows
+- \[[e075af6](https://github.com/boardgameio/boardgame.io/commit/e075af6)] Updated with the latest blog posts
+- \[[a460bd9](https://github.com/boardgameio/boardgame.io/commit/a460bd9)] Updated with the latest blog posts
+- \[[7af7594](https://github.com/boardgameio/boardgame.io/commit/7af7594)] Updated with the latest blog posts
+- \[[381b17b](https://github.com/boardgameio/boardgame.io/commit/381b17b)] Updated with the latest blog posts
+- \[[7e7c405](https://github.com/boardgameio/boardgame.io/commit/7e7c405)] Updated with the latest blog posts
+- \[[66d403d](https://github.com/boardgameio/boardgame.io/commit/66d403d)] Updated with the latest blog posts
+- \[[f3db2b2](https://github.com/boardgameio/boardgame.io/commit/f3db2b2)] Updated with the latest blog posts
+- \[[0b177e8](https://github.com/boardgameio/boardgame.io/commit/0b177e8)] Updated with the latest blog posts
+- \[[e459c82](https://github.com/boardgameio/boardgame.io/commit/e459c82)] Updated with the latest blog posts
+- \[[de06cf2](https://github.com/boardgameio/boardgame.io/commit/de06cf2)] Updated with the latest blog posts
+- \[[30d0416](https://github.com/boardgameio/boardgame.io/commit/30d0416)] Auto update markdown TOC
+- \[[28d68ca](https://github.com/boardgameio/boardgame.io/commit/28d68ca)] Added info on workflows
+- \[[89d351f](https://github.com/boardgameio/boardgame.io/commit/89d351f)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[e25119f](https://github.com/boardgameio/boardgame.io/commit/e25119f)] Added info on workflows
+- \[[645225c](https://github.com/boardgameio/boardgame.io/commit/645225c)] Updated with the latest blog posts
+- \[[b8dc95f](https://github.com/boardgameio/boardgame.io/commit/b8dc95f)] Updated with the latest blog posts
+- \[[cb97eb1](https://github.com/boardgameio/boardgame.io/commit/cb97eb1)] Updated with the latest blog posts
+- \[[6c54f79](https://github.com/boardgameio/boardgame.io/commit/6c54f79)] GitHub traffic
+- \[[c0634fd](https://github.com/boardgameio/boardgame.io/commit/c0634fd)] Updated with the latest blog posts
+- \[[4ccf8b5](https://github.com/boardgameio/boardgame.io/commit/4ccf8b5)] Updated with the latest blog posts
+- \[[6e60601](https://github.com/boardgameio/boardgame.io/commit/6e60601)] Updated with the latest blog posts
+- \[[cc51519](https://github.com/boardgameio/boardgame.io/commit/cc51519)] Updated with the latest blog posts
+- \[[cf4b900](https://github.com/boardgameio/boardgame.io/commit/cf4b900)] Updated with the latest blog posts
+- \[[e9fab3e](https://github.com/boardgameio/boardgame.io/commit/e9fab3e)] Updated with the latest blog posts
+- \[[baeee1a](https://github.com/boardgameio/boardgame.io/commit/baeee1a)] Updated with the latest blog posts
+- \[[8b26e50](https://github.com/boardgameio/boardgame.io/commit/8b26e50)] Updated with the latest blog posts
+- \[[4e62c4f](https://github.com/boardgameio/boardgame.io/commit/4e62c4f)] Updated with the latest blog posts
+- \[[9193e53](https://github.com/boardgameio/boardgame.io/commit/9193e53)] Updated with the latest blog posts
+- \[[ba00b69](https://github.com/boardgameio/boardgame.io/commit/ba00b69)] Updated with the latest blog posts
+- \[[38c2f82](https://github.com/boardgameio/boardgame.io/commit/38c2f82)] Updated with the latest blog posts
+- \[[399efc6](https://github.com/boardgameio/boardgame.io/commit/399efc6)] Updated with the latest blog posts
+- \[[33b6852](https://github.com/boardgameio/boardgame.io/commit/33b6852)] Updated with the latest blog posts
+- \[[d696efe](https://github.com/boardgameio/boardgame.io/commit/d696efe)] Updated with the latest blog posts
+- \[[e00d061](https://github.com/boardgameio/boardgame.io/commit/e00d061)] Optimised images with calibre/image-actions
+- \[[e8f3863](https://github.com/boardgameio/boardgame.io/commit/e8f3863)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[c350f8e](https://github.com/boardgameio/boardgame.io/commit/c350f8e)] Added info on workflows
+- \[[5dfaada](https://github.com/boardgameio/boardgame.io/commit/5dfaada)] Auto update markdown TOC
+- \[[52e29aa](https://github.com/boardgameio/boardgame.io/commit/52e29aa)] Added info on workflows
+- \[[67c6c84](https://github.com/boardgameio/boardgame.io/commit/67c6c84)] Added info on workflows
+- \[[24bdde1](https://github.com/boardgameio/boardgame.io/commit/24bdde1)] Updated with the latest blog posts
+- \[[44469e5](https://github.com/boardgameio/boardgame.io/commit/44469e5)] Updated with the latest blog posts
+- \[[c8c427b](https://github.com/boardgameio/boardgame.io/commit/c8c427b)] Updated with the latest blog posts
+- \[[c9ec638](https://github.com/boardgameio/boardgame.io/commit/c9ec638)] Updated with the latest blog posts
+- \[[172593a](https://github.com/boardgameio/boardgame.io/commit/172593a)] GitHub traffic
+- \[[51ff1cd](https://github.com/boardgameio/boardgame.io/commit/51ff1cd)] Updated with the latest blog posts
+- \[[8a7f1e9](https://github.com/boardgameio/boardgame.io/commit/8a7f1e9)] Updated with the latest blog posts
+- \[[5edafd8](https://github.com/boardgameio/boardgame.io/commit/5edafd8)] Updated with the latest blog posts
+- \[[261239b](https://github.com/boardgameio/boardgame.io/commit/261239b)] Updated with the latest blog posts
+- \[[7c8f645](https://github.com/boardgameio/boardgame.io/commit/7c8f645)] Updated with the latest blog posts
+- \[[cf8438b](https://github.com/boardgameio/boardgame.io/commit/cf8438b)] Updated with the latest blog posts
+- \[[65269f9](https://github.com/boardgameio/boardgame.io/commit/65269f9)] Updated with the latest blog posts
+- \[[29808da](https://github.com/boardgameio/boardgame.io/commit/29808da)] Updated with the latest blog posts
+- \[[7aa8e3b](https://github.com/boardgameio/boardgame.io/commit/7aa8e3b)] Auto update markdown TOC
+- \[[81a292a](https://github.com/boardgameio/boardgame.io/commit/81a292a)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[3e361de](https://github.com/boardgameio/boardgame.io/commit/3e361de)] Added info on workflows
+- \[[17a7b79](https://github.com/boardgameio/boardgame.io/commit/17a7b79)] Updated with the latest blog posts
+- \[[f66adaa](https://github.com/boardgameio/boardgame.io/commit/f66adaa)] Updated with the latest blog posts
+- \[[eccde47](https://github.com/boardgameio/boardgame.io/commit/eccde47)] Updated with the latest blog posts
+- \[[5b1382f](https://github.com/boardgameio/boardgame.io/commit/5b1382f)] Updated with the latest blog posts
+- \[[14b7d1e](https://github.com/boardgameio/boardgame.io/commit/14b7d1e)] Updated with the latest blog posts
+- \[[6fbfdac](https://github.com/boardgameio/boardgame.io/commit/6fbfdac)] Updated with the latest blog posts
+- \[[34af80e](https://github.com/boardgameio/boardgame.io/commit/34af80e)] Updated with the latest blog posts
+- \[[065a3b9](https://github.com/boardgameio/boardgame.io/commit/065a3b9)] Updated with the latest blog posts
+- \[[1ab66da](https://github.com/boardgameio/boardgame.io/commit/1ab66da)] Updated with the latest blog posts
+- \[[254bef0](https://github.com/boardgameio/boardgame.io/commit/254bef0)] Updated with the latest blog posts
+- \[[c8980a4](https://github.com/boardgameio/boardgame.io/commit/c8980a4)] GitHub traffic
+- \[[2d72732](https://github.com/boardgameio/boardgame.io/commit/2d72732)] Optimised images with calibre/image-actions
+- \[[ed1fcc9](https://github.com/boardgameio/boardgame.io/commit/ed1fcc9)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[408d93b](https://github.com/boardgameio/boardgame.io/commit/408d93b)] Added info on workflows
+- \[[116ee5e](https://github.com/boardgameio/boardgame.io/commit/116ee5e)] Auto update markdown TOC
+- \[[1b4aacc](https://github.com/boardgameio/boardgame.io/commit/1b4aacc)] Added info on workflows
+- \[[ba58109](https://github.com/boardgameio/boardgame.io/commit/ba58109)] Added info on workflows
+- \[[bf05b6d](https://github.com/boardgameio/boardgame.io/commit/bf05b6d)] Updated with the latest blog posts
+- \[[82da97a](https://github.com/boardgameio/boardgame.io/commit/82da97a)] Auto update markdown TOC
+- \[[11bd46b](https://github.com/boardgameio/boardgame.io/commit/11bd46b)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[c4b83a6](https://github.com/boardgameio/boardgame.io/commit/c4b83a6)] Added info on workflows
+- \[[f97e112](https://github.com/boardgameio/boardgame.io/commit/f97e112)] GitHub traffic
+- \[[0e9005e](https://github.com/boardgameio/boardgame.io/commit/0e9005e)] Updated with the latest blog posts
+- \[[8a282ba](https://github.com/boardgameio/boardgame.io/commit/8a282ba)] Updated with the latest blog posts
+- \[[9555401](https://github.com/boardgameio/boardgame.io/commit/9555401)] Updated with the latest blog posts
+- \[[07e3e18](https://github.com/boardgameio/boardgame.io/commit/07e3e18)] Updated with the latest blog posts
+- \[[ffb72f0](https://github.com/boardgameio/boardgame.io/commit/ffb72f0)] Updated with the latest blog posts
+- \[[17030dd](https://github.com/boardgameio/boardgame.io/commit/17030dd)] Updated with the latest blog posts
+- \[[1175588](https://github.com/boardgameio/boardgame.io/commit/1175588)] Updated with the latest blog posts
+- \[[88dd726](https://github.com/boardgameio/boardgame.io/commit/88dd726)] Updated with the latest blog posts
+- \[[ffad405](https://github.com/boardgameio/boardgame.io/commit/ffad405)] Updated with the latest blog posts
+- \[[9e5e63b](https://github.com/boardgameio/boardgame.io/commit/9e5e63b)] Updated with the latest blog posts
+- \[[1fa0953](https://github.com/boardgameio/boardgame.io/commit/1fa0953)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[18058d0](https://github.com/boardgameio/boardgame.io/commit/18058d0)] Added info on workflows
+- \[[b818d8e](https://github.com/boardgameio/boardgame.io/commit/b818d8e)] Auto update markdown TOC
+- \[[6c10041](https://github.com/boardgameio/boardgame.io/commit/6c10041)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[56cf775](https://github.com/boardgameio/boardgame.io/commit/56cf775)] Added info on workflows
+- \[[eb9d49e](https://github.com/boardgameio/boardgame.io/commit/eb9d49e)] Updated with the latest blog posts
+- \[[2d4d196](https://github.com/boardgameio/boardgame.io/commit/2d4d196)] Updated with the latest blog posts
+- \[[f8efda5](https://github.com/boardgameio/boardgame.io/commit/f8efda5)] Updated with the latest blog posts
+- \[[6857d6d](https://github.com/boardgameio/boardgame.io/commit/6857d6d)] Updated with the latest blog posts
+- \[[c5da697](https://github.com/boardgameio/boardgame.io/commit/c5da697)] Updated with the latest blog posts
+- \[[2881ce0](https://github.com/boardgameio/boardgame.io/commit/2881ce0)] Updated with the latest blog posts
+- \[[edb726c](https://github.com/boardgameio/boardgame.io/commit/edb726c)] Updated with the latest blog posts
+- \[[060d6c2](https://github.com/boardgameio/boardgame.io/commit/060d6c2)] Updated with the latest blog posts
+- \[[d211f68](https://github.com/boardgameio/boardgame.io/commit/d211f68)] Updated with the latest blog posts
+- \[[d5a2eee](https://github.com/boardgameio/boardgame.io/commit/d5a2eee)] Updated with the latest blog posts
+- \[[81733e1](https://github.com/boardgameio/boardgame.io/commit/81733e1)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[0f8ec58](https://github.com/boardgameio/boardgame.io/commit/0f8ec58)] Added info on workflows
+- \[[d14295c](https://github.com/boardgameio/boardgame.io/commit/d14295c)] Added info on workflows
+- \[[e724481](https://github.com/boardgameio/boardgame.io/commit/e724481)] Auto update markdown TOC
+- \[[16145c7](https://github.com/boardgameio/boardgame.io/commit/16145c7)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[ec543a2](https://github.com/boardgameio/boardgame.io/commit/ec543a2)] Added info on workflows
+- \[[4c5eb1d](https://github.com/boardgameio/boardgame.io/commit/4c5eb1d)] Updated with the latest blog posts
+- \[[32a5964](https://github.com/boardgameio/boardgame.io/commit/32a5964)] Updated with the latest blog posts
+- \[[986c03c](https://github.com/boardgameio/boardgame.io/commit/986c03c)] Updated with the latest blog posts
+- \[[1249695](https://github.com/boardgameio/boardgame.io/commit/1249695)] Updated with the latest blog posts
+- \[[32b54f9](https://github.com/boardgameio/boardgame.io/commit/32b54f9)] Updated with the latest blog posts
+- \[[3e4d523](https://github.com/boardgameio/boardgame.io/commit/3e4d523)] Updated with the latest blog posts
+- \[[ea1b889](https://github.com/boardgameio/boardgame.io/commit/ea1b889)] Updated with the latest blog posts
+- \[[14d1f75](https://github.com/boardgameio/boardgame.io/commit/14d1f75)] Updated with the latest blog posts
+- \[[b57d2c9](https://github.com/boardgameio/boardgame.io/commit/b57d2c9)] Updated with the latest blog posts
+- \[[550bbee](https://github.com/boardgameio/boardgame.io/commit/550bbee)] Updated with the latest blog posts
+- \[[5c5efc8](https://github.com/boardgameio/boardgame.io/commit/5c5efc8)] Updated with the latest blog posts
+- \[[3e9eafb](https://github.com/boardgameio/boardgame.io/commit/3e9eafb)] Updated with the latest blog posts
+- \[[866f11b](https://github.com/boardgameio/boardgame.io/commit/866f11b)] Updated with the latest blog posts
+- \[[328cb50](https://github.com/boardgameio/boardgame.io/commit/328cb50)] Updated with the latest blog posts
+- \[[a79108f](https://github.com/boardgameio/boardgame.io/commit/a79108f)] Updated with the latest blog posts
+- \[[bedd273](https://github.com/boardgameio/boardgame.io/commit/bedd273)] Updated with the latest blog posts
+- \[[ca7242e](https://github.com/boardgameio/boardgame.io/commit/ca7242e)] Updated with the latest blog posts
+- \[[8030090](https://github.com/boardgameio/boardgame.io/commit/8030090)] Updated with the latest blog posts
+- \[[82c3d85](https://github.com/boardgameio/boardgame.io/commit/82c3d85)] Updated with the latest blog posts
+- \[[7852389](https://github.com/boardgameio/boardgame.io/commit/7852389)] Updated with the latest blog posts
+- \[[a0c194f](https://github.com/boardgameio/boardgame.io/commit/a0c194f)] Updated with the latest blog posts
+- \[[13b3936](https://github.com/boardgameio/boardgame.io/commit/13b3936)] Updated with the latest blog posts
+- \[[398c066](https://github.com/boardgameio/boardgame.io/commit/398c066)] Auto update markdown TOC
+- \[[1f54da4](https://github.com/boardgameio/boardgame.io/commit/1f54da4)] Added info on workflows
+- \[[18def2f](https://github.com/boardgameio/boardgame.io/commit/18def2f)] Updated with the latest blog posts
+- \[[e6823cb](https://github.com/boardgameio/boardgame.io/commit/e6823cb)] Updated with the latest blog posts
+- \[[480392c](https://github.com/boardgameio/boardgame.io/commit/480392c)] Updated with the latest blog posts
+- \[[2d185c1](https://github.com/boardgameio/boardgame.io/commit/2d185c1)] Updated with the latest blog posts
+- \[[0be2426](https://github.com/boardgameio/boardgame.io/commit/0be2426)] Updated with the latest blog posts
+- \[[3cc0c0a](https://github.com/boardgameio/boardgame.io/commit/3cc0c0a)] Updated with the latest blog posts
+- \[[bca1749](https://github.com/boardgameio/boardgame.io/commit/bca1749)] Updated with the latest blog posts
+- \[[ea326cf](https://github.com/boardgameio/boardgame.io/commit/ea326cf)] Updated with the latest blog posts
+- \[[9d039f1](https://github.com/boardgameio/boardgame.io/commit/9d039f1)] Updated with the latest blog posts
+- \[[8b85075](https://github.com/boardgameio/boardgame.io/commit/8b85075)] Updated with the latest blog posts
+- \[[737dde3](https://github.com/boardgameio/boardgame.io/commit/737dde3)] Updated with the latest blog posts
+- \[[aa25f24](https://github.com/boardgameio/boardgame.io/commit/aa25f24)] Updated with the latest blog posts
+- \[[161a472](https://github.com/boardgameio/boardgame.io/commit/161a472)] Updated with the latest blog posts
+- \[[27a3133](https://github.com/boardgameio/boardgame.io/commit/27a3133)] Updated with the latest blog posts
+- \[[f408648](https://github.com/boardgameio/boardgame.io/commit/f408648)] Updated with the latest blog posts
+- \[[d22088f](https://github.com/boardgameio/boardgame.io/commit/d22088f)] Updated with the latest blog posts
+- \[[0f8220a](https://github.com/boardgameio/boardgame.io/commit/0f8220a)] Updated with the latest blog posts
+- \[[03ebbfd](https://github.com/boardgameio/boardgame.io/commit/03ebbfd)] Updated with the latest blog posts
+- \[[5a04119](https://github.com/boardgameio/boardgame.io/commit/5a04119)] Updated with the latest blog posts
+- \[[34e87ea](https://github.com/boardgameio/boardgame.io/commit/34e87ea)] Updated with the latest blog posts
+- \[[32fd145](https://github.com/boardgameio/boardgame.io/commit/32fd145)] Updated with the latest blog posts
+- \[[98f4ba0](https://github.com/boardgameio/boardgame.io/commit/98f4ba0)] Updated with the latest blog posts
+- \[[d12413a](https://github.com/boardgameio/boardgame.io/commit/d12413a)] Updated with the latest blog posts
+- \[[39ea568](https://github.com/boardgameio/boardgame.io/commit/39ea568)] Updated with the latest blog posts
+- \[[2def7c8](https://github.com/boardgameio/boardgame.io/commit/2def7c8)] Updated with the latest blog posts
+- \[[c638b47](https://github.com/boardgameio/boardgame.io/commit/c638b47)] Updated with the latest blog posts
+- \[[412183a](https://github.com/boardgameio/boardgame.io/commit/412183a)] Updated with the latest blog posts
+- \[[ab2c1c5](https://github.com/boardgameio/boardgame.io/commit/ab2c1c5)] Updated with the latest blog posts
+- \[[400faca](https://github.com/boardgameio/boardgame.io/commit/400faca)] Updated with the latest blog posts
+- \[[88fc1f2](https://github.com/boardgameio/boardgame.io/commit/88fc1f2)] Updated with the latest blog posts
+- \[[30304be](https://github.com/boardgameio/boardgame.io/commit/30304be)] Updated with the latest blog posts
+- \[[bc35c78](https://github.com/boardgameio/boardgame.io/commit/bc35c78)] Updated with the latest blog posts
+- \[[8d8478e](https://github.com/boardgameio/boardgame.io/commit/8d8478e)] Updated with the latest blog posts
+- \[[5bcb285](https://github.com/boardgameio/boardgame.io/commit/5bcb285)] Updated with the latest blog posts
+- \[[0edaa34](https://github.com/boardgameio/boardgame.io/commit/0edaa34)] Updated with the latest blog posts
+- \[[2ca6786](https://github.com/boardgameio/boardgame.io/commit/2ca6786)] Updated with the latest blog posts
+- \[[84e5eca](https://github.com/boardgameio/boardgame.io/commit/84e5eca)] Updated with the latest blog posts
+- \[[4da2852](https://github.com/boardgameio/boardgame.io/commit/4da2852)] Updated with the latest blog posts
+- \[[657a4c2](https://github.com/boardgameio/boardgame.io/commit/657a4c2)] Updated with the latest blog posts
+- \[[b76cecc](https://github.com/boardgameio/boardgame.io/commit/b76cecc)] Updated with the latest blog posts
+- \[[1981666](https://github.com/boardgameio/boardgame.io/commit/1981666)] Updated with the latest blog posts
+- \[[3b59c4e](https://github.com/boardgameio/boardgame.io/commit/3b59c4e)] Updated with the latest blog posts
+- \[[97697a1](https://github.com/boardgameio/boardgame.io/commit/97697a1)] Updated with the latest blog posts
+- \[[c7e18da](https://github.com/boardgameio/boardgame.io/commit/c7e18da)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[98f552e](https://github.com/boardgameio/boardgame.io/commit/98f552e)] Updated with the latest blog posts
+- \[[cff6101](https://github.com/boardgameio/boardgame.io/commit/cff6101)] Updated with the latest blog posts
+- \[[f394ae5](https://github.com/boardgameio/boardgame.io/commit/f394ae5)] Updated with the latest blog posts
+- \[[bbf1df2](https://github.com/boardgameio/boardgame.io/commit/bbf1df2)] Updated with the latest blog posts
+- \[[c7b821f](https://github.com/boardgameio/boardgame.io/commit/c7b821f)] Updated with the latest blog posts
+- \[[f57afb0](https://github.com/boardgameio/boardgame.io/commit/f57afb0)] Updated with the latest blog posts
+- \[[cd62b0b](https://github.com/boardgameio/boardgame.io/commit/cd62b0b)] Updated with the latest blog posts
+- \[[9a5048c](https://github.com/boardgameio/boardgame.io/commit/9a5048c)] Updated with the latest blog posts
+- \[[8ec6561](https://github.com/boardgameio/boardgame.io/commit/8ec6561)] Updated with the latest blog posts
+- \[[556f2cb](https://github.com/boardgameio/boardgame.io/commit/556f2cb)] Updated with the latest blog posts
+- \[[2ac82ff](https://github.com/boardgameio/boardgame.io/commit/2ac82ff)] Updated with the latest blog posts
+- \[[acffd7c](https://github.com/boardgameio/boardgame.io/commit/acffd7c)] Updated with the latest blog posts
+- \[[c32f061](https://github.com/boardgameio/boardgame.io/commit/c32f061)] Updated with the latest blog posts
+- \[[0a3d689](https://github.com/boardgameio/boardgame.io/commit/0a3d689)] Updated with the latest blog posts
+- \[[cf8ff5f](https://github.com/boardgameio/boardgame.io/commit/cf8ff5f)] Auto update markdown TOC
+- \[[3dd359b](https://github.com/boardgameio/boardgame.io/commit/3dd359b)] Updated with the latest blog posts
+- \[[fc66e8b](https://github.com/boardgameio/boardgame.io/commit/fc66e8b)] Updated with the latest blog posts
+- \[[2376855](https://github.com/boardgameio/boardgame.io/commit/2376855)] Updated with the latest blog posts
+- \[[8e8b49b](https://github.com/boardgameio/boardgame.io/commit/8e8b49b)] Updated with the latest blog posts
+- \[[e7bbf93](https://github.com/boardgameio/boardgame.io/commit/e7bbf93)] Updated with the latest blog posts
+- \[[f71f92c](https://github.com/boardgameio/boardgame.io/commit/f71f92c)] Updated with the latest blog posts
+- \[[b0274f4](https://github.com/boardgameio/boardgame.io/commit/b0274f4)] Updated with the latest blog posts
+- \[[f035eb8](https://github.com/boardgameio/boardgame.io/commit/f035eb8)] Updated with the latest blog posts
+- \[[d0f233e](https://github.com/boardgameio/boardgame.io/commit/d0f233e)] Updated with the latest blog posts
+- \[[5cc4b1f](https://github.com/boardgameio/boardgame.io/commit/5cc4b1f)] Updated with the latest blog posts
+- \[[49e06a6](https://github.com/boardgameio/boardgame.io/commit/49e06a6)] Updated with the latest blog posts
+- \[[47fb282](https://github.com/boardgameio/boardgame.io/commit/47fb282)] Updated with the latest blog posts
+- \[[c271d7e](https://github.com/boardgameio/boardgame.io/commit/c271d7e)] Updated with the latest blog posts
+- \[[a1451c5](https://github.com/boardgameio/boardgame.io/commit/a1451c5)] Updated with the latest blog posts
+- \[[8863fc3](https://github.com/boardgameio/boardgame.io/commit/8863fc3)] Updated with the latest blog posts
+- \[[31e49f0](https://github.com/boardgameio/boardgame.io/commit/31e49f0)] Updated with the latest blog posts
+- \[[9761041](https://github.com/boardgameio/boardgame.io/commit/9761041)] Updated with the latest blog posts
+- \[[c119b9b](https://github.com/boardgameio/boardgame.io/commit/c119b9b)] Updated with the latest blog posts
+- \[[8b28984](https://github.com/boardgameio/boardgame.io/commit/8b28984)] Updated with the latest blog posts
+- \[[f0963bf](https://github.com/boardgameio/boardgame.io/commit/f0963bf)] Updated with the latest blog posts
+- \[[f1af8df](https://github.com/boardgameio/boardgame.io/commit/f1af8df)] Updated with the latest blog posts
+- \[[7fb72f3](https://github.com/boardgameio/boardgame.io/commit/7fb72f3)] Updated with the latest blog posts
+- \[[4856026](https://github.com/boardgameio/boardgame.io/commit/4856026)] Updated with the latest blog posts
+- \[[29b8294](https://github.com/boardgameio/boardgame.io/commit/29b8294)] Updated with the latest blog posts
+- \[[4a5bfa1](https://github.com/boardgameio/boardgame.io/commit/4a5bfa1)] Updated with the latest blog posts
+- \[[d7806ba](https://github.com/boardgameio/boardgame.io/commit/d7806ba)] Updated with the latest blog posts
+- \[[c7a49c8](https://github.com/boardgameio/boardgame.io/commit/c7a49c8)] Updated with the latest blog posts
+- \[[8c88621](https://github.com/boardgameio/boardgame.io/commit/8c88621)] Updated with the latest blog posts
+- \[[5f014bf](https://github.com/boardgameio/boardgame.io/commit/5f014bf)] Updated with the latest blog posts
+- \[[82ce6ed](https://github.com/boardgameio/boardgame.io/commit/82ce6ed)] Updated with the latest blog posts
+- \[[8982a7d](https://github.com/boardgameio/boardgame.io/commit/8982a7d)] Updated with the latest blog posts
+- \[[832b3ff](https://github.com/boardgameio/boardgame.io/commit/832b3ff)] Updated with the latest blog posts
+- \[[63f95f8](https://github.com/boardgameio/boardgame.io/commit/63f95f8)] Updated with the latest blog posts
+- \[[30507f3](https://github.com/boardgameio/boardgame.io/commit/30507f3)] Updated with the latest blog posts
+- \[[8b23c9c](https://github.com/boardgameio/boardgame.io/commit/8b23c9c)] Updated with the latest blog posts
+- \[[2db14c7](https://github.com/boardgameio/boardgame.io/commit/2db14c7)] Updated with the latest blog posts
+- \[[c0b5bfa](https://github.com/boardgameio/boardgame.io/commit/c0b5bfa)] Updated with the latest blog posts
+- \[[5902fd8](https://github.com/boardgameio/boardgame.io/commit/5902fd8)] Updated with the latest blog posts
+- \[[93628b6](https://github.com/boardgameio/boardgame.io/commit/93628b6)] Updated with the latest blog posts
+- \[[992cdd9](https://github.com/boardgameio/boardgame.io/commit/992cdd9)] Updated with the latest blog posts
+- \[[0e2baf5](https://github.com/boardgameio/boardgame.io/commit/0e2baf5)] Updated with the latest blog posts
+- \[[5b58ca6](https://github.com/boardgameio/boardgame.io/commit/5b58ca6)] Updated with the latest blog posts
+- \[[1c15fb3](https://github.com/boardgameio/boardgame.io/commit/1c15fb3)] Updated with the latest blog posts
+- \[[5fd7577](https://github.com/boardgameio/boardgame.io/commit/5fd7577)] Updated with the latest blog posts
+- \[[6d078bf](https://github.com/boardgameio/boardgame.io/commit/6d078bf)] Updated with the latest blog posts
+- \[[252a074](https://github.com/boardgameio/boardgame.io/commit/252a074)] Updated with the latest blog posts
+- \[[76af6ab](https://github.com/boardgameio/boardgame.io/commit/76af6ab)] Updated with the latest blog posts
+- \[[9da5773](https://github.com/boardgameio/boardgame.io/commit/9da5773)] Updated with the latest blog posts
+- \[[56bc766](https://github.com/boardgameio/boardgame.io/commit/56bc766)] Updated with the latest blog posts
+- \[[d2b022f](https://github.com/boardgameio/boardgame.io/commit/d2b022f)] Updated with the latest blog posts
+- \[[e98de3f](https://github.com/boardgameio/boardgame.io/commit/e98de3f)] Updated with the latest blog posts
+- \[[e5566c2](https://github.com/boardgameio/boardgame.io/commit/e5566c2)] Updated with the latest blog posts
+- \[[dfc54ac](https://github.com/boardgameio/boardgame.io/commit/dfc54ac)] Updated with the latest blog posts
+- \[[decf617](https://github.com/boardgameio/boardgame.io/commit/decf617)] Updated with the latest blog posts
+- \[[71aff3f](https://github.com/boardgameio/boardgame.io/commit/71aff3f)] Updated with the latest blog posts
+- \[[5fc3d76](https://github.com/boardgameio/boardgame.io/commit/5fc3d76)] Updated with the latest blog posts
+- \[[db62c74](https://github.com/boardgameio/boardgame.io/commit/db62c74)] Updated with the latest blog posts
+- \[[5909e6f](https://github.com/boardgameio/boardgame.io/commit/5909e6f)] Updated with the latest blog posts
+- \[[9571885](https://github.com/boardgameio/boardgame.io/commit/9571885)] Updated with the latest blog posts
+- \[[029ad31](https://github.com/boardgameio/boardgame.io/commit/029ad31)] Updated with the latest blog posts
+- \[[27796a9](https://github.com/boardgameio/boardgame.io/commit/27796a9)] Updated with the latest blog posts
+- \[[baf938c](https://github.com/boardgameio/boardgame.io/commit/baf938c)] Updated with the latest blog posts
+- \[[dd10e90](https://github.com/boardgameio/boardgame.io/commit/dd10e90)] Updated with the latest blog posts
+- \[[c9e89df](https://github.com/boardgameio/boardgame.io/commit/c9e89df)] Updated with the latest blog posts
+- \[[cf3f869](https://github.com/boardgameio/boardgame.io/commit/cf3f869)] Updated with the latest blog posts
+- \[[be8cadf](https://github.com/boardgameio/boardgame.io/commit/be8cadf)] Updated with the latest blog posts
+- \[[45c4db8](https://github.com/boardgameio/boardgame.io/commit/45c4db8)] Updated with the latest blog posts
+- \[[9ffc0f0](https://github.com/boardgameio/boardgame.io/commit/9ffc0f0)] Updated with the latest blog posts
+- \[[6c380c7](https://github.com/boardgameio/boardgame.io/commit/6c380c7)] Updated with the latest blog posts
+- \[[73bc310](https://github.com/boardgameio/boardgame.io/commit/73bc310)] Updated with the latest blog posts
+- \[[6fb3da3](https://github.com/boardgameio/boardgame.io/commit/6fb3da3)] Updated with the latest blog posts
+- \[[059626c](https://github.com/boardgameio/boardgame.io/commit/059626c)] Updated with the latest blog posts
+- \[[311d47e](https://github.com/boardgameio/boardgame.io/commit/311d47e)] Updated with the latest blog posts
+- \[[d6e043a](https://github.com/boardgameio/boardgame.io/commit/d6e043a)] Updated with the latest blog posts
+- \[[686d38d](https://github.com/boardgameio/boardgame.io/commit/686d38d)] Updated with the latest blog posts
+- \[[ee5ecc3](https://github.com/boardgameio/boardgame.io/commit/ee5ecc3)] Updated with the latest blog posts
+- \[[ff30515](https://github.com/boardgameio/boardgame.io/commit/ff30515)] Updated with the latest blog posts
+- \[[9bd2fef](https://github.com/boardgameio/boardgame.io/commit/9bd2fef)] Updated with the latest blog posts
+- \[[c944c15](https://github.com/boardgameio/boardgame.io/commit/c944c15)] Updated with the latest blog posts
+- \[[0a58b15](https://github.com/boardgameio/boardgame.io/commit/0a58b15)] Updated with the latest blog posts
+- \[[0408711](https://github.com/boardgameio/boardgame.io/commit/0408711)] Updated with the latest blog posts
+- \[[7408925](https://github.com/boardgameio/boardgame.io/commit/7408925)] Updated with the latest blog posts
+- \[[df83bd6](https://github.com/boardgameio/boardgame.io/commit/df83bd6)] Updated with the latest blog posts
+- \[[02c786c](https://github.com/boardgameio/boardgame.io/commit/02c786c)] Updated with the latest blog posts
+- \[[eef32b3](https://github.com/boardgameio/boardgame.io/commit/eef32b3)] Updated with the latest blog posts
+- \[[43fd952](https://github.com/boardgameio/boardgame.io/commit/43fd952)] Updated with the latest blog posts
+- \[[aeba2ab](https://github.com/boardgameio/boardgame.io/commit/aeba2ab)] Updated with the latest blog posts
+- \[[3356e01](https://github.com/boardgameio/boardgame.io/commit/3356e01)] Auto update markdown TOC
+- \[[59f0efd](https://github.com/boardgameio/boardgame.io/commit/59f0efd)] Updated with the latest blog posts
+- \[[a54e74e](https://github.com/boardgameio/boardgame.io/commit/a54e74e)] Updated with the latest blog posts
+- \[[ef3a8cb](https://github.com/boardgameio/boardgame.io/commit/ef3a8cb)] Updated with the latest blog posts
+- \[[f6171d4](https://github.com/boardgameio/boardgame.io/commit/f6171d4)] Updated with the latest blog posts
+- \[[6ebf4e1](https://github.com/boardgameio/boardgame.io/commit/6ebf4e1)] Updated with the latest blog posts
+- \[[50ede0b](https://github.com/boardgameio/boardgame.io/commit/50ede0b)] Updated with the latest blog posts
+- \[[a938a42](https://github.com/boardgameio/boardgame.io/commit/a938a42)] Updated with the latest blog posts
+- \[[38607c0](https://github.com/boardgameio/boardgame.io/commit/38607c0)] Updated with the latest blog posts
+- \[[a276a84](https://github.com/boardgameio/boardgame.io/commit/a276a84)] Updated with the latest blog posts
+- \[[fe92662](https://github.com/boardgameio/boardgame.io/commit/fe92662)] Updated with the latest blog posts
+- \[[9560d22](https://github.com/boardgameio/boardgame.io/commit/9560d22)] Updated with the latest blog posts
+- \[[0182cac](https://github.com/boardgameio/boardgame.io/commit/0182cac)] Updated with the latest blog posts
+- \[[16015b9](https://github.com/boardgameio/boardgame.io/commit/16015b9)] Updated with the latest blog posts
+- \[[d035f32](https://github.com/boardgameio/boardgame.io/commit/d035f32)] Updated with the latest blog posts
+- \[[44f841c](https://github.com/boardgameio/boardgame.io/commit/44f841c)] Updated with the latest blog posts
+- \[[3e2439b](https://github.com/boardgameio/boardgame.io/commit/3e2439b)] Updated with the latest blog posts
+- \[[d2347b6](https://github.com/boardgameio/boardgame.io/commit/d2347b6)] Updated with the latest blog posts
+- \[[3491b51](https://github.com/boardgameio/boardgame.io/commit/3491b51)] Auto update markdown TOC
+- \[[634b9ef](https://github.com/boardgameio/boardgame.io/commit/634b9ef)] Auto update markdown TOC
+- \[[ba82601](https://github.com/boardgameio/boardgame.io/commit/ba82601)] Updated with the latest blog posts
+- \[[466dab0](https://github.com/boardgameio/boardgame.io/commit/466dab0)] Updated with the latest blog posts
+- \[[b081809](https://github.com/boardgameio/boardgame.io/commit/b081809)] Updated with the latest blog posts
+- \[[829fa7f](https://github.com/boardgameio/boardgame.io/commit/829fa7f)] Updated with the latest blog posts
+- \[[9ff3e8a](https://github.com/boardgameio/boardgame.io/commit/9ff3e8a)] Updated with the latest blog posts
+- \[[980252c](https://github.com/boardgameio/boardgame.io/commit/980252c)] Updated with the latest blog posts
+- \[[2ac0368](https://github.com/boardgameio/boardgame.io/commit/2ac0368)] Updated with the latest blog posts
+- \[[e4a5241](https://github.com/boardgameio/boardgame.io/commit/e4a5241)] Updated with the latest blog posts
+- \[[6205ff3](https://github.com/boardgameio/boardgame.io/commit/6205ff3)] Updated with the latest blog posts
+- \[[86c2f20](https://github.com/boardgameio/boardgame.io/commit/86c2f20)] Updated with the latest blog posts
+- \[[da7ad81](https://github.com/boardgameio/boardgame.io/commit/da7ad81)] Updated with the latest blog posts
+- \[[6256646](https://github.com/boardgameio/boardgame.io/commit/6256646)] Updated with the latest blog posts
+- \[[fec5389](https://github.com/boardgameio/boardgame.io/commit/fec5389)] Updated with the latest blog posts
+- \[[c8bbec4](https://github.com/boardgameio/boardgame.io/commit/c8bbec4)] Auto update markdown TOC
+- \[[fd2e513](https://github.com/boardgameio/boardgame.io/commit/fd2e513)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns into master
+- \[[0a1c0b1](https://github.com/boardgameio/boardgame.io/commit/0a1c0b1)] Auto update markdown TOC
+- \[[772f6c1](https://github.com/boardgameio/boardgame.io/commit/772f6c1)] Auto update markdown TOC
+- \[[3554691](https://github.com/boardgameio/boardgame.io/commit/3554691)] Auto update markdown TOC
+- \[[d5aa3b6](https://github.com/boardgameio/boardgame.io/commit/d5aa3b6)] Auto update markdown TOC
+- \[[d04e57d](https://github.com/boardgameio/boardgame.io/commit/d04e57d)] Updated with the latest blog posts
+- \[[3bc9c2a](https://github.com/boardgameio/boardgame.io/commit/3bc9c2a)] Updated with the latest blog posts
+- \[[b5f0d54](https://github.com/boardgameio/boardgame.io/commit/b5f0d54)] Updated with the latest blog posts
+- \[[7b05a02](https://github.com/boardgameio/boardgame.io/commit/7b05a02)] Updated with the latest blog posts
+- \[[4c16da3](https://github.com/boardgameio/boardgame.io/commit/4c16da3)] Updated with the latest blog posts
+- \[[392289c](https://github.com/boardgameio/boardgame.io/commit/392289c)] Updated with the latest blog posts
+- \[[aa72a9e](https://github.com/boardgameio/boardgame.io/commit/aa72a9e)] Updated with the latest blog posts
+- \[[4ffa7de](https://github.com/boardgameio/boardgame.io/commit/4ffa7de)] Updated with the latest blog posts
+- \[[faa6813](https://github.com/boardgameio/boardgame.io/commit/faa6813)] Updated with the latest blog posts
+- \[[421ff2c](https://github.com/boardgameio/boardgame.io/commit/421ff2c)] Updated with the latest blog posts
+- \[[6c87346](https://github.com/boardgameio/boardgame.io/commit/6c87346)] Updated with the latest blog posts
+- \[[fc583c2](https://github.com/boardgameio/boardgame.io/commit/fc583c2)] Updated with the latest blog posts
+- \[[8896fa0](https://github.com/boardgameio/boardgame.io/commit/8896fa0)] Updated with the latest blog posts
+- \[[a26436e](https://github.com/boardgameio/boardgame.io/commit/a26436e)] Auto update markdown TOC
+- \[[7d4eecd](https://github.com/boardgameio/boardgame.io/commit/7d4eecd)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns into master
+- \[[766b72e](https://github.com/boardgameio/boardgame.io/commit/766b72e)] Auto update markdown TOC
+- \[[ff02208](https://github.com/boardgameio/boardgame.io/commit/ff02208)] Updated with the latest blog posts
+- \[[8ef1244](https://github.com/boardgameio/boardgame.io/commit/8ef1244)] Updated with the latest blog posts
+- \[[211056d](https://github.com/boardgameio/boardgame.io/commit/211056d)] Updated with the latest blog posts
+- \[[e323953](https://github.com/boardgameio/boardgame.io/commit/e323953)] Updated with the latest blog posts
+- \[[83fbe99](https://github.com/boardgameio/boardgame.io/commit/83fbe99)] Updated with the latest blog posts
+- \[[402b714](https://github.com/boardgameio/boardgame.io/commit/402b714)] Updated with the latest blog posts
+- \[[b8486e2](https://github.com/boardgameio/boardgame.io/commit/b8486e2)] Updated with the latest blog posts
+- \[[2b1dcc4](https://github.com/boardgameio/boardgame.io/commit/2b1dcc4)] Updated with the latest blog posts
+- \[[2df922b](https://github.com/boardgameio/boardgame.io/commit/2df922b)] Updated with the latest blog posts
+- \[[40083ce](https://github.com/boardgameio/boardgame.io/commit/40083ce)] Updated with the latest blog posts
+- \[[0684105](https://github.com/boardgameio/boardgame.io/commit/0684105)] Updated with the latest blog posts
+- \[[9feb688](https://github.com/boardgameio/boardgame.io/commit/9feb688)] Updated with the latest blog posts
+- \[[82f54ed](https://github.com/boardgameio/boardgame.io/commit/82f54ed)] Updated with the latest blog posts
+- \[[181210d](https://github.com/boardgameio/boardgame.io/commit/181210d)] Auto update markdown TOC
+- \[[e237325](https://github.com/boardgameio/boardgame.io/commit/e237325)] Updated with the latest blog posts
+- \[[222ce63](https://github.com/boardgameio/boardgame.io/commit/222ce63)] Updated with the latest blog posts
+- \[[9cc93ee](https://github.com/boardgameio/boardgame.io/commit/9cc93ee)] Updated with the latest blog posts
+- \[[bd3a0e7](https://github.com/boardgameio/boardgame.io/commit/bd3a0e7)] Updated with the latest blog posts
+- \[[a5bcd51](https://github.com/boardgameio/boardgame.io/commit/a5bcd51)] Updated with the latest blog posts
+- \[[838fa75](https://github.com/boardgameio/boardgame.io/commit/838fa75)] Updated with the latest blog posts
+- \[[b382e91](https://github.com/boardgameio/boardgame.io/commit/b382e91)] Updated with the latest blog posts
+- \[[159e0fc](https://github.com/boardgameio/boardgame.io/commit/159e0fc)] Updated with the latest blog posts
+- \[[158eb88](https://github.com/boardgameio/boardgame.io/commit/158eb88)] Updated with the latest blog posts
+- \[[e7f05e9](https://github.com/boardgameio/boardgame.io/commit/e7f05e9)] Updated with the latest blog posts
+- \[[cba2033](https://github.com/boardgameio/boardgame.io/commit/cba2033)] Updated with the latest blog posts
+- \[[1050003](https://github.com/boardgameio/boardgame.io/commit/1050003)] Updated with the latest blog posts
+- \[[570ee49](https://github.com/boardgameio/boardgame.io/commit/570ee49)] Updated with the latest blog posts
+- \[[ce6ef61](https://github.com/boardgameio/boardgame.io/commit/ce6ef61)] Updated with the latest blog posts
+- \[[d9cf0d1](https://github.com/boardgameio/boardgame.io/commit/d9cf0d1)] Updated with the latest blog posts
+- \[[8acf05f](https://github.com/boardgameio/boardgame.io/commit/8acf05f)] Updated with the latest blog posts
+- \[[dd1c026](https://github.com/boardgameio/boardgame.io/commit/dd1c026)] Updated with the latest blog posts
+- \[[29c7326](https://github.com/boardgameio/boardgame.io/commit/29c7326)] Updated with the latest blog posts
+- \[[044c1ef](https://github.com/boardgameio/boardgame.io/commit/044c1ef)] Updated with the latest blog posts
+- \[[1987f51](https://github.com/boardgameio/boardgame.io/commit/1987f51)] Updated with the latest blog posts
+- \[[3278ef5](https://github.com/boardgameio/boardgame.io/commit/3278ef5)] Updated with the latest blog posts
+- \[[d9556d8](https://github.com/boardgameio/boardgame.io/commit/d9556d8)] Updated with the latest blog posts
+- \[[baa15b6](https://github.com/boardgameio/boardgame.io/commit/baa15b6)] Updated with the latest blog posts
+- \[[172dadd](https://github.com/boardgameio/boardgame.io/commit/172dadd)] Updated with the latest blog posts
+- \[[355af59](https://github.com/boardgameio/boardgame.io/commit/355af59)] Updated with the latest blog posts
+- \[[6027157](https://github.com/boardgameio/boardgame.io/commit/6027157)] Updated with the latest blog posts
+- \[[d0db70e](https://github.com/boardgameio/boardgame.io/commit/d0db70e)] Updated with the latest blog posts
+- \[[d751887](https://github.com/boardgameio/boardgame.io/commit/d751887)] Updated with the latest blog posts
+- \[[73557e1](https://github.com/boardgameio/boardgame.io/commit/73557e1)] Updated with the latest blog posts
+- \[[9b3f28c](https://github.com/boardgameio/boardgame.io/commit/9b3f28c)] Updated with the latest blog posts
+- \[[66d558a](https://github.com/boardgameio/boardgame.io/commit/66d558a)] Updated with the latest blog posts
+- \[[4b7f55f](https://github.com/boardgameio/boardgame.io/commit/4b7f55f)] Updated with the latest blog posts
+- \[[5b52066](https://github.com/boardgameio/boardgame.io/commit/5b52066)] Updated with the latest blog posts
+- \[[b8b6217](https://github.com/boardgameio/boardgame.io/commit/b8b6217)] Updated with the latest blog posts
+- \[[bcbe042](https://github.com/boardgameio/boardgame.io/commit/bcbe042)] Updated with the latest blog posts
+- \[[03a552a](https://github.com/boardgameio/boardgame.io/commit/03a552a)] Updated with the latest blog posts
+- \[[9ca19d7](https://github.com/boardgameio/boardgame.io/commit/9ca19d7)] Updated with the latest blog posts
+- \[[a7a63de](https://github.com/boardgameio/boardgame.io/commit/a7a63de)] Updated with the latest blog posts
+- \[[4e0de60](https://github.com/boardgameio/boardgame.io/commit/4e0de60)] Updated with the latest blog posts
+- \[[eb15094](https://github.com/boardgameio/boardgame.io/commit/eb15094)] Updated with the latest blog posts
+- \[[a4319dc](https://github.com/boardgameio/boardgame.io/commit/a4319dc)] Updated with the latest blog posts
+- \[[7f7173b](https://github.com/boardgameio/boardgame.io/commit/7f7173b)] Updated with the latest blog posts
+- \[[96c88b5](https://github.com/boardgameio/boardgame.io/commit/96c88b5)] Updated with the latest blog posts
+- \[[917d933](https://github.com/boardgameio/boardgame.io/commit/917d933)] Updated with the latest blog posts
+- \[[7e40568](https://github.com/boardgameio/boardgame.io/commit/7e40568)] Updated with the latest blog posts
+- \[[59a69bd](https://github.com/boardgameio/boardgame.io/commit/59a69bd)] Updated with the latest blog posts
+- \[[e29ab1d](https://github.com/boardgameio/boardgame.io/commit/e29ab1d)] Updated with the latest blog posts
+- \[[10b2ff4](https://github.com/boardgameio/boardgame.io/commit/10b2ff4)] Updated with the latest blog posts
+- \[[4da6702](https://github.com/boardgameio/boardgame.io/commit/4da6702)] Updated with the latest blog posts
+- \[[b354f31](https://github.com/boardgameio/boardgame.io/commit/b354f31)] Updated with the latest blog posts
+- \[[d7ee087](https://github.com/boardgameio/boardgame.io/commit/d7ee087)] Updated with the latest blog posts
+- \[[02f850b](https://github.com/boardgameio/boardgame.io/commit/02f850b)] Updated with the latest blog posts
+- \[[4e427dd](https://github.com/boardgameio/boardgame.io/commit/4e427dd)] Updated with the latest blog posts
+- \[[b746e24](https://github.com/boardgameio/boardgame.io/commit/b746e24)] Updated with the latest blog posts
+- \[[03dbd41](https://github.com/boardgameio/boardgame.io/commit/03dbd41)] Updated with the latest blog posts
+- \[[4755f24](https://github.com/boardgameio/boardgame.io/commit/4755f24)] Updated with the latest blog posts
+- \[[b400fcc](https://github.com/boardgameio/boardgame.io/commit/b400fcc)] Updated with the latest blog posts
+- \[[1dbbb7e](https://github.com/boardgameio/boardgame.io/commit/1dbbb7e)] Updated with the latest blog posts
+- \[[5db180a](https://github.com/boardgameio/boardgame.io/commit/5db180a)] Updated with the latest blog posts
+- \[[fe680c3](https://github.com/boardgameio/boardgame.io/commit/fe680c3)] Updated with the latest blog posts
+- \[[a81324e](https://github.com/boardgameio/boardgame.io/commit/a81324e)] Updated with the latest blog posts
+- \[[b5d6795](https://github.com/boardgameio/boardgame.io/commit/b5d6795)] Updated with the latest blog posts
+- \[[2764b96](https://github.com/boardgameio/boardgame.io/commit/2764b96)] Updated with the latest blog posts
+- \[[19617e8](https://github.com/boardgameio/boardgame.io/commit/19617e8)] Updated with the latest blog posts
+- \[[999f1ff](https://github.com/boardgameio/boardgame.io/commit/999f1ff)] Updated with the latest blog posts
+- \[[cbafc40](https://github.com/boardgameio/boardgame.io/commit/cbafc40)] Updated with the latest blog posts
+- \[[cae6e56](https://github.com/boardgameio/boardgame.io/commit/cae6e56)] Updated with the latest blog posts
+- \[[5b3f338](https://github.com/boardgameio/boardgame.io/commit/5b3f338)] Updated with the latest blog posts
+- \[[eabace4](https://github.com/boardgameio/boardgame.io/commit/eabace4)] Updated with the latest blog posts
+- \[[4651348](https://github.com/boardgameio/boardgame.io/commit/4651348)] Updated with the latest blog posts
+- \[[125f020](https://github.com/boardgameio/boardgame.io/commit/125f020)] Updated with the latest blog posts
+- \[[f4d574c](https://github.com/boardgameio/boardgame.io/commit/f4d574c)] Updated with the latest blog posts
+- \[[19d75ab](https://github.com/boardgameio/boardgame.io/commit/19d75ab)] Updated with the latest blog posts
+- \[[26c200e](https://github.com/boardgameio/boardgame.io/commit/26c200e)] Updated with the latest blog posts
+- \[[8e4e189](https://github.com/boardgameio/boardgame.io/commit/8e4e189)] Updated with the latest blog posts
+- \[[471db37](https://github.com/boardgameio/boardgame.io/commit/471db37)] Updated with the latest blog posts
+- \[[849c8fe](https://github.com/boardgameio/boardgame.io/commit/849c8fe)] Updated with the latest blog posts
+- \[[1b86f72](https://github.com/boardgameio/boardgame.io/commit/1b86f72)] Updated with the latest blog posts
+- \[[9df3135](https://github.com/boardgameio/boardgame.io/commit/9df3135)] Updated with the latest blog posts
+- \[[7863bda](https://github.com/boardgameio/boardgame.io/commit/7863bda)] Updated with the latest blog posts
+- \[[feb8b14](https://github.com/boardgameio/boardgame.io/commit/feb8b14)] Updated with the latest blog posts
+- \[[7c61651](https://github.com/boardgameio/boardgame.io/commit/7c61651)] Updated with the latest blog posts
+- \[[54abf1b](https://github.com/boardgameio/boardgame.io/commit/54abf1b)] Updated with the latest blog posts
+- \[[ff1f420](https://github.com/boardgameio/boardgame.io/commit/ff1f420)] Updated with the latest blog posts
+- \[[6615191](https://github.com/boardgameio/boardgame.io/commit/6615191)] Updated with the latest blog posts
+- \[[2ec1ab4](https://github.com/boardgameio/boardgame.io/commit/2ec1ab4)] Updated with the latest blog posts
+- \[[ad27d92](https://github.com/boardgameio/boardgame.io/commit/ad27d92)] Updated with the latest blog posts
+- \[[388b081](https://github.com/boardgameio/boardgame.io/commit/388b081)] Updated with the latest blog posts
+- \[[7219e3c](https://github.com/boardgameio/boardgame.io/commit/7219e3c)] Updated with the latest blog posts
+- \[[bbabc7b](https://github.com/boardgameio/boardgame.io/commit/bbabc7b)] Updated with the latest blog posts
+- \[[cc1b0de](https://github.com/boardgameio/boardgame.io/commit/cc1b0de)] Updated with the latest blog posts
+- \[[b338e86](https://github.com/boardgameio/boardgame.io/commit/b338e86)] Updated with the latest blog posts
+- \[[cf7d6bd](https://github.com/boardgameio/boardgame.io/commit/cf7d6bd)] Updated with the latest blog posts
+- \[[b04f89e](https://github.com/boardgameio/boardgame.io/commit/b04f89e)] Updated with the latest blog posts
+- \[[6ac4bad](https://github.com/boardgameio/boardgame.io/commit/6ac4bad)] Updated with the latest blog posts
+- \[[8150fd8](https://github.com/boardgameio/boardgame.io/commit/8150fd8)] Updated with the latest blog posts
+- \[[860c967](https://github.com/boardgameio/boardgame.io/commit/860c967)] Updated with the latest blog posts
+- \[[20a740f](https://github.com/boardgameio/boardgame.io/commit/20a740f)] Updated with the latest blog posts
+- \[[a2a260e](https://github.com/boardgameio/boardgame.io/commit/a2a260e)] Updated with the latest blog posts
+- \[[cf70597](https://github.com/boardgameio/boardgame.io/commit/cf70597)] Updated with the latest blog posts
+- \[[6038704](https://github.com/boardgameio/boardgame.io/commit/6038704)] Updated with the latest blog posts
+- \[[664beb8](https://github.com/boardgameio/boardgame.io/commit/664beb8)] Updated with the latest blog posts
+- \[[6ce1496](https://github.com/boardgameio/boardgame.io/commit/6ce1496)] Updated with the latest blog posts
+- \[[6c74f48](https://github.com/boardgameio/boardgame.io/commit/6c74f48)] Updated with the latest blog posts
+- \[[75c2fd4](https://github.com/boardgameio/boardgame.io/commit/75c2fd4)] Updated with the latest blog posts
+- \[[ab2b266](https://github.com/boardgameio/boardgame.io/commit/ab2b266)] Updated with the latest blog posts
+- \[[e1c418e](https://github.com/boardgameio/boardgame.io/commit/e1c418e)] Updated with the latest blog posts
+- \[[d64db70](https://github.com/boardgameio/boardgame.io/commit/d64db70)] Updated with the latest blog posts
+- \[[87386f3](https://github.com/boardgameio/boardgame.io/commit/87386f3)] Updated with the latest blog posts
+- \[[f25b1e3](https://github.com/boardgameio/boardgame.io/commit/f25b1e3)] Updated with the latest blog posts
+- \[[e11b6b8](https://github.com/boardgameio/boardgame.io/commit/e11b6b8)] Updated with the latest blog posts
+- \[[35376d4](https://github.com/boardgameio/boardgame.io/commit/35376d4)] Updated with the latest blog posts
+- \[[d2014e7](https://github.com/boardgameio/boardgame.io/commit/d2014e7)] Updated with the latest blog posts
+- \[[e705ead](https://github.com/boardgameio/boardgame.io/commit/e705ead)] Updated with the latest blog posts
+- \[[87e33e5](https://github.com/boardgameio/boardgame.io/commit/87e33e5)] Updated with the latest blog posts
+- \[[9b0639b](https://github.com/boardgameio/boardgame.io/commit/9b0639b)] Updated with the latest blog posts
+- \[[4eb5d9c](https://github.com/boardgameio/boardgame.io/commit/4eb5d9c)] Updated with the latest blog posts
+- \[[a152e38](https://github.com/boardgameio/boardgame.io/commit/a152e38)] Updated with the latest blog posts
+- \[[9e436dc](https://github.com/boardgameio/boardgame.io/commit/9e436dc)] Updated with the latest blog posts
+- \[[5035974](https://github.com/boardgameio/boardgame.io/commit/5035974)] Updated with the latest blog posts
+- \[[dc3b648](https://github.com/boardgameio/boardgame.io/commit/dc3b648)] Updated with the latest blog posts
+- \[[cfab48b](https://github.com/boardgameio/boardgame.io/commit/cfab48b)] Updated with the latest blog posts
+- \[[3a25ae6](https://github.com/boardgameio/boardgame.io/commit/3a25ae6)] Updated with the latest blog posts
+- \[[d636340](https://github.com/boardgameio/boardgame.io/commit/d636340)] Updated with the latest blog posts
+- \[[439d46e](https://github.com/boardgameio/boardgame.io/commit/439d46e)] Updated with the latest blog posts
+- \[[c50ea12](https://github.com/boardgameio/boardgame.io/commit/c50ea12)] Updated with the latest blog posts
+- \[[88fabd1](https://github.com/boardgameio/boardgame.io/commit/88fabd1)] Updated with the latest blog posts
+- \[[ca78376](https://github.com/boardgameio/boardgame.io/commit/ca78376)] Updated with the latest blog posts
+- \[[3e69edc](https://github.com/boardgameio/boardgame.io/commit/3e69edc)] Updated with the latest blog posts
+- \[[cd46276](https://github.com/boardgameio/boardgame.io/commit/cd46276)] Updated with the latest blog posts
+- \[[58526f5](https://github.com/boardgameio/boardgame.io/commit/58526f5)] Updated with the latest blog posts
+- \[[f7cc7d9](https://github.com/boardgameio/boardgame.io/commit/f7cc7d9)] Updated with the latest blog posts
+- \[[2306fcf](https://github.com/boardgameio/boardgame.io/commit/2306fcf)] Updated with the latest blog posts
+- \[[6dbf376](https://github.com/boardgameio/boardgame.io/commit/6dbf376)] Updated with the latest blog posts
+- \[[2d63d61](https://github.com/boardgameio/boardgame.io/commit/2d63d61)] Updated with the latest blog posts
+- \[[1e5f9dd](https://github.com/boardgameio/boardgame.io/commit/1e5f9dd)] Updated with the latest blog posts
+- \[[8d592d8](https://github.com/boardgameio/boardgame.io/commit/8d592d8)] Updated with the latest blog posts
+- \[[e172ada](https://github.com/boardgameio/boardgame.io/commit/e172ada)] Updated with the latest blog posts
+- \[[b8c03b5](https://github.com/boardgameio/boardgame.io/commit/b8c03b5)] Updated with the latest blog posts
+- \[[5e4c072](https://github.com/boardgameio/boardgame.io/commit/5e4c072)] Updated with the latest blog posts
+- \[[ce42a34](https://github.com/boardgameio/boardgame.io/commit/ce42a34)] Updated with the latest blog posts
+- \[[6da0c11](https://github.com/boardgameio/boardgame.io/commit/6da0c11)] Updated with the latest blog posts
+- \[[c07737c](https://github.com/boardgameio/boardgame.io/commit/c07737c)] Updated with the latest blog posts
+- \[[9f22101](https://github.com/boardgameio/boardgame.io/commit/9f22101)] Updated with the latest blog posts
+- \[[a0d0e38](https://github.com/boardgameio/boardgame.io/commit/a0d0e38)] Updated with the latest blog posts
+- \[[72bbe1b](https://github.com/boardgameio/boardgame.io/commit/72bbe1b)] Updated with the latest blog posts
+- \[[d00bfce](https://github.com/boardgameio/boardgame.io/commit/d00bfce)] Updated with the latest blog posts
+- \[[8ba5a8b](https://github.com/boardgameio/boardgame.io/commit/8ba5a8b)] Updated with the latest blog posts
+- \[[b10acd9](https://github.com/boardgameio/boardgame.io/commit/b10acd9)] Updated with the latest blog posts
+- \[[1d33908](https://github.com/boardgameio/boardgame.io/commit/1d33908)] Updated with the latest blog posts
+- \[[43d4132](https://github.com/boardgameio/boardgame.io/commit/43d4132)] Updated with the latest blog posts
+- \[[2e35fac](https://github.com/boardgameio/boardgame.io/commit/2e35fac)] Updated with the latest blog posts
+- \[[aa8bb7b](https://github.com/boardgameio/boardgame.io/commit/aa8bb7b)] Updated with the latest blog posts
+- \[[0c9ffbe](https://github.com/boardgameio/boardgame.io/commit/0c9ffbe)] Updated with the latest blog posts
+- \[[ee36c6e](https://github.com/boardgameio/boardgame.io/commit/ee36c6e)] Updated with the latest blog posts
+- \[[a934df5](https://github.com/boardgameio/boardgame.io/commit/a934df5)] Updated with the latest blog posts
+- \[[763ba64](https://github.com/boardgameio/boardgame.io/commit/763ba64)] Updated with the latest blog posts
+- \[[56cb094](https://github.com/boardgameio/boardgame.io/commit/56cb094)] Updated with the latest blog posts
+- \[[5d04b2e](https://github.com/boardgameio/boardgame.io/commit/5d04b2e)] Updated with the latest blog posts
+- \[[2f2a126](https://github.com/boardgameio/boardgame.io/commit/2f2a126)] Updated with the latest blog posts
+- \[[c42a3d4](https://github.com/boardgameio/boardgame.io/commit/c42a3d4)] Updated with the latest blog posts
+- \[[229fa4f](https://github.com/boardgameio/boardgame.io/commit/229fa4f)] Updated with the latest blog posts
+- \[[56095c7](https://github.com/boardgameio/boardgame.io/commit/56095c7)] Updated with the latest blog posts
+- \[[ea6461e](https://github.com/boardgameio/boardgame.io/commit/ea6461e)] Updated with the latest blog posts
+- \[[bb8d2c3](https://github.com/boardgameio/boardgame.io/commit/bb8d2c3)] Updated with the latest blog posts
+- \[[4c42391](https://github.com/boardgameio/boardgame.io/commit/4c42391)] Updated with the latest blog posts
+- \[[26bd2d0](https://github.com/boardgameio/boardgame.io/commit/26bd2d0)] Updated with the latest blog posts
+- \[[c8fe5ad](https://github.com/boardgameio/boardgame.io/commit/c8fe5ad)] Updated with the latest blog posts
+- \[[a8a2e7e](https://github.com/boardgameio/boardgame.io/commit/a8a2e7e)] Updated with the latest blog posts
+- \[[1c2c7ab](https://github.com/boardgameio/boardgame.io/commit/1c2c7ab)] Updated with the latest blog posts
+- \[[7994171](https://github.com/boardgameio/boardgame.io/commit/7994171)] Updated with the latest blog posts
+- \[[0497bd6](https://github.com/boardgameio/boardgame.io/commit/0497bd6)] Updated with the latest blog posts
+- \[[3787cbe](https://github.com/boardgameio/boardgame.io/commit/3787cbe)] Updated with the latest blog posts
+- \[[0246009](https://github.com/boardgameio/boardgame.io/commit/0246009)] Updated with the latest blog posts
+- \[[ae356f3](https://github.com/boardgameio/boardgame.io/commit/ae356f3)] Updated with the latest blog posts
+- \[[19404b7](https://github.com/boardgameio/boardgame.io/commit/19404b7)] Updated with the latest blog posts
+- \[[e8a7135](https://github.com/boardgameio/boardgame.io/commit/e8a7135)] Updated with the latest blog posts
+- \[[45bb82b](https://github.com/boardgameio/boardgame.io/commit/45bb82b)] Updated with the latest blog posts
+- \[[a6fec4c](https://github.com/boardgameio/boardgame.io/commit/a6fec4c)] Updated with the latest blog posts
+- \[[4b28292](https://github.com/boardgameio/boardgame.io/commit/4b28292)] Updated with the latest blog posts
+- \[[af5b68a](https://github.com/boardgameio/boardgame.io/commit/af5b68a)] Updated with the latest blog posts
+- \[[d83c8bc](https://github.com/boardgameio/boardgame.io/commit/d83c8bc)] Updated with the latest blog posts
+- \[[2b58cfb](https://github.com/boardgameio/boardgame.io/commit/2b58cfb)] Updated with the latest blog posts
+- \[[d0316d4](https://github.com/boardgameio/boardgame.io/commit/d0316d4)] Updated with the latest blog posts
+- \[[d1b4ba1](https://github.com/boardgameio/boardgame.io/commit/d1b4ba1)] Updated with the latest blog posts
+- \[[57c65e9](https://github.com/boardgameio/boardgame.io/commit/57c65e9)] Updated with the latest blog posts
+- \[[ad15005](https://github.com/boardgameio/boardgame.io/commit/ad15005)] Updated with the latest blog posts
+- \[[22eef06](https://github.com/boardgameio/boardgame.io/commit/22eef06)] Updated with the latest blog posts
+- \[[4463ea2](https://github.com/boardgameio/boardgame.io/commit/4463ea2)] Updated with the latest blog posts
+- \[[44a2cbb](https://github.com/boardgameio/boardgame.io/commit/44a2cbb)] Updated with the latest blog posts
+- \[[cc85291](https://github.com/boardgameio/boardgame.io/commit/cc85291)] Merge pull request #77 from AlexRogalskiy/renovate/wagoid-commitlint-github-action-2.x
+- \[[48d5c08](https://github.com/boardgameio/boardgame.io/commit/48d5c08)] Merge pull request #79 from AlexRogalskiy/dependabot/github_actions/wagoid/commitlint-github-action-v2.2.5
+- \[[21cc09a](https://github.com/boardgameio/boardgame.io/commit/21cc09a)] Create shiftleft-analysis.yml
+- \[[8c4e494](https://github.com/boardgameio/boardgame.io/commit/8c4e494)] Create SECURITY.md
+- \[[dfaf8bf](https://github.com/boardgameio/boardgame.io/commit/dfaf8bf)] Updated with the latest blog posts
+- \[[a3ef22c](https://github.com/boardgameio/boardgame.io/commit/a3ef22c)] Updated with the latest blog posts
+- \[[1a8e6c3](https://github.com/boardgameio/boardgame.io/commit/1a8e6c3)] Updated with the latest blog posts
+- \[[2d0850b](https://github.com/boardgameio/boardgame.io/commit/2d0850b)] Updated with the latest blog posts
+- \[[ae44a47](https://github.com/boardgameio/boardgame.io/commit/ae44a47)] :arrow_Updates wagoid/commitlint-github-action action to v2.2.5
+- \[[75e2db9](https://github.com/boardgameio/boardgame.io/commit/75e2db9)] github-bump wagoid/commitlint-github-action
+- \[[021ce33](https://github.com/boardgameio/boardgame.io/commit/021ce33)] Updated with the latest blog posts
+- \[[ce23f00](https://github.com/boardgameio/boardgame.io/commit/ce23f00)] Updated with the latest blog posts
+- \[[1021933](https://github.com/boardgameio/boardgame.io/commit/1021933)] Updated with the latest blog posts
+- \[[044a995](https://github.com/boardgameio/boardgame.io/commit/044a995)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns into master
+- \[[803e8c4](https://github.com/boardgameio/boardgame.io/commit/803e8c4)] Updated with the latest blog posts
+- \[[c556f6c](https://github.com/boardgameio/boardgame.io/commit/c556f6c)] Updated with the latest blog posts
+- \[[7f69371](https://github.com/boardgameio/boardgame.io/commit/7f69371)] Updated with the latest blog posts
+- \[[4182bee](https://github.com/boardgameio/boardgame.io/commit/4182bee)] Merge pull request #70 from AlexRogalskiy/renovate/jamesives-github-pages-deploy-action-4.x
+- \[[c8adb22](https://github.com/boardgameio/boardgame.io/commit/c8adb22)] Merge pull request #71 from AlexRogalskiy/dependabot/github_actions/JamesIves/github-pages-deploy-action-4.0.0
+- \[[3c94abf](https://github.com/boardgameio/boardgame.io/commit/3c94abf)] Merge pull request #72 from AlexRogalskiy/renovate/wagoid-commitlint-github-action-2.x
+- \[[cef7dae](https://github.com/boardgameio/boardgame.io/commit/cef7dae)] Merge pull request #73 from AlexRogalskiy/dependabot/github_actions/Matticusau/pr-helper-v1.2.5
+- \[[3dd1e2c](https://github.com/boardgameio/boardgame.io/commit/3dd1e2c)] Merge pull request #75 from AlexRogalskiy/renovate/matticusau-pr-helper-1.x
+- \[[8696416](https://github.com/boardgameio/boardgame.io/commit/8696416)] Merge pull request #76 from AlexRogalskiy/dependabot/github_actions/wagoid/commitlint-github-action-v2.2.3
+- \[[5a2e52a](https://github.com/boardgameio/boardgame.io/commit/5a2e52a)] :arrow_Updates wagoid/commitlint-github-action action to v2.2.3
+- \[[94f5935](https://github.com/boardgameio/boardgame.io/commit/94f5935)] :arrow_Updates Matticusau/pr-helper action to v1.2.5
+- \[[48a20c5](https://github.com/boardgameio/boardgame.io/commit/48a20c5)] Updated with the latest blog posts
+- \[[09b6a5d](https://github.com/boardgameio/boardgame.io/commit/09b6a5d)] Updated with the latest blog posts
+- \[[4c2b96a](https://github.com/boardgameio/boardgame.io/commit/4c2b96a)] Updated with the latest blog posts
+- \[[02bb09c](https://github.com/boardgameio/boardgame.io/commit/02bb09c)] Updated with the latest blog posts
+- \[[1dfe8f7](https://github.com/boardgameio/boardgame.io/commit/1dfe8f7)] Updated with the latest blog posts
+- \[[89b0480](https://github.com/boardgameio/boardgame.io/commit/89b0480)] Updated with the latest blog posts
+- \[[ddc6060](https://github.com/boardgameio/boardgame.io/commit/ddc6060)] Updated with the latest blog posts
+- \[[de984c2](https://github.com/boardgameio/boardgame.io/commit/de984c2)] Updated with the latest blog posts
+- \[[7e265d3](https://github.com/boardgameio/boardgame.io/commit/7e265d3)] github-bump wagoid/commitlint-github-action
+- \[[0299862](https://github.com/boardgameio/boardgame.io/commit/0299862)] Updated with the latest blog posts
+- \[[4db4ae0](https://github.com/boardgameio/boardgame.io/commit/4db4ae0)] Updated with the latest blog posts
+- \[[530fb20](https://github.com/boardgameio/boardgame.io/commit/530fb20)] Updated with the latest blog posts
+- \[[9f2a156](https://github.com/boardgameio/boardgame.io/commit/9f2a156)] Updated with the latest blog posts
+- \[[3771402](https://github.com/boardgameio/boardgame.io/commit/3771402)] Updated with the latest blog posts
+- \[[0d6f96c](https://github.com/boardgameio/boardgame.io/commit/0d6f96c)] Updated with the latest blog posts
+- \[[f4dbeb3](https://github.com/boardgameio/boardgame.io/commit/f4dbeb3)] Updated with the latest blog posts
+- \[[b58b17e](https://github.com/boardgameio/boardgame.io/commit/b58b17e)] Updated with the latest blog posts
+- \[[68f9c39](https://github.com/boardgameio/boardgame.io/commit/68f9c39)] Updated with the latest blog posts
+- \[[4026e91](https://github.com/boardgameio/boardgame.io/commit/4026e91)] Updated with the latest blog posts
+- \[[aa2a423](https://github.com/boardgameio/boardgame.io/commit/aa2a423)] Updated with the latest blog posts
+- \[[c93b9e2](https://github.com/boardgameio/boardgame.io/commit/c93b9e2)] Updated with the latest blog posts
+- \[[e762b48](https://github.com/boardgameio/boardgame.io/commit/e762b48)] Updated with the latest blog posts
+- \[[7747e47](https://github.com/boardgameio/boardgame.io/commit/7747e47)] Updated with the latest blog posts
+- \[[6c5caf9](https://github.com/boardgameio/boardgame.io/commit/6c5caf9)] Updated with the latest blog posts
+- \[[27d8db6](https://github.com/boardgameio/boardgame.io/commit/27d8db6)] Updated with the latest blog posts
+- \[[d45a574](https://github.com/boardgameio/boardgame.io/commit/d45a574)] Updated with the latest blog posts
+- \[[8360f86](https://github.com/boardgameio/boardgame.io/commit/8360f86)] github-bump Matticusau/pr-helper from v1.2.4 to v1.2.5
+- \[[91f8fe4](https://github.com/boardgameio/boardgame.io/commit/91f8fe4)] Updated with the latest blog posts
+- \[[f7ba5eb](https://github.com/boardgameio/boardgame.io/commit/f7ba5eb)] Updated with the latest blog posts
+- \[[518baeb](https://github.com/boardgameio/boardgame.io/commit/518baeb)] Updated with the latest blog posts
+- \[[8522603](https://github.com/boardgameio/boardgame.io/commit/8522603)] github-bump JamesIves/github-pages-deploy-action
+- \[[9457ffe](https://github.com/boardgameio/boardgame.io/commit/9457ffe)] Updated with the latest blog posts
+- \[[3cf7a7a](https://github.com/boardgameio/boardgame.io/commit/3cf7a7a)] Updated with the latest blog posts
+- \[[0a6752a](https://github.com/boardgameio/boardgame.io/commit/0a6752a)] Updated with the latest blog posts
+- \[[640ad20](https://github.com/boardgameio/boardgame.io/commit/640ad20)] Updated with the latest blog posts
+- \[[2da555a](https://github.com/boardgameio/boardgame.io/commit/2da555a)] Updated with the latest blog posts
+- \[[1388d12](https://github.com/boardgameio/boardgame.io/commit/1388d12)] Updated with the latest blog posts
+- \[[1c25461](https://github.com/boardgameio/boardgame.io/commit/1c25461)] :arrow_Updates JamesIves/github-pages-deploy-action action to v4
+- \[[89300c3](https://github.com/boardgameio/boardgame.io/commit/89300c3)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns into master
+- \[[179a7c9](https://github.com/boardgameio/boardgame.io/commit/179a7c9)] Merge pull request #68 from AlexRogalskiy/dependabot/github_actions/actions/cache-v2.1.4
+- \[[36a4c08](https://github.com/boardgameio/boardgame.io/commit/36a4c08)] Merge pull request #67 from AlexRogalskiy/dependabot/github_actions/mondeja/remove-labels-gh-action-v1
+- \[[963e31a](https://github.com/boardgameio/boardgame.io/commit/963e31a)] Merge pull request #65 from AlexRogalskiy/main
+- \[[7302b9b](https://github.com/boardgameio/boardgame.io/commit/7302b9b)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns into master
+- \[[892f419](https://github.com/boardgameio/boardgame.io/commit/892f419)] Updated with the latest blog posts
+- \[[f1bdbc5](https://github.com/boardgameio/boardgame.io/commit/f1bdbc5)] Updated with the latest blog posts
+- \[[1605d46](https://github.com/boardgameio/boardgame.io/commit/1605d46)] github-bump actions/cache from v2 to v2.1.4
+- \[[6e262ec](https://github.com/boardgameio/boardgame.io/commit/6e262ec)] github-bump mondeja/remove-labels-gh-action from v1.0.0 to v1
+- \[[cc08b25](https://github.com/boardgameio/boardgame.io/commit/cc08b25)] Updated with the latest blog posts
+- \[[840f964](https://github.com/boardgameio/boardgame.io/commit/840f964)] Updated with the latest blog posts
+- \[[cdf9890](https://github.com/boardgameio/boardgame.io/commit/cdf9890)] Merge pull request #64 from AlexRogalskiy/master
+- \[[93ac370](https://github.com/boardgameio/boardgame.io/commit/93ac370)] Merge pull request #63 from AlexRogalskiy/renovate/wagoid-commitlint-github-action-2.x
+- \[[1919f47](https://github.com/boardgameio/boardgame.io/commit/1919f47)] Merge pull request #61 from AlexRogalskiy/master
+- \[[71b9572](https://github.com/boardgameio/boardgame.io/commit/71b9572)] Optimised images with calibre/image-actions
+- \[[7f99ab0](https://github.com/boardgameio/boardgame.io/commit/7f99ab0)] Auto update markdown TOC
+- \[[74d205b](https://github.com/boardgameio/boardgame.io/commit/74d205b)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns into master
+- \[[cca58fb](https://github.com/boardgameio/boardgame.io/commit/cca58fb)] Auto update markdown TOC
+- \[[501c637](https://github.com/boardgameio/boardgame.io/commit/501c637)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns into master
+- \[[11b1d79](https://github.com/boardgameio/boardgame.io/commit/11b1d79)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns into master
+- \[[3b0efea](https://github.com/boardgameio/boardgame.io/commit/3b0efea)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns into master
+- \[[0ff51c9](https://github.com/boardgameio/boardgame.io/commit/0ff51c9)] Delete **Java Design patterns**%20for social media alexander-rogalsky.gitbook.io.png
+- \[[34961ae](https://github.com/boardgameio/boardgame.io/commit/34961ae)] :arrow_Updates wagoid/commitlint-github-action action to v2.2.0
+- \[[5ed7725](https://github.com/boardgameio/boardgame.io/commit/5ed7725)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns into master
+- \[[6fd58c4](https://github.com/boardgameio/boardgame.io/commit/6fd58c4)] Optimised images with calibre/image-actions
+- \[[fb9d4b5](https://github.com/boardgameio/boardgame.io/commit/fb9d4b5)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns into master
+- \[[62122d9](https://github.com/boardgameio/boardgame.io/commit/62122d9)] Updated with the latest blog posts
+- \[[130f7ff](https://github.com/boardgameio/boardgame.io/commit/130f7ff)] Updated with the latest blog posts
+- \[[2aeb86b](https://github.com/boardgameio/boardgame.io/commit/2aeb86b)] Updated with the latest blog posts
+- \[[19f93dd](https://github.com/boardgameio/boardgame.io/commit/19f93dd)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns into master
+- \[[5ef9f99](https://github.com/boardgameio/boardgame.io/commit/5ef9f99)] Updated with the latest blog posts
+- \[[25ca815](https://github.com/boardgameio/boardgame.io/commit/25ca815)] Updated with the latest blog posts
+- \[[6a73952](https://github.com/boardgameio/boardgame.io/commit/6a73952)] Updated with the latest blog posts
+- \[[d549515](https://github.com/boardgameio/boardgame.io/commit/d549515)] Updated with the latest blog posts
+- \[[cd7da5a](https://github.com/boardgameio/boardgame.io/commit/cd7da5a)] Updated with the latest blog posts
+- \[[312d950](https://github.com/boardgameio/boardgame.io/commit/312d950)] Updated with the latest blog posts
+- \[[699fe2a](https://github.com/boardgameio/boardgame.io/commit/699fe2a)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns into master
+- \[[58d5c21](https://github.com/boardgameio/boardgame.io/commit/58d5c21)] Merge pull request #60 from AlexRogalskiy/main
+- \[[3d77487](https://github.com/boardgameio/boardgame.io/commit/3d77487)] Merge pull request #59 from AlexRogalskiy/master
+- \[[d5e681c](https://github.com/boardgameio/boardgame.io/commit/d5e681c)] Updated with the latest blog posts
+- \[[4619538](https://github.com/boardgameio/boardgame.io/commit/4619538)] Updated with the latest blog posts
+- \[[9eb03db](https://github.com/boardgameio/boardgame.io/commit/9eb03db)] Updated with the latest blog posts
+- \[[a418e5d](https://github.com/boardgameio/boardgame.io/commit/a418e5d)] Updated with the latest blog posts
+- \[[5288bc4](https://github.com/boardgameio/boardgame.io/commit/5288bc4)] Updated with the latest blog posts
+- \[[eec7cdd](https://github.com/boardgameio/boardgame.io/commit/eec7cdd)] Updated with the latest blog posts
+- \[[6d1e87d](https://github.com/boardgameio/boardgame.io/commit/6d1e87d)] Updated with the latest blog posts
+- \[[5f80c36](https://github.com/boardgameio/boardgame.io/commit/5f80c36)] Merge pull request #58 from AlexRogalskiy/master
+- \[[17cf01c](https://github.com/boardgameio/boardgame.io/commit/17cf01c)] Merge pull request #57 from AlexRogalskiy/main
+- \[[1294126](https://github.com/boardgameio/boardgame.io/commit/1294126)] Merge pull request #56 from AlexRogalskiy/master
+- \[[6dee458](https://github.com/boardgameio/boardgame.io/commit/6dee458)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[9716711](https://github.com/boardgameio/boardgame.io/commit/9716711)] Merge pull request #55 from AlexRogalskiy/master
+- \[[21ad488](https://github.com/boardgameio/boardgame.io/commit/21ad488)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[a5a3c4b](https://github.com/boardgameio/boardgame.io/commit/a5a3c4b)] Auto update markdown TOC
+- \[[8f1a9c6](https://github.com/boardgameio/boardgame.io/commit/8f1a9c6)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[d4764fb](https://github.com/boardgameio/boardgame.io/commit/d4764fb)] Updated with the latest blog posts
+- \[[8086b6b](https://github.com/boardgameio/boardgame.io/commit/8086b6b)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[1ba02de](https://github.com/boardgameio/boardgame.io/commit/1ba02de)] Auto update markdown TOC
+- \[[6b8da16](https://github.com/boardgameio/boardgame.io/commit/6b8da16)] Merge pull request #54 from AlexRogalskiy/master
+- \[[1bf8fd8](https://github.com/boardgameio/boardgame.io/commit/1bf8fd8)] Merge pull request #53 from AlexRogalskiy/main
+- \[[109f0d3](https://github.com/boardgameio/boardgame.io/commit/109f0d3)] Merge pull request #52 from AlexRogalskiy/master
+- \[[1d26ee0](https://github.com/boardgameio/boardgame.io/commit/1d26ee0)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[d67af13](https://github.com/boardgameio/boardgame.io/commit/d67af13)] Merge pull request #51 from AlexRogalskiy/master
+- \[[c913144](https://github.com/boardgameio/boardgame.io/commit/c913144)] Merge pull request #50 from AlexRogalskiy/main
+- \[[6c67abe](https://github.com/boardgameio/boardgame.io/commit/6c67abe)] Auto update markdown TOC
+- \[[4f043ba](https://github.com/boardgameio/boardgame.io/commit/4f043ba)] Merge pull request #49 from AlexRogalskiy/master
+- \[[9eacb6e](https://github.com/boardgameio/boardgame.io/commit/9eacb6e)] Optimised images with calibre/image-actions
+- \[[a474db2](https://github.com/boardgameio/boardgame.io/commit/a474db2)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[f3c63aa](https://github.com/boardgameio/boardgame.io/commit/f3c63aa)] Auto update markdown TOC
+- \[[555796c](https://github.com/boardgameio/boardgame.io/commit/555796c)] Merge pull request #48 from AlexRogalskiy/master
+- \[[7570a64](https://github.com/boardgameio/boardgame.io/commit/7570a64)] Merge pull request #47 from AlexRogalskiy/main
+- \[[37583d1](https://github.com/boardgameio/boardgame.io/commit/37583d1)] Merge pull request #46 from AlexRogalskiy/master
+- \[[a32cb15](https://github.com/boardgameio/boardgame.io/commit/a32cb15)] Merge branch 'main' into master
+- \[[a88e395](https://github.com/boardgameio/boardgame.io/commit/a88e395)] Merge pull request #45 from AlexRogalskiy/create-pull-request/patch-1612135295
+- \[[c1b38db](https://github.com/boardgameio/boardgame.io/commit/c1b38db)] Auto update markdown TOC
+- \[[652e503](https://github.com/boardgameio/boardgame.io/commit/652e503)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[fd3869a](https://github.com/boardgameio/boardgame.io/commit/fd3869a)] Updated with the latest blog posts
+- \[[af0392e](https://github.com/boardgameio/boardgame.io/commit/af0392e)] Updated with the latest blog posts
+- \[[0c4b60e](https://github.com/boardgameio/boardgame.io/commit/0c4b60e)] Compress Images
+- \[[3433495](https://github.com/boardgameio/boardgame.io/commit/3433495)] Auto update markdown TOC
+- \[[b7a53ef](https://github.com/boardgameio/boardgame.io/commit/b7a53ef)] Merge pull request #44 from AlexRogalskiy/master
+- \[[a1c5711](https://github.com/boardgameio/boardgame.io/commit/a1c5711)] Merge branch 'main' into master
+- \[[67ca0db](https://github.com/boardgameio/boardgame.io/commit/67ca0db)] Auto update markdown TOC
+- \[[ba31637](https://github.com/boardgameio/boardgame.io/commit/ba31637)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[bbb149d](https://github.com/boardgameio/boardgame.io/commit/bbb149d)] Auto update markdown TOC
+- \[[8af0ebe](https://github.com/boardgameio/boardgame.io/commit/8af0ebe)] Merge pull request #43 from AlexRogalskiy/main
+- \[[5ba0d2f](https://github.com/boardgameio/boardgame.io/commit/5ba0d2f)] Merge pull request #42 from AlexRogalskiy/master
+- \[[deb03ba](https://github.com/boardgameio/boardgame.io/commit/deb03ba)] Merge branch 'main' into master
+- \[[417ee87](https://github.com/boardgameio/boardgame.io/commit/417ee87)] Auto update markdown TOC
+- \[[7187160](https://github.com/boardgameio/boardgame.io/commit/7187160)] Merge pull request #41 from AlexRogalskiy/master
+- \[[67b7238](https://github.com/boardgameio/boardgame.io/commit/67b7238)] Auto update markdown TOC
+- \[[4f9a656](https://github.com/boardgameio/boardgame.io/commit/4f9a656)] Merge pull request #40 from AlexRogalskiy/main
+- \[[18cc2c4](https://github.com/boardgameio/boardgame.io/commit/18cc2c4)] Merge pull request #39 from AlexRogalskiy/master
+- \[[6285569](https://github.com/boardgameio/boardgame.io/commit/6285569)] Updated with the latest blog posts
+- \[[0dff0cd](https://github.com/boardgameio/boardgame.io/commit/0dff0cd)] Updated with the latest blog posts
+- \[[be17096](https://github.com/boardgameio/boardgame.io/commit/be17096)] Updated with the latest blog posts
+- \[[197dd37](https://github.com/boardgameio/boardgame.io/commit/197dd37)] Auto update markdown TOC
+- \[[8844810](https://github.com/boardgameio/boardgame.io/commit/8844810)] Merge pull request #38 from AlexRogalskiy/main
+- \[[0716680](https://github.com/boardgameio/boardgame.io/commit/0716680)] Merge pull request #37 from AlexRogalskiy/master
+- \[[c72dfa3](https://github.com/boardgameio/boardgame.io/commit/c72dfa3)] Merge pull request #34 from AlexRogalskiy/renovate/actions-checkout-2.x
+- \[[40287bf](https://github.com/boardgameio/boardgame.io/commit/40287bf)] Merge pull request #36 from AlexRogalskiy/master
+- \[[9e56418](https://github.com/boardgameio/boardgame.io/commit/9e56418)] :arrow_Updates actions/checkout action to v2
+- \[[002ec71](https://github.com/boardgameio/boardgame.io/commit/002ec71)] Merge pull request #33 from AlexRogalskiy/master
+- \[[98d4d53](https://github.com/boardgameio/boardgame.io/commit/98d4d53)] Auto update markdown TOC
+- \[[5e689fe](https://github.com/boardgameio/boardgame.io/commit/5e689fe)] Merge pull request #26 from AlexRogalskiy/dependabot/github_actions/wagoid/commitlint-github-action-v2.1.7
+- \[[8ce49eb](https://github.com/boardgameio/boardgame.io/commit/8ce49eb)] Merge pull request #27 from AlexRogalskiy/dependabot/github_actions/dessant/lock-threads-v2.0.3
+- \[[e3731ea](https://github.com/boardgameio/boardgame.io/commit/e3731ea)] Merge pull request #28 from AlexRogalskiy/dependabot/github_actions/prologic/action-remark-lint-v2
+- \[[46823a8](https://github.com/boardgameio/boardgame.io/commit/46823a8)] Merge pull request #29 from AlexRogalskiy/dependabot/github_actions/actions/setup-node-v2.1.4
+- \[[df17fa9](https://github.com/boardgameio/boardgame.io/commit/df17fa9)] Merge pull request #30 from AlexRogalskiy/dependabot/github_actions/actions/github-script-v3.1
+- \[[186eafe](https://github.com/boardgameio/boardgame.io/commit/186eafe)] Merge pull request #31 from AlexRogalskiy/dependabot/github_actions/Dunning-Kruger/unlock-issues-v1.1
+- \[[e57e621](https://github.com/boardgameio/boardgame.io/commit/e57e621)] Merge pull request #32 from AlexRogalskiy/main
+- \[[05798dd](https://github.com/boardgameio/boardgame.io/commit/05798dd)] Merge pull request #25 from AlexRogalskiy/master
+- \[[19911ef](https://github.com/boardgameio/boardgame.io/commit/19911ef)] Merge branch 'main' into master
+- \[[5edb7c0](https://github.com/boardgameio/boardgame.io/commit/5edb7c0)] github-bump Dunning-Kruger/unlock-issues from v1 to v1.1
+- \[[f5a0581](https://github.com/boardgameio/boardgame.io/commit/f5a0581)] github-update actions/github-script requirement to v3.1
+- \[[5d2d249](https://github.com/boardgameio/boardgame.io/commit/5d2d249)] github-bump prologic/action-remark-lint from v0.0.5 to v2
+- \[[12b7d13](https://github.com/boardgameio/boardgame.io/commit/12b7d13)] github-bump actions/setup-node from v1 to v2.1.4
+- \[[2abfdb2](https://github.com/boardgameio/boardgame.io/commit/2abfdb2)] github-bump dessant/lock-threads from v2.0.1 to v2.0.3
+- \[[4d9956d](https://github.com/boardgameio/boardgame.io/commit/4d9956d)] github-bump wagoid/commitlint-github-action
+- \[[ca11636](https://github.com/boardgameio/boardgame.io/commit/ca11636)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[8ce182e](https://github.com/boardgameio/boardgame.io/commit/8ce182e)] Auto update markdown TOC
+- \[[1b9017a](https://github.com/boardgameio/boardgame.io/commit/1b9017a)] Updated with the latest blog posts
+- \[[223efcf](https://github.com/boardgameio/boardgame.io/commit/223efcf)] Updated with the latest blog posts
+- \[[39a89fa](https://github.com/boardgameio/boardgame.io/commit/39a89fa)] Updated with the latest blog posts
+- \[[f372b17](https://github.com/boardgameio/boardgame.io/commit/f372b17)] Updated with the latest blog posts
+- \[[5627686](https://github.com/boardgameio/boardgame.io/commit/5627686)] Auto update markdown TOC
+- \[[9ee7210](https://github.com/boardgameio/boardgame.io/commit/9ee7210)] Merge pull request #23 from AlexRogalskiy/master
+- \[[5ed1e92](https://github.com/boardgameio/boardgame.io/commit/5ed1e92)] Auto update markdown TOC
+- \[[0749730](https://github.com/boardgameio/boardgame.io/commit/0749730)] Merge pull request #22 from AlexRogalskiy/main
+- \[[46220b7](https://github.com/boardgameio/boardgame.io/commit/46220b7)] Merge pull request #21 from AlexRogalskiy/master
+- \[[cabc55d](https://github.com/boardgameio/boardgame.io/commit/cabc55d)] Merge pull request #20 from AlexRogalskiy/master
+- \[[be92065](https://github.com/boardgameio/boardgame.io/commit/be92065)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[32a8139](https://github.com/boardgameio/boardgame.io/commit/32a8139)] Auto update markdown TOC
+- \[[aecc152](https://github.com/boardgameio/boardgame.io/commit/aecc152)] Merge pull request #19 from AlexRogalskiy/master
+- \[[3f6cd31](https://github.com/boardgameio/boardgame.io/commit/3f6cd31)] Auto update markdown TOC
+- \[[340293f](https://github.com/boardgameio/boardgame.io/commit/340293f)] Merge pull request #18 from AlexRogalskiy/main
+- \[[c15fef1](https://github.com/boardgameio/boardgame.io/commit/c15fef1)] Merge pull request #17 from AlexRogalskiy/master
+- \[[fb7a16b](https://github.com/boardgameio/boardgame.io/commit/fb7a16b)] Merge pull request #16 from AlexRogalskiy/master
+- \[[a8750cf](https://github.com/boardgameio/boardgame.io/commit/a8750cf)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[38dd270](https://github.com/boardgameio/boardgame.io/commit/38dd270)] Auto update markdown TOC
+- \[[4c4663a](https://github.com/boardgameio/boardgame.io/commit/4c4663a)] Merge pull request #15 from AlexRogalskiy/master
+- \[[4c59e66](https://github.com/boardgameio/boardgame.io/commit/4c59e66)] Merge branch 'main' into master
+- \[[634607a](https://github.com/boardgameio/boardgame.io/commit/634607a)] Auto update markdown TOC
+- \[[c0171f3](https://github.com/boardgameio/boardgame.io/commit/c0171f3)] Auto update markdown TOC
+- \[[ef797a4](https://github.com/boardgameio/boardgame.io/commit/ef797a4)] Merge pull request #14 from AlexRogalskiy/main
+- \[[6962953](https://github.com/boardgameio/boardgame.io/commit/6962953)] Merge pull request #13 from AlexRogalskiy/master
+- \[[eba4c4d](https://github.com/boardgameio/boardgame.io/commit/eba4c4d)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[51853de](https://github.com/boardgameio/boardgame.io/commit/51853de)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[c70a17e](https://github.com/boardgameio/boardgame.io/commit/c70a17e)] Updated with the latest blog posts
+- \[[6928f5b](https://github.com/boardgameio/boardgame.io/commit/6928f5b)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[0634d5e](https://github.com/boardgameio/boardgame.io/commit/0634d5e)] Update VERSION
+- \[[9aca750](https://github.com/boardgameio/boardgame.io/commit/9aca750)] Auto update markdown TOC
+- \[[c3e7ad8](https://github.com/boardgameio/boardgame.io/commit/c3e7ad8)] Merge pull request #12 from AlexRogalskiy/master

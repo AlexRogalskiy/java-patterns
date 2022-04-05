@@ -6,12 +6,15 @@ reports
 scripts
 images
 k8s
+cla
 traffic
+makefiles
 node_modules
 tilt_modules
 okteto
 release
 site
+temp
 venv
 
 npm-debug.log
