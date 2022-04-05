@@ -51,6 +51,14 @@ DOCKER_CMD 						:= $(shell command -v docker 2> /dev/null || command -v podman 
 DOCKER_COMPOSE_CMD 		:= $(shell command -v docker-compose 2> /dev/null || command -v docker compose 2> /dev/null || type -p docker-compose)
 # NPM_CMD stores npm binary
 NPM_CMD 							:= $(shell command -v npm 2> /dev/null || type -p npm)
+# SKAFFOLD_CMD stores skaffold binary
+SKAFFOLD_CMD 					:= $(shell command -v skaffold 2> /dev/null || type -p skaffold)
+# TILT_CMD stores tilt binary
+TILT_CMD 							:= $(shell command -v tilt 2> /dev/null || type -p tilt)
+# HELM_CMD stores helm binary
+HELM_CMD 							:= $(shell command -v helm 2> /dev/null || type -p helm)
+# GIT_CMD stores git binary
+GIT_CMD 							:= $(shell command -v git 2> /dev/null || type -p helm)
 
 # DOCKER_DIR stores docker configurations
 DOCKER_DIR 						:= $(GIT_ROOT_DIR)
@@ -191,11 +199,11 @@ dirs:
 .PHONY: versions
 versions:
 	$(AT)echo
-	$(AT)docker --version
+	$(AT)$(DOCKER_CMD) --version
 	$(AT)echo
-	$(AT)tilt version
+	$(AT)$(TILT_CMD) version
 	$(AT)echo
-	$(AT)helm version
+	$(AT)$(HELM_CMD) version
 	$(AT)echo
 	$(AT)echo
 	$(AT)echo -e "$(COLOR_RED)Versions list finished.$(COLOR_NORMAL)"
@@ -215,7 +223,7 @@ clean:
 # Ensures that the git workspace is clean.
 .PHONY: _ensure-clean
 _ensure-clean:
-	$(AT)[ -z "$$((git status --porcelain --untracked-files=no || echo err) | command grep -v 'CHANGELOG.md')" ] || { echo "Workspace is not clean; please commit changes first." >&2; exit 2; }
+	$(AT)[ -z "$$(($(GIT_CMD) status --porcelain --untracked-files=no || echo err) | command grep -v 'CHANGELOG.md')" ] || { echo "Workspace is not clean; please commit changes first." >&2; exit 2; }
 
 # Ensure docker tag command.
 .PHONY: _ensure-docker-tag
@@ -305,33 +313,43 @@ docker-pull:
 # Run tilt start command.
 .PHONY: tilt-start
 tilt-start:
-	$(AT)tilt up
+	$(AT)$(TILT_CMD) up
 
 # Run tilt stop command.
 .PHONY: tilt-stop
 tilt-stop:
-	$(AT)tilt down --delete-namespaces
+	$(AT)$(TILT_CMD) down --delete-namespaces
+
+# Run skaffold deploy command.
+.PHONY: skaffold-start
+skaffold-start:
+	$(AT)$(SKAFFOLD_CMD) run --no-prune=false --cache-artifacts=false --tail
+
+# Run skaffold destroy command.
+.PHONY: skaffold-stop
+skaffold-stop:
+	$(AT)$(SKAFFOLD_CMD) delete
 
 # Run helm lint command.
 .PHONY: helm-lint
 helm-lint:
-	$(AT)helm lint charts --values charts/values.yaml
+	$(AT)$(HELM_CMD) lint charts --values charts/values.yaml
 
 # Run helm start command.
 .PHONY: helm-start
 helm-start:
-	$(AT)helm upgrade --install $(CLUSTER_NAME) -f charts/values.yaml --create-namespace --namespace $(CLUSTER_NAMESPACE) charts
+	$(AT)$(HELM_CMD) upgrade --install $(CLUSTER_NAME) -f charts/values.yaml --create-namespace --namespace $(CLUSTER_NAMESPACE) charts
 
 # Run helm stop command.
 .PHONY: helm-stop
 helm-stop:
-	$(AT)helm uninstall $(CLUSTER_NAME) --namespace $(CLUSTER_NAMESPACE)
+	$(AT)$(HELM_CMD) uninstall $(CLUSTER_NAME) --namespace $(CLUSTER_NAMESPACE)
 
 # Run helm package command.
 .PHONY: helm-package
 helm-package:
 	$(AT)mkdir -p $(CHART_RELEASE_DIR)/charts
-	$(AT)helm package charts --dependency-update --destination $(CHART_RELEASE_DIR)/charts
+	$(AT)$(HELM_CMD) package charts --dependency-update --destination $(CHART_RELEASE_DIR)/charts
 	$(AT)echo
 	$(AT)echo -e "$(COLOR_RED)Helm packages build finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -380,7 +398,7 @@ venv-build: _venv
 	$(AT)echo
 	$(AT)echo -e "$(COLOR_RED)Build finished. The source pages are in $(VENV_NAME) directory.$(COLOR_NORMAL)"
 	$(AT)echo
-	exit
+	$(AT)exit
 
 # Run venv run command.
 .PHONY: venv-run
@@ -414,27 +432,27 @@ all:
 # Run git diff command.
 .PHONY: diff
 diff:
-	$(AT)git diff --diff-filter=d --name-only
+	$(AT)$(GIT_CMD) diff --diff-filter=d --name-only
 
 # Run git authors command.
 .PHONY: git-authors
 git-authors:
 	$(AT)echo
-	$(AT)find . -name ".git" -type d -exec git --git-dir={} --work-tree="$(PWD)"/{} config --get remote.origin.url \; -exec git --git-dir={} --work-tree="$(PWD)"/{} --no-pager shortlog -sn \;
+	$(AT)find . -name ".git" -type d -exec $(GIT_CMD) --git-dir={} --work-tree="$(PWD)"/{} config --get remote.origin.url \; -exec $(GIT_CMD) --git-dir={} --work-tree="$(PWD)"/{} --no-pager shortlog -sn \;
 	$(AT)echo
 
 # Run git pull command.
 .PHONY: git-pull
 git-pull:
 	$(AT)echo
-	$(AT)find . -name ".git" -type d | xargs -P10 -I{} git --git-dir={} --work-tree="$(PWD)"/{} pull origin master
+	$(AT)find . -name ".git" -type d | xargs -P10 -I{} $(GIT_CMD) --git-dir={} --work-tree="$(PWD)"/{} pull origin master
 	$(AT)echo
 
 # Run git log command.
 .PHONY: git-changelog
 git-changelog: release
 	$(AT)echo "🌟 Running git changelog command"
-	$(AT)git log $(shell git tag | tail -n1)..HEAD --no-merges --format=%B > changelog
+	$(AT)$(GIT_CMD) log $(shell $(GIT_CMD) tag | tail -n1)..HEAD --no-merges --format=%B > changelog
 
 # Run install link checker command.
 .PHONY: install-link-checker
@@ -509,20 +527,20 @@ printvars:
 			$(info $V=$(if $(RAW_VARS),$(value $V),$($V))))))
 
 # Run zip archive command.
-.PHONY: zip-archive
-zip-archive:
-	git archive -o $(basename $PWD).zip HEAD
+.PHONY: git-zip
+git-zip:
+	$(AT)$(GIT_CMD) archive -o $(basename $PWD).zip HEAD
 
 # Run tgz archive command.
-.PHONY: tgz-archive
-tgz-archive:
-	git archive -o $(basename $PWD).tgz HEAD
+.PHONY: git-tgz
+git-tgz:
+	$(AT)$(GIT_CMD) archive -o $(basename $PWD).tgz HEAD
 
 # Run clean images command.
 .PHONY: clean-images
 clean-images:
 	echo "Cleaning images \n========================================== ";
-	for image in `docker images -qf "label=$(DOCKER_IMAGE_NAME)"`; do \
+	for image in `$(DOCKER_CMD) images -qf "label=$(DOCKER_IMAGE_NAME)"`; do \
 	    echo "Removing image $${image} \n==========================================\n " ; \
-        docker rmi -f $${image} || exit 1 ; \
+        $(DOCKER_CMD) rmi -f $${image} || exit 1 ; \
     done
