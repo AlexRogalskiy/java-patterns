@@ -11,6 +11,8 @@ profiles:
         useDockerCLI: false
         useBuildkit: true
         concurrency: 0
+      tagPolicy:
+        sha256: {}
       artifacts:
         - image: styled-java-patterns
           context: ./
@@ -54,6 +56,8 @@ profiles:
         releases:
           - name: java-patterns-charts
             chartPath: charts
+            skipBuildDependencies: true
+            recreatePods: true
     #         setValueTemplates:
     #           image.repository: "{{.DOCKER_REGISTRY}}/gitcoinco/web"
     #           image.tag: "{{.DIGEST_HEX}}"

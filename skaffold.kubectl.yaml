@@ -11,6 +11,8 @@ profiles:
         useDockerCLI: false
         useBuildkit: true
         concurrency: 0
+      tagPolicy:
+        sha256: {}
       artifacts:
         - image: styled-java-patterns
           context: ./

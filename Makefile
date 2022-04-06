@@ -325,7 +325,7 @@ tilt-stop:
 # Run skaffold deploy command.
 .PHONY: skaffold-start
 skaffold-start:
-	$(AT)$(SKAFFOLD_CMD) dev --filename='skaffold.docker.yaml' --no-prune=false --cache-artifacts=false --tail
+	$(AT)$(SKAFFOLD_CMD) dev --filename='skaffold.docker.yaml' --no-prune=true --cache-artifacts=true
 
 # Run skaffold destroy command.
 .PHONY: skaffold-stop
