@@ -1,21 +1,21 @@
-Building docker image with docker command:
+Building docker image with docker command for `dev` environment:
 
 ```shell
 GIT_SHA=$(git rev-parse HEAD)
 docker build -f ./distribution/docker-images/dev.Dockerfile -t styled-java-patterns -t styled-java-patterns:$GIT_SHA .
 ```
 
-Running docker image via `docker-compose` command:
+Running docker containers via `docker-compose` command:
 
 ```shell
 docker-compose -f docker-compose.yml build
 docker-compose -f docker-compose.yml up -d
 ```
 
-Removing docker image via `docker-compose` command:
+Removing docker containers via `docker-compose` command:
 
 ```shell
-docker-compose -f docker-compose.yml down -v --remove-orphans
+docker-compose -f docker-compose.yml down --volumes --remove-orphans
 ```
 
 Running docker image with `skaffold` command:
@@ -29,7 +29,7 @@ or
 Running docker image with `skaffold` command in development mode:
 
 ```shell
-skaffold dev --filename='skaffold.docker.yaml' --timestamps=true --update-check=true --interactive=true
+skaffold dev --filename='skaffold.docker.yaml' --timestamps=false --update-check=true --interactive=true
 ```
 
 Shutting down docker container with `skaffold` command:

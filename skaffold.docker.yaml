@@ -17,12 +17,12 @@ profiles:
           platforms: ["linux/amd64", "linux/arm64"]
           hooks:
             before:
-              - command: ["sh", "-c", "chmod +x ./scripts/hook.sh && ./scripts/hook.sh"]
+              - command: ["sh", "-c", "./scripts/hook.sh"]
                 os: [darwin, linux]
                 dir: .
-              - command: ["cmd.exe", "/C", "hook.bat"]
+              - command: ["cmd.exe", "/C", "scripts/hook.bat"]
                 os: [windows]
-                dir: scripts
+                dir: .
             after:
               - command: ["sh", "-c", "docker images $SKAFFOLD_IMAGE --digests"]
                 os: [darwin, linux]
