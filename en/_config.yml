@@ -1,13 +1,7 @@
-theme: jekyll-theme-cayman
-
-permalink: pretty
-
-baseurl: https://github.com/AlexRogalskiy/java-patterns
-description:
-  Explores different architectural concepts and design principles for Java
-  applications
-
-author: Alexander Rogalskiy
-
-docs: https://github.com/AlexRogalskiy/java-patterns/wiki
-blog: https://alexrogalskiy.github.io/
+title: Main
+collapse_single_pages: true
+nav:
+  - Info: README.md
+  - Changelog: CHANGELOG.md
+  - Summary: SUMMARY.md
+  - ...
