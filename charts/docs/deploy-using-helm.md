@@ -11,7 +11,7 @@ The `java-patterns` Helm chart can be used to deploy the `java-patterns` applica
 - [Helm 3](https://v3.helm.sh/)
 
 If you are using the [VS Code Remote Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) based development
-environment, all of the prerequisites will be available in the terminal.
+environment, all the prerequisites will be available in the terminal.
 
 ## Configuration and installation
 
@@ -46,13 +46,13 @@ To install `java-patterns` via the Helm chart, use the following to:
 - create a Helm release named java-patterns
 
 ```bash
-$ helm install --create-namespace --namespace webapp java-patterns .
+$ helm install --create-namespace --namespace webapp java-patterns charts
 ```
 
 You can override the values for the configuration parameter defined in the table above, either directly in the `values.yaml` file, or via the `--set` switches.
 
 ```bash
-$ helm install --create-namespace --namespace webapp custom-message . --set message="I just deployed this on Kubernetes!"
+$ helm install --create-namespace --namespace webapp java-patterns --set message="I just deployed this on Kubernetes!" charts
 ```
 
 ### Upgrading the chart
@@ -63,7 +63,7 @@ You can modify the `java-patterns` app by providing new values for the configura
 file, or via the `--set` switches.
 
 ```bash
-$ helm upgrade --namespace webapp custom-java-patterns . --set message="This is a different message"
+$ helm upgrade --namespace webapp java-patterns --set message="This is a different message" charts
 ```
 
 ### Uninstalling the chart
@@ -71,5 +71,5 @@ $ helm upgrade --namespace webapp custom-java-patterns . --set message="This is 
 You can uninstall the `java-patterns` app as follows:
 
 ```bash
-$ helm uninstall --namespace webapp custom-java-patterns
+$ helm uninstall --namespace webapp java-patterns
 ```

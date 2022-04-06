@@ -18,24 +18,21 @@ build:
         squash: false
 deploy:
   statusCheckDeadlineSeconds: 300
-  docker:
-    useCompose: false
-    images: [styled-java-patterns]
-#   helm:
-#     releases:
-#       - name: java-patterns-charts
-#         chartPath: charts
-# #         setValueTemplates:
-# #           image.repository: "{{.DOCKER_REGISTRY}}/gitcoinco/web"
-# #           image.tag: "{{.DIGEST_HEX}}"
-#         artifactOverrides:
-#           deployment:
-#             container:
-#              image: styled-java-patterns
-#         imageStrategy:
-#           helm: {}
+  helm:
+    releases:
+      - name: java-patterns-charts
+        chartPath: charts
+#         setValueTemplates:
+#           image.repository: "{{.DOCKER_REGISTRY}}/gitcoinco/web"
+#           image.tag: "{{.DIGEST_HEX}}"
+        artifactOverrides:
+          deployment:
+            container:
+             image: styled-java-patterns
+        imageStrategy:
+          helm: {}
 portForward:
-  - resourceType: container
+  - resourceType: service
     resourceName: styled-java-patterns
     port: 8000
     address: 127.0.0.1

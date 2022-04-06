@@ -1,0 +1,29 @@
+apiVersion: skaffold/v2beta28
+kind: Config
+build:
+  local:
+    push: false
+    tryImportMissing: false
+    useDockerCLI: false
+    useBuildkit: true
+    concurrency: 0
+  artifacts:
+    - image: styled-java-patterns
+      context: ./
+      platforms: ["linux/amd64", "linux/arm64"]
+      docker:
+        dockerfile: ./distribution/docker-images/dev.Dockerfile
+        pullParent: false
+        noCache: false
+        squash: false
+deploy:
+  statusCheckDeadlineSeconds: 300
+  docker:
+    useCompose: false
+    images: [styled-java-patterns]
+portForward:
+  - resourceType: container
+    resourceName: styled-java-patterns
+    port: 8000
+    address: 127.0.0.1
+    localPort: 8000

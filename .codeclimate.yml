@@ -1,11 +1,14 @@
 engines:
+  fixme:
+    enabled: true
   duplication:
     enabled: false
     config:
       languages:
-        python:
-          python_version: 3
-          mass_threshold: 50
+        - javascript
+        - python:
+            python_version: 3
+            mass_threshold: 50
     exclude_paths:
       - doc/
   pep8:
@@ -21,6 +24,14 @@ engines:
   csslint:
     enabled: false
 
+checks:
+  argument-count:
+    config:
+      threshold: 5
+  method-complexity:
+    config:
+      threshold: 7
+
 ratings:
   paths:
     - '**.py'
@@ -28,4 +39,12 @@ ratings:
     - '**.sh'
     - '**.css'
 
-exclude_paths:
+exclude_patterns:
+  - "dist/"
+  - "docs/"
+  - "scripts/"
+  - "test/"
+  - "*.js"
+  - "*.json"
+  - "*.md"
+  - ".*"
