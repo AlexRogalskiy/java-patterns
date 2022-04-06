@@ -1,29 +1,61 @@
 apiVersion: skaffold/v2beta28
 kind: Config
-build:
-  local:
-    push: false
-    tryImportMissing: false
-    useDockerCLI: false
-    useBuildkit: true
-    concurrency: 0
-  artifacts:
-    - image: styled-java-patterns
-      context: ./
-      platforms: ["linux/amd64", "linux/arm64"]
+profiles:
+  - name: dev
+    activation:
+      - command: dev
+    build:
+      local:
+        push: false
+        tryImportMissing: false
+        useDockerCLI: false
+        useBuildkit: true
+        concurrency: 0
+      artifacts:
+        - image: styled-java-patterns
+          context: ./
+          platforms: ["linux/amd64", "linux/arm64"]
+          hooks:
+            before:
+              - command: ["sh", "-c", "chmod +x ./scripts/hook.sh && ./scripts/hook.sh"]
+                os: [darwin, linux]
+                dir: .
+              - command: ["cmd.exe", "/C", "hook.bat"]
+                os: [windows]
+                dir: scripts
+            after:
+              - command: ["sh", "-c", "docker images $SKAFFOLD_IMAGE --digests"]
+                os: [darwin, linux]
+              - command: ["cmd.exe", "/C", "docker images %SKAFFOLD_IMAGE% --digests"]
+                os: [windows]
+          sync:
+            manual:
+              - src: 'docs/*'
+                dest: /usr/src/app/docs
+            hooks:
+              before:
+                - host:
+                    command: ["sh", "-c", "echo file changes detected: $SKAFFOLD_FILES_ADDED_OR_MODIFIED"]
+                    os: [darwin, linux]
+                - host:
+                    command: ["cmd.exe", "/C", "echo file changes detected: %SKAFFOLD_FILES_ADDED_OR_MODIFIED%"]
+                    os: [windows]
+              after:
+                - container:
+                    command: ["sh", "-c", "set -x; kill -HUP 1"]
+          docker:
+            dockerfile: ./distribution/docker-images/dev.Dockerfile
+            pullParent: false
+            noCache: false
+            squash: false
+    deploy:
+      statusCheckDeadlineSeconds: 300
       docker:
-        dockerfile: ./distribution/docker-images/dev.Dockerfile
-        pullParent: false
-        noCache: false
-        squash: false
-deploy:
-  statusCheckDeadlineSeconds: 300
-  docker:
-    useCompose: false
-    images: [styled-java-patterns]
-portForward:
-  - resourceType: container
-    resourceName: styled-java-patterns
-    port: 8000
-    address: 127.0.0.1
-    localPort: 8000
+        useCompose: false
+        images: [styled-java-patterns]
+    portForward:
+      - resourceType: container
+        resourceName: styled-java-patterns
+        port: 8000
+        address: 127.0.0.1
+        localPort: 8000

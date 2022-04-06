@@ -162,6 +162,8 @@ endif
 ##= helm-package: to package helm chart
 ##= helm-start: to run k8s cluster
 ##= helm-stop : to stop k8s cluster
+##= skaffold-start: to run containers via skaffold
+##= skaffold-stop : to destroy containers via skaffold
 ##= help: to list all make targets with description
 ##= install-pip: to install python pip module
 ##= list: to list all make targets
@@ -323,7 +325,7 @@ tilt-stop:
 # Run skaffold deploy command.
 .PHONY: skaffold-start
 skaffold-start:
-	$(AT)$(SKAFFOLD_CMD) run --filename='skaffold.docker.yaml' --no-prune=false --cache-artifacts=false --tail
+	$(AT)$(SKAFFOLD_CMD) dev --filename='skaffold.docker.yaml' --no-prune=false --cache-artifacts=false --tail
 
 # Run skaffold destroy command.
 .PHONY: skaffold-stop
