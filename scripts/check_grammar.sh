@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Usage example: /bin/sh ./scripts/check_license.sh
+# Usage example: /bin/sh ./scripts/check_grammar.sh
 
 set -o errexit
 set -o nounset
@@ -33,7 +33,6 @@ DATAFILE_SORTED=$(mktemp /tmp/aspell-strings-sorted.XXXXXXXXXX)
 echo "Temporary file: ${DATAFILE}"
 #strings ./docs > "${DATAFILE}"
 find ./docs -type f -exec strings {} \; | tr ' ' '\n' >> "${DATAFILE}"
-
 
 # tr    delete quotes (disabled) #    tr -d "'" | \
 # tr    split key/value pairs
