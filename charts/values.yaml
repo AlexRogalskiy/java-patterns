@@ -424,12 +424,20 @@ metrics:
       prometheus.io/scrape: "true"
       prometheus.io/port: "{{ .Values.metrics.service.port }}"
 
-## autoscaling configurations
-## @param autoscaling.enabled Enable statefulset autoscaling (requires architecture: "high-availability")
-## @param autoscaling.minReplicas statefulset autoscaling minimum number of replicas
-## @param autoscaling.maxReplicas statefulset autoscaling maximum number of replicas
-## @param autoscaling.targetCPU statefulset autoscaling target CPU percentage
-## @param autoscaling.targetMemory statefulset autoscaling target CPU memory
+## vertical autoscaling configurations
+## @param vpa.enabled Enable vertical autoscaling (requires architecture: "high-throughput")
+##
+vpa:
+  ## @param vpa.enabled Enable autoscaling policy
+  ##
+  enabled: false
+
+## horizontal autoscaling configurations
+## @param hpa.enabled Enable horizontal autoscaling (requires architecture: "high-availability")
+## @param hpa.minReplicas statefulset autoscaling minimum number of replicas
+## @param hpa.maxReplicas statefulset autoscaling maximum number of replicas
+## @param hpa.targetCPU statefulset autoscaling target CPU percentage
+## @param hpa.targetMemory statefulset autoscaling target CPU memory
 ##
 hpa:
   ## @param hpa.enabled Enable autoscaling policy

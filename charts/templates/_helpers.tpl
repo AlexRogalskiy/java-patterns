@@ -14,6 +14,19 @@ Expand the app version of the chart.
 {{- end }}
 
 {{/*
+CPU/memory resources for requests/limits
+*/}}
+{{- define "backend-java-patterns.resources" -}}
+resources:
+  requests:
+    memory: {{ pluck .Values.general.env .Values.deployment.resources.requests.memory | first | default .Values.resources.requests.memory }}
+    cpu: {{ pluck .Values.general.env .Values.deployment.resources.requests.cpu | first | default .Values.resources.requests.cpu }}
+  limits:
+    memory: {{ pluck .Values.general.env .Values.deployment.resources.limits.memory | first | default .Values.resources.limits.memory }}
+    cpu: {{ pluck .Values.general.env .Values.deployment.resources.limits.cpu | first | default .Values.resources.limits.cpu }}
+{{- end }}
+
+{{/*
 Create a default fully qualified app name.
 We truncate at 63 chars because some Kubernetes name fields are limited to this (by the DNS naming spec).
 */}}

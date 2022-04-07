@@ -48,7 +48,7 @@ SYS_USER_GROUP 						:= $(shell echo "$(UID):$(GID)")
 # SYS_CPU stores system cpu count
 SYS_CPU 									:= $(shell bash $(GIT_ROOT_DIR)/scripts/read_cpus_available.sh)
 # SYS_LANGUAGE stores system locale
-SYS_LANGUAGE 							:= $(shell locale | egrep "^LANG=" | cut -d= -f2 | cut -d_ -f1 | tr -d '"' | egrep "^[a-z]{2}$")
+SYS_LANGUAGE 							:= $(shell locale | egrep "^LANG=" | cut -d= -f2 | cut -d_ -f1 | tr -d '"' | egrep "^[a-z]{2}")
 
 # QUIET stores silent mode
 QUIET 										:= $(if $(findstring s,$(filter-out --%,$(MAKEFLAGS))),-q)

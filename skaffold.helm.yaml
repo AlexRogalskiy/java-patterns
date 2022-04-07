@@ -54,7 +54,7 @@ profiles:
       statusCheckDeadlineSeconds: 300
       helm:
         releases:
-          - name: java-patterns-charts
+          - name: backend-java-patterns
             chartPath: charts
             skipBuildDependencies: true
             recreatePods: true

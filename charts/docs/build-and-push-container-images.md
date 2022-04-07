@@ -26,16 +26,17 @@ skaffold run --filename='skaffold.docker.yaml' --tail
 
 or
 
-Running docker image with `skaffold` command in development mode:
+Running ***<template>*** = [`docker` | `helm` | `kustomize` | `kubectl`] deployment with `skaffold` command in development
+mode:
 
 ```shell
-skaffold dev --filename='skaffold.docker.yaml' --timestamps=false --update-check=true --interactive=true
+skaffold dev --filename='skaffold.<template>.yaml' --timestamps=false --update-check=true --interactive=true
 ```
 
-Shutting down docker container with `skaffold` command:
+Shutting down ***<template>*** deployment with `skaffold` command:
 
 ```shell
-skaffold delete --filename='skaffold.docker.yaml'
+skaffold delete --filename='skaffold.<template>.yaml'
 ```
 
 Running k8s cluster with `tilt` command by acquiring k8s deployment configuration:

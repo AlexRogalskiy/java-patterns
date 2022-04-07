@@ -22,6 +22,8 @@ spec:
   {{- if not .Values.hpa.enabled }}
   replicas: {{ .Values.general.replicas }}
   {{- end }}
+  minReadySeconds: 5
+  revisionHistoryLimit: 5
   strategy:
     type: RollingUpdate
     rollingUpdate:

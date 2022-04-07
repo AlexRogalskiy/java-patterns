@@ -234,6 +234,13 @@ ifndef DOCKER_TAG
 	$(error Please invoke with `make DOCKER_TAG=<tag> docker-build`)
 endif
 
+# Ensure skaffold tag command.
+.PHONY: _ensure-skaffold-tag
+_ensure-skaffold-tag:
+ifndef SKAFFOLD_TAG
+	$(error Please invoke with `make SKAFFOLD_TAG=[ docker | helm | kubectl | kustomize ] skaffold[ start | stop ]`)
+endif
+
 # Run docker scan command.
 .PHONY: docker-scan
 docker-scan:
@@ -324,13 +331,13 @@ tilt-stop:
 
 # Run skaffold deploy command.
 .PHONY: skaffold-start
-skaffold-start:
-	$(AT)$(SKAFFOLD_CMD) dev --filename='skaffold.docker.yaml' --no-prune=true --cache-artifacts=true
+skaffold-start: _ensure-skaffold-tag
+	$(AT)$(SKAFFOLD_CMD) dev --filename='skaffold.$(SKAFFOLD_TAG).yaml' --timestamps=false --update-check=true --interactive=true --no-prune=false --cache-artifacts=true
 
 # Run skaffold destroy command.
 .PHONY: skaffold-stop
-skaffold-stop:
-	$(AT)$(SKAFFOLD_CMD) delete --filename='skaffold.docker.yaml'
+skaffold-stop: _ensure-skaffold-tag
+	$(AT)$(SKAFFOLD_CMD) delete --filename='skaffold.$(SKAFFOLD_TAG).yaml'
 
 # Run helm lint command.
 .PHONY: helm-lint
