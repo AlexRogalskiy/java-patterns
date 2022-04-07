@@ -4,8 +4,12 @@
         "target": "es6",
         "outDir": "out",
         "lib": [
-            "es6",
-            "dom"
+            "es2015",
+            "dom",
+            "es7"
+        ],
+        "types": [
+            "node"
         ],
         "strict": true,
         "skipLibCheck": true,
@@ -19,13 +23,17 @@
         "noUnusedParameters": true,
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
-        "importHelpers": true
+        "importHelpers": true,
+        "noEmitOnError": true
     },
     "exclude": [
         "node_modules",
         "scripts"
     ],
     "linterOptions": {
-        "exclude": ["node_modules/**", "scripts/**"]
+        "exclude": [
+            "node_modules/**",
+            "scripts/**"
+        ]
     }
 }

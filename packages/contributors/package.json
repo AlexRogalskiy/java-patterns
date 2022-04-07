@@ -47,6 +47,8 @@
         "deps": "npm install",
         "dist": "npm run deps && npm run build",
         "prepublishOnly": "npm run build",
+        "solidarity": "solidarity",
+        "solidarity:update": "solidarity snapshot cli node",
         "clean": "del-cli --dot=true dist coverage",
         "reinstall": "del-cli --dot=true ./node_modules ./package-lock.json ./yarn.lock",
         "coverage:view": "[ -f coverage/lcov-report/index.html ] && open coverage/lcov-report/index.html",
@@ -111,6 +113,7 @@
     },
     "engines": {
         "node": ">= 12.x",
-        "npm": ">= 5.0.0"
+        "npm": ">= 5.0.0",
+        "yarn": ">= 3.0.0"
     }
 }
