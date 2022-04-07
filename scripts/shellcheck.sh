@@ -26,7 +26,7 @@ test_shell()
     while IFS="" read -r file
     do
       # collect all warnings
-      shellcheck --format=checkstyle "$file" > ".shellcheck/$(basename "${file}")".log || true
+      shellcheck --format=checkstyle --check-sourced --shell=sh "$file" > ".shellcheck/$(basename "${file}")".log || true
       # fail on >=error
       shellcheck --severity error "$file"
     done
@@ -45,7 +45,7 @@ test_shell_error()
     done
 }
 
-if [ "$1" = "--shell" ]; then
+if [ "${1:-'--shell'}" = "--shell" ]; then
   test_shell
   exit 0
 else

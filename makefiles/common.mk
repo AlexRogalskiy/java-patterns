@@ -37,16 +37,18 @@ GIT_REPO_PREFIX 					:= $(shell git config --get remote.origin.url | tr ':.' '/'
 # GIT_REPO_NAME stores git repository name
 GIT_REPO_NAME 						:= $(shell git config --get remote.origin.url | tr ':.' '/'  | rev | cut -d '/' -f 2 | rev)
 
-# SYS_HOST stores the host name
+# SYS_HOST stores system hostname
 SYS_HOST 									:= $(shell hostname | tr '[:upper:]' '[:lower:]')
-# SYS_OS stores the value of uname -s.
+# SYS_OS stores system operating system
 SYS_OS 					  				:= $(shell uname -s | tr '[:upper:]' '[:lower:]')
-# SYS_ARCH stores the value of uname -m.
+# SYS_ARCH stores system architecture
 SYS_ARCH 									:= $(shell uname -m | sed -e 's/x86_64/amd64/' | sed -e 's/aarch64\(_be\)\?/arm64/' | sed -e 's/\(arm\)\(64\)\?.*/\1\2/')
-# SYS_USER_GROUP stores user name/group
+# SYS_USER_GROUP stores system user name/group
 SYS_USER_GROUP 						:= $(shell echo "$(UID):$(GID)")
-# SYS_CPU stores cpu count
+# SYS_CPU stores system cpu count
 SYS_CPU 									:= $(shell bash $(GIT_ROOT_DIR)/scripts/read_cpus_available.sh)
+# SYS_LANGUAGE stores system locale
+SYS_LANGUAGE 							:= $(shell locale | egrep "^LANG=" | cut -d= -f2 | cut -d_ -f1 | tr -d '"' | egrep "^[a-z]{2}$")
 
 # QUIET stores silent mode
 QUIET 										:= $(if $(findstring s,$(filter-out --%,$(MAKEFLAGS))),-q)
