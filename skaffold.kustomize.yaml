@@ -51,7 +51,7 @@ deploy:
   statusCheckDeadlineSeconds: 300
   kustomize:
     paths:
-      - k8s/overlays/dev
+      - "k8s/overlays/dev"
     hooks:
       before:
         - host:
@@ -73,9 +73,9 @@ profiles:
     deploy:
       kustomize:
         paths:
-        - k8s/overlays/prod
+        - "k8s/overlays/prod"
   - name: staging
     deploy:
       kustomize:
         paths:
-        - k8s/overlays/staging
+        - "k8s/overlays/staging"

@@ -2,8 +2,9 @@
 // https://jestjs.io/docs/en/configuration.html
 module.exports = {
   globals: {
+    __BROWSER__: false,
     "ts-jest": {
-      "diagnostics": false,
+      diagnostics: false,
       isolatedModules: "true"
     }
   },

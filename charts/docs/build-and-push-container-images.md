@@ -26,7 +26,7 @@ skaffold run --filename='skaffold.docker.yaml' --tail
 
 or
 
-Running ***<template>*** = [`docker` | `helm` | `kustomize` | `kubectl`] deployment with `skaffold` command in development
+Running ***<template>*** = \[`docker` | `helm` | `kustomize` | `kubectl`] deployment with `skaffold` command in development
 mode:
 
 ```shell

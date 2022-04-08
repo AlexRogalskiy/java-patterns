@@ -56,8 +56,11 @@ profiles:
         releases:
           - name: backend-java-patterns
             chartPath: charts
+            namespace: webapp
             skipBuildDependencies: true
-            recreatePods: true
+            useHelmSecrets: false
+            recreatePods: false
+            createNamespace: true
     #         setValueTemplates:
     #           image.repository: "{{.DOCKER_REGISTRY}}/gitcoinco/web"
     #           image.tag: "{{.DIGEST_HEX}}"

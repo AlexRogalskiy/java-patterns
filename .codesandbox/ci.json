@@ -1,4 +1,11 @@
 {
+    "packages": [
+        "packages/*"
+    ],
+    "sandboxes": [
+        "packages/contributors/src",
+        "packages/changelog/src"
+    ],
     "buildCommand": "all",
     "node": "16"
 }

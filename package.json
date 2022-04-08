@@ -7,6 +7,11 @@
   "bugs": {
     "url": "https://github.com/AlexRogalskiy/java-patterns/issues"
   },
+  "collective": {
+    "logo": "https://opencollective.com/opencollective/logo.txt",
+    "type": "opencollective",
+    "url": "https://opencollective.com/nullables"
+  },
   "config": {
     "image": "styled-java-patterns"
   },
@@ -148,7 +153,10 @@
     "crowdin:upload": "crowdin --config crowdin.yml upload sources --auto-update -b $(git rev-parse --abbrev-ref HEAD)",
     "deploy": "deploy-to-gh-pages --local --update site",
     "docker:build": "docker build -f ./distribution/docker-images/dev.Dockerfile -t $npm_package_config_image .",
+    "docker:config": "docker-compose config",
     "docker:run": "docker run -ti --rm -v ${PWD}:/usr/src/app -e CI=1 $npm_package_config_image build --strict",
+    "docker:start": "docker stack deploy -c docker-compose.yml dev",
+    "docker:stop": "docker stack rm dev",
     "env:install": "export NODE_ENV=$(grep NODE_ENV .env | cut -d '=' -f2)",
     "env:linux": "export $(cat .env | xargs) && env",
     "env:windows": "(for /F \"tokens=*\" %i in (.env) do set %i)",
@@ -228,8 +236,6 @@
     "solidarity": "solidarity",
     "solidarity:update": "solidarity snapshot cli node",
     "sort-package-json": "sort-package-json",
-    "start-docker": "docker stack deploy -c docker-compose.yml dev",
-    "stop-docker": "docker stack rm dev",
     "svgo": "svgo -i docs/overrides/.icons -o docs/overrides/.icons -q",
     "syncpack": "syncpack list-mismatches --source \"packages/*/package.json\"",
     "syncpack:fix": "syncpack fix-mismatches",
