@@ -21,6 +21,14 @@ import {parseCommits} from "./helpers/parser"
 import {normalizeLog} from "./helpers/filter"
 import {groupLog} from "./helpers/group"
 
+/**
+ * A library for fetching project changelog.
+ *
+ * @remarks
+ * The `changelog` library is used to build project changelog.
+ *
+ * @packageDocumentation
+ */
 process.chdir(join(__dirname, `${process.env.BASE_DIR}`))
 
 async function getLatestStableTag() {

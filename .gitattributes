@@ -14,7 +14,7 @@
 *.html          text
 *.java          text
 *.js            text
-*.json          text
+*.json          linguist-language=JSON-with-Comments
 *.less          text
 *.properties    text
 *.sass          text

@@ -22,6 +22,15 @@ import * as painter from "./helpers/painter"
 import {createScreenshot} from "./helpers/screenshots"
 
 /**
+ * A library for fetching project contributors.
+ *
+ * @remarks
+ * The `contributors` library defines the {@link Contributor} and {@link ContributorsConfig} interfaces,
+ * which are used to build project contributors.
+ *
+ * @packageDocumentation
+ */
+/**
  * Parse link header
  * @param linkHeader Link header as string
  * @returns Object that contains the page numbers of `prev`, `next` and `last`.
