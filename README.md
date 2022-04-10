@@ -34,6 +34,7 @@
 [![Dependabot](https://img.shields.io/badge/dependabot-enabled-1f8ceb.svg?style=flat-square)](https://dependabot.com/)
 [![NewReleases](https://newreleases.io/badge.svg)](https://newreleases.io/github/AlexRogalskiy/java-patterns)
 [![Hits-of-Code](https://hitsofcode.com/github/alexrogalskiy/java-patterns?branch=master)](https://hitsofcode.com/github/alexrogalskiy/java-patterns?branch=master/view?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/97bd71c53e8145a264ec/maintainability)](https://codeclimate.com/github/AlexRogalskiy/java-patterns/maintainability)
 [![ComVer](https://img.shields.io/badge/ComVer-compliant-brightgreen.svg)][tags]
 [![GitHub Super-Linter](https://github.com/alexrogalskiy/java-patterns/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
 [![Documentation Status](https://readthedocs.org/projects/java-patterns/badge/?version=latest)](https://java-patterns.readthedocs.io/en/latest/?badge=latest)
