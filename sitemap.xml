@@ -17,6 +17,22 @@
          
     </url>
     <url>
+         <loc>https://alexander-rogalsky.gitbook.io/java-patterns/CONTRIBUTING/</loc>
+         <lastmod>2022-04-12</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/CONTRIBUTING/"/>
+         <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/CONTRIBUTING/"/>
+         
+    </url>
+    <url>
+         <loc>https://alexander-rogalsky.gitbook.io/java-patterns/GUIDE/</loc>
+         <lastmod>2022-04-12</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/GUIDE/"/>
+         <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/GUIDE/"/>
+         
+    </url>
+    <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/SUMMARY/</loc>
          <lastmod>2022-04-12</lastmod>
          <changefreq>daily</changefreq>

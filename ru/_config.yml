@@ -3,4 +3,5 @@ nav:
   - Info: README.md
   - Changelog: CHANGELOG.md
   - Summary: SUMMARY.md
+  - Guide: GUIDE.md
   - ...
