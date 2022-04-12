@@ -38,7 +38,7 @@ strict: false # halt processing when a warning is raised
 
 # Theme settings
 theme:
-  name: readthedocs
+  name: materialx
   language: en
   highlightjs: true
   custom_dir: docs/overrides
