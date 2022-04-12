@@ -79,7 +79,7 @@
          * [<em>DevCases posts</em>](#devcases-posts)
 <!--te-->
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ## ☝ *Summary*
 
@@ -265,6 +265,8 @@ See also the list of [contributors][contributors] who participated in this proje
 [![Edit with Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/AlexRogalskiy/java-patterns)
 
 ***Java Design Patterns*** has experimental support for *Gitpod*, a pre-configured development environment that runs in your browser. To use *Gitpod*, click the button below and sign in with GitHub. *Gitpod* also offers a browser add-on, though it is not required.
+
+[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://githubbox.com/AlexRogalskiy/java-patterns)
 
 <div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
 
