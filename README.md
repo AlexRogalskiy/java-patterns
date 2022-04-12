@@ -131,7 +131,7 @@ docs/
         info.md # Links page
 ```
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ## 📝 *Documentation*
 
@@ -198,7 +198,7 @@ python -m mkdocs --verbose gh-deploy --force --remote-branch gh-pages
 
 5\) Open up [localhost](http://127.0.0.1:8000/) in browser to get the default documentation homepage.
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ## 🧶 *Kubernetes*
 
@@ -214,7 +214,7 @@ Shutting down k8s cluster with provisioned resources removal:
 tilt down --delete-namespaces
 ```
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ## ⏰ *Statistics*
 
@@ -222,14 +222,14 @@ tilt down --delete-namespaces
     <img alt="Documentation PageSpeed result dashboard" src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/master/reports/pagespeedresultmobile.svg"/>
 </p>
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ## 📝 *Versioning*
 
 The project uses [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on
 this repository][tags].
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ## 🌹 *Authors*
 
@@ -239,7 +239,7 @@ this repository][tags].
 
 with community support please contact with us if you have some question or proposition.
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ## 💕 *Contributing*
 
@@ -268,7 +268,7 @@ See also the list of [contributors][contributors] who participated in this proje
 
 [![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://githubbox.com/AlexRogalskiy/java-patterns)
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ## 🚨 *Visitor stats*
 
@@ -278,7 +278,7 @@ See also the list of [contributors][contributors] who participated in this proje
 ![GitHub forks](https://img.shields.io/github/forks/AlexRogalskiy/java-patterns?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/AlexRogalskiy/java-patterns?style=social)
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ## ⚽ *Licensing*
 
@@ -288,7 +288,7 @@ permissions on top of GPLv3.
 
 ![image](https://user-images.githubusercontent.com/19885116/48661948-6cf97e80-ea7a-11e8-97e7-b45332a13e49.png)
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ## 🌟 *Development Support*
 
@@ -299,7 +299,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 [![Buy Me A Coffee](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellow.svg?logo=buy%20me%20a%20coffee)](https://www.buymeacoffee.com/AlexRogalskiy)
 [![KoFi](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellow.svg?logo=ko-fi)](https://ko-fi.com/alexrogalskiy)
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ## 👨‍👨‍👧‍👦 *Acknowledgement*
 
@@ -309,7 +309,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 [![Statistics report](https://cauldron.io/project/5121/stats.svg)][stats_chart]
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ## 📎 *OpenGraph Card*
 
@@ -317,7 +317,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
     <img alt="OpenGraph card" src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/master/images/opengraph-card.png"/>
 </p>
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ## 🔥 *Feeds and Podcasts*
 
@@ -338,7 +338,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- REDDIT-POST-LIST:END -->
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ### *InfoWorld posts*
 
@@ -357,7 +357,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- INFOWORLD-POST-LIST:END -->
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ### *Let's talk posts*
 
@@ -376,7 +376,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- LETSTALK-POST-LIST:END -->
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ### *Random thoughts posts*
 
@@ -395,7 +395,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- RANDOMTHOUGHTS-POST-LIST:END -->
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ### *Better code posts*
 
@@ -414,7 +414,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- BETTERCODE-POST-LIST:END -->
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ### *Inside Java posts*
 
@@ -433,7 +433,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- INSIDE-POST-LIST:END -->
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ### *Java programmer posts*
 
@@ -452,7 +452,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- JAVAPROG-POST-LIST:END -->
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ### *Dreamix posts*
 
@@ -471,7 +471,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- DREAMIX-POST-LIST:END -->
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ### *Plumbr posts*
 
@@ -490,7 +490,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- PLUMBR-POST-LIST:END -->
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ### *Thorben Janssen posts*
 
@@ -509,7 +509,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- TJ-POST-LIST:END -->
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ### *Redhat posts*
 
@@ -528,7 +528,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- REDHAT-POST-LIST:END -->
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ### *JavaCodeGeeks posts*
 
@@ -547,7 +547,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- JAVACODEGEEKS-POST-LIST:END -->
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ### *DevCases posts*
 
@@ -566,7 +566,7 @@ and ***Java Patterns*** ? Consider buying me a coffee :)
 
 <!-- DEVCASES-POST-LIST:END -->
 
-<div style="text-align: right"><a href="https://github.com/AlexRogalskiy/java-patterns#java-design-patterns"><i>(back to top)</i></a></div>
+<div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ***
 
