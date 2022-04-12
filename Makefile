@@ -457,6 +457,27 @@ git-pull:
 	$(AT)find . -name ".git" -type d | xargs -P10 -I{} $(GIT_CMD) --git-dir={} --work-tree="$(PWD)"/{} pull origin master
 	$(AT)echo
 
+# Run git branch command.
+.PHONY: git-branch
+git-branch:
+	$(AT)echo
+	$(AT)git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
+	$(AT)echo
+
+# Run git merge command.
+.PHONY: git-merge
+git-merge:
+	$(AT)echo
+	$(AT)git log $(shell git merge-base --octopus $(shell git log -1 --merges --pretty=format:%P))..$(shell git log -1 --merges --pretty=format:%H) --pretty=format:%s
+	$(AT)echo
+
+# Run git open command.
+.PHONY: git-open
+git-open:
+	$(AT)echo
+	$(AT)open $(shell git remote -v | awk "/fetch/{print $2}" | sed -Ee "s#(git@|git://)#http://#" -e "s@com:@com/@" | head -n1 | grep -Eo 'https?://[^ >]+')
+	$(AT)echo
+
 # Run git log command.
 .PHONY: git-changelog
 git-changelog: release

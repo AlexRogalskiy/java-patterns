@@ -29,8 +29,6 @@ GIT_ORIG_BRANCH 					:= $(shell git rev-parse --abbrev-ref HEAD | sed 's/&/\&amp
 GIT_ORIG_TAG 							:= $(shell git describe --exact-match --abbrev=0 2>/dev/null | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/,/\&\#44;/g' || echo "")
 # GIT_ORIG_VERSION stores original git tag version
 GIT_ORIG_VERSION 					:= $(shell (git for-each-ref refs/tags --sort=-taggerdate --format='%(refname)' --count=1 | sed -Ee 's/^refs\/tags\/v|-.*//'))
-# GIT_MERGES stores git merges
-GIT_MERGES 								:= $(shell (git log $(git merge-base --octopus $(git log -1 --merges --pretty=format:%P))..$(git log -1 --merges --pretty=format:%H) --pretty=format:%s))
 # GIT_LAST_COMMIT stores git last commit message
 GIT_LAST_COMMIT 					:= $(shell git log -1 --pretty=format:%B)
 

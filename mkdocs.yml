@@ -38,7 +38,7 @@ strict: false # halt processing when a warning is raised
 
 # Theme settings
 theme:
-  name: material
+  name: readthedocs
   language: en
   highlightjs: true
   custom_dir: docs/overrides
@@ -119,6 +119,10 @@ plugins:
   - macros:
       modules:
         - docs.mkdocs_macros
+  - mkdocs-simple-hooks:
+      enabled: !ENV [ENABLE_MKDOCS_SIMPLE_HOOKS, True]
+      hooks:
+        on_pre_build: "docs.hooks:copy_generated_files"
 
 # Extra settings
 extra:
