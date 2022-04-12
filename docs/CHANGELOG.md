@@ -2,6 +2,18 @@
 
 #### Bugfixes
 
+- \[[ec74c73f](https://github.com/boardgameio/boardgame.io/commit/ec74c73f)] Auto update markdown TOC
+- \[[b4dce30e](https://github.com/boardgameio/boardgame.io/commit/b4dce30e)] Updates on files
+- \[[c0edce5d](https://github.com/boardgameio/boardgame.io/commit/c0edce5d)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[d6f2898e](https://github.com/boardgameio/boardgame.io/commit/d6f2898e)] Updates on files
+- \[[4853bf00](https://github.com/boardgameio/boardgame.io/commit/4853bf00)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[5f9085f3](https://github.com/boardgameio/boardgame.io/commit/5f9085f3)] Updates on files
+- \[[3f5457d8](https://github.com/boardgameio/boardgame.io/commit/3f5457d8)] Auto update markdown TOC
+- \[[ffdee048](https://github.com/boardgameio/boardgame.io/commit/ffdee048)] Updates on files
+- \[[1652e069](https://github.com/boardgameio/boardgame.io/commit/1652e069)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
+- \[[c11ffc98](https://github.com/boardgameio/boardgame.io/commit/c11ffc98)] Updates on files
+- \[[69e06766](https://github.com/boardgameio/boardgame.io/commit/69e06766)] Auto update markdown TOC
+- \[[519f14f5](https://github.com/boardgameio/boardgame.io/commit/519f14f5)] Updates on files
 - \[[66e075e2](https://github.com/boardgameio/boardgame.io/commit/66e075e2)] Merge branch 'master' of https://github.com/AlexRogalskiy/java-patterns
 - \[[52d0e950](https://github.com/boardgameio/boardgame.io/commit/52d0e950)] Updates on files
 - \[[94afdf83](https://github.com/boardgameio/boardgame.io/commit/94afdf83)] Auto update markdown TOC

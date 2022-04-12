@@ -3,8 +3,8 @@ import path from "path";
 import {createHash} from "crypto";
 import {spawn} from "child_process";
 
-const schemaV1Path = path.join(process.cwd(), `${process.env.SOURCE_DIR1}`).normalize()
-const schemaV2Path = path.join(process.cwd(), `${process.env.SOURCE_DIR2}`).normalize()
+const schemaV1Path = path.join(process.cwd(), `${process.env.SOURCE_DIR1}`)
+const schemaV2Path = path.join(process.cwd(), `${process.env.SOURCE_DIR2}`)
 
 const baseV1Name = path.basename(schemaV1Path)
 const baseV2Name = path.basename(schemaV2Path)
@@ -45,7 +45,7 @@ interface BranchState {
 }
 
 /**
- * Gives status information on the current branch as compared to origin/main
+ * Gives status information on the current branch as compared to origin/master
  */
 const getBranchDrift = (): Promise<BranchState> =>
   new Promise((resolve, reject) => {
@@ -54,7 +54,7 @@ const getBranchDrift = (): Promise<BranchState> =>
       "rev-list",
       "--left-right",
       "--count",
-      "origin/main...HEAD",
+      "origin/master...HEAD",
     ])
 
     delta.stdout.on("data", (data) => {
@@ -82,12 +82,12 @@ const getBranchDrift = (): Promise<BranchState> =>
   })
 
 /**
- * Uses git to generate a delta map of files that have changed since main
+ * Uses git to generate a delta map of files that have changed since master
  */
 const getChangedFiles = (): Promise<DeltaFileMap> =>
   new Promise((resolve, reject) => {
     let changedBlob = ""
-    const changed = spawn("git", ["diff", "--name-status", "origin/main"])
+    const changed = spawn("git", ["diff", "--name-status", "--relative", "origin/master"])
     changed.stdout.on("data", (data) => {
       changedBlob += data
     })
@@ -269,7 +269,7 @@ const diffDirectories = (
 
   // Is there a better way to handle this?
   if (branchState.commitsBehind > 0) {
-    console.warn("Branch is currently behind main, might not reflect accurate state\n")
+    console.warn("Branch is currently behind master, might not reflect accurate state\n")
   }
 
   const fileChanges = Object.entries(await getChangedFiles()).filter(
@@ -278,7 +278,7 @@ const diffDirectories = (
 
   // If no file updates, skip
   if (fileChanges.length === 0) {
-    console.log(`No updates detected in ${baseV1Name} or  ${baseV2Name}, skipping...\n`)
+    console.log(`No updates detected in [${baseV1Name}] or [${baseV2Name}], skipping...\n`)
     return
   }
 
@@ -361,7 +361,7 @@ const diffDirectories = (
     .forEach(([, filePath]) => {
       const file = schemaV1.getFile(filePath)
       console.warn(
-        `${file.relativePath} was added to v1, should it also be added to v2?`
+        `\n\n[${file.relativePath}] was added to v1, should it also be added to v2\n\n`
       )
     })
 

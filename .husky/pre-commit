@@ -9,7 +9,9 @@ if [ -f "$FILE_NAME" ]; then
 
   npm run lint:staged
   npm run all
-  npm run changelog
+  npm run changelog:simple
+  npm run script:changelog
+  npm run check:commit
 
   git add docs/
 

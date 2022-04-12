@@ -1,7 +1,7 @@
 {
     "name": "@java-patterns/schema-diff",
     "version": "0.0.0",
-    "description": "Java Design Patterns schema difference",
+    "description": "Java Design Patterns Schema Difference",
     "private": true,
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
@@ -18,7 +18,7 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/AlexRogalskiy/java-patterns.git",
-        "directory": "packages/diff"
+        "directory": "packages/schema-diff"
     },
     "funding": "https://github.com/sponsors/AlexRogalskiy",
     "license": "GPL-3.0",
@@ -61,7 +61,7 @@
         "compodocs": "env-cmd --silent -e dev compodoc -p tsconfig.doc.json -d docs",
         "compodocs:serve": "env-cmd --silent -e dev compodoc -p tsconfig.doc.json -d docs -s",
         "dev": "SOURCE_DIR1=$npm_config_source_dir1 SOURCE_DIR2=$npm_config_source_dir2 node dist/index.js",
-        "dev:local": "npm run build && npm run dev --source_dir1=docs --source_dir2=docs",
+        "dev:local": "npm run build && npm run dev --source_dir1=docs --source_dir2=docs2",
         "build": "env-cmd --silent -e dev tsdx build --tsconfig tsconfig.json",
         "watch": "env-cmd --silent -e dev tsdx watch --tsconfig tsconfig.json",
         "lint:lockfile": "env-cmd --silent -e dev lockfile-lint --path package-lock.json --type npm --validate-https --allowed-hosts npm yarn",
@@ -109,7 +109,6 @@
         "lockfile-lint": "^4.7.4",
         "loglevel": "^1.8.0",
         "mockdate": "^3.0.5",
-        "puppeteer": "^13.5.1",
         "source-map-explorer": "^2.5.2",
         "ts-jest": "^27.1.4",
         "ts-node": "^10.7.0",
