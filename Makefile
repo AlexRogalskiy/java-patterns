@@ -131,7 +131,7 @@ _venv:
 	$(AT)virtualenv $(VENV_NAME)
 	. $(VENV_BIN)/activate
 	$(AT)echo
-	$(AT)echo -e "$(COLOR_RED)Virtual env created. The source pages are in $(VENV_NAME) directory.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)Virtual env created. The source pages are in $(VENV_NAME) directory.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Create environment variables
@@ -194,7 +194,7 @@ list:
 dirs:
 	$(AT)echo "$(shell ls -ad -- */)"
 	$(AT)echo
-	$(AT)echo -e "$(COLOR_RED)Directory list finished.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)Directory list finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run version command.
@@ -208,7 +208,7 @@ versions:
 	$(AT)$(HELM_CMD) version
 	$(AT)echo
 	$(AT)echo
-	$(AT)echo -e "$(COLOR_RED)Versions list finished.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)Versions list finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Clean removes all temporary files.
@@ -219,7 +219,7 @@ clean:
 	$(AT)rm -rf $(GITHUB_PAGES_DIR)
 	$(AT)rm -rf $(VENV_NAME)
 	$(AT)echo
-	$(AT)echo -e "$(COLOR_RED)Clean finished.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)Clean finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Ensures that the git workspace is clean.
@@ -360,7 +360,7 @@ helm-package:
 	$(AT)mkdir -p $(CHART_RELEASE_DIR)/charts
 	$(AT)$(HELM_CMD) package charts --dependency-update --destination $(CHART_RELEASE_DIR)/charts
 	$(AT)echo
-	$(AT)echo -e "$(COLOR_RED)Helm packages build finished.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)Helm packages build finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run helm dev command.
@@ -373,7 +373,7 @@ okteto:
 	$(AT)okteto build -t $(DOCKER_HUB_IMAGE_NAME) .
 	$(AT)okteto build -t $(OKTETO_IMAGE_NAME) .
 	$(AT)echo
-	$(AT)echo -e "$(COLOR_RED)Okteto images build finished.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)Okteto images build finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Install pip command.
@@ -382,21 +382,24 @@ install-pip:
 	$(AT)wget $(WGET_OPTS) https://bootstrap.pypa.io/get-pip.py -O $(TMPDIR)/get-pip.py
 	$(AT)$(PYTHON_CMD) $(TMPDIR)/get-pip.py
 	$(AT)echo
-	$(AT)echo -e "$(COLOR_RED)Pip installed.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)Pip installed.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run local build command.
 .PHONY: local-build
 local-build:
-	$(AT)$(PYTHON_CMD) -m pip install $(PIP_BUILD_OPTS) -r ./docs/requirements.txt
+	$(AT)$(PYTHON_CMD) -m pip install $(PIP_BUILD_OPTS) -r ./requirements/local.hash
 	$(AT)$(PYTHON_CMD) -m mkdocs build $(MKDOCS_BUILD_OPTS)
 	$(AT)echo
-	$(AT)echo -e "$(COLOR_RED)Python documentation build finished.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)Python documentation build finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run local run command.
 .PHONY: local-run
 local-run: local-build
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Python documentation is starting locally.$(COLOR_NORMAL)"
+	$(AT)echo
 	$(AT)$(PYTHON_CMD) -m mkdocs serve $(MKDOCS_SERVE_OPTS)
 
 # Run venv build command.
@@ -405,7 +408,7 @@ venv-build: _venv
 	$(AT)$(VENV_PYTHON) -m pip install $(PIP_BUILD_OPTS) -r ./docs/requirements.txt
 	$(AT)$(VENV_PYTHON) -m mkdocs build $(MKDOCS_BUILD_OPTS)
 	$(AT)echo
-	$(AT)echo -e "$(COLOR_RED)Build finished. The source pages are in $(VENV_NAME) directory.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)Build finished. The source pages are in $(VENV_NAME) directory.$(COLOR_NORMAL)"
 	$(AT)echo
 	$(AT)exit
 
@@ -419,7 +422,7 @@ venv-run: venv-build
 gh-pages:
 	$(AT)$(PYTHON_CMD) -m mkdocs gh-deploy $(MKDOCS_DEPLOY_OPTS)
 	$(AT)echo
-	$(AT)echo -e "$(COLOR_RED)GitHub pages generated.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)GitHub pages generated.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run npm install command.
@@ -427,7 +430,7 @@ gh-pages:
 deps:
 	$(AT)$(NPM_CMD) install
 	$(AT)echo
-	$(AT)echo -e "$(COLOR_RED)Install finished.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)Install finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run npm all command.
@@ -435,7 +438,7 @@ deps:
 all:
 	$(AT)$(NPM_CMD) run all
 	$(AT)echo
-	$(AT)echo -e "$(COLOR_RED)Build finished.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)Build finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run git diff command.

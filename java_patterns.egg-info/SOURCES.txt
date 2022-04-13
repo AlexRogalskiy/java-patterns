@@ -1,0 +1,12 @@
+AUTHORS
+AUTHORS.md
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+java_patterns.egg-info/PKG-INFO
+java_patterns.egg-info/SOURCES.txt
+java_patterns.egg-info/dependency_links.txt
+java_patterns.egg-info/not-zip-safe
+java_patterns.egg-info/requires.txt
+java_patterns.egg-info/top_level.txt

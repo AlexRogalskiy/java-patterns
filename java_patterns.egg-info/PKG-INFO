@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: java-patterns
+Version: 1.0.1
+Summary: Java Patterns Documentation
+Home-page: https://github.com/AlexRogalskiy/java-patterns
+Author: Alexander Rogalskiy
+Author-email: hi@sensiblemetrics.io
+License: GPL-3.0
+Keywords: java design patterns
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GPL-3.0 License
+Classifier: Natural Language :: English
+Classifier: Topic :: Utilities
+Requires-Python: ~=3.9
+License-File: LICENSE.txt
+License-File: AUTHORS
+License-File: AUTHORS.md
+
+
+java-patterns
+=================
+Java Patterns Documentation
+Links
+-----
+* Documentation: https://alexander-rogalsky.gitbook.io/java-patterns
+* Releases: https://github.com/AlexRogalskiy/java-patterns/releases
+* Code: https://github.com/AlexRogalskiy/java-patterns
+* Issue tracker: https://github.com/AlexRogalskiy/java-patterns/issues
+
+

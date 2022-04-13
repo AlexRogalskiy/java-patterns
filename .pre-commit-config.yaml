@@ -6,10 +6,16 @@ default_language_version:
   python: python3
 minimum_pre_commit_version: "1.20.0"
 repos:
+  - repo: https://github.com/peterdemin/pip-compile-multi
+    rev: v2.4.1
+    hooks:
+      - id: pip-compile-multi-verify
+
   - repo: meta
     hooks:
       - id: identity
       - id: check-hooks-apply
+
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v3.4.0
     hooks:
