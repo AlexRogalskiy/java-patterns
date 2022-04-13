@@ -73,7 +73,7 @@
         "test": "env-cmd --silent -e test jest --verbose --maxWorkers=50% --passWithNoTests --no-cache --detectOpenHandles --testPathIgnorePatterns integration local-integration disconnection",
         "test:integration": "env-cmd --silent -e test jest --runInBand --testPathIgnorePatterns disconnection --detectOpenHandles --verbose true",
         "test:local": "env-cmd --silent -e test jest --runInBand --verbose true --detectOpenHandles local-integration",
-        "test:reporter": "env-cmd --silent -e test jest --ci --reporters='default' --reporters='./jest/reporter/json-reporter'",
+        "test:reporter": "env-cmd --silent -e test jest --ci --reporters='default' --reporters='jest/reporters/json-reporter'",
         "test:disconnect": "env-cmd --silent -e test jest --runInBand --verbose true --detectOpenHandles disconnection"
     },
     "jestSonar": {
@@ -119,5 +119,8 @@
         "node": ">= 12.x",
         "npm": ">= 5.0.0",
         "yarn": ">= 3.0.0"
+    },
+    "dependencies": {
+        "D": "^1.0.0"
     }
 }

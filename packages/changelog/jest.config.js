@@ -76,7 +76,8 @@ module.exports = {
   ],
   reporters: [
     "default",
-    "./node_modules/jest-fail-on-console-reporter",
+    "<rootDir>/node_modules/jest-fail-on-console-reporter",
+    "<rootDir>/jest/reporters/json-reporter",
     ["jest-junit", {
       usePathForSuiteName: true,
       suiteNameTemplate: "{filename}",
@@ -88,6 +89,10 @@ module.exports = {
   setupFilesAfterEnv: [
     "<rootDir>/jest/jest-env-setup.js"
   ],
+  moduleNameMapper: {
+    '\\.(css|less|sass|scss)$': 'identity-obj-proxy',
+    '\\.(gif|ttf|eot|svg|png)$': '<rootDir>/jest/mocks/jest-file-mock.js',
+  },
   watchPlugins: [
     "jest-watch-select-projects",
     "jest-watch-typeahead/filename",
