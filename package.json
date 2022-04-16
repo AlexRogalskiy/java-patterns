@@ -173,6 +173,7 @@
     "format:all": "npm run format && npm run format:md",
     "format:check": "prettier --check **/*.{json,yaml,yml}",
     "format:doc": "alex",
+    "hooks:pre-commit": "node hooks/pre-commit.js",
     "format:md": "remark-preset-davidtheclark --format",
     "get:name": "echo $npm_package_name",
     "get:submodule": "npm run _get:${GET:-submodule}",
