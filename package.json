@@ -160,6 +160,7 @@
     "deploy": "deploy-to-gh-pages --local --update site",
     "deps": "npm install",
     "link-local": "yalc link",
+    "unlink-local": "yalc remove --all",
     "docker:build": "docker build -f ./distribution/docker-images/dev.Dockerfile -t $npm_package_config_image .",
     "docker:config": "docker-compose config",
     "docker:run": "docker run -ti --rm -v ${PWD}:/usr/src/app -e CI=1 $npm_package_config_image build --strict",

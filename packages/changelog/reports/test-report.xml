@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
     <file path="/Users/user/repo/java-patterns/packages/changelog/tests/simple.test.ts">
-        <testCase name="Test Suite one of my .only test" duration="7"/>
+        <testCase name="Test Suite one of my .only test" duration="6"/>
         <testCase name="Test Suite other of my .only test" duration="3"/>
         <testCase name="Test Suite my only true test" duration="0"/>
     </file>

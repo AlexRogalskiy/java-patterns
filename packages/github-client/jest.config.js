@@ -32,7 +32,8 @@ module.exports = {
     "<rootDir>/tsconfig.json"
   ],
   transform: {
-    "^.+\\.(js|ts)$": "ts-jest"
+    "^.+\\.(js|ts)$": "ts-jest",
+    "^.+\\.css$": "<rootDir>/jest/transformers/jest-css-transform.js",
   },
   snapshotSerializers: [
     "<rootDir>/node_modules/jest-html"
