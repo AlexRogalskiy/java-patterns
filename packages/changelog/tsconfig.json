@@ -38,6 +38,7 @@
         "lib": [
             "esnext"
         ],
+        "types": ["jest", "node"],
         "rootDir": ".",
         "target": "esnext",
         "module": "esnext",
@@ -50,7 +51,8 @@
         ]
     },
     "include": [
-        "src/**/*",
-        "tests/**/*.ts"
+      "src/**/*",
+      "tests/**/*.ts",
+      "node_modules/@types/jest/index.d.ts"
     ]
 }

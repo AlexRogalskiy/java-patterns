@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+import {execSync} from "child_process"
 import fetch from "node-fetch"
 import {join} from "path"
-import {execSync} from "child_process"
 
-import {parseCommits} from "./helpers/parser"
 import {normalizeLog} from "./helpers/filter"
 import {groupLog} from "./helpers/group"
+import {parseCommits} from "./helpers/parser"
 
 /**
  * A library for fetching project changelog.

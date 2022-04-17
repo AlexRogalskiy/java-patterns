@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1649864899453,
+  "startTime": 1650184942534,
   "success": true,
   "testResults": [
     {
@@ -37,10 +37,10 @@
       "numTodoTests": 0,
       "openHandles": [],
       "perfStats": {
-        "end": 1649864901144,
-        "runtime": 1568,
+        "end": 1650184944164,
+        "runtime": 1580,
         "slow": false,
-        "start": 1649864899576
+        "start": 1650184942584
       },
       "skipped": false,
       "snapshot": {
@@ -58,7 +58,7 @@
           "ancestorTitles": [
             "Test Suite"
           ],
-          "duration": 4,
+          "duration": 8,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Test Suite one of my .only test",
@@ -72,7 +72,7 @@
           "ancestorTitles": [
             "Test Suite"
           ],
-          "duration": 6,
+          "duration": 3,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "Test Suite other of my .only test",

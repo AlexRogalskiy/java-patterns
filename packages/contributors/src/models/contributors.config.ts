@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+// import-conductor-skip
 export interface ContributorsConfig {
   /** Owner of the repository */
   owner: string

@@ -9,5 +9,9 @@ extends: null
 
 # MD041/first-line-heading/first-line-h1 - First line in a file should be a top-level heading
 MD041: false
+# MD033/inline HTML
+MD033: false
 # MD034/no-bare-urls - Bare URL used
 MD034: false
+# MD042/no-empty-links
+MD042: false

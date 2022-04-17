@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+// import-conductor-skip
 export const red = (value: string): string => `\x1b[31m${value}\x1b[0m`
 export const green = (value: string): string => `\x1b[32m${value}\x1b[0m`
 export const yellow = (value: string): string => `\x1b[33m${value}\x1b[0m`

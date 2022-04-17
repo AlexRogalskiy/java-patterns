@@ -17,9 +17,9 @@ import * as fs from "fs"
 import * as https from "https"
 import * as path from "path"
 
-import {Contributor} from "./models/contributor"
 import * as painter from "./helpers/painter"
 import {createScreenshot} from "./helpers/screenshots"
+import {Contributor} from "./models/contributor"
 
 /**
  * A library for fetching project contributors.
