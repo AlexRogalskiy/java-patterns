@@ -72,7 +72,9 @@
         "test:coverage": "env-cmd --silent -e test jest --forceExit --runInBand --collectCoverage --detectOpenHandles --coverage && coveralls < ./coverage/lcov.info",
         "test:ts-coverage": "typescript-coverage-report",
         "test:watch": "env-cmd --silent -e test jest --watch --notify --notifyMode=change",
-        "test": "env-cmd --silent -e test jest --verbose --maxWorkers=50% --passWithNoTests --no-cache --detectOpenHandles --testPathIgnorePatterns integration local-integration disconnection",
+        "test": "npm run test:unit && npm run test:e2e",
+        "test:unit": "env-cmd --silent -e test jest --verbose --selectProjects unit --maxWorkers=50% --passWithNoTests --no-cache --detectOpenHandles --testPathIgnorePatterns integration local-integration disconnection",
+        "test:e2e": "env-cmd --silent -e test jest --verbose --selectProjects e2e --maxWorkers=50% --passWithNoTests --no-cache --detectOpenHandles --testPathIgnorePatterns integration local-integration disconnection",
         "test:integration": "env-cmd --silent -e test jest --runInBand --testPathIgnorePatterns disconnection --detectOpenHandles --verbose true",
         "test:local": "env-cmd --silent -e test jest --runInBand --verbose true --detectOpenHandles local-integration",
         "test:reporter": "env-cmd --silent -e test jest --ci --reporters='default' --reporters='jest/reporters/json-reporter'",
@@ -85,6 +87,7 @@
     },
     "devDependencies": {
         "@compodoc/compodoc": "^1.1.19",
+        "@jest/test-sequencer": "^27.5.1",
         "@microsoft/api-extractor": "^7.21.0",
         "@types/jest": "^27.4.1",
         "@types/node": "^17.0.21",
@@ -124,6 +127,7 @@
         "yarn": ">= 3.0.0"
     },
     "dependencies": {
-        "D": "^1.0.0"
+        "D": "^1.0.0",
+        "g": "^2.0.1"
     }
 }

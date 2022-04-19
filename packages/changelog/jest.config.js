@@ -5,13 +5,15 @@ module.exports = {
     __BROWSER__: false,
     "ts-jest": {
       diagnostics: false,
-      isolatedModules: "true"
+      isolatedModules: true
     }
   },
   roots: ["<rootDir>/tests/"],
   verbose: true,
   clearMocks: true,
   restoreMocks: true,
+  testTimeout: 20000,
+  testSequencer: "<rootDir>/jest/jest-test-sequencer.js",
   globalSetup: "<rootDir>/jest/jest-global-setup.js",
   globalTeardown: "<rootDir>/jest/jest-global-teardown.js",
   setupFiles: [
@@ -19,13 +21,17 @@ module.exports = {
   ],
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
   testEnvironment: "node",
-  testMatch: ["**/*.test.(ts|js)", "**/__tests__/**/?(*.)+(spec|test).(ts|js)"],
+  testMatch: [
+    "**/*.test.[jt]s?(x)",
+    "**/__tests__/**/?(*.)+(spec|test).[jt]s?(x)"
+  ],
   testRunner: "jest-circus/runner",
   testPathIgnorePatterns: [
     "<rootDir>/src.*",
     "<rootDir>/node_modules.*",
     "<rootDir>/__fixtures__.*",
-    "<rootDir>/spec.*"
+    "<rootDir>/spec.*",
+    "<rootDir>/mock.*"
   ],
   watchPathIgnorePatterns: [
     "<rootDir>/src.*",
@@ -38,41 +44,103 @@ module.exports = {
   snapshotSerializers: [
     "<rootDir>/node_modules/jest-html"
   ],
-  collectCoverage: true,
-  collectCoverageFrom: [
-    "**/*.(ts|js)",
-    "!**/*.d.ts",
-    "!**/*.folio.ts",
-    "!**/*.spec.ts",
-    "!**/dist/**",
-    "!**/node_modules/**",
-    "!**/vendor/**",
-    "!**/generated/**",
-    "!**/__fixtures__/**",
-    "!**/scenarios/**",
-    "!**/redirects/**",
-  ],
-  coveragePathIgnorePatterns: [
-    "<rootDir>/node_modules/"
-  ],
-  coverageThreshold: {
-    global: {
-      branches: 4,
-      functions: 4,
-      lines: 4,
-      statements: 4,
+  projects: [
+    {
+      displayName: "unit",
+      testMatch: [
+        "**/tests/unit/**/*.[jt]s"
+      ],
+      testPathIgnorePatterns: [
+        "<rootDir>/tests/unit/mock*"
+      ],
+      transform: {
+        "^.+\\.(js|ts)$": "ts-jest",
+        "^.+\\.css$": "<rootDir>/jest/transformers/jest-css-transform.js",
+      },
+      collectCoverage: true,
+      collectCoverageFrom: [
+        "**/*.[jt]s?(x)",
+        "!**/*.d.ts",
+        "!**/*.folio.ts",
+        "!**/*.spec.ts",
+        "!**/dist/**",
+        "!**/node_modules/**",
+        "!**/vendor/**",
+        "!**/generated/**",
+        "!**/__fixtures__/**",
+        "!**/scenarios/**",
+        "!**/redirects/**",
+      ],
+      coveragePathIgnorePatterns: [
+        "<rootDir>/node_modules/"
+      ],
+      coverageThreshold: {
+        global: {
+          branches: 4,
+          functions: 4,
+          lines: 4,
+          statements: 4,
+        },
+      },
+      coverageDirectory: "<rootDir>/coverage",
+      testResultsProcessor: "jest-sonar-reporter",
+      coverageReporters: [
+        "json",
+        "lcov",
+        "text",
+        "clover",
+        "html"
+      ]
     },
-  },
-  coverageDirectory: "<rootDir>/coverage",
-  testResultsProcessor: "jest-sonar-reporter",
-  coverageReporters: [
-    "json",
-    "lcov",
-    "text",
-    "clover",
-    "html"
+    {
+      displayName: "e2e",
+      testMatch: [
+        "**/tests/e2e/**/*.[jt]s"
+      ],
+      testPathIgnorePatterns: [
+        "<rootDir>/tests/e2e/mock*"
+      ],
+      transform: {
+        "^.+\\.(js|ts)$": "ts-jest",
+        "^.+\\.css$": "<rootDir>/jest/transformers/jest-css-transform.js",
+      },
+      collectCoverage: true,
+      collectCoverageFrom: [
+        "**/*.[jt]s?(x)",
+        "!**/*.d.ts",
+        "!**/*.folio.ts",
+        "!**/*.spec.ts",
+        "!**/dist/**",
+        "!**/node_modules/**",
+        "!**/vendor/**",
+        "!**/generated/**",
+        "!**/__fixtures__/**",
+        "!**/scenarios/**",
+        "!**/redirects/**",
+      ],
+      coveragePathIgnorePatterns: [
+        "<rootDir>/node_modules/"
+      ],
+      coverageThreshold: {
+        global: {
+          branches: 4,
+          functions: 4,
+          lines: 4,
+          statements: 4,
+        },
+      },
+      coverageDirectory: "<rootDir>/coverage",
+      testResultsProcessor: "jest-sonar-reporter",
+      coverageReporters: [
+        "json",
+        "lcov",
+        "text",
+        "clover",
+        "html"
+      ]
+    }
   ],
-  "transformIgnorePatterns": [
+  transformIgnorePatterns: [
     "<rootDir>/node_modules/"
   ],
   reporters: [

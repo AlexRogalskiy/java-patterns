@@ -6,7 +6,12 @@ Thank you for installing Java Patterns Docs!
 
   kubectl rollout status deployment {{ include "backend-java-patterns.fullname" . }}
 
+  To get cluster information:
+
+  kubectl cluster-info
+
 - The Java Patterns Docs webapp are accessible through the landing page:
+
 {{ if .Values.ingress.enabled }}
 {{- range $host := .Values.ingress.hosts }}
   {{- range .paths }}

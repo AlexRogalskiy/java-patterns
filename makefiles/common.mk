@@ -19,6 +19,8 @@ GIT_COMMIT_AUTHOR_NAME 		:= $(shell git show -s --format=%an)
 GIT_COMMIT_TIMESTAMP 			:= $(shell git show -s --format=%ct)
 # GIT_DIRTY_TAG stores dirty git tag
 GIT_DIRTY_TAG 						:= $(shell git describe --tags --always --dirty)
+# GIT_TAG stores git last tag
+GIT_TAG 									:= $(shell git tag -l | grep -E '[0-9]+(.[0-9]+){2}' | sort -t. -k 1,1nr -k 2,2nr -k 3,3nr | head -1)
 # GIT_COMMIT_SHA stores git last commit hash
 GIT_COMMIT_SHA 						:= $(shell git rev-parse --verify HEAD)
 # GIT_LOG_COMMIT_TIMESTAMP stores last commit to allow for reproducible builds
