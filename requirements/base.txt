@@ -332,7 +332,7 @@ smmap==5.0.0
     # via
     #   -c requirements/local.txt
     #   gitdb
-soupsieve==2.3.2
+soupsieve==2.3.2.post1
     # via
     #   -c requirements/local.txt
     #   beautifulsoup4

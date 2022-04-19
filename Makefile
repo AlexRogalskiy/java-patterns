@@ -58,7 +58,7 @@ TILT_CMD 							:= $(shell command -v tilt 2> /dev/null || type -p tilt)
 # HELM_CMD stores helm binary
 HELM_CMD 							:= $(shell command -v helm 2> /dev/null || type -p helm)
 # GIT_CMD stores git binary
-GIT_CMD 							:= $(shell command -v git 2> /dev/null || type -p helm)
+GIT_CMD 							:= $(shell command -v git 2> /dev/null || type -p git)
 
 # DOCKER_DIR stores docker configurations
 DOCKER_DIR 						:= $(GIT_ROOT_DIR)
@@ -109,7 +109,12 @@ VARS += SHELL
 VARS += SED_CMD
 VARS += DOCKER_CMD
 VARS += DOCKER_COMPOSE_CMD
+VARS += PYTHON_CMD
 VARS += NPM_CMD
+VARS += SKAFFOLD_CMD
+VARS += TILT_CMD
+VARS += HELM_CMD
+VARS += GIT_CMD
 VARS += DOCKER_DIR
 VARS += VERBOSE
 
@@ -192,6 +197,7 @@ list:
 # Lists all dirs.
 .PHONY: dirs
 dirs:
+	$(AT)echo "🌟 Running dirs command"
 	$(AT)echo "$(shell ls -ad -- */)"
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Directory list finished.$(COLOR_NORMAL)"
@@ -200,6 +206,7 @@ dirs:
 # Run version command.
 .PHONY: versions
 versions:
+	$(AT)echo "🌟 Running versions command"
 	$(AT)echo
 	$(AT)$(DOCKER_CMD) --version
 	$(AT)echo
@@ -214,6 +221,7 @@ versions:
 # Clean removes all temporary files.
 .PHONY: clean
 clean:
+	$(AT)echo "🌟 Running clean command"
 	$(AT)rm -rf $(TMP_BASE)
 	$(AT)rm -rf $(CHART_RELEASE_DIR)
 	$(AT)rm -rf $(GITHUB_PAGES_DIR)
@@ -244,24 +252,42 @@ endif
 # Run docker scan command.
 .PHONY: docker-scan
 docker-scan:
+	$(AT)echo "🌟 Running docker-scan command"
 	$(DOCKER_CMD) scan --json --group-issues --dependency-tree -f Dockerfile "$(IMAGE_NAME)"
+	$(AT)echo
 
 # Run docker table command.
 .PHONY: docker-table
 docker-table:
+	$(AT)echo "🌟 Running docker-table command"
 	$(DOCKER_CMD) ps --format "table {{.Image}}\t{{.Ports}}\t{{.Names}}"
+	$(AT)echo
 
 # Run docker code lint command.
 .PHONY: docker-code-lint
 docker-code-lint:
+	$(AT)echo "🌟 Running docker-code-lint command"
 	$(DOCKER_CMD) run -it \
 		--platform=linux/amd64 \
 		--rm \
 		--ulimit memlock=-1:-1 \
-		--user $$(id -u):$$(id -g) \
-		--volume $(GIT_ROOT_DIR)/:/data/project/ \
-		-p 8080:8080 \
+		--user $(SYS_USER_GROUP) \
+		--volume $(PWD)/:/data/project/ \
+		--publish 8080:8080 \
 		jetbrains/qodana-jvm-community --show-report
+	$(AT)echo
+
+# Run docker pandoc command.
+.PHONY: docker-pandoc
+docker-pandoc:
+	$(AT)echo "🌟 Running docker-pandoc command"
+	$(DOCKER_CMD) run -it \
+		--platform=linux/amd64 \
+		--rm \
+		--user $(SYS_USER_GROUP) \
+		--volume "$(PWD):/data" \
+		pandoc/latex README.md -o README.pdf
+	$(AT)echo
 
 # Run docker clean command.
 .PHONY: docker-clean
@@ -270,93 +296,126 @@ docker-clean: docker-stop docker-remove
 # Run docker remove container command.
 .PHONY: docker-remove
 docker-remove:
+	$(AT)echo "🌟 Running docker-remove command"
 	$(DOCKER_CMD) container rm --force "$(DOCKER_IMAGE_NAME)" > /dev/null
+	$(AT)echo
 
 # Run docker remove all images command.
 .PHONY: docker-remove-all
 docker-remove-all:
-	$(DOCKER_CMD) images | grep $(DOCKER_IMAGE_NAME) | awk '{print $3}' | xargs docker rmi -f
+	$(AT)echo "🌟 Running docker-remove-all command"
+	$(DOCKER_CMD) images | grep $(DOCKER_IMAGE_NAME) | awk '{print $3}' | xargs --no-run-if-empty $(DOCKER_CMD) rmi -f
+	$(AT)echo
 
 # Run docker build command.
 .PHONY: docker-build
 docker-build: _ensure-docker-tag
+	$(AT)echo "🌟 Running docker-build command"
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-build.sh
 	$(SCRIPT_DIR)/docker-build.sh $(DOCKER_TAG)
+	$(AT)echo
 
 # Run docker rebuild command.
 .PHONY: docker-rebuild
 docker-rebuild: _ensure-docker-tag
+	$(AT)echo "🌟 Running docker-rebuild command"
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-rebuild.sh
 	$(SCRIPT_DIR)/docker-rebuild.sh $(DOCKER_TAG)
+	$(AT)echo
 
 # Run docker start command.
 .PHONY: docker-start
 docker-start:
+	$(AT)echo "🌟 Running docker-start command"
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
 	$(SCRIPT_DIR)/docker-compose.sh start
+	$(AT)echo
 
 # Run docker stop command.
 .PHONY: docker-stop
 docker-stop:
+	$(AT)echo "🌟 Running docker-stop command"
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
 	$(SCRIPT_DIR)/docker-compose.sh stop
+	$(AT)echo
 
 # Run docker logs command.
 .PHONY: docker-logs
 docker-logs:
+	$(AT)echo "🌟 Running docker-logs command"
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
 	$(SCRIPT_DIR)/docker-compose.sh logs
+	$(AT)echo
 
 # Run docker ps command.
 .PHONY: docker-ps
 docker-ps:
+	$(AT)echo "🌟 Running docker-ps command"
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
 	$(SCRIPT_DIR)/docker-compose.sh ps
+	$(AT)echo
 
 # Run docker pull command.
 .PHONY: docker-pull
 docker-pull:
+	$(AT)echo "🌟 Running docker-pull command"
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
 	$(SCRIPT_DIR)/docker-compose.sh pull
+	$(AT)echo
 
 # Run tilt start command.
 .PHONY: tilt-start
 tilt-start:
+	$(AT)echo "🌟 Running tilt-start command"
 	$(AT)$(TILT_CMD) up
+	$(AT)echo
 
 # Run tilt stop command.
 .PHONY: tilt-stop
 tilt-stop:
+	$(AT)echo "🌟 Running tilt-stop command"
 	$(AT)$(TILT_CMD) down --delete-namespaces
+	$(AT)echo
 
 # Run skaffold deploy command.
 .PHONY: skaffold-start
 skaffold-start: _ensure-skaffold-tag
+	$(AT)echo "🌟 Running skaffold-start command"
 	$(AT)$(SKAFFOLD_CMD) dev --filename='skaffold.$(SKAFFOLD_TAG).yaml' --timestamps=false --update-check=true --interactive=true --no-prune=false --cache-artifacts=true
+	$(AT)echo
 
 # Run skaffold destroy command.
 .PHONY: skaffold-stop
 skaffold-stop: _ensure-skaffold-tag
+	$(AT)echo "🌟 Running skaffold-stop command"
 	$(AT)$(SKAFFOLD_CMD) delete --filename='skaffold.$(SKAFFOLD_TAG).yaml'
+	$(AT)echo
 
 # Run helm lint command.
 .PHONY: helm-lint
 helm-lint:
+	$(AT)echo "🌟 Running helm-lint command"
 	$(AT)$(HELM_CMD) lint charts --values charts/values.yaml
+	$(AT)echo
 
 # Run helm start command.
 .PHONY: helm-start
 helm-start:
+	$(AT)echo "🌟 Running helm-start command"
 	$(AT)$(HELM_CMD) upgrade --install $(CLUSTER_NAME) -f charts/values.yaml --create-namespace --namespace $(CLUSTER_NAMESPACE) charts
+	$(AT)echo
 
 # Run helm stop command.
 .PHONY: helm-stop
 helm-stop:
+	$(AT)echo "🌟 Running helm-stop command"
 	$(AT)$(HELM_CMD) uninstall $(CLUSTER_NAME) --namespace $(CLUSTER_NAMESPACE)
+	$(AT)echo
 
 # Run helm package command.
 .PHONY: helm-package
 helm-package:
+	$(AT)echo "🌟 Running helm-package command"
 	$(AT)mkdir -p $(CHART_RELEASE_DIR)/charts
 	$(AT)$(HELM_CMD) package charts --dependency-update --destination $(CHART_RELEASE_DIR)/charts
 	$(AT)echo
@@ -370,6 +429,7 @@ helm-dev: clean helm-lint helm-package
 # Run okteto build command.
 .PHONY: okteto
 okteto:
+	$(AT)echo "🌟 Running okteto-build command"
 	$(AT)okteto build -t $(DOCKER_HUB_IMAGE_NAME) .
 	$(AT)okteto build -t $(OKTETO_IMAGE_NAME) .
 	$(AT)echo
@@ -379,6 +439,7 @@ okteto:
 # Install pip command.
 .PHONY: install-pip
 install-pip:
+	$(AT)echo "🌟 Running install-pip command"
 	$(AT)wget $(WGET_OPTS) https://bootstrap.pypa.io/get-pip.py -O $(TMPDIR)/get-pip.py
 	$(AT)$(PYTHON_CMD) $(TMPDIR)/get-pip.py
 	$(AT)echo
@@ -388,6 +449,7 @@ install-pip:
 # Run local build command.
 .PHONY: local-build
 local-build:
+	$(AT)echo "🌟 Running mkdocs-build command"
 	$(AT)$(PYTHON_CMD) -m pip install $(PIP_BUILD_OPTS) -r ./requirements/local.hash
 	$(AT)$(PYTHON_CMD) -m mkdocs build $(MKDOCS_BUILD_OPTS)
 	$(AT)echo
@@ -405,6 +467,7 @@ local-run: local-build
 # Run venv build command.
 .PHONY: venv-build
 venv-build: _venv
+	$(AT)echo "🌟 Running mkdocs-build in venv command"
 	$(AT)$(VENV_PYTHON) -m pip install $(PIP_BUILD_OPTS) -r ./docs/requirements.txt
 	$(AT)$(VENV_PYTHON) -m mkdocs build $(MKDOCS_BUILD_OPTS)
 	$(AT)echo
@@ -415,11 +478,13 @@ venv-build: _venv
 # Run venv run command.
 .PHONY: venv-run
 venv-run: venv-build
+	$(AT)echo "🌟 Running mkdocs in venv command"
 	$(AT)$(VENV_PYTHON) -m mkdocs serve $(MKDOCS_SERVE_OPTS)
 
 # Run github pages deploy command.
 .PHONY: gh-pages
 gh-pages:
+	$(AT)echo "🌟 Running python gh-pages command"
 	$(AT)$(PYTHON_CMD) -m mkdocs gh-deploy $(MKDOCS_DEPLOY_OPTS)
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)GitHub pages generated.$(COLOR_NORMAL)"
@@ -428,6 +493,7 @@ gh-pages:
 # Run npm install command.
 .PHONY: deps
 deps:
+	$(AT)echo "🌟 Running npm-install command"
 	$(AT)$(NPM_CMD) install
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Install finished.$(COLOR_NORMAL)"
@@ -436,6 +502,7 @@ deps:
 # Run npm all command.
 .PHONY: all
 all:
+	$(AT)echo "🌟 Running npm-all command"
 	$(AT)$(NPM_CMD) run all
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Build finished.$(COLOR_NORMAL)"
@@ -444,48 +511,66 @@ all:
 # Run git diff command.
 .PHONY: diff
 diff:
+	$(AT)echo "🌟 Running git-diff command"
 	$(AT)$(GIT_CMD) diff --diff-filter=d --name-only
+	$(AT)echo
 
 # Run git authors command.
 .PHONY: git-authors
 git-authors:
-	$(AT)echo
+	$(AT)echo "🌟 Running git-authors command"
 	$(AT)find . -name ".git" -type d -exec $(GIT_CMD) --git-dir={} --work-tree="$(PWD)"/{} config --get remote.origin.url \; -exec $(GIT_CMD) --git-dir={} --work-tree="$(PWD)"/{} --no-pager shortlog -sn \;
 	$(AT)echo
 
 # Run git pull command.
 .PHONY: git-pull
 git-pull:
-	$(AT)echo
+	$(AT)echo "🌟 Running git-pull command"
 	$(AT)find . -name ".git" -type d | xargs -P10 -I{} $(GIT_CMD) --git-dir={} --work-tree="$(PWD)"/{} pull origin master
 	$(AT)echo
 
 # Run git branch command.
 .PHONY: git-branch
 git-branch:
-	$(AT)echo
-	$(AT)git for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
+	$(AT)echo "🌟 Running git-branch command"
+	$(AT)$(GIT_CMD) for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
 	$(AT)echo
 
 # Run git merge command.
 .PHONY: git-merge
 git-merge:
-	$(AT)echo
-	$(AT)git log $(shell git merge-base --octopus $(shell git log -1 --merges --pretty=format:%P))..$(shell git log -1 --merges --pretty=format:%H) --pretty=format:%s
+	$(AT)echo "🌟 Running git-merge command"
+	$(AT)$(GIT_CMD) log $(shell git merge-base --octopus $(shell git log -1 --merges --pretty=format:%P))..$(shell git log -1 --merges --pretty=format:%H) --pretty=format:%s
 	$(AT)echo
 
 # Run git open command.
 .PHONY: git-open
 git-open:
+	$(AT)echo "🌟 Running git-open command"
+	$(AT)open $(shell $(GIT_CMD) remote -v | awk "/fetch/{print $2}" | sed -Ee "s#(git@|git://)#http://#" -e "s@com:@com/@" | head -n1 | grep -Eo 'https?://[^ >]+')
 	$(AT)echo
-	$(AT)open $(shell git remote -v | awk "/fetch/{print $2}" | sed -Ee "s#(git@|git://)#http://#" -e "s@com:@com/@" | head -n1 | grep -Eo 'https?://[^ >]+')
+
+# Run git log command.
+.PHONY: git-log
+git-log:
+	$(AT)echo "🌟 Running git-log command"
+	$(AT)$(GIT_CMD) log \
+      --decorate \
+      --date="short" \
+      --graph \
+      --color \
+      --pretty="format:%C(yellow)%h%C(reset) %ad%C(red)%d%C(reset) %C(bold normal)%s%C(reset) %G? %C(cyan)[%an]%C(reset)" \
+      $(shell $(GIT_CMD) log --pretty=format:'%h' -n 6 | tail -1)..HEAD \
+    | sed 's/ N / /g' \
+    | sed 's/ G / 🔑  /g'
 	$(AT)echo
 
 # Run git log command.
 .PHONY: git-changelog
 git-changelog: release
-	$(AT)echo "🌟 Running git changelog command"
+	$(AT)echo "🌟 Running git-changelog command"
 	$(AT)$(GIT_CMD) log $(shell $(GIT_CMD) tag | tail -n1)..HEAD --no-merges --format=%B > changelog
+	$(AT)echo
 
 # Run install link checker command.
 .PHONY: install-link-checker
@@ -511,38 +596,69 @@ check-links: install-link-checker setup-link-checker run-link-checker
 # Run docker graph command.
 .PHONY: docker-graph
 docker-graph:
+	$(AT)echo "🌟 Running docker-graph command"
 	$(AT)$(DOCKER_CMD) run \
 		--platform=linux/amd64 \
 		--rm \
-		--user $(USER_ID):$(GROUP_ID) \
+		--user $(SYS_USER_GROUP) \
 		--workdir /workspace \
 		--volume "$(PWD)/distribution/docker-images":/workspace \
 		ghcr.io/patrickhoefler/dockerfilegraph
+	$(AT)echo
 
 # Run lint command.
 .PHONY: lint
 lint:
+	$(AT)echo "🌟 Running docker-lint command"
 	$(AT)$(DOCKER_CMD) run \
 		--platform=linux/amd64 \
 		--rm \
-		--user $(USER_ID):$(GROUP_ID) \
+		--user $(SYS_USER_GROUP) \
 		--volume "$(PWD):/tmp/lint" \
 		-e RUN_LOCAL=true \
 		-e LINTER_RULES_PATH=/ \
 		github/super-linter
+	$(AT)echo
 
 # Run syft command.
 .PHONY: syft
 syft:
+	$(AT)echo "🌟 Running docker-syft command"
 	$(AT)$(DOCKER_CMD) run \
 		--platform=linux/amd64 \
 		--rm \
-		--user $(USER_ID):$(GROUP_ID) \
+		--user $(SYS_USER_GROUP) \
 		--volume "$(PWD)/config/config.json":/config/config.json \
 		$(if $(findstring true,$(VERBOSE)),,--quiet) \
   	-e "DOCKER_CONFIG=/config" \
   	anchore/syft:latest \
   	"$(IMAGE_NAME)"
+	$(AT)echo
+
+# Run zip archive command.
+.PHONY: git-zip
+git-zip:
+	$(AT)echo "🌟 Running git-zip-archive command"
+	$(AT)$(GIT_CMD) archive -o $(basename $PWD).zip HEAD
+	$(AT)echo
+
+# Run tgz archive command.
+.PHONY: git-tgz
+git-tgz:
+	$(AT)echo "🌟 Running git-tgz-archive command"
+	$(AT)$(GIT_CMD) archive -o $(basename $PWD).tgz HEAD
+	$(AT)echo
+
+# Run clean images command.
+.PHONY: clean-images
+clean-images:
+	$(AT)echo "🌟 Running docker-clean-images command"
+	echo "Cleaning images \n========================================== ";
+	for image in `$(DOCKER_CMD) images -qf "label=$(DOCKER_IMAGE_NAME)"`; do \
+	    echo "Removing image $${image} \n==========================================\n " ; \
+        $(DOCKER_CMD) rmi -f $${image} || exit 1 ; \
+    done
+	$(AT)echo
 
 # printvars prints all the variables currently defined in our
 # Makefiles. Alternatively, if a non-empty VARS variable is passed,
@@ -558,22 +674,3 @@ printvars:
 		$(if $(QUOTED_VARS),\
 			$(info $V='$(subst ','\'',$(if $(RAW_VARS),$(value $V),$($V)))'), \
 			$(info $V=$(if $(RAW_VARS),$(value $V),$($V))))))
-
-# Run zip archive command.
-.PHONY: git-zip
-git-zip:
-	$(AT)$(GIT_CMD) archive -o $(basename $PWD).zip HEAD
-
-# Run tgz archive command.
-.PHONY: git-tgz
-git-tgz:
-	$(AT)$(GIT_CMD) archive -o $(basename $PWD).tgz HEAD
-
-# Run clean images command.
-.PHONY: clean-images
-clean-images:
-	echo "Cleaning images \n========================================== ";
-	for image in `$(DOCKER_CMD) images -qf "label=$(DOCKER_IMAGE_NAME)"`; do \
-	    echo "Removing image $${image} \n==========================================\n " ; \
-        $(DOCKER_CMD) rmi -f $${image} || exit 1 ; \
-    done

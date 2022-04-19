@@ -39,6 +39,7 @@ module.exports = {
   ],
   transform: {
     "^.+\\.(js|ts)$": "ts-jest",
+    "^.+\\.html$": "<rootDir>/jest/transformers/jest-html-transform.js",
     "^.+\\.css$": "<rootDir>/jest/transformers/jest-css-transform.js",
   },
   snapshotSerializers: [

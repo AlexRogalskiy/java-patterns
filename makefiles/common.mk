@@ -23,6 +23,8 @@ GIT_DIRTY_TAG 						:= $(shell git describe --tags --always --dirty)
 GIT_TAG 									:= $(shell git tag -l | grep -E '[0-9]+(.[0-9]+){2}' | sort -t. -k 1,1nr -k 2,2nr -k 3,3nr | head -1)
 # GIT_COMMIT_SHA stores git last commit hash
 GIT_COMMIT_SHA 						:= $(shell git rev-parse --verify HEAD)
+# GIT_TREE_SHA stores git tree hash
+GIT_TREE_SHA 							:= $(shell git hash-object -t tree /dev/null)
 # GIT_LOG_COMMIT_TIMESTAMP stores last commit to allow for reproducible builds
 GIT_LOG_COMMIT_TIMESTAMP 	:= $(shell git log -1 --date=format:%Y%m%d%H%M --pretty=format:%cd)
 # GIT_ORIG_BRANCH stores original git branch name
@@ -31,8 +33,6 @@ GIT_ORIG_BRANCH 					:= $(shell git rev-parse --abbrev-ref HEAD | sed 's/&/\&amp
 GIT_ORIG_TAG 							:= $(shell git describe --exact-match --abbrev=0 2>/dev/null | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/,/\&\#44;/g' || echo "")
 # GIT_ORIG_VERSION stores original git tag version
 GIT_ORIG_VERSION 					:= $(shell (git for-each-ref refs/tags --sort=-taggerdate --format='%(refname)' --count=1 | sed -Ee 's/^refs\/tags\/v|-.*//'))
-# GIT_LAST_COMMIT stores git last commit message
-GIT_LAST_COMMIT 					:= $(shell git log -1 --pretty=format:%B)
 
 # GIT_REPO_INFO stores git remote url
 GIT_REPO_INFO  						:= $(shell git config --get remote.origin.url)
@@ -46,7 +46,7 @@ SYS_HOST 									:= $(shell hostname | tr '[:upper:]' '[:lower:]')
 # SYS_OS stores system operating system
 SYS_OS 					  				:= $(shell uname -s | tr '[:upper:]' '[:lower:]')
 # SYS_ARCH stores system architecture
-SYS_ARCH 									:= $(shell uname -m | sed -e 's/x86_64/amd64/' | sed -e 's/aarch64\(_be\)\?/arm64/' | sed -e 's/\(arm\)\(64\)\?.*/\1\2/')
+SYS_ARCH 									:= $(shell uname -m | sed -e 's/_.*//' | tr '[:upper:]' '[:lower:]' | sed -e 's/x86_64/amd64/' | sed -e 's/aarch64\(_be\)\?/arm64/' | sed -e 's/\(arm\)\(64\)\?.*/\1\2/' | sed -e 's/^\(msys\|mingw\).*/windows/')
 # SYS_USER_GROUP stores system user name/group
 SYS_USER_GROUP 						:= $(shell echo "$(UID):$(GID)")
 # SYS_CPU stores system cpu count
@@ -89,11 +89,11 @@ COLOR_RED     := $(shell printf "\033[31m")
 COLOR_GREEN   := $(shell printf "\033[32m")
 COLOR_NORMAL  := $(shell printf "\033[0m")
 
-PRINT_INFO		= echo ${TIME} ${COLOR_BLUE}[ .. ]${COLOR_NORMAL}
-PRINT_WARN		= echo ${TIME} ${COLOR_YELLOW}[WARN]${COLOR_NORMAL}
-PRINT_ERR			= echo ${TIME} ${COLOR_RED}[FAIL]${COLOR_NORMAL}
+PRINT_INFO		= echo ${TIME} ${COLOR_BLUE}[ INFO ]${COLOR_NORMAL}
+PRINT_WARN		= echo ${TIME} ${COLOR_YELLOW}[ WARN ]${COLOR_NORMAL}
+PRINT_ERR			= echo ${TIME} ${COLOR_RED}[ ERR ]${COLOR_NORMAL}
 PRINT_OK			= echo ${TIME} ${COLOR_GREEN}[ OK ]${COLOR_NORMAL}
-PRINT_FAIL		= (echo ${TIME} ${COLOR_RED}[FAIL]${COLOR_NORMAL} && false)
+PRINT_FAIL		= (echo ${TIME} ${COLOR_RED}[ FAIL ]${COLOR_NORMAL} && false)
 
 ################################################################################
 # Common variables                                                             #

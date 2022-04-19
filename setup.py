@@ -29,8 +29,7 @@ with codecs.open(os.path.join(here, 'README.md'), encoding='utf-8') as fh:
 setup(
     name='java-patterns',
     version=VERSION,
-    description='Java Patterns Documentation',
-    long_description=README,
+    description='Java Design Patterns Documentation',
     author='Alexander Rogalskiy',
     author_email='hi@sensiblemetrics.io',
     url='https://github.com/AlexRogalskiy/java-patterns',

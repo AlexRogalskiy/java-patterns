@@ -160,6 +160,7 @@
     "crowdin:download": "crowdin --config crowdin.yml download -b $(git rev-parse --abbrev-ref HEAD)",
     "crowdin:pull": "crowdin pull --skip-untranslated-strings",
     "crowdin:upload": "crowdin --config crowdin.yml upload sources --auto-update -b $(git rev-parse --abbrev-ref HEAD)",
+    "csv:view": "pspg -s 17 --csv \"datas.csv\"",
     "deploy": "deploy-to-gh-pages --local --update site",
     "deps": "npm install",
     "docker:build": "docker build -f ./distribution/docker-images/dev.Dockerfile -t $npm_package_config_image .",
