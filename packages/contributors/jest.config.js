@@ -28,6 +28,7 @@ module.exports = {
   testRunner: "jest-circus/runner",
   testPathIgnorePatterns: [
     "<rootDir>/src.*",
+    "<rootDir>/dist/",
     "<rootDir>/node_modules.*",
     "<rootDir>/__fixtures__.*",
     "<rootDir>/spec.*",
@@ -49,7 +50,8 @@ module.exports = {
     {
       displayName: "unit",
       testMatch: [
-        "**/tests/unit/**/*.[jt]s"
+        "**/tests/unit/**/__tests__/**/*.[jt]s",
+        "**/tests/unit/**/*.{spec,test}.[jt]s"
       ],
       testPathIgnorePatterns: [
         "<rootDir>/tests/unit/mock*"
@@ -96,7 +98,8 @@ module.exports = {
     {
       displayName: "e2e",
       testMatch: [
-        "**/tests/e2e/**/*.[jt]s"
+        "**/tests/e2e/**/__tests__/**/*.[jt]s",
+        "**/tests/e2e/**/*.{spec,test}.[jt]s"
       ],
       testPathIgnorePatterns: [
         "<rootDir>/tests/e2e/mock*"

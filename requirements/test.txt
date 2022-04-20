@@ -7,45 +7,27 @@
 #
 -r base.txt
 attrs==21.4.0
-    # via
-    #   -c requirements/local.txt
-    #   pytest
+    # via pytest
 coverage[toml]==6.3.2
-    # via
-    #   -c requirements/local.txt
-    #   pytest-cov
+    # via pytest-cov
 iniconfig==1.1.1
-    # via
-    #   -c requirements/local.txt
-    #   pytest
+    # via pytest
 mock==4.0.3
-    # via
-    #   -c requirements/local.txt
-    #   -r requirements/test.in
+    # via -r requirements/test.in
 more-itertools==8.12.0
-    # via
-    #   -c requirements/local.txt
-    #   -r requirements/test.in
+    # via -r requirements/test.in
 pluggy==1.0.0
-    # via
-    #   -c requirements/local.txt
-    #   pytest
+    # via pytest
 py==1.11.0
-    # via
-    #   -c requirements/local.txt
-    #   pytest
+    # via pytest
 pytest==7.1.1
     # via
-    #   -c requirements/local.txt
     #   -r requirements/test.in
     #   pytest-cov
 pytest-cov==3.0.0
-    # via
-    #   -c requirements/local.txt
-    #   -r requirements/test.in
+    # via -r requirements/test.in
 tomli==2.0.1
     # via
-    #   -c requirements/local.txt
     #   coverage
     #   pytest
 

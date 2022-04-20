@@ -1,0 +1,38 @@
+[
+  {
+    "message": "`Error` instead of `NodeApiError` or `NodeOperationError`",
+    "lintAreas": [
+      "miscellaneous"
+    ],
+    "lintIssue": "wrong",
+    "line": 45,
+    "excerpt": "Error('Could not create screenshot for a preview')",
+    "sourceFilePath": "src/helpers/screenshots.ts",
+    "logLevel": "warning",
+    "details": "Use `NodeApiError` for unsuccessful API calls and `NodeOperationError` for functionality errors. Reference: n8n/packages/workflow/src/NodeErrors.ts"
+  },
+  {
+    "message": "`Error` instead of `NodeApiError` or `NodeOperationError`",
+    "lintAreas": [
+      "miscellaneous"
+    ],
+    "lintIssue": "wrong",
+    "line": 144,
+    "excerpt": "Error()",
+    "sourceFilePath": "src/index.ts",
+    "logLevel": "warning",
+    "details": "Use `NodeApiError` for unsuccessful API calls and `NodeOperationError` for functionality errors. Reference: n8n/packages/workflow/src/NodeErrors.ts"
+  },
+  {
+    "message": "`Error` instead of `NodeApiError` or `NodeOperationError`",
+    "lintAreas": [
+      "miscellaneous"
+    ],
+    "lintIssue": "wrong",
+    "line": 159,
+    "excerpt": "Error(painter.red(`Error while creating ${fileName} image`))",
+    "sourceFilePath": "src/index.ts",
+    "logLevel": "warning",
+    "details": "Use `NodeApiError` for unsuccessful API calls and `NodeOperationError` for functionality errors. Reference: n8n/packages/workflow/src/NodeErrors.ts"
+  }
+]

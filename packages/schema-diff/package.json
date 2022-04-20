@@ -55,6 +55,7 @@
         "solidarity:update": "solidarity snapshot cli node",
         "clean": "del-cli --dot=true dist coverage*",
         "copy:docs": "cp *.md dist/",
+        "nodelinter": "nodelinter --print",
         "reinstall": "del-cli --dot=true ./node_modules ./package-lock.json ./yarn.lock",
         "coverage:view": "[ -f coverage/lcov-report/index.html ] && open coverage/lcov-report/index.html",
         "analyze": "source-map-explorer 'dist/index.*.*' --json",

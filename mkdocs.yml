@@ -57,7 +57,9 @@ theme:
     - announce.dismiss
     - tabs
     - navigation.top
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+tabs#navigation-tabs
     - navigation.tabs.sticky
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+tabs#anchor-tracking
     - navigation.tracking
     - navigation.sections
     - navigation.expand
@@ -126,6 +128,7 @@ plugins:
       enabled: !ENV [ENABLE_MKDOCS_SIMPLE_HOOKS, True]
       hooks:
         on_pre_build: "docs.hooks:copy_generated_files"
+  - literate-nav
 
 # Extra settings
 extra:
@@ -149,12 +152,14 @@ extra:
     default: latest
 
 # Extra css settings
+# https://squidfunk.github.io/mkdocs-material/customization/?h=#additional-css
 extra_css:
   - assets/css/customizations.css
   - assets/css/asciinema-player.css
   - assets/css/extra.css
 
 # Extra javascript settings
+# https://squidfunk.github.io/mkdocs-material/customization/?h=#additional-javascript
 extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - https://unpkg.com/mermaid@8.9.3/dist/mermaid.min.js
@@ -164,17 +169,21 @@ extra_javascript:
 
 # Extensions settings
 markdown_extensions:
+  # https://www.mkdocs.org/user-guide/writing-your-docs/#linking-to-pages
   - toc:
       anchorlink: true
       permalink: true
       toc_depth: 3
       slugify: !!python/name:pymdownx.slugs.uslugify
   - abbr: {}
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/?h=attr#attribute-lists attr_list is required for several other features. Always enable.
   - attr_list: {}
   - def_list: {}
-  - admonition: {} # https://squidfunk.github.io/mkdocs-material/extensions/admonition/
+  # https://squidfunk.github.io/mkdocs-material/reference/admonitions/?h=admoni
+  - admonition: {}
   - footnotes: {}
   - tables: {}
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#superfences Used for tags, setting unique templates for certain pages, and other custom frontmatter.
   - meta: {}
   - md_in_html: {}
   - mkautodoc: {}
@@ -182,6 +191,7 @@ markdown_extensions:
       linenums: true
       use_pygments: false
       guess_lang: false
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#highlight
   - pymdownx.highlight:
       linenums: true
       extend_pygments_lang:
@@ -206,6 +216,7 @@ markdown_extensions:
       custom_checkbox: true
       clickable_checkbox: true
   - pymdownx.extra: {}
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#snippets
   - pymdownx.snippets:
       base_path: docs/snippets
       check_paths: true
@@ -225,14 +236,18 @@ markdown_extensions:
       smart_enable: all
   - pymdownx.mark: {}
   - pymdownx.critic: {}
-  - pymdownx.inlinehilite: {} # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#inlinehilite
-  - pymdownx.superfences: # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#superfences
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#inlinehilite
+  - pymdownx.inlinehilite: {}
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#superfences Superfences is required for several other features. Always enable.
+  - pymdownx.superfences:
      preserve_tabs: true
      custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_div_format
-  - pymdownx.tabbed: {} # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#tabbed
+  # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.details: {} # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#details
   - pymdownx.emoji: # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#configuration
       emoji_index: !!python/name:materialx.emoji.twemoji
