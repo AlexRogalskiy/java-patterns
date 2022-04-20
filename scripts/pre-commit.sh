@@ -13,22 +13,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Usage example: /bin/sh ./scripts/hook.sh
+# Usage example: /bin/bash ./scripts/pre-commit.sh
 
 set -o errexit
 set -o nounset
 set -o pipefail
 
-cat << EOF
-Build specification:
-    DefaultRepo:    $SKAFFOLD_DEFAULT_REPO
-    MultiLevelRepo: $SKAFFOLD_MULTI_LEVEL_REPO
-    RPCPort:        $SKAFFOLD_RPC_PORT
-    HTTPPort:       $SKAFFOLD_HTTP_PORT
-    WorkDir:        $SKAFFOLD_WORK_DIR
-    Image:          $SKAFFOLD_IMAGE
-    PushImage:      $SKAFFOLD_PUSH_IMAGE
-    ImageRepo:      $SKAFFOLD_IMAGE_REPO
-    ImageTag:       $SKAFFOLD_IMAGE_TAG
-    BuildContext:   $SKAFFOLD_BUILD_CONTEXT
-EOF
+# probably a dumb way to detect changed files which are not deleted
+scripts/check_merge_conflict.py $(comm -12 <(git diff --name-only --cached) <(git ls-files))

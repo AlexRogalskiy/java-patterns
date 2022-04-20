@@ -252,6 +252,7 @@
     "script:name": "test -f ./scripts/package_app_name.js && node --experimental-modules --no-warnings --no-deprecation ./scripts/package_app_name.js || echo '✔ Node package name script is missing'",
     "script:notes": "test -f ./scripts/git_release_notes.sh && . ./scripts/git_release_notes.sh > NOTES.md || echo '✔ Git release notes script is missing'",
     "script:size": "test -f ./scripts/git_size.sh && . ./scripts/git_size.sh || echo '✔ Git size script is missing'",
+    "script:conflict": "test -f ./scripts/pre-commit.sh && /bin/bash ./scripts/pre-commit.sh || echo '✔ Git pre-commit script is missing'",
     "setheapsize": "export NODE_OPTIONS=--max_old_space_size=2048",
     "solidarity": "solidarity",
     "solidarity:update": "solidarity snapshot cli node",
