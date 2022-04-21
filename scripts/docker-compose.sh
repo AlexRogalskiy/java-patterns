@@ -83,31 +83,31 @@ trap cleanup_err ERR
 docker_ps() {
   echo ">>> Processing status of docker containers..."
 
-  $DOCKER_COMPOSE_CMD -f docker-compose.yml ps "$@"
+  $DOCKER_COMPOSE_CMD -f $(BASE_DIR)/docker-compose.yml ps "$@"
 }
 
 docker_logs() {
   echo ">>> Logging docker containers..."
 
-  $DOCKER_COMPOSE_CMD -f docker-compose.yml logs -t --follow "$@"
+  $DOCKER_COMPOSE_CMD -f $(BASE_DIR)/docker-compose.yml logs -t --follow "$@"
 }
 
 docker_pull() {
   echo ">>> Pulling docker containers..."
 
-  $DOCKER_COMPOSE_CMD -f docker-compose.yml pull --include-deps --quiet "$@"
+  $DOCKER_COMPOSE_CMD -f $(BASE_DIR)/docker-compose.yml pull --include-deps --quiet "$@"
 }
 
 docker_start() {
   echo ">>> Starting docker containers..."
 
-  $DOCKER_COMPOSE_CMD -f docker-compose.yml up --detach --build --force-recreate --renew-anon-volumes "$@"
+  $DOCKER_COMPOSE_CMD -f $(BASE_DIR)/docker-compose.yml up --detach --build --force-recreate --renew-anon-volumes "$@"
 }
 
 docker_stop() {
   echo ">>> Stopping docker containers..."
 
-  $DOCKER_COMPOSE_CMD -f docker-compose.yml down --remove-orphans --volumes "$@"
+  $DOCKER_COMPOSE_CMD -f $(BASE_DIR)/docker-compose.yml down --remove-orphans --volumes "$@"
 }
 
 main() {
