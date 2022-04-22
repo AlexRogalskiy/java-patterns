@@ -13,16 +13,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Usage example: /bin/sh ./scripts/docker-compose-ps.sh
+
 set -o errexit
 set -o nounset
 set -o pipefail
 
-cd "$(dirname "$0")/.." || exit 1
+## setup base directory
+BASE_DIR=$(dirname "$0")/..
+# DOCKER_COMPOSE_CMD stores docker compose command
+DOCKER_COMPOSE_CMD=${DOCKER_COMPOSE_CMD:-$(command -v docker-compose || command -v docker compose)}
 
 main() {
   echo ">>> Processing status of docker containers..."
 
-  docker-compose -f docker-compose.yml ps
+  $DOCKER_COMPOSE_CMD --file "${BASE_DIR}/docker-compose.yml" ps
 }
 
 main "$@"

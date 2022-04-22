@@ -13,21 +13,41 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Usage example: /bin/sh ./scripts/docker-compose-stop.sh
+# Usage example: /bin/sh ./scripts/diff_json.sh <file1> <file2>
 
 set -o errexit
 set -o nounset
 set -o pipefail
 
-## setup base directory
-BASE_DIR=$(dirname "$0")/..
-# DOCKER_COMPOSE_CMD stores docker compose command
-DOCKER_COMPOSE_CMD=${DOCKER_COMPOSE_CMD:-$(command -v docker-compose || command -v docker compose)}
+BLUE='\033[1;34m'
+GREEN='\033[0;32m'
+RED='\033[0;31m'
+NC='\033[0m'
+BOLD='\033[1m'
 
-main() {
-  echo ">>> Stopping docker containers..."
+if ! command -v jq &> /dev/null
+then
+  echo
+  echo "#### ERROR ####"
+  echo "####"
+  echo "#### Please install the 'jq' tool before being able to use this script"
+  echo "#### and https://stedolan.github.io/jq/download"
+  echo "####"
+  echo "###############"
+  exit 1
+fi
 
-  $DOCKER_COMPOSE_CMD --file "${BASE_DIR}/docker-compose.yml" down --remove-orphans --volumes
+set -e
+
+file1=$(mktemp --suffix=.json)
+file2=$(mktemp --suffix=.json)
+
+onError() {
+  rm "$file1"
+  rm "$file2"
 }
+trap 'onError' ERR
 
-main "$@"
+jq -S '.' "$1" > "$file1"
+jq -S '.' "$2" > "$file2"
+diff "$file1" "$file2"

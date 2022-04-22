@@ -13,12 +13,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Usage example: /bin/sh ./scripts/docker-compose-logs.sh
+
 set -o errexit
 set -o nounset
 set -o pipefail
 
 ## setup base directory
-BASE_DIR=$(dirname "$0")
+BASE_DIR=$(dirname "$0")/..
+# DOCKER_COMPOSE_CMD stores docker compose command
+DOCKER_COMPOSE_CMD=${DOCKER_COMPOSE_CMD:-$(command -v docker-compose || command -v docker compose)}
 
 _exit() {
   (($# > 1)) && echo "${@:2}"
@@ -28,13 +32,7 @@ _exit() {
 main() {
   echo ">>> Logging docker containers..."
 
-  ## save current working directory
-  pushd "$BASE_DIR" &> /dev/null || _exit 1 "Unable to save current working directory"
-
-  docker-compose -f docker-compose.yml logs -t --follow
-
-  ## restore previous working directory
-  popd &> /dev/null || _exit 1 "Unable to restore current working directory"
+  $DOCKER_COMPOSE_CMD --file "${BASE_DIR}/docker-compose.yml" logs -t --follow
 }
 
 main "$@"

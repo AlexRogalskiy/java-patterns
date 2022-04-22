@@ -13,6 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Usage example: /bin/sh ./scripts/docker-run.sh
+
 set -o errexit
 set -o nounset
 set -o pipefail
@@ -24,8 +26,11 @@ readonly REPO_ROOT="${REPO_ROOT:-$(git rev-parse --show-toplevel)}"
 
 cd "$(dirname "$0")/.." || exit 1
 
+# DOCKER_CMD stores docker command
+DOCKER_CMD=${DOCKER_CMD:-$(command -v docker 2> /dev/null || command -v podman 2> /dev/null || type -p docker)}
+
 main() {
-  echo 'Running docker container...'
+  echo "Running docker container..."
 
   # Run docker image
   config_container_id=$(create_docker_container)
@@ -37,13 +42,13 @@ main() {
 }
 
 cleanup() {
-  echo 'Removing docker container...'
+  echo "Removing docker container..."
 
   config_container_id=$1
-  docker container rm --force "$config_container_id" > /dev/null
+  $DOCKER_CMD container rm --force "$config_container_id" > /dev/null
   #docker kill ct > /dev/null 2>&1
 
-  echo 'Done!'
+  echo "Done!"
 }
 
 configure_kubectl() {
@@ -51,7 +56,7 @@ configure_kubectl() {
 
   apiserver_id=$(lookup_apiserver_container_id)
   if [[ -z "$apiserver_id" ]]; then
-      echo "ERROR: API-Server container not found. Make sure 'Show system containers' is enabled in Docker4Mac 'Preferences'!" >&2
+      echo "ERROR: API-Server container not found. Make sure "Show system containers" is enabled in Docker4Mac \"Preferences\"!" >&2
       exit 1
   fi
 
@@ -62,22 +67,26 @@ configure_kubectl() {
 }
 
 lookup_apiserver_container_id() {
-    docker container list --filter name=k8s_kube-apiserver --format '{{ .ID }}'
+  $DOCKER_CMD container list --filter name=k8s_kube-apiserver --format "{{ .ID }}"
 }
 
 get_docker_args() {
   container_id="$1"
   arg="$2"
 
-  docker container inspect "$container_id" | jq -r ".[].Args[] | capture(\"$arg=(?<arg>.*)\") | .arg"
+  $DOCKER_CMD container inspect "$container_id" | jq -r ".[].Args[] | capture(\"$arg=(?<arg>.*)\") | .arg"
 }
 
 create_docker_container() {
-  docker run -it --rm --privileged \
-            -v "$REPO_ROOT:/usr/src/app" \
-            -v /var/run/docker.sock:/var/run/docker.sock \
-            -e CI=1 \
-            "${IMAGE_REPOSITORY}:${IMAGE_TAG}" build --strict
+  $DOCKER_CMD run \
+    --interactive \
+    --tty \
+    --rm \
+    --privileged \
+    --volume "$REPO_ROOT:/usr/src/app" \
+    --volume /var/run/docker.sock:/var/run/docker.sock \
+    --env CI=1 \
+    "${IMAGE_REPOSITORY}:${IMAGE_TAG}" build --strict
 }
 
 main "$@"
