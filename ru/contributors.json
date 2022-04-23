@@ -1,45 +1,45 @@
 {
-    "projectName": "java-patterns",
-    "projectOwner": "AlexRogalskiy",
-    "repoType": "github",
-    "repoHost": "https://github.com",
-    "files": ["README.md"],
-    "types": {
-        "marketing": {
-            "symbol": "💌",
-            "description": "Marketing - People who help in marketing the repo/project"
-        }
-    },
-    "imageSize": 100,
-    "commit": true,
-    "contributorsPerLine": 5,
-    "contributors": [
-        {
-            "login": "AlexRogalskiy",
-            "name": "Alex Rogalskiy",
-            "avatar_url": "https://avatars3.githubusercontent.com/u/3901898",
-            "profile": "https://github.com/AlexRogalskiy",
-            "contributions": [
-                "code",
-                "design",
-                "doc",
-                "ideas",
-                "infra",
-                "maintenance",
-                "test",
-                "bug",
-                "content",
-                "data",
-                "tutorial"
-            ]
-        },
-        {
-            "login": "RenovateBot",
-            "name": "Renovate Bot",
-            "avatar_url": "https://avatars1.githubusercontent.com/u/25180681",
-            "profile": "https://github.com/renovate-bot",
-            "contributions": ["maintenance"]
-        }
-    ],
-    "commitConvention": "none"
+	"projectName": "java-patterns",
+	"projectOwner": "AlexRogalskiy",
+	"repoType": "github",
+	"repoHost": "https://github.com",
+	"files": ["README.md"],
+	"types": {
+		"marketing": {
+			"symbol": "💌",
+			"description": "Marketing - People who help in marketing the repo/project"
+		}
+	},
+	"imageSize": 100,
+	"commit": true,
+	"contributorsPerLine": 5,
+	"contributors": [
+		{
+			"login": "AlexRogalskiy",
+			"name": "Alex Rogalskiy",
+			"avatar_url": "https://avatars3.githubusercontent.com/u/3901898",
+			"profile": "https://github.com/AlexRogalskiy",
+			"contributions": [
+				"code",
+				"design",
+				"doc",
+				"ideas",
+				"infra",
+				"maintenance",
+				"test",
+				"bug",
+				"content",
+				"data",
+				"tutorial"
+			]
+		},
+		{
+			"login": "RenovateBot",
+			"name": "Renovate Bot",
+			"avatar_url": "https://avatars1.githubusercontent.com/u/25180681",
+			"profile": "https://github.com/renovate-bot",
+			"contributions": ["maintenance"]
+		}
+	],
+	"commitConvention": "none"
 }
