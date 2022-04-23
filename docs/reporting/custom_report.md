@@ -1,6 +1,6 @@
-|   Name            |   Category            |   Description       |   Labels                |  Links    |
-| ----------------- | :-------------------: | :-----------------: | :---------------------: | :-------: |
-| Report name       | Report category      | Report description   | 'utility','intermediate'| <links>   |
+| Name        |    Category     |    Description     |          Labels          |  Links  |
+| ----------- | :-------------: | :----------------: | :----------------------: | :-----: |
+| Report name | Report category | Report description | 'utility','intermediate' | <links> |
 
 # Custom Report
 

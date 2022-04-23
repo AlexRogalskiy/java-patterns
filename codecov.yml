@@ -5,8 +5,8 @@ coverage:
   precision: 2
   round: down
   range:
-  - 70.0
-  - 100.0
+    - 70.0
+    - 100.0
   status:
     changes: false
     project:

@@ -40,11 +40,11 @@ ratings:
     - '**.css'
 
 exclude_patterns:
-  - "dist/"
-  - "docs/"
-  - "scripts/"
-  - "test/"
-  - "*.js"
-  - "*.json"
-  - "*.md"
-  - ".*"
+  - 'dist/'
+  - 'docs/'
+  - 'scripts/'
+  - 'test/'
+  - '*.js'
+  - '*.json'
+  - '*.md'
+  - '.*'

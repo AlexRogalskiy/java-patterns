@@ -96,12 +96,12 @@ line_rules:
         reference_url:
           - 'https://docs.docker.com/engine/reference/builder/'
           - '#from'
-      - label: "from_not_redhat"
+      - label: 'from_not_redhat'
         regex: /rhel|redhat*/
         inverse_rule: true
-        level: "info"
-        message: "Base Image is not from Red Hat"
-        description: "Base Image must be from Red Hat"
+        level: 'info'
+        message: 'Base Image is not from Red Hat'
+        description: 'Base Image must be from Red Hat'
         reference_url:
           - 'https://cdn-ubi.redhat.com/content/public/ubi/dist/'
           - '#from'

@@ -1,43 +1,43 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": [
-        "config:base",
-        ":maintainLockFilesWeekly",
-        ":prHourlyLimitNone",
-        ":prConcurrentLimitNone",
-        ":gitSignOff",
-        "group:monorepos",
-        "group:recommended"
-    ],
-    "ignoreUnstable": false,
-    "schedule": ["after 10pm every weekday", "before 5am every weekday", "every weekend"],
-    "lockFileMaintenance": {
-        "enabled": true,
-        "schedule": ["before 5am on monday"]
-    },
-    "automerge": true,
-    "statusCheckVerify": true,
-    "updateNotScheduled": true,
-    "branchPrefix": "renovate/",
-    "automergeType": "branch",
-    "major": {
-        "automerge": false
-    },
-    "masterIssue": true,
-    "masterIssueApproval": false,
-    "masterIssueAutoclose": true,
-    "prConcurrentLimit": 5,
-    "prCreation": "immediate",
-    "timezone": "Europe/Moscow",
-    "rangeStrategy": "bump",
-    "prHourlyLimit": 2,
-    "semanticCommits": "enabled",
-    "semanticCommitType": "chore",
-    "semanticCommitScope": "null",
-    "separateMajorMinor": true,
-    "separateMinorPatch": false,
-    "commitMessageAction": "Updates",
-    "commitMessageTopic": "{{depName}}",
-    "commitMessagePrefix": ":arrow_up:",
-    "labels": ["javascript dependencies"]
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": [
+		"config:base",
+		":maintainLockFilesWeekly",
+		":prHourlyLimitNone",
+		":prConcurrentLimitNone",
+		":gitSignOff",
+		"group:monorepos",
+		"group:recommended"
+	],
+	"ignoreUnstable": false,
+	"schedule": ["after 10pm every weekday", "before 5am every weekday", "every weekend"],
+	"lockFileMaintenance": {
+		"enabled": true,
+		"schedule": ["before 5am on monday"]
+	},
+	"automerge": true,
+	"statusCheckVerify": true,
+	"updateNotScheduled": true,
+	"branchPrefix": "renovate/",
+	"automergeType": "branch",
+	"major": {
+		"automerge": false
+	},
+	"masterIssue": true,
+	"masterIssueApproval": false,
+	"masterIssueAutoclose": true,
+	"prConcurrentLimit": 5,
+	"prCreation": "immediate",
+	"timezone": "Europe/Moscow",
+	"rangeStrategy": "bump",
+	"prHourlyLimit": 2,
+	"semanticCommits": "enabled",
+	"semanticCommitType": "chore",
+	"semanticCommitScope": "null",
+	"separateMajorMinor": true,
+	"separateMinorPatch": false,
+	"commitMessageAction": "Updates",
+	"commitMessageTopic": "{{depName}}",
+	"commitMessagePrefix": ":arrow_up:",
+	"labels": ["javascript dependencies"]
 }

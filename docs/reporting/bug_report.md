@@ -1,6 +1,6 @@
-|   Name            |   Category            |   Description       |   Labels                |  Links    |
-| ----------------- | :-------------------: | :-----------------: | :---------------------: | :-------: |
-| Bug name          | Bug category          | Bug description     | 'utility','intermediate'| <links>   |
+| Name     |   Category   |   Description   |          Labels          |  Links  |
+| -------- | :----------: | :-------------: | :----------------------: | :-----: |
+| Bug name | Bug category | Bug description | 'utility','intermediate' | <links> |
 
 # Bug Report
 
@@ -15,15 +15,15 @@
 
 **Desktop (please complete the following information):**
 
-- OS: \[for example IOS]
-- Browser \[for example Chrome, safari]
-- Version \[for example 22]
+-   OS: \[for example IOS]
+-   Browser \[for example Chrome, safari]
+-   Version \[for example 22]
 
 **Mobile phone (please complete the following information):**
 
-- Device: \[for example IPhone6]
-- OS: \[for example IOS8.1]
-- Browser \[for example Stock browser, safari]
-- Version \[for example 22]
+-   Device: \[for example IPhone6]
+-   OS: \[for example IOS8.1]
+-   Browser \[for example Stock browser, safari]
+-   Version \[for example 22]
 
 **Additional context** Add any other context about the problem here.

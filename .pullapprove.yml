@@ -11,7 +11,7 @@ groups:
   general-approvers:
     conditions:
       files:
-        - "*"
+        - '*'
     required: 1
     users:
       - AlexRogalskiy

@@ -16,19 +16,20 @@ profiles:
       artifacts:
         - image: styled-java-patterns
           context: ./
-          platforms: ["linux/amd64", "linux/arm64"]
+          platforms: ['linux/amd64', 'linux/arm64']
           hooks:
             before:
-              - command: ["sh", "-c", "./scripts/hook.sh"]
+              - command: ['sh', '-c', './scripts/hook.sh']
                 os: [darwin, linux]
                 dir: .
-              - command: ["cmd.exe", "/C", "scripts/hook.bat"]
+              - command: ['cmd.exe', '/C', 'scripts/hook.bat']
                 os: [windows]
                 dir: .
             after:
-              - command: ["sh", "-c", "docker images $SKAFFOLD_IMAGE --digests"]
+              - command: ['sh', '-c', 'docker images $SKAFFOLD_IMAGE --digests']
                 os: [darwin, linux]
-              - command: ["cmd.exe", "/C", "docker images %SKAFFOLD_IMAGE% --digests"]
+              - command:
+                  ['cmd.exe', '/C', 'docker images %SKAFFOLD_IMAGE% --digests']
                 os: [windows]
           sync:
             manual:
@@ -37,14 +38,26 @@ profiles:
             hooks:
               before:
                 - host:
-                    command: ["sh", "-c", "echo file changes detected: $SKAFFOLD_FILES_ADDED_OR_MODIFIED"]
+                    command:
+                      [
+                        'sh',
+                        '-c',
+                        'echo file changes detected:
+                        $SKAFFOLD_FILES_ADDED_OR_MODIFIED',
+                      ]
                     os: [darwin, linux]
                 - host:
-                    command: ["cmd.exe", "/C", "echo file changes detected: %SKAFFOLD_FILES_ADDED_OR_MODIFIED%"]
+                    command:
+                      [
+                        'cmd.exe',
+                        '/C',
+                        'echo file changes detected:
+                        %SKAFFOLD_FILES_ADDED_OR_MODIFIED%',
+                      ]
                     os: [windows]
               after:
                 - container:
-                    command: ["sh", "-c", "set -x; kill -HUP 1"]
+                    command: ['sh', '-c', 'set -x; kill -HUP 1']
           docker:
             dockerfile: ./distribution/docker-images/dev.Dockerfile
             pullParent: false

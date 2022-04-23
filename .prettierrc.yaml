@@ -1,7 +1,7 @@
 $schema: http://json.schemastore.org/prettierrc
 printWidth: 110
 tabWidth: 4
-useTabs: false
+useTabs: true
 endOfLine: lf
 semi: false
 singleQuote: true

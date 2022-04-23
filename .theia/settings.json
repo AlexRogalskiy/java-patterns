@@ -1,4 +1,4 @@
 {
-    "workbench.iconTheme": "theia-file-icons",
-    "preview.openByDefault": true
+	"workbench.iconTheme": "theia-file-icons",
+	"preview.openByDefault": true
 }

@@ -4,7 +4,6 @@ site_name: Java Patterns
 site_description: >-
   java code patterns and basic architecture designing concepts
 site_author: Alexander Rogalskiy
-
 # Canonical URL (HTML content instructs search engines that this is where the preferred version of the docs is located, useful when we have duplicate content like versioned docs)
 # https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Choosing_between_www_and_non-www_URLs#using_%3Clink_relcanonical%3E
 # Also required for `sitemap.xml` generation at build time; which bots use to assist them crawling and indexing a website,
@@ -29,8 +28,11 @@ repo_url: https://github.com/AlexRogalskiy/java-patterns
 edit_uri: edit/master/docs
 
 # Copyright (shown at the footer)
-copyright: Copyright &copy; 2021-2022 <a href="https://github.com/AlexRogalskiy/java-patterns"><em>Nullables.io</em></a><br/><span>This project is licensed under the MIT license.</span></p>
-    <p>All rights reserved.</p>
+copyright:
+  Copyright &copy; 2021-2022 <a
+  href="https://github.com/AlexRogalskiy/java-patterns"><em>Nullables.io</em></a><br/><span>This
+  project is licensed under the MIT license.</span></p> <p>All rights
+  reserved.</p>
 
 # Other settings
 use_directory_urls: true
@@ -63,7 +65,7 @@ theme:
     - navigation.tracking
     - navigation.sections
     - navigation.expand
-#     - navigation.instant
+    #     - navigation.instant
     - navigation.indexes
     - search.suggest
     - search.share
@@ -91,16 +93,17 @@ theme:
 
 # Plugins settings
 plugins:
-#   - redirects:
-#       redirect_maps:
-#         'README.md': 'README.md'
+  #   - redirects:
+  #       redirect_maps:
+  #         'README.md': 'README.md'
   - mike:
       # these fields are all optional; the defaults are as below...
-      version_selector: true   # set to false to leave out the version selector
-      css_dir: css             # the directory to put the version selector's CSS
-      javascript_dir: js       # the directory to put the version selector's JS
-      canonical_version: null  # the version for <link rel="canonical">; `null`
-                               # uses the version specified via `mike deploy`
+      version_selector: true # set to false to leave out the version selector
+      css_dir: css # the directory to put the version selector's CSS
+      javascript_dir: js # the directory to put the version selector's JS
+      canonical_version:
+        null # the version for <link rel="canonical">; `null`
+        # uses the version specified via `mike deploy`
   - mermaid2
   - search:
       lang:
@@ -127,7 +130,7 @@ plugins:
   - mkdocs-simple-hooks:
       enabled: !ENV [ENABLE_MKDOCS_SIMPLE_HOOKS, True]
       hooks:
-        on_pre_build: "docs.hooks:copy_generated_files"
+        on_pre_build: 'docs.hooks:copy_generated_files'
   - literate-nav
 
 # Extra settings
@@ -240,12 +243,14 @@ markdown_extensions:
   - pymdownx.inlinehilite: {}
   # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#superfences Superfences is required for several other features. Always enable.
   - pymdownx.superfences:
-     preserve_tabs: true
-     custom_fences:
+      preserve_tabs: true
+      custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_div_format
-  # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#tabbed
+          format:
+            !!python/name:pymdownx.superfences.fence_div_format # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#tabbed
+
+
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.details: {} # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#details

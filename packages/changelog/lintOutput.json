@@ -1,26 +1,22 @@
 [
-  {
-    "message": "`Error` instead of `NodeApiError` or `NodeOperationError`",
-    "lintAreas": [
-      "miscellaneous"
-    ],
-    "lintIssue": "wrong",
-    "line": 100,
-    "excerpt": "new Error('Unable to find last GitHub Release tag.')",
-    "sourceFilePath": "src/index.ts",
-    "logLevel": "warning",
-    "details": "Use `NodeApiError` for unsuccessful API calls and `NodeOperationError` for functionality errors. Reference: n8n/packages/workflow/src/NodeErrors.ts"
-  },
-  {
-    "message": "@ts-ignore comment detected",
-    "lintAreas": [
-      "miscellaneous"
-    ],
-    "lintIssue": "wrong",
-    "line": 38,
-    "excerpt": "// @ts-ignore",
-    "sourceFilePath": "src/index.ts",
-    "logLevel": "warning",
-    "details": "@ts-ignore comments suppress compilation errors."
-  }
+	{
+		"message": "`Error` instead of `NodeApiError` or `NodeOperationError`",
+		"lintAreas": ["miscellaneous"],
+		"lintIssue": "wrong",
+		"line": 100,
+		"excerpt": "new Error('Unable to find last GitHub Release tag.')",
+		"sourceFilePath": "src/index.ts",
+		"logLevel": "warning",
+		"details": "Use `NodeApiError` for unsuccessful API calls and `NodeOperationError` for functionality errors. Reference: n8n/packages/workflow/src/NodeErrors.ts"
+	},
+	{
+		"message": "@ts-ignore comment detected",
+		"lintAreas": ["miscellaneous"],
+		"lintIssue": "wrong",
+		"line": 38,
+		"excerpt": "// @ts-ignore",
+		"sourceFilePath": "src/index.ts",
+		"logLevel": "warning",
+		"details": "@ts-ignore comments suppress compilation errors."
+	}
 ]

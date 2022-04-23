@@ -6,17 +6,17 @@ engines:
     enabled: true
     config:
       languages:
-      - javascript
+        - javascript
   eslint:
     enabled: true
   fixme:
     enabled: true
 ratings:
   paths:
-  - "**.ts"
-  - "**.js"
-  - "**.css"
+    - '**.ts'
+    - '**.js'
+    - '**.css'
 exclude_paths:
-- "tests/"
-- "**/*.test.*"
-- "node_modules/"
+  - 'tests/'
+  - '**/*.test.*'
+  - 'node_modules/'

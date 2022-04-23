@@ -1,4 +1,4 @@
 {
-    "repositoryUrl": "https://github.com/AlexRogalskiy/java-patterns",
-    "blacklistPattern": "^Release \\d+\\.\\d+\\.\\d+|^\\d+\\.\\d+\\.\\d+$"
+	"repositoryUrl": "https://github.com/AlexRogalskiy/java-patterns",
+	"blacklistPattern": "^Release \\d+\\.\\d+\\.\\d+|^\\d+\\.\\d+\\.\\d+$"
 }

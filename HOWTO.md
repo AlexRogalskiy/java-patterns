@@ -10,8 +10,8 @@ To pin packages to the current versions you should run the following command:
 $ pip-compile-multi -n local -n testwin
 ```
 
-It produces files `base.txt`, `test.txt`, `local.txt` and `testwin.txt` with recursively retrieved hard-pinned package
-versions.
+It produces files `base.txt`, `test.txt`, `local.txt` and `testwin.txt` with recursively retrieved hard-pinned
+package versions.
 
 The second command takes these `.txt` files and produce `.hash` files with attached package hashes:
 

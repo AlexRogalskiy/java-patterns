@@ -1,14 +1,9 @@
 {
-    "extends": "./tsconfig.json",
-    "compilerOptions": {
-        "outDir": "./docs",
-        "baseUrl": "./"
-    },
-    "exclude": [
-        "./**/tests/**",
-        "./**/*.spec.(ts|js)"
-    ],
-    "include": [
-        "src/**/*.ts"
-    ]
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"outDir": "./docs",
+		"baseUrl": "./"
+	},
+	"exclude": ["./**/tests/**", "./**/*.spec.(ts|js)"],
+	"include": ["src/**/*.ts"]
 }

@@ -21,12 +21,13 @@ image:
   file: .gitpod.Dockerfile
 
 ports:
-- port: 8000
-  onOpen: open-preview
+  - port: 8000
+    onOpen: open-preview
 
 tasks:
-- init: npm install && npm run all
-  command: >
-    npm run lerna:dist &&
-    printf "\nWelcome to Java Design Patterns Docs\nTo rebuild the app, simply run './scripts/build-docs.sh' and reload index.html.\n\n" &&
-    chmod +x ./scripts/build-docs.sh && ./scripts/build-docs.sh 2>/dev/null
+  - init: npm install && npm run all
+    command: >
+      npm run lerna:dist && printf "\nWelcome to Java Design Patterns Docs\nTo
+      rebuild the app, simply run './scripts/build-docs.sh' and reload
+      index.html.\n\n" && chmod +x ./scripts/build-docs.sh &&
+      ./scripts/build-docs.sh 2>/dev/null

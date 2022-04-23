@@ -1,6 +1,6 @@
-|   Name            |   Category            |   Description       |   Labels                |  Links    |
-| ----------------- | :-------------------: | :-----------------: | :---------------------: | :-------: |
-| Feature name      | Feature category      | Feature description | 'utility','intermediate'| <links>   |
+| Name         |     Category     |     Description     |          Labels          |  Links  |
+| ------------ | :--------------: | :-----------------: | :----------------------: | :-----: |
+| Feature name | Feature category | Feature description | 'utility','intermediate' | <links> |
 
 # Feature Request Template
 

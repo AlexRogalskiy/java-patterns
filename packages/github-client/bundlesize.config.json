@@ -1,8 +1,8 @@
 {
-    "files": [
-        {
-            "path": "./dist/*.cjs.*.js",
-            "maxSize": "15 kB"
-        }
-    ]
+	"files": [
+		{
+			"path": "./dist/*.cjs.*.js",
+			"maxSize": "15 kB"
+		}
+	]
 }

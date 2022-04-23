@@ -3,8 +3,8 @@ autobranch:
   pattern: '{number}-{title}'
   length: 60
 approvals:
-  minimum: 1              # PR needs at least 1 approval for compliant reasons
-  pattern: "^(:\\+1:|👍|approved)$"   # write a comment to the PR with "approved" or ":+1"
+  minimum: 1 # PR needs at least 1 approval for compliant reasons
+  pattern: "^(:\\+1:|👍|approved)$" # write a comment to the PR with "approved" or ":+1"
   ignore: pr_opener
   veto:
     pattern: "^(:\\-1:|👎|rejected)$" # write a comment to the PR with "rejected" or ":-1"
@@ -33,7 +33,6 @@ commit:
 pull-request:
   labels:
     additional: true
-
 # autobranch:
 #   pattern: '{number}-{title}'
 #   length: 60

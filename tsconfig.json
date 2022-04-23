@@ -1,40 +1,28 @@
 {
-    "$schema": "https://json.schemastore.org/tsconfig",
-    "compilerOptions": {
-        "module": "commonjs",
-        "target": "es6",
-        "outDir": "out",
-        "lib": [
-            "es2015",
-            "dom",
-            "es7"
-        ],
-        "types": [
-            "node"
-        ],
-        "strict": true,
-        "skipLibCheck": true,
-        "strictNullChecks": true,
-        "forceConsistentCasingInFileNames": true,
-        "strictPropertyInitialization": true,
-        "noImplicitAny": true,
-        "sourceMap": true,
-        "rootDir": "packages",
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "allowSyntheticDefaultImports": true,
-        "esModuleInterop": true,
-        "importHelpers": true,
-        "noEmitOnError": true
-    },
-    "exclude": [
-        "node_modules",
-        "scripts"
-    ],
-    "linterOptions": {
-        "exclude": [
-            "node_modules/**",
-            "scripts/**"
-        ]
-    }
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "es6",
+		"outDir": "out",
+		"lib": ["es2015", "dom", "es7"],
+		"types": ["node"],
+		"strict": true,
+		"skipLibCheck": true,
+		"strictNullChecks": true,
+		"forceConsistentCasingInFileNames": true,
+		"strictPropertyInitialization": true,
+		"noImplicitAny": true,
+		"sourceMap": true,
+		"rootDir": "packages",
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"importHelpers": true,
+		"noEmitOnError": true
+	},
+	"exclude": ["node_modules", "scripts"],
+	"linterOptions": {
+		"exclude": ["node_modules/**", "scripts/**"]
+	}
 }
