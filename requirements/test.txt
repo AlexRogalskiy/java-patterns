@@ -5,31 +5,251 @@
 #
 #    pip-compile-multi
 #
--r base.txt
+arrow==1.2.2
+    # via jinja2-time
 attrs==21.4.0
     # via pytest
+babel==2.9.1
+    # via mkdocs-git-revision-date-localized-plugin
+beautifulsoup4==4.11.1
+    # via mkdocs-mermaid2-plugin
+binaryornot==0.4.4
+    # via cookiecutter
+bracex==2.2.1
+    # via wcmatch
+certifi==2021.10.8
+    # via requests
+cffi==1.15.0
+    # via pynacl
+chardet==4.0.0
+    # via binaryornot
+charset-normalizer==2.0.12
+    # via requests
+click==8.1.2
+    # via
+    #   click-man
+    #   cookiecutter
+    #   mkdocs
+click-man==0.4.1
+    # via -r requirements/base.in
+cookiecutter==1.7.3
+    # via -r requirements/base.in
 coverage[toml]==6.3.2
     # via pytest-cov
+csscompressor==0.9.5
+    # via mkdocs-minify-plugin
+deprecated==1.2.13
+    # via pygithub
+dumb-init==1.2.5
+    # via -r requirements/base.in
+editorconfig==0.12.3
+    # via jsbeautifier
+fontawesome-markdown==0.2.6
+    # via -r requirements/base.in
+ghp-import==2.0.2
+    # via mkdocs
+gitdb==4.0.9
+    # via gitpython
+gitpython==3.1.27
+    # via mkdocs-git-revision-date-localized-plugin
+htmlmin==0.1.12
+    # via mkdocs-minify-plugin
+idna==3.3
+    # via requests
+importlib-metadata==4.11.3
+    # via mkdocs
 iniconfig==1.1.1
     # via pytest
+jinja2==3.1.1
+    # via
+    #   -r requirements/base.in
+    #   cookiecutter
+    #   jinja2-time
+    #   mike
+    #   mkdocs
+    #   mkdocs-macros-plugin
+    #   mkdocs-material
+jinja2-time==0.2.0
+    # via cookiecutter
+jsbeautifier==1.14.3
+    # via mkdocs-mermaid2-plugin
+jsmin==3.0.1
+    # via mkdocs-minify-plugin
+markdown==3.3.6
+    # via
+    #   -r requirements/base.in
+    #   fontawesome-markdown
+    #   markdown-checklist
+    #   markdown-include
+    #   mdx-truly-sane-lists
+    #   mkdocs
+    #   mkdocs-material
+    #   pymdown-extensions
+    #   python-markdown-math
+markdown-checklist==0.4.3
+    # via -r requirements/base.in
+markdown-include==0.6.0
+    # via -r requirements/base.in
+markupsafe==2.1.1
+    # via jinja2
+mdx-truly-sane-lists==1.2
+    # via -r requirements/base.in
+mergedeep==1.3.4
+    # via mkdocs
+mike==1.1.2
+    # via -r requirements/base.in
+mkautodoc==0.1.0
+    # via -r requirements/base.in
+mkdocs==1.3.0
+    # via
+    #   -r requirements/base.in
+    #   mike
+    #   mkdocs-awesome-pages-plugin
+    #   mkdocs-codeinclude-plugin
+    #   mkdocs-git-committers-plugin
+    #   mkdocs-git-revision-date-localized-plugin
+    #   mkdocs-literate-nav
+    #   mkdocs-macros-plugin
+    #   mkdocs-markdownextradata-plugin
+    #   mkdocs-material
+    #   mkdocs-mermaid2-plugin
+    #   mkdocs-minify-plugin
+    #   mkdocs-redirects
+    #   mkdocs-simple-hooks
+    #   mkdocs-static-i18n
+mkdocs-awesome-pages-plugin==2.7.0
+    # via -r requirements/base.in
+mkdocs-codeinclude-plugin==0.2.0
+    # via -r requirements/base.in
+mkdocs-git-committers-plugin==0.2.2
+    # via -r requirements/base.in
+mkdocs-git-revision-date-localized-plugin==1.0.1
+    # via -r requirements/base.in
+mkdocs-include-markdown-plugin==3.3.0
+    # via -r requirements/base.in
+mkdocs-literate-nav==0.4.1
+    # via -r requirements/base.in
+mkdocs-macros-plugin==0.7.0
+    # via -r requirements/base.in
+mkdocs-markdownextradata-plugin==0.2.5
+    # via -r requirements/base.in
+mkdocs-material==8.2.9
+    # via
+    #   -r requirements/base.in
+    #   mkdocs-mermaid2-plugin
+mkdocs-material-extensions==1.0.3
+    # via
+    #   -r requirements/base.in
+    #   mkdocs-material
+mkdocs-mermaid2-plugin==0.6.0
+    # via -r requirements/base.in
+mkdocs-minify-plugin==0.5.0
+    # via -r requirements/base.in
+mkdocs-redirects==1.0.4
+    # via -r requirements/base.in
+mkdocs-simple-hooks==0.1.5
+    # via -r requirements/base.in
+mkdocs-static-i18n==0.44
+    # via -r requirements/base.in
 mock==4.0.3
     # via -r requirements/test.in
 more-itertools==8.12.0
     # via -r requirements/test.in
+packaging==21.3
+    # via
+    #   mkdocs
+    #   pytest
 pluggy==1.0.0
     # via pytest
+poyo==0.5.0
+    # via cookiecutter
 py==1.11.0
     # via pytest
-pytest==7.1.1
+pycparser==2.21
+    # via cffi
+pygithub==1.55
+    # via mkdocs-git-committers-plugin
+pygments==2.11.2
+    # via
+    #   -r requirements/base.in
+    #   mkdocs-codeinclude-plugin
+    #   mkdocs-material
+pyjwt==2.3.0
+    # via pygithub
+pymdown-extensions==9.3
+    # via
+    #   -r requirements/base.in
+    #   mkdocs-material
+    #   mkdocs-mermaid2-plugin
+pynacl==1.5.0
+    # via pygithub
+pyparsing==3.0.8
+    # via packaging
+pytest==7.1.2
     # via
     #   -r requirements/test.in
     #   pytest-cov
 pytest-cov==3.0.0
     # via -r requirements/test.in
+python-dateutil==2.8.2
+    # via
+    #   arrow
+    #   ghp-import
+    #   mkdocs-macros-plugin
+python-markdown-math==0.8
+    # via -r requirements/base.in
+python-mpd2==3.0.5
+    # via smarty
+python-slugify==6.1.1
+    # via cookiecutter
+pytz==2022.1
+    # via babel
+pyyaml==6.0
+    # via
+    #   mike
+    #   mkdocs
+    #   mkdocs-macros-plugin
+    #   mkdocs-markdownextradata-plugin
+    #   mkdocs-mermaid2-plugin
+    #   pyyaml-env-tag
+pyyaml-env-tag==0.1
+    # via mkdocs
+requests==2.27.1
+    # via
+    #   cookiecutter
+    #   mkdocs-mermaid2-plugin
+    #   pygithub
+six==1.16.0
+    # via
+    #   cookiecutter
+    #   jsbeautifier
+    #   python-dateutil
+smarty==0.3.3
+    # via -r requirements/base.in
+smmap==5.0.0
+    # via gitdb
+soupsieve==2.3.2.post1
+    # via beautifulsoup4
+termcolor==1.1.0
+    # via mkdocs-macros-plugin
+text-unidecode==1.3
+    # via python-slugify
 tomli==2.0.1
     # via
     #   coverage
     #   pytest
+urllib3==1.26.9
+    # via requests
+verspec==0.1.0
+    # via mike
+watchdog==2.1.7
+    # via mkdocs
+wcmatch==8.3
+    # via mkdocs-awesome-pages-plugin
+wrapt==1.14.0
+    # via deprecated
+zipp==3.8.0
+    # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
