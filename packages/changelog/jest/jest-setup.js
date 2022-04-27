@@ -13,21 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import * as log from "loglevel"
-import fetchMock from "jest-fetch-mock";
+'use strict';
+
+import * as log from 'loglevel';
+import fetchMock from 'jest-fetch-mock';
 
 //rewire global.fetch to call 'fetchMock'
 fetchMock.enableMocks();
 
 if (process.env.LOGLEVEL) {
-  log.setLevel(process.env.LOGLEVEL)
-  //log.setLevel(process.env.LOGLEVEL as log.LogLevelDesc)
+	log.setLevel(process.env.LOGLEVEL);
+	//log.setLevel(process.env.LOGLEVEL as log.LogLevelDesc)
 } else {
-  log.disableAll();
+	log.disableAll();
 }
 
-global.__NODE_ENV__ = 'test'
-global.fetch = fetchMock
+global.__NODE_ENV__ = 'test';
+global.fetch = fetchMock;
 // global.fetch = () => {
 //   console.log('>>> fetch is mocked >>>')
 // }

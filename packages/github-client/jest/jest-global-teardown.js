@@ -13,4 +13,6 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-module.exports = async () => console.log("\n\n>>> JEST global teardown >>>\n\n");
+'use strict';
+
+module.exports = async () => console.log('\n\n>>> JEST global teardown >>>\n\n');

@@ -15,6 +15,4 @@
  */
 'use strict';
 
-import { default as check } from 'danger-plugin-spellcheck';
-
-check({ settings: 'artsy/artsy-danger@spellcheck.json' });
+module.exports = { extends: ['@commitlint/config-conventional'] };

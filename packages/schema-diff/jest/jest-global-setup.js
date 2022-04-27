@@ -13,8 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-process.on("unhandledRejection", (err) => {
-    fail(err);
+'use strict';
+
+import { fail } from 'jest';
+
+process.on('unhandledRejection', err => {
+	fail(err);
 });
 
-module.exports = async () => console.log("\n\n>>> JEST global setup >>>\n\n");
+module.exports = async () => console.log('\n\n>>> JEST global setup >>>\n\n');

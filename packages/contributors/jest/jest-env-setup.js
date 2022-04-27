@@ -13,23 +13,39 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-import "jest-extended"
-import * as matchers from "jest-extended/dist/matchers"
-import * as MockDate from "mockdate"
+'use strict';
+
+import 'jest-extended';
+import * as jest from 'jest';
+import * as matchers from 'jest-extended/dist/matchers';
+import * as MockDate from 'mockdate';
 
 jest.setTimeout(60000);
 
-expect.extend(matchers)
-
-module.exports = async () => {
-  process.env.TZ = 'UTC'
-}
+jest.expect.extend(matchers);
 
 beforeEach(() => {
-  global.fetch.resetMocks()
-  MockDate.set('2007-09-02')
-})
+	global.fetch.resetMocks();
+
+	// mock for resize-observer
+	global.ResizeObserver = jest.fn().mockImplementation(() => {
+		return {
+			observe: jest.fn(),
+			unobserve: jest.fn(),
+		};
+	});
+
+	global.console.error = error => {
+		throw new Error(error);
+	};
+
+	MockDate.set('2007-09-02');
+});
 
 afterEach(() => {
-  MockDate.reset()
-})
+	MockDate.reset();
+});
+
+module.exports = async () => {
+	process.env.TZ = 'UTC';
+};

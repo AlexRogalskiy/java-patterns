@@ -13,8 +13,5 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-'use strict';
-
-import { default as check } from 'danger-plugin-spellcheck';
-
-check({ settings: 'artsy/artsy-danger@spellcheck.json' });
+// import-conductor-skip
+import 'jest-extended-snapshot';

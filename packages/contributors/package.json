@@ -101,7 +101,7 @@
 		"jest-circus": "^27.5.1",
 		"jest-environment-node-debug": "^2.0.0",
 		"jest-extended": "^2.0.0",
-		"jest-fail-on-console-reporter": "^0.1.0",
+		"jest-extended-snapshot": "^1.1.5",
 		"jest-fetch-mock": "^3.0.3",
 		"jest-html": "^1.5.0",
 		"jest-junit": "^13.0.0",
@@ -124,8 +124,5 @@
 		"node": ">= 12.x",
 		"npm": ">= 5.0.0",
 		"yarn": ">= 3.0.0"
-	},
-	"dependencies": {
-		"D": "^1.0.0"
 	}
 }
