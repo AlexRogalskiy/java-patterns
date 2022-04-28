@@ -347,4 +347,3 @@ gh_toc_app() {
 # Entry point
 #
 gh_toc_app "$@"
-
