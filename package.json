@@ -7,6 +7,9 @@
 	"bugs": {
 		"url": "https://github.com/AlexRogalskiy/java-patterns/issues"
 	},
+    "cacheDirectories": [
+        "node_modules"
+    ],
 	"collective": {
 		"logo": "https://opencollective.com/opencollective/logo.txt",
 		"type": "opencollective",
@@ -210,8 +213,8 @@
 		"license": "license-checker --json > licenses.json",
 		"link-check": "repo-link-check -c config/config.yml -s filesystem -u",
 		"link-check-dev-server": "repo-link-check -c config/config.yml -r http://localhost:3000",
-		"link-check-diff": "repo-link-check -c config/config.yml",
-		"link-check-exclude": "repo-link-check -c config/config.yml -s filesystem -u only",
+		"link-check-diff": "repo-link-check -c config/config.yml -d master",
+		"link-check-exclude": "repo-link-check -c config/config.yml -s filesystem --unused-patterns-only",
 		"link-local": "yalc link",
 		"linkcheck:csv": "linkinator \"docs/**/*.md\" --markdown --format CSV --verbosity DEBUG",
 		"linkcheck:json": "linkinator \"docs/**/*.md\" --markdown --format JSON --verbosity DEBUG",
@@ -263,7 +266,7 @@
 		"solidarity": "solidarity",
 		"solidarity:update": "solidarity snapshot cli node",
 		"sort-package-json": "sort-package-json",
-		"svgo": "svgo -i docs/overrides/.icons -o docs/overrides/.icons -q",
+		"svgo": "svgo --config svgo.config.cjs -i docs/overrides/.icons -o docs/overrides/.icons -q",
 		"syncpack": "syncpack list-mismatches --source \"packages/*/package.json\"",
 		"syncpack:fix": "syncpack fix-mismatches",
 		"syncpack:list": "syncpack list-mismatches",
