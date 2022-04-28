@@ -55,13 +55,13 @@
 
         for (var i = 0; i < sortedGroups.length; i++) {
             var property = sortedGroups[i];
-            
+
             var $li = $('<li>', {
                 'class': 'search-results-group'
             });
             var finalPropertyLabel = '';
             var propertyLabels = property.split('-');
-            
+
             if (propertyLabels.length === 2 && propertyLabels[0] !== 'miscellaneous' && propertyLabels[0] !== 'additional') {
                 finalPropertyLabel = propertyLabels[0].charAt(0).toUpperCase() + propertyLabels[0].substring(1) + ' - ' + propertyLabels[1].charAt(0).toUpperCase() + propertyLabels[1].substring(1) + ' (' + groups[property].results.length + ')';
             } else if (propertyLabels[0] === 'additional') {

@@ -19,6 +19,3 @@ docker tag "$IMAGE_NAME" "$IMAGE_WITH_TAG"
 docker push "$IMAGE_WITH_TAG"
 
 echo "Successfully built and pushed $IMAGE_WITH_TAG"
-
-
-
