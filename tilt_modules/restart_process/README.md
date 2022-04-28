@@ -114,7 +114,7 @@ def docker_build_with_restart(ref: str, context: str,
                to the given file(s); as the parameter of the same name in the LiveUpdate `run` step.
       **kwargs: will be passed to the underlying `docker_build` call
     """
-    
+
 
 def custom_build_with_restart(ref: str, command: str, deps: List[str], entrypoint,
 
