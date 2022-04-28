@@ -2,19 +2,19 @@
 
 
 # Introduction
-We are committed to protecting your privacy and we encourage you to read and learn more about the terms of our privacy policy (“Privacy Policy”). 
+We are committed to protecting your privacy and we encourage you to read and learn more about the terms of our privacy policy (“Privacy Policy”).
 
 When we refer to “Nullables.io”, “our”, “us”, “we”, or similar self-referential language, we are referring to Nullables.io Inc. When we use the terms “you”, “your”, “yours”, “user”, “users”, “customer”, “customers”, etc., we are referring to any and all users of Nullables.io current and future Products and Services.
 
 Nullables.io provides a variety of Products and Services to our customers, which refers to and includes our website and web applications, mobile applications, integrations for other Third Party Services (such as Slack, Facebook, etc.), and platform, as well as any future applications, products, and services. By visiting, using, or submitting information to any of our Products and Services, you acknowledge that you accept the practices and policies outlined in this Privacy Policy.
 
-Terms not defined herein shall have the meaning as provided in our Terms of Service (the “Agreement”), and incorporated herein. 
+Terms not defined herein shall have the meaning as provided in our Terms of Service (the “Agreement”), and incorporated herein.
 
 
 # Data Covered in this Policy
 This Privacy Policy covers our treatment of Customer Data (as defined herein) and General Data (defined herein) that we gather when you are accessing or using our Products and Services. This Privacy Policy also covers our treatment of any Customer Data that our business partners share with Nullables.io (for example, via integration with Third Party Services).
 
-This Privacy Policy does not apply to the practices of companies that Nullables.io does not own or control, or to individuals that we do not employ or manage. In addition, this Privacy Policy does not cover how other organizations, including Third Party Services, will treat your information. If integrating our Products and Services with any Third Party Services, please refer to such Third Party Services’ privacy policy. 
+This Privacy Policy does not apply to the practices of companies that Nullables.io does not own or control, or to individuals that we do not employ or manage. In addition, this Privacy Policy does not cover how other organizations, including Third Party Services, will treat your information. If integrating our Products and Services with any Third Party Services, please refer to such Third Party Services’ privacy policy.
 
 
 ## Customer Data
@@ -22,7 +22,7 @@ All content and information that you submit through use of our Products and Serv
 
 To create an account, integrate with Third Party Services, or receive information from us about future Products and Services, we may collect such Customer Data as your name and email address. In order to process billing, we may collect such Customer Data as your home or work address, telephone number, and/or credit card information.
 
-However, this information is on an “opt-in” basis only and we will only collect such Customer Data if you specifically and expressly provide the information to us. 
+However, this information is on an “opt-in” basis only and we will only collect such Customer Data if you specifically and expressly provide the information to us.
 
 
 ## General Data
@@ -31,7 +31,7 @@ In addition to the Customer Data, we may collect the following general informati
 - demographic information;
 - information from publicly accessible sources, such as blogs and comments from other users;
 your visit to the Site, such as pages viewed, links clicked and other similar navigation action in connection with the Site;
-- standard browser information, such as your browser type, IP address, access times, and App usage data; 
+- standard browser information, such as your browser type, IP address, access times, and App usage data;
 - location data, which may be available or derived from our App, Site, or your IP address; and
 - information about the device on which you are accessing or using the Services.
 
@@ -86,13 +86,13 @@ We do not sell, rent, lease, or disclose your Data. Except as described in this 
 
 We may hire other companies to provide limited administrative and communication services on our behalf, such as web hosting services, the processing and delivery of mailing documents, customer support, or credit card processing services. We have the right to disclose your Data to these third party companies for the purpose of administering and maintaining the features, functions, and operations of our Products and Services.
 
-Those companies will be permitted to obtain only such Data as is absolutely necessary for them to deliver their respective services, and we do not authorize these companies to use your Data except for the sole purpose of providing those services requested by us. 
+Those companies will be permitted to obtain only such Data as is absolutely necessary for them to deliver their respective services, and we do not authorize these companies to use your Data except for the sole purpose of providing those services requested by us.
 
 
 ## Integration with Third Party Services
 In order to access and/or use our Products and Services, you may be required to integrate them with your existing Third Party Services. While we do not store your passwords for these Third Party Services, we may store revokable tokens, enabling Services to communicate with each other.
 
-If you integrate our Products and Services with a Third Party Service, we are not responsible for how such a service would use, collect, and share your Data. We very much encourage you to review privacy policy of any such Third Party Services. 
+If you integrate our Products and Services with a Third Party Service, we are not responsible for how such a service would use, collect, and share your Data. We very much encourage you to review privacy policy of any such Third Party Services.
 
 
 ## Disclosure of Customer Data
@@ -103,13 +103,13 @@ You understand and agree that we may access and/or disclose Data about you witho
 - enforce the terms of the Agreement and Privacy Policy;
 - operate or conduct maintenance and repair of the Site, the App or equipment as authorized by law;
 - act in urgent circumstances to protect the personal safety of our users or members of the public; or
-- comply with a bankruptcy, merger, acquisition, transfer of control, joint venture of other business combination. 
+- comply with a bankruptcy, merger, acquisition, transfer of control, joint venture of other business combination.
 
-While we are not required to question or contest the validity of any search warrant, subpoena or other similar governmental request that we receive, we will use reasonable efforts to ensure the privacy of our users, and safeguard against overreach. 
+While we are not required to question or contest the validity of any search warrant, subpoena or other similar governmental request that we receive, we will use reasonable efforts to ensure the privacy of our users, and safeguard against overreach.
 
 
 ## Disclosure of Data in Certain Transactions
-In some cases, we may choose to sell our assets. In these types of transactions, user information is typically one of the business assets that is transferred. You acknowledge that such transfers may occur, and that any acquirer of Nullables.io may continue to use your Data as set forth in this Privacy Policy. 
+In some cases, we may choose to sell our assets. In these types of transactions, user information is typically one of the business assets that is transferred. You acknowledge that such transfers may occur, and that any acquirer of Nullables.io may continue to use your Data as set forth in this Privacy Policy.
 
 
 # Security of Customer Data
