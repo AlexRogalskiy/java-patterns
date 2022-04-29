@@ -53,9 +53,7 @@ htmlmin==0.1.12
 idna==3.3
     # via requests
 importlib-metadata==4.11.3
-    # via
-    #   markdown
-    #   mkdocs
+    # via mkdocs
 jinja2==3.1.1
     # via
     #   -r requirements/base.in
@@ -129,7 +127,7 @@ mkdocs-macros-plugin==0.7.0
     # via -r requirements/base.in
 mkdocs-markdownextradata-plugin==0.2.5
     # via -r requirements/base.in
-mkdocs-material==8.2.9
+mkdocs-material==8.2.11
     # via
     #   -r requirements/base.in
     #   mkdocs-mermaid2-plugin
