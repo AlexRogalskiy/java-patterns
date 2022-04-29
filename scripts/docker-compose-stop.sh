@@ -22,12 +22,14 @@ set -o pipefail
 ## setup base directory
 BASE_DIR=$(dirname "$0")/..
 # DOCKER_COMPOSE_CMD stores docker compose command
-DOCKER_COMPOSE_CMD=${DOCKER_COMPOSE_CMD:-$(command -v docker-compose || command -v docker compose)}
+DOCKER_COMPOSE_CMD=${DOCKER_COMPOSE_CMD:-$(command -v docker-compose 2> /dev/null || command -v docker compose 2> /dev/null || type -p docker-compose)}
+# DOCKER_COMPOSE_OPTS stores docker compose options
+DOCKER_COMPOSE_OPTS=${DOCKER_COMPOSE_OPTS:-"--ansi=never"}
 
 main() {
   echo ">>> Stopping docker containers..."
 
-  $DOCKER_COMPOSE_CMD --file "${BASE_DIR}/docker-compose.yml" down --remove-orphans --volumes
+  $DOCKER_COMPOSE_CMD $DOCKER_COMPOSE_OPTS --file "${BASE_DIR}/docker-compose.yml" down --remove-orphans --volumes
 }
 
 main "$@"

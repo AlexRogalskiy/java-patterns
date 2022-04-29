@@ -213,6 +213,10 @@ else
 	override DOCKER_CPU_OPTIONS =
 endif
 
+ifeq ($(DOCKER_COMPOSE_OPTS),)
+  override DOCKER_COMPOSE_OPTS = --ansi=never
+endif
+
 ifdef DOCKER_REGISTRY
 	override DOCKER_REGISTRY = $(DOCKER_REGISTRY)/
 endif
@@ -334,6 +338,7 @@ _list-env:
 	$(AT)echo "DOCKER_ORG="$(DOCKER_ORG);
 	$(AT)echo "DOCKER_VERSION="$(DOCKER_VERSION);
 	$(AT)echo "DOCKER_CPU_OPTIONS="$(DOCKER_CPU_OPTIONS);
+	$(AT)echo "DOCKER_COMPOSE_OPTS="$(DOCKER_COMPOSE_OPTS);
 	$(AT)echo
 	$(AT)echo "==========================================";
 	$(AT)echo

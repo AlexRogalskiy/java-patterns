@@ -7,9 +7,7 @@
 	"bugs": {
 		"url": "https://github.com/AlexRogalskiy/java-patterns/issues"
 	},
-    "cacheDirectories": [
-        "node_modules"
-    ],
+	"cacheDirectories": ["node_modules"],
 	"collective": {
 		"logo": "https://opencollective.com/opencollective/logo.txt",
 		"type": "opencollective",

@@ -11,6 +11,23 @@ repos:
     hooks:
       - id: pip-compile-multi-verify
 
+  - repo: https://github.com/lovesegfault/beautysh
+    rev: v6.1.0
+    hooks:
+      - id: beautysh
+        args: [-i, '2']
+
+  - repo: https://github.com/pre-commit/pygrep-hooks
+    rev: v1.9.0
+    hooks:
+      - id: python-use-type-annotations
+
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.8.0
+    hooks:
+      - id: isort
+        args: [--profile=black, -l=99]
+
   - repo: meta
     hooks:
       - id: identity
@@ -30,16 +47,19 @@ repos:
       - id: fix-byte-order-marker
       - id: mixed-line-ending
       - id: trailing-whitespace
+
   # - repo: https://github.com/Lucas-C/pre-commit-hooks
   #  rev: v1.1.10
   #  hooks:
   #    - id: forbid-tabs
   #    - id: remove-tabs
+
   - repo: https://github.com/jumanjihouse/pre-commit-hooks
     rev: 2.1.5
     hooks:
       - id: shellcheck
       # - id: shfmt
+
   - repo: https://github.com/codespell-project/codespell
     rev: v2.0.0
     hooks:
@@ -56,6 +76,7 @@ repos:
   #      entry: markdownlint -c .github/linters/.markdown-lint.yml .
   #      types: [markdown]
   #      files: \.(md|mdown|markdown)$
+
   # - repo: https://github.com/adrienverge/yamllint
   #  rev: v1.26.1
   #  hooks:

@@ -6,3 +6,9 @@
   pass_filenames: false
   require_serial: true
   types: [file, non-executable, text]
+- id: dead-url
+  name: Dead URL Checker
+  entry: scripts/link-check.sh
+  language: script
+  types: [text]
+  description: This hook searches for problematic URLs.
