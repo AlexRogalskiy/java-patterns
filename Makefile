@@ -81,11 +81,11 @@ VENV_PYTHON						:= $(VENV_BIN)/python3
 WGET_OPTS 						:= --no-check-certificate
 # PIP_BUILD_OPTS stores pip build options
 PIP_BUILD_OPTS		 		:= --disable-pip-version-check --no-cache-dir --no-compile --prefer-binary
-# PIP_BUILD_OPTS stores mkdocs build options
+# MKDOCS_BUILD_OPTS stores mkdocs build options
 MKDOCS_BUILD_OPTS 		:= --clean --strict --verbose --config-file mkdocs.yml
-# PIP_BUILD_OPTS stores mkdocs deploy options
+# MKDOCS_DEPLOY_OPTS stores mkdocs deploy options
 MKDOCS_DEPLOY_OPTS 		:= --verbose --clean --force --remote-branch gh-pages
-# PIP_BUILD_OPTS stores mkdocs serve options
+# MKDOCS_SERVE_OPTS stores mkdocs serve options
 MKDOCS_SERVE_OPTS 		:= --verbose --dirtyreload --dev-addr=0.0.0.0:8000 --config-file mkdocs.yml
 # HTMLTEST stores htmltest binary
 HTMLTEST 							:= htmltest
@@ -197,7 +197,9 @@ list:
 # Lists all dirs.
 .PHONY: dirs
 dirs:
-	$(AT)echo "🌟 Running dirs command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running dirs command$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)echo "$(shell ls -ad -- */)"
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Directory list finished.$(COLOR_NORMAL)"
@@ -206,7 +208,8 @@ dirs:
 # Run version command.
 .PHONY: versions
 versions:
-	$(AT)echo "🌟 Running versions command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running versions command.$(COLOR_NORMAL)"
 	$(AT)echo
 	$(AT)$(DOCKER_CMD) --version
 	$(AT)echo
@@ -221,7 +224,9 @@ versions:
 # Clean removes all temporary files.
 .PHONY: clean
 clean:
-	$(AT)echo "🌟 Running clean command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running clean command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)rm -rf $(TMP_BASE)
 	$(AT)rm -rf $(CHART_RELEASE_DIR)
 	$(AT)rm -rf $(GITHUB_PAGES_DIR)
@@ -252,21 +257,27 @@ endif
 # Run docker scan command.
 .PHONY: docker-scan
 docker-scan:
-	$(AT)echo "🌟 Running docker-scan command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-scan command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(DOCKER_CMD) scan --json --group-issues --dependency-tree -f Dockerfile "$(IMAGE_NAME)"
 	$(AT)echo
 
 # Run docker table command.
 .PHONY: docker-table
 docker-table:
-	$(AT)echo "🌟 Running docker-table command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-table command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(DOCKER_CMD) ps --format "table {{.Image}}\t{{.Ports}}\t{{.Names}}"
 	$(AT)echo
 
 # Run docker code lint command.
 .PHONY: docker-code-lint
 docker-code-lint:
-	$(AT)echo "🌟 Running docker-code-lint command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-code-lint command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(DOCKER_CMD) run -it \
 		--platform=linux/amd64 \
 		--rm \
@@ -280,7 +291,9 @@ docker-code-lint:
 # Run docker pandoc command.
 .PHONY: docker-pandoc
 docker-pandoc:
-	$(AT)echo "🌟 Running docker-pandoc command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-pandoc command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(DOCKER_CMD) run -it \
 		--platform=linux/amd64 \
 		--rm \
@@ -296,21 +309,27 @@ docker-clean: docker-stop docker-remove
 # Run docker remove container command.
 .PHONY: docker-remove
 docker-remove:
-	$(AT)echo "🌟 Running docker-remove command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-remove command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(DOCKER_CMD) container rm --force "$(DOCKER_IMAGE_NAME)" > /dev/null
 	$(AT)echo
 
 # Run docker remove all images command.
 .PHONY: docker-remove-all
 docker-remove-all:
-	$(AT)echo "🌟 Running docker-remove-all command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-remove-all command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(DOCKER_CMD) images | grep $(DOCKER_IMAGE_NAME) | awk '{print $3}' | xargs --no-run-if-empty $(DOCKER_CMD) rmi -f
 	$(AT)echo
 
 # Run docker build command.
 .PHONY: docker-build
 docker-build: _ensure-docker-tag
-	$(AT)echo "🌟 Running docker-build command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-build command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-build.sh
 	$(SCRIPT_DIR)/docker-build.sh $(DOCKER_TAG)
 	$(AT)echo
@@ -318,7 +337,9 @@ docker-build: _ensure-docker-tag
 # Run docker rebuild command.
 .PHONY: docker-rebuild
 docker-rebuild: _ensure-docker-tag
-	$(AT)echo "🌟 Running docker-rebuild command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-rebuild command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-rebuild.sh
 	$(SCRIPT_DIR)/docker-rebuild.sh $(DOCKER_TAG)
 	$(AT)echo
@@ -326,7 +347,9 @@ docker-rebuild: _ensure-docker-tag
 # Run docker start command.
 .PHONY: docker-start
 docker-start:
-	$(AT)echo "🌟 Running docker-start command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-start command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
 	$(SCRIPT_DIR)/docker-compose.sh start
 	$(AT)echo
@@ -334,7 +357,9 @@ docker-start:
 # Run docker stop command.
 .PHONY: docker-stop
 docker-stop:
-	$(AT)echo "🌟 Running docker-stop command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-stop command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
 	$(SCRIPT_DIR)/docker-compose.sh stop
 	$(AT)echo
@@ -342,7 +367,9 @@ docker-stop:
 # Run docker logs command.
 .PHONY: docker-logs
 docker-logs:
-	$(AT)echo "🌟 Running docker-logs command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-logs command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
 	$(SCRIPT_DIR)/docker-compose.sh logs
 	$(AT)echo
@@ -350,7 +377,9 @@ docker-logs:
 # Run docker ps command.
 .PHONY: docker-ps
 docker-ps:
-	$(AT)echo "🌟 Running docker-ps command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-ps command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
 	$(SCRIPT_DIR)/docker-compose.sh ps
 	$(AT)echo
@@ -358,7 +387,9 @@ docker-ps:
 # Run docker pull command.
 .PHONY: docker-pull
 docker-pull:
-	$(AT)echo "🌟 Running docker-pull command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-pull command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
 	$(SCRIPT_DIR)/docker-compose.sh pull
 	$(AT)echo
@@ -366,56 +397,72 @@ docker-pull:
 # Run tilt start command.
 .PHONY: tilt-start
 tilt-start:
-	$(AT)echo "🌟 Running tilt-start command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running tilt-start command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(TILT_CMD) up
 	$(AT)echo
 
 # Run tilt stop command.
 .PHONY: tilt-stop
 tilt-stop:
-	$(AT)echo "🌟 Running tilt-stop command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running tilt-stop command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(TILT_CMD) down --delete-namespaces
 	$(AT)echo
 
 # Run skaffold deploy command.
 .PHONY: skaffold-start
 skaffold-start: _ensure-skaffold-tag
-	$(AT)echo "🌟 Running skaffold-start command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running skaffold-start command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(SKAFFOLD_CMD) dev --filename='skaffold.$(SKAFFOLD_TAG).yaml' --timestamps=false --update-check=true --interactive=true --no-prune=false --cache-artifacts=true
 	$(AT)echo
 
 # Run skaffold destroy command.
 .PHONY: skaffold-stop
 skaffold-stop: _ensure-skaffold-tag
-	$(AT)echo "🌟 Running skaffold-stop command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running skaffold-stop command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(SKAFFOLD_CMD) delete --filename='skaffold.$(SKAFFOLD_TAG).yaml'
 	$(AT)echo
 
 # Run helm lint command.
 .PHONY: helm-lint
 helm-lint:
-	$(AT)echo "🌟 Running helm-lint command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running helm-lint command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(HELM_CMD) lint charts --values charts/values.yaml
 	$(AT)echo
 
 # Run helm start command.
 .PHONY: helm-start
 helm-start:
-	$(AT)echo "🌟 Running helm-start command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running helm-start command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(HELM_CMD) upgrade --install $(CLUSTER_NAME) -f charts/values.yaml --create-namespace --namespace $(CLUSTER_NAMESPACE) charts
 	$(AT)echo
 
 # Run helm stop command.
 .PHONY: helm-stop
 helm-stop:
-	$(AT)echo "🌟 Running helm-stop command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running helm-stop command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(HELM_CMD) uninstall $(CLUSTER_NAME) --namespace $(CLUSTER_NAMESPACE)
 	$(AT)echo
 
 # Run helm package command.
 .PHONY: helm-package
 helm-package:
-	$(AT)echo "🌟 Running helm-package command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running helm-package command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)mkdir -p $(CHART_RELEASE_DIR)/charts
 	$(AT)$(HELM_CMD) package charts --dependency-update --destination $(CHART_RELEASE_DIR)/charts
 	$(AT)echo
@@ -429,7 +476,9 @@ helm-dev: clean helm-lint helm-package
 # Run okteto build command.
 .PHONY: okteto
 okteto:
-	$(AT)echo "🌟 Running okteto-build command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running okteto-build command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)okteto build -t $(DOCKER_HUB_IMAGE_NAME) .
 	$(AT)okteto build -t $(OKTETO_IMAGE_NAME) .
 	$(AT)echo
@@ -439,7 +488,9 @@ okteto:
 # Install pip command.
 .PHONY: install-pip
 install-pip:
-	$(AT)echo "🌟 Running install-pip command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running install-pip command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)wget $(WGET_OPTS) https://bootstrap.pypa.io/get-pip.py -O $(TMPDIR)/get-pip.py
 	$(AT)$(PYTHON_CMD) $(TMPDIR)/get-pip.py
 	$(AT)echo
@@ -449,7 +500,9 @@ install-pip:
 # Run local build command.
 .PHONY: local-build
 local-build:
-	$(AT)echo "🌟 Running mkdocs-build command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running mkdocs-build command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(PYTHON_CMD) -m pip install $(PIP_BUILD_OPTS) -r ./requirements/local.hash
 	$(AT)$(PYTHON_CMD) -m mkdocs build $(MKDOCS_BUILD_OPTS)
 	$(AT)echo
@@ -467,7 +520,9 @@ local-run: local-build
 # Run venv build command.
 .PHONY: venv-build
 venv-build: _venv
-	$(AT)echo "🌟 Running mkdocs-build in venv command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running mkdocs-build in venv command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(VENV_PYTHON) -m pip install $(PIP_BUILD_OPTS) -r ./docs/requirements.txt
 	$(AT)$(VENV_PYTHON) -m mkdocs build $(MKDOCS_BUILD_OPTS)
 	$(AT)echo
@@ -478,13 +533,17 @@ venv-build: _venv
 # Run venv run command.
 .PHONY: venv-run
 venv-run: venv-build
-	$(AT)echo "🌟 Running mkdocs in venv command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running mkdocs in venv command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(VENV_PYTHON) -m mkdocs serve $(MKDOCS_SERVE_OPTS)
 
 # Run github pages deploy command.
 .PHONY: gh-pages
 gh-pages:
-	$(AT)echo "🌟 Running python gh-pages command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running python gh-pages command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(PYTHON_CMD) -m mkdocs gh-deploy $(MKDOCS_DEPLOY_OPTS)
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)GitHub pages generated.$(COLOR_NORMAL)"
@@ -493,7 +552,9 @@ gh-pages:
 # Run npm install command.
 .PHONY: deps
 deps:
-	$(AT)echo "🌟 Running npm-install command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running npm-install command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(NPM_CMD) install
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Install finished.$(COLOR_NORMAL)"
@@ -502,7 +563,9 @@ deps:
 # Run npm all command.
 .PHONY: all
 all:
-	$(AT)echo "🌟 Running npm-all command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running npm-all command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(NPM_CMD) run all
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Build finished.$(COLOR_NORMAL)"
@@ -511,49 +574,63 @@ all:
 # Run git diff command.
 .PHONY: diff
 diff:
-	$(AT)echo "🌟 Running git-diff command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running git-diff command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(GIT_CMD) diff --diff-filter=d --name-only
 	$(AT)echo
 
 # Run git authors command.
 .PHONY: git-authors
 git-authors:
-	$(AT)echo "🌟 Running git-authors command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running git-authors command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)find . -name ".git" -type d -exec $(GIT_CMD) --git-dir={} --work-tree="$(PWD)"/{} config --get remote.origin.url \; -exec $(GIT_CMD) --git-dir={} --work-tree="$(PWD)"/{} --no-pager shortlog -sn \;
 	$(AT)echo
 
 # Run git pull command.
 .PHONY: git-pull
 git-pull:
-	$(AT)echo "🌟 Running git-pull command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running git-pull command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)find . -name ".git" -type d | xargs -P10 -I{} $(GIT_CMD) --git-dir={} --work-tree="$(PWD)"/{} pull origin master
 	$(AT)echo
 
 # Run git branch command.
 .PHONY: git-branch
 git-branch:
-	$(AT)echo "🌟 Running git-branch command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running git-branch command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(GIT_CMD) for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
 	$(AT)echo
 
 # Run git merge command.
 .PHONY: git-merge
 git-merge:
-	$(AT)echo "🌟 Running git-merge command"
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running git-merge command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(GIT_CMD) log $(shell git merge-base --octopus $(shell git log -1 --merges --pretty=format:%P))..$(shell git log -1 --merges --pretty=format:%H) --pretty=format:%s
 	$(AT)echo
 
 # Run git open command.
 .PHONY: git-open
 git-open:
-	$(AT)echo "🌟 Running git-open command"
+  $(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running git-open command.$(COLOR_NORMAL)"
+	$(AT)echo
 	$(AT)open $(shell $(GIT_CMD) remote -v | awk "/fetch/{print $2}" | sed -Ee "s#(git@|git://)#http://#" -e "s@com:@com/@" | head -n1 | grep -Eo 'https?://[^ >]+')
 	$(AT)echo
 
 # Run git log command.
 .PHONY: git-log
 git-log:
-	$(AT)echo "🌟 Running git-log command"
+  $(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running git-log command.$(COLOR_NORMAL)"
+	$(AT)echo
 	$(AT)$(GIT_CMD) log \
       --decorate \
       --date="short" \
@@ -568,7 +645,9 @@ git-log:
 # Run git log command.
 .PHONY: git-changelog
 git-changelog: release
-	$(AT)echo "🌟 Running git-changelog command"
+  $(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running git-changelog command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(GIT_CMD) log $(shell $(GIT_CMD) tag | tail -n1)..HEAD --no-merges --format=%B > changelog
 	$(AT)echo
 
@@ -596,7 +675,9 @@ check-links: install-link-checker setup-link-checker run-link-checker
 # Run docker graph command.
 .PHONY: docker-graph
 docker-graph:
-	$(AT)echo "🌟 Running docker-graph command"
+  $(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-graph command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(DOCKER_CMD) run \
 		--platform=linux/amd64 \
 		--rm \
@@ -609,7 +690,9 @@ docker-graph:
 # Run lint command.
 .PHONY: lint
 lint:
-	$(AT)echo "🌟 Running docker-lint command"
+  $(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-lint command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(DOCKER_CMD) run \
 		--platform=linux/amd64 \
 		--rm \
@@ -623,7 +706,9 @@ lint:
 # Run syft command.
 .PHONY: syft
 syft:
-	$(AT)echo "🌟 Running docker-syft command"
+  $(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-syft command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(DOCKER_CMD) run \
 		--platform=linux/amd64 \
 		--rm \
@@ -638,21 +723,27 @@ syft:
 # Run zip archive command.
 .PHONY: git-zip
 git-zip:
-	$(AT)echo "🌟 Running git-zip-archive command"
+  $(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running git-zip-archive command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(GIT_CMD) archive -o $(basename $PWD).zip HEAD
 	$(AT)echo
 
 # Run tgz archive command.
 .PHONY: git-tgz
 git-tgz:
-	$(AT)echo "🌟 Running git-tgz-archive command"
+  $(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running git-tgz-archive command.$(COLOR_NORMAL)"
+  $(AT)echo
 	$(AT)$(GIT_CMD) archive -o $(basename $PWD).tgz HEAD
 	$(AT)echo
 
 # Run clean images command.
 .PHONY: clean-images
 clean-images:
-	$(AT)echo "🌟 Running docker-clean-images command"
+  $(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-clean-images command.$(COLOR_NORMAL)"
+  $(AT)echo
 	echo "Cleaning images \n========================================== ";
 	for image in `$(DOCKER_CMD) images -qf "label=$(DOCKER_IMAGE_NAME)"`; do \
 	    echo "Removing image $${image} \n==========================================\n " ; \
