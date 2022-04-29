@@ -58,6 +58,7 @@ theme:
   features:
     - announce.dismiss
     - tabs
+    # show back to top button
     - navigation.top
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+tabs#navigation-tabs
     - navigation.tabs.sticky
@@ -67,8 +68,10 @@ theme:
     - navigation.expand
     #     - navigation.instant
     - navigation.indexes
+    # search suggestions: https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
     - search.suggest
     - search.share
+    # highlight search term on target page: https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
     - search.highlight
     - header.autohide
     - toc.integrate
@@ -101,8 +104,7 @@ plugins:
       version_selector: true # set to false to leave out the version selector
       css_dir: css # the directory to put the version selector's CSS
       javascript_dir: js # the directory to put the version selector's JS
-      canonical_version:
-        null # the version for <link rel="canonical">; `null`
+      canonical_version: null # the version for <link rel="canonical">; `null`
         # uses the version specified via `mike deploy`
   - mermaid2
   - search:
@@ -249,8 +251,6 @@ markdown_extensions:
           class: mermaid
           format:
             !!python/name:pymdownx.superfences.fence_div_format # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#tabbed
-
-
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.details: {} # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#details
@@ -263,3 +263,6 @@ markdown_extensions:
   - smarty: {} # https://python-markdown.github.io/extensions/smarty/
   - nl2br: {} # https://python-markdown.github.io/extensions/smarty/
   - mdx_truly_sane_lists: {} # https://github.com/radude/mdx_truly_sane_lists -> proper indentation of md list items
+
+# Navigation
+# nav: omitted, because we're using the awesome-pages plugin (https://squidfunk.github.io/mkdocs-material/plugins/awesome-pages/)

@@ -42,7 +42,7 @@ SHELL 								:= $(shell if [ -x "$$BASH" ]; then echo $$BASH; \
 	 												else if [ -x /bin/bash ]; then echo /bin/bash -o errexit -o nounset; \
 	 												else echo sh; fi; fi)
 # PYTHON_CMD stores python binary
-PYTHON_CMD 						:= $(shell command -v python3 2> /dev/null)
+PYTHON_CMD 						:= $(shell command -v python3 2> /dev/null || type -p python)
 # SED_CMD stores stream editor binary
 SED_CMD 							:= $(shell command -v sed 2> /dev/null || type -p sed)
 # DOCKER_CMD stores docker binary
