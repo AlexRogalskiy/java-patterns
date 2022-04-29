@@ -42,16 +42,16 @@ create_kind_cluster() {
 }
 
 cleanup() {
-    echo 'Removing k8s cluster...'
+  echo 'Removing k8s cluster...'
 
-    kind delete cluster --name "$CLUSTER_NAME"
-    echo 'Done!'
+  kind delete cluster --name "$CLUSTER_NAME"
+  echo 'Done!'
 }
 
 main() {
-    trap cleanup EXIT
+  trap cleanup EXIT
 
-    create_kind_cluster
+  create_kind_cluster
 }
 
 main "$@"

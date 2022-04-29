@@ -9,9 +9,9 @@ runJest() {
     --expose-gc \
     --max_old_space_size=4096 \
     ./node_modules/.bin/jest \
-      --logHeapUsage \
-      --maxWorkers 3 \
-      --config "${1}"
+    --logHeapUsage \
+    --maxWorkers 3 \
+    --config "${1}"
 }
 
 if [ "$1" == "legacy" ]; then

@@ -21,7 +21,7 @@ set -o pipefail
 
 repo_root=$(git rev-parse --show-toplevel)
 if [[ -e $repo_root/.git-blame-ignore-revs ]]; then
-    git blame --ignore-revs-file="$repo_root/.git-blame-ignore-revs" "$@"
+  git blame --ignore-revs-file="$repo_root/.git-blame-ignore-revs" "$@"
 else
-    git blame "$@"
+  git blame "$@"
 fi

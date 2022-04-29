@@ -22,16 +22,16 @@ set -o pipefail
 CPUS_AVAILABLE=1
 
 case "$(uname -s)" in
-Darwin)
+  Darwin)
     CPUS_AVAILABLE=$(sysctl -n machdep.cpu.core_count)
     ;;
-Linux)
+  Linux)
     CFS_QUOTA=$(cat /sys/fs/cgroup/cpu/cpu.cfs_quota_us)
     if [ "$CFS_QUOTA" -ge 100000 ]; then
-    CPUS_AVAILABLE=$(("${CFS_QUOTA}" / 100 / 1000))
+      CPUS_AVAILABLE=$(("${CFS_QUOTA}" / 100 / 1000))
     fi
     ;;
-*)
+  *)
     # Unsupported host OS. Must be Linux or Mac OS X.
     ;;
 esac
