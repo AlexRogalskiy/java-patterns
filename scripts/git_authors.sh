@@ -20,13 +20,13 @@ set -o nounset
 set -o pipefail
 
 {
-	cat <<-'EOH'
+  cat <<-'EOH'
 	# This file lists all individuals having contributed content to the repository.
 	# For how it is generated, see `scripts/git_authors.sh`.
 	EOH
-	echo
+  echo
 } > AUTHORS
 
 {
-	git log --format='%aN <%aE>' | LC_ALL=C.UTF-8 sort -uf
+  git log --format='%aN <%aE>' | LC_ALL=C.UTF-8 sort -uf
 } | sort --unique --dictionary-order >> AUTHORS
