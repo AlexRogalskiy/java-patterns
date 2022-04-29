@@ -28,10 +28,10 @@ main() {
   FILE=$(mktemp)
   TAG_CURRENT=$(git describe --abbrev=0)
   {
-      printf '# Release: '%s'\n' "$TAG_CURRENT"
-      git log "$TAG_CURRENT"...HEAD --pretty=format:"* %s";
-      printf "%s" "\n\n---\n";
-      cat CHANGELOG.md
+    printf '# Release: '%s'\n' "$TAG_CURRENT"
+    git log "$TAG_CURRENT"...HEAD --pretty=format:"* %s";
+    printf "%s" "\n\n---\n";
+    cat CHANGELOG.md
 
   } >> "$FILE"
 
