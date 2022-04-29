@@ -32,32 +32,32 @@ GU_INFO_REPOS_EQUAL="The local repository is current. No update is needed."
 GU_SUCCESS_REPORT="Update complete."
 
 if [ $# -eq 1 ]; then
-	LOCAL_REPO="$1"
-	cd "$LOCAL_REPO"
+  LOCAL_REPO="$1"
+  cd "$LOCAL_REPO"
 fi
 
 if [ -d ".git" ]; then
-	# update remote tracking branch
-	if git remote update >&-; then
-		echo "$GU_ERROR_FETCH_FAIL" >&2
-		exit 1
-	else
-		LOCAL_SHA=$(git rev-parse --verify HEAD)
-		REMOTE_SHA=$(git rev-parse --verify FETCH_HEAD)
-		if [ "$LOCAL_SHA" = "$REMOTE_SHA" ]; then
-			echo "$GU_INFO_REPOS_EQUAL"
-			exit 0
-		else
-			if $GIT_COMMAND; then
-				echo "$GU_ERROR_UPDATE_FAIL" >&2
-				exit 1
-			else
-				echo "$GU_SUCCESS_REPORT"
-			fi
-		fi
-	fi
+  # update remote tracking branch
+  if git remote update >&-; then
+    echo "$GU_ERROR_FETCH_FAIL" >&2
+    exit 1
+  else
+    LOCAL_SHA=$(git rev-parse --verify HEAD)
+    REMOTE_SHA=$(git rev-parse --verify FETCH_HEAD)
+    if [ "$LOCAL_SHA" = "$REMOTE_SHA" ]; then
+      echo "$GU_INFO_REPOS_EQUAL"
+      exit 0
+    else
+      if $GIT_COMMAND; then
+        echo "$GU_ERROR_UPDATE_FAIL" >&2
+        exit 1
+      else
+        echo "$GU_SUCCESS_REPORT"
+      fi
+    fi
+  fi
 else
-	echo "$GU_ERROR_NO_GIT" >&2
-	exit 1
+  echo "$GU_ERROR_NO_GIT" >&2
+  exit 1
 fi
 exit 0

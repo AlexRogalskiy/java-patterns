@@ -22,9 +22,9 @@ set -o pipefail
 set -e
 
 if ! command -v aspell > /dev/null; then
-    echo "Missing aspell utility"
+  echo "Missing aspell utility"
 elif ! aspell dump dicts | grep -qw "en$" > /dev/null ; then
-    echo "Missing aspell English dictionary (aspell-en)"
+  echo "Missing aspell English dictionary (aspell-en)"
 fi
 
 DATAFILE=$(mktemp /tmp/aspell-strings.XXXXXXXXXX)
@@ -35,7 +35,7 @@ echo "Temporary file: ${DATAFILE}"
 find ./docs -type f -exec strings {} \; | tr ' ' '\n' >> "${DATAFILE}"
 
 # tr    delete quotes (disabled) #    tr -d "'" | \
-# tr    split key/value pairs
+  # tr    split key/value pairs
 # tr    split words or paths
 # grep  get all words 4 characters or more
 # sed   strip out unwanted characters
@@ -48,7 +48,7 @@ find ./docs -type f -exec strings {} \; | tr ' ' '\n' >> "${DATAFILE}"
 # tr    turn all words into lowercase before sorting
 # sort  sort and only store unique words
 {
-    tr '=' ' ' | \
+  tr '=' ' ' | \
     tr '/' ' ' | \
     grep -E "^[a-zA-Z]{4,}" | \
     sed -e 's/[|?#,:"\{\}\$=\(\)\;\/]//g' | \
@@ -65,5 +65,5 @@ find ./docs -type f -exec strings {} \; | tr ' ' '\n' >> "${DATAFILE}"
 
 aspell --lang=en --ignore-case --personal=./scripts/template/words-to-ignore.en.pws check "${DATAFILE_SORTED}"
 
-if [ -f "${DATAFILE}" ]; then rm "${DATAFILE}"; fi
-if [ -f "${DATAFILE_SORTED}" ]; then rm "${DATAFILE_SORTED}"; fi
+  if [ -f "${DATAFILE}" ]; then rm "${DATAFILE}"; fi
+  if [ -f "${DATAFILE_SORTED}" ]; then rm "${DATAFILE_SORTED}"; fi

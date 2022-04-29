@@ -38,7 +38,7 @@ main() {
   # shellcheck disable=SC2064
   trap "cleanup ${config_container_id}" EXIT
 
-#  configure_kubectl "${config_container_id}"
+  #  configure_kubectl "${config_container_id}"
 }
 
 cleanup() {
@@ -56,8 +56,8 @@ configure_kubectl() {
 
   apiserver_id=$(lookup_apiserver_container_id)
   if [[ -z "$apiserver_id" ]]; then
-      echo "ERROR: API-Server container not found. Make sure "Show system containers" is enabled in Docker4Mac \"Preferences\"!" >&2
-      exit 1
+    echo "ERROR: API-Server container not found. Make sure "Show system containers" is enabled in Docker4Mac \"Preferences\"!" >&2
+    exit 1
   fi
 
   ip=$(get_docker_args "$apiserver_id" --advertise-address)

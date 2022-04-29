@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             }
         },
-        
+
         loadTree = function () {
             setTimeout(function() {
                 container.style.height = document.getElementsByClassName('content')[0].offsetHeight - 140 + 'px';
