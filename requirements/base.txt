@@ -53,9 +53,7 @@ htmlmin==0.1.12
 idna==3.3
     # via requests
 importlib-metadata==4.11.3
-    # via
-    #   markdown
-    #   mkdocs
+    # via mkdocs
 jinja2==3.1.1
     # via
     #   -r requirements/base.in
@@ -129,7 +127,7 @@ mkdocs-macros-plugin==0.7.0
     # via -r requirements/base.in
 mkdocs-markdownextradata-plugin==0.2.5
     # via -r requirements/base.in
-mkdocs-material==8.2.9
+mkdocs-material==8.2.13
     # via
     #   -r requirements/base.in
     #   mkdocs-mermaid2-plugin
@@ -155,14 +153,14 @@ pycparser==2.21
     # via cffi
 pygithub==1.55
     # via mkdocs-git-committers-plugin
-pygments==2.11.2
+pygments==2.12.0
     # via
     #   -r requirements/base.in
     #   mkdocs-codeinclude-plugin
     #   mkdocs-material
 pyjwt==2.3.0
     # via pygithub
-pymdown-extensions==9.3
+pymdown-extensions==9.4
     # via
     #   -r requirements/base.in
     #   mkdocs-material
