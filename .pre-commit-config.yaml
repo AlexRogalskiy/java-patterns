@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
 ---
-# https://pre-commit.com/
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
 default_stages: [commit, push]
 default_language_version:
   # force all unspecified Python hooks to run python3
