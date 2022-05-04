@@ -96,8 +96,6 @@ HTMLTEST_OPTS					:= --skip-external --conf .htmltest.yml
 CHART_RELEASE_DIR 		:= release
 # GITHUB_PAGES_DIR stores github pages folder
 GITHUB_PAGES_DIR 			:= site
-# HTMLTEST_DIR stores htmltest directory
-HTMLTEST_DIR					:= scripts
 
 # VARS stores printing variables
 VARS += DOCKER_IMAGE_NAME
@@ -654,19 +652,19 @@ git-changelog: release
 # Run install link checker command.
 .PHONY: install-link-checker
 install-link-checker:
-	$(AT)[ -f $(HTMLTEST_DIR)/$(HTMLTEST) ] || curl https://htmltest.wjdp.uk -o $(HTMLTEST_DIR)/$(HTMLTEST)
+	$(AT)[ -f $(SCRIPT_DIR)/$(HTMLTEST) ] || curl https://htmltest.wjdp.uk -o $(SCRIPT_DIR)/$(HTMLTEST)
 
 # Run setup link checker command.
 .PHONY: setup-link-checker
 setup-link-checker: install-link-checker
-	$(AT)chmod +x $(HTMLTEST_DIR)/$(HTMLTEST)
-	$(HTMLTEST_DIR)/$(HTMLTEST) -d -b $(HTMLTEST_DIR)/bin
+	$(AT)chmod +x $(SCRIPT_DIR)/$(HTMLTEST)
+	$(SCRIPT_DIR)/$(HTMLTEST) -d -b $(SCRIPT_DIR)/bin
 
 # Run run link checker command.
 .PHONY: run-link-checker
 run-link-checker: setup-link-checker
-	$(AT)chmod +x $(HTMLTEST_DIR)/bin/$(HTMLTEST)
-	$(HTMLTEST_DIR)/bin/$(HTMLTEST) $(HTMLTEST_OPTS)
+	$(AT)chmod +x $(SCRIPT_DIR)/bin/$(HTMLTEST)
+	$(SCRIPT_DIR)/bin/$(HTMLTEST) $(HTMLTEST_OPTS)
 
 # Run check links command.
 .PHONY: check-links

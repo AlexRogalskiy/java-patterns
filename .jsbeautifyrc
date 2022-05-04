@@ -1,7 +1,7 @@
 {
 	"js": {
 		"brace_style": "collapse",
-		"break_chained_methods": false,
+		"break_chained_methods": true,
 		"e4x": false,
 		"eval_code": false,
 		"indent_level": 0,
@@ -9,15 +9,21 @@
 		"indent_size": 4,
 		"indent_char": " ",
 		"jslint_happy": true,
-		"keep_array_indentation": false,
+		"keep_array_indentation": true,
 		"keep_function_indentation": false,
 		"max_preserve_newlines": 3,
 		"preserve_newlines": true,
 		"space_before_conditional": true,
 		"space-after-anon-function": true,
+		"end_with_newline": true,
 		"space_in_paren": false,
 		"unescape_strings": true,
-		"wrap_line_length": 0,
+		"wrap_line_length": 120,
+		"unformatted": ["a", "abbr", "area", "audio", "b", "bdi", "bdo", "br", "button", "canvas", "cite", "code", "data",
+              "datalist", "del", "dfn", "em", "embed", "i", "iframe", "img", "input", "ins", "kbd", "keygen", "label", "map",
+              "mark", "math", "meter", "noscript", "object", "output", "progress", "q", "ruby", "s", "samp", "select", "small",
+              "span", "strong", "sub", "sup", "template", "textarea", "time", "u", "var", "video", "wbr", "text", "acronym",
+              "address", "big", "dt", "ins", "small", "strike", "tt", "pre", "h1", "h2", "h3", "h4", "h5", "h6"]
 		"allowed_file_extensions": ["js", "json", "jshintrc", "jsbeautifyrc"]
 	}
 }
