@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 import {execSync} from "child_process"
-import fetch from "node-fetch"
+import fetch from "cross-fetch"
 import {join} from "path"
 
 import {normalizeLog} from "./helpers/filter"
@@ -94,7 +94,7 @@ function findUniqPackagesAffected(tagName) {
   )
 }
 
-async function main() {
+export default async function main() {
   const tagName = await getLatestStableTag()
   if (!tagName) {
     throw new Error('Unable to find last GitHub Release tag.')
@@ -109,7 +109,7 @@ async function main() {
   const pub = Array.from(pkgs).join(',')
   console.log('To publish a stable release, execute the following:')
   console.log(
-    `\nnpx lerna version --message "Publish Stable" --exact --force-publish=${pub}\n`
+    `\nnpm run publish --exact --force-publish=${pub}\n`
   )
 }
 

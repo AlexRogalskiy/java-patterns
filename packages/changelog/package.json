@@ -5,8 +5,12 @@
 	"private": true,
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"files": ["dist"],
-	"keywords": ["changelog"],
+	"files": [
+		"dist"
+	],
+	"keywords": [
+		"changelog"
+	],
 	"homepage": "https://github.com/AlexRogalskiy/java-patterns/tree/master/packages/changelog",
 	"bugs": {
 		"url": "https://github.com/AlexRogalskiy/java-patterns/issues"
@@ -52,6 +56,8 @@
 		"clean": "del-cli --dot=true dist coverage*",
 		"copy:docs": "cp *.md dist/",
 		"nodelinter": "nodelinter --print",
+        "check-env": "node -e 'console.log(process.env)' | grep npm",
+		"dashboard": "cross-env BASE_DIR=docs && nodejs-dashboard -- node -r nodejs-dashboard dist/index.js",
 		"reinstall": "del-cli --dot=true ./node_modules ./package-lock.json ./yarn.lock",
 		"coverage:view": "[ -f coverage/lcov-report/index.html ] && open coverage/lcov-report/index.html",
 		"analyze": "source-map-explorer 'dist/index.*.*' --json",
@@ -59,8 +65,9 @@
 		"license:fix": "license-check-and-add add -f license-check-config.json",
 		"compodocs": "env-cmd --silent -e dev compodoc -p tsconfig.doc.json -d docs",
 		"compodocs:serve": "env-cmd --silent -e dev compodoc -p tsconfig.doc.json -d docs -s",
-		"dev": "BASE_DIR=$npm_config_base_dir node dist/index.js",
-		"build": "env-cmd --silent -e dev tsdx build --tsconfig tsconfig.json",
+		"dev": "cross-env BASE_DIR=$npm_config_base_dir && node dist/index.js",
+		"dev:local": "npm run build && npm run dev --base_dir=docs",
+		"build": "env-cmd --silent -e dev tsdx build --verbose --name index --target node --format cjs,esm,umd --tsconfig tsconfig.json",
 		"watch": "env-cmd --silent -e dev tsdx watch --tsconfig tsconfig.json",
 		"lint:lockfile": "env-cmd --silent -e dev lockfile-lint --path package-lock.json --type npm --validate-https --allowed-hosts npm yarn",
 		"lint:report": "env-cmd --silent -e dev tsdx lint src --report-file report.json",
@@ -92,6 +99,7 @@
 		"bundlesize": "^0.18.1",
 		"codeclimate-test-reporter": "^0.5.1",
 		"coveralls": "^3.1.1",
+		"cross-env": "7.0.3",
 		"del-cli": "^4.0.1",
 		"env-cmd": "^10.1.0",
 		"identity-obj-proxy": "^3.0.0",
@@ -110,6 +118,7 @@
 		"lockfile-lint": "^4.7.4",
 		"loglevel": "^1.8.0",
 		"mockdate": "^3.0.5",
+		"nodejs-dashboard": "^0.5.1",
 		"nodelinter": "^0.1.19",
 		"solidarity": "^3.0.4",
 		"source-map-explorer": "^2.5.2",

@@ -5,8 +5,12 @@
 	"private": true,
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"files": ["dist"],
-	"keywords": ["github-client"],
+	"files": [
+		"dist"
+	],
+	"keywords": [
+		"github-client"
+	],
 	"homepage": "https://github.com/AlexRogalskiy/java-patterns/tree/master/packages/github-client",
 	"bugs": {
 		"url": "https://github.com/AlexRogalskiy/java-patterns/issues"
@@ -52,6 +56,7 @@
 		"clean": "del-cli --dot=true dist coverage*",
 		"copy:docs": "cp *.md dist/",
 		"nodelinter": "nodelinter --print",
+        "check-env": "node -e 'console.log(process.env)' | grep npm",
 		"reinstall": "del-cli --dot=true ./node_modules ./package-lock.json ./yarn.lock",
 		"coverage:view": "[ -f coverage/lcov-report/index.html ] && open coverage/lcov-report/index.html",
 		"analyze": "source-map-explorer 'dist/index.*.*' --json",
@@ -59,9 +64,9 @@
 		"license:fix": "license-check-and-add add -f license-check-config.json",
 		"compodocs": "env-cmd --silent -e dev compodoc -p tsconfig.doc.json -d docs",
 		"compodocs:serve": "env-cmd --silent -e dev compodoc -p tsconfig.doc.json -d docs -s",
-		"dev": "GITHUB_ORG=$npm_config_github_org GITHUB_REPO=$npm_config_github_repo GITHUB_TOKEN=$npm_config_github_token CACHE_DIR=$npm_config_cache_dir node dist/index.js",
+		"dev": "cross-env GITHUB_ORG=$npm_config_github_org GITHUB_REPO=$npm_config_github_repo GITHUB_TOKEN=$npm_config_github_token CACHE_DIR=$npm_config_cache_dir && node dist/index.js",
 		"dev:local": "npm run build && npm run dev --github_org=artsy --github_repo=Artsy-UILabels --github_token= --cache_dir=cache",
-		"build": "env-cmd --silent -e dev tsdx build --tsconfig tsconfig.json",
+		"build": "env-cmd --silent -e dev tsdx build --verbose --name index --target node --format cjs,esm,umd --tsconfig tsconfig.json",
 		"watch": "env-cmd --silent -e dev tsdx watch --tsconfig tsconfig.json",
 		"lint:lockfile": "env-cmd --silent -e dev lockfile-lint --path package-lock.json --type npm --validate-https --allowed-hosts npm yarn",
 		"lint:report": "env-cmd --silent -e dev tsdx lint src --report-file report.json",
@@ -97,6 +102,7 @@
 		"bundlesize": "^0.18.1",
 		"codeclimate-test-reporter": "^0.5.1",
 		"coveralls": "^3.1.1",
+		"cross-env": "7.0.3",
 		"del-cli": "^4.0.1",
 		"env-cmd": "^10.1.0",
 		"identity-obj-proxy": "^3.0.0",
@@ -116,6 +122,8 @@
 		"loglevel": "^1.8.0",
 		"mockdate": "^3.0.5",
 		"node-fetch": "^3.2.3",
+		"nodelinter": "^0.1.19",
+		"solidarity": "^3.0.4",
 		"source-map-explorer": "^2.5.2",
 		"ts-jest": "^27.1.4",
 		"ts-node": "^10.7.0",
