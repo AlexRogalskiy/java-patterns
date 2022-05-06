@@ -53,9 +53,7 @@ htmlmin==0.1.12
 idna==3.3
     # via requests
 importlib-metadata==4.11.3
-    # via
-    #   markdown
-    #   mkdocs
+    # via mkdocs
 jinja2==3.1.1
     # via
     #   -r requirements/base.in
@@ -162,7 +160,7 @@ pygments==2.11.2
     #   mkdocs-material
 pyjwt==2.3.0
     # via pygithub
-pymdown-extensions==9.3
+pymdown-extensions==9.4
     # via
     #   -r requirements/base.in
     #   mkdocs-material
