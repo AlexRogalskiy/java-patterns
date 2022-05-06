@@ -5,15 +5,11 @@
 	"private": true,
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"files": [
-		"dist"
-	],
-    "config": {
-        "image_dir": "images"
-    },
-	"keywords": [
-		"contributors"
-	],
+	"files": ["dist"],
+	"config": {
+		"image_dir": "images"
+	},
+	"keywords": ["contributors"],
 	"homepage": "https://github.com/AlexRogalskiy/java-patterns/tree/master/packages/contributors",
 	"bugs": {
 		"url": "https://github.com/AlexRogalskiy/java-patterns/issues"
@@ -59,8 +55,7 @@
 		"clean": "del-cli --dot=true dist coverage*",
 		"copy:docs": "cp *.md dist/",
 		"nodelinter": "nodelinter --print",
-        "demo": "echo \"Hello %npm_config_first% $npm_config_last\"",
-        "check-env": "node -e 'console.log(process.env)' | grep npm",
+		"check-env": "node -e 'console.log(process.env)' | grep npm",
 		"dashboard": "cross-env IMAGE_DIR=images && nodejs-dashboard -- node -r nodejs-dashboard dist/index.js",
 		"reinstall": "del-cli --dot=true ./node_modules ./package-lock.json ./yarn.lock",
 		"coverage:view": "[ -f coverage/lcov-report/index.html ] && open coverage/lcov-report/index.html",

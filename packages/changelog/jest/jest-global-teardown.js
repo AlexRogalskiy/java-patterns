@@ -15,4 +15,6 @@
  */
 'use strict';
 
-module.exports = async () => console.log('\n\n>>> JEST global teardown >>>\n\n');
+module.exports = async () => {
+	console.log('\n\n>>> JEST global teardown >>>\n\n');
+};

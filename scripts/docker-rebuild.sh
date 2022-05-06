@@ -31,6 +31,8 @@ readonly GIT_SHA=$(git rev-parse HEAD)
 BASE_DIR=$(dirname "$0")/..
 # DOCKER_CMD stores docker command
 DOCKER_CMD=${DOCKER_CMD:-$(command -v docker 2> /dev/null || command -v podman 2> /dev/null || type -p docker)}
+# DOCKER_OPTS stores docker options
+DOCKER_OPTS=${DOCKER_OPTS:-"--shm-size=1G"}
 
 main() {
   echo ">>> Rebuilding docker container..."
@@ -46,6 +48,9 @@ main() {
   # Build docker image
   $DOCKER_CMD build \
     --rm \
+    --force-rm true \
+    --no-cache true \
+    $DOCKER_OPTS \
     --file "$file" \
     --tag "${IMAGE_REPOSITORY}:${IMAGE_TAG}" \
     --tag "${IMAGE_REPOSITORY}:${GIT_SHA}" \

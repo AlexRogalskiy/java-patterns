@@ -29,7 +29,9 @@ DOCKER_COMPOSE_OPTS=${DOCKER_COMPOSE_OPTS:-"--ansi=never"}
 main() {
   echo ">>> Processing status of docker containers..."
 
-  $DOCKER_COMPOSE_CMD $DOCKER_COMPOSE_OPTS --file "${BASE_DIR}/docker-compose.yml" ps
+  $DOCKER_COMPOSE_CMD \
+    $DOCKER_COMPOSE_OPTS \
+    --file "${BASE_DIR}/docker-compose.yml" ps
 }
 
 main "$@"

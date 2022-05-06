@@ -29,7 +29,9 @@ DOCKER_COMPOSE_OPTS=${DOCKER_COMPOSE_OPTS:-"--ansi=never"}
 main() {
   echo ">>> Pulling docker containers..."
 
-  $DOCKER_COMPOSE_CMD $DOCKER_COMPOSE_OPTS --file "${BASE_DIR}/docker-compose.yml" pull --include-deps --quiet
+  $DOCKER_COMPOSE_CMD \
+    $DOCKER_COMPOSE_OPTS \
+    --file "${BASE_DIR}/docker-compose.yml" pull --include-deps --quiet
 }
 
 main "$@"

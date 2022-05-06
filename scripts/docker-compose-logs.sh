@@ -34,7 +34,9 @@ _exit() {
 main() {
   echo ">>> Logging docker containers..."
 
-  $DOCKER_COMPOSE_CMD $DOCKER_COMPOSE_OPTS --file "${BASE_DIR}/docker-compose.yml" logs -t --follow
+  $DOCKER_COMPOSE_CMD \
+    $DOCKER_COMPOSE_OPTS \
+    --file "${BASE_DIR}/docker-compose.yml" logs -t --follow
 }
 
 main "$@"

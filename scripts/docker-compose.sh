@@ -49,14 +49,21 @@ _exit() {
 
 usage() {
   read -r -d '' MESSAGE <<- EOM
+
     Usage: ${0} [operation]
+    Run docker compose command with an operation subcommand.
 
     where [operation] is one of the following:
-        [up|start]: to start docker containers
-        [down|stop]: to stop docker containers
-        [logs|-l]: to view docker containers logs
-        [ps|-p]: to view docker processes
-        [help|-h]: to view docker processes
+        * [up|start]: to start docker containers
+        * [down|stop]: to stop docker containers
+        * [logs|-l]: to view docker containers logs
+        * [ps|-p]: to view docker processes
+        * [help|-h]: to view docker processes
+
+    LICENSE GPL-3.0
+
+    Copyright (c) 2020-2022 SensibleMetrics, Inc. All rights reserved.
+
 EOM
   echo
   echo "$MESSAGE"
@@ -87,7 +94,8 @@ trap cleanup_err ERR
 docker_ps() {
   echo ">>> Processing status of docker containers..."
 
-  $DOCKER_COMPOSE_CMD $DOCKER_COMPOSE_OPTS \
+  $DOCKER_COMPOSE_CMD \
+    $DOCKER_COMPOSE_OPTS \
     --file "${BASE_DIR}/docker-compose.yml" \
     ps "$@"
 }
@@ -95,7 +103,8 @@ docker_ps() {
 docker_logs() {
   echo ">>> Logging docker containers..."
 
-  $DOCKER_COMPOSE_CMD $DOCKER_COMPOSE_OPTS \
+  $DOCKER_COMPOSE_CMD \
+    $DOCKER_COMPOSE_OPTS \
     --file "${BASE_DIR}/docker-compose.yml" \
     logs -t --follow "$@"
 }
@@ -103,7 +112,8 @@ docker_logs() {
 docker_pull() {
   echo ">>> Pulling docker containers..."
 
-  $DOCKER_COMPOSE_CMD $DOCKER_COMPOSE_OPTS \
+  $DOCKER_COMPOSE_CMD \
+    $DOCKER_COMPOSE_OPTS \
     --file "${BASE_DIR}/docker-compose.yml" \
     pull --include-deps --quiet "$@"
 }
@@ -111,7 +121,8 @@ docker_pull() {
 docker_start() {
   echo ">>> Starting docker containers..."
 
-  $DOCKER_COMPOSE_CMD $DOCKER_COMPOSE_OPTS \
+  $DOCKER_COMPOSE_CMD \
+    $DOCKER_COMPOSE_OPTS \
     --file "${BASE_DIR}/docker-compose.yml" \
     up --detach --build --force-recreate --renew-anon-volumes "$@"
 }
@@ -119,7 +130,8 @@ docker_start() {
 docker_stop() {
   echo ">>> Stopping docker containers..."
 
-  $DOCKER_COMPOSE_CMD $DOCKER_COMPOSE_OPTS \
+  $DOCKER_COMPOSE_CMD \
+    $DOCKER_COMPOSE_OPTS \
     --file "${BASE_DIR}/docker-compose.yml" \
     down --remove-orphans --volumes "$@"
 }

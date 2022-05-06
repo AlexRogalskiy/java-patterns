@@ -5,12 +5,8 @@
 	"private": true,
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"files": [
-		"dist"
-	],
-	"keywords": [
-		"changelog"
-	],
+	"files": ["dist"],
+	"keywords": ["changelog"],
 	"homepage": "https://github.com/AlexRogalskiy/java-patterns/tree/master/packages/changelog",
 	"bugs": {
 		"url": "https://github.com/AlexRogalskiy/java-patterns/issues"
@@ -56,7 +52,7 @@
 		"clean": "del-cli --dot=true dist coverage*",
 		"copy:docs": "cp *.md dist/",
 		"nodelinter": "nodelinter --print",
-        "check-env": "node -e 'console.log(process.env)' | grep npm",
+		"check-env": "node -e 'console.log(process.env)' | grep npm",
 		"dashboard": "cross-env BASE_DIR=docs && nodejs-dashboard -- node -r nodejs-dashboard dist/index.js",
 		"reinstall": "del-cli --dot=true ./node_modules ./package-lock.json ./yarn.lock",
 		"coverage:view": "[ -f coverage/lcov-report/index.html ] && open coverage/lcov-report/index.html",

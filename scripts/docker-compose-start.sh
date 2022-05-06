@@ -29,7 +29,9 @@ DOCKER_COMPOSE_OPTS=${DOCKER_COMPOSE_OPTS:-"--ansi=never"}
 main() {
   echo ">>> Starting docker containers..."
 
-  $DOCKER_COMPOSE_CMD $DOCKER_COMPOSE_OPTS --file "${BASE_DIR}/docker-compose.yml" up --detach --build --force-recreate --renew-anon-volumes
+  $DOCKER_COMPOSE_CMD \
+    $DOCKER_COMPOSE_OPTS \
+    --file "${BASE_DIR}/docker-compose.yml" up --detach --build --force-recreate --renew-anon-volumes
 }
 
 main "$@"

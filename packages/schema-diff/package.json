@@ -5,12 +5,8 @@
 	"private": true,
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"files": [
-		"dist"
-	],
-	"keywords": [
-		"schema-diff"
-	],
+	"files": ["dist"],
+	"keywords": ["schema-diff"],
 	"homepage": "https://github.com/AlexRogalskiy/java-patterns/tree/master/packages/schema-diff",
 	"bugs": {
 		"url": "https://github.com/AlexRogalskiy/java-patterns/issues"
@@ -56,7 +52,7 @@
 		"clean": "del-cli --dot=true dist coverage*",
 		"copy:docs": "cp *.md dist/",
 		"nodelinter": "nodelinter --print",
-        "check-env": "node -e 'console.log(process.env)' | grep npm",
+		"check-env": "node -e 'console.log(process.env)' | grep npm",
 		"reinstall": "del-cli --dot=true ./node_modules ./package-lock.json ./yarn.lock",
 		"coverage:view": "[ -f coverage/lcov-report/index.html ] && open coverage/lcov-report/index.html",
 		"analyze": "source-map-explorer 'dist/index.*.*' --json",

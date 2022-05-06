@@ -28,6 +28,8 @@ cd "$(dirname "$0")/.." || exit 1
 
 # DOCKER_CMD stores docker command
 DOCKER_CMD=${DOCKER_CMD:-$(command -v docker 2> /dev/null || command -v podman 2> /dev/null || type -p docker)}
+# DOCKER_OPTS stores docker options
+DOCKER_OPTS=${DOCKER_OPTS:-"--shm-size=1G"}
 
 main() {
   echo "Running docker container..."
@@ -83,6 +85,7 @@ create_docker_container() {
     --tty \
     --rm \
     --privileged \
+    $DOCKER_OPTS \
     --volume "$REPO_ROOT:/usr/src/app" \
     --volume /var/run/docker.sock:/var/run/docker.sock \
     --env CI=1 \

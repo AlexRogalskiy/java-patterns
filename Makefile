@@ -260,6 +260,8 @@ docker-scan:
   $(AT)echo
 	$(DOCKER_CMD) scan --json --group-issues --dependency-tree -f Dockerfile "$(IMAGE_NAME)"
 	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Docker scan command finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run docker table command.
 .PHONY: docker-table
@@ -269,6 +271,8 @@ docker-table:
   $(AT)echo
 	$(DOCKER_CMD) ps --format "table {{.Image}}\t{{.Ports}}\t{{.Names}}"
 	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Docker table command finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run docker code lint command.
 .PHONY: docker-code-lint
@@ -276,7 +280,9 @@ docker-code-lint:
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-code-lint command.$(COLOR_NORMAL)"
   $(AT)echo
-	$(DOCKER_CMD) run -it \
+	$(DOCKER_CMD) run \
+    --interactive \
+    --tty \
 		--platform=linux/amd64 \
 		--rm \
 		--ulimit memlock=-1:-1 \
@@ -285,6 +291,8 @@ docker-code-lint:
 		--publish 8080:8080 \
 		jetbrains/qodana-jvm-community --show-report
 	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Docker code lint command finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run docker pandoc command.
 .PHONY: docker-pandoc
@@ -292,12 +300,16 @@ docker-pandoc:
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-pandoc command.$(COLOR_NORMAL)"
   $(AT)echo
-	$(DOCKER_CMD) run -it \
+	$(DOCKER_CMD) run \
+    --interactive \
+    --tty \
 		--platform=linux/amd64 \
 		--rm \
 		--user $(SYS_USER_GROUP) \
 		--volume "$(PWD):/data" \
 		pandoc/latex README.md -o README.pdf
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Docker pandoc command finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run docker clean command.
@@ -312,6 +324,8 @@ docker-remove:
   $(AT)echo
 	$(DOCKER_CMD) container rm --force "$(DOCKER_IMAGE_NAME)" > /dev/null
 	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Docker remove command finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run docker remove all images command.
 .PHONY: docker-remove-all
@@ -320,6 +334,8 @@ docker-remove-all:
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-remove-all command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(DOCKER_CMD) images | grep $(DOCKER_IMAGE_NAME) | awk '{print $3}' | xargs --no-run-if-empty $(DOCKER_CMD) rmi -f
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Docker remove all command finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run docker build command.
@@ -331,6 +347,8 @@ docker-build: _ensure-docker-tag
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-build.sh
 	$(SCRIPT_DIR)/docker-build.sh $(DOCKER_TAG)
 	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Docker build command finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run docker rebuild command.
 .PHONY: docker-rebuild
@@ -340,6 +358,8 @@ docker-rebuild: _ensure-docker-tag
   $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-rebuild.sh
 	$(SCRIPT_DIR)/docker-rebuild.sh $(DOCKER_TAG)
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Docker rebuild command finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run docker start command.
@@ -351,6 +371,8 @@ docker-start:
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
 	$(SCRIPT_DIR)/docker-compose.sh start
 	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Docker start command finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run docker stop command.
 .PHONY: docker-stop
@@ -360,6 +382,8 @@ docker-stop:
   $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
 	$(SCRIPT_DIR)/docker-compose.sh stop
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Docker stop command finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run docker logs command.
@@ -371,6 +395,8 @@ docker-logs:
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
 	$(SCRIPT_DIR)/docker-compose.sh logs
 	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Docker logs command finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run docker ps command.
 .PHONY: docker-ps
@@ -380,6 +406,8 @@ docker-ps:
   $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
 	$(SCRIPT_DIR)/docker-compose.sh ps
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Docker ps command finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run docker pull command.
@@ -391,6 +419,8 @@ docker-pull:
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
 	$(SCRIPT_DIR)/docker-compose.sh pull
 	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Docker pull command finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run tilt start command.
 .PHONY: tilt-start
@@ -399,6 +429,8 @@ tilt-start:
 	$(AT)echo "$(COLOR_RED)🌟 Running tilt-start command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)$(TILT_CMD) up
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Tilt start command finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run tilt stop command.
@@ -409,6 +441,8 @@ tilt-stop:
   $(AT)echo
 	$(AT)$(TILT_CMD) down --delete-namespaces
 	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Tilt stop command finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run skaffold deploy command.
 .PHONY: skaffold-start
@@ -417,6 +451,8 @@ skaffold-start: _ensure-skaffold-tag
 	$(AT)echo "$(COLOR_RED)🌟 Running skaffold-start command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)$(SKAFFOLD_CMD) dev --filename='skaffold.$(SKAFFOLD_TAG).yaml' --timestamps=false --update-check=true --interactive=true --no-prune=false --cache-artifacts=true
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Skaffold start command finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run skaffold destroy command.
@@ -427,6 +463,8 @@ skaffold-stop: _ensure-skaffold-tag
   $(AT)echo
 	$(AT)$(SKAFFOLD_CMD) delete --filename='skaffold.$(SKAFFOLD_TAG).yaml'
 	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Skaffold stop command finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run helm lint command.
 .PHONY: helm-lint
@@ -436,6 +474,8 @@ helm-lint:
   $(AT)echo
 	$(AT)$(HELM_CMD) lint charts --values charts/values.yaml
 	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Helm lint command finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run helm start command.
 .PHONY: helm-start
@@ -444,6 +484,8 @@ helm-start:
 	$(AT)echo "$(COLOR_RED)🌟 Running helm-start command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)$(HELM_CMD) upgrade --install $(CLUSTER_NAME) -f charts/values.yaml --create-namespace --namespace $(CLUSTER_NAMESPACE) charts
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Helm start command finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run helm stop command.
@@ -514,6 +556,18 @@ local-run: local-build
 	$(AT)echo "$(COLOR_RED)Python documentation is starting locally.$(COLOR_NORMAL)"
 	$(AT)echo
 	$(AT)$(PYTHON_CMD) -m mkdocs serve $(MKDOCS_SERVE_OPTS)
+
+# Run dependencies freeze command.
+.PHONY: local-freeze
+local-freeze:
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Python dependencies freeze.$(COLOR_NORMAL)"
+	$(AT)echo
+	$(AT)$(PYTHON_CMD) -m pip freeze -r ./docs/requirements.txt > ./docs/requirements_frozen.txt
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Python freeze finished.$(COLOR_NORMAL)"
+	$(AT)echo
+	$(AT)exit
 
 # Run venv build command.
 .PHONY: venv-build
@@ -679,6 +733,7 @@ docker-graph:
 	$(AT)$(DOCKER_CMD) run \
 		--platform=linux/amd64 \
 		--rm \
+    $DOCKER_OPTS \
 		--user $(SYS_USER_GROUP) \
 		--workdir /workspace \
 		--volume "$(PWD)/distribution/docker-images":/workspace \
@@ -694,6 +749,7 @@ lint:
 	$(AT)$(DOCKER_CMD) run \
 		--platform=linux/amd64 \
 		--rm \
+    $DOCKER_OPTS \
 		--user $(SYS_USER_GROUP) \
 		--volume "$(PWD):/tmp/lint" \
 		-e RUN_LOCAL=true \
@@ -710,6 +766,7 @@ syft:
 	$(AT)$(DOCKER_CMD) run \
 		--platform=linux/amd64 \
 		--rm \
+    $DOCKER_OPTS \
 		--user $(SYS_USER_GROUP) \
 		--volume "$(PWD)/config/config.json":/config/config.json \
 		$(if $(findstring true,$(VERBOSE)),,--quiet) \
