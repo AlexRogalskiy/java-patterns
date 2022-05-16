@@ -18,5 +18,12 @@ body = "pull_request_body"
 include_pr_number = true
 body_type = "markdown"
 
+# https://kodiakhq.com/docs/recipes#configuring-automerge-by-upgrade-type
+[merge.automerge_dependencies]
+versions = ["major", "minor", "patch"]
+usernames = ["dependabot"]
+
+# if using `update.always`, add dependabot to `update.ignore_usernames` to allow
+# dependabot to update and close stale dependency upgrades.
 [update]
 ignored_usernames = ["dependabot", "weblate"]

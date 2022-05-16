@@ -141,8 +141,8 @@ module.exports = {
 	],
 	setupFilesAfterEnv: ['<rootDir>/jest/jest-env-setup.js', 'jest-extended-snapshot'],
 	moduleNameMapper: {
-		'\\.(css|less|sass|scss)$': 'identity-obj-proxy',
-		'\\.(gif|ttf|eot|svg|png)$': '<rootDir>/jest/mocks/jest-file-mock.js',
+		'.+\\.(css|less|sass|scss)$': 'identity-obj-proxy',
+    ".+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": '<rootDir>/jest/mocks/jest-file-mock.js',
 	},
 	watchPlugins: [
 		'jest-watch-select-projects',

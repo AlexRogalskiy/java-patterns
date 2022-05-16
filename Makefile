@@ -57,6 +57,8 @@ SKAFFOLD_CMD 					:= $(shell command -v skaffold 2> /dev/null || type -p skaffol
 TILT_CMD 							:= $(shell command -v tilt 2> /dev/null || type -p tilt)
 # HELM_CMD stores helm binary
 HELM_CMD 							:= $(shell command -v helm 2> /dev/null || type -p helm)
+# OKTETO_CMD stores okteto binary
+OKTETO_CMD 						:= $(shell command -v okteto 2> /dev/null || type -p okteto)
 # GIT_CMD stores git binary
 GIT_CMD 							:= $(shell command -v git 2> /dev/null || type -p git)
 
@@ -79,8 +81,10 @@ VENV_PYTHON						:= $(VENV_BIN)/python3
 
 # WGET_OPTS stores wget options
 WGET_OPTS 						:= --no-check-certificate
+# PIP_OPTS stores pip options
+PIP_OPTS		 		      := --disable-pip-version-check --no-cache-dir
 # PIP_BUILD_OPTS stores pip build options
-PIP_BUILD_OPTS		 		:= --disable-pip-version-check --no-cache-dir --no-compile --prefer-binary
+PIP_BUILD_OPTS		 		:= $(PIP_OPTS) --no-compile --prefer-binary
 # MKDOCS_BUILD_OPTS stores mkdocs build options
 MKDOCS_BUILD_OPTS 		:= --clean --strict --verbose --config-file mkdocs.yml
 # MKDOCS_DEPLOY_OPTS stores mkdocs deploy options
@@ -170,6 +174,7 @@ endif
 ##= help: to list all make targets with description
 ##= install-pip: to install python pip module
 ##= list: to list all make targets
+##= local-install: to install dependencies locally
 ##= local-build: to build documentation locally
 ##= local-run: to run documentation locally
 ##= okteto: to build okteto image
@@ -345,7 +350,7 @@ docker-build: _ensure-docker-tag
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-build command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-build.sh
-	$(SCRIPT_DIR)/docker-build.sh $(DOCKER_TAG)
+	$(SCRIPT_DIR)/docker-build.sh $(DOCKER_TAG) $@
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker build command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -357,7 +362,7 @@ docker-rebuild: _ensure-docker-tag
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-rebuild command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-rebuild.sh
-	$(SCRIPT_DIR)/docker-rebuild.sh $(DOCKER_TAG)
+	$(SCRIPT_DIR)/docker-rebuild.sh $(DOCKER_TAG) $@
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker rebuild command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -369,7 +374,7 @@ docker-start:
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-start command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
-	$(SCRIPT_DIR)/docker-compose.sh start
+	$(SCRIPT_DIR)/docker-compose.sh start $@
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker start command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -381,7 +386,7 @@ docker-stop:
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-stop command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
-	$(SCRIPT_DIR)/docker-compose.sh stop
+	$(SCRIPT_DIR)/docker-compose.sh stop $@
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker stop command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -393,7 +398,7 @@ docker-logs:
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-logs command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
-	$(SCRIPT_DIR)/docker-compose.sh logs
+	$(SCRIPT_DIR)/docker-compose.sh logs $@
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker logs command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -405,7 +410,7 @@ docker-ps:
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-ps command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
-	$(SCRIPT_DIR)/docker-compose.sh ps
+	$(SCRIPT_DIR)/docker-compose.sh ps $@
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker ps command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -417,7 +422,7 @@ docker-pull:
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-pull command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
-	$(SCRIPT_DIR)/docker-compose.sh pull
+	$(SCRIPT_DIR)/docker-compose.sh pull $@
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker pull command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -519,8 +524,8 @@ okteto:
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running okteto-build command.$(COLOR_NORMAL)"
   $(AT)echo
-	$(AT)okteto build -t $(DOCKER_HUB_IMAGE_NAME) .
-	$(AT)okteto build -t $(OKTETO_IMAGE_NAME) .
+	$(AT)$(OKTETO_CMD) build -t $(DOCKER_HUB_IMAGE_NAME) .
+	$(AT)$(OKTETO_CMD) build -t $(OKTETO_IMAGE_NAME) .
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Okteto images build finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -529,7 +534,7 @@ okteto:
 .PHONY: install-pip
 install-pip:
 	$(AT)echo
-	$(AT)echo "$(COLOR_RED)🌟 Running install-pip command.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)🌟 Running install-pip command locally.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)wget $(WGET_OPTS) https://bootstrap.pypa.io/get-pip.py -O $(TMPDIR)/get-pip.py
 	$(AT)$(PYTHON_CMD) $(TMPDIR)/get-pip.py
@@ -537,14 +542,24 @@ install-pip:
 	$(AT)echo "$(COLOR_RED)Pip installed.$(COLOR_NORMAL)"
 	$(AT)echo
 
+# Run local install command.
+.PHONY: local-install
+local-install:
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running pip-install command locally.$(COLOR_NORMAL)"
+  $(AT)echo
+	$(AT)$(PYTHON_CMD) -m pip install $(PIP_BUILD_OPTS) -r ./requirements/local.hash $@
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Python dependencies installation finished.$(COLOR_NORMAL)"
+	$(AT)echo
+
 # Run local build command.
 .PHONY: local-build
-local-build:
+local-build: local-install
 	$(AT)echo
-	$(AT)echo "$(COLOR_RED)🌟 Running mkdocs-build command.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)🌟 Running mkdocs-build command locally.$(COLOR_NORMAL)"
   $(AT)echo
-	$(AT)$(PYTHON_CMD) -m pip install $(PIP_BUILD_OPTS) -r ./requirements/local.hash
-	$(AT)$(PYTHON_CMD) -m mkdocs build $(MKDOCS_BUILD_OPTS)
+	$(AT)$(PYTHON_CMD) -m mkdocs build $(MKDOCS_BUILD_OPTS) $@
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Python documentation build finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -553,32 +568,43 @@ local-build:
 .PHONY: local-run
 local-run: local-build
 	$(AT)echo
-	$(AT)echo "$(COLOR_RED)Python documentation is starting locally.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)🌟 Running mkdocs-serve command locally.$(COLOR_NORMAL)"
 	$(AT)echo
-	$(AT)$(PYTHON_CMD) -m mkdocs serve $(MKDOCS_SERVE_OPTS)
+	$(AT)$(PYTHON_CMD) -m mkdocs serve $(MKDOCS_SERVE_OPTS) $@
 
 # Run dependencies freeze command.
 .PHONY: local-freeze
 local-freeze:
 	$(AT)echo
-	$(AT)echo "$(COLOR_RED)Python dependencies freeze.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)🌟 Running python dependencies freeze locally.$(COLOR_NORMAL)"
 	$(AT)echo
-	$(AT)$(PYTHON_CMD) -m pip freeze -r ./docs/requirements.txt > ./docs/requirements_frozen.txt
+	$(AT)$(PYTHON_CMD) -m pip freeze $(PIP_OPTS) -r ./docs/requirements.txt $@ > ./docs/requirements_frozen.txt
 	$(AT)echo
-	$(AT)echo "$(COLOR_RED)Python freeze finished.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)Python dependencies local freeze finished.$(COLOR_NORMAL)"
+	$(AT)echo
+	$(AT)exit
+
+# Run venv install command.
+.PHONY: venv-install
+venv-install: _venv
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running pip-install command in venv.$(COLOR_NORMAL)"
+  $(AT)echo
+	$(AT)$(VENV_PYTHON) -m pip install $(PIP_BUILD_OPTS) -r ./docs/requirements.txt $@
+	$(AT)echo
+  $(AT)echo "$(COLOR_RED)Python dependencies installation finished. The sources are in $(VENV_NAME) directory.$(COLOR_NORMAL)"
 	$(AT)echo
 	$(AT)exit
 
 # Run venv build command.
 .PHONY: venv-build
-venv-build: _venv
+venv-build: venv-install
 	$(AT)echo
-	$(AT)echo "$(COLOR_RED)🌟 Running mkdocs-build in venv command.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)🌟 Running mkdocs-build command in venv.$(COLOR_NORMAL)"
   $(AT)echo
-	$(AT)$(VENV_PYTHON) -m pip install $(PIP_BUILD_OPTS) -r ./docs/requirements.txt
-	$(AT)$(VENV_PYTHON) -m mkdocs build $(MKDOCS_BUILD_OPTS)
+	$(AT)$(VENV_PYTHON) -m mkdocs build $(MKDOCS_BUILD_OPTS) $@
 	$(AT)echo
-	$(AT)echo "$(COLOR_RED)Build finished. The source pages are in $(VENV_NAME) directory.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)Python dependencies build finished. The source pages are in $(VENV_NAME) directory.$(COLOR_NORMAL)"
 	$(AT)echo
 	$(AT)exit
 
@@ -586,17 +612,17 @@ venv-build: _venv
 .PHONY: venv-run
 venv-run: venv-build
 	$(AT)echo
-	$(AT)echo "$(COLOR_RED)🌟 Running mkdocs in venv command.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)🌟 Running mkdocs-serve command in venv.$(COLOR_NORMAL)"
   $(AT)echo
-	$(AT)$(VENV_PYTHON) -m mkdocs serve $(MKDOCS_SERVE_OPTS)
+	$(AT)$(VENV_PYTHON) -m mkdocs serve $(MKDOCS_SERVE_OPTS) $@
 
 # Run github pages deploy command.
 .PHONY: gh-pages
 gh-pages:
 	$(AT)echo
-	$(AT)echo "$(COLOR_RED)🌟 Running python gh-pages command.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)🌟 Running mkdocs gh-deploy command.$(COLOR_NORMAL)"
   $(AT)echo
-	$(AT)$(PYTHON_CMD) -m mkdocs gh-deploy $(MKDOCS_DEPLOY_OPTS)
+	$(AT)$(PYTHON_CMD) -m mkdocs gh-deploy $(MKDOCS_DEPLOY_OPTS) $@
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)GitHub pages generated.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -605,7 +631,7 @@ gh-pages:
 .PHONY: deps
 deps:
 	$(AT)echo
-	$(AT)echo "$(COLOR_RED)🌟 Running npm-install command.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)🌟 Running npm-install command locally.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)$(NPM_CMD) install
 	$(AT)echo
@@ -616,7 +642,7 @@ deps:
 .PHONY: all
 all:
 	$(AT)echo
-	$(AT)echo "$(COLOR_RED)🌟 Running npm-all command.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)🌟 Running npm-all command locally.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)$(NPM_CMD) run all
 	$(AT)echo
@@ -737,6 +763,7 @@ docker-graph:
 		--user $(SYS_USER_GROUP) \
 		--workdir /workspace \
 		--volume "$(PWD)/distribution/docker-images":/workspace \
+		$(if $(findstring true,$(VERBOSE)),,--quiet) \
 		ghcr.io/patrickhoefler/dockerfilegraph
 	$(AT)echo
 
@@ -752,6 +779,7 @@ lint:
     $DOCKER_OPTS \
 		--user $(SYS_USER_GROUP) \
 		--volume "$(PWD):/tmp/lint" \
+		$(if $(findstring true,$(VERBOSE)),,--quiet) \
 		-e RUN_LOCAL=true \
 		-e LINTER_RULES_PATH=/ \
 		github/super-linter

@@ -1,4 +1,5 @@
 # Example markdownlint YAML configuration with all properties set to their default value
+# Add config from DavidAnsons Markdownlint library config https://github.com/DavidAnson/vscode-markdownlint
 
 # Default state for all rules
 default: true
