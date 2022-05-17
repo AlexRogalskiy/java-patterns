@@ -37,6 +37,8 @@ set -o pipefail
 
 ## BASE_DIR stores base directory
 BASE_DIR=$(dirname "$0")/..
+## DOCKER_DIR stores docker directory
+DOCKER_DIR="${BASE_DIR}"
 # DOCKER_COMPOSE_CMD stores docker compose command
 DOCKER_COMPOSE_CMD=${DOCKER_COMPOSE_CMD:-$(command -v docker-compose 2> /dev/null || command -v docker compose 2> /dev/null || type -p docker-compose)}
 # DOCKER_COMPOSE_OPTS stores docker compose options
@@ -45,6 +47,20 @@ DOCKER_COMPOSE_OPTS=${DOCKER_COMPOSE_OPTS:-"--ansi=never"}
 _exit() {
   (($# > 1)) && echo "${@:2}"
   exit "$1"
+}
+
+header() {
+    cat <<-_EOF_
+--------------------------------------------------------
+ Java Design Patterns Documentation
+ Author: Alexander Rogalskiy <hi@sensiblemetrics.io>
+ License: GNU GPL 3.0
+ Code: <http://github.com/AlexRogalskiy/java-patterns>
+ Note: this utility was developed for the GitHub project.
+ More info: <https://alexander-rogalsky.gitbook.io/java-patterns>
+--------------------------------------------------------
+Please, follow the wizard in order to run *Java Patterns* locally
+_EOF_
 }
 
 usage() {
@@ -96,7 +112,7 @@ docker_ps() {
 
   $DOCKER_COMPOSE_CMD \
     $DOCKER_COMPOSE_OPTS \
-    --file "${BASE_DIR}/docker-compose.yml" \
+    --file "${DOCKER_DIR}/docker-compose.yml" \
     ps "$@"
 }
 
@@ -105,7 +121,7 @@ docker_logs() {
 
   $DOCKER_COMPOSE_CMD \
     $DOCKER_COMPOSE_OPTS \
-    --file "${BASE_DIR}/docker-compose.yml" \
+    --file "${DOCKER_DIR}/docker-compose.yml" \
     logs -t --follow "$@"
 }
 
@@ -114,7 +130,7 @@ docker_pull() {
 
   $DOCKER_COMPOSE_CMD \
     $DOCKER_COMPOSE_OPTS \
-    --file "${BASE_DIR}/docker-compose.yml" \
+    --file "${DOCKER_DIR}/docker-compose.yml" \
     pull --include-deps --quiet "$@"
 }
 
@@ -123,7 +139,7 @@ docker_start() {
 
   $DOCKER_COMPOSE_CMD \
     $DOCKER_COMPOSE_OPTS \
-    --file "${BASE_DIR}/docker-compose.yml" \
+    --file "${DOCKER_DIR}/docker-compose.yml" \
     up --detach --build --force-recreate --renew-anon-volumes "$@"
 }
 
@@ -132,7 +148,7 @@ docker_stop() {
 
   $DOCKER_COMPOSE_CMD \
     $DOCKER_COMPOSE_OPTS \
-    --file "${BASE_DIR}/docker-compose.yml" \
+    --file "${DOCKER_DIR}/docker-compose.yml" \
     down --remove-orphans --volumes "$@"
 }
 
@@ -161,6 +177,7 @@ main() {
       ;;
     *)
       _error "Unrecognized option: $cmd"
+      header
       usage
       ;;
   esac

@@ -263,7 +263,7 @@ docker-scan:
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-scan command.$(COLOR_NORMAL)"
   $(AT)echo
-	$(DOCKER_CMD) scan --json --group-issues --dependency-tree -f Dockerfile "$(IMAGE_NAME)"
+	$(AT)$(DOCKER_CMD) scan --json --group-issues --dependency-tree --file Dockerfile "$(IMAGE_NAME)"
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker scan command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -274,7 +274,7 @@ docker-table:
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-table command.$(COLOR_NORMAL)"
   $(AT)echo
-	$(DOCKER_CMD) ps --format "table {{.Image}}\t{{.Ports}}\t{{.Names}}"
+	$(AT)$(DOCKER_CMD) ps --format "table {{.Image}}\t{{.Ports}}\t{{.Names}}"
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker table command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -285,7 +285,7 @@ docker-code-lint:
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-code-lint command.$(COLOR_NORMAL)"
   $(AT)echo
-	$(DOCKER_CMD) run \
+	$(AT)$(DOCKER_CMD) run \
     --interactive \
     --tty \
 		--platform=linux/amd64 \
@@ -305,7 +305,7 @@ docker-pandoc:
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-pandoc command.$(COLOR_NORMAL)"
   $(AT)echo
-	$(DOCKER_CMD) run \
+	$(AT)$(DOCKER_CMD) run \
     --interactive \
     --tty \
 		--platform=linux/amd64 \
@@ -327,7 +327,7 @@ docker-remove:
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-remove command.$(COLOR_NORMAL)"
   $(AT)echo
-	$(DOCKER_CMD) container rm --force "$(DOCKER_IMAGE_NAME)" > /dev/null
+	$(AT)$(DOCKER_CMD) container rm --force "$(DOCKER_IMAGE_NAME)" > /dev/null
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker remove command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -338,7 +338,7 @@ docker-remove-all:
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-remove-all command.$(COLOR_NORMAL)"
   $(AT)echo
-	$(DOCKER_CMD) images | grep $(DOCKER_IMAGE_NAME) | awk '{print $3}' | xargs --no-run-if-empty $(DOCKER_CMD) rmi -f
+	$(AT)$(DOCKER_CMD) images | grep $(DOCKER_IMAGE_NAME) | awk '{print $3}' | xargs --no-run-if-empty $(DOCKER_CMD) rmi --force
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker remove all command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -350,7 +350,7 @@ docker-build: _ensure-docker-tag
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-build command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-build.sh
-	$(SCRIPT_DIR)/docker-build.sh $(DOCKER_TAG) $@
+	$(AT)$(SCRIPT_DIR)/docker-build.sh $(DOCKER_TAG) $@
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker build command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -362,7 +362,7 @@ docker-rebuild: _ensure-docker-tag
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-rebuild command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-rebuild.sh
-	$(SCRIPT_DIR)/docker-rebuild.sh $(DOCKER_TAG) $@
+	$(AT)$(SCRIPT_DIR)/docker-rebuild.sh $(DOCKER_TAG) $@
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker rebuild command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -374,7 +374,7 @@ docker-start:
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-start command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
-	$(SCRIPT_DIR)/docker-compose.sh start $@
+	$(AT)$(SCRIPT_DIR)/docker-compose.sh start $@
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker start command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -386,7 +386,7 @@ docker-stop:
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-stop command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
-	$(SCRIPT_DIR)/docker-compose.sh stop $@
+	$(AT)$(SCRIPT_DIR)/docker-compose.sh stop $@
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker stop command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -398,7 +398,7 @@ docker-logs:
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-logs command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
-	$(SCRIPT_DIR)/docker-compose.sh logs $@
+	$(AT)$(SCRIPT_DIR)/docker-compose.sh logs $@
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker logs command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -410,7 +410,7 @@ docker-ps:
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-ps command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
-	$(SCRIPT_DIR)/docker-compose.sh ps $@
+	$(AT)$(SCRIPT_DIR)/docker-compose.sh ps $@
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker ps command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -422,7 +422,7 @@ docker-pull:
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-pull command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
-	$(SCRIPT_DIR)/docker-compose.sh pull $@
+	$(AT)$(SCRIPT_DIR)/docker-compose.sh pull $@
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker pull command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -738,13 +738,13 @@ install-link-checker:
 .PHONY: setup-link-checker
 setup-link-checker: install-link-checker
 	$(AT)chmod +x $(SCRIPT_DIR)/$(HTMLTEST)
-	$(SCRIPT_DIR)/$(HTMLTEST) -d -b $(SCRIPT_DIR)/bin
+	$(AT)$(SCRIPT_DIR)/$(HTMLTEST) -d -b $(SCRIPT_DIR)/bin
 
 # Run run link checker command.
 .PHONY: run-link-checker
 run-link-checker: setup-link-checker
 	$(AT)chmod +x $(SCRIPT_DIR)/bin/$(HTMLTEST)
-	$(SCRIPT_DIR)/bin/$(HTMLTEST) $(HTMLTEST_OPTS)
+	$(AT)$(SCRIPT_DIR)/bin/$(HTMLTEST) $(HTMLTEST_OPTS)
 
 # Run check links command.
 .PHONY: check-links
@@ -780,8 +780,8 @@ lint:
 		--user $(SYS_USER_GROUP) \
 		--volume "$(PWD):/tmp/lint" \
 		$(if $(findstring true,$(VERBOSE)),,--quiet) \
-		-e RUN_LOCAL=true \
-		-e LINTER_RULES_PATH=/ \
+		--env RUN_LOCAL=true \
+		--env LINTER_RULES_PATH=/ \
 		github/super-linter
 	$(AT)echo
 
@@ -798,7 +798,7 @@ syft:
 		--user $(SYS_USER_GROUP) \
 		--volume "$(PWD)/config/config.json":/config/config.json \
 		$(if $(findstring true,$(VERBOSE)),,--quiet) \
-  	-e "DOCKER_CONFIG=/config" \
+  	--env "DOCKER_CONFIG=/config" \
   	anchore/syft:latest \
   	"$(IMAGE_NAME)"
 	$(AT)echo

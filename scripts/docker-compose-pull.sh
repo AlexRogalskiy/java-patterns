@@ -21,6 +21,8 @@ set -o pipefail
 
 ## setup base directory
 BASE_DIR=$(dirname "$0")/..
+## DOCKER_DIR stores docker directory
+DOCKER_DIR="${BASE_DIR}"
 # DOCKER_COMPOSE_CMD stores docker compose command
 DOCKER_COMPOSE_CMD=${DOCKER_COMPOSE_CMD:-$(command -v docker-compose 2> /dev/null || command -v docker compose 2> /dev/null || type -p docker-composee)}
 # DOCKER_COMPOSE_OPTS stores docker compose options
@@ -31,7 +33,7 @@ main() {
 
   $DOCKER_COMPOSE_CMD \
     $DOCKER_COMPOSE_OPTS \
-    --file "${BASE_DIR}/docker-compose.yml" pull --include-deps --quiet
+    --file "${DOCKER_DIR}/docker-compose.yml" pull --include-deps --quiet
 }
 
 main "$@"
