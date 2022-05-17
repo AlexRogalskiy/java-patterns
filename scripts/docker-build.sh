@@ -53,8 +53,8 @@ main() {
     --file "${DOCKER_DIR}/${tag}.Dockerfile" \
     --tag "${IMAGE_REPOSITORY}:${IMAGE_TAG}" \
     --tag "${IMAGE_REPOSITORY}:${GIT_SHA}" \
-		--build-arg BUILD_DATE=$(shell date -u +"%Y-%m-%dT%H:%M:%SZ") \
-		--build-arg VCS_REF=$(shell $(GIT_CMD) rev-parse --short HEAD) \
+    --build-arg BUILD_DATE=$(shell date -u +"%Y-%m-%dT%H:%M:%SZ") \
+    --build-arg VCS_REF=$(shell $(GIT_CMD) rev-parse --short HEAD) \
     "$BASE_DIR"
 }
 
