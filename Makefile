@@ -530,9 +530,9 @@ okteto:
 	$(AT)echo "$(COLOR_RED)Okteto images build finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
-# Install pip command.
-.PHONY: install-pip
-install-pip:
+# Run python local pip install command.
+.PHONY: python-install-pip
+python-install-pip:
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running install-pip command locally.$(COLOR_NORMAL)"
   $(AT)echo
@@ -542,9 +542,9 @@ install-pip:
 	$(AT)echo "$(COLOR_RED)Pip installed.$(COLOR_NORMAL)"
 	$(AT)echo
 
-# Run local install command.
-.PHONY: local-install
-local-install:
+# Run python local install command.
+.PHONY: python-install
+python-install: python-install-pip
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running pip-install command locally.$(COLOR_NORMAL)"
   $(AT)echo
@@ -553,9 +553,9 @@ local-install:
 	$(AT)echo "$(COLOR_RED)Python dependencies installation finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
-# Run local build command.
-.PHONY: local-build
-local-build: local-install
+# Run python local build command.
+.PHONY: python-build
+python-build: python-install
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running mkdocs-build command locally.$(COLOR_NORMAL)"
   $(AT)echo
@@ -564,17 +564,17 @@ local-build: local-install
 	$(AT)echo "$(COLOR_RED)Python documentation build finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
-# Run local run command.
-.PHONY: local-run
-local-run: local-build
+# Run python local run command.
+.PHONY: python-run
+python-run: python-build
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running mkdocs-serve command locally.$(COLOR_NORMAL)"
 	$(AT)echo
 	$(AT)$(PYTHON_CMD) -m mkdocs serve $(MKDOCS_SERVE_OPTS) $@
 
-# Run dependencies freeze command.
-.PHONY: local-freeze
-local-freeze:
+# Run python local freeze command.
+.PHONY: python-local-freeze
+python-local-freeze:
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running python dependencies freeze locally.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -584,9 +584,9 @@ local-freeze:
 	$(AT)echo
 	$(AT)exit
 
-# Run venv install command.
-.PHONY: venv-install
-venv-install: _venv
+# Run python venv install command.
+.PHONY: python-venv-install
+python-venv-install: _venv
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running pip-install command in venv.$(COLOR_NORMAL)"
   $(AT)echo
@@ -596,9 +596,9 @@ venv-install: _venv
 	$(AT)echo
 	$(AT)exit
 
-# Run venv build command.
-.PHONY: venv-build
-venv-build: venv-install
+# Run python venv build command.
+.PHONY: python-venv-build
+python-venv-build: python-venv-install
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running mkdocs-build command in venv.$(COLOR_NORMAL)"
   $(AT)echo
@@ -608,9 +608,9 @@ venv-build: venv-install
 	$(AT)echo
 	$(AT)exit
 
-# Run venv run command.
-.PHONY: venv-run
-venv-run: venv-build
+# Run python venv run command.
+.PHONY: python-venv-run
+python-venv-run: python-venv-build
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running mkdocs-serve command in venv.$(COLOR_NORMAL)"
   $(AT)echo
@@ -650,12 +650,14 @@ all:
 	$(AT)echo
 
 # Run git diff command.
-.PHONY: diff
-diff:
+.PHONY: git-diff
+git-diff:
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running git-diff command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)$(GIT_CMD) diff --diff-filter=d --name-only
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Git diff command finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run git authors command.
@@ -666,6 +668,8 @@ git-authors:
   $(AT)echo
 	$(AT)find . -name ".git" -type d -exec $(GIT_CMD) --git-dir={} --work-tree="$(PWD)"/{} config --get remote.origin.url \; -exec $(GIT_CMD) --git-dir={} --work-tree="$(PWD)"/{} --no-pager shortlog -sn \;
 	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Git authors command finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run git pull command.
 .PHONY: git-pull
@@ -674,6 +678,8 @@ git-pull:
 	$(AT)echo "$(COLOR_RED)🌟 Running git-pull command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)find . -name ".git" -type d | xargs -P10 -I{} $(GIT_CMD) --git-dir={} --work-tree="$(PWD)"/{} pull origin master
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Git pull command finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run git branch command.
@@ -684,6 +690,8 @@ git-branch:
   $(AT)echo
 	$(AT)$(GIT_CMD) for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
 	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Git branch command finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run git merge command.
 .PHONY: git-merge
@@ -693,6 +701,8 @@ git-merge:
   $(AT)echo
 	$(AT)$(GIT_CMD) log $(shell git merge-base --octopus $(shell git log -1 --merges --pretty=format:%P))..$(shell git log -1 --merges --pretty=format:%H) --pretty=format:%s
 	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Git merge command finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run git open command.
 .PHONY: git-open
@@ -701,6 +711,8 @@ git-open:
 	$(AT)echo "$(COLOR_RED)🌟 Running git-open command.$(COLOR_NORMAL)"
 	$(AT)echo
 	$(AT)open $(shell $(GIT_CMD) remote -v | awk "/fetch/{print $2}" | sed -Ee "s#(git@|git://)#http://#" -e "s@com:@com/@" | head -n1 | grep -Eo 'https?://[^ >]+')
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Git open command finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run git log command.
@@ -719,6 +731,8 @@ git-log:
     | sed 's/ N / /g' \
     | sed 's/ G / 🔑  /g'
 	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Git log command finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
 # Run git log command.
 .PHONY: git-changelog
@@ -727,6 +741,8 @@ git-changelog: release
 	$(AT)echo "$(COLOR_RED)🌟 Running git-changelog command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)$(GIT_CMD) log $(shell $(GIT_CMD) tag | tail -n1)..HEAD --no-merges --format=%B > changelog
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Git changelog command finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run install link checker command.
@@ -767,9 +783,9 @@ docker-graph:
 		ghcr.io/patrickhoefler/dockerfilegraph
 	$(AT)echo
 
-# Run lint command.
-.PHONY: lint
-lint:
+# Run docker lint command.
+.PHONY: docker-lint
+docker-lint:
   $(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-lint command.$(COLOR_NORMAL)"
   $(AT)echo
@@ -785,9 +801,9 @@ lint:
 		github/super-linter
 	$(AT)echo
 
-# Run syft command.
-.PHONY: syft
-syft:
+# Run docker syft command.
+.PHONY: docker-syft
+docker-syft:
   $(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-syft command.$(COLOR_NORMAL)"
   $(AT)echo
@@ -803,35 +819,41 @@ syft:
   	"$(IMAGE_NAME)"
 	$(AT)echo
 
-# Run zip archive command.
+# Run git zip archive command.
 .PHONY: git-zip
 git-zip:
   $(AT)echo
-	$(AT)echo "$(COLOR_RED)🌟 Running git-zip-archive command.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)🌟 Running git-zip archive command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)$(GIT_CMD) archive -o $(basename $PWD).zip HEAD
 	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Git zip-archive command finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
-# Run tgz archive command.
+# Run git tgz archive command.
 .PHONY: git-tgz
 git-tgz:
   $(AT)echo
-	$(AT)echo "$(COLOR_RED)🌟 Running git-tgz-archive command.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)🌟 Running git-tgz archive command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)$(GIT_CMD) archive -o $(basename $PWD).tgz HEAD
 	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Git tgz-archive command finished.$(COLOR_NORMAL)"
+	$(AT)echo
 
-# Run clean images command.
-.PHONY: clean-images
-clean-images:
+# Run docker clean images command.
+.PHONY: docker-clean-images
+docker-clean-images:
   $(AT)echo
-	$(AT)echo "$(COLOR_RED)🌟 Running docker-clean-images command.$(COLOR_NORMAL)"
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-clean images command.$(COLOR_NORMAL)"
   $(AT)echo
 	echo "Cleaning images \n========================================== ";
 	for image in `$(DOCKER_CMD) images -qf "label=$(DOCKER_IMAGE_NAME)"`; do \
 	    echo "Removing image $${image} \n==========================================\n " ; \
         $(DOCKER_CMD) rmi -f $${image} || exit 1 ; \
     done
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Docker clean images command finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # printvars prints all the variables currently defined in our

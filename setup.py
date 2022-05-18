@@ -5,8 +5,6 @@ import os
 
 from setuptools import find_packages, setup
 
-VERSION = '1.0.1'
-
 README = '''
 java-patterns
 =================
@@ -27,9 +25,11 @@ with open(os.path.join('requirements', 'base.in')) as fp:
 with codecs.open(os.path.join(here, 'README.md'), encoding='utf-8') as fh:
     long_description = '\n' + fh.read()
 
+setup_requires = ['setuptools', 'wheel']
+
 setup(
     name='java-patterns',
-    version=VERSION,
+    version=open('VERSION').read().replace('-', '.dev', 1).strip(),
     description='Java Design Patterns Documentation',
     author='Alexander Rogalskiy',
     author_email='hi@sensiblemetrics.io',
@@ -37,6 +37,7 @@ setup(
     include_package_data=True,
     packages=find_packages(exclude=['tests']),
     install_requires=REQUIREMENTS,
+    setup_requires=setup_requires,
     python_requires='~=3.9',
     license='GPL-3.0',
     zip_safe=False,
@@ -50,9 +51,11 @@ setup(
     classifiers=[
         'Development Status :: Production/Stable',
         'Intended Audience :: Developers',
+        'Operating System :: POSIX :: Linux',
+        'Operating System :: MacOS :: MacOS X',
+        'Programming Language :: Python :: 3',
         'License :: OSI Approved :: GPL-3.0 License',
         'Natural Language :: English',
         'Topic :: Utilities',
     ],
-    setup_requires=['setuptools', 'wheel'],
 )
