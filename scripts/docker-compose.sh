@@ -50,7 +50,7 @@ _exit() {
 }
 
 header() {
-    cat <<-_EOF_
+  cat <<-_EOF_
 --------------------------------------------------------
  Java Design Patterns Documentation
  Author: Alexander Rogalskiy <hi@sensiblemetrics.io>
