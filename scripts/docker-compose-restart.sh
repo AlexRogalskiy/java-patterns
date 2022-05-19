@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Usage example: /bin/sh ./scripts/docker-compose-logs.sh
+# Usage example: /bin/sh ./scripts/docker-compose-restart.sh
 
 set -o errexit
 set -o nounset
@@ -28,17 +28,12 @@ DOCKER_COMPOSE_CMD=${DOCKER_COMPOSE_CMD:-$(command -v docker-compose 2> /dev/nul
 # DOCKER_COMPOSE_OPTS stores docker compose options
 DOCKER_COMPOSE_OPTS=${DOCKER_COMPOSE_OPTS:-"--ansi=never"}
 
-_exit() {
-  (($# > 1)) && echo "${@:2}"
-  exit "$1"
-}
-
 main() {
-  echo ">>> Logging docker containers..."
+  echo ">>> Starting docker containers..."
 
   $DOCKER_COMPOSE_CMD \
     $DOCKER_COMPOSE_OPTS \
-    --file "${DOCKER_DIR}/docker-compose.yml" logs -t --follow "$@"
+    --file "${DOCKER_DIR}/docker-compose.yml" restart "$@"
 }
 
 main "$@"

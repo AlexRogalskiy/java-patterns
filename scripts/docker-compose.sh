@@ -143,6 +143,15 @@ docker_start() {
     up --detach --build --force-recreate --renew-anon-volumes "$@"
 }
 
+docker_restart() {
+  echo ">>> Restarting docker containers..."
+
+  $DOCKER_COMPOSE_CMD \
+    $DOCKER_COMPOSE_OPTS \
+    --file "${DOCKER_DIR}/docker-compose.yml" \
+    restart "$@"
+}
+
 docker_stop() {
   echo ">>> Stopping docker containers..."
 
@@ -162,6 +171,9 @@ main() {
       ;;
     [sS]top|[dD]own)
       docker_stop "${@:1}"
+      ;;
+    [rR]estart|-r)
+      docker_restart "${@:1}"
       ;;
     [lL]ogs|-l)
       docker_logs "${@:1}"

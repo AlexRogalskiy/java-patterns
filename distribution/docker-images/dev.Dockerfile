@@ -1,3 +1,4 @@
+# syntax=docker/dockerfile:experimental
 ##
 ## ---- Base stage ----
 ## docker build -t styled-java-patterns --build-arg IMAGE_SOURCE=node --build-arg IMAGE_TAG=12-buster .
@@ -56,7 +57,8 @@ ENV APP_DIR=$APP_DIR \
     DATA_DIR=$DATA_DIR \
     TEMP_DIR=$TEMP_DIR
 
-ENV TZ=UTC \
+ENV TERM="xterm"\
+    TZ=UTC \
     LANGUAGE=en_US:en \
     LC_ALL=$LC_ALL \
     LC_CTYPE=$LC_ALL \
@@ -102,10 +104,13 @@ RUN echo "**** Installing build packages ****"
 ## RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 RUN apt-get update \
     && apt-get install --assume-yes --no-install-recommends $INSTALL_PACKAGES \
-    && apt-get autoclean \
-    && apt-get clean \
-    && apt-get autoremove \
-    && rm -rf /var/lib/apt/lists/*
+    && apt-get -y autoclean \
+    && apt-get -y clean \
+    && apt-get -y autoremove \
+    && rm -rf /var/lib/apt/lists/* \
+    && rm -rf /tmp/* \
+    && rm -rf /var/tmp/* \
+    && rm -rf /var/cache/apt/*
 
 ## install python
 RUN echo "**** Installing Python ****"
@@ -126,10 +131,8 @@ RUN echo "python version: $(python3 --version)"
 ENTRYPOINT [ "/usr/bin/tini", "--" ]
 
 ## remove cache
-RUN echo "**** Cleaning cache ****"
-
+RUN echo "**** Cleaning packages ****"
 RUN apt-get remove -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev libbz2-dev g++
-RUN rm -rf /var/cache/apt/* /tmp/* /var/tmp/*
 
 ## copy project files
 COPY ./package.json .

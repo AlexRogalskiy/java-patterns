@@ -161,6 +161,7 @@ endif
 ##= docker-build: to build docker image
 ##= docker-start: to start docker image
 ##= docker-stop: to stop docker image
+##= docker-restart: to restart docker image
 ##= gh-pages: to create new version of documentation and publish on GitHub pages
 ##= git-authors: to lint git authors
 ##= git-pull: to pull remote changes
@@ -389,6 +390,18 @@ docker-stop:
 	$(AT)$(SCRIPT_DIR)/docker-compose.sh stop $@
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker stop command finished.$(COLOR_NORMAL)"
+	$(AT)echo
+
+# Run docker restart command.
+.PHONY: docker-restart
+docker-restart:
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-restart command.$(COLOR_NORMAL)"
+  $(AT)echo
+	$(AT)chmod +x $(SCRIPT_DIR)/docker-compose.sh
+	$(AT)$(SCRIPT_DIR)/docker-compose.sh restart $@
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)Docker restart command finished.$(COLOR_NORMAL)"
 	$(AT)echo
 
 # Run docker logs command.

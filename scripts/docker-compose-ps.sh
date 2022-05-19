@@ -33,7 +33,7 @@ main() {
 
   $DOCKER_COMPOSE_CMD \
     $DOCKER_COMPOSE_OPTS \
-    --file "${DOCKER_DIR}/docker-compose.yml" ps
+    --file "${DOCKER_DIR}/docker-compose.yml" ps "$@"
 }
 
 main "$@"
