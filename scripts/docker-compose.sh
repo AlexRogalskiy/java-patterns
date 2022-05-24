@@ -195,4 +195,4 @@ main() {
   esac
 }
 
-main "$@"
+[[ "$0" == "$BASH_SOURCE" ]] && main "$@"

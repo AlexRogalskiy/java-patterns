@@ -1,4 +1,22 @@
 # syntax=docker/dockerfile:experimental
+# Available Build Args:
+#   IMAGE_SOURCE: source image name
+#   IMAGE_TAG: source image tag
+#   PYTHON_VERSION: python version
+#   USER: shell user
+#   UID: user identifier
+#   GID: group identifier
+#   NAME: image name
+#   VERSION: image version
+#   PACKAGE: image package
+#   DESCRIPTION: image description
+#   LC_ALL: image default encoding
+#   BUILD_DATE: image build date
+#   VCS_REF: image revision
+#   APP_DIR: target application directory
+#   DATA_DIR: target data directory
+#   TEMP_DIR: target temp directory
+#   INSTALL_PACKAGES: list of installed packages
 ##
 ## ---- Base stage ----
 ## docker build -t styled-java-patterns --build-arg IMAGE_SOURCE=node --build-arg IMAGE_TAG=12-buster .
@@ -49,6 +67,9 @@ LABEL "com.github.vcs-ref"="$VCS_REF"
 
 LABEL "com.github.name"="$NAME"
 LABEL "com.github.description"="$DESCRIPTION"
+
+## setup shell options
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 ## setup environment variables
 ENV PYTHON_VERSION $PYTHON_VERSION
@@ -103,10 +124,11 @@ WORKDIR $APP_DIR
 RUN echo "**** Installing build packages ****"
 ## RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 RUN apt-get update \
-    && apt-get install --assume-yes --no-install-recommends $INSTALL_PACKAGES \
-    && apt-get -y autoclean \
-    && apt-get -y clean \
-    && apt-get -y autoremove \
+    && apt-get upgrade -yqq \
+    && apt-get install --assume-yes --no-install-recommends --only-upgrade $INSTALL_PACKAGES 2>&1 > /dev/null \
+    && apt-get -yqq autoclean \
+    && apt-get -yqq clean \
+    && apt-get -yqq autoremove \
     && rm -rf /var/lib/apt/lists/* \
     && rm -rf /tmp/* \
     && rm -rf /var/tmp/* \
@@ -132,7 +154,7 @@ ENTRYPOINT [ "/usr/bin/tini", "--" ]
 
 ## remove cache
 RUN echo "**** Cleaning packages ****"
-RUN apt-get remove -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev libbz2-dev g++
+RUN apt-get remove -yqq build-essential zlib1g-dev libncurses5-dev libgdbm-dev libssl-dev libsqlite3-dev libreadline-dev libffi-dev libbz2-dev g++ 2>&1 > /dev/null
 
 ## copy project files
 COPY ./package.json .

@@ -36,4 +36,4 @@ main() {
     --file "${DOCKER_DIR}/docker-compose.yml" pull --include-deps --quiet "$@"
 }
 
-main "$@"
+[[ "$0" == "$BASH_SOURCE" ]] && main "$@"

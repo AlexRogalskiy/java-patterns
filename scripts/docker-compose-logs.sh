@@ -41,4 +41,4 @@ main() {
     --file "${DOCKER_DIR}/docker-compose.yml" logs -t --follow "$@"
 }
 
-main "$@"
+[[ "$0" == "$BASH_SOURCE" ]] && main "$@"

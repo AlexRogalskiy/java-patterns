@@ -92,4 +92,4 @@ create_docker_container() {
     "${IMAGE_REPOSITORY}:${IMAGE_TAG}" build --strict
 }
 
-main "$@"
+[[ "$0" == "$BASH_SOURCE" ]] && main "$@"

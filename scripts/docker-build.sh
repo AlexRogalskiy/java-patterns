@@ -58,4 +58,4 @@ main() {
     "$BASE_DIR"
 }
 
-main "$@"
+[[ "$0" == "$BASH_SOURCE" ]] && main "$@"
