@@ -186,7 +186,10 @@ FROM base AS node-dependencies
 RUN echo "**** Installing node modules stage ****"
 
 ## update npm settings
-RUN npm set progress=false && npm config set depth 0
+RUN npm config set progress=false \
+    && npm config set depth 0 \
+    && npm config set package-lock true  \
+    && npm config set loglevel error
 
 ## install only <production> node_modules
 ## RUN npm install --no-audit --only=prod
@@ -195,7 +198,8 @@ RUN npm set progress=false && npm config set depth 0
 ## RUN cp -R node_modules prod_node_modules
 
 ## install node_modules, including 'devDependencies'
-RUN npm install --no-audit --only=dev
+RUN npm install --no-cache --no-audit --only=dev \
+    && npm audit fix --audit-level=critical
 
 ## remove cache
 RUN echo "**** Cleaning node cache ****"

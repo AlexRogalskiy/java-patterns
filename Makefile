@@ -288,7 +288,7 @@ docker-code-lint:
   $(AT)echo
 	$(AT)$(DOCKER_CMD) run \
     --interactive \
-    --tty \
+    $(DOCKER_FLAGS) \
 		--platform=linux/amd64 \
 		--rm \
 		--ulimit memlock=-1:-1 \
@@ -308,7 +308,7 @@ docker-pandoc:
   $(AT)echo
 	$(AT)$(DOCKER_CMD) run \
     --interactive \
-    --tty \
+    $(DOCKER_FLAGS) \
 		--platform=linux/amd64 \
 		--rm \
 		--user $(SYS_USER_GROUP) \
@@ -868,6 +868,32 @@ docker-clean-images:
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker clean images command finished.$(COLOR_NORMAL)"
 	$(AT)echo
+
+.PHONY: kcov
+kcov: ## Run kcov
+  $(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running docker-kcov command.$(COLOR_NORMAL)"
+  $(AT)echo
+	$(AT)$(DOCKER_CMD) run \
+	  --rm $(DOCKER_FLAGS) \
+		--user $(SYS_USER_GROUP) \
+		--volume "$(PWD)":/workspace \
+		-w="/workspace" \
+		kcov/kcov \
+		kcov \
+		--bash-parse-files-in-dir=/workspace \
+		--clean \
+		--exclude-pattern=.coverage,.git \
+		--include-pattern=.sh \
+	$(AT)echo
+
+.PHONY: info
+info: ## Gather information about the runtime environment
+	$(AT)echo "whoami: $$(whoami)"; \
+	$(AT)echo "pwd: $$(pwd)"; \
+	$(AT)echo "ls -ahl: $$(ls -ahl)"; \
+	$(AT)docker images; \
+	$(AT)docker ps
 
 # printvars prints all the variables currently defined in our
 # Makefiles. Alternatively, if a non-empty VARS variable is passed,

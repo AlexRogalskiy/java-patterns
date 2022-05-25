@@ -10,13 +10,14 @@ name: Lint Code Base
 #############################
 on:
   push:
-    branches: [ master ]
+    branches: [ master, main ]
     # Remove the line above to run when pushing to master
   pull_request:
-    branches: [ master ]
+    branches: [ master, main ]
 
 env:
   FILTER_REGEX_INCLUDE: .*docs/.*
+
 ###############
 # Set the Job #
 ###############
@@ -26,13 +27,25 @@ jobs:
     name: Lint Code Base
     # Set the agent to run on
     runs-on: ubuntu-latest
+
+    ##################
+    # Load all steps #
+    ##################
     steps:
+      ##########################
+      # Checkout the code base #
+      ##########################
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
+          # Full git history is needed to get a proper list of changed files within `super-linter`
           fetch-depth: 0
+
+      ################################
+      # Run Linter against code base #
+      ################################
       - name: Lint Code Base
-        uses: github/super-linter@v3
+        uses: github/super-linter/slim@v4
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: master
