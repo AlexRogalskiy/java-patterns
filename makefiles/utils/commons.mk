@@ -70,18 +70,13 @@ DOCKER_BUILDKIT 					:= 1
 # COMPOSE_DOCKER_CLI_BUILD stores docker cli build option
 COMPOSE_DOCKER_CLI_BUILD 	:= 1
 
-# SHELLFLAGS stores the shell flags.
-.SHELLFLAGS 	+= -o errexit
-.SHELLFLAGS 	+= -o nounset
+# WGET_OPTS stores wget options
+WGET_OPTS 						    := --no-check-certificate
 
-# MAKEFLAGS stores the make flags.
-# MAKEFLAGS 	+= --warn-undefined-variables
-MAKEFLAGS 		+= --no-builtin-rules
-MAKEFLAGS 		+= --no-print-directory
-
-TIME_LONG			= `date +%Y-%m-%d' '%H:%M:%S`
-TIME_SHORT		= `date +%H:%M:%S`
-TIME					= $(TIME_SHORT)
+# General vars
+TIME_LONG			:= $(shell date +%Y-%m-%d' '%H:%M:%S)
+TIME_SHORT		:= $(shell date +%H:%M:%S)
+TIME					:= $(TIME_SHORT)
 
 COLOR_BLUE    := $(shell printf "\033[34m")
 COLOR_YELLOW  := $(shell printf "\033[33m")
@@ -89,11 +84,11 @@ COLOR_RED     := $(shell printf "\033[31m")
 COLOR_GREEN   := $(shell printf "\033[32m")
 COLOR_NORMAL  := $(shell printf "\033[0m")
 
-PRINT_INFO		= echo ${TIME} ${COLOR_BLUE}[ INFO ]${COLOR_NORMAL}
-PRINT_WARN		= echo ${TIME} ${COLOR_YELLOW}[ WARN ]${COLOR_NORMAL}
-PRINT_ERR			= echo ${TIME} ${COLOR_RED}[ ERR ]${COLOR_NORMAL}
-PRINT_OK			= echo ${TIME} ${COLOR_GREEN}[ OK ]${COLOR_NORMAL}
-PRINT_FAIL		= (echo ${TIME} ${COLOR_RED}[ FAIL ]${COLOR_NORMAL} && false)
+PRINT_INFO		:= echo ${TIME} ${COLOR_BLUE}[ INFO ]${COLOR_NORMAL}
+PRINT_WARN		:= echo ${TIME} ${COLOR_YELLOW}[ WARN ]${COLOR_NORMAL}
+PRINT_ERR			:= echo ${TIME} ${COLOR_RED}[ ERR ]${COLOR_NORMAL}
+PRINT_OK			:= echo ${TIME} ${COLOR_GREEN}[ OK ]${COLOR_NORMAL}
+PRINT_FAIL		:= (echo ${TIME} ${COLOR_RED}[ FAIL ]${COLOR_NORMAL} && false)
 
 ################################################################################
 # Common variables                                                             #
@@ -215,10 +210,14 @@ ifeq ($(INTERACTIVE), 1)
 	DOCKER_FLAGS += --tty
 endif
 
+ifneq ($(strip $(V)),1)
+  WGET_OPTS += -o /dev/null
+endif
+
 ifdef SYS_CPU
-	override DOCKER_CPU_OPTIONS = --cpu-period="100000" --cpu-quota="$$(( $(SYS_CPU) * 100000 ))"
+	override DOCKER_CPU_OPTS = --cpu-period="100000" --cpu-quota="$$(( $(SYS_CPU) * 100000 ))"
 else
-	override DOCKER_CPU_OPTIONS =
+	override DOCKER_CPU_OPTS =
 endif
 
 ifeq ($(DOCKER_COMPOSE_OPTS),)
@@ -349,9 +348,11 @@ _list-env:
 	$(AT)echo "DOCKER_REGISTRY="$(DOCKER_REGISTRY);
 	$(AT)echo "DOCKER_ORG="$(DOCKER_ORG);
 	$(AT)echo "DOCKER_VERSION="$(DOCKER_VERSION);
-	$(AT)echo "DOCKER_CPU_OPTIONS="$(DOCKER_CPU_OPTIONS);
+	$(AT)echo "DOCKER_CPU_OPTS="$(DOCKER_CPU_OPTS);
 	$(AT)echo "DOCKER_OPTS="$(DOCKER_OPTS);
 	$(AT)echo "DOCKER_COMPOSE_OPTS="$(DOCKER_COMPOSE_OPTS);
+  $(AT)echo
+  $(AT)echo "WGET_OPTS="$(WGET_OPTS);
 	$(AT)echo
 	$(AT)echo "==========================================";
 	$(AT)echo

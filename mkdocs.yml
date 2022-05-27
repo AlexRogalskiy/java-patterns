@@ -252,8 +252,6 @@ markdown_extensions:
           class: mermaid
           format:
             !!python/name:pymdownx.superfences.fence_div_format # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#tabbed
-
-
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.details: {} # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#details

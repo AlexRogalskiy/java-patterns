@@ -79,8 +79,6 @@ VENV_PIP							:= $(VENV_BIN)/pip3
 # VENV_PYTHON stores virtual environment python binary
 VENV_PYTHON						:= $(VENV_BIN)/python3
 
-# WGET_OPTS stores wget options
-WGET_OPTS 						:= --no-check-certificate
 # PIP_OPTS stores pip options
 PIP_OPTS		 		      := --disable-pip-version-check --no-cache-dir
 # PIP_BUILD_OPTS stores pip build options

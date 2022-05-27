@@ -1,4 +1,3 @@
-# syntax=docker/dockerfile:experimental
 # Available Build Args:
 #   IMAGE_SOURCE: source image name
 #   IMAGE_TAG: source image tag
@@ -6,13 +5,18 @@
 #   USER: shell user
 #   UID: user identifier
 #   GID: group identifier
-#   NAME: image name
-#   VERSION: image version
-#   PACKAGE: image package
-#   DESCRIPTION: image description
+#   IMAGE_NAME: image name
+#   IMAGE_PACKAGE: image package name
+#   IMAGE_DESCRIPTION: image description
+#   IMAGE_VENDOR: image vendor
+#   IMAGE_URL: image url
+#   IMAGE_AUTHORS: image authors
+#   IMAGE_LICENSES: image authors
+#   IMAGE_DOCUMENTATION: image documentation
+#   IMAGE_REVISION: image reversion
+#   IMAGE_VERSION: image version
+#   IMAGE_BUILD_DATE: image build date
 #   LC_ALL: image default encoding
-#   BUILD_DATE: image build date
-#   VCS_REF: image revision
 #   APP_DIR: target application directory
 #   DATA_DIR: target data directory
 #   TEMP_DIR: target temp directory
@@ -21,6 +25,7 @@
 ## ---- Base stage ----
 ## docker build -t styled-java-patterns --build-arg IMAGE_SOURCE=node --build-arg IMAGE_TAG=12-buster .
 ##
+# syntax=docker/dockerfile:experimental
 ARG IMAGE_SOURCE=node
 ARG IMAGE_TAG=12-buster
 
@@ -36,14 +41,19 @@ ARG USER
 ARG UID
 ARG GID
 
-ARG NAME="java-patterns"
-ARG VERSION="$(git describe --abbrev=0 --tag)"
-ARG PACKAGE="AlexRogalskiy/java-patterns"
-ARG DESCRIPTION="Java Design Patterns"
+ARG IMAGE_NAME="java-patterns"
+ARG IMAGE_PACKAGE="AlexRogalskiy/${IMAGE_NAME}"
+ARG IMAGE_DESCRIPTION="Java Design Patterns Documentation"
+ARG IMAGE_VENDOR="Sensiblemetrics, Inc. <hello@sensiblemetrics.io> (https://sensiblemetrics.io)"
+ARG IMAGE_URL="https://github.com/${IMAGE_PACKAGE}"
+ARG IMAGE_AUTHORS="${IMAGE_URL}/blob/master/AUTHORS"
+ARG IMAGE_LICENSES="${IMAGE_URL}/blob/master/LICENSE.txt"
+ARG IMAGE_DOCUMENTATION="${IMAGE_URL}/blob/master/README.md"
+ARG IMAGE_REVISION="$(git rev-parse --short HEAD)"
+ARG IMAGE_VERSION="$(git describe --tags --contains --always)"
+ARG IMAGE_BUILD_DATE="$(date -u +\"%Y-%m-%dT%H:%M:%SZ\")"
 
 ARG LC_ALL="en_US.UTF-8"
-ARG BUILD_DATE="$(date -u +\"%Y-%m-%dT%H:%M:%SZ\")"
-ARG VCS_REF="$(git rev-parse --short HEAD)"
 
 ARG APP_DIR="/usr/src/app"
 ARG DATA_DIR="/usr/src/data"
@@ -52,21 +62,17 @@ ARG TEMP_DIR="${TEMP_DIR:-/tmp}"
 ARG INSTALL_PACKAGES="git curl tini dos2unix locales"
 
 ## setup image labels
-LABEL "name"="$NAME"
-LABEL "version"="$VERSION"
-LABEL "description"="$DESCRIPTION"
-
-LABEL "com.github.repository"="https://github.com/${PACKAGE}"
-LABEL "com.github.homepage"="https://github.com/${PACKAGE}"
-LABEL "com.github.documentation"="https://github.com/${PACKAGE}/blob/master/README.md"
-LABEL "com.github.maintainer"="Sensiblemetrics, Inc. <hello@sensiblemetrics.io> (https://sensiblemetrics.io)"
-
-LABEL "com.github.version"="$VERSION"
-LABEL "com.github.build-date"="$BUILD_DATE"
-LABEL "com.github.vcs-ref"="$VCS_REF"
-
-LABEL "com.github.name"="$NAME"
-LABEL "com.github.description"="$DESCRIPTION"
+LABEL "com.github.image.title"="$IMAGE_NAME" \
+      "com.github.image.description"="$IMAGE_DESCRIPTION" \
+      "com.github.image.vendor"="$IMAGE_VENDOR" \
+      "com.github.image.url"="$IMAGE_URL" \
+      "com.github.image.authors"="$IMAGE_AUTHORS" \
+      "com.github.image.licenses"="$IMAGE_LICENSES" \
+      "com.github.image.documentation"="$IMAGE_DOCUMENTATION" \
+      "com.github.image.source"="$IMAGE_URL" \
+      "com.github.image.revision"="$IMAGE_REVISION" \
+      "com.github.image.version"="$IMAGE_VERSION" \
+      "com.github.image.created"="$IMAGE_BUILD_DATE"
 
 ## setup shell options
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
