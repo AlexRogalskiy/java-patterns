@@ -43,6 +43,10 @@ theme:
   name: material
   language: en
   highlightjs: true
+  hljs_languages:
+    - yaml
+    - json
+    - bash
   custom_dir: docs/overrides
   include_search_page: false
   search_index_only: true
