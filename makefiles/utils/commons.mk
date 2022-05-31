@@ -19,16 +19,18 @@ GIT_COMMIT_AUTHOR_NAME 		:= $(shell git show -s --format=%an)
 GIT_COMMIT_TIMESTAMP 			:= $(shell git show -s --format=%ct)
 # GIT_DIRTY_TAG stores dirty git tag
 GIT_DIRTY_TAG 						:= $(shell git describe --tags --always --dirty)
+# GIT_WORKING_SUFFIX stores git working suffix
+GIT_WORKING_SUFFIX        := $(shell if git status --porcelain | grep -qE '^(?:[^?][^ ]|[^ ][^?])\s'; then echo "-WIP"; else echo ""; fi)
 # GIT_TAG stores git last tag
 GIT_TAG 									:= $(shell git tag -l | grep -E '[0-9]+(.[0-9]+){2}' | sort -t. -k 1,1nr -k 2,2nr -k 3,3nr | head -1)
 # GIT_COMMIT_SHA stores git last commit hash
-GIT_COMMIT_SHA 						:= $(shell git rev-parse --verify HEAD)
+GIT_COMMIT_SHA 						:= $(shell git rev-parse --short=8 --verify HEAD)
 # GIT_TREE_SHA stores git tree hash
 GIT_TREE_SHA 							:= $(shell git hash-object -t tree /dev/null)
 # GIT_LOG_COMMIT_TIMESTAMP stores last commit to allow for reproducible builds
 GIT_LOG_COMMIT_TIMESTAMP 	:= $(shell git log -1 --date=format:%Y%m%d%H%M --pretty=format:%cd)
 # GIT_ORIG_BRANCH stores original git branch name
-GIT_ORIG_BRANCH 					:= $(shell git rev-parse --abbrev-ref HEAD | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/,/\&\#44;/g')
+GIT_ORIG_BRANCH 					:= $(shell git rev-parse --abbrev-ref HEAD | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/,/\&\#44;/g' | sed 's/[\/\-]/\./g')
 # GIT_ORIG_TAG stores original git tag name
 GIT_ORIG_TAG 							:= $(shell git describe --exact-match --abbrev=0 2>/dev/null | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/,/\&\#44;/g' || echo "")
 # GIT_ORIG_VERSION stores original git tag version
@@ -40,6 +42,8 @@ GIT_REPO_INFO  						:= $(shell git config --get remote.origin.url)
 GIT_REPO_PREFIX 					:= $(shell git config --get remote.origin.url | tr ':.' '/'  | rev | cut -d '/' -f 3 | rev)
 # GIT_REPO_NAME stores git repository name
 GIT_REPO_NAME 						:= $(shell git config --get remote.origin.url | tr ':.' '/'  | rev | cut -d '/' -f 2 | rev)
+# GIT_REPO_TAG stores git repository tag
+GIT_REPO_TAG              := $(shell echo "${GIT_ORIG_BRANCH//\//-}-$(GIT_COMMIT_SHA):$(GIT_WORKING_SUFFIX)")
 
 # SYS_HOST stores system hostname
 SYS_HOST 									:= $(shell hostname | tr '[:upper:]' '[:lower:]')
