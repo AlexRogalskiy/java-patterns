@@ -16,7 +16,6 @@
 #   IMAGE_REVISION: image reversion
 #   IMAGE_VERSION: image version
 #   IMAGE_BUILD_DATE: image build date
-#   LC_ALL: image default encoding
 #   APP_DIR: target application directory
 #   DATA_DIR: target data directory
 #   TEMP_DIR: target temp directory
@@ -53,8 +52,6 @@ ARG IMAGE_REVISION="$(git rev-parse --short HEAD)"
 ARG IMAGE_VERSION="$(git describe --tags --contains --always)"
 ARG IMAGE_BUILD_DATE="$(date -u +\"%Y-%m-%dT%H:%M:%SZ\")"
 
-ARG LC_ALL="en_US.UTF-8"
-
 ARG APP_DIR="/usr/src/app"
 ARG DATA_DIR="/usr/src/data"
 ARG TEMP_DIR="${TEMP_DIR:-/tmp}"
@@ -86,10 +83,10 @@ ENV PYTHON_VERSION=$PYTHON_VERSION \
 ENV DEBIAN_FRONTEND=noninteractive \
     TERM="xterm" \
     TZ=UTC \
-    LANGUAGE=en_US:en \
-    LC_ALL=$LC_ALL \
-    LC_CTYPE=$LC_ALL \
+    LC_ALL="en_US.UTF-8" \
     LANG=$LC_ALL \
+    LANGUAGE=$LC_ALL \
+    LC_CTYPE=$LC_ALL
     PYTHONIOENCODING=UTF-8 \
     PYTHONLEGACYWINDOWSSTDIO=UTF-8 \
     PYTHONUNBUFFERED=1 \
@@ -103,7 +100,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
     npm_config_update_notifier=false \
     NODE_NO_WARNINGS='1' \
     NODE_TLS_REJECT_UNAUTHORIZED='0' \
-    IN_DOCKER=True
+    IN_DOCKER=true
 
 ENV USER=${USER:-'devbot'} \
     UID=${UID:-5000} \
