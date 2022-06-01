@@ -18,6 +18,7 @@
 set -o errexit
 set -o nounset
 set -o pipefail
+set -o errtrace
 
 # Docker image params
 readonly IMAGE_REPOSITORY="styled-java-patterns"

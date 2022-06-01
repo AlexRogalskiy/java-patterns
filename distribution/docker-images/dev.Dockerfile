@@ -78,13 +78,13 @@ LABEL "com.github.image.title"="$IMAGE_NAME" \
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 ## setup environment variables
-ENV PYTHON_VERSION $PYTHON_VERSION
-
-ENV APP_DIR=$APP_DIR \
+ENV PYTHON_VERSION=$PYTHON_VERSION \
+    APP_DIR=$APP_DIR \
     DATA_DIR=$DATA_DIR \
     TEMP_DIR=$TEMP_DIR
 
-ENV TERM="xterm"\
+ENV DEBIAN_FRONTEND=noninteractive \
+    TERM="xterm" \
     TZ=UTC \
     LANGUAGE=en_US:en \
     LC_ALL=$LC_ALL \

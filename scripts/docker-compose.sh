@@ -15,32 +15,41 @@
 
 # Usage example: /bin/sh ./scripts/docker-compose.sh
 
-# Case-insensitive globbing (used in pathname expansion)
-shopt -s nocaseglob
-# Append to the Bash history file, rather than overwriting it
-shopt -s histappend
-# Autocorrect typos in path names when using `cd`
-shopt -s cdspell
-### Check the window size after each command ($LINES, $COLUMNS)
-shopt -s checkwinsize
-
-# Enable some Bash 4 features when possible:
-# * `autocd`, e.g. `**/qux` will enter `./foo/bar/baz/qux`
-# * Recursive globbing, e.g. `echo **/*.txt`
-for option in autocd globstar; do
-  shopt -s "$option" 2> /dev/null
-done
-
 set -o errexit
 set -o nounset
 set -o pipefail
+set -o errtrace
+
+# Fallback to a value of '5' for shells which support bash
+# but do not set the 'BASH_' shell variables (osh).
+bash_version=${BASH_VERSINFO[0]:-5}
+
+if [ "$bash_version" -lt 4 ]; then
+  _exit 1 "Unsupported bash version: ${bash_version} < 4"
+fi
+
+# Enable some Bash 4 features when possible:
+# * `autocd` - automatic change directory, e.g. `**/qux` will enter `./foo/bar/baz/qux`
+# * `globstar` - recursive globbing, e.g. `echo **/*.txt`
+# * `eval_unsafe_arith` - static parsing is preferable to dynamic parsing
+# * `nocasematch` - case-insensitive pattern matching
+# * `nocaseglob` - case-insensitive globbing (used in pathname expansion)
+# * `histappend` - append to the Bash history file, rather than overwriting it
+# * `cdspell` - autocorrect typos in path names when using `cd`
+# * `checkwinsize` - check the window size after each command ($LINES, $COLUMNS)
+# * `expand_aliases` - enable alias expansion in general, i.e. also for non-interactive shells
+# * `nullglob` - allow filename patterns which match no files to expand to a null string, rather than themselves
+# * `dotglob` - include filenames beginning with a "." in the results of filename expansion
+for option in autocd globstar; do
+  shopt -s "$option" 2>&1 >/dev/null
+done
 
 ## BASE_DIR stores base directory
 BASE_DIR=$(dirname "$0")/..
 ## DOCKER_DIR stores docker directory
 DOCKER_DIR="${BASE_DIR}"
 # DOCKER_COMPOSE_CMD stores docker compose command
-DOCKER_COMPOSE_CMD=${DOCKER_COMPOSE_CMD:-$(command -v docker-compose 2> /dev/null || command -v docker compose 2> /dev/null || type -p docker-compose)}
+DOCKER_COMPOSE_CMD=${DOCKER_COMPOSE_CMD:-$(command -v docker-compose 2>/dev/null || command -v docker compose 2>/dev/null || type -p docker-compose)}
 # DOCKER_COMPOSE_OPTS stores docker compose options
 DOCKER_COMPOSE_OPTS=${DOCKER_COMPOSE_OPTS:-"--ansi=never"}
 
@@ -64,7 +73,7 @@ _EOF_
 }
 
 usage() {
-  read -r -d '' MESSAGE <<- EOM
+  read -r -d '' MESSAGE <<-EOM
 
     Usage: ${0} [operation]
     Run docker compose command with an operation subcommand.
@@ -164,34 +173,35 @@ docker_stop() {
 main() {
   [ ${#@} -gt 0 ] || usage
 
-  cmd=$(echo "$1" | tr "[:upper:]" "[:lower:]"); shift;
+  cmd=$(echo "$1" | tr "[:upper:]" "[:lower:]")
+  shift
   case "$cmd" in
-    [sS]tart|[uU]p)
-      docker_start "${@:1}"
-      ;;
-    [sS]top|[dD]own)
-      docker_stop "${@:1}"
-      ;;
-    [rR]estart|-r)
-      docker_restart "${@:1}"
-      ;;
-    [lL]ogs|-l)
-      docker_logs "${@:1}"
-      ;;
-    [pP]ull|-pl)
-      docker_pull "${@:1}"
-      ;;
-    [pP]s|-p)
-      docker_ps "${@:1}"
-      ;;
-    [hH]elp|-h)
-      usage
-      ;;
-    *)
-      _error "Unrecognized option: $cmd"
-      header
-      usage
-      ;;
+  [sS]tart | [uU]p)
+    docker_start "${@:1}"
+    ;;
+  [sS]top | [dD]own)
+    docker_stop "${@:1}"
+    ;;
+  [rR]estart | -r)
+    docker_restart "${@:1}"
+    ;;
+  [lL]ogs | -l)
+    docker_logs "${@:1}"
+    ;;
+  [pP]ull | -pl)
+    docker_pull "${@:1}"
+    ;;
+  [pP]s | -p)
+    docker_ps "${@:1}"
+    ;;
+  [hH]elp | -h)
+    usage
+    ;;
+  *)
+    _error "Unrecognized option: $cmd"
+    header
+    usage
+    ;;
   esac
 }
 

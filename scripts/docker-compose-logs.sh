@@ -18,13 +18,14 @@
 set -o errexit
 set -o nounset
 set -o pipefail
+set -o errtrace
 
 ## setup base directory
 BASE_DIR=$(dirname "$0")/..
 ## DOCKER_DIR stores docker directory
 DOCKER_DIR="${BASE_DIR}"
 # DOCKER_COMPOSE_CMD stores docker compose command
-DOCKER_COMPOSE_CMD=${DOCKER_COMPOSE_CMD:-$(command -v docker-compose 2> /dev/null || command -v docker compose 2> /dev/null || type -p docker-compose)}
+DOCKER_COMPOSE_CMD=${DOCKER_COMPOSE_CMD:-$(command -v docker-compose 2>/dev/null || command -v docker compose 2>/dev/null || type -p docker-compose)}
 # DOCKER_COMPOSE_OPTS stores docker compose options
 DOCKER_COMPOSE_OPTS=${DOCKER_COMPOSE_OPTS:-"--ansi=never"}
 
@@ -38,7 +39,8 @@ main() {
 
   $DOCKER_COMPOSE_CMD \
     $DOCKER_COMPOSE_OPTS \
-    --file "${DOCKER_DIR}/docker-compose.yml" logs -t --follow "$@"
+    --file "${DOCKER_DIR}/docker-compose.yml" \
+    logs -t --follow "$@"
 }
 
 [[ "$0" == "$BASH_SOURCE" ]] && main "$@"
