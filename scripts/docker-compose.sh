@@ -176,32 +176,32 @@ main() {
   cmd=$(echo "$1" | tr "[:upper:]" "[:lower:]")
   shift
   case "$cmd" in
-  [sS]tart | [uU]p)
-    docker_start "${@:1}"
-    ;;
-  [sS]top | [dD]own)
-    docker_stop "${@:1}"
-    ;;
-  [rR]estart | -r)
-    docker_restart "${@:1}"
-    ;;
-  [lL]ogs | -l)
-    docker_logs "${@:1}"
-    ;;
-  [pP]ull | -pl)
-    docker_pull "${@:1}"
-    ;;
-  [pP]s | -p)
-    docker_ps "${@:1}"
-    ;;
-  [hH]elp | -h)
-    usage
-    ;;
-  *)
-    _error "Unrecognized option: $cmd"
-    header
-    usage
-    ;;
+    [sS]tart | [uU]p)
+      docker_start "${@:1}"
+      ;;
+    [sS]top | [dD]own)
+      docker_stop "${@:1}"
+      ;;
+    [rR]estart | -r)
+      docker_restart "${@:1}"
+      ;;
+    [lL]ogs | -l)
+      docker_logs "${@:1}"
+      ;;
+    [pP]ull | -pl)
+      docker_pull "${@:1}"
+      ;;
+    [pP]s | -p)
+      docker_ps "${@:1}"
+      ;;
+    [hH]elp | -h)
+      usage
+      ;;
+    *)
+      _error "Unrecognized option: $cmd"
+      header
+      usage
+      ;;
   esac
 }
 
