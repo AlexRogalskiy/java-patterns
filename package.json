@@ -5,6 +5,7 @@
 		"url": "https://github.com/AlexRogalskiy"
 	},
 	"bugs": {
+        "email": "hi@sensiblemetrics.io",
 		"url": "https://github.com/AlexRogalskiy/java-patterns/issues"
 	},
 	"cacheDirectories": ["node_modules"],
@@ -56,6 +57,7 @@
 		"jshint": "^2.13.4",
 		"jsonlint": "^1.6.3",
 		"lerna": "^4.0.0",
+        "lerna-changelog": "^2.2.0",
 		"lerna-update-wizard": "^1.1.2",
 		"license-checker": "^25.0.1",
 		"linkinator": "^3.0.3",
@@ -81,6 +83,7 @@
 		"shelljs": "^0.8.5",
 		"solidarity": "^3.0.4",
 		"sort-package-json": "^1.54.0",
+        "snyk": "^1.946.0",
 		"stylelint": "~13.13.1",
 		"stylelint-config-standard": "^22.0.0",
 		"stylelint-order": "^4.1.0",
@@ -140,6 +143,7 @@
 		"registry": "https://registry.npmjs.org/",
 		"tag": "latest"
 	},
+    "readmeFilename": "README.md",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/AlexRogalskiy/java-patterns.git"
@@ -202,6 +206,7 @@
 		"history:view": "npm run script:history && open datas.html",
 		"hooks:pre-commit": "node hooks/pre-commit.js",
 		"husky:install": "is-ci || husky install .husky",
+        "lerna:changelog": "lerna-changelog",
 		"lerna:canary": "lerna version prerelease --preid canary --message \"Publish Canary\" --exact",
 		"lerna:deps": "lerna run --parallel --stream deps",
 		"lerna:dist": "lerna run --parallel --stream dist",
@@ -268,6 +273,7 @@
 		"solidarity": "solidarity",
 		"solidarity:update": "solidarity snapshot cli node",
 		"sort-package-json": "sort-package-json",
+        "snyk:protect": "snyk protect",
 		"stylelint": "stylelint --color --disable-default-ignores --allow-empty-input verbose **/*.{css,scss,sass}",
 		"svgo": "svgo --config svgo.config.cjs -i docs/overrides/.icons -o docs/overrides/.icons -q",
 		"syncpack": "syncpack list-mismatches --source \"packages/*/package.json\"",

@@ -146,8 +146,11 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github-alt
-      link: 'https://github.com/AlexRogalskiy/java-patterns'
+      link: https://github.com/AlexRogalskiy/java-patterns
       name: Go to GitHub
+    - icon: fontawesome/regular/circle-question
+      link: https://github.com/AlexRogalskiy/java-patterns/issues
+      title: Need help ? Post an issue :)
     - icon: kofi
       link: https://ko-fi.com/alexrogalskiy
       name: Go to Kofi

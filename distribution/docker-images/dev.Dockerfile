@@ -100,6 +100,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
     npm_config_update_notifier=false \
     NODE_NO_WARNINGS='1' \
     NODE_TLS_REJECT_UNAUTHORIZED='0' \
+    NODE_OPTIONS="--max-old-space-size=8192" \
     IN_DOCKER=true
 
 ENV USER=${USER:-'devbot'} \
@@ -201,7 +202,7 @@ RUN npm config set progress=false \
 ## RUN cp -R node_modules prod_node_modules
 
 ## install node_modules, including 'devDependencies'
-RUN npm install --no-cache --no-audit --only=dev \
+RUN npm install --no-cache --no-audit --ignore-scripts --only=dev \
     && npm audit fix --audit-level=critical
 
 ## remove cache

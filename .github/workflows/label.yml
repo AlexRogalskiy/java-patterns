@@ -5,8 +5,9 @@ on: [ pull_request ]
 jobs:
   label:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/labeler@v2
+      - uses: actions/labeler@v3
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          configuration-path: '.github/auto-label.yml'
+          sync-labels: true
