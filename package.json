@@ -32,6 +32,7 @@
 		"@commitlint/cli": "^16.2.3",
 		"@commitlint/config-conventional": "^16.2.1",
 		"@types/node": "^17.0.21",
+        "@bitjson/npm-scripts-info": "^1.0.0",
 		"adr-tools": "^2.0.4",
 		"alex": "^9.1.0",
 		"all-contributors-cli": "^6.20.0",
@@ -174,6 +175,7 @@
 		"crowdin:pull": "crowdin pull --skip-untranslated-strings",
 		"crowdin:upload": "crowdin --config crowdin.yml upload sources --auto-update -b $(git rev-parse --abbrev-ref HEAD)",
 		"csv:view": "pspg -s 17 --csv \"datas.csv\"",
+        "describe": "npm-scripts-info",
 		"deploy": "deploy-to-gh-pages --local --update site",
 		"deps": "npm install",
 		"docker:build": "docker build -f ./distribution/docker-images/dev.Dockerfile -t $npm_package_config_image .",
@@ -293,6 +295,19 @@
 		"validate:commit": "validate-commit-msg",
 		"zip": "zip -r $npm_package_config_image.zip ./site"
 	},
+    "scripts-info": {
+        "info": "Display information about the package scripts",
+        "build": "Clean and rebuild the project",
+        "fix": "Try to automatically fix any linting problems",
+        "test": "Lint and unit test the project",
+        "watch": "Watch and rebuild the project on save, then rerun relevant tests",
+        "cov": "Rebuild, run tests, then create and open the coverage report",
+        "doc": "Generate HTML API documentation and open it in a browser",
+        "doc:json": "Generate API documentation in typedoc JSON format",
+        "version": "Bump package.json version, update CHANGELOG.md, tag release",
+        "reset": "Delete all untracked files and reset the repo to the last commit",
+        "prepare-release": "One-step: clean, build, test, publish docs, and prep a release"
+    },
 	"targets": {
 		"default": {
 			"distDir": ".",
