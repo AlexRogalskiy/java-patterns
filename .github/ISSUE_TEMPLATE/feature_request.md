@@ -7,13 +7,13 @@ assignees: ''
 
 ---
 
-Have a question? Please checkout our community or visit us at [Official Website](https://sensiblemetrics.io). 
+Have a question? Please checkout our community or visit us at [Official Website](https://sensiblemetrics.io).
 
 [![GitHub Community](https://github.githubassets.com/favicons/favicon.svg)](https://github.com/AlexRogalskiy/java-patterns/issues)
 
 ## Describe the Feature
 
-A clear and concise description of what the feature is. 
+A clear and concise description of what the feature is.
 
 ## Expected Behavior
 
