@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-Found a bug? Maybe our community can help. 
+Found a bug? Maybe our community can help.
 
 [![GitHub Community](https://github.githubassets.com/favicons/favicon.svg)](https://github.com/AlexRogalskiy/java-patterns/issues)
 
