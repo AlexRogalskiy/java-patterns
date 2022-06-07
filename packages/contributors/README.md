@@ -1,1 +1,0 @@
-# Java Patterns Contributors module

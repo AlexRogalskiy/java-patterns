@@ -49,6 +49,7 @@ pids
 # Build and temp folders
 .settings/
 .idea/
+.cache/
 .reporting/
 bin/
 tmp/
@@ -59,7 +60,6 @@ target/
 log/
 site/
 dist/
-.cache
 node_modules
 
 # Env files

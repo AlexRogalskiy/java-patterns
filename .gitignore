@@ -50,6 +50,7 @@ pids
 # Build and temp folders
 .settings/
 .idea/
+.cache/
 .reporting/
 bin/
 tmp/

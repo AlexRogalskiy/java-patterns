@@ -9,6 +9,13 @@
 		"group:monorepos",
 		"group:recommended"
 	],
+	"packageRules": [
+		{
+			"matchDepTypes": ["devDependencies"],
+			"automerge": true,
+			"automergeStrategy": "squash"
+		}
+	],
 	"ignoreUnstable": false,
 	"schedule": ["after 10pm every weekday", "before 5am every weekday", "every weekend"],
 	"lockFileMaintenance": {

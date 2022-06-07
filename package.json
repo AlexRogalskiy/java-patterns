@@ -5,10 +5,12 @@
 		"url": "https://github.com/AlexRogalskiy"
 	},
 	"bugs": {
-        "email": "hi@sensiblemetrics.io",
+		"email": "hi@sensiblemetrics.io",
 		"url": "https://github.com/AlexRogalskiy/java-patterns/issues"
 	},
-	"cacheDirectories": ["node_modules"],
+	"cacheDirectories": [
+		"node_modules"
+	],
 	"collective": {
 		"logo": "https://opencollective.com/opencollective/logo.txt",
 		"type": "opencollective",
@@ -28,11 +30,11 @@
 	],
 	"description": "Java Design Patterns Documentation",
 	"devDependencies": {
+		"@bitjson/npm-scripts-info": "^1.0.0",
 		"@cadolabs/crowdin-cli": "^3.0.19",
 		"@commitlint/cli": "^16.2.3",
 		"@commitlint/config-conventional": "^16.2.1",
 		"@types/node": "^17.0.21",
-        "@bitjson/npm-scripts-info": "^1.0.0",
 		"adr-tools": "^2.0.4",
 		"alex": "^9.1.0",
 		"all-contributors-cli": "^6.20.0",
@@ -58,7 +60,7 @@
 		"jshint": "^2.13.4",
 		"jsonlint": "^1.6.3",
 		"lerna": "^4.0.0",
-        "lerna-changelog": "^2.2.0",
+		"lerna-changelog": "^2.2.0",
 		"lerna-update-wizard": "^1.1.2",
 		"license-checker": "^25.0.1",
 		"linkinator": "^3.0.3",
@@ -82,10 +84,10 @@
 		"repo-link-check": "^0.7.1",
 		"roadmarks": "^1.6.3",
 		"shelljs": "^0.8.5",
+		"snyk": "^1.946.0",
 		"solidarity": "^3.0.4",
 		"sort-package-json": "^1.54.0",
-        "snyk": "^1.946.0",
-		"stylelint": "~13.13.1",
+		"stylelint": "^14.8.5",
 		"stylelint-config-standard": "^22.0.0",
 		"stylelint-order": "^4.1.0",
 		"stylelint-scss": "^3.20.1",
@@ -130,7 +132,9 @@
 			"prepare-commit-msg": "git cz --hook --non-interactive --type=feat --subject=\"added new features\" || true"
 		}
 	},
-	"keywords": ["java design patterns"],
+	"keywords": [
+		"java design patterns"
+	],
 	"license": "GPL-3.0",
 	"maintainers": [
 		{
@@ -144,7 +148,7 @@
 		"registry": "https://registry.npmjs.org/",
 		"tag": "latest"
 	},
-    "readmeFilename": "README.md",
+	"readmeFilename": "README.md",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/AlexRogalskiy/java-patterns.git"
@@ -175,9 +179,9 @@
 		"crowdin:pull": "crowdin pull --skip-untranslated-strings",
 		"crowdin:upload": "crowdin --config crowdin.yml upload sources --auto-update -b $(git rev-parse --abbrev-ref HEAD)",
 		"csv:view": "pspg -s 17 --csv \"datas.csv\"",
-        "describe": "npm-scripts-info",
 		"deploy": "deploy-to-gh-pages --local --update site",
 		"deps": "npm install",
+		"describe": "npm-scripts-info",
 		"docker:build": "docker build -f ./distribution/docker-images/dev.Dockerfile -t $npm_package_config_image .",
 		"docker:config": "docker-compose config",
 		"docker:run": "docker run -ti --rm -v ${PWD}:/usr/src/app -e CI=1 $npm_package_config_image build --strict",
@@ -208,8 +212,8 @@
 		"history:view": "npm run script:history && open datas.html",
 		"hooks:pre-commit": "node hooks/pre-commit.js",
 		"husky:install": "is-ci || husky install .husky",
-        "lerna:changelog": "lerna-changelog",
 		"lerna:canary": "lerna version prerelease --preid canary --message \"Publish Canary\" --exact",
+		"lerna:changelog": "lerna-changelog",
 		"lerna:deps": "lerna run --parallel --stream deps",
 		"lerna:dist": "lerna run --parallel --stream dist",
 		"lerna:docs": "lerna run --parallel --stream compodocs",
@@ -244,13 +248,14 @@
 		"opencollective:install": "opencollective-postinstall || true",
 		"optimize:svgo": "find ./docs -name '*.svg' -print0 | xargs -0 -P16 -L20 npx svgo",
 		"package:changelog": "npm run dev --base_dir=../../ --workspace ./packages/changelog --if-present",
-		"package:contributors": "npm run dev --image_dir=../../images --workspace packages/contributors --if-present",
+		"package:contributors": "npm run dev --image_dir=../../images --workspace packages/contributors-view --if-present",
 		"package:schema": "npm run dev --source_dir1=../../docs --source_dir2=../../docs --workspace packages/schema --if-present",
 		"patch:install": "lerna link && patch-package",
 		"postinstall": "npm run husky:install && npm run opencollective:install && npm run terms:install && npm run patch:install",
 		"postpublish": "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag v$PACKAGE_VERSION && git push --tags",
 		"postversion": "git push --follow-tags && npm publish --access public",
 		"preinstall": "npm run get:submodule",
+        "prepublishOnly": "npm run all",
 		"prepack": "check-for-leaks",
 		"prepush": "check-for-leaks",
 		"pretty": "pretty-quick",
@@ -272,10 +277,10 @@
 		"script:notes": "test -f ./scripts/git_release_notes.sh && . ./scripts/git_release_notes.sh > NOTES.md || echo '✔ Git release notes script is missing'",
 		"script:size": "test -f ./scripts/git_size.sh && . ./scripts/git_size.sh || echo '✔ Git size script is missing'",
 		"setheapsize": "export NODE_OPTIONS=--max_old_space_size=2048",
+		"snyk:protect": "snyk protect",
 		"solidarity": "solidarity",
 		"solidarity:update": "solidarity snapshot cli node",
 		"sort-package-json": "sort-package-json",
-        "snyk:protect": "snyk protect",
 		"stylelint": "stylelint --color --disable-default-ignores --allow-empty-input verbose **/*.{css,scss,sass}",
 		"svgo": "svgo --config svgo.config.cjs -i docs/overrides/.icons -o docs/overrides/.icons -q",
 		"syncpack": "syncpack list-mismatches --source \"packages/*/package.json\"",
@@ -295,19 +300,19 @@
 		"validate:commit": "validate-commit-msg",
 		"zip": "zip -r $npm_package_config_image.zip ./site"
 	},
-    "scripts-info": {
-        "info": "Display information about the package scripts",
-        "build": "Clean and rebuild the project",
-        "fix": "Try to automatically fix any linting problems",
-        "test": "Lint and unit test the project",
-        "watch": "Watch and rebuild the project on save, then rerun relevant tests",
-        "cov": "Rebuild, run tests, then create and open the coverage report",
-        "doc": "Generate HTML API documentation and open it in a browser",
-        "doc:json": "Generate API documentation in typedoc JSON format",
-        "version": "Bump package.json version, update CHANGELOG.md, tag release",
-        "reset": "Delete all untracked files and reset the repo to the last commit",
-        "prepare-release": "One-step: clean, build, test, publish docs, and prep a release"
-    },
+	"scripts-info": {
+		"build": "Clean and rebuild the project",
+		"cov": "Rebuild, run tests, then create and open the coverage report",
+		"doc": "Generate HTML API documentation and open it in a browser",
+		"doc:json": "Generate API documentation in typedoc JSON format",
+		"fix": "Try to automatically fix any linting problems",
+		"info": "Display information about the package scripts",
+		"prepare-release": "One-step: clean, build, test, publish docs, and prep a release",
+		"reset": "Delete all untracked files and reset the repo to the last commit",
+		"test": "Lint and unit test the project",
+		"version": "Bump package.json version, update CHANGELOG.md, tag release",
+		"watch": "Watch and rebuild the project on save, then rerun relevant tests"
+	},
 	"targets": {
 		"default": {
 			"distDir": ".",
@@ -317,7 +322,11 @@
 	"type": "module",
 	"version": "0.0.0",
 	"workspaces": {
-		"nohoist": ["**/@types/**"],
-		"packages": ["packages/*"]
+		"nohoist": [
+			"**/@types/**"
+		],
+		"packages": [
+			"packages/*"
+		]
 	}
 }

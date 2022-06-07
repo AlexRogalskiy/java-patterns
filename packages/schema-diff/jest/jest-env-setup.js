@@ -18,11 +18,14 @@
 import 'jest-extended';
 import * as jest from 'jest';
 import * as matchers from 'jest-extended/dist/matchers';
+import * as superMatchers from 'jest-supertest-matchers';
 import * as MockDate from 'mockdate';
 
-jest.setTimeout(60000);
-
-jest.expect.extend(matchers);
+beforeAll(() => {
+  jest.setTimeout(60000);
+  jest.expect.extend(matchers);
+  jest.expect.extend(superMatchers);
+});
 
 beforeEach(() => {
 	global.fetch.resetMocks();

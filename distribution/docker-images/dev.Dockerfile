@@ -57,9 +57,12 @@ ARG DATA_DIR="/usr/src/data"
 ARG TEMP_DIR="${TEMP_DIR:-/tmp}"
 
 ARG INSTALL_PACKAGES="git curl tini dos2unix locales"
+ARG INSTALL_OPTIONS="--assume-yes --no-install-recommends --only-upgrade"
 
 ## setup image labels
-LABEL "com.github.image.title"="$IMAGE_NAME" \
+LABEL "name"="$IMAGE_NAME" \
+      "version"="$IMAGE_VERSION" \
+      "com.github.image.title"="$IMAGE_NAME" \
       "com.github.image.description"="$IMAGE_DESCRIPTION" \
       "com.github.image.vendor"="$IMAGE_VENDOR" \
       "com.github.image.url"="$IMAGE_URL" \
@@ -72,7 +75,7 @@ LABEL "com.github.image.title"="$IMAGE_NAME" \
       "com.github.image.created"="$IMAGE_BUILD_DATE"
 
 ## setup shell options
-SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+SHELL ["/bin/bash", "-exo", "pipefail", "-c"]
 
 ## setup environment variables
 ENV PYTHON_VERSION=$PYTHON_VERSION \
@@ -82,16 +85,16 @@ ENV PYTHON_VERSION=$PYTHON_VERSION \
 
 ENV DEBIAN_FRONTEND=noninteractive \
     TERM="xterm" \
+    PAGER=cat \
     TZ=UTC \
     LC_ALL="en_US.UTF-8" \
     LANG=$LC_ALL \
-    LANGUAGE=$LC_ALL \
-    LC_CTYPE=$LC_ALL
+    LANGUAGE="en_US:en" \
+    LC_CTYPE=$LC_ALL \
     PYTHONIOENCODING=UTF-8 \
     PYTHONLEGACYWINDOWSSTDIO=UTF-8 \
     PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
-    DEBIAN_FRONTEND=noninteractive \
     APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=1 \
     PIP_DISABLE_PIP_VERSION_CHECK=1 \
     PIP_NO_CACHE_DIR=1 \
@@ -101,7 +104,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
     NODE_NO_WARNINGS='1' \
     NODE_TLS_REJECT_UNAUTHORIZED='0' \
     NODE_OPTIONS="--max-old-space-size=8192" \
-    IN_DOCKER=true
+    IN_DOCKER=True
 
 ENV USER=${USER:-'devbot'} \
     UID=${UID:-5000} \
@@ -118,6 +121,11 @@ RUN adduser \
     "$USER" \
     || exit 0
 
+# Run commands as user
+RUN whoami && \
+	# opt-out of the new security feature, not needed in a CI environment
+	git config --global --add safe.directory '*'
+
 ## mount volumes
 VOLUME ["$APP_DIR", "$DATA_DIR", "$TEMP_DIR"]
 
@@ -129,7 +137,7 @@ RUN echo "**** Installing build packages ****"
 ## RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 RUN apt-get update \
     && apt-get upgrade -yqq \
-    && apt-get install --assume-yes --no-install-recommends --only-upgrade $INSTALL_PACKAGES 2>&1 > /dev/null \
+    && apt-get install $INSTALL_OPTIONS $INSTALL_PACKAGES 2>&1 > /dev/null \
     && apt-get -yqq autoclean \
     && apt-get -yqq clean \
     && apt-get -yqq autoremove \
