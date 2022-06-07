@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Set up Node
-        uses: actions/setup-node@v2.1.4
+        uses: actions/setup-node@v3.3.0
         with:
           node-version: 12
       - name: Opening pull request
