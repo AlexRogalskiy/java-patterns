@@ -89,7 +89,7 @@
 		"sort-package-json": "^1.54.0",
 		"stylelint": "^14.8.5",
 		"stylelint-config-standard": "^22.0.0",
-		"stylelint-order": "^4.1.0",
+		"stylelint-order": "^5.0.0",
 		"stylelint-scss": "^3.20.1",
 		"svgo": "^2.8.0",
 		"syncpack": "^6.2.0",
