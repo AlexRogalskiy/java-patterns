@@ -131,11 +131,13 @@ module.exports = {
 		[
 			'jest-junit',
 			{
-				usePathForSuiteName: true,
-				suiteNameTemplate: '{filename}',
-				outputName: 'coverage/jest-junit/junit.xml',
-				titleTemplate: '{classname} - {title}',
-				ancestorSeparator: ' - ',
+        usePathForSuiteName: true,
+        suiteName: 'jest tests',
+        suiteNameTemplate: '{filename}',
+        outputName: 'coverage/jest-junit/junit.xml',
+        classNameTemplate: '{classname}-{title}',
+        titleTemplate: '{classname} - {title}',
+        ancestorSeparator: ' › ',
 			},
 		],
 	],

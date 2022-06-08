@@ -77,6 +77,9 @@ COMPOSE_DOCKER_CLI_BUILD 	:= 1
 # WGET_OPTS stores wget options
 WGET_OPTS 						    := --no-check-certificate
 
+# CURL_OPTS stores curl options
+CURL_OPTS 						    := --silent --show-error --location --fail --retry 3
+
 # General vars
 TIME_LONG			:= $(shell date +%Y-%m-%d' '%H:%M:%S)
 TIME_SHORT		:= $(shell date +%H:%M:%S)

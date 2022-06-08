@@ -56,8 +56,8 @@ ARG APP_DIR="/usr/src/app"
 ARG DATA_DIR="/usr/src/data"
 ARG TEMP_DIR="${TEMP_DIR:-/tmp}"
 
-ARG INSTALL_PACKAGES="git curl tini dos2unix locales"
-ARG INSTALL_OPTIONS="--assume-yes --no-install-recommends --only-upgrade"
+ARG APT_INSTALL_PACKAGES="git curl tini dos2unix locales"
+ARG APT_INSTALL_OPTIONS="--assume-yes --no-install-recommends --only-upgrade"
 
 ## setup image labels
 LABEL "name"="$IMAGE_NAME" \
@@ -137,10 +137,10 @@ RUN echo "**** Installing build packages ****"
 ## RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
 RUN apt-get update \
     && apt-get upgrade -yqq \
-    && apt-get install $INSTALL_OPTIONS $INSTALL_PACKAGES 2>&1 > /dev/null \
+    && apt-get install $APT_INSTALL_OPTIONS $APT_INSTALL_PACKAGES 2>&1 > /dev/null \
     && apt-get -yqq autoclean \
     && apt-get -yqq clean \
-    && apt-get -yqq autoremove \
+    && apt-get -yqq autoremove --purge \
     && rm -rf /var/lib/apt/lists/* \
     && rm -rf /tmp/* \
     && rm -rf /var/tmp/* \
@@ -157,9 +157,9 @@ RUN cd /tmp && curl -O https://www.python.org/ftp/python/${PYTHON_VERSION}/Pytho
     ln -s /usr/local/bin/python3.8 /usr/bin/python3.8
 
 ## show versions
-RUN echo "npm version: $(npm --version)"
-RUN echo "node version: $(node --version | awk -F. '{print $1}')"
-RUN echo "python version: $(python3 --version)"
+RUN echo "npm version: $(npm --version)" \
+    && echo "node version: $(node --version | awk -F. '{print $1}')" \
+    && echo "python version: $(python3 --version)"
 
 ## setup entrypoint
 ENTRYPOINT [ "/usr/bin/tini", "--" ]
@@ -177,12 +177,15 @@ COPY ./docs/requirements.txt .
 ##
 FROM base AS python-dependencies
 
+## setup image arguments
+ARG PYTHON_INSTALL_PACKAGES="setuptools pip"
+ARG PYTHON_INSTALL_OPTIONS="--no-ansi --upgrade"
+
 ## setup python dependencies stage
 RUN echo "**** Installing python modules stage ****"
 
-RUN /usr/bin/python3.8 -m pip install --upgrade setuptools && \
-    /usr/bin/python3.8 -m pip install --upgrade pip && \
-    /usr/bin/python3.8 -m pip install -r requirements.txt
+RUN /usr/bin/python3.8 -m pip install $PYTHON_INSTALL_OPTIONS $PYTHON_INSTALL_PACKAGES && \
+    /usr/bin/python3.8 -m pip install $PYTHON_INSTALL_OPTIONS -r requirements.txt
 
 ## remove cache
 RUN echo "**** Cleaning python cache ****"
@@ -193,6 +196,9 @@ RUN rm -rf ~/.cache/pip
 ## ---- Node Dependencies stage ----
 ##
 FROM base AS node-dependencies
+
+## setup image arguments
+ARG NPM_INSTALL_OPTIONS="--no-cache --no-audit --ignore-scripts"
 
 ## setup node modules stage
 RUN echo "**** Installing node modules stage ****"
@@ -210,7 +216,7 @@ RUN npm config set progress=false \
 ## RUN cp -R node_modules prod_node_modules
 
 ## install node_modules, including 'devDependencies'
-RUN npm install --no-cache --no-audit --ignore-scripts --only=dev \
+RUN npm install $NPM_INSTALL_OPTIONS --only=dev \
     && npm audit fix --audit-level=critical
 
 ## remove cache
