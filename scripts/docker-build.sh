@@ -38,35 +38,35 @@ DOCKER_CMD=${DOCKER_CMD:-$(command -v docker 2>/dev/null || command -v podman 2>
 DOCKER_OPTS=${DOCKER_OPTS:-"--rm --progress plain --force-rm true --no-cache true --shm-size=1G"}
 
 main() {
-    echo 'Building docker container...'
+  echo 'Building docker container...'
 
-    # docker file tag
-    local tag
-    tag="$1"
-    shift
+  # docker file tag
+  local tag
+  tag="$1"
+  shift
 
-    # docker architecture
-    local architecture
-    architecture="$1"
-    shift
+  # docker architecture
+  local architecture
+  architecture="$1"
+  shift
 
-    case "$architecture" in
+  case "$architecture" in
     amd64) platform="linux/amd64" ;;
     arm64) platform="linux/arm64" ;;
     armhf) platform="linux/arm/7" ;;
-    esac
+  esac
 
-    # Build docker image
-    $DOCKER_CMD build \
-        --platform "$platform" \
-        $DOCKER_OPTS \
-        "${@:2}" \
-        --file "${DOCKER_DIR}/${tag}.Dockerfile" \
-        --tag "${IMAGE_REPOSITORY}:${IMAGE_TAG}" \
-        --tag "${IMAGE_REPOSITORY}:${GIT_SHA}" \
-        --build-arg BUILD_DATE=$(shell date -u +"%Y-%m-%dT%H:%M:%SZ") \
-        --build-arg VCS_REF=$(shell git rev-parse --short HEAD) \
-        "$BASE_DIR"
+  # Build docker image
+  $DOCKER_CMD build \
+    --platform "$platform" \
+    $DOCKER_OPTS \
+    "${@:2}" \
+    --file "${DOCKER_DIR}/${tag}.Dockerfile" \
+    --tag "${IMAGE_REPOSITORY}:${IMAGE_TAG}" \
+    --tag "${IMAGE_REPOSITORY}:${GIT_SHA}" \
+    --build-arg BUILD_DATE=$(shell date -u +"%Y-%m-%dT%H:%M:%SZ") \
+    --build-arg VCS_REF=$(shell git rev-parse --short HEAD) \
+    "$BASE_DIR"
 }
 
 [[ "$0" == "$BASH_SOURCE" ]] && main "$@"
