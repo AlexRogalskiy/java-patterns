@@ -62,17 +62,17 @@ ARG APT_INSTALL_OPTIONS="--assume-yes --no-install-recommends --only-upgrade"
 ## setup image labels
 LABEL "name"="$IMAGE_NAME" \
       "version"="$IMAGE_VERSION" \
-      "com.github.image.title"="$IMAGE_NAME" \
-      "com.github.image.description"="$IMAGE_DESCRIPTION" \
-      "com.github.image.vendor"="$IMAGE_VENDOR" \
-      "com.github.image.url"="$IMAGE_URL" \
-      "com.github.image.authors"="$IMAGE_AUTHORS" \
-      "com.github.image.licenses"="$IMAGE_LICENSES" \
-      "com.github.image.documentation"="$IMAGE_DOCUMENTATION" \
-      "com.github.image.source"="$IMAGE_URL" \
-      "com.github.image.revision"="$IMAGE_REVISION" \
-      "com.github.image.version"="$IMAGE_VERSION" \
-      "com.github.image.created"="$IMAGE_BUILD_DATE"
+      "org.opencontainers.image.title"="$IMAGE_NAME" \
+      "org.opencontainers.image.description"="$IMAGE_DESCRIPTION" \
+      "org.opencontainers.image.vendor"="$IMAGE_VENDOR" \
+      "org.opencontainers.image.url"="$IMAGE_URL" \
+      "org.opencontainers.image.authors"="$IMAGE_AUTHORS" \
+      "org.opencontainers.image.licenses"="$IMAGE_LICENSES" \
+      "org.opencontainers.image.documentation"="$IMAGE_DOCUMENTATION" \
+      "org.opencontainers.image.source"="$IMAGE_URL" \
+      "org.opencontainers.image.revision"="$IMAGE_REVISION" \
+      "org.opencontainers.image.version"="$IMAGE_VERSION" \
+      "org.opencontainers.image.created"="$IMAGE_BUILD_DATE"
 
 ## setup shell options
 SHELL ["/bin/bash", "-exo", "pipefail", "-c"]
@@ -122,9 +122,9 @@ RUN adduser \
     || exit 0
 
 # Run commands as user
-RUN whoami && \
-	# opt-out of the new security feature, not needed in a CI environment
-	git config --global --add safe.directory '*'
+RUN whoami \
+    # opt-out of the new security feature, not needed in a CI environment
+    && git config --global --add safe.directory '*'
 
 ## mount volumes
 VOLUME ["$APP_DIR", "$DATA_DIR", "$TEMP_DIR"]
@@ -157,9 +157,9 @@ RUN cd /tmp && curl -O https://www.python.org/ftp/python/${PYTHON_VERSION}/Pytho
     ln -s /usr/local/bin/python3.8 /usr/bin/python3.8
 
 ## show versions
-RUN echo "npm version: $(npm --version)" \
-    && echo "node version: $(node --version | awk -F. '{print $1}')" \
-    && echo "python version: $(python3 --version)"
+RUN echo ">>> npm version: $(npm --version)" \
+    && echo ">>> node version: $(node --version | awk -F. '{print $1}')" \
+    && echo ">>> python version: $(python3 --version)"
 
 ## setup entrypoint
 ENTRYPOINT [ "/usr/bin/tini", "--" ]
@@ -184,8 +184,8 @@ ARG PYTHON_INSTALL_OPTIONS="--no-ansi --upgrade"
 ## setup python dependencies stage
 RUN echo "**** Installing python modules stage ****"
 
-RUN /usr/bin/python3.8 -m pip install $PYTHON_INSTALL_OPTIONS $PYTHON_INSTALL_PACKAGES && \
-    /usr/bin/python3.8 -m pip install $PYTHON_INSTALL_OPTIONS -r requirements.txt
+RUN /usr/local/bin/python3.8 -m pip install $PYTHON_INSTALL_OPTIONS $PYTHON_INSTALL_PACKAGES && \
+    /usr/local/bin/python3.8 -m pip install $PYTHON_INSTALL_OPTIONS -r requirements.txt
 
 ## remove cache
 RUN echo "**** Cleaning python cache ****"
@@ -267,5 +267,5 @@ USER $USER
 EXPOSE 8000
 
 ## define cmd
-CMD [ "/usr/bin/python3.8", "-m", "mkdocs", "serve", "--verbose", "--dirtyreload", "--dev-addr=0.0.0.0:8000" ]
+CMD [ "/usr/local/bin/python3.8", "-m", "mkdocs", "serve", "--verbose", "--dirtyreload", "--dev-addr=0.0.0.0:8000" ]
 ## CMD [ "mkdocs", "serve", "--verbose", "--dirtyreload", "-a", "0.0.0.0:8000" ]
