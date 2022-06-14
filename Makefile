@@ -99,6 +99,9 @@ CHART_RELEASE_DIR 		:= release
 # GITHUB_PAGES_DIR stores github pages folder
 GITHUB_PAGES_DIR 			:= site
 
+# REQUIRED_TOOLS stores required binary tools
+REQUIRED_TOOLS        := $(UTILS)
+
 # VARS stores printing variables
 VARS += DOCKER_IMAGE_NAME
 VARS += IMAGE_NAME MUTABLE_IMAGE_NAME
@@ -124,6 +127,9 @@ VARS += VERBOSE
 
 # Run all by default when "make" is invoked.
 .DEFAULT_GOAL := help
+
+$(REQUIRED_TOOLS):
+	@hash $@ 2>/dev/null || (echo "please install $@" && exit 1)
 
 # Default target (by virtue of being the first non '.'-prefixed in the file).
 .PHONY: _no-target-specified

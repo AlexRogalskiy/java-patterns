@@ -25,6 +25,8 @@ GIT_WORKING_SUFFIX        := $(shell if git status --porcelain | grep -qE '^(?:[
 GIT_TAG 									:= $(shell git tag -l | grep -E '[0-9]+(.[0-9]+){2}' | sort -t. -k 1,1nr -k 2,2nr -k 3,3nr | head -1)
 # GIT_COMMIT_SHA stores git last commit hash
 GIT_COMMIT_SHA 						:= $(shell git rev-parse --short=8 --verify HEAD)
+# GIT_REMOTE_NAME stores git remote branch name
+GIT_REMOTE_NAME						:= $(shell git describe --all --exact-match HEAD)
 # GIT_TREE_SHA stores git tree hash
 GIT_TREE_SHA 							:= $(shell git hash-object -t tree /dev/null)
 # GIT_LOG_COMMIT_TIMESTAMP stores last commit to allow for reproducible builds
@@ -80,22 +82,24 @@ WGET_OPTS 						    := --no-check-certificate
 # CURL_OPTS stores curl options
 CURL_OPTS 						    := --silent --show-error --location --fail --retry 3
 
-# General vars
-TIME_LONG			:= $(shell date +%Y-%m-%d' '%H:%M:%S)
-TIME_SHORT		:= $(shell date +%H:%M:%S)
-TIME					:= $(TIME_SHORT)
+# Date/time vars
+DATE_TIME_LONG			      := $(shell date +%Y-%m-%d' '%H:%M:%S)
+DATE_TIME_SHORT		        := $(shell date +%H:%M:%S)
+DATE_TIME					        := $(DATE_TIME_SHORT)
 
-COLOR_BLUE    := $(shell printf "\033[34m")
-COLOR_YELLOW  := $(shell printf "\033[33m")
-COLOR_RED     := $(shell printf "\033[31m")
-COLOR_GREEN   := $(shell printf "\033[32m")
-COLOR_NORMAL  := $(shell printf "\033[0m")
+# Color vars
+COLOR_BLUE                := $(shell printf "\033[34m")
+COLOR_YELLOW              := $(shell printf "\033[33m")
+COLOR_RED                 := $(shell printf "\033[31m")
+COLOR_GREEN               := $(shell printf "\033[32m")
+COLOR_NORMAL              := $(shell printf "\033[0m")
 
-PRINT_INFO		:= echo ${TIME} ${COLOR_BLUE}[ INFO ]${COLOR_NORMAL}
-PRINT_WARN		:= echo ${TIME} ${COLOR_YELLOW}[ WARN ]${COLOR_NORMAL}
-PRINT_ERR			:= echo ${TIME} ${COLOR_RED}[ ERR ]${COLOR_NORMAL}
-PRINT_OK			:= echo ${TIME} ${COLOR_GREEN}[ OK ]${COLOR_NORMAL}
-PRINT_FAIL		:= (echo ${TIME} ${COLOR_RED}[ FAIL ]${COLOR_NORMAL} && false)
+# Status vars
+PRINT_INFO		            := echo ${DATE_TIME} ${COLOR_BLUE}[ INFO ]${COLOR_NORMAL}
+PRINT_WARN		            := echo ${DATE_TIME} ${COLOR_YELLOW}[ WARN ]${COLOR_NORMAL}
+PRINT_ERR			            := echo ${DATE_TIME} ${COLOR_RED}[ ERR ]${COLOR_NORMAL}
+PRINT_OK			            := echo ${DATE_TIME} ${COLOR_GREEN}[ OK ]${COLOR_NORMAL}
+PRINT_FAIL		            := (echo ${DATE_TIME} ${COLOR_RED}[ FAIL ]${COLOR_NORMAL} && false)
 
 ################################################################################
 # Common variables                                                             #
