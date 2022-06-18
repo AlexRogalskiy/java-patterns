@@ -80,7 +80,7 @@ COMPOSE_DOCKER_CLI_BUILD 	:= 1
 WGET_OPTS 						    := --no-check-certificate
 
 # CURL_OPTS stores curl options
-CURL_OPTS 						    := --silent --show-error --location --fail --retry 3
+CURL_OPTS 						    := --silent --show-error --location --fail --retry 3 --retry-max-time 180
 
 # Date/time vars
 DATE_TIME_LONG			      := $(shell date +%Y-%m-%d' '%H:%M:%S)

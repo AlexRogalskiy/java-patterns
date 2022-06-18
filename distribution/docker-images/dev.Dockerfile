@@ -57,7 +57,7 @@ ARG DATA_DIR="/usr/src/data"
 ARG TEMP_DIR="${TEMP_DIR:-/tmp}"
 
 ARG APT_INSTALL_PACKAGES="git curl tini dos2unix locales"
-ARG APT_INSTALL_OPTIONS="--assume-yes --no-install-recommends --only-upgrade"
+ARG APT_INSTALL_OPTIONS="--assume-yes --no-install-recommends --only-upgrade --allow-downgrades -allow-remove-essential --allow-change-held-packages"
 
 ## setup image labels
 LABEL "name"="$IMAGE_NAME" \
@@ -89,7 +89,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
     TZ=UTC \
     LC_ALL="en_US.UTF-8" \
     LANG=$LC_ALL \
-    LANGUAGE="en_US:en" \
+    LANGUAGE=$LC_ALL \
     LC_CTYPE=$LC_ALL \
     PYTHONIOENCODING=UTF-8 \
     PYTHONLEGACYWINDOWSSTDIO=UTF-8 \
@@ -135,14 +135,18 @@ WORKDIR $APP_DIR
 ## install dependencies
 RUN echo "**** Installing build packages ****"
 ## RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
-RUN apt-get update \
-    && apt-get upgrade -yqq \
-    && apt-get install $APT_INSTALL_OPTIONS $APT_INSTALL_PACKAGES 2>&1 > /dev/null \
+RUN apt-get -yqq $APT_INSTALL_OPTIONS update \
+    && apt-get -yqq $APT_INSTALL_OPTIONS upgrade \
+    && apt-get -yqq --force-yes $APT_INSTALL_OPTIONS dist-upgrade \
+    && apt-get -yqq $APT_INSTALL_OPTIONS install $APT_INSTALL_PACKAGES 2>&1 > /dev/null \
+    && locale-gen en_US.UTF-8 \
+    && update-locale LANG=${LANG} LANGUAGE=${LANGUAGE} LC_ALL=${LC_ALL} \
     && apt-get -yqq autoclean \
     && apt-get -yqq clean \
     && apt-get -yqq autoremove --purge \
     && rm -rf /var/lib/apt/lists/* \
     && rm -rf /tmp/* \
+    && rm -rf /usr/share/man/* /usr/share/doc/* /usr/share/info/* /usr/share/groff/* /usr/share/lintian/* /usr/share/linda/* \
     && rm -rf /var/tmp/* \
     && rm -rf /var/cache/apt/*
 
