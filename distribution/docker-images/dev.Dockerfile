@@ -121,7 +121,10 @@ RUN adduser \
     "$USER" \
     || exit 0
 
-# Run commands as user
+# Switch to the runtime user
+USER $USER
+
+# Run commands as runtime user
 RUN whoami \
     # opt-out of the new security feature, not needed in a CI environment
     && git config --global --add safe.directory '*'
@@ -237,7 +240,7 @@ FROM base AS test
 RUN echo "**** Testing stage ****"
 
 ## copy dependencies
-COPY --from=node-dependencies /usr/local/lib/node_modules ./node_modules
+COPY --from=node-dependencies --chown=$USER /usr/local/lib/node_modules ./node_modules
 
 ## copy source files
 COPY . ./
@@ -258,14 +261,11 @@ ENV PATH=/root/.local:$PATH
 
 ## copy dependencies
 #COPY --from=node-dependencies ${APP_DIR}/prod_node_modules ./node_modules
-COPY --from=node-dependencies /usr/local/lib/node_modules ./node_modules
-COPY --from=python-dependencies /usr/local/lib/python3.8/site-packages /usr/local/lib/python3.8/site-packages
+COPY --from=node-dependencies --chown=$USER /usr/local/lib/node_modules ./node_modules
+COPY --from=python-dependencies --chown=$USER /usr/local/lib/python3.8/site-packages /usr/local/lib/python3.8/site-packages
 
 ## copy app sources
 COPY . ./
-
-## setup user
-USER $USER
 
 ## expose port
 EXPOSE 8000
