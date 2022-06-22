@@ -27,6 +27,11 @@ ifeq ($(filter --no-print-directory,$(MAKEFLAGS)),)
   CT_MAKEFLAGS += --no-print-directory
 endif
 
+# Do not print verbose output
+ifeq ($(filter --silent,$(MAKEFLAGS)),)
+  CT_MAKEFLAGS += --silent
+endif
+
 # Use neither builtin rules, nor builtin variables
 # Note: dual test, because if -R and -r are given on the command line
 # (who knows?), MAKEFLAGS contains 'Rr' instead of '-Rr', while adding

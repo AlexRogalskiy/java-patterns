@@ -472,6 +472,7 @@ skaffold-start: _ensure-skaffold-tag
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running skaffold-start command.$(COLOR_NORMAL)"
   $(AT)echo
+  ## kubectl config use-context docker-desktop
 	$(AT)$(SKAFFOLD_CMD) dev --filename='skaffold.$(SKAFFOLD_TAG).yaml' --timestamps=false --update-check=true --interactive=true --no-prune=false --cache-artifacts=true
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Skaffold start command finished.$(COLOR_NORMAL)"
@@ -483,6 +484,7 @@ skaffold-stop: _ensure-skaffold-tag
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running skaffold-stop command.$(COLOR_NORMAL)"
   $(AT)echo
+  ## kubectl config use-context docker-desktop
 	$(AT)$(SKAFFOLD_CMD) delete --filename='skaffold.$(SKAFFOLD_TAG).yaml'
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Skaffold stop command finished.$(COLOR_NORMAL)"

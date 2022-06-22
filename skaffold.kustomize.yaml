@@ -85,11 +85,15 @@ portForward:
 
 profiles:
   - name: prod
+    activation:
+      - kubeContext: docker-desktop
     deploy:
       kustomize:
         paths:
           - 'k8s/overlays/prod'
   - name: staging
+    activation:
+      - kubeContext: docker-desktop
     deploy:
       kustomize:
         paths:
