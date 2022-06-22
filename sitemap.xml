@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/"/>
@@ -10,7 +10,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/CHANGELOG/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/CHANGELOG/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/CHANGELOG/"/>
@@ -18,7 +18,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/CONTRIBUTING/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/CONTRIBUTING/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/CONTRIBUTING/"/>
@@ -26,7 +26,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/GUIDE/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/GUIDE/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/GUIDE/"/>
@@ -34,7 +34,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/SUMMARY/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/SUMMARY/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/SUMMARY/"/>
@@ -42,7 +42,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/adr/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/adr/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/adr/"/>
@@ -50,7 +50,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/adr/0001-styled-java-patterns/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/adr/0001-styled-java-patterns/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/adr/0001-styled-java-patterns/"/>
@@ -58,7 +58,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/contributing/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/contributing/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/contributing/"/>
@@ -66,7 +66,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/contributing/info/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/contributing/info/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/contributing/info/"/>
@@ -74,7 +74,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/links/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/links/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/links/"/>
@@ -82,7 +82,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/links/info/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/links/info/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/links/info/"/>
@@ -90,7 +90,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/patterns/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/patterns/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/patterns/"/>
@@ -98,7 +98,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/patterns/snippet-template/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/patterns/snippet-template/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/patterns/snippet-template/"/>
@@ -106,7 +106,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/reporting/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/reporting/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/reporting/"/>
@@ -114,7 +114,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/reporting/bug_report/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/reporting/bug_report/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/reporting/bug_report/"/>
@@ -122,7 +122,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/reporting/custom_report/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/reporting/custom_report/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/reporting/custom_report/"/>
@@ -130,7 +130,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/reporting/feature_request_template/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/reporting/feature_request_template/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/reporting/feature_request_template/"/>
@@ -138,7 +138,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/reporting/info/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/reporting/info/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/reporting/info/"/>
@@ -146,7 +146,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/reporting/issue_template/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/reporting/issue_template/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/reporting/issue_template/"/>
@@ -154,7 +154,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/reporting/pull_request_template/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/reporting/pull_request_template/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/reporting/pull_request_template/"/>
@@ -162,7 +162,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/tags/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/tags/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/tags/"/>
@@ -170,7 +170,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/tags/tags/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/tags/tags/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/tags/tags/"/>
@@ -178,7 +178,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/units/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/units/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/units/"/>
@@ -186,7 +186,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/units/design-patterns/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/units/design-patterns/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/units/design-patterns/"/>
@@ -194,7 +194,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/units/scenarios/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/units/scenarios/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/units/scenarios/"/>
@@ -202,7 +202,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/units/use-cases/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/units/use-cases/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/units/use-cases/"/>
@@ -210,7 +210,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/user-guide/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/user-guide/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/user-guide/"/>
@@ -218,7 +218,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/user-guide/changelog/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/user-guide/changelog/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/user-guide/changelog/"/>
@@ -226,7 +226,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/user-guide/code_of_conduct/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/user-guide/code_of_conduct/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/user-guide/code_of_conduct/"/>
@@ -234,7 +234,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/user-guide/code_owners/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/user-guide/code_owners/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/user-guide/code_owners/"/>
@@ -242,7 +242,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/user-guide/dependency/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/user-guide/dependency/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/user-guide/dependency/"/>
@@ -250,7 +250,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/user-guide/faq/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/user-guide/faq/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/user-guide/faq/"/>
@@ -258,7 +258,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/user-guide/getting-started/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/user-guide/getting-started/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/user-guide/getting-started/"/>
@@ -266,7 +266,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/user-guide/troubleshooting/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/user-guide/troubleshooting/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/user-guide/troubleshooting/"/>
@@ -274,7 +274,7 @@
     </url>
     <url>
          <loc>https://alexander-rogalsky.gitbook.io/java-patterns/user-guide/upgrade/</loc>
-         <lastmod>2022-06-21</lastmod>
+         <lastmod>2022-06-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/user-guide/upgrade/"/>
          <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/user-guide/upgrade/"/>
