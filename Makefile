@@ -507,7 +507,7 @@ helm-start:
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running helm-start command.$(COLOR_NORMAL)"
   $(AT)echo
-	$(AT)$(HELM_CMD) upgrade --install $(CLUSTER_NAME) -f charts/values.yaml --create-namespace --namespace $(CLUSTER_NAMESPACE) charts
+	$(AT)$(HELM_CMD) upgrade --install $(CLUSTER_NAME) -f charts/values.yaml --debug --create-namespace --namespace $(CLUSTER_NAMESPACE) charts
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Helm start command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -519,6 +519,15 @@ helm-stop:
 	$(AT)echo "$(COLOR_RED)🌟 Running helm-stop command.$(COLOR_NORMAL)"
   $(AT)echo
 	$(AT)$(HELM_CMD) uninstall $(CLUSTER_NAME) --namespace $(CLUSTER_NAMESPACE)
+	$(AT)echo
+
+# Run helm delete command.
+.PHONY: helm-delete
+helm-delete:
+	$(AT)echo
+	$(AT)echo "$(COLOR_RED)🌟 Running helm-delete command.$(COLOR_NORMAL)"
+  $(AT)echo
+	$(AT)$(HELM_CMD) delete --purge $(CLUSTER_NAME) --namespace $(CLUSTER_NAMESPACE)
 	$(AT)echo
 
 # Run helm package command.

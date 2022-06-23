@@ -67,7 +67,20 @@
     },
     "exclude": [
         "node_modules",
-        "scripts"
+        "tilt_modules",
+        "scripts",
+        "distribution",
+        "charts",
+        "adrs",
+        "hooks",
+        "images",
+        "k8s",
+        "makefiles",
+        "okteto",
+        "policy",
+        "reports",
+        "site",
+        "traffic"
     ],
     "linterOptions": {
         "exclude": [

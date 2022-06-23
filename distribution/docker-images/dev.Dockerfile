@@ -127,7 +127,9 @@ USER $USER
 # Run commands as runtime user
 RUN whoami \
     # opt-out of the new security feature, not needed in a CI environment
-    && git config --global --add safe.directory '*'
+    && git config --global --add safe.directory '*' \
+    && git config --global user.email "support@sensiblemetrics.com" \
+    && git config --global user.name "sensiblemetrics"
 
 ## mount volumes
 VOLUME ["$APP_DIR", "$DATA_DIR", "$TEMP_DIR"]
@@ -205,7 +207,7 @@ RUN rm -rf ~/.cache/pip
 FROM base AS node-dependencies
 
 ## setup image arguments
-ARG NPM_INSTALL_OPTIONS="--no-cache --no-audit --ignore-scripts"
+ARG NPM_INSTALL_OPTIONS="--no-cache --no-audit --ignore-scripts --allow-root --unsafe-perm --no-progress --prefer-offline"
 
 ## setup node modules stage
 RUN echo "**** Installing node modules stage ****"
