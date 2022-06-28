@@ -9,7 +9,7 @@ Running docker containers via `docker-compose` command:
 
 ```shell
 docker-compose -f docker-compose.yml build
-docker-compose -f docker-compose.yml up -d
+docker-compose -f docker-compose.yml up --detach
 ```
 
 Removing docker containers via `docker-compose` command:

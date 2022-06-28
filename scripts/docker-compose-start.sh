@@ -35,7 +35,7 @@ main() {
   $DOCKER_COMPOSE_CMD \
     $DOCKER_COMPOSE_OPTS \
     --file "${DOCKER_DIR}/docker-compose.yml" \
-    up --detach --build --force-recreate --renew-anon-volumes "$@"
+    up --detach --build --force-recreate --renew-anon-volumes --quiet-pull "$@"
 }
 
 [[ "$0" == "$BASH_SOURCE" ]] && main "$@"

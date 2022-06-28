@@ -149,7 +149,7 @@ docker_start() {
   $DOCKER_COMPOSE_CMD \
     $DOCKER_COMPOSE_OPTS \
     --file "${DOCKER_DIR}/docker-compose.yml" \
-    up --detach --build --force-recreate --renew-anon-volumes "$@"
+    up --detach --build --force-recreate --renew-anon-volumes --quiet-pull "$@"
 }
 
 docker_restart() {

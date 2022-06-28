@@ -19,11 +19,20 @@ Links
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-with open(os.path.join('requirements', 'base.in')) as fp:
-    REQUIREMENTS = list(fp)
+def _strip(line):
+    return line.split(" ")[0].split("#")[0].split(",")[0]
 
-with codecs.open(os.path.join(here, 'README.md'), encoding='utf-8') as fh:
-    long_description = '\n' + fh.read()
+def read_file(path):
+    with codecs.open(os.path.join(here, path), "r", encoding="utf-8") as f:
+        return f.read()
+
+def read_requirements(path):
+    with codecs.open(os.path.join(here, 'requirements', path), "r", encoding="utf-8") as f:
+        return list(f)
+
+long_description = '\n' + read_file("README.md")
+install_requirements = '\n' + read_requirements('base.in')
+## install_requirements = _strip(line) for line in read_file('base.in')
 
 setup_requires = ['setuptools', 'wheel']
 
@@ -36,7 +45,10 @@ setup(
     url='https://github.com/AlexRogalskiy/java-patterns',
     include_package_data=True,
     packages=find_packages(exclude=['tests']),
-    install_requires=REQUIREMENTS,
+    install_requires=install_requirements,
+##    install_requires=[
+##        _strip(line) for line in codecs.open(os.path.join('requirements', 'base.in'), "r", encoding="utf-8")
+##    ],
     setup_requires=setup_requires,
     python_requires='~=3.9',
     license='GPL-3.0',

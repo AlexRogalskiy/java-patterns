@@ -1,3 +1,19 @@
+{{/*
+# Copyright (C) 2022 SensibleMetrics, Inc. (http://sensiblemetrics.io/)
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#         http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+*/}}
+
 {{/* vim: set filetype=mustache: */}}
 {{/*
 Expand the name of the chart.
@@ -10,11 +26,11 @@ Expand the name of the chart.
 Expand the app version of the chart.
 */}}
 {{- define "backend-java-patterns.appVersion" -}}
-{{- default .Chart.AppVersion | trunc 33 | trimSuffix "-" }}
+{{- default .Chart.AppVersion .Values.general.appVersionOverride | trunc 33 | trimSuffix "-" }}
 {{- end }}
 
 {{/*
-CPU/memory resources for requests/limits
+CPU/memory resources for requests/limits.
 */}}
 {{- define "backend-java-patterns.resources" -}}
 resources:
@@ -51,7 +67,7 @@ Create chart name and version as used by the chart label.
 {{- end }}
 
 {{/*
-Selector labels
+Selector labels.
 */}}
 {{- define "backend-java-patterns.selectorLabels" -}}
 app.kubernetes.io/name: {{ include "backend-java-patterns.name" . }}
@@ -59,7 +75,7 @@ app.kubernetes.io/instance: {{ .Release.Name | lower | quote }}
 {{- end }}
 
 {{/*
-Common labels
+Common labels.
 */}}
 {{- define "backend-java-patterns.labels" -}}
 helm.sh/chart: {{ include "backend-java-patterns.chart" . }}
@@ -71,7 +87,7 @@ app.kubernetes.io/managed-by: {{ .Release.Service }}
 {{- end }}
 
 {{/*
-Create the name of the tls secret for secure port
+Create the name of the tls secret for secure port.
 */}}
 {{- define "backend-java-patterns.tlsSecretName" -}}
 {{- $fullname := include "backend-java-patterns.name" . -}}
@@ -79,7 +95,7 @@ Create the name of the tls secret for secure port
 {{- end }}
 
 {{/*
-Create the name of the service account to use
+Create the name of the service account to use.
 */}}
 {{- define "backend-java-patterns.serviceAccountName" -}}
 {{- if .Values.serviceAccount.enabled }}
@@ -101,18 +117,29 @@ Return the appropriate apiVersion for NetworkPolicy.
 {{- end -}}
 
 {{/*
-Return the appropriate apiVersion for StatefulSets
+Return the appropriate apiVersion for StatefulSet.
 */}}
 {{- define "backend-java-patterns.statefulset.apiVersion" -}}
 {{- if semverCompare "<1.12-0" .Capabilities.KubeVersion.GitVersion -}}
     {{- print "apps/v1beta1" -}}
 {{- else -}}
-    {{- print "apps/v1" -}}
+    {{- printf "apps/%s" .Chart.ApiVersion -}}
 {{- end -}}
 {{- end -}}
 
 {{/*
-Return the proper image name
+Return the appropriate apiVersion for Deployment.
+*/}}
+{{- define "backend-java-patterns.deployment.apiVersion" -}}
+{{- if semverCompare "<1.12-0" .Capabilities.KubeVersion.GitVersion -}}
+    {{- print "apps/v1beta1" -}}
+{{- else -}}
+    {{- printf "apps/%s" .Chart.ApiVersion -}}
+{{- end -}}
+{{- end -}}
+
+{{/*
+Return the proper image name.
 */}}
 {{- define "backend-java-patterns.image" -}}
 {{- $registryName := .Values.deployment.container.image.registry -}}
@@ -135,7 +162,7 @@ Also, we can't use a single if because lazy evaluation is not an option
 {{- end -}}
 
 {{/*
-Return the proper image name (for the metrics image)
+Return the proper image name (for the metrics image).
 */}}
 {{- define "backend-java-patterns.metrics.image" -}}
 {{- $registryName := .Values.metrics.image.registry -}}
@@ -158,7 +185,7 @@ Also, we can't use a single if because lazy evaluation is not an option
 {{- end -}}
 
 {{/*
-Return the proper Storage Class
+Return the proper Storage Class.
 */}}
 {{- define "backend-java-patterns.storageClass" -}}
 {{/*
@@ -209,7 +236,7 @@ Compile all warnings into a single message, and call fail.
 
 {{/*
 Validate both values: username and database that are necessary
-to create a custom user and database during initialization
+to create a custom user and database during initialization.
 */}}
 {{- define "backend-java-patterns.validateValues.customDatabase" -}}
 {{- if or (and .Values.general.username (not .Values.general.database)) (and (not .Values.general.username) .Values.general.database) }}
@@ -221,7 +248,7 @@ db: username, database
 {{- end -}}
 
 {{/*
-Return the proper Docker Image Registry Secret Names
+Return the proper Docker Image Registry Secret Names.
 */}}
 {{- define "backend-java-patterns.imagePullSecrets" -}}
 {{/*
@@ -262,7 +289,7 @@ imagePullSecrets:
 {{- end -}}
 
 {{/*
-Return the proper image name (for the init container volume-permissions image)
+Return the proper image name (for the init container volume-permissions image).
 */}}
 {{- define "backend-java-patterns.volumePermissions.image" -}}
 {{- $registryName := .Values.volumePermissions.image.registry -}}
@@ -285,7 +312,7 @@ Also, we can't use a single if because lazy evaluation is not an option
 {{- end -}}
 
 {{/*
-Return port
+Return the proper port.
 */}}
 {{- define "backend-java-patterns.port" -}}
 {{- if .Values.general.servicePort }}
