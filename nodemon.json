@@ -1,12 +1,6 @@
 {
-    "ignore": [
-        ".git",
-        "node_modules"
-    ],
-    "watch": [
-        ".env",
-        "."
-    ],
-    "exec": "npm run all",
-    "ext": "ts"
+	"ignore": [".git", "node_modules"],
+	"watch": [".env", "."],
+	"exec": "npm run all",
+	"ext": "ts"
 }

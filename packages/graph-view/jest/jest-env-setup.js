@@ -15,6 +15,7 @@
  */
 'use strict';
 
+import '@testing-library/jest-dom';
 import 'jest-extended';
 import * as jest from 'jest';
 import * as matchers from 'jest-extended/dist/matchers';
@@ -28,27 +29,29 @@ beforeAll(() => {
 });
 
 beforeEach(() => {
-	global.fetch.resetMocks();
+  jest.clearAllMocks();
 
-	// mock for resize-observer
-	global.ResizeObserver = jest.fn().mockImplementation(() => {
-		return {
-			observe: jest.fn(),
-			unobserve: jest.fn(),
-		};
-	});
+  global.fetch.resetMocks();
 
-	global.console.error = error => {
-		throw new Error(error);
-	};
+  // mock for resize-observer
+  global.ResizeObserver = jest.fn().mockImplementation(() => {
+    return {
+      observe: jest.fn(),
+      unobserve: jest.fn(),
+    };
+  });
 
-	MockDate.set('2007-09-02');
+  global.console.error = error => {
+    throw new Error(error);
+  };
+
+  MockDate.set('2007-09-02');
 });
 
 afterEach(() => {
-	MockDate.reset();
+  MockDate.reset();
 });
 
 module.exports = async () => {
-	process.env.TZ = 'UTC';
+  process.env.TZ = 'UTC';
 };

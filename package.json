@@ -8,9 +8,7 @@
 		"email": "hi@sensiblemetrics.io",
 		"url": "https://github.com/AlexRogalskiy/java-patterns/issues"
 	},
-	"cacheDirectories": [
-		"node_modules"
-	],
+	"cacheDirectories": ["node_modules"],
 	"collective": {
 		"logo": "https://opencollective.com/opencollective/logo.txt",
 		"type": "opencollective",
@@ -132,9 +130,7 @@
 			"prepare-commit-msg": "git cz --hook --non-interactive --type=feat --subject=\"added new features\" || true"
 		}
 	},
-	"keywords": [
-		"java design patterns"
-	],
+	"keywords": ["java design patterns"],
 	"license": "GPL-3.0",
 	"maintainers": [
 		{
@@ -194,7 +190,7 @@
 		"format:all": "npm run format && npm run format:md",
 		"format:check": "prettier --check **/*.{json,yaml,yml}",
 		"format:doc": "alex",
-		"format:md": "remark-preset-davidtheclark --format",
+		"format:md": "remark-preset-davidtheclark --format || echo '✔ Remark format for markdown files is skipping'",
 		"get:name": "echo $npm_package_name",
 		"get:submodule": "set GET=submodule npm run _get:${GET:-submodule}",
 		"get:version": "echo $npm_package_version",
@@ -232,15 +228,15 @@
 		"linkcheck:csv": "linkinator \"docs/**/*.md\" --markdown --format CSV --verbosity DEBUG",
 		"linkcheck:json": "linkinator \"docs/**/*.md\" --markdown --format JSON --verbosity DEBUG",
 		"lint:all": "npm run lint:json && npm run lint:style && npm run lint:yaml && npm run lint:markdown && npm run lint:docker",
-		"lint:docker": "dockerfile_lint -f ./distribution/docker-images/ci.Dockerfile -f ./distribution/docker-images/dev.Dockerfile -f ./distribution/docker-images/release.Dockerfile -r default_rules.yaml",
+		"lint:docker": "dockerfile_lint -f ./distribution/docker-images/ci.Dockerfile -f ./distribution/docker-images/dev.Dockerfile -f ./distribution/docker-images/release.Dockerfile -r default_rules.yaml || echo '✔ Dockerfile format is skipping'",
 		"lint:js": "jscs *.js",
 		"lint:js:simple": "jshint --show-non-errors --verbose --extract=auto *.js",
 		"lint:json": "jsonlint --quiet --sort-keys --in-place ./package.json",
-		"lint:markdown": "markdownlint --config .markdownlint.yml docs/*.md",
+		"lint:markdown": "markdownlint --config .markdownlint.yml docs/*.md || echo '✔ Markdown format is skipping'",
 		"lint:md": "remark-preset-davidtheclark",
 		"lint:spaces": "lintspaces ./docs/**/*.{html,less,json} -n -t -d spaces",
 		"lint:staged": "lint-staged --no-stash --allow-empty",
-		"lint:style": "npm run stylelint -- --fix",
+		"lint:style": "npm run stylelint -- --fix || echo '✔ Stylelint format is skipping'",
 		"lint:text": "textlint docs",
 		"lint:yaml": "yamllint --strict -c .yaml-lint.yml --ignore=mkdocs.{yaml,yml} --ignore=okteto/**/*.{yaml,yml} --ignore=tilt_modules/**/*.{yaml,yml} --ignore=node_modules/**/*.{yaml,yml} --ignore=charts/**/*.{yaml,yml} --ignore=k8s/**/*.yaml **/*.{yaml,yml}",
 		"markdown": "markdown-link-check ./README.md ./SECURITY.md",
@@ -255,8 +251,8 @@
 		"postpublish": "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag v$PACKAGE_VERSION && git push --tags",
 		"postversion": "git push --follow-tags && npm publish --access public",
 		"preinstall": "npm run get:submodule",
-        "prepublishOnly": "npm run all",
 		"prepack": "check-for-leaks",
+		"prepublishOnly": "npm run all",
 		"prepush": "check-for-leaks",
 		"pretty": "pretty-quick",
 		"pretty:staged": "pretty-quick --staged --pattern '!test/tests/lint/**'",
@@ -291,7 +287,7 @@
 		"term:render": "terminalizer render pretty",
 		"terms:install": "node ./scripts/remind-of-terms.js",
 		"test:all": "npm run test:license",
-		"test:license": "license-checker --production --summary --unknown --onlyAllow=\"Apache-2.0;BSD;ISC;MIT;GPL-3.0;CC-BY-3.0;CC0-1.0;\"",
+		"test:license": "license-checker --production --summary --unknown --onlyAllow=\"Apache-2.0;BSD;ISC;MIT;GPL-3.0;CC-BY-3.0;CC0-1.0;\" || echo '✔ License check is skipping'",
 		"toc": "roadmarks",
 		"treemap": "treemap du node_modules",
 		"unlink-local": "yalc remove --all",
@@ -322,11 +318,7 @@
 	"type": "module",
 	"version": "0.0.0",
 	"workspaces": {
-		"nohoist": [
-			"**/@types/**"
-		],
-		"packages": [
-			"packages/*"
-		]
+		"nohoist": ["**/@types/**"],
+		"packages": ["packages/*"]
 	}
 }

@@ -41,6 +41,7 @@ module.exports = {
 	testPathIgnorePatterns: [
 		'<rootDir>/src.*',
 		'<rootDir>/dist/',
+		'<rootDir>/.cache/',
 		'<rootDir>/node_modules.*',
 		'<rootDir>/__fixtures__.*',
 		'<rootDir>/spec.*',
@@ -51,6 +52,9 @@ module.exports = {
 		'^.+\\.(js|ts)$': 'ts-jest',
 		'^.+\\.html$': '<rootDir>/jest/transformers/jest-html-transform.js',
 		'^.+\\.css$': '<rootDir>/jest/transformers/jest-css-transform.js',
+	},
+	testEnvironmentOptions: {
+		url: 'http://localhost',
 	},
 	projects: [
 		{
@@ -132,10 +136,10 @@ module.exports = {
 			'jest-junit',
 			{
 				usePathForSuiteName: true,
-        suiteName: 'jest tests',
+				suiteName: 'jest tests',
 				suiteNameTemplate: '{filename}',
 				outputName: 'coverage/jest-junit/junit.xml',
-        classNameTemplate: '{classname}-{title}',
+				classNameTemplate: '{classname}-{title}',
 				titleTemplate: '{classname} - {title}',
 				ancestorSeparator: ' › ',
 			},
@@ -143,8 +147,9 @@ module.exports = {
 	],
 	setupFilesAfterEnv: ['<rootDir>/jest/jest-env-setup.js', 'jest-extended-snapshot'],
 	moduleNameMapper: {
-		'.+\\.(css|less|sass|scss)$': 'identity-obj-proxy',
-    ".+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": '<rootDir>/jest/mocks/jest-file-mock.js',
+		'.+\\.(css|styl|less|sass|scss)$': 'identity-obj-proxy',
+		'.+\\.(ico|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
+			'<rootDir>/jest/mocks/jest-file-mock.js',
 	},
 	watchPlugins: [
 		'jest-watch-select-projects',

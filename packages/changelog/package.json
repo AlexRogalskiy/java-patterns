@@ -88,6 +88,7 @@
 	"devDependencies": {
 		"@compodoc/compodoc": "^1.1.19",
 		"@jest/test-sequencer": "^27.5.1",
+		"@testing-library/jest-dom": "^5.16.4",
 		"@microsoft/api-extractor": "^7.21.0",
 		"@types/jest": "^27.4.1",
 		"@types/node": "^17.0.21",

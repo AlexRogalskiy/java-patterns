@@ -15,6 +15,7 @@
  */
 'use strict';
 
+import '@testing-library/jest-dom';
 import 'jest-extended';
 import * as jest from 'jest';
 import * as matchers from 'jest-extended/dist/matchers';
@@ -22,12 +23,14 @@ import * as superMatchers from 'jest-supertest-matchers';
 import * as MockDate from 'mockdate';
 
 beforeAll(() => {
-  jest.setTimeout(60000);
-  jest.expect.extend(matchers);
-  jest.expect.extend(superMatchers);
+	jest.setTimeout(60000);
+	jest.expect.extend(matchers);
+	jest.expect.extend(superMatchers);
 });
 
 beforeEach(() => {
+	jest.clearAllMocks();
+
 	global.fetch.resetMocks();
 
 	// mock for resize-observer
