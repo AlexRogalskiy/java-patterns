@@ -18,6 +18,7 @@
 // For a detailed explanation regarding each configuration property, visit:
 // https://jestjs.io/docs/en/configuration.html
 module.exports = {
+  preset: 'jest-puppeteer',
 	globals: {
 		'__BROWSER__': false,
 		'ts-jest': {
@@ -145,7 +146,7 @@ module.exports = {
 			},
 		],
 	],
-	setupFilesAfterEnv: ['<rootDir>/jest/jest-env-setup.js', 'jest-extended-snapshot'],
+	setupFilesAfterEnv: ['<rootDir>/jest/jest-env-setup.js', '<rootDir>/jest/jest-extend-image-snapshot.js', 'jest-extended-snapshot'],
 	moduleNameMapper: {
 		'.+\\.(css|styl|less|sass|scss)$': 'identity-obj-proxy',
 		'.+\\.(ico|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
