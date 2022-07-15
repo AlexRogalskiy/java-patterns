@@ -254,7 +254,7 @@ Netlify is connected to the following github triggers:
 A new production version of kepler.gl website is automatically created and deployed every time a PR is merged onto master.
 
 In order to support testing environment, Netlify is setup to generate build every time a PR is created or updated.
-By generating builds for new and updated PRs we support CI/CD so developers can test their own build in a production like environment 
+By generating builds for new and updated PRs we support CI/CD so developers can test their own build in a production like environment
 
 ### Publish kepler.gl package to NPM
 
@@ -292,16 +292,16 @@ The documentation layout is defined by __SUMMARY.md__ file where the table of co
 * [ENTRY_LABEL](FILE_PATH)
 e.g.
 * [Welcome](README.md)
-``` 
+```
 
-The above file is used by Gitbook to generate the doc navigation visible on the left-hand side of Kepler.gl doc website. 
+The above file is used by Gitbook to generate the doc navigation visible on the left-hand side of Kepler.gl doc website.
 Gitbook also has the ability to show description for each folder/section of the documentation by creating an entry in __SUMMARY.md__
 and create a new __README.md__ file within said folder. The README.md file is a Gitbook convention that treats README files as if they were the main entry file for each folder.
 
 The following is an example of doc section in SUMMARY.md file:
 ```markdown
 * [User guides](docs/user-guides/README.md)
-``` 
+```
 
 ### Update Documentation
 The integration with Gitbook allows to update the documentation in two different ways:
