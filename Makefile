@@ -507,7 +507,7 @@ helm-start:
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running helm-start command.$(COLOR_NORMAL)"
   $(AT)echo
-	$(AT)$(HELM_CMD) upgrade --install $(CLUSTER_NAME) -f charts/values.yaml --debug --create-namespace --namespace $(CLUSTER_NAMESPACE) charts
+	$(AT)$(HELM_CMD) upgrade charts $(CLUSTER_NAME) --install --values charts/values.yaml --debug --atomic --create-namespace --timeout 8m0s --namespace $(CLUSTER_NAMESPACE)
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Helm start command finished.$(COLOR_NORMAL)"
 	$(AT)echo

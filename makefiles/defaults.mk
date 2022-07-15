@@ -1,3 +1,7 @@
+ifndef __DEFAULTS_MAKEFILE__
+
+__DEFAULTS_MAKEFILE__ := included
+
 ################################################################################
 # Default variables                                                            #
 ################################################################################
@@ -50,3 +54,5 @@ endif # No Rr
 # MAKEFLAGS stores the make flags.
 # MAKEFLAGS += --warn-undefined-variables
 MAKEFLAGS += $(CT_MAKEFLAGS)
+
+endif
