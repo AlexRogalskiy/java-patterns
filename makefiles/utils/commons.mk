@@ -84,7 +84,7 @@ COMPOSE_DOCKER_CLI_BUILD 	:= 1
 WGET_OPTS 						    := --no-check-certificate
 
 # CURL_OPTS stores curl options
-CURL_OPTS 						    := --silent --show-error --location --fail --retry-connrefused --retry 3 --retry-delay 0 --retry-max-time 180
+CURL_OPTS 						    := --silent --show-error --location --fail --retry-connrefused --tlsv1.2 --proto "=https" --retry 3 --retry-delay 0 --retry-max-time 180
 
 # Date/time vars
 DATE_TIME_LONG			      := $(shell date +%Y-%m-%d' '%H:%M:%S)
@@ -104,6 +104,10 @@ PRINT_WARN		            := echo ${DATE_TIME} ${COLOR_YELLOW}[ WARN ]${COLOR_NORM
 PRINT_ERR			            := echo ${DATE_TIME} ${COLOR_RED}[ ERR ]${COLOR_NORMAL}
 PRINT_OK			            := echo ${DATE_TIME} ${COLOR_GREEN}[ OK ]${COLOR_NORMAL}
 PRINT_FAIL		            := (echo ${DATE_TIME} ${COLOR_RED}[ FAIL ]${COLOR_NORMAL} && false)
+
+# Symbolic vars
+SUCCESS_CHECKMARK         := $(printf '\342\234\224\n' | iconv -f UTF-8)
+CROSS_MARK                := $(printf '\342\235\214\n' | iconv -f UTF-8)
 
 ################################################################################
 # Common variables                                                             #

@@ -102,6 +102,9 @@ GITHUB_PAGES_DIR 			:= site
 # REQUIRED_TOOLS stores required binary tools
 REQUIRED_TOOLS        := $(UTILS)
 
+# SAVE_LOG stores make logs
+SAVE_LOG = 2>&1 | tee "$(PWD)/logs/$(DOCKER_IMAGE_NAME).log"
+
 # VARS stores printing variables
 VARS += DOCKER_IMAGE_NAME
 VARS += IMAGE_NAME MUTABLE_IMAGE_NAME
@@ -268,7 +271,7 @@ docker-scan:
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-scan command.$(COLOR_NORMAL)"
   $(AT)echo
-	$(AT)$(DOCKER_CMD) scan --json --group-issues --dependency-tree --file Dockerfile "$(IMAGE_NAME)"
+	$(AT)$(DOCKER_CMD) scan --json --group-issues --dependency-tree --file Dockerfile "$(IMAGE_NAME)" $(SAVE_LOG)
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker scan command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -279,7 +282,7 @@ docker-table:
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-table command.$(COLOR_NORMAL)"
   $(AT)echo
-	$(AT)$(DOCKER_CMD) ps --format "table {{.Image}}\t{{.Ports}}\t{{.Names}}"
+	$(AT)$(DOCKER_CMD) ps --format "table {{.Image}}\t{{.Ports}}\t{{.Names}}" $(SAVE_LOG)
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker table command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -299,7 +302,8 @@ docker-code-lint:
 		--user $(SYS_USER_GROUP) \
 		--volume $(PWD)/:/data/project/ \
 		--publish 8080:8080 \
-		jetbrains/qodana-jvm-community --show-report
+		jetbrains/qodana-jvm-community --show-report \
+		$(SAVE_LOG)
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker code lint command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -317,7 +321,8 @@ docker-pandoc:
 		--rm \
 		--user $(SYS_USER_GROUP) \
 		--volume "$(PWD):/data" \
-		pandoc/latex README.md -o README.pdf
+		pandoc/latex README.md -o README.pdf \
+		$(SAVE_LOG)
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)Docker pandoc command finished.$(COLOR_NORMAL)"
 	$(AT)echo
@@ -808,7 +813,8 @@ docker-graph:
 		--workdir /workspace \
 		--volume "$(PWD)/distribution/docker-images":/workspace \
 		$(if $(findstring true,$(VERBOSE)),,--quiet) \
-		ghcr.io/patrickhoefler/dockerfilegraph
+		ghcr.io/patrickhoefler/dockerfilegraph \
+		$(SAVE_LOG)
 	$(AT)echo
 
 # Run docker lint command.
@@ -826,7 +832,8 @@ docker-lint:
 		$(if $(findstring true,$(VERBOSE)),,--quiet) \
 		--env RUN_LOCAL=true \
 		--env LINTER_RULES_PATH=/ \
-		github/super-linter
+		github/super-linter \
+		$(SAVE_LOG)
 	$(AT)echo
 
 # Run docker syft command.
@@ -844,7 +851,8 @@ docker-syft:
 		$(if $(findstring true,$(VERBOSE)),,--quiet) \
   	--env "DOCKER_CONFIG=/config" \
   	anchore/syft:latest \
-  	"$(IMAGE_NAME)"
+  	"$(IMAGE_NAME)" \
+  	$(SAVE_LOG)
 	$(AT)echo
 
 # Run git zip archive command.
@@ -900,6 +908,7 @@ kcov: ## Run kcov
 		--clean \
 		--exclude-pattern=.coverage,.git \
 		--include-pattern=.sh \
+		$(SAVE_LOG)
 	$(AT)echo
 
 .PHONY: info
@@ -907,8 +916,8 @@ info: ## Gather information about the runtime environment
 	$(AT)echo "whoami: $$(whoami)"; \
 	$(AT)echo "pwd: $$(pwd)"; \
 	$(AT)echo "ls -ahl: $$(ls -ahl)"; \
-	$(AT)docker images; \
-	$(AT)docker ps
+	$(AT)$(DOCKER_CMD) images; \
+	$(AT)$(DOCKER_CMD) ps
 
 # printvars prints all the variables currently defined in our
 # Makefiles. Alternatively, if a non-empty VARS variable is passed,
