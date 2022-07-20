@@ -31,6 +31,7 @@ module.exports = {
 	clearMocks: true,
 	restoreMocks: true,
 	testTimeout: 20000,
+  slowTestThreshold: 40,
 	testSequencer: '<rootDir>/jest/jest-test-sequencer.js',
 	globalSetup: '<rootDir>/jest/jest-global-setup.js',
 	globalTeardown: '<rootDir>/jest/jest-global-teardown.js',
@@ -146,7 +147,7 @@ module.exports = {
 			},
 		],
 	],
-	setupFilesAfterEnv: ['<rootDir>/jest/jest-env-setup.js', '<rootDir>/jest/jest-extend-image-snapshot.js', 'jest-extended-snapshot'],
+	setupFilesAfterEnv: ['<rootDir>/jest/jest-env-setup.js', '<rootDir>/jest/jest-extend-image-snapshot.js', 'jest-extended-snapshot', 'jest-expect-message'],
 	moduleNameMapper: {
 		'.+\\.(css|styl|less|sass|scss)$': 'identity-obj-proxy',
 		'.+\\.(ico|jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':

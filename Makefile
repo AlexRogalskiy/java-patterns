@@ -44,7 +44,7 @@ SHELL 								:= $(shell if [ -x "$$BASH" ]; then echo $$BASH; \
 # PYTHON_CMD stores python binary
 PYTHON_CMD 						:= $(shell command -v python3 2> /dev/null || type -p python)
 # SED_CMD stores stream editor binary
-SED_CMD 							:= $(shell command -v sed 2> /dev/null || type -p sed)
+SED_CMD 							:= $(shell command -v gsed 2> /dev/null || command -v sed 2> /dev/null || type -p sed)
 # DOCKER_CMD stores docker binary
 DOCKER_CMD 						:= $(shell command -v docker 2> /dev/null || command -v podman 2> /dev/null || type -p docker)
 # DOCKER_COMPOSE_CMD stores docker-compose binary

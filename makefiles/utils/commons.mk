@@ -80,6 +80,12 @@ DOCKER_BUILDKIT 					:= 1
 # COMPOSE_DOCKER_CLI_BUILD stores docker cli build option
 COMPOSE_DOCKER_CLI_BUILD 	:= 1
 
+# GREP_OPTS stores wget options
+GREP_OPTS 						    := --color=auto --line-buffered --verbose
+
+# TAR_OPTS stores wget options
+TAR_OPTS 						      := --strip-components=1
+
 # WGET_OPTS stores wget options
 WGET_OPTS 						    := --no-check-certificate
 

@@ -68,6 +68,7 @@
 		"markdownlint-cli": "^0.27.1",
 		"node-fetch": "^3.2.3",
 		"nodemon": "^2.0.15",
+        "npm-check-updates": "^15.3.4",
 		"npm-package-arg": "^9.0.1",
 		"opencollective-postinstall": "^2.0.3",
 		"patch-package": "^6.4.7",
@@ -213,6 +214,7 @@
 		"husky:install": "is-ci || husky install .husky",
 		"lerna:canary": "lerna version prerelease --preid canary --message \"Publish Canary\" --exact",
 		"lerna:changelog": "lerna-changelog",
+        "lerna:diff": "lerna run diff --",
 		"lerna:deps": "lerna run --parallel --stream deps",
 		"lerna:dist": "lerna run --parallel --stream dist",
 		"lerna:docs": "lerna run --parallel --stream compodocs",
@@ -295,6 +297,7 @@
 		"treemap": "treemap du node_modules",
 		"unlink-local": "yalc remove --all",
 		"update": "lernaupdate",
+		"npm:update": "ncu -u",
 		"update:submodule": "set UPDATE=submodule npm run _update:${UPDATE:-submodule}",
 		"validate:commit": "validate-commit-msg",
 		"zip": "zip -r $npm_package_config_image.zip ./site"

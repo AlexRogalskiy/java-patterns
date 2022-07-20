@@ -56,23 +56,14 @@ ENV APP_DIR=$APP_DIR \
     DATA_DIR=$DATA_DIR \
     TEMP_DIR=$TEMP_DIR
 
-ENV TZ=UTC \
+ENV TERM=xterm \
+    TZ=UTC \
     LANGUAGE=en_US:en \
     LC_ALL=$LC_ALL \
     LC_CTYPE=$LC_ALL \
     LANG=$LC_ALL \
-    PYTHONIOENCODING=UTF-8 \
-    PYTHONLEGACYWINDOWSSTDIO=UTF-8 \
-    PYTHONUNBUFFERED=1 \
-    PYTHONDONTWRITEBYTECODE=1 \
     DEBIAN_FRONTEND=noninteractive \
     APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=1 \
-    PIP_DISABLE_PIP_VERSION_CHECK=1 \
-    PIP_NO_CACHE_DIR=1 \
-    PIP_DEFAULT_TIMEOUT=100 \
-    NPM_CONFIG_LOGLEVEL=error \
-    NODE_MODULES_CACHE=true \
-    NODE_VERBOSE=true \
     IN_DOCKER=True
 
 ENV USER=${USER:-'devbot'} \
@@ -121,6 +112,9 @@ RUN echo "npm version: $(npm --version)"
 RUN echo "node version: $(node --version | awk -F. '{print $1}')"
 RUN echo "python version: $(python3 --version)"
 
+# show node libraries
+RUN node -p process.versions
+
 ## setup entrypoint
 ENTRYPOINT [ "/usr/bin/tini", "--" ]
 
@@ -142,6 +136,16 @@ FROM base AS python-dependencies
 ## setup python dependencies stage
 RUN echo "**** Installing python modules stage ****"
 
+## setup environment variables
+ENV \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DEFAULT_TIMEOUT=100 \
+    PYTHONIOENCODING=UTF-8 \
+    PYTHONLEGACYWINDOWSSTDIO=UTF-8 \
+    PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1
+
 RUN /usr/bin/python3.8 -m pip install --upgrade setuptools && \
     /usr/bin/python3.8 -m pip install --upgrade pip && \
     /usr/bin/python3.8 -m pip install -r requirements.txt
@@ -162,8 +166,19 @@ RUN echo "**** Installing node modules stage ****"
 ## update npm settings
 RUN npm set progress=false && npm config set depth 0
 
+## setup environment variables
+ENV \
+    # avoid million NPM install messages
+    npm_config_loglevel=warn \
+    # allow installing when the main user is root
+    npm_config_unsafe_perm=true \
+    # allow caching node modules
+    node_modules_cache=true \
+    # allow verbose output
+    node_verbose=true
+
 ## install node_modules, including 'devDependencies'
-RUN npm install --no-audit
+RUN npm install --silent --quiet --no-audit --no-color --no-progress --no-optional --ignore-scripts --allow-root
 
 ## remove cache
 RUN echo "**** Cleaning node cache ****"

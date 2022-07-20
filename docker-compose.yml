@@ -65,7 +65,7 @@ services:
     environment:
       TZ: ${WORKSPACE_TIMEZONE}
     volumes:
-      - 'tmp_volume:/tmp'
+      - tmp_volume:${APP_TEMP_DIR:-/tmp}
       - type: bind
         source: ${APP_SRC_DIR:-./}
         target: /usr/src/app
