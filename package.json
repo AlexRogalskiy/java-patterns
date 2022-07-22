@@ -284,6 +284,8 @@
 		"sort-package-json": "sort-package-json",
 		"stylelint": "stylelint --color --disable-default-ignores --allow-empty-input verbose **/*.{css,scss,sass}",
 		"svgo": "svgo --config svgo.config.cjs -i docs/overrides/.icons -o docs/overrides/.icons -q",
+		"svgo:base64": "svgo --config svgo.base64.config.cjs -i docs/overrides/.icons -o docs/overrides/.icons -q",
+		"svgo:lint": "svgo --config svgo.general.config.js -i docs/overrides/.icons -o docs/overrides/.icons -q",
 		"syncpack": "syncpack list-mismatches --source \"packages/*/package.json\"",
 		"syncpack:fix": "syncpack fix-mismatches",
 		"syncpack:list": "syncpack list-mismatches",
