@@ -3,9 +3,11 @@ api_key_env: CROWDIN_API_KEY
 base_path: .
 commit_message: 'docs(i18n): New translations %original_file_name% (%language%)'
 append_commit_message: false
+preserve_hierarchy: true
 
 files:
   - source: /docs/**/*.md
+    update_option: update_as_unapproved
     translation: /docs/**/%file_name%.%two_letters_code%.%file_extension%
     ignore:
       - /docs/**/%file_name%.%two_letters_code%.%file_extension%

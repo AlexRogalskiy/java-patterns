@@ -40,6 +40,7 @@
 		"changelog-machine": "^1.0.2",
 		"chart-csv": "^1.0.3",
 		"check-for-leaks": "^1.2.1",
+        "chromatic": "^6.7.1",
 		"colors": "^1.4.0",
 		"conventional-changelog-cli": "^2.1.1",
 		"cost-of-modules": "1.0.1",
@@ -153,6 +154,7 @@
 	"scripts": {
 		"_get:submodule": "set DEPTH=\"--depth 1\" git submodule update --init --recursive ${DEPTH:- --depth 1}",
 		"_update:submodule": "set DEPTH=\"--depth 1\" git submodule update --remote --recursive ${DEPTH:- --depth 1}",
+		"_pull:submodule": "set BRANCH=\"master\" git submodule foreach git pull origin ${BRANCH:-master}",
 		"adr:list": "adr-tools list",
 		"adr:new": "adr-tools new 'Styled Java Patterns'",
 		"all": "npm run format:all && npm run lint:all && npm run check:all && npm run test:all",
@@ -165,6 +167,7 @@
 		"check:all": "npm run pretty && npm run format:check",
 		"check:commit": "node scripts/validate-commit-msg.js $HUSKY_GIT_PARAMS",
 		"check:imports": "import-conductor --verbose --ignore **/node_modules --source packages/**/*.ts",
+        "chromatic": "chromatic --exit-zero-on-changes",
 		"clean": "lerna clean --yes",
 		"commit": "git-cz",
 		"contribs": "all-contributors",
@@ -300,6 +303,7 @@
 		"unlink-local": "yalc remove --all",
 		"update": "lernaupdate",
 		"npm:update": "ncu -u",
+        "pull:submodule": "set PULL=submodule npm run _pull:${PULL:-submodule}",
 		"update:submodule": "set UPDATE=submodule npm run _update:${UPDATE:-submodule}",
 		"validate:commit": "validate-commit-msg",
 		"zip": "zip -r $npm_package_config_image.zip ./site"
