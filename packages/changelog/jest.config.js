@@ -92,7 +92,7 @@ module.exports = {
 			},
 			coverageDirectory: '<rootDir>/coverage',
 			testResultsProcessor: 'jest-sonar-reporter',
-			coverageReporters: ['json', 'lcov', 'text', 'clover', 'html'],
+			coverageReporters: ['json', 'lcov', 'text', 'text-summary', 'clover', 'html'],
 		},
 		{
 			displayName: 'e2e',
@@ -127,7 +127,7 @@ module.exports = {
 			},
 			coverageDirectory: '<rootDir>/coverage',
 			testResultsProcessor: 'jest-sonar-reporter',
-			coverageReporters: ['json', 'lcov', 'text', 'clover', 'html'],
+			coverageReporters: ['json', 'lcov', 'text', 'text-summary', 'clover', 'html'],
 		},
 	],
 	transformIgnorePatterns: ['<rootDir>/node_modules/'],

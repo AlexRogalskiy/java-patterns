@@ -16,6 +16,7 @@
 'use strict';
 
 import * as log from 'loglevel';
+// import 'whatwg-fetch';
 import fetchMock from 'jest-fetch-mock';
 
 //rewire global.fetch to call 'fetchMock'
