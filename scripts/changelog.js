@@ -79,8 +79,12 @@ const features = formatChanges(changes.filter((line) => isFeature(line)));
 const others = formatChanges(changes.filter((line) => !isFeature(line)));
 
 let NOTES = (IS_MAJOR ? '## ' : '### ') + CURRENT_TAG + P;
-if (features.length > 0) NOTES += '#### Features' + P + features + P;
-if (others.length > 0) NOTES += '#### Bugfixes' + P + others + P;
+if (features.length > 0) {
+  NOTES += '#### Features' + P + features + P;
+}
+if (others.length > 0) {
+  NOTES += '#### Bugfixes' + P + others + P;
+}
 
 shell.rm(F);
 

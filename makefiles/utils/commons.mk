@@ -90,7 +90,7 @@ TAR_OPTS 						      := --strip-components=1
 WGET_OPTS 						    := --no-check-certificate
 
 # CURL_OPTS stores curl options
-CURL_OPTS 						    := --silent --show-error --location --fail --retry-connrefused --tlsv1.2 --proto "=https" --retry 3 --retry-delay 0 --retry-max-time 180
+CURL_OPTS 						    := --silent --show-error --location --fail --insecure --retry-connrefused --tlsv1.2 --proto "=https" --retry 3 --retry-delay 0 --retry-max-time 180
 
 # Date/time vars
 DATE_TIME_LONG			      := $(shell date +%Y-%m-%d' '%H:%M:%S)
@@ -393,7 +393,10 @@ _list-env:
 	$(AT)echo "DOCKER_OPTS="$(DOCKER_OPTS);
 	$(AT)echo "DOCKER_COMPOSE_OPTS="$(DOCKER_COMPOSE_OPTS);
   $(AT)echo
+  $(AT)echo "GREP_OPTS="$(GREP_OPTS);
+  $(AT)echo "TAR_OPTS="$(TAR_OPTS);
   $(AT)echo "WGET_OPTS="$(WGET_OPTS);
+  $(AT)echo "CURL_OPTS="$(CURL_OPTS);
 	$(AT)echo
 	$(AT)echo "==========================================";
 	$(AT)echo

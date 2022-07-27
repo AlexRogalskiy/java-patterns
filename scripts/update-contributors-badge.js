@@ -13,15 +13,17 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-const pkg = require('../package.json');
+const fs = require("fs");
+const path = require('path');
 
-const moduleName = `${/[^/]*$/.exec(pkg.name)[0]}_${pkg.version.replace(/\./g, '_')}`;
-const packageName = process.env.npm_package_name;
-
-console.log(`\n>>> Module name: ${moduleName}`);
-console.log(`>>> Package name: ${packageName}\n`);
-
-module.exports = {
-  moduleName,
-  packageName
-};
+const {contributors} = JSON.parse(
+  fs.readFileSync(path.resolve("..", ".all-contributorsrc")).toString()
+);
+const readme = fs.readFileSync(path.resolve("..", "README.md")).toString();
+fs.writeFileSync(
+  "README.md",
+  readme.replace(
+    /https:\/\/img\.shields\.io\/badge\/all_contributors-\d+-orange\.svg/,
+    `https://img.shields.io/badge/all_contributors-${contributors.length}-orange.svg`
+  )
+);
