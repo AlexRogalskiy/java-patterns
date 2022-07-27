@@ -13,4 +13,3 @@ if [ -f "$FILE_NAME" ]; then
   }
   git lfs post-checkout "$@"
 fi
-
