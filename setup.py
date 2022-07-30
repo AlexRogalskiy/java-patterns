@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+
+"""
+    Setup file for java-patterns
+"""
+
 '''Package configuration'''
 
 import codecs

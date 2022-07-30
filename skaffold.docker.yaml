@@ -12,25 +12,35 @@ profiles:
         useBuildkit: true
         concurrency: 0
       tagPolicy:
-        sha256: {}
+        gitCommit:
+          variant: CommitSha
+      #        sha256: {}
+      #      platforms:
+      #        - linux/amd64
+      #        - linux/arm64/v8
       artifacts:
         - image: styled-java-patterns
           context: ./
-          platforms: ['linux/amd64', 'linux/arm64']
+          #          custom:
+          #            buildCommand: y-build --opt target=jvm --opt build-arg:build=package
+          #            dependencies:
+          #              dockerfile:
+          #                path: ./runner.Dockerfile
+          platforms: [ 'linux/amd64', 'linux/arm64' ]
           hooks:
             before:
-              - command: ['sh', '-c', './scripts/hook.sh']
-                os: [darwin, linux]
+              - command: [ 'sh', '-c', './scripts/hook.sh' ]
+                os: [ darwin, linux ]
                 dir: .
-              - command: ['cmd.exe', '/C', 'scripts/hook.bat']
-                os: [windows]
+              - command: [ 'cmd.exe', '/C', 'scripts/hook.bat' ]
+                os: [ windows ]
                 dir: .
             after:
-              - command: ['sh', '-c', 'docker images $SKAFFOLD_IMAGE --digests']
-                os: [darwin, linux]
+              - command: [ 'sh', '-c', 'docker images $SKAFFOLD_IMAGE --digests' ]
+                os: [ darwin, linux ]
               - command:
-                  ['cmd.exe', '/C', 'docker images %SKAFFOLD_IMAGE% --digests']
-                os: [windows]
+                  [ 'cmd.exe', '/C', 'docker images %SKAFFOLD_IMAGE% --digests' ]
+                os: [ windows ]
           sync:
             manual:
               - src: 'docs/*'
@@ -40,26 +50,29 @@ profiles:
                 - host:
                     command:
                       [
-                        'sh',
-                        '-c',
-                        'echo file changes detected:
+                          'sh',
+                          '-c',
+                          'echo file changes detected:
                         $SKAFFOLD_FILES_ADDED_OR_MODIFIED',
                       ]
-                    os: [darwin, linux]
+                    os: [ darwin, linux ]
                 - host:
                     command:
                       [
-                        'cmd.exe',
-                        '/C',
-                        'echo file changes detected:
+                          'cmd.exe',
+                          '/C',
+                          'echo file changes detected:
                         %SKAFFOLD_FILES_ADDED_OR_MODIFIED%',
                       ]
-                    os: [windows]
+                    os: [ windows ]
               after:
                 - container:
-                    command: ['sh', '-c', 'set -x; kill -HUP 1']
+                    command: [ 'sh', '-c', 'set -x; kill -HUP 1' ]
           docker:
             dockerfile: ./distribution/docker-images/dev.Dockerfile
+            #            target: jvm
+            #            buildArgs:
+            #              build: package
             pullParent: false
             noCache: false
             squash: false
@@ -67,7 +80,7 @@ profiles:
       statusCheckDeadlineSeconds: 300
       docker:
         useCompose: false
-        images: [styled-java-patterns]
+        images: [ styled-java-patterns ]
     portForward:
       - resourceType: container
         resourceName: styled-java-patterns

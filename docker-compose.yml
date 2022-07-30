@@ -53,6 +53,8 @@ services:
     image: ${APP_IMAGE_NAME:-"java-patterns"}
     hostname: ${APP_HOST_NAME:-"java-patterns"}
     user: '${UID}:${GID}'
+    mem_limit: 80000000
+    memswap_limit: 0
     build:
       context: './'
       dockerfile: '$DOCKER_FILE'
@@ -74,7 +76,7 @@ services:
         target: /usr/src/data
     healthcheck:
       #test: [ "CMD-SHELL", "curl --fail --silent localhost:8000/versions.json 2>/dev/null | jq . | grep UP || exit 1" ]
-      test: ['CMD-SHELL', 'nc', '-vz', 'localhost', '8000']
+      test: [ 'CMD-SHELL', 'nc', '-vz', 'localhost', '8000' ]
       interval: 3s
       timeout: 5s
       retries: 15

@@ -8,25 +8,27 @@ build:
     useBuildkit: true
     concurrency: 0
   tagPolicy:
-    sha256: {}
+    gitCommit:
+      variant: CommitSha
+  #        sha256: {}
   artifacts:
     - image: styled-java-patterns
       context: ./
-      platforms: ['linux/amd64', 'linux/arm64']
+      platforms: [ 'linux/amd64', 'linux/arm64' ]
       hooks:
         before:
-          - command: ['sh', '-c', './scripts/hook.sh']
-            os: [darwin, linux]
+          - command: [ 'sh', '-c', './scripts/hook.sh' ]
+            os: [ darwin, linux ]
             dir: .
-          - command: ['cmd.exe', '/C', 'scripts/hook.bat']
-            os: [windows]
+          - command: [ 'cmd.exe', '/C', 'scripts/hook.bat' ]
+            os: [ windows ]
             dir: .
         after:
-          - command: ['sh', '-c', 'docker images $SKAFFOLD_IMAGE --digests']
-            os: [darwin, linux]
+          - command: [ 'sh', '-c', 'docker images $SKAFFOLD_IMAGE --digests' ]
+            os: [ darwin, linux ]
           - command:
-              ['cmd.exe', '/C', 'docker images %SKAFFOLD_IMAGE% --digests']
-            os: [windows]
+              [ 'cmd.exe', '/C', 'docker images %SKAFFOLD_IMAGE% --digests' ]
+            os: [ windows ]
       sync:
         manual:
           - src: 'docs/*'
@@ -36,24 +38,24 @@ build:
             - host:
                 command:
                   [
-                    'sh',
-                    '-c',
-                    'echo file changes detected:
+                      'sh',
+                      '-c',
+                      'echo file changes detected:
                     $SKAFFOLD_FILES_ADDED_OR_MODIFIED',
                   ]
-                os: [darwin, linux]
+                os: [ darwin, linux ]
             - host:
                 command:
                   [
-                    'cmd.exe',
-                    '/C',
-                    'echo file changes detected:
+                      'cmd.exe',
+                      '/C',
+                      'echo file changes detected:
                     %SKAFFOLD_FILES_ADDED_OR_MODIFIED%',
                   ]
-                os: [windows]
+                os: [ windows ]
           after:
             - container:
-                command: ['sh', '-c', 'set -x; kill -HUP 1']
+                command: [ 'sh', '-c', 'set -x; kill -HUP 1' ]
       docker:
         dockerfile: ./distribution/docker-images/dev.Dockerfile
         pullParent: false
@@ -69,12 +71,12 @@ deploy:
       before:
         - host:
             command:
-              ['sh', '-c', 'echo pre-deploy host hook running on $(hostname)!']
-            os: [darwin, linux]
+              [ 'sh', '-c', 'echo pre-deploy host hook running on $(hostname)!' ]
+            os: [ darwin, linux ]
       after:
         - host:
             command:
-              ['sh', '-c', 'echo post-deploy host hook running on $(hostname)!']
+              [ 'sh', '-c', 'echo post-deploy host hook running on $(hostname)!' ]
 
 portForward:
   - resourceType: service

@@ -12,51 +12,51 @@ UID  											:= $(shell id -u)
 GID  											:= $(shell id -g)
 
 # GIT_ROOT_DIR stores git root directory
-GIT_ROOT_DIR 							:= $(shell git rev-parse --show-toplevel)
+GIT_ROOT_DIR 							:= $(shell git rev-parse --show-toplevel 2>/dev/null)
 # GIT_COMMIT_MESSAGE stores git commit message
-GIT_COMMIT_MESSAGE 				:= $(shell git show -s --format=%s HEAD)
+GIT_COMMIT_MESSAGE 				:= $(shell git show -s --format=%s HEAD 2>/dev/null)
 # GIT_COMMIT_AUTHOR_EMAIL stores git commit author email
-GIT_COMMIT_AUTHOR_EMAIL 	:= $(shell git show -s --format=%ae)
+GIT_COMMIT_AUTHOR_EMAIL 	:= $(shell git show -s --format=%ae 2>/dev/null)
 # GIT_COMMIT_AUTHOR_NAME stores git commit author name
-GIT_COMMIT_AUTHOR_NAME 		:= $(shell git show -s --format=%an)
+GIT_COMMIT_AUTHOR_NAME 		:= $(shell git show -s --format=%an 2>/dev/null)
 # GIT_COMMIT_TIMESTAMP stores git commit timestamp
-GIT_COMMIT_TIMESTAMP 			:= $(shell git show -s --format=%ct)
+GIT_COMMIT_TIMESTAMP 			:= $(shell git show -s --format=%ct 2>/dev/null)
 # GIT_DIRTY_TAG stores dirty git tag
-GIT_DIRTY_TAG 						:= $(shell git describe --tags --always --dirty)
+GIT_DIRTY_TAG 						:= $(shell git describe --tags --always --dirty 2>/dev/null)
 # GIT_WORKING_SUFFIX stores git working suffix
-GIT_WORKING_SUFFIX        := $(shell if git status --porcelain | grep -qE '^(?:[^?][^ ]|[^ ][^?])\s'; then echo "-WIP"; else echo ""; fi)
+GIT_WORKING_SUFFIX        := $(shell if git status --porcelain 2>/dev/null | grep -qE '^(?:[^?][^ ]|[^ ][^?])\s'; then echo "-WIP"; else echo ""; fi)
 # GIT_TAG stores git last tag
-GIT_TAG 									:= $(shell git tag -l | grep -E '[0-9]+(.[0-9]+){2}' | sort -t. -k 1,1nr -k 2,2nr -k 3,3nr | head -1)
+GIT_TAG 									:= $(shell git tag -l 2>/dev/null | grep -E '[0-9]+(.[0-9]+){2}' | sort -t. -k 1,1nr -k 2,2nr -k 3,3nr | head -1)
 # GIT_COMMIT_SHA stores git last commit hash
-GIT_COMMIT_SHA 						:= $(shell git rev-parse --short=8 --verify HEAD)
+GIT_COMMIT_SHA 						:= $(shell git rev-parse --short=8 --verify HEAD 2>/dev/null)
 # GIT_REMOTE_NAME stores git remote branch name
-GIT_REMOTE_NAME						:= $(shell git describe --all --exact-match HEAD)
+GIT_REMOTE_NAME						:= $(shell git describe --all --exact-match HEAD 2>/dev/null)
 # GIT_TREE_SHA stores git tree hash
-GIT_TREE_SHA 							:= $(shell git hash-object -t tree /dev/null)
+GIT_TREE_SHA 							:= $(shell git hash-object -t tree /dev/null 2>/dev/null)
 # GIT_LOG_COMMIT_TIMESTAMP stores last commit to allow for reproducible builds
-GIT_LOG_COMMIT_TIMESTAMP 	:= $(shell git log -1 --date=format:%Y%m%d%H%M --pretty=format:%cd)
+GIT_LOG_COMMIT_TIMESTAMP 	:= $(shell git log -1 --date=format:%Y%m%d%H%M --pretty=format:%cd 2>/dev/null)
 # GIT_ORIG_BRANCH stores original git branch name
-GIT_ORIG_BRANCH 					:= $(shell git rev-parse --abbrev-ref HEAD | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/,/\&\#44;/g' | sed 's/[\/\-]/\./g')
+GIT_ORIG_BRANCH 					:= $(shell git rev-parse --abbrev-ref HEAD 2>/dev/null | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/,/\&\#44;/g' | sed 's/[\/\-]/\./g')
 # GIT_ORIG_TAG stores original git tag name
 GIT_ORIG_TAG 							:= $(shell git describe --exact-match --abbrev=0 2>/dev/null | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/,/\&\#44;/g' || echo "")
 # GIT_ORIG_VERSION stores original git tag version
-GIT_ORIG_VERSION 					:= $(shell (git for-each-ref refs/tags --sort=-taggerdate --format='%(refname)' --count=1 | sed -Ee 's/^refs\/tags\/v|-.*//'))
+GIT_ORIG_VERSION 					:= $(shell (git for-each-ref refs/tags --sort=-taggerdate --format='%(refname)' --count=1 2>/dev/null | sed -Ee 's/^refs\/tags\/v|-.*//'))
 
 # GIT_REPO_INFO stores git remote url
-GIT_REPO_INFO  						:= $(shell git config --get remote.origin.url)
+GIT_REPO_INFO  						:= $(shell git config --get remote.origin.url 2>/dev/null)
 # GIT_REPO_PREFIX stores git repository prefix
-GIT_REPO_PREFIX 					:= $(shell git config --get remote.origin.url | tr ':.' '/'  | rev | cut -d '/' -f 3 | rev)
+GIT_REPO_PREFIX 					:= $(shell echo "$(GIT_REPO_INFO)" | tr ':.' '/'  | rev | cut -d '/' -f 3 | rev)
 # GIT_REPO_NAME stores git repository name
-GIT_REPO_NAME 						:= $(shell git config --get remote.origin.url | tr ':.' '/'  | rev | cut -d '/' -f 2 | rev)
+GIT_REPO_NAME 						:= $(shell echo "$(GIT_REPO_INFO)" | tr ':.' '/'  | rev | cut -d '/' -f 2 | rev)
 # GIT_REPO_TAG stores git repository tag
 GIT_REPO_TAG              := $(shell echo "${GIT_ORIG_BRANCH//\//-}-$(GIT_COMMIT_SHA):$(GIT_WORKING_SUFFIX)")
 
 # SYS_HOST stores system hostname
-SYS_HOST 									:= $(shell hostname | tr '[:upper:]' '[:lower:]')
+SYS_HOST 									:= $(shell hostname 2>/dev/null | tr '[:upper:]' '[:lower:]')
 # SYS_OS stores system operating system
-SYS_OS 					  				:= $(shell uname -s | tr '[:upper:]' '[:lower:]')
+SYS_OS 					  				:= $(shell uname -s 2>/dev/null | tr '[:upper:]' '[:lower:]')
 # SYS_ARCH stores system architecture
-SYS_ARCH 									:= $(shell uname -m | sed -e 's/_.*//' | tr '[:upper:]' '[:lower:]' | sed -e 's/x86_64/amd64/' | sed -e 's/aarch64\(_be\)\?/arm64/' | sed -e 's/\(arm\)\(64\)\?.*/\1\2/' | sed -e 's/^\(msys\|mingw\).*/windows/')
+SYS_ARCH 									:= $(shell uname -m 2>/dev/null | sed -e 's/_.*//' | tr '[:upper:]' '[:lower:]' | sed -e 's/x86_64/amd64/' | sed -e 's/aarch64\(_be\)\?/arm64/' | sed -e 's/\(arm\)\(64\)\?.*/\1\2/' | sed -e 's/^\(msys\|mingw\).*/windows/')
 # SYS_USER_GROUP stores system user name/group
 SYS_USER_GROUP 						:= $(shell echo "$(UID):$(GID)")
 # SYS_CPU stores system cpu count
@@ -90,7 +90,7 @@ TAR_OPTS 						      := --strip-components=1
 WGET_OPTS 						    := --no-check-certificate
 
 # CURL_OPTS stores curl options
-CURL_OPTS 						    := --silent --show-error --location --fail --insecure --retry-connrefused --tlsv1.2 --proto "=https" --retry 3 --retry-delay 0 --retry-max-time 180
+CURL_OPTS 						    := --silent --show-error --location --fail --insecure --ipv4 --connect-timeout 3 --retry-connrefused --tlsv1.2 --proto "=https" --retry 3 --retry-delay 0 --retry-max-time 180
 
 # Date/time vars
 DATE_TIME_LONG			      := $(shell date +%Y-%m-%d' '%H:%M:%S)

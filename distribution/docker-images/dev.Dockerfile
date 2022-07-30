@@ -28,7 +28,7 @@
 ARG IMAGE_SOURCE=node
 ARG IMAGE_TAG=12-buster
 
-FROM ${IMAGE_SOURCE}:${IMAGE_TAG} AS base
+FROM --platform=$TARGETPLATFORM ${IMAGE_SOURCE}:${IMAGE_TAG} AS base
 
 ## setup base stage
 RUN echo "**** Base stage ****"
@@ -188,7 +188,7 @@ FROM base AS python-dependencies
 
 ## setup image arguments
 ARG PYTHON_INSTALL_PACKAGES="setuptools pip"
-ARG PYTHON_INSTALL_OPTIONS="--no-ansi --upgrade"
+ARG PYTHON_INSTALL_OPTIONS="--no-ansi --upgrade --ignore-installed"
 
 ## setup python dependencies stage
 RUN echo "**** Installing python modules stage ****"
