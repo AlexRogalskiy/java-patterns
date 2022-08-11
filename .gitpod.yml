@@ -22,8 +22,9 @@ image:
 
 ports:
   - port: 8000
+    visibility: public
     onOpen: open-preview
-
+#    onOpen: open-browser
 tasks:
   - init: npm install && npm run all
     command: >
@@ -31,3 +32,7 @@ tasks:
       rebuild the app, simply run './scripts/build-docs.sh' and reload
       index.html.\n\n" && chmod +x ./scripts/build-docs.sh &&
       ./scripts/build-docs.sh 2>/dev/null
+
+vscode:
+  extensions:
+    - ms-azuretools.vscode-docker
