@@ -265,7 +265,7 @@ specification. Contributions of any kind are welcome!
 </p>
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-![Github contributors](https://img.shields.io/github/all-contributors/AlexRogalskiy/java-patterns)
+![GitHub contributors](https://img.shields.io/github/all-contributors/AlexRogalskiy/java-patterns)
 
 See also the list of [contributors][contributors] who participated in this project.
 
