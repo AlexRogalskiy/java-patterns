@@ -33,6 +33,7 @@
 ![GitHub Repository branches](https://badgen.net/github/branches/AlexRogalskiy/java-patterns)
 ![GitHub Repository dependents](https://badgen.net/github/dependents-repo/AlexRogalskiy/java-patterns)
 
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#github.com/AlexRogalskiy/java-patterns/)
 [![Discuss](https://img.shields.io/badge/-Discuss-blue)](https://github.com/AlexRogalskiy/java-patterns/discussions)
 [![DOI](https://zenodo.org/badge/329967283.svg)](https://zenodo.org/badge/latestdoi/329967283)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FAlexRogalskiy%2Fjava-patterns.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FAlexRogalskiy%2Fjava-patterns?ref=badge_shield)
