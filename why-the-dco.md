@@ -1,6 +1,6 @@
 # Why the DCO?
 
-We have tried to make it as easy as possible to make contributions. 
+We have tried to make it as easy as possible to make contributions.
 This applies to how we handle the legal aspects of contribution.
 
 We simply ask that when submitting a patch for review,
