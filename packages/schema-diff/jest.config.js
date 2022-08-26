@@ -27,6 +27,7 @@ module.exports = {
   },
   roots: ['<rootDir>/tests/'],
   verbose: true,
+  errorOnDeprecated: true,
   clearMocks: true,
   restoreMocks: true,
   testTimeout: 20000,

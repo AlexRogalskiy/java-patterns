@@ -16,6 +16,8 @@
 'use strict';
 
 import { fail } from 'jest';
+// eslint-disable-next-line import/no-extraneous-dependencies
+// import dotenv from 'dotenv';
 
 process.on('unhandledRejection', err => {
 	fail(err);
@@ -23,6 +25,8 @@ process.on('unhandledRejection', err => {
 
 module.exports = async () => {
 	console.log('\n\n>>> JEST global setup >>>\n\n');
+
+  // dotenv.config({ path: '.env.test' });
 
 	Error.stackTraceLimit = Infinity;
 };
