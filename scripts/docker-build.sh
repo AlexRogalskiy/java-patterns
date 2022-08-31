@@ -38,7 +38,7 @@ DOCKER_CMD=${DOCKER_CMD:-$(command -v docker 2>/dev/null || command -v podman 2>
 DOCKER_OPTS=${DOCKER_OPTS:-"--rm --progress plain --force-rm true --no-cache true --shm-size=1G"}
 
 main() {
-  echo 'Building docker container...'
+  echo ">>> Building docker container..."
 
   # docker file tag
   local tag
