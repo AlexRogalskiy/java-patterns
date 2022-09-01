@@ -68,10 +68,16 @@ profiles:
     deploy:
       statusCheckDeadlineSeconds: 300
       helm:
+        flags:
+          install:
+            - "--create-namespace"
         releases:
           - name: backend-java-patterns
             wait: true
+            remote: true
             chartPath: charts
+            valuesFiles:
+              - values.yaml
             namespace: webapp
             skipBuildDependencies: true
             useHelmSecrets: false
