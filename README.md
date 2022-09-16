@@ -35,6 +35,7 @@
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#github.com/AlexRogalskiy/java-patterns/)
 [![Discuss](https://img.shields.io/badge/-Discuss-blue)](https://github.com/AlexRogalskiy/java-patterns/discussions)
+[![Sourcegraph](https://sourcegraph.com/github.com/AlexRogalskiy/java-patterns/-/badge.svg)](https://sourcegraph.com/github.com/AlexRogalskiy/java-patterns?badge)
 [![DOI](https://zenodo.org/badge/329967283.svg)](https://zenodo.org/badge/latestdoi/329967283)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FAlexRogalskiy%2Fjava-patterns.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FAlexRogalskiy%2Fjava-patterns?ref=badge_shield)
 [![Renovatebot](https://badgen.net/badge/renovate/enabled/green?cache=300)](https://renovatebot.com/)
