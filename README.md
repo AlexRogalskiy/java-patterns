@@ -34,6 +34,9 @@
 ![GitHub Repository dependents](https://badgen.net/github/dependents-repo/AlexRogalskiy/java-patterns)
 
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#github.com/AlexRogalskiy/java-patterns/)
+[![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
+[![Open Source Helpers](https://www.codetriage.com/alexrogalskiy/java-patterns/badges/users.svg)](https://www.codetriage.com/alexrogalskiy/java-patterns)
+[![The Changelog](https://img.shields.io/badge/The%20Changelog-%23363-61c192.svg)](https://changelog.com/jsparty)
 [![Discuss](https://img.shields.io/badge/-Discuss-blue)](https://github.com/AlexRogalskiy/java-patterns/discussions)
 [![Sourcegraph](https://sourcegraph.com/github.com/AlexRogalskiy/java-patterns/-/badge.svg)](https://sourcegraph.com/github.com/AlexRogalskiy/java-patterns?badge)
 [![DOI](https://zenodo.org/badge/329967283.svg)](https://zenodo.org/badge/latestdoi/329967283)

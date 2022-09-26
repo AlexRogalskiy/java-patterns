@@ -9,6 +9,7 @@ __DEFAULTS_MAKEFILE__ := included
 # SHELLFLAGS stores the shell flags.
 .SHELLFLAGS 	+= -o errexit
 .SHELLFLAGS 	+= -o nounset
+.SHELLFLAGS 	+= -o pipefail
 
 # Somehow, the new auto-completion for make in the recent distributions
 # trigger a behavior where our Makefile calls itself recursively, in a
