@@ -16,6 +16,7 @@ jobs:
   build:
     name: Spell Check
     runs-on: "ubuntu-latest"
+    timeout-minutes: 10
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
