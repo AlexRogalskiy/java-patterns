@@ -289,11 +289,11 @@
          
     </url>
     <url>
-         <loc>https://alexander-rogalsky.gitbook.io/java-patterns/videos/video/</loc>
+         <loc>https://alexander-rogalsky.gitbook.io/java-patterns/videos/pages/podcasts/</loc>
          <lastmod>2022-09-29</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/videos/video/"/>
-         <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/videos/video/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="https://alexander-rogalsky.gitbook.io/java-patterns/en/videos/pages/podcasts/"/>
+         <xhtml:link rel="alternate" hreflang="ru" href="https://alexander-rogalsky.gitbook.io/java-patterns/ru/videos/pages/podcasts/"/>
          
     </url>
 </urlset>
