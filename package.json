@@ -129,7 +129,7 @@
 			"commit-msg": "npm run check:commit",
 			"pre-commit": "npm run lint:staged && npm run all",
 			"pre-push": "npm run check:all",
-			"prepare-commit-msg": "git cz --hook --non-interactive --type=feat --subject=\"added new features\" || true"
+			"prepare-commit-msg": "git-cz --hook --non-interactive --type=feat --subject=\"added new features\" || true"
 		}
 	},
 	"keywords": ["java design patterns"],
