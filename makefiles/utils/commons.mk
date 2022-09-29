@@ -115,6 +115,9 @@ PRINT_FAIL		            := (echo ${DATE_TIME} ${COLOR_RED}[ FAIL ]${COLOR_NORMAL
 SUCCESS_CHECKMARK         := $(printf '\342\234\224\n' | iconv -f UTF-8)
 CROSS_MARK                := $(printf '\342\235\214\n' | iconv -f UTF-8)
 
+# Available target filters
+HELP_FILTER ?= .*
+
 ################################################################################
 # Common variables                                                             #
 ################################################################################
@@ -326,6 +329,48 @@ check-file-%:
 	$(eval tag := `echo "${*}" | sed -e "s/-rc.//"`)
 	$(eval release_file := "docs/${tag}.md")
 	$(AT)test -f ${release_file} || (echo "*** Please define file ${release_file} ***" && exit 1)
+
+# Ensures that a variable is defined and non-empty
+# $(call assert-set,PATH)
+define assert-set
+	$(AT)$(if $($(1)),,$(error $(1) not defined in $(@)))
+endef
+
+# Ensures that a variable is undefined
+# $(call assert-unset,JKAHSDKJAHSDJKHASKD)
+define assert-unset
+	$(AT)$(if $($1),$(error $(1) should not be defined in $(@)),)
+endef
+
+## Help screen
+_help:
+	$(AT)printf "Available targets:\n\n"
+	$(AT)$(SELF) -s _help_generate | grep -E "\w($(HELP_FILTER))"
+
+## Display help for all targets
+_help_all:
+	$(AT)printf "Available targets:\n\n"
+	$(AT)$(SELF) -s _help_generate
+
+## This help short screen
+_help_short:
+	$(AT)printf "Available targets:\n\n"
+	$(AT)$(SELF) -s _help_generate MAKEFILE_LIST="Makefile $(BUILD_HARNESS_PATH)/Makefile.helpers"
+
+# Generate help output from MAKEFILE_LIST
+_help_generate:
+	$(AT)awk '/^[-a-zA-Z_0-9%:\\\.\/]+:/ { \
+		helpMessage = match(lastLine, /^## (.*)/); \
+		if (helpMessage) { \
+			helpCommand = $$1; \
+			helpMessage = substr(lastLine, RSTART + 3, RLENGTH); \
+			gsub("\\\\", "", helpCommand); \
+			gsub(":+$$", "", helpCommand); \
+			printf "  \x1b[32;01m%-35s\x1b[0m %s\n", helpCommand, helpMessage; \
+		} \
+	} \
+	{ lastLine = $$0 }' $(MAKEFILE_LIST) | sort -u
+	$(AT)printf "\n"
 
 # Check build version provided.
 .PHONY: _check_version

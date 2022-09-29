@@ -134,6 +134,18 @@ VARS += VERBOSE
 $(REQUIRED_TOOLS):
 	@hash $@ 2>/dev/null || (echo "please install $@" && exit 1)
 
+# Check docker image running.
+.PHONY: _check_docker_image
+_check_docker_image:
+	@if [[ -n "$$($(AT)$(DOCKER_CMD) ps --format '{{ .Names }}' --filter name="^/$(IMAGE_NAME)\$$")" ]]; then \
+		printf "**************************************************************************\n" ; \
+		printf "Not launching new container because old container is still running.\n"; \
+		printf "Exit all running container shells gracefully or kill the container with\n\n"; \
+		printf "  docker kill %s\n\n" "$(IMAGE_NAME)" ; \
+		printf "**************************************************************************\n" ; \
+		exit 9 ; \
+	fi
+
 # Default target (by virtue of being the first non '.'-prefixed in the file).
 .PHONY: _no-target-specified
 _no-target-specified:
@@ -379,7 +391,7 @@ docker-rebuild: _ensure-docker-tag
 
 # Run docker start command.
 .PHONY: docker-start
-docker-start:
+docker-start: _check_docker_image
 	$(AT)echo
 	$(AT)echo "$(COLOR_RED)🌟 Running docker-start command.$(COLOR_NORMAL)"
   $(AT)echo
