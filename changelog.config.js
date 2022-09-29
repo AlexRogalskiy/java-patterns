@@ -15,7 +15,7 @@
  */
 'use strict';
 
-module.exports = {
+export default {
 	disableEmoji: false,
 	list: ['test', 'feat', 'fix', 'chore', 'docs', 'refactor', 'style', 'ci', 'perf'],
 	maxMessageLength: 64,
