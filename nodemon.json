@@ -2,7 +2,7 @@
 	"ignore": [".git", "node_modules"],
 	"watch": [".env", "."],
 	"exec": "npm run all",
-    "ext": "js, json, ts",
-    "signal": "SIGTERM",
-    "restartable": "rs"
+	"ext": "js, json, ts",
+	"signal": "SIGTERM",
+	"restartable": "rs"
 }

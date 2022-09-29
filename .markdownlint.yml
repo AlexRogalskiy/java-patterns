@@ -33,23 +33,23 @@ extends: null
 ###############
 # Rules by id #
 ###############
-MD004: false                  # Unordered list style
+MD004: false # Unordered list style
 MD007:
-  indent: 2                   # Unordered list indentation
+  indent: 2 # Unordered list indentation
 MD013:
-  line_length: 400            # Line length 80 is far to short
-MD024: false                  # Allow multiple headings with same content
+  line_length: 400 # Line length 80 is far to short
+MD024: false # Allow multiple headings with same content
 MD026:
-  punctuation: ".,;:!。，；:"  # List of not allowed
-MD029: false                  # Ordered list item prefix
-MD033: false                  # Allow inline HTML
-MD034: false                  # Allow Bare URL use
-MD036: false                  # Emphasis used instead of a heading
-MD040: false                  # Allow ``` blocks in md files with no language specified
-MD041: false                  # First line in a file should be a top-level heading
-MD042: false                  # Allow empty links
+  punctuation: '.,;:!。，；:' # List of not allowed
+MD029: false # Ordered list item prefix
+MD033: false # Allow inline HTML
+MD034: false # Allow Bare URL use
+MD036: false # Emphasis used instead of a heading
+MD040: false # Allow ``` blocks in md files with no language specified
+MD041: false # First line in a file should be a top-level heading
+MD042: false # Allow empty links
 
 #################
 # Rules by tags #
 #################
-blank_lines: false            # No errors on blank lines
+blank_lines: false # No errors on blank lines
