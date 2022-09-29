@@ -115,13 +115,13 @@ plugins:
         # uses the version specified via `mike deploy`
   - mermaid2
   - em-img2fig
-  - mkdocs-video:
-      mark: 'video-marker'
-      is_video: true
-      video_autoplay: false
-      css_style:
-        width: '100%'
-        height: '22.172vw'
+  - mkdocs-video
+#      mark: 'video-marker'
+#      is_video: true
+#      video_autoplay: false
+#      css_style:
+#        width: '100%'
+#        height: '22.172vw'
   - search:
       lang:
         - en
