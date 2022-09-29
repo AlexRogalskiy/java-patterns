@@ -43,7 +43,7 @@ theme:
   name: material
   language: en
   highlightjs: true
-  titles_only: true
+  titles_only: false
   hljs_languages:
     - yaml
     - json
