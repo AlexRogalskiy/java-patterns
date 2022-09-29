@@ -18,3 +18,5 @@
   - [Scenarios](units/scenarios.md)
   - [Use Cases](units/use-cases.md)
   - [Design Patterns](units/design-patterns.md)
+- [Videos](videos/README.md)
+  - [General](videos/video.md)

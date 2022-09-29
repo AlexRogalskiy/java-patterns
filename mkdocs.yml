@@ -43,6 +43,7 @@ theme:
   name: material
   language: en
   highlightjs: true
+  titles_only: true
   hljs_languages:
     - yaml
     - json
@@ -63,6 +64,7 @@ theme:
     - announce.dismiss
     - tabs
     # show back to top button
+    - navigation.instant
     - navigation.top
     # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+tabs#navigation-tabs
     - navigation.tabs.sticky
@@ -112,6 +114,14 @@ plugins:
         null # the version for <link rel="canonical">; `null`
         # uses the version specified via `mike deploy`
   - mermaid2
+  - em-img2fig
+  - mkdocs-video:
+      mark: "video-marker"
+      is_video: true
+      video_autoplay: false
+      css_style:
+        width: "100%"
+        height: "22.172vw"
   - search:
       lang:
         - en
@@ -163,6 +173,18 @@ extra:
   version:
     provider: mike
     default: latest
+#  analytics:
+#    provider: google
+#    property: G-FB1NX90MYZ
+  consent:
+    cookies:
+      analytics: Google Analytics
+    title: Cookie consent
+    description: >
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
 
 # Extra css settings
 # https://squidfunk.github.io/mkdocs-material/customization/?h=#additional-css
@@ -259,8 +281,6 @@ markdown_extensions:
           class: mermaid
           format:
             !!python/name:pymdownx.superfences.fence_div_format # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#tabbed
-
-
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.details: {} # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#details
