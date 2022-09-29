@@ -7,5 +7,5 @@ if [ -f "$FILE_NAME" ]; then
   # shellcheck source=./_/husky.sh
   . "$FILE_NAME"
 
-  (exec < /dev/tty && git cz --hook --non-interactive --type=feat --subject="added new features") || true
+  (exec < /dev/tty && git-cz --hook --non-interactive --type=feat --subject="added new features") || true
 fi
