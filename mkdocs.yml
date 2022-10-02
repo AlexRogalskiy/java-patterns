@@ -1,4 +1,10 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+# Test this locally with:
+#   $ docker run --rm -it -v $(pwd):$(pwd) --workdir $(pwd) python:3 bash
+#   # pip install -r docs/requirements.txt
+#   # mkdocs serve
+#   # mkdocs build
+#   $ ls -lah site/
 # Site specific data
 site_name: Java Patterns
 site_description: >-
@@ -44,10 +50,12 @@ theme:
   language: en
   highlightjs: true
   titles_only: false
+  collapse_navigation: false
   hljs_languages:
     - yaml
     - json
     - bash
+    - dockerfile
   custom_dir: docs/overrides
   include_search_page: false
   search_index_only: true

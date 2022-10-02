@@ -43,6 +43,8 @@ SHELL 								:= $(shell if [ -x "$$BASH" ]; then echo $$BASH; \
 	 												else echo sh; fi; fi)
 # PYTHON_CMD stores python binary
 PYTHON_CMD 						:= $(shell command -v python3 2> /dev/null || type -p python)
+# HELMFILE_CMD stores helmfile binary
+HELMFILE_CMD 						:= $(shell command -v helmfile 2> /dev/null || type -p helmfile)
 # SED_CMD stores stream editor binary
 SED_CMD 							:= $(shell command -v gsed 2> /dev/null || command -v sed 2> /dev/null || type -p sed)
 # DOCKER_CMD stores docker binary
