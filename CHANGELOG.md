@@ -7,6 +7,7 @@
 
 > October 4, 2022 
 
+- UPdates on docs [`164d191d`](https://github.com/AlexRogalskiy/java-patterns/commit/164d191d)
 - Updates on docs [`7f1ccf5c`](https://github.com/AlexRogalskiy/java-patterns/commit/7f1ccf5c)
 - 💓 Updates contributor SVG [`c7e0c593`](https://github.com/AlexRogalskiy/java-patterns/commit/c7e0c593)
 - docs: updates on docs page speed [`c325dcdd`](https://github.com/AlexRogalskiy/java-patterns/commit/c325dcdd)
