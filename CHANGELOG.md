@@ -1,11 +1,11 @@
-### Changelog 
+### Changelog
 
  All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
- 
-#### [v0.0.0](https://github.com/AlexRogalskiy/java-patterns/compare/0.0.0...v0.0.0) 
 
-> October 4, 2022 
+#### [v0.0.0](https://github.com/AlexRogalskiy/java-patterns/compare/0.0.0...v0.0.0)
+
+> October 4, 2022
 
 - UPdates on docs [`164d191d`](https://github.com/AlexRogalskiy/java-patterns/commit/164d191d)
 - Updates on docs [`7f1ccf5c`](https://github.com/AlexRogalskiy/java-patterns/commit/7f1ccf5c)
@@ -321,10 +321,10 @@
 - docs: updates on docs page speed [`3f9d5fce`](https://github.com/AlexRogalskiy/java-patterns/commit/3f9d5fce)
 - Updates on docs [`e9e3f97c`](https://github.com/AlexRogalskiy/java-patterns/commit/e9e3f97c)
 - [pre-commit.ci] auto fixes from pre-commit.com hooks [`afecaa29`](https://github.com/AlexRogalskiy/java-patterns/commit/afecaa29)
- 
-#### [0.0.0](https://github.com/AlexRogalskiy/java-patterns/compare/1.6...0.0.0) 
 
-> April 29, 2022 
+#### [0.0.0](https://github.com/AlexRogalskiy/java-patterns/compare/1.6...0.0.0)
+
+> April 29, 2022
 
 - Updates on docs [`e85323d5`](https://github.com/AlexRogalskiy/java-patterns/commit/e85323d5)
 - Auto update markdown TOC [`3bfea8d3`](https://github.com/AlexRogalskiy/java-patterns/commit/3bfea8d3)
@@ -332,15 +332,15 @@
 - docs: updates on docs page speed [`cb35929f`](https://github.com/AlexRogalskiy/java-patterns/commit/cb35929f)
 - Create CITATION.cff [`032a3e62`](https://github.com/AlexRogalskiy/java-patterns/commit/032a3e62)
 - docs: updates on VERSION [`5d615916`](https://github.com/AlexRogalskiy/java-patterns/commit/5d615916)
- 
-#### [1.6](https://github.com/AlexRogalskiy/java-patterns/compare/v1.6...1.6) 
 
-> April 28, 2022 
+#### [1.6](https://github.com/AlexRogalskiy/java-patterns/compare/v1.6...1.6)
 
- 
-#### [v1.6](https://github.com/AlexRogalskiy/java-patterns/compare/v1...v1.6) 
+> April 28, 2022
 
-> April 28, 2022 
+
+#### [v1.6](https://github.com/AlexRogalskiy/java-patterns/compare/v1...v1.6)
+
+> April 28, 2022
 
 - Updates on docs [`16aa2ac5`](https://github.com/AlexRogalskiy/java-patterns/commit/16aa2ac5)
 - Auto update markdown TOC [`c259e1c6`](https://github.com/AlexRogalskiy/java-patterns/commit/c259e1c6)
@@ -2132,25 +2132,25 @@
 - Updated with the latest blog posts [`1021933c`](https://github.com/AlexRogalskiy/java-patterns/commit/1021933c)
 - docs: updates on docs page speed [`154cfd08`](https://github.com/AlexRogalskiy/java-patterns/commit/154cfd08)
 - docs: updates on VERSION [`e236b3e0`](https://github.com/AlexRogalskiy/java-patterns/commit/e236b3e0)
- 
-#### [v1](https://github.com/AlexRogalskiy/java-patterns/compare/v1.0...v1) 
 
-> February 18, 2021 
+#### [v1](https://github.com/AlexRogalskiy/java-patterns/compare/v1.0...v1)
 
- 
-#### [v1.0](https://github.com/AlexRogalskiy/java-patterns/compare/v1.0.1...v1.0) 
+> February 18, 2021
 
-> February 18, 2021 
 
- 
-#### [v1.0.1](https://github.com/AlexRogalskiy/java-patterns/compare/1.0.1...v1.0.1) 
+#### [v1.0](https://github.com/AlexRogalskiy/java-patterns/compare/v1.0.1...v1.0)
 
-> February 18, 2021 
+> February 18, 2021
 
- 
-#### [1.0.1](https://github.com/AlexRogalskiy/java-patterns/compare/v1.5...1.0.1) 
 
-> February 18, 2021 
+#### [v1.0.1](https://github.com/AlexRogalskiy/java-patterns/compare/1.0.1...v1.0.1)
+
+> February 18, 2021
+
+
+#### [1.0.1](https://github.com/AlexRogalskiy/java-patterns/compare/v1.5...1.0.1)
+
+> February 18, 2021
 
 - docs: updates on workflows [`6e5b204e`](https://github.com/AlexRogalskiy/java-patterns/commit/6e5b204e)
 - docs: updates on workflows [`e530cb00`](https://github.com/AlexRogalskiy/java-patterns/commit/e530cb00)
@@ -2356,43 +2356,43 @@
 - docs: updates on documentation [`366969d4`](https://github.com/AlexRogalskiy/java-patterns/commit/366969d4)
 - docs: updates on VERSION [`e174a88d`](https://github.com/AlexRogalskiy/java-patterns/commit/e174a88d)
 - Auto update markdown TOC [`9aca7501`](https://github.com/AlexRogalskiy/java-patterns/commit/9aca7501)
- 
-#### [v1.5](https://github.com/AlexRogalskiy/java-patterns/compare/v1.4...v1.5) 
 
-> January 29, 2021 
+#### [v1.5](https://github.com/AlexRogalskiy/java-patterns/compare/v1.4...v1.5)
+
+> January 29, 2021
 
 - docs: updates on documentation [`e8a2882d`](https://github.com/AlexRogalskiy/java-patterns/commit/e8a2882d)
 - docs: updates on documentation [`6c254940`](https://github.com/AlexRogalskiy/java-patterns/commit/6c254940)
 - Updated with the latest blog posts [`c70a17ef`](https://github.com/AlexRogalskiy/java-patterns/commit/c70a17ef)
 - docs: updates on documentation [`c1335409`](https://github.com/AlexRogalskiy/java-patterns/commit/c1335409)
 - Update VERSION [`0634d5ee`](https://github.com/AlexRogalskiy/java-patterns/commit/0634d5ee)
- 
-#### [v1.4](https://github.com/AlexRogalskiy/java-patterns/compare/v1.3...v1.4) 
 
-> January 29, 2021 
+#### [v1.4](https://github.com/AlexRogalskiy/java-patterns/compare/v1.3...v1.4)
+
+> January 29, 2021
 
 - docs: updates on documentation [`194ba7da`](https://github.com/AlexRogalskiy/java-patterns/commit/194ba7da)
 - Update VERSION [`65f164af`](https://github.com/AlexRogalskiy/java-patterns/commit/65f164af)
- 
-#### [v1.3](https://github.com/AlexRogalskiy/java-patterns/compare/v1.2...v1.3) 
 
-> January 29, 2021 
+#### [v1.3](https://github.com/AlexRogalskiy/java-patterns/compare/v1.2...v1.3)
+
+> January 29, 2021
 
 - Auto update markdown TOC [`144ffe9a`](https://github.com/AlexRogalskiy/java-patterns/commit/144ffe9a)
 - docs: updates on documentation [`d6473019`](https://github.com/AlexRogalskiy/java-patterns/commit/d6473019)
 - Update VERSION [`8dd2d3e7`](https://github.com/AlexRogalskiy/java-patterns/commit/8dd2d3e7)
 - Update VERSION [`6bcf6d15`](https://github.com/AlexRogalskiy/java-patterns/commit/6bcf6d15)
 - Auto update markdown TOC [`ee510014`](https://github.com/AlexRogalskiy/java-patterns/commit/ee510014)
- 
-#### [v1.2](https://github.com/AlexRogalskiy/java-patterns/compare/v1.1...v1.2) 
 
-> January 29, 2021 
+#### [v1.2](https://github.com/AlexRogalskiy/java-patterns/compare/v1.1...v1.2)
+
+> January 29, 2021
 
 - docs: updates on documentation [`6420d590`](https://github.com/AlexRogalskiy/java-patterns/commit/6420d590)
- 
-#### [v1.1](https://github.com/AlexRogalskiy/java-patterns/compare/1.0...v1.1) 
 
-> January 29, 2021 
+#### [v1.1](https://github.com/AlexRogalskiy/java-patterns/compare/1.0...v1.1)
+
+> January 29, 2021
 
 - docs: updates on documentation [`4533e172`](https://github.com/AlexRogalskiy/java-patterns/commit/4533e172)
 - docs: updates on documentation [`24dbb4ab`](https://github.com/AlexRogalskiy/java-patterns/commit/24dbb4ab)
