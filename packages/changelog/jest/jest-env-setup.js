@@ -49,6 +49,7 @@ beforeEach(() => {
 });
 
 afterEach(() => {
+  window.localStorage.clear();
 	MockDate.reset();
 });
 

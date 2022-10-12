@@ -44,6 +44,7 @@
 [![Renovatebot](https://badgen.net/badge/renovate/enabled/green?cache=300)](https://renovatebot.com/)
 [![Dependabot](https://img.shields.io/badge/dependabot-enabled-1f8ceb.svg?style=flat-square)](https://dependabot.com/)
 [![NewReleases](https://newreleases.io/badge.svg)](https://newreleases.io/github/AlexRogalskiy/java-patterns)
+[![Stack Overflow](https://img.shields.io/badge/stack%20overflow-java-4183C4.svg)](https://stackoverflow.com/questions/tagged/java)
 [![Hits-of-Code](https://hitsofcode.com/github/alexrogalskiy/java-patterns?branch=master)](https://hitsofcode.com/github/alexrogalskiy/java-patterns?branch=master/view?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/97bd71c53e8145a264ec/maintainability)](https://codeclimate.com/github/AlexRogalskiy/java-patterns/maintainability)
 [![ComVer](https://img.shields.io/badge/ComVer-compliant-brightgreen.svg)][tags]
@@ -177,7 +178,14 @@ or more conveniently for Windows subsystem:
 
 ```shell script
 python -m pip install mkdocs --quiet
-python -m mkdocs
+```
+
+or via provided software package manager tool:
+
+```shell script
+brew install mkdocs     # macOS
+sudo apt install mkdocs # Ubuntu
+sudo yum install mkdocs # CentOS/RHEL
 ```
 
 3\) Install the material theme for the website:
@@ -190,12 +198,21 @@ python -m pip install markdown-include --quiet
 ...
 ```
 
-4\) Start the server at **_localhost_** by running the following command:
+4\) Start a web server on your local machine at **_localhost_**, where you can see the entire website – with hot-reload when you save a change by running the following command:
 
 ```shell script
 python -m mkdocs build --clean --config-file mkdocs.yml
 python -m mkdocs serve --verbose --dirtyreload
 ```
+
+The site is served from the address specified in configuration file `mkdocs.yml`. The MkDocs default is `localhost:8000`, but the current configuration file sets it:
+
+```yaml
+dev_addr: '0.0.0.0:8000'
+```
+
+The `--dirtyreload` option limits rebuilds to the changed page, which means  changes to `mkdocs.yml` are not reflected. 
+If you change `mkdocs.yml`, stop and restart `python -m mkdocs serve --verbose --dirtyreload`.
 
 5\) Deploy to GitHub pages:
 

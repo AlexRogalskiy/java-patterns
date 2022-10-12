@@ -37,12 +37,15 @@ edit_uri: edit/master/docs
 copyright:
   Copyright &copy; 2021-2022 <a
   href="https://github.com/AlexRogalskiy/java-patterns"><em>Nullables.io</em></a><br/><span>This
-  project is licensed under the MIT license.</span></p> <p>All rights
+  project is licensed under the <a
+  href="https://github.com/AlexRogalskiy/java-patterns/blob/master/LICENSE.txt"><em>GPL license</em></a>.</span></p> <p>All rights
   reserved.</p>
 
 # Other settings
 use_directory_urls: true
 strict: false # halt processing when a warning is raised
+
+dev_addr: '0.0.0.0:8000'
 
 # Theme settings
 theme:
@@ -60,6 +63,7 @@ theme:
   include_search_page: false
   search_index_only: true
   static_templates:
+    - 401.html
     - 404.html
   font:
     text: Roboto
@@ -113,6 +117,15 @@ plugins:
   #   - redirects:
   #       redirect_maps:
   #         'README.md': 'README.md'
+  - exclude:
+      glob:
+        - "*.tmp"
+        - "*.pdf"
+        - "*.gz"
+      regex:
+        - '.*\.(tmp|bin|tar)$'
+#  - mkdocstrings
+#  - render_swagger
   - mike:
       # these fields are all optional; the defaults are as below...
       version_selector: true # set to false to leave out the version selector
@@ -218,9 +231,11 @@ markdown_extensions:
       permalink: true
       toc_depth: 3
       slugify: !!python/name:pymdownx.slugs.uslugify
+      title: On this page
   - abbr: {}
   # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/?h=attr#attribute-lists attr_list is required for several other features. Always enable.
   - attr_list: {}
+#  - mkdocs-click: {}
   - def_list: {}
   # https://squidfunk.github.io/mkdocs-material/reference/admonitions/?h=admoni
   - admonition: {}
