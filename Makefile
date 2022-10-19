@@ -933,6 +933,14 @@ info: ## Gather information about the runtime environment
 	$(AT)$(DOCKER_CMD) images; \
 	$(AT)$(DOCKER_CMD) ps
 
+.PHONY: shellcheck
+shellcheck: ## Check style for shell scripts
+	$(AT)shellcheck --severity=style *.sh scripts/*.sh
+
+.PHONY: shellspec
+shellspec: ## Check shell scripts specification compliance
+	$(AT)shellspec
+
 # printvars prints all the variables currently defined in our
 # Makefiles. Alternatively, if a non-empty VARS variable is passed,
 # only the variables matching the make pattern passed in VARS are
