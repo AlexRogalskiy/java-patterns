@@ -212,7 +212,7 @@ The site is served from the address specified in configuration file `mkdocs.yml`
 dev_addr: '0.0.0.0:8000'
 ```
 
-The `--dirtyreload` option limits rebuilds to the changed page, which means  changes to `mkdocs.yml` are not reflected. 
+The `--dirtyreload` option limits rebuilds to the changed page, which means  changes to `mkdocs.yml` are not reflected.
 If you change `mkdocs.yml`, stop and restart `python -m mkdocs serve --verbose --dirtyreload`.
 
 5\) Deploy to GitHub pages:
