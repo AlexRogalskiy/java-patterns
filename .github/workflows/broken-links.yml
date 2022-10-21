@@ -20,7 +20,7 @@ jobs:
           git config --global help.autocorrect 1
           git config --global core.fileMode false
 
-      - uses: actions/setup-node@v2.1.4
+      - uses: actions/setup-node@v3.5.1
         with:
           node-version: 12.x
 
