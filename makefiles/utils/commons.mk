@@ -87,7 +87,7 @@ GREP_OPTS 						    := --color=auto --line-buffered --verbose
 TAR_OPTS 						      := --strip-components=1
 
 # WGET_OPTS stores wget options
-WGET_OPTS 						    := --no-check-certificate
+WGET_OPTS 						    := --no-check-certificate --continue --no-verbose --show-progress --directory-prefix=cache/downloads/
 
 # CURL_OPTS stores curl options
 CURL_OPTS 						    := --silent --show-error --location --fail --insecure --ipv4 --connect-timeout 3 --retry-connrefused --tlsv1.2 --proto "=https" --retry 3 --retry-delay 0 --retry-max-time 180

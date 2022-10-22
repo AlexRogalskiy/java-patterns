@@ -933,6 +933,11 @@ info: ## Gather information about the runtime environment
 	$(AT)$(DOCKER_CMD) images; \
 	$(AT)$(DOCKER_CMD) ps
 
+.PHONY: awesome_bot
+awesome_bot: ## Check style for markdown files
+	$(AT)gem install --user-install awesome_bot && \
+	$(AT)awesome_bot --files README.md --allow-dupe --allow-redirect --set-timeout 10 --white-list www.audacityteam.org,open-music-kontrollers.ch
+
 .PHONY: shellcheck
 shellcheck: ## Check style for shell scripts
 	$(AT)shellcheck --severity=style *.sh scripts/*.sh
