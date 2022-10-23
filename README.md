@@ -45,7 +45,8 @@
 [![Dependabot](https://img.shields.io/badge/dependabot-enabled-1f8ceb.svg?style=flat-square)](https://dependabot.com/)
 [![NewReleases](https://newreleases.io/badge.svg)](https://newreleases.io/github/AlexRogalskiy/java-patterns)
 [![Stack Overflow](https://img.shields.io/badge/stack%20overflow-java-4183C4.svg)](https://stackoverflow.com/questions/tagged/java)
-[![Reddit](https://img.shields.io/static/v1?label=reddit&message=java&style=plastic&color=4183C4&logo=reddit)](https://www.reddit.com/r/java/)
+[![Reddit](https://img.shields.io/static/v1?label=reddit&message=java&style=plastic&color=4183C4&logo=reddit)](https://www.reddit.com/r/java)
+[![Hashnode](https://img.shields.io/static/v1?label=hashnode&message=java&style=plastic&color=4183C4&logo=hashnode)](https://hashnode.com/n/java)
 [![Hits-of-Code](https://hitsofcode.com/github/alexrogalskiy/java-patterns?branch=master)](https://hitsofcode.com/github/alexrogalskiy/java-patterns?branch=master/view?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/97bd71c53e8145a264ec/maintainability)](https://codeclimate.com/github/AlexRogalskiy/java-patterns/maintainability)
 [![ComVer](https://img.shields.io/badge/ComVer-compliant-brightgreen.svg)][tags]
