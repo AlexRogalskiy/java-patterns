@@ -5,21 +5,29 @@
 </p>
 
 <p align="center" style="text-align:center;">
-  <a href="https://nullables.io/">
+  <a href="https://nullables.io/" target="_blank">
     <img src="https://img.shields.io/badge/made%20by-Nullables%20Labs-blue.svg?style=flat-square&longCache=true&logo=data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMzIwIDMwMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNOTguODI0IDE0OS40OThjMCAxMi41Ny0yLjM1NiAyNC41ODItNi42MzcgMzUuNjM3LTQ5LjEtMjQuODEtODIuNzc1LTc1LjY5Mi04Mi43NzUtMTM0LjQ2IDAtMTcuNzgyIDMuMDkxLTM0LjgzOCA4Ljc0OS01MC42NzVhMTQ5LjUzNSAxNDkuNTM1IDAgMCAxIDQxLjEyNCAxMS4wNDYgMTA3Ljg3NyAxMDcuODc3IDAgMCAwLTcuNTIgMzkuNjI4YzAgMzYuODQyIDE4LjQyMyA2OS4zNiA0Ni41NDQgODguOTAzLjMyNiAzLjI2NS41MTUgNi41Ny41MTUgOS45MjF6TTY3LjgyIDE1LjAxOGM0OS4xIDI0LjgxMSA4Mi43NjggNzUuNzExIDgyLjc2OCAxMzQuNDggMCA4My4xNjgtNjcuNDIgMTUwLjU4OC0xNTAuNTg4IDE1MC41ODh2LTQyLjM1M2M1OS43NzggMCAxMDguMjM1LTQ4LjQ1OSAxMDguMjM1LTEwOC4yMzUgMC0zNi44NS0xOC40My02OS4zOC00Ni41NjItODguOTI3YTk5Ljk0OSA5OS45NDkgMCAwIDEtLjQ5Ny05Ljg5NyA5OC41MTIgOTguNTEyIDAgMCAxIDYuNjQ0LTM1LjY1NnptMTU1LjI5MiAxODIuNzE4YzE3LjczNyAzNS41NTggNTQuNDUgNTkuOTk3IDk2Ljg4OCA1OS45OTd2NDIuMzUzYy02MS45NTUgMC0xMTUuMTYyLTM3LjQyLTEzOC4yOC05MC44ODZhMTU4LjgxMSAxNTguODExIDAgMCAwIDQxLjM5Mi0xMS40NjR6bS0xMC4yNi02My41ODlhOTguMjMyIDk4LjIzMiAwIDAgMS00My40MjggMTQuODg5QzE2OS42NTQgNzIuMjI0IDIyNy4zOSA4Ljk1IDMwMS44NDUuMDAzYzQuNzAxIDEzLjE1MiA3LjU5MyAyNy4xNiA4LjQ1IDQxLjcxNC01MC4xMzMgNC40Ni05MC40MzMgNDMuMDgtOTcuNDQzIDkyLjQzem01NC4yNzgtNjguMTA1YzEyLjc5NC04LjEyNyAyNy41NjctMTMuNDA3IDQzLjQ1Mi0xNC45MTEtLjI0NyA4Mi45NTctNjcuNTY3IDE1MC4xMzItMTUwLjU4MiAxNTAuMTMyLTIuODQ2IDAtNS42NzMtLjA4OC04LjQ4LS4yNDNhMTU5LjM3OCAxNTkuMzc4IDAgMCAwIDguMTk4LTQyLjExOGMuMDk0IDAgLjE4Ny4wMDguMjgyLjAwOCA1NC41NTcgMCA5OS42NjUtNDAuMzczIDEwNy4xMy05Mi44Njh6IiBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+" alt="Nullable labs"/>
   </a>
-  <a href="https://github.com/AlexRogalskiy/java-patterns/">
+  <a href="https://github.com/AlexRogalskiy/java-patterns" target="_blank">
     <img src="https://img.shields.io/badge/project-JavaPatterns-blue.svg?style=flat-square" alt="Java patterns"/>
   </a>
-  <a href="https://alexander-rogalsky.gitbook.io/java-patterns/">
+  <a href="https://alexander-rogalsky.gitbook.io/java-patterns" target="_blank">
     <img src="https://raw.githubusercontent.com/AlexRogalskiy/java-patterns/master/images/awesome.svg" alt="Java patterns"/>
   </a>
-  <a href="https://github.com/AlexRogalskiy/java-patterns/">
+  <a href="https://github.com/AlexRogalskiy/java-patterns" target="_blank">
     <img src="https://badges.frapsoft.com/os/v3/open-source.png" alt="Java patterns"/>
+  </a>
+  <a href="https://gitee.com/AlexRogalskiy/java-patterns" target="_blank">
+    <img src="https://img.shields.io/badge/Gitee-hub-blue?logo=gitee" alt="Gitee Java patterns"/>
+  </a>	
+  <a href="https://www.codacy.com/gh/AlexRogalskiy/java-patterns/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AlexRogalskiy/java-patterns&amp;utm_campaign=Badge_Grade" target="_blank">
+    <img src="https://app.codacy.com/project/badge/Grade/700b2900f96249919b0112fddcec34e2" alt="Codacy"/>
+  </a>
+  <a href="https://github.com/AlexRogalskiy/java-patterns" target="_blank">
+    <img src="https://img.shields.io/github/stars/AlexRogalskiy/java-patterns.svg?style=social" alt="Github stars"/>
   </a>
 </p>
 
-[![GitHub version](https://badge.fury.io/gh/AlexRogalskiy%2Fjava-patterns.svg)](https://badge.fury.io/gh/AlexRogalskiy%2Fjava-patterns)
 ![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/AlexRogalskiy/java-patterns)
 ![GitHub Release Date](https://img.shields.io/github/release-date/AlexRogalskiy/java-patterns)
 ![Lines of code](https://tokei.rs/b1/github/AlexRogalskiy/java-patterns?category=lines)
@@ -33,6 +41,7 @@
 ![GitHub Repository branches](https://badgen.net/github/branches/AlexRogalskiy/java-patterns)
 ![GitHub Repository dependents](https://badgen.net/github/dependents-repo/AlexRogalskiy/java-patterns)
 
+[![GitHub version](https://badge.fury.io/gh/AlexRogalskiy%2Fjava-patterns.svg)](https://badge.fury.io/gh/AlexRogalskiy%2Fjava-patterns)
 [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#github.com/AlexRogalskiy/java-patterns/)
 [![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
 [![Open Source Helpers](https://www.codetriage.com/alexrogalskiy/java-patterns/badges/users.svg)](https://www.codetriage.com/alexrogalskiy/java-patterns)
