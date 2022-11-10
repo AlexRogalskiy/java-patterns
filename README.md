@@ -19,7 +19,7 @@
   </a>
   <a href="https://gitee.com/AlexRogalskiy/java-patterns" target="_blank">
     <img src="https://img.shields.io/badge/Gitee-hub-blue?logo=gitee" alt="Gitee Java patterns"/>
-  </a>	
+  </a>
   <a href="https://www.codacy.com/gh/AlexRogalskiy/java-patterns/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AlexRogalskiy/java-patterns&amp;utm_campaign=Badge_Grade" target="_blank">
     <img src="https://app.codacy.com/project/badge/Grade/700b2900f96249919b0112fddcec34e2" alt="Codacy"/>
   </a>
