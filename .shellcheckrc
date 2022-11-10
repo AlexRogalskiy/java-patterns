@@ -1,3 +1,9 @@
+source-path=scripts
+
+external-sources=true
+
+enable=all
+
 # SC1091 - Not following: FILE: does not exist (No such file or directory) - https://github.com/koalaman/shellcheck/wiki/SC1091
 #        - used for sourcing function files throughout the codebase
 # SC2034 - VAR appears unused - https://github.com/koalaman/shellcheck/wiki/SC2034

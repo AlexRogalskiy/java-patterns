@@ -1,13 +1,26 @@
 {
     "fallbackRetryDelay": "30s",
+    "retryCount": 5,
+    "retryOn429": true,
     "httpHeaders": [
         {
-            "urls": ["https://help.github.com"],
+            "urls": [
+                "https://help.github.com"
+            ],
             "headers": {
                 "Accept-Encoding": "br, gzip, deflate"
             }
         }
     ],
-    "retryCount": 5,
-    "retryOn429": true
+    "replacementPatterns": [
+        {
+            "pattern": "^/",
+            "replacement": "/github/workspace/"
+        }
+    ],
+    "ignorePatterns": [
+        {
+            "pattern": "^http[s]*://localhost.*"
+        }
+    ]
 }

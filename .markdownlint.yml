@@ -33,20 +33,32 @@ extends: null
 ###############
 # Rules by id #
 ###############
+#https://github.com/DavidAnson/markdownlint/blob/HEAD/doc/Rules.md#md004
 MD004: false # Unordered list style
+#https://github.com/DavidAnson/markdownlint/blob/HEAD/doc/Rules.md#md007
 MD007:
   indent: 2 # Unordered list indentation
+#https://github.com/DavidAnson/markdownlint/blob/HEAD/doc/Rules.md#md013
 MD013:
   line_length: 400 # Line length 80 is far to short
+#https://github.com/DavidAnson/markdownlint/blob/HEAD/doc/Rules.md#md024
 MD024: false # Allow multiple headings with same content
+#https://github.com/DavidAnson/markdownlint/blob/HEAD/doc/Rules.md#md026
 MD026:
   punctuation: '.,;:!。，；:' # List of not allowed
+#https://github.com/DavidAnson/markdownlint/blob/HEAD/doc/Rules.md#md029
 MD029: false # Ordered list item prefix
+#https://github.com/DavidAnson/markdownlint/blob/HEAD/doc/Rules.md#md033
 MD033: false # Allow inline HTML
+#https://github.com/DavidAnson/markdownlint/blob/HEAD/doc/Rules.md#md034
 MD034: false # Allow Bare URL use
+#https://github.com/DavidAnson/markdownlint/blob/HEAD/doc/Rules.md#md036
 MD036: false # Emphasis used instead of a heading
+#https://github.com/DavidAnson/markdownlint/blob/HEAD/doc/Rules.md#md040
 MD040: false # Allow ``` blocks in md files with no language specified
+#https://github.com/DavidAnson/markdownlint/blob/HEAD/doc/Rules.md#md041
 MD041: false # First line in a file should be a top-level heading
+#https://github.com/DavidAnson/markdownlint/blob/HEAD/doc/Rules.md#md042
 MD042: false # Allow empty links
 
 #################
