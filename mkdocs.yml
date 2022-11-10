@@ -54,6 +54,7 @@ theme:
   highlightjs: true
   titles_only: false
   collapse_navigation: false
+  include_sidebar: true
   hljs_languages:
     - yaml
     - json
@@ -65,6 +66,9 @@ theme:
   static_templates:
     - 401.html
     - 404.html
+  i18n:
+    prev: 'Previous'
+    next: 'Next'
   font:
     text: Roboto
     code: Roboto Mono
