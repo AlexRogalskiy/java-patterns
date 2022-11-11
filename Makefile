@@ -823,9 +823,11 @@ docker-graph:
 		--platform=linux/amd64 \
 		--rm \
     $DOCKER_OPTS \
+    #--sysctl net.ipv4.ping_group_range="0 2147483647"
 		--user $(SYS_USER_GROUP) \
 		--workdir /workspace \
 		--volume "$(PWD)/distribution/docker-images":/workspace \
+		$($(DOCKER_CMD) run --help | $(GREP_CMD) -- --pull >/dev/null && echo "--pull=always") \
 		$(if $(findstring true,$(VERBOSE)),,--quiet) \
 		ghcr.io/patrickhoefler/dockerfilegraph \
 		$(SAVE_LOG)
@@ -843,6 +845,7 @@ docker-lint:
     $DOCKER_OPTS \
 		--user $(SYS_USER_GROUP) \
 		--volume "$(PWD):/tmp/lint" \
+		$($(DOCKER_CMD) run --help | $(GREP_CMD) -- --pull >/dev/null && echo "--pull=always") \
 		$(if $(findstring true,$(VERBOSE)),,--quiet) \
 		--env RUN_LOCAL=true \
 		--env LINTER_RULES_PATH=/ \
@@ -862,6 +865,7 @@ docker-syft:
     $DOCKER_OPTS \
 		--user $(SYS_USER_GROUP) \
 		--volume "$(PWD)/config/config.json":/config/config.json \
+		$($(DOCKER_CMD) run --help | $(GREP_CMD) -- --pull >/dev/null && echo "--pull=always") \
 		$(if $(findstring true,$(VERBOSE)),,--quiet) \
   	--env "DOCKER_CONFIG=/config" \
   	anchore/syft:latest \
