@@ -347,6 +347,8 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 
 [![Statistics report](https://cauldron.io/project/5121/stats.svg)][stats_chart]
 
+[![Star History Char](https://api.star-history.com/svg?repos=AlexRogalskiy/java-patterns&type=Date)][stars_history_chart]
+
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
 ## 📎 _OpenGraph Card_
@@ -620,5 +622,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 [stars]: https://github.com/AlexRogalskiy/java-patterns/stargazers
 [stars_chart]: https://starchart.cc/AlexRogalskiy/java-patterns
 [stats_chart]: https://cauldron.io/project/5121
+[stars_history_chart]: https://star-history.com/#AlexRogalskiy/java-patterns&Date
 [contributors]: https://github.com/AlexRogalskiy/java-patterns/graphs/contributors
 [docs]: https://alexander-rogalsky.gitbook.io/java-patterns
