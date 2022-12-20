@@ -34,6 +34,8 @@ module.exports = {
           },
 
           removeViewBox: false,
+          removeXMLNS: true,
+          removeUselessStrokeAndFill: false,
 
           // or disable plugins
           removeDoctype: false,
