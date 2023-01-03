@@ -70,7 +70,7 @@ commands from the root of your repo:
     See this [tutorial on YAML](https://rollout.io/blog/yaml-tutorial-everything-you-need-get-started/) for
     more information.
 
-    **Colons, tilda, asterisk and other characters may cause your front matter to break and for your posts to
+    **Colons, tilde, asterisk and other characters may cause your front matter to break and for your posts to
     not render.** If you violoate these conventions you often get an error that looks something like this:
 
     ```bash
