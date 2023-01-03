@@ -222,7 +222,7 @@ The style guide assumes that you are familiar with the
 A Minimal, Complete, and Verifiable Example.
 
 When [reporting a bug](info.md#bug-reports), sometimes even when
-[suggestig a enhancement](info.md#enhancement-suggestions), the issue can be processed faster if you provide
+[suggesting a enhancement](info.md#enhancement-suggestions), the issue can be processed faster if you provide
 code for reproduction. That code should be…
 
 -   …Minimal – Use as little code as possible that still produces the same behavior
