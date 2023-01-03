@@ -199,7 +199,7 @@ project community. It ensures consistency and enforces best practice in usage an
 
 ### _Java Code Style_
 
-IceCore Hasids adheres to the \[Nullables Studio Java Style Guide]\[styleguide-java-github].
+IceCore Hashids adheres to the \[Nullables Studio Java Style Guide]\[styleguide-java-github].
 
 \[!\[]\[styleguide-java-badge]]\[styleguide-java-github]
 
@@ -210,7 +210,7 @@ The code will tell what changed, but only the commit message can properly tell w
 context of a piece of code is wasteful. We can't avoid it completely, so our efforts should go to reducing it
 as much as possible.
 
-IceCore Hasids adheres to the \[Nullables Studio Git Style Guide]\[styleguide-git-github].
+IceCore Hashids adheres to the \[Nullables Studio Git Style Guide]\[styleguide-git-github].
 
 \[!\[]\[styleguide-git-badge]]\[styleguide-git-github]
 
