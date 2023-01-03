@@ -81,7 +81,7 @@
          * [<em>Dreamix posts</em>](#dreamix-posts)
          * [<em>Plumbr posts</em>](#plumbr-posts)
          * [<em>Thorben Janssen posts</em>](#thorben-janssen-posts)
-         * [<em>Redhat posts</em>](#redhat-posts)
+         * [<em>Red Hat posts</em>](#redhat-posts)
          * [<em>JavaCodeGeeks posts</em>](#javacodegeeks-posts)
          * [<em>DevCases posts</em>](#devcases-posts)
 <!--te-->
@@ -521,7 +521,7 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
-### _Redhat posts_
+### _Red Hat posts_
 
 <!-- REDHAT-POST-LIST:START -->
 
