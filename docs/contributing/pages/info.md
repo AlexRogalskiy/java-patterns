@@ -61,7 +61,7 @@ the information it asks for helps maintainers to reproduce the problem and resol
 -   **Include screenshots and animated GIFs** which show you following the described steps and clearly
     demonstrate the problem.
 -   **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or
-    copy/pasteable snippets. If you are providing snippets in the issue, use
+    copy/pastable snippets. If you are providing snippets in the issue, use
     [Markdown code blocks](https://help.github.com/articles/basic-writing-and-formatting-syntax) or
     [attach files to the issue](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests).
 
@@ -107,7 +107,7 @@ detail and context as possible using a structured layout like the
 -   **Use a clear and descriptive title** for the issue to identify the suggestion.
 -   **Provide a step-by-step description of the suggested enhancement** in as many details as possible and
     provide use-cases.
--   **Provide examples to demonstrate the need of an enhancement**. Include copy/pasteable snippets which you
+-   **Provide examples to demonstrate the need of an enhancement**. Include copy/pastable snippets which you
     use in those examples, use
     [Markdown code blocks](https://help.github.com/articles/basic-writing-and-formatting-syntax) or
     [attach files to the issue](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests).
