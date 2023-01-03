@@ -26,7 +26,7 @@ The project development workflow and process uses
 [Pull Requests](https://github.com/AlexRogalskiy/object-mappers-playground/pulls) management to track issues
 and pull requests.
 
-Before you continue with this contribution guideslines we highly recommend to read the awesome GitHub
+Before you continue with this contribution guidelines we highly recommend to read the awesome GitHub
 [Open source Guide](https://opensource.guide) on how to
 [making open source contributions](https://opensource.guide/how-to-contribute).
 
