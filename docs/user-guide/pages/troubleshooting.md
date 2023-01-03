@@ -71,7 +71,7 @@ commands from the root of your repo:
     more information.
 
     **Colons, tilde, asterisk and other characters may cause your front matter to break and for your posts to
-    not render.** If you violoate these conventions you often get an error that looks something like this:
+    not render.** If you violate these conventions you often get an error that looks something like this:
 
     ```bash
      Error: YAML Exception reading ... (<unknown>): mapping values are not allowed
