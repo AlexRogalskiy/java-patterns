@@ -7,7 +7,7 @@ Markdown==3.3.6
 markdown-checklist==0.4.3
 fontawesome-markdown==0.2.6
 markdown-include==0.6.0
-pymdown-extensions==9.4
+pymdown-extensions==10.0
 python-markdown-math==0.8
 mkdocs-literate-nav==0.4.1
 mkdocs-material-extensions==1.0.3
