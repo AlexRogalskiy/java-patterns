@@ -78,6 +78,6 @@ text-unidecode==1.3
 urllib3==1.26.9
 verspec==0.1.0
 watchdog==2.1.7
-wcmatch==8.3
+wcmatch==8.4.1
 wrapt==1.14.1
 zipp==3.8.0
