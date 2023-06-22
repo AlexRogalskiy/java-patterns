@@ -141,7 +141,7 @@
 		"mockdate": "^3.0.5",
 		"nodejs-dashboard": "^0.5.1",
 		"nodelinter": "^0.1.19",
-		"puppeteer": "^15.3.1",
+		"puppeteer": "^20.7.3",
 		"size-limit": "^8.1.0",
 		"solidarity": "^3.0.4",
 		"source-map-explorer": "^2.5.2",
