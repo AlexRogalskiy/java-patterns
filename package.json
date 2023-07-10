@@ -90,7 +90,7 @@
 		"snyk": "^1.946.0",
 		"solidarity": "^3.0.4",
 		"sort-package-json": "^1.54.0",
-		"stylelint": "^14.8.5",
+		"stylelint": "^15.10.1",
 		"stylelint-config-standard": "^22.0.0",
 		"stylelint-order": "^4.1.0",
 		"stylelint-scss": "^3.20.1",
