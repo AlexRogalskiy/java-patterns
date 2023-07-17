@@ -35,7 +35,7 @@ arrow==1.2.2
 Babel==2.10.1
 beautifulsoup4==4.11.1
 binaryornot==0.4.4
-bracex==2.2.1
+bracex==2.3.post1
 certifi==2021.10.8
 cffi==1.15.0
 chardet==4.0.0
