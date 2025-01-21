@@ -297,13 +297,12 @@ specification. Contributions of any kind are welcome!
 
 See also the list of [contributors][contributors] who participated in this project.
 
-[![Edit with Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/AlexRogalskiy/java-patterns)
 
-**_Java Design Patterns_** has experimental support for _Gitpod_, a pre-configured development environment
-that runs in your browser. To use _Gitpod_, click the button below and sign in with GitHub. _Gitpod_ also
+**_Java Design Patterns_** has experimental support for both _Gitpod_ and Codeanyhwere, pre-configured development environments
+that run in your browser. To use _Gitpod_, click the button below and sign in with GitHub. _Gitpod_ also
 offers a browser add-on, though it is not required.
 
-[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://githubbox.com/AlexRogalskiy/java-patterns)
+[![Edit with Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/AlexRogalskiy/java-patterns) [![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/AlexRogalskiy/code-formats) [![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://githubbox.com/AlexRogalskiy/java-patterns)
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
