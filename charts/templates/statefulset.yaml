@@ -1,0 +1,359 @@
+{{- if .Values.statefulset.enabled }}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+kind: StatefulSet
+apiVersion: {{ template "backend-java-patterns.statefulset.apiVersion" . }}
+metadata:
+  name: {{ $fullName }}
+  namespace: {{ .Release.Namespace | quote }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  {{- if .Values.statefulset.labels }}
+  {{- with .Values.statefulset.labels }}
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+  {{- end }}
+spec:
+  serviceName: {{ $fullName }}
+  replicas: {{ default 1 .Values.statefulset.replicas | int64 }}
+  updateStrategy:
+    type: {{ .Values.statefulset.updateStrategy.type | quote }}
+    {{- if (eq "Recreate" .Values.statefulset.updateStrategy.type) }}
+    rollingUpdate: null
+    {{- else if .Values.statefulset.rollingUpdatePartition }}
+    rollingUpdate:
+      partition: {{ .Values.statefulset.rollingUpdatePartition }}
+    {{- end }}
+  {{- if .Values.statefulset.podManagementPolicy }}
+  podManagementPolicy: {{ .Values.statefulset.podManagementPolicy | quote }}
+  {{- end }}
+  selector:
+    matchLabels:
+      {{- include "backend-java-patterns.selectorLabels" . | nindent 6 }}
+    {{- if .Values.statefulset.labels }}
+    {{- with .Values.statefulset.labels }}
+      {{- toYaml . | nindent 6 }}
+    {{- end }}
+    {{- end }}
+  template:
+    metadata:
+      labels:
+        {{- include "backend-java-patterns.selectorLabels" . | nindent 6 }}
+      {{- if .Values.statefulset.labels }}
+      {{- with .Values.statefulset.labels }}
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- end }}
+    {{- if .Values.statefulset.annotations }}
+    {{- with .Values.statefulset.annotations }}
+      annotations:
+        {{- toYaml . | nindent 8 }}
+    {{- end }}
+    {{- end }}
+    spec:
+    {{- if .Values.hostAliases }}
+      hostAliases:
+        {{- toYaml .Values.hostAliases | nindent 8 }}
+    {{- end }}
+    {{- if .Values.schedulerName }}
+      schedulerName: "{{ .Values.schedulerName }}"
+    {{- end }}
+    {{- if or .Values.deployment.container.image.credentials (and .Values.tls.enabled .Values.tls.init.image.credentials (not .Values.tls.certs.provided)) }}
+      imagePullSecrets:
+      {{- if .Values.deployment.container.image.credentials }}
+        - name: {{ $fullName }}.db.registry
+      {{- end }}
+      {{- if and .Values.tls.enabled .Values.tls.init.image.credentials (not .Values.tls.certs.provided) }}
+        - name: {{ $fullName }}.init-certs.registry
+      {{- end }}
+    {{- end }}
+    {{- if .Values.tls.enabled }}
+      serviceAccountName: {{ template "backend-java-patterns.tls.serviceAccountName" . }}
+      {{- if .Values.securityContext.enabled }}
+      securityContext:
+      {{- toYaml .Values.securityContext.config | nindent 8 }}
+      {{- end }}
+      {{- if not .Values.tls.certs.provided }}
+      initContainers:
+        # The init-certs container sends a CSR (certificate signing request) to
+        # the Kubernetes cluster.
+        # You can see pending requests using:
+        #   kubectl get csr
+        # CSRs can be approved using:
+        #   kubectl certificate approve <csr-name>
+        #
+        # All addresses used to contact a Node must be specified in the
+        # `--addresses` arg.
+        #
+        # In addition to the Node certificate and key, the init-certs entrypoint
+        # will symlink the cluster CA to the certs directory.
+        - name: init-certs
+          image: "{{ .Values.tls.init.image.repository }}:{{ .Values.tls.init.image.tag }}"
+          imagePullPolicy: {{ .Values.tls.init.image.pullPolicy | quote }}
+          command:
+            - /bin/ash
+            - -ecx
+            - >-
+              /request-cert
+              -namespace=${POD_NAMESPACE}
+              -certs-dir=/etc/certs/
+              -symlink-ca-from=/var/run/secrets/kubernetes.io/serviceaccount/ca.crt
+              -type=node
+              -addresses=localhost,127.0.0.1,$(hostname -f),$(hostname -f|cut -f 1-2 -d '.'),{{ $fullName }}-public,{{ $fullName }}-public.$(hostname -f|cut -f 3- -d '.')
+          env:
+            - name: POD_NAMESPACE
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.namespace
+          volumeMounts:
+            - name: certs
+              mountPath: /etc/certs/
+      {{- end }}
+    {{- end }}
+    {{- if or .Values.statefulset.nodeAffinity .Values.statefulset.podAffinity .Values.statefulset.podAntiAffinity }}
+      affinity:
+      {{- with .Values.statefulset.nodeAffinity }}
+        nodeAffinity: {{- toYaml . | nindent 10 }}
+      {{- end }}
+      {{- with .Values.statefulset.podAffinity }}
+        podAffinity: {{- toYaml . | nindent 10 }}
+      {{- end }}
+      {{- if .Values.statefulset.podAntiAffinity }}
+        podAntiAffinity:
+        {{- if .Values.statefulset.podAntiAffinity.type }}
+        {{- if eq .Values.statefulset.podAntiAffinity.type "hard" }}
+          requiredDuringSchedulingIgnoredDuringExecution:
+            - topologyKey: kubernetes.io/hostname
+              labelSelector:
+                matchLabels:
+                  app.kubernetes.io/name: {{ template "backend-java-patterns.name" . }}
+                  app.kubernetes.io/instance: {{ .Release.Name | quote }}
+                {{- with .Values.statefulset.labels }}
+                  {{- toYaml . | nindent 18 }}
+                {{- end }}
+        {{- else if eq .Values.statefulset.podAntiAffinity.type "soft" }}
+          preferredDuringSchedulingIgnoredDuringExecution:
+            - weight: {{ .Values.statefulset.podAntiAffinity.weight | int64 }}
+              podAffinityTerm:
+                topologyKey: kubernetes.io/hostname
+                labelSelector:
+                  matchLabels:
+                    app.kubernetes.io/name: {{ template "backend-java-patterns.name" . }}
+                    app.kubernetes.io/instance: {{ .Release.Name | quote }}
+                  {{- with .Values.statefulset.labels }}
+                    {{- toYaml . | nindent 20 }}
+                  {{- end }}
+        {{- end }}
+        {{- else }}
+          {{- toYaml .Values.statefulset.podAntiAffinity | nindent 10 }}
+        {{- end }}
+      {{- end }}
+    {{- end }}
+    {{- with .Values.statefulset.nodeSelector }}
+      nodeSelector: {{- toYaml . | nindent 8 }}
+    {{- end }}
+    {{- with .Values.statefulset.tolerations }}
+      tolerations: {{- toYaml . | nindent 8 }}
+    {{- end }}
+      # No pre-stop hook is required, a SIGTERM plus some time is all that's
+      # needed for graceful shutdown of a node.
+      terminationGracePeriodSeconds: 60
+      containers:
+        - name: db
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy | quote }}
+          args:
+            - shell
+            - -ecx
+            # The use of qualified `hostname -f` is crucial:
+            # Other nodes aren't able to look up the unqualified hostname.
+            #
+            # `--join` CLI flag is hardcoded to exactly 3 Pods, because:
+            # 1. Having `--join` value depending on `statefulset.replicas`
+            #    will trigger undesired restart of existing Pods when
+            #    StatefulSet is scaled up/down. We want to scale without
+            #    restarting existing Pods.
+            # 2. At least one Pod in `--join` is enough to successfully
+            #    join cluster and gossip with all other existing
+            #    Pods, even if there are 3 or more Pods.
+            # 3. It's harmless for `--join` to have 3 Pods even for 1-Pod
+            #    clusters, while it gives us opportunity to scale up even if
+            #    some Pods of existing cluster are down (for whatever reason).
+            # See details explained here:
+            # https://github.com/helm/charts/pull/18993#issuecomment-558795102
+            - >-
+              exec /bin/bash
+            {{- if index .Values.conf `single-node` }}
+              start-single-node
+            {{- else }}
+              start --join=
+              {{- if .Values.conf.join }}
+                {{- join `,` .Values.conf.join -}}
+              {{- else }}
+                {{- range $i, $_ := until 3 -}}
+                  {{- if gt $i 0 -}},{{- end -}}
+                  ${STATEFULSET_NAME}-{{ $i }}.${STATEFULSET_FQDN}:{{ $.Values.service.ports.grpc.internal.port | int64 -}}
+                {{- end -}}
+              {{- end }}
+              --advertise-host=$(hostname).${STATEFULSET_FQDN}
+            {{- with index .Values.conf `cluster-name` }}
+              --cluster-name={{ . }}
+            {{- if index $.Values.conf `disable-cluster-name-verification` }}
+              --disable-cluster-name-verification
+            {{- end }}
+            {{- end }}
+            {{- end }}
+              --logtostderr={{ .Values.conf.logtostderr }}
+            {{- if .Values.tls.enabled }}
+              --certs-dir=/etc/certs/
+            {{- else }}
+              --insecure
+            {{- end }}
+            {{- with .Values.conf.attrs }}
+              --attrs={{ join `:` . }}
+            {{- end }}
+              --http-port={{ index .Values.conf `http-port` | int64 }}
+              --port={{ .Values.conf.port | int64 }}
+              --cache={{ .Values.conf.cache }}
+              --max-disk-temp-storage={{ index .Values.conf `max-disk-temp-storage` }}
+              --max-offset={{ index .Values.conf `max-offset` }}
+              --max-sql-memory={{ index .Values.conf `max-sql-memory` }}
+            {{- with .Values.conf.locality }}
+              --locality={{ . }}
+            {{- end }}
+            {{- with index .Values.conf `sql-audit-dir` }}
+              --sql-audit-dir={{ . }}
+            {{- end }}
+            {{- range .Values.statefulset.args }}
+              {{ . }}
+            {{- end }}
+          env:
+            - name: STATEFULSET_NAME
+              value: {{ $fullName }}
+            - name: STATEFULSET_FQDN
+              value: {{ $fullName }}.{{ .Release.Namespace }}.svc.{{ .Values.clusterDomain }}
+          {{- with .Values.statefulset.env }}
+            {{- toYaml . | nindent 12 }}
+          {{- end }}
+          ports:
+            - name: grpc
+              containerPort: {{ .Values.conf.port | int64 }}
+              protocol: TCP
+            - name: http
+              containerPort: {{ index .Values.conf `http-port` | int64 }}
+              protocol: TCP
+          volumeMounts:
+            - name: datadir
+              mountPath: /etc/data/
+          {{- if or (.Files.Glob "files/conf.d/*.conf") .Values.extendedConf .Values.extendedConfConfigMap }}
+            - name: postgresql-extended-config
+              mountPath: /bitnami/postgresql/conf/conf.d/
+          {{- end }}
+          {{- if .Values.extraVolumeMounts }}
+            {{- toYaml .Values.extraVolumeMounts | nindent 8 }}
+          {{- end }}
+          {{- if .Values.tls.enabled }}
+            - name: certs
+              mountPath: /etc/certs/
+          {{- end }}
+          {{- range .Values.statefulset.secretMounts }}
+            - name: {{ printf "secret-%s" . | quote }}
+              mountPath: {{ printf "/etc/secrets/%s" . | quote }}
+              readOnly: true
+          {{- end }}
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: http
+            {{- if .Values.tls.enabled }}
+              scheme: HTTPS
+            {{- end }}
+            initialDelaySeconds: 30
+            periodSeconds: 5
+          readinessProbe:
+            httpGet:
+              path: /health?ready=1
+              port: http
+            {{- if .Values.tls.enabled }}
+              scheme: HTTPS
+            {{- end }}
+            initialDelaySeconds: 10
+            periodSeconds: 5
+            failureThreshold: 2
+        {{- with .Values.statefulset.resources }}
+          resources: {{- toYaml . | nindent 12 }}
+        {{- end }}
+      volumes:
+        - name: datadir
+        {{- if .Values.persistence.enabled }}
+          persistentVolumeClaim:
+            claimName: datadir
+        {{- else if .Values.persistence.hostPath }}
+          hostPath:
+            path: {{ .Values.persistence.hostPath | quote }}
+        {{- else }}
+          emptyDir: {}
+        {{- end }}
+      {{- if .Values.tls.enabled }}
+        - name: certs
+          {{- if .Values.tls.certs.provided }}
+          {{- if .Values.tls.certs.tlsSecret }}
+          projected:
+            sources:
+            - secret:
+                name: {{ .Values.tls.certs.nodeSecret }}
+                items:
+                - key: ca.crt
+                  path: ca.crt
+                  mode: 0400
+                - key: tls.crt
+                  path: node.crt
+                  mode: 0400
+                - key: tls.key
+                  path: node.key
+                  mode: 0400
+          {{- else }}
+          secret:
+            secretName: {{ .Values.tls.certs.nodeSecret }}
+            defaultMode: 0400
+          {{- end }}
+          {{- else }}
+          emptyDir: {}
+          {{- end }}
+      {{- end }}
+      {{- if .Values.extraVolumes }}
+        {{- toYaml .Values.extraVolumes | nindent 6}}
+      {{- end }}
+      {{- range .Values.statefulset.secretMounts }}
+        - name: {{ printf "secret-%s" . | quote }}
+          secret:
+            secretName: {{ . | quote }}
+      {{- end }}
+{{- if .Values.persistence.enabled }}
+  volumeClaimTemplates:
+    - metadata:
+        name: datadir
+        labels:
+          {{- include "backend-java-patterns.labels" . | nindent 10 }}
+        {{- with .Values.persistence.labels }}
+          {{- toYaml . | nindent 10 }}
+        {{- end }}
+      {{- with .Values.persistence.annotations }}
+        annotations: {{- toYaml . | nindent 10 }}
+      {{- end }}
+      spec:
+        accessModes:
+        {{- range .Values.persistence.accessModes }}
+          - {{ . | quote }}
+        {{- end }}
+      {{- if .Values.persistence.storageClass }}
+      {{- if (eq "-" .Values.persistence.storageClass) }}
+        storageClassName: ""
+      {{- else }}
+        storageClassName: {{ .Values.persistence.storageClass | quote}}
+      {{- end }}
+      {{- end }}
+        resources:
+          requests:
+            storage: {{ .Values.persistence.size | quote }}
+{{- end }}
+{{- end }}
