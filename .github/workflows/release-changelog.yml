@@ -15,7 +15,7 @@ jobs:
         run: |
           echo ::set-output name=current_version::${GITHUB_REF#refs/tags/v}
         shell: bash
-        
+
       - name: Build Changelog
         id: github_release
         uses: mikepenz/release-changelog-builder-action@main
