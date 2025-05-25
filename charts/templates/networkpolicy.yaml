@@ -1,0 +1,55 @@
+{{- if .Values.networkPolicy.enabled }}
+{{- $serviceAccountName := include "backend-java-patterns.serviceAccountName" . -}}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+apiVersion: {{ template "backend-java-patterns.networkPolicy.apiVersion" . }}
+kind: NetworkPolicy
+metadata:
+  name: {{ $fullName }}
+  namespace: {{ .Release.Namespace | quote }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+spec:
+  podSelector:
+    matchLabels:
+      {{- include "backend-java-patterns.selectorLabels" . | nindent 6 }}
+    {{- with .Values.statefulset.labels }}
+      {{- toYaml . | nindent 6 }}
+    {{- end }}
+  policyTypes:
+    - Ingress
+  ingress:
+    - ports:
+        - port: {{ template "backend-java-patterns.port" . }}
+    {{- if not .Values.networkPolicy.allowExternal }}
+    {{- with .Values.networkPolicy.ingress.grpc }}
+      from:
+        # Allow connections via custom rules.
+        {{- toYaml . | nindent 8 }}
+        # Allow client connection via pre-considered label.
+        - podSelector:
+            matchLabels:
+              {{ template "backend-java-patterns.fullname" . }}-client: "true"
+        - podSelector:
+            matchLabels:
+              {{- include "backend-java-patterns.selectorLabels" . | nindent 14 }}
+            {{- with .Values.statefulset.labels }}
+              {{- toYaml . | nindent 14 }}
+            {{- end }}
+      {{- if gt (.Values.statefulset.replicas | int64) 1 }}
+        # Allow init Job to connect to bootstrap a cluster.
+        - podSelector:
+            matchLabels:
+              {{- include "backend-java-patterns.selectorLabels" . | nindent 14 }}
+            {{- with .Values.init.labels }}
+              {{- toYaml . | nindent 14 }}
+            {{- end }}
+      {{- end }}
+    {{- end }}
+    {{- end }}
+    # Allow connections to admin UI and for Prometheus.
+    - ports:
+        - port: http
+    {{- with .Values.networkPolicy.ingress.http }}
+      from: {{- toYaml . | nindent 8 }}
+    {{- end }}
+{{- end }}
