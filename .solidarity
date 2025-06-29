@@ -1,0 +1,42 @@
+{
+    "$schema": "https://json.schemastore.org/solidaritySchema",
+    "requirements": {
+        "node": [
+            {
+                "rule": "cli",
+                "binary": "node",
+                "semver": ">=12.0.0",
+                "version": "--version"
+            }
+        ],
+        "npm": [
+            {
+                "rule": "cli",
+                "binary": "npm",
+                "semver": ">=5.0.0",
+                "version": "--version"
+            }
+        ],
+        "yarn": [
+            {
+                "rule": "cli",
+                "binary": "yarn",
+                "semver": ">=3.0.0",
+                "version": "--version"
+            }
+        ],
+        "package.json": [
+            {
+                "rule": "file",
+                "location": "./package.json"
+            }
+        ],
+        "git email": [
+            {
+                "rule": "shell",
+                "command": "git config user.email",
+                "match": ".+@.+"
+            }
+        ]
+    }
+}
