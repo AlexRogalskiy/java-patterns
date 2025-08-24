@@ -1,0 +1,4 @@
+-r test.in
+
+colorama
+atomicwrites
