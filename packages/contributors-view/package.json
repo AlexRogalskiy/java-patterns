@@ -126,7 +126,7 @@
 		"mockdate": "^3.0.5",
 		"nodejs-dashboard": "^0.5.1",
 		"nodelinter": "^0.1.19",
-		"puppeteer": "^13.5.1",
+		"puppeteer": "^24.26.0",
 		"solidarity": "^3.0.4",
 		"source-map-explorer": "^2.5.2",
 		"ts-jest": "^27.1.4",
