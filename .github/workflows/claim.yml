@@ -12,7 +12,7 @@ jobs:
       && contains(toJson(github.event.issue.labels), 'Available')
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/github-script@v3.1
+      - uses: actions/github-script@v4.1
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
