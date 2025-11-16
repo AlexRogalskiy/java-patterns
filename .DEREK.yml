@@ -1,0 +1,11 @@
+curators:
+  - alexrogalskiy
+
+features:
+  - dco_check
+  - comments
+  - pr_description_required
+  - release_notes
+  - hacktoberfest
+
+contributing_url: https://github.com/AlexRogalskiy/github-action-random-quote/blob/master/.github/CONTRIBUTING.md
