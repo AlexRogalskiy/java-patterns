@@ -3,30 +3,30 @@
 ---
 # See https://pre-commit.com for more information
 # See https://pre-commit.com/hooks.html for more hooks
-default_stages: [commit, push]
+default_stages: [pre-commit, pre-push]
 default_language_version:
   # force all unspecified Python hooks to run python3
   python: python3
 minimum_pre_commit_version: '1.20.0'
 repos:
   - repo: https://github.com/peterdemin/pip-compile-multi
-    rev: v2.4.1
+    rev: v3.2.2
     hooks:
       - id: pip-compile-multi-verify
 
   - repo: https://github.com/lovesegfault/beautysh
-    rev: v6.1.0
+    rev: v6.4.2
     hooks:
       - id: beautysh
         args: [-i, '2']
 
   - repo: https://github.com/pre-commit/pygrep-hooks
-    rev: v1.9.0
+    rev: v1.10.0
     hooks:
       - id: python-use-type-annotations
 
   - repo: https://github.com/PyCQA/isort
-    rev: 5.8.0
+    rev: 7.0.0
     hooks:
       - id: isort
         args: [--profile=black, -l=99]
@@ -37,7 +37,7 @@ repos:
       - id: check-hooks-apply
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.4.0
+    rev: v6.0.0
     hooks:
       - id: check-added-large-files
       - id: check-case-conflict
@@ -58,13 +58,13 @@ repos:
   #    - id: remove-tabs
 
   - repo: https://github.com/jumanjihouse/pre-commit-hooks
-    rev: 2.1.5
+    rev: 3.0.0
     hooks:
       - id: shellcheck
       # - id: shfmt
 
   - repo: https://github.com/codespell-project/codespell
-    rev: v2.0.0
+    rev: v2.4.1
     hooks:
       - id: codespell
         name: Run codespell
