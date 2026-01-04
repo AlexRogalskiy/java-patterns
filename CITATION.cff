@@ -1,0 +1,9 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Alexander
+    given-names: Rogalsky
+    orcid: https://zenodo.org/badge/latestdoi/329967283
+title: AlexRogalskiy/java-patterns: 1.6
+version: 1.6
+date-released: 2017-12-18

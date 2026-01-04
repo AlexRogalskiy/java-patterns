@@ -1,0 +1,91 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+---
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+default_stages: [commit, push]
+default_language_version:
+  # force all unspecified Python hooks to run python3
+  python: python3
+minimum_pre_commit_version: '1.20.0'
+repos:
+  - repo: https://github.com/peterdemin/pip-compile-multi
+    rev: v2.4.1
+    hooks:
+      - id: pip-compile-multi-verify
+
+  - repo: https://github.com/lovesegfault/beautysh
+    rev: v6.1.0
+    hooks:
+      - id: beautysh
+        args: [-i, '2']
+
+  - repo: https://github.com/pre-commit/pygrep-hooks
+    rev: v1.9.0
+    hooks:
+      - id: python-use-type-annotations
+
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.8.0
+    hooks:
+      - id: isort
+        args: [--profile=black, -l=99]
+
+  - repo: meta
+    hooks:
+      - id: identity
+      - id: check-hooks-apply
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.4.0
+    hooks:
+      - id: check-added-large-files
+      - id: check-case-conflict
+      - id: check-executables-have-shebangs
+        exclude: ^scripts/windows\.sh$
+      - id: check-merge-conflict
+      - id: check-vcs-permalinks
+      # - id: check-yaml
+      - id: end-of-file-fixer
+      - id: fix-byte-order-marker
+      - id: mixed-line-ending
+      - id: trailing-whitespace
+
+  # - repo: https://github.com/Lucas-C/pre-commit-hooks
+  #  rev: v1.1.10
+  #  hooks:
+  #    - id: forbid-tabs
+  #    - id: remove-tabs
+
+  - repo: https://github.com/jumanjihouse/pre-commit-hooks
+    rev: 2.1.5
+    hooks:
+      - id: shellcheck
+      # - id: shfmt
+
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.0.0
+    hooks:
+      - id: codespell
+        name: Run codespell
+        description: Check Spelling with codespell
+        entry: codespell --ignore-words=codespell.txt
+  # - repo: https://github.com/igorshubovych/markdownlint-cli
+  #  rev: v0.27.1
+  #  hooks:
+  #    - id: markdownlint
+  #      name: Run markdownlint
+  #      description: Checks the style of Markdown files
+  #      entry: markdownlint -c .github/linters/.markdown-lint.yml .
+  #      types: [markdown]
+  #      files: \.(md|mdown|markdown)$
+
+  # - repo: https://github.com/adrienverge/yamllint
+  #  rev: v1.26.1
+  #  hooks:
+  #    - id: yamllint
+  #      name: Run yamllint
+  #      description: Check YAML files with yamllint
+  #      entry: yamllint --strict -c .github/linters/.yaml-lint.yml
+  #      types: [yaml]
+  #      files: \.(yaml|yml)$

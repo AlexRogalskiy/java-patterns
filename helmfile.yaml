@@ -1,0 +1,14 @@
+bases:
+  - environments.yaml
+
+repositories:
+  - name: java-patterns
+    url: https://github.com/AlexRogalskiy/java-patterns
+
+releases:
+  - name: styled-java-patterns
+    namespace: webapp
+    chart: charts
+    set:
+      - name: rbac.create
+        value: false

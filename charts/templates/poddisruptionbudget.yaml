@@ -1,0 +1,30 @@
+{{- if .Values.statefulset.podDisruptionBudget.enabled }}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+apiVersion: policy/v1beta1
+kind: PodDisruptionBudget
+metadata:
+  name: {{ $fullName }}-budget
+  namespace: {{ .Release.Namespace | quote }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  {{- if .Values.statefulset.labels }}
+  {{- with .Values.statefulset.labels }}
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+  {{- end }}
+spec:
+{{- if .Values.statefulset.podDisruptionBudget.minAvailable }}
+  minAvailable: {{ .Values.statefulset.podDisruptionBudget.minAvailable | int64 }}
+{{- end }}
+{{- if .Values.statefulset.podDisruptionBudget.maxUnavailable }}
+  maxUnavailable: {{ .Values.statefulset.podDisruptionBudget.maxUnavailable | int64 }}
+{{- end }}
+  selector:
+    matchLabels:
+      {{- include "backend-java-patterns.selectorLabels" . | nindent 6 }}
+    {{- if .Values.statefulset.labels }}
+    {{- with .Values.statefulset.labels }}
+      {{- toYaml . | nindent 6 }}
+    {{- end }}
+    {{- end }}
+{{- end }}
