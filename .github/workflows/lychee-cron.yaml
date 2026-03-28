@@ -24,7 +24,7 @@ jobs:
           npm install
 
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.0.8
+        uses: lycheeverse/lychee-action@v2.0.2
         with:
           args: --verbose --no-progress --exclude-all-private **/*.md
         env:
