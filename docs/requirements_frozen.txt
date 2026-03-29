@@ -1,7 +1,7 @@
 Jinja2==3.0.3
 click-man==0.4.1
 mkdocs==1.2.3
-Pygments==2.12.0
+Pygments==2.15.0
 mkdocs-material==8.2.7
 Markdown==3.3.6
 markdown-checklist==0.4.3
