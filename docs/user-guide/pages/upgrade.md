@@ -45,7 +45,7 @@ accept or reject. For most people we recommend upgrading fastpages automatically
 ### Step 4: Review and Merge PR
 
 - Ensure that you read the instructions in the PR carefully. Furthermore, carefully review which files will
-  be changed to determine if this interferes with any customizations you have mades to your site. When
+  be changed to determine if this interferes with any customizations you have made to your site. When
   ready, select `Merge pull request`.
 - If the PR is making undesired changes to files you can use the manual upgrade approach instead.
 

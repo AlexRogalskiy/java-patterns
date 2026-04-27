@@ -26,7 +26,7 @@ The project development workflow and process uses
 [Pull Requests](https://github.com/AlexRogalskiy/object-mappers-playground/pulls) management to track issues
 and pull requests.
 
-Before you continue with this contribution guideslines we highly recommend to read the awesome GitHub
+Before you continue with this contribution guidelines we highly recommend to read the awesome GitHub
 [Open source Guide](https://opensource.guide) on how to
 [making open source contributions](https://opensource.guide/how-to-contribute).
 
@@ -61,7 +61,7 @@ the information it asks for helps maintainers to reproduce the problem and resol
 -   **Include screenshots and animated GIFs** which show you following the described steps and clearly
     demonstrate the problem.
 -   **Provide specific examples to demonstrate the steps**. Include links to files or GitHub projects, or
-    copy/pasteable snippets. If you are providing snippets in the issue, use
+    copy/pastable snippets. If you are providing snippets in the issue, use
     [Markdown code blocks](https://help.github.com/articles/basic-writing-and-formatting-syntax) or
     [attach files to the issue](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests).
 
@@ -107,7 +107,7 @@ detail and context as possible using a structured layout like the
 -   **Use a clear and descriptive title** for the issue to identify the suggestion.
 -   **Provide a step-by-step description of the suggested enhancement** in as many details as possible and
     provide use-cases.
--   **Provide examples to demonstrate the need of an enhancement**. Include copy/pasteable snippets which you
+-   **Provide examples to demonstrate the need of an enhancement**. Include copy/pastable snippets which you
     use in those examples, use
     [Markdown code blocks](https://help.github.com/articles/basic-writing-and-formatting-syntax) or
     [attach files to the issue](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests).
@@ -199,7 +199,7 @@ project community. It ensures consistency and enforces best practice in usage an
 
 ### _Java Code Style_
 
-IceCore Hasids adheres to the \[Nullables Studio Java Style Guide]\[styleguide-java-github].
+IceCore Hashids adheres to the \[Nullables Studio Java Style Guide]\[styleguide-java-github].
 
 \[!\[]\[styleguide-java-badge]]\[styleguide-java-github]
 
@@ -210,7 +210,7 @@ The code will tell what changed, but only the commit message can properly tell w
 context of a piece of code is wasteful. We can't avoid it completely, so our efforts should go to reducing it
 as much as possible.
 
-IceCore Hasids adheres to the \[Nullables Studio Git Style Guide]\[styleguide-git-github].
+IceCore Hashids adheres to the \[Nullables Studio Git Style Guide]\[styleguide-git-github].
 
 \[!\[]\[styleguide-git-badge]]\[styleguide-git-github]
 
@@ -222,7 +222,7 @@ The style guide assumes that you are familiar with the
 A Minimal, Complete, and Verifiable Example.
 
 When [reporting a bug](info.md#bug-reports), sometimes even when
-[suggestig a enhancement](info.md#enhancement-suggestions), the issue can be processed faster if you provide
+[suggesting a enhancement](info.md#enhancement-suggestions), the issue can be processed faster if you provide
 code for reproduction. That code should be…
 
 -   …Minimal – Use as little code as possible that still produces the same behavior
