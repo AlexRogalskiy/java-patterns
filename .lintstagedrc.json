@@ -1,0 +1,3 @@
+{
+	"**/*.{json,yaml,yml}": "prettier --single-quote --write --ignore-unknown"
+}

@@ -1,0 +1,926 @@
+## general message
+message: ""
+
+## general configurations
+general:
+  ## @param general.debug Debug policy
+  ##
+  debug: false
+  ## @param general.architecture Architecture type. Allowed values: standalone or high-availability
+  ##
+  architecture: standalone
+  replicas: 1
+  nameOverride: ""
+  fullnameOverride: ""
+  logLevel: info
+  host: #0.0.0.0
+
+  ## ConfigMap with PostgreSQL extended configuration
+  # extendedConfConfigMap:
+
+  ## ConfigMap with PostgreSQL configuration
+  ## NOTE: This will override postgresqlConfiguration and pgHbaConfiguration
+  # configurationConfigMap:
+
+  ## initdb scripts
+  ## Specify dictionary of scripts to be run at first boot
+  ## Alternatively, you can put your scripts under the files/docker-entrypoint-initdb.d directory
+  ##
+  # initdbScripts:
+  #   my_init_script.sh: |
+  #      #!/bin/sh
+  #      echo "Do something."
+
+  ## ConfigMap with scripts to be run at first boot
+  ## NOTE: This will override initdbScripts
+  # initdbScriptsConfigMap:
+
+## @param terminationGracePeriodSeconds Pod termination grace period (in seconds)
+##
+terminationGracePeriodSeconds: 30
+
+## @param topologySpreadConstraints Topology Spread Constraints for pod assignment spread across your cluster among failure-domains
+## Ref: https://kubernetes.io/docs/concepts/workloads/pods/pod-topology-spread-constraints/#spread-constraints-for-pods
+##
+topologySpreadConstraints: {}
+
+## @param priorityClassName Pod priority
+## ref: https://kubernetes.io/docs/concepts/configuration/pod-priority-preemption/
+##
+priorityClassName: ""
+
+## Use an alternate scheduler, e.g. "stork".
+## @param schedulerName Scheduler name
+## ref: https://kubernetes.io/docs/tasks/administer-cluster/configure-multiple-schedulers/
+##
+schedulerName:
+
+## @param initContainers Add additional init containers to the pod
+## Example:
+## initContainers:
+##   - name: your-image-name
+##     image: your-image
+##     imagePullPolicy: Always
+##     ports:
+##       - name: portname
+##         containerPort: 1234
+##
+initContainers: []
+
+## @param hostAliases Add deployment host aliases
+## https://kubernetes.io/docs/concepts/services-networking/add-entries-to-pod-etc-hosts-with-host-aliases/
+##
+hostAliases: []
+
+## ui configurations
+ui:
+  color: "#34577c"
+  message: ""
+  logo: ""
+
+## failure conditions configurations
+faults:
+  delay: false
+  error: false
+  unhealthy: false
+  unready: false
+  testFail: false
+  testTimeout: false
+
+## @param extraEnv Additional env vars to pass
+##
+extraEnv: []
+
+## configmaps configurations
+configMaps:
+  ## @param secrets.configMaps Enable configMaps parameters
+  ##
+  enabled: false
+  data:
+    debug: info
+    serverPort: "8000"
+    appName: "styled-java-patterns"
+
+## secrets configurations
+secrets:
+  ## @param secrets.enabled Enable secrets parameters
+  ##
+  enabled: false
+  secretKeyRefName: data
+  labels:
+    app.kubernetes.io/component: vault
+  data:
+    baseUrl: ""
+    baseToken: ""
+
+## service configurations
+service:
+  ## @param service.enabled Enable service parameters
+  ##
+  enabled: true
+
+  ## @param service.labels Additional labels for service
+  ##
+  labels: {}
+
+  ## @param service.annotations Additional annotations for service
+  ##
+  annotations: {}
+
+  ## @param service.type Kubernetes service type
+  ##
+  type: ClusterIP
+
+  ## @param service.externalTrafficPolicy %%MAIN_CONTAINER_NAME%% service external traffic policy
+  ## ref http://kubernetes.io/docs/tasks/access-application-cluster/create-external-load-balancer/#preserving-the-client-source-ip
+  ##
+  externalTrafficPolicy: Cluster
+
+  ## @param service.httpPort Kubernetes service http port
+  ##
+  httpPort: 8000
+
+  ## @param service.type Kubernetes service external port
+  ##
+  externalPort: 8000
+
+  ## @param service.loadBalancerIP `loadBalancerIP` if service type is `LoadBalancer`
+  ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#internal-load-balancer
+  ##
+  loadBalancerIP: ""
+
+  ## Specify the port value for the service types.
+  ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
+  ## @param service.ports.http Kubernetes Service port
+  ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-port
+  ##
+  ports:
+    http: 8000
+
+  ## Specify the nodePort value for the LoadBalancer and NodePort service types.
+  ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
+  ## @param service.nodePorts.http Kubernetes Service nodePort
+  ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#type-nodeport
+  ##
+  nodePorts:
+    http: 8000
+
+  ## @param service.hostPort Kubernetes service host port
+  ## the port used to bind the http port to the host
+  ## NOTE: requires privileged container with NET_BIND_SERVICE capability -- this is useful for testing
+  ## in local clusters such as kind without port forwarding
+  ##
+  hostPort:
+
+  ## Specify the externalIP value ClusterIP service type.
+  ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#external-ips
+  # externalIPs: []
+
+  ## Specify the loadBalancerIP value for LoadBalancer service types.
+  ## ref: https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer
+  ##
+  # loadBalancerIP:
+
+  ## Specify the loadBalancerSourceRanges value for LoadBalancer service types.
+  ## ref: https://kubernetes.io/docs/tasks/access-application-cluster/configure-cloud-provider-firewall/#restrict-access-for-loadbalancer-service
+  ##
+  # loadBalancerSourceRanges: []
+
+  discovery:
+    ## @param service.h2c.discovery.enabled Enable h2c protocol
+    ##
+    enabled: false
+
+    ## @param service.discovery.labels Service discovery labels
+    ##
+    labels: {}
+
+    ## @param service.discovery.annotations Service discovery annotations
+    ##
+    annotations: {}
+
+## h2c protocol (non-TLS version of HTTP/2) configurations
+h2c:
+  ## @param h2c.enabled Enable h2c protocol
+  ##
+  enabled: false
+
+## network policy configurations
+networkPolicy:
+  ## @param networkPolicy.enabled Enable network policy
+  ##
+  enabled: false
+
+  ## The Policy model to apply. When set to false, only pods with the correct
+  ## client label will have network access to the port PostgreSQL is listening
+  ## on. When true, PostgreSQL will accept connections from any source
+  ## (with the correct destination port).
+  ##
+  allowExternal: true
+
+  ## @param networkPolicy.ingress Ingress parameters
+  ##
+  ingress:
+    # List of sources which should be able to access the pods via
+    # gRPC port. Items in this list are combined using a logical OR operation.
+    # Rules for allowing inter-communication are applied automatically.
+    # If empty, then connections from any Pod is allowed.
+
+    grpc: []
+      # - podSelector:
+      #     matchLabels:
+      #       app.kubernetes.io/name: my-app-django
+      #       app.kubernetes.io/instance: my-app
+
+    # List of sources which should be able to access the pods via
+    # HTTP port. Items in this list are combined using a logical OR operation.
+    # If empty, then connections from any Pod is allowed.
+
+    http: []
+      # - namespaceSelector:
+      #     matchLabels:
+      #       project: my-project
+
+## storage volumes configurations
+persistence:
+  ## @param persistence.enabled Enable persistence using PVC (Requires architecture: "high-availability")
+  ##
+  enabled: false
+
+  ## @param persistence.storageClass PVC Storage Class for volume
+  ## If defined, storageClassName: <storageClass>
+  ## If set to "-", storageClassName: "", which disables dynamic provisioning
+  ## If undefined (the default) or set to null, no storageClassName spec is
+  ##  set, choosing the default provisioner.  (gp2 on AWS, standard on
+  ##  GKE, AWS & OpenStack)
+  ##
+  storageClass: ""
+
+  ## The path the volume will be mounted at, useful when using different
+  ## MongoDB images.
+  ##
+  mountPath: /etc/data
+
+  ## The subdirectory of the volume to mount to, useful in dev environments
+  ## and one PV for multiple services.
+  ##
+  subPath: ""
+
+  ## @param persistence.labels Persistent Volume Claim labels
+  ##
+  labels: {}
+
+  ## @param persistence.annotations Persistent Volume Claim annotations
+  ##
+  annotations: {}
+
+  ## @param persistence.accessModes Persistent Volume Access Mode
+  ##
+  accessModes:
+    - ReadWriteOnce
+
+  ## @param persistence.size PVC Storage Request for volume
+  ##
+  size: 8Gi
+
+## tls configurations
+tls:
+  ## @param tls.enabled Enable tls parameters
+  ##
+  enabled: false
+
+  ## the name of the secret used to mount the certificate key pair
+  ##
+  secretName:
+
+  ## the path where the certificate key pair will be mounted
+  ##
+  certPath: /data/cert
+
+  ## The subdirectory of the volume to mount to, useful in dev environments
+  ## and one PV for multiple services.
+  ##
+  subPath: ""
+
+  ## the port used to host the tls endpoint on the service
+  ##
+  httpPort: 8000
+
+  ## the external port used to connect from external host
+  ##
+  externalPort: 8000
+
+  ## the port used to bind the tls port to the host
+  ## NOTE: requires privileged container with NET_BIND_SERVICE capability -- this is useful for testing
+  ## in local clusters such as kind without port forwarding
+  hostPort:
+
+## certificate manager configurations (cert-manager required)
+certificate:
+  ## @param certificate.enabled Enable certificate parameters
+  ##
+  enabled: false
+
+  # the issuer used to issue the certificate
+  issuerRef:
+    kind: ClusterIssuer
+    name: self-signed
+
+  # the hostname / subject alternative names for the certificate
+  dnsNames:
+    - localhost
+
+## metrics configurations
+metrics:
+  ## @param metrics.enabled Start a side-car prometheus metrics exporter
+  ##
+  enabled: false
+
+  ## @param metrics.labels Pod extra labels
+  ## ref: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
+  ##
+  labels: {}
+
+  ## @param metrics.annotations [object] Metrics exporter pod Annotation and Labels
+  ## ref: https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/
+  ##
+  annotations:
+    prometheus.io/scrape: "true"
+    prometheus.io/port: "9150"
+
+  ## @param metrics.portName exporter port name
+  ## If you want to override the port name (can be usefull when using a service mesh)
+  ## ref for istio: https://istio.io/latest/docs/ops/configuration/traffic-management/protocol-selection/
+  ##
+  portName: metrics
+
+  ## Resource requests and limits
+  ## ref: http://kubernetes.io/docs/user-guide/compute-resources/
+  ## We usually recommend not to specify default resources and to leave this as a conscious
+  ## choice for the user. This also increases chances charts run on environments with little
+  ## resources, such as Minikube. If you do want to specify resources, uncomment the following
+  ## lines, adjust them as necessary, and remove the curly braces after 'resources:'.
+  ## @param metrics.resources.limits The resources limits for the container
+  ## @param metrics.resources.requests The requested resources for the container
+  ##
+  resources:
+    ## Example:
+    ## limits:
+    ##    cpu: 100m
+    ##    memory: 128Mi
+    limits: {}
+    ## Examples:
+    ## requests:
+    ##    cpu: 100m
+    ##    memory: 128Mi
+    requests: {}
+
+  ## Configure extra options for liveness probes
+  ## @param metrics.livenessProbe Metrics liveness probe
+  ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/#configure-probes)
+  ##
+  livenessProbe:
+    enabled: false
+    config:
+      httpGet:
+        path: /actuator/health
+        port: http
+      initialDelaySeconds: 210
+      periodSeconds: 60
+      timeoutSeconds: 5
+      failureThreshold: 6
+      successThreshold: 1
+
+  ## Configure extra options for readiness probes
+  ## @param metrics.readinessProbe Metrics readiness probe
+  ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/#configure-probes)
+  ##
+  readinessProbe:
+    enabled: false
+    config:
+      httpGet:
+        path: /actuator/health
+        port: http
+      initialDelaySeconds: 180
+      periodSeconds: 60
+      timeoutSeconds: 5
+      failureThreshold: 6
+      successThreshold: 1
+
+  ## @param metrics.service Metrics service parameters
+  ##
+  service:
+    ## @param metrics.service.type Kubernetes service type for Prometheus metrics
+    ##
+    type: ClusterIP
+
+    ## @param metrics.service.port Prometheus metrics service port
+    ##
+    port: 9150
+
+    ## @param metrics.service.annotations [object] Annotations for the Prometheus metrics service
+    ##
+    annotations:
+      prometheus.io/scrape: "true"
+      prometheus.io/port: "{{ .Values.metrics.service.port }}"
+
+## vertical autoscaling configurations
+## @param vpa.enabled Enable vertical autoscaling (requires architecture: "high-throughput")
+##
+vpa:
+  ## @param vpa.enabled Enable autoscaling policy
+  ##
+  enabled: false
+
+## horizontal autoscaling configurations
+## @param hpa.enabled Enable horizontal autoscaling (requires architecture: "high-availability")
+## @param hpa.minReplicas statefulset autoscaling minimum number of replicas
+## @param hpa.maxReplicas statefulset autoscaling maximum number of replicas
+## @param hpa.targetCPU statefulset autoscaling target CPU percentage
+## @param hpa.targetMemory statefulset autoscaling target CPU memory
+##
+hpa:
+  ## @param hpa.enabled Enable autoscaling policy
+  ##
+  enabled: true
+  ## @param hpa.minReplicas Autoscaling minimum replicas
+  ##
+  minReplicas: 2
+  ## @param hpa.maxReplicas Autoscaling maximum replicas
+  ##
+  maxReplicas: 10
+
+  ## average total CPU usage per pod (1-100)
+  ## @param hpa.cpu Autoscaling cpu utilization
+  ##
+  cpu: 80
+
+  ## average memory usage per pod (100Mi-1Gi)
+  ## @param hpa.memory Autoscaling memory utilization
+  ##
+  memory: 80
+
+  ## average http requests per second per pod (k8s-prometheus-adapter)
+  ## @param hpa.requests Autoscaling requests utilization
+  ##
+  requests: {}
+
+  ## @param hpa.annotations Autoscaling annotations
+  ##
+  annotations: {}
+
+## service account configurations
+serviceAccount:
+  ## @param serviceAccount.enabled Enable creation of ServiceAccount for pods
+  ##
+  enabled: true
+
+  ## @param serviceAccount.annotations ServiceAccount annotations.
+  ## Annotations to add to the service account
+  ##
+  annotations: {}
+
+  ## @param serviceAccount.name The name of the ServiceAccount to use.
+  ## If not set and create is true, a name is generated using the serviceAccountName template
+  ##
+  name: ""
+
+  ## @param serviceAccount.automountServiceAccountToken Enable/disable auto mounting of the service account token
+  ##
+  automountServiceAccountToken: true
+
+## Pod Security Context
+## ref: https://kubernetes.io/docs/tasks/configure-pod-container/security-context/
+## @param securityContext.enabled Enable security context
+## @param securityContext.config. Security context configuration
+## @param securityContext.config.fsGroup Group ID for the container
+## @param securityContext.config.runAsUser User ID for the container
+## @param securityContext.config.readOnlyRootFilesystem Enable read-only filesystem
+##
+## security context configurations
+securityContext:
+  enabled: false
+  config:
+    runAsUser: 1001
+    runAsGroup: 1000
+    fsGroup: 100
+    readOnlyRootFilesystem: false
+    # capabilities:
+    #   drop:
+    #   - ALL
+    # runAsNonRoot: true
+
+## ingress configurations
+## set service.type=ClusterIP
+ingress:
+  ## Set to true to enable ingress record generation
+  enabled: false
+
+  className: ""
+
+  ## Ingress annotations done as key:value pairs
+  ## For a full list of possible ingress annotations, please see
+  ## ref: https://github.com/kubernetes/ingress-nginx/blob/master/docs/user-guide/nginx-configuration/annotations.md
+  ##
+  ## If tls is set to true, annotation ingress.kubernetes.io/secure-backends: "true" will automatically be set
+  ## If certManager is set to true, annotation kubernetes.io/tls-acme: "true" will automatically be set
+  annotations: {}
+    ## Nginx ingress controller (default)
+    # nginx.ingress.kubernetes.io/rewrite-target: /$1
+    # kubernetes.io/ingress.class: nginx
+    # kubernetes.io/tls-acme: "true"
+    # certmanager.k8s.io/cluster-issuer: letsencrypt-prod
+
+  configured: false
+  rewritePath: true
+  pathPrefix: ""
+
+  ## The list of hostnames to be covered with this ingress record.
+  ## Most likely this will be just one host, but in the event more hosts are needed, this is an array
+  hosts:
+    - host: podinfo.local
+      paths:
+        - path: /
+          pathType: ImplementationSpecific
+
+  ## The tls configuration for the ingress
+  ## see: https://kubernetes.io/docs/concepts/services-networking/ingress/#tls
+  tls: []
+  #  - secretName: chart-example-tls
+  #    hosts:
+  #      - chart-example.local
+
+## linkerd configurations
+linkerd:
+  ## @param linkerd.profile Linkerd profile
+  ##
+  profile:
+    ## @param linkerd.profile.enabled Enable Linkerd profile
+    ##
+    enabled: false
+
+## service monitor configurations
+## Prometheus Service Monitor
+## ref: https://github.com/coreos/prometheus-operator
+## https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md
+serviceMonitor:
+  ## @param serviceMonitor.enabled Create ServiceMonitor resource(s) for scraping metrics using PrometheusOperator
+  ##
+  enabled: false
+
+  ## @param serviceMonitor.path The path for service metrics
+  ## e.g:
+  ## namespace: metrics
+  ##
+  path: "/metrics"
+
+  ## @param serviceMonitor.namespace The namespace in which the ServiceMonitor will be created
+  ## e.g:
+  ## namespace: monitoring
+  ##
+  namespace: ""
+
+  ## @param serviceMonitor.interval The interval at which metrics should be scraped
+  ## ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#endpoint
+  ## e.g:
+  ## interval: 10s
+  ##
+  interval: 15s
+
+  ## @param serviceMonitor.scrapeTimeout The timeout after which the scrape is ended
+  ## ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#endpoint
+  ## e.g:
+  ## scrapeTimeout: 10s
+  ##
+  scrapeTimeout: ""
+
+  ## @param serviceMonitor.selector Additional labels for ServiceMonitor resource
+  ## ref: https://github.com/bitnami/charts/tree/master/bitnami/prometheus-operator#prometheus-configuration
+  ## e.g:
+  ## selector:
+  ##   prometheus: my-prometheus
+  ##
+  selector: {}
+
+  ## @param serviceMonitor.metricRelabelings MetricRelabelConfigs to apply to samples before ingestion
+  ## ref: https://prometheus.io/docs/prometheus/latest/configuration/configuration/#metric_relabel_configs
+  ## e.g:
+  ## metricRelabelings:
+  ## - sourceLabels: [__meta_kubernetes_pod_label_app_kubernetes_io_instance]
+  ##   separator: ;
+  ##   regex: ^(.*)$
+  ##   targetLabel: pod_name
+  ##   replacement: $1
+  ##   action: replace
+  ##
+  metricRelabelings: []
+
+  ## @param serviceMonitor.relabelings Metrics relabelings to add to the scrape endpoint, applied before scraping
+  ## ref: https://github.com/bitnami/charts/tree/master/bitnami/prometheus-operator#prometheus-configuration
+  ## e.g:
+  ## relabelings:
+  ## - sourceLabels: [__meta_kubernetes_pod_label_app_kubernetes_io_instance]
+  ##   separator: ;
+  ##   regex: ^(.*)$
+  ##   targetLabel: pod_name
+  ##   replacement: $1
+  ##   action: replace
+  ##
+  relabelings: []
+
+  ## @param serviceMonitor.labels ServiceMonitor labels
+  ## Used to pass Labels that are used by the Prometheus installed in your cluster to select Service Monitors to work with
+  ## ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#prometheusspec
+  ##
+  labels: {}
+
+  ## @param serviceMonitor.alerting ServiceMonitor alerting parameters
+  ##
+  alerting:
+    ## Define individual alerting rules as required
+    ## ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#rulegroup
+    ##      https://prometheus.io/docs/prometheus/latest/configuration/alerting_rules/
+    rules: {}
+
+    ## Used to pass Labels that are used by the Prometheus installed in your cluster to select Prometheus Rules to work with
+    ## ref: https://github.com/coreos/prometheus-operator/blob/master/Documentation/api.md#prometheusspec
+    labels: {}
+
+## virtual service configurations
+virtualservice:
+  enabled: false
+  annotations: {}
+  hosts:
+    - host: ""
+      names: []
+      uris: {}
+      rewrites: []
+  serviceHost: ""
+
+## resources configurations
+## ref: http://kubernetes.io/docs/user-guide/compute-resources/
+## We usually recommend not to specify default resources and to leave this as a conscious
+## choice for the user. This also increases chances charts run on environments with little
+## resources, such as Minikube. If you do want to specify resources, uncomment the following
+## lines, adjust them as necessary, and remove the curly braces after 'resources:'.
+## @param resources.limits CPU/Memory resource limits
+## @param resources.requests [object] CPU/Memory resource requests
+##
+resources:
+  limits:
+    cpu: 500m
+    memory: 1024Mi
+  requests:
+    cpu: 100m
+    memory: 512Mi
+
+## statefulset configurations
+statefulset:
+  ## @param statefulset.enabled Enable statefulset containers
+  ##
+  enabled: false
+
+  ## @param statefulset.replicas Number of containers
+  ##
+  replicas: 3
+
+  ## @param statefulset.updateStrategy Update strategy parameters
+  ##
+  updateStrategy:
+    type: RollingUpdate
+
+  ## @param statefulset.podManagementPolicy Pod management policy
+  ##
+  podManagementPolicy: Parallel
+
+  ## Pod disruption budget configuration
+  ## ref: https://kubernetes.io/docs/concepts/workloads/pods/disruptions/
+  ##
+  podDisruptionBudget:
+    ## @param statefulset.podDisruptionBudget.enabled Specifies whether a Pod disruption budget should be created
+    ##
+    enabled: false
+
+    ## @param statefulset.podDisruptionBudget.minAvailable Minimum number of pods that need to be available
+    ##
+    minAvailable: 1
+
+    ## @param statefulset.podDisruptionBudget.maxUnavailable Maximum number of pods that can be unavailable
+    ##
+    maxUnavailable: 1
+
+  ## @param statefulset.command Default container command (useful when using custom images)
+  ##
+  command: []
+
+  ## @param statefulset.args Default container args (useful when using custom images)
+  ## List of additional command-line arguments you want to pass to the
+  ## `start` command.
+  args: []
+    # - --disable-cluster-name-verification
+
+  # List of extra environment variables to pass into container
+  env: []
+    # - name: ENGINE_MAX_SYNC_DURATION
+    #   value: "24h"
+
+  # List of Secrets names in the same Namespace as the cluster,
+  # which shall be mounted into `/etc/path/secrets/` for every cluster
+  # member.
+  secretMounts: []
+
+  # Additional labels to apply to this StatefulSet and all its Pods.
+  labels:
+    app.kubernetes.io/component: documentation
+
+  # Additional annotations to apply to the Pods of this StatefulSet.
+  annotations: {}
+
+  # Affinity rules for scheduling Pods of this StatefulSet on Nodes.
+  # https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#node-affinity
+  nodeAffinity: {}
+#     ## @param nodeAffinityPreset.type Node affinity preset type. Ignored if `affinity` is set. Allowed values: `soft` or `hard`
+#     ##
+#     type: ""
+#     ## @param nodeAffinityPreset.key Node label key to match. Ignored if `affinity` is set.
+#     ## E.g.
+#     ## key: "kubernetes.io/e2e-az-name"
+#     ##
+#     key: ""
+#     ## @param nodeAffinityPreset.values Node label values to match. Ignored if `affinity` is set.
+#     ## E.g.
+#     ## values:
+#     ##   - e2e-az1
+#     ##   - e2e-az2
+#     ##
+#     values: []
+
+  # Inter-Pod Affinity rules for scheduling Pods of this StatefulSet.
+  # https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#inter-pod-affinity-and-anti-affinity
+  podAffinity: {}
+
+  # Anti-affinity rules for scheduling Pods of this StatefulSet.
+  # https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#inter-pod-affinity-and-anti-affinity
+  # You may either toggle options below for default anti-affinity rules,
+  # or specify the whole set of anti-affinity rules instead of them.
+  podAntiAffinity:
+    # Type of anti-affinity rules: either `soft`, `hard` or empty value (which
+    # disables anti-affinity rules).
+    type: soft
+
+    # Weight for `soft` anti-affinity rules.
+    # Does not apply for other anti-affinity types.
+    weight: 100
+
+  # Node selection constraints for scheduling Pods of this StatefulSet.
+  # https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#nodeselector
+  nodeSelector: {}
+
+  # Taints to be tolerated by Pods of this StatefulSet.
+  # https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
+  tolerations: []
+
+  # Uncomment the following resources definitions or pass them from
+  # command line to control the CPU and memory resources allocated
+  # by Pods of this StatefulSet.
+  resources: {}
+    # limits:
+    #   cpu: 100m
+    #   memory: 512Mi
+    # requests:
+    #   cpu: 100m
+    #   memory: 512Mi
+
+## Configure the options for init containers to be run before the main app containers
+## are started. All init containers are run sequentially and must exit without errors
+## for the next one to be started.
+## ref: https://kubernetes.io/docs/concepts/workloads/pods/init-containers/
+# extraInitContainers: |
+#   - name: do-something
+#     image: busybox
+#     command: ['do', 'something']
+
+## Init containers parameters:
+## volumePermissions: Change the owner and group of the persistent volume mountpoint to runAsUser:fsGroup values from the securityContext section.
+##
+volumePermissions:
+  enabled: false
+  image:
+    registry: docker.io
+    repository: bitnami/minideb
+    tag: stretch
+    pullPolicy: Always
+    ## Optionally specify an array of imagePullSecrets.
+    ## Secrets must be manually created in the namespace.
+    ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
+    ##
+    # pullSecrets:
+    #   - myRegistryKeySecretName
+  resources: {}
+
+## enable deployment configurations
+deployment:
+  ## @param deployment.replicas Deployment replicas
+  ##
+  replicas: 2
+
+  ## @param deployment.labels Pod extra labels
+  ## ref: https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/
+  ##
+  labels:
+    app.kubernetes.io/component: documentation
+
+  ## @param deployment.annotations Pod annotations
+  ## ref: https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/
+  ##
+  annotations: {}
+
+  ## @param deployment.container Container parameters
+  ##
+  container:
+    port: 8000
+    image:
+      repository: "styled-java-patterns"
+      tag: "latest" # uses chart appVersion if not provided
+      pullPolicy: IfNotPresent
+      pullSecrets: {}
+      # command: ['./run.sh']
+      # args: []
+      credentials: {}
+        # registry: docker.io
+        # username: john_doe
+        # password: changeme
+
+  ## Container resource limits/requests
+  ## @param deployment.resources Deployment resources
+  ##
+  resources:
+    limits:
+    requests:
+      cpu: 1m
+      memory: 16Mi
+
+  ## Configure extra options for liveness probes
+  ## @param deployment.livenessProbe Deployment liveness probe
+  ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/#configure-probes)
+  ##
+  livenessProbe:
+    enabled: false
+    config:
+      httpGet:
+        path: /actuator/health
+        port: http
+      initialDelaySeconds: 210
+      periodSeconds: 60
+      timeoutSeconds: 5
+      failureThreshold: 6
+      successThreshold: 1
+
+  ## Configure extra options for readiness probes
+  ## @param deployment.readinessProbe Deployment readiness probe
+  ## ref: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/#configure-probes)
+  ##
+  readinessProbe:
+    enabled: false
+    config:
+      httpGet:
+        path: /actuator/health
+        port: http
+      initialDelaySeconds: 180
+      periodSeconds: 60
+      timeoutSeconds: 5
+      failureThreshold: 6
+      successThreshold: 1
+
+  ## @param deployment.nodeSelector Node labels for pod assignment
+  ## ref: https://kubernetes.io/docs/user-guide/node-selection/
+  ##
+  nodeSelector: {}
+#    kubernetes.io/os: linux
+#    kubernetes.io/arch: amd64
+
+  ## @param deployment.tolerations Tolerations for pod assignment
+  ## ref: https://kubernetes.io/docs/concepts/configuration/taint-and-toleration/
+  ##
+  tolerations: []
+
+  ## @param deployment.affinity Affinity for pod assignment
+  ## Ref: https://kubernetes.io/docs/concepts/configuration/assign-pod-node/#affinity-and-anti-affinity
+  ##
+  affinity: {}
+
+  ## @param deployment.podSecurityContext Deployment pod security context
+  podSecurityContext:
+    fsGroup: 1000
+
+  ## @param deployment.sidecars Deployment additional sidecar containers
+  ## Example:
+  ## sidecars:
+  ##   - name: your-image-name
+  ##     image: your-image
+  ##     imagePullPolicy: Always
+  ##     ports:
+  ##       - name: portname
+  ##         containerPort: 1234
+  ##
+  sidecars: []

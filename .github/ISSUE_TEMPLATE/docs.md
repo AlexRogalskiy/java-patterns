@@ -1,5 +1,5 @@
 ---
-name: Documentation request
+name: Documentation Request
 about: Suggest an improvement to the documentation
 title: ''
 labels: 'documentation'
@@ -7,4 +7,4 @@ assignees: ''
 
 ---
 
-Please describe here what you would like to see documented.
+***Please describe here what you would like to see documented.***

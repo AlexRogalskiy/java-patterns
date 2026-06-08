@@ -1,0 +1,5 @@
+{
+	"ignore": ["github", "/danger-*.", "/plugin[s]?"],
+	"whitelistFiles": [],
+	"codeSpellCheck": ["**/*.ts", "**/*.js"]
+}

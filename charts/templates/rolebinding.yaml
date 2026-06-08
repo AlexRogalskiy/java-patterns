@@ -1,0 +1,31 @@
+{{- if .Values.tls.enabled }}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+{{- $serviceAccountName := include "backend-java-patterns.serviceAccountName" . -}}
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: {{ $fullName }}
+  namespace: {{ .Release.Namespace | quote }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  {{- if .Values.general.labels }}
+  {{- with .Values.general.labels }}
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+  {{- end }}
+  {{- if .Values.general.annotations }}
+  {{- with .Values.general.annotations }}
+  annotations:
+    {{- toYaml . | indent 4 }}
+  {{- end }}
+  {{- end }}
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: Role
+  name: {{ $fullName }}
+subjects:
+  - apiGroup: ""
+    kind: ServiceAccount
+    name: {{ $serviceAccountName }}
+    namespace: {{ .Release.Namespace | quote }}
+{{- end }}
