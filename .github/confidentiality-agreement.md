@@ -1,7 +1,7 @@
 # Confidentiality Agreement
 
 
-By creating an account or using the software or services provided by Nullables.io, Inc., doing business as Nullables.io (the “Corporation”), you (the “Recipient”) expressly accept and agree to be bound by all of the terms and conditions below. If you do not accept these terms, you must not use our software or services. 
+By creating an account or using the software or services provided by Nullables.io, Inc., doing business as Nullables.io (the “Corporation”), you (the “Recipient”) expressly accept and agree to be bound by all of the terms and conditions below. If you do not accept these terms, you must not use our software or services.
 
 
 ## 1. Background

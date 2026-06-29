@@ -1,0 +1,23 @@
+{{- if and (.Files.Glob "files/vhosts/*.conf") (not .Values.vhostsConfigMap) }}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ $fullName }}-vhosts
+  namespace: {{ .Release.Namespace | quote }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  {{- if .Values.general.labels }}
+  {{- with .Values.general.labels }}
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+  {{- end }}
+  {{- if .Values.general.annotations }}
+  {{- with .Values.general.annotations }}
+  annotations:
+    {{- toYaml . | indent 4 }}
+  {{- end }}
+  {{- end }}
+data:
+{{ (.Files.Glob "files/vhosts/*.conf").AsConfig | indent 2 }}
+{{ end }}

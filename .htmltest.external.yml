@@ -1,0 +1,4 @@
+DirectoryPath: docs
+IgnoreDirectoryMissingTrailingSlash: true
+IgnoreAltMissing: true
+CheckDoctype: false

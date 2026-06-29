@@ -1,0 +1,14 @@
+# https://github.com/actions/labeler/blob/master/README.md
+
+src:
+  - src/*
+
+repo:
+  - Dockerfile
+  - entrypoint.sh
+
+.github-actions:
+  - .github
+
+license:
+  - ./LICENSE

@@ -1,0 +1,1241 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>@java-patterns/schema-diff documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">@java-patterns/schema-diff documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content class">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Classes</li>
+  <li >Directory</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>src/index.ts</code>
+        </p>
+
+
+
+
+
+
+            <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#fileMap" >fileMap</a>
+                            </li>
+                            <li>
+                                <a href="#fullPath" >fullPath</a>
+                            </li>
+                            <li>
+                                <a href="#name" >name</a>
+                            </li>
+                            <li>
+                                <a href="#nodes" >nodes</a>
+                            </li>
+                            <li>
+                                <a href="#path" >path</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Static</span>
+                                    <span class="modifier">Async</span>
+                                <a href="#create" >create</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                    <span class="modifier">Static</span>
+                                    <span class="modifier">Async</span>
+                                <a href="#getChildren" >getChildren</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#getFile" >getFile</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#hasFile" >hasFile</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#listFiles" >listFiles</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#walk" >walk</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+            <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                                <span class="modifier">Private</span>
+                        <code>constructor(fullPath: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, nodes: <a href="../undefineds/FSNode.html" target="_self">FSNode[]</a>, fileMap: <a href="../classes/File.html" target="_self">FileMap</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="171" class="link-to-prism">src/index.ts:171</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>fullPath</td>
+
+                                                        <td>
+                                                                        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                                        </td>
+
+                                                    <td>
+                                                            No
+                                                    </td>
+
+                                                </tr>
+                                                <tr>
+                                                        <td>nodes</td>
+
+                                                        <td>
+                                                                        <code><a href="../miscellaneous/typealiases.html#FSNode" target="_self" >FSNode[]</a></code>
+                                                        </td>
+
+                                                    <td>
+                                                            No
+                                                    </td>
+
+                                                </tr>
+                                                <tr>
+                                                        <td>fileMap</td>
+
+                                                        <td>
+                                                                        <code><a href="../classes/File.html" target="_self" >FileMap</a></code>
+                                                        </td>
+
+                                                    <td>
+                                                            No
+                                                    </td>
+
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+            <section>
+
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fileMap"></a>
+                    <span class="name">
+                        <span ><b>fileMap</b></span>
+                        <a href="#fileMap"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>literal type</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="171" class="link-to-prism">src/index.ts:171</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fullPath"></a>
+                    <span class="name">
+                        <span ><b>fullPath</b></span>
+                        <a href="#fullPath"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="169" class="link-to-prism">src/index.ts:169</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="name"></a>
+                    <span class="name">
+                        <span ><b>name</b></span>
+                        <a href="#name"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="167" class="link-to-prism">src/index.ts:167</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="nodes"></a>
+                    <span class="name">
+                        <span ><b>nodes</b></span>
+                        <a href="#nodes"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Array&lt;File | Directory&gt;</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="170" class="link-to-prism">src/index.ts:170</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="path"></a>
+                    <span class="name">
+                        <span ><b>path</b></span>
+                        <a href="#path"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="168" class="link-to-prism">src/index.ts:168</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+            <section>
+
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="create"></a>
+                    <span class="name">
+                        <span class="modifier">Static</span>
+                        <span class="modifier">Async</span>
+                        <span ><b>create</b></span>
+                        <a href="#create"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>create(fullPath: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, _deltaFileMap: <a href="../classes/File.html" target="_self">DeltaFileMap</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="181"
+                            class="link-to-prism">src/index.ts:181</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                    <td>Default value</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>fullPath</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+                                    <td>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td>_deltaFileMap</td>
+                                    <td>
+                                                <code><a href="../classes/File.html" target="_self" >DeltaFileMap</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+                                    <td>
+                                        <code>{}</code>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>unknown</code>
+
+                    </div>
+                    <div class="io-description">
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getChildren"></a>
+                    <span class="name">
+                        <span class="modifier">Private</span>
+                        <span class="modifier">Static</span>
+                        <span class="modifier">Async</span>
+                        <span ><b>getChildren</b></span>
+                        <a href="#getChildren"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getChildren(fullPath)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="186"
+                            class="link-to-prism">src/index.ts:186</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>fullPath</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;&gt;</code>
+
+                    </div>
+                    <div class="io-description">
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getFile"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>getFile</b></span>
+                        <a href="#getFile"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getFile(fullPath: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="223"
+                            class="link-to-prism">src/index.ts:223</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>fullPath</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="../classes/File.html" target="_self" >File</a></code>
+
+                    </div>
+                    <div class="io-description">
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="hasFile"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>hasFile</b></span>
+                        <a href="#hasFile"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>hasFile(fullPath: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="219"
+                            class="link-to-prism">src/index.ts:219</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>fullPath</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="listFiles"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>listFiles</b></span>
+                        <a href="#listFiles"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>listFiles()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="227"
+                            class="link-to-prism">src/index.ts:227</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>string[]</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="walk"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>walk</b></span>
+                        <a href="#walk"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>walk(callback: (undefined) => void)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="209"
+                            class="link-to-prism">src/index.ts:209</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Calls a callback for every file of this directory and its sub directories</p>
+</div>
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>callback</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/function" target="_blank" >function</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+
+
+
+
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import {createReadStream, promises as fs} from &quot;fs&quot;;
+import path from &quot;path&quot;;
+import {createHash} from &quot;crypto&quot;;
+import {spawn} from &quot;child_process&quot;;
+
+const schemaV1Path &#x3D; path.join(process.cwd(), &#x60;${process.env.SOURCE_DIR1}&#x60;).normalize()
+const schemaV2Path &#x3D; path.join(process.cwd(), &#x60;${process.env.SOURCE_DIR2}&#x60;).normalize()
+
+const baseV1Name &#x3D; path.basename(schemaV1Path)
+const baseV2Name &#x3D; path.basename(schemaV2Path)
+
+/** Represents the git status of a file */
+enum FileStatus {
+  Deleted &#x3D; &quot;deleted&quot;,
+  Modified &#x3D; &quot;modified&quot;,
+  Added &#x3D; &quot;added&quot;,
+  Renamed &#x3D; &quot;renamed&quot;,
+  Unknown &#x3D; &quot;unknown&quot;,
+}
+
+type DeltaFileMap &#x3D; { [filePath: string]: FileStatus }
+
+/**
+ * Converts git status short codes to their &#x60;FileStatus&#x60; equivalent.
+ * @param change Single character shorthand git file state
+ */
+const GitChangeToFileStatus &#x3D; (change: string) &#x3D;&gt; {
+  switch (change) {
+    case &quot;M&quot;:
+      return FileStatus.Modified
+    case &quot;A&quot;:
+      return FileStatus.Added
+    case &quot;D&quot;:
+      return FileStatus.Deleted
+    case &quot;R&quot;:
+      return FileStatus.Renamed
+    default:
+      return FileStatus.Unknown
+  }
+}
+
+interface BranchState {
+  commitsAhead: number
+  commitsBehind: number
+}
+
+/**
+ * Gives status information on the current branch as compared to origin/main
+ */
+const getBranchDrift &#x3D; (): Promise&lt;BranchState&gt; &#x3D;&gt;
+  new Promise((resolve, reject) &#x3D;&gt; {
+    let output &#x3D; &quot;&quot;
+    const delta &#x3D; spawn(&quot;git&quot;, [
+      &quot;rev-list&quot;,
+      &quot;--left-right&quot;,
+      &quot;--count&quot;,
+      &quot;origin/main...HEAD&quot;,
+    ])
+
+    delta.stdout.on(&quot;data&quot;, (data) &#x3D;&gt; {
+      output +&#x3D; data
+    })
+
+    delta.on(&quot;close&quot;, (code) &#x3D;&gt; {
+      if (code !&#x3D;&#x3D; 0) {
+        reject(&quot;Failed to get branch drift&quot;)
+      } else {
+        const commitChanges &#x3D; output.match(/(\d+)\s+(\d+)/)
+        if (!commitChanges) {
+          reject(&quot;Something was wrong with the branch drift output&quot;)
+        }
+
+        let [, commitsBehind, commitsAhead] &#x3D; Array.from(
+          commitChanges!
+        ).map((x) &#x3D;&gt; Number(x))
+        resolve({
+          commitsAhead,
+          commitsBehind,
+        })
+      }
+    })
+  })
+
+/**
+ * Uses git to generate a delta map of files that have changed since main
+ */
+const getChangedFiles &#x3D; (): Promise&lt;DeltaFileMap&gt; &#x3D;&gt;
+  new Promise((resolve, reject) &#x3D;&gt; {
+    let changedBlob &#x3D; &quot;&quot;
+    const changed &#x3D; spawn(&quot;git&quot;, [&quot;diff&quot;, &quot;--name-status&quot;, &quot;origin/main&quot;])
+    changed.stdout.on(&quot;data&quot;, (data) &#x3D;&gt; {
+      changedBlob +&#x3D; data
+    })
+
+    changed.on(&quot;close&quot;, (code) &#x3D;&gt; {
+      if (code !&#x3D;&#x3D; 0) {
+        reject(&quot;Failed to find changed files via git&quot;)
+      } else {
+        resolve(
+          changedBlob
+            .split(&quot;\n&quot;)
+            .map((status) &#x3D;&gt; {
+              const match &#x3D; status.match(/([A-Z])\s+(.+)/)
+              if (match) {
+                const [, status, filePath] &#x3D; match
+                return {
+                  [path.resolve(filePath)]: GitChangeToFileStatus(status),
+                }
+              }
+              return {} as any
+            })
+            .reduce((a, b) &#x3D;&gt; ({...a, ...b}), {})
+        )
+      }
+    })
+  })
+
+/**
+ * Determines if a given path is a directory
+ * @param filepath
+ */
+const isDirectory &#x3D; async (filepath: string): Promise&lt;boolean&gt; &#x3D;&gt;
+  (await fs.lstat(filepath)).isDirectory()
+
+/**
+ * Asynchronously generates an md5 of a file
+ * @param filePath The full path to a file (include its name)
+ */
+const hashFile &#x3D; (filePath: string): Promise&lt;string&gt; &#x3D;&gt;
+  new Promise((resolve, reject) &#x3D;&gt; {
+    const stream &#x3D; createReadStream(filePath)
+    const hash &#x3D; createHash(&quot;md5&quot;)
+
+    stream.on(&quot;data&quot;, (data: string) &#x3D;&gt; hash.update(data, &quot;utf8&quot;))
+    stream.on(&quot;end&quot;, () &#x3D;&gt; {
+      resolve(hash.digest(&quot;hex&quot;))
+    })
+    stream.on(&quot;error&quot;, (error) &#x3D;&gt; {
+      reject(error)
+    })
+  })
+
+type FSNode &#x3D; File | Directory
+type FileMap &#x3D; { [path: string]: File }
+
+class File {
+  name: string
+  path: string
+  fullPath: string
+  relativePath: string
+  hash: string
+
+  private constructor(fullPath: string, hash: string) {
+    this.name &#x3D; path.basename(fullPath)
+    this.path &#x3D; path.dirname(fullPath)
+    this.fullPath &#x3D; fullPath
+    this.relativePath &#x3D; path.relative(process.cwd(), fullPath)
+    this.hash &#x3D; hash
+  }
+
+  static async create(fullPath: string) {
+    return new File(fullPath, await hashFile(fullPath))
+  }
+}
+
+class Directory {
+  name: string
+  path: string
+  fullPath: string
+  nodes: Array&lt;File | Directory&gt;
+  fileMap: { [path: string]: File }
+
+  private constructor(fullPath: string, nodes: FSNode[], fileMap: FileMap) {
+    this.name &#x3D; path.basename(fullPath)
+    this.path &#x3D; path.dirname(fullPath)
+    this.fullPath &#x3D; fullPath
+    this.nodes &#x3D; nodes
+    this.fileMap &#x3D; fileMap
+  }
+
+  static async create(fullPath: string, _deltaFileMap: DeltaFileMap &#x3D; {}) {
+    const [children, childMap] &#x3D; await this.getChildren(fullPath)
+    return new Directory(fullPath, children, childMap)
+  }
+
+  private static async getChildren(fullPath): Promise&lt;[FSNode[], FileMap]&gt; {
+    const nodes: FSNode[] &#x3D; []
+    const fileNames &#x3D; await fs.readdir(fullPath)
+    let fileMap: FileMap &#x3D; {}
+
+    for (let fileName of fileNames) {
+      const currentPath &#x3D; path.join(fullPath, fileName)
+      if (await isDirectory(currentPath)) {
+        let dir &#x3D; await Directory.create(currentPath)
+        nodes.push(dir)
+        fileMap &#x3D; {...fileMap, ...dir.fileMap}
+      } else {
+        let file &#x3D; await File.create(currentPath)
+        nodes.push(file)
+        fileMap[file.fullPath] &#x3D; file
+      }
+    }
+    return [nodes, fileMap]
+  }
+
+  /**
+   * Calls a callback for every file of this directory and its sub directories
+   */
+  public walk(callback: (File) &#x3D;&gt; void) {
+    for (let child of this.nodes) {
+      if (child instanceof Directory) {
+        child.walk(callback)
+      } else {
+        callback(child)
+      }
+    }
+  }
+
+  public hasFile(fullPath: string) {
+    !!this.fileMap[fullPath]
+  }
+
+  public getFile(fullPath: string): File {
+    return this.fileMap[fullPath]
+  }
+
+  public listFiles(): string[] {
+    return Object.keys(this.fileMap)
+  }
+}
+
+const isFromSchemaV1 &#x3D; (filePath: string) &#x3D;&gt; filePath.includes(baseV1Name)
+
+/** Convert an absolute file path to a partial path that starts after &#x60;/v1/&#x60; or &#x60;/v2/&#x60; */
+const fromSchemaRoot &#x3D; (filePath: string) &#x3D;&gt;
+  isFromSchemaV1(filePath)
+    ? filePath.split(baseV1Name)[1]
+    : filePath.split(baseV2Name)[1]
+
+/** Updates a path from &#x60;/v1/&#x60; to &#x60;/v2/&#x60; or vice versa */
+const switchSchemaPath &#x3D; (filePath: string) &#x3D;&gt;
+  isFromSchemaV1(filePath)
+    ? filePath.replace(baseV1Name, baseV2Name)
+    : filePath.replace(baseV2Name, baseV1Name)
+
+/**
+ * @param directory1
+ * @param directory2
+ * @param directoryMapper Used to establish a common path between files of the two directories
+ */
+const diffDirectories &#x3D; (
+    directory1: Directory,
+    directory2: Directory,
+    directoryMapper &#x3D; (p) &#x3D;&gt; p
+  ): [string[], string[], string[]] &#x3D;&gt; {
+    const fileList1 &#x3D; directory1.listFiles().map(directoryMapper)
+    const fileList2 &#x3D; directory2.listFiles().map(directoryMapper)
+
+    const sharedFiles &#x3D; fileList1.filter((x) &#x3D;&gt; fileList2.includes(x))
+    const filesUniqueTo1 &#x3D; fileList1.filter((x) &#x3D;&gt; !sharedFiles.includes(x))
+    const filesUniqueTo2 &#x3D; fileList2.filter((x) &#x3D;&gt; !sharedFiles.includes(x))
+
+    return [filesUniqueTo1, sharedFiles, filesUniqueTo2]
+  }
+
+// Main work
+;(async () &#x3D;&gt; {
+  const branchState &#x3D; await getBranchDrift()
+
+  // Is there a better way to handle this?
+  if (branchState.commitsBehind &gt; 0) {
+    console.warn(&quot;Branch is currently behind main, might not reflect accurate state\n&quot;)
+  }
+
+  const fileChanges &#x3D; Object.entries(await getChangedFiles()).filter(
+    ([file]) &#x3D;&gt; file.includes(baseV1Name) || file.includes(baseV2Name)
+  )
+
+  // If no file updates, skip
+  if (fileChanges.length &#x3D;&#x3D;&#x3D; 0) {
+    console.log(&#x60;No updates detected in ${baseV1Name} or  ${baseV2Name}, skipping...\n&#x60;)
+    return
+  }
+
+  // Read files from the FS
+  const schemaV1 &#x3D; await Directory.create(schemaV1Path)
+  const schemaV2 &#x3D; await Directory.create(schemaV2Path)
+
+  // Sort out which files are shared by v1 and v2
+  const [
+    filesUniqueToSchemaV1,
+    filesInBothSchemas,
+    // filesUniqueToSchemaV2,
+  ] &#x3D; diffDirectories(schemaV1, schemaV2, fromSchemaRoot)
+
+  const unknownChanges &#x3D; fileChanges
+    .filter(([, status]) &#x3D;&gt; status &#x3D;&#x3D;&#x3D; FileStatus.Unknown)
+    .map(([file]) &#x3D;&gt; file)
+
+  const modifiedFiles &#x3D; fileChanges
+    .filter(([, status]) &#x3D;&gt; status &#x3D;&#x3D;&#x3D; FileStatus.Modified)
+    .map(([file]) &#x3D;&gt; file)
+
+  const addedFiles &#x3D; fileChanges
+    .filter(([, status]) &#x3D;&gt; status &#x3D;&#x3D;&#x3D; FileStatus.Added)
+    .map(([file]) &#x3D;&gt; file)
+
+  // const deletedFiles &#x3D; fileChanges
+  //   .filter(([, status]) &#x3D;&gt; status &#x3D;&#x3D;&#x3D; FileStatus.Deleted)
+  //   .map(([file]) &#x3D;&gt; file)
+
+  // const renamedFiles &#x3D; fileChanges
+  //   .filter(([, status]) &#x3D;&gt; status &#x3D;&#x3D;&#x3D; FileStatus.Renamed)
+  //   .map(([file]) &#x3D;&gt; file)
+
+  if (unknownChanges.length &gt; 0) {
+    console.warn(
+      &quot;File changes detect with unknown git status, please verify the following and update the schema drift script\n&quot; +
+      unknownChanges.map((file) &#x3D;&gt; &#x60;- ${file}\n&#x60;)
+    )
+  }
+
+  // Scenarios
+  //
+  // For files that exist in both places
+
+  // File A was modified in (v1|v2), should it also be modified in (v2|v1)?
+  modifiedFiles
+    .map((filePath) &#x3D;&gt; [fromSchemaRoot(filePath), filePath])
+    .filter(([file]) &#x3D;&gt; filesInBothSchemas.includes(file))
+    .forEach(([, filePath]) &#x3D;&gt; {
+      if (isFromSchemaV1(filePath)) {
+        const schemaV1File &#x3D; schemaV1.getFile(filePath)
+        const schemaV2File &#x3D; schemaV2.getFile(switchSchemaPath(filePath))
+
+        // Both files are the same now, nothing to do here
+        if (schemaV1File.hash &#x3D;&#x3D;&#x3D; schemaV2File.hash) return
+
+        console.warn(
+          &#x60;${schemaV1File.relativePath} has been modified, should this update also happen in ${schemaV2File.relativePath}?&#x60;
+        )
+      } else {
+        const schemaV2File &#x3D; schemaV2.getFile(filePath)
+        const schemaV1File &#x3D; schemaV1.getFile(switchSchemaPath(filePath))
+
+        // The files are the same, skip
+        if (schemaV2File.hash &#x3D;&#x3D;&#x3D; schemaV1File.hash) return
+
+        console.warn(
+          &#x60;${schemaV2File.relativePath} has been modified, should this update also happen in ${schemaV1File.relativePath}?&#x60;
+        )
+      }
+    })
+
+  // For files added during transition
+
+  // File was added to v1, should it also exist in v2?
+  addedFiles
+    .map((filePath) &#x3D;&gt; [fromSchemaRoot(filePath), filePath])
+    .filter(([file]) &#x3D;&gt; filesUniqueToSchemaV1.includes(file))
+    .forEach(([, filePath]) &#x3D;&gt; {
+      const file &#x3D; schemaV1.getFile(filePath)
+      console.warn(
+        &#x60;${file.relativePath} was added to v1, should it also be added to v2?&#x60;
+      )
+    })
+
+  // For updates in v1 that don&#x27;t match to V2
+
+  // An update was made to a file in v1, but it doesn&#x27;t exist in V2. Double
+  // check that there aren&#x27;t updates required.
+  modifiedFiles
+    .map((filePath) &#x3D;&gt; [fromSchemaRoot(filePath), filePath])
+    .filter(([file]) &#x3D;&gt; filesUniqueToSchemaV1.includes(file))
+    .forEach(([, filePath]) &#x3D;&gt; {
+      const file &#x3D; schemaV1.getFile(filePath)
+      console.warn(
+        &#x60;${file.relativePath} was modified in v1, but doesn&#x27;t exist in v2. Ensure no v2 changes are required.&#x60;
+      )
+    })
+})()
+</code></pre>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'class';
+            var COMPODOC_CURRENT_PAGE_URL = 'Directory.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

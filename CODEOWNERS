@@ -1,0 +1,12 @@
+# Configuration for the GitHub feature to automatically request reviews from the code owners when a pull request
+# changes any owned files.
+
+# Use this file to define individuals or teams that are responsible for code in a repository.
+# Read more: <https://help.github.com/articles/about-codeowners/>
+
+# To allow mergify to auto-merge, we must in general not assign code owners to files
+
+# References:
+#   https://github.com/blog/2392-introducing-code-owners
+#   https://help.github.com/articles/about-codeowners
+* @AlexRogalskiy

@@ -1,0 +1,31 @@
+{{- if .Values.persistence.enabled }}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{ $fullName }}-local-volume
+  namespace: {{ .Release.Namespace | quote }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  {{- if .Values.persistence.labels }}
+  {{- with .Values.persistence.labels }}
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+  {{- end }}
+  {{- if .Values.persistence.annotations }}
+  {{- with .Values.persistence.annotations }}
+  annotations:
+    {{- toYaml . | indent 4 }}
+  {{- end }}
+  {{- end }}
+spec:
+  storageClassName: "local-storage"
+  accessModes:
+  {{- range .Values.persistence.accessModes }}
+    - {{ . | quote }}
+  {{- end }}
+  resources:
+    requests:
+      storage: {{ .Values.persistence.size | quote }}
+  {{ include "Values.persistence.storageClass" . }}
+{{- end }}
