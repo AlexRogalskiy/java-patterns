@@ -1,0 +1,53 @@
+{{- if and .Values.hpa.enabled (eq .Values.general.architecture "high-availability") }}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+apiVersion: autoscaling/v2beta2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: {{ $fullName }}
+  namespace: {{ .Release.Namespace | quote }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  {{- if .Values.hpa.annotations }}
+  {{- with .Values.hpa.annotations }}
+  annotations:
+    {{- toYaml . | indent 4 }}
+  {{- end }}
+  {{- end }}
+spec:
+#   scaleTargetRef:
+#     apiVersion: {{ include "backend-java-patterns.statefulset.apiVersion" . }}
+#     kind: StatefulSet
+#     name: {{ $fullName }}
+  scaleTargetRef:
+    apiVersion: {{ include "backend-java-patterns.deployment.apiVersion" . }}
+    kind: Deployment
+    name: {{ $fullName }}
+  minReplicas: {{ .Values.hpa.minReplicas }}
+  maxReplicas: {{ .Values.hpa.maxReplicas }}
+  metrics:
+    {{- if .Values.hpa.cpu }}
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization
+          averageUtilization: {{ .Values.hpa.cpu }}
+    {{- end }}
+    {{- if .Values.hpa.memory }}
+    - type: Resource
+      resource:
+        name: memory
+        target:
+          type: AverageValue
+          averageValue: {{ .Values.hpa.memory }}
+    {{- end }}
+    {{- if .Values.hpa.requests }}
+    - type: Pods
+      pods:
+        metric:
+          name: http_requests
+        target:
+          type: AverageValue
+          averageValue: {{ .Values.hpa.requests }}
+  {{- end }}
+{{- end }}

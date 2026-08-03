@@ -1,0 +1,20 @@
+on: [ pull_request, workflow_dispatch ]
+
+jobs:
+  shellcheck:
+    name: shellcheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ludeeus/action-shellcheck@master
+        with:
+          severity: style
+
+  shellspec:
+    name: shellspec
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - run: |
+          curl -fsSL https://git.io/shellspec | sh -s -- --yes
+          ${HOME}/.local/bin/shellspec
