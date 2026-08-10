@@ -364,18 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-
--   [Spring4Shell Details and Exploit code leaked](https://www.reddit.com/r/java/comments/tsdllr/spring4shell_details_and_exploit_code_leaked/)
--   [Apple's Code-signing Quagmire](https://www.reddit.com/r/java/comments/tsd2cr/apples_codesigning_quagmire/)
--   [Spring4Shell: 0-day RCE on Spring Core](https://www.reddit.com/r/java/comments/tscqlg/spring4shell_0day_rce_on_spring_core/)
--   [Game Making Libraries + Engines in Java 2022](https://www.reddit.com/r/java/comments/tscojc/game_making_libraries_engines_in_java_2022/)
--   [Where's Java Going In 2022?](https://www.reddit.com/r/java/comments/tsbleo/wheres_java_going_in_2022/)
--   [Architecture design help](https://www.reddit.com/r/java/comments/tsb2tu/architecture_design_help/)
--   [Maven is turning 20 today 🥳 To many more years of stable Java builds 🍻](https://www.reddit.com/r/java/comments/ts5urt/maven_is_turning_20_today_to_many_more_years_of/)
--   [Memory leak due to improper exception handling](https://www.reddit.com/r/java/comments/ts4rfm/memory_leak_due_to_improper_exception_handling/)
--   [Scaling Spring Batch processing with partitioning using Kafka](https://www.reddit.com/r/java/comments/ts190r/scaling_spring_batch_processing_with_partitioning/)
--   [New in JDK 18: Reviewing Enhancements in the Latest JDK Release](https://www.reddit.com/r/java/comments/trufoj/new_in_jdk_18_reviewing_enhancements_in_the/)
-
+- [ChaosTree [1.2.0] feature jdk11+ support](https://www.reddit.com/r/java/comments/1vjvsn8/chaostree_120_feature_jdk11_support/)
+- [LLM Using Java Springboot](https://www.reddit.com/r/java/comments/1vjozoq/llm_using_java_springboot/)
+- [JDK 28 EA Build10 is now available for download and includes JEP 401: Value Objects &lpar;Preview&rpar;](https://www.reddit.com/r/java/comments/1vicga6/jdk_28_ea_build10_is_now_available_for_download/)
+- [ChaosTree 1.1.0 – A Zero-Dependency Java Search Tree Library](https://www.reddit.com/r/java/comments/1vhsb1i/chaostree_110_a_zerodependency_java_search_tree/)
+- [Isolated Projects is incubating in Gradle 9.7.0 &lpar;2,500-project monorepo: configuration 10m53s → 2m59s&rpar;](https://www.reddit.com/r/java/comments/1vh8gyy/isolated_projects_is_incubating_in_gradle_970/)
+- [I made a small Bash wrapper that reduces successful Maven output by 99.7%](https://www.reddit.com/r/java/comments/1vgfix8/i_made_a_small_bash_wrapper_that_reduces/)
+- [Hacking the Method Name](https://www.reddit.com/r/java/comments/1vgdvl5/hacking_the_method_name/)
+- [A JavaOS](https://www.reddit.com/r/java/comments/1vfz0yz/a_javaos/)
+- [Stop re-downloading the JDK: setup-java can now cache it](https://www.reddit.com/r/java/comments/1vfun7e/stop_redownloading_the_jdk_setupjava_can_now/)
+- [Do you still handcraft your java projects?](https://www.reddit.com/r/java/comments/1vfpr3u/do_you_still_handcraft_your_java_projects/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
