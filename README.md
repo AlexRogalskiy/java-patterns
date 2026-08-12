@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [GlassFish 9.0 M3 released!](https://www.reddit.com/r/java/comments/1vluwmt/glassfish_90_m3_released/)
+- [Events-Caravan, an event-sourcing framework that trades the global event log for horizontal scalability &lpar;DynamoDB/SNS/SQS reference impl, Spring Boot starters&rpar;](https://www.reddit.com/r/java/comments/1vlqxb6/eventscaravan_an_eventsourcing_framework_that/)
+- [Apache Fory™ JSON : Fastest JSON Serialization Framework for Java, 10x faster than Jackson/Gson](https://www.reddit.com/r/java/comments/1vljk87/apache_fory_json_fastest_json_serialization/)
+- [Jakarta EE starter now supports Jakarta EE 11!](https://www.reddit.com/r/java/comments/1vlgd27/jakarta_ee_starter_now_supports_jakarta_ee_11/)
 - [from small to big with jbang](https://www.reddit.com/r/java/comments/1vl5ew3/from_small_to_big_with_jbang/)
 - [Apache NetBeans 31 Released](https://www.reddit.com/r/java/comments/1vkudxs/apache_netbeans_31_released/)
 - [SimpleJavaBLE 1.1 is now on Maven Central](https://www.reddit.com/r/java/comments/1vke84s/simplejavable_11_is_now_on_maven_central/)
 - [ChaosTree [1.2.0] feature jdk11+ support](https://www.reddit.com/r/java/comments/1vjvsn8/chaostree_120_feature_jdk11_support/)
 - [LLM Using Java Springboot](https://www.reddit.com/r/java/comments/1vjozoq/llm_using_java_springboot/)
 - [JDK 28 EA Build10 is now available for download and includes JEP 401: Value Objects &lpar;Preview&rpar;](https://www.reddit.com/r/java/comments/1vicga6/jdk_28_ea_build10_is_now_available_for_download/)
-- [ChaosTree 1.1.0 – A Zero-Dependency Java Search Tree Library](https://www.reddit.com/r/java/comments/1vhsb1i/chaostree_110_a_zerodependency_java_search_tree/)
-- [Isolated Projects is incubating in Gradle 9.7.0 &lpar;2,500-project monorepo: configuration 10m53s → 2m59s&rpar;](https://www.reddit.com/r/java/comments/1vh8gyy/isolated_projects_is_incubating_in_gradle_970/)
-- [I made a small Bash wrapper that reduces successful Maven output by 99.7%](https://www.reddit.com/r/java/comments/1vgfix8/i_made_a_small_bash_wrapper_that_reduces/)
-- [Hacking the Method Name](https://www.reddit.com/r/java/comments/1vgdvl5/hacking_the_method_name/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
