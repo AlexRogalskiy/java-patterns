@@ -364,6 +364,9 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Monitoring Spring Boot Actuator on low-resource VPS nodes without running a second JVM](https://www.reddit.com/r/java/comments/1vmi7o7/monitoring_spring_boot_actuator_on_lowresource/)
+- [I made a website that automatically collects images of our favourite mascot duke!](https://www.reddit.com/r/java/comments/1vm81m1/i_made_a_website_that_automatically_collects/)
+- [How we keep Java bytecode encrypted through execution](https://www.reddit.com/r/java/comments/1vm32hr/how_we_keep_java_bytecode_encrypted_through/)
 - [GlassFish 9.0 M3 released!](https://www.reddit.com/r/java/comments/1vluwmt/glassfish_90_m3_released/)
 - [Events-Caravan, an event-sourcing framework that trades the global event log for horizontal scalability &lpar;DynamoDB/SNS/SQS reference impl, Spring Boot starters&rpar;](https://www.reddit.com/r/java/comments/1vlqxb6/eventscaravan_an_eventsourcing_framework_that/)
 - [Apache Fory™ JSON : Fastest JSON Serialization Framework for Java, 10x faster than Jackson/Gson](https://www.reddit.com/r/java/comments/1vljk87/apache_fory_json_fastest_json_serialization/)
@@ -371,9 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [from small to big with jbang](https://www.reddit.com/r/java/comments/1vl5ew3/from_small_to_big_with_jbang/)
 - [Apache NetBeans 31 Released](https://www.reddit.com/r/java/comments/1vkudxs/apache_netbeans_31_released/)
 - [SimpleJavaBLE 1.1 is now on Maven Central](https://www.reddit.com/r/java/comments/1vke84s/simplejavable_11_is_now_on_maven_central/)
-- [ChaosTree [1.2.0] feature jdk11+ support](https://www.reddit.com/r/java/comments/1vjvsn8/chaostree_120_feature_jdk11_support/)
-- [LLM Using Java Springboot](https://www.reddit.com/r/java/comments/1vjozoq/llm_using_java_springboot/)
-- [JDK 28 EA Build10 is now available for download and includes JEP 401: Value Objects &lpar;Preview&rpar;](https://www.reddit.com/r/java/comments/1vicga6/jdk_28_ea_build10_is_now_available_for_download/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
