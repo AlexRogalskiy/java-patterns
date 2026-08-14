@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [State-of-the-art Bytecode Interpreters in Java by Yudi Zheng](https://www.reddit.com/r/java/comments/1vncl3m/stateoftheart_bytecode_interpreters_in_java_by/)
+- [&lpar;Project Amber&rpar; New guide: Preparing for Change: Safe Switching over Sealed APIs](https://www.reddit.com/r/java/comments/1vnb2qu/project_amber_new_guide_preparing_for_change_safe/)
+- [Jakarta EE 11 MVC sample](https://www.reddit.com/r/java/comments/1vn5zie/jakarta_ee_11_mvc_sample/)
 - [Monitoring Spring Boot Actuator on low-resource VPS nodes without running a second JVM](https://www.reddit.com/r/java/comments/1vmi7o7/monitoring_spring_boot_actuator_on_lowresource/)
 - [I made a website that automatically collects images of our favourite mascot duke!](https://www.reddit.com/r/java/comments/1vm81m1/i_made_a_website_that_automatically_collects/)
-- [How we keep Java bytecode encrypted through execution](https://www.reddit.com/r/java/comments/1vm32hr/how_we_keep_java_bytecode_encrypted_through/)
 - [GlassFish 9.0 M3 released!](https://www.reddit.com/r/java/comments/1vluwmt/glassfish_90_m3_released/)
 - [Events-Caravan, an event-sourcing framework that trades the global event log for horizontal scalability &lpar;DynamoDB/SNS/SQS reference impl, Spring Boot starters&rpar;](https://www.reddit.com/r/java/comments/1vlqxb6/eventscaravan_an_eventsourcing_framework_that/)
 - [Apache Fory™ JSON : Fastest JSON Serialization Framework for Java, 10x faster than Jackson/Gson](https://www.reddit.com/r/java/comments/1vljk87/apache_fory_json_fastest_json_serialization/)
 - [Jakarta EE starter now supports Jakarta EE 11!](https://www.reddit.com/r/java/comments/1vlgd27/jakarta_ee_starter_now_supports_jakarta_ee_11/)
 - [from small to big with jbang](https://www.reddit.com/r/java/comments/1vl5ew3/from_small_to_big_with_jbang/)
-- [Apache NetBeans 31 Released](https://www.reddit.com/r/java/comments/1vkudxs/apache_netbeans_31_released/)
-- [SimpleJavaBLE 1.1 is now on Maven Central](https://www.reddit.com/r/java/comments/1vke84s/simplejavable_11_is_now_on_maven_central/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
