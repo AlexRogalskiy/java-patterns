@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Support for multiple Maven servers on GitHub&#39;s setup-java action](https://www.reddit.com/r/java/comments/1vrax18/support_for_multiple_maven_servers_on_githubs/)
+- [Red Hat Build of OpenJDK support on GitHub&#39;s setup-java Action](https://www.reddit.com/r/java/comments/1vrawmy/red_hat_build_of_openjdk_support_on_githubs/)
+- [A First Drink In Valhalla](https://www.reddit.com/r/java/comments/1vr5rwr/a_first_drink_in_valhalla/)
+- [Where and how did Java lose in the game dev space?](https://www.reddit.com/r/java/comments/1vqqhbg/where_and_how_did_java_lose_in_the_game_dev_space/)
 - [Automatic Relationship Finder &lpar;ARF&rpar; v1.2 – A Java library for discovering relationships between tables from data](https://www.reddit.com/r/java/comments/1vpl62v/automatic_relationship_finder_arf_v12_a_java/)
 - [Has any attention been paid to how new Java features get into LLM training data?](https://www.reddit.com/r/java/comments/1vpjdcg/has_any_attention_been_paid_to_how_new_java/)
 - [State-of-the-art Bytecode Interpreters in Java by Yudi Zheng](https://www.reddit.com/r/java/comments/1vncl3m/stateoftheart_bytecode_interpreters_in_java_by/)
 - [&lpar;Project Amber&rpar; New guide: Preparing for Change: Safe Switching over Sealed APIs](https://www.reddit.com/r/java/comments/1vnb2qu/project_amber_new_guide_preparing_for_change_safe/)
 - [Jakarta EE 11 MVC sample](https://www.reddit.com/r/java/comments/1vn5zie/jakarta_ee_11_mvc_sample/)
 - [Monitoring Spring Boot Actuator on low-resource VPS nodes without running a second JVM](https://www.reddit.com/r/java/comments/1vmi7o7/monitoring_spring_boot_actuator_on_lowresource/)
-- [I made a website that automatically collects images of our favourite mascot duke!](https://www.reddit.com/r/java/comments/1vm81m1/i_made_a_website_that_automatically_collects/)
-- [GlassFish 9.0 M3 released!](https://www.reddit.com/r/java/comments/1vluwmt/glassfish_90_m3_released/)
-- [Events-Caravan, an event-sourcing framework that trades the global event log for horizontal scalability &lpar;DynamoDB/SNS/SQS reference impl, Spring Boot starters&rpar;](https://www.reddit.com/r/java/comments/1vlqxb6/eventscaravan_an_eventsourcing_framework_that/)
-- [Apache Fory™ JSON : Fastest JSON Serialization Framework for Java, 10x faster than Jackson/Gson](https://www.reddit.com/r/java/comments/1vljk87/apache_fory_json_fastest_json_serialization/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
