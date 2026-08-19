@@ -364,6 +364,7 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [AutoValhalla: automatically turn your plain classes and records into value classes!](https://www.reddit.com/r/java/comments/1vrtmew/autovalhalla_automatically_turn_your_plain/)
 - [Support for multiple Maven servers on GitHub&#39;s setup-java action](https://www.reddit.com/r/java/comments/1vrax18/support_for_multiple_maven_servers_on_githubs/)
 - [Red Hat Build of OpenJDK support on GitHub&#39;s setup-java Action](https://www.reddit.com/r/java/comments/1vrawmy/red_hat_build_of_openjdk_support_on_githubs/)
 - [A First Drink In Valhalla](https://www.reddit.com/r/java/comments/1vr5rwr/a_first_drink_in_valhalla/)
@@ -373,7 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [State-of-the-art Bytecode Interpreters in Java by Yudi Zheng](https://www.reddit.com/r/java/comments/1vncl3m/stateoftheart_bytecode_interpreters_in_java_by/)
 - [&lpar;Project Amber&rpar; New guide: Preparing for Change: Safe Switching over Sealed APIs](https://www.reddit.com/r/java/comments/1vnb2qu/project_amber_new_guide_preparing_for_change_safe/)
 - [Jakarta EE 11 MVC sample](https://www.reddit.com/r/java/comments/1vn5zie/jakarta_ee_11_mvc_sample/)
-- [Monitoring Spring Boot Actuator on low-resource VPS nodes without running a second JVM](https://www.reddit.com/r/java/comments/1vmi7o7/monitoring_spring_boot_actuator_on_lowresource/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
