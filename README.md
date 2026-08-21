@@ -364,6 +364,8 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Bypassing fixed-depth radix constraints in Java using descriptor-driven bucket analysis](https://www.reddit.com/r/java/comments/1vu03yw/bypassing_fixeddepth_radix_constraints_in_java/)
+- [FlexGanttFX is now open source — the professional JavaFX Gantt chart framework goes AGPLv3](https://www.reddit.com/r/java/comments/1vtj1ko/flexganttfx_is_now_open_source_the_professional/)
 - [Jactl Meets Apache Camel: Benchmarking camel-jactl](https://www.reddit.com/r/java/comments/1vt091z/jactl_meets_apache_camel_benchmarking_cameljactl/)
 - [Title: GraphCompose 2.2.0 — proper RTL, Arabic shaping and BiDi support in Java documents](https://www.reddit.com/r/java/comments/1vshepy/title_graphcompose_220_proper_rtl_arabic_shaping/)
 - [AutoValhalla: automatically turn your plain classes and records into value classes!](https://www.reddit.com/r/java/comments/1vrtmew/autovalhalla_automatically_turn_your_plain/)
@@ -372,8 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [A First Drink In Valhalla](https://www.reddit.com/r/java/comments/1vr5rwr/a_first_drink_in_valhalla/)
 - [Where and how did Java lose in the game dev space?](https://www.reddit.com/r/java/comments/1vqqhbg/where_and_how_did_java_lose_in_the_game_dev_space/)
 - [Automatic Relationship Finder &lpar;ARF&rpar; v1.2 – A Java library for discovering relationships between tables from data](https://www.reddit.com/r/java/comments/1vpl62v/automatic_relationship_finder_arf_v12_a_java/)
-- [Has any attention been paid to how new Java features get into LLM training data?](https://www.reddit.com/r/java/comments/1vpjdcg/has_any_attention_been_paid_to_how_new_java/)
-- [State-of-the-art Bytecode Interpreters in Java by Yudi Zheng](https://www.reddit.com/r/java/comments/1vncl3m/stateoftheart_bytecode_interpreters_in_java_by/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
