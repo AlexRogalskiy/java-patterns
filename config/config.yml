@@ -1,0 +1,15 @@
+rootURL: https://github.com/AlexRogalskiy/java-patterns
+
+fileIncludePatterns: '{.github,content,src}/**/*!(.test).{css,js,jsx,md,tsx,ts,json}'
+
+fileExcludePatternFile: ./config/excluded-files.yml
+linkExcludePatternFile: ./config/excluded-links.yml
+
+linkOptions:
+  '*.wikipedia.org':
+    minTime: 2000
+    maxConcurrent: 1
+
+  '(*.)?github.com':
+    minTime: 1000
+    maxConcurrent: 1

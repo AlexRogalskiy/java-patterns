@@ -1,0 +1,36 @@
+$schema: http://json.schemastore.org/prettierrc
+printWidth: 110
+tabWidth: 4
+useTabs: true
+endOfLine: lf
+semi: true
+singleQuote: true
+quoteProps: 'consistent'
+jsxSingleQuote: false
+trailingComma: 'all'
+bracketSpacing: true
+arrowParens: 'avoid'
+proseWrap: 'always'
+overrides:
+  - files:
+      - '*.html'
+      - 'legacy/**/*.js'
+    options:
+      semi: true
+  - files: '**/*.json*'
+    options:
+      parser: json
+      proseWrap: 'always'
+  - files: '**/*.md*'
+    options:
+      parser: markdown
+      proseWrap: 'always'
+  - files: '**/*.{yaml,yml}*'
+    options:
+      parser: yaml
+      tabWidth: 2
+      printWidth: 80
+  - files: '**/.all-(contributorsrc|membersrc|sponsorsrc)'
+    options:
+      parser: 'json-stringify'
+      singleQuote: false
