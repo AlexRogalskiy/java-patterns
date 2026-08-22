@@ -364,6 +364,7 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Spring Boot on a 512 MB VPS: what actually fits?](https://www.reddit.com/r/java/comments/1vuiau8/spring_boot_on_a_512_mb_vps_what_actually_fits/)
 - [Bypassing fixed-depth radix constraints in Java using descriptor-driven bucket analysis](https://www.reddit.com/r/java/comments/1vu03yw/bypassing_fixeddepth_radix_constraints_in_java/)
 - [FlexGanttFX is now open source — the professional JavaFX Gantt chart framework goes AGPLv3](https://www.reddit.com/r/java/comments/1vtj1ko/flexganttfx_is_now_open_source_the_professional/)
 - [Jactl Meets Apache Camel: Benchmarking camel-jactl](https://www.reddit.com/r/java/comments/1vt091z/jactl_meets_apache_camel_benchmarking_cameljactl/)
@@ -373,7 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [Red Hat Build of OpenJDK support on GitHub&#39;s setup-java Action](https://www.reddit.com/r/java/comments/1vrawmy/red_hat_build_of_openjdk_support_on_githubs/)
 - [A First Drink In Valhalla](https://www.reddit.com/r/java/comments/1vr5rwr/a_first_drink_in_valhalla/)
 - [Where and how did Java lose in the game dev space?](https://www.reddit.com/r/java/comments/1vqqhbg/where_and_how_did_java_lose_in_the_game_dev_space/)
-- [Automatic Relationship Finder &lpar;ARF&rpar; v1.2 – A Java library for discovering relationships between tables from data](https://www.reddit.com/r/java/comments/1vpl62v/automatic_relationship_finder_arf_v12_a_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
