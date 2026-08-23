@@ -364,6 +364,8 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Do you actually separate JPA Entities and Domain Objects, or is a single model enough?](https://www.reddit.com/r/java/comments/1vv9kkc/do_you_actually_separate_jpa_entities_and_domain/)
+- [Regex](https://www.reddit.com/r/java/comments/1vv596p/regex/)
 - [Spring Boot on a 512 MB VPS: what actually fits?](https://www.reddit.com/r/java/comments/1vuiau8/spring_boot_on_a_512_mb_vps_what_actually_fits/)
 - [Bypassing fixed-depth radix constraints in Java using descriptor-driven bucket analysis](https://www.reddit.com/r/java/comments/1vu03yw/bypassing_fixeddepth_radix_constraints_in_java/)
 - [FlexGanttFX is now open source — the professional JavaFX Gantt chart framework goes AGPLv3](https://www.reddit.com/r/java/comments/1vtj1ko/flexganttfx_is_now_open_source_the_professional/)
@@ -372,8 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [AutoValhalla: automatically turn your plain classes and records into value classes!](https://www.reddit.com/r/java/comments/1vrtmew/autovalhalla_automatically_turn_your_plain/)
 - [Support for multiple Maven servers on GitHub&#39;s setup-java action](https://www.reddit.com/r/java/comments/1vrax18/support_for_multiple_maven_servers_on_githubs/)
 - [Red Hat Build of OpenJDK support on GitHub&#39;s setup-java Action](https://www.reddit.com/r/java/comments/1vrawmy/red_hat_build_of_openjdk_support_on_githubs/)
-- [A First Drink In Valhalla](https://www.reddit.com/r/java/comments/1vr5rwr/a_first_drink_in_valhalla/)
-- [Where and how did Java lose in the game dev space?](https://www.reddit.com/r/java/comments/1vqqhbg/where_and_how_did_java_lose_in_the_game_dev_space/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
