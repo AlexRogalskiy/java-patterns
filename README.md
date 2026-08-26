@@ -364,6 +364,8 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Spring Boot on a 256 MB VPS: JDK 25 made the experiment viable](https://www.reddit.com/r/java/comments/1vy6cmi/spring_boot_on_a_256_mb_vps_jdk_25_made_the/)
+- [Value Classes Still Need Compiler Sympathy](https://www.reddit.com/r/java/comments/1vxwvdu/value_classes_still_need_compiler_sympathy/)
 - [Rule number 9 is not followed](https://www.reddit.com/r/java/comments/1vx7rg6/rule_number_9_is_not_followed/)
 - [Usage of Java in non-web development domains, and Greenfield projects.](https://www.reddit.com/r/java/comments/1vx60ks/usage_of_java_in_nonweb_development_domains_and/)
 - [FXML/2 for JavaFX](https://www.reddit.com/r/java/comments/1vwify0/fxml2_for_javafx/)
@@ -372,8 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [Do you actually separate JPA Entities and Domain Objects, or is a single model enough?](https://www.reddit.com/r/java/comments/1vv9kkc/do_you_actually_separate_jpa_entities_and_domain/)
 - [Regex](https://www.reddit.com/r/java/comments/1vv596p/regex/)
 - [Spring Boot on a 512 MB VPS: what actually fits?](https://www.reddit.com/r/java/comments/1vuiau8/spring_boot_on_a_512_mb_vps_what_actually_fits/)
-- [Bypassing fixed-depth radix constraints in Java using descriptor-driven bucket analysis](https://www.reddit.com/r/java/comments/1vu03yw/bypassing_fixeddepth_radix_constraints_in_java/)
-- [FlexGanttFX is now open source — the professional JavaFX Gantt chart framework goes AGPLv3](https://www.reddit.com/r/java/comments/1vtj1ko/flexganttfx_is_now_open_source_the_professional/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
