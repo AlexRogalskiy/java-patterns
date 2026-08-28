@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [How can we move forward?](https://www.reddit.com/r/java/comments/1w0m4b6/how_can_we_move_forward/)
+- [Yes, another Java build tool: zolt](https://www.reddit.com/r/java/comments/1w058rq/yes_another_java_build_tool_zolt/)
+- [Rainbow Gum release v0.10.0 &lpar;GraalVM/JLink/Valhalla ready&rpar; SLF4J implementation](https://www.reddit.com/r/java/comments/1w03lwd/rainbow_gum_release_v0100_graalvmjlinkvalhalla/)
+- [SnapCode with Java 21 in the browser](https://www.reddit.com/r/java/comments/1vzy70u/snapcode_with_java_21_in_the_browser/)
 - [Spring Boot on a 256 MB VPS: JDK 25 made the experiment viable](https://www.reddit.com/r/java/comments/1vy6cmi/spring_boot_on_a_256_mb_vps_jdk_25_made_the/)
 - [Value Classes Still Need Compiler Sympathy](https://www.reddit.com/r/java/comments/1vxwvdu/value_classes_still_need_compiler_sympathy/)
 - [Rule number 9 is not followed](https://www.reddit.com/r/java/comments/1vx7rg6/rule_number_9_is_not_followed/)
 - [Usage of Java in non-web development domains, and Greenfield projects.](https://www.reddit.com/r/java/comments/1vx60ks/usage_of_java_in_nonweb_development_domains_and/)
 - [FXML/2 for JavaFX](https://www.reddit.com/r/java/comments/1vwify0/fxml2_for_javafx/)
 - [Security Baked Into the JVM: sixteen Subjects on the wire](https://www.reddit.com/r/java/comments/1vwbi2e/security_baked_into_the_jvm_sixteen_subjects_on/)
-- [Java 27 features overview](https://www.reddit.com/r/java/comments/1vw1fhg/java_27_features_overview/)
-- [Do you actually separate JPA Entities and Domain Objects, or is a single model enough?](https://www.reddit.com/r/java/comments/1vv9kkc/do_you_actually_separate_jpa_entities_and_domain/)
-- [Regex](https://www.reddit.com/r/java/comments/1vv596p/regex/)
-- [Spring Boot on a 512 MB VPS: what actually fits?](https://www.reddit.com/r/java/comments/1vuiau8/spring_boot_on_a_512_mb_vps_what_actually_fits/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
