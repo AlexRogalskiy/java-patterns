@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [BlinkHouse - a ClickHouse-native persistence library for Java, v1.0.0](https://www.reddit.com/r/java/comments/1w1enha/blinkhouse_a_clickhousenative_persistence_library/)
+- [Question about Native Image vs JIT](https://www.reddit.com/r/java/comments/1w10y8b/question_about_native_image_vs_jit/)
+- [Attempting to reverse engineer git in Java - my current situation.](https://www.reddit.com/r/java/comments/1w0u643/attempting_to_reverse_engineer_git_in_java_my/)
+- [JEP draft: Structured Concurrency](https://www.reddit.com/r/java/comments/1w0sj8s/jep_draft_structured_concurrency/)
 - [How can we move forward?](https://www.reddit.com/r/java/comments/1w0m4b6/how_can_we_move_forward/)
 - [Yes, another Java build tool: zolt](https://www.reddit.com/r/java/comments/1w058rq/yes_another_java_build_tool_zolt/)
 - [Rainbow Gum release v0.10.0 &lpar;GraalVM/JLink/Valhalla ready&rpar; SLF4J implementation](https://www.reddit.com/r/java/comments/1w03lwd/rainbow_gum_release_v0100_graalvmjlinkvalhalla/)
 - [SnapCode with Java 21 in the browser](https://www.reddit.com/r/java/comments/1vzy70u/snapcode_with_java_21_in_the_browser/)
 - [Spring Boot on a 256 MB VPS: JDK 25 made the experiment viable](https://www.reddit.com/r/java/comments/1vy6cmi/spring_boot_on_a_256_mb_vps_jdk_25_made_the/)
 - [Value Classes Still Need Compiler Sympathy](https://www.reddit.com/r/java/comments/1vxwvdu/value_classes_still_need_compiler_sympathy/)
-- [Rule number 9 is not followed](https://www.reddit.com/r/java/comments/1vx7rg6/rule_number_9_is_not_followed/)
-- [Usage of Java in non-web development domains, and Greenfield projects.](https://www.reddit.com/r/java/comments/1vx60ks/usage_of_java_in_nonweb_development_domains_and/)
-- [FXML/2 for JavaFX](https://www.reddit.com/r/java/comments/1vwify0/fxml2_for_javafx/)
-- [Security Baked Into the JVM: sixteen Subjects on the wire](https://www.reddit.com/r/java/comments/1vwbi2e/security_baked_into_the_jvm_sixteen_subjects_on/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
