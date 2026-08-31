@@ -364,6 +364,9 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Open-source Spring Boot starter for fail-fast Kafka Schema Registry contract validation, looking for feedback](https://www.reddit.com/r/java/comments/1w2qp91/opensource_spring_boot_starter_for_failfast_kafka/)
+- [I developed an Android RTS game in Java](https://www.reddit.com/r/java/comments/1w2mbam/i_developed_an_android_rts_game_in_java/)
+- [Lidiuma-Math: a math library using Project Valhalla](https://www.reddit.com/r/java/comments/1w2h3i9/lidiumamath_a_math_library_using_project_valhalla/)
 - [BlinkHouse - a ClickHouse-native persistence library for Java, v1.0.0](https://www.reddit.com/r/java/comments/1w1enha/blinkhouse_a_clickhousenative_persistence_library/)
 - [Question about Native Image vs JIT](https://www.reddit.com/r/java/comments/1w10y8b/question_about_native_image_vs_jit/)
 - [Attempting to reverse engineer git in Java - my current situation.](https://www.reddit.com/r/java/comments/1w0u643/attempting_to_reverse_engineer_git_in_java_my/)
@@ -371,9 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [How can we move forward?](https://www.reddit.com/r/java/comments/1w0m4b6/how_can_we_move_forward/)
 - [Yes, another Java build tool: zolt](https://www.reddit.com/r/java/comments/1w058rq/yes_another_java_build_tool_zolt/)
 - [Rainbow Gum release v0.10.0 &lpar;GraalVM/JLink/Valhalla ready&rpar; SLF4J implementation](https://www.reddit.com/r/java/comments/1w03lwd/rainbow_gum_release_v0100_graalvmjlinkvalhalla/)
-- [SnapCode with Java 21 in the browser](https://www.reddit.com/r/java/comments/1vzy70u/snapcode_with_java_21_in_the_browser/)
-- [Spring Boot on a 256 MB VPS: JDK 25 made the experiment viable](https://www.reddit.com/r/java/comments/1vy6cmi/spring_boot_on_a_256_mb_vps_jdk_25_made_the/)
-- [Value Classes Still Need Compiler Sympathy](https://www.reddit.com/r/java/comments/1vxwvdu/value_classes_still_need_compiler_sympathy/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
