@@ -364,6 +364,7 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Concise method bodies arrived](https://www.reddit.com/r/java/comments/1w4dpuf/concise_method_bodies_arrived/)
 - [Jactl Continuations for Simulating Virtual Threads in Java 8](https://www.reddit.com/r/java/comments/1w3fe6b/jactl_continuations_for_simulating_virtual/)
 - [Would you rewrite a small Kotlin library in Java just to avoid stdlib ?](https://www.reddit.com/r/java/comments/1w3f9d9/would_you_rewrite_a_small_kotlin_library_in_java/)
 - [Java JVM CPU and Memory Requests and Limits in Kubernetes](https://www.reddit.com/r/java/comments/1w3dhq0/java_jvm_cpu_and_memory_requests_and_limits_in/)
@@ -373,7 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [Lidiuma-Math: a math library using Project Valhalla](https://www.reddit.com/r/java/comments/1w2h3i9/lidiumamath_a_math_library_using_project_valhalla/)
 - [BlinkHouse - a ClickHouse-native persistence library for Java, v1.0.0](https://www.reddit.com/r/java/comments/1w1enha/blinkhouse_a_clickhousenative_persistence_library/)
 - [Question about Native Image vs JIT](https://www.reddit.com/r/java/comments/1w10y8b/question_about_native_image_vs_jit/)
-- [Attempting to reverse engineer git in Java - my current situation.](https://www.reddit.com/r/java/comments/1w0u643/attempting_to_reverse_engineer_git_in_java_my/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
