@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [VectorApi with values classes, when??](https://www.reddit.com/r/java/comments/1w7nleo/vectorapi_with_values_classes_when/)
+- [Custom pie chart component I made in Swing](https://www.reddit.com/r/java/comments/1w7doyi/custom_pie_chart_component_i_made_in_swing/)
+- [Principles of Memory Management in Java](https://www.reddit.com/r/java/comments/1w7afwf/principles_of_memory_management_in_java/)
+- [JairoSVG 1.0.14 is out](https://www.reddit.com/r/java/comments/1w77bo1/jairosvg_1014_is_out/)
+- [[Java][JVM][Tuning][Profiling][G1][JIT] Why is Arrays.fill 265 times slower on G1GC?](https://www.reddit.com/r/java/comments/1w76grj/javajvmtuningprofilingg1jit_why_is_arraysfill_265/)
 - [Spring Boot vs Quarkus on a 512 MB VPS with JDK 25](https://www.reddit.com/r/java/comments/1w6erk3/spring_boot_vs_quarkus_on_a_512_mb_vps_with_jdk_25/)
 - [Vert.x Event-Loop vs Virtual Threads: Jactl Suspend/Resume Benchmark](https://www.reddit.com/r/java/comments/1w6704f/vertx_eventloop_vs_virtual_threads_jactl/)
 - [Concise method bodies arrived](https://www.reddit.com/r/java/comments/1w4dpuf/concise_method_bodies_arrived/)
 - [Jactl Continuations for Simulating Virtual Threads in Java 8](https://www.reddit.com/r/java/comments/1w3fe6b/jactl_continuations_for_simulating_virtual/)
 - [Would you rewrite a small Kotlin library in Java just to avoid stdlib ?](https://www.reddit.com/r/java/comments/1w3f9d9/would_you_rewrite_a_small_kotlin_library_in_java/)
-- [Java JVM CPU and Memory Requests and Limits in Kubernetes](https://www.reddit.com/r/java/comments/1w3dhq0/java_jvm_cpu_and_memory_requests_and_limits_in/)
-- [LarkBatis: A build-time MyBatis compiled to plain Java](https://www.reddit.com/r/java/comments/1w38quf/larkbatis_a_buildtime_mybatis_compiled_to_plain/)
-- [Open-source Spring Boot starter for fail-fast Kafka Schema Registry contract validation, looking for feedback](https://www.reddit.com/r/java/comments/1w2qp91/opensource_spring_boot_starter_for_failfast_kafka/)
-- [I developed an Android RTS game in Java](https://www.reddit.com/r/java/comments/1w2mbam/i_developed_an_android_rts_game_in_java/)
-- [Lidiuma-Math: a math library using Project Valhalla](https://www.reddit.com/r/java/comments/1w2h3i9/lidiumamath_a_math_library_using_project_valhalla/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
