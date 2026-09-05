@@ -1,78 +1,327 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+# Test this locally with:
+#   $ docker run --rm -it -v $(pwd):$(pwd) --workdir $(pwd) python:3 bash
+#   # pip install -r docs/requirements.txt
+#   # mkdocs serve
+#   # mkdocs build
+#   $ ls -lah site/
+# Site specific data
 site_name: Java Patterns
-site_description: >
-  java design patterns and architectural concepts
+site_description: >-
+  java code patterns and basic architecture designing concepts
 site_author: Alexander Rogalskiy
-site_url: https://alexander-rogalsky.gitbook.io/java-patterns-docs/
+# Canonical URL (HTML content instructs search engines that this is where the preferred version of the docs is located, useful when we have duplicate content like versioned docs)
+# https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Choosing_between_www_and_non-www_URLs#using_%3Clink_relcanonical%3E
+# Also required for `sitemap.xml` generation at build time; which bots use to assist them crawling and indexing a website,
+# the `mkdocs-material` 'Instant Navigation' feature utilizes the sitemap data to work.
+site_url: https://alexander-rogalsky.gitbook.io/java-patterns/
 
+# The main docs content lives here, any files will be copied over to the deployed version,
+# unless the file or directory name is prefixed with a `.`
+docs_dir: docs/
+
+remote_branch: gh-pages
+
+# Google analytics
+# google_analytics: ['UA-7131053-20', 'auto']
+
+# Project source specific data
 repo_name: AlexRogalskiy/java-patterns
-repo_url: https://gitlab.com/AlexRogalskiy/java-patterns
-edit_uri: https://gitlab.com/AlexRogalskiy/java-patterns/master/docs/
+repo_url: https://github.com/AlexRogalskiy/java-patterns
 
-#Copyright (shown at the footer)
-copyright: 'Copyright &copy; 2021 Nullables.io'
+# All docs `edit` button will go to this subpath of the `repo_url`:
+# For versioned docs, this may be a little misleading for a user not viewing the `edge` docs which match the `master` branch.
+edit_uri: edit/master/docs
 
+# Copyright (shown at the footer)
+copyright:
+  Copyright &copy; 2021-2022 <a
+  href="https://github.com/AlexRogalskiy/java-patterns"><em>Nullables.io</em></a><br/><span>This
+  project is licensed under the <a
+  href="https://github.com/AlexRogalskiy/java-patterns/blob/master/LICENSE.txt"><em>GPL license</em></a>.</span></p> <p>All rights
+  reserved.</p>
+
+# Other settings
+use_directory_urls: true
+strict: false # halt processing when a warning is raised
+
+dev_addr: '0.0.0.0:8000'
+
+# Theme settings
 theme:
   name: material
+  language: en
+  highlightjs: true
+  titles_only: false
+  collapse_navigation: false
+  include_sidebar: true
+  hljs_languages:
+    - yaml
+    - json
+    - bash
+    - dockerfile
+  custom_dir: docs/overrides
+  include_search_page: false
+  search_index_only: true
+  static_templates:
+    - 401.html
+    - 404.html
+  i18n:
+    prev: 'Previous'
+    next: 'Next'
   font:
     text: Roboto
     code: Roboto Mono
-  palette:
-    scheme: preference
-    primary: deep-orange
-    accent: deep-orange
+  logo: assets/images/logos/logo.svg
+  favicon: assets/images/favicons/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
   features:
-    - navigation.tabs
+    - announce.dismiss
+    - tabs
+    # show back to top button
+    - navigation.instant
+    - navigation.top
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+tabs#navigation-tabs
+    - navigation.tabs.sticky
+    # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/?h=navigation+tabs#anchor-tracking
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    #     - navigation.instant
+    - navigation.indexes
+    # search suggestions: https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
     - search.suggest
+    - search.share
+    # highlight search term on target page: https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
     - search.highlight
     - header.autohide
-  highlightjs: true
-  language: 'en'
+    - toc.integrate
+    - toc.autohide
+    - content.tabs.link
+    - content.code.annotate
+  palette:
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: 'black'
+      accent: 'grey'
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: light blue
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 
+# Plugins settings
 plugins:
-  - search
-#  - minify:
-#      minify_html: true
+  #   - redirects:
+  #       redirect_maps:
+  #         'README.md': 'README.md'
+  - exclude:
+      glob:
+        - "*.tmp"
+        - "*.pdf"
+        - "*.gz"
+      regex:
+        - '.*\.(tmp|bin|tar)$'
+#  - mkdocstrings
+#  - render_swagger
+  - mike:
+      # these fields are all optional; the defaults are as below...
+      version_selector: true # set to false to leave out the version selector
+      css_dir: css # the directory to put the version selector's CSS
+      javascript_dir: js # the directory to put the version selector's JS
+      canonical_version:
+        null # the version for <link rel="canonical">; `null`
+        # uses the version specified via `mike deploy`
+  - mermaid2
+  - em-img2fig
+  - mkdocs-video
+  #      mark: 'video-marker'
+  #      is_video: true
+  #      video_autoplay: false
+  #      css_style:
+  #        width: '100%'
+  #        height: '22.172vw'
+  - search:
+      lang:
+        - en
+        - ru
+  - codeinclude
+  - markdownextradata
+  - i18n:
+      default_language: en
+      languages:
+        en: English
+        ru: Russian
+  - git-revision-date-localized: # https://squidfunk.github.io/mkdocs-material/plugins/revision-date/
+      fallback_to_build_date: true
+      type: date
+  - awesome-pages:
+      filename: _config.yml # https://squidfunk.github.io/mkdocs-material/plugins/awesome-pages/
+  - include-markdown # https://github.com/mondeja/mkdocs-include-markdown-plugin
+  - minify:
+      minify_html: true
+  - macros:
+      modules:
+        - docs.mkdocs_macros
+  - mkdocs-simple-hooks:
+      enabled: !ENV [ENABLE_MKDOCS_SIMPLE_HOOKS, True]
+      hooks:
+        on_pre_build: 'docs.hooks:copy_generated_files'
+  - literate-nav
 
+# Extra settings
 extra:
+  homepage: https://alexander-rogalsky.gitbook.io/java-patterns/
+  generator: false
   social:
     - icon: fontawesome/brands/github-alt
-      link: 'https://github.com/AlexRogalskiy/java-patterns'
+      link: https://github.com/AlexRogalskiy/java-patterns
+      name: Go to GitHub
+    - icon: fontawesome/regular/circle-question
+      link: https://github.com/AlexRogalskiy/java-patterns/issues
+      title: Need help ? Post an issue :)
+    - icon: kofi
+      link: https://ko-fi.com/alexrogalskiy
+      name: Go to Kofi
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/repository/docker/alexanderr/styled-java-patterns
+      name: Go to Docker Hub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/alexander-rogalskiy-985a4828/
+      name: Go to LinkedIn
+  version:
+    provider: mike
+    default: latest
+  #  analytics:
+  #    provider: google
+  #    property: G-FB1NX90MYZ
+  consent:
+    cookies:
+      analytics: Google Analytics
+    title: Cookie consent
+    description: >
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
 
+# Extra css settings
+# https://squidfunk.github.io/mkdocs-material/customization/?h=#additional-css
+extra_css:
+  - assets/css/customizations.css
+  - assets/css/asciinema-player.css
+  - assets/css/extra.css
+
+# Extra javascript settings
+# https://squidfunk.github.io/mkdocs-material/customization/?h=#additional-javascript
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - https://unpkg.com/mermaid@8.9.3/dist/mermaid.min.js
+  - assets/js/asciinema-player.js
+  - assets/js/chat.js
+  - assets/js/sidecar-1.5.0.js
+
+# Extensions settings
 markdown_extensions:
-  - markdown.extensions.admonition
-  - markdown.extensions.codehilite:
+  # https://www.mkdocs.org/user-guide/writing-your-docs/#linking-to-pages
+  - toc:
+      anchorlink: true
+      permalink: true
+      toc_depth: 3
+      slugify: !!python/name:pymdownx.slugs.uslugify
+      title: On this page
+  - abbr: {}
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown/?h=attr#attribute-lists attr_list is required for several other features. Always enable.
+  - attr_list: {}
+#  - mkdocs-click: {}
+  - def_list: {}
+  # https://squidfunk.github.io/mkdocs-material/reference/admonitions/?h=admoni
+  - admonition: {}
+  - footnotes: {}
+  - tables: {}
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#superfences Used for tags, setting unique templates for certain pages, and other custom frontmatter.
+  - meta: {}
+  - md_in_html: {}
+  - mkautodoc: {}
+  - codehilite: # https://squidfunk.github.io/mkdocs-material/extensions/codehilite/
       linenums: true
       use_pygments: false
-  - markdown.extensions.def_list
-  - markdown.extensions.footnotes
-  - markdown.extensions.meta
-  - markdown.extensions.toc:
-      permalink: true
+      guess_lang: false
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#highlight
+  - pymdownx.highlight:
+      linenums: true
+      extend_pygments_lang:
+        - name: yml
+          lang: yaml
+        - name: cf
+          lang: cfg
+        - name: conf
+          lang: cfg
+        - name: env
+          lang: properties
+        # Not helpful with Python Pygments lexer highlighting, but we might change to a JS highlighter in future
+        # Ideally, this type of codefence might also have word-wrap enabled (CSS: {white-space: pre-wrap})
+        - name: log
+          lang: shell-session
+        - name: fetchmailrc
+          lang: txt
+        - name: caddyfile
+          lang: txt
+  - pymdownx.escapeall: {}
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - pymdownx.extra: {}
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#snippets
+  - pymdownx.snippets:
+      base_path: docs/snippets
+      check_paths: true
+  - pymdownx.tilde: {}
+  - pymdownx.magiclink:
+      repo_url_shortener: true
+      social_url_shortener: true
+      user: AlexRogalskiy
+      repo: java-patterns
+  - pymdownx.caret: {}
+  - pymdownx.keys: {}
+  - pymdownx.smartsymbols: {}
+  - pymdownx.progressbar: {}
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.mark: {}
+  - pymdownx.critic: {}
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#inlinehilite
+  - pymdownx.inlinehilite: {}
+  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#superfences Superfences is required for several other features. Always enable.
+  - pymdownx.superfences:
+      preserve_tabs: true
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format:
+            !!python/name:pymdownx.superfences.fence_div_format # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#tabbed
 
-pages:
-  - Introduction: README.md
-  - Table of contents: SUMMARY.md
-  - User Guide:
-      - Changelog: user-guide/changelog.md
-      - Dependency: user-guide/dependency.md
-      - FAQ: user-guide/faq.md
-      - Getting Started: user-guide/getting-started.md
-      - Code of Conduct: user-guide/code_of_conduct.md
-      - Code Owners: user-guide/code_owners.md
-      - Troubleshooting: user-guide/troubleshooting.md
-      - Upgrade: user-guide/upgrade.md
-  - Units:
-      - Design patterns: units/design-patterns.md
-      - Scenarios: units/scenarios.md
-      - Use cases: units/use-cases.md
-  - Contributing:
-      - Information: contributing/info.md
-  - Reporting:
-      - Information: reporting/info.md
-      - Bug Report: reporting/bug_report.md
-      - Custom Report: reporting/custom_report.md
-      - Issue Report: reporting/issue_template.md
-      - Feature Request: reporting/feature_request_template.md
-      - Pull Request: reporting/pull_request_template.md
-  - Links:
-      - Information: links/info.md
+
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details: {} # https://squidfunk.github.io/mkdocs-material/extensions/pymdown/#details
+  - pymdownx.emoji: # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#configuration
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - docs/overrides/.icons
+  - smarty: {} # https://python-markdown.github.io/extensions/smarty/
+  - nl2br: {} # https://python-markdown.github.io/extensions/smarty/
+  - mdx_truly_sane_lists: {} # https://github.com/radude/mdx_truly_sane_lists -> proper indentation of md list items
+
+# Navigation
+# nav: omitted, because we're using the awesome-pages plugin (https://squidfunk.github.io/mkdocs-material/plugins/awesome-pages/)

@@ -1,0 +1,31 @@
+name: lychee link Checker cronjob
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+  schedule:
+    - cron: "00 18 * * *"
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Install prerequisites
+        run: |
+          npm install
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.0.8
+        with:
+          args: --verbose --no-progress --exclude-all-private **/*.md
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

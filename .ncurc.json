@@ -1,0 +1,5 @@
+{
+	"upgrade": true,
+	"filter": "express",
+	"reject": ["@types/estree", "ts-node"]
+}
