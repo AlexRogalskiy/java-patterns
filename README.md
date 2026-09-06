@@ -364,6 +364,8 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Moving Java services off memory-based HPA — is CPU/RPS for HTTP and queue-depth for async the right call?](https://www.reddit.com/r/java/comments/1w8amaq/moving_java_services_off_memorybased_hpa_is/)
+- [&quot;Deep Magic&quot; in Java](https://www.reddit.com/r/java/comments/1w7r7nu/deep_magic_in_java/)
 - [VectorApi with values classes, when??](https://www.reddit.com/r/java/comments/1w7nleo/vectorapi_with_values_classes_when/)
 - [Custom pie chart component I made in Swing](https://www.reddit.com/r/java/comments/1w7doyi/custom_pie_chart_component_i_made_in_swing/)
 - [Principles of Memory Management in Java](https://www.reddit.com/r/java/comments/1w7afwf/principles_of_memory_management_in_java/)
@@ -372,8 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [Spring Boot vs Quarkus on a 512 MB VPS with JDK 25](https://www.reddit.com/r/java/comments/1w6erk3/spring_boot_vs_quarkus_on_a_512_mb_vps_with_jdk_25/)
 - [Vert.x Event-Loop vs Virtual Threads: Jactl Suspend/Resume Benchmark](https://www.reddit.com/r/java/comments/1w6704f/vertx_eventloop_vs_virtual_threads_jactl/)
 - [Concise method bodies arrived](https://www.reddit.com/r/java/comments/1w4dpuf/concise_method_bodies_arrived/)
-- [Jactl Continuations for Simulating Virtual Threads in Java 8](https://www.reddit.com/r/java/comments/1w3fe6b/jactl_continuations_for_simulating_virtual/)
-- [Would you rewrite a small Kotlin library in Java just to avoid stdlib ?](https://www.reddit.com/r/java/comments/1w3f9d9/would_you_rewrite_a_small_kotlin_library_in_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
