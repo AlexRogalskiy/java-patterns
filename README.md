@@ -364,6 +364,7 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [When ORM Becomes OMG- Performance Pitfalls in JPA and Friends by Jos Roseboom](https://www.reddit.com/r/java/comments/1w8tdlw/when_orm_becomes_omg_performance_pitfalls_in_jpa/)
 - [Moving Java services off memory-based HPA — is CPU/RPS for HTTP and queue-depth for async the right call?](https://www.reddit.com/r/java/comments/1w8amaq/moving_java_services_off_memorybased_hpa_is/)
 - [&quot;Deep Magic&quot; in Java](https://www.reddit.com/r/java/comments/1w7r7nu/deep_magic_in_java/)
 - [VectorApi with values classes, when??](https://www.reddit.com/r/java/comments/1w7nleo/vectorapi_with_values_classes_when/)
@@ -373,7 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [[Java][JVM][Tuning][Profiling][G1][JIT] Why is Arrays.fill 265 times slower on G1GC?](https://www.reddit.com/r/java/comments/1w76grj/javajvmtuningprofilingg1jit_why_is_arraysfill_265/)
 - [Spring Boot vs Quarkus on a 512 MB VPS with JDK 25](https://www.reddit.com/r/java/comments/1w6erk3/spring_boot_vs_quarkus_on_a_512_mb_vps_with_jdk_25/)
 - [Vert.x Event-Loop vs Virtual Threads: Jactl Suspend/Resume Benchmark](https://www.reddit.com/r/java/comments/1w6704f/vertx_eventloop_vs_virtual_threads_jactl/)
-- [Concise method bodies arrived](https://www.reddit.com/r/java/comments/1w4dpuf/concise_method_bodies_arrived/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
