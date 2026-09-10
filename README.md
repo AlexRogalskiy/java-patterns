@@ -364,6 +364,9 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [What if Java had been designed to replace C++ without a JVM?](https://www.reddit.com/r/java/comments/1wc3i9w/what_if_java_had_been_designed_to_replace_c/)
+- [I’ve maintained the same Java ETL tool for 20 years. I think it still fits one narrow gap.](https://www.reddit.com/r/java/comments/1wbsofz/ive_maintained_the_same_java_etl_tool_for_20/)
+- [How has the Java job market been for you lately?](https://www.reddit.com/r/java/comments/1wbrr5e/how_has_the_java_job_market_been_for_you_lately/)
 - [Improving First Request Latency in Java Spring Application](https://www.reddit.com/r/java/comments/1wa0z1t/improving_first_request_latency_in_java_spring/)
 - [When ORM Becomes OMG- Performance Pitfalls in JPA and Friends by Jos Roseboom](https://www.reddit.com/r/java/comments/1w8tdlw/when_orm_becomes_omg_performance_pitfalls_in_jpa/)
 - [Moving Java services off memory-based HPA — is CPU/RPS for HTTP and queue-depth for async the right call?](https://www.reddit.com/r/java/comments/1w8amaq/moving_java_services_off_memorybased_hpa_is/)
@@ -371,9 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [VectorApi with values classes, when??](https://www.reddit.com/r/java/comments/1w7nleo/vectorapi_with_values_classes_when/)
 - [Custom pie chart component I made in Swing](https://www.reddit.com/r/java/comments/1w7doyi/custom_pie_chart_component_i_made_in_swing/)
 - [Principles of Memory Management in Java](https://www.reddit.com/r/java/comments/1w7afwf/principles_of_memory_management_in_java/)
-- [JairoSVG 1.0.14 is out](https://www.reddit.com/r/java/comments/1w77bo1/jairosvg_1014_is_out/)
-- [[Java][JVM][Tuning][Profiling][G1][JIT] Why is Arrays.fill 265 times slower on G1GC?](https://www.reddit.com/r/java/comments/1w76grj/javajvmtuningprofilingg1jit_why_is_arraysfill_265/)
-- [Spring Boot vs Quarkus on a 512 MB VPS with JDK 25](https://www.reddit.com/r/java/comments/1w6erk3/spring_boot_vs_quarkus_on_a_512_mb_vps_with_jdk_25/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
