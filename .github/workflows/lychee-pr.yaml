@@ -33,7 +33,7 @@ jobs:
 
       - name: lychee Link Checker
         id: lychee
-        uses: lycheeverse/lychee-action@v1.0.8
+        uses: lycheeverse/lychee-action@v2.0.2
         with:
           args: --verbose --no-progress --exclude-all-private ${{ steps.getfile.outputs.ts }}
         env:
