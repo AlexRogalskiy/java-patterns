@@ -364,9 +364,9 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [What if Java had been designed to replace C++ without a JVM?](https://www.reddit.com/r/java/comments/1wc3i9w/what_if_java_had_been_designed_to_replace_c/)
+- [New candidate JEP: 544: Ahead-of-Time Code Compilation](https://www.reddit.com/r/java/comments/1wcs9ir/new_candidate_jep_544_aheadoftime_code_compilation/)
+- [ChaosTree v2.0.0 A high performance Sorted Set/Map Library](https://www.reddit.com/r/java/comments/1wcrqy1/chaostree_v200_a_high_performance_sorted_setmap/)
 - [I’ve maintained the same Java ETL tool for 20 years. I think it still fits one narrow gap.](https://www.reddit.com/r/java/comments/1wbsofz/ive_maintained_the_same_java_etl_tool_for_20/)
-- [How has the Java job market been for you lately?](https://www.reddit.com/r/java/comments/1wbrr5e/how_has_the_java_job_market_been_for_you_lately/)
 - [Improving First Request Latency in Java Spring Application](https://www.reddit.com/r/java/comments/1wa0z1t/improving_first_request_latency_in_java_spring/)
 - [When ORM Becomes OMG- Performance Pitfalls in JPA and Friends by Jos Roseboom](https://www.reddit.com/r/java/comments/1w8tdlw/when_orm_becomes_omg_performance_pitfalls_in_jpa/)
 - [Moving Java services off memory-based HPA — is CPU/RPS for HTTP and queue-depth for async the right call?](https://www.reddit.com/r/java/comments/1w8amaq/moving_java_services_off_memorybased_hpa_is/)
