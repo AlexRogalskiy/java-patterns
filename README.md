@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [EU Cyber Resilience Act reporting obligations started today. Is your company even thinking about it?](https://www.reddit.com/r/java/comments/1wdrv6s/eu_cyber_resilience_act_reporting_obligations/)
+- [JavaFX 27 Release Notes](https://www.reddit.com/r/java/comments/1wdf3rt/javafx_27_release_notes/)
+- [Resource Bundle Plugin](https://www.reddit.com/r/java/comments/1wden4v/resource_bundle_plugin/)
+- [Eclipse 2026-09 &lpar;4.41&rpar; Released!](https://www.reddit.com/r/java/comments/1wdaasq/eclipse_202609_441_released/)
 - [New candidate JEP: 544: Ahead-of-Time Code Compilation](https://www.reddit.com/r/java/comments/1wcs9ir/new_candidate_jep_544_aheadoftime_code_compilation/)
 - [ChaosTree v2.0.0 A high performance Sorted Set/Map Library](https://www.reddit.com/r/java/comments/1wcrqy1/chaostree_v200_a_high_performance_sorted_setmap/)
 - [I’ve maintained the same Java ETL tool for 20 years. I think it still fits one narrow gap.](https://www.reddit.com/r/java/comments/1wbsofz/ive_maintained_the_same_java_etl_tool_for_20/)
 - [Improving First Request Latency in Java Spring Application](https://www.reddit.com/r/java/comments/1wa0z1t/improving_first_request_latency_in_java_spring/)
 - [When ORM Becomes OMG- Performance Pitfalls in JPA and Friends by Jos Roseboom](https://www.reddit.com/r/java/comments/1w8tdlw/when_orm_becomes_omg_performance_pitfalls_in_jpa/)
 - [Moving Java services off memory-based HPA — is CPU/RPS for HTTP and queue-depth for async the right call?](https://www.reddit.com/r/java/comments/1w8amaq/moving_java_services_off_memorybased_hpa_is/)
-- [&quot;Deep Magic&quot; in Java](https://www.reddit.com/r/java/comments/1w7r7nu/deep_magic_in_java/)
-- [VectorApi with values classes, when??](https://www.reddit.com/r/java/comments/1w7nleo/vectorapi_with_values_classes_when/)
-- [Custom pie chart component I made in Swing](https://www.reddit.com/r/java/comments/1w7doyi/custom_pie_chart_component_i_made_in_swing/)
-- [Principles of Memory Management in Java](https://www.reddit.com/r/java/comments/1w7afwf/principles_of_memory_management_in_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
