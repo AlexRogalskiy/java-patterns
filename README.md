@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [JDK 27 Runtime Updates Release Notes](https://www.reddit.com/r/java/comments/1wepfxe/jdk_27_runtime_updates_release_notes/)
+- [Podcast about Java 27](https://www.reddit.com/r/java/comments/1we8wq8/podcast_about_java_27/)
+- [Eclipse 2026-09 version came out](https://www.reddit.com/r/java/comments/1we8ltq/eclipse_202609_version_came_out/)
+- [JEP draft for Adaptive Heap Sizing for ZGC quietly mentions JDK 28](https://www.reddit.com/r/java/comments/1we89ho/jep_draft_for_adaptive_heap_sizing_for_zgc/)
+- [Jakarta Faces, Java Web Framework, Stateless Edition: Marketplace AliFaces](https://www.reddit.com/r/java/comments/1we7rdw/jakarta_faces_java_web_framework_stateless/)
+- [Release Release v0.10.0 · jonas-grgt/bob](https://www.reddit.com/r/java/comments/1we6d04/release_release_v0100_jonasgrgtbob/)
 - [EU Cyber Resilience Act reporting obligations started today. Is your company even thinking about it?](https://www.reddit.com/r/java/comments/1wdrv6s/eu_cyber_resilience_act_reporting_obligations/)
 - [JavaFX 27 Release Notes](https://www.reddit.com/r/java/comments/1wdf3rt/javafx_27_release_notes/)
 - [Resource Bundle Plugin](https://www.reddit.com/r/java/comments/1wden4v/resource_bundle_plugin/)
 - [Eclipse 2026-09 &lpar;4.41&rpar; Released!](https://www.reddit.com/r/java/comments/1wdaasq/eclipse_202609_441_released/)
-- [New candidate JEP: 544: Ahead-of-Time Code Compilation](https://www.reddit.com/r/java/comments/1wcs9ir/new_candidate_jep_544_aheadoftime_code_compilation/)
-- [ChaosTree v2.0.0 A high performance Sorted Set/Map Library](https://www.reddit.com/r/java/comments/1wcrqy1/chaostree_v200_a_high_performance_sorted_setmap/)
-- [I’ve maintained the same Java ETL tool for 20 years. I think it still fits one narrow gap.](https://www.reddit.com/r/java/comments/1wbsofz/ive_maintained_the_same_java_etl_tool_for_20/)
-- [Improving First Request Latency in Java Spring Application](https://www.reddit.com/r/java/comments/1wa0z1t/improving_first_request_latency_in_java_spring/)
-- [When ORM Becomes OMG- Performance Pitfalls in JPA and Friends by Jos Roseboom](https://www.reddit.com/r/java/comments/1w8tdlw/when_orm_becomes_omg_performance_pitfalls_in_jpa/)
-- [Moving Java services off memory-based HPA — is CPU/RPS for HTTP and queue-depth for async the right call?](https://www.reddit.com/r/java/comments/1w8amaq/moving_java_services_off_memorybased_hpa_is/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
