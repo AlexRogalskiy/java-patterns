@@ -1,0 +1,6 @@
+repository: java-patterns
+labels:
+  - good first issue
+  - help-wanted
+  - first-time-only
+template: .github/first-timers-issue-template.md

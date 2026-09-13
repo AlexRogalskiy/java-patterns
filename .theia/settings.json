@@ -1,0 +1,9 @@
+{
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"workbench.iconTheme": "theia-file-icons",
+	"preview.openByDefault": true,
+	"editor.autoSave": "on",
+	"[markdown]": {
+		"editor.wordWrap": "on"
+	}
+}

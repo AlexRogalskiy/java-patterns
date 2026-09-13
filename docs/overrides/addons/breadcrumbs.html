@@ -1,0 +1,70 @@
+<div role="navigation" aria-label="breadcrumbs navigation">
+    <ul class="wy-breadcrumbs">
+        <li><a href="{{ nav.homepage.url|url }}">Docs</a> &raquo;</li>
+        {% if page %}
+        {% for doc in page.ancestors %}
+        {% if doc.link %}
+        <li><a href="{{ doc.link|e }}">{{ doc.title }}</a> &raquo;</li>
+        {% else %}
+        <li>{{ doc.title }} &raquo;</li>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+        {% if page %}<li>{{ page.title }}</li>{% endif %}
+
+        {% if page and page.file.src_path != "actions.md" and page.file.src_path != "plugins/available-plugins.md" %}
+        <li class="wy-breadcrumbs-aside">
+            {%- block repo %}
+
+            {% set icon_class_block %}
+            {%- if config.repo_name|lower == 'github' %}
+            class="icon icon-github"
+            {%- elif config.repo_name|lower == 'bitbucket' %}
+            class="icon icon-bitbucket"
+            {%- elif config.repo_name|lower == 'gitlab' %}
+            class="icon icon-gitlab"
+            {% endif %}
+            {% endset %}
+
+            {% set edit_docs_file_url %}
+            {%- if "actions/" in page.file.src_path %}
+            {{ config.extra.fastlane_repo_base_edit_uri }}/{{ page.file.src_path|string|safe|replace(".md", ".rb") }}
+            {%- elif page.edit_url %}
+            {{ page.edit_url }}
+            {%- endif %}
+            {% endset %}
+
+            <a href="{{ edit_docs_file_url }}" {{ icon_class_block }}>Edit on {{ config.repo_name }}</a>
+
+            {%- endblock %}
+        </li>
+        {% endif %}
+
+        <li class="wy-breadcrumbs-aside wy-breadcrumbs-aside-search">
+            <input type="text" name="q" placeholder="Search docs" />
+        </li>
+    </ul>
+    {% if config.theme.prev_next_buttons_location|lower in ['top', 'both']
+    and page and (page.next_page or page.previous_page) %}
+    <div class="rst-breadcrumbs-buttons" role="navigation" aria-label="breadcrumb navigation">
+        {%- if page.next_page %}
+        <a href="{{ page.next_page.url|url }}" class="btn btn-neutral float-right" title="{{ page.next_page.title }}">Next <span class="icon icon-circle-arrow-right"></span></a>
+        {%- endif %}
+        {%- if page.previous_page %}
+        <a href="{{ page.previous_page.url|url }}" class="btn btn-neutral" title="{{ page.previous_page.title }}"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        {%- endif %}
+    </div>
+    {% endif %}
+    <hr/>
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
+<!-- at the end of the BODY -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+<script type="text/javascript"> docsearch({
+    apiKey: 'c651753b86f5f8a00f8f2e9e9ca95865',
+    indexName: 'fastlane',
+    inputSelector: 'body > div.wy-grid-for-nav > section > div > div > div:nth-child(1) > ul > li.wy-breadcrumbs-aside > input[type="text"]',
+    debug: false
+});
+</script>

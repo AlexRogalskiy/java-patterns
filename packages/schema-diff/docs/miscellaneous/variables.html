@@ -1,0 +1,581 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>@java-patterns/schema-diff documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">@java-patterns/schema-diff documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content miscellaneous-variables">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Miscellaneous</li>
+  <li>Variables</li>
+</ol>
+
+<section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <ul class="index-list">
+                        <li>
+                            <a href="#baseV1Name" title="src/index.ts" ><b>baseV1Name</b>&nbsp;&nbsp;&nbsp;(src/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#baseV2Name" title="src/index.ts" ><b>baseV2Name</b>&nbsp;&nbsp;&nbsp;(src/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#diffDirectories" title="src/index.ts" ><b>diffDirectories</b>&nbsp;&nbsp;&nbsp;(src/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#fromSchemaRoot" title="src/index.ts" ><b>fromSchemaRoot</b>&nbsp;&nbsp;&nbsp;(src/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getBranchDrift" title="src/index.ts" ><b>getBranchDrift</b>&nbsp;&nbsp;&nbsp;(src/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#getChangedFiles" title="src/index.ts" ><b>getChangedFiles</b>&nbsp;&nbsp;&nbsp;(src/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#GitChangeToFileStatus" title="src/index.ts" ><b>GitChangeToFileStatus</b>&nbsp;&nbsp;&nbsp;(src/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#hashFile" title="src/index.ts" ><b>hashFile</b>&nbsp;&nbsp;&nbsp;(src/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#isDirectory" title="src/index.ts" ><b>isDirectory</b>&nbsp;&nbsp;&nbsp;(src/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#isFromSchemaV1" title="src/index.ts" ><b>isFromSchemaV1</b>&nbsp;&nbsp;&nbsp;(src/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#schemaV1Path" title="src/index.ts" ><b>schemaV1Path</b>&nbsp;&nbsp;&nbsp;(src/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#schemaV2Path" title="src/index.ts" ><b>schemaV2Path</b>&nbsp;&nbsp;&nbsp;(src/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#switchSchemaPath" title="src/index.ts" ><b>switchSchemaPath</b>&nbsp;&nbsp;&nbsp;(src/.../index.ts)</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+    <h3>src/index.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="baseV1Name"></a>
+                    <span class="name">
+                        <span ><b>baseV1Name</b></span>
+                        <a href="#baseV1Name"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>path.basename(schemaV1Path)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="baseV2Name"></a>
+                    <span class="name">
+                        <span ><b>baseV2Name</b></span>
+                        <a href="#baseV2Name"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>path.basename(schemaV2Path)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="diffDirectories"></a>
+                    <span class="name">
+                        <span ><b>diffDirectories</b></span>
+                        <a href="#diffDirectories"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(
+    directory1: Directory,
+    directory2: Directory,
+    directoryMapper &#x3D; (p) &#x3D;&gt; p
+  ): [string[], string[], string[]] &#x3D;&gt; {
+    const fileList1 &#x3D; directory1.listFiles().map(directoryMapper)
+    const fileList2 &#x3D; directory2.listFiles().map(directoryMapper)
+
+    const sharedFiles &#x3D; fileList1.filter((x) &#x3D;&gt; fileList2.includes(x))
+    const filesUniqueTo1 &#x3D; fileList1.filter((x) &#x3D;&gt; !sharedFiles.includes(x))
+    const filesUniqueTo2 &#x3D; fileList2.filter((x) &#x3D;&gt; !sharedFiles.includes(x))
+
+    return [filesUniqueTo1, sharedFiles, filesUniqueTo2]
+  }</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fromSchemaRoot"></a>
+                    <span class="name">
+                        <span ><b>fromSchemaRoot</b></span>
+                        <a href="#fromSchemaRoot"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(filePath: string) &#x3D;&gt;
+  isFromSchemaV1(filePath)
+    ? filePath.split(baseV1Name)[1]
+    : filePath.split(baseV2Name)[1]</code>
+                    </td>
+                </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Convert an absolute file path to a partial path that starts after <code>/v1/</code> or <code>/v2/</code></p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getBranchDrift"></a>
+                    <span class="name">
+                        <span ><b>getBranchDrift</b></span>
+                        <a href="#getBranchDrift"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(): Promise&lt;BranchState&gt; &#x3D;&gt;
+  new Promise((resolve, reject) &#x3D;&gt; {
+    let output &#x3D; &quot;&quot;
+    const delta &#x3D; spawn(&quot;git&quot;, [
+      &quot;rev-list&quot;,
+      &quot;--left-right&quot;,
+      &quot;--count&quot;,
+      &quot;origin/main...HEAD&quot;,
+    ])
+
+    delta.stdout.on(&quot;data&quot;, (data) &#x3D;&gt; {
+      output +&#x3D; data
+    })
+
+    delta.on(&quot;close&quot;, (code) &#x3D;&gt; {
+      if (code !&#x3D;&#x3D; 0) {
+        reject(&quot;Failed to get branch drift&quot;)
+      } else {
+        const commitChanges &#x3D; output.match(/(\d+)\s+(\d+)/)
+        if (!commitChanges) {
+          reject(&quot;Something was wrong with the branch drift output&quot;)
+        }
+
+        let [, commitsBehind, commitsAhead] &#x3D; Array.from(
+          commitChanges!
+        ).map((x) &#x3D;&gt; Number(x))
+        resolve({
+          commitsAhead,
+          commitsBehind,
+        })
+      }
+    })
+  })</code>
+                    </td>
+                </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Gives status information on the current branch as compared to origin/main</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getChangedFiles"></a>
+                    <span class="name">
+                        <span ><b>getChangedFiles</b></span>
+                        <a href="#getChangedFiles"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(): Promise&lt;DeltaFileMap&gt; &#x3D;&gt;
+  new Promise((resolve, reject) &#x3D;&gt; {
+    let changedBlob &#x3D; &quot;&quot;
+    const changed &#x3D; spawn(&quot;git&quot;, [&quot;diff&quot;, &quot;--name-status&quot;, &quot;origin/main&quot;])
+    changed.stdout.on(&quot;data&quot;, (data) &#x3D;&gt; {
+      changedBlob +&#x3D; data
+    })
+
+    changed.on(&quot;close&quot;, (code) &#x3D;&gt; {
+      if (code !&#x3D;&#x3D; 0) {
+        reject(&quot;Failed to find changed files via git&quot;)
+      } else {
+        resolve(
+          changedBlob
+            .split(&quot;\n&quot;)
+            .map((status) &#x3D;&gt; {
+              const match &#x3D; status.match(/([A-Z])\s+(.+)/)
+              if (match) {
+                const [, status, filePath] &#x3D; match
+                return {
+                  [path.resolve(filePath)]: GitChangeToFileStatus(status),
+                }
+              }
+              return {} as any
+            })
+            .reduce((a, b) &#x3D;&gt; ({...a, ...b}), {})
+        )
+      }
+    })
+  })</code>
+                    </td>
+                </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Uses git to generate a delta map of files that have changed since main</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="GitChangeToFileStatus"></a>
+                    <span class="name">
+                        <span ><b>GitChangeToFileStatus</b></span>
+                        <a href="#GitChangeToFileStatus"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(change: string) &#x3D;&gt; {
+  switch (change) {
+    case &quot;M&quot;:
+      return FileStatus.Modified
+    case &quot;A&quot;:
+      return FileStatus.Added
+    case &quot;D&quot;:
+      return FileStatus.Deleted
+    case &quot;R&quot;:
+      return FileStatus.Renamed
+    default:
+      return FileStatus.Unknown
+  }
+}</code>
+                    </td>
+                </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Converts git status short codes to their <code>FileStatus</code> equivalent.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="hashFile"></a>
+                    <span class="name">
+                        <span ><b>hashFile</b></span>
+                        <a href="#hashFile"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(filePath: string): Promise&lt;string&gt; &#x3D;&gt;
+  new Promise((resolve, reject) &#x3D;&gt; {
+    const stream &#x3D; createReadStream(filePath)
+    const hash &#x3D; createHash(&quot;md5&quot;)
+
+    stream.on(&quot;data&quot;, (data: string) &#x3D;&gt; hash.update(data, &quot;utf8&quot;))
+    stream.on(&quot;end&quot;, () &#x3D;&gt; {
+      resolve(hash.digest(&quot;hex&quot;))
+    })
+    stream.on(&quot;error&quot;, (error) &#x3D;&gt; {
+      reject(error)
+    })
+  })</code>
+                    </td>
+                </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Asynchronously generates an md5 of a file</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isDirectory"></a>
+                    <span class="name">
+                        <span ><b>isDirectory</b></span>
+                        <a href="#isDirectory"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>async (filepath: string): Promise&lt;boolean&gt; &#x3D;&gt;
+  (await fs.lstat(filepath)).isDirectory()</code>
+                    </td>
+                </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Determines if a given path is a directory</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isFromSchemaV1"></a>
+                    <span class="name">
+                        <span ><b>isFromSchemaV1</b></span>
+                        <a href="#isFromSchemaV1"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(filePath: string) &#x3D;&gt; filePath.includes(baseV1Name)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="schemaV1Path"></a>
+                    <span class="name">
+                        <span ><b>schemaV1Path</b></span>
+                        <a href="#schemaV1Path"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>path.join(process.cwd(), &#x60;${process.env.SOURCE_DIR1}&#x60;).normalize()</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="schemaV2Path"></a>
+                    <span class="name">
+                        <span ><b>schemaV2Path</b></span>
+                        <a href="#schemaV2Path"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>path.join(process.cwd(), &#x60;${process.env.SOURCE_DIR2}&#x60;).normalize()</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="switchSchemaPath"></a>
+                    <span class="name">
+                        <span ><b>switchSchemaPath</b></span>
+                        <a href="#switchSchemaPath"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(filePath: string) &#x3D;&gt;
+  isFromSchemaV1(filePath)
+    ? filePath.replace(baseV1Name, baseV2Name)
+    : filePath.replace(baseV2Name, baseV1Name)</code>
+                    </td>
+                </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Updates a path from <code>/v1/</code> to <code>/v2/</code> or vice versa</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</section>
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'miscellaneous-variables';
+            var COMPODOC_CURRENT_PAGE_URL = 'variables.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
