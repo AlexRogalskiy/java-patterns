@@ -364,6 +364,8 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Java 27 Launch Stream](https://www.reddit.com/r/java/comments/1wgdo1p/java_27_launch_stream/)
+- [Accessing the Code Genome Project | Moderne Docs [OpenRewrite leaving Maven Central]](https://www.reddit.com/r/java/comments/1wg66i7/accessing_the_code_genome_project_moderne_docs/)
 - [JDK 27 Runtime Updates Release Notes](https://www.reddit.com/r/java/comments/1wepfxe/jdk_27_runtime_updates_release_notes/)
 - [Podcast about Java 27](https://www.reddit.com/r/java/comments/1we8wq8/podcast_about_java_27/)
 - [Eclipse 2026-09 version came out](https://www.reddit.com/r/java/comments/1we8ltq/eclipse_202609_version_came_out/)
@@ -372,8 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [Release Release v0.10.0 · jonas-grgt/bob](https://www.reddit.com/r/java/comments/1we6d04/release_release_v0100_jonasgrgtbob/)
 - [EU Cyber Resilience Act reporting obligations started today. Is your company even thinking about it?](https://www.reddit.com/r/java/comments/1wdrv6s/eu_cyber_resilience_act_reporting_obligations/)
 - [JavaFX 27 Release Notes](https://www.reddit.com/r/java/comments/1wdf3rt/javafx_27_release_notes/)
-- [Resource Bundle Plugin](https://www.reddit.com/r/java/comments/1wden4v/resource_bundle_plugin/)
-- [Eclipse 2026-09 &lpar;4.41&rpar; Released!](https://www.reddit.com/r/java/comments/1wdaasq/eclipse_202609_441_released/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
