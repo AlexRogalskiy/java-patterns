@@ -1,0 +1,609 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>@java-patterns/contributors-view documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">@java-patterns/contributors-view documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content miscellaneous-variables">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Miscellaneous</li>
+  <li>Variables</li>
+</ol>
+
+<section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <ul class="index-list">
+                        <li>
+                            <a href="#createContributorsList" title="src/index.ts" ><b>createContributorsList</b>&nbsp;&nbsp;&nbsp;(src/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#createScreenshot" title="src/helpers/screenshots.ts" ><b>createScreenshot</b>&nbsp;&nbsp;&nbsp;(src/.../screenshots.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#editDistance" title="src/helpers/similarity.ts" ><b>editDistance</b>&nbsp;&nbsp;&nbsp;(src/.../similarity.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#fetchContributors" title="src/index.ts" ><b>fetchContributors</b>&nbsp;&nbsp;&nbsp;(src/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#green" title="src/helpers/painter.ts" ><b>green</b>&nbsp;&nbsp;&nbsp;(src/.../painter.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#init" title="src/index.ts" ><b>init</b>&nbsp;&nbsp;&nbsp;(src/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#parseLinkHeader" title="src/index.ts" ><b>parseLinkHeader</b>&nbsp;&nbsp;&nbsp;(src/.../index.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#red" title="src/helpers/painter.ts" ><b>red</b>&nbsp;&nbsp;&nbsp;(src/.../painter.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#similarity" title="src/helpers/similarity.ts" ><b>similarity</b>&nbsp;&nbsp;&nbsp;(src/.../similarity.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#toTitleCase" title="src/helpers/titleCase.ts" ><b>toTitleCase</b>&nbsp;&nbsp;&nbsp;(src/.../titleCase.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#yellow" title="src/helpers/painter.ts" ><b>yellow</b>&nbsp;&nbsp;&nbsp;(src/.../painter.ts)</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+    <h3>src/index.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createContributorsList"></a>
+                    <span class="name">
+                        <span ><b>createContributorsList</b></span>
+                        <a href="#createContributorsList"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(contributors: Contributor[]) &#x3D;&gt; {
+  const list &#x3D; contributors
+    .map((c) &#x3D;&gt; {
+      return &#x60;&lt;li title&#x3D;&quot;${c.login}&quot;&gt;&lt;img src&#x3D;&quot;${c.avatar_url}&quot; alt&#x3D;&quot;${c.login}&quot;/&gt;&lt;/li&gt;&#x60;
+    })
+    .join(&#x27;\n&#x27;)
+
+  const htmlDoctype &#x3D; &#x27;&lt;!DOCTYPE html&gt;&#x27;
+  const styling &#x3D; &#x27;&lt;link rel&#x3D;&quot;stylesheet&quot; href&#x3D;&quot;contributors.css&quot;&gt;&#x27;
+  const generatedHtml &#x3D; &#x60;${htmlDoctype}${styling}&lt;ul&gt;${list}&lt;/ul&gt;&#x60;
+
+  const outputPath &#x3D; path.join(__dirname, &#x27;..&#x27;, &#x27;assets&#x27;, &#x27;contributors.html&#x27;)
+  fs.writeFileSync(outputPath, generatedHtml)
+  return outputPath
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="fetchContributors"></a>
+                    <span class="name">
+                        <span ><b>fetchContributors</b></span>
+                        <a href="#fetchContributors"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(
+  page: string
+): Promise&lt;{ contributorsOfPage: Contributor[]; nextPage: string }&gt; &#x3D;&gt; {
+  return new Promise((resolve, reject) &#x3D;&gt; {
+    const requestOptions: https.RequestOptions &#x3D; {
+      method: &#x27;GET&#x27;,
+      hostname: &#x27;api.github.com&#x27;,
+      path: &#x60;/repos/AlexRogalskiy/java-patterns/contributors?page&#x3D;${page}&#x60;,
+      port: 443,
+      headers: {
+        link: &#x27;next&#x27;,
+        accept: &#x27;application/json&#x27;,
+        &#x27;User-Agent&#x27;: &#x27;Contributors script&#x27;,
+      },
+    }
+
+    const req &#x3D; https.request(requestOptions, (res) &#x3D;&gt; {
+      const {nextPage, lastPage, prevPage} &#x3D; parseLinkHeader(
+        res.headers?.link?.toString() ?? &#x27;&#x27;
+      )
+      console.log(
+        &#x27;&gt; Material Icon Theme:&#x27;,
+        painter.yellow(
+          &#x60;[${page}/${
+            lastPage ? lastPage[1] : prevPage ? +prevPage[1] + 1 : 1
+          }] Loading contributors from GitHub...&#x60;
+        )
+      )
+      const result: Uint8Array[] &#x3D; []
+      res.on(&#x27;data&#x27;, (data: Buffer) &#x3D;&gt; {
+        result.push(data)
+      })
+
+      res.on(&#x27;end&#x27;, () &#x3D;&gt; {
+        try {
+          const buffer &#x3D; Buffer.concat(result)
+          const bufferAsString &#x3D; buffer.toString(&#x27;utf8&#x27;)
+          const contributorsOfPage &#x3D; JSON.parse(bufferAsString)
+          resolve({contributorsOfPage, nextPage: nextPage?.[1]})
+        } catch (error) {
+          reject(error)
+        }
+      })
+    })
+
+    req.on(&#x27;error&#x27;, (error) &#x3D;&gt; {
+      console.error(error)
+      reject(error)
+    })
+
+    req.end()
+  })
+}</code>
+                    </td>
+                </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Get all contributors from GitHub API.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="init"></a>
+                    <span class="name">
+                        <span ><b>init</b></span>
+                        <a href="#init"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>async () &#x3D;&gt; {
+  const contributorsList: Contributor[] &#x3D; []
+  let page &#x3D; &#x27;1&#x27;
+
+  // iterate over the pages of GitHub API
+  while (page !&#x3D;&#x3D; undefined) {
+    const result &#x3D; await fetchContributors(page)
+    contributorsList.push(...result.contributorsOfPage)
+    page &#x3D; result.nextPage
+  }
+
+  if (contributorsList.length &gt; 0) {
+    console.log(
+      &#x27;&gt; Material Icon Theme:&#x27;,
+      painter.green(&#x27;Successfully fetched all contributors from GitHub!&#x27;)
+    )
+  } else {
+    console.log(
+      &#x27;&gt; Material Icon Theme:&#x27;,
+      painter.red(&#x27;Error: Could not fetch contributors from GitHub!&#x27;)
+    )
+    throw Error()
+  }
+  const outputPath &#x3D; createContributorsList(contributorsList)
+
+  // create the image
+  console.log(&#x27;&gt; Material Icon Theme:&#x27;, painter.yellow(&#x27;Creating image...&#x27;))
+  const fileName &#x3D; &#x27;contributors&#x27;
+  createScreenshot(outputPath, fileName)
+    .then(() &#x3D;&gt; {
+      console.log(
+        &#x27;&gt; Material Icon Theme:&#x27;,
+        painter.green(&#x60;Successfully created ${fileName} image!&#x60;)
+      )
+    })
+    .catch(() &#x3D;&gt; {
+      throw Error(painter.red(&#x60;Error while creating ${fileName} image&#x60;))
+    })
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="parseLinkHeader"></a>
+                    <span class="name">
+                        <span ><b>parseLinkHeader</b></span>
+                        <a href="#parseLinkHeader"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(linkHeader: string) &#x3D;&gt; {
+  const nextPagePattern &#x3D; new RegExp(/\bpage&#x3D;(\d)[^&gt;]*&gt;\srel&#x3D;&quot;next&quot;/)
+  const lastPagePattern &#x3D; new RegExp(/\bpage&#x3D;(\d)[^&gt;]*&gt;\srel&#x3D;&quot;last&quot;/)
+  const prevPagePattern &#x3D; new RegExp(/\bpage&#x3D;(\d)[^&gt;]*&gt;\srel&#x3D;&quot;prev&quot;/)
+
+  const nextPage &#x3D; nextPagePattern.exec(linkHeader) ?? &#x27;&#x27;
+  const lastPage &#x3D; lastPagePattern.exec(linkHeader) ?? &#x27;&#x27;
+  const prevPage &#x3D; prevPagePattern.exec(linkHeader) ?? &#x27;&#x27;
+
+  return {nextPage, lastPage, prevPage}
+}</code>
+                    </td>
+                </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Parse link header</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/helpers/screenshots.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="createScreenshot"></a>
+                    <span class="name">
+                        <span ><b>createScreenshot</b></span>
+                        <a href="#createScreenshot"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>async (filePath: string, fileName: string) &#x3D;&gt; {
+  try {
+    const htmlFilePath &#x3D; path.join(&#x27;file:&#x27;, filePath)
+    const browser &#x3D; await puppeteer.launch()
+    const page &#x3D; await browser.newPage()
+    await page.setViewport({
+      height: 10,
+      width: 1000,
+    })
+
+    await page.goto(htmlFilePath)
+
+    await page.screenshot({
+      path: &#x60;${process.env.IMAGE_DIR}/${fileName}.png&#x60;,
+      omitBackground: true,
+      fullPage: true,
+    })
+
+    await browser.close()
+  } catch (error) {
+    console.error(error)
+    throw Error(&#x27;Could not create screenshot for a preview&#x27;)
+  }
+}</code>
+                    </td>
+                </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Create a screenshot from an HTML file and save it as image.</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/helpers/similarity.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="editDistance"></a>
+                    <span class="name">
+                        <span ><b>editDistance</b></span>
+                        <a href="#editDistance"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(s1: string, s2: string) &#x3D;&gt; {
+  s1 &#x3D; s1.toLowerCase()
+  s2 &#x3D; s2.toLowerCase()
+
+  const costs &#x3D; new Array&lt;number&gt;()
+  for (let i &#x3D; 0; i &lt;&#x3D; s1.length; i++) {
+    let lastValue &#x3D; i
+    for (let j &#x3D; 0; j &lt;&#x3D; s2.length; j++) {
+      if (i &#x3D;&#x3D;&#x3D; 0) {
+        costs[j] &#x3D; j
+      } else {
+        if (j &gt; 0) {
+          let newValue &#x3D; costs[j - 1]
+          if (s1.charAt(i - 1) !&#x3D;&#x3D; s2.charAt(j - 1)) {
+            newValue &#x3D; Math.min(Math.min(newValue, lastValue), costs[j]) + 1
+          }
+          costs[j - 1] &#x3D; lastValue
+          lastValue &#x3D; newValue
+        }
+      }
+    }
+    if (i &gt; 0) {
+      costs[s2.length] &#x3D; lastValue
+    }
+  }
+  return costs[s2.length]
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="similarity"></a>
+                    <span class="name">
+                        <span ><b>similarity</b></span>
+                        <a href="#similarity"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(s1: string, s2: string) &#x3D;&gt; {
+  let longer &#x3D; s1
+  let shorter &#x3D; s2
+  if (s1.length &lt; s2.length) {
+    longer &#x3D; s2
+    shorter &#x3D; s1
+  }
+  const longerLength &#x3D; longer.length
+  if (longerLength &#x3D;&#x3D;&#x3D; 0) {
+    return 1.0
+  }
+  return (longerLength - editDistance(longer, shorter)) / longerLength
+}</code>
+                    </td>
+                </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Compares two strings and returns the Levenshtein distance</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/helpers/painter.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="green"></a>
+                    <span class="name">
+                        <span ><b>green</b></span>
+                        <a href="#green"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(value: string) &#x3D;&gt; &#x60;\x1b[32m${value}\x1b[0m&#x60;</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="red"></a>
+                    <span class="name">
+                        <span ><b>red</b></span>
+                        <a href="#red"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(value: string) &#x3D;&gt; &#x60;\x1b[31m${value}\x1b[0m&#x60;</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="yellow"></a>
+                    <span class="name">
+                        <span ><b>yellow</b></span>
+                        <a href="#yellow"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(value: string) &#x3D;&gt; &#x60;\x1b[33m${value}\x1b[0m&#x60;</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/helpers/titleCase.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="toTitleCase"></a>
+                    <span class="name">
+                        <span ><b>toTitleCase</b></span>
+                        <a href="#toTitleCase"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>(str: string): string &#x3D;&gt; {
+  return str.replace(
+    /\w\S*/g,
+    (txt) &#x3D;&gt; txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
+  )
+}</code>
+                    </td>
+                </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>TitleCase all words in a string</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</section>
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'miscellaneous-variables';
+            var COMPODOC_CURRENT_PAGE_URL = 'variables.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

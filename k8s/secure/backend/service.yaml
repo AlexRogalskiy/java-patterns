@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend
+  namespace: secure
+  labels:
+    app.kubernetes.io/name: backend
+    app.kubernetes.io/instance: java-patterns
+    app.kubernetes.io/version: '0.0.0'
+    app.kubernetes.io/component: backend
+    app.kubernetes.io/part-of: documentation
+    app.kubernetes.io/managed-by: tilt
+
+spec:
+  type: ClusterIP
+  selector:
+    app: backend
+  ports:
+    - name: http
+      port: 8000
+      protocol: TCP
+      targetPort: http
+    - name: https
+      port: 443
+      protocol: TCP
+      targetPort: https

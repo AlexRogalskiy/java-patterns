@@ -1,0 +1,70 @@
+# -*- coding: utf-8 -*-
+# vim: ft=yaml
+---
+# https://yamllint.readthedocs.io/en/stable/index.html
+# yamllint --strict -c .yaml-lint.yml .
+
+# Extend the `default` configuration provided by `yamllint`
+extends: 'default'
+
+locale: en_US.UTF-8
+
+# Files to ignore completely
+# 1. All YAML files under directory `node_modules/'
+# 2. All YAML files under directory `tilt_modules/'
+# 3. All YAML files under directory `okteto/'
+# 4. All YAML files under directory `charts/'
+# 5. All YAML files under directory `k8s/'
+ignore: |
+  node_modules/
+  tilt_modules/
+  okteto/
+  charts/
+  k8s/
+
+yaml-files:
+  # Default settings
+  - '*.yaml'
+  - '*.yml'
+
+rules:
+  # 150 chars should be enough, but don't fail if a line is longer
+  line-length:
+    max: 150
+    allow-non-breakable-inline-mappings: true
+    level: warning
+  comments:
+    min-spaces-from-content: 1
+    level: warning
+  braces:
+    min-spaces-inside: 0
+    max-spaces-inside: 0
+  brackets:
+    min-spaces-inside: 0
+    max-spaces-inside: 0
+  indentation:
+    indent-sequences: consistent
+    level: warning
+  document-end: disable
+  document-start:
+    level: warning
+  colons: enable
+  commas: enable
+  comments-indentation:
+    level: warning
+  empty-lines: enable
+  hyphens: enable
+  key-duplicates: enable
+  key-ordering: disable
+  new-line-at-end-of-file: enable
+  new-lines: enable
+  octal-values:
+    forbid-implicit-octal: true
+    forbid-explicit-octal: true
+  quoted-strings: disable
+  trailing-spaces: enable
+  truthy:
+    level: warning
+  empty-values:
+    forbid-in-block-mappings: true
+    forbid-in-flow-mappings: true
