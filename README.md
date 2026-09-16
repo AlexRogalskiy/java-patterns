@@ -364,6 +364,9 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [I am 16 and made a somthing like a programing language in java](https://www.reddit.com/r/java/comments/1whcaf3/i_am_16_and_made_a_somthing_like_a_programing/)
+- [Java 27 / JDK 27: General Availability](https://www.reddit.com/r/java/comments/1wh074q/java_27_jdk_27_general_availability/)
+- [What&#39;s new in Java 27](https://www.reddit.com/r/java/comments/1wgubef/whats_new_in_java_27/)
 - [Java 27 Launch Stream](https://www.reddit.com/r/java/comments/1wgdo1p/java_27_launch_stream/)
 - [Accessing the Code Genome Project | Moderne Docs [OpenRewrite leaving Maven Central]](https://www.reddit.com/r/java/comments/1wg66i7/accessing_the_code_genome_project_moderne_docs/)
 - [JDK 27 Runtime Updates Release Notes](https://www.reddit.com/r/java/comments/1wepfxe/jdk_27_runtime_updates_release_notes/)
@@ -371,9 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [Eclipse 2026-09 version came out](https://www.reddit.com/r/java/comments/1we8ltq/eclipse_202609_version_came_out/)
 - [JEP draft for Adaptive Heap Sizing for ZGC quietly mentions JDK 28](https://www.reddit.com/r/java/comments/1we89ho/jep_draft_for_adaptive_heap_sizing_for_zgc/)
 - [Jakarta Faces, Java Web Framework, Stateless Edition: Marketplace AliFaces](https://www.reddit.com/r/java/comments/1we7rdw/jakarta_faces_java_web_framework_stateless/)
-- [Release Release v0.10.0 · jonas-grgt/bob](https://www.reddit.com/r/java/comments/1we6d04/release_release_v0100_jonasgrgtbob/)
-- [EU Cyber Resilience Act reporting obligations started today. Is your company even thinking about it?](https://www.reddit.com/r/java/comments/1wdrv6s/eu_cyber_resilience_act_reporting_obligations/)
-- [JavaFX 27 Release Notes](https://www.reddit.com/r/java/comments/1wdf3rt/javafx_27_release_notes/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
