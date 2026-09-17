@@ -364,6 +364,8 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Apache Fory 1.7.3 released: significantly faster Java JSON serialization and deserialization](https://www.reddit.com/r/java/comments/1wi1sq5/apache_fory_173_released_significantly_faster/)
+- [Java 27 Features Overview &lpar;Video&rpar;](https://www.reddit.com/r/java/comments/1whyi60/java_27_features_overview_video/)
 - [I am 16 and made a somthing like a programing language in java](https://www.reddit.com/r/java/comments/1whcaf3/i_am_16_and_made_a_somthing_like_a_programing/)
 - [Java 27 / JDK 27: General Availability](https://www.reddit.com/r/java/comments/1wh074q/java_27_jdk_27_general_availability/)
 - [What&#39;s new in Java 27](https://www.reddit.com/r/java/comments/1wgubef/whats_new_in_java_27/)
@@ -372,8 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [JDK 27 Runtime Updates Release Notes](https://www.reddit.com/r/java/comments/1wepfxe/jdk_27_runtime_updates_release_notes/)
 - [Podcast about Java 27](https://www.reddit.com/r/java/comments/1we8wq8/podcast_about_java_27/)
 - [Eclipse 2026-09 version came out](https://www.reddit.com/r/java/comments/1we8ltq/eclipse_202609_version_came_out/)
-- [JEP draft for Adaptive Heap Sizing for ZGC quietly mentions JDK 28](https://www.reddit.com/r/java/comments/1we89ho/jep_draft_for_adaptive_heap_sizing_for_zgc/)
-- [Jakarta Faces, Java Web Framework, Stateless Edition: Marketplace AliFaces](https://www.reddit.com/r/java/comments/1we7rdw/jakarta_faces_java_web_framework_stateless/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
