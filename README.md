@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [A bit deeper summary of JDK 27](https://www.reddit.com/r/java/comments/1wiw38x/a_bit_deeper_summary_of_jdk_27/)
+- [1BRC, but for matrix multiplication on the JVM?](https://www.reddit.com/r/java/comments/1wivn72/1brc_but_for_matrix_multiplication_on_the_jvm/)
+- [An open-source AI inference engine built for the JVM. AI for Java, in Java. Finally, AI in jar.](https://www.reddit.com/r/java/comments/1wipokx/an_opensource_ai_inference_engine_built_for_the/)
+- [AOT Caching - Netflix&#39; Practice vs OpenJDK&#39;s Theory / Inside Java Podcast](https://www.reddit.com/r/java/comments/1wip1t4/aot_caching_netflix_practice_vs_openjdks_theory/)
 - [Apache Fory 1.7.3 released: significantly faster Java JSON serialization and deserialization](https://www.reddit.com/r/java/comments/1wi1sq5/apache_fory_173_released_significantly_faster/)
+- [Spring Boot fat JAR vs extracted layout: six paired runs on JDK 25](https://www.reddit.com/r/java/comments/1wi083a/spring_boot_fat_jar_vs_extracted_layout_six/)
 - [Java 27 Features Overview &lpar;Video&rpar;](https://www.reddit.com/r/java/comments/1whyi60/java_27_features_overview_video/)
 - [I am 16 and made a somthing like a programing language in java](https://www.reddit.com/r/java/comments/1whcaf3/i_am_16_and_made_a_somthing_like_a_programing/)
 - [Java 27 / JDK 27: General Availability](https://www.reddit.com/r/java/comments/1wh074q/java_27_jdk_27_general_availability/)
 - [What&#39;s new in Java 27](https://www.reddit.com/r/java/comments/1wgubef/whats_new_in_java_27/)
-- [Java 27 Launch Stream](https://www.reddit.com/r/java/comments/1wgdo1p/java_27_launch_stream/)
-- [Accessing the Code Genome Project | Moderne Docs [OpenRewrite leaving Maven Central]](https://www.reddit.com/r/java/comments/1wg66i7/accessing_the_code_genome_project_moderne_docs/)
-- [JDK 27 Runtime Updates Release Notes](https://www.reddit.com/r/java/comments/1wepfxe/jdk_27_runtime_updates_release_notes/)
-- [Podcast about Java 27](https://www.reddit.com/r/java/comments/1we8wq8/podcast_about_java_27/)
-- [Eclipse 2026-09 version came out](https://www.reddit.com/r/java/comments/1we8ltq/eclipse_202609_version_came_out/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
