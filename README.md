@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Why the same thing so many times?](https://www.reddit.com/r/java/comments/1wk8y2s/why_the_same_thing_so_many_times/)
+- [Does anyone want my game framework?](https://www.reddit.com/r/java/comments/1wjznyh/does_anyone_want_my_game_framework/)
+- [Leave the Class Path in the Rearview Mirror](https://www.reddit.com/r/java/comments/1wjubs3/leave_the_class_path_in_the_rearview_mirror/)
+- [webforJ: a Java framework for full-stack browser applications](https://www.reddit.com/r/java/comments/1wjtzhw/webforj_a_java_framework_for_fullstack_browser/)
+- [The Successor to Swing Is Finally Here](https://www.reddit.com/r/java/comments/1wjqv7b/the_successor_to_swing_is_finally_here/)
+- [I really wish we could add debug information to Exceptions without being forced to wrap-and-throw.](https://www.reddit.com/r/java/comments/1wjqins/i_really_wish_we_could_add_debug_information_to/)
+- [JavaFX 27 as a GraalVM Native Image on a Raspberry Pi 5](https://www.reddit.com/r/java/comments/1wjqay8/javafx_27_as_a_graalvm_native_image_on_a/)
+- [JVM Object immutability](https://www.reddit.com/r/java/comments/1wjkms2/jvm_object_immutability/)
+- [Parallel Constraint Decoding using Java and Llama.cpp compared to Python 🔥](https://www.reddit.com/r/java/comments/1wjhn9h/parallel_constraint_decoding_using_java_and/)
 - [A bit deeper summary of JDK 27](https://www.reddit.com/r/java/comments/1wiw38x/a_bit_deeper_summary_of_jdk_27/)
-- [1BRC, but for matrix multiplication on the JVM?](https://www.reddit.com/r/java/comments/1wivn72/1brc_but_for_matrix_multiplication_on_the_jvm/)
-- [An open-source AI inference engine built for the JVM. AI for Java, in Java. Finally, AI in jar.](https://www.reddit.com/r/java/comments/1wipokx/an_opensource_ai_inference_engine_built_for_the/)
-- [AOT Caching - Netflix&#39; Practice vs OpenJDK&#39;s Theory / Inside Java Podcast](https://www.reddit.com/r/java/comments/1wip1t4/aot_caching_netflix_practice_vs_openjdks_theory/)
-- [Apache Fory 1.7.3 released: significantly faster Java JSON serialization and deserialization](https://www.reddit.com/r/java/comments/1wi1sq5/apache_fory_173_released_significantly_faster/)
-- [Spring Boot fat JAR vs extracted layout: six paired runs on JDK 25](https://www.reddit.com/r/java/comments/1wi083a/spring_boot_fat_jar_vs_extracted_layout_six/)
-- [Java 27 Features Overview &lpar;Video&rpar;](https://www.reddit.com/r/java/comments/1whyi60/java_27_features_overview_video/)
-- [I am 16 and made a somthing like a programing language in java](https://www.reddit.com/r/java/comments/1whcaf3/i_am_16_and_made_a_somthing_like_a_programing/)
-- [Java 27 / JDK 27: General Availability](https://www.reddit.com/r/java/comments/1wh074q/java_27_jdk_27_general_availability/)
-- [What&#39;s new in Java 27](https://www.reddit.com/r/java/comments/1wgubef/whats_new_in_java_27/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
