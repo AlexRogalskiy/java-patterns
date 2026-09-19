@@ -1,0 +1,20 @@
+{
+	"gitbook": "3.2.3",
+	"title": "Java Patterns",
+	"description": "Java Design Patterns Documentation",
+	"author": "Alexander Rogalskiy",
+	"plugins": ["anchorjs", "github", "toggle-chapters", "toggle-headers", "-sharing"],
+	"pluginsConfig": {
+		"github": {
+			"url": "https://github.com/AlexRogalskiy/java-patterns"
+		},
+		"lunr": {
+			"maxIndexSize": 1000000000
+		},
+		"theme-default": {
+			"styles": {
+				"website": "./assets/css/website.css"
+			}
+		}
+	}
+}
