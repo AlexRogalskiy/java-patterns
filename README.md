@@ -364,7 +364,7 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [Why the same thing so many times?](https://www.reddit.com/r/java/comments/1wk8y2s/why_the_same_thing_so_many_times/)
+- [Java vs Rust](https://www.reddit.com/r/java/comments/1wkwowf/java_vs_rust/)
 - [Does anyone want my game framework?](https://www.reddit.com/r/java/comments/1wjznyh/does_anyone_want_my_game_framework/)
 - [Leave the Class Path in the Rearview Mirror](https://www.reddit.com/r/java/comments/1wjubs3/leave_the_class_path_in_the_rearview_mirror/)
 - [webforJ: a Java framework for full-stack browser applications](https://www.reddit.com/r/java/comments/1wjtzhw/webforj_a_java_framework_for_fullstack_browser/)
