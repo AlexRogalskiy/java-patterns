@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [Java vs Rust](https://www.reddit.com/r/java/comments/1wkwowf/java_vs_rust/)
+- [Going Pure Backend &lpar;Spring Boot&rpar; Rather than Full Stack](https://www.reddit.com/r/java/comments/1wlvgzw/going_pure_backend_spring_boot_rather_than_full/)
+- [jev-mcp-spring — an MCP server for TypeSafe Jev, built on Spring AI](https://www.reddit.com/r/java/comments/1wlmhq8/jevmcpspring_an_mcp_server_for_typesafe_jev_built/)
+- [JEP targeted to JDK 28: 401: Value Objects &lpar;Preview&rpar;](https://www.reddit.com/r/java/comments/1wll5wy/jep_targeted_to_jdk_28_401_value_objects_preview/)
+- [Stacktraces have such a weird ordering to them](https://www.reddit.com/r/java/comments/1wlige1/stacktraces_have_such_a_weird_ordering_to_them/)
+- [jist - Source aware symbol search for Java classes](https://www.reddit.com/r/java/comments/1wl1psi/jist_source_aware_symbol_search_for_java_classes/)
 - [Does anyone want my game framework?](https://www.reddit.com/r/java/comments/1wjznyh/does_anyone_want_my_game_framework/)
 - [Leave the Class Path in the Rearview Mirror](https://www.reddit.com/r/java/comments/1wjubs3/leave_the_class_path_in_the_rearview_mirror/)
 - [webforJ: a Java framework for full-stack browser applications](https://www.reddit.com/r/java/comments/1wjtzhw/webforj_a_java_framework_for_fullstack_browser/)
 - [The Successor to Swing Is Finally Here](https://www.reddit.com/r/java/comments/1wjqv7b/the_successor_to_swing_is_finally_here/)
 - [I really wish we could add debug information to Exceptions without being forced to wrap-and-throw.](https://www.reddit.com/r/java/comments/1wjqins/i_really_wish_we_could_add_debug_information_to/)
-- [JavaFX 27 as a GraalVM Native Image on a Raspberry Pi 5](https://www.reddit.com/r/java/comments/1wjqay8/javafx_27_as_a_graalvm_native_image_on_a/)
-- [JVM Object immutability](https://www.reddit.com/r/java/comments/1wjkms2/jvm_object_immutability/)
-- [Parallel Constraint Decoding using Java and Llama.cpp compared to Python 🔥](https://www.reddit.com/r/java/comments/1wjhn9h/parallel_constraint_decoding_using_java_and/)
-- [A bit deeper summary of JDK 27](https://www.reddit.com/r/java/comments/1wiw38x/a_bit_deeper_summary_of_jdk_27/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
