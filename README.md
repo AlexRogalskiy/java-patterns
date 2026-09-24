@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
-- [Built the first open source Java library - converting Word, Excel to PDF](https://www.reddit.com/r/java/comments/1wnvh6s/built_the_first_open_source_java_library/)
+- [Helidon 27.0.0 is Released!](https://www.reddit.com/r/java/comments/1wodh4n/helidon_2700_is_released/)
+- [ChaosTree 2.0.1: A Highly Optimized, Cache-Aware Sorted Set/Map Library](https://www.reddit.com/r/java/comments/1wo9xg0/chaostree_201_a_highly_optimized_cacheaware/)
+- [I decided to go down the DOP rabbit hole](https://www.reddit.com/r/java/comments/1wo0kp1/i_decided_to_go_down_the_dop_rabbit_hole/)
+- [jig - a tool for Java Module resolution, assembly and deployment](https://www.reddit.com/r/java/comments/1wo0hlp/jig_a_tool_for_java_module_resolution_assembly/)
 - [Migrating a 2,250-article Java community site off WordPress: Hugo for the site, single-file Java JBang scripts for everything else](https://www.reddit.com/r/java/comments/1wna6tr/migrating_a_2250article_java_community_site_off/)
 - [jfmt - format code with modern Java Code Conventions](https://www.reddit.com/r/java/comments/1wn1k06/jfmt_format_code_with_modern_java_code_conventions/)
 - [Releasing Spring for Modern Challenges](https://www.reddit.com/r/java/comments/1wmptxw/releasing_spring_for_modern_challenges/)
 - [JEP 544: Ahead-of-Time Code Compilation targets JDK 28](https://www.reddit.com/r/java/comments/1wmof0d/jep_544_aheadoftime_code_compilation_targets_jdk/)
 - [Going Pure Backend &lpar;Spring Boot&rpar; Rather than Full Stack](https://www.reddit.com/r/java/comments/1wlvgzw/going_pure_backend_spring_boot_rather_than_full/)
 - [jev-mcp-spring — an MCP server for TypeSafe Jev, built on Spring AI](https://www.reddit.com/r/java/comments/1wlmhq8/jevmcpspring_an_mcp_server_for_typesafe_jev_built/)
-- [JEP targeted to JDK 28: 401: Value Objects &lpar;Preview&rpar;](https://www.reddit.com/r/java/comments/1wll5wy/jep_targeted_to_jdk_28_401_value_objects_preview/)
-- [Stacktraces have such a weird ordering to them](https://www.reddit.com/r/java/comments/1wlige1/stacktraces_have_such_a_weird_ordering_to_them/)
-- [jist - Source aware symbol search for Java classes](https://www.reddit.com/r/java/comments/1wl1psi/jist_source_aware_symbol_search_for_java_classes/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
