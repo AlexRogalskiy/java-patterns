@@ -364,6 +364,8 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Java MAT alternative](https://www.reddit.com/r/java/comments/1wozgh3/java_mat_alternative/)
+- [RescuED - a real-time disaster-relief logistics simulation built in Java Swing](https://www.reddit.com/r/java/comments/1wowfl5/rescued_a_realtime_disasterrelief_logistics/)
 - [Helidon 27.0.0 is Released!](https://www.reddit.com/r/java/comments/1wodh4n/helidon_2700_is_released/)
 - [ChaosTree 2.0.1: A Highly Optimized, Cache-Aware Sorted Set/Map Library](https://www.reddit.com/r/java/comments/1wo9xg0/chaostree_201_a_highly_optimized_cacheaware/)
 - [I decided to go down the DOP rabbit hole](https://www.reddit.com/r/java/comments/1wo0kp1/i_decided_to_go_down_the_dop_rabbit_hole/)
@@ -372,8 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [jfmt - format code with modern Java Code Conventions](https://www.reddit.com/r/java/comments/1wn1k06/jfmt_format_code_with_modern_java_code_conventions/)
 - [Releasing Spring for Modern Challenges](https://www.reddit.com/r/java/comments/1wmptxw/releasing_spring_for_modern_challenges/)
 - [JEP 544: Ahead-of-Time Code Compilation targets JDK 28](https://www.reddit.com/r/java/comments/1wmof0d/jep_544_aheadoftime_code_compilation_targets_jdk/)
-- [Going Pure Backend &lpar;Spring Boot&rpar; Rather than Full Stack](https://www.reddit.com/r/java/comments/1wlvgzw/going_pure_backend_spring_boot_rather_than_full/)
-- [jev-mcp-spring — an MCP server for TypeSafe Jev, built on Spring AI](https://www.reddit.com/r/java/comments/1wlmhq8/jevmcpspring_an_mcp_server_for_typesafe_jev_built/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
