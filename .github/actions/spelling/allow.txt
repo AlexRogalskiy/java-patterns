@@ -1,0 +1,11 @@
+CODEOWNERS
+codeowners
+CORS
+cors
+github
+https
+ssh
+SUSE
+Suse
+ubuntu
+workarounds

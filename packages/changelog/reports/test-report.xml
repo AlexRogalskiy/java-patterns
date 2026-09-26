@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+    <file path="/Users/user/repo/java-patterns/packages/changelog/tests/unit/simple.test.ts">
+    </file>
+    <file path="/Users/user/repo/java-patterns/packages/changelog/tests/e2e/simple.test.ts">
+    </file>
+</testExecutions>

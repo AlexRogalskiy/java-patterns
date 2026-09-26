@@ -1,0 +1,12 @@
+docker:
+  - Dockerfile
+  - "*/*.Dockerfile"
+
+docs:
+  - docs/**
+
+github:
+  - .github/**
+
+scripts:
+  - scripts/**

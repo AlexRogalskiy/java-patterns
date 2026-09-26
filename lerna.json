@@ -1,0 +1,42 @@
+{
+	"npmClient": "npm",
+	"useWorkspaces": true,
+	"independent": true,
+	"tagVersionPrefix": "lib@",
+	"includeMergedTags": true,
+	"version": "independent",
+	"packages": ["packages/*"],
+	"npmClientArgs": ["--frozen-lockfile"],
+	"command": {
+		"bootstrap": {
+			"hoist": true,
+			"noCi": true,
+			"npmClientArgs": ["--no-package-lock"],
+			"nohoist": ["egg"]
+		},
+		"init": {
+			"exact": true
+		},
+		"run": {
+			"stream": true
+		},
+		"publish": {
+			"bump": "patch",
+			"exact": true,
+			"conventionalCommits": true,
+			"forcePublish": true,
+			"skipGit": true,
+			"allowBranch": ["main", "master"],
+			"message": "chore(release): 🤖 publish package",
+			"registry": "https://registry.npmjs.org/",
+			"ignoreChanges": ["*.md"]
+		},
+		"version": {
+			"allowBranch": ["master", "release/*"],
+			"conventionalCommits": true,
+			"exact": true,
+			"createRelease": "github",
+			"message": "chore(release): publish"
+		}
+	}
+}

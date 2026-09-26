@@ -17,11 +17,11 @@ if [ "$LINES" == "0" ]; then
         # shellcheck disable=SC2124
         RESPONSE="> $BODY
 
-Script execution has been failed with exit code $EXIT_CODE. Please check the output of the github action run to get more information.
-\`\`\`
-$RESPONSE
-\`\`\`
-"
+        Script execution has been failed with exit code $EXIT_CODE. Please check the output of the github action run to get more information.
+        \`\`\`
+        $RESPONSE
+        \`\`\`
+        "
       fi
     else
       RESPONSE="No such command. \`$COMMAND\` $("$SCRIPT_DIR/comment-commands/help.sh")"
