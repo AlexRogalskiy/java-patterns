@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Helidon 27 Release Post](https://www.reddit.com/r/java/comments/1wr7vhv/helidon_27_release_post/)
+- [Java Gamedev Corner: Java and the $1,000,000,000 mistake.](https://www.reddit.com/r/java/comments/1wr0pq0/java_gamedev_corner_java_and_the_1000000000/)
+- [spring boot in vercel](https://www.reddit.com/r/java/comments/1wqu2z8/spring_boot_in_vercel/)
+- [Spring: The Documentary - CultRepo](https://www.reddit.com/r/java/comments/1wqsn69/spring_the_documentary_cultrepo/)
 - [Any Cloud. Locally. Emulators for AWS, Azure, GCP and OCI](https://www.reddit.com/r/java/comments/1wqbt8f/any_cloud_locally_emulators_for_aws_azure_gcp_and/)
-- [Decoupling application outcomes from transport](https://www.reddit.com/r/java/comments/1wq4zaz/decoupling_application_outcomes_from_transport/)
 - [Data Persistence with Jakarta Data](https://www.reddit.com/r/java/comments/1wpwlhe/data_persistence_with_jakarta_data/)
 - [midden: a fast MAT alternative for JVM heap dumps](https://www.reddit.com/r/java/comments/1wptqw7/midden_a_fast_mat_alternative_for_jvm_heap_dumps/)
 - [JEP 545: Faster Startup and Warmup with ZGC](https://www.reddit.com/r/java/comments/1wptny1/jep_545_faster_startup_and_warmup_with_zgc/)
 - [EclipseLink 5.0.2 released!](https://www.reddit.com/r/java/comments/1wpqc3y/eclipselink_502_released/)
 - [Java MAT alternative](https://www.reddit.com/r/java/comments/1wozgh3/java_mat_alternative/)
-- [RescuED - a real-time disaster-relief logistics simulation built in Java Swing](https://www.reddit.com/r/java/comments/1wowfl5/rescued_a_realtime_disasterrelief_logistics/)
-- [Helidon 27.0.0 is Released!](https://www.reddit.com/r/java/comments/1wodh4n/helidon_2700_is_released/)
-- [ChaosTree 2.0.1: A Highly Optimized, Cache-Aware Sorted Set/Map Library](https://www.reddit.com/r/java/comments/1wo9xg0/chaostree_201_a_highly_optimized_cacheaware/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
