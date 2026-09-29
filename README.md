@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [heads up: Maven Central publishing limits start October 1](https://www.reddit.com/r/java/comments/1wsnsu0/heads_up_maven_central_publishing_limits_start/)
+- [Spring Boot JPA vs JDBC: ~90 MiB less RSS in a small app](https://www.reddit.com/r/java/comments/1wsk7vj/spring_boot_jpa_vs_jdbc_90_mib_less_rss_in_a/)
+- [Performance Improvements in JDK 27](https://www.reddit.com/r/java/comments/1wsgtqi/performance_improvements_in_jdk_27/)
+- [Ratchet 0.5.0: the Jakarta EE job scheduler now supports Spring Boot &lpar;JVM and native&rpar;](https://www.reddit.com/r/java/comments/1wseqp7/ratchet_050_the_jakarta_ee_job_scheduler_now/)
+- [Atleon: Making Infinite Broker-Backed Reactive Streaming Practical](https://www.reddit.com/r/java/comments/1wsdk3v/atleon_making_infinite_brokerbacked_reactive/)
+- [State of Java Desktop](https://www.reddit.com/r/java/comments/1wsc0i1/state_of_java_desktop/)
 - [Helidon 27 Release Post](https://www.reddit.com/r/java/comments/1wr7vhv/helidon_27_release_post/)
 - [Java Gamedev Corner: Java and the $1,000,000,000 mistake.](https://www.reddit.com/r/java/comments/1wr0pq0/java_gamedev_corner_java_and_the_1000000000/)
-- [spring boot in vercel](https://www.reddit.com/r/java/comments/1wqu2z8/spring_boot_in_vercel/)
 - [Spring: The Documentary - CultRepo](https://www.reddit.com/r/java/comments/1wqsn69/spring_the_documentary_cultrepo/)
 - [Any Cloud. Locally. Emulators for AWS, Azure, GCP and OCI](https://www.reddit.com/r/java/comments/1wqbt8f/any_cloud_locally_emulators_for_aws_azure_gcp_and/)
-- [Data Persistence with Jakarta Data](https://www.reddit.com/r/java/comments/1wpwlhe/data_persistence_with_jakarta_data/)
-- [midden: a fast MAT alternative for JVM heap dumps](https://www.reddit.com/r/java/comments/1wptqw7/midden_a_fast_mat_alternative_for_jvm_heap_dumps/)
-- [JEP 545: Faster Startup and Warmup with ZGC](https://www.reddit.com/r/java/comments/1wptny1/jep_545_faster_startup_and_warmup_with_zgc/)
-- [EclipseLink 5.0.2 released!](https://www.reddit.com/r/java/comments/1wpqc3y/eclipselink_502_released/)
-- [Java MAT alternative](https://www.reddit.com/r/java/comments/1wozgh3/java_mat_alternative/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
