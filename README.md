@@ -364,6 +364,8 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [A comparative benchmark against Java’s standard TreeMap and major third-party sorted-map libraries.](https://www.reddit.com/r/java/comments/1wttojx/a_comparative_benchmark_against_javas_standard/)
+- [Decapsulation: Breaking Java Strong Encapsulation](https://www.reddit.com/r/java/comments/1wt833o/decapsulation_breaking_java_strong_encapsulation/)
 - [heads up: Maven Central publishing limits start October 1](https://www.reddit.com/r/java/comments/1wsnsu0/heads_up_maven_central_publishing_limits_start/)
 - [Spring Boot JPA vs JDBC: ~90 MiB less RSS in a small app](https://www.reddit.com/r/java/comments/1wsk7vj/spring_boot_jpa_vs_jdbc_90_mib_less_rss_in_a/)
 - [Performance Improvements in JDK 27](https://www.reddit.com/r/java/comments/1wsgtqi/performance_improvements_in_jdk_27/)
@@ -372,8 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [State of Java Desktop](https://www.reddit.com/r/java/comments/1wsc0i1/state_of_java_desktop/)
 - [Helidon 27 Release Post](https://www.reddit.com/r/java/comments/1wr7vhv/helidon_27_release_post/)
 - [Java Gamedev Corner: Java and the $1,000,000,000 mistake.](https://www.reddit.com/r/java/comments/1wr0pq0/java_gamedev_corner_java_and_the_1000000000/)
-- [Spring: The Documentary - CultRepo](https://www.reddit.com/r/java/comments/1wqsn69/spring_the_documentary_cultrepo/)
-- [Any Cloud. Locally. Emulators for AWS, Azure, GCP and OCI](https://www.reddit.com/r/java/comments/1wqbt8f/any_cloud_locally_emulators_for_aws_azure_gcp_and/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
