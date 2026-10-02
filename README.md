@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Quarkus 4.0.0.Beta1 released](https://www.reddit.com/r/java/comments/1wvlntr/quarkus_400beta1_released/)
+- [Jersey 4.0.3 released!](https://www.reddit.com/r/java/comments/1wvduau/jersey_403_released/)
+- [How to Run Java GPU Workloads in Docker](https://www.reddit.com/r/java/comments/1wv8qid/how_to_run_java_gpu_workloads_in_docker/)
+- [Spring Boot vs Quarkus memory on 512 MiB, 768 MiB, and 1 GiB VMs](https://www.reddit.com/r/java/comments/1wv4pgz/spring_boot_vs_quarkus_memory_on_512_mib_768_mib/)
+- [Maven Central publishing limits are now in effect](https://www.reddit.com/r/java/comments/1wv0r0x/maven_central_publishing_limits_are_now_in_effect/)
+- [Vaadin 25.3 is out!](https://www.reddit.com/r/java/comments/1wuxmoy/vaadin_253_is_out/)
 - [My small Java build system in Rust](https://www.reddit.com/r/java/comments/1wufosi/my_small_java_build_system_in_rust/)
 - [simple browser detection in Java without pulling in a big dependency](https://www.reddit.com/r/java/comments/1wufo1s/simple_browser_detection_in_java_without_pulling/)
 - [OpenJDK vs. GraalVM vs. Eclipse Temurin vs. Semeru Java Performance](https://www.reddit.com/r/java/comments/1wufcpg/openjdk_vs_graalvm_vs_eclipse_temurin_vs_semeru/)
 - [JobRunr &amp; JobRunr Pro 9.0.0 Released](https://www.reddit.com/r/java/comments/1wud1bl/jobrunr_jobrunr_pro_900_released/)
-- [Is this worth something?](https://www.reddit.com/r/java/comments/1wucb3i/is_this_worth_something/)
-- [Thirteen years of blogging](https://www.reddit.com/r/java/comments/1wu6iia/thirteen_years_of_blogging/)
-- [Some Java bugs found in Minecraft’s Create mod](https://www.reddit.com/r/java/comments/1wu5wdx/some_java_bugs_found_in_minecrafts_create_mod/)
-- [Keeping behavior intact during legacy Java upgrades](https://www.reddit.com/r/java/comments/1wu3v98/keeping_behavior_intact_during_legacy_java/)
-- [Gitember v 3.5: Building a Modern Desktop Git Client with Java/Swing](https://www.reddit.com/r/java/comments/1wtzlui/gitember_v_35_building_a_modern_desktop_git/)
-- [A comparative benchmark against Java’s standard TreeMap and major third-party sorted-map libraries.](https://www.reddit.com/r/java/comments/1wttojx/a_comparative_benchmark_against_javas_standard/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
