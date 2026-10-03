@@ -31,11 +31,11 @@ git push
 ${code}
 EOF
 
-# member AND modification allowed by PR author
-# OR
-# repo owner
-# =>
-# include steps to fetch branch
+  # member AND modification allowed by PR author
+  # OR
+  # repo owner
+  # =>
+  # include steps to fetch branch
 elif [[ "${maintainer_can_modify}" == "true" ]] && [[ "${assoc}" == "MEMBER" ]] || [[ "${assoc}" == "OWNER" ]]; then
   cat <<-EOF
 To re-run CI checks, please follow these steps:
@@ -47,9 +47,9 @@ git push "${source_repo}" HEAD:"${branch}"
 ${code}
 EOF
 
-# other folks
-# =>
-# ping author
+  # other folks
+  # =>
+  # ping author
 else
   cat <<-EOF
 @${pr_owner} please trigger new CI check by following these steps:

@@ -1,0 +1,39 @@
+{
+	"description": "\ud83c\udfc6 Java4You Design patterns",
+	"license": "GPL-3.0",
+	"title": "Java Design Patterns Documentation",
+	"version": "v1.6",
+	"upload_type": "software",
+	"publication_date": "2022-04-28",
+	"keywords": ["java", "design-patterns", "java4you"],
+	"contributors": [
+		{
+			"name": "Alexander Rogalsky",
+			"type": "Other",
+			"affiliation": "SensibleMetrics, Inc."
+		}
+	],
+	"creators": [
+		{
+			"affiliation": "WildBees.Labs",
+			"name": "Alexander"
+		},
+		{
+			"affiliation": "@whitesource",
+			"name": "WhiteSource Renovate"
+		}
+	],
+	"access_right": "open",
+	"related_identifiers": [
+		{
+			"scheme": "url",
+			"identifier": "https://github.com/AlexRogalskiy/java-patterns/tree/v1.6",
+			"relation": "isSupplementTo"
+		},
+		{
+			"scheme": "doi",
+			"identifier": "10.5281/zenodo.6502338",
+			"relation": "isVersionOf"
+		}
+	]
+}
