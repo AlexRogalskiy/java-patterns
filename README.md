@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Apache Maven 3.10.0 Release Notes](https://www.reddit.com/r/java/comments/1wwckjs/apache_maven_3100_release_notes/)
+- [r/java RSS feed ends Nov 13: where else do you follow Java news and discussion?](https://www.reddit.com/r/java/comments/1ww7vtm/rjava_rss_feed_ends_nov_13_where_else_do_you/)
+- [Dynamic meta-compilation in Truffle](https://www.reddit.com/r/java/comments/1wvt7eb/dynamic_metacompilation_in_truffle/)
+- [Sell me Spring/Spring Boot, please.](https://www.reddit.com/r/java/comments/1wvmxvt/sell_me_springspring_boot_please/)
 - [Quarkus 4.0.0.Beta1 released](https://www.reddit.com/r/java/comments/1wvlntr/quarkus_400beta1_released/)
 - [Jersey 4.0.3 released!](https://www.reddit.com/r/java/comments/1wvduau/jersey_403_released/)
 - [How to Run Java GPU Workloads in Docker](https://www.reddit.com/r/java/comments/1wv8qid/how_to_run_java_gpu_workloads_in_docker/)
 - [Spring Boot vs Quarkus memory on 512 MiB, 768 MiB, and 1 GiB VMs](https://www.reddit.com/r/java/comments/1wv4pgz/spring_boot_vs_quarkus_memory_on_512_mib_768_mib/)
 - [Maven Central publishing limits are now in effect](https://www.reddit.com/r/java/comments/1wv0r0x/maven_central_publishing_limits_are_now_in_effect/)
 - [Vaadin 25.3 is out!](https://www.reddit.com/r/java/comments/1wuxmoy/vaadin_253_is_out/)
-- [My small Java build system in Rust](https://www.reddit.com/r/java/comments/1wufosi/my_small_java_build_system_in_rust/)
-- [simple browser detection in Java without pulling in a big dependency](https://www.reddit.com/r/java/comments/1wufo1s/simple_browser_detection_in_java_without_pulling/)
-- [OpenJDK vs. GraalVM vs. Eclipse Temurin vs. Semeru Java Performance](https://www.reddit.com/r/java/comments/1wufcpg/openjdk_vs_graalvm_vs_eclipse_temurin_vs_semeru/)
-- [JobRunr &amp; JobRunr Pro 9.0.0 Released](https://www.reddit.com/r/java/comments/1wud1bl/jobrunr_jobrunr_pro_900_released/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
