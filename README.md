@@ -364,6 +364,9 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [GlassFish 8.0.5 released!](https://www.reddit.com/r/java/comments/1wxrkdt/glassfish_805_released/)
+- [I wrote own efficient Maven scheduler to build modules with max parallelism](https://www.reddit.com/r/java/comments/1wxfdju/i_wrote_own_efficient_maven_scheduler_to_build/)
+- [thriftc-maven-plugin - compile Thrift from Maven without installing thrift locally](https://www.reddit.com/r/java/comments/1wxbdla/thriftcmavenplugin_compile_thrift_from_maven/)
 - [Building your website with Quarkus and Roq on Java](https://www.reddit.com/r/java/comments/1wwpvdy/building_your_website_with_quarkus_and_roq_on_java/)
 - [Apache Maven 3.10.0 Release Notes](https://www.reddit.com/r/java/comments/1wwckjs/apache_maven_3100_release_notes/)
 - [r/java RSS feed ends Nov 13: where else do you follow Java news and discussion?](https://www.reddit.com/r/java/comments/1ww7vtm/rjava_rss_feed_ends_nov_13_where_else_do_you/)
@@ -371,9 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [Sell me Spring/Spring Boot, please.](https://www.reddit.com/r/java/comments/1wvmxvt/sell_me_springspring_boot_please/)
 - [Quarkus 4.0.0.Beta1 released](https://www.reddit.com/r/java/comments/1wvlntr/quarkus_400beta1_released/)
 - [Jersey 4.0.3 released!](https://www.reddit.com/r/java/comments/1wvduau/jersey_403_released/)
-- [How to Run Java GPU Workloads in Docker](https://www.reddit.com/r/java/comments/1wv8qid/how_to_run_java_gpu_workloads_in_docker/)
-- [Spring Boot vs Quarkus memory on 512 MiB, 768 MiB, and 1 GiB VMs](https://www.reddit.com/r/java/comments/1wv4pgz/spring_boot_vs_quarkus_memory_on_512_mib_768_mib/)
-- [Maven Central publishing limits are now in effect](https://www.reddit.com/r/java/comments/1wv0r0x/maven_central_publishing_limits_are_now_in_effect/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
