@@ -65,5 +65,5 @@ find ./docs -type f -exec strings {} \; | tr ' ' '\n' >> "${DATAFILE}"
 
 aspell --lang=en --ignore-case --personal=./scripts/template/words-to-ignore.en.pws check "${DATAFILE_SORTED}"
 
-  if [ -f "${DATAFILE}" ]; then rm "${DATAFILE}"; fi
-  if [ -f "${DATAFILE_SORTED}" ]; then rm "${DATAFILE_SORTED}"; fi
+if [ -f "${DATAFILE}" ]; then rm "${DATAFILE}"; fi
+if [ -f "${DATAFILE_SORTED}" ]; then rm "${DATAFILE_SORTED}"; fi
