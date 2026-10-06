@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Compiling my favourite language to Web Assembly with no JDK in sight](https://www.reddit.com/r/java/comments/1wyin9q/compiling_my_favourite_language_to_web_assembly/)
+- [JEP 543: Structured Concurrency Proposed to Target JDK 28](https://www.reddit.com/r/java/comments/1wyfw87/jep_543_structured_concurrency_proposed_to_target/)
+- [Epicyro 3.1.2 released - Introduces Quarkus extension for Jakarta Authentication support](https://www.reddit.com/r/java/comments/1wyfk6h/epicyro_312_released_introduces_quarkus_extension/)
+- [Java Swing Ran Anywhere. Or Maybe It Just Gingerly Walked?](https://www.reddit.com/r/java/comments/1wy87kg/java_swing_ran_anywhere_or_maybe_it_just_gingerly/)
+- [Warm up Vector API](https://www.reddit.com/r/java/comments/1wy58ox/warm_up_vector_api/)
 - [GlassFish 8.0.5 released!](https://www.reddit.com/r/java/comments/1wxrkdt/glassfish_805_released/)
 - [I wrote own efficient Maven scheduler to build modules with max parallelism](https://www.reddit.com/r/java/comments/1wxfdju/i_wrote_own_efficient_maven_scheduler_to_build/)
 - [thriftc-maven-plugin - compile Thrift from Maven without installing thrift locally](https://www.reddit.com/r/java/comments/1wxbdla/thriftcmavenplugin_compile_thrift_from_maven/)
 - [Building your website with Quarkus and Roq on Java](https://www.reddit.com/r/java/comments/1wwpvdy/building_your_website_with_quarkus_and_roq_on_java/)
 - [Apache Maven 3.10.0 Release Notes](https://www.reddit.com/r/java/comments/1wwckjs/apache_maven_3100_release_notes/)
-- [r/java RSS feed ends Nov 13: where else do you follow Java news and discussion?](https://www.reddit.com/r/java/comments/1ww7vtm/rjava_rss_feed_ends_nov_13_where_else_do_you/)
-- [Dynamic meta-compilation in Truffle](https://www.reddit.com/r/java/comments/1wvt7eb/dynamic_metacompilation_in_truffle/)
-- [Sell me Spring/Spring Boot, please.](https://www.reddit.com/r/java/comments/1wvmxvt/sell_me_springspring_boot_please/)
-- [Quarkus 4.0.0.Beta1 released](https://www.reddit.com/r/java/comments/1wvlntr/quarkus_400beta1_released/)
-- [Jersey 4.0.3 released!](https://www.reddit.com/r/java/comments/1wvduau/jersey_403_released/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
