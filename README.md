@@ -364,6 +364,9 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Raw use of parameterized class &#39;List&#39;](https://www.reddit.com/r/java/comments/1wz8jzm/raw_use_of_parameterized_class_list/)
+- [Spring Boot vs Quarkus vs Micronaut with JDBC on Java 25](https://www.reddit.com/r/java/comments/1wz53lh/spring_boot_vs_quarkus_vs_micronaut_with_jdbc_on/)
+- [I built Neon Glow, a plugin that adds neon glow to your existing JetBrains IDE theme](https://www.reddit.com/r/java/comments/1wyzz5x/i_built_neon_glow_a_plugin_that_adds_neon_glow_to/)
 - [Compiling my favourite language to Web Assembly with no JDK in sight](https://www.reddit.com/r/java/comments/1wyin9q/compiling_my_favourite_language_to_web_assembly/)
 - [JEP 543: Structured Concurrency Proposed to Target JDK 28](https://www.reddit.com/r/java/comments/1wyfw87/jep_543_structured_concurrency_proposed_to_target/)
 - [Epicyro 3.1.2 released - Introduces Quarkus extension for Jakarta Authentication support](https://www.reddit.com/r/java/comments/1wyfk6h/epicyro_312_released_introduces_quarkus_extension/)
@@ -371,9 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [Warm up Vector API](https://www.reddit.com/r/java/comments/1wy58ox/warm_up_vector_api/)
 - [GlassFish 8.0.5 released!](https://www.reddit.com/r/java/comments/1wxrkdt/glassfish_805_released/)
 - [I wrote own efficient Maven scheduler to build modules with max parallelism](https://www.reddit.com/r/java/comments/1wxfdju/i_wrote_own_efficient_maven_scheduler_to_build/)
-- [thriftc-maven-plugin - compile Thrift from Maven without installing thrift locally](https://www.reddit.com/r/java/comments/1wxbdla/thriftcmavenplugin_compile_thrift_from_maven/)
-- [Building your website with Quarkus and Roq on Java](https://www.reddit.com/r/java/comments/1wwpvdy/building_your_website_with_quarkus_and_roq_on_java/)
-- [Apache Maven 3.10.0 Release Notes](https://www.reddit.com/r/java/comments/1wwckjs/apache_maven_3100_release_notes/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
