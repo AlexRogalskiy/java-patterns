@@ -364,6 +364,8 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Push-based, restart-free feature flags and config for Spring Boot, using MongoDB Change Streams](https://www.reddit.com/r/java/comments/1x03dly/pushbased_restartfree_feature_flags_and_config/)
+- [midden v0.2.0: Up to 60% faster, up to 40% memory reduction](https://www.reddit.com/r/java/comments/1x005x7/midden_v020_up_to_60_faster_up_to_40_memory/)
 - [Raw use of parameterized class &#39;List&#39;](https://www.reddit.com/r/java/comments/1wz8jzm/raw_use_of_parameterized_class_list/)
 - [Spring Boot vs Quarkus vs Micronaut with JDBC on Java 25](https://www.reddit.com/r/java/comments/1wz53lh/spring_boot_vs_quarkus_vs_micronaut_with_jdbc_on/)
 - [I built Neon Glow, a plugin that adds neon glow to your existing JetBrains IDE theme](https://www.reddit.com/r/java/comments/1wyzz5x/i_built_neon_glow_a_plugin_that_adds_neon_glow_to/)
@@ -372,8 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [Epicyro 3.1.2 released - Introduces Quarkus extension for Jakarta Authentication support](https://www.reddit.com/r/java/comments/1wyfk6h/epicyro_312_released_introduces_quarkus_extension/)
 - [Java Swing Ran Anywhere. Or Maybe It Just Gingerly Walked?](https://www.reddit.com/r/java/comments/1wy87kg/java_swing_ran_anywhere_or_maybe_it_just_gingerly/)
 - [Warm up Vector API](https://www.reddit.com/r/java/comments/1wy58ox/warm_up_vector_api/)
-- [GlassFish 8.0.5 released!](https://www.reddit.com/r/java/comments/1wxrkdt/glassfish_805_released/)
-- [I wrote own efficient Maven scheduler to build modules with max parallelism](https://www.reddit.com/r/java/comments/1wxfdju/i_wrote_own_efficient_maven_scheduler_to_build/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
