@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Introduction to GitHub Copilot SDK for Java](https://www.reddit.com/r/java/comments/1x14soi/introduction_to_github_copilot_sdk_for_java/)
+- [What’s the status of Lilliput 2 &lpar;4-byte object headers&rpar;?](https://www.reddit.com/r/java/comments/1x0vvez/whats_the_status_of_lilliput_2_4byte_object/)
+- [I am building a J2ME JVM and a javap alternative in C++](https://www.reddit.com/r/java/comments/1x0u78q/i_am_building_a_j2me_jvm_and_a_javap_alternative/)
+- [Brewlet: Java on Kubernetes with node-managed JDKs](https://www.reddit.com/r/java/comments/1x0qkwf/brewlet_java_on_kubernetes_with_nodemanaged_jdks/)
+- [Has anyone tried quarkus?](https://www.reddit.com/r/java/comments/1x0n0du/has_anyone_tried_quarkus/)
+- [Bypassing and overruling SSL configuration of libraries](https://www.reddit.com/r/java/comments/1x0lzxi/bypassing_and_overruling_ssl_configuration_of/)
 - [Push-based, restart-free feature flags and config for Spring Boot, using MongoDB Change Streams](https://www.reddit.com/r/java/comments/1x03dly/pushbased_restartfree_feature_flags_and_config/)
 - [midden v0.2.0: Up to 60% faster, up to 40% memory reduction](https://www.reddit.com/r/java/comments/1x005x7/midden_v020_up_to_60_faster_up_to_40_memory/)
 - [Raw use of parameterized class &#39;List&#39;](https://www.reddit.com/r/java/comments/1wz8jzm/raw_use_of_parameterized_class_list/)
 - [Spring Boot vs Quarkus vs Micronaut with JDBC on Java 25](https://www.reddit.com/r/java/comments/1wz53lh/spring_boot_vs_quarkus_vs_micronaut_with_jdbc_on/)
-- [I built Neon Glow, a plugin that adds neon glow to your existing JetBrains IDE theme](https://www.reddit.com/r/java/comments/1wyzz5x/i_built_neon_glow_a_plugin_that_adds_neon_glow_to/)
-- [Compiling my favourite language to Web Assembly with no JDK in sight](https://www.reddit.com/r/java/comments/1wyin9q/compiling_my_favourite_language_to_web_assembly/)
-- [JEP 543: Structured Concurrency Proposed to Target JDK 28](https://www.reddit.com/r/java/comments/1wyfw87/jep_543_structured_concurrency_proposed_to_target/)
-- [Epicyro 3.1.2 released - Introduces Quarkus extension for Jakarta Authentication support](https://www.reddit.com/r/java/comments/1wyfk6h/epicyro_312_released_introduces_quarkus_extension/)
-- [Java Swing Ran Anywhere. Or Maybe It Just Gingerly Walked?](https://www.reddit.com/r/java/comments/1wy87kg/java_swing_ran_anywhere_or_maybe_it_just_gingerly/)
-- [Warm up Vector API](https://www.reddit.com/r/java/comments/1wy58ox/warm_up_vector_api/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
