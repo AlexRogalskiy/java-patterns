@@ -1,0 +1,54 @@
+{{- if and .Values.metrics.enabled .Values.serviceMonitor.enabled }}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: {{ $fullName }}
+  {{- if .Values.serviceMonitor.namespace }}
+  namespace: {{ .Values.serviceMonitor.namespace }}
+  {{- else }}
+  namespace: {{ .Release.Namespace | quote }}
+  {{- end }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  {{- if .Values.serviceMonitor.labels }}
+  {{- with .Values.serviceMonitor.labels }}
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+  {{- end }}
+  {{- if .Values.serviceMonitor.annotations }}
+  {{- with .Values.serviceMonitor.annotations }}
+  annotations:
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+  {{- end }}
+spec:
+  endpoints:
+    - targetPort: {{ .Values.serviceMonitor.targetPort }}
+#       port: metrics
+      {{- if .Values.serviceMonitor.path }}
+      path: {{ .Values.serviceMonitor.path }}
+      {{- end }}
+      path: /metrics
+      interval: 30s
+      {{- if .Values.serviceMonitor.interval }}
+      interval: {{ .Values.serviceMonitor.interval }}
+      {{- end }}
+      {{- if .Values.serviceMonitor.scrapeTimeout }}
+      scrapeTimeout: {{ .Values.serviceMonitor.scrapeTimeout }}
+      {{- end }}
+      {{- if .Values.serviceMonitor.metricRelabelings }}
+      metricRelabelings: {{- toYaml .Values.serviceMonitor.metricRelabelings | nindent 6 }}
+      {{- end }}
+      {{- if .Values.serviceMonitor.relabelings }}
+      relabelings: {{- toYaml .Values.serviceMonitor.relabelings | nindent 6 }}
+      {{- end }}
+  namespaceSelector:
+    matchNames:
+      - {{ .Release.Namespace }}
+  jobLabel: {{ $fullName }}
+  selector:
+    matchLabels:
+      {{- include "backend-java-patterns.selectorLabels" . | nindent 6 }}
+      app.kubernetes.io/component: metrics
+{{- end }}

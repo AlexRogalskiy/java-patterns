@@ -1,0 +1,63 @@
+name: k8s
+
+on:
+  push:
+    branches:
+      - 'master'
+  pull_request:
+    branches:
+      - 'master'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Run ShellCheck
+        uses: ludeeus/action-shellcheck@master
+        env:
+          SHELLCHECK_OPTS: -e SC2059 -e SC2034 -e SC1090
+        with:
+          ignore: scripts
+          severity: error
+
+      - uses: azure/setup-helm@v1
+        with:
+          version: v3.6.3
+
+      - name: Install tools
+        run: |
+          echo "Installing kubectl..."
+          curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+          chmod +x ./kubectl
+          sudo mv ./kubectl /usr/local/bin/kubectl
+
+          echo "Installing kind..."
+          curl -fsSLo kind "https://github.com/kubernetes-sigs/kind/releases/download/v0.11.1/kind-linux-amd64"
+          chmod +x kind
+          sudo mv kind /usr/local/bin/kind
+
+      - name: List directories
+        shell: bash
+        run: |
+          echo "Listing of directory..."
+          ls -la scripts
+
+      - name: Build
+        shell: bash
+        run: |
+          echo "Running build command..."
+          chmod +x ./scripts/docker-build.sh
+          sudo ./scripts/docker-build.sh ci
+
+      - name: Test
+        shell: bash
+        run: |
+          echo "Running test command..."
+          chmod +x ./scripts/e2e-kind.sh
+          sudo ./scripts/e2e-kind.sh

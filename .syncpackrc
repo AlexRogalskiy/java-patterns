@@ -1,0 +1,26 @@
+{
+  "dev": true,
+  "indent": "  ",
+  "semverRange": "",
+  "peer": true,
+  "prod": true,
+  "filter": "",
+  "sortAz": [
+    "bin",
+    "contributors",
+    "dependencies",
+    "devDependencies",
+    "keywords",
+    "peerDependencies",
+    "resolutions",
+    "scripts"
+  ],
+  "sortFirst": [
+    "name",
+    "description",
+    "version",
+    "author"
+  ],
+  "source": [],
+  "versionGroups": []
+}
