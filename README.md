@@ -364,6 +364,7 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [JVM Heap OOM Field Guide — 5 reproducible OutOfMemoryError patterns with diagnosis walkthroughs](https://www.reddit.com/r/java/comments/1x40fm1/jvm_heap_oom_field_guide_5_reproducible/)
 - [The Foldable Project View plugin for JetBrians IDEs is back](https://www.reddit.com/r/java/comments/1x3ihep/the_foldable_project_view_plugin_for_jetbrians/)
 - [What to watch this weekend - Devoxx Belgium 2026](https://www.reddit.com/r/java/comments/1x2mpn5/what_to_watch_this_weekend_devoxx_belgium_2026/)
 - [Is this java book rare](https://www.reddit.com/r/java/comments/1x2g4hk/is_this_java_book_rare/)
@@ -373,7 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [I am building a J2ME JVM and a javap alternative in C++](https://www.reddit.com/r/java/comments/1x0u78q/i_am_building_a_j2me_jvm_and_a_javap_alternative/)
 - [Brewlet: Java on Kubernetes with node-managed JDKs](https://www.reddit.com/r/java/comments/1x0qkwf/brewlet_java_on_kubernetes_with_nodemanaged_jdks/)
 - [Has anyone tried quarkus?](https://www.reddit.com/r/java/comments/1x0n0du/has_anyone_tried_quarkus/)
-- [Bypassing and overruling SSL configuration of libraries](https://www.reddit.com/r/java/comments/1x0lzxi/bypassing_and_overruling_ssl_configuration_of/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
