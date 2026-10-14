@@ -364,6 +364,9 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Javalin 7 vs Spring Boot 4 on a 256 MiB VM: 4x faster startup, but memory under load was closer than I expected](https://www.reddit.com/r/java/comments/1x548uy/javalin_7_vs_spring_boot_4_on_a_256_mib_vm_4x/)
+- [Rainbow Gum 0.15.0: ScopedValue key values, logging into JFR, and OpenTelemetry without the SDK](https://www.reddit.com/r/java/comments/1x5267t/rainbow_gum_0150_scopedvalue_key_values_logging/)
+- [Your Fargate Autoscaler Doesn&#39;t Understand Your JVM &lpar;by Default&rpar;: Lessons Learned the Hard Way](https://www.reddit.com/r/java/comments/1x4zz84/your_fargate_autoscaler_doesnt_understand_your/)
 - [JVM Heap OOM Field Guide — 5 reproducible OutOfMemoryError patterns with diagnosis walkthroughs](https://www.reddit.com/r/java/comments/1x40fm1/jvm_heap_oom_field_guide_5_reproducible/)
 - [The Foldable Project View plugin for JetBrians IDEs is back](https://www.reddit.com/r/java/comments/1x3ihep/the_foldable_project_view_plugin_for_jetbrians/)
 - [What to watch this weekend - Devoxx Belgium 2026](https://www.reddit.com/r/java/comments/1x2mpn5/what_to_watch_this_weekend_devoxx_belgium_2026/)
@@ -371,9 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [JDK team is working on creating a single-native executable image using jlink](https://www.reddit.com/r/java/comments/1x279d2/jdk_team_is_working_on_creating_a_singlenative/)
 - [Will Maven integrate with Anthropic&#39;s OSS scanner?](https://www.reddit.com/r/java/comments/1x1x0ve/will_maven_integrate_with_anthropics_oss_scanner/)
 - [What’s the status of Lilliput 2 &lpar;4-byte object headers&rpar;?](https://www.reddit.com/r/java/comments/1x0vvez/whats_the_status_of_lilliput_2_4byte_object/)
-- [I am building a J2ME JVM and a javap alternative in C++](https://www.reddit.com/r/java/comments/1x0u78q/i_am_building_a_j2me_jvm_and_a_javap_alternative/)
-- [Brewlet: Java on Kubernetes with node-managed JDKs](https://www.reddit.com/r/java/comments/1x0qkwf/brewlet_java_on_kubernetes_with_nodemanaged_jdks/)
-- [Has anyone tried quarkus?](https://www.reddit.com/r/java/comments/1x0n0du/has_anyone_tried_quarkus/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
