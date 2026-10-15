@@ -2,7 +2,7 @@ Jinja2==3.0.3
 click-man==0.4.1
 mkdocs==1.2.3
 Pygments==2.12.0
-mkdocs-material==8.2.7
+mkdocs-material==9.7.7
 Markdown==3.3.6
 markdown-checklist==0.4.3
 fontawesome-markdown==0.2.6
