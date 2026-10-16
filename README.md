@@ -364,6 +364,7 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Introducing Titan, an open-source message dispatcher](https://www.reddit.com/r/java/comments/1x6mrx6/introducing_titan_an_opensource_message_dispatcher/)
 - [HeapLens is now available in IntelliJ IDEA as well](https://www.reddit.com/r/java/comments/1x69oz2/heaplens_is_now_available_in_intellij_idea_as_well/)
 - [☕ actions/setup-java v6.1.0 is out!](https://www.reddit.com/r/java/comments/1x6284t/actionssetupjava_v610_is_out/)
 - [Dependencies-only AOT cache?](https://www.reddit.com/r/java/comments/1x5utm1/dependenciesonly_aot_cache/)
@@ -373,7 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [Your Fargate Autoscaler Doesn&#39;t Understand Your JVM &lpar;by Default&rpar;: Lessons Learned the Hard Way](https://www.reddit.com/r/java/comments/1x4zz84/your_fargate_autoscaler_doesnt_understand_your/)
 - [JVM Heap OOM Field Guide — 5 reproducible OutOfMemoryError patterns with diagnosis walkthroughs](https://www.reddit.com/r/java/comments/1x40fm1/jvm_heap_oom_field_guide_5_reproducible/)
 - [The Foldable Project View plugin for JetBrians IDEs is back](https://www.reddit.com/r/java/comments/1x3ihep/the_foldable_project_view_plugin_for_jetbrians/)
-- [What to watch this weekend - Devoxx Belgium 2026](https://www.reddit.com/r/java/comments/1x2mpn5/what_to_watch_this_weekend_devoxx_belgium_2026/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
