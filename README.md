@@ -364,6 +364,9 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [A plugin that keeps parent folders visible in JetBrains IDEs](https://www.reddit.com/r/java/comments/1x7c40a/a_plugin_that_keeps_parent_folders_visible_in/)
+- [OpenJDK 28 EA build 20 is now available with JEP 544 &lpar;AOT Code Compilation&rpar;](https://www.reddit.com/r/java/comments/1x79jmh/openjdk_28_ea_build_20_is_now_available_with_jep/)
+- [Does shrinking a JDBC connection pool actually save PostgreSQL memory? I measured it.](https://www.reddit.com/r/java/comments/1x6pb1p/does_shrinking_a_jdbc_connection_pool_actually/)
 - [Introducing Titan, an open-source message dispatcher](https://www.reddit.com/r/java/comments/1x6mrx6/introducing_titan_an_opensource_message_dispatcher/)
 - [HeapLens is now available in IntelliJ IDEA as well](https://www.reddit.com/r/java/comments/1x69oz2/heaplens_is_now_available_in_intellij_idea_as_well/)
 - [☕ actions/setup-java v6.1.0 is out!](https://www.reddit.com/r/java/comments/1x6284t/actionssetupjava_v610_is_out/)
@@ -371,9 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [Java sessions at WAWTech, 26–27 November](https://www.reddit.com/r/java/comments/1x5p78q/java_sessions_at_wawtech_2627_november/)
 - [Javalin 7 vs Spring Boot 4 on a 256 MiB VM: 4x faster startup, but memory under load was closer than I expected](https://www.reddit.com/r/java/comments/1x548uy/javalin_7_vs_spring_boot_4_on_a_256_mib_vm_4x/)
 - [Rainbow Gum 0.15.0: ScopedValue key values, logging into JFR, and OpenTelemetry without the SDK](https://www.reddit.com/r/java/comments/1x5267t/rainbow_gum_0150_scopedvalue_key_values_logging/)
-- [Your Fargate Autoscaler Doesn&#39;t Understand Your JVM &lpar;by Default&rpar;: Lessons Learned the Hard Way](https://www.reddit.com/r/java/comments/1x4zz84/your_fargate_autoscaler_doesnt_understand_your/)
-- [JVM Heap OOM Field Guide — 5 reproducible OutOfMemoryError patterns with diagnosis walkthroughs](https://www.reddit.com/r/java/comments/1x40fm1/jvm_heap_oom_field_guide_5_reproducible/)
-- [The Foldable Project View plugin for JetBrians IDEs is back](https://www.reddit.com/r/java/comments/1x3ihep/the_foldable_project_view_plugin_for_jetbrians/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
