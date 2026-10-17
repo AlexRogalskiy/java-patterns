@@ -1,0 +1,22 @@
+apiVersion: v2
+version: 1.0.0
+appVersion: "1.0.1"
+created: "2021-09-01T06:23:41.21262323Z"
+name: backend-java-patterns
+description: |
+  Java Design Patterns documentation
+home: https://alexander-rogalsky.gitbook.io/java-patterns
+icon: https://d1j8pt39hxlh3d.cloudfront.net/emoji/emojione/5.0/png/unicode/32/1f4d2.png
+type: application
+keywords:
+  - java
+  - design patterns
+  - documentation
+maintainers:
+  - email: alexrogalskiy@users.noreply.github.com
+    name: AlexRogalskiy
+sources:
+  - https://github.com/AlexRogalskiy/java-patterns
+urls:
+  - https://github.com/AlexRogalskiy/java-patterns/archive/refs/tags/1.0.1.tar.gz
+kubeVersion: '>=1.19.0-0'
