@@ -364,6 +364,7 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Killing Reflection at Build Time: Avro, Codename One and Java Code Generation &lpar;Foojay Podcast #103&rpar;](https://www.reddit.com/r/java/comments/1x87xzm/killing_reflection_at_build_time_avro_codename/)
 - [A plugin that keeps parent folders visible in JetBrains IDEs](https://www.reddit.com/r/java/comments/1x7c40a/a_plugin_that_keeps_parent_folders_visible_in/)
 - [OpenJDK 28 EA build 20 is now available with JEP 544 &lpar;AOT Code Compilation&rpar;](https://www.reddit.com/r/java/comments/1x79jmh/openjdk_28_ea_build_20_is_now_available_with_jep/)
 - [Does shrinking a JDBC connection pool actually save PostgreSQL memory? I measured it.](https://www.reddit.com/r/java/comments/1x6pb1p/does_shrinking_a_jdbc_connection_pool_actually/)
@@ -373,7 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [Dependencies-only AOT cache?](https://www.reddit.com/r/java/comments/1x5utm1/dependenciesonly_aot_cache/)
 - [Java sessions at WAWTech, 26–27 November](https://www.reddit.com/r/java/comments/1x5p78q/java_sessions_at_wawtech_2627_november/)
 - [Javalin 7 vs Spring Boot 4 on a 256 MiB VM: 4x faster startup, but memory under load was closer than I expected](https://www.reddit.com/r/java/comments/1x548uy/javalin_7_vs_spring_boot_4_on_a_256_mib_vm_4x/)
-- [Rainbow Gum 0.15.0: ScopedValue key values, logging into JFR, and OpenTelemetry without the SDK](https://www.reddit.com/r/java/comments/1x5267t/rainbow_gum_0150_scopedvalue_key_values_logging/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
