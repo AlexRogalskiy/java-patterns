@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Migrating Java Applications to AWS Serverless: A Practical Guide](https://www.reddit.com/r/java/comments/1xavey1/migrating_java_applications_to_aws_serverless_a/)
+- [calit 1.28.0](https://www.reddit.com/r/java/comments/1xarqkw/calit_1280/)
+- [Tomcact breaking change regarding locales can cause application failure for certain users](https://www.reddit.com/r/java/comments/1xam9dd/tomcact_breaking_change_regarding_locales_can/)
+- [Building full-stack web apps using TeaVM &lpar;and why it’s great for working with AI coding agents too&rpar;](https://www.reddit.com/r/java/comments/1xam61b/building_fullstack_web_apps_using_teavm_and_why/)
+- [fose: A flat combining primitive for Java &lpar;looking for review&rpar;](https://www.reddit.com/r/java/comments/1xajq60/fose_a_flat_combining_primitive_for_java_looking/)
 - [Eclipse WaSP 4.0.3 released! &lpar;provides Pages/JSP support for Quarkus&rpar;](https://www.reddit.com/r/java/comments/1xa6ch9/eclipse_wasp_403_released_provides_pagesjsp/)
 - [CondationCMS - a flat-file CMS written in Java](https://www.reddit.com/r/java/comments/1xa5vgw/condationcms_a_flatfile_cms_written_in_java/)
 - [Faster by Design: Performance engineering in the Microsoft JDBC Driver for SQL Server](https://www.reddit.com/r/java/comments/1xa0q98/faster_by_design_performance_engineering_in_the/)
 - [Campfire port in Java is faster then Rust. Some thoughts about JEP 544 &lpar;AOT Code Compilation&rpar;](https://www.reddit.com/r/java/comments/1x9s75g/campfire_port_in_java_is_faster_then_rust_some/)
 - [IntelliJ IDEA&#39;s Java &amp; Kotlin extension for VS Code and Cursor is now 1.0](https://www.reddit.com/r/java/comments/1x9rshw/intellij_ideas_java_kotlin_extension_for_vs_code/)
-- [Should a request DTO be a value class &lpar;JEP 401&rpar;?](https://www.reddit.com/r/java/comments/1x8wnn7/should_a_request_dto_be_a_value_class_jep_401/)
-- [Killing Reflection at Build Time: Avro, Codename One and Java Code Generation &lpar;Foojay Podcast #103&rpar;](https://www.reddit.com/r/java/comments/1x87xzm/killing_reflection_at_build_time_avro_codename/)
-- [A plugin that keeps parent folders visible in JetBrains IDEs](https://www.reddit.com/r/java/comments/1x7c40a/a_plugin_that_keeps_parent_folders_visible_in/)
-- [OpenJDK 28 EA build 20 is now available with JEP 544 &lpar;AOT Code Compilation&rpar;](https://www.reddit.com/r/java/comments/1x79jmh/openjdk_28_ea_build_20_is_now_available_with_jep/)
-- [Does shrinking a JDBC connection pool actually save PostgreSQL memory? I measured it.](https://www.reddit.com/r/java/comments/1x6pb1p/does_shrinking_a_jdbc_connection_pool_actually/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
