@@ -364,6 +364,8 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Java based Numerical library &lpar;JNum-v0.2&rpar; This time even better and faster!](https://www.reddit.com/r/java/comments/1xbz63n/java_based_numerical_library_jnumv02_this_time/)
+- [Using Java skills for something a little different](https://www.reddit.com/r/java/comments/1xbllwi/using_java_skills_for_something_a_little_different/)
 - [Migrating Java Applications to AWS Serverless: A Practical Guide](https://www.reddit.com/r/java/comments/1xavey1/migrating_java_applications_to_aws_serverless_a/)
 - [calit 1.28.0](https://www.reddit.com/r/java/comments/1xarqkw/calit_1280/)
 - [Tomcact breaking change regarding locales can cause application failure for certain users](https://www.reddit.com/r/java/comments/1xam9dd/tomcact_breaking_change_regarding_locales_can/)
@@ -372,8 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [Eclipse WaSP 4.0.3 released! &lpar;provides Pages/JSP support for Quarkus&rpar;](https://www.reddit.com/r/java/comments/1xa6ch9/eclipse_wasp_403_released_provides_pagesjsp/)
 - [CondationCMS - a flat-file CMS written in Java](https://www.reddit.com/r/java/comments/1xa5vgw/condationcms_a_flatfile_cms_written_in_java/)
 - [Faster by Design: Performance engineering in the Microsoft JDBC Driver for SQL Server](https://www.reddit.com/r/java/comments/1xa0q98/faster_by_design_performance_engineering_in_the/)
-- [Campfire port in Java is faster then Rust. Some thoughts about JEP 544 &lpar;AOT Code Compilation&rpar;](https://www.reddit.com/r/java/comments/1x9s75g/campfire_port_in_java_is_faster_then_rust_some/)
-- [IntelliJ IDEA&#39;s Java &amp; Kotlin extension for VS Code and Cursor is now 1.0](https://www.reddit.com/r/java/comments/1x9rshw/intellij_ideas_java_kotlin_extension_for_vs_code/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
