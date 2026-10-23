@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [We found a bypass in Java’s eMudhra certificate blocklist mitigation](https://www.reddit.com/r/java/comments/1xcmrqh/we_found_a_bypass_in_javas_emudhra_certificate/)
+- [Jdbi vs MyBatis vs jOOQ in a small Javalin REST API: memory and latency on a 512 MiB VM](https://www.reddit.com/r/java/comments/1xcmjtp/jdbi_vs_mybatis_vs_jooq_in_a_small_javalin_rest/)
+- [Release announcement: Sheetmusic4J 0.0.4 and 0.0.5: clickable notes, a 3D fly-over view and LilyPond support &lpar;Java and JavaFX sheet music library&rpar;](https://www.reddit.com/r/java/comments/1xchvg8/release_announcement_sheetmusic4j_004_and_005/)
+- [TornadoVM 7 Enables GPU-Native Workloads From Java Applications](https://www.reddit.com/r/java/comments/1xcc832/tornadovm_7_enables_gpunative_workloads_from_java/)
 - [Java based Numerical library &lpar;JNum-v0.2&rpar; This time even better and faster!](https://www.reddit.com/r/java/comments/1xbz63n/java_based_numerical_library_jnumv02_this_time/)
 - [Using Java skills for something a little different](https://www.reddit.com/r/java/comments/1xbllwi/using_java_skills_for_something_a_little_different/)
 - [Migrating Java Applications to AWS Serverless: A Practical Guide](https://www.reddit.com/r/java/comments/1xavey1/migrating_java_applications_to_aws_serverless_a/)
 - [calit 1.28.0](https://www.reddit.com/r/java/comments/1xarqkw/calit_1280/)
 - [Tomcact breaking change regarding locales can cause application failure for certain users](https://www.reddit.com/r/java/comments/1xam9dd/tomcact_breaking_change_regarding_locales_can/)
 - [Building full-stack web apps using TeaVM &lpar;and why it’s great for working with AI coding agents too&rpar;](https://www.reddit.com/r/java/comments/1xam61b/building_fullstack_web_apps_using_teavm_and_why/)
-- [fose: A flat combining primitive for Java &lpar;looking for review&rpar;](https://www.reddit.com/r/java/comments/1xajq60/fose_a_flat_combining_primitive_for_java_looking/)
-- [Eclipse WaSP 4.0.3 released! &lpar;provides Pages/JSP support for Quarkus&rpar;](https://www.reddit.com/r/java/comments/1xa6ch9/eclipse_wasp_403_released_provides_pagesjsp/)
-- [CondationCMS - a flat-file CMS written in Java](https://www.reddit.com/r/java/comments/1xa5vgw/condationcms_a_flatfile_cms_written_in_java/)
-- [Faster by Design: Performance engineering in the Microsoft JDBC Driver for SQL Server](https://www.reddit.com/r/java/comments/1xa0q98/faster_by_design_performance_engineering_in_the/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
