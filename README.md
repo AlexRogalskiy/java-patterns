@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Allocating Off-Heap Memory: Typically 6-18x Faster in JDK 28](https://www.reddit.com/r/java/comments/1xdv8fw/allocating_offheap_memory_typically_618x_faster/)
+- [OpenJDK 28 EA build 21 &lpar;https://jdk.java.net/28/&rpar; is out, with Adaptive Heap Sizing and faster startup for ZGC](https://www.reddit.com/r/java/comments/1xdpur2/openjdk_28_ea_build_21_httpsjdkjavanet28_is_out/)
+- [A beginner&#39;s guide to the Jenesis build tool](https://www.reddit.com/r/java/comments/1xddvl7/a_beginners_guide_to_the_jenesis_build_tool/)
+- [JPA vs Hibernate vs JDBC: What Each One Actually Does | Visually Explained](https://www.reddit.com/r/java/comments/1xd7oka/jpa_vs_hibernate_vs_jdbc_what_each_one_actually/)
 - [We found a bypass in Java’s eMudhra certificate blocklist mitigation](https://www.reddit.com/r/java/comments/1xcmrqh/we_found_a_bypass_in_javas_emudhra_certificate/)
 - [Jdbi vs MyBatis vs jOOQ in a small Javalin REST API: memory and latency on a 512 MiB VM](https://www.reddit.com/r/java/comments/1xcmjtp/jdbi_vs_mybatis_vs_jooq_in_a_small_javalin_rest/)
 - [Release announcement: Sheetmusic4J 0.0.4 and 0.0.5: clickable notes, a 3D fly-over view and LilyPond support &lpar;Java and JavaFX sheet music library&rpar;](https://www.reddit.com/r/java/comments/1xchvg8/release_announcement_sheetmusic4j_004_and_005/)
 - [TornadoVM 7 Enables GPU-Native Workloads From Java Applications](https://www.reddit.com/r/java/comments/1xcc832/tornadovm_7_enables_gpunative_workloads_from_java/)
 - [Java based Numerical library &lpar;JNum-v0.2&rpar; This time even better and faster!](https://www.reddit.com/r/java/comments/1xbz63n/java_based_numerical_library_jnumv02_this_time/)
 - [Using Java skills for something a little different](https://www.reddit.com/r/java/comments/1xbllwi/using_java_skills_for_something_a_little_different/)
-- [Migrating Java Applications to AWS Serverless: A Practical Guide](https://www.reddit.com/r/java/comments/1xavey1/migrating_java_applications_to_aws_serverless_a/)
-- [calit 1.28.0](https://www.reddit.com/r/java/comments/1xarqkw/calit_1280/)
-- [Tomcact breaking change regarding locales can cause application failure for certain users](https://www.reddit.com/r/java/comments/1xam9dd/tomcact_breaking_change_regarding_locales_can/)
-- [Building full-stack web apps using TeaVM &lpar;and why it’s great for working with AI coding agents too&rpar;](https://www.reddit.com/r/java/comments/1xam61b/building_fullstack_web_apps_using_teavm_and_why/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
