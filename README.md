@@ -364,6 +364,8 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Current state of Java LSP implementations](https://www.reddit.com/r/java/comments/1xeizqt/current_state_of_java_lsp_implementations/)
+- [Hexagonal Architecture vs. Pragmatic Layered Architecture in Spring Boot](https://www.reddit.com/r/java/comments/1xe8v30/hexagonal_architecture_vs_pragmatic_layered/)
 - [Allocating Off-Heap Memory: Typically 6-18x Faster in JDK 28](https://www.reddit.com/r/java/comments/1xdv8fw/allocating_offheap_memory_typically_618x_faster/)
 - [OpenJDK 28 EA build 21 &lpar;https://jdk.java.net/28/&rpar; is out, with Adaptive Heap Sizing and faster startup for ZGC](https://www.reddit.com/r/java/comments/1xdpur2/openjdk_28_ea_build_21_httpsjdkjavanet28_is_out/)
 - [A beginner&#39;s guide to the Jenesis build tool](https://www.reddit.com/r/java/comments/1xddvl7/a_beginners_guide_to_the_jenesis_build_tool/)
@@ -372,8 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [Jdbi vs MyBatis vs jOOQ in a small Javalin REST API: memory and latency on a 512 MiB VM](https://www.reddit.com/r/java/comments/1xcmjtp/jdbi_vs_mybatis_vs_jooq_in_a_small_javalin_rest/)
 - [Release announcement: Sheetmusic4J 0.0.4 and 0.0.5: clickable notes, a 3D fly-over view and LilyPond support &lpar;Java and JavaFX sheet music library&rpar;](https://www.reddit.com/r/java/comments/1xchvg8/release_announcement_sheetmusic4j_004_and_005/)
 - [TornadoVM 7 Enables GPU-Native Workloads From Java Applications](https://www.reddit.com/r/java/comments/1xcc832/tornadovm_7_enables_gpunative_workloads_from_java/)
-- [Java based Numerical library &lpar;JNum-v0.2&rpar; This time even better and faster!](https://www.reddit.com/r/java/comments/1xbz63n/java_based_numerical_library_jnumv02_this_time/)
-- [Using Java skills for something a little different](https://www.reddit.com/r/java/comments/1xbllwi/using_java_skills_for_something_a_little_different/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
