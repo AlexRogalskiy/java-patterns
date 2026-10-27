@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Plan Your Java Upgrade Ahead of Microsoft&#39;s 2027 Support Milestones](https://www.reddit.com/r/java/comments/1xg79d1/plan_your_java_upgrade_ahead_of_microsofts_2027/)
+- [Eclipse Exousia 3.0.2 released &lpar;provides Jakarta Authorization support for Quarkus&rpar;](https://www.reddit.com/r/java/comments/1xg04dt/eclipse_exousia_302_released_provides_jakarta/)
+- [Foojay.io &lpar;website for Friends Of OpenJDK&rpar; now takes posts through merge requests. Writers wanted.](https://www.reddit.com/r/java/comments/1xg02re/foojayio_website_for_friends_of_openjdk_now_takes/)
+- [Java&#39;s new AOT cache feature is in a rough state](https://www.reddit.com/r/java/comments/1xfv852/javas_new_aot_cache_feature_is_in_a_rough_state/)
 - [JavaOne&#39;26 -- What&#39;s Going Wrong with My JVM?! A Guide to First-Time Failure Diagnosis](https://www.reddit.com/r/java/comments/1xfjou4/javaone26_whats_going_wrong_with_my_jvm_a_guide/)
 - [What cli formatter do you use](https://www.reddit.com/r/java/comments/1xexhai/what_cli_formatter_do_you_use/)
 - [AEM Java 25 is coming; custom code still decides whether you are ready](https://www.reddit.com/r/java/comments/1xewkxh/aem_java_25_is_coming_custom_code_still_decides/)
 - [Current state of Java LSP implementations](https://www.reddit.com/r/java/comments/1xeizqt/current_state_of_java_lsp_implementations/)
 - [Hexagonal Architecture vs. Pragmatic Layered Architecture in Spring Boot](https://www.reddit.com/r/java/comments/1xe8v30/hexagonal_architecture_vs_pragmatic_layered/)
 - [Allocating Off-Heap Memory: Typically 6-18x Faster in JDK 28](https://www.reddit.com/r/java/comments/1xdv8fw/allocating_offheap_memory_typically_618x_faster/)
-- [OpenJDK 28 EA build 21 &lpar;https://jdk.java.net/28/&rpar; is out, with Adaptive Heap Sizing and faster startup for ZGC](https://www.reddit.com/r/java/comments/1xdpur2/openjdk_28_ea_build_21_httpsjdkjavanet28_is_out/)
-- [A beginner&#39;s guide to the Jenesis build tool](https://www.reddit.com/r/java/comments/1xddvl7/a_beginners_guide_to_the_jenesis_build_tool/)
-- [JPA vs Hibernate vs JDBC: What Each One Actually Does | Visually Explained](https://www.reddit.com/r/java/comments/1xd7oka/jpa_vs_hibernate_vs_jdbc_what_each_one_actually/)
-- [We found a bypass in Java’s eMudhra certificate blocklist mitigation](https://www.reddit.com/r/java/comments/1xcmrqh/we_found_a_bypass_in_javas_emudhra_certificate/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
