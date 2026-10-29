@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [How to Automate Testing of a Java Swing Application](https://www.reddit.com/r/java/comments/1xi1xxh/how_to_automate_testing_of_a_java_swing/)
+- [Java and Kotlin news: value classes arrive in JDK 28 and Kotlin 2.5](https://www.reddit.com/r/java/comments/1xi1uhf/java_and_kotlin_news_value_classes_arrive_in_jdk/)
+- [How lightweight can Spring Boot get? HotSpot 27 vs GraalVM Native Image on a 512 MiB VM](https://www.reddit.com/r/java/comments/1xi15te/how_lightweight_can_spring_boot_get_hotspot_27_vs/)
+- [[Open Source] Off-heap, zero-allocation JSON navigator for Java 22+ &lpar;using FFM / mmap&rpar;](https://www.reddit.com/r/java/comments/1xhyqsg/open_source_offheap_zeroallocation_json_navigator/)
+- [How does Maven Central handle malicious packages?](https://www.reddit.com/r/java/comments/1xhq3fz/how_does_maven_central_handle_malicious_packages/)
 - [I got tired of looking up Javadocs in the browser, so I built a command line utility](https://www.reddit.com/r/java/comments/1xgzibo/i_got_tired_of_looking_up_javadocs_in_the_browser/)
 - [Quality Outreach Heads-up - JDK 28: Value Classes - Inside.java](https://www.reddit.com/r/java/comments/1xgw2a7/quality_outreach_headsup_jdk_28_value_classes/)
 - [Plan Your Java Upgrade Ahead of Microsoft&#39;s 2027 Support Milestones](https://www.reddit.com/r/java/comments/1xg79d1/plan_your_java_upgrade_ahead_of_microsofts_2027/)
 - [Eclipse Exousia 3.0.2 released &lpar;provides Jakarta Authorization support for Quarkus&rpar;](https://www.reddit.com/r/java/comments/1xg04dt/eclipse_exousia_302_released_provides_jakarta/)
 - [Foojay.io &lpar;website for Friends Of OpenJDK&rpar; now takes posts through merge requests. Writers wanted.](https://www.reddit.com/r/java/comments/1xg02re/foojayio_website_for_friends_of_openjdk_now_takes/)
-- [Java&#39;s new AOT cache feature is in a rough state](https://www.reddit.com/r/java/comments/1xfv852/javas_new_aot_cache_feature_is_in_a_rough_state/)
-- [JavaOne&#39;26 -- What&#39;s Going Wrong with My JVM?! A Guide to First-Time Failure Diagnosis](https://www.reddit.com/r/java/comments/1xfjou4/javaone26_whats_going_wrong_with_my_jvm_a_guide/)
-- [What cli formatter do you use](https://www.reddit.com/r/java/comments/1xexhai/what_cli_formatter_do_you_use/)
-- [AEM Java 25 is coming; custom code still decides whether you are ready](https://www.reddit.com/r/java/comments/1xewkxh/aem_java_25_is_coming_custom_code_still_decides/)
-- [Current state of Java LSP implementations](https://www.reddit.com/r/java/comments/1xeizqt/current_state_of_java_lsp_implementations/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
