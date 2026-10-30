@@ -364,6 +364,7 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [TornadoVM v8.0.0: Meet TC, TornadoVM&#39;s Own Compiler &lpar;replacing old Graal/JVMCI-based solution&rpar;](https://www.reddit.com/r/java/comments/1xixi98/tornadovm_v800_meet_tc_tornadovms_own_compiler/)
 - [How to Automate Testing of a Java Swing Application](https://www.reddit.com/r/java/comments/1xi1xxh/how_to_automate_testing_of_a_java_swing/)
 - [Java and Kotlin news: value classes arrive in JDK 28 and Kotlin 2.5](https://www.reddit.com/r/java/comments/1xi1uhf/java_and_kotlin_news_value_classes_arrive_in_jdk/)
 - [How lightweight can Spring Boot get? HotSpot 27 vs GraalVM Native Image on a 512 MiB VM](https://www.reddit.com/r/java/comments/1xi15te/how_lightweight_can_spring_boot_get_hotspot_27_vs/)
@@ -373,7 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [Quality Outreach Heads-up - JDK 28: Value Classes - Inside.java](https://www.reddit.com/r/java/comments/1xgw2a7/quality_outreach_headsup_jdk_28_value_classes/)
 - [Plan Your Java Upgrade Ahead of Microsoft&#39;s 2027 Support Milestones](https://www.reddit.com/r/java/comments/1xg79d1/plan_your_java_upgrade_ahead_of_microsofts_2027/)
 - [Eclipse Exousia 3.0.2 released &lpar;provides Jakarta Authorization support for Quarkus&rpar;](https://www.reddit.com/r/java/comments/1xg04dt/eclipse_exousia_302_released_provides_jakarta/)
-- [Foojay.io &lpar;website for Friends Of OpenJDK&rpar; now takes posts through merge requests. Writers wanted.](https://www.reddit.com/r/java/comments/1xg02re/foojayio_website_for_friends_of_openjdk_now_takes/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
