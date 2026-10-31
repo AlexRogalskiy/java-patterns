@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Released fose 0.1.0 &lpar;flat combining for Java&rpar;, looking for feedback on my spin heuristic](https://www.reddit.com/r/java/comments/1xjm98l/released_fose_010_flat_combining_for_java_looking/)
+- [JDK 27 G1/Parallel/Serial GC changes](https://www.reddit.com/r/java/comments/1xjiw62/jdk_27_g1parallelserial_gc_changes/)
+- [Show /r/java: MicroProxy - dependency free drop-in replacement for LittleProxy using Project Loom](https://www.reddit.com/r/java/comments/1xja169/show_rjava_microproxy_dependency_free_dropin/)
+- [“Immutable Data Beyond Value Classes”](https://www.reddit.com/r/java/comments/1xj9pnh/immutable_data_beyond_value_classes/)
 - [TornadoVM v8.0.0: Meet TC, TornadoVM&#39;s Own Compiler &lpar;replacing old Graal/JVMCI-based solution&rpar;](https://www.reddit.com/r/java/comments/1xixi98/tornadovm_v800_meet_tc_tornadovms_own_compiler/)
 - [How to Automate Testing of a Java Swing Application](https://www.reddit.com/r/java/comments/1xi1xxh/how_to_automate_testing_of_a_java_swing/)
 - [Java and Kotlin news: value classes arrive in JDK 28 and Kotlin 2.5](https://www.reddit.com/r/java/comments/1xi1uhf/java_and_kotlin_news_value_classes_arrive_in_jdk/)
 - [How lightweight can Spring Boot get? HotSpot 27 vs GraalVM Native Image on a 512 MiB VM](https://www.reddit.com/r/java/comments/1xi15te/how_lightweight_can_spring_boot_get_hotspot_27_vs/)
 - [[Open Source] Off-heap, zero-allocation JSON navigator for Java 22+ &lpar;using FFM / mmap&rpar;](https://www.reddit.com/r/java/comments/1xhyqsg/open_source_offheap_zeroallocation_json_navigator/)
 - [How does Maven Central handle malicious packages?](https://www.reddit.com/r/java/comments/1xhq3fz/how_does_maven_central_handle_malicious_packages/)
-- [I got tired of looking up Javadocs in the browser, so I built a command line utility](https://www.reddit.com/r/java/comments/1xgzibo/i_got_tired_of_looking_up_javadocs_in_the_browser/)
-- [Quality Outreach Heads-up - JDK 28: Value Classes - Inside.java](https://www.reddit.com/r/java/comments/1xgw2a7/quality_outreach_headsup_jdk_28_value_classes/)
-- [Plan Your Java Upgrade Ahead of Microsoft&#39;s 2027 Support Milestones](https://www.reddit.com/r/java/comments/1xg79d1/plan_your_java_upgrade_ahead_of_microsofts_2027/)
-- [Eclipse Exousia 3.0.2 released &lpar;provides Jakarta Authorization support for Quarkus&rpar;](https://www.reddit.com/r/java/comments/1xg04dt/eclipse_exousia_302_released_provides_jakarta/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
