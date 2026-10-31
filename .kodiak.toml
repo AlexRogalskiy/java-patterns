@@ -1,0 +1,29 @@
+# This file is maintained in https://github.com/WeblateOrg/meta/
+# Configuration for https://kodiakhq.com/
+version = 1
+
+[merge]
+automerge_label = ["semver-major","semver-minor","semver-patch"]
+blacklist_title_regex = "^WIP.*"
+blacklist_labels = ["work in progress"]
+method = "squash"
+delete_branch_on_merge = true
+block_on_reviews_requested = false
+notify_on_conflict = true
+optimistic_updates = true
+
+[merge.message]
+title = "pull_request_title"
+body = "pull_request_body"
+include_pr_number = true
+body_type = "markdown"
+
+# https://kodiakhq.com/docs/recipes#configuring-automerge-by-upgrade-type
+[merge.automerge_dependencies]
+versions = ["major", "minor", "patch"]
+usernames = ["dependabot"]
+
+# if using `update.always`, add dependabot to `update.ignore_usernames` to allow
+# dependabot to update and close stale dependency upgrades.
+[update]
+ignored_usernames = ["dependabot", "weblate"]

@@ -1,0 +1,11 @@
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ $fullName }}-tests
+data:
+  run.sh: |-
+    echo ">>> Test command >>>"
+    @test "Testing DataBase Host is accessible" {
+      mysql -h {{ $fullName }} -uroot -p$BASE_PASSWORD -e 'show databases;'
+    }
