@@ -364,6 +364,8 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Hibernate lost my update](https://www.reddit.com/r/java/comments/1xlgrm4/hibernate_lost_my_update/)
+- [SketchProbe: Inspect Apache DataSketches from the CLI or browser](https://www.reddit.com/r/java/comments/1xl8ez4/sketchprobe_inspect_apache_datasketches_from_the/)
 - [Announcing SLB4J &lpar;Logging Backend, ASL-2&rpar;](https://www.reddit.com/r/java/comments/1xkt6fr/announcing_slb4j_logging_backend_asl2/)
 - [Released fose 0.1.0 &lpar;flat combining for Java&rpar;, looking for feedback on my spin heuristic](https://www.reddit.com/r/java/comments/1xjm98l/released_fose_010_flat_combining_for_java_looking/)
 - [JDK 27 G1/Parallel/Serial GC changes](https://www.reddit.com/r/java/comments/1xjiw62/jdk_27_g1parallelserial_gc_changes/)
@@ -372,8 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [“Immutable Data Beyond Value Classes”](https://www.reddit.com/r/java/comments/1xj9pnh/immutable_data_beyond_value_classes/)
 - [TornadoVM v8.0.0: Meet TC, TornadoVM&#39;s Own Compiler &lpar;replacing old Graal/JVMCI-based solution&rpar;](https://www.reddit.com/r/java/comments/1xixi98/tornadovm_v800_meet_tc_tornadovms_own_compiler/)
 - [How to Automate Testing of a Java Swing Application](https://www.reddit.com/r/java/comments/1xi1xxh/how_to_automate_testing_of_a_java_swing/)
-- [Java and Kotlin news: value classes arrive in JDK 28 and Kotlin 2.5](https://www.reddit.com/r/java/comments/1xi1uhf/java_and_kotlin_news_value_classes_arrive_in_jdk/)
-- [How lightweight can Spring Boot get? HotSpot 27 vs GraalVM Native Image on a 512 MiB VM](https://www.reddit.com/r/java/comments/1xi15te/how_lightweight_can_spring_boot_get_hotspot_27_vs/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
