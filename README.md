@@ -364,6 +364,9 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [It should not take 12 minutes to rebuild Guava when you only changed a javadoc...](https://www.reddit.com/r/java/comments/1xm3rrf/it_should_not_take_12_minutes_to_rebuild_guava/)
+- [CheerpJ 5.0: Java 21/25 in the browser, full OpenJDK, and a new WasmGC engine](https://www.reddit.com/r/java/comments/1xluu9n/cheerpj_50_java_2125_in_the_browser_full_openjdk/)
+- [New Foojay Podcast: 53 CVEs in one OpenJDK update, two out-of-cycle releases, and what CPU, PSU, and CSPU mean](https://www.reddit.com/r/java/comments/1xlriv8/new_foojay_podcast_53_cves_in_one_openjdk_update/)
 - [Hibernate lost my update](https://www.reddit.com/r/java/comments/1xlgrm4/hibernate_lost_my_update/)
 - [SketchProbe: Inspect Apache DataSketches from the CLI or browser](https://www.reddit.com/r/java/comments/1xl8ez4/sketchprobe_inspect_apache_datasketches_from_the/)
 - [Announcing SLB4J &lpar;Logging Backend, ASL-2&rpar;](https://www.reddit.com/r/java/comments/1xkt6fr/announcing_slb4j_logging_backend_asl2/)
@@ -371,9 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [JDK 27 G1/Parallel/Serial GC changes](https://www.reddit.com/r/java/comments/1xjiw62/jdk_27_g1parallelserial_gc_changes/)
 - [I think I have a nice idea for new constructor syntax](https://www.reddit.com/r/java/comments/1xjebhg/i_think_i_have_a_nice_idea_for_new_constructor/)
 - [Show /r/java: MicroProxy - dependency free drop-in replacement for LittleProxy using Project Loom](https://www.reddit.com/r/java/comments/1xja169/show_rjava_microproxy_dependency_free_dropin/)
-- [“Immutable Data Beyond Value Classes”](https://www.reddit.com/r/java/comments/1xj9pnh/immutable_data_beyond_value_classes/)
-- [TornadoVM v8.0.0: Meet TC, TornadoVM&#39;s Own Compiler &lpar;replacing old Graal/JVMCI-based solution&rpar;](https://www.reddit.com/r/java/comments/1xixi98/tornadovm_v800_meet_tc_tornadovms_own_compiler/)
-- [How to Automate Testing of a Java Swing Application](https://www.reddit.com/r/java/comments/1xi1xxh/how_to_automate_testing_of_a_java_swing/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
