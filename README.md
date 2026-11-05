@@ -368,12 +368,12 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [JMH Visualizer 1.1.0 Released](https://www.reddit.com/r/java/comments/1xn6gwl/jmh_visualizer_110_released/)
 - [Spring Boot vs Javalin + Jdbi: HotSpot and GraalVM on a 512 MiB VM](https://www.reddit.com/r/java/comments/1xmwmpf/spring_boot_vs_javalin_jdbi_hotspot_and_graalvm/)
 - [The Transactional Outbox Solves Dual Writes. It Doesn&#39;t Solve Duplicate Processing](https://www.reddit.com/r/java/comments/1xms1o1/the_transactional_outbox_solves_dual_writes_it/)
-- [webforJ 26.03: AI agents that use a Java web app through its UI, and JUnit tests without a browser](https://www.reddit.com/r/java/comments/1xmqgye/webforj_2603_ai_agents_that_use_a_java_web_app/)
 - [It should not take 12 minutes to rebuild Guava when you only changed a javadoc...](https://www.reddit.com/r/java/comments/1xm3rrf/it_should_not_take_12_minutes_to_rebuild_guava/)
 - [CheerpJ 5.0: Java 21/25 in the browser, full OpenJDK, and a new WasmGC engine](https://www.reddit.com/r/java/comments/1xluu9n/cheerpj_50_java_2125_in_the_browser_full_openjdk/)
 - [New Foojay Podcast: 53 CVEs in one OpenJDK update, two out-of-cycle releases, and what CPU, PSU, and CSPU mean](https://www.reddit.com/r/java/comments/1xlriv8/new_foojay_podcast_53_cves_in_one_openjdk_update/)
 - [Hibernate lost my update](https://www.reddit.com/r/java/comments/1xlgrm4/hibernate_lost_my_update/)
 - [SketchProbe: Inspect Apache DataSketches from the CLI or browser](https://www.reddit.com/r/java/comments/1xl8ez4/sketchprobe_inspect_apache_datasketches_from_the/)
+- [Announcing SLB4J &lpar;Logging Backend, ASL-2&rpar;](https://www.reddit.com/r/java/comments/1xkt6fr/announcing_slb4j_logging_backend_asl2/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
