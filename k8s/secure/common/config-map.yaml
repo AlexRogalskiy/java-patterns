@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: secure
+  namespace: secure
+  labels:
+    addonmanager.kubernetes.io/mode: EnsureExists

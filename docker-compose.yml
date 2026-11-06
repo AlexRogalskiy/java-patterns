@@ -1,0 +1,103 @@
+version: '3.9'
+
+x-deploy: &deploy-template
+  deploy:
+    mode: global
+
+x-networks: &networks-template
+  networks:
+    extended:
+      aliases:
+        - docs
+
+x-restart-deploy: &restart-deploy-template
+  <<: *deploy-template
+  deploy:
+    restart_policy:
+      condition: on-failure
+      max_attempts: 3
+      delay: 5s
+      window: 120s
+
+x-replica-deploy: &replica-deploy-template
+  <<: *deploy-template
+  deploy:
+    mode: replicated
+    replicas: 2
+    update_config:
+      parallelism: 2
+      delay: 10s
+      order: stop-first
+    resources:
+      limits:
+        cpus: '0.5'
+        memory: 1000M
+      reservations:
+        memory: 250M
+
+x-logging: &logging-template
+  logging:
+    options:
+      max-size: '100m'
+      max-file: '10'
+
+x-restart: &restart-template
+  restart: unless-stopped
+
+services:
+  app:
+    <<: *deploy-template
+    <<: *logging-template
+    <<: *restart-template
+    container_name: ${APP_CONTAINER_NAME:-"java-patterns"}
+    image: ${APP_IMAGE_NAME:-"java-patterns"}
+    hostname: ${APP_HOST_NAME:-"java-patterns"}
+    user: '${UID}:${GID}'
+    mem_limit: 80000000
+    memswap_limit: 0
+    build:
+      context: './'
+      dockerfile: '$DOCKER_FILE'
+      labels:
+        - 'org.opencontainers.image.authors=Alexander Rogalskiy'
+        - 'org.opencontainers.image.vendor=Sensiblemetrics, Inc.'
+      args:
+        IMAGE_SOURCE: '$IMAGE_SOURCE'
+        IMAGE_TAG: '$IMAGE_TAG'
+    environment:
+      TZ: ${WORKSPACE_TIMEZONE}
+    volumes:
+      - tmp_volume:${APP_TEMP_DIR:-/tmp}
+      - type: bind
+        source: ${APP_SRC_DIR:-./}
+        target: /usr/src/app
+      - type: bind
+        source: ${APP_DATA_DIR:-./data}
+        target: /usr/src/data
+    healthcheck:
+      #test: [ "CMD-SHELL", "curl --fail --silent localhost:8000/versions.json 2>/dev/null | jq . | grep UP || exit 1" ]
+      test: ['CMD-SHELL', 'nc', '-vz', 'localhost', '8000']
+      interval: 3s
+      timeout: 5s
+      retries: 15
+      start_period: 30s
+    networks:
+      - default
+    ports:
+      - '${IP_ADDRESS:-127.0.0.1}:${APP_SERVER_PORT:-8000}:8000'
+
+networks:
+  extended:
+    attachable: true
+  default:
+    driver: ${NETWORKS_DRIVER}
+    driver_opts:
+      com.docker.network.driver.mtu: 1450
+
+volumes:
+  tmp_volume:
+    driver: ${VOLUMES_DRIVER}
+    driver_opts:
+      o: bind
+      type: none
+      device: /tmp

@@ -1,0 +1,49 @@
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ $fullName }}-test-{{ randAlphaNum 5 | lower }}"
+  namespace: {{ .Release.Namespace | quote }}
+{{- if .Values.networkPolicy.enabled }}
+  labels:
+    {{ $fullName }}-client: "true"
+{{- end }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  restartPolicy: Never
+{{- if .Values.deployment.container.image.credentials }}
+  imagePullSecrets:
+    - name: {{ $fullName }}.db.registry
+{{- end }}
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args:  ['{{ $fullName }}:{{ .Values.service.hostPort }}']
+    - name: curl
+      image: curlimages/curl
+      command: ['curl']
+      args: [
+        '--retry-connrefused',
+        '--connect-timeout', '5',
+        '--max-time', '10',
+        '--retry', '15',
+        '--retry-max-time', '300',
+        '{{ $fullName }}:{{ .Values.service.hostPort }}',
+      ]
+      volumeMounts:
+      - mountPath: /tests
+        name: tests
+        readOnly: true
+      - mountPath: /tools
+        name: tools
+  volumes:
+  - name: tests
+    configMap:
+      name: {{ $fullName }}-tests
+  - name: tools
+    emptyDir: {}
+  restartPolicy: Never

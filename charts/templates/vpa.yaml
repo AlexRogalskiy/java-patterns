@@ -1,0 +1,23 @@
+{{- if and .Values.vpa.enabled (eq .Values.general.architecture "high-availability") }}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+apiVersion: autoscaling/v2beta2
+kind: VerticalPodAutoscaler
+metadata:
+  name: {{ $fullName }}
+  namespace: {{ .Release.Namespace | quote }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  {{- if .Values.vpa.annotations }}
+  {{- with .Values.vpa.annotations }}
+  annotations:
+    {{- toYaml . | indent 4 }}
+  {{- end }}
+  {{- end }}
+spec:
+  targetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: {{ include "backend-java-patterns.fullname" . }}
+  updatePolicy:
+    updateMode: "Initial"
+{{- end }}

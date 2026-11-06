@@ -1,0 +1,54 @@
+
+Thank you for installing Java Patterns Docs!
+
+- The application has been deployed, but it could take a few minutes to be ready.
+  You can check the rollout using:
+
+  kubectl rollout status deployment {{ include "backend-java-patterns.fullname" . }}
+
+  To get cluster information:
+
+  kubectl cluster-info
+
+- The Java Patterns Docs webapp are accessible through the landing page:
+
+{{ if .Values.ingress.enabled }}
+{{- range $host := .Values.ingress.hosts }}
+  {{- range .paths }}
+  http{{ if $.Values.ingress.tls }}s{{ end }}://{{ $host.host }}{{ .path }}
+  {{- end }}
+{{- end }}
+
+{{- else if contains "NodePort" .Values.service.type }}
+  export NODE_PORT=$(kubectl get --namespace {{ .Release.Namespace }} -o jsonpath="{.spec.ports[0].nodePort}" services {{ include "backend-java-patterns.fullname" . }})
+  export NODE_IP=$(kubectl get nodes --namespace {{ .Release.Namespace }} -o jsonpath="{.items[0].status.addresses[0].address}")
+  echo "http://$NODE_IP:$NODE_PORT/java-patterns/"
+
+{{- else if contains "LoadBalancer" .Values.service.type }}
+     NOTE: It may take a few minutes for the LoadBalancer IP to be available.
+           You can watch the status of by running 'kubectl get --namespace {{ .Release.Namespace }} svc -w {{ include "backend-java-patterns.fullname" . }}'
+  export SERVICE_IP=$(kubectl get svc --namespace {{ .Release.Namespace }} {{ include "backend-java-patterns.fullname" . }} --template "{{"{{ range (index .status.loadBalancer.ingress 0) }}{{.}}{{ end }}"}}")
+  echo "http://$SERVICE_IP:{{ .Values.service.ports.http }}/java-patterns/"
+
+{{- else if contains "ClusterIP" .Values.service.type }}
+  kubectl --namespace {{ .Release.Namespace }} port-forward svc/{{ include "backend-java-patterns.fullname" . }} {{ .Values.service.ports.http }}
+  kubectl --namespace {{ .Release.Namespace }} port-forward $POD_NAME 8000:$CONTAINER_PORT
+
+  Port-forward >>> kubectl --namespace {{ .Release.Namespace }} port-forward $KUBERNETES_POD_NAME {{ .Values.service.externalPort }}:{{ .Values.service.externalPort }}
+  Logs >>> kubectl logs deployment/{{ include "backend-java-patterns.fullname" . }} -c recv
+
+  BASE_URL=$(kubectl get secret --namespace {{ .Release.Namespace }} {{ include "backend-java-patterns.fullname" . }} -o jsonpath="{.data.base-url}" | base64 --decode)
+  BASE_TOKEN=$(kubectl get secret --namespace {{ .Release.Namespace }} {{ include "backend-java-patterns.fullname" . }} -o jsonpath="{.data.base-token}" | base64 --decode)
+
+  POD_NAME=$(kubectl get pods --namespace {{ .Release.Namespace }} -l "app.kubernetes.io/name={{ include "backend-java-patterns.name" . }},app.kubernetes.io/instance={{ .Release.Name | lower | quote }}" -o jsonpath="{.items[0].metadata.name}")
+  CONTAINER_PORT=$(kubectl get pod --namespace {{ .Release.Namespace }} $POD_NAME -o jsonpath="{.spec.containers[0].ports[0].containerPort}")
+
+  echo "Base Url: $BASE_URL"
+  echo "Base Token: $BASE_TOKEN"
+  echo "Pod name: $POD_NAME"
+  echo "Container port: $CONTAINER_PORT"
+
+  echo "Visit http://localhost:8000/java-patterns/ to use your application"
+{{- end }}
+
+Enjoy automation!
