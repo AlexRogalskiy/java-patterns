@@ -364,6 +364,7 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [How hard is it to check for whitespace?](https://www.reddit.com/r/java/comments/1xpdoq0/how_hard_is_it_to_check_for_whitespace/)
 - [Ask the Architects at Devoxx 2026](https://www.reddit.com/r/java/comments/1xp0byp/ask_the_architects_at_devoxx_2026/)
 - [What&#39;s New in IntelliJ IDEA 2026.3](https://www.reddit.com/r/java/comments/1xoirsd/whats_new_in_intellij_idea_20263/)
 - [Project Detroit: From Foreign Libraries to Foreign Language Runtimes](https://www.reddit.com/r/java/comments/1xoeyhv/project_detroit_from_foreign_libraries_to_foreign/)
@@ -373,7 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [The Transactional Outbox Solves Dual Writes. It Doesn&#39;t Solve Duplicate Processing](https://www.reddit.com/r/java/comments/1xms1o1/the_transactional_outbox_solves_dual_writes_it/)
 - [It should not take 12 minutes to rebuild Guava when you only changed a javadoc...](https://www.reddit.com/r/java/comments/1xm3rrf/it_should_not_take_12_minutes_to_rebuild_guava/)
 - [CheerpJ 5.0: Java 21/25 in the browser, full OpenJDK, and a new WasmGC engine](https://www.reddit.com/r/java/comments/1xluu9n/cheerpj_50_java_2125_in_the_browser_full_openjdk/)
-- [New Foojay Podcast: 53 CVEs in one OpenJDK update, two out-of-cycle releases, and what CPU, PSU, and CSPU mean](https://www.reddit.com/r/java/comments/1xlriv8/new_foojay_podcast_53_cves_in_one_openjdk_update/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
