@@ -364,6 +364,8 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [EclipseLink 6.0.0-M1 released!](https://www.reddit.com/r/java/comments/1xqugf3/eclipselink_600m1_released/)
+- [fose v0.2.1: reworking the wait queue and waiting scheme in my flat combiner](https://www.reddit.com/r/java/comments/1xqqyan/fose_v021_reworking_the_wait_queue_and_waiting/)
 - [How hard is it to check for whitespace?](https://www.reddit.com/r/java/comments/1xpdoq0/how_hard_is_it_to_check_for_whitespace/)
 - [Ask the Architects at Devoxx 2026](https://www.reddit.com/r/java/comments/1xp0byp/ask_the_architects_at_devoxx_2026/)
 - [What&#39;s New in IntelliJ IDEA 2026.3](https://www.reddit.com/r/java/comments/1xoirsd/whats_new_in_intellij_idea_20263/)
@@ -372,8 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [JMH Visualizer 1.1.0 Released](https://www.reddit.com/r/java/comments/1xn6gwl/jmh_visualizer_110_released/)
 - [Spring Boot vs Javalin + Jdbi: HotSpot and GraalVM on a 512 MiB VM](https://www.reddit.com/r/java/comments/1xmwmpf/spring_boot_vs_javalin_jdbi_hotspot_and_graalvm/)
 - [The Transactional Outbox Solves Dual Writes. It Doesn&#39;t Solve Duplicate Processing](https://www.reddit.com/r/java/comments/1xms1o1/the_transactional_outbox_solves_dual_writes_it/)
-- [It should not take 12 minutes to rebuild Guava when you only changed a javadoc...](https://www.reddit.com/r/java/comments/1xm3rrf/it_should_not_take_12_minutes_to_rebuild_guava/)
-- [CheerpJ 5.0: Java 21/25 in the browser, full OpenJDK, and a new WasmGC engine](https://www.reddit.com/r/java/comments/1xluu9n/cheerpj_50_java_2125_in_the_browser_full_openjdk/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
