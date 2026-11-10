@@ -364,6 +364,9 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [JairoSVG Release v1.0.16](https://www.reddit.com/r/java/comments/1xs0it9/jairosvg_release_v1016/)
+- [Beyond mvn install: Maven Practices That Pay Off](https://www.reddit.com/r/java/comments/1xrw5ux/beyond_mvn_install_maven_practices_that_pay_off/)
+- [A Valhalla Ticker in One int](https://www.reddit.com/r/java/comments/1xrmble/a_valhalla_ticker_in_one_int/)
 - [EclipseLink 6.0.0-M1 released!](https://www.reddit.com/r/java/comments/1xqugf3/eclipselink_600m1_released/)
 - [fose v0.2.1: reworking the wait queue and waiting scheme in my flat combiner](https://www.reddit.com/r/java/comments/1xqqyan/fose_v021_reworking_the_wait_queue_and_waiting/)
 - [How hard is it to check for whitespace?](https://www.reddit.com/r/java/comments/1xpdoq0/how_hard_is_it_to_check_for_whitespace/)
@@ -371,9 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [What&#39;s New in IntelliJ IDEA 2026.3](https://www.reddit.com/r/java/comments/1xoirsd/whats_new_in_intellij_idea_20263/)
 - [Project Detroit: From Foreign Libraries to Foreign Language Runtimes](https://www.reddit.com/r/java/comments/1xoeyhv/project_detroit_from_foreign_libraries_to_foreign/)
 - [Madura: A different kind of Hermetic Java](https://www.reddit.com/r/java/comments/1xn860a/madura_a_different_kind_of_hermetic_java/)
-- [JMH Visualizer 1.1.0 Released](https://www.reddit.com/r/java/comments/1xn6gwl/jmh_visualizer_110_released/)
-- [Spring Boot vs Javalin + Jdbi: HotSpot and GraalVM on a 512 MiB VM](https://www.reddit.com/r/java/comments/1xmwmpf/spring_boot_vs_javalin_jdbi_hotspot_and_graalvm/)
-- [The Transactional Outbox Solves Dual Writes. It Doesn&#39;t Solve Duplicate Processing](https://www.reddit.com/r/java/comments/1xms1o1/the_transactional_outbox_solves_dual_writes_it/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
