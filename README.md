@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [GlassFish 9.0.0-M4 &lpar;Jakarta EE 12&rpar; released](https://www.reddit.com/r/java/comments/1xstmg7/glassfish_900m4_jakarta_ee_12_released/)
+- [Five Java stacks on a 512 MiB VPS: memory, startup, and portable business logic](https://www.reddit.com/r/java/comments/1xsr019/five_java_stacks_on_a_512_mib_vps_memory_startup/)
+- [JUring - async file I/O for Java &lpar;Part 2&rpar;](https://www.reddit.com/r/java/comments/1xsljqh/juring_async_file_io_for_java_part_2/)
+- [Withdrawing the Primitive Patterns preview feature in JDK 28](https://www.reddit.com/r/java/comments/1xsdxiq/withdrawing_the_primitive_patterns_preview/)
 - [JairoSVG Release v1.0.16](https://www.reddit.com/r/java/comments/1xs0it9/jairosvg_release_v1016/)
 - [Beyond mvn install: Maven Practices That Pay Off](https://www.reddit.com/r/java/comments/1xrw5ux/beyond_mvn_install_maven_practices_that_pay_off/)
 - [A Valhalla Ticker in One int](https://www.reddit.com/r/java/comments/1xrmble/a_valhalla_ticker_in_one_int/)
 - [EclipseLink 6.0.0-M1 released!](https://www.reddit.com/r/java/comments/1xqugf3/eclipselink_600m1_released/)
 - [fose v0.2.1: reworking the wait queue and waiting scheme in my flat combiner](https://www.reddit.com/r/java/comments/1xqqyan/fose_v021_reworking_the_wait_queue_and_waiting/)
 - [How hard is it to check for whitespace?](https://www.reddit.com/r/java/comments/1xpdoq0/how_hard_is_it_to_check_for_whitespace/)
-- [Ask the Architects at Devoxx 2026](https://www.reddit.com/r/java/comments/1xp0byp/ask_the_architects_at_devoxx_2026/)
-- [What&#39;s New in IntelliJ IDEA 2026.3](https://www.reddit.com/r/java/comments/1xoirsd/whats_new_in_intellij_idea_20263/)
-- [Project Detroit: From Foreign Libraries to Foreign Language Runtimes](https://www.reddit.com/r/java/comments/1xoeyhv/project_detroit_from_foreign_libraries_to_foreign/)
-- [Madura: A different kind of Hermetic Java](https://www.reddit.com/r/java/comments/1xn860a/madura_a_different_kind_of_hermetic_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
