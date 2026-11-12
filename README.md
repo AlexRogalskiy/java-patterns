@@ -364,16 +364,16 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Keystore: CLI-Based key manager for Java](https://www.reddit.com/r/java/comments/1xu67pt/keystore_clibased_key_manager_for_java/)
+- [GitHub - maksoud13/tenantwall: Automatic tenant filter injection for multi-tenant applications. Zero code changes.](https://www.reddit.com/r/java/comments/1xu0eo2/github_maksoud13tenantwall_automatic_tenant/)
+- [Clique 4.1.0: Zero deps CLI styling library for Java](https://www.reddit.com/r/java/comments/1xtwviq/clique_410_zero_deps_cli_styling_library_for_java/)
+- [Java 25 &lpar;with virtual threads&rpar; for a startup](https://www.reddit.com/r/java/comments/1xtqjrh/java_25_with_virtual_threads_for_a_startup/)
 - [GlassFish 9.0.0-M4 &lpar;Jakarta EE 12&rpar; released](https://www.reddit.com/r/java/comments/1xstmg7/glassfish_900m4_jakarta_ee_12_released/)
 - [Five Java stacks on a 512 MiB VPS: memory, startup, and portable business logic](https://www.reddit.com/r/java/comments/1xsr019/five_java_stacks_on_a_512_mib_vps_memory_startup/)
 - [JUring - async file I/O for Java &lpar;Part 2&rpar;](https://www.reddit.com/r/java/comments/1xsljqh/juring_async_file_io_for_java_part_2/)
 - [Withdrawing the Primitive Patterns preview feature in JDK 28](https://www.reddit.com/r/java/comments/1xsdxiq/withdrawing_the_primitive_patterns_preview/)
 - [JairoSVG Release v1.0.16](https://www.reddit.com/r/java/comments/1xs0it9/jairosvg_release_v1016/)
 - [Beyond mvn install: Maven Practices That Pay Off](https://www.reddit.com/r/java/comments/1xrw5ux/beyond_mvn_install_maven_practices_that_pay_off/)
-- [A Valhalla Ticker in One int](https://www.reddit.com/r/java/comments/1xrmble/a_valhalla_ticker_in_one_int/)
-- [EclipseLink 6.0.0-M1 released!](https://www.reddit.com/r/java/comments/1xqugf3/eclipselink_600m1_released/)
-- [fose v0.2.1: reworking the wait queue and waiting scheme in my flat combiner](https://www.reddit.com/r/java/comments/1xqqyan/fose_v021_reworking_the_wait_queue_and_waiting/)
-- [How hard is it to check for whitespace?](https://www.reddit.com/r/java/comments/1xpdoq0/how_hard_is_it_to_check_for_whitespace/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
