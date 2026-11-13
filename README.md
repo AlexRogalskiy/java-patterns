@@ -364,6 +364,7 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Borrowed Engines: Detroit, Valhalla, GraalVM Next and the Islands Next to Java](https://www.reddit.com/r/java/comments/1xufo8i/borrowed_engines_detroit_valhalla_graalvm_next/)
 - [Keystore: CLI-Based key manager for Java](https://www.reddit.com/r/java/comments/1xu67pt/keystore_clibased_key_manager_for_java/)
 - [GitHub - maksoud13/tenantwall: Automatic tenant filter injection for multi-tenant applications. Zero code changes.](https://www.reddit.com/r/java/comments/1xu0eo2/github_maksoud13tenantwall_automatic_tenant/)
 - [Clique 4.1.0: Zero deps CLI styling library for Java](https://www.reddit.com/r/java/comments/1xtwviq/clique_410_zero_deps_cli_styling_library_for_java/)
@@ -373,7 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [JUring - async file I/O for Java &lpar;Part 2&rpar;](https://www.reddit.com/r/java/comments/1xsljqh/juring_async_file_io_for_java_part_2/)
 - [Withdrawing the Primitive Patterns preview feature in JDK 28](https://www.reddit.com/r/java/comments/1xsdxiq/withdrawing_the_primitive_patterns_preview/)
 - [JairoSVG Release v1.0.16](https://www.reddit.com/r/java/comments/1xs0it9/jairosvg_release_v1016/)
-- [Beyond mvn install: Maven Practices That Pay Off](https://www.reddit.com/r/java/comments/1xrw5ux/beyond_mvn_install_maven_practices_that_pay_off/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
