@@ -364,6 +364,9 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [SMILE 7.2.0 on Java 25: Replacing JNI with Project Panama FFM &lpar;OpenBLAS/LAPACK/ONNX&rpar;, Compact Object Headers, and in-process TreeSHAP](https://www.reddit.com/r/java/comments/1xvdd0i/smile_720_on_java_25_replacing_jni_with_project/)
+- [Rainbow Gum logging released v1.0.0 and why you should switch Now!](https://www.reddit.com/r/java/comments/1xv8xj0/rainbow_gum_logging_released_v100_and_why_you/)
+- [Announcing Oracle WebLogic 26 &lpar;Jakarta EE 11 compatible&rpar;](https://www.reddit.com/r/java/comments/1xv6kh2/announcing_oracle_weblogic_26_jakarta_ee_11/)
 - [Borrowed Engines: Detroit, Valhalla, GraalVM Next and the Islands Next to Java](https://www.reddit.com/r/java/comments/1xufo8i/borrowed_engines_detroit_valhalla_graalvm_next/)
 - [Keystore: CLI-Based key manager for Java](https://www.reddit.com/r/java/comments/1xu67pt/keystore_clibased_key_manager_for_java/)
 - [GitHub - maksoud13/tenantwall: Automatic tenant filter injection for multi-tenant applications. Zero code changes.](https://www.reddit.com/r/java/comments/1xu0eo2/github_maksoud13tenantwall_automatic_tenant/)
@@ -371,9 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [Java 25 &lpar;with virtual threads&rpar; for a startup](https://www.reddit.com/r/java/comments/1xtqjrh/java_25_with_virtual_threads_for_a_startup/)
 - [GlassFish 9.0.0-M4 &lpar;Jakarta EE 12&rpar; released](https://www.reddit.com/r/java/comments/1xstmg7/glassfish_900m4_jakarta_ee_12_released/)
 - [Five Java stacks on a 512 MiB VPS: memory, startup, and portable business logic](https://www.reddit.com/r/java/comments/1xsr019/five_java_stacks_on_a_512_mib_vps_memory_startup/)
-- [JUring - async file I/O for Java &lpar;Part 2&rpar;](https://www.reddit.com/r/java/comments/1xsljqh/juring_async_file_io_for_java_part_2/)
-- [Withdrawing the Primitive Patterns preview feature in JDK 28](https://www.reddit.com/r/java/comments/1xsdxiq/withdrawing_the_primitive_patterns_preview/)
-- [JairoSVG Release v1.0.16](https://www.reddit.com/r/java/comments/1xs0it9/jairosvg_release_v1016/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
