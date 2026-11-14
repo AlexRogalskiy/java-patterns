@@ -1,0 +1,57 @@
+{{- if .Values.tls.enabled }}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: {{ $fullName }}
+  namespace: {{ .Release.Namespace | quote }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+  {{- if .Values.general.labels }}
+  {{- with .Values.general.labels }}
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+  {{- end }}
+  {{- if .Values.general.annotations }}
+  {{- with .Values.general.annotations }}
+  annotations:
+    {{- toYaml . | indent 4 }}
+  {{- end }}
+  {{- end }}
+rules:
+  - apiGroups:
+      - ""
+    resources:
+      - "secrets"
+    {{- if .Values.tls.certs.provided }}
+    verbs:
+      - "get"
+    {{- else }}
+    verbs:
+      - "create"
+      - "get"
+    {{- end }}
+  - apiGroups:
+      - ""
+    resources:
+      - "pods"
+    verbs:
+      - "create"
+      - "list"
+      - "get"
+      - "watch"
+      - "delete"
+  - apiGroups:
+      - ""
+    resources:
+      - "pods/log"
+    verbs:
+      - "get"
+  - apiGroups:
+      - ""
+    resources:
+      - "pods/exec"
+    verbs:
+      - "create"
+      - "get"
+{{- end }}

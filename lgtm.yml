@@ -1,0 +1,15 @@
+extraction:
+  javascript:
+    index:
+      exclude:
+        - .dependabot
+        - .github
+        - .husky
+        - config
+        - docs
+        - images
+        - node_modules
+        - reports
+        - scripts
+      filters:
+        - exclude: '**/*.bundle.js'
