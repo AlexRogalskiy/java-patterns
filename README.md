@@ -364,6 +364,7 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [If you don&#39;t have a &lpar;Java&rpar; security process, you are negligent...](https://www.reddit.com/r/java/comments/1xvz8i4/if_you_dont_have_a_java_security_process_you_are/)
 - [SMILE 7.2.0 on Java 25: Replacing JNI with Project Panama FFM &lpar;OpenBLAS/LAPACK/ONNX&rpar;, Compact Object Headers, and in-process TreeSHAP](https://www.reddit.com/r/java/comments/1xvdd0i/smile_720_on_java_25_replacing_jni_with_project/)
 - [Rainbow Gum logging released v1.0.0 and why you should switch Now!](https://www.reddit.com/r/java/comments/1xv8xj0/rainbow_gum_logging_released_v100_and_why_you/)
 - [Announcing Oracle WebLogic 26 &lpar;Jakarta EE 11 compatible&rpar;](https://www.reddit.com/r/java/comments/1xv6kh2/announcing_oracle_weblogic_26_jakarta_ee_11/)
@@ -373,7 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [Clique 4.1.0: Zero deps CLI styling library for Java](https://www.reddit.com/r/java/comments/1xtwviq/clique_410_zero_deps_cli_styling_library_for_java/)
 - [Java 25 &lpar;with virtual threads&rpar; for a startup](https://www.reddit.com/r/java/comments/1xtqjrh/java_25_with_virtual_threads_for_a_startup/)
 - [GlassFish 9.0.0-M4 &lpar;Jakarta EE 12&rpar; released](https://www.reddit.com/r/java/comments/1xstmg7/glassfish_900m4_jakarta_ee_12_released/)
-- [Five Java stacks on a 512 MiB VPS: memory, startup, and portable business logic](https://www.reddit.com/r/java/comments/1xsr019/five_java_stacks_on_a_512_mib_vps_memory_startup/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
