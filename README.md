@@ -364,6 +364,8 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 ### _Reddit posts_
 
 <!-- REDDIT-POST-LIST:START -->
+- [Apache Netbeans IDE version 32 released](https://www.reddit.com/r/java/comments/1xxvpgk/apache_netbeans_ide_version_32_released/)
+- [Why It Takes 3000 Commits to Bring Valhalla’s Value Objects to the JDK - YouTube](https://www.reddit.com/r/java/comments/1xxsdrv/why_it_takes_3000_commits_to_bring_valhallas/)
 - [GraphCompose 2.5.0 DOCX support, AI workflow and faster barcodes](https://www.reddit.com/r/java/comments/1xx4b7b/graphcompose_250_docx_support_ai_workflow_and/)
 - [Lessons learned while optimizing my Java parser combinator library](https://www.reddit.com/r/java/comments/1xwsa47/lessons_learned_while_optimizing_my_java_parser/)
 - [If you don&#39;t have a &lpar;Java&rpar; security process, you are negligent...](https://www.reddit.com/r/java/comments/1xvz8i4/if_you_dont_have_a_java_security_process_you_are/)
@@ -372,8 +374,6 @@ and **_Java Patterns_** ? Consider buying me a coffee :)
 - [Announcing Oracle WebLogic 26 &lpar;Jakarta EE 11 compatible&rpar;](https://www.reddit.com/r/java/comments/1xv6kh2/announcing_oracle_weblogic_26_jakarta_ee_11/)
 - [Borrowed Engines: Detroit, Valhalla, GraalVM Next and the Islands Next to Java](https://www.reddit.com/r/java/comments/1xufo8i/borrowed_engines_detroit_valhalla_graalvm_next/)
 - [Keystore: CLI-Based key manager for Java](https://www.reddit.com/r/java/comments/1xu67pt/keystore_clibased_key_manager_for_java/)
-- [GitHub - maksoud13/tenantwall: Automatic tenant filter injection for multi-tenant applications. Zero code changes.](https://www.reddit.com/r/java/comments/1xu0eo2/github_maksoud13tenantwall_automatic_tenant/)
-- [Clique 4.1.0: Zero deps CLI styling library for Java](https://www.reddit.com/r/java/comments/1xtwviq/clique_410_zero_deps_cli_styling_library_for_java/)
 <!-- REDDIT-POST-LIST:END -->
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
