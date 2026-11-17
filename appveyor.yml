@@ -1,0 +1,17 @@
+environment:
+  matrix:
+    - nodejs_version: '14'
+
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - npm i -g npm@latest
+  - npm ci
+
+build: false
+
+test_script:
+  - node --version
+  - npm --version
+  - npm run all
+
+version: '{build}'

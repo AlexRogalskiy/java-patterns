@@ -1,0 +1,45 @@
+{{- if .Values.metrics.enabled }}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ $fullName }}-metrics
+  namespace: {{ .Release.Namespace | quote }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+    app.kubernetes.io/component: metrics
+  {{- if .Values.metrics.labels }}
+  {{- with .Values.metrics.labels }}
+    {{- toYaml . | nindent 4 }}
+  {{- end }}
+  {{- end }}
+  {{- if .Values.metrics.service.annotations }}
+  {{- with .Values.metrics.service.annotations }}
+  annotations:
+    {{- toYaml . | indent 4 }}
+  {{- end }}
+  {{- end }}
+spec:
+  type: {{ .Values.metrics.service.type }}
+  {{- if (or (eq .Values.metrics.service.type "LoadBalancer") (eq .Values.metrics.service.type "NodePort")) }}
+  externalTrafficPolicy: {{ .Values.metrics.service.externalTrafficPolicy | quote }}
+  {{- end }}
+  {{ if eq .Values.metrics.service.type "LoadBalancer" }}
+  loadBalancerSourceRanges: {{ .Values.metrics.service.loadBalancerSourceRanges }}
+  {{ end }}
+  {{- if (and (eq .Values.metrics.service.type "LoadBalancer") (not (empty .Values.metrics.service.loadBalancerIP))) }}
+  loadBalancerIP: {{ .Values.metrics.service.loadBalancerIP }}
+  {{- end }}
+  ports:
+    - name: metrics
+      targetPort: metrics
+      port: {{ .Values.metrics.service.port }}
+      protocol: TCP
+      {{- if (and (or (eq .Values.service.type "NodePort") (eq .Values.service.type "LoadBalancer")) (not (empty .Values.metrics.service.nodePort))) }}
+      nodePort: {{ .Values.metrics.service.nodePort }}
+      {{- else if eq .Values.metrics.service.type "ClusterIP" }}
+      nodePort: null
+      {{- end }}
+  selector:
+    {{- include "backend-java-patterns.selectorLabels" . | nindent 4 }}
+{{- end }}

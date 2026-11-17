@@ -55,4 +55,4 @@ Should incidents arise, upon adjudication those found to be in violation of this
 
 
 ## Policy precedence
-This version of the Nullables.io Community Code of Conduct may be a copy included for your convenience, and as such may not be up to date; all versions of the Nullables.io Community Code of Conduct are superseded by the version found in the [repository](https://github.com/AlexRogalskiy/gradle-java-sample), which takes precedence over any prior versions.
+This version of the Nullables.io Community Code of Conduct may be a copy included for your convenience, and as such may not be up to date; all versions of the Nullables.io Community Code of Conduct are superseded by the version found in the [repository](https://github.com/AlexRogalskiy/java-patterns), which takes precedence over any prior versions.

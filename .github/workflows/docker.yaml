@@ -1,0 +1,39 @@
+name: Docker build and container scan
+
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Docker build
+        run: |
+          docker build . --file ./distribution/docker-images/ci.Dockerfile --tag containerscanner:${{ github.sha }}
+
+      - name: Anchore scan
+        uses: anchore/scan-action@1.0.6
+        with:
+          image-reference: containerscanner:${{ github.sha }}
+          dockerfile-path: ./distribution/docker-images/dev.Dockerfile
+          include-app-packages: true
+          fail-build: true # no idea why it doesn't work
+
+      - name: Show Anchore results
+        run: for j in `ls ./anchore-reports/*.json`; do echo "---- ${j} ----"; cat ${j}; echo; done
+        if: ${{ always() }}
+
+      - name: Upload Anchore results
+        uses: actions/upload-artifact@v2
+        with:
+          name: anchore-reports
+          path: ./anchore-reports/
+        if: ${{ always() }}
+
+      - name: Fail on any vulnerability
+        run: jq -e '.vulnerabilities | any( . ) | not' anchore-reports/vulnerabilities.json

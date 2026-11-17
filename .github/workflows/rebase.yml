@@ -1,0 +1,29 @@
+name: Automatic Rebase
+
+on:
+  issue_comment:
+    types: [ created ]
+
+#concurrency:
+#  group: "new-issue-${{ github.event.number }}"
+#  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  rebase:
+    name: Rebase
+    if: github.event.issue.pull_request != '' && contains(github.event.comment.body, '/rebase')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the latest code
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0 # otherwise, you will fail to push refs to dest repo
+      - name: Automatic Rebase
+        uses: cirrus-actions/rebase@1.4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

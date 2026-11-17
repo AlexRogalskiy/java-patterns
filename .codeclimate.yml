@@ -1,0 +1,50 @@
+engines:
+  fixme:
+    enabled: true
+  duplication:
+    enabled: false
+    config:
+      languages:
+        - javascript
+        - python:
+            python_version: 3
+            mass_threshold: 50
+    exclude_paths:
+      - doc/
+  pep8:
+    enabled: false
+  radon:
+    enabled: true
+    config:
+      threshold: 'C'
+  eslint:
+    enabled: false
+  shellcheck:
+    enabled: false
+  csslint:
+    enabled: false
+
+checks:
+  argument-count:
+    config:
+      threshold: 5
+  method-complexity:
+    config:
+      threshold: 7
+
+ratings:
+  paths:
+    - '**.py'
+    - '**.js'
+    - '**.sh'
+    - '**.css'
+
+exclude_patterns:
+  - 'dist/'
+  - 'docs/'
+  - 'scripts/'
+  - 'test/'
+  - '*.js'
+  - '*.json'
+  - '*.md'
+  - '.*'
