@@ -276,6 +276,12 @@ that runs in your browser. To use _Gitpod_, click the button below and sign in w
 offers a browser add-on, though it is not required.
 
 [![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandbox)](https://githubbox.com/AlexRogalskiy/java-patterns)
+[![Open in Glitch](https://img.shields.io/badge/Open%20in-Glitch-blue?logo=glitch)](https://glitch.com/edit/#!/import/github/AlexRogalskiy/java-patterns)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/AlexRogalskiy/java-patterns)
+[![Open in Repl.it](https://replit.com/badge/github/withastro/astro)](https://replit.com/github/AlexRogalskiy/java-patterns)
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/AlexRogalskiy/java-patterns)
+
+
 
 <div style="text-align: right"><a href="#java-design-patterns"><i>(back to top)</i></a></div>
 
