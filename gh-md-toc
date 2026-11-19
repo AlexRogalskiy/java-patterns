@@ -216,49 +216,49 @@ gh_toc_grab() {
   }
   print sprintf("%*s", level*3, " ") "* [" text "](" gh_url  modified_href ")"
   '
-    if [ `uname -s` == "OS/390" ]; then
-        grepcmd="pcregrep -o"
-        echoargs=""
-  awkscript='{
+  if [ `uname -s` == "OS/390" ]; then
+    grepcmd="pcregrep -o"
+    echoargs=""
+    awkscript='{
     level = substr($0, length($0), 1)
     text = substr($0, match($0, /a>.*<\/h/)+2, RLENGTH-5)
     href = substr($0, match($0, "href=\"([^\"]+)?\"")+6, RLENGTH-7)
     '"$common_awk_script"'
   }'
-else
-  grepcmd="grep -Eo"
-  echoargs="-e"
-  awkscript='{
+  else
+    grepcmd="grep -Eo"
+    echoargs="-e"
+    awkscript='{
     level = substr($0, length($0), 1)
     text = substr($0, match($0, /a>.*<\/h/)+2, RLENGTH-5)
     href = substr($0, match($0, "href=\"[^\"]+?\"")+6, RLENGTH-7)
     '"$common_awk_script"'
   }'
-fi
-href_regex='href=\"[^\"]+?\"'
+  fi
+  href_regex='href=\"[^\"]+?\"'
 
-# if closed <h[1-6]> is on the new line, then move it on the prev line
-# for example:
-#   was: The command <code>foo1</code>
-#        </h1>
-#   became: The command <code>foo1</code></h1>
-sed -e ':a' -e 'N' -e '$!ba' -e 's/\n<\/h/<\/h/g' |
+  # if closed <h[1-6]> is on the new line, then move it on the prev line
+  # for example:
+  #   was: The command <code>foo1</code>
+  #        </h1>
+  #   became: The command <code>foo1</code></h1>
+  sed -e ':a' -e 'N' -e '$!ba' -e 's/\n<\/h/<\/h/g' |
 
-# find strings that corresponds to template
-$grepcmd '<a.*id="user-content-[^"]*".*</h[1-6]' |
+  # find strings that corresponds to template
+  $grepcmd '<a.*id="user-content-[^"]*".*</h[1-6]' |
 
-# remove code tags
-sed 's/<code>//g' | sed 's/<\/code>//g' |
+  # remove code tags
+  sed 's/<code>//g' | sed 's/<\/code>//g' |
 
-# remove g-emoji
-sed 's/<g-emoji[^>]*[^<]*<\/g-emoji> //g' |
+  # remove g-emoji
+  sed 's/<g-emoji[^>]*[^<]*<\/g-emoji> //g' |
 
-# now all rows are like:
-#   <a id="user-content-..." href="..."><span ...></span></a> ... </h1
-# format result line
-#   * $0 - whole string
-#   * last element of each row: "</hN" where N in (1,2,3,...)
-echo $echoargs "$(awk -v "gh_url=$1" "$awkscript")"
+  # now all rows are like:
+  #   <a id="user-content-..." href="..."><span ...></span></a> ... </h1
+  # format result line
+  #   * $0 - whole string
+  #   * last element of each row: "</hN" where N in (1,2,3,...)
+  echo $echoargs "$(awk -v "gh_url=$1" "$awkscript")"
 }
 
 # perl -lpE 's/(\[[^\]]*\]\()(.*?)(\))/my ($pre, $in, $post)=($1, $2, $3) ; $in =~ s{\+}{ }g; $in =~ s{%}{\\x}g; $pre.$in.$post/ems')"
@@ -267,80 +267,80 @@ echo $echoargs "$(awk -v "gh_url=$1" "$awkscript")"
 # Returns filename only from full path or url
 #
 gh_toc_get_filename() {
-echo "${1##*/}"
+  echo "${1##*/}"
 }
 
 #
 # Options handlers
 #
 gh_toc_app() {
-local need_replace="no"
+  local need_replace="no"
 
-if [ "$1" = '--help' ] || [ $# -eq 0 ] ; then
-  local app_name=$(basename "$0")
-  echo "GitHub TOC generator ($app_name): $gh_toc_version"
-  echo ""
-  echo "Usage:"
-  echo "  $app_name [--insert] src [src]  Create TOC for a README file (url or local path)"
-  echo "  $app_name [--no-backup] src [src]  Create TOC without backup, requires <!--ts--> / <!--te--> placeholders"
-  echo "  $app_name -                     Create TOC for markdown from STDIN"
-  echo "  $app_name --help                Show help"
-  echo "  $app_name --version             Show version"
-  return
-fi
-
-if [ "$1" = '--version' ]; then
-  echo "$gh_toc_version"
-  echo
-  echo "os:     `lsb_release -d | cut -f 2`"
-  echo "kernel: `cat /proc/version`"
-  echo "shell:  `$SHELL --version`"
-  echo
-  for tool in curl wget grep awk sed; do
-    printf "%-5s: " $tool
-    echo `$tool --version | head -n 1`
-  done
-  return
-fi
-
-if [ "$1" = "-" ]; then
-  if [ -z "$TMPDIR" ]; then
-    TMPDIR="/tmp"
-  elif [ -n "$TMPDIR" -a ! -d "$TMPDIR" ]; then
-    mkdir -p "$TMPDIR"
+  if [ "$1" = '--help' ] || [ $# -eq 0 ] ; then
+    local app_name=$(basename "$0")
+    echo "GitHub TOC generator ($app_name): $gh_toc_version"
+    echo ""
+    echo "Usage:"
+    echo "  $app_name [--insert] src [src]  Create TOC for a README file (url or local path)"
+    echo "  $app_name [--no-backup] src [src]  Create TOC without backup, requires <!--ts--> / <!--te--> placeholders"
+    echo "  $app_name -                     Create TOC for markdown from STDIN"
+    echo "  $app_name --help                Show help"
+    echo "  $app_name --version             Show version"
+    return
   fi
-  local gh_tmp_md
-  if [ `uname -s` == "OS/390" ]; then
-    local timestamp=$(date +%m%d%Y%H%M%S)
-    gh_tmp_md="$TMPDIR/tmp.$timestamp"
-  else
-    gh_tmp_md=$(mktemp $TMPDIR/tmp.XXXXXX)
+
+  if [ "$1" = '--version' ]; then
+    echo "$gh_toc_version"
+    echo
+    echo "os:     `lsb_release -d | cut -f 2`"
+    echo "kernel: `cat /proc/version`"
+    echo "shell:  `$SHELL --version`"
+    echo
+    for tool in curl wget grep awk sed; do
+      printf "%-5s: " $tool
+      echo `$tool --version | head -n 1`
+    done
+    return
   fi
-  while read input; do
-    echo "$input" >> "$gh_tmp_md"
+
+  if [ "$1" = "-" ]; then
+    if [ -z "$TMPDIR" ]; then
+      TMPDIR="/tmp"
+    elif [ -n "$TMPDIR" -a ! -d "$TMPDIR" ]; then
+      mkdir -p "$TMPDIR"
+    fi
+    local gh_tmp_md
+    if [ `uname -s` == "OS/390" ]; then
+      local timestamp=$(date +%m%d%Y%H%M%S)
+      gh_tmp_md="$TMPDIR/tmp.$timestamp"
+    else
+      gh_tmp_md=$(mktemp $TMPDIR/tmp.XXXXXX)
+    fi
+    while read input; do
+      echo "$input" >> "$gh_tmp_md"
+    done
+    gh_toc_md2html "$gh_tmp_md" | gh_toc_grab ""
+    return
+  fi
+
+  if [ "$1" = '--insert' ]; then
+    need_replace="yes"
+    shift
+  fi
+
+  if [ "$1" = '--no-backup' ]; then
+    need_replace="yes"
+    no_backup="yes"
+    shift
+  fi
+  for md in "$@"
+  do
+    echo ""
+    gh_toc "$md" "$#" "$need_replace" "$no_backup"
   done
-  gh_toc_md2html "$gh_tmp_md" | gh_toc_grab ""
-  return
-fi
 
-if [ "$1" = '--insert' ]; then
-  need_replace="yes"
-  shift
-fi
-
-if [ "$1" = '--no-backup' ]; then
-  need_replace="yes"
-  no_backup="yes"
-  shift
-fi
-for md in "$@"
-do
   echo ""
-  gh_toc "$md" "$#" "$need_replace" "$no_backup"
-done
-
-echo ""
-echo "Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)"
+  echo "Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc)"
 }
 
 #
