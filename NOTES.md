@@ -1,0 +1,369 @@
+# Release \[v1-1803-g56ca63f]
+
+Provide short description.
+
+## What's New in release \[v1-1803-g56ca63f]?
+
+Describe the release here.
+
+## Changelog
+
+- `:arrow_up`: Updates @tilt.dev/tilt-inspector to v0.1.8
+- `:arrow_up`: Updates JamesIves/github-pages-deploy-action action to v4.1.4
+- `:arrow_up`: Updates Matticusau/pr-helper action to v1.3.0
+- `:arrow_up`: Updates wagoid/commitlint-github-action action to v2.2.5
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns into master
+- `Merge branch 'master' of https`://github.com/AlexRogalskiy/java-patterns into master
+- `docs`: updates on VERSION
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on docs page speed
+- `docs`: updates on documents
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `docs`: updates on workflows
+- `github-actions`: bump wagoid/commitlint-github-action

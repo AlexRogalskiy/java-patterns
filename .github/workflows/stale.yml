@@ -7,6 +7,9 @@ on:
 jobs:
   stale:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
     steps:
       - uses: actions/stale@v3
         with:
@@ -15,6 +18,8 @@ jobs:
           stale-issue-message: 'This issue is stale because it has been open 30 days with no activity. Remove stale label or comment or this will be closed in 5 days'
           close-issue-message: "This issue was automatically closed because of being stale. Feel free to open a new one if you still experience this problem."
           close-pr-message: "This PR was automatically closed because of being stale."
+          days-before-issue-stale: 90
+          days-before-pr-stale: -1
           days-before-stale: 30
           days-before-close: 5
           operations-per-run: 1500

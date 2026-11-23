@@ -1,0 +1,18 @@
+{{- if .Values.certificate.enabled }}
+{{- $fullName := include "backend-java-patterns.fullname" . -}}
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  name: {{ $fullName }}
+  namespace: {{ .Release.Namespace | quote }}
+  labels:
+    {{- include "backend-java-patterns.labels" . | nindent 4 }}
+spec:
+  dnsNames:
+    {{- range .Values.certificate.dnsNames }}
+    - {{ . | quote }}
+    {{- end }}
+  secretName: {{ include "backend-java-patterns.tlsSecretName" . }}
+  issuerRef:
+  {{- .Values.certificate.issuerRef | toYaml | trimSuffix "\n" | nindent 4 }}
+{{- end }}

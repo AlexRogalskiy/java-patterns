@@ -1,0 +1,29 @@
+apiVersion: autoscaling/v2beta2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: backend
+  namespace: secure
+  labels:
+    app.kubernetes.io/name: backend
+    app.kubernetes.io/instance: java-patterns
+    app.kubernetes.io/version: '0.0.0'
+    app.kubernetes.io/component: backend
+    app.kubernetes.io/part-of: documentation
+    app.kubernetes.io/managed-by: tilt
+
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: backend
+  minReplicas: 1
+  maxReplicas: 2
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization
+          # scale up if usage is above
+          # 99% of the requested CPU (100m)
+          averageUtilization: 99
